@@ -1,0 +1,41 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "jp/**.md",
+          "jp/**/toc.yml"
+        ],
+        "exclude": [ "obj/**", "_site/**" ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/images/**"
+        ],
+        "exclude": [ "obj/**", "_site/**" ]
+      }
+    ],
+    "dest": "_site",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "markdownEngineName": "markdig",
+    "template": [ "templates/reveal" ],
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": true,
+    "globalMetadata": {
+      "_appTitle": "Reveal",
+      "_navBarTitle": "Reveal",
+      "_isLangEn": false,
+      "_isLangJa": true,
+      "_navBarTitleHref": "https://www.revealbi.io/",
+      "_gitContribute": {
+        "repo": "https://github.com/RevealBi/Documentation-jp",
+        "branch": "master"
+      }
+    }
+  }
+}
