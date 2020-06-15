@@ -3,17 +3,26 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
-trigger:
-- master
+#trigger:
+#- master
 
 pool:
-  vmImage: 'ubuntu-latest'
+  name: 'BusinessTools On-Prem Documentation'
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+- checkout: self
+  clean: true
+  submodules: true
+  
+- task: DocFxTask@0
+  displayName: "Build docfx.json"
+  inputs:
+    solution: 'docfx.json'
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '_site/jp'
+    ArtifactName: 'jp_docs'
+    publishLocation: 'FilePath'
+    TargetPath: '\\igbgsofsmb2\builds\Reveal\Docs\$(Build.DefinitionName)\$(Build.BuildNumber)\JP'
+    Parallel: true
