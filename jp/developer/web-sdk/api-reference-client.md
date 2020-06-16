@@ -893,15 +893,14 @@ Blob オブジェクトから .rdash ファイルの内容を含むダッシュ�
 
 | パラメーター         | 型                                           | 説明                                                                                                                                                                                                                    |
 | ------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| dashboard     | [`$.ig.RVDashboard`](#RVDashboard)             |  [loadDashboard](#RevealUtility.loadDashboard) で取得されるダッシュボード オブジェク                                                                                                                                             |
-| filter        | [`$.ig.RVDashboardFilter`](#RVDashboardFilter) | コレクション [filters](#RVDashboard+filters) のメンバーである値を返すフィルターは、[getFilterByTitle](#RVDashboard+getFilterByTitle) または [getFilterById](#RVDashboard+getFilterById) を使用して取得することもできます |
+| dashboard     | [`$.ig.RVDashboard`](#RVDashboard)             |  [loadDashboard](#RevealUtility.loadDashboard) で取得されるダッシュボード オブジェクト                                                                                                                                             |
+| filter        | [`$.ig.RVDashboardFilter`](#RVDashboardFilter) | コレクション [filters](#RVDashboard+filters) のメンバーである値を返すフィルターは、[getFilterByTitle](#RVDashboard+getFilterByTitle) または [getFilterById](#RVDashboard+getFilterById) を使用して取得することもできます。 |
 | callback      | `function`                                     | 与えられたフィルターで利用可能な値のリストを表す [$.ig.RVFilterValue](#RVFilterValue) オブジェクトのリストで呼び出されるコールバック関数。                                                             |
 | errorCallback | `function`                                     | リクエストが失敗した場合に errorMessage を指定したコールバック関数。                                                                                                                                                                 |
 <a name='RVDashboard'></a>
 ### $.ig.RVDashboard
 
-Dashboard モデルを表すクラス。このクラスのインスタンスを取得するには、[loadDashboard](#RevealUtility.loadDashboard)
-メソッドを使用します。
+Dashboard モデルを表すクラス。このクラスのインスタンスを取得するには、[loadDashboard](#RevealUtility.loadDashboard) メソッドを使用します。
 
 **種類**: グローバル クラス
 
