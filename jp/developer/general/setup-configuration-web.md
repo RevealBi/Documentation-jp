@@ -1,4 +1,4 @@
-## セットアップと構成
+## セットアップと構成 (Web)
 
 ### 前提条件
 
@@ -24,7 +24,7 @@ NET Framework 4.6.1+ をターゲットとする場合、Reveal Server SDK に�
 
 2.  [**サーバー コンテキストを定義**](#defining-server-context)
 
-3.  [**サーバーSDKを初期化**](#initializing-server-sdk)
+3.  [**サーバー SDK を初期化**](#initializing-server-sdk)
 
 4.  [**サーバー側画像生成の有効化**](#server-side-image-export).
 
@@ -201,7 +201,7 @@ JavaScript ファイル は \<InstallationDirectory\>\\SDK\\Web\\JS\\Client に�
 
     a.  成功ハンドラーでは、取得したダッシュボードを使用し、__$.ig.RevealSettings__ オブジェクトの dashboard プロパティに設定する必要があります。
 
-4.  最後に、2つのパラメータを渡して __$.ig.RevealView__ コンポーネントをインスタンス化します。1 つはダッシュボードをレンダリングする DOM 要素のセレクター、もう 1 つは設定オブジェクトです。
+4.  最後に、2 つのパラメータを渡して __$.ig.RevealView__ コンポーネントをインスタンス化します。1 つはダッシュボードをレンダリングする DOM 要素のセレクター、もう 1 つは設定オブジェクトです。
 
 #### サンプル コード
 

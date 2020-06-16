@@ -395,4 +395,4 @@ font](images/marketing-dashboard-new-font.png)
 ![result after styling the client
 application](images/marketing-dashboard-style-client-application-result.png)
 
-手順 6 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/085fd35db4d07eb9130ff72dd3bb96a157f6d4ed)**.
+手順 6 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/085fd35db4d07eb9130ff72dd3bb96a157f6d4ed)**。

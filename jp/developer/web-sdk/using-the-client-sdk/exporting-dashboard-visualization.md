@@ -7,7 +7,7 @@
 - **画像**として;
 - **PDF** として;
 - **PowerPoint** プレゼンテーションとして;
-- **Excel** データ形式として  
+- **Excel** データ形式として;  
 
 ダッシュボードまたは視覚化を有効するには、次のことをします。
 
@@ -30,7 +30,7 @@
 
 - __$.ig.RevealSettings.showExportToPowerpoint__ - **PowerPoint** プレゼンテーションとしてエクスポートする場合;
 
-- __$.ig.RevealSettings.showExportToExcel__ - **Excel** データ形式としてエクスポートする場合.
+- __$.ig.RevealSettings.showExportToExcel__ - **Excel** データ形式としてエクスポートする場合;
 
 これにより、ダッシュボードが開かれたとき、または特定の可視化が最大化されたときに、オーバーフロー メニューで**エクスポート** ボタンが使用可能になります。
 
