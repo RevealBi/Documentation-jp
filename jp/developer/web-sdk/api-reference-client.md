@@ -236,7 +236,7 @@ revealView.onMaximizedVisualizationChanged = function () {
 <a name='RevealView+onSave'></a>
 #### $.ig.RevealView.onSave : [`onSave`](#RevealView..onSave)
 
-このイベントは、エンドユーザーが `[保存]` または `[名前を付けて保存]` をクリックするたびにトリガーされます。このイベントが $.ig.RevealView で設定されている場合、コールバックサーバー側（IRevealSdkContext.SaveDashboardAsync）は呼び出されず、アプリケーションは、独自のコントローラー サーバー側を実装することなどにより、ダッシュボードの保存方法を処理することになります。
+このイベントは、エンドユーザーが `[保存]` または `[名前を付けて保存]` をクリックするたびにトリガーされます。このイベントが $.ig.RevealView で設定されている場合、コールバックサーバー側(IRevealSdkContext.SaveDashboardAsync)は呼び出されず、アプリケーションは、独自のコントローラー サーバー側を実装することなどにより、ダッシュボードの保存方法を処理することになります。
 
 **種類**: [`$.ig.RevealView`](#RevealView) のインスタンス プロパティ  
 **例**
@@ -295,7 +295,7 @@ revealView.onSave = function (rv, saveEvent) {
 #### $.ig.RevealView.getMaximizedVisualization() ⇒ [`$.ig.RVVisualization`](#RVVisualization)
 
 **種類**: [`$.ig.RevealView`](#RevealView) のインスタンス メソッド 
-**戻り値**: [`$.ig.RVVisualization`](#RVVisualization) - 最大化された可視化｀オブジェクト（存在する場合）、最大化された可視化オブジェクトがない場合はnull  
+**戻り値**: [`$.ig.RVVisualization`](#RVVisualization) - 最大化された可視化｀オブジェクト(存在する場合)、最大化された可視化オブジェクトがない場合はnull  
 
 
 <a name='RevealView+setFilterSelectedValues'></a>

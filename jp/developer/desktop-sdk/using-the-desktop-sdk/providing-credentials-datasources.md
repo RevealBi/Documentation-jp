@@ -57,7 +57,7 @@ public class EmbedAuthenticationProvider : IRVAuthenticationProvider
 認証なしの匿名のリソースで作業する場合は、空のコンストラクタを持つ
 __RVUsernamePasswordDataSourceCredential__ を使用できます。これは、そのクラスで機能するすべてのデータソースに対して実行できます。
 
-上記のサンプルで使用するコード スニペット：
+上記のサンプルで使用するコード スニペット:
 
 ``` csharp
 else if (dataSource is RVRESTDataSource)
