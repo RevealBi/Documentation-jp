@@ -4,7 +4,7 @@
 
 Server SDK では、データソースにアクセスするときに使用される一連の資格情報を渡すことができます。
 
-### Code
+### コード
 
 最初の手順は、以下に示すように、__IRVAuthenticationProvider__ を実装し、それを __IRevealSdkContext__ の __AuthenticationProvider__ プロパティとして返します。
 

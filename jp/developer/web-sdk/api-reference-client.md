@@ -6,8 +6,7 @@
     アプリケーションでダッシュボードを描画するために使用されるメイン クラス。既存のダッシュボードの編集または最初からの作成も可能です。
 
   - [$.ig.RevealSettings](#RevealSettings)  
-    レンダリングするダッシュボードや製品のさまざまな機能を制御するプロパティ (canEdit、canSaveAsなど) を含む、新しい
-    RevealView インスタンスの設定に使用されるクラス。
+    レンダリングするダッシュボードや製品のさまざまな機能を制御するプロパティ (canEdit、canSaveAs など) を含む、新しい RevealView インスタンスの設定に使用されるクラス。
 
   - [$.ig.RVDateDashboardFilter](#RVDateDashboardFilter)  
     ダッシュボード モデルで定義されているオプションの日付フィルターを表すクラス。
@@ -31,11 +30,9 @@
     可視化データ内のセルを表すクラスには、列名、値、および書式設定された値が含まれます。
 
   - [$.ig.RVFilterValue](#RVFilterValue)  
-    [getFilterValues](#RevealUtility.getFilterValues) から取得された、ダッシュボード
-    フィルターに有効な値を表すクラス。
+    [getFilterValues](#RevealUtility.getFilterValues) から取得された、ダッシュボード フィルターに有効な値を表すクラス。
 
   - [$.ig.RVDataSourcesRequestedTriggerType](#RVDataSourcesRequestedTriggerType)
-
     データソースが要求されている場所の情報を提供するクラス。可視化、ダッシュボード フィルター、またはデータブレンドを要求できます。
 
   - [$.ig.DashboardSaveEventArgs](#DashboardSaveEventArgs)  
@@ -57,23 +54,23 @@
       - *instance*
 
           - [.onDataSourcesRequested](#RevealView+onDataSourcesRequested)
-            :
+          :
             [`onDataSourcesRequested`](#RevealView..onDataSourcesRequested)
 
           - [.onVisualizationDataPointClicked](#RevealView+onVisualizationDataPointClicked)
-            :
+          :
             [`onVisualizationDataPointClicked`](#RevealView..onVisualizationDataPointClicked)
 
           - [.onVisualizationLinkingDashboard](#RevealView+onVisualizationLinkingDashboard)
-            :
+          :
             [`onVisualizationLinkingDashboard`](#RevealView..onVisualizationLinkingDashboard)
 
-          - [.onImageExported](#RevealView+onImageExported) :
+          - [.onImageExported](#RevealView+onImageExported):
             [`onImageExported`](#RevealView..onImageExported)
 
           - [.onMaximizedVisualizationChanged](#RevealView+onMaximizedVisualizationChanged)
 
-          - [.onSave](#RevealView+onSave) :
+          - [.onSave](#RevealView+onSave):
             [`onSave`](#RevealView..onSave)
 
           - [.updateSize()](#RevealView+updateSize)
@@ -99,24 +96,24 @@
       - *inner*
 
           - [\~onDataSourcesRequested](#RevealView..onDataSourcesRequested)
-            : `function`
+          : `function`
 
           - [\~dataSourcesResultCallback](#RevealView..dataSourcesResultCallback)
-            : `function`
+          : `function`
 
           - [\~onVisualizationDataPointClicked](#RevealView..onVisualizationDataPointClicked)
-            : `function`
+          : `function`
 
           - [\~onVisualizationLinkingDashboard](#RevealView..onVisualizationLinkingDashboard)
-            : `function`
+          : `function`
 
           - [\~linkingDashboardCallback](#RevealView..linkingDashboardCallback)
-            : `function`
+          : `function`
 
-          - [\~onImageExported](#RevealView..onImageExported) :
+          - [\~onImageExported](#RevealView..onImageExported):
             `function`
 
-          - [\~onSave](#RevealView..onSave) : `function`
+          - [\~onSave](#RevealView..onSave): `function`
 
 <a name='new_RevealView_new'></a>
 #### new $.ig.RevealView(selector, dashboardSettings)
@@ -129,15 +126,12 @@ $.ig.RevealView クラスの新しいインスタンスを作成するために�
 | dashboardSettings | [`$.ig.RevealSettings`](#RevealSettings) | ビューを設定するために使用されます                                         |
 
 <a name='RevealView+onDataSourcesRequested'></a>
-#### $.ig.RevealView.onDataSourcesRequested : [`onDataSourcesRequested`](#RevealView..onDataSourcesRequested)
+#### $.ig.RevealView.onDataSourcesRequested: [`onDataSourcesRequested`](#RevealView..onDataSourcesRequested)
 
-このイベントは、エンド ユーザーが \[可視設定の追加\] ボタンをクリックするたびに発生します。
-デフォルト/既存のものを置き換えるためにカスタム
-データソースを作成することができます。 引数は、エンドユーザーに表示されるデータソースのカスタム
-コレクションを呼び出して渡すコールバック関数です。
+このイベントは、エンド ユーザーが \[可視設定の追加\] ボタンをクリックするたびに発生します。デフォルト/既存のものを置き換えるためにカスタム データソースを作成することができます。引数は、エンドユーザーに表示されるデータソースのカスタム コレクションを呼び出して渡すコールバック関数です。
 
 **種類**: [`$.ig.RevealView`](#RevealView) のインスタンス プロパティ  
-**例**
+**例:**
 
 ``` js
 revealView.onDataSourcesRequested = function (callback) {
@@ -159,14 +153,12 @@ revealView.onDataSourcesRequested = function (callback) {
 ```
 
 <a name='RevealView+onVisualizationDataPointClicked'></a>
-#### $.ig.RevealView.onVisualizationDataPointClicked : [`onVisualizationDataPointClicked`](#RevealView..onVisualizationDataPointClicked)
+#### $.ig.RevealView.onVisualizationDataPointClicked: [`onVisualizationDataPointClicked`](#RevealView..onVisualizationDataPointClicked)
 
-このイベントは、エンドユーザーが最大化された可視化表示でデータ ポイントをクリックしたときに、編集モードではない場合に発生します。
-可視化オブジェクト ($.ig.RVVisualization)、クリックの実際のセル
-($.ig.RVCell)、クリックの行を表すセルの配列 ($.ig.RVCell) を取得します。
+このイベントは、エンドユーザーが最大化された可視化表示でデータ ポイントをクリックしたときに、編集モードではない場合に発生します。可視化オブジェクト ($.ig.RVVisualization)、クリックの実際のセル ($.ig.RVCell)、クリックの行を表すセルの配列 ($.ig.RVCell) を取得します。
 
 **種類**: [`$.ig.RevealView`](#RevealView) のインスタンス プロパティ  
-**例**
+**例:**
 
 ``` js
 revealView.onVisualizationDataPointClicked = function (widget, cell, row) {
@@ -179,12 +171,12 @@ revealView.onVisualizationDataPointClicked = function (widget, cell, row) {
 }
 ```
 <a name='RevealView+onVisualizationLinkingDashboard'></a>
-#### $.ig.RevealView.onVisualizationLinkingDashboard : [`onVisualizationLinkingDashboard`](#RevealView..onVisualizationLinkingDashboard)
+#### $.ig.RevealView.onVisualizationLinkingDashboard: [`onVisualizationLinkingDashboard`](#RevealView..onVisualizationLinkingDashboard)
 
 このイベントは、エンドユーザーがダッシュボードへのリンクをたどろうとするたびに $.ig.RevealView オブジェクトによってトリガーされます (リンクがダッシュボードへのリンクである場合のみ)。
 
 **種類**: [`$.ig.RevealView`](#RevealView) のインスタンス プロパティ  
-**例**
+**例:**
 
 ``` js
 revealView.onVisualizationLinkingDashboard = function (title, url, callback) {
@@ -197,13 +189,12 @@ revealView.onVisualizationLinkingDashboard = function (title, url, callback) {
 ```
 
 <a name='RevealView+onImageExported'></a>
-#### $.ig.RevealView.onImageExported : [`onImageExported`](#RevealView..onImageExported)
+#### $.ig.RevealView.onImageExported: [`onImageExported`](#RevealView..onImageExported)
 
-スクリーンショットに注釈を付けた後、エンドユーザーが `[画像のエクスポート]` ポップアップの `[画像のエクスポート]` ボタンをクリックするたびにこのイベントがトリガーされます (オプション)。注: デフォルトでは、画像のエクスポートは Web バージョンの SDK ではアクティブになっていません。この機能を使用する場合は、Nuget パッケージ
-'CefSharp.OffScreen'(\> = 63.0.3) をインストールしてください。
+スクリーンショットに注釈を付けた後、エンドユーザーが `[画像のエクスポート]` ポップアップの `[画像のエクスポート]` ボタンをクリックするたびにこのイベントがトリガーされます (オプション)。注: デフォルトでは、画像のエクスポートは Web バージョンの SDK ではアクティブになっていません。この機能を使用する場合は、Nuget パッケージ 'CefSharp.OffScreen'(\> = 63.0.3) をインストールしてください。
 
 **種類**: [`$.ig.RevealView`](#RevealView) のインスタンス プロパティ  
-**例**
+**例:**
 
 ``` js
 revealView.onImageExported = function (img) {
@@ -214,11 +205,10 @@ revealView.onImageExported = function (img) {
 <a name='RevealView+onMaximizedVisualizationChanged'></a>
 #### $.ig.RevealView.onMaximizedVisualizationChanged
 
-このイベントは、エンドユーザーが視覚表示を最大化または最小化するたびに発生します。操作が可視表示の最大化である場合は、最大化された可視表示のタイトルを revealView オブジェクトの maximizedVisualization プロパティを介して取得できます。
-$.ig.RevealView オブジェクトのプロパティ。
+このイベントは、エンドユーザーが視覚表示を最大化または最小化するたびに発生します。操作が可視表示の最大化である場合は、最大化された可視表示のタイトルを revealView オブジェクトの maximizedVisualization プロパティを介して取得できます。$.ig.RevealView オブジェクトのプロパティ。
 
 **種類**: [`$.ig.RevealView`](#RevealView) のインスタンス プロパティ  
-**例**
+**例:**
 
 ``` js
 revealView.onMaximizedVisualizationChanged = function () {
@@ -234,12 +224,12 @@ revealView.onMaximizedVisualizationChanged = function () {
 ```
 
 <a name='RevealView+onSave'></a>
-#### $.ig.RevealView.onSave : [`onSave`](#RevealView..onSave)
+#### $.ig.RevealView.onSave: [`onSave`](#RevealView..onSave)
 
-このイベントは、エンドユーザーが `[保存]` または `[名前を付けて保存]` をクリックするたびにトリガーされます。このイベントが $.ig.RevealView で設定されている場合、コールバックサーバー側(IRevealSdkContext.SaveDashboardAsync)は呼び出されず、アプリケーションは、独自のコントローラー サーバー側を実装することなどにより、ダッシュボードの保存方法を処理することになります。
+このイベントは、エンドユーザーが`[保存]`または`[名前を付けて保存]`をクリックするたびにトリガーされます。このイベントが $.ig.RevealView で設定されている場合、コールバックサーバー側 (IRevealSdkContext.SaveDashboardAsync) は呼び出されず、アプリケーションは、独自のコントローラー サーバー側を実装することなどにより、ダッシュボードの保存方法を処理することになります。
 
 **種類**: [`$.ig.RevealView`](#RevealView) のインスタンス プロパティ  
-**例**
+**例:**
 
 ``` js
 revealView.onSave = function (rv, saveEvent) {
@@ -272,7 +262,7 @@ revealView.onSave = function (rv, saveEvent) {
 表示ビューが初期化されてレンダリングされた後に可視表示を最大化するために使用します。Sales レポートに沿って 'Sales by Country' を表示するなど、現在表示されている可視化タイプとそれを含むアプリケーションの機能を同期させるために使用できます。
 
 **種類**: [`$.ig.RevealView`](#RevealView) のインスタンス メソッド 
-**戻り値**:`boolean` - 指定した可視化表示がダッシュボードで見つかり、正しく最大化された場合は true、そうでない場合は false。+
+**戻り値**:`boolean` - 指定した可視化表示がダッシュボードで見つかり、正しく最大化された場合は true、そうでない場合は false。
 **参照**:
 
   - $.ig.RVDashboard\#getVisualizationByTitle
@@ -295,7 +285,7 @@ revealView.onSave = function (rv, saveEvent) {
 #### $.ig.RevealView.getMaximizedVisualization() ⇒ [`$.ig.RVVisualization`](#RVVisualization)
 
 **種類**: [`$.ig.RevealView`](#RevealView) のインスタンス メソッド 
-**戻り値**: [`$.ig.RVVisualization`](#RVVisualization) - 最大化された可視化｀オブジェクト(存在する場合)、最大化された可視化オブジェクトがない場合はnull  
+**戻り値**: [`$.ig.RVVisualization`](#RVVisualization) - 最大化された可視化オブジェクト (存在する場合)、最大化された可視化オブジェクトがない場合は null  
 
 
 <a name='RevealView+setFilterSelectedValues'></a>
@@ -342,8 +332,7 @@ revealView.onSave = function (rv, saveEvent) {
 新しいアクセント色が使用されるために、RevielView コンポーネントをレンダリングする前に設定する必要があります。
 
 **種類**: [`$.ig.RevealView`](#RevealView) のインスタンス メソッド
-
-**Example**
+**例:**
 
 ``` js
 $.ig.RevealView.setAccentColor = function (r, g, b) {
@@ -352,7 +341,7 @@ $.ig.RevealView.setAccentColor = function (r, g, b) {
 ```
 
 <a name='RevealView..onDataSourcesRequested'></a>
-#### $.ig.RevealView\~onDataSourcesRequested : `function`
+#### $.ig.RevealView\~onDataSourcesRequested: `function`
 
 このイベントは、エンド ユーザーが \[可視設定の追加\] ボタンをクリックするたびに発生します。デフォルト/既存のものを置き換えるためにカスタム データソースを作成することができます。
 
@@ -364,7 +353,7 @@ $.ig.RevealView.setAccentColor = function (r, g, b) {
 | trigger | [`$.ig.RVDataSourcesRequestedTriggerType`](#RVDataSourcesRequestedTriggerType) | 可視化、ダッシュボード フィルター、またはデータブレンドにデータソースが要求されているかどうかを示す列挙体。
 
 <a name='RevealView..dataSourcesResultCallback'></a>
-#### $.ig.RevealView\~dataSourcesResultCallback : `function`
+#### $.ig.RevealView\~dataSourcesResultCallback: `function`
 
 [onDataSourcesRequested](#RevealView..onDataSourcesRequested) からデータソースのリストを返すために使用する callback。
 
@@ -375,7 +364,7 @@ $.ig.RevealView.setAccentColor = function (r, g, b) {
 | dataSources | `$.ig.RevealDataSources` | 最初のパラメーターはデータソースのリスト、2 番目のパラメーターはデータソース アイテムのリスト、3 番目のパラメーターはすでにダッシュボードにあるデータソースを含めるかどうかを示すブール値です。 |
 
 <a name='RevealView..onVisualizationDataPointClicked'></a>
-#### $.ig.RevealView\~onVisualizationDataPointClicked : `function`
+#### $.ig.RevealView\~onVisualizationDataPointClicked: `function`
 
 このコールバックは、編集モードではなく、最大化された可視化表示でエンドユーザーがデータポイントをクリックするたびに呼び出されます。
 
@@ -388,7 +377,7 @@ $.ig.RevealView.setAccentColor = function (r, g, b) {
 | cells         | [`Array.<RVCell>`](#RVCell)                | クリックされた行のすべてのセル。 |
 
 <a name='RevealView..onVisualizationLinkingDashboard'></a>
-#### $.ig.RevealView\~onVisualizationLinkingDashboard : `function`
+#### $.ig.RevealView\~onVisualizationLinkingDashboard: `function`
 
 このコールバックは、エンドユーザーがダッシュボードへのリンクをクリックするたびに $.ig.RevealView オブジェクトによって呼び出されます (リンクがダッシュボードへのリンクである場合のみ)。
 
@@ -401,7 +390,7 @@ $.ig.RevealView.setAccentColor = function (r, g, b) {
 | callback | [`linkingDashboardCallback`](#RevealView..linkingDashboardCallback) | ナビゲートするダッシュボードの ID を示すダッシュボード ID を呼び出して渡すことになっているコールバック関数。コールバック メソッドが呼び出されない場合は、ナビゲーションは行われません。 |
 
 <a name='RevealView..linkingDashboardCallback'></a>
-#### $.ig.RevealView\~linkingDashboardCallback : `function`
+#### $.ig.RevealView\~linkingDashboardCallback: `function`
 
 これはナビゲーションするダッシュボードの ID を返すために使用されるコールバック関数です。
 
@@ -412,7 +401,7 @@ $.ig.RevealView.setAccentColor = function (r, g, b) {
 | dashboardId | `string` | Reveal が移動する必要があるターゲット ダッシュボードの ID。 |
 
 <a name='RevealView..onImageExported'></a>
-#### $.ig.RevealView\~onImageExported : `function`
+#### $.ig.RevealView\~onImageExported: `function`
 
 スクリーンショットに注釈を付けた後、エンドユーザーが \[画像のエクスポート\] ポップアップの \[画像のエクスポート\] ボタンをクリックするたびにこのコールバックが呼び出されます (オプション)。
 
@@ -423,7 +412,7 @@ $.ig.RevealView.setAccentColor = function (r, g, b) {
 | img   | `image` | 画像の base64 エンコード表現を含む 'img' HTMLタグを含みます。 |
 
 <a name='RevealView..onSave'></a>
-#### $.ig.RevealView\~onSave : `function`
+#### $.ig.RevealView\~onSave: `function`
 
 このイベントは、エンドユーザーが ‘保存' または ‘名前を付けて保存’ をクリックするたびにトリガーされます。
 
@@ -437,7 +426,7 @@ $.ig.RevealView.setAccentColor = function (r, g, b) {
 <a name='RevealSettings'></a>
 ### $.ig.RevealSettings
 
-製品のさまざまな機能 (canEdit、canSaveAsなど) を制御するレンダリングおよびプロパティを含むダッシュボードを含む、新しい $.ig.RevealView インスタンスの構成に使用されるクラス。
+製品のさまざまな機能 (canEdit、canSaveAs など) を制御するレンダリングおよびプロパティを含むダッシュボードを含む、新しい $.ig.RevealView インスタンスの構成に使用されるクラス。
 
 **種類**: グローバル クラス 
 **参照**: $.ig.RevealView
@@ -446,67 +435,67 @@ $.ig.RevealView.setAccentColor = function (r, g, b) {
 
       - [new $.ig.RevealSettings(\[dashId\])](#new_RevealSettings_new)
 
-      - [.startInEditMode](#RevealSettings+startInEditMode) : `boolean`
+      - [.startInEditMode](#RevealSettings+startInEditMode): `boolean`
 
-      - [.canEdit](#RevealSettings+canEdit) : `boolean`
+      - [.canEdit](#RevealSettings+canEdit): `boolean`
 
-      - [.canSaveAs](#RevealSettings+canSaveAs) : `boolean`
+      - [.canSaveAs](#RevealSettings+canSaveAs): `boolean`
 
       - [.singleVisualizationMode](#RevealSettings+singleVisualizationMode)
-        : `boolean`
+      : `boolean`
 
       - [.startWithNewVisualization](RevealSettings+startWithNewVisualization)
-        : `boolean`
+      : `boolean`
 
       - [.showChangeVisualization](#RevealSettings+showChangeVisualization)
-        : `boolean`
+      : `boolean`
 
-      - [.showFilters](#RevealSettings+showFilters) : `boolean`
+      - [.showFilters](#RevealSettings+showFilters): `boolean`
 
-      - [.showMenu](#RevealSettings+showMenu) : `boolean`
+      - [.showMenu](#RevealSettings+showMenu): `boolean`
 
-      - [.showRefresh](#RevealSettings+showRefresh) : `boolean`
+      - [.showRefresh](#RevealSettings+showRefresh): `boolean`
 
-      - [.showChangeDataSource](#RevealSettings+showChangeDataSource) :
+      - [.showChangeDataSource](#RevealSettings+showChangeDataSource):
         `boolean`
 
-      - [.showChangeTheme](#RevealSettings+showChangeTheme) : `boolean`
+      - [.showChangeTheme](#RevealSettings+showChangeTheme): `boolean`
 
-      - [.canAddVisualization](#RevealSettings+canAddVisualization) :
+      - [.canAddVisualization](#RevealSettings+canAddVisualization):
         `boolean`
 
-      - [.showStatisticalFunctions](#RevealSettings+showStatisticalFunctions) :
+      - [.showStatisticalFunctions](#RevealSettings+showStatisticalFunctions):
         `boolean`
 		
-      - [.showExportImage](#RevealSettings+showExportImage) :
+      - [.showExportImage](#RevealSettings+showExportImage):
         `boolean`
 
-      - [.showExportToExcel](#RevealSettings+showExportToExcel) :
+      - [.showExportToExcel](#RevealSettings+showExportToExcel):
         `boolean`
 
-      - [.showExportToPowerpoint](#RevealSettings+showExportToPowerpoint) :
+      - [.showExportToPowerpoint](#RevealSettings+showExportToPowerpoint):
         `boolean`
 
-      - [.showExportToPDF](#RevealSettings+showExportToPDF) :
+      - [.showExportToPDF](#RevealSettings+showExportToPDF):
         `boolean`
 
-      - [.showDataBlending](#RevealSettings+showDataBlending) :
+      - [.showDataBlending](#RevealSettings+showDataBlending):
         `boolean`
 
-      - [.showMachineLearningModelsIntegration](#RevealSettings+showMachineLearningModelsIntegration) :
+      - [.showMachineLearningModelsIntegration](#RevealSettings+showMachineLearningModelsIntegration):
         `boolean`
 
-      - [.initialThemeName](#RevealSettings+initialThemeName) :
+      - [.initialThemeName](#RevealSettings+initialThemeName):
         `string`
 
-      - [.dateFilter](#RevealSettings+dateFilter) :
+      - [.dateFilter](#RevealSettings+dateFilter):
         [`$.ig.RVDateDashboardFilter`](#RVDateDashboardFilter)
 
-      - [.dashboard](#RevealSettings+dashboard) :
+      - [.dashboard](#RevealSettings+dashboard):
         [`$.ig.RVDashboard`](#RVDashboard)
 
       - [.maximizedVisualization](#RevealSettings+maximizedVisualization)
-        : [`$.ig.RVVisualization`](#RVVisualization)
+      : [`$.ig.RVVisualization`](#RVVisualization)
 
       - [.setFilterSelectedValues(filter,
         selectedValues)](#RevealSettings+setFilterSelectedValues)
@@ -525,7 +514,7 @@ $.ig.RevealView オブジェクトの構成に使用されるクラスである 
 | \[dashId\] | `string` | レンダリングされるダッシュボードを識別する文字列。 |
 
 <a name='RevealSettings+startInEditMode'></a>
-#### $.ig.RevealSettings.startInEditMode : `boolean`
+#### $.ig.RevealSettings.startInEditMode: `boolean`
 
 ビューがデフォルトのビューモードではなく編集モードで開始することを示すフラグ。デフォルトは false です。
 
@@ -533,7 +522,7 @@ $.ig.RevealView オブジェクトの構成に使用されるクラスである 
 **デフォルト**: `false`  
 
 <a name='RevealSettings+canEdit'></a>
-#### $.ig.RevealSettings.canEdit : `boolean`
+#### $.ig.RevealSettings.canEdit: `boolean`
 
 ユーザーが編集モードに切り替えることができるかどうかを示すフラグ。デフォルトは true です。
 
@@ -541,7 +530,7 @@ $.ig.RevealView オブジェクトの構成に使用されるクラスである 
 **デフォルト**: `true`  
 
 <a name='RevealSettings+canSaveAs'></a>
-#### $.ig.RevealSettings.canSaveAs : `boolean`
+#### $.ig.RevealSettings.canSaveAs: `boolean`
 
 ユーザーがダッシュボードを \[名前を付けて保存\] できるかどうかを示すフラグ。
 
@@ -549,7 +538,7 @@ $.ig.RevealView オブジェクトの構成に使用されるクラスである 
 **デフォルト**: `true`  
 
 <a name='RevealSettings+singleVisualizationMode'></a>
-#### $.ig.RevealSettings.singleVisualizationMode : `boolean`
+#### $.ig.RevealSettings.singleVisualizationMode: `boolean`
 
 シングル可視化モードは、一度に 1 つのウィジェットを表示するために使用されます。$.ig.RevealSettings の maximizedVisualization プロパティを使用して、初期の視覚化を最大化するように制御できます。
 最大化するように初期の視覚化表示が設定されていない場合、最初の視覚化表示が最初に最大化されます。ダッシュボードの表示後、$.ig.RevealView.maximizedVisualization を使用して最大化されたものを変更できます。
@@ -563,7 +552,7 @@ $.ig.RevealView オブジェクトの構成に使用されるクラスである 
   - $.ig.RevealSettings\#maximizedVisualization
 
 <a name='RevealSettings+startWithNewVisualization'></a>
-#### $.ig.RevealSettings.startWithNewVisualization : `boolean`
+#### $.ig.RevealSettings.startWithNewVisualization: `boolean`
 
 このビューが表示されるときに、新しい可視化のダイアログを自動的に表示する必要があることを示すフラグ。デフォルトは false です。この設定では、[startInEditMode](#RevealSettings+startInEditMode) を true に設定する必要があります。
 
@@ -572,7 +561,7 @@ $.ig.RevealView オブジェクトの構成に使用されるクラスである 
 **デフォルト**: `false`
 
 <a name='RevealSettings+showChangeVisualization'></a>
-#### $.ig.RevealSettings.showChangeVisualization : `boolean`
+#### $.ig.RevealSettings.showChangeVisualization: `boolean`
 
 視覚化を変更するボタンを使用可能にするかどうかを示すフラグ。このボタンは、編集モードに入ることなく、別の視覚化タイプ (棒グラフから縦棒グラフなど) に切り替えます。
 
@@ -580,7 +569,7 @@ $.ig.RevealView オブジェクトの構成に使用されるクラスである 
 **デフォルト**: `true`  
 
 <a name='RevealSettings+showFilters'></a>
-#### $.ig.RevealSettings.showFilters : `boolean`
+#### $.ig.RevealSettings.showFilters: `boolean`
 
 ダッシュボードのフィルター パネルを非表示にできるようにするためのフラグ。フィルターの選択値を $.ig.RevealSettings で指定された初期選択に制限したい場合に便利です。
 $.ig.RevealView オブジェクトを作成してレンダリングしたら、$.ig.RevealView.setFilterSelectedValues を使用して特定のフィルタの選択を変更できるため、選択した値をアプリケーションと同期させることができます。
@@ -594,7 +583,7 @@ $.ig.RevealView オブジェクトを作成してレンダリングしたら、$
   - $.ig.RevealView\#setFilterSelectedValues
 
 <a name='RevealSettings+showMenu'></a>
-#### $.ig.RevealSettings.showMenu : `boolean`
+#### $.ig.RevealSettings.showMenu: `boolean`
 
 メニュー (更新、エクスポートなどを含む) を表示するかどうかを示すフラグ。
 
@@ -602,19 +591,20 @@ $.ig.RevealView オブジェクトを作成してレンダリングしたら、$
 **デフォルト**: `true`  
 
 <a name='RevealSettings+showRefresh'></a>
-#### $.ig.RevealSettings.showRefresh : `boolean`
+#### $.ig.RevealSettings.showRefresh: `boolean`
 
 更新操作を表示するかどうかを示すフラグ。
 
 **種類**: [`$.ig.RevealSettings`](#RevealSettings) のインスタンス プロパティ
 **デフォルト**: `true`  
 
-|*ウィジェットのデータソースを変更する*  
-エンドユーザーがウィジェットのデータソースを変更する機能を有効または無効にできるようになりました。編集モードで \[視覚化データ\] 画面を開くと、Reveal は UI の \[データソースの変更\] ボタンを表示または非表示にします。 |*ダッシュボード テーマの変更*  
+**ウィジェットのデータソースの変更**
+エンドユーザーがウィジェットのデータソースを変更する機能を有効または無効にできるようになりました。編集モードで \[視覚化データ\] 画面を開くと、Reveal は UI の \[データソースの変更\] ボタンを表示または非表示にします。
+**ダッシュボード テーマの変更**
 エンドユーザーがダッシュボードのテーマを変更する機能を有効または無効にできるようになりました。ダッシュボードの編集モードに入る際に、使用可能なテーマを表示するためのボタンを表示または非表示にします。
 
 <a name='RevealSettings+showChangeDataSource'></a>
-#### $.ig.RevealSettings.showChangeDataSource : `boolean`
+#### $.ig.RevealSettings.showChangeDataSource: `boolean`
 
 ウィジェットの編集時に \[データソースの変更\] ボタンが表示されるかどうかを示すフラグ。
 
@@ -622,7 +612,7 @@ $.ig.RevealView オブジェクトを作成してレンダリングしたら、$
 **デフォルト**: `true`  
 
 <a name='RevealSettings+showChangeTheme'></a>
-#### $.ig.RevealSettings.showChangeTheme : `boolean`
+#### $.ig.RevealSettings.showChangeTheme: `boolean`
 
 ダッシュボードのテーマを変更するためのボタンが表示されるかどうかを示すフラグ。
 
@@ -630,7 +620,7 @@ $.ig.RevealView オブジェクトを作成してレンダリングしたら、$
 **デフォルト**: `true`  
 
 <a name='RevealSettings+canAddVisualization'></a>
-#### $.ig.RevealSettings.canAddVisualization : `boolean`
+#### $.ig.RevealSettings.canAddVisualization: `boolean`
 
 ダッシュボードの編集時に新しい視覚化を追加できるかどうかを示すフラグ。
 
@@ -638,7 +628,7 @@ $.ig.RevealView オブジェクトを作成してレンダリングしたら、$
 **デフォルト**: `true`  
 
 <a name='RevealSettings+showStatisticalFunctions'></a>
-#### $.ig.RevealSettings.showStatisticalFunctions : `boolean`
+#### $.ig.RevealSettings.showStatisticalFunctions: `boolean`
 
 統計機能をオンにするボタンを使用可能にするかどうかを示すフラグ。このボタンは、可視化の予測、線形回帰、外れ値などの統計機能を表示するために使用されます。
 
@@ -646,7 +636,7 @@ $.ig.RevealView オブジェクトを作成してレンダリングしたら、$
 **デフォルト**: `true`  
 
 <a name='RevealSettings+showExportImage'></a>
-#### $.ig.RevealSettings.showExportImage : `boolean`
+#### $.ig.RevealSettings.showExportImage: `boolean`
 
 画像のエクスポート操作が使用可能かどうかを示すフラグ。
 
@@ -654,7 +644,7 @@ $.ig.RevealView オブジェクトを作成してレンダリングしたら、$
 **デフォルト**: `true`  
 
 <a name='RevealSettings+showExportToExcel'></a>
-#### $.ig.RevealSettings.showExportToExcel : `boolean`
+#### $.ig.RevealSettings.showExportToExcel: `boolean`
 
 Excel エクスポート操作が使用可能かどうかを示すフラグ。
 
@@ -662,7 +652,7 @@ Excel エクスポート操作が使用可能かどうかを示すフラグ。
 **デフォルト**: `true`
 
 <a name='RevealSettings+showExportToPowerpoint'></a>
-#### $.ig.RevealSettings.showExportToPowerpoint : `boolean`
+#### $.ig.RevealSettings.showExportToPowerpoint: `boolean`
 
 Powerpoint エクスポート操作が使用可能かどうかを示すフラグ。
 
@@ -670,7 +660,7 @@ Powerpoint エクスポート操作が使用可能かどうかを示すフラグ
 **デフォルト**: `true`
 
 <a name='RevealSettings+showExportToPDF'></a>
-#### $.ig.RevealSettings.showExportToPDF : `boolean`
+#### $.ig.RevealSettings.showExportToPDF: `boolean`
 
 PDF エクスポート操作が使用可能かどうかを示すフラグ。
 
@@ -678,7 +668,7 @@ PDF エクスポート操作が使用可能かどうかを示すフラグ。
 **デフォルト**: `true`
 
 <a name='RevealSettings+showDataBlending'></a>
-#### $.ig.RevealSettings.showDataBlending : `boolean`
+#### $.ig.RevealSettings.showDataBlending: `boolean`
 
 別のデータソースからフィールドを追加する操作がビジュアライゼーション エディターで使用可能かどうかを示すフラグ。
 
@@ -686,7 +676,7 @@ PDF エクスポート操作が使用可能かどうかを示すフラグ。
 **デフォルト**: `false`
 
 <a name='RevealSettings+showMachineLearningModelsIntegration'></a>
-#### $.ig.RevealSettings.showMachineLearningModelsIntegration : `boolean`
+#### $.ig.RevealSettings.showMachineLearningModelsIntegration: `boolean`
 
 ML モデルからフィールドを追加する操作がビジュアライゼーション エディターで使用可能かどうかを示すフラグ。
 
@@ -701,7 +691,7 @@ ML モデルからフィールドを追加する操作がビジュアライゼ�
 **種類**: [`$.ig.RevealSettings`](#RevealSettings) のインスタンス プロパティ 
 
 <a name='RevealSettings+dateFilter'></a>
-#### $.ig.RevealSettings.dateFilter : [`$.ig.RVDateDashboardFilter`](#RVDateDashboardFilter)
+#### $.ig.RevealSettings.dateFilter: [`$.ig.RVDateDashboardFilter`](#RVDateDashboardFilter)
 
 ダッシュボードを初めてレンダリングするときに使用する初期日付フィルター。この値が無視されない場合、ダッシュボードは日付フィルターで定義される必要があることに注意してください。
 RevealView オブジェクトが作成された後に、$.ig.RevealView.setDateFilter を使用して日付フィルターが更新される場合があります。
@@ -710,7 +700,7 @@ RevealView オブジェクトが作成された後に、$.ig.RevealView.setDateF
 **参照**: $.ig.RevealView\#setDateFilter  
 
 <a name='RevealSettings+dashboard'></a>
-#### $.ig.RevealSettings.dashboard : [`$.ig.RVDashboard`](#RVDashboard)
+#### $.ig.RevealSettings.dashboard: [`$.ig.RVDashboard`](#RVDashboard)
 
 これらの設定が適用される $.ig.RevealView オブジェクトにレンダリングするダッシュボード。ダッシュボードオブジェクトを取得するには、$.ig.RevealUtility で利用可能な 'loadDashboard' メソッドを使用できます。
 
@@ -718,7 +708,7 @@ RevealView オブジェクトが作成された後に、$.ig.RevealView.setDateF
 **参照**: $.ig.RevealUtility  
 
 <a name='RevealSettings+maximizedVisualization'></a>
-#### $.ig.RevealSettings.maximizedVisualization : [`$.ig.RVVisualization`](#RVVisualization)
+#### $.ig.RevealSettings.maximizedVisualization: [`$.ig.RVVisualization`](#RVVisualization)
 
 最初に最大化された可視化として使用する可視化。 dashboard.visualizations()\[index\] または dashboard.getVisualizationByTitle() を使用して、$.ig.RVDashboard オブジェクトから可視化を取得できます。
 
@@ -774,21 +764,21 @@ RevealView オブジェクトが作成された後に、$.ig.RevealView.setDateF
 
   - [$.ig.RVDateDashboardFilter](#RVDateDashboardFilter)
 
-      - [.dateFilterType](#RVDateDashboardFilter+dateFilterType) :
+      - [.dateFilterType](#RVDateDashboardFilter+dateFilterType):
         [`$.ig.RVDateFilterType`](#RVDateFilterType)
 
-      - [.range](#RVDateDashboardFilter+range) :
+      - [.range](#RVDateDashboardFilter+range):
         [`$.ig.RVDateRange`](#RVDateRange)
 
 <a name='RVDateDashboardFilter+dateFilterType'></a>
-#### $.ig.RVDateDashboardFilter.dateFilterType : [`$.ig.RVDateFilterType`](#RVDateFilterType)
+#### $.ig.RVDateDashboardFilter.dateFilterType: [`$.ig.RVDateFilterType`](#RVDateFilterType)
 
 YearToDate、MonthToDate、CustomRange などの日付フィルターの種類。
 
 **種類**: [`$.ig.RVDateDashboardFilter`](#RVDateDashboardFilter) のインスタンス プロパティ 
 
 <a name='RVDateDashboardFilter+range'></a>
-#### $.ig.RVDateDashboardFilter.range : [`$.ig.RVDateRange`](#RVDateRange)
+#### $.ig.RVDateDashboardFilter.range: [`$.ig.RVDateRange`](#RVDateRange)
 
 フィルタリングに使用されるカスタム日付範囲。filterType が CustomRange の場合にのみ有効です。
 
@@ -803,19 +793,19 @@ YearToDate、MonthToDate、CustomRange などの日付フィルターの種類�
 
   - [$.ig.RVDateRange](#RVDateRange)
 
-      - [.from](#RVDateRange+from) : `Date`
+      - [.from](#RVDateRange+from): `Date`
 
-      - [.to](#RVDateRange+to) : `Date`
+      - [.to](#RVDateRange+to): `Date`
 
 <a name='RVDateRange+from'></a>
-#### $.ig.RVDateRange.from : `Date`
+#### $.ig.RVDateRange.from: `Date`
 
 範囲の開始。
 
 **種類**: [`$.ig.RVDateRange`](#RVDateRange) のインスタンス プロパティ 
 
 <a name='RVDateRange+to'></a>
-#### $.ig.RVDateRange.to : `Date`
+#### $.ig.RVDateRange.to: `Date`
 
 範囲の終わり。
 
@@ -871,8 +861,7 @@ The ID of the filter.
 <a name='RevealUtility.loadDashboard'></a>
 #### $.ig.RevealUtility.loadDashboard(dashboardId, onSuccess, onError)
 
-Loads the dashboard with the given ID from the standard endpoint in the
-server.
+指定された ID のダッシュボードをサーバーの標準エンド ポイントからロードします。
 
 **種類**: [`$.ig.RevealUtility`](#RevealUtility) の静的メソッド
 
@@ -898,9 +887,7 @@ Blob オブジェクトから .rdash ファイルの内容を含むダッシュ�
 <a name='RevealUtility.getFilterValues'></a>
 #### $.ig.RevealUtility.getFilterValues(dashboard, filter, callback, errorCallback)
 
-指定されたフィルターに対して可能な値を取得するために使用されるメソッド。
-国フィルターの場合は、選択した国だけでなく、すべての国のリストが返されます。
-このメソッドを使用して、フィルター値を選択するための独自の UI を作成できます。
+指定されたフィルターに対して可能な値を取得するために使用されるメソッド。国フィルターの場合は、選択した国だけでなく、すべての国のリストが返されます。このメソッドを使用して、フィルター値を選択するための独自の UI を作成できます。
 
 **種類**: [`$.ig.RevealUtility`](#RevealUtility) の静的メソッド
 
@@ -1010,7 +997,7 @@ Dashboard モデルを表すクラス。このクラスのインスタンスを�
 <a name='RVDashboard+getName'></a>
 #### $.ig.RVDashboard.getName() ⇒ `string`
 
-The name or title of the dashboard
+ダッシュボードの名前またはタイトル
 
 **種類**: [`$.ig.RVDashboard`](#RVDashboard) のインスタンス メソッド  
 **戻り値**: `string` - ダッシュボードの名前またはタイトル  
@@ -1031,10 +1018,10 @@ The name or title of the dashboard
 <a name='RVVisualization+id'></a>
 #### $.ig.RVVisualization.id() ⇒ `string`
 
-The ID of the visualization
+可視化の ID。
 
 **種類**: [`$.ig.RVVisualization`](#RVVisualization) のインスタンス メソッド  
-**戻り値**: `string` - The ID of the visualization  
+**戻り値**: `string` - 可視化の ID。  
 
 <a name='RVVisualization+title'></a>
 #### $.ig.RVVisualization.title() ⇒ `string`
@@ -1054,37 +1041,37 @@ The ID of the visualization
 
   - [$.ig.RVCell](#RVCell)
 
-      - [.columnName](#RVCell+columnName) : `string`
+      - [.columnName](#RVCell+columnName): `string`
 
-      - [.columnLabel](#RVCell+columnLabel) : `string`
+      - [.columnLabel](#RVCell+columnLabel): `string`
 
-      - [.value](#RVCell+value) : `object`
+      - [.value](#RVCell+value): `object`
 
-      - [.formattedValue](#RVCell+formattedValue) : `string`
+      - [.formattedValue](#RVCell+formattedValue): `string`
 
 <a name='RVCell+columnName'></a>
-#### $.ig.RVCell.columnName : `string`
+#### $.ig.RVCell.columnName: `string`
 
 このセルが属する列名。
 
 **種類**: [`$.ig.RVCell`](#RVCell) のインスタンス プロパティ 
 
 <a name='RVCell+columnLabel'></a>
-#### $.ig.RVCell.columnLabel : `string`
+#### $.ig.RVCell.columnLabel: `string`
 
 このセルが属する列のラベル。
 
 **種類**: [`$.ig.RVCell`](#RVCell) のインスタンス プロパティ 
 
 <a name='RVCell+value'></a>
-#### $.ig.RVCell.value : `object`
+#### $.ig.RVCell.value: `object`
 
 セルの値。
 
 **種類**: [`$.ig.RVCell`](#RVCell) のインスタンス プロパティ 
 
 <a name='RVCell+formattedValue'></a>
-#### $.ig.RVCell.formattedValue : `string`
+#### $.ig.RVCell.formattedValue: `string`
 
 セルの書式設定された値。
 
@@ -1100,19 +1087,19 @@ The ID of the visualization
 
   - [$.ig.RVFilterValue](#RVFilterValue)
 
-      - [.values](#RVFilterValue+values) : `object`
+      - [.values](#RVFilterValue+values): `object`
 
-      - [.label](#RVFilterValue+label) : `string`
+      - [.label](#RVFilterValue+label): `string`
 
 <a name='RVFilterValue+values'></a>
-#### $.ig.RVFilterValue.values : `object`
+#### $.ig.RVFilterValue.values: `object`
 
 このフィルター値に関連付けられたすべての値を持つ辞書です。このオブジェクトは、フィルターの選択値を設定するときに使用する必要があります。
 
 **種類**: [`$.ig.RVFilterValue`](#RVFilterValue) のインスタンス プロパティ  
 
 <a name='RVFilterValue+label'></a>
-#### $.ig.RVFilterValue.label : `string`
+#### $.ig.RVFilterValue.label: `string`
 
 この値をユーザーに表示するために使用されるラベル。
 
@@ -1142,9 +1129,9 @@ onSave イベントへの引数として使用されるクラス。
 
   - [$.ig.DashboardSaveEventArgs](#DashboardSaveEventArgs)
 
-      - [.saveAs](#DashboardSaveEventArgs+saveAs) : `boolean`
+      - [.saveAs](#DashboardSaveEventArgs+saveAs): `boolean`
 
-      - [.name](#DashboardSaveEventArgs+name) : `string`
+      - [.name](#DashboardSaveEventArgs+name): `string`
 
       - [.serialize(callback,
         errorCallback)](#DashboardSaveEventArgs+serialize) ⇒ `Blob`
@@ -1156,7 +1143,7 @@ onSave イベントへの引数として使用されるクラス。
       - [.saveFinished()](#DashboardSaveEventArgs+saveFinished)
 
 <a name='DashboardSaveEventArgs+saveAs'></a>
-#### $.ig.DashboardSaveEventArgs.saveAs : `boolean`
+#### $.ig.DashboardSaveEventArgs.saveAs: `boolean`
 
 このイベントが 'save’ (false) または 'save as (true) のどちらの操作によるものかを示すフラグ。
 
@@ -1164,7 +1151,7 @@ onSave イベントへの引数として使用されるクラス。
 **種類**: [`$.ig.DashboardSaveEventArgs`](#DashboardSaveEventArgs) のインスタンス プロパティ   
 
 <a name='DashboardSaveEventArgs+name'></a>
-#### $.ig.DashboardSaveEventArgs.name : `string`
+#### $.ig.DashboardSaveEventArgs.name: `string`
 
 保存されているダッシュボード名。
 
@@ -1176,7 +1163,7 @@ onSave イベントへの引数として使用されるクラス。
 現在の名前を使用して、現在のダッシュボードを '.rdash’ ファイル形式にシリアル化します。
 
 **種類**: [`$.ig.DashboardSaveEventArgs`](#DashboardSaveEventArgs) のインスタンス メソッド 
-**戻り値**: `Blob` - ダッシュボードの内容が '.rdash’　ファイル形式の Blob オブジェクト。
+**戻り値**: `Blob` - ダッシュボードの内容が '.rdash’ ファイル形式の Blob オブジェクト。
 
 | パラメーター         | 型  |
 | ------------- | ----- |
@@ -1189,7 +1176,7 @@ onSave イベントへの引数として使用されるクラス。
 指定した名前で現在のダッシュボードを '.rdash’ ファイル形式にシリアル化します。
 
 **種類**: [`$.ig.DashboardSaveEventArgs`](#DashboardSaveEventArgs) のインスタンス メソッド 
-**戻り値**: `Blob` - `Blob` - ダッシュボードの内容が '.rdash’　ファイル形式の Blob オブジェクト。
+**戻り値**: `Blob` - `Blob` - ダッシュボードの内容が '.rdash’ ファイル形式の Blob オブジェクト。
 
 | パラメーター         | 型     | 説明                     |
 | ------------- | -------- | ------------------------------- |

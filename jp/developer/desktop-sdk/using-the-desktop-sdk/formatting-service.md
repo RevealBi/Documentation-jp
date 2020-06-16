@@ -12,13 +12,13 @@
 
 ### 書式設定サービスの使用
 
-以下は、書式設定の方法の 3 つの例を示します。[数値データ](#numeric-data)、 [集計した日付データ](#aggregated-date-time-data)、 [(未集計) 日時データ](#date-time-data)。この例で使用されるダッシュボードは、*Marketing サンプル* ダッシュボードです。
+以下は、書式設定の方法の 3 つの例を示します。[数値データ](#numeric-data)、[集計した日付データ](#aggregated-date-time-data)、[(未集計) 日時データ](#date-time-data)。この例で使用されるダッシュボードは、*Marketing サンプル* ダッシュボードです。
 
 <a name='numeric-data'></a>
 
 #### 数値データの書式設定例
 
-以下に、 **Marketing サンプル*ダッシュボードの　*キャンペーン ID 別の新しいシート** 可視化の初期状態を示します。
+以下に、**Marketing サンプル*ダッシュボードの *キャンペーン ID 別の新しいシート** 可視化の初期状態を示します。
 
 ![Initial state of the Marketing visualization using numeric
 data](images/initial-state-visualization-formatting-numeric-data.png)
@@ -80,7 +80,7 @@ public class UpMediaFormattingService : RVBaseFormattingService
 
 ![Only percentage numeric data in the visualization displays five decimal digits](images/result-formatting-numeric-data-percentage.png)
 
-ダッシュボードのその他の可視化では、数値データの書式が変更されていないことがわかります。書式設定はチャートによって制御されるため、フィールドの書式設定を変更するには、フィールドの書式設定を変更する必要があります。 変更には、 [ローカライゼーション サービス](localization-service.md)を使用してください。
+ダッシュボードのその他の可視化では、数値データの書式が変更されていないことがわかります。書式設定はチャートによって制御されるため、フィールドの書式設定を変更するには、フィールドの書式設定を変更する必要があります。 変更には、[ローカライゼーション サービス](localization-service.md)を使用してください。
 
 ![The Marketing sample dashboard after formatting
 changes](images/formatting-service-marketing-sample-result.png)
@@ -93,7 +93,7 @@ changes](images/formatting-service-marketing-sample-result.png)
 
 ![Actual Spend vs Budget initial state](images/formatting-visualization-aggregated-datetime-initial-state.png)
 
-以下に、完全な月名を表示するために集約された日付データを表示する方法の例を示します (例: January 2001)。これを行うには、**RVBaseFormattingService** の実装で　**FormatAggregatedDate** メソッドをオーバーライドする必要があります。
+以下に、完全な月名を表示するために集約された日付データを表示する方法の例を示します (例: January 2001)。これを行うには、**RVBaseFormattingService** の実装で **FormatAggregatedDate** メソッドをオーバーライドする必要があります。
 
 ``` csharp
 public class UpMediaFormattingService : RVBaseFormattingService
@@ -119,12 +119,12 @@ formatting](images/formatting-aggregated-datetime-result.png)
 
 #### 日時 (非集計) データ書式設定の例
 
-以下に、非集計の日付データを書式設定する方法の例を示します。まず、集計データを除外するために、 **Actual Spend vs Budget** 可視化を **Grid** に変更します。
+以下に、非集計の日付データを書式設定する方法の例を示します。まず、集計データを除外するために、**Actual Spend vs Budget** 可視化を **Grid** に変更します。
 
 ![Actual Spend vs Budget displayed as a
 Grid](images/formatting-non-aggregated-date-grid.png)
 
-日付の表示方法を変更するには、 **RVBaseFormattingService** の実装で **FormatNumber** メソッドをオーバーライドする必要があります。Monday, 01 January 2001 のように、曜日と日付を含む日付を作成します。
+日付の表示方法を変更するには、**RVBaseFormattingService** の実装で **FormatNumber** メソッドをオーバーライドする必要があります。Monday, 01 January 2001 のように、曜日と日付を含む日付を作成します。
 
 ``` csharp
 public class UpMediaFormattingService : RVBaseFormattingService

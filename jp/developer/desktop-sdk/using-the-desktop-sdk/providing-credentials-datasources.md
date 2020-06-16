@@ -6,7 +6,7 @@ Server SDK では、データソースにアクセスするときに使用され
 
 ### コード
 
-最初の手順は、以下に示すように、 **IRVAuthenticationProvider** を実装し、それを __RevealView__ の __AuthenticationProvider__ プロパティに設定します。
+最初の手順は、以下に示すように、**IRVAuthenticationProvider** を実装し、それを __RevealView__ の __AuthenticationProvider__ プロパティに設定します。
 
 ``` csharp
 public class EmbedAuthenticationProvider : IRVAuthenticationProvider

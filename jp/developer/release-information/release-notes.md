@@ -21,7 +21,7 @@
         </tr>
         <tr>
             <td rowspan="3">1.0.981</td>
-            <td><i>RevealSettings の新しいプロパティ</i><br>$.ig.RevealSettings にさまざまな機能を制御するための複数の新しいプロパティを追加しました。ShowExportToPDF, ShowExportToPowerpoint, ShowExportToExcel, ShowStatisticalFunctions, ShowDataBlending, ShowMachineLearningModelsIntegration, StartWithNewVisualization, InitialThemeName。</td>
+            <td><i>RevealSettings の新しいプロパティ</i><br>$.ig.RevealSettings にさまざまな機能を制御するための複数の新しいプロパティを追加しました。ShowExportToPDF、ShowExportToPowerpoint、ShowExportToExcel、ShowStatisticalFunctions、ShowDataBlending、ShowMachineLearningModelsIntegration、StartWithNewVisualization、InitialThemeName。</td>
         </tr>
         <tr>
             <td><i>アクセント色のサポート</i><br>SetAccentColor メソッドが $.ig.RevealView に追加されました。</td>

@@ -35,8 +35,7 @@ window.revealView.onDataSourcesRequested = function (callback) {
 };
 ```
 
-3 番目のパラメータの “false” 値は、ダッシュボード上の既存のデータソースが表示されないようにします。そのため、\[+\]
-ボタンを使用して新しいウィジェットを作成すると、以下の画面が表示されます。
+3 番目のパラメータの false 値は、ダッシュボード上の既存のデータソースが表示されないようにします。そのため、\[+\] ボタンを使用して新しいウィジェットを作成すると、以下の画面が表示されます。
 
 ![displayingDataSources\_web](images/displayingDataSources_web.png)
 

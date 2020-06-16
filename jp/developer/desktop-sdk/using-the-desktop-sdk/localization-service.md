@@ -18,7 +18,7 @@
   
 ### ローカリゼーション サービスの使用
 
-以下は、リンクする方法の 2 つの例で [**ダッシュボード タイトルのローカライズ**](#localize-dashboard-title) およびカスタム ロジックを追加して同じダッシュボードで  [**フィールド ラベルをローカライズ**](#localize-field-label) する方法があります。 また、 [数値フィールド](#format-numeric-field) および [非集計日付フィールド](#format-date-field)の**書式設定を変更する方法**の例も示します。この例で使用するダッシュボードは、Marketing サンプル ダッシュボードです。
+以下は、リンクする方法の 2 つの例で [**ダッシュボード タイトルのローカライズ**](#localize-dashboard-title) およびカスタム ロジックを追加して同じダッシュボードで  [**フィールド ラベルをローカライズ**](#localize-field-label)する方法があります。 また、[数値フィールド](#format-numeric-field) および [非集計日付フィールド](#format-date-field)の**書式設定を変更する方法**の例も示します。この例で使用するダッシュボードは、Marketing サンプル ダッシュボードです。
 
 <a name='localize-dashboard-title'></a>
 #### ダッシュボードのタイトルのローカライズの例
@@ -171,7 +171,7 @@ public class UpMediaLocalizationService : IRVLocalizationService
 
 ローカリゼーション サービスでは、**非集計日付フィールド**の書式設定を変更できます。 .
 
-はじめに、集計データを除外するために、Actual Spend vs Budget 可視化を **Grid**に変更します。
+はじめに、集計データを除外するために、Actual Spend vs Budget 可視化を **Grid** に変更します。
 
 ![Visualization in Grid format](images/visualization-grid-format-original-date.png)
 

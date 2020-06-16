@@ -12,7 +12,7 @@ Reveal Web ビューアの組み込みが可能な SDK には、2 つのコン�
 ### 主要機能
 Reveal SDK は、アプリケーションに Reveal を組み込むことができるため、ユーザーがダッシュボードを表示したり修正したりすることが可能です。
 
-Reveal SDK は、Web、Windows WPF、Windows フォーム、iOS、および Android などの複数のプラットフォームおよびテクノロジで開発されたアプリケーションに　Reveal　を統合するために使用できます。
+Reveal SDK は、Web、Windows WPF、Windows フォーム、iOS、および Android などの複数のプラットフォームおよびテクノロジで開発されたアプリケーションに Reveal を統合するために使用できます。
 
 含まれるアプリは Reveal SDK を使用して以下を行うことができます。
 

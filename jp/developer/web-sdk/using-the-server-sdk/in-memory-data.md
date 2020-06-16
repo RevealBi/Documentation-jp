@@ -41,7 +41,7 @@ Reveal アプリは、ダッシュボードを作成し、表示させ、およ�
 
 2.  Dropbox や Google Drive など、しファイル共有システムにファイルをアップロード
 
-3.  ダミーデータを使用してダッシュボードを作成(実際の生産データは後でアプリケーションで提供する予定です)。
+3.  ダミーデータを使用してダッシュボードを作成 (実際の生産データは後でアプリケーションで提供する予定です)
 
 4.  ダッシュボードをエクスポート (ダッシュボード → エクスポート → ダッシュボード)
 
@@ -49,10 +49,9 @@ Reveal アプリは、ダッシュボードを作成し、表示させ、およ�
 
 ダミーのデータではなくカスタムのデータを使ってダッシュボードを可視化する必要があります。
 
-1.  [**データソースの置き換え**](replacing-data-sources.md) で説明したように、__IRVDataSourceProvider__ を実装し、__IRevealSdkContext__ の __DataSourceProvider__ プロパティとして返します。
+1.  [**データソースの置き換え**](replacing-data-sources.md)で説明したように、__IRVDataSourceProvider__ を実装し、__IRevealSdkContext__ の __DataSourceProvider__ プロパティとして返します。
 
-    次に、メソッド **ChangeVisualizationDataSourceItemAsync**
-    の実装では、次のようなコードを追加する必要があります。
+    次に、メソッド **ChangeVisualizationDataSourceItemAsync** の実装では、次のようなコードを追加する必要があります。
 
     ``` csharp
     public Task<RVDataSourceItem> ChangeVisualizationDataSourceItemAsync(string userId, string dashboardId, RVVisualization visualization, RVDataSourceItem dataSourceItem)
@@ -67,8 +66,7 @@ Reveal アプリは、ダッシュボードを作成し、表示させ、およ�
     }
     ```
 
-    このようにして、ダッシュボード内の CSV ファイルへのすべての参照を、基本的に employees で識別されるインメモリ
-    データソースに置き換えます。この ID は後でデータを返すときに使用されます。
+    このようにして、ダッシュボード内の CSV ファイルへのすべての参照を、基本的に employees で識別されるインメモリ データソースに置き換えます。この ID は後でデータを返すときに使用されます。
 
 2.  以下のように __IRVDataProvider__ を実装するために、実際のデータを返すメソッドを実装します。
 
@@ -95,8 +93,7 @@ Reveal アプリは、ダッシュボードを作成し、表示させ、およ�
     }
     ```
 
-    Employee クラスのプロパティは CSV ファイルの列とまったく同じ名前であり、データ型も同じです。フィールド名、フィールド
-    ラベル、またはプロパティのデータ型を変更したい場合は、クラス宣言で属性を使用できます。
+    Employee クラスのプロパティは CSV ファイルの列とまったく同じ名前であり、データ型も同じです。フィールド名、フィールド ラベル、またはプロパティのデータ型を変更したい場合は、クラス宣言で属性を使用できます。
     
       - RVSchemaColumn 属性を使用してフィールド名やデータ型を変更できます。
     
