@@ -56,7 +56,7 @@ settings.SingleVisualizationMode = true;
 ページを再ロードせずに、表示されている単一のビジュアライゼーションを動的に変更することもできます。ユーザーの観点から見ると、アプリは部門のセレクターと最大化された視覚化を備えた単一ページのアプリケーションになります。ユーザーがリストから 1 つの部門を選択すると、最大化された視覚化が更新されます。
 
 以下では、
-__RevealView__ の　__MaximizeVisualization__　メソッドを使用してこのシナリオを実現できます。
+__RevealView__ の __MaximizeVisualization__ メソッドを使用してこのシナリオを実現できます。
 
 ``` csharp
 private void MaximizeVisualization(string title)
@@ -69,5 +69,5 @@ private void MaximizeVisualization(string title)
 
 注意事項:
 
-  - ダッシュボードで可視化のリストを繰り返すことで、ボタンのリストを動的に生成できます。 詳細については、__RVDashboard.Visualizations__　をご覧ください。
-  - SDK とともに配布されている UpMedia WPF アプリケーションの UpMedia に、 **Manufacturing.xaml.cs** の動作を確認できる例があります。このサンプルビューでは、画面下部にすべての可視化がトグル ボタンのリストとして表示されます。
+  - ダッシュボードで可視化のリストを繰り返すことで、ボタンのリストを動的に生成できます。 詳細については、__RVDashboard.Visualizations__ をご覧ください。
+  - SDK とともに配布されている UpMedia WPF アプリケーションの UpMedia に、**Manufacturing.xaml.cs** の動作を確認できる例があります。このサンプルビューでは、画面下部にすべての可視化がトグル ボタンのリストとして表示されます。

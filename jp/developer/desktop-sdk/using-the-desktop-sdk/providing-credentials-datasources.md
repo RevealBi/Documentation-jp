@@ -6,7 +6,7 @@ Server SDK では、データソースにアクセスするときに使用され
 
 ### コード
 
-最初の手順は、以下に示すように、 **IRVAuthenticationProvider** を実装し、それを __RevealView__ の __AuthenticationProvider__ プロパティに設定します。
+最初の手順は、以下に示すように、**IRVAuthenticationProvider** を実装し、それを __RevealView__ の __AuthenticationProvider__ プロパティに設定します。
 
 ``` csharp
 public class EmbedAuthenticationProvider : IRVAuthenticationProvider
@@ -57,7 +57,7 @@ public class EmbedAuthenticationProvider : IRVAuthenticationProvider
 認証なしの匿名のリソースで作業する場合は、空のコンストラクタを持つ
 __RVUsernamePasswordDataSourceCredential__ を使用できます。これは、そのクラスで機能するすべてのデータソースに対して実行できます。
 
-上記のサンプルで使用するコード スニペット：
+上記のサンプルで使用するコード スニペット:
 
 ``` csharp
 else if (dataSource is RVRESTDataSource)

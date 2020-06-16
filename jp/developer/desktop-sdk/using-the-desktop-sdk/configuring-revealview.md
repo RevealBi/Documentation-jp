@@ -2,7 +2,7 @@
 
 ### 概要
 
-The __RevealView__ コンポーネントは、 __RevealSettings__ オブジェクトをパラメーターとして渡している間にインスタンス化できます。
+The __RevealView__ コンポーネントは、__RevealSettings__ オブジェクトをパラメーターとして渡している間にインスタンス化できます。
 
  __RevealSettings__ オブジェクトを使用して、エンドユーザーに対するさまざまな機能を有効または無効にすることができます。
   - **UI 要素の表示/非表示** - ShowFilters プロパティは初期化時に __RevealView__ によって読み込まれ、その値に基づいてグローバル フィルター UI をユーザーに表示または非表示にします。その他の同様のプロパティには、ShowExportButton、CanEdit、showChangeDataSource、MaximizedVisualization があります。

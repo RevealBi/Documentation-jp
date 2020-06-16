@@ -89,7 +89,7 @@ dialog](images/adding-new-package-source.png)
     services.AddMvc().AddReveal();
 ```
 
-And the necessary references in the same file:
+同じファイルに必要な参照を追加します。
 
 ``` csharp
    using Demo1.RevealSDK;
@@ -208,8 +208,7 @@ Reveal が使用するサードパーティの参照の 1 つに **Day.js** が�
 ![marketing dashboard result in web
 page](images/marketing-dashboard-result.png)
 
-Step 4 sample **[git
-commit](https://github.com/Infragistics/reveal-sdk-web-sample/commit/380d369b46437c3913ed3c61de32a7f607b96b47)**.
+手順 4 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/380d369b46437c3913ed3c61de32a7f607b96b47)**.
 
 問題が発生した場合は、クライアント SDK [**セットアップと構成**](~/jp/developer/general/setup-configuration-web.md)トピックを参照してください。
 
@@ -226,7 +225,7 @@ Reveal アプリは Roboto フォントを使用します。アプリと同じ�
 
   - Roboto-Medium.ttf
 
-次に、**site.css**　に以下のように参照を追加します。
+次に、**site.css** に以下のように参照を追加します。
 
 ``` css
 @font-face {
@@ -250,7 +249,7 @@ Reveal アプリは Roboto フォントを使用します。アプリと同じ�
 }
 ```
 
-フォントの読み込みを改善するには、infragistics.reveal.js　参照の横にある ** \_Layout.cshtml** で Google Web Font Loader への参照を追加します。
+フォントの読み込みを改善するには、infragistics.reveal.js 参照の横にある **\_Layout.cshtml** で Google Web Font Loader への参照を追加します。
 
 ``` csharp
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
@@ -278,7 +277,7 @@ Reveal アプリは Roboto フォントを使用します。アプリと同じ�
     });
 ```
 
-Voila\!
+結果は以下のようになります。
 
 ![marketing dashboard loaded with the new
 font](images/marketing-dashboard-new-font.png)

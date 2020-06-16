@@ -18,7 +18,7 @@
 
 ### 前提条件
 
-画像へのエクスポート機能を使用するには、 [CefSharp.Wpf NuGet package (\>= 57.0.0)](~/jp/developer/general/setup-configuration-desktop.md) への参照をプロジェクトに追加する必要があります。
+画像へのエクスポート機能を使用するには、[CefSharp.Wpf NuGet package (\>= 57.0.0)](~/jp/developer/general/setup-configuration-desktop.md) への参照をプロジェクトに追加する必要があります。
 
 <a name='enable-export-revealview'></a>
 
@@ -75,7 +75,7 @@ ImageExported イベント引数の他のプロパティは、__CloseExportDialo
 
 ### コードによって開始されたエクスポート
 
-コードで RevealView の画像を取得するには、link:rvui.wpf~infragistics.sdk.revealview~toimage __ToImage__ メソッドを呼び出す必要があります。このメソッドを呼び出しても [画像としてエクスポート] ダイアログは表示されません。これにより、ユーザーが RevealView の外側にあるボタンをクリックしたときにスクリーンショットを取得できます。このメソッドは、RevealView コンポーネントが画面に表示されていると同じスクリーンショットを作成します。
+コードで RevealView の画像を取得するには、__ToImage__ メソッドを呼び出す必要があります。このメソッドを呼び出しても [画像としてエクスポート] ダイアログは表示されません。これにより、ユーザーが RevealView の外側にあるボタンをクリックしたときにスクリーンショットを取得できます。このメソッドは、RevealView コンポーネントが画面に表示されていると同じスクリーンショットを作成します。
 
 ToImage メソッドの呼び出し時にユーザーがダイアログを開いている場合、ダッシュボードと一緒にそのダイアログのスクリーンショットが取得されます。
 

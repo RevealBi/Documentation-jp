@@ -71,7 +71,7 @@ public class RevealSdkContext : IRevealSdkContext
         });
     }
 
-    //このコールバックは、RevealView　オブジェクトのクライアント側に onSave イベントがインストールされていない場合のみ使用されます。
+    //このコールバックは、RevealView オブジェクトのクライアント側に onSave イベントがインストールされていない場合のみ使用されます。
     //詳細については、Web クライアント SDK のドキュメントをご覧ください。
     public async Task SaveDashboardAsync(string userId, string dashboardId, Stream dashboardStream)
     {
@@ -241,7 +241,7 @@ JavaScript ファイル は \<InstallationDirectory\>\\SDK\\Web\\JS\\Client に�
 </section>
 ```
 
-Web コンポーネントには他の依存関係も含める必要があることに注意してください (jQuery 2.2以降およびInfragistics.reveal.js)。
+Web コンポーネントには他の依存関係も含める必要があることに注意してください (jQuery 2.2 以降および Infragistics.reveal.js)。
 
 次の 2 つの JS ファイルが "\<InstallationDirectory\>\\Web\\JS" にあります。
 

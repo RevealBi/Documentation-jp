@@ -44,7 +44,7 @@ CefSharp 依存関係パッケージのインストールすると、ビルド (
 
 > [!NOTE]
 > **エラーの詳細:** エラーの説明は次のようになります。
-エラー: platform（x86/x64）を指定した場合、CefSharp.Commonはそのまま使用できます。AnyCPU サポートの場合は、この[リンク](https://github.com/cefsharp/CefSharp/issues/1714)を参照してください。
+エラー: platform(x86/x64)を指定した場合、CefSharp.Common はそのまま使用できます。AnyCPU サポートの場合は、この[リンク](https://github.com/cefsharp/CefSharp/issues/1714)を参照してください。
 
 **このエラーを修正する**ためには、エラーの URL で説明されているように、CefSharpAnyCpuSupport プロパティをプロジェクト ファイルに追加する必要があります。アプリケーションの **.csproj** ファイルに以下のプロパティ グループを追加するのみです。
 

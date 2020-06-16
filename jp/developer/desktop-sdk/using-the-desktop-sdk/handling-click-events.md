@@ -14,9 +14,9 @@ revealView.VisualizationDataPointClicked += RevealView_VisualizationDataPointCli
 ```
 
 コールバック関数では、クリックの場所に関する情報を受け取ります。
-  - クリックされた可視化の名前
-  - クリックされたセルの値 (値、書式設定された値、列の名前を含む)
-  - 同じセルの残りの値
+  - クリックされた可視化の名前。
+  - クリックされたセルの値 (値、書式設定された値、列の名前を含む)。
+  - 同じセルの残りの値。
 
 <!-- end list -->
 
