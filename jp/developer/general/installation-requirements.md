@@ -8,7 +8,7 @@ Reveal SDK は、.NET バージョン 4.6.1 以降および Visual Studio 2015 �
 
 Reveal Server SDK は、.NET Framework 4.6.1 をターゲットとする .NET Core 2+ サーバーサイド プロジェクトが必要です。
 
-### Installing Reveal SDK
+### Reveal SDK のインストール
 
 ウェブとデスクトップの両方のプラットフォーム用の Reveal SDK
 は、[こちら](https://www.revealbi.io/jp)からダウンロードしてください。準備ができたら、インストーラーの手順に従います。
