@@ -10,7 +10,7 @@ NOTE
 
 </div>
 
-[データソースを変更する](~/en/datasources/changing-data-source-visualization.md)場合は、データ ソース名の横にある**オーバーフロー ボタン**または[新しいデータ ソース](~/en/datasources/creating-new-datasource.md)を選択する必要があります。表示形式を[複製し](~/en/general/overview.html#view-edit-mode)、作成時間を短縮することもできます。
+[データソースを変更する](~/en/datasources/changing-data-source-visualization.md)場合は、データ ソース名の横にある **[オーバーフロー ボタン]** または [新しいデータ ソース](~/en/datasources/creating-new-datasource.md)を選択する必要があります。表示形式を[複製し](~/en/general/overview.html#view-edit-mode)、作成時間を短縮することもできます。
 
 </div>
 
@@ -26,39 +26,39 @@ NOTE
 <tr class="odd">
 <td><p><img src="images/ThumbnailFollowers_All.png" alt="ThumbnailFollowers All" /><br />
 </p>
-<p><a href="#followers">フォロワー</a><br />
+<p><a href="#followers">Followers</a><br />
 </p></td>
 <td><p><img src="images/ThumbnailYTDFacebookFollowers_All.png" alt="ThumbnailYTDFacebookFollowers All" /><br />
 </p>
-<p><a href="#ytd-facebook-followers">YTD Facebook フォロワー</a><br />
+<p><a href="#ytd-facebook-followers">YTD Facebook Followers</a><br />
 </p></td>
 <td><p><img src="images/ThumbnailMonthlyFacebookLikes_All.png" alt="ThumbnailMonthlyFacebookLikes All" /><br />
 </p>
-<p><a href="#monthly-facebook-likes">月ごとの Facebook いいね!</a><br />
+<p><a href="#monthly-facebook-likes">Monthly Facebook Likes</a><br />
 </p></td>
 </tr>
 <tr class="even">
 <td><p><img src="images/ThumbnailRetweetsFavorites_All.png" alt="ThumbnailRetweetsFavorites All" /><br />
 </p>
-<p><a href="#retweets-favorites">リツイート &amp; お気に入り</a><br />
+<p><a href="#retweets-favorites">Retweets &amp; Favorites</a><br />
 </p></td>
 <td><p><img src="images/ThumbnailFacebookReachImpressions_All.png" alt="ThumbnailFacebookReachImpressions All" /><br />
 </p>
-<p><a href="#facebook-reach-impressions">Facebook リーチ vs. インプレッション数</a><br />
+<p><a href="#facebook-reach-impressions">Facebook Reach vs. Impressions</a><br />
 </p></td>
 <td><p><img src="images/ThumbnailMonthlyTwitterMentions_All.png" alt="ThumbnailMonthlyTwitterMentions All" /><br />
 </p>
-<p><a href="#monthly-twitter-mentions">月ごとの Twitter メンション</a><br />
+<p><a href="#monthly-twitter-mentions">Monthly Twitter Mentions</a><br />
 </p></td>
 </tr>
 </tbody>
 </table>
 
-### フォロワー
+### Followers
 
-フォロワー表示形式はソーシャルメディアチャネルごとに分類されたフォロワーの数を[縦棒チャート](~/en/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
+Followers の表示形式はソーシャル メディア チャネルごとに分類されたフォロワーの数を[縦棒チャート](~/en/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。 ダッシュボードの右隅にある [+] ボタンを選択します。新しい表示形式ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**ソーシャル ダッシュボード** オプションが選択されていることを確認し、 **データのロード**を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**[Social Dashboard]** オプションが選択されていることを確認し、 **[データのロード]** を押します。
     
     ![SelectingSocialSheet\_All](images/SelectingSocialSheet_All.png)
 
@@ -70,38 +70,38 @@ NOTE
 
 
 
-3.  データ エディターで、**日付**フィールドをラベルに、**年ごとの Facebook フォロワー**と**年ごとの Twitter フォロワー** フィールドを値にドラッグアンドドロップしします。
+3.  データ エディターで、**[日付]** フィールドをラベルに、**[年ごとの Facebook フォロワー]** と **[年ごとの Twitter フォロワー]** フィールドを値にドラッグアンドドロップしします。
     
     ![DragDropSocialFollowers\_All](images/DragDropSocialFollowers_All.png)
 
 
 
-4.  デフォルトでは、Facebook と Twitter の両方のフォロワー数が小数第 2 位まで表されます。これを変更するには、**データ エディターでフィールドを選択し**、**書式設定**で両方のフィールドの**小数の桁**を **0** に変更します。
+4.  デフォルトでは、Facebook と Twitter の両方のフォロワー数が小数第 2 位まで表されます。これを変更するには、**[データ エディター] で [フィールド] を選択し**、**[書式設定]** で両方のフィールドの **[小数の桁]** を **[0]** に変更します。
     
     ![SocialFollowersFractionDigits\_All](images/SocialFollowersFractionDigits_All.png)
 
 
 
 5.  サンプル フォロワーの表示形式では、日付は月として表示されています。
-    ラベルの **日付**フィールドを選択し、**日付の集計** を **月**に設定します。次に, **フィールドの更新**を選択します。
+    ラベルの **[日付]** フィールドを選択し、**[日付の集計]** を **[月]** に設定します。次に, **[フィールドの更新]** を選択します。
     
     ![SocialFollowersDateFilter\_All](images/SocialFollowersDateFilter_All.png)
 
 
 
-6.  **日付フィルター**で**接続**を選択し、表示形式を既存のダッシュボード フィルターに接続します。このメニューは、ソーシャル ダッシュボードの上にあります。
+6.  **[日付フィルター]** で **[接続]** を選択し、表示形式を既存のダッシュボード フィルターに接続します。このメニューは、Social Dashboard の上にあります。
     
     ![SocialFollowersConnectDateFilter\_All](images/SocialFollowersConnectDateFilter_All.png)
 
 
 
-7.  **表示形式のタイトルを「予測」に変更する**ため、「セールス ダッシュボード」の横にある**鉛筆アイコンを選択します**。 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
+7.  **表示形式のタイトルを Followers に変更する**ため、「Social Dashboard」の横にある**鉛筆アイコンを選択します**。 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
-### YTD Facebook フォロワー
+### YTD Facebook Followers
 
-YTD Facebook フォロワー表示形式は、[テキスト ゲージ](~/en/visualization-tutorials/gauge-views.html#createtextgauge)でそのソーシャル メディア チャネルのフォロワー数を示します。以下は作成方法です。
+YTD Facebook Followers の表示形式は、[テキスト ゲージ](~/en/visualization-tutorials/gauge-views.html#createtextgauge)でそのソーシャル メディア チャネルのフォロワー数を示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。新しい表示形式ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**ソーシャル ダッシュボード** オプションが選択されていることを確認し、 **データのロード**を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**[Social Dashboard]** オプションが選択されていることを確認し、 **[データのロード]** を押します。
     
     ![SelectingSocialSheet\_All](images/SelectingSocialSheet_All.png)
 
@@ -113,25 +113,25 @@ YTD Facebook フォロワー表示形式は、[テキスト ゲージ](~/en/visu
 
 
 
-3.  データエディターで、**年ごとの Facebook フォロワー**フィールドを値プレースホルダにドラッグ＆ドロップします。
+3.  データエディターで、**[年ごとの Facebook フォロワー]** フィールドを値プレースホルダにドラッグアンドドロップします。
     
     ![DragDropSocialFacebookFollowers\_All](images/DragDropSocialFacebookFollowers_All.png)
 
 
 
-4.  **日付フィルター**で**接続**を選択し、表示形式を既存のダッシュボード フィルターに接続します。このメニューは、ソーシャル ダッシュボードの上にあります。
+4.  **[日付フィルター]** で **[接続]** を選択し、表示形式を既存のダッシュボード フィルターに接続します。このメニューは、ソーシャル ダッシュボードの上にあります。
     
     ![SocialYTDFacebookFollowersConnectDateFilter\_All](images/SocialYTDFacebookFollowersConnectDateFilter_All.png)
 
 
 
-5.  **表示形式のタイトルを 「YTD Facebookフォロワー」 に変更する**ため、「ソーシャル ダッシュボード」の横にある**鉛筆アイコンを選択します**。 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
+5.  **表示形式のタイトルを YTD Facebook Followers に変更する**ため、「Social Dashboard」の横にある**鉛筆アイコンを選択します**。 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
-### 月ごとの Facebook いいね!
+### Monthly Facebook Likes
 
-月ごとの Facebook いいね! 表示形式は、[line chart](~/en/visualization-tutorials/simple-charts.md)で会社の月ごとの Facebook の「いいね」数を示します。以下は作成方法です。
+Monthly Facebook Likes の表示形式は、[line chart](~/en/visualization-tutorials/simple-charts.md)で会社の月ごとの Facebook の「いいね」数を示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。新しい表示形式ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**ソーシャル ダッシュボード** オプションが選択されていることを確認し、 **データのロード**を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**[Social Dashboard]** オプションが選択されていることを確認し、 **[データのロード]** を押します。
     
     ![SelectingSocialSheet\_All](images/SelectingSocialSheet_All.png)
 
@@ -143,41 +143,41 @@ YTD Facebook フォロワー表示形式は、[テキスト ゲージ](~/en/visu
 
 
 
-3.  データ エディターで、**日付**フィールドを [ラベル] にドラッグアンドドロップし、**いいね!** をデータ エディターの [値] プレースホルダーにドラッグアンドドロップします。
+3.  データ エディターで、**[日付]** フィールドを [ラベル] にドラッグアンドドロップし、**[いいね!]** をデータ エディターの [値] プレースホルダーにドラッグアンドドロップします。
     
     ![DragDropSocialMonthlyLikes\_All](images/DragDropSocialMonthlyLikes_All.png)
 
 
 
-4.  月ごとの Facebook いいね! のサンプル表示形式では、日付は月として表示されます。ラベルの**日付**フィールドを選択し、**日付の集計** を **月** に設定します。次に, **フィールドの更新**を選択します。
+4.  月ごとの Facebook いいね! のサンプル表示形式では、日付は月として表示されます。ラベルの **[日付]** フィールドを選択し、**[日付の集計]** を **[月]** に設定します。次に, **[フィールドの更新]** を選択します。
     
     ![SocialMonthlyLikesDateFilter\_All](images/SocialMonthlyLikesDateFilter_All.png)
 
 
 
-5.  デフォルトで、いいね! は小数第 2 位まで表されます。これを変更するには、**データ エディターでフィールドを選択し**、**書式設定**で両方のフィールドの**小数の桁**を **0** に変更します。
+5.  デフォルトで、いいね! は小数第 2 位まで表されます。これを変更するには、**[データ エディター] で [フィールド] を選択し**、**[書式設定]** で両方のフィールドの **[小数の桁]** を **[0]** に変更します。
     
     ![SocialMonthlyFacebookLikes\_All](images/SocialMonthlyFacebookLikes_All.png)
 
 
 
-6.  同じ表示形式サンプルの色にマッチするために、**開始色**を**表示形式設定ペイン**で 4 番目の色に設定します。
+6.  同じ表示形式サンプルの色にマッチするために、**[開始色]** を **[表示形式設定] ペイン**で 4 番目の色に設定します。
     
     ![SocialMonthlyFacebookLikesStartColor\_All](images/SocialMonthlyFacebookLikesStartColor_All.png)
 
 
-7.  **日付フィルター**で**接続**を選択し、表示形式を既存のダッシュボード フィルターに接続します。このメニューは、ソーシャル ダッシュボードの上にあります。
+7.  **[日付フィルター]** で **[接続]** を選択し、表示形式を既存のダッシュボード フィルターに接続します。このメニューは、ソーシャル ダッシュボードの上にあります。
     
     ![SocialMonthlyFacebookLikesConnectDateFilter\_All](images/SocialMonthlyFacebookLikesConnectDateFilter_All.png)
 
 
-8.  **表示形式のタイトルを 「月ごとのいいね!」 に変更する**ため、「ソーシャル ダッシュボード」の横にある**鉛筆アイコンを選択します**。 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
+8.  **表示形式のタイトルを Monthly Facebook Likes に変更する**ため、「Social Dashboard」の横にある**鉛筆アイコンを選択します**。 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
-### リツイート&; お気に入り
+### Retweets &amp; Favorites
 
-リツイート&; お気に入り表示形式は[縦棒チャート](~/en/visualization-tutorials/simple-charts.md)で会社の月ごとの Twitter のリツイート&; お気に入り数を示します。以下は作成方法です。
+Retweets &amp; Favorites の表示形式は[縦棒チャート](~/en/visualization-tutorials/simple-charts.md)で会社の月ごとの Twitter のリツイート&; お気に入り数を示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。新しい表示形式ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**ソーシャル ダッシュボード** オプションが選択されていることを確認し、 **データのロード**を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。新しい表示形式ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**[Social Dashboard]** オプションが選択されていることを確認し、 **[データのロード]** を押します。
     
     ![SelectingSocialSheet\_All](images/SelectingSocialSheet_All.png)
 
@@ -187,17 +187,17 @@ YTD Facebook フォロワー表示形式は、[テキスト ゲージ](~/en/visu
     ![SelectColumnChart\_All](images/SelectColumnChart_All.png)
 
 
-3.  データ エディターで、**日付**フィールドを [ラベル] に、**リツイート** と **お気に入り** フィールドを [値] にドラッグアンドドロップします。
+3.  データ エディターで、**[日付]** フィールドを [ラベル] に、**[リツイート]** と **[お気に入り]** フィールドを [値] にドラッグアンドドロップします。
     
     ![DragDropRetweetsFavorites\_All](images/DragDropRetweetsFavorites_All.png)
 
 
-4.  リツイート＆お気に入りのサンプル表示形式では、日付は月として表示されます。ラベルの **日付**フィールドを選択し、**日付の集計**を**月**に設定します。次に, **フィールドの更新**を選択します。
+4.  リツイート＆お気に入りのサンプル表示形式では、日付は月として表示されます。ラベルの **[日付]** フィールドを選択し、**[日付の集計]** を **[月]** に設定します。次に, **[フィールドの更新]** を選択します。
     
     ![SocialRetweetsFavoritesDateFilter\_All](images/SocialRetweetsFavoritesDateFilter_All.png)
 
 
-5.  デフォルトで、リツイート＆お気に入りはで小数第2位まで表示されます。これを変更するには、データ エディターでフィールドを選択し、**書式設定**で両方のフィールドの**小数の桁**を **0** に変更します。
+5.  デフォルトで、リツイート＆お気に入りはで小数第2位まで表示されます。これを変更するには、[データ エディター] で [フィールド] を選択し、**[書式設定]** で両方のフィールドの **[小数の桁]** を **[0]** に変更します。
     
     ![SocialRetweetsFavoritesFractionDigits\_All](images/SocialRetweetsFavoritesFractionDigits_All.png)
 
@@ -207,18 +207,18 @@ YTD Facebook フォロワー表示形式は、[テキスト ゲージ](~/en/visu
     ![SocialRetweetsFavoritesStartColor\_All](images/SocialRetweetsFavoritesStartColor_All.png)
 
 
-7.  **日付フィルター**で**接続**を選択し、表示形式を既存のダッシュボード フィルターに接続します。このメニューは、ソーシャル ダッシュボードの上にあります。
+7.  **[日付フィルター]** で **[接続]** を選択し、表示形式を既存のダッシュボード フィルターに接続します。このメニューは、Social Dashboard の上にあります。
     
     ![SocialRetweetsFavoritesConnectDateFilter\_All](images/SocialRetweetsFavoritesConnectDateFilter_All.png)
 
 
-8.  **表示形式のタイトルを「リツイート＆お気に入り」に変更する**ため、「ソーシャル ダッシュボード」の横にある**鉛筆アイコンを選択します**。 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
+8.  **表示形式のタイトルを Retweets &amp; Favorites に変更する**ため、Social Dashboard の横にある**鉛筆アイコンを選択します**。 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
-### Facebook リーチ vs. インプレッション数
+### Facebook Reach vs. Impressions
 
-Facebook リーチ vs. インプレッション数表示形式は[エリア チャート](~/en/visualization-tutorials/simple-charts.md)で会社の Facebook のリーチ vs. インプレッション数を示します。以下は作成方法です。
+Facebook Reach vs. Impressions の数表示形式は[エリア チャート](~/en/visualization-tutorials/simple-charts.md)で会社の Facebook のリーチ vs. インプレッション数を示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。新しい表示形式ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**ソーシャル ダッシュボード** オプションが選択されていることを確認し、 **データのロード** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**[Social Dashboard]** オプションが選択されていることを確認し、 **[データのロード]** を押します。
     
     ![SelectingSocialSheet\_All](images/SelectingSocialSheet_All.png)
 
@@ -228,35 +228,35 @@ Facebook リーチ vs. インプレッション数表示形式は[エリア チ�
     ![SelectAreaChart\_All](images/SelectAreaChart_All.png)
 
 
-3.  データ エディターで、**日付**フィールドを [ラベル] に、**ポスト リーチ**と**インプレッション**をデータ エディターの [値] プレースホルダーにドラッグアンドドロップします。
+3.  [データ エディター] で、**[日付]** フィールドを [ラベル] に、**[ポスト リーチ**] と **[インプレッション]** をデータ エディターの [値] プレースホルダーにドラッグアンドドロップします。
     
     ![DragDropReachImpressions\_All](images/DragDropReachImpressions_All.png)
 
 
-4.  Facebook リーチ vs. インプレションのサンプル表示形式では、日付は月として表示されます。ラベルの **日付**フィールドを選択し、**日付の集計**を**月**に設定します。次に, **フィールドの更新**を選択します。
+4.  Facebook リーチ vs. インプレションのサンプル表示形式では、日付は月として表示されます。ラベルの **[日付]** フィールドを選択し、**[日付の集計]** を **[月]** に設定します。次に, **[フィールドの更新]** を選択します。
     
     ![SocialReachVsImpressionsDateFilter\_All](images/SocialReachVsImpressionsDateFilter_All.png)
 
 
-5.  デフォルトでは、ポスト リーチ vs. インプレションは小数第 2 位まで表示されます。これを変更するには、**データ エディターでフィールドを選択し**、**書式設定**で両方のフィールドの**小数の桁**を **0** に変更します。
+5.  デフォルトでは、ポスト リーチ vs. インプレションは小数第 2 位まで表示されます。これを変更するには、**[データ エディター] で [フィールド] を選択し**、**[書式設定]** で両方のフィールドの **[小数の桁]** を **[0]** に変更します。
     
     ![SocialPostReachImpressions\_All](images/SocialPostReachImpressions_All.png)
 
 
-6.  **日付フィルター**で**接続**を選択し、表示形式を既存のダッシュボード フィルターに接続します。このメニューは、ソーシャル ダッシュボードの上にあります。
+6.  **[日付フィルター]** で **[接続]** を選択し、表示形式を既存のダッシュボード フィルターに接続します。このメニューは、Social Dashboard の上にあります。
     
     ![SocialReachImpressionsConnectDateFilter\_All](images/SocialReachImpressionsConnectDateFilter_All.png)
 
 
-7.  **表示形式のタイトルを 「Facebook リーチ vs. インプレション」 に変更する**ため、ため、「ソーシャル ダッシュボード」の横にある**鉛筆アイコンを選択します。**
+7.  **表示形式のタイトルを Facebook Reach vs. Impressions に変更する**ため、ため、「ソーシャル ダッシュボード」の横にある**鉛筆アイコンを選択します。**
 
 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
-### 月ごと Twitter メンション
+### Monthly Twitter Mentions
 
-月ごと Twitter メンション表示形式は、[折れ線チャート](~/en/visualization-tutorials/simple-charts.md)で会社の Twitter のメンション数を示します。以下は作成方法です。
+Monthly Twitter Mentions の表示形式は、[折れ線チャート](~/en/visualization-tutorials/simple-charts.md)で会社の Twitter のメンション数を示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。新しい表示形式ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**ソーシャル ダッシュボード** オプションが選択されていることを確認し、 **データのロード**を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**[Social Dashboard]** オプションが選択されていることを確認し、 **[データのロード]** を押します。
     
     ![SelectingSocialSheet\_All](images/SelectingSocialSheet_All.png)
 
@@ -266,7 +266,7 @@ Facebook リーチ vs. インプレッション数表示形式は[エリア チ�
     ![SelectLineChart\_All](images/SelectLineChart_All.png)
 
 
-3.  データ エディターで、**日付**フィールドを [ラベル] に、**メンション**をデータ エディターの [値] プレースホルダーにドラッグアンドドロップします。月ごと Twitter メンションのサンプル表示形式では、日付は月として表示されます。
+3.  データ エディターで、**[日付]** フィールドを [ラベル] に、**[メンション]** をデータ エディターの [値] プレースホルダーにドラッグアンドドロップします。月ごと Twitter メンションのサンプル表示形式では、日付は月として表示されます。
     
     ![DragDropMonthlyTwitterMentions\_All](images/DragDropMonthlyTwitterMentions_All.png)
 
@@ -276,17 +276,17 @@ Facebook リーチ vs. インプレッション数表示形式は[エリア チ�
     ![SocialMonthlyTwitterMentions\_All](images/SocialMonthlyTwitterMentions_All.png)
 
 
-5.  デフォルトで、メンションは小数第 2 位まで表示されます。これを変更するには、**データ エディターでフィールドを選択し**、**書式設定**で両方のフィールドの**小数の桁**を **0** に変更します。
+5.  デフォルトで、メンションは小数第 2 位まで表示されます。これを変更するには、**[データ エディター] で [フィールド] を選択し**、**[書式設定]**で両方のフィールドの **[小数の桁]** を **[0]** に変更します。
     
     ![SocialMentionsFractionDigits\_All](images/SocialMentionsFractionDigits_All.png)
 
 
-6.  **日付フィルター**で**接続**を選択し、表示形式を既存のダッシュボード フィルターに接続します。このメニューは、ソーシャル ダッシュボードの上にあります。
+6.  **[日付フィルター]** で **[接続]** を選択し、表示形式を既存のダッシュボード フィルターに接続します。このメニューは、Social Dashboard の上にあります。
     
     ![SocialMonthlyTwitterMentionConnectDateFilter\_All](images/SocialMonthlyTwitterMentionConnectDateFilter_All.png)
 
 
-7.  **表示形式のタイトルを 「月ごと Twitter メンション数」 に変更する**ため、「ソーシャルダッシュボード」 の横にある**鉛筆アイコンを選択します**。 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
+7.  **表示形式のタイトルを Monthly Twitter Mentions に変更する**ため、Social Dashboard の横にある**鉛筆アイコンを選択します**。 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <style>
 .previous {

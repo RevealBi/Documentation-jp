@@ -1,12 +1,11 @@
-## Adding the other Visualizations 
+## その他の表示形式の追加 
 
-All the remaining visualizations in the dashboards will use the same
-[sample spreadsheet](http://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)
+その他すべてのダッシュボードにある表示形式で同じ[サンプル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)を使用します。
 
 >[!NOTE]
->If you want to [change your data source](changing-data-source-visualization.md), you will need to select the **overflow button** next to the data source name or [create a new data source](creating-new-datasource) instead. You can also [duplicate](overview.html#view-edit-mode) visualizations to speed up the creation process.
+>[データソースを変更する](changing-data-source-visualization.md)場合は、データ ソース名の横にあるオーバーフロー ボタン、または[新しいデータ ソースを作成する](creating-new-datasource)を選択する必要があります。表示形式を[複製して](overview.html#view-edit-mode)作成時間を短縮することもできます。
 
-This section will cover the following visualizations:
+このセクションは以下の表示形式について説明します。
 
 <table>
 <colgroup>
@@ -58,525 +57,393 @@ This section will cover the following visualizations:
 <a name='win-lost-by-month'></a>
 ### Win/Lost by Month
 
-The Win/Lost by Month visualization displays the amount of won and lost
-opportunities for a six-month period in a [column chart](~/en/visualization-tutorials/simple-charts.md). In order to create it:
+Win/Lost by Month の表示形式は、6ヶ月間の勝敗の回数を[棒チャート](~/en/visualization-tutorials/simple-charts.md)で示します。以下は作成方法です。
 
-1.  Select the + button in the right corner of your dashboard. In the
-    New Visualization dialog, select the
-    **Reveal\_Dashboard\_Tutorials** spreadsheet in the **Data in
-    Dashboard** section. Make sure the **Sales Dashboard** option is
-    selected, and then press **Load Data**.
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**[Sales Dashboard]** オプションが選択されていることを確認し、 **[データのロード]** を押します。
     
     ![SelectingSalesSheet\_All.png](images/SelectingSalesSheet_All.png)
 
 
 
-2.  **Open the visualizations picker** by selecting the grid icon in the
-    top bar, and select the "Column" chart.
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「縦棒チャート」を選択します。
     
     ![SelectColumnChart\_All](images/SelectColumnChart_All.png)
 
  
 
-3.  In the Data Editor, drag and drop the **Date** field into Label, and
-    the **Win** and **Loss** fields into Values.
+3.  データ エディターで、**[日付]** フィールドを [ラベル] に、**[勝]** と **[負]** フィールドを [値] にドラッグアンドドロップします。
     
     ![DragDropSalesWinLossMonth\_All](images/DragDropSalesWinLossMonth_All.png)
 
  
 
-4.  The data displayed in this visualization displays data by **month**.
-    In order to match this format, select **Date** in the Label
-    placeholder, and change the **Date Aggregation** to **Month**.
+4.  この表示形式で表示されるデータは、**月別**です。この形式にするには、ラベル プレース ホルダーで **[日付]** を選択し、**[日付の集計]** を **[月]** に変更します。
     
     ![SalesWinLostByMonthDateAggregation\_All](images/SalesWinLostByMonthDateAggregation_All.png)
     
-    Then, select **Update Field**.
+    次に, **[フィールドの更新]** を選択します。
 
  
 
-5.  In order for the visualization to display a six-month period, you
-    will need to add a filter. To do this, drop **Date** into Data
-    Filters and select it to access the Visualization Filter menu.
-    Within it, select **Filter by Rule** under **Filter Type**.
+5.  表示形式で 6ヶ月の期間を表示するには、フィルターを追加する必要があります。
+    これを行うには、**[日付]** をデータ フィルターにドロップし、表示形式フィルター メニューにアクセスするために、それを選択します。その中で、**[フィルター タイプ]** の **[ルールでフィルターする]** を選択します。
     
     ![FilterbyRuleSalesWinLost\_All](images/FilterbyRuleSalesWinLost_All.png)
     
-    Then, select **Custom Date Range** under **Rule**, and enter the
-    following custom range:
+    次に、**[ルール]** の **[カスタム日付範囲]** を選択し、以下のカスタム範囲を入力します。
     
     ![SalesCustomDateRange\_All](images/SalesCustomDateRange_All.png)
     
-    After this, select **Update Field**.
+    この後、**フィールドの更新**を選択します。
 
  
 
-6.  **Change the title of your visualization** to "Win/Lost by Month"
-    **by selecting the pencil icon** next to "Sales Dashboard".
-
-Once you are done, go back to the Dashboard Editor by selecting the
-**tick icon** in the top right-hand corner.
+6.  **表示形式のタイトルを Win/Lost by Month に変更する**ため、「セールス ダッシュボード」の横にある**鉛筆アイコンを選択します**。完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='forecasted'></a>
 ### Forecasted
 
-The Forecasted visualization displays the forecast for a six month
-period in a [bar chart](~/en/visualization-tutorials/simple-charts.md). In order to create it:
+Forecasted の表示形式は、6ヶ月間の予測を[バー チャート](~/en/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
 
-1.  Select the + button in the right corner of your dashboard. In the
-    New Visualization dialog, select the
-    **Reveal\_Dashboard\_Tutorials** spreadsheet in the **Data in
-    Dashboard** section. Make sure the **Sales Dashboard** option is
-    selected, and then press **Load Data**.
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、 **Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**[Sales Dashboard]** オプションが選択されていることを確認し、 **[データのロード]** を押します。
     
     ![SelectingSalesSheet\_All.png](images/SelectingSalesSheet_All.png)
 
  
 
-2.  **Open the visualizations picker** by selecting the grid icon in the
-    top bar, and select the "Bar" chart.
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「棒チャート」を選択します。
     
     ![SelectBarChart\_All](images/SelectBarChart_All.png)
 
  
 
-3.  In the Data Editor, drag and drop the **Date** field into Label, and
-    the **Forecasted** field into Values.
+3.  データ エディターで、**[日付]** フィールドを [ラベル] に、**[Forecasted]** フィールドを [値] にドラッグアンドドロップします。
     
     ![DragDropSalesForecasted\_All](images/DragDropSalesForecasted_All.png)
 
  
 
-4.  The data displayed in this visualization displays data by **month**.
-    In order to match this format, select **Date** in the Label
-    placeholder, and change the **Date Aggregation** to **Month**. Also,
-    change the **Sorting** to **Descending**.
+4.  この表示形式で表示されるデータは、**月別**です。
+    この形式にするには、ラベル プレース ホルダーで **[日付]** を選択し、**[日付の集計]** を **[月]** に変更します。また、**[並べ替え]** を **[降順]** に変更します。
     
     ![SalesWinLostByMonthDateAggregation\_All](images/SalesWinLostByMonthDateAggregation_All.png)
     
-    Then, select **Update Field**.
+    次に, **[フィールドの更新]** を選択します。
 
  
 
-5.  Because the **Forecasted** field has sales information, it should be
-    formatted as currency. Select the **Forecasted** field in Values,
-    and apply the following changes:
+5.  **[Forecasted]** フィールドにセールス情報が含まれるため通貨の書式設定にする必要があります。[値] で **[Forecasted]** フィールドを選択し、以下の変更を適用します。
     
     ![SalesForecastedFormatting\_All](images/SalesForecastedFormatting_All.png)
     
-    a.  Change the **Type** to **Currency**.
+    a.  **[タイプ]** を **[通貨]** に変更します。
     
-    b.  Change the **Fraction Digits** to **0**.
-        Then, select **Update Field**.
+    b.  **[小数桁]** を **[0]** に変更します。
+        次に, **[フィールドの更新]** を選択します。
 
  
 
-6.  In order for the visualization to display a six-month period, you
-    will need to add a filter. To do this, drop **Date** into Data
-    Filters and select it to access the Visualization Filter menu.
-    Within it, select **Filter by Rule** under **Filter Type**.
+6.  表示形式で 6ヶ月の期間を表示するには、フィルターを追加する必要があります。
+    これを行うには、**[日付]** をデータ フィルターにドロップし、表示形式フィルター メニューにアクセスするために、それを選択します。その中で、**[フィルター タイプ]** の **[ルールでフィルターする]** を選択します。
     
     ![FilterbyRuleSalesWinLost\_All](images/FilterbyRuleSalesWinLost_All.png)
     
-    Then, select **Custom Date Range** under **Rule**, and enter the
-    following custom range:
+    次に、**[ルール]** の **[カスタム日付範囲]** を選択し、以下のカスタム範囲を入力します。
     
     ![SalesCustomDateRange\_All](images/SalesCustomDateRange_All.png)
     
-    Then, select **Update Field**.
+    次に, **[フィールドの更新]** を選択します。
 
  
 
-7.  To match the sample visualization's color, go to the **Settings**
-    section and change the color to the third one.
+7.  同じ表示形式サンプルの色にあわせるために、**[設定]** セクションに移動し、3 番目の色に変更します。
     
     ![SalesForecastedStartColor\_All](images/SalesForecastedStartColor_All.png)
 
  
 
-8.  **Change the title of your visualization** to "Forecasted" **by
-    selecting the pencil icon** next to "Sales Dashboard".
-
-Once you are done, go back to the Dashboard Editor by selecting the
-**tick icon** in the top right-hand corner.
+8.  **表示形式のタイトルを Forecasted に変更する**ため、Sales Dashboard の横にある**鉛筆アイコンを選択します**。 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='lost-opportunities'></a>
 ### Lost Opportunities
 
-The Lost Opportunities visualization simply displays the percentage of
-opportunities which were missed in a [Text Gauge](~/en/visualization-tutorials/Gauge-Views.html#text-gauge). In order to create it:
+Lost Opportunities の表示形式は、[テキスト ゲージ](~/en/visualization-tutorials/Gauge-Views.html#text-gauge)で機会損失の割合を表示します。以下は作成方法です。
 
-1.  Select the + button in the right corner of your dashboard. In the
-    New Visualization dialog, select the
-    **Reveal\_Dashboard\_Tutorials** spreadsheet in the **Data in
-    Dashboard** section. Make sure the **Sales Dashboard** option is
-    selected, and then press **Load Data**.
+1.  ダッシュボードの右隅にある[+]ボタンを選択します。[新しい表示形式] ダイアログで、 **Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**[Sales Dashboard]** オプションが選択されていることを確認し、 **[データのロード]** を押します。
     
     ![SelectingSalesSheet\_All.png](images/SelectingSalesSheet_All.png)
 
  
 
-2.  **Open the visualizations picker** by selecting the grid icon in the
-    top bar, and select the "Text" gauge.
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「テキスト ゲージ」を選択します。
     
     ![SelectTextGauge\_All](images/SelectTextGauge_All.png)
 
  
 
-3.  In the Data Editor, drag and drop **Lost Opportunities** field into
-    Value.
+3.  データ エディターで、**[機会損失]** フィールドを [値] にドラッグアンドドロップします。
     
     ![DragDropSalesLostOpportunities\_All](images/DragDropSalesLostOpportunities_All.png)
 
  
 
-4.  In the sample dashboard, the lost opportunities are represented as a
-    percentage. In order to apply this formatting, select the **Lost
-    Opportunities** field in the Value placeholder. In the formatting
-    menu:
+4.  サンプル ダッシュボードで、機会損失はパーセンテージとして表されます。
+    この書式を適用するには、値プレース ホルダーの [Lost Opportunies] フィールドを選択します。書式設定のメニューで:
     
     ![SalesWonOpportFormatting\_All](images/SalesWonOpportFormatting_All.png)
     
-    a.  Change the **Type** to **Percent**.
+    a.  **[タイプ]** を **[パーセント]** に変更します。
     
-    b.  Change the **Fraction Digits** to **0**. Then, select **Update Field**.
+    b.  **[小数桁]** を **[0]** に変更します。次に, **[フィールドの更新]** を選択します。
 
-The yellow dash indicator in the sample is meant to represent that the
-figure has remained stable in comparison with the last period. This
-marker is created through the bands configurations in the gauge's
-settings. In order to add it:
+サンプルの黄色のダッシュ インジケーターは、前回と比較して数値が安定していることを表します。このマーカーは、ゲージ設定のバンドの構成で作成します。以下は追加方法です。
 
-1.  Go to the **Settings** tab in the Visualization Editor.
+1.  表示形式エディターの **[設定]** タブへ移動します。
     
     ![TutorialsSettingsMenu\_All](images/TutorialsSettingsMenu_All.png)
 
  
 
-2.  In the "Sales Dashboard" spreadsheet, "Lost Opportunities" equals
-    0.56 as the value, even though the visualization is expressed as a
-    percentage. Therefore, scroll down to **Value Comparison Type** and
-    set it to "Number".
+2.  Sales Dashboard のスプレッド シートでは、表示形式がパーセンテージで表されている場合でも、Lost Opportunities は値として 0.56 に相当します。したがって、**[値比較タイプ]** へスクロールし、[数] に設定します。
     
     ![TutorialsValueComparisonTypeNumber\_All](images/TutorialsValueComparisonTypeNumber_All.png)
 
  
 
-3.  **Set your bounds**. In this case, the bounds are within 0.7 and
-    0.5.
+3.  **しきい値を設定する**。この場合、バインドは 0.7～5 です。
     
     ![SalesChangingBandLostOpps\_All](images/SalesChangingBandLostOpps_All.png)
 
  
 
-4.  Select each band and **select both the color and the indicator**.
+4.  各バンドを選択し、**[色] と [インジケーター] の両方を選択します**。
     
     ![SalesChangingBandColorIndicator\_All](images/SalesChangingBandColorIndicator_All.png)
 
  
 
-5.  **Change the title of your visualization** to "Lost Opportunities"
-    **by selecting the pencil icon** next to "Sales Dashboard".
-
-Once you are done, go back to the Dashboard Editor by selecting the
-**tick icon** in the top right-hand corner.
+5. **表示形式のタイトルを Lost Opportunities に変更する**ため、Sales Dashboard の横にある**鉛筆アイコンを選択します**。 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='pipeline-by-territory'></a>
 ### Pipeline by Territory
 
-The Pipeline by Territory visualizations displays the average sales
-prospects and where they are located in a [funnel chart](~/en/visualization-tutorials/simple-charts.md). In order to create it:
+Pipeline by Territory の表示形式は、[ファンネルチャート](~/en/visualization-tutorials/simple-charts.md)平均的な販売見込みとそれらの位置を表示します。以下は作成方法です。
 
-1.  Select the + button in the right corner of your dashboard. In the
-    New Visualization dialog, select the
-    **Reveal\_Dashboard\_Tutorials** spreadsheet in the **Data in
-    Dashboard** section. Make sure the **Sales Dashboard** option is
-    selected, and then press **Load Data**.
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。 **[Sales Dashboard]** オプションが選択されていることを確認し、 **[データのロード]** を押します。
     
     ![SelectingSalesSheet\_All.png](images/SelectingSalesSheet_All.png)
 
  
 
-2.  **Open the visualizations picker** by selecting the grid icon in the
-    top bar, and select the "Funnel" chart.
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「ファンネルチャート」を選択します。
     
     ![SelectFunnelChart\_All](images/SelectFunnelChart_All.png)
 
  
 
-3.  In the Data Editor, drag and drop **Territory** into Labels and
-    **Pipeline** into Value.
+3.  データ エディターで、**[地域]** を [ラベル] に、パイプラインを [値] にドラッグアンドドロップします。
     
     ![DragDropSalesPipelineTerritory\_All](images/DragDropSalesPipelineTerritory_All.png)
 
  
 
-4.  The **Territory** has many empty values because there are only 4
-    territories, but more than 1000 values for the other columns in the
-    original data source. In order to filter the values, drag and drop
-    **Territory** into Data Filters.
+4.  **地域**には 4 つの地域しかないため、多くの空の値がありますが、元のデータ ソースの他の列には 1000 を超える値があります。値をフィルタリングするため、**[地域]** をデータ フィルターにドラッグアンドドロップします。
     
     ![DragDropTerritoryDataFilter\_All](images/DragDropTerritoryDataFilter_All.png)
     
-    Then, select it to access the **Visualization Filter** dialog. Once
-    there, change the **Filter Type** to **Filter Empty Values**, and
-    select **Create Filter**.
+    次に、[地域] を選択し、**[表示形式フィルター]** ダイアログにアクセスします。**[フィルター タイプ]** を **[空値をフィルター]** に変更し、[フィルターの作成] を選択します。
     
     ![SalesPipelineTerritoryFilterEmptyValues\_All](images/SalesPipelineTerritoryFilterEmptyValues_All.png)
 
  
 
-5.  **Change the title of your visualization** to "Pipeline by
-    Territory" **by selecting the pencil icon** next to "Sales
-    Dashboard".
-
-Once you are done, go back to the Dashboard Editor by selecting the
-**tick icon** in the top right-hand corner.
+5. **表示形式のタイトルを Pipeline by Territory に変更する**ため、Sales
+    Dashboard の横にある**鉛筆アイコンを選択します。** 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='opportunities'></a>
 ### Total Opportunities
 
-The Total Opportunities visualization displays the revenue the
-opportunities represented for the company for a 12 month period in a
-[line chart](~/en/visualization-tutorials/simple-charts). In order to create it:
+Total Opportunities の表示形式は、12 か月間の会社の機会が表すによる収益を
+[折れ線チャート](~/en/visualization-tutorials/simple-charts)で表示します。以下は作成方法です。
 
-1.  Select the + button in the right corner of your dashboard. In the
-    New Visualization dialog, select the
-    **Reveal\_Dashboard\_Tutorials** spreadsheet in the **Data in
-    Dashboard** section. Make sure the **Sales Dashboard** option is
-    selected, and then press **Load Data**.
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式]ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**[Sales Dashboard]** オプションが選択されていることを確認し、**[データのロード]** を押します。
     
     ![SelectingSalesSheet\_All.png](images/SelectingSalesSheet_All.png)
 
  
 
-2.  **Open the visualizations picker** by selecting the grid icon in the
-    top bar, and select the "Line" chart.
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「折れ線チャート」を選択します。
     
     ![SelectLineChart\_All](images/SelectLineChart_All.png)
 
  
 
-3.  In the Data Editor, drag and drop the **Date** into Labels and
-    **Total Opportunities** into Values.
+3.  データ エディターで、**[日付]** をラベルに、**[Total Opportunities]** を [値] にドラッグアンドドロップします。
     
     ![DragDropSalesTotalOpportunities\_All](images/DragDropSalesTotalOpportunities_All.png)
 
  
 
-4.  The data displayed in this visualization displays data by **month**.
-    In order to match this format, select **Date** in the Label
-    placeholder, and change the **Date Aggregation** to **Month**.
+4.  この表示形式で表示されるデータは、**月別**です。この形式にするには、ラベル プレース ホルダーで **[日付]** を選択し、**[日付の集計]** を **[月]** に変更します。
     
     ![SalesWinLostByMonthDateAggregation\_All](images/SalesWinLostByMonthDateAggregation_All.png)
     
-    Then, select **Update Field**.
+    次に, **[フィールドの更新]** を選択します。
 
  
 
-5.  Because the **Total Opportunities** field has sales information, it
-    should be formatted as currency. Select the **Total Opportunities**
-    field in Values, and apply the following changes:
+5.  **Total Opportunities** フィールドにセールス情報が含まれるため通貨で書式設定する必要があります。[値] の **[Total Opportunities]** フィールドを選択し、次の変更を適用します。
     
     ![SalesForecastedFormatting\_All](images/SalesForecastedFormatting_All.png)
     
-    1.  Change the **Type** to **Currency**.
+    1.  **[タイプ]** を **[通貨]** に変更します。
     
-    2.  Change the **Fraction Digits** to **0**
+    2.  **[小数桁]** を **[0]** に変更します。
         
-        Then, select **Update Field**.
+        次に, **[フィールドの更新]** を選択します。
 
  
 
-6.  In order for the visualization to display a 12 month period, you
-    will need to add a filter. To do this, drop **Date** into Data
-    Filters and select it to access the Visualization Filter menu.
-    Within it, select **Filter by Rule** under **Filter Type**.
+6.  表示形式で 12ヶ月の期間を表示するには、フィルターを追加する必要があります。
+    これを行うには、**[日付]** をデータ フィルターにドロップし、表示形式フィルター メニューにアクセスするために、それを選択します。その中で、**[フィルター タイプ]** の **[ルールでフィルターする]** を選択します。
     
     ![FilterbyRuleSalesWinLost\_All](images/FilterbyRuleSalesWinLost_All.png)
     
-    Then, select **Custom Date Range** under **Rule**, and enter the
-    following custom range:
+    次に、**[ルール]** の **[カスタム日付範囲]** を選択し、以下のカスタム範囲を入力します。
     
     ![SalesTotalOppsCustomDateRange\_All](images/SalesTotalOppsCustomDateRange_All.png)
     
-    Then, select **Update Filter**.
+    次に, **[フィルターの更新]** を選択します。
 
  
 
-7.  To match the sample visualization's color, go to the **Settings**
-    section and change the color to the seventh one.
+7.  同じ表示形式サンプルの色にあわせるために、**[設定]** セクションに移動し、7 番目の色に変更します。
     
     ![SalesTotalOpportunitiesStartColor\_All](images/SalesTotalOpportunitiesStartColor_All.png)
 
  
 
-8.  **Change the title of your visualization** to "Total Opportunities"
-    **by selecting the pencil icon** next to "Sales Dashboard".
-
-Once you are done, go back to the Dashboard Editor by selecting the
-**tick icon** in the top right-hand corner.
+8.  **表示形式のタイトルを Total Opportunities に変更する**ため、Sales Dashboard の横にある**鉛筆アイコンを選択します**。 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='revenue-by-territory'></a>
 ### Revenue by Territory
 
-The Revenue by Territory displays the revenue represented by each region
-for the company in a [pie chart](~/en/visualization-tutorials/simple-charts.md). In order to
-create it:
+Revenue by Territory の表示形式には、会社の各地域における収益を[円チャート](~/en/visualization-tutorials/simple-charts.md)で表示されます。以下は作成方法です。
 
-1.  Select the + button in the right corner of your dashboard. In the
-    New Visualization dialog, select the
-    **Reveal\_Dashboard\_Tutorials** spreadsheet in the **Data in
-    Dashboard** section. Make sure the **Sales Dashboard** option is
-    selected, and then press **Load Data**.
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**[Sales Dashboard]** オプションが選択されていることを確認し、 **[データのロード]** を押します。
     
     ![SelectingSalesSheet\_All.png](images/SelectingSalesSheet_All.png)
 
  
 
-2.  **Open the visualizations picker** by selecting the grid icon in the
-    top bar, and select the "Pie" chart.
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「円チャート」を選択します。
     
     ![SelectPieChart\_All](images/SelectPieChart_All.png)
 
  
 
-3.  In the Data Editor, drag and drop **Territory** into Label and
-    **Sales Territory** into Value.
+3.  データ エディターで、**[地域]** を [ラベル]に、**[販売地域]** を [値] にドラッグアンドドロップします。
     
     ![DragDropRevenueTerritory\_All](images/DragDropRevenueTerritory_All.png)
 
  
 
-4.  In the sample visualization, the pie chart has a different start
-    position. In order to udpate it, go to the **Settings** tab of the
-    Visualizations Editor and change the **Start Position** to **90°**.
+4.  サンプルの表示形式では、円チャートの開始位置が異なります。
+    開始位置を変更するには、表示形式エディターの **[設定]** タブに移動し、**[開始位置]** を **[90°]** に変更します。
     
     ![SalesRevenuebyTerritoryStartPosition\_All](images/SalesRevenuebyTerritoryStartPosition_All.png)
 
  
 
-5.  **Change the title of your visualization** to "Revenue by Territory"
-    **by selecting the pencil icon** next to "Sales Dashboard".
-
-Once you are done, go back to the Dashboard Editor by selecting the
-**tick icon** in the top right-hand corner.
+5.  **表示形式のタイトルを Revenue by Territory に変更する**ため、Sales Dashboard の横にある**鉛筆アイコンを選択します。** 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='pipeline-per-employee'></a>
 ### Pipeline per Employee
 
-The Pipeline per Employee visualization displays the top 10 sales
-prospects per employee in a [column chart](~/en/visualization-tutorials/simple-charts.md). In
-order to create it:
+Pipeline per Employee の表示形式は、従業員別の上位 10 位までの販売見込みを[柱状チャート](~/en/visualization-tutorials/simple-charts.md)で示します。以下は作成方法です。
 
-1.  Select the + button in the right corner of your dashboard. In the
-    New Visualization dialog, select the
-    **Reveal\_Dashboard\_Tutorials** spreadsheet in the **Data in
-    Dashboard** section. Make sure the **Sales Dashboard** option is
-    selected, and then press **Load Data**.
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**[Sales Dashboard]** オプションが選択されていることを確認し、 **[データのロード]** を押します。
     
     ![SelectingSalesSheet\_All.png](images/SelectingSalesSheet_All.png)
 
  
 
-2.  **Open the visualizations picker** by selecting the grid icon in the
-    top bar, and select the "Column" chart.
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「縦棒チャート」を選択します。
     
     ![SelectTextGauge\_All](images/SelectColumnChart_All.png)
 
  
 
-3.  In the Data Editor, drag and drop **Employee** into Label and
-    **Pipeline** into Values.
+3.  データ エディターで、**[従業員]** を [ラベル]に、**[パイプライン]** を [値] にドラッグアンドドロップします。
     
     ![DragDropPipelineEmployee\_All](images/DragDropPipelineEmployee_All.png)
 
  
 
-4.  The **Pipeline** values refer to sales prospects and should,
-    therefore, be formatted as currency. Select the **Pipeline** field
-    in Values, and apply the following changes:
+4.  **パイプライン**の値は売り上げ見込みを参照するため、通貨で書式設定する必要があります。[値] で **[パイプライン]** フィールドを選択し、次の変更を適用します。
     
     ![SalesForecastedFormatting\_All](images/SalesForecastedFormatting_All.png)
     
-    1.  Change the **Type** to **Currency**.
+    1.  **[タイプ]** を **[通貨]** に変更します。
     
-    2.  Change the **Fraction Digits** to **0**
+    2.  **[小数桁]**を **[0]** に変更します。
         
-        Then, select **Update Field**.
+        次に、**[フィールドの更新]** を選択します。
 
  
 
-5.  This visualization displays the top 10 prospects, and therefore
-    needs a filter. To do this, select the **Add Data Filters** and
-    scroll down to the bottom of the list. You will see the aggregated
-    **Pipeline** field; select it.
+5.  この表示形式は 見込み客のトップ 10 を表示するため、フィルターが必要です。
+    これを行うには、**[データ フィルターの追加]** を選択し、リストの一番下までスクロールします。集計された **[パイプライン]** フィールドを選択します。
     
     ![SelectPipelineDataEditor\_All](images/SelectPipelineDataEditor_All.png)
     
-    Then, select **Top Items** under **Rule** and enter **10**.
+    次に、**[ルール]** の下の **[トップ アイテム]** を選択し、**10** と入力します。
     
     ![SalesPipelineEmployeeTop10\_All](images/SalesPipelineEmployeeTop10_All.png)
     
-    Select **Create Filter** to apply the changes.
+    [フィルターを作成] を選択し、変更を適用します。
 
  
 
-6.  To match the sample visualization's color, go to the **Settings**
-    section and change the color to the fifth one.
+6.  同じ表示形式サンプルの色にあわせるために、**[設定]** セクションに移動し、5 番目の色に変更します。
     
     ![SalesPipelineEmployeeStartColor\_All](images/SalesPipelineEmployeeStartColor_All.png)
 
  
 
-7.  **Change the title of your visualization** to "Pipeline by Employee"
-    **by selecting the pencil icon** next to "Sales Dashboard".
-
-Once you are done, go back to the Dashboard Editor by selecting the
-**tick icon** in the top right-hand corner.
+7.  **表示形式のタイトルを Pipeline by Employee に変更する**ため、Sales Dashboard の横にある**鉛筆アイコンを選択します。** 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='sales-by-product'></a>
 ### Sales by Product
 
-The Sales by Product visualization displays the different company
-products and the percentage of sales for each one in a [doughnut chart](~/en/visualization-tutorials/simple-charts.md). In order to create it:
+Sales by Product の表示形式は、さまざまな会社の製品とそれぞれの売上げの割合を[ドーナツ型チャート](~/en/visualization-tutorials/simple-charts.md)で表示します。
+以下は作成方法です。
 
-1.  Select the + button in the right corner of your dashboard. In the
-    New Visualization dialog, select the
-    **Reveal\_Dashboard\_Tutorials** spreadsheet in the **Data in
-    Dashboard** section. Make sure the **Sales Dashboard** option is
-    selected, and then press **Load Data**.
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**[Sales Dashboard]** オプションが選択されていることを確認し、 **[データのロード]** を押します。
     
     ![SelectingSalesSheet\_All.png](images/SelectingSalesSheet_All.png)
 
  
 
-2.  **Open the visualizations picker** by selecting the grid icon in the
-    top bar, and select the "Doughnut" chart.
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「ドーナツ型チャート」を選択します。
     
     ![SelectFunnelChart\_All](images/SelectDoughnutChart_All.png)
 
  
 
-3.  In the Data Editor, drag and drop **Product** into Label and **Sales
-    Product** into Value.
+3.  データ エディターで、**[製品]** を [ラベル]に、[販売製品] を [値] にドラッグアンドドロップします。
     
     ![DragDropSalesProduct\_All](images/DragDropSalesProduct_All.png)
 
  
 
-4.  In the sample visualization, the pie chart has a different start
-    position. In order to udpate it, go to the **Settings** tab of the
-    Visualizations Editor and change the **Start Position** to **90°**.
+4.  サンプルの表示形式では、円チャートの開始位置が異なります。開始位置を変更するには、表示形式エディターの **[設定]** タブに移動し、**[開始位置]** を **[90°]** に変更します。
     
     ![SalesRevenuebyTerritoryStartPosition\_All](images/SalesRevenuebyTerritoryStartPosition_All.png)
 
  
 
-5.  **Change the title of your visualization** to "Pipeline by Employee"
-    **by selecting the pencil icon** next to "Sales Dashboard".
-
-Once you are done, go back to the Dashboard Editor by selecting the
-**tick icon** in the top right-hand corner.
+5.  **表示形式のタイトルを Pipeline by Employee に変更する**ため、Sales Dashboard の横にある**鉛筆アイコンを選択します**。完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 
 <style>
