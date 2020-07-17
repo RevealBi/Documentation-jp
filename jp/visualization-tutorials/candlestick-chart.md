@@ -1,6 +1,6 @@
-### Creating Candlestick Visualizations
+### ローソク足で可視化する方法
 
-In this tutorial, you will learn how to create a Candlestick chart visualization using a sample spreadsheet.
+このチュートリアルは、サンプル スプレッドシートを使用してローソク足を作成する方法を説明します。
 
 <table>
 <colgroup>
@@ -12,71 +12,56 @@ In this tutorial, you will learn how to create a Candlestick chart visualization
 <tr class="odd">
 <td><p><img src="images/CandlestickChart_All.png" alt="CandlestickChart All" width="265" /><br />
 </p>
-<p><a href="#create-candlestick-chart">Candlestick Chart</a><br />
+<p><a href="#create-candlestick-chart">ローソク足チャート</a><br />
 </p></td>
 <td><p><img src="images/CandlestickChartBounds_All.png" alt="CandlestickChartBounds All" width="265" /><br />
 </p>
-<p><a href="#changing-axis-configuration">Candlestick Chart with Bounds</a><br />
+<p><a href="#changing-axis-configuration">範囲のローソク足チャート</a><br />
 </p></td>
 <td><p><img src="images/CandlestickChartLogarithmicAxis_All.png" alt="CandlestickChartLogarithmicAxis All" width="265" /><br />
 </p>
-<p><a href="#setting-logarithmic-axis">Candlestick Chart with a Logarithmic Axis</a><br />
+<p><a href="#setting-logarithmic-axis">対数軸のローソク足チャート</a><br />
 </p></td>
 </tr>
 </tbody>
 </table>
 
-Access the links below for the Candlestick chart view walkthroughs:
+ローソク足チャート ビューのガイドは、以下のリンクから参照してください。
 
-  - [How to create a Candlestick chart](#creating-candlestick-chart)
+  - [ローソク足チャートを作成する方法](#creating-candlestick-chart)
 
-  - [How to change your axis configuration](#changing-axis-configuration)
+  - [軸の構成を変更する](#changing-axis-configuration)
 
-  - [How to set your axis configuration to logarithmic](#setting-logarithmic-axis)
+  - [軸の構成を対数に変更する](#setting-logarithmic-axis)
 
-### Key Concepts
+### 重要なコンセプト
 
-Like [OHLC](tutorial-ohlc-chart.md) Charts, Candlestick charts are meant to
-show the opening, high, low and closing prices for any financial data.
-They are particularly useful for financial scenarios and stock movement
-analysis. This chart displays numerical values in vertical axes, with
-the two horizontal lines in each vertical axis representing the "Open"
-and "Close" values.
+[OHLC](tutorial-ohlc-chart.md) チャートとローソク足チャートは各財務データの始値、高値、安値、終値を表します。財務シナリオと株の変動の分析のために役立ちます。このチャートは各垂直軸に始値および終値を表す 2 つの水平線で数値を垂直軸に表します。
 
-Candlestick charts, therefore, require:
+そのため、ローソク足チャートには以下の項目が必要になります。
 
-  - **One field to be dropped into the "Label"** placeholder of the data
-    editor, generally related to dates.
+  - 通常日付に関連するデータ エディターの **[ラベル] プレースホルダーへ 1 フィールドドロップします**。
 
-  - **Four different fields** in the "Open", "High", "Low", and "Close"
-    categories of the data editor.
+  - [Open]、[High]、 [Low] および [Close]の **4 つの異なるフィールド** データ エディタのカテゴリ。
 
 <img src="images/candlestick-chart-visualization-settings.png" alt="Candlestick chart visualization settings" width="800"/>
 
-There are also different options to add further information to your
-chart:
+チャートに追加情報を表示するためのオプションが複数あります。
 
-  - **Axis Configuration**: the axis configuration lets you configure
-    the minimum and maximum values for your charts. The minimum value is
-    set to 0 by default and the maximum calculated automatically
-    depending on your values.
+  - **軸の構成**: 軸の構成でチャートの最大値と最小値を構成できます。デフォルトで最小値は 0 に設定され、最大値は使用されるデータによって設定されます。
 
-  - **Logarithmic Axis Configuration**: if you check the "Logarithmic"
-    checkbox, the scale for your values will be calculated with a
-    non-linear scale which takes magnitude into account instead of the
-    usual linear scale.
+  - **対数軸構成**: [対数]ボックスをチェックする場合、値のスケールは通常のリニア スケールを使用する代わりに大きさを使用するリニア スケール以外で計算されます。
 
-### Sample Data Source
+### サンプル データ ソース
 
-For this tutorial, you will use the "OHLC and Candlestick" sheet in the
-[Reveal Tutorials Spreadsheet](http://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx).
+このチュートリアルでは、[Reveal チュートリアル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx)の「チャート表示」のシートを使用します。
 
 
 >[!NOTE]
->Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the supported [cloud services](data-sources.md) or add it as a [Web Resource](web-resource.md).
+>このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされている [クラウド サービス](data-sources.md) のいずれかにファイルをアップロードするか、[Web リソース](web-resource.md)として追加してください。
 
 <a name='create-candlestick-chart'></a>
-### Creating a Candlestick Chart
+### ローソク足チャートを作成する方法
 
 |                                          |                                                                                                                                           |                                                                                                                                                       |
 | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -89,34 +74,29 @@ For this tutorial, you will use the "OHLC and Candlestick" sheet in the
 | 7\. **Change the Date Aggregation**      | <img src="images/Tutorials-CandlestickChart-Changing-Aggregation.png" alt="Changing date aggregation" width="300"/>                       | Select the **Date** field in the *Label* placeholder of the data editor, and change the **Date Aggregation** to **Day**. Then, select *Update Field*. |
 
 <a name='changing-axis-configuration'></a>
-### Changing your Axis Configuration
+### 軸の構成の変更
 
-Like [gauge bounds](tutorial-gauge-views.html#adding-bounds-gauge), chart axis
-configuration allows you to set the lowest and highest values in your
-chart. You can use this feature to include or exclude specific data.
+[ゲージの範囲](tutorial-gauge-views.html#adding-bounds-gauge)と同様に、チャート軸構成でチャート (範囲) の最小値と最大値を設定できます。この機能を使用して、特定のデータ含有や除外ができます。
 
-In order to access the axis configuration menu:
+以下は軸構成のメニューへアクセスするための手順です。
 
 |                                             |                                                                                               |                                                             |
 | ------------------------------------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
 | 1\. **Access the Settings Menu**            | <img src="images/Tutorials-Navigate-Settings.png" alt="Navigating to Settings" width="300"/>  | Go to the **Settings** section in the Visualization Editor. |
 | 2\. **Navigate to the Axis Bounds section** | <img src="images/Access-Axis-Configuration.png" alt="Navigating to Axis Bounds" width="300"/> | The settings you will change will be the **Axis Bounds**.   |
 
-Depending on whether you want to set the minimum or maximum value (or
-both), you will need to access one of the following options:
+最大値または最小値 (または両方) のどれを設定するかに基づいて、以下のオプションの 1 つへアクセスする必要があります。
 
-#### Changing the Minimum Bound
+#### 最小境界値を変更する
 
-The default value is set to *Auto*. In order to set a different bound, enter the value you want the chart to start with.
+デフォルト値は「自動」に設定されています。境界値を変更する場合は、チャートの開始値を入力してください。
 
-#### Changing the Maximum Bound
+#### 最大境界値を変更する
 
-For Maximum bounds, the default will be set to "Automatic" so that
-Reveal uses your original data. In order to set a different one, enter
-the value you want for the chart's top limit.
+最大境界値の場合、Reveal が元のデータを使用するためにデフォルトの値は「自動」に設定されます。別の値を設定するには、チャートの上限値を入力します。
 
 <a name='setting-logarithmic-axis'></a>
-### Setting your Axis Configuration as Logarithmic
+### 軸を対数軸として設定
 
 |                                        |                                                                                                              |                                                             |
 | -------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------- |

@@ -1,31 +1,24 @@
-## Creating a Dashboard and Adding a Data Source 
+## ダッシュボードを作成してデータソースを追加  
 
-In order to create a new dashboard, you need to select the **+ New**
-button in the top right-hand corner of the initial view, and select the
-**Dashboard** option in the *Create New* menu.
+新しいダッシュボードを作成するには、初期画面の右上端にある **[+ダッシュボード]** ボタンを選択し、*新規作成*メニューの **[ダッシュボード]** オプションを選択する必要があります。
 
 ![AccessNewDashboardMenu\_All](images/create-new-dashboard.png)
 
-### Adding a Data Source
+### データ ソースを追加する
 
-After you select **Dashboard**, you will see the **New Visualization**
-screen pop up. Select the + sign in the top right corner, and then the
-data source in which you stored the the sample datasheet mentioned in
-[this section](Finance-Dashboard-Tutorial.html#sample-datasheet).
+**[ダッシュボード]** を選択すると、**[新しい表示形式]** 画面が表示されます。
+右上隅の [+] 記号を選択してから、[このセクション](Finance-Dashboard-Tutorial.html#sample-datasheet)で言及されたサンプル データシートを保存したデータソースを選択します。
 
 ![creatingnewvisualization\_all](images/creating-new-visualization.png)
 
 >[!NOTE]
->For instructions on how to add a data source for each of the providers, refer to [this topic](~/en/datasources/data-sources.md).
+>各プロバイダーにデータソースを追加する方法については、[このトピック](~/en/datasources/data-sources.md)を参照してください。
 
-When selecting the file in the **Visualization Data** dialog, make sure
-you select the **Sales Dashboard** sheet of the sample spreadsheet.
-Then, select *Load Data*.
+**[表示形式データ]** ダイアログでファイルを選択するときは、必ずサンプル スプレッドシートの **[セールス ダッシュボード]** シートを選択してください。次に、[データの選択] を選択します。
 
 ![SelectingSalesSheet\_All](images/SelectingSalesSheet_All.png)
 
-After loading your data, the [Grid View](~/en/data-visualizations/grid-view.md) will be selected by
-default in the [Visualizations Editor](~/en/data-visualizations/visualizations-editor.md).
+データを読み込んだ後、[グリッド ビュー](~/en/data-visualizations/grid-view.md)は[表示形式エディター](~/en/data-visualizations/visualizations-editor.md)でデフォルトで選択されます。
 
 ![SalesFirstVisualizationGrid\_All](images/SalesFirstVisualizationGrid_All.png)
 
@@ -41,4 +34,4 @@ default in the [Visualizations Editor](~/en/data-visualizations/visualizations-e
 </style>
 
 <a href="sales-dashboard-tutorial.md" class="previous">&laquo; Sales Dashboard</a>
-<a href="sales-selecting-data-visualization.md" class="next">Next Step &raquo;</a>
+<a href="sales-selecting-data-visualization.md" class="next">次へ &raquo;</a>

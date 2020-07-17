@@ -1,33 +1,25 @@
-## Applying Formatting to the First Visualization 
+## はじめての表示形式に書式を適用 
 
-The raw data that you drag and drop into the data editor placeholders
-will not be formatted by default; you will need to modify each field you
-have dragged individually.
+データエディターのプレースホルダーへドラッグアンドドロップした生データはデフォルトでは書式設定されません。ドラッグした各フィールドを変更する必要があります。
 
-### Date Aggregation
+### 日付の集計
 
-In order for your widget to match the sample dashboard's you will need
-to select **Month** in the data editor placeholder, and change the
-**Date Aggregation** to **Month** in the *Field Settings* menu.
+ウィジェットをサンプル ダッシュボードと一致させるには、データ エディターのプレース ホルダーで **[月]** を選択し、[フィールド設定] メニューの **[日付の集計]** を選択する必要があります。
 
 ![ManufacturingDateAggregationChange\_All](images/ManufacturingDateAggregationChange_All.png)
 
-### Formatting for Orders
+### 注文の書式
 
-In order to show numbers with no fractions in the Y axis, you will need
-to modify the formatting for the **Orders** field dropped into the
-Values placeholder of the data editor. Select it, and change **Fraction
-Digits** to 0 under **Formatting** in the *Field Settings* menu.
+Y 軸に分数のない数値を表示するには、データ エディターの値プレース ホルダーにドロップされた **[注文]** フィールドの書式を変更する必要があります。それを選択し、**[フィルド設定]** メニューの **[書式]** で **[小数桁]** を [0] に変更します。
 
 ![ManufacturingFormattingOrders\_All](images/ManufacturingFormattingOrders_All.png)
 
-Once you have finished editing the visualization, select the **tick
-button** in the top right-hand corner to return to the dashboard editor.
+表示形式編集の完了後、右上角の**ティック ボタン**を選択し、ダッシュボード エディターに戻ります。
 
 ![ManufacturingWidgetInDashboardEditor\_All](images/ManufacturingWidgetInDashboardEditor_All.png)
 
 >NOTE
->You can resize any of your visualizations by selecting the visualization and then dragging its corners downwards or to the side.
+>表示形式を選択し、角を下または横にドラッグすると、表示形式のサイズを変更できます。
 
 <style>
 .previous {
