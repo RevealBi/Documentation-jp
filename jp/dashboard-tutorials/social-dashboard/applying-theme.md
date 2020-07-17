@@ -1,12 +1,9 @@
-## Applying a Theme to the Dashboard 
+## ダッシュボードにテーマを適用 
 
-By default, the **Mountain Theme** theme will be applied to your
-dashboard. You can change it by accessing the **Theme** menu in the
-overflow in the top right-hand corner.
+デフォルトで、**Mountain Theme** テーマはダッシュボードに適用されます。右上角のオーバーフローにある **[テーマ]** メニューを選択して変更できます。
 
 
-In this sample, we will use the **Ocean Theme** theme. Select
-**Theme** in the Dashboard editor, and then choose *Ocean Theme* thumbnail.
+このサンプルでは、**Ocean Theme** テーマを使用します。ダッシュボード エディターで、**[テーマ]** を選択し、*Ocean Theme* 項目を選択します。
 
 <style>
 .previous {

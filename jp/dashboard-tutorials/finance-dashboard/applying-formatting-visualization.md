@@ -1,117 +1,86 @@
-## Applying Formatting to the First Visualization
+## はじめての表示形式に書式を適用
 
-The raw data that you drag and drop into the data editor placeholders
-will not be formatted by default; you will need to modify each field you
-have dragged individually. This particular widget displays the average
-2018 stock value for the stock with the highest value (in this case, it
-will be **Globex**). You will need to introduce additional filters to
-select the specific data.
+データ エディターのプレース ホルダーへドラッグアンドドロップした生データはデフォルトでは書式設定されません。ドラッグした各フィールドを変更する必要があります。このウィジェットは、最も高い値の株式の 2018 年の平均株価を表示します (この場合、**Globex** になります)。特定のデータを選択するには、追加のフィルターを導入する必要があります。
 
-### Changing the Aggregation and Formatting for Actual Values
+### 実際の値の集計や書式を変更
 
-In order for your visualization to display the **average** actual values
-for Soylent Corp, you will need to modify the field in the data editor.
-Select **Actual Values** in the **Value** placeholder. Then, change the
-**Aggregation** to **Average** in the *General* menu.
+表示形式に Soylent Corp の**平均**実際値を表示するには、データ エディターでフィールドを変更する必要があります。**値**プレース ホルダーで **[実際値]** を選択します。次に、[一般] 設定 で **[集計]** を **[平均]** に変更します。
 
 ![GlobexValueAggregation\_All](images/GlobexValueAggregation_All.png)
 
-Then, change **Type** to **Currency** under *Formatting*.
+次に、[書式設定] で **[タイプ]** を **[通貨]** に変更します。
 
 ![GlobexValueCurrency\_All](images/GlobexValueCurrency_All.png)
 
-Then, select **Update Field**.
+次に, **[フィールドの更新]** を選択します。
 
-### Adding a Custom Date Range
+### カスタム日付範囲を追加
 
-For this widget, you want to filter the dates to only display 2018 and
-not the complete data range in the original spreadsheet. In order to do
-so, drag and drop the **Date** field into **Data Filters** and, under
-Filter Type, select **Filter by Rule**.
+このウィジェットの場合、日付をフィルタリングし、元のスプレッド シートの完全なデータ範囲ではなく、2018 のみを表示する必要があります。これを行うには、**[日付]** フィールドを **[データ フィルター]** にドラッグアンドドロップし、**[ルールでフィルタリング]** を選択します。
 
 ![GlobexFilterbyRule\_All](images/GlobexFilterbyRule_All.png)
 
-In the new *Rule* menu, select **Custom Date Range**.
+新しい [ルール] メニューで、**[カスタム日付範囲]** を選択します。
 
 ![GlobexFilterCustomDateRange\_All](images/GlobexFilterCustomDateRange_All.png)
 
-Then, enter January 1st through December 31st and select **Create
-Filter**.
+次に、1 月 1 日から 12 月 31 日までを入力し、**[フィルタの作成]** を選択します。
 
 ![GlobexFilteringSpecificCustomDateRange\_All](images/GlobexFilteringSpecificCustomDateRange_All.png)
 
-By now, your visualization should look like the following one:
+これで、表示形式は下のようになります:
 
 ![GlobexResultingVisualizationPartial\_All](images/GlobexResultingVisualizationPartial_All.png)
 
-### Selecting the Highest Value
+### 最高値の選択
 
-Text Gauges only display the value in the first row of your data, but
-you can still filter the data behind it to show the specific row you
-want. Let's take a look at the data behind this visualization. Select
-the **View Data** button in the top right corner of your visualization.
+テキスト ゲージはデータの最初の行の値のみを表示しますが、その後ろのデータをフィルターし、必要な特定の行を表示することもできます。以下はこの表示形式のデータです。表示形式の右上隅にある **[データの表示]** ボタンを選択します。
 
 ![SelectingViewDataGlobex\_All](images/SelectingViewDataGlobex_All.png)
 
-You will see the following table:
+以下のテーブルが表示されます。
 
 ![GlobexViewTableBehindGauge\_All](images/GlobexViewTableBehindGauge_All.png)
 
-In this case, Globex is the stock with the highest average value. In
-order to display it, you will need to introduce an additional filter.
-Drag and drop **Stocks** into **Data Filters** and, in the *Filter Type*
-menu, choose **Select Values**.
+この場合、Globex は平均値が最も高い株です。それを表示するには、追加のフィルターを導入する必要があります。**[株式]** を **[データ フィルター]** にドラッグアンドドロップし、[フィルター タイプ] メニューで **[値の選択]** を選択します。
 
 ![GlobexFilterSelectValues\_All](images/GlobexFilterSelectValues_All.png)
 
-Select **Globex** and then **Create Filter**.
+**Globex** を選択してから、**[フィルターの作成]** を選択します。
 
 ![GlobexFilterSelectOption\_All](images/GlobexFilterSelectOption_All.png)
 
-Your visualization will now look like the following one.
+表示形式は以下のようになります。
 
 ![GlobexAverageStockValue\_All](images/GlobexAverageStockValue_All.png)
 
-If you want to verify that the visualization is displaying the correct
-data, you can once again select **View Data** in the top right-hand
-corner.
+表示形式が正しいデータを表示していることを確認する場合は、右上隅の **[データの表示]** をもう一度選択できます。
 
 <div class="note">
 
-Had the list of stocks been longer, you might not have been able to
-identify the highest value that easily. You can sort your values in
-ascending/descending order to help you out with bigger tables. The
-[Labor](~/en/dashboard-tutorials/manufacturing-dashboard/manufacturing-adding-other-visualizations#labor-cost)
-visualization of the [Manufacturing Dashboard Tutorial](manufacturing-dashboard-tutorial.md) has instructions on how to
-apply it.
+株式のリストが長かった場合、最高値を簡単に特定できなかったかもしれません。
+値を昇順/降順で並べ替え、より大きなテーブルで役立つようにすることができます。
+[マニュファクチャリン グダッシュボード チュートリアル](manufacturing-dashboard-tutorial.md)の[労働](~/en/dashboard-tutorials/manufacturing-dashboard/manufacturing-adding-other-visualizations#labor-cost)の表示形式には、それを適用する方法の説明があります。
 
-### Adding Conditional Formatting
+### 条件付き書式設定を追加
 
-You can add additional information to the visualization in the form of a
-colored indicator, which will indicate where the value of your stock
-stands in a three-value data range you can define yourself.
+色付きのインジケーターの形式で表示形式に追加情報を追加できます。これは、自分で定義できる 3 つの値のデータ範囲で株価がどこにあるかを示します。
 
-Go to the **Settings** section of the Visualizations Editor. You will
-see a **Conditional Formatting** section, which will, by default, have
-the following three ranges configured:
+表示形式エディターの **[設定]** セクションへ移動します。**条件付き書式**セクションが表示されます。このセクションには、デフォルトで次の 3 つの範囲が構成されています。
 
 ![GlobexConditionalFormatting\_All](images/GlobexConditionalFormatting_All.png)
 
-Open any of the dropdowns in order to add indicators and colors to your
-visualization. In this case, we will add a green up arrow for the
-highest range, a yellow line for the mid range, and a red down arrow for
-the lower range. The visualization will be updated to display the
-corresponding indicator.
+表示形式にインジケーターと色を追加するには、ドロップダウンのいずれかを開きます。
+この場合、最高の範囲には緑色の上矢印緑、中程度の範囲には黄色い線、低い範囲には赤色の下矢印を追加します。表示形式が更新され、対応するインジケーターが表示されます。
 
 ![GlobexConditionalFormattingApplied\_All](images/GlobexConditionalFormattingApplied_All.png)
 
-Once you have finished editing the visualization, select the **tick
-button** in the top right-hand corner to return to the dashboard editor.
+表示形式編集の完了後、右上角の**ティック ボタン**を選択し、ダッシュボード エディターに戻ります。
 
 ![FinanceWidgetInDashboardEditor\_All](images/FinanceWidgetInDashboardEditor_All.png)
 
 >[!NOTE]
->You can resize any of your visualizations by selecting the visualization and then dragging its corners downwards or to the side.
+>表示形式を選択し、角を下または横にドラッグすると、表示形式のサイズを変更できます。
 
 <style>
 .previous {

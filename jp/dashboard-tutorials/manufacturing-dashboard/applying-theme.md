@@ -1,22 +1,17 @@
-## Applying a Theme to the Dashboard 
+## ダッシュボードにテーマを適用
 
-By default, the **Mountain Theme** theme will be applied to your
-dashboard. You can change it by accessing the **Theme** menu in the
-overflow in the top right-hand corner.
+デフォルトで、**Mountain Theme** テーマはダッシュボードに適用されます。右上角のオーバーフローにある **[テーマ]** メニューを選択して変更できます。
 
 
-In this sample, we will use the **Ocean Theme** theme. Select
-**Theme** in the Dashboard editor, and then choose *Ocean Theme* thumbnail.
+このサンプルでは、**Ocean Theme** テーマを使用します。ダッシュボード エディターで、**[テーマ]**を選択し、*Ocean Theme* 項目を選択します。
 
-### Changing the Start Color for the Visualization
+### 表示形式の開始色を変更
 
-For your visualization to match the sample widget's color, go to the
-Visualization Editor. Then, go to **Settings** and change the **Start
-Color** to the sixth one.
+表示形式の色をサンプルウィジェットの色とマッチさせるために、表示形式エディターへ移動します。 次に、**[設定]** に移動し、**スタート色** を 6 番目に変更します。
 
 ![ChangingStartColor\_All](images/ChangingStartColor_All.png)
 
-Once you have finished editing the visualization, select the **tick icon** in the top right-hand corner to return to the dashboard editor.
+表示形式編集の完了後、右上角の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。 
 
 <style>
 .previous {
