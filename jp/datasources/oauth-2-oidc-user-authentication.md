@@ -1,127 +1,85 @@
-## OAuth 2 / OIDC User Authentication with REST, OData, and Web Resources
+## REST、OData、および Web リソースを使用した OAuth 2 / OIDC ユーザー認証
 
-When using [OData Service](odata-feed.md), [Rest API](rest-api.md) or [Web resources](web-resource.md), some of your resources might be protected. In
-this case, you need to grant Reveal access to these resources by setting
-up an OAuth 2 / OIDC account.
+[OData サービス](odata-feed.md)、[REST API](rest-api.md)、または [Web リソース](web-resource.md)を使用する場合、リソースの一部が保護される場合があります。この場合、OAuth 2 / OIDC アカウントを設定して、これらのリソースへの Reveal アクセスを許可する必要があります。
 
-### What is OAuth 2?
+### OAuth 2 とは?
 
-OAuth 2.0 is an authorization framework that supersedes the original
-OAuth protocol. It is commonly used to grant users limited access to
-specific resources, without exposing their credentials. Like OAuth 1.0,
-this protocol enables access from one location (third-party application
-or website) called OAuth client to another location with protected data.
+OAuth 2.0 は、元の Oauth プロトコルに代わるアクセス許可フレームワークです。通常、ユーザーの資格情報を公開せずに特定のリソースへの制限付きアクセスを許可します。OAuth 1.0 と同様に、このプロトコルは Oauth クライアントと呼ばれるある場所 (サードパーティのアプリケーションまたは Web サイト) から別の場所へのアクセスを可能にします。
 
-For further information, please refer to
-[OAuth 2.0](https://oauth.net/2/)
+詳細については、[OAuth 2.0](https://oauth.net/2/) を参照してください。
 
-### What is OIDC?
+### OIDC とは?
 
-OIDC is a simple identity layer on top of the OAuth 2.0 protocol. OIDC
-enables websites or applications to grant users access to their content
-by authenticating the user through their account in another service or
-application (е.g. Google, Office 365) saving them the trouble of
-maintaining a bunch of different accounts.
+OIDC は OAuth 2.0 プロトコルの上にあるシンプルな ID レイヤーです。OIDC を利用すると、Web サイトまたはアプリケーションは、別のサービスまたはアプリケーション (Google、Office 365 など) のアカウントを使用してユーザーの認証が可能になり、それをもとにコンテンツへのアクセス許可の制御が可能になります。Web サイトまたはアプリケーション側でさまざまなアカウントを保持する必要がなくなります。
 
-For further information, please refer to [OpenID Connect](https://openid.net/connect/).
+詳細については、[OpenID Connect](https://openid.net/connect/) を参照してください。
 
-### Using protected resources with an OAuth 2 / OIDC Account
+### OAuth 2 / OIDC アカウントで保護されたリソースを使用
 
-To use data sources with an OAuth 2 / OIDC аccount you will need to
-perform these 4 steps:
+OAuth 2 / OIDC アカウントでデータソースを使用するには、以下の 4 つの手順を実行する必要があります。
 
-1.  **Register the OAuth Client** (Reveal) on your resource server (this
-    is the server hosting the resource, protected with OAuth, that you
-    want to use - e.g. Microsoft, Google, etc.)
+1.  **OAuth クライアント (Reveal) をリソースサーバーに登録します** (これは、Microsoft、Google など、使用したい OAuth で保護されたリソースをホストするサーバーです) 。
 
-2.  Choose one of the three **data sources** in Reveal, which are
-    enabled to work with OAuth 2 / OIDC accounts - [OData Service](odata-feed.md), [Rest API](rest-api.md) or [Web Resource](web-resource.md).
+2.  OAuth2 / OIDC アカウントで使用できる Reveal の 3 つの**データソース**の 1 つを選択します - [OData サービス](odata-feed.md)、[Rest API](rest-api.md)、または [Web リソース](web-resource.md)。
 
-3.  Use credentials provided for the Client by the resource server to
-    **set up your OAuth 2 / OIDC account in Reveal**
+3.  リソース サーバーがクライアントに提供した資格情報を使用して、**Reveal で OAuth 2 / OIDC アカウントを設定します**。
 
-4.  **Give Reveal permissions** to access and use your data.
+4.  データにアクセスして使用するための**権限を Reveal に付与します**。
 
-### Registering an OAuth Client
+### OАuth クライアントの登録
 
-Navigate to the **resource server** (e.g. Microsoft, Google, etc.) and
-register Reveal as an OAuth Client/Application by filling in the
-required information. Usually the name of the application and a redirect
-URL are required.
+**リソース サーバー** (Microsoft、Google など) へ移動し、必要な情報を入力して Reveal を Oauth クライアント/アプリケーションとして登録します。通常、アプリケーションの名前とリダイレクト URL が必要です。
 
->[!NOTE]***Redirect URL***.
->Pay attention that the redirect URL is provided in the Reveal's *OAuth 2 / OIDC Account Details* screen.
+>[!NOTE] **リダイレクト URL**。
+>Reveal の *OAuth 2 / OIDC アカウントの詳細画面*にリダイレクト URL が表示されます。
 
-When you complete the registration, the resource server will generate
-the credentials necessary for configuring the *OAuth 2 account* in
-Reveal.
+登録が完了すると、リソース サーバーは Reveal で *OAuth 2 アカウント*を構成するために必要な資格情報を生成します。
 
-### Choosing your data source
+### データソースの選択
 
-1.  Navigate to Reveal and **choose a data source** - *OData Feed*,
-    *Rest API* or *Web Resource*.
+1.  Reveal へ移動し、**データソース (*Odata フィード*、*Rest API* 、または *Web リソース*) を選択します**。
 
-2.  Give this data source a meaningful *Name*.
+2.  このデータソースに意味のある*名前*を付けます。
 
-3.  Provide the *URL* where the data is located.
+3.  データの *URL* を提供します。
 
-4.  Click/tap *Choose an account*.
+4.  *[アカウントの選択]* をクリック/タップします。
 
-    In the following screen that opens you need to select *OAuth 2 / OIDC Credentials* from the **+ Credentials** dropdown menu:
+    次の画面が表示されたら、**[+ 資格情報]** ドロップダウンメニューから *[OAuth 2 / OIDC 資格情報]* を選択します。
 
     ![Accessing OAuth2/OIDC Credentials menu](images/OAuth-2-OIDC-Credentials.png)
 
-### Setting up your OAuth 2 / OIDC account in Reveal
+### Reveal での OAuth 2 / OIDC アカウントの設定
 
-In the *OAuth 2 / OIDC Account Details* screen you will need to fill in
-the credentials that are already generated for Reveal by the resource
-server.
+*OAuth 2 / OIDC アカウントの詳細*画面で、リソース サーバーによって Reveal 用に既に生成された資格情報を入力する必要があります。
 
 ![Required Credentials OAuth Account](images/Required-Credentials-OAuth-Account.png)
 
-The following fields are mandatory:
+以下のフィールドは必須です。
 
-1.  **Default name** of the data source: Your data source name will be displayed in the list of accounts (this is not a credential provided by the resource server). You can change the name given by default to your preference by selecting the pencil icon.
- 
-2.  the name for your data source account. It will be
-    displayed in the list of accounts 
+1.  **名前**: データソース アカウントの名前。アカウントのリストに表示されます (リソース サーバーが提供する資格情報ではありません)。
 
-3.  **Authenticate Url**: The authenticate URL is usually in a format
-    such as: <https://authorization-server.com/oauth2/authorize> (e.g.
-    <https://login.microsoftonline.com/common/oauth2/authorize>).
+2.  **URL 認証**: 認証 URL は通常、次のような形式です。 <https://authorization-server.com/oauth2/authorize> (例: <https://login.microsoftonline.com/common/oauth2/authorize>)。
 
-4.  **Token Url**: The format of the token url is similar to the one of
-    the authenticate url (e.g.
-    <https://login.microsoftonline.com/common/oauth2/token>).
+3.  **トークン Url**: トークン URLの形式は認証 URL の形式と同様です (例: <https://login.microsoftonline.com/common/oauth2/token>)。
 
-5.  **Client ID**: The Client ID is the identifier for your app
-    (Reveal). Its format is a random combination of symbols. You will
-    receive a Client ID when you first register Reveal as an OAuth
-    Client.
+4.  **クライアント ID**: クライアント ID はアプリ (Reveal) の識別子です。その形式は、シンボルのランダムな組み合わせです。Reveal を OAuth クライアントとして最初に登録するときにクライアント ID を受け取ります。
 
-Other fields are not marked as mandatory in Reveal but depending on your
-OAuth service you might also need to provide the following:
+その他のフィールドは Reveal で必須としてマークされませんが、OAuth サービスに応じて以下を提供する必要があります。
 
-*  **Client Secret**: The client secret is used as additional
-    protection. Its format is a random combination of symbols.
+*  **クライアント シークレット**: クライアント シークレットは追加の保護として使用されます。その形式は、シンボルのランダムな組み合わせです。
 
-*  **Scope**: Scope values are used to request additional levels of
-    access. The values will depend on the particular service.
+*  **スコープ**: スコープ値は、追加のアクセス レベルを要求するために使用されます。値は特定のサービスに依存します。
 
-*  **Resource**: Here you need to input the url to the service, which
-    hosts the protected data (e.g.
-    <https://infragisticsinc297.sharepoint.com>)
+*  **リソース**: ここで、保護されたデータをホストするサービス (例: <https://infragisticsinc297.sharepoint.com>) に URL を入力する必要があります。
 
-### Giving Reveal permissions to access and use your data
+### Reveal にデータにアクセスして使用する許可を与える
 
-After configuring the OAuth 2 / OIDC account you will be redirected to a
-sign-in screen.
-After signing in, you will be asked to allow Reveal to use your data:
+OAuth 2 / OIDC アカウントを構成した後、サインイン画面にリダイレクトされます。
+サインイン後、Reveal にデータの使用を許可するよう求められます。
 
 ![Permissions Request dialog](images/permissions-request.png)
 
-After giving the required permissions you can use the data in the
-protected data source to build your visualizations and dashboards in Reveal.
+必要なアクセス許可を与えた後、保護されたデータソースのデータを使用して、Reveal で表示形式とダッシュボードを構築できます。
 
-The OAuth 2 / OIDC account you configured will be saved in the data
-source list of accounts for future use.
+構成した OAuth 2 / OIDC アカウントは、今後使用するためにアカウントのデータソース リストに保存されます。

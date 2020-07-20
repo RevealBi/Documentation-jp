@@ -1,60 +1,42 @@
 ## Microsoft Reporting Services
 
-You can now use your existing Microsoft Reporting Services (SSRS)
-reports in Reveal by embedding them as PDF files in your dashboards or
-simply getting the data from the reports to create a visualization.
+既存の Microsoft Reporting Services (SSRS) レポートをダッシュボードに PDF ファイルとして埋め込むか、レポートからデータを取得して表示形式を作成して、Reveal で使用できます。
 
-### Configuring a Microsoft Reporting Data Source
+### Microsoft Reporting データソースの構成
 
-To configure a Microsoft Reporting Services (SSRS) Data Source, you will
-need to enter the following information:
+Microsoft Reporting Services (SSRS) データソースを構成するには、以下の情報が必要です。
 
 ![Set up menu for Microsoft Reporting Services data source](images/ssrs-configuration.png)
 
-1.  **Default name** of the data source: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Reveal names it *Microsoft Reporting Services*. You can change it to your preference.
+1.  **データ ソース名**: データソースは以前のダイアログのアカウントのリストに表示されます。By default, Reveal names it *Microsoft Reporting Services*. You can change it to your preference.
 
-2.  **URL**: the URL to the server.
+2.  **URL**: サーバーの URL。
 
-3.  **Connection Mode**: depending on your server's settings, you can
-    choose:
+3.  **接続モード**: サーバー設定に基づいて以下のいずれかを選択できます。
 
-      - **Native** - this is the default mode for report server
-        instances. In native mode, a report server is a stand-alone
-        application server that provides all viewing, management,
-        processing and delivery of reports and report models, or
+      - **ネイティブ**: レポート サーバー インスタンスのデフォルト モード。ネイティブ モードでは、レポート サーバーはスタンドアロン アプリケーション サーバーで、レポートとレポート モデルのすべてのビュー、管理、処理、配信を提供します。
 
-      - **Integrated** - in a SharePoint integrated mode, a report
-        server must run within a SharePoint server farm.
+      - **統合**: SharePoint 統合モードでは、レポート サーバーは SharePoint サーバー ファーム内で実行する必要があります
 
-4.  **Credentials**: a new dialog will be displayed. You can either
-    enter new credentials for Microsoft Reporting Services or select
-    existing ones if applicable.
+4.  **資格情報**: 新しいダイアログが表示されます。Microsoft Reporting Services サーバーの新しい資格情報を入力、または既存の情報を入力します
 
-### Advanced Configuration: Working with Microsoft Reporting Services
+### 高度な設定: Microsoft Reporting Services で作業する
 
-After configuring the connection to your Microsoft Reporting Services
-reports, the following dialog will open, prompting you to choose a
-Report:
+Microsoft Reporting Services レポートへの接続を構成した後、以下のダイアログが開き、レポートの選択を促されます。
 
 ![Select a Report dialog](images/select-report-dialog.png)
 
-The order of reports and folders closely resembles the one in your
-Microsoft Reporting Services account.
+レポートとフォルダーの順序は、Microsoft Reporting Services アカウントの順序とよく似ています。
 
-Depending on your data, you will need to configure specific
-**parameters** for your Reports, as shown below:
+データに応じて、以下に示すようにレポートの特定の**パラメーター**を構成する必要があります。
 
 ![Set up parameters and choose an output format dialog](images/multiple-selection-parameters.png)
 
-After selecting/filling the parameters for your report, you can choose
-the format in which the report will load in the *Visualization editor*:
+レポートのパラメーターを選択/入力した後、レポートを*表示形式エディター*に読み込む形式を選択できます。
 
-  - *Load as PDF* - You will have your report embedded as a PDF document
-    in the visualization editor. You will be able to scroll, zoom,
-    download or print the pdf inside the Visualization editor.
+  - *[PDF として読み込み]* - レポートを PDF ドキュメントとして表示形式エディターに埋め込みます。表示形式エディター内で PDF をスクロール、ズーム、ダウンロード、または印刷できます。
 
-  - *Load Data* - Your report data will be loaded in the standard
-    format, providing you with fields to build your visualization.
+  - *[データの読み込み]* - レポートのデータは標準形式で読み込まれ、表示形式を作成するためのフィールドを提供します。
 
->[!NOTE] **Editing the Data Source in the Visualization editor.**
->Carefully choose the report format (pdf or data) because once loaded, you will not be able to change it. When you *Edit* your data source, you will only be able to change the configuration of the report's parameters.
+>[!NOTE] **表示形式エディターでデータソースを編集**
+>読み込み後は変更できないため、レポート形式 (pdf または data) を選択してください。データソースを*編集する*場合、レポートのパラメーターの構成のみ変更できます。

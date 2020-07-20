@@ -1,120 +1,95 @@
-## Team Collaboration and Privacy
+## チームのコラボレーションとプライバシー
 
-*Teams* facilitates effective collaboration on dashboards between any
-group of Reveal users while also ensuring a high level of security for
-dashboards with sensitive information.
+チームは、Reveal ユーザーのグループ間でダッシュボードでの効果的なコラボレーションを促進し、機密情報を含むダッシュボードの高レベルのセキュリティを確保します。
 
-With Teams in Reveal, you can:
+Reveal チームの機能:
 
   - Organize your group's work in a **team's dashboards** section -
     create and share dashboards directly with other members, view and
     edit their dashboards.
 
-  - [**Share**](~/en/dashboards/sharing-dashboards/share-a-dashboard.md) your team's dashboards with other teams and users in Reveal.
+  - グループの作業を**チームのダッシュボード**セクションで整理 - ダッシュボードを作成して他のメンバーと直接共有し、メンバーのダッシュボードを表示および編集します。
 
-  - Assign every team member to one of [**three members' roles**](#members-roles-permissions) with distinct access level to safeguard dashboards with sensitive information.
+  - チームのダッシュボードを他のチームや Reveal のユーザーと[**共有します**](~/jp/sharing-dashboards/sharing-dashboards.md)。
 
-  - Bring different departments and employees from across an
-    organization working together in an automatically created
-    [**Organization repository**](#organization-team).
+  - すべてのチーム メンバーを個別のアクセス レベルを持つ [**3 つのメンバー役割**](#members-roles-permissions)の 1 つに割り当て、機密情報を含むダッシュボードを保護します。
 
-  - **Discover other teams** that include members who belong to your Organization team.
+  - 組織全体のさまざまな部署や従業員が自動的に作成された[**組織リポジトリ**](#organization-team)で共同で作業できます。
 
-### Accessing Your Teams
+  - 組織チームに所属するメンバーを含む**他のチームを検索します**。
 
-To access your teams click/tap on the popover menu next to the *Reveal* icon:
+### チームへのアクセス
+
+チームにアクセスするには、*Reveal* アイコンの隣のポップオーバー メニューをクリック/タップします。
 
 ![Accessing teams popover menu](images/accessing-teams-menu.png)
 
-You will find a list of your teams under *My Stuff* in the popover menu.
+ポップオーバー メニューの [アイテム] の下にチームのリストがあります。
 
 <a name='organization-team'></a>
-### The Organization Repository
+### 組織リポジトリ
 
-Reveal creates the Organization repository automatically when a member
-of your organization logs in for the first time with Office365. Members
-need to log in with their organization's email to be associated with an
-organization and added to the Organization repository.
+組織のメンバーが Office365 で最初にログインすると、Reveal は組織リポジトリを自動的に作成します。メンバーは、組織のメール アドレスでログインして組織に関連付け、組織リポジトリに追加する必要があります。 
 
-You will find the Organization team in the teams' list under *My Stuff*.
-This team is named after your organization.
+組織チームは [アイテム] の下のチーム リストにあります。このチームは、組織と同じ名前になります。
 
-Unlike other teams, only [Owners](#members-roles-permissions) can create
-and add dashboards to the Organization repository. Only key members in
-your organization will be given the owner's role. This limitation
-ensures that dashboards in the Organization team contain accurate and
-trustworthy data.
+他のチームとは異なり、[管理者](#members-roles-permissions)のみがダッシュボードを作成して組織リポジトリに追加できます。組織のキー メンバーのみに管理者のロールが付与されます。この制限により、組織チームのダッシュボードに正確で信頼できるデータが含まれるようになります。
 
 <a name='team-privacy-levels'></a>
-### Team Privacy Levels
+### チームのプライバシー レベル
 
-When creating a team, you can select the level of privacy you want it to
-have:
+チームを作成するときに、プライバシー レベルを選択できます。
 
-  - **Public**: any member of your main Organization team can search and
-    join your team.
+  - **公開**: メイン組織チームのメンバーはチームを検索して参加できます。
 
-  - **Private**: your team won't be found in search results. Users can
-    only join it if they get invitations.
+  - **非公開**: チームが検索結果に表示されません。ユーザーは招待を受け取った場合のみ参加できます。
 
 <a name='members-roles-permissions'></a>
-### Members' Roles and Permissions
+### メンバーのロールとアクセス許可
 
-There are three types of team members in Reveal:
+Reveal には 3 種類のチーム メンバーがあります。
 
-  - **Owners**
+  - **管理者**
 
-  - **Members**
+  - **メンバー**
 
-  - **Viewers**
+  - **閲覧者**
 
-The process of assigning these roles in the Organization team differ
-from other teams. Below, you will find this process explained as well as
-two reference tables illustrating members' permissions in the
-Organization and in other teams.
+組織チームでこれらのロールを割り当てるプロセスは、他のチームとは異なります。以下に、このプロセスの説明と、組織および他のチームのメンバーのアクセス許可を示す 2 つの参照表を示します。
 
-#### Organization Repository - Assigning Members' Roles and Permissions
+#### 組織リポジトリ - メンバーのロールおよびアクセス許可の割り当て
 
-The first user from an organization, who signs in Reveal, is given the
-role of **owner** of the Organization repository. As other users from
-the same organization log in they will also be added as owners. After an
-owner assigns someone(s) as a **viewer** or a **member** for the first
-time, all new users that sign in will be added as members, not owners.
+Reveal にサインインする組織の最初のユーザーには、組織リポジトリの**管理者**のロールが与えられます。同じ組織の他のユーザーがログインすると、そのユーザーも管理者として追加されます。管理者が初めて誰かを**閲覧者**または**メンバー**として割り当てた後、サインインするすべての新しいユーザーがメンバーとして追加されます。
 
-The following table shows the different permissions of members in the
-Org team:
+以下の表は、組織チームのメンバーのさまざまなアクセス許可を示しています。
 
-| PERMISSION                                                      | Owner                                   | Member                                  | Viewer                                  |
+| 許可                                                      | 管理者                                   | メンバー                                  | 閲覧者                                  |
 | --------------------------------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| Can view **dashboards**                                         | <span style="color: #007F00">Yes</span> | <span style="color: #007F00">Yes</span> | <span style="color: #007F00">Yes</span> |
-| Can create **dashboards** in the Org repository                 | <span style="color: #007F00">Yes</span> | <span style="color: #FF0000">No</span>  | <span style="color: #FF0000">No</span>  |
-| Can share **dashboards** outside the Org with edit permissions  | <span style="color: #007F00">Yes</span> | <span style="color: #FF0000">No</span>  | <span style="color: #FF0000">No</span>  |
-| Can share **dashboards** outside the Org with view permissions  | <span style="color: #007F00">Yes</span> | <span style="color: #007F00">Yes</span> | <span style="color: #007F00">Yes</span> |
-| Can manage **members** in the Organization repository           | <span style="color: #007F00">Yes</span> | <span style="color: #FF0000">No</span>  | <span style="color: #FF0000">No</span>  |
-| Can invite **members** to the Org                               | <span style="color: #007F00">Yes</span> | <span style="color: #FF0000">No</span>  | <span style="color: #FF0000">No</span>  |
-| Can join **public teams** as a member                           | <span style="color: #007F00">Yes</span> | <span style="color: #007F00">Yes</span> | <span style="color: #007F00">Yes</span> |
-| Can view **private teams**                                      | <span style="color: #FF0000">No</span>  | <span style="color: #FF0000">No</span>  | <span style="color: #FF0000">No</span>  |
-| Can create their own public or private team in the organization | <span style="color: #007F00">Yes</span> | <span style="color: #007F00">Yes</span> | <span style="color: #FF0000">No</span>  |
+| **ダッシュボード**を表示できます。                                         | <span style="color: #007F00">〇</span> | <span style="color: #007F00">〇</span> | <span style="color: #007F00">〇</span> |
+| 組織リポジトリに**ダッシュボード**を作成できます。                 | <span style="color: #007F00">〇</span> | <span style="color: #FF0000">x</span>  | <span style="color: #FF0000">x</span>  |
+| 組織外で**ダッシュボード**を編集権限で共有できます。  | <span style="color: #007F00">〇</span> | <span style="color: #FF0000">x</span>  | <span style="color: #FF0000">x</span>  |
+| 組織外で**ダッシュボード**を表示権限で共有できます。  | <span style="color: #007F00">〇</span> | <span style="color: #007F00">〇</span> | <span style="color: #007F00">〇</span> |
+| 組織リポジトリで**メンバー**を管理できます。           | <span style="color: #007F00">〇</span> | <span style="color: #FF0000">x</span>  | <span style="color: #FF0000">x</span>  |
+| 組織に**メンバー**を招待できます。                              | <span style="color: #007F00">〇</span> | <span style="color: #FF0000">x</span>  | <span style="color: #FF0000">x</span>  |
+| **公開チーム**にメンバーとして参加できます。                           | <span style="color: #007F00">〇</span> | <span style="color: #007F00">〇</span> | <span style="color: #007F00">〇</span> |
+| **非公開チーム**を表示できます。                                      | <span style="color: #FF0000">x</span>  | <span style="color: #FF0000">x</span>  | <span style="color: #FF0000">x</span>  |
+| 組織内に独自の公開または非公開チームを作成できます。 | <span style="color: #007F00">〇</span> | <span style="color: #007F00">〇</span> | <span style="color: #FF0000">x</span>  |
 
-#### Teams - Assigning Members' Roles and Permissions
+#### チーム - メンバーのロールおよびアクセス許可の割り当て
 
-When a user creates a team, they are the owner of that team and can
-distribute levels of permissions there. The owner invites new members to
-their team and assigns their roles.
+ユーザーがチームを作成すると、ユーザーはそのチームの管理者であり、そこにアクセス許可のレベルを分散できます。管理者は新しいメンバーをチームに招待し、ロールを割り当てます。
 
-The table below shows what permissions members of teams different from
-the Organization team have.
+以下の表は、組織チームとは異なるチームのメンバーが持つアクセス許可を示しています。
 
-| PERMISSION                                                      | Owner                                   | Member                                  | Viewer                                  |
+| 許可                                                      | 管理者                                   | メンバー                                  | 閲覧者                                  |
 | --------------------------------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| Can view **dashboards**                                         | <span style="color: #007F00">Yes</span> | <span style="color: #007F00">Yes</span> | <span style="color: #007F00">Yes</span> |
-| Can create **dashboards** in the team                           | <span style="color: #007F00">Yes</span> | <span style="color: #007F00">Yes</span> | <span style="color: #FF0000">No</span>  |
-| Can share **dashboards** outside the team with edit permissions | <span style="color: #007F00">Yes</span> | <span style="color: #007F00">Yes</span> | <span style="color: #FF0000">No</span>  |
-| Can share **dashboards** outside the team with view permissions | <span style="color: #007F00">Yes</span> | <span style="color: #007F00">Yes</span> | <span style="color: #007F00">Yes</span> |
-| Can manage team **members**                                     | <span style="color: #007F00">Yes</span> | <span style="color: #FF0000">No</span>  | <span style="color: #FF0000">No</span>  |
-| Can invite **members** to the team                              | <span style="color: #007F00">Yes</span> | <span style="color: #FF0000">No</span>  | <span style="color: #FF0000">No</span>  |
-| Can join **public teams** as a member                           | <span style="color: #007F00">Yes</span> | <span style="color: #007F00">Yes</span> | <span style="color: #007F00">Yes</span> |
-| Can view **private teams**                                      | <span style="color: #FF0000">No</span>  | <span style="color: #FF0000">No</span>  | <span style="color: #FF0000">No</span>  |
+| **ダッシュボード**を表示できます。                                         | <span style="color: #007F00">〇</span> | <span style="color: #007F00">〇</span> | <span style="color: #007F00">〇</span> |
+| チームで**ダッシュボード**を作成できます。                           | <span style="color: #007F00">〇</span> | <span style="color: #007F00">〇</span> | <span style="color: #FF0000">x</span>  |
+| チームの外部で編集権限の**ダッシュボード**を共有できます。 | <span style="color: #007F00">〇</span> | <span style="color: #007F00">〇</span> | <span style="color: #FF0000">x</span>  |
+| チームの外部で表示権限の**ダッシュボード**を共有できます。 | <span style="color: #007F00">〇</span> | <span style="color: #007F00">〇</span> | <span style="color: #007F00">〇</span> |
+| チームの**メンバー**を管理できます。                                    | <span style="color: #007F00">〇</span> | <span style="color: #FF0000">x</span>  | <span style="color: #FF0000">x</span>  |
+| チームに**メンバー**を招待できます。                              | <span style="color: #007F00">〇</span> | <span style="color: #FF0000">x</span>  | <span style="color: #FF0000">x</span>  |
+| **公開チーム**にメンバーとして参加できます。                           | <span style="color: #007F00">〇</span> | <span style="color: #007F00">〇</span> | <span style="color: #007F00">〇</span> |
+| **非公開チーム**を表示できます。                                      | <span style="color: #FF0000">x</span>  | <span style="color: #FF0000">x</span>  | <span style="color: #FF0000">x</span>  |
 
-If you want to know more about managing teams' and Organization
-repository's properties and members, please read the [Managing Teams](managing-your-team.md) topic.
+チームおよび組織リポジトリのプロパティとメンバーの管理の詳細については、[「チームの管理」](managing-your-team.md)トピックを参照してください。

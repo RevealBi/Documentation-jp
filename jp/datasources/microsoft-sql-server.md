@@ -1,101 +1,80 @@
-## Microsoft SQL Server
+## Microsoft SQL サーバー
 
-To configure a Microsoft SQL Server data source, you can set the following information:
+Microsoft SQL サーバーデータソースを構成するには、以下の情報が必要です。
 
 ![Enter SQL Server Details](images/Enter-SQL-Server-Details.png)
 
-1.  **Default name** of the data source: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Reveal names it *Microsoft SQL Server*. You can change it to your preference.
+1.  **データ ソース名**: データソースは以前のダイアログのアカウントのリストに表示されます。By default, Reveal names it *Microsoft SQL Server*. You can change it to your preference.
 
-2.  [**Server**](#how-to-find-server): the computer name or IP address
-    assigned to the computer on which the server is running.
+2.  [**サーバー**](#how-to-find-server): コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 
-3.  **Port**: if applicable, the server port details. If no information
-    is entered, Reveal will connect to the port in the hint text (1433)
-    by default.
+3.  **ポート**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Reveal はデフォルトでヒント テキスト (1433) のポートに接続します。
 
-4.  **Credentials**: after selecting *Credentials*, you will be able to enter the credentials for your Microsoft SQL Server or choose existing ones if applicable.
+4.  **資格情報**: *資格情報*を選択した後、Microsoft SQL Server の資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます
 
-      - **Name**: the name for your data source account. It will be
-        displayed in the list of accounts in the previous dialog.
+      - **名前**: データソース アカウントの名前。以前のダイアログのアカウントのリストに表示されます。
 
-      - *(Optional)* **Domain**: the name of the domain, if applicable.
+      - *(オプション)* **ドメイン**: ドメイン名 (適用可能な場合)。
 
-      - **Username**: the user account for the SQL Server.
+      - **ユーザー名**: SQL サーバーのユーザー アカウント
 
-      - **Password**: the password to access the SQL Server.
+      - **パスワード**: SQL サーバーのパスワード
 
-    Once ready, select **Create Account**. You can verify whether the
-    account is reaching the data source or not by selecting **Test
-    Connection**.
+    準備ができたら、**アカウントの作成**を選択します。**[接続テスト]**を選択すると、アカウントがデータソースに到達しているかどうかを確認できます。
 
 <a name='how-to-find-server'></a>
-### How to find your Server Information
+### サーバー情報を見つける方法
 
-You can find your server by following the steps below. Please note that
-the commands should be executed on the server.
+以下の手順でサーバーの確認ができます。コマンドはサーバーで実行する必要があることに注意してください。
 
 | WINDOWS                                                                                                         | LINUX                                                                                                         | MAC                                                                  |
 | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| 1\. Open the File Explorer.                                                                                     | 1\. Open a Terminal.                                                                                          | 1\. Open System Preferences.                                         |
-| 2\. Right Click on My Computer \> Properties.                                                                   | 2\. Type in **$hostname**                                                                                     | 2\. Navigate to the Sharing Section.                                 |
-| Your Hostname will appear as "Computer Name" under the *Computer name, domain and workgroups settings* section. | Your Hostname will appear along with your DNS domain name. Make sure you only include the **Hostname** in Reveal. | Your Hostname will be listed under the "Computer Name" field on top. |
+| 1\. ファイル エクスプローラーを開きます。                                                                                     | 1\. ターミナルを開きます。                                                                                          | 1\. システム環境設定を開きます。                                         |
+| 2\. マイコンピューターを右クリックしてプロパティを表示します。                                                                   | 2\. **$hostname** と入力します。                                                                                   | 2\. 共有セクションへ移動します。                                 |
+| ホスト名は、「コンピューター名、ドメイン、ワークグループ設定」の下にコンピューター名として表示されます。 | ホスト名と DNS ドメイン名が表示されます。Reval では**ホスト名**のみを含めることに注意してください。 | ホスト名は、上部の「コンピューター名」の下に表示されます。 |
 
-You can find your *IP address* by following the steps below. Please note
-that the commands should be executed on the server.
+以下の手順で *IP アドレス*も確認できます。コマンドはサーバーで実行する必要があることに注意してください。
 
 | WINDOWS                              | LINUX                             | MAC                                                           |
 | ------------------------------------ | --------------------------------- | ------------------------------------------------------------- |
-| 1\. Open a Command Prompt.           | 1\. Open a Terminal.              | 1\. Launch your Network app.                                  |
-| 2\. Type in **ipconfig**             | 2\. Type in **$ /bin/ifconfig**   | 2\. Select your connection.                                   |
-| **IPv4 Address** is your IP address. | **Inet addr** is your IP address. | The **IP Address** field will have the necessary information. |
+| 1\. コマンド プロンプトを開きます。           | 1\. ターミナルを開きます。              | 1\. ネットワーク アプリケーションを起動します。                                  |
+| 2\. **ipconfig** と入力します。             | 2\. **$ /bin/ifconfig** と入力します。   | 2\. 接続を選択します。                                   |
+| **IPv4 アドレス** はあなたの IP アドレスです。 | **Inet addr** はあなたの IP アドレスです。 | **IP アドレス** フィールドに必要な情報が提供されます。 |
 
 <a name='working-with-views'></a>
-### Working with Views
+### ビューの作業
 
-With Reveal, you can retrieve SQL Server data from entire tables, but
-you can also select a particular
-[view](https://docs.microsoft.com/en-us/sql/relational-databases/views/views?view=sql-server-2017)
-that returns a subset of data from a table or a set of tables instead.
+Reveal を使用すると、テーブル全体から SQL Server データを取得できますが、代わりにテーブルまたはテーブルのセットからデータのサブセットを返す、特定の[ビュー](https://docs.microsoft.com/ja-jp/sql/relational-databases/views/views?view=sql-server-2017)を選択することもできます。
 
 ![SQLServerViews\_All](images/SQLServerViews_All.png)
 
-In the sample above, the **Alphabetical list of products** view contains
-part of the data in the **Products** table in the SQL Server.
+上記のサンプルでは、**Alphabetical list of products** ビューに SQL サーバーの **Products** テーブルのデータの一部が含まれています。
 
 ![AlphabeticalListProductsSQLServer\_All](images/AlphabeticalListProductsSQLServer_All.png)
 
-For more information on views and MS SQL Server, visit [this documentation website](https://docs.microsoft.com/en-us/sql/relational-databases/views/views?view=sql-server-2017).
+ビューおよび MS SQL サーバーの詳細については、[この Web サイト](https://docs.microsoft.com/ja-jp/sql/relational-databases/views/views?view=sql-server-2017)を参照してください。
 
-### Working with Stored Procedures
+### ストアド プロシージャの作業
 
-In MS SQL, stored procedures allow users to run a set of query
-statements in a relational database with specific parameters. The
-following are just a set of sample stored procedures running in a test
-server with
-[Northwind](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases)
-data:
+MS SQL では、ストアド プロシージャを利用することで、特定のパラメーターを使用して、リレーショナル データベースで一連のクエリ ステートメントを実行できます。以下は、[Northwind](https://docs.microsoft.com/ja-jp/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases) データを使用してテスト サーバーで実行されるサンプル ストアド プロシージャのセットです。
 
 ![SQLStoredProcedures\_All](images/SQLStoredProcedures_All.png)
 
-This stored procedure, for example, returns the products in the
-**Products** table ordered by their **Unit Price**. The **ProductName**
-has been renamed to **TenMostExpensiveProducts**.
+たとえば、このストアド プロシージャは、**Products** テーブルの製品を、**Unit Price** で並べ替えて返します。  **ProductName** の名前は、**TenMostExpensiveProducts** に変更されました。
 
 ![StoredProcedureSampleResults\_All](images/StoredProcedureSampleResults_All.png)
 
-In this case, the stored procedure requires users to configure the start and end date to display the **Sales by Year** information.
+この場合、ストアド プロシージャは、**Sales by Year** 情報を表示するための開始日と終了日を設定する必要があります。
 
 ![StoredProcedureSampleDates\_All](images/Stored-Procedure-Sample-Dates.png)
 
-For more information on Stored Procedures and MS SQL Server, visit [this documentation website](https://docs.microsoft.com/en-us/sql/relational-databases/stored-procedures/stored-procedures-database-engine?view=sql-server-2017).
+ストアドプロシージャおよび MS SQL サーバーの詳細については、[この Web サイト](https://docs.microsoft.com/ja-jp/sql/relational-databases/stored-procedures/stored-procedures-database-engine?view=sql-server-2017)を参照してください。
 
-#### Limitations for Stored Procedures in Reveal
+#### Reveal ストアド プロシージャの制限
 
 
-  - For stored procedures that return more than one result set, Reveal
-    displays only the first one.
+  - 複数の結果セットを返すスト アドプロシージャの場合、最初の結果のみが表示されます。
 
-  - [Output parameters](https://docs.microsoft.com/en-us/sql/connect/jdbc/using-a-stored-procedure-with-output-parameters?view=sql-server-2017)
-    in stored procedures are ignored.
+  - ストアド プロシージャの[出力パラメーター](https://docs.microsoft.com/ja-jp/sql/connect/jdbc/using-a-stored-procedure-with-output-parameters?view=sql-server-2017)は無視されます。
 
-  - Stored procedures that return no result sets will be listed in the Data Sources list but will fail.
+  - 結果セットを返さないストアド プロシージャはデータソース リストに表示されますが、失敗します。

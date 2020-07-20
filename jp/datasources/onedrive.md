@@ -1,36 +1,31 @@
 ## OneDrive
 
-If you sign in with your Office365 account, you will have your OneDrive automatically added to your data sources. Otherwise, read how to add a new data source in [this topic](creating-new-datasource.md).
+Office365 アカウントでサインインしている場合、OneDrive が自動的にデータソースに追加されます。それ以外の場合は、[このトピック](creating-new-datasource.md)の新しいデータソースを追加する方法を参照してください。
 
-To use your OneDrive data, follow the steps below.
+OneDrive データを使用するには、以下の手順を実行します。
 
-1.  Upon selecting your OneDrive, you will see the following prompt:
+1.  OneDrive を選択すると、以下のログイン プロンプトが表示されます。
 
     ![One Drive Login](images/OneDriveLogin_All.png)
 
-    Enter your **account and password** and select "Sign in".
+    **アカウント名とパスワード**を入力し、[サインイン] をクリックします。
 
-2.  You will then be notified that you will need to give some **limited permissions** to Reveal so that it can use your OneDrive data.
+2.  OneDrive データを使用するには、Reveal に**制限付きのアクセス許可**を与える必要があることが通知されます。
 
     ![Reveal notification for giving permissions to the app](images/notification-limited-permissions.png)
 
-    By clicking *Continue*, you will be redirected to an **authorization prompt**:
+    [続行] をクリックすると、**認証プロンプト**が表示されます。
 
     ![Limited permissions request Microsoft dialog](images/limited-permissions-onedrive_all.png)
 
-3.  Select *Allow* to authorize Reveal to use (read and maintain access
-    to) your OneDrive files.
+3.  [許可] を選択して、OneDrive ファイルの使用 (読み取りとアクセスの維持) を Reveal に許可します。
 
-You can now use your OneDrive data to build your visualizations and will
-not be asked for these permissions again.
+OneDrive データを使用して表示形式を作成できます。以降、これらのアクセス許可は要求されません。
 
-### Supported Files
+### サポートされるファイル
 
-When working within Reveal, you will be able to use a wide variety of
-files:
+Reveal では、広範な種類のファイルを使用できます。
 
-  - **Spreadsheets**: Excel (.xls, .xlsx) or CSV, which you can use
-    dynamically within Reveal.
+  - **スプレッドシート**: Excel (.xls, .xlsx) または CSV (Reveal 内で動的に使用できます)。
 
-  - **Other files** (including images or document files such as PDFs,
-    texts, etc.), which will be displayed in a preview mode only.
+  - **その他のファイル**: プレビューモードのみで表示されます (画像および PDF やテキストなどのドキュメント ファイルを含む)。

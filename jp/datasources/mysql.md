@@ -1,70 +1,55 @@
 ## MySQL
 
-To configure a MySQL server data source, you will need to enter the
-following information:
+MySQL サーバーデータソースを構成するには、以下の情報が必要です。
 
 ![Enter MySQL Server Details dialog](images/enter-mySQL-server-details.png)
 
-1.  **Default name** of the data source: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Reveal names the data source *MySQL*. You can change it to your preference.
+1.  **データ ソース名**: データソースは以前のダイアログのアカウントのリストに表示されます。By default, Reveal names the data source *MySQL*. You can change it to your preference.
 
 
-2. [**Server**](#how-to-find-server): the computer name or IP address
-    assigned to the computer on which the server is running.
+2. [**サーバー**](#how-to-find-server): コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 
-3.  **Port**: if applicable, the server port details. If no information
-    is entered, Reveal will connect to the port in the hint text (3306)
-    by default.
+3.  **ポート**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Reveal はデフォルトでヒント テキスト (3306) のポートに接続します。
 
-4.  **Credentials**: after selecting *Credentials*, you will be able to
-    enter the credentials for your MySQL server or choose existing ones
-    if applicable.
+4.  **資格情報**: *資格情報*を選択した後、MySQL サーバーの資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
 
-      - **Name**: the name for your data source account. It will be
-        displayed in the list of accounts in the previous dialog.
+      - **名前**: データソース アカウントの名前。以前のダイアログのアカウントのリストに表示されます。
 
-      - *(Optional)* **Domain**: the name of the domain, if applicable.
+      - *(オプション)* **ドメイン**: ドメイン名 (適用可能な場合)。
 
-      - **Username**: the user account for the MySQL server.
+      - **ユーザー名**: MySQL サーバーのユーザー アカウント
 
-      - **Password**: the password to access the MySQL server.
+      - **パスワード**: MySQL サーバーのパスワード
 
-    Once ready, select **Create Account**. You can verify whether the
-    account is reaching the data source or not by selecting **Test
-    Connection**.
+    準備ができたら、**アカウントの作成**を選択します。**[接続テスト]**を選択すると、アカウントがデータソースに到達しているかどうかを確認できます。
 
 <a name='how-to-find-server'></a>
-### How to find your Server Information
+### サーバー情報を見つける方法
 
-You can find your server by following the steps below. Please note that
-the commands should be executed on the server.
+以下の手順でサーバーも確認できます。コマンドはサーバーで実行する必要があることに注意してください。
 
 | WINDOWS                                                                                                         | LINUX                                                                                                         | MAC                                                                  |
 | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| 1\. Open the File Explorer.                                                                                     | 1\. Open a Terminal.                                                                                          | 1\. Open System Preferences.                                         |
-| 2\. Right Click on My Computer \> Properties.                                                                   | 2\. Type in **$hostname**                                                                                     | 2\. Navigate to the Sharing Section.                                 |
-| Your Hostname will appear as "Computer Name" under the *Computer name, domain, and workgroups settings* section. | Your Hostname will appear along with your DNS domain name. Make sure you only include **Hostname** in Reveal. | Your Hostname will be listed under the "Computer Name" field on top. |
+| 1\. ファイル エクスプローラーを開きます。                                                                                     | 1\. ターミナルを開きます                                                                                          | 1\. システム環境設定を開きます                                         |
+| 2\. マイコンピューターを右クリックしてプロパティを表示します。                                                                   | 2\. **$hostname** と入力します。                                                                                     | 2\. 共有セクションへ移動します。                                 |
+| ホスト名は、「コンピューター名、ドメイン、ワークグループ設定」の下にコンピューター名として表示されます。 | ホスト名と DNS ドメイン名が表示されます。Reval では**ホスト名**のみを含めることに注意してください。 | ホスト名は、上部の「コンピューター名」の下に表示されます |
 
-You can find your *IP address* by following the steps below. Please note
-that the commands should be executed on the server.
+以下の手順で *IP アドレス*も確認できます。コマンドはサーバーで実行する必要があることに注意してください。
 
 | WINDOWS                              | LINUX                             | MAC                                                           |
 | ------------------------------------ | --------------------------------- | ------------------------------------------------------------- |
-| 1\. Open a Command Prompt.           | 1\. Open a Terminal.              | 1\. Launch your Network app.                                  |
-| 2\. Type in **ipconfig**             | 2\. Type in **$ /bin/ifconfig**   | 2\. Select your connection.                                   |
-| **IPv4 Address** is your IP address. | **Inet addr** is your IP address. | The **IP Address** field will have the necessary information. |
+| 1\. コマンド プロンプトを開きます。           | 1\. ターミナルを開きます。              | 1\. ネットワーク アプリケーションを起動します。                                  |
+| 2\. **ipconfig** と入力します。             | 2\. **$ /bin/ifconfig** と入力します。   | 2\. 接続を選択します。                                   |
+| **IPv4 アドレス** はあなたの IP アドレスです。 | **Inet addr** はあなたの IP アドレスです。 | **IP アドレス** フィールドに必要な情報が提供されます。 |
 
-### Working with Views
+### ビューの作業
 
-With Reveal, you can retrieve MySQL data from entire tables. Still, you can
-also select a particular
-[view](https://dev.mysql.com/doc/refman/8.0/en/stored-programs-views.html)
-that returns a subset of data from a table or a set of tables instead.
+Reveal を使用すると、テーブル全体から MySQL データを取得できますが、代わりにテーブルまたはテーブルのセットからデータのサブセットを返す特定の[ビュー](https://dev.mysql.com/doc/refman/8.0/en/stored-programs-views.html)を選択することもできます。
 
 ![MySQL Views section](images/MySQL-views.png)
 
-In the sample above, the **invoices** view contains a modified version
-of the data in the **Products** table in the MySQL server.
+上記のサンプルでは、**請求書**ビューに MySQL サーバーの **Products** テーブルのデータの変更バージョンが含まれています。
 
 ![Sample dashboard using MySQL invoices view data](images/invoices-MySQL-view-sample.png)
 
-For more information on views and MySQL, visit [this documentation page](https://dev.mysql.com/doc/refman/8.0/en/stored-programs-views.html).
+ビューおよび MySQL の詳細については、[このページ](https://dev.mysql.com/doc/refman/8.0/en/stored-programs-views.html)を参照してください。

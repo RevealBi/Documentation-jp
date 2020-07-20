@@ -1,28 +1,21 @@
-## Microsoft Dynamics CRM
+## MMicrosoft Dynamics CRM
 
-To configure a Microsoft Dynamics CRM data source, you will need to
-enter the following information:
+Microsoft Dynamics CRM データソースを構成するには、以下の情報が必要です。
 
 ![EnterMicrosoftDynamicsCRM\_All](images/EnterMicrosoftDynamicsCRM_All.png)
 
-1.  **Default name** of the data source: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Reveal names it *Microsoft Dynamics CRM*. You can change it to your preference.
+1.  **データ ソース名**: データソースは以前のダイアログのアカウントのリストに表示されます。By default, Reveal names it *Microsoft Dynamics CRM*. You can change it to your preference.
 
-2.  **URL** the URL for the Dynamics CRM site (for example,
-    <http://crm.YourCompany.local>).
+2.  **URL**: Dynamics CRM サイトの URL (<http://crm.YourCompany.local> など)。
 
-3.  **Credentials**: after selecting *Credentials*, you will be able to
-    enter the credentials for your Microsoft Dynamics CRM site or select
-    existing ones if applicable.
+3.  **資格情報**: *資格情報*を選択した後、Microsoft Dynamics CRM サイトの資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
 
-      - **Name**: the name for your data source account. It will be
-        displayed in the list of accounts in the previous dialog.
+      - **名前**: データソース アカウントの名前。以前のダイアログのアカウントのリストに表示されます。
 
-      - *(Optional)* **Domain**: the name of the domain, if applicable.
+      - *(オプション)* **ドメイン**: ドメイン名 (適用可能な場合)。
 
-      - **Username**: the user account for the Dynamics CRM website.
+      - **ユーザー名**: Dynamics CRM サイトのユーザー アカウント。
 
-      - **Password**: the password for the Dynamics CRM website.
+      - **パスワード**: Dynamics CRM サイトのパスワード。
 
-Once ready, select **Create Account**. You can verify whether the
-account is reaching the data source or not by selecting **Test
-Connection**.
+準備ができたら、**アカウントの作成**を選択します。**[接続テスト]** を選択すると、アカウントがデータソースに到達しているかどうかを確認できます。
