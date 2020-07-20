@@ -28,73 +28,73 @@ Reveal では、集計計算フィールドに以下が含まれます。
   </tr>
   <tr>
     <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">average</span>: <span class="gray-snippet-cstm">average</span> 集計は、選択した<span class="gray-snippet-cstm">式</span>のすべての行の平均値で計算される数値を返します。</td>
-    <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm">average({expression})</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm">average({expression})</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm">average([Wage])</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm">average([Wage])</span></td>
   </tr>
   <tr>
     <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">averageif</span>: <a href="#aggregation-if-condition">if-条件</a>のある正則関数を使用する場合、結果が条件内で定義される特定の条件を満たす必要があります。</td>
-    <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm">averageif({expression},{if-condition})</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm">averageif({expression},{if-condition})</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm">averageif([Wage],[OfficeId]=1)</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm">averageif([Wage],[OfficeId]=1)</span></td>
   </tr>
   <tr>
     <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">count</span>: <span class="gray-snippet-cstm">count</span> 集計は、データソースの行数である<span style="font-weight:bold">数値</span>を返します。その他の引数は必要ありません。</td>
-    <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm">count()</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm">count()</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm">count()</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm">count()</span></td>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="2"><span style="font-weight:bold">countif</span>: <a href="#aggregation-if-condition">if-条件</a>のある正則関数を使用する場合、結果が条件内で定義される特定の条件を満たす必要があります。</td>
-    <td class="tg-0lax"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm"> <span class="gray-snippet-cstm">countif({if-condition})</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm"> <span class="gray-snippet-cstm">countif({if-condition})</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm">countif([OfficeId]=1)</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm">countif([OfficeId]=1)</span></td>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="2"><span style="font-weight:bold">max</span>: <span class="gray-snippet-cstm">max</span> 集計は、選択した<span class="gray-snippet-cstm">式</span>の最大値となる<span style="font-weight:bold">数値</span>を返します。</td>
-    <td class="tg-0lax"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm"> max({expression})</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm"> max({expression})</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm"> max([Wage])</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm"> max([Wage])</span></td>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="2"><span style="font-weight:bold">maxif</span>: <a href="#aggregation-if-condition">if-条件</a>のある正則関数を使用する場合、結果が条件内で定義される特定の条件を満たす必要があります。</td>
-    <td class="tg-0lax"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm">maxif({expression},{if-condition})</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm">maxif({expression},{if-condition})</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm">maxif([Wage],[OfficeId]=1)</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm">maxif([Wage],[OfficeId]=1)</span></td>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="2"><span style="font-weight:bold">min</span>: <span class="gray-snippet-cstm">min</span> 集計は、選択した<span class="gray-snippet-cstm">式</span>の最小値となる<span style="font-weight:bold">数値</span>を返します。</td>
-    <td class="tg-0lax"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm"> min({expression})</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm"> min({expression})</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm"> min([Wage])</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm"> min([Wage])</span></td>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="2"><span style="font-weight:bold">minif</span>: <a href="#aggregation-if-condition">if-条件</a>のある正則関数を使用する場合、結果が条件内で定義される特定の条件を満たす必要があります。</td>
-    <td class="tg-0lax"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm"> minif({expression},{if-condition})</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm"> minif({expression},{if-condition})</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm"> minif([Wage],[OfficeId]=1)</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm"> minif([Wage],[OfficeId]=1)</span></td>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="2"><span style="font-weight:bold">sum</span>: <span class="gray-snippet-cstm">sum</span> 集計は、選択した<span class="gray-snippet-cstm">式</span>のすべての行の合計として算出された<span style="font-weight:bold">数値</span>を返します。</td>
-    <td class="tg-0lax"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm"> sum({expression})</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm"> sum({expression})</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm"> sum([Wage])</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm"> sum([Wage])</span></td>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="2"><span style="font-weight:bold">sumif</span>: <a href="#aggregation-if-condition">if-条件</a>のある正則関数を使用する場合、結果が条件内で定義される特定の条件を満たす必要があります。</td>
-    <td class="tg-0lax"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm"> sumif({expression},{if-condition})</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm"> sumif({expression},{if-condition})</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm"> sumif([Wage],[OfficeId]=1)</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm"> sumif([Wage],[OfficeId]=1)</span></td>
   </tr>
 </table>
 

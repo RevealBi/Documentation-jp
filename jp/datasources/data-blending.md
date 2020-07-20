@@ -1,62 +1,51 @@
-## Combining Data Sources in one Visualization
+## データソースを 1 つの表示形式に統合
 
-Sometimes you need **Data Blending** to extract value from **more than
-one data source** in the same Reveal visualization.
+同じ Reveal 表示形式の**複数のデータソースから値を抽出する**ために、**データ ブレンティング**が必要な場合があります。
 
-For example, you may want to compare vacation days taken with other
-employee absences by department, to gain insight about the correlation
-of those variables.
+たとえば、休暇日数を部署ごとに他の従業員不就業と比較して、それらの変数の相関関係についてインサイトを得ることができます。
 
 ![Data Blending Example Visualization](images/data-blending-example.png)
 
-Follow these steps to combine two data sources in one visualization:
+２つの データソースを 1 つの表示形式に統合ため、以下の手順を実行します:
 
-1.  **Open the Data Blending dialog**.
+1.  **データ ブレンティングのダイヤログを開きます**。
 
-    Click/Tap the **+** button in the *Fields* section and select
-    *Fields from another Data Source*.
+    *[フィールド]* セクションの **[+]** ボタンをクリックもしくはタップし、*[別のデータソースのフィールド]* を選択します。
 
     ![Data Blending Accessing dialog in the Visualization editor](images/data-blending-open-dialog.png)
 
-2.  **Choose the new Data Source**.
+2.  **新しいデータソースを選択します**。
 
-    Connect to the data source that you want to combine.
+    統合するデータ ソースに接続します。
 
-3.  **Specify the JOIN Condition**
+3.  **JOIN 条件を指定します**。
 
-    Configure the equality condition that needs to match to combine the
-    two data sets.
+    2 つのデータ セットを統合するために一致する必要がある等価条件を設定します。
 
     ![Data Blending Join Condition selection](images/data-blending-join-condition.png)
 
-4.  **Choose the fields you want**
+4.  **必要なフィールドを選択**
 
-    Specify which are the fields that you want to combine, so you can
-    access them in your visualization.
+    結合するフィールドを指定して、表示形式でアクセスできるようにします。
 
     ![Data Blending Choose New Fields dialog](images/data-blending-choose-new-fields.png)
 
-5.  **Select Join Data**
+5.  **[データの結合] を選択します**。
 
-    After merging the two data sets, you can find the new fields at the
-    bottom of the *Fields* section.
+    2 つ のデータセットをマージすると、*[フィールド]* セクションの下部に新しいフィールドを確認できます。
 
     ![Show Data Blending Result](images/data-blending-result.png)
 
-    As shown in the image above, you can now visualize vacation days by
-    Department name instead of using the internal Department ID.
+    上記画像に表示されように、部署 ID を使用する代わりに、部署名で休暇日を表示できるようになりました。
 
 
-### The JOIN Condition
+### 結合条件
 
-When adding fields from other data sources, you actually join two different data sets. The join operation used by Reveal is LEFT (OUTER)
-JOIN.
+他のデータ ソースからフィールドを追加する場合、実際には 2 つの異なるデータ セットを結合します。Reveal が使用する結合操作は LEFT (OUTER) JOIN です。
 
-Below you can see how the **Vacation (left table)** and the
-**Departments (right table)** data sets are joined, using the DepartmentId
-field in both tables as the relationship between them (equality condition: DepartmentId = DepartmentId).
+以下に、両方のテーブルの DepartmentID (部署 ID) フィールドを使用して、**休暇 (左のテーブル)** と**事業部 (右のテーブル)** のデータセットがどのように結合しているかを示します (平等条件: DepartmentId = DepartmentId)。
 
-**Before JOIN operation:**
+**結合操作の前:**
 
 <table>
 <colgroup>
@@ -65,8 +54,8 @@ field in both tables as the relationship between them (equality condition: Depar
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><h4 id="_vacation" style="text-align: center">Vacation</h4></td>
-<td><h4 id="_departments" style="text-align: center">Departments</h4></td>
+<td><h4 id="_vacation" style="text-align: center">休暇</h4></td>
+<td><h4 id="_departments" style="text-align: center">事業部</h4></td>
 </tr>
 <tr class="even">
 <td>
@@ -77,8 +66,8 @@ field in both tables as the relationship between them (equality condition: Depar
 </colgroup>
 <thead>
 <tr class="header">
-<th>Taken (days)</th>
-<th>DepartmentId</th>
+<th>休暇日数</th>
+<th>部署 ID</th>
 </tr>
 </thead>
 <tbody>
@@ -99,8 +88,8 @@ field in both tables as the relationship between them (equality condition: Depar
 </colgroup>
 <thead>
 <tr class="header">
-<th>DepartmentId</th>
-<th>Department (name)</th>
+<th>部署 ID</th>
+<th>部署名</th>
 </tr>
 </thead>
 <tbody>
@@ -110,7 +99,7 @@ field in both tables as the relationship between them (equality condition: Depar
 </tr>
 <tr class="even">
 <td><p>100</p></td>
-<td><p>HR</p></td>
+<td><p>人事</p></td>
 </tr>
 </tbody>
 </table></td>
@@ -118,13 +107,12 @@ field in both tables as the relationship between them (equality condition: Depar
 </tbody>
 </table>
 
-**After JOIN operation:**
+**結合操作後:**
 
-| **Taken (days)** | **DepartmentId** | **DepartmentId** | **Department (name)** |
+| **休暇日数** | **部署 ID** | **部署 ID** | **部署名** |
 | ---------------- | ---------------- | ---------------- | --------------------- |
 | 40               | 1                | 1                | CPA                   |
 | 92               | 10               |                  |                       |
 
 
-Notice that LEFT JOIN operation returns all records from the left table,
-and keeps only matching records from the right table.
+注: LEFT JOIN 操作は、左側のテーブルからすべてのレコードを返し、右側のテーブルから一致するレコードのみを保持します。
