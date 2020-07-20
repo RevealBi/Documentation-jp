@@ -1,15 +1,11 @@
-## Styling Dashboards
+## ダッシュボードのスタイル設定
 
-Reveal makes dashboards styling as easy as choosing a color palette.
+Reveal は、カラー パレットから色を選択してダッシュボードのスタイルを容易に更新できます。
 
-In order to change dashboard style settings, switch to *Dashboard Edit*
-mode and select *Theme* from the overflow menu. Here you can choose
-between *Default* and *Light* theme.
+ダッシュボードのスタイル設定を変更するには、*ダッシュボードの編集モード*に入り、オーバーフロー メニューから*テーマ*を選択します。*Default* と *Light* テーマから選択できます。
 
 ![Changing the dashboard theme](images/changing-theme-dashboard.png)
 
-In addition, you can also change the Start Color for chart-based
-visualizations. The options available will vary according to the
-dashboard theme you select.
+あるいはチャートに基づく表示形式に開始色を変更できます。選択されたダッシュボードのテーマによって設定オプションは異なります。
 
 ![Changing the start color of a visualization](images/change-visualization-start-color.png)

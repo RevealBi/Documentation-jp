@@ -1,32 +1,25 @@
 ## Microsoft Analysis Services
 
-Microsoft SQL Analysis Services (SSAS) is an OLAP (online analytical
-processing of information from multiple database systems at the same
-time) and data mining tool in Microsoft SQL Server.
+Microsoft SQL Analysis Services (SSAS) は、Microsoft SQL Server の OLAP (同時に複数のデータベース システムからの情報のオンライン分析処理) およびデータ マイニング ツールです。
 
-### Configuring a Microsoft Analysis Services Data Source
+### Microsoft Analysis Services データソースの構成
 
-There are two modes you can use when configuring a Microsoft Analysis
-Services data source depending on your server's settings -
-[*Native*](#native) and [*HTTP*](#http).
+Microsoft Analysis Services データソースを構成するときにサーバー設定に基づいて使用できるモジュールが 2 つあります - [*Native*](#native) および [*HTTP*](#http)。
 
-For more information on both Native and HTTP mode, visit the [Microsoft Instance Management help](https://docs.microsoft.com/en-us/sql/analysis-services/instances/connect-to-analysis-services?view=sql-server-2017).
+Native および HTTP モードの詳細については、[Microsoft Instance Management ヘルプ](https://docs.microsoft.com/en-us/sql/analysis-services/instances/connect-to-analysis-services?view=sql-server-2017)をご覧ください。
 
 <a name='native'></a>
-#### Using Native
+#### Native の使用
 
-To configure the Microsoft Analysis Services data source for *Native*
-mode, you will need to enter the following information:
+Microsoft Analysis Services データソースを *Native* モード用に構成するため、以下の情報が必要です。
 
 ![Configure Microsoft Analysis Services connection](images/microsoft-analysis-native-configuration.png)
 
-1. *Default name* of the data source: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Reveal names it *Microsoft Analysis Services*. You can change it to your preference.
+1. データ ソースの*デフォルト名*: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Reveal names it *Microsoft Analysis Services*. You can change it to your preference.
 
-2.  **Server**: this is the hostname or IP address of the computer on
-    which the server is running
+2.  **サーバー**: サーバーが実行されているコンピューターのホスト名または IP アドレスです。
 
-    You can find the *hostname* by following the steps below. Please
-    note that the commands should be executed on the server machine.
+    以下の手順で*ホスト名*情報も確認できます。コマンドはサーバー マシンで実行する必要があることに注意してください。
 
     | WINDOWS                                                                                                         | LINUX                                                                                                         | MAC                                                                  |
     | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -36,7 +29,7 @@ mode, you will need to enter the following information:
 
 
 
-  You can find the *IP address* by following the steps below. Please note that the commands should be executed on the server machine.
+  以下の手順で *IP アドレス*も確認できます。コマンドはサーバー マシンで実行する必要があることに注意してください。
 
   | WINDOWS                              | LINUX                             | MAC                                                           |
   | ------------------------------------ | --------------------------------- | ------------------------------------------------------------- |
@@ -45,54 +38,40 @@ mode, you will need to enter the following information:
   | **IPv4 Address** is your IP address. | **Inet addr** is your IP address. | The **IP Address** field will have the necessary information. |
 
 
-3.  *(Optional)* **Port**: server port details. If no information is
-    entered, Reveal will connect to the port in the hint text (2383) by
-    default.
+3.  (オプション) の**ポート**: サーバー ポートの詳細。情報が入力されない場合、Reveal はデフォルトでヒント テキスト (2383) のポートに接続します。
 
-4.  **Credentials**: after selecting *Credentials*, you will be able to
-    enter the credentials for your Microsoft Analysis Services or select
-    existing ones if applicable.
+4.  **資格情報**: *資格情報*を選択した後、Microsoft Analysis Services の資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
 
 <a name='http'></a>
-#### Using HTTP
+#### HTTP の使用
 
-To configure the Microsoft Analysis Services data source for *HTTP*
-mode, you will need to provide the following information:
+Microsoft Analysis Services データソースを *HTTP* モード用に構成するため、以下の情報が必要です。
 
 ![Configure Microsoft Analysis HTTP mode connection](images/miscrosoft-analysis-http-config.png)
 
-1.  **Data Source Name**: this field will be displayed in the Data Sources list. Default name: *Microsoft Analysis Services*.
+1.  **データ ソース名**: このフィールドはデータソース リストに表示されます。デフォルト名: *Microsoft Analysis Services*。
 
-2.  **URL**: the HTTP eService URL to the server. For example,
-    *10.1.0.15/olap/msmdpump.dll*.
+2.  **URL**: サーバーの HTTP eService URL。例: *10.1.0.15/olap/msmdpump.dll*。
 
-3.  **Credentials**: credentials of your user account for the Analysis Services server.
+3.  **資格情報**: Analysis Services サーバーのユーザーアカウントの資格情報。
 
-### Configuring Databases
+### データベースの構成
 
-After your credentials for the Analysis Services server are verified,
-Reveal will load and show the databases on the server:
+Analysis Services サーバーの資格情報が確認されたら、Reveal はサーバー上のデータベースを読み込んで表示します。
 
 ![MSAnalysisDatabases\_All](images/MSAnalysisDatabases_All.png)
 
-Select a database and click *Continue* to set it up.
+データベースを選択し、*続行*をクリックして設定します。
 
 ![MSAnalysisCubes\_All](images/MSAnalysisCubes_All.png)
 
-Choose a database *cube* in the *Set Up the Database* dialog.
+*データベースの設定*ダイアログでデータベース*キューブ*を選択します。
 
-#### What is a Data Cube?
+#### データ キューブの概要
 
-A data cube is used to store and represent multidimensional data. Unlike
-two-dimensional data models, where two dimensions are used (arranged in
-row and column format) to view, analyze and calculate data, a data cube
-has three or more dimensions.
+データ キューブは、多次元データを保存および表現するために使用されます。データの表示、分析、および計算に 2 つの次元が使用される (行と列の形式で配置される) 2 次元のデータ モデルとは異なり、データ キューブには 3 つ以上の次元があります。
 
-The concept of a data cube is used to represent the dimensions of data
-available to a user. For example, "sales" could be measured in the
-**dimensions** of product category, geography, date, customers, etc. In
-this case, "sales" is the **measure** attribute of the data cube.
+データ キューブの概念は、ユーザーが利用できるデータの次元表すために使用されます。
+たとえば、「売上」 は製品カテゴリ、地理、日付、顧客などの**次元**で測定できます。この場合、「売上」 はデータ キューブの**測定**属性です。
 
-For more information on how to work with the Microsoft Analysis data
-source, please refer to
-[this](working-with-microsoft-analysis-services.md) topic.
+Microsoft Analysis データ ソースの操作方法の詳細については、[このトピック](working-with-microsoft-analysis-services.md) を参照してください。

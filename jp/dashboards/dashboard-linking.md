@@ -1,92 +1,53 @@
-## Linking Dashboards
+## ダッシュボード リンク
 
-Reveal supports dashboard linking, which is triggered when a
-visualization’s grid row or chart column/bar is selected. This features
-takes the concept of drill down navigation to a new level; for instance,
-if you want to provide more details on the information displayed in a
-visualization, you can use a whole new dashboard to do so. This can be
-very useful to establish top-down analysis paths, where you go from a
-high level overview of the reality of a business to more detailed views
-with the specifics. One example is the implementation of a Company 360,
-which provides key performance indicators for each area. Once you select
-on any visualizations to maximize it, Reveal opens another dashboard
-with more details for all projects.
+Reveal はダッシュボード リンクをサポートしています。これは、表示形式のグリッド行またはチャート列/バーが選択されたときにトリガーされます。この機能は、高度なドリルダウン ナビゲーションが可能です。表示形式により詳細な情報を表示したい場合、新しいダッシュボードを使用して目的を達成できます。この機能はトップダウン分析パスでとても役立ちます。ビジネスのハイレベルな概要から特定の詳細情報まで簡単にナビゲーションができます。1 つの例として Company 360 ダッシュボードの実装があり、各エリアの KPI (キー パフォーマンス インジケーター) を提供します。表示形式の 1 つを選択して最大化すると、Reveal はすべてのプロジェクトのより詳細な情報を含む他のダッシュボードを開きます。
 
 <img src="images/dashboard-linking-sample.png" alt="Dashboard linking sample" width="800"/>
 
-It’s possible to associate actions to specific events. **Opening another
-dashboard** is one of two supported actions. The second one is **opening
-a URL**. This enables extensibility scenarios such as interacting with
-third-party web applications as part of the dashboard navigation. You
-can add links through the **Settings** section of the Visualizations
-Editor, under **Links**.
+特定のイベントに操作を関連づけることも可能です。サポートされる操作としてその他の**ダッシュボード**を開くことができます。さらに、**URL を開く**こともできます。これは、ダッシュボード ナビゲーションの一部としてサードパーティ ウェブ アプリケーションとのインタラクションなど拡張性を有効にします。リンクは、表示形式エディターの**設定**セクションの**リンク**から追加できます。
 
 ![Pivot editor adding link](images/pivot-editor-linking2.png)
 
-### Events
+### イベント
 
-The control in the **Links** section selects the event or trigger that will be used to fire the action. Possible options are:
+**リンク** セクションのコントロールは、操作を実行するために使用されるイベントまたはトリガーを選択します。使用可能なオプション:
 
 ![Possible options shown in Trigger linking](images/pivot-editor-link-trigger.png)
 
-  - **Value is Selected**: The event is triggered whenever a user
-    selects a row in a grid view. In other visualizations, such as
-    charts, it is triggered whenever you select a data item of the
-    chart. This might include columns, bar, pie slices, or other
-    elements that depend on the chart type used in your visualization.
+  - **値が選択されています**: イベントは、ユーザーがグリッド ビューで行を選択すると常にトリガーされます。チャートなどの他の表示形式では、チャートのデータ アイテムを選択すると常にトリガーされます。これには、表示形式で使用されるチャート タイプに依存する縦棒、横棒、円スライス、またはその他の要素が含まれる場合があります。
 
-  - **Visualization is Maximized**. This event is triggered whenever a
-    visualization is maximized in the dashboard view.
+  - **表示形式が最大化されます**: このイベントは、ダッシュボード ビューで表示形式が最大化されたときにトリガーされます。
 
-### Actions
+### 操作
 
-You can have more than one action per event. The possible actions when
-an event is fired are:
+１ つのイベントに対して複数の操作を設定できます。イベントが発生される時の実行可能な操作:
 
-  - Open **Dashboard**. Enabling will open another dashboard when the
-    event takes place. If the selected dashboard happens to have
-    dashboard filters, you will need to configure how to populate them
-    for each dashboard filter. You will need to configure two
-    parameters:
+  - **ダッシュボード**を開く。この操作を有効にすると、イベントが実行されるときに他のダッシュボードが開きます。選択したダッシュボードにダッシュボード フィルターがある場合、各ダッシュボード フィルターの生成方法を構成する必要があります。2 つのパラメーターを構成する必要があります。
 
-      - The **Dashboard** that will be opened once the event is
-        triggered.
+      - イベントがトリガーされると開かれる**ダッシュボード**。
 
-      - The **Link Name**, which is the title the users will see if
-        they select the grid row or chart element.
+      - グリッド行またはチャート要素を選択した場合にユーザーに表示されるタイトルである**リンク名**。
 
 ![Dashboard Action in the New Link Dialog](images/pivot-editor-actions-dashboard.png)
 
-If your target dashboard has existing Dashboard Filters, you can also
-configure how to get the required value from one of the dashboard
-filters in your current dashboard.
+ターゲット ダッシュボードにフィルターがある場合は、現在のダッシュボードのいずれかのダッシュボード フィルターから必要な値を取得する方法を構成することもできます。
 
-  - Open **URL**. Enabling this action will open the configured URL in
-    your device’s browser. There are two parameters that you need to
-    define:
+  - **URL** を開く。この操作が有効な場合、デバイス ブラウザーで構成済みの URL を開きます。2 つのパラメーターを定義する必要があります:
 
-      - The **URL** the visualization will point to, which users will be
-        redirected to once a chart element or table row is selected.
+      - チャート要素またはテーブル行が選択されると、表示形式がユーザーをリダイレクトする先の **URL**。
 
-      - The **Link Name**, which is the title the users will see if
-        they select the grid row or chart element.
+      - グリッド行またはチャート要素を選択した場合にユーザーに表示されるタイトルである**リンク名**。
 
 ![URL Action in the New Link Dialog](images/PivotEditorViewActionsConfig_All.png)
 
-For URLs, you can also include **Variables**, which will dynamically
-construct the URL the user will be linked to based on the values in your
-visualization fields. For example, let’s take a look at the following
-visualization link:
+URL の場合は、**変数**を含めることもできます。これにより、表示形式フィールドの値に基づいて、ユーザーにリンクされる URL が動的に作成されます。たとえば、以下の表示形式リンクを見てみましょう。
 
 ![PivotEditorViewActionsOpenURL\_All](images/PivotEditorViewActionsOpenURL_All.png)
 
-The URL has been set to <http://www.countryreports.org/travel>, and the
-selected **Variable** will be **Countries**. Therefore, users who select
-the **View Country Reports** link in the visualization will be directed
-to:
+URL は <http://www.countryreports.org/travel>に設定されており、選択した **変数** は **国** になります。したがって、表示形式で **国のレポートを表示** リンクを選択したユーザーは次のように表示されます:
 
     http://www.countryreports.org/country/[Country Name].htm
 
-Where `[Country Name]` will vary depending on the values in the **Countries** field.
+`[Country Name]` は、**国**フィールドの値によって異なります。
 
 ![Links added to pivot table with countries variables](images/dashboard-linking-variables.png)

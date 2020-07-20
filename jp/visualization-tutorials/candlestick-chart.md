@@ -42,7 +42,7 @@
 
   - 通常日付に関連するデータ エディターの **[ラベル] プレースホルダーへ 1 フィールドドロップします**。
 
-  - [Open]、[High]、 [Low] および [Close]の **4 つの異なるフィールド** データ エディタのカテゴリ。
+  - [Open]、[High]、 [Low] および [Close] の **4 つの異なるフィールド** データ エディタのカテゴリ。
 
 <img src="images/candlestick-chart-visualization-settings.png" alt="Candlestick chart visualization settings" width="800"/>
 
@@ -65,13 +65,13 @@
 
 |                                          |                                                                                                                                           |                                                                                                                                                       |
 | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **Create a Visualization**           | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Creating new visualization" width="300"/>                                       | In the home screen, select the *+ Dashboard* split button.                                                                                            |
-| 2\. **Configure your Data Source**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Selecting a data source" width="300"/>                                            | In the *New Visualization* screen, select the *+ Data Source* button and choose your data source from the list.                                       |
-| 3\. **Select the Tutorials Spreadsheet** | <img src="images/Tutorials-Select-OHLC-Candlestick-Charts-Spreadsheet.png" alt="Seclect OHLC Candlestick Chart spreadsheet" width="300"/> | Once the data source is configured, select the **Reveal Tutorials Spreadsheet**. Then, choose the "OHLC and Candlestick" sheet.                       |
-| 4\. **Open the Visualizations Menu**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Seclect Change visualization" width="300"/>                              | Select the **grid icon** in the top bar of the Visualizations Editor.                                                                                 |
-| 5\. **Select your Visualization**        | <img src="images/Tutorials-Charts-Select-Candlestick-Chart.png" alt="Seclect Candlestick chart" width="300"/>                             | By default, the visualization type will be set to *Grid*. Select the **Candlestick**.                                                                 |
-| 6\. **Organize your Data**               | <img src="images/Tutorials-CandlestickChart-Organizing-Data.png" alt="Organizing data fields" width="300"/>                               | Drag and drop the *Date* field into *Label* and the *Open*, *High*, *Low* and *Close* fields in their corresponding placeholder.                      |
-| 7\. **Change the Date Aggregation**      | <img src="images/Tutorials-CandlestickChart-Changing-Aggregation.png" alt="Changing date aggregation" width="300"/>                       | Select the **Date** field in the *Label* placeholder of the data editor, and change the **Date Aggregation** to **Day**. Then, select *Update Field*. |
+| 1\. **表示形式の作成**           | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Creating new visualization" width="300"/>                                       | ホーム画面で、*+ダッシュボード*追加ボタンを選択します。                                                                                            |
+| 2\. **データ ソースの構成**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Selecting a data source" width="300"/>                                            | *新しい表示形式* 画面で、*+データソース* ボタンを選択し、リストからデータソースを選択します。                                       |
+| 3\. **チュートリアル スプレッドシートの選択** | <img src="images/Tutorials-Select-OHLC-Candlestick-Charts-Spreadsheet.png" alt="Seclect OHLC Candlestick Chart spreadsheet" width="300"/> | データソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。 次に、「OHLC と ローソク足」 シートを選択します。                       |
+| 4\. **表示形式ペインを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Seclect Change visualization" width="300"/>                              | 表示形式 エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                 |
+| 5\. **表示形式の選択**        | <img src="images/Tutorials-Charts-Select-Candlestick-Chart.png" alt="Seclect Candlestick chart" width="300"/>                             | デフォルトで、表示形式のタイプは*グリッド*に設定されています。 **ローソク足**を選択します。                                                                 |
+| 6\. **データの体系化**               | <img src="images/Tutorials-CandlestickChart-Organizing-Data.png" alt="Organizing data fields" width="300"/>                               | *日付*フィールドを*ラベル*にドラッグアンドドロップし、*Open*、*High*、*Low* および *Close* フィールドを対応するプレースホルダーにドラッグアンドドロップします。                      |
+| 7\. **日付集計の変更**      | <img src="images/Tutorials-CandlestickChart-Changing-Aggregation.png" alt="Changing date aggregation" width="300"/>                       | データ エディターの*ラベル* プレースホルダーで*日付*フィールドを選択し、**日付集計**を**日**に変更します。次に, フィールドの*更新を選択します*。 |
 
 <a name='changing-axis-configuration'></a>
 ### 軸の構成の変更
@@ -82,8 +82,8 @@
 
 |                                             |                                                                                               |                                                             |
 | ------------------------------------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
-| 1\. **Access the Settings Menu**            | <img src="images/Tutorials-Navigate-Settings.png" alt="Navigating to Settings" width="300"/>  | Go to the **Settings** section in the Visualization Editor. |
-| 2\. **Navigate to the Axis Bounds section** | <img src="images/Access-Axis-Configuration.png" alt="Navigating to Axis Bounds" width="300"/> | The settings you will change will be the **Axis Bounds**.   |
+| 1\. **設定メニューへアクセス**            | <img src="images/Tutorials-Navigate-Settings.png" alt="Navigating to Settings" width="300"/>  | 表示形式エディターの**設定**セクションに移動します。 |
+| 2\. **軸範囲セクションに移動する** | <img src="images/Access-Axis-Configuration.png" alt="Navigating to Axis Bounds" width="300"/> | 変更する設定は**軸範囲**です。   |
 
 最大値または最小値 (または両方) のどれを設定するかに基づいて、以下のオプションの 1 つへアクセスする必要があります。
 
@@ -100,5 +100,5 @@
 
 |                                        |                                                                                                              |                                                             |
 | -------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------- |
-| 1\. **Access the Settings Menu**       | <img src="images/Tutorials-Navigate-Settings.png" alt="Navigating to Settings" width="300"/>                 | Go to the **Settings** section of the Visualization Editor. |
-| 2\. **Change the Axis to Logarithmic** | <img src="images/Access-Candlestick-Axis-Configuration.png" alt="Accessing Axis configuration" width="300"/> | Open the **Axis** dropdown and select **Logarithmic**.      |
+| 1\. **設定メニューへアクセス**       | <img src="images/Tutorials-Navigate-Settings.png" alt="Navigating to Settings" width="300"/>                 | 表示形式エディターの**設定**セクションへ移動します。 |
+| 2\. **軸を対数に変更する** | <img src="images/Access-Candlestick-Axis-Configuration.png" alt="Accessing Axis configuration" width="300"/> | **軸**ドロップダウンを開き、**対数**を選択します。      |

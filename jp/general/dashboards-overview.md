@@ -1,127 +1,104 @@
-## Dashboards Overview
+## ダッシュボードの概要
 
-You can open existing dashboards by selecting the dashboard thumbnail image in the initial view.
+初期画面でダッシュボードのサムネイル画像をクリックし、既存のダッシュボードを開くことができます。
 
 ![dashboard opened in edit mode](images/dashboard-opened-edit-mode.png)
 
-### Dashboard Interactions
+### ダッシュボード インタラクション
 
-You can **interact** with visualizations in various ways. For instance, if the visualization is in grid view, you can scroll horizontally and
-vertically. The chart view supports zooming and panning. Also drill down & drill up actions become possible if the underlying data model supports it.
+さまざまな方法で表示形式の **UI 操作が**できます。たとえば、表示形式がグリッド ビューの場合、水平方向および垂直方向にスクロールできます。チャート ビューではパン、ズームがサポートされています。また、基になるデータ モデルがサポートしている場合は、ドリルダウンとドリルアップの実行が可能になります。
 
-#### Maximized view
+#### 最大化されたビュー
 
-Once the dashboard is opened, you can **maximize** any of the dashboard visualizations by hovering over them and click/tap on the arrow in the right top corner.
+ダッシュボードが開くと、表示形式のいずれかにカーソルをホバーし、右上角の矢印をクリック/タップすることで**最大化**できます。
 
 ![maximizing arrow in the top right corner](images/visualization-maximizing-arrow.png)
 
-The maximized view allows a larger display of the information.
+最大化されたビューは、より多くの情報の表示を可能にします。
 
 ![maximized visualization view](images/maximized-visualization.png)
 
-In this mode, you can also switch the maximized view to other visualizations by selecting the **small chart icon** in the top right corner. Different possibilities will be displayed depending on the starting visualization. The changes to the visualization will not be saved, unless you enter Edit mode (by selecting *Edit* from the overflow menu) and explicitly save the changes. 
+さらに、このモードでは、最大化されたビューを他の表示形式に切り替え、または右上の**小さなチャート アイコン**をタップしチャートをさまざまな角度から分析できます。開始する可視化によってオプションが異なります。オーバーフ ローメニューから*[編集]*を選択して編集モードに入り、表示形式への変更を明示的に保存しない場合、表示形式への変更も保存されません。
 
 ![chart change in visualization view mode](images/chart-change-visualization-view-mode.png)
 
-You can also look at the data behind your chart if you select the **hash sign** icon.
+さらに、表示形式メニューの右上角にある**シャープ記号 (#)** アイコンをクリックすると、ビューを切り替え、チャートの背後のデータを表示できます。
 
 ![flip to grid](images/flip-grid.png)
 
-When viewing the data behind your visualization, you can apply sorting (ascending or descending). For more information on applying sorting to grids, check the [Grid View](~/en/data-visualizations/grid-view.md) topic.
+可視化のデータ ビハインド表示で並べ替え (昇順または降順) を適用できます。グリッドの並べ替え詳細については、[グリッド ビュー](~/en/data-visualizations/grid-view.md)トピックをご覧ください。
 
-If, at any point, you want to revert back to the original visualization, you can select the **"Show Original"** link.
+元の表示形式へ戻すために、**[元の表示形式を表示]** リンクを選択します。
 
 ![show original link](images/change-visualization-show-original.png)
 
-#### Regular Tooltips
+#### 通常のツールチップ
 
-By clicking on particular visualizations (press and hold in touch environments), you can see tooltips popups. Tooltips help you see values
-at a particular point of your chart like:
+特定の表示形式 (タッチ環境で長押すと) をクリックすると、ツールチップ ポップアップが表示されます。ツールチップは、次のようにチャートの特定のポイントで値を表示するのに役立ちます:
 
 ![tooltips popups on visualizations](images/tooltips-popups.png)
 
-To close regular tooltips just click or tap away.
+通常のツールチップを閉じるには、離れてクリックするかタップしてください。
 
-#### Hover Tooltips & Crosshairs
+#### ツールチップのホバーと十字線
 
-You will find two options in the **Interactions** menu: *Hover tooltips* and *Crosshairs*. Only *Hover tooltips* is enabled by default. Both are only available in Dashboard View mode. They can't be used in Dashboard Edit mode.
+**インタラクション**メニューでは、次の 2 つのオプションを有効にできます: *ツールチップのホバー*と*十字線*。どちらもダッシュボード ビュー モードの場合のみ使用できます。ダッシュボード編集モードでは使用できません。
 
 ![Accessing Reveal's Dashboard Interactions menu](images/dashboard-interactions-menu.png)
 
-  - With *Hover Tooltips* enabled, you can see **tooltips** popups when you hover over data (press and hold in touch environments).
+  - *ホバー ツールチップ*を有効にすると、データにホバーした際に (タッチ環境で長押しした際に) **ツールチップ** ポップアップが表示されます。
 
     ![Reveal displays tooltips when hovering over data](images/tooltips-hover.png)
 
-    By clicking the data (releasing drag tooltips in touch
-    environments), you can access the **Tools** section with tooltip
-    interactions like drill down, drill up, or linked dashboards if
-    applicable.
+    データをクリックすると (タッチ環境でドラッグ ツールチップをリリースすると)、ツールチップのインタラクションが適用可能な場合、ドリルダウン、ドリルアップ、および、リンク済みのダッシュボードなどのインタラクションで **[ツール]** セクションにアクセスできます。
 
-  - With *Crosshairs* enabled, Reveal shows crosshairs elements along
-    with the tooltips. Giving more context to the tooltip.
+  - *十字線*を有効にすると、Reveal はツールチップとともに十字線要素を表示します。ツールチップにより多くのコンテキストを与える。
 
     ![Reveal displays crosshairs along with tooltips](images/crosshairs-enabled.png)
 
-Crosshairs are currently supported for the following data
-visualizations: Scatter, Bubble, Area, Candlestick, Line, Ohlc, Spline,
-SplineArea, StepArea, StepLine.
+十字線は、現在以下のデータ 表示形式でサポートされています。散布図、バブル、エリア、ローソク足、折れ線、OHLC、スプライン、スプラインエリア、ステップエリア、ステップ折れ線。
 
-Candlestick and OHLC visualizations only display horizontal crosshairs.
-Including a vertical crosshair would make it difficult to see the lines
-on the data point.
+ローソク足と OHLC の表示形式は、水平の十字線のみを表します。垂直十字線を含めると、データ ポイントの線が見えにくくなります。
 
-#### Tooltips Totals
+#### ツールチップの合計
 
-When displaying tooltips, you can configure them to display total values by Category.
+ツールチップを表示するときに、カテゴリごとに合計値を表示するように構成できます。
 
 ![Reveal Portrait Orientation](images/tooltips-totals.png)
 
-To enable this feature, go to *Settings* \> *Show Totals on Tooltip*,
-like shown below:
+この機能を有効にするには、次のように、[設定] \> [ツールチップに合計を表示] に移動します:
 
 ![Reveal Portrait Orientation](images/tooltips-configuration.png)
 
-When enabling totals, make sure you added a Category to show multiple
-values in your visualization.
+合計を有効にする場合、表示形式で複数の値を表示するためにカテゴリを追加したことを確認してください。
 
 <a name='view-edit-mode'></a>
-### View & Edit Modes
+### ビュー & 編集モード
 
-When first opening a dashboard, you will be browsing it in **View
-mode**. This mode allows you to navigate and filter the information
-displayed in it, but you won't be able to change the dashboard
-definition.
+ダッシュボードを初めて開いた場合、**ビュー モード**でブラウズすることになります。このモードでは、表示された情報のナビゲーションやフィルタリングが可能ですが、ダッシュボード定義を変更することはできません。
 
-In order to apply changes to a dashboard, you must switch to **Dashboard
-Edit mode**. You can do this by selecting *Edit* from the overflow menu
-in the top right corner of the dashboard. This enables editing options
-such as applying *Auto Layout*, and a dashboard *Theme*.
+ダッシュボードへの変更を適用するためには、**ダッシュボードの編集モード**に切り替える必要があります。ダッシュボードの右上角のオーバーフロー メニューから*編集*を選択します。これにより、*自動レイアウト*、ダッシュボード *テーマ*の適用、ダッシュボードのエクスポートなどの編集オプションが有効になります。
 
-Shown below is a dashboard in *Dashboard Edit* mode:
+以下は、*ダッシュボード編集*モードのダッシュボードです:
 
 ![dashboard opened in edit mode](images/dashboard-opened-edit-mode.png)
 
-To **exit Edit mode**, you only need to select the *check icon* in the
-top right-hand corner. This switches back to *View Mode*.
+**編集モードを終了するには**、右上角の*チェック アイコン*を選択するだけです。これにより、*表示モード*に戻ります。
 
-### Dashboard Filters
+### ダッシュボード フィルター
 
-It is possible to filter information at a dashboard or a visualization
-level.
+ダッシュボードまたは表示形式レベルで情報をフィルターできます。
 
-  - [**Dashboard filters**](~/en/filters/dashboard-filters.md) are available, when you open Dashboard Edit mode (select *Edit* from the overflow menu of your dashboard to access this mode). In the left top corner of the screen, you will see the current dashboard filters and an option to add new ones.
+  - [**ダッシュボード フィルター**](~/en/filters/dashboard-filters.md) は、ダッシュボード編集モードを開くと使用できます (このモードにアクセスするには、ダッシュボードのオーバーフロー メニューから *[編集]* を選択します)。画面の左上角に、現在のダッシュボード フィルターと、新しいフィルターを追加するオプションが表示されます。
 
-  - [**Visualization filters**](~/en/filters/Visualization-Filters.md) (a.k.a. Quick Filters) are displayed in maximized mode. You can find them in the top section of the visualization under the visualization's name.
+  - [**表示形式フィルター**](~/en/filters/Visualization-Filters.md) (つまり、クイック フィルター) は最大化モードで表示されます。これらは、表示形式の名前の下にある表示形式の上部セクションにあります。
 
-For more information on dashboard or visualization Filters, check out
-[this section](~/en/filters/overview.md).
+ダッシュボードと表示形式フィルターの詳細については、[このセクション](~/en/filters/overview.md)をご覧ください。
 
-### Auto Layout for Visualizations
+### 表示形式の自動レイアウト
 
-Reveal's Auto Layout dynamically sizes all visualizations in your
-dashboard based on the size constraints of your device and on the amount
-of visualizations it has.
+Reveal の自動レイアウトは、デバイスのサイズ制約と表示形式の量に基づいて、ダッシュボードのすべての表示形式を動的にサイズ変更します。
 
 ![auto layout view and resizing of dashboards](images/auto-layout-dashboard.png)
 
-To start resizing visualizations while Auto Layout is enabled, just drag their corners downwards or to the side. This will automatically turn *Auto Layout* off. 
+自動レイアウトが有効なときに表示形式のサイズを変更するには、角を下または横にドラッグするだけです。これにより、*自動レイアウト* が自動的にオフになります。

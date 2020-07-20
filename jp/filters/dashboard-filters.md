@@ -1,32 +1,24 @@
-## Dashboard Filters
+## ダッシュボード フィルター
 
-The dashboard filters dataset is defined by entering *Dashboard edit*
-mode. To add a new dataset, just select the *Add Filter* button.
+ダッシュボード フィルター データセットは、ダッシュボード編集モードを開始することによって定義されます。新しいデータセットを追加するには、[フィルターの追加] のボタン を選択します。
 
 ![Adding a new dashboard filter](images/add-new-dashboard-filter.png)
 
-This will result in the display of a list with the possible dashboard
-filters to be applied. You can choose between:
+これにより、適用される可能性のあるダッシュボード フィルターのリストが表示されます。
+以下から選択できます:
 
-  - **Adding a Dashboard Filter**. This option will allow you to choose
-    information from a data source, after which you can bind your filter
-    to each of the visualizations in the dashboard.
+  - **ダッシュボード フィルターの追加**。このオプションを使用すると、データ ソースから情報を選択できます。その後、ダッシュボードの各表示形式にフィルターをバインドできます。
 
-  - **Adding a Date Filter**. This option will allow you to choose a
-    fixed range, or customize it to show only a specific date range.
+  - **日付フィルターの追加**。このオプションは、固定範囲の選択や指定した日付範囲のみ表示するようカスタマイズできます。
 
-To remove a dataset from the dashboard filters list, just select the
-overflow button next to the dashboard filter and select **Delete**.
+ダッシュボード フィルター リストからデータセットを削除するには、ダッシュボード フィルターの横にあるオーバーフロー ボタンを選択し、**[削除]** を選択します。
 
 ![Removing a dashboard filter](images/remove-dashboard-filter.png)
 
-### Dashboard Filters and the Visualizations Editor
+### ダッシュボード フィルターと表示形式エディター
 
-Once there is at least one Dashboard Filter defined in the Dashboard
-Editor, you will be able to bind the data in that Dashboard Filter to a
-visualization by selecting **Connect** under the filter's name.
+ダッシュボード エディターに 1 つ以上のダッシュボード フィルターが定義されている場合、フィルター名の下部にある **[接続]** をクリックするとダッシュボード フィルターのデータを表示形式にバインドします。
 
 ![Connecting to a dashboard filter in the visualization editor](images/connect-dashboard-filter-visualization-editor.png)
 
-For more information on the binding functionality, please refer to
-[Connecting Dashboard Filters to a Visualization](connecting-dashboard-filters-visualization.md).
+バインド機能の詳細については、[ダッシュボード フィルターを表示形式に接続](connecting-dashboard-filters-visualization.md)トピックを参照してください。
