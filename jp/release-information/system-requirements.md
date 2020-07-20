@@ -1,31 +1,29 @@
-## System Requirements
+## システム要件
 
-The following are the supported operating systems for every version of
-Reveal.
+以下は、Reveal のすべてのバージョンでサポートされているオペレーティング システムです。
 
 ### Android
 
-Version 5.0 (Lollipop) or higher, except for the Kindle Fire.
+バージョン 5.0 (Lollipop) 以降。ただし、Kindle Fire を除く。
 
-### Desktop
+### デスクトップ
 
-Windows 7 SP1 or newer.
+Windows 7 SP1 またはそれ以降
 
-Requires Microsoft .Net 4.6.2 installed on your machine. For more
-information on .NET Framework system requirements, check [this Microsoft article](https://docs.microsoft.com/en-us/dotnet/framework/get-started/system-requirements).
+Microsoft .Net 4.6.2 がインストールされている必要があります。.NET Framework のシステム要件の詳細に関して[この Microsoft 記事](https://docs.microsoft.com/ja-jp/dotnet/framework/get-started/system-requirements) をご参照ください。
 
 ### iOS
 
-iOS version 11 or higher.
+iOS バージョン 11 以降
 
-### Web
+### ウェブ
 
-The Web version of Reveal supports the following browsers: 
+Reveal の Web 版は以下のブラウザーをサポートします。
 
 - *Chrome* 
-- *Edge (Chromium-based version)*
+- *Edge (Chromium ベース バージョン)*
 - *Firefox* 
 - *Safari* 
 
 >[!NOTE]
->The mobile versions of Firefox and Chrome are not supported.
+>モバイル版の Firefox と Chrome はサポートされません。

@@ -1,84 +1,66 @@
 ## Sybase
 
-To configure a Sybase server data source, you will need to enter the
-following information:
+Sybase サーバー データソースを構成するには、以下の情報が必要です。
 
 ![Configure Sybase database connection](images/enter-sybase-server-details.png)
 
-1.  **Default name** of the data source: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Reveal names it *Sybase*. You can change it to your preference.
+1.  **データ ソース名**: このフィールドはデータソース リストに表示されます。デフォルト名: *Sybase*。
 
-2.  [**Server**](#how-to-find-server): the computer name or IP address
-    assigned to the computer on which the server is running.
+2.  [**サーバー**](#サーバー情報を見つける方法): コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 
-3.  **Port**: if applicable, the server port details. If no information
-    is entered, Reveal will connect to the port in the hint text (5000)
-    by default.
+3.  **ポート**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Reveal はデフォルトでヒント テキスト (5000) のポートに接続します。
 
-4.  **Credentials**: after selecting *Credentials*, you will be able to
-    enter the credentials for your Sybase server or select existing ones
-    if applicable.
+4.  **資格情報**: *資格情報*を選択した後、Sybase サーバーの資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
 
-      - **Name**: the name for your data source account. It will be
-        displayed in the list of accounts in the previous dialog.
+      - **名前**: データソース アカウントの名前。以前のダイアログのアカウントのリストに表示されます。
 
-      - *(Optional)* **Domain**: the name of the domain, if applicable.
+      - *(オプション)* **ドメイン**: ドメイン名 (適用可能な場合)。
 
-      - **Username**: the user account for the Sybase server.
+      - **ユーザー名**: Sybase サーバーのユーザー アカウント
 
-      - **Password**: the password to access the Sybase server.
+      - **パスワード**: Sybase サーバーのパスワード
 
-        Once ready, select **Create Account**. You can verify whether
-        the account is reaching the data source or not by selecting
-        **Test Connection**.
+        準備ができたら、**アカウントの作成**を選択します。**[接続テスト]** を選択すると、アカウントがデータソースに到達しているかどうかを確認できます。
 
 <a name='how-to-find-server'></a>
-### How to find your Server Information
+### サーバー情報を見つける方法
 
-You can find your server by following the steps below. Please note that
-the commands should be executed on the server.
+以下の手順でサーバーも確認できます。コマンドはサーバーで実行する必要があることに注意してください。
 
 | WINDOWS                                                                                                         | LINUX                                                                                                         | MAC                                                                  |
 | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| 1\. Open the File Explorer.                                                                                     | 1\. Open a Terminal.                                                                                          | 1\. Open System Preferences.                                         |
-| 2\. Right Click on My Computer \> Properties.                                                                   | 2\. Type in **$hostname**                                                                                     | 2\. Navigate to the Sharing Section.                                 |
-| Your Hostname will appear as "Computer Name" under the *Computer name, domain and workgroups settings* section. | Your Hostname will appear along with your DNS domain name. Make sure you only include **Hostname** in Reveal. | Your Hostname will be listed under the "Computer Name" field on top. |
+| 1\. ファイル エクスプローラーを開きます。                                                                                     | 1\. ターミナルを開きます。                                                                                          | 1\. システム環境設定を開きます。                                         |
+| 2\. マイコンピューターを右クリックしてプロパティを表示します。                                                                   | 2\. **$hostname** と入力します。                                                                                    | 2\. 共有セクションへ移動します。                                 |
+| ホスト名は、[コンピューター名、ドメイン、ワークグループ設定] の下にコンピューター名として表示されます。 | ホスト名と DNS ドメイン名が表示されます。Reveal では [ホスト名] のみを含めることに注意してください。| ホスト名は、上部の [コンピューター名] の下に表示されます。 |
 
-You can find your *IP address* by following the steps below. Please note
-that the commands should be executed on the server.
+以下の手順で *IP アドレス*も確認できます。コマンドはサーバーで実行する必要があることに注意してください。
 
 | WINDOWS                              | LINUX                             | MAC                                                           |
 | ------------------------------------ | --------------------------------- | ------------------------------------------------------------- |
-| 1\. Open a Command Prompt.           | 1\. Open a Terminal.              | 1\. Launch your Network app.                                  |
-| 2\. Type in **ipconfig**             | 2\. Type in **$ /bin/ifconfig**   | 2\. Select your connection.                                   |
-| **IPv4 Address** is your IP address. | **Inet addr** is your IP address. | The **IP Address** field will have the necessary information. |
+| 1\. コマンド プロンプトを開きます。           | 1\. ターミナルを開きます。              | 1\. ネットワーク アプリケーションを起動します。                                  |
+| 2\. **ipconfig** と入力します。            | 2\. **$ /bin/ifconfig** と入力します。  | 2\. 接続を選択します。                                   |
+| **IPv4 アドレス** はあなたの IP アドレスです。 | **Inet addr** はあなたの IP アドレスです。 | **IP アドレス** フィールドに必要な情報が提供されます。 |
 
-### Working with Views
+### ビューの作業
 
-With Reveal, you can retrieve Sybase data from entire tables, but you
-can also select a particular
-[view](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X29678.htm)
-that returns a subset of data from a table or a set of tables instead.
+Reveal を使用すると、テーブル全体から Sybase データを取得できますが、代わりにテーブルまたはテーブルのセットからデータのサブセットを返す特定の[ビュー](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X29678.htm)を選択することもできます。
 
 ![Select from Sybase views dialog](images/sybase-views.png)
 
-The **Category Sales for 1997** view, for example, contains information on sales
-projections taken from one of the tables in the database.
+たとえば、**Category Sales for 1997** ビューには、データベース内のテーブルの 1 つから取得した営業予測に関する情報が含まれています。
 
 ![Sales Projection Sample dashboard](images/sales-projection-sample.png)
 
-For more information on views and Sybase, visit [this documentation website](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X29678.htm).
+ビューおよび Sybase の詳細については、[このドキュメント Web サイト](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X29678.htm)を参照してください。
 
-### Working with Stored Procedures
+### ストアド プロシージャの作業
 
-In Sybase, stored procedures allow users to run a set of query
-statements in a relational database with specific parameters. The
-following are just a set of sample stored procedures running in a test
-server with data from the master database:
+Sybase では、ストアド プロシージャを使用すると、特定のパラメーターを使用してリレーショナル データベースで一連のクエリ ステートメントを実行できます。以下は、マスター データベースのデータを使用してテスト サーバーで実行されるサンプル ストアド プロシージャのセットです。
 
 ![Select from Sybase Stored Procedures dialog](images/sybase-stored-procedures.png)
 
-In this case, for example, the stored procedure requires users to set some time range values.
+この場合では、ストアド プロシージャでユーザーが時間範囲の値を設定する必要があります。
 
 ![Stored Procedure select dates](images/stored-procedure-sample-dates.png)
 
-For more information on Stored Procedures and Sybase, visit [this documentation website](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X39397.htm).
+ストアドプロシージャーおよび Sybase の詳細については、[この Web サイト](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X39397.htm)を参照してください。
