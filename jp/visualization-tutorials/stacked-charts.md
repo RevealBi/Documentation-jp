@@ -121,5 +121,5 @@
 
 |                                        |                                                                                    |                                                                                           |
 | -------------------------------------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| 1\. **Change Settings**                | ![Tutorials-Navigate-Settings](images/Tutorials-Navigate-Settings.png)             | 表示形式エディターの**設定**セクションへ移動します。                               |
+| 1\. **設定の変更**                | ![Tutorials-Navigate-Settings](images/Tutorials-Navigate-Settings.png)             | 表示形式エディターの**設定**セクションへ移動します。                               |
 | 2\. **Enable Percentage Distribution** | ![Tutorials-Percentage-Distribution](images/Tutorials-Percentage-Distribution.png) | Enable the percentage distribution setting by checking the "Percentage Distribution" box. |
