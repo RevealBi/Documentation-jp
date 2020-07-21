@@ -1,14 +1,8 @@
-## Do-It-Yourself Visualizations
+## DIY 表示形式
 
-Reveal offers multiple components for visualizing data, including the
-grid view, gauge view, map view and several chart types. There are some
-cases, though, where you would like to have another visualization
-method, not supported out of the box, that you feel would be a better
-fit for your scenario. It is for these cases that Reveal introduces the
-ability to do your own custom visualization component and display it in
-a visualization as part of a Reveal dashboard.
+Reveal は、グリッド ビュー、ゲージ ビュー、マップ ビュー、複数のチャート タイプなど、複数のデータ可視化コンポーネントを提供します。既成またはサポートされる方法以外の可視化を使用したい場合があります。そのような場合に Reveal ではカスタムに可視化するコンポーネントがサポートされており、Reveal ダッシュボードの一部として表示形式に表示します。
 
-### Sample DIY visualizations
+### サンプル DIY 表示形式
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -23,14 +17,14 @@ a visualization as part of a Reveal dashboard.
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-x3gl"><br>Table with custom fonts, titles, and widths<br><img src="images/HRDashboardEmployeesDIY_All.png" alt="Image" width="400" height="291"></th>
-    <th class="tg-x3gl"><br>Choropleth map of the population for United States by state<br><img src="images/StatePopulation_all.png" alt="Image" width="400" height="291"></th>
+    <th class="tg-x3gl"><br>カスタム フォント、タイトル、および幅のテーブル<br><img src="images/HRDashboardEmployeesDIY_All.png" alt="Image" width="400" height="291"></th>
+    <th class="tg-x3gl"><br>州別の米国の人口の Cloropleth マップ<br><img src="images/StatePopulation_all.png" alt="Image" width="400" height="291"></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-spkm"><br>Choropleth map of the population for Brazil by state<br><img src="images/BrazilStatePopulation_all.png" alt="Image" width="400" height="291"></td>
-    <td class="tg-2ovq"><br>Choropleth map of worldwide GDP<br><img src="images/WorldPopulationGDP_All.png" alt="Image" width="400" height="291"></td>
+    <td class="tg-spkm"><br>州別のブラジルの人口の Cloropleth マップ<br><img src="images/BrazilStatePopulation_all.png" alt="Image" width="400" height="291"></td>
+    <td class="tg-2ovq"><br>世界の GDP の Cloropleth マップ<br><img src="images/WorldPopulationGDP_All.png" alt="Image" width="400" height="291"></td>
   </tr>
 </tbody>
 </table>

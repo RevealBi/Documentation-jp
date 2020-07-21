@@ -1,54 +1,42 @@
-## Exporting Dashboards as Images
+## ダッシュボードを画像としてエクスポート
 
-Reveal allows you to export a screen capture of your entire dashboard or
-individual visualizations from your dashboard. The files delivered to
-your local space / mobile device are in the **png format**.
+Reveal では、ダッシュボード全体のスクリーン キャプチャまたは個別の表示形式をエクスポートすることができます。ローカル スペース/モバイル デバイスに配信されるファイルは **png 形式**です。
 
-### Exporting an Entire Dashboard as an Image
+### ダッシュボード全体を画像としてエクスポート
 
-To export an image of your entire dashboard:
+ダッシュボード全体の画像をエクスポートするには:
 
-1.  Go to the overflow menu in the upper right-hand corner of the
-    dashboard.
+1.  ダッシュボードの右上角にあるオーバーフロー メニューに移動します。
 
-2.  Select *Export* ⇒ *Image*.
+2.  *[エクスポート]* ⇒ *[画像]* を選択します。
 
-3.  In the *Export Image* menu choose the *Export Image* blue button.
+3.  *[画像をエクスポート]* メニューで、*[画像をエクスポート]* の青いボタンを選択します。
 
-You can choose the *Copy to clipboard* option to paste the image quickly
-wherever you need without downloading it first.
+*[クリップボードへコピー]* オプションを選択すると、ダウンロードすることなく、クリップボードに画像を取り込むことができます。
 
-### Exporting Individual Visualizations as Images
+### 個別の表示形式を画像としてエクスポート
 
-To export an image of a particular visualization:
+ダッシュボード全体の画像をエクスポートするには:
 
-1.  In dashboard *View mode* **maximize** the selected visualization by
-    clicking/tapping the arrow in its upper right-hand corner.
+1.  ダッシュボードの*ビュー モード*で、右上角の矢印をクリック/タップして、選択した表示形式を**最大化します**。
 
-2.  Select *Export* in the overflow menu.
+2.  オーバーフロー メニューから *[エクスポート]* を選択します。
 
-3.  Select the *Export Image* blue button.
+3.  *[画像をエクスポート]*の青いボタンを選択します。
 
 <a name='annotating'></a>
-### Annotating Images
+### 注釈画像
 
-In the *Export Image* menu you can add annotations to your dashboards in
-case you want to include notes or highlight specific areas with
-different shapes. To **access the annotation section**, select the
-pencil icon in the *Export Image* dialog.
+特定の場所に異なる図形のメモやのハイライトを含む必要がある場合、*[画像をエクスポート]* メニューでダッシュボードに注釈を追加できます。**注釈セクションにアクセスする**には、*[画像をエクスポート]*ダイアログで鉛筆アイコンを選択します。
 
 ![Accessing Image Annotation Menu](images/image-annotation-menu.png)
 
-In the Annotation menu, you will see a top toolbar with many options
-such as adding shapes and freestyle annotations.
+注釈メニューの上部ツールバーには、形状の追加やフリースタイルの注釈など、多くのオプションがあります。
 
 ![Image annotation shapes options](images/image-annotation-shapes.png)
 
-The text option allows you to add text on top of the image. It provides
-options to customize the text, such as background colors, font weight,
-font size, and font color.
+テキストのオプションでは画像の上にテキストを追加できます。背景色、フォントの太さ、フォント サイズ、フォント カラーなど、テキストをカスタマイズするオプションを提供します。
 
 ![Adding text in image annotation](images/image-annotation-text.png)
 
-For exporting images in **Android and iOS** devices, please refer to the
-[Exporting Dashboards](Exporting-Dashboards.html#mobile-devices) topic.
+**Android および iOS** デバイスでの画像のエクスポートについては、[「ダッシュボードのエクスポート」](Exporting-Dashboards.html#mobile-devices)トピックを参照してください。

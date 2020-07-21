@@ -1,50 +1,35 @@
-## Exporting Dashboards as PDF Documents
+## ダッシュボードを PDF 文書としてエクスポート
 
-Reveal allows you to export your dashboard as a PDF document. Every
-visualization that is part of this dashboard will be displayed on a
-separate page of the document.
+Reveal では、ダッシュボードを PDF 文書としてエクスポートできます。各表示形式は、ドキュメントの個別のページに表示されます。
 
-To export a dashboard as a PDF document, go to dashboard *View mode* and
-select: the overflow menu ⇒ *Export* ⇒ *PDF*. The *Export Dashboard*
-dialog will open, allowing you to edit your document and annotate
-specific pages, so that you can tailor it to your needs.
+ダッシュボードを PDF 文書としてエクスポートするには、ダッシュボード *ビュー モード*に移動して、オーバーフロー メニューから *[エクスポート]* ⇒ *PDF* を選択します。*[ダッシュボード エクスポート]* ダイアログが開き、ドキュメントをニーズに合わせるため、編集して特定のページに注釈を付けることができます。
 
-### Export Settings
+### エクスポート設定
 
 ![Settings for PDF document in the Export Dashboard menu](images/export-settings-pdf.png)
 
-In the *Export Dashboard* dialog you can manage the following settings:
+*[ダッシュボード エクスポート]* ダイアログでは、次の設定を管理できます:
 
-1.  Change the **main title** of your PDF document. The default title is
-    your dashboard's title.
+1.  PDF 文書の**主タイトル**を変更します。デフォルトのタイトルは、ダッシュボードのタイトルです。
 
-2.  Change the **page's title** and add a subtitle in the *Enter Title*
-    text box (the second box). The default slide's title is the title of
-    the visualization displayed on the page.
+2.  **ページのタイトル**を変更し、*[タイトルを入力]* テキスト ボックス (2 番目のボックス) にサブタイトルを追加します。デフォルトのスライドのタイトルは、ページに表示される表示形式のタイトルです。
 
-3.  Manage **Branding** settings options allows you to choose:
+3.  **ブランド**設定オプションの管理では、以下を選択できます。
 
-    1.  *Author*'s and their *Company*'s name - displayed in the header
-        panel of the document's pages;
+    1.  *作成者*とその*会社名* - ドキュメントのページのヘッダー パネルに表示されます。
 
-    2.  company's *logo* displayed in the footer and *color* (the main
-        color of the pdf document) - here you can choose one of the
-        following options:
+    2.  *色* (PDF 文書のメイン色) とフッターで表示される会社の*ロゴ* - ここでは、次のオプションのいずれかを選択できます:
 
           - **Reveal**
 
-          - **User's organization/team** - your organization and all of
-            your teams having their branding (logo and color) set up are
-            displayed as options. If you want to know how to
-            access/change your team's branding settings, please read the
-            [Managing Teams](Managing-Your-Team.md) topic.
+           - **ユーザーの組織/チーム** - 組織とすべてのチームのブランディング (ロゴと色) が設定しているオプションとして表示されます。チームのブランド設定にアクセス/変更する方法については、[チームの管理](Managing-Your-Team.md)トピックをご覧ください。
 
-          - **Custom** - select a color and upload a *logo* image of your choice.
+          - **カスタム** - 色を選択し、選択した*ロゴ*画像をアップロードします。
 
-            >[!NOTE] **Requirements for logo images**. The image you upload for a logo must be no bigger than **5 MB** and one of the following formats: jpg, jpeg, png, gif.
+            >[!NOTE] **ロゴ画像の要件**。ロゴとしてアップロードする画像は、**5 MB** 以下で、jpg、jpeg、png、gif のいずれかの形式である必要があります。
 
-4.  Choose between *Landscape* and *Portrait* **document orientation**.
+4.  *横方向*または*縦方向*の**ドキュメントの向き**を選択します。
 
-5.  You can **manage your document pages** by selecting a page from the list to modify its title, annotate or delete it (by removing the tick icon in the upper right corner).
+5.  リストからページを選択してタイトルを変更し、注釈を付け、あるいは右上角のチェック アイコンを除いてドキュメントを削除することで、**ドキュメント ページを管理できます**。
 
-6.  **Annotate** the selected page by clicking/tapping the *pencil* icon. For more information about **annotation settings**, please refer to [Annotating images](images.html#annotating) in the *Exporting Dashboards as Images* topic.
+6.  *鉛筆アイコン*をクリックまたはタップして、選択したページに**注釈**を付けます。**注釈設定**の詳細については、*「ダッシュボードを画像としてエクスポート」* トピックの [「画像に注釈を付ける」](images.html#annotating) を参照してください。

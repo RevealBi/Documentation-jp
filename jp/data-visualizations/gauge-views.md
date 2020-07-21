@@ -1,88 +1,53 @@
-## Gauge Views
+## ゲージ ビュー
 
 
-The Gauge View displays a single value, or a list of values, comparing
-them with range thresholds. The gauge also allows for conditional
-formatting of the different ranges. There are four different flavors:
-[Linear](linear-gauge.md), [Circular](circular-gauge.md),
-[Text](text-gauge.md), [KPI](kpi-gauge.md) and [Bullet Graph](bullet-graph.md)
-gauges.
+ゲージ ビューは単一値を表示します。または、それらを範囲しきい値と比較した値のリストを表示します。ゲージはまた、他の範囲の条件付き書式設定を可能にします。5 つの異なるスタイルがあります: [リニア](linear-gauge.md)、[円形](circular-gauge.md)、[テキスト](text-gauge.md)、[KPI](kpi-gauge.md)、[ブレット グラフ](bullet-graph.md)。
 
 <a name='linear-gauge'></a>
-### Linear Gauge
+### リニア ゲージ
 
-The Linear gauge displays a label, the value of which is taken from the
-*Label* placeholder configuration, and a value that comes from the
-configured *Value* placeholder. The value is charted as a rectangle, and
-is also displayed in a numeric format within its bounds or next to it.
+リニア ゲージは、ラベル、*ラベル*のプレースホルダーの設定から取得された値、および設定*値*のプレースホルダーの値が表示されます。値は、長方形としてチャート化され、バンド内または隣りに数値形式で表示されます。
 
-This gauge type is suitable to compare the values of different rows side
-by side.
+このゲージ タイプは、行の値を並べて比較することに適しています。
 
 <img src="images/pivot-editor-view-linear-gauge-view.png" alt="view linear gauge" width="800"/>
 
 <a name='circular-gauge'></a>
-### Circular Gauge
+### 円形ゲージ
 
-The Radial Gauge displays the band's minimum and maximum thresholds, and
-the current value. It also paints the background with the color of the
-current range.
+ラジアル ゲージは、バンドの最小しきい値と最大しきい値、および現在の値を表示します。現在の範囲の色で背景も塗りつぶします。
 
 <img src="images/pivot-editor-view-circular-gauge-view.png" alt="Circular gauge view example in the Visualization editor" width="800"/>
 
 
 
 <a name='text-gauge'></a>
-### Text Gauge
+### テキスト ゲージ
 
-The Text Gauge displays the Value column data in a large font. This
-flavor is suitable for very high priority metrics. By default, the gauge
-will visualize the data from the Value column for the first data row
-unless any filters are applied so that the chosen data row is different.
+テキスト ゲージは、大きなフォントで Value 列データを表示します。このタイプは、非常に優先度の高いメトリックに適しています。デフォルトでは、いずれかのフィルターが適用されていない限り、選択データ行が異なるようにゲージは最初のデータ行の値列のデータを可視化します。
 
 <img src="images/pivot-editor-view-text-gauge-view.png" alt="Text gauge view example in the Visualization editor" width="800"/>
 
 <a name='bullet-graph'></a>
-### Bullet Graph
+### ブレット グラフ
 
-The Bullet is very similar to a Linear gauge; it displays a label from
-the *Label* placeholder and a value from the *Value* placeholder. The
-value is charted as a horizontal line, and it is also displayed on the
-right in a numeric format.
+ブレット グラフ ゲージは、リニア ゲージに似ていて、*ラベル*のプレースホルダーからラベルを表示し、*値*のプレースホルダーから値を表示します。値は水平線でチャート化され、数字形式で右側にも表示されます。
 
-The Bullet Graph adds a new visual indicator to the Linear gauge, a
-vertical mark that is based on a target value from the *Target*
-placeholder. This new indicator is retrieved from a numeric column,
-meaning that **you need two numeric columns and a text column to configure this view**.
+ブレット グラフは新しいビジュアル インジケーターをリニア ゲージに追加します。*ターゲット* プレースホルダーの目標値をベースにした垂直マークです。これは新しいインジケーターで数値列から取得されます。このビューを構成するには **2 つの数値列とテキスト列が必要**です。
 
 <img src="images/pivot-editor-view-bullet-graph-gauge-view.png" alt="Bullet graph gauge view example in the Visualization editor" width="800"/>
 
-The Bullet is useful for comparing values side by side, while also
-evaluating the performance from the value (horizontal line) against the
-target value (vertical mark).
+このブレット は、値を左右に並べて比較する際に便利です。また、目標値 (垂直マーク) に対する値 (水平線) からパフォーマンスを評価できます。
 
 <a name='bands-configuration'></a>
-#### Bands Configuration
+#### バンドの構成
 
-Each gauge type has a common band range configuration, which is similar
-to the one used in conditional formatting. The configuration dialog
-requires:
+各ゲージ タイプは、条件付き書式で使用されるような一般的なバンドの範囲の構成を持っています。構成ダイアログ要件:
 
-  - **Limits**. These values are automatically set as the lowest and
-    highest values in the dataset for the specified value column, but
-    can also be overriden manually with constant values.
+  - **制限**。これらの値は自動的に指定された値の列のデータセット内の最高値/最低値として設定されますが、定数値を使用して手動でオーバーライドすることができます。
 
-  - **Bands configuration**. This section requires you to establish two
-    thresholds to split the range in thee spaces. The thresholds can be
-    defined as percentage or constant values. Additionally, the
-    definition of the color to associate to each band is configured
-    here. By default, the upper band is colored green, the middle
-    yellow, and the lower in red.
+  - **バンド構成**。このセクションは、ユーザーは 3 つのスペースで範囲を分割するために 2 つのしきい値を設定する必要があります。しきい値は、パーセンテージとして定義または定数値として定義することができます。また、ここに各バンドに関連付ける色を定義する必要があります。デフォルトでは上部のバンドは緑、中央は黄、下部は赤です。
 
 <img src="images/pivot-editor-view-gauge-band-settings.png" alt="gauge band configuration in Settings section" width="800"/>
 
-**Band Configurations are based on your original data**, *not on the
-formatting applied through Reveal*. In the circular gauge above, the
-original data is expressed in percentages, even though the visualization
-was formatted to display a number. Therefore, the selected **Value Comparison Type** is **Percentage**, and the ranges are defined as
-percentages and not numbers.
+*バンド構成は、Reveal を通じて適用されたフォーマットではなく*、**元のデータに基づいています**。上の円形ゲージでは、表示形式が数値を表示するようにフォーマットされていても、元のデータはパーセンテージで表されています。したがって、選択された**値比較タイプ**は**パーセンテージ**であり、範囲は数値ではなくパーセンテージとして定義されます。

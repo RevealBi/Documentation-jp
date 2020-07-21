@@ -1,7 +1,6 @@
-## Creating Gauge Visualizations
+## ゲージで表示形式を作成する方法
 
-In this tutorial, you will learn how to create gauge visualizations
-using a sample spreadsheet.
+このチュートリアルは、サンプル スプレッドシートを使用したゲージでデータの可視化を行います。
 
 <table>
 <colgroup>
@@ -13,72 +12,66 @@ using a sample spreadsheet.
 <tr class="odd">
 <td><p><img src="images/lineargauge-visualization.png" alt="lineargauge visualization" /><br />
 </p>
-<p><a href="#create-linear-gauge">Linear Gauge</a><br />
+<p><a href="#create-linear-gauge">リニア ゲージ</a><br />
 </p></td>
 <td><p><img src="images/circulargauge-visualization.png" alt="circulargauge visualization" /><br />
 </p>
-<p><a href="#create-circular-gauge">Circular Gauge</a><br />
+<p><a href="#create-circular-gauge">円形ゲージ</a><br />
 </p></td>
 <td><p><img src="images/textgauge-visualization.png" alt="textgauge visualization" /><br />
 </p>
-<p><a href="#create-text-gauge">Text Gauge</a><br />
+<p><a href="#create-text-gauge">テキスト ゲージ</a><br />
 </p></td>
 </tr>
 <tr class="even">
 <td><p><img src="images/bulletgraphgauge-visualization.png" alt="bulletgraphgauge visualization" /><br />
 </p>
-<p><a href="#create-bullet-graph-gauge">Bullet Graph</a><br />
+<p><a href="#create-bullet-graph-gauge">ブレット グラフ</a><br />
 </p></td>
 <td><p><img src="images/lineargauge-boundsconfiguration.png" alt="lineargauge boundsconfiguration" /><br />
 </p>
-<p><a href="#adding-bounds-gauge">Linear Gauge with Bounds configuration</a><br />
+<p><a href="#adding-bounds-gauge">範囲構成のリニア ゲージ</a><br />
 </p></td>
 <td><p><img src="images/lineargauge-visualization-bandconfiguration.png" alt="lineargauge visualization bandconfiguration" /><br />
 </p>
-<p><a href="#modify-bands">Linear Gauge with different Band Colors</a><br />
+<p><a href="#modify-bands">バンドの色が異なるリニア ゲージ</a><br />
 </p></td>
 </tr>
 </tbody>
 </table>
 
-Access the links below for the gauge view walkthroughs:
+ゲージ ビューのためのガイドは、以下のリンクから参照してください。
 
-  - [How to create a Linear Gauge](#create-linear-gauge)
+  - [リニア ゲージの作成方法](#create-linear-gauge)
 
-  - [How to create a Radial Gauge](#create-circular-gauge)
+  - [ラジアル ゲージの作成方法](#create-circular-gauge)
 
-  - [How to create a Label Gauge](#create-text-gauge)
+  - [ラベル ゲージの作成方法](#create-text-gauge)
 
-  - [How to create a Bullet Graph](#create-bullet-graph-gauge)
+  - [ブレット グラフ の作成方法](#create-bullet-graph-gauge)
 
-  - [How to add bounds to your gauge visualizations](#adding-bounds-gauge)
+  - [ゲージ可視化に範囲を追加する方法](#adding-bounds-gauge)
 
-  - [How to change band colors](#modify-bands)
+  - [バンドの色を変更する方法](#modify-bands)
 
 <a name='key-concepts'></a>
-### Key Concepts
+### 重要なコンセプト
 
-There are three different layouts to choose from when using gauge views:
+積層型チャートは、 3 つのレイアウトから選択できます:
 
-  - **Bounds Configuration**. The bounds configuration for gauges covers
-    the lowest and highest possible values in your gauges. It is usually
-    set to the lowest value in your data source by default, but you can
-    change it to exclude specific data.
+  - **しきい値の構成**。ゲージのしきい値の構成ではゲージの最大値と最小値を設定できます。デフォルトで最小値に設定されますが、特定のデータを除外するために変更できます。
 
-  - **Bands Configuration**. The bands configuration allows you to
-    establish three different ranges for your information (Higher than,
-    between, and Less than). You can override the default values with
-    ranges tailored to your data source.
+  - **バンド構成**。バンドの構成は 3 つの範囲を設定できます ([より大きい]、[中間]、[より小さい]) です。データ ソースに基づく範囲でデフォルトの値を上書きします。
 
-### Sample Data Source
+### サンプル データ ソース
 
-For this tutorial, you will use the "Gauge Views" sheet in the [Reveal Tutorials Spreadsheet](http://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx).
+このチュートリアルでは、[Reveal チュートリアル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx).
 
 >[!NOTE]
->Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the supported [cloud services](data-sources.md) or add it as a [Web Resource](web-resource.md).
+>このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされている[クラウド サービス](data-sources.md)のいずれかにファイルをアップロードするか、Web リソース](web-resource.md)として追加してください。
 
 <a name='create-linear-gauge'></a>
-### Creating a Linear Gauge
+### リニア ゲージを作成する方法
 
 |                                          |                                                                                            |                                                                                                                                                                       |
 | ---------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -90,21 +83,19 @@ For this tutorial, you will use the "Gauge Views" sheet in the [Reveal Tutorials
 | 6\. **Organize your Data**               | ![Tutorials-LinearGauge-Data](images/Tutorials-LinearGauge-Data.png)                       | This linear gauge, for example, will display life expectancy per Country. Drag and drop the "Country Name" field to "Label" and one of the year fields into "Values". |
 
 <a name='create-circular-gauge'></a>
-### Creating a Circular Gauge
+### 円形ゲージを作成する方法
 
 |                                          |                                                                                            |                                                                                                                                                                       |
 | ---------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **Create a Dashboard**               | ![Tutorials-Create-New-Dashboard](images/Tutorials-Create-New-Dashboard.png)               | In the dashboard viewer, select the + button in the top right-hand corner of the "My Dashboards" screen. Then, select "Dashboard" from the dropdown.                  |
-| 2\. **Configure your Data Source**       | ![Tutorials-Select-Data-Source](images/Tutorials-Select-Data-Source.png)                   | In the *New Visualization* window, select the + button in the bottom right corner and select your data source.                                                        |
+| 1\. **ダッシュボードの作成**               | ![Tutorials-Create-New-Dashboard](images/Tutorials-Create-New-Dashboard.png)               | In the dashboard viewer, select the + button in the top right-hand corner of the "My Dashboards" screen. Then, select "Dashboard" from the dropdown.                  |
+| 2\. **データ ソースの構成**       | ![Tutorials-Select-Data-Source](images/Tutorials-Select-Data-Source.png)                   | In the *New Visualization* window, select the + button in the bottom right corner and select your data source.                                                        |
 | 3\. **Select the Tutorials Spreadsheet** | ![Tutorials-Select-Gauge-Views](images/Tutorials-Select-Gauge-Views.png)                   | Once the data source is configured, select the **Reveal Tutorials Spreadsheet**. Then, choose the "Gauge Views" sheet and select *Load Data*.                         |
 | 4\. **Open the Visualizations Menu**     | ![Tutorials-Select-Change-Visualization](images/Tutorials-Select-Change-Visualization.png) | Select the **grid icon** in the top bar of the Visualizations Editor.                                                                                                 |
 | 5\. **Select your Visualization**        | ![Tutorials-Select-Linear-Gauge](images/Tutorials-Select-Linear-Gauge.png)                 | By default, the visualization type will be set to "Grid". Select the "Circular" gauge.                                                                                |
 | 6\. **Organize your Data**               | ![Tutorials-CircularGauge-Data](images/Tutorials-CircularGauge-Data.png)                   | This radial gauge, for example, will display life expectancy per Country. Drag and drop the "Country Name" field to "Label" and one of the year fields into "Values". |
 
 
-Circular Gauges are particularly useful to show average values as well
-as sum of values. In order to change the aggregation for the field
-displayed in Values:
+円形ゲージは、特に平均値と値の合計の表示に適しています。[値] に表示されるフィールドの集計を変更する手順:
 
 <a name='aggregation-instructions'></a>
 
@@ -115,7 +106,7 @@ displayed in Values:
 
 
 <a name='create-text-gauge'></a>
-### Creating a Text Gauge
+### テキスト ゲージを作成する方法
 
 |                                          |                                                                                                                   |                                                                                                                                                                                                                                                       |
 | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -143,11 +134,9 @@ aggregation, [review these instructions](#aggregation-instructions).
 | 6\. **Organize your Data**               | ![Tutorials-Charts-Organizing-Data](images/Tutorials-Charts-Organizing-Data.png)                                  | This bullet graph, for example, will display life expectancy per Country. Drag and drop the "Country Name" field to "Label", one of the years into "Values", and another year into "Target". |
 
 <a name='adding-bounds-gauge'></a>
-### Adding Bounds to your Gauge
+### ゲージの化でしきい値を追加する方法
 
-Bounds allow you to set the lowest and highest values in your gauges; as
-mentioned in [Key Concepts](#key-concepts), you can change it to exclude
-specific data. In order to do this:
+しきい値を使用すると、ゲージの最小値と最大値を設定できます。 [重要なコンセプト](#key-concepts)で述べたように、特定のデータを除外するように変更できます。以下は作業手順です。
 
 |                                                |                                                                        |                                                                                                                                       |
 | ---------------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
@@ -155,11 +144,9 @@ specific data. In order to do this:
 | 2\. **Change the Default selection in Limits** | ![Tutorials-Limits-Bounds](images/Tutorials-Limits-Bounds.png)         | Depending on whether you want to set the minimum or maximum value (or both), enter the value you want the chart to start or end with. |
 
 <a name='modify-bands'></a>
-### Changing Band Colors
+### バンドの色の変更
 
-The colors for the three different ranges (Higher than, Lower than and
-Between) can be changed between the predefined colors. In order to do
-so:
+以下は、バンド ([より大きい]、[中間] および [より小さい]) の色を変更するための手順です。以下は変更手順です。
 
 |                                    |                                                                        |                                                                          |
 | ---------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |

@@ -1,127 +1,104 @@
-## Field Filters and Rules
+## フィールド フィルターとルール
 
-You can also apply filters or rules to the fields in your dataset. In
-order to do so, you will need to add a field to the **Data Filters**
-placeholder in the lower section of the data editor. Then, select field
-from the dropdown to access the *Data Filter* window.
+データセットのフィールドにもフィルターとルールを適用できます。そのためには、データ エディターの下部にある**データ フィルター** プレースホルダーにフィールドを追加する必要があります。次に、ドロップダウンからフィールドを選択して、*データ フィルター* ウィンドウにアクセスします。
 
 <img src="images/add-data-filter.png" alt="Adding data filter fields list" width="800"/>
 
 <a name='empty-values'></a>
-### Filter Empty Values
+### 空値をフィルター
 
-Reveal provides the ability to filter rows in the dataset that have null
-or empty values on a specific column by enabling the filter empty values
-configuration setting on a specific column.
+Reveal は特定の列で空値のフィルター構成の設定を有効にすることによって、特定の列に null、または空の値を持つデータ セット内の行をフィルタリングする機能を提供します。
 
 ![FilterEmtpyValues\_All](images/FilterEmtpyValues_All.png)
 
 <a name='select-values'></a>
-### Select Values
+### 値の選択
 
-This type of filter supports the definition of the set of values to
-display for a specific field. To enable it, drag and drop a field to the
-**Data Filters** placeholder.
+このタイプのフィルターは、特定のフィールドに表示する値セットの定義をサポートします。これを有効にするには、フィールドを**データ フィルター** プレースホルダーにドラッグアンドドロップします。
 
 ![SelectValues\_All](images/SelectValues_All.png)
 
-In the *Field Settings* dialog, you will see the option to **Select
-Values**. This displays the list of possible values for a column, and
-allows you to select only the items you want to remain in the dataset.
-Rows with values excluded by the filter aren't displayed in the
-visualization.
+*[フィールド設定]* ダイアログに、**[値の選択]** オプションが表示されます。列に使用可能な値のリストを表示し、データセット内に残したい項目のみを選択できます。フィルターによって除外された値を持つ行は表示形式に表示されません。
 
-### Filter by Rule
+### ルールでフィルタリング
 
-The **Filter by Rule** option enables the definition of more complex
-rules. The available rule options change depending on the field type.
+**[ルールでフィルタリング]** オプションを使用すると、より複雑なルールを定義できます。使用可能なルール オプションは、フィールド タイプによって異なります。
 
 <a name='rules'></a>
-#### Rules for Date Fields
+#### 日付フィールドのルール
 
-Date fields include rules designed to support time-based scenarios,
-changing the data range and filtering the information displayed in the
-visualization.
+日付フィールドには、時間ベースのシナリオ、日付範囲の変更、表示形式に表示される情報のフィルタリングをサポートするように設計されたルールが含まれています。
 
-  - Custom Date Range
+  - カスタム日付範囲
 
-  - Last Week, Month, or Year
+  - 先週、先月、または去年
 
-  - Month to Date
+  - 過去 1 か月
 
-  - Next Month, Quarter, or Year
+  - 来月、来四半期、または来年
 
-  - Previous Month, Quarter, or Year
+  - 先月、先四半期、または去年
 
-  - Quarter to Date
+  - 日付までの四半期
 
-  - This Month, Quarter, or Year
+  - 今月、今四半期、または今年
 
-  - Today
+  - 今日
 
-  - Year to Date
+  - 過去 1 年間
 
-  - Yesterday
+  - 昨日
 
-By default, when Filter by Rule is enabled on a numeric field, it is set
-to "None".
+デフォルトでは、ルールによるフィルターが数値フィールドで有効になっている場合、「なし」に設定されます。
 
-#### Rules for Numeric Fields
+#### 数値フィールドのルール
 
-Numeric fields (such as integers, decimals, and currencies) support the
-following rules:
+整数、小数、通貨などの数値型のフィールドは、次のルール タイプをサポートしています。
 
-  - Above Average
+  - 平均より上
 
-  - Above Equals Value
+  - 以上
 
-  - Above Value
+  - 値より大きい
 
-  - Below Average
+  - 平均より下
 
-  - Below Equals Value
+  - 以下
 
-  - Below Value
+  - 値より小さい
 
-  - Bottom Items
+  - 下位の項目
 
-  - Bottom Percent
+  - 下位の割合
 
-  - Top Items
+  - 上位の項目
 
-  - Top Percent
+  - 上位の割合
 
-By default, when Filter by Rule is enabled on a numeric field, it is set
-to "None".
+デフォルトでは、ルールによるフィルターが数値フィールドで有効になっている場合、「なし」に設定されます。
 
-#### Rules for String Fields
+#### 文字列フィールドのルール
 
-Text columns support the following type of rules:
+テキスト列は、次のルール タイプをサポートしています。
 
-  - Contains
+  - 含む
 
-  - Ends With
+  - で終わる
 
-  - Is Equal
+  - 等しい
 
-  - Not Contains
+  - 含まない
 
-  - Not Equals
+  - 等しくない
 
-  - Starts With
+  - ～で始まる
 
-Similarly, these rules also take one parameter: the value of the 'starts
-with', or 'equals' that the rule is going to use to evaluate, and is
-entered in a textbox in the same position.
+同様に、これらのルールは 1 つのパラメーターである、ルールが評価で使用する開始値または等しい値を取得し、同じ位置にあるテキストボックスに入力されます。
 
-### Filtering Fields in Values
+### 値のフィールドのフィルタリング
 
-You can also **filter fields dropped into the Values placeholder of the
-data editor**, which might have a different
-[aggregation](field-settings.html#numeric-fields) than those in the list of
-fields.
+**データ エディターの値プレースホルダーにドロップされたフィールドをフィルターすること**もできます。これは、フィールドのリストとは異なる[集計](field-settings.html#numeric-fields)になる可能性があります。
 
 <img src="images/data-filters-filtering-data-editor.png" alt="Data Filters Filtering in the Data Editor" width="800"/>
 
-These fields will appear at the bottom of the list of fields along with
-the name of the aggregation applied to them.
+これらのフィールドは、フィールド リストの下部に、それらに適用される集計の名前とともに表示されます。
