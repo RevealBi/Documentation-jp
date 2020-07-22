@@ -28,10 +28,10 @@
     <th class="tg-cly1">タイトル。ダッシュボードのタイトルのすぐ下に表示される、ダッシュボード ィルターのタイトル。デフォルトで、これはフィルターとして使用されるフィールド名です。</th>
   </tr>
   <tr>
-    <td class="tg-cly1"><a href="#displayed-field">表示フィールド</a>。The field in your dataset, which will be used as a dashboard filter.</td>
+    <td class="tg-cly1"><a href="#displayed-field">表示フィールド</a>。ダッシュボード フィルターとして使用されるデータセット内のフィールド。</td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-weight:bold">選択</span>。This setting allows you to configure: <a href="#multiple-selection">Multiple Selection</a> (more than one value can be selected at a time) and/or <a href="#required-selection">Required Selection</a> (at least one value must always be selected).</td>
+    <td class="tg-cly1"><span style="font-weight:bold">選択</span>。この設定では、次を構成できます。 <a href="#multiple-selection">複数選択</a> (一度に複数の値を選択できます) および/または <a href="#required-selection">必須選択</a> (少なくとも 1 つの値を常に選択する必要があります)。</td>
   </tr>
   <tr>
     <td class="tg-cly1"><a href="#data-filters">データ フィルター</a>。This setting allows you to apply any <a href="#~/en/fields/field-filters-rules.md">field filters and rules</a> to the data source used for the dashboard filter.</td>
