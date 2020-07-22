@@ -4,7 +4,7 @@ Microsoft SQL サーバーデータソースを構成するには、以下の情
 
 ![Enter SQL Server Details](images/Enter-SQL-Server-Details.png)
 
-1.  **データ ソース名**: データソースは以前のダイアログのアカウントのリストに表示されます。By default, Reveal names it *Microsoft SQL Server*. You can change it to your preference.
+1.  データ ソースの**デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Microsoft SQL Server* という名前を付けます。好みに合わせて変更できます。
 
 2.  [**サーバー**](#how-to-find-server): コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 

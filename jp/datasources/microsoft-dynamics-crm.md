@@ -4,7 +4,7 @@ Microsoft Dynamics CRM データソースを構成するには、以下の情報
 
 ![EnterMicrosoftDynamicsCRM\_All](images/EnterMicrosoftDynamicsCRM_All.png)
 
-1.  **データ ソース名**: データソースは以前のダイアログのアカウントのリストに表示されます。By default, Reveal names it *Microsoft Dynamics CRM*. You can change it to your preference.
+1.  データ ソースの**デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Microsoft Dynamics CRM* という名前を付けます。好みに合わせて変更できます。
 
 2.  **URL**: Dynamics CRM サイトの URL (<http://crm.YourCompany.local> など)。
 
