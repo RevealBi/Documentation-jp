@@ -1,19 +1,14 @@
-## Welcome to the Reveal Help Center!
+## Reveal ヘルプ センターへようこそ!
 
 
 ![homePage\_All](images/homePage_All.png)
 
  
-Reveal is an affordable, true self-service BI tool, enabling you to make
-data-driven decisions faster. Built by user experience experts and
-designed for the business user, Reveal makes it simple for you to
-create, view and share dashboards with your teams. It offers you a
-seamless, identical experience no matter what device you are on: Web,
-Desktop, iOS, or Android. 
+Reveal は、手頃な価格のビジネス ユーザー向けセルフサービス BI ツールであり、データに基づく意思決定を迅速に行うことができます。ユーザー エクスペリエンスに特化した開発者によって構築され、ビジネス ユーザー向けに設計された Reveal は、ダッシュボードの作成、表示、チームとの共有を簡単にします。使用しているデバイスに関係なく、シームレスで同一のエクスペリエンスを提供します: ウェブ、デスクトップ、 iOS および Android。 
 
 Reveal is purposely designed to be embedded into applications. Reveal SDK allows you to provide your users with analytical capabilities by integrating quickly and seamlessly into your Windows or web-hosted applications. Interested? [Download Reveal SDK](https://www.revealbi.io/download-sdk). To find out how to start using it, refer to the [Reveal SDK help](developer/index.md). 
 
-### You can use Reveal to:
+### Reveal を使用して、次のことができます:
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -32,36 +27,36 @@ Reveal is purposely designed to be embedded into applications. Reveal SDK allows
 </colgroup>
   <tr>
     <th class="tg-0pky"><img src="images/dataSourcesHomePage_All.png" alt="Adding a data source dialog" width="200" height="150"></th>
-    <th class="tg-0pky"><a href="~/en/datasources/overview.md">Securely connect to your data</a>: Connect to the most popular data sources without setting anything up on the server. Get real-time insights by connecting directly to <a href="~/en/datasources/sharepoint.md">SharePoint Online</a>, <a href="~/en/datasources/google-drive.md">Google Drive</a>, <a href="~/en/datasources/onedrive.md">OneDrive</a>, <a href="~/en/datasources/microsoft-analysis-services.md">Microsoft Analysis Services</a>, <a href="~/en/datasources/microsoft-sql-server.md">Microsoft SQL Server</a>, <a href="~/en/datasources/microsoft-dynamics-crm.md">CRM</a>, and many more.</th>
+    <th class="tg-0pky"><a href="~/en/datasources/overview.md">データに安全に接続する</a>: 人気のあるデータ ソースへ、特別なサーバー設定なしで接続できます。<a href="~/en/datasources/sharepoint.md">SharePoint オンライン</a>, <a href="~/en/datasources/google-drive.md">Googleドライブ</a>, <a href="~/en/datasources/onedrive.md">OneDrive</a>, <a href="~/en/datasources/microsoft-analysis-services.md">Microsoft Analysis Services</a>, <a href="~/en/datasources/microsoft-sql-server.md">Microsoft SQL Server</a>, <a href="~/en/datasources/microsoft-dynamics-crm.md">CRM</a> などに直接接続して、リアルタイムなインサイトを取得します。</th>
   </tr>
   <tr>
     <td class="tg-0pky"><img src="images/VisualizationEditorHomePage_All.png" alt="Selecting a Visualization type dialog" width="200" height="150"></td>
-    <td class="tg-0pky"><a href="~/en/dashboards/creating-dashboards.md"><span style="font-weight:bold">Easily create dashboards</span></a><span style="font-weight:bold">:</span> With an intuitive drag and drop interface, Reveal makes it simple to create dashboards within minutes. Choose from more than 20 different visualizations to present your data and tell your story the best way.</td>
+    <td class="tg-0pky"><a href="~/en/dashboards/creating-dashboards.md"><span style="font-weight:bold">ダッシュボードをを簡単に作成できる</span></a><span style="font-weight:bold">:</span> 直感的なドラッグ＆ドロップ インターフェイスを備えた Reveal は、数分でダッシュボードを簡単に作成できます。20 以上の異なる表示形式から選択して、データを提示し、ストーリーを最良の方法で伝えます。</td>
   </tr>
   <tr>
     <td class="tg-0pky"><img src="images/visualizations-editor.png" alt="Visualization editor" width="200" height="150"></td>
-    <td class="tg-0pky"><a href="~/en/data-visualizations/visualizations-editor.md">Customize your visualizations</a>: Sort, filter and aggregate your data as you wish! Each chart type provides you with different settings to design your visualizations the way you want.</td>
+    <td class="tg-0pky"><a href="~/en/data-visualizations/visualizations-editor.md">データ表示形式のカスタマイズ:</a>: 必要に応じて、データを並べ替えて、フィルターし、集計できます! チャートの種類ごとにさまざまな設定が用意されており、表示形式を希望どおりにデザインできます。</td>
   </tr>
   <tr>
     <td class="tg-0pky"><img src="images/dashboardsInteractHome_All.png" alt="Dashboard viewer show tooltips" width="200" height="150"></td>
-    <td class="tg-0pky"><a href="~/en/dashboards/exporting-dashboards/overview.md">Interact with your dashboards</a>: Once your dashboard is created, interact with your visualizations with drill-down support, or even the ability to change visualization on the fly. Create and share annotated images of your visualizations for deeper insights.</td>
+    <td class="tg-0pky"><a href="~/en/dashboards/exporting-dashboards/overview.md">ダッシュボードをインタラクティブに操作する</a>: ダッシュボードが作成されたら、ドリルダウン サポートを使用して表示形式を操作するか、表示形式をオンザフライで変更することもできます。より深いインサイトを得るために、表示形式の注釈付き画像を作成して共有します。</td>
   </tr>
   <tr>
     <td class="tg-0pky"><img src="images/sharingHome_All.png" alt="Sharing dialog" width="200" height="150"></td>
-    <td class="tg-0pky"><a href="~/en/dashboards/sharing-dashboards/sharing-dashboards.md">Share insights with your teams</a>: Give everyone the power of data by sharing your dashboards within your <a href="~/en/dashboards/teams/teams-collaboration-privacy.html#organization-team">Organization's repository</a>, teams you are part of or with individual coworkers. Assign different levels of permissions to users to give them the level of access you want them to have to your dashboard.</td>
+    <td class="tg-0pky"><a href="~/en/dashboards/sharing-dashboards/sharing-dashboards.md">チームとインサイトを共有する</a>: <a href="~/en/dashboards/teams/teams-collaboration-privacy.html#organization-team">組織のリポジトリ内</a>のダッシュボードを、所属しているチーム、または同僚と共有することで、全員にデータの力を与えます。ユーザーにさまざまなレベルの権限を割り当てて、ダッシュボードへのアクセス権を付与します。</td>
   </tr>
 </table>
 
 
-### What's New
+### 新機能:
 
-  - [**New TreeMap visualization**](~/en/data-visualizations/treemap-view.md) – You can use this new visualization type to present large hierarchies with a set of nested rectangles. Rectangles' size will show you part-to-whole relationships amongst a variety of metrics, helping you identify patterns and relations between similar data.
+  - [**新規 TreeMap 表示形式**](~/en/data-visualizations/treemap-view.md) – この新しい表示形式を使用して、大きな階層をネストされた四角形の集合で表示できます。四角形のサイズは、さまざまなメトリック間の部分と全体の関係を示し、同様のデータ間のパターンと関係を識別します。
 
-  - [**Export to Excel**](~/en/dashboards/exporting-dashboards/excel-data-format.md) enhancements – You can include more visualization types in your spreadsheets upon export. Scatter, Bubble and Sparkline charts are now available.
+  - [**Excel エクスポート**](~/en/dashboards/exporting-dashboards/excel-data-format.md) の機能拡張 – エクスポートする際に複数の表示形式をスプレッドシートに追加できます。散布図、バブル チャート、スパークライン チャートが利用できるようになりました。
 
-  - Various **UI/UX improvements** – Various minor changes were added to improve user experience in the Visualization, Dashboard, New Data Source dialog, etc.
+  - **UI/UX の改善** – 表示形式、ダッシュボード、新しいデータソース ダイアログなどのユーザーエクスペリエンスを向上するために、小さな変更が追加されました。
   
-  - Added **support for Shared Drives in Google Drive** – If you have a GSuite Business account, you can now access your Shared Drives data and use it to build visualizations in Reveal. You will see your Shared Drives after you add your [Google Drive](~/en/datasources/google-drive.md) as a data source in Reveal.
+  - **Google ドライブで共有ドライブのサポート**を追加 – G Suite Business アカウントをお持ちの場合、共有ドライブ データにアクセスし、 Reveal で可視化できます。Reveal で [Google ドライブ](~/en/datasources/google-drive.md)をデータ ソースとして追加すると、共有ドライブが表示されます。
 
 
-Still not sure? Try our [**free demo**](https://app.revealbi.io/Login?provider=Demo&_ga=2.197140908.2008019520.1580398635-1419162557.1572354605) version to discover what Reveal can do for your business!
+私たちの [**無料デモ**](https://app.revealbi.io/Login?provider=Demo&_ga=2.197140908.2008019520.1580398635-1419162557.1572354605) 版を試して、Reveal がお客様のビジネスに何ができるかを発見してください!

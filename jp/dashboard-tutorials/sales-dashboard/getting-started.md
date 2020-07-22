@@ -1,52 +1,40 @@
-## Sales Dashboard Tutorial 
+## Sales Dashboard チュートリアル
 
-In this tutorial, you will see how the "Sales Performance" dashboard
-displayed below was created using a sample spreadsheet with similar
-data.
+このチュートリアルでは、サンプル スプレッドシートで同様のデータを使用して作成した以下の Sales Performance ダッシュボードを表示する方法について説明します。
 
 ![SalesPerformanceDashboard\_All](images/SalesPerformanceDashboard_All.png)
 
-### What's in this Dashboard?
+### ダッシュボードに含まれる項目
 
-This dashboard contains information on a sample company's:
+このダッシュボードは、サンプル企業の以下の情報を含みます:
 
-  - Current Sales performance across teams and territories
+  - チームと地域の現在の販売実績
 
-  - Under-achieving and over-performing product lines
+  - 販売目標未達成と達成した製品ライン
 
-  - Win/loss metrics
+  - Win/Loss メトリックス
 
-### Sample Datasheet
+### サンプル データシート
 
-You can download the sample datasheet
-[here](http://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx).
-All other dashboards [in these tutorials](dashboard-tutorials.md) will use
-the same sample spreadsheet.
+[ここ](http://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)からサンプル データシートをダウンロードできます。その他すべてのダッシュボード [チュートリアル](dashboard-tutorials.md)で同じサンプル スプレッドシートを使用します。
 
 >[!NOTE]
->Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the
-[supported cloud services](data-sources.md).
+>このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、[サポートされているクラウド サービス](data-sources.md)のいずれかにファイルをアップロードしてください。
 
-### Steps Overview
+### ステップの概要
 
-1.  [Creating the Dashboard and Adding a Data Source](sales-starting-creation-process.md)
+1.  [ダッシュボードを作成してデータ ソースを追加](sales-starting-creation-process.md)
 
-2.  [Creating the First Visualization](sales-selecting-data-visualization.md)
+2.  [初めての表示形式を作成](sales-selecting-data-visualization.md)
 
-3.  [Applying Formatting to the First Visualization](sales-applying-formatting-visualization.md)
+3.  [はじめての表示形式に書式を適用](sales-applying-formatting-visualization.md)
 
-4.  [Applying a Theme to the Dashboard](sales-applying-theme.md)
+4.  [ダッシュボードにテーマを適用](sales-applying-theme.md)
 
-5.  [Adding the other Visualizations](sales-adding-other-visualizations.md)
-    [Win/Lost by Month](sales-adding-other-visualizations.html#win-lost-by-month),
-    [Forecasted](sales-adding-other-visualizations#forecasted), [Lost Opportunities](sales-adding-other-visualizations.html#lost-opportunities),
-    [Pipeline by Territory](sales-adding-other-visualizations.html#pipeline-by-territory),
-    [Total Opportunities](sales-adding-other-visualizations.html#total-opportunities),
-    [Revenue by Territory](sales-adding-other-visualizations.html#revenue-by-territory),
-    [Pipeline per Employee](sales-adding-other-visualizations.html#pipeline-per-employee),
-    [Sales by Product](sales-adding-other-visualizations.html#sales-by-product))
+5.  [その他表示形式の追加](sales-adding-other-visualizations.md) ([Win/Lost by Month](sales-adding-other-visualizations.html#win-lost-by-month)、
+[Forecasted](sales-adding-other-visualizations#forecasted)、 [Lost Opportunities](sales-adding-other-visualizations.html#lost-opportunities)、[Pipeline by Territory](sales-adding-other-visualizations.html#pipeline-by-territory)、[Total Opportunities](sales-adding-other-visualizations.html#total-opportunities)、[Revenue by Territory](sales-adding-other-visualizations.html#revenue-by-territory)、[Pipeline per Employee](sales-adding-other-visualizations.html#pipeline-per-employee)、[Sales by Product](sales-adding-other-visualizations.html#sales-by-product))
 
-6.  [Saving your Dashboard](sales-saving-dashboard.md)
+6.  [ダッシュボードの保存](sales-saving-dashboard.md)
 
 <style>
 .previous {
@@ -59,4 +47,4 @@ the same sample spreadsheet.
 
 </style>
 
-<a href="sales-starting-creation-process.md" class="next">Get Started &raquo;</a>
+<a href="sales-starting-creation-process.md" class="next">作業の開始 &raquo;</a>

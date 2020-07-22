@@ -1,50 +1,39 @@
-## Manufacturing Dashboard Tutorial 
+## Manufacturing Dashboard チュートリアル 
 
-In this tutorial, you will see how the "Supply Chain Management"
-dashboard displayed below was created using a sample spreadsheet with
-similar data.
+このチュートリアルでは、サンプル スプレッドシートで同様のデータを使用して作成した以下の Supply Chain Management ダッシュボードを表示する方法について説明します。
 
 ![SupplyChainManagementDashboard\_All](images/SupplyChainManagementDashboard_All.png)
 
-### What's in this dashboard?
+### ダッシュボードに含まれる項目
 
-  - Key Stats across departments
+  - 部門全体の主要な統計
 
-  - Manufacturing trends
+  - 製造傾向
 
-  - Quality and costs
+  - 品質とコスト
 
-  - Headcount for the workforce
+  - 労働力の人数
 
-### Sample Datasheet
+### サンプル データシート
 
-You can download the sample datasheet
-[here](http://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx).
-All other dashboards [in these tutorials](dashboard-tutorials.md) will use
-the same sample spreadsheet.
+[ここ](http://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)からサンプル データシートをダウンロードできます。その他すべてのダッシュボード [チュートリアル](dashboard-tutorials.md)で同じサンプル スプレッドシートを使用します。
 
 >[NOTE]
->Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the
-[supported cloud services](data-sources.md).
+>このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、[サポートされているクラウド サービス](data-sources.md)のいずれかにファイルをアップロードしてください。
 
-### Steps Overview
+### ステップの概要
 
-1.  [Creating the Dashboard and Adding a Data Source](manufacturing-starting-creation-process.md)
+1.  [ダッシュボードを作成してデータ ソースを追加](manufacturing-starting-creation-process.md)
 
-2.  [Selecting the Fields and Visualization for the First Visualization](manufacturing-selecting-data-visualization.md)
+2.  [はじめての表示形式: フィールドの選択と表示形式](manufacturing-selecting-data-visualization.md)
 
-3.  [Applying Formatting to the First Visualization](manufacturing-applying-formatting-visualization.md)
+3.  [はじめての表示形式に書式を適用](manufacturing-applying-formatting-visualization.md)
 
-4.  [Applying a Theme to the Dashboard](manufacturing-applying-theme.md)
+4.  [ダッシュボードにテーマを適用](manufacturing-applying-theme.md)
 
-5.  [Adding the other Visualizations](manufacturing-adding-other-visualizations.md)
-    ([Production](manufacturing-adding-other-visualizations.html#production),
-    [Shipping](manufacturing-adding-other-visualizations.html#shipping),
-    [Average Hours](manufacturing-adding-other-visualizations.html#average-hours),
-    [Headcount](manufacturing-adding-other-visualizations.html#headcount),
-    [Labor Cost](manufacturing-adding-other-visualizations.html#labor-cost))
+5.  [その他の表示形式の追加](manufacturing-adding-other-visualizations.md) ([Production](manufacturing-adding-other-visualizations.html#production)、[Shipping](manufacturing-adding-other-visualizations.html#shipping)、[Average Hours](manufacturing-adding-other-visualizations.html#average-hours)、 [Headcount](manufacturing-adding-other-visualizations.html#headcount)、[Labor Cost](manufacturing-adding-other-visualizations.html#labor-cost))
 
-6.  [Saving your Dashboard](manufacturing-saving-dashboard.md)
+6.  [ダッシュボードの保存](manufacturing-saving-dashboard.md)
 
 <style>
 .previous {
@@ -57,4 +46,4 @@ the same sample spreadsheet.
 
 </style>
 
-<a href="manufacturing-starting-creation-process.md" class="next">Get Started &raquo;</a>
+<a href="manufacturing-starting-creation-process.md" class="next">作業の開始 &raquo;</a>

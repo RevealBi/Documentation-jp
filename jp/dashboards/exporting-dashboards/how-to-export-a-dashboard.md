@@ -1,46 +1,34 @@
-## Export Dashboards
+## ダッシュボードをエクスポート
 
-The information displayed in dashboards will change over time as the
-data changes in the data source, but there will be scenarios where you
-can benefit from sharing a snapshot of the data at that specific moment
-in time. For instance, to highlight an unexpected value that may provide
-some business insight and requires attention right away.
+ダッシュボードに表示される情報は、データ ソースの変更に伴って更新されますが、ある時点のデータのスナップショットを共有することもできます。たとえば、予期しない値を強調表示したビジネス インサイトを提供し、注意を促します。
 
-In order to **access the export feature**, select the overflow button in
-the top right-hand corner and click/tap *Export*.
+**エクスポート機能にアクセスする**には、右上隅にあるオーバーフロー ボタンを選択し、*[エクスポート]*をクリック/タップします。
 
 ![Export option in the overflow menu](images/export-dashboards-menu.png)
 
-### Export Format
+### エクスポート形式
 
-You can easily export dashboards by using the available Export options.
+ダッシュボードは、以下のオプションを使用して簡単にエクスポートできます。
 
 ![Export formats available](images/export-formats.png)
 
-  - [**Export Image**](export-as-images.md) - export a screen capture of the entire
-    dashboard or individual visualizations.
+  - [**画像のエクスポート**](export-as-images.md) - ダッシュボード全体または個別の表示形式のスクリーン キャプチャをエクスポートします。
 
-  - [**Export PowerPoint**](export-as-powerpoint-presentation.md) - export your
-    dashboard as a PowerPoint presentation.
+  - [**PowerPoint のエクスポート**](export-as-powerpoint-presentation.md) - ダッシュボードを PowerPoint プレゼンテーションとしてエクスポートします。
 
-  - [**Export PDF**](export-as-pdf-document.md) - export your dashboard as a PDF
-    document.
+  - [**PDF のエクスポート**](export-as-pdf-document.md) - ダッシュボードを PDF ドキュメントとしてエクスポートします。
 
-  - [**Export Excel**](export-as-excel-data-format.md) - you can export the data used for your dashboards to the **Excel format** and choose if you want to also export the visualization to your spreadsheet.
+  - [**データのエクスポート**](export-as-excel-data-format.md) - ダッシュボードに使用されるデータを **Excel 形式**にエクスポートできます。
 
-  - **Export Dashboard** - export the dashboard through email for Android and iOS, or as a file (.rdash) on your computer for both Desktop and Web.
+  - **ダッシュボードのエクスポート** - Android と iOS のダッシュボードをメール経由でエクスポートするか、もしくはデスクトップと Web ではコンピューター上のファイル (.rdash) としてエクスポートします。
 
 <a name='mobile-devices'></a>
-### Exporting Images and Dashboards in Mobile Devices
+### モバイル デバイスでの、画像とダッシュボードのエクスポート
 
-When using Reveal on an Android or iOS mobile device, you can email,
-print, or send the document to a third-party app. After you choose the
-export format, the following action menu prompts you to choose your
-saving/sharing preferences:
+Android または iOS モバイル デバイスで Reveal を使用する場合、ドキュメントをメール、印刷、またはサードパーティアプリに送信できます。エクスポート形式を選択すると、次のアクション メニューで、保存/共有の設定を選択するよう求められます。
 
 ![Export preview actions on mobile devices](images/export-preview-actions.png)
 
-For image exports, you can find these same options in the **Export
-Image** dialog before or after you annotate images:
+画像のエクスポートの場合、画像に注釈を付ける前または後に、**[画像のエクスポート]**ダイアログに以上と同じオプションがあります。
 
 ![Export image preview actions](images/export-image-preview-actions.png)

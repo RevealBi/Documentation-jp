@@ -68,7 +68,7 @@
 このチュートリアルでは、[Reveal チュートリアル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx).
 
 >[!NOTE]
->このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされている[クラウド サービス](data-sources.md)のいずれかにファイルをアップロードするか、Web リソース](web-resource.md)として追加してください。
+>このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされている[クラウド サービス](data-sources.md)のいずれかにファイルをアップロードするか、[Web リソース](web-resource.md)として追加してください。
 
 <a name='create-linear-gauge'></a>
 ### リニア ゲージを作成する方法
@@ -117,12 +117,10 @@
 | 5\. **Select your Visualization**        | ![Tutorials-Select-Linear-Gauge](images/Tutorials-Select-Linear-Gauge.png)                                        | By default, the visualization type will be set to "Grid". Select the "Text" gauge.                                                                                                                                                                    |
 | 6\. **Organize your Data**               | ![Tutorials-TextGauge-Organizing-Data](images/Tutorials-TextGauge-Organizing-Data.png)                            | This text gauge, for example, will display life expectancy per Country. Drag and drop one of the year fields into "Values", and then the "Country Name" field into "Data Filters". Then, select the specific country you want by selecting the field. |
 
-The text gauge sample above utilizes
-the average aggregation. In order to learn how to change your field's
-aggregation, [review these instructions](#aggregation-instructions).
+The text gauge sample above utilizes the average aggregation. In order to learn how to change your field's aggregation, [review these instructions](#aggregation-instructions).
 
 <a name='create-bullet-graph-gauge'></a>
-### Creating a Bullet Graph
+### ブレット グラフを作成する方法
 
 |                                          |                                                                                                                   |                                                                                                                                                                                              |
 | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
