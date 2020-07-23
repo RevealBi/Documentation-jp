@@ -1,59 +1,42 @@
-## Conditional Formatting
+## 条件付き書式
 
-Conditional formatting allows you to provide different formatting of a
-cell (or rows for [Text Views](~/en/data-visualizations/text-view.md)) depending on the values found
-in a numeric column. For instance, values in the lower 50% range of a
-grid can be colored with a red adorner to signal very low values.
+条件付き書式を使用して数値列の値に応じて、セル  (または[テキス トビュー](~/jp/data-visualizations/text-view.md))の行に異なる書式を設定できます。たとえば、グリッドの下位 50% 範囲内の値は、非常に低い値を通知する赤色のアドナーで色を付けることができます。
 
 <img src="images/pivot-table-view-conditional-formatting.png" alt="Pivot table view conditional formatting in the Visualization editor" width="800"/>
 
-The conditional formatting configuration allows you to establish styling
-rules per ranges of data up to three ranges (typically used for styling,
-upper, middle, and lower ranges). Depending on the nature of the
-information, low values might be a good or bad signal, so you have the
-flexibility to configure the styling in the way that makes the most
-sense in your situation.
+条件付き書式の設定では、データの範囲ごとに、3 つまでの範囲に (一般的には、中央上部、下部範囲スタイル設定に使用) スタイル規則を設定することができます。低い値が適しているかどうかは情報の性質によります。状況に応じて最も理にかなった方法でスタイルを設定できる柔軟性があります。
 
 <img src="images/text-view-conditional-formatting.png" alt="Text view conditional formatting showing Marketing Metrics Visualization" width="800"/>
 
-### Enabling Conditional Formatting
+### 条件付き書式設定の有効化
 
-To enable conditional formatting on a numeric column, select field in
-the Data Editor to prompt the **Field Settings** dialog. The conditional
-formatting configuration is the last option in the settings, and is
-disabled by default.
+数値列で条件付き書式を有効にするには、[フィールドの設定] ダイアログボックスを表示するためにデータ エディターのフィールドを選択します。
+条件付き書式は、設定の最後のオプションであり、デフォルトでは無効になっています。
 
 ![Conditional formatting configuration in Field settings menu](images/conditional-formatting-configuration.png)
 
-  - **Limits**: these values are automatically set as the lowest and
-    highest values in the dataset for the specified column, but can also
-    be overridden manually with constant values.
+  - **制限**: これらの値は自動的に指定された値の列のデータセット内の最高値/最低値として設定されますが、一定の値を使用して手動でオーバーライドすることができます。
 
-  - **Data Ranges**: the three ranges you will use to style your data.
-    For all ranges, you can select one of the pre-defined indicators and
-    colors in the dropdown.
+  - **データ範囲**: データのスタイル設定に使用する 3 つの範囲。
+すべての範囲にはドロップダウンで定義済みのインジケーターと色のいずれかを選択できます。
 
-      - **Value comparison type**: whether you want the ranges to be
-        percentages or numbers.
+      - **値比較タイプ**: 範囲をパーセンテージまたは数値にします。
 
-      - **When value is ≥**: the formatting for values greater than the
-        number you enter.
+      - **値は ≥ の場合**: 入力した数値より大きい値の書式。
 
-      - **When value is ≥ and \<**: this is a fixed range that depends
-        on the values you enter in the first and third range.
+      - **値は ≥ の場合および <**: 最初と 3 番目の範囲に入力する値に依存する固定範囲です。
 
-      - **When value is \<**: the formatting for values less than the
-        number you enter.
+      - **値は < の場合**: 入力した数値より小さい値の書式設定。
 
-### Supported Visualizations
+### サポートされている表示形式
 
-Conditional formatting can be applied to the following visualizations:
+条件付き書式は、以下の表示形式に適用できます。
 
-  - [Grid View](~/en/data-visualizations/grid-view.md)
+  - [グリッド ビュー](~/jp/data-visualizations/grid-view.md)
 
-  - [Pivot Table View](~/en/data-visualizations/pivot-table.md)
+  - [ピボット表ビュー](~/jp/data-visualizations/pivot-table.md)
 
-  - [Text View](~/en/data-visualizations/text-view.md)
+  - [テキスト ビュー](~/jp/data-visualizations/text-view.md)
 
 >[!NOTE]
->[KPI](~/en/data-visualizations/kpi-gauge.md), [Linear](~/en/data-visualizations/gauge-views.html#linear-gauge), [Circular](~/en/data-visualizations/gauge-views.html#circular-gauge), [Text](~/en/data-visualizations/gauge-views.html#text-gauge), and [Bullet Graph](~/en/data-visualizations/gauge-views.html#bullet-graph) gauges support conditional formatting in the form of [**visualization band range configurations**](~/en/data-visualizations/gauge-views.html#bands-configuration).
+>[KPI](~/jp/data-visualizations/kpi-gauge.md)、[リニア](~/jp/data-visualizations/gauge-views.html#linear-gauge)、[円形](~/jp/data-visualizations/gauge-views.html#circular-gauge)、[テキスト](~/jp/data-visualizations/gauge-views.html#text-gauge)、および[ブレット グラフ](~/jp/data-visualizations/gauge-views.html#bullet-graph) ゲージは、[**表示形式バンドの範囲の構成**](~/jp/data-visualizations/gauge-views.html#bands-configuration).で条件付き書式をサポートします
