@@ -1,19 +1,15 @@
 ## Box
 
-Upon selecting Box as your data source, you will see the following login
-prompt:
+データ ソースとして Box を選択すると、以下のログイン プロンプトが表示されます。
 
 ![Box login prompt](images/box-login.png)
 
-Enter your login credentials and select *Authorize*.
+ログイン情報を入力し [認証] を選択します。
 
-### Supported Files
+### サポートされるファイル
 
-When working within Reveal, you will be able to use a wide variety of
-files:
+Reveal では、広範な種類のファイルを使用できます。
 
-  - **Spreadsheets & tabular data**: Excel (.xls, .xlsx), CSV, TSV, which you can use
-    dynamically within Reveal.
+  - **スプレッドシートと表形式データ**: Excel (.xlsls, .xlsx) または CSV、TSV (Reveal 内で動的に使用できます)。
 
-  - **Other files** (including images or document files such as PDFs,
-    texts, etc.), which will be displayed in a preview mode only.
+  - **その他のファイル** プレビューモードのみで表示されます (画像および PDF やテキストなどのドキュメント ファイルを含む)。

@@ -1,128 +1,128 @@
-## Complete Feature Matrix
+## 全機能マトリックス
 
-The matrix below shows the availability of Reveal features in all its platforms - Web, Desktop, iOS and Android.
+以下のマトリックスは、各プラットフォーム (Web、デスクトップ、iOS、Android) いおける Reveal 機能の可用性を示します。
 
-| FEATURE                                           | ReportPlus                                    | Reveal                                    |
+| 機能                                           | ReportPlus                                    | Reveal                                    |
 | ------------------------------------------------- | --------------------------------------------- | ----------------------------------------- |
-| **DATA SOURCES**                                  |                                               |                                           |
-| appFigures                                        | <span style="color: #007F00">Yes</span>       | <span style="color: #FF0000">No</span>    |
-| Box                                               | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Dropbox                                           | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Facebook                                          | <span style="color: #007F00">Yes</span>       | <span style="color: #FF0000">No</span>    |
-| Google Analytics                                  | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Google Drive                                      | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Hadoop Hive Server                                | <span style="color: #007F00">Yes</span>       | <span style="color: #FF0000">No</span>    |
-| IMAP                                              | <span style="color: #007F00">Yes</span>       | <span style="color: #FF0000">No</span>    |
-| JSON                                              | <span style="color: #FF0000">No</span>        | <span style="color: #007F00">Yes</span>   |
-| Microsoft Analysis Server                         | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Microsoft Dynamics CRM                            | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Microsoft Reporting Services Server               | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Microsoft SQL Server                              | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| MySQL                                             | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| OData Source                                      | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| OneDrive                                          | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Open & Import Excel Documents                     | <span style="color: #007F00">Yes</span>       | <span style="color: #FF0000">No</span>    |
-| Oracle                                            | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| PostgreSQL Server                                 | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| REST API                                          | <span style="color: #FF0000">No</span>        | <span style="color: #007F00">Yes</span>   |
-| Salesforce                                        | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>    |
-| SharePoint                                        | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Sybase                                            | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Twitter                                           | <span style="color: #007F00">Yes</span>       | <span style="color: #FF0000">No</span>    |
-| UserVoice                                         | <span style="color: #007F00">Yes</span>       | <span style="color: #FF0000">No</span>    |
-| Web Resource                                      | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| **VISUALIZATIONS**                                |                                               |                                           |
-| Area                                              | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Bar                                               | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Bubble                                            | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Bullet Graph                                      | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Candlestick                                       | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Circular Gauge                                    | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Column                                            | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Composite                                         | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Custom (DIY)                                      | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Doughnut                                          | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Funnel                                            | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Grid View                                         | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Heat Map                                          | <span style="color: #007F00">Yes</span>       | <span style="color: #FF0000">No</span>    |
-| KPI vs Time                                       | <span style="color: #FF0000">No</span>        | <span style="color: #007F00">Yes</span>   |
-| KPI vs Target                                     | <span style="color: #FF0000">No</span>        | <span style="color: #007F00">Yes</span>   |
-| Line                                              | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Linear Gauge                                      | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Map View                                          | <span style="color: #007F00">Yes</span>       | <span style="color: #FF0000">No</span>    |
-| OHLC                                              | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Pie                                               | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Pivot                                             | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Polar                                             | <span style="color: #007F00">Yes</span>       | <span style="color: #FF0000">No</span>    |
-| Radial                                            | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Scatter                                           | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Stacked Area                                      | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Stacked Bar                                       | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Stacked Column                                    | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Step Line                                         | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Sparkline                                         | <span style="color: #FF0000">No</span>        | <span style="color: #007F00">Yes</span>   |
-| Spline                                            | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Spline Area                                       | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Text Gauge                                        | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Text View                                         | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Tree Map                                          | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>    |
-| Web View                                          | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| **INTERACT & ANALYZE**                            |                                               |                                           |
-| Calculated Fields                                 | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Cascading Filters                                 | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Change Visualization in View Mode                 | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Column Sorting in View Mode for Grid View         | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Conditional Formatting                            | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Default Formatting Settings                       | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Drill Down & Drill Up                             | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Flip Grid                                         | <span style="color: #007F00">Yes</span>       | <span style="color: #FF0000">No</span>    |
-| Global Filters & Widget Binding                   | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Global Variables                                  | <span style="color: #007F00">Yes</span>       | <span style="color: #FF0000">No</span>    |
-| Hierarchies                                       | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Join Data from Multiple Sources                   | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| MDX & SQL Query Editors                           | <span style="color: #007F00">Yes</span>       | <span style="color: #FF0000">No</span>    |
-| Multiple Series in Bubble and Scatter Chart       | <span style="color: #007F00">Yes</span>       | <span style="color: #FF0000">No</span>    |
-| Quick Filters                                     | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Sort, Filter, Transpose, Pivot                    | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| **AUTHOR**                                        |                                               |                                           |
-| Copy/Paste Widgets                                | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Drag and Drop Wysiwyg Dashboard Authoring         | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Dashboard Templates                               | <span style="color: #007F00">Yes</span>       | <span style="color: #FF0000">No</span>    |
-| Linked Dashboards                                 | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Themes                                            | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| **SHARING & COLLABORATION**                       |                                               |                                           |
-| Email Image                                       | <span style="color: #007F00">Yes</span>       | <span style="color: #FF0000">No</span>    |
-| Email Dashboard                                   | <span style="color: #007F00">Yes</span>       | <span style="color: #FF0000">No</span>    |
-| Export Image                                      | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Annotate Widget on Export                         | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Export to PPT                                     | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Export to PDF                                     | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Initial View Displays Shared Dashboard Repository | <span style="color: #007F00">Yes</span>       | <span style="color: #FF0000">No</span>    |
-| Teams Creation & Management                       | <span style="color: #FF0000">No</span>        | <span style="color: #007F00">Yes</span>   |
-| Read-only Passcode Locked Dashboards              | <span style="color: #007F00">Yes</span>       | <span style="color: #FF0000">No</span>    |
-| Share in the ReportPlus / Reveal Cloud            | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| **ANYWHERE ACCESS**                               |                                               |                                           |
-| Save datasets locally                             | <span style="color: #007F00">Yes</span>       | <span style="color: #FF0000">No</span>    |
-| Ability to access cached data while offline       | <span style="color: #007F00">Yes</span>       | <span style="color: #FF0000">No</span>    |
-| Favorites                                         | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Search & Tag Dashboards                           | <span style="color: #007F00">Yes</span>       | <span style="color: #FF0000">No</span>    |
-| **SECURE**                                        |                                               |                                           |
-| Data Protection iOS encryption enabled            | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Passcode Lock                                     | <span style="color: #007F00">Yes</span>       | <span style="color: #FF0000">No</span>    |
-| Password protected dashboard for editing only     | <span style="color: #007F00">Yes</span>       | <span style="color: #FF0000">No</span>    |
-| Touch ID Support                                  | <span style="color: #007F00">Yes</span>       | <span style="color: #FF0000">No</span>    |
-| **CUSTOMIZE**                                     |                                               |                                           |
-| Centralized configuration                         | <span style="color: #007F00">Yes</span>       | <span style="color: #FF0000">No</span>    |
-| Feature Trimming                                  | <span style="color: #007F00">Yes</span>       | <span style="color: #FF0000">No</span>    |
-| Custom Themes                                     | <span style="color: #007F00">Yes</span>       | <span style="color: #FF0000">No</span>    |
-| Support for Custom Enterprise Data                | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Native SDK Integration                            | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Embeddable into 3rd party application             | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
-| Customize Max Data Thresholds                     | <span style="color: #007F00">Yes</span>       | <span style="color: #007F00">Yes</span>   |
+| **データソース**                                  |                                               |                                           |
+| appFigures                                        | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
+| Box                                               | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| Dropbox                                           | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| Facebook                                          | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
+| Google アナリティクス                                  | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| Google ドライブ                                      | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| Hadoop Hive サーバー                                | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
+| IMAP                                              | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
+| JSON                                              | <span style="color: #FF0000">X</span>        | <span style="color: #007F00">〇</span>   |
+| Microsoft Analysis サーバー                         | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| Microsoft Dynamics CRM                            | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| Microsoft Reporting Services サーバー               | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| Microsoft SQL サーバー                              | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| MySQL                                             | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| OData ソース                                      | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| OneDrive                                          | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| Excel ドキュメントを開いてインポート                     | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
+| Oracle                                            | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| PostgreSQL サーバー                                 | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| REST API                                          | <span style="color: #FF0000">X</span>        | <span style="color: #007F00">〇</span>   |
+| Salesforce                                        | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>    |
+| SharePoint                                        | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| Sybase                                            | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| Twitter                                           | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
+| UserVoice                                         | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
+| ウェブ リソース                                      | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| **表示形式**                                |                                               |                                           |
+| エリア                                              | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| 棒                                               | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| バブル                                            | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| ブレット グラフ                                     | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| ローソク足                                       | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| 円形ゲージ                                   | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| 柱状                                            | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| 複合                                         | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| 顧客 DIY                                      | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| ドーナツ                                          | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| ファンネル                                            | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| グリッド ビュー                                         | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| ヒート マップ                                          | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
+| KPI と 時間                                       | <span style="color: #FF0000">X</span>        | <span style="color: #007F00">〇</span>   |
+| KPI と ターゲット                                     | <span style="color: #FF0000">X</span>        | <span style="color: #007F00">〇</span>   |
+| 折れ線                                              | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| リニア ゲージ                                      | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| マップ ビュー                                          | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
+| OHLC                                              | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| 円                                               | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| ピボット                                             | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| 極座標                                             | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
+| ラジアル                                            | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| 散布図                                           | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| 積層型エリア                                      | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| 積層型棒                                       | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| 積層型柱状                                    | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| ステップ折れ線                                        | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| スパークライン                                        | <span style="color: #FF0000">X</span>        | <span style="color: #007F00">〇</span>   |
+| スプライン                                            | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| スプライン エリア                                       | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| テキスト ゲージ                                        | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| テキスト ビュー                                         | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| ツリー マップ                                          | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>    |
+| ウェブ ビュー                                          | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| **操作と解析**                            |                                               |                                           |
+| 計算フィールド                                 | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| フィルターのカスケード                                 | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| ビュー モードで表示形式を変更                 | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| グリッド ビューのビュー モードで列を並べ替え         | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| 条件付き書式                            | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| デフォルト書式設定                       | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| ドリルダウンとドリルアップ                             | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| フリップ グリッド                                         | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
+| グローバル フィルターおよびウィジェットのバインド                   | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| グローバル変数                                  | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
+| 階層                                       | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| 複数ソースのデータを結合                   | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| MDX & SQL Query エディター                           | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
+| バブル チャートと散布図の複数シリーズ       | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
+| 簡易フィルター                                     | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| 並べ替え、フィルタリング、入れ替え、ピボット                    | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| **作成者**                                        |                                               |                                           |
+| ウィジェットをコピー/貼り付け                                 | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| ドラッグ アンド ドロップでの WYSIWYG ダッシュボードの作成         | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| ダッシュボード テンプレート                               | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
+| リンク済みのダッシュボード                                 | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| テーマ                                            | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| **共有とコラボレーション**                       |                                               |                                           |
+| メール画像                                       | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
+| メール ダッシュボード                                   | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
+| 画像のエクスポート                                      | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| エクスポート時のウィジェットへの注釈                         | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| PPT のエクスポート                                     | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| PDF のエクスポート                                     | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| 初期表示で共有ダッシュボード リポジトリを表示 | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
+| チームの作成と管理                       | <span style="color: #FF0000">X</span>        | <span style="color: #007F00">〇</span>   |
+| 読み取り専用ダッシュボードをパスコード ロック              | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
+| ReportPlus クラ/Reveal リビーラーウドで共有            | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| **どこからでもアクセス**                               |                                               |                                           |
+| データセットをローカルに保存                             | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
+| オフラインでキャッシュ データにアクセス       | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
+| お気に入り                                         | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| ダッシュボードの検索とタグ付け                           | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
+| **セキュリティ**                                        |                                               |                                           |
+| データ保護 iOS 暗号化の有効化            | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| パスコード ロック                                     | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
+| ダッシュボード編集のみをパスワード保護     | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
+| タッチ ID サポート                                  | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
+| **カスタマイズ**                                     |                                               |                                           |
+| 設定の一元管理                        | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
+| 機能の選択                                  | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
+| カスタム テーマ                                     | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
+| カスタム エンタープライズ データのサポート                | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| ネイティブ SDK の統合                            | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| サードパーティ アプリケーションに組み込み             | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| マックス データしきい値のカスタマイズ                     | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
 
-  - <span style="color: #007F00">Yes</span> - Available
+  - <span style="color: #007F00">〇</span> - 使用可能
 
-  - <span style="color: #FF0000">No</span>  - Not Available
+  - <span style="color: #FF0000">X</span>  - 使用不可
 
 <a name='databases-web'></a>
-**Note**: Databases are not supported in the Web version of Reveal.
+**注**: データベースは Reveal の Web バージョンでサポートされていません。

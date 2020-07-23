@@ -1,49 +1,38 @@
-## Ad-Hoc Hierarchies
+## アドホック階層
 
-
-While Reveal creates hierarchies for Year-Month-Date date fields
-automatically, this does not happen for other types of fields. Ad-hoc
-hierarchies allow users to analyze the data in charts, gauges, and grid
-views, allowing users to create new hierarchies with the fields located
-in the **Rows** placeholder of the data editor.
+Reveal は年月日の日付フィールドの階層を自動的に作成しますが、他のタイプのフィールドでは発生しません。アドホック階層により、ユーザーはチャート、ゲージ、およびグリッドビューでデータを分析でき、データエディターの [行] プレースホルダーにあるフィールドを使用して新しい階層を作成できます。
 
 ![Ad Hoc Hierarchies example in the Visualization editor](images/ad-hoc-hierarchies_All.png)
 
-This feature applies to plain data sources (for example, SQL tables,
-Excel spreadsheets or CSV files) and not to multidimensional data
-sources like Analysis Services. For those cases, the hierarchies are
-defined on the server side, and Reveal supports the expand and drill
-operations.
+この機能は、Analysis Services などの多次元データソースではなく、プレーン データソース (SQLテーブル、Excel スプレッドシート、CSVファイルなど) に適用されます。
+これらの場合、階層はサーバー側で定義され、Reveal は展開およびドリル操作をサポートします。
 
 >[!NOTE]
->Ad-hoc hierarchies are **not supported** in text and Radial Gauges, and in web, text, and grid views.
+>アドホック階層は、テキストとラジアル ゲージ、および Web、テキスト、グリッド ビューを**サポートされません**。
 
-### Enabling Ad-Hoc Hierarchies
+### アドホック階層の有効化
 
-To enable ad-hoc hierarchies, just drag and drop a field in the **Add Hierarchy** section of the *Rows* placeholder in the data editor. When you do this, the structure and behavior of the data table will change.
+アドホック階層を有効にするには、データ エディターのプレースホルダーの [行の階層セクションを追加] にフィールドをドラッグアンドドロップします。これを設定するとデータ テーブルの構成および動作が変わります。
 
 ![Reveal Ad-hoc Hierarchies table](images/reveal-adhoc-hierarchies_all.png)
 
-As seen in the screenshot above, a single column will replace multiple
-columns. In the example presented in the screenshot, you not only can
-drill up and down, but you can also expand each *Department* to show the
-*Office*.
+上記のスクリーンショットのように、単一の列が複数の列を置き換えます。
+スクリーンショットに示されている例では、ドリルアップおよびドリルダウンできるだけでなく、[Department] を展開して [Office] を表示することもできます。
 
 >[!NOTE]
->**Ad-hoc Hierarchies with Date and Time Fields**.
->Building ad-hoc hierarchies with Date, Time and other calendar data is **not supported**.
+>**日付および時刻フィールドを含むアドホック階層**.
+>日付、時刻、およびその他のカレンダーデータを使用してアドホック階層を構築することは**できません**。
 
-### Supported Visualizations
+### サポートされている表示形式
 
-Ad-hoc hierarchies can be added to all visualizations ***except*** for
-the following ones:
+アドホック階層は、以下のものを除くすべての表示形式に追加できます。
 
-  - Circular Gauges
+  - 円形ゲージ
 
-  - Grid Views
+  - グリッド ビュー
 
-  - Text Gauges
+  - テキスト ゲージ
 
-  - Text Views
+  - テキスト ビュー
 
-  - Image Views
+  - 画像ビューアー
