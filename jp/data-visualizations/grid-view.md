@@ -23,7 +23,7 @@ useful whe working with many columns.
 ### Column Sorting in Dashboard View Mode
 
 The grid view allows you to change the sorting of your columns
-(ascending or descending) in [Dashboard View mode](~/en/dashboards/index.html#view-edit-mode) . You can do so by selecting the
+(ascending or descending) in [Dashboard View mode](~/jp/dashboards/index.html#view-edit-mode) . You can do so by selecting the
 arrows icon next to the column name.
 
 <img src="images/grid-view-sorting-columns-options.png" alt="Grid View Sorting Columns Options" width="800"/>

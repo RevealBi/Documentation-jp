@@ -44,7 +44,7 @@ MySQL サーバーデータソースを構成するには、以下の情報が�
 
 ### ビューの作業
 
-Reveal を使用すると、テーブル全体から MySQL データを取得できますが、代わりにテーブルまたはテーブルのセットからデータのサブセットを返す特定の[ビュー](https://dev.mysql.com/doc/refman/8.0/en/stored-programs-views.html)を選択することもできます。
+Reveal を使用すると、テーブル全体から MySQL データを取得できますが、代わりにテーブルまたはテーブルのセットからデータのサブセットを返す特定の[ビュー](https://dev.mysql.com/doc/refman/8.0/jp/stored-programs-views.html)を選択することもできます。
 
 ![MySQL Views section](images/MySQL-views.png)
 
@@ -52,4 +52,4 @@ Reveal を使用すると、テーブル全体から MySQL データを取得で
 
 ![Sample dashboard using MySQL invoices view data](images/invoices-MySQL-view-sample.png)
 
-ビューおよび MySQL の詳細については、[このページ](https://dev.mysql.com/doc/refman/8.0/en/stored-programs-views.html)を参照してください。
+ビューおよび MySQL の詳細については、[このページ](https://dev.mysql.com/doc/refman/8.0/jp/stored-programs-views.html)を参照してください。

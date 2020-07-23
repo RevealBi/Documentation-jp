@@ -7,19 +7,19 @@
 ### データ ソースを追加する
 
 **[ダッシュボード]** を選択すると、**[新しい表示形式]** 画面が表示されます。
-右上隅の [+] 記号を選択してから、[このセクション](~/en/dashboard-tutorials/finance-dashboard/index.html#sample-datasheet)で言及されたサンプル データシートを保存したデータソースを選択します。
+右上隅の [+] 記号を選択してから、[このセクション](~/jp/dashboard-tutorials/finance-dashboard/index.html#sample-datasheet)で言及されたサンプル データシートを保存したデータソースを選択します。
 
 ![creatingnewvisualization\_all](images/creating-new-visualization.png)
 
 >[NOTE]
->各プロバイダーにデータソースを追加する方法については、[このトピック](~/en/datasources/data-sources.md)を参照してください。
+>各プロバイダーにデータソースを追加する方法については、[このトピック](~/jp/datasources/data-sources.md)を参照してください。
 
 **[表示形式データ]**ダイアログでファイルを選択するときは、必ずサンプル スプレッドシートの **[Social Dashboard]** シートを選択してください。
 次に、[データの選択] を選択します。
 
 ![SelectingSocialSheet\_All](images/SelectingSocialSheet_All.png)
 
-データを読み込んだ後、[グリッド ビュー](~/en/data-visualizations/grid-view.md)は[表示形式エディター](~/en/data-visualizations/visualizations-editor.md)でデフォルトで選択されます。
+データを読み込んだ後、[グリッド ビュー](~/jp/data-visualizations/grid-view.md)は[表示形式エディター](~/jp/data-visualizations/visualizations-editor.md)でデフォルトで選択されます。
 
 ![SocialFirstVisualizationGrid\_All](images/SocialFirstVisualizationGrid_All.png)
 

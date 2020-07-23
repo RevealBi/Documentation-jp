@@ -46,7 +46,7 @@ Start using Teams by [creating a team from scratch](#create-team-scratch) or [jo
             >Carefully choose the *Organization* property for your team as you cannot change it later.
       - decide on team's [*privacy*](index.html#team-privacy-levels) - this option will not be availabe if you choose _Personal Organization_ for your team. 
   
-      - configure _branding_ settings - choose a main color and logo to be used when the teams' dashboards are exported as [PDF documents](~/en/dashboards/exporting/export-as-pdf-document.md) and [PPT presentations](~/en/dashboards/exporting/export-as-powerpoint-presentation). 
+      - configure _branding_ settings - choose a main color and logo to be used when the teams' dashboards are exported as [PDF documents](~/jp/dashboards/exporting/export-as-pdf-document.md) and [PPT presentations](~/jp/dashboards/exporting/export-as-powerpoint-presentation). 
        
         >[!NOTE] **Requirements for logo images**. The image you upload for a logo must be no bigger than **5 MB** and one of the following formats: jpg, jpeg, png, gif.
 

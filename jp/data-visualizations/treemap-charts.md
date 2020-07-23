@@ -75,4 +75,4 @@ In the _Settings_ section of the Treemap visualization you can configure the fol
 - **Show Title** - choose whether to show the visualization's title;
 - **Show Values** - choose whether to show **labels**, displaying information about categories and values for rectangles at different levels;
 - **Start Color** - choose a start color from a 10-color palette, Reveal will use your choice to adjust a color scheme;
-- **Links** - connect the visualization to a dashboard or URL. For more information, please refer to the [Linking Dashboards](~/en/dashboards/dashboard-linking) topic.
+- **Links** - connect the visualization to a dashboard or URL. For more information, please refer to the [Linking Dashboards](~/jp/dashboards/dashboard-linking) topic.

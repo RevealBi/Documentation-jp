@@ -17,7 +17,7 @@ Below you will find the menus on the initial Reveal screen and what you are able
 > Note that you have *Dashboards*, *Favorites* and *Recent* available in the left bar of both *My Stuff*, and each of your teams. Their contents (dashboards) will be different for you and for each of your teams. Still, you can have the same dashboard shared between two or more teams, for example, or copy a dashboard from a team to *My Stuff*, and vice versa.
 
 
-1.  **Dashboards** - This is the central space for all dashboards. Start from here when you want to create, revise, or just find a dashboard you need. When accessing this space from the _My Stuff_ menu, you will find all dashboards created by you or shared with you. If you access this space in a team, dashboards created by other team members, or shared with your team are available for you to view and/or edit (depending on your [role permissions in the team](~/en/teams/overview.html#members-roles-permissions)).
+1.  **Dashboards** - This is the central space for all dashboards. Start from here when you want to create, revise, or just find a dashboard you need. When accessing this space from the _My Stuff_ menu, you will find all dashboards created by you or shared with you. If you access this space in a team, dashboards created by other team members, or shared with your team are available for you to view and/or edit (depending on your [role permissions in the team](~/jp/teams/overview.html#members-roles-permissions)).
 
   To open the content of a dashboard, you just need to click/tap on it. Select the overflow button in the top right-hand corner of a dashboard to **access advance dashboard actions** such as editing, sharing or deleting.
 

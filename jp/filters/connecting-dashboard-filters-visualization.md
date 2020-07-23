@@ -1,73 +1,48 @@
-## Connecting Dashboard Filters to a Visualization
+## ダッシュボード フィルターを表示形式に接続
 
-Binding the data in a visualization to a dashboard filter can be done in
-two ways:
+可視化したデータをダッシュボード フィルターにバインドする 2 つの方法があります:
 
 ![dashboard filters menu](images/dashboard-filters-menu.png)
 
-  - **As part of the Dashboard Filter configuration** (as shown above).
-    This allows you to centrally configure binding between a dashboard
-    filter and all visualizations in the dashboard.
+  - **ダッシュボード フィルター構成の一部として接続** (上記を参照)
+    これにより、ダッシュボード フィルターとダッシュボードのすべての表示形式間のバインド構成が可能です。
 
-  - **Through the Visualization Editor** so that you can bind an
-    individual visualization, even after the dashboard filter has been
-    created.
+  - **表示形式エディター**ーを使用して、ダッシュボード フィルターが作成された後でも、個々の表示形式をバインドできます。
 
-In both cases, binding is defined by adding rules that link a field in
-the dashboard filter dataset with a corresponding field in the
-visualization's dataset ([**field binding**](#field-binding)). You can
-always remove a visualization's binding selecting **Disconnect** in the
-Visualizations Editor or the Dashboard Filter menu.
+いずれの場合もダッシュボード フィルター データセットのフィールドへリンクするルールを追加してバインドが定義されます。([フィールドのバインド](#field-binding))
+表示形式 エディターまたは [ダッシュボード フィルター] メニューで [切断] を選択すると、表示形式のバインドをいつでも削除できます。
 
 ![disconnecting dashboard filters from a visualization](images/disconnecting-dashboard-filter.png)
 
 <a name='field-binding'></a>
-### Field Binding
+### フィールドのバインド
 
-Field binding allows you to configure a join relationship between the
-dashboard filter dataset schema and the visualization's schema. To do
-this, select the **Dashboard Filter** you want to use and then
-**Connect**.
+フィールドのバインでは、ダッシュボード フィルターのデータセット スキーマ、および表示形式のスキーマ間の結合関係を構成することができます。使用する [ダッシュボード フィルター] を選択して [接続]します。
 
 ![field binding menu](images/pivot-editor-view-field-binding.png)
 
-In the dialog above, you will need to configure:
+上記のダイアログで以下を構成する必要があります。
 
-  - **Visualization**: this represents the column in the visualization's
-    dataset that will be used as key to join with the dashboard filter
-    dataset. For example, *Office*, *EmployeeID*, *ProductID*, etc.
+  - **表示形式**: ダッシュボード フィルターのデータセットと結合するためのキーとして使用される表示形式 データセット内の列を表します。たとえば、Office、 EmployeeID、ProductID など。
 
-  - **Operators**: the join operators to use, which can be one of the
-    following:
+  - **演算子**: 結合演算子は、以下のいずれかを使用します。
 
-      - **Is Equal**: requires that both the field value and the
-        dashboard filter selection be exactly the same.
+      - **等しい**: フィールド値とダッシュボード フィルター選択の両方が等しい必要があります。
 
-      - **Contains**: meant to be used with string fields, it returns a
-        match that is enabled when the field value contains the
-        dashboard filter selection. For instance, Visualization=`FRANCE`
-        CONTAINS Filter=`FRA`.
+      - **含む**: 文字列フィールドで使用されることを意図し、フィールドの値にダッシュボード フィルター選択が含まれている場合に有効になる一致を返します。
+たとえば、表示形式 = `FRANCE` 含む フィルター = `FRA` 。
 
-      - **Between**: this is only meant to be used with Date Range
-        dashboard filters.
+      - **範囲**: 日付範囲ダッシュボード フィルターでのみ使用します。
 
-  - **Filter**: the specific dashboard filter from the dashboard filters
-    list that will be joined.
+  - **フィルター**: 結合されるダッシュボード フィルターの特定のダッシュボード フィルター。
 
-### Parameters Binding
+### パラメーター バインド
 
-For data sources with parameters ([REST](rest-api.md), [OData](odata-feed.md)
-and Stored Procedures in [MS SQL Server](microsoft-sql-server.md)) you
-might need to connect the dashboard filter to a parameter, so when you
-change the filter data for the visualization, it will be refreshed with
-the selected value in the connected parameter.
+パラメーター ([REST](rest-api.md)、[OData](odata-feed.md) および [MS SQL Server](microsoft-sql-server.md) ストアド ロシージャ) を使用するデータソースの場合、ダッシュボード フィルターをパラメーターに接続する必要があります。そのため、可覚化のフィルター データを変更すると、接続されたパラメーターで選択した値で更新されます。
 
-To connect a dashboard filter to a parameter, follow the procedure in
-[Field Binding](#field-binding). You will find your data source
-parameters at the bottom of the *Vizualization*'s drop-down list in the
-*Edit Filter Connection* dialog:
+ダッシュボード フィルターをパラメーターに接続するには、[フィールド バインド](#field-binding)の手順に従います。データソース パラメーターは、[フィルター接続の編集] ダイアログの表示形式ドロップダウン リストの下部にあります。
 
 ![parameters binding list](images/parameters-binding_All.png)
 
->[!NOTE] **Date Filters**
->You can bind only dashboard filters to parameters. Date filter binding to parameters is not supported.
+>[!NOTE] **日付フィルター**
+>ダッシュボード フィルターのみをパラメーターにバインドできます。パラメーターへの日付フィルターのバインドはサポートされていません。
