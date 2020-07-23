@@ -1,36 +1,30 @@
-## Creating the First Visualization 
+## 初めての表示形式作成 
 
-Let's focus on creating the "Globex Stock Value 2018" visualization in
-the [sample dashboard](finance-dashboard-tutorial.md) presented at the
-beginning of this tutorial. The visualization displays a [Text Gauge](~/en/data-visualizations/gauge-views.md#text-gauge). This particular visualization displays
-two fields:
+チュートリアルのはじめの[サンプル ダッシュボード](finance-dashboard-tutorial.md)に Globex Stock Value 2018 表示形式を作成します。表示形式は[テキスト ゲージ](~/en/data-visualizations/gauge-views.md#text-gauge)を表示します。この表示形式は 2 つのフィールドを表示します:
 
-  - Stocks
+  - 株
 
-  - Actual Value
+  - 実際値
 
-First, **open the visualizations picker** by selecting the grid icon in
-the top bar.
+まず、トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開きます**。
 
 ![VisualizationsMenu\_All](images/VisualizationsMenu_All.png)
 
-**Change your visualization** to "Text Gauge".
+**表示形式を [テキスト ゲージ] に変更します**。
 
-Then, **drag and drop**:
+次に、以下の**ドラッグアンドドロップ**の操作を行います。
 
-  - *Stocks* into the Label placeholder of the data editor.
+  - データ エディターの [ラベル] のプレースホルダーに *Stocks* を**ドラッグアンドドロップ**。
 
-  - *Actual Value* into the Value placeholder.
+  - [値] のプレースホルダーに *Actual Values* をドラッグアンドドロップ。
 
 ![FinanceFirstDragDrop\_All](images/FinanceFirstDragDrop_All.png)
 
-Lastly, **change the visualization's title** to "Globex Stock Value
-2018" by selecting the pencil icon next to the "Finance Dashboard"
-title.
+最後に、Finance Dashboard タイトルの横にある鉛筆アイコンを選択して、**表示形式のタイトルを Globex Stock Value 2018 に変更します**。
 
 ![FinanceGlobexTitle\_All](images/FinanceGlobexTitle_All.png)
 
-Your visualization should look like the following one:
+表示形式は以下のようになります。
 
 ![FinanceFirstVisualizationSample\_All](images/FinanceFirstVisualizationSample_All.png)
 
@@ -46,5 +40,5 @@ Your visualization should look like the following one:
 
 </style>
 
-<a href="finance-starting-creation-process.md" class="previous">&laquo; Previous Step</a>
-<a href="finance-applying-formatting-visualization.md" class="next">Next Step &raquo;</a>
+<a href="finance-starting-creation-process.md" class="previous">&laquo; 前へ</a>
+<a href="finance-applying-formatting-visualization.md" class="next">次へ &raquo;</a>

@@ -1,30 +1,25 @@
-## Creating the First Visualization
+## 初めての表示形式作成
  
 
-Let's focus on creating the "Won Opportunities" visualization in the
-[sample dashboard](sales-dashboard-tutorial.md) presented at the beginning
-of this tutorial. The visualization displays a [Text Gauge](~/en/data-visualizations/gauge-views.html#text-gauge).
+チュートリアルのはじめの[サンプル ダッシュボード](sales-dashboard-tutorial.md)に Won Opportunities 表示形式を作成します。表示形式は[テキスト ゲージ](~/en/data-visualizations/gauge-views.html#text-gauge)を表示します。
 
-First, **open the visualizations picker** by selecting the grid icon in
-the top bar.
+まず、トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開きます**。
 
 ![VisualizationsMenu\_All](images/VisualizationsMenu_All.png)
 
-**Change your visualization** to "Text Gauge".
+**表示形式を [テキストゲージ] に変更します**。
 
 ![SelectTextGauge\_All](images/SelectTextGauge_All.png)
 
-Then, **drag and drop** the **Won Opportunities** field into the Value
-placeholder of the data editor.
+次に、データ エディターの [値] プレースホルダーへ **[Won Opportunities]** フィールドを**ドラッグアンドドロップします**。
 
 ![SalesFirstDragDrop\_All](images/SalesFirstDragDrop_All.png)
 
-Lastly, **change the visualization's title** to "Won Opportunities" by
-selecting the pencil next to the "Sales Dashboard" title.
+最後に、Sales Dashboard タイトルの横にある鉛筆アイコンを選択して、**表示形式のタイトルを Won Opportunities に変更します**。
 
 ![SalesWonOpportunitiesTitle\_All](images/SalesWonOpportunitiesTitle_All.png)
 
-Your visualization should look like the following one:
+表示形式は以下のようになります。
 
 ![SalesFirstVisualizationSample\_All](images/SalesFirstVisualizationSample_All.png)
 
@@ -40,5 +35,5 @@ Your visualization should look like the following one:
 
 </style>
 
-<a href="sales-starting-creation-process.md" class="previous">&laquo; Previous Step</a>
-<a href="sales-applying-formatting-visualization.md" class="next">Next Step &raquo;</a>
+<a href="sales-starting-creation-process.md" class="previous">&laquo; 前へ</a>
+<a href="sales-applying-formatting-visualization.md" class="next">次へ &raquo;</a>

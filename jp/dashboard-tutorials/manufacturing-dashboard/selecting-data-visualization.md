@@ -1,32 +1,26 @@
-## Creating the First Visualization 
+## 初めての表示形式を作成 
 
-Let's focus on creating the "Incoming Daily Orders MTD" visualization in
-the [sample dashboard](manufacturing-dashboard/overview.md) presented at
-the beginning of this tutorial. The widget displays a [Column Chart](~/en/data-visualizations/category-charts.md) and, as such, it only requires one field to be
-dropped into Label and one to be dropped into Values.
+チュートリアルのはじめの[サンプル ダッシュボード](manufacturing-dashboard/overview.md)に Incoming Daily Orders MTD 表示形式を作成します。ウィジェットは[柱状チャート](~/en/data-visualizations/category-charts.md)を表示するため、1 つのフィールドを [ラベル] にドロップし、もう 1 つのフィールドを [値] にドロップするだけで済みます。
 
-First, **open the visualizations picker** by selecting the grid icon in
-the top bar.
+まず、トップ バーのグリッド アイコンを選択し、**表示形式ペインを開きます**。
 
 ![VisualizationsMenu\_All](images/VisualizationsMenu_All.png)
 
-**Change your visualization** to "Column".
+**表示形式を [柱状] に変更します**。
 
-Then, **drag and drop**:
+次に、**ドラッグアンドドロップ**:
 
-  - *Month* into the Label placeholder of the data editor.
+  - *Month* をデータ エディターの [ラベル] のプレースホルダーにドラッグアンドドロップ。
 
-  - *Orders* into the Values placeholder.
+  - *Orders* を [値] のプレースホルダーにドラッグアンドドロップ。
 
 ![ManufacturingFirstDragDrop\_All](images/ManufacturingFirstDragDrop_All.png)
 
-Lastly, **change the visualization's title** to "Incoming Daily Orders
-MTD" by selecting the pencil icon next to the "Manufacturing Dashboard"
-title.
+最後に、Manufacturing Dashboard タイトルの横にある鉛筆を選択して、**表示形式のタイトルを Incoming Daily Orders MTD に変更します**。
 
 ![ManufacturingDailyOrdersMTDTitle\_All](images/ManufacturingDailyOrdersMTDTitle_All.png)
 
-Your visualization should look like the following one:
+表示形式は以下のようになります。
 
 ![ManufacturingFirstVisualizationSample\_All](images/ManufacturingFirstVisualizationSample_All.png)
 
@@ -41,6 +35,6 @@ Your visualization should look like the following one:
 
 </style>
 
-<a href="manufacturing-starting-creation-process.md" class="previous">&laquo; Previous Step</a>
-<a href="manufacturing-applying-formatting-visualization.md" class="next">Next Step &raquo;</a>
+<a href="manufacturing-starting-creation-process.md" class="previous">&laquo; 前へ</a>
+<a href="manufacturing-applying-formatting-visualization.md" class="next">次へ &raquo;</a>
  

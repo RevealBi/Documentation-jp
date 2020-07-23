@@ -1,14 +1,12 @@
-## Saving your Dashboard 
+## ダッシュボードの保存  
 
-After creating your dashboard, you should save your progress. Select the
-**Save As** option in the overflow button from the top-right hand corner
-of the dashboard editor.
+ダッシュボードの作成後、作業を保存できます。ダッシュボード エディターの右上角にあるオーバーフロー ボタンの **[名前を付けて保存]** オプションを選択します。
 
 ![FinanceAccessingSaveMenu\_All](images/SalesAccessingSaveMenu_All.png)
 
-You can save your dashboard in your personal repository, or choose any team repositories you have joined or created. 
+ダッシュボードを個人用リポジトリに保存するか、参加または作成したチーム リポジトリを選択できます。 
 
-Select a name for your dashboard, and, when ready, click/tap **Save here**.
+ダッシュボードの名前を選択し、準備ができた後 **[ここに保存]** をクリック/タップします。
 
 
 <style>
@@ -22,4 +20,4 @@ Select a name for your dashboard, and, when ready, click/tap **Save here**.
 
 </style>
 
-<a href="sales-adding-other-visualizations.md" class="previous">&laquo; Previous Step</a>
+<a href="sales-adding-other-visualizations.md" class="previous">&laquo; 前へ</a>
