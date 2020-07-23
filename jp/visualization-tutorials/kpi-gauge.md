@@ -1,7 +1,6 @@
-## Creating KPI Gauges
+## KPI ゲージを作成
 
-In this tutorial, you will learn how to a KPI gauge visualization using
-a sample spreadsheet.
+このチュートリアルでは、サンプル スプレッドシートを使用して KPI ゲージの表示形式を作成する方法を説明します。
 
 <table>
 <colgroup>
@@ -12,64 +11,62 @@ a sample spreadsheet.
 <tr class="odd">
 <td><p><img src="images/KPIGaugeSimple_All.png" alt="KPIGaugeSimple All" /><br />
 </p>
-<p><a href="#create-kpi-gauge">KPI Gauge</a><br />
+<p><a href="#create-kpi-gauge">KPI ゲージ</a><br />
 </p></td>
 <td><p><img src="images/TutorialMultipleKPIGauges_All.png" alt="TutorialMultipleKPIGauges All" /><br />
 </p>
-<p><a href="#adding-category-kpi">Multiple KPI Gauges</a><br />
+<p><a href="#adding-category-kpi">複数の KPI ゲージ</a><br />
 </p></td>
 </tr>
 <tr class="even">
 <td><p><img src="images/KPIGaugePreviousMonth_All.png" alt="KPIGaugePreviousMonth All" /><br />
 </p>
-<p><a href="#changing-date-comparison-type">Month-over-Month KPI Gauge</a><br />
+<p><a href="#changing-date-comparison-type">月ごとの KPI ゲージ</a><br />
 </p></td>
 <td><p><img src="images/KPIGaugeValuePercentage_All.png" alt="KPIGaugeValuePercentage All" /><br />
 </p>
-<p><a href="#changing-difference-label-kpi">KPI Gauge with Value and Percentage differences</a><br />
+<p><a href="#changing-difference-label-kpi">値とパーセンテージの違いがある KPI ゲージ</a><br />
 </p></td>
 </tr>
 <tr class="odd">
 <td><p><img src="images/KPIGaugeDifferenceColor_All.png" alt="KPIGaugeDifferenceColor All" /><br />
 </p>
-<p><a href="#changing-color-difference-marker">KPI Gauge with a green marker when the value decreased</a><br />
+<p><a href="#changing-color-difference-marker">値が減少したときに緑色のマーカーが付いた KPI ゲージ</a><br />
 </p></td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
-Access the links below for the KPI gauge view walkthroughs:
+KPI ゲージ ビューのためのガイドは、以下のリンクから参照してください:
 
-  - [How to create a KPI Gauge](#create-kpi-gauge)
+  - [KPI ゲージの作成方法](#create-kpi-gauge)
 
-  - [How to create multiple KPI Gauges in one visualization](#adding-category-kpi)
+  - [1 つの表示形式で複数の KPI ゲージを作成する方法](#adding-category-kpi)
 
-  - [How to change the date type for the KPI](#changing-date-comparison-type)
+  - [KPI の日付タイプを変更する方法](#changing-date-comparison-type)
 
-  - [How to change the difference labels for the KPI](#changing-difference-label-kpi)
+  - [KPI の差分ラベルを変更する方法](#changing-difference-label-kpi)
 
-  - [How to change the color for the difference marker in the KPI](#changing-color-difference-marker)
+  - [KPI の差分マーカーの色を変更する方法](#changing-color-difference-marker)
 
-### Key Concepts
+### 重要なコンセプト
 
-KPI gauges are meant to display performances and their variation within
-a given time period. To create them, you will need:
+KPI ゲージは、特定の期間内のパフォーマンスとその変動を表示するためのものです。作成するには、次のものが必要です:
 
-  - **One field** to be dropped into the **Date** placeholder of the
-    data editor.
+  - データ エディターの **[日付]**プレースホルダーへ **1 フィールド**ドロップします。
 
-  - **One field** to be dropped into **Value**.
+  - **1 フィールド**を **[値]** へドロップします。
 
-### Sample Data Source
+### サンプル データ ソース
 
-For this tutorial, you will use the "KPI View" sheet in the [Reveal Tutorials Spreadsheet](http://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx).
+このチュートリアルでは、[Reveal チュートリアル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx)の [KPI ビュー] のシートを使用します。
 
 >[!NOTE]
->Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the supported [cloud services](data-sources.md) or add it as a [Web Resource](web-resource.md).
+>このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされている[クラウド サービス](data-sources.md)のいずれかにファイルをアップロードするか、[Web リソース](web-resource.md)として追加してください。
 
 <a name='creating-kpi-gauge'></a>
-### Creating a KPI Gauge
+### KPI ゲージを作成
 
 |                                          |                                                                                              |                                                                                                                                                      |
 | ---------------------------------------- | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -81,10 +78,9 @@ For this tutorial, you will use the "KPI View" sheet in the [Reveal Tutorials Sp
 | 6\. **Organize your Data**               | ![Tutorials-KPIGauge-Organizing-Data](images/Tutorials-KPIGauge-Organizing-Data.png)         | Drag and drop the "Date" field into "Date" and the "Sales" field into "Value".                                                                       |
 
 <a name='adding-category-kpi'></a>
-### Creating Multiple KPI Gauges in one Visualization
+### 1 つの表示形式で複数の KPI ゲージを作成する方法
 
-In order to create more than one KPI in one visualization, you will need
-to add a field to the **category** placeholder of the data editor.
+1 つの表示形式で複数の KPI を作成するには、データ エディターの**カテゴリ** プレースホルダーにフィールドを追加する必要があります。
 
 |                                          |                                                                                                      |                                                                                                                                                      |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -96,10 +92,9 @@ to add a field to the **category** placeholder of the data editor.
 | 6\. **Organize your Data**               | ![Tutorials-MultipleKPIGauge-Organizing-Data](images/Tutorials-MultipleKPIGauge-Organizing-Data.png) | Drag and drop the "Date" field into "Date", the "Sales" field into "Value" and the "State" field into "Category".                                    |
 
 <a name='changing-date-comparison-type'></a>
-### Changing the Date Comparison Type
+### 日付比較タイプの変更
 
-By default, the date type for your KPI Gauge will be Year-over-Year. You
-can change this by modifying the "Type" field. In order to do so:
+デフォルトでは、KPI ゲージの日付タイプは前年比になります。[タイプ] フィールドを変更することでこれを変更できます。以下は変更手順です。
 
 |                                  |                                                                        |                                                                                                                                                |
 | -------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -107,7 +102,7 @@ can change this by modifying the "Type" field. In order to do so:
 | 2\. **Change the Type**          | ![Tutorial-Change-Date-Type](images/Change-Date-Type.png)     | By default, the date type will be set to Year-to-Year. Select the dropdown next to **Type**, and change the selection to **Month-over-Month**. |
 
 <a name='changingdifferencelabelkpi'></a>
-### Changing the Difference Labels for the KPI Gauge
+### KPI ゲージの差分ラベルの変更
 
 |                                  |                                                                                            |                                                                                                                                                                         |
 | -------------------------------- | ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -115,12 +110,9 @@ can change this by modifying the "Type" field. In order to do so:
 | 2\. **Change the Type**          | ![Tutorial-Change-Date-Difference-Label](images/Change-Date-Difference-Label.png) | By default, the difference label will be set to "Percentage". Select the dropdown next to **Show difference as**, and change the selection to **Value and Percentage**. |
 
 <a name='changing-color-difference-marker'></a>
-### Changing the Color of the Difference Marker
+### 差分マーカーの色の変更
 
-The color for the marker in the KPI gauge will be set to green for
-positive values and red for negative values by default. There might be
-some cases, however, when you want to represent a decrease as a positive
-occurrence. In order to change this:
+デフォルトでは、 KPI ゲージのマーカーの色は、正の値の場合は緑、負の値の場合は赤に設定されます。ただし、減少をプラスとして表現したい場合もあります。以下は設定方法です。
 
 |                                  |                                                                                                          |                                                                                                                                                             |
 | -------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |

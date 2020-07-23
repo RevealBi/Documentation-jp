@@ -1,23 +1,17 @@
-## Logic Calculated Fields
+## 論理計算フィールド
 
 
-Logic calculated fields can be used to compare two or more values in
-your data source. They always return "0" or "1", depending on the
-logical test you submit your values to.
+論理計算フィールドは、データソースの 2 つ以上の値の比較に使用できます。値を送信した論理テストに基づいて常に 0 または 1 を返します。
 
-In Reveal, logic calculated fields include:
+Reveal では、論理計算フィールドは次のとおりです。
 
-  - **Functions with no arguments**: `true()` and `false()`, which
-    return 1 and 0 respectively.
+  - **引数のない関数**: それぞれ 1 と 0 を返す `true()` および `false()`。
 
-  - **Complex functions with logical tests**. For detailed information
-    on each function, click the corresponding link in the table below.
+  - **論理テストのある複素関数**: 各関数の詳細な情報は、以下の表にあるリンクをクリックしてください。
 
-**Note:** *All samples included in the table below were created with the
-[HR Dataset 2016](http://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx)
-spreadsheet.*
+**Note:** *以下の表のすべてのサンプルは [HR Dataset 2016](http://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) スプレッドシートで作成されました。*
 
-The functions included in the logic category are:
+以下は論理カテゴリに含まれる関数です。
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
@@ -28,50 +22,50 @@ The functions included in the logic category are:
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-cly1"><span style="font-weight:bold">Function Name</span></th>
-    <th class="tg-cly1"><span style="font-weight:bold">Syntax and Sample</span></th>
+    <th class="tg-cly1"><span style="font-weight:bold">関数名</span></th>
+    <th class="tg-cly1"><span style="font-weight:bold">構文とサンプル</span></th>
   </tr>
   <tr>
-    <td class="tg-cly1" rowspan="2"><a href="https://www.revealbi.io/help/logic.html#calc-fields-and-or">and</a>: <span class="gray-snippet-cstm">and</span> runs two logical tests. If <span style="font-weight:bold">the logical test is true, it returns 1. If one or both are false, it returns 0.</span></td>
-    <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>:  <span class="gray-snippet-cstm">and({logical1},{logical2})</span></td>
+    <td class="tg-cly1" rowspan="2"><a href="https://www.revealbi.io/help/logic.html#calc-fields-and-or">and</a>: <span class="gray-snippet-cstm">and</span> は 2 つの論理テストを実行します。<span style="font-weight:bold">論理テストは true の場合、1 を返します。1 つまた 2 つは false の場合、0 を返します。</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">構文</span>:  <span class="gray-snippet-cstm">and({logical1},{logical2})</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-weight:bold">Sample</span>:  <span class="gray-snippet-cstm">and([BirthDate]&gt;date(1983, 07, 15, 04, 06, 55),[Department]="CPA")</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">サンプル</span>:  <span class="gray-snippet-cstm">and([BirthDate]&gt;date(1983, 07, 15, 04, 06, 55),[Department]="CPA")</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1" rowspan="2"><a href="https://www.revealbi.io/help/logic.html#true-false"><span style="font-weight:bold">false</span></a>: <span class="gray-snippet-cstm">false</span> returns 0, the logical value of <span style="font-weight:bold">false</span>.</td>
-    <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>:  <span class="gray-snippet-cstm">false()</span></td>
+    <td class="tg-cly1" rowspan="2"><a href="https://www.revealbi.io/help/logic.html#true-false"><span style="font-weight:bold">false</span></a>: <span class="gray-snippet-cstm">false</span> は論理値 の <span style="font-weight:bold">false</span> である 0 を返します。</td>
+    <td class="tg-cly1"><span style="font-weight:bold">構文</span>:  <span class="gray-snippet-cstm">false()</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-weight:bold">Sample</span>:  <span class="gray-snippet-cstm">false()</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">サンプル</span>:  <span class="gray-snippet-cstm">false()</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2"><a href="https://www.revealbi.io/help/logic.html#calc-fields-if"><span style="font-weight:bold">if</span></a>: <span class="gray-snippet-cstm">if</span> runs a logical test. If the <span style="font-weight:bold">logical test is true, it returns 1.</span> If the <span style="font-weight:bold">logical test is false, it returns 0.</span></td>
-    <td class="tg-0lax"><span style="font-weight:bold">Syntax</span>:  <span class="gray-snippet-cstm">if({logical test},{value if true},{value if false})</span></td>
+    <td class="tg-0lax" rowspan="2"><a href="https://www.revealbi.io/help/logic.html#calc-fields-if"><span style="font-weight:bold">if</span></a>: <span class="gray-snippet-cstm">if</span> は論理テストを実行します。<span style="font-weight:bold">論理テストは true の場合、1 を返します。</span> <span style="font-weight:bold">論理テストは false の場合、0 を返します。</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">構文</span>:  <span class="gray-snippet-cstm">if({logical test},{value if true},{value if false})</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:bold">Sample</span>:  <span class="gray-snippet-cstm">if([BirthDate]&lt;(1971,04,15,4,06,55),1,0)</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">サンプル</span>:  <span class="gray-snippet-cstm">if([BirthDate]&lt;(1971,04,15,4,06,55),1,0)</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2"><a href="https://www.revealbi.io/help/logic.html#calc-fields-not">not</a>: <span class="gray-snippet-cstm">not</span> runs a logical test. If the <span style="font-weight:bold">logical test is false, it returns 1. If the logical test is true, it returns 0.</span></td>
-    <td class="tg-0lax"><span style="font-weight:bold">Syntax</span>:  <span class="gray-snippet-cstm">not({logical})</span></td>
+    <td class="tg-0lax" rowspan="2"><a href="https://www.revealbi.io/help/logic.html#calc-fields-not">not</a>: <span class="gray-snippet-cstm">not</span> は論理テストを実行します。<span style="font-weight:bold">論理テストは false の場合、1 を返します。論理テストは true の場合、0 を返します。</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">構文</span>:  <span class="gray-snippet-cstm">not({logical})</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:bold">Sample</span>:  <span class="gray-snippet-cstm">not([OfficeId]&gt;=3)</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">サンプル</span>:  <span class="gray-snippet-cstm">not([OfficeId]&gt;=3)</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2"><a href="https://www.revealbi.io/help/logic.html#calc-fields-and-or"><span style="font-weight:bold">or</span></a>: <span class="gray-snippet-cstm">or</span> runs two logical tests (if statements). If <span style="font-weight:bold">either one of the logical tests is true, it returns 1. If both are false, it returns 0.</span></td>
-    <td class="tg-0lax"><span style="font-weight:bold">Syntax</span>:  <span class="gray-snippet-cstm">or({logical1},{logical2})</span></td>
+    <td class="tg-0lax" rowspan="2"><a href="https://www.revealbi.io/help/logic.html#calc-fields-and-or"><span style="font-weight:bold">or</span></a>: <span class="gray-snippet-cstm">or</span> は 2 つの論理テストを実行します (if ステートメント)。<span style="font-weight:bold">論理テスト の 1 つのいずれか true の場合、 1 を返します。両方が false の場合、0 を返します。</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">構文</span>:  <span class="gray-snippet-cstm">or({logical1},{logical2})</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:bold">Sample</span>:  <span class="gray-snippet-cstm">or(if([Office]="London,UK",1,0),if([BirthDate]&lt;date(1992,09,15,4,06,55),1,0))</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">サンプル</span>:  <span class="gray-snippet-cstm">or(if([Office]="London,UK",1,0),if([BirthDate]&lt;date(1992,09,15,4,06,55),1,0))</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2"><a href="https://www.revealbi.io/help/logic.html#true-false">true</a>: <span class="gray-snippet-cstm">true</span> returns 1, the logical value of <span style="font-weight:bold">true</span>.</td>
-    <td class="tg-0lax"><span style="font-weight:bold">Syntax</span>:  <span class="gray-snippet-cstm">true()</span></td>
+    <td class="tg-0lax" rowspan="2"><a href="https://www.revealbi.io/help/logic.html#true-false">true</a>: <span class="gray-snippet-cstm">true</span> は論理値 の <span style="font-weight:bold">true</span> である 1 を返します。</td>
+    <td class="tg-0lax"><span style="font-weight:bold">構文</span>:  <span class="gray-snippet-cstm">true()</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:bold">Sample</span>:  <span class="gray-snippet-cstm">true()</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">サンプル</span>:  <span class="gray-snippet-cstm">true()</span></td>
   </tr>
 </table>
 
@@ -79,122 +73,108 @@ The functions included in the logic category are:
 <a name='calc-fields-if'></a>
 ### If
 
-With the if function, you can find results that meet certain criteria
-defined in a logical test. There are three arguments for you to
-configure:
+If 関数で論理テストで定義した特定の条件を満たす結果を見つけることができます。3 つの引数で構文されます。
 
-  - A `logical test`: the condition your expression needs to meet for
-    the average to be calculated.
+  - `論理テスト`: 平均を計算するための式に必要な条件。
 
-  - A `value if true`: a value the function will output if the logical
-    test is true.
+  - `value if true` 論理テストが true の場合に関数がアウトプットする値。
 
-  - A `value if false`: a value the function will output if the logical
-    test is false.
+  - `value if false`: 論理テストが false の場合に関数がアウトプットする値。
 
-#### Basic Samples
+#### 基本サンプル
 
-Let's take a look at the example in the table above:
+たとえば、上記の表の例です。
 
 `if([BirthDate]<date(1971,04,15,4,06,55),1,0)`
 
-For clarification purposes, we will separate the function according to
-the terms we defined above:
+より明確にするために関数を上記で定義した用語に基づいて区別します。
 
-| Function Name | Logical Test                           | Value if true | Value if false |
+| 関数名 | 論理テスト                           | true の場合の値 | false の場合の値 |
 | ------------- | -------------------------------------- | ------------- | -------------- |
 | **if** (…​)   | `[BirthDate]<date(1971,04,15,4,06,55)` | `1`           | `0`            |
 
-Where your logical test combines an `expression` in your data source
-with a logical test.
+論理テストでデータソースの`式`と論理テストを組み合わせます。
 
-| Expression    | Operator | Criteria Argument          |
+| 式    | 演算子 | 条件の引数          |
 | ------------- | -------- | -------------------------- |
 | `[BirthDate]` | `<`      | `date(1971,04,15,4,06,55)` |
 
-Where the date argument follows the syntax described in
-[date](date.html#date-date).
+date 引数は [date](date.html#date-date)で説明された構文に従います。
 
-| Function Name | Year   | Month | Day  | Hour | Minute | Second |
+| 関数名 | 年   | 月 | 日  | 時 | 分 | 秒 |
 | ------------- | ------ | ----- | ---- | ---- | ------ | ------ |
 | `date(…​)`    | `1971` | `04`  | `15` | `4`  | `06`   | `55`   |
 
-Let's look at a non-numerical example:
+以下は数値以外の例です。
 
 `if([Department]="Development",1,0)`
 
-Where:
+説明:
 
-| Function Name | Logical Test                 | Value if true | Value if false |
+| 関数名 | 論理テスト                 | true の場合の値 | false の場合の値 |
 | ------------- | ---------------------------- | ------------- | -------------- |
 | **if** (…​)   | `[Department]="Development"` | `1`           | `0`            |
 
-#### Sample with Nested if conditions
+#### ネスト IF 文のサンプル
 
-You can use nested if conditions by preceding them with a logical
-operator (`and`, `or`).
+論理演算子 (`and`, `or`) の後ろに続けてネスト IF 文を使用できます。
 
-The following is one example with only two if conditions, but you can
-include as many as necessary:
+以下は if 文が 2 つある例ですが、if 文を使用する際の上限はありません。
 
 `maxif([Wage], and([OfficeId]=1, [Department]="Development"))`
 
-Where:
+説明:
 
-| Function Name | Expression | Logical Operator |
+| 関数名 | 式 | 管理演算子 |
 | ------------- | ---------- | ---------------- |
 | maxif (…​)    | [Wage]     | and              |
 
-And the `if-condition` statements are:
+`if 文`のステートメント:
 
   - `[BirthDate]>date(1992,09,15,4,06,55)`
 
   - `[Department]="Development"`
 
-Because the logical operator is `and`, both conditions need to be true
-for the `maxif` aggregation to be carried out.
+論理演算子が `and` であるため、実行する `maxif` 集計の両方の条件が true である必要があります。
 
 <a name='calc-fields-and-or'></a>
-### And and Or
+### And と Or
 
-The `and` and `or` functions allow you to build nested if conditions by
-declaring two logical tests that must be applied. Both and and or have
-the same syntax:
+`and` および `or` 関数は、適用する必要のある 2 つの論理テストを宣言してネスト if 条件を構築できます。and および or に同じ構文があります。
 
-| Function Name | Logical Test 1 | Logical Test 2 | Output                                                                                                                    |
+| 関数名 | 論理テスト 1 | 論理テスト 2 | 出力                                                                                                                    |
 | ------------- | -------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| **and** (…​)  | `logical1`     | `logical2`     | **If both conditions are met, returns 1**. **If only one or none** of the conditions are met, **returns 0**.              |
-| **or** (…​)   | `logical1`     | `logical2`     | If **either both or only one of the conditions is met, returns 1**. **If none** of the conditions are met, **returns 0**. |
+| **and** (…​)  | `logical1`     | `logical2`     | **両方の条件が満たされる場合、1 を返します**。 **条件の 1 つのみを満たす**場合、または **条件が満たされない**場合、**0 を返します**。              |
+| **or** (…​)   | `logical1`     | `logical2`     | **両方の条件、または条件の1 つのみを満たす場合、1 を返します**。**条件が満たされない**場合、**0 を返します**。 |
 
-#### Samples
+#### サンプル
 
-Let's take a look at the following and and or samples:
+以下は and および or サンプルの例です。場合、0 を返します。
 
   - `and([BirthDate]>date(1983,07,15,04,06,55), [Department]="CPA")`
 
   - `or([Office]="London,UK",[BirthDate]<date(1992,09,15,4,06,55))`
 
-The syntax they have is the same:
+含まれる構文は同じです。
 
-| Function Name | Logical Test 1                          | Logical Test 2                         | Output                         |
+| 関数名 | 論理テスト 1                          | 論理テスト 2                         | 出力                         |
 | ------------- | --------------------------------------- | -------------------------------------- | ------------------------------ |
-| `and (…​)`    | `[BirthDate]>date(1983,07,15,04,06,55)` | `[Department]="CPA"`                   | 1 and 0, depending on the row. |
-| `or (…​)`     | `[Office]="London,UK"`                  | `[BirthDate]<date(1992,09,15,4,06,55)` | 1 and 0, depending on the row. |
+| `and (…​)`    | `[BirthDate]>date(1983,07,15,04,06,55)` | `[Department]="CPA"`                   | 行に基づいた 1 および 0。 |
+| `or (…​)`     | `[Office]="London,UK"`                  | `[BirthDate]<date(1992,09,15,4,06,55)` | 行に基づいた 1 および 0。 |
 
-The `and` calculated field returns only four "TRUE" rows:
+and 計算フィールドは 4 つの TRUE 行のみ返します。
 
-  - Row 7 (employee "Zolleis Walker").
+  - 行 7 (従業員 Zolleis Walker).
 
-  - Row 57 (employee "Yancy Martinez").
+  - 行 57 (従業員 Yancy Martinez).
 
-  - Row 94 (employee "Nicolas Favarelli")
+  - 行 94 (従業員 Nicolas Favarelli).
 
-  - Row 96 (employee "Jorge Stanatto").
+  - 行 96 (従業員 Jorge Stanatto).
 
-You can look at these two rows only if you apply [filter by rule](~/jp/fields/field-filters-rules.html#rules-numeric-fields) or [select value](~/jp/fields/field-filters-rules.html#select-values) "1.00".
+[ルールでフィルターする](~/jp/fields/field-filters-rules.html#rules-numeric-fields) または [値を選択する](~/jp/fields/field-filters-rules.html#select-values) 1.00 を適用した場合のみ 2 つの行を確認します。
 
-If you want to refine your and condition so you only find "Zolleis
-Walker", you can introduce any one of the following third logical tests:
+Zolleis Walker を見つけるために and 条件を設定し直す場合、以下の論理テストを使用できます。
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -209,10 +189,10 @@ Walker", you can introduce any one of the following third logical tests:
 
 <table class="tg">
   <tr>
-    <th class="tg-yla0">Function Name</th>
-    <th class="tg-cly1"><span style="font-weight:bold">Logical Test 1</span></th>
-    <th class="tg-0lax"><span style="font-weight:bold">Logical Test 2</span></th>
-    <th class="tg-0lax"><span style="font-weight:bold">Logical Test 3</span></th>
+    <th class="tg-yla0">関数名</th>
+    <th class="tg-cly1"><span style="font-weight:bold">論理テスト 1</span></th>
+    <th class="tg-0lax"><span style="font-weight:bold">論理テスト 2</span></th>
+    <th class="tg-0lax"><span style="font-weight:bold">論理テスト 3</span></th>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="2"><span class="gray-snippet-cstm">and (…)</span></td>
@@ -225,40 +205,31 @@ Walker", you can introduce any one of the following third logical tests:
   </tr>
 </table>
 
-You can also combine the and/or functions with the
-[isempty](information.html#isempty)
-calculated fields to get the same results:
+and/or 関数を [isempty](information.html#isempty) 計算フィールドと組み合わせて同じ結果を取得することも可能です。
 
-| Function Name | Logical Test 1 | Logical Test 2 | Logical Test 3  | Logical Test 4            |
+| 関数名 | 論理テスト 1 | 論理テスト 2 | 論理テスト 3  | 論理テスト 4            |
 | ------------- | -------------- | -------------- | --------------- | ------------------------- |
-| `and (…​)`    | Same as above  | Same as above  | `[OfficeId]>=3` | `ISEMPTY([ResignedDate])` |
+| `and (…​)`    | 同上  | 同上  | `[OfficeId]>=3` | `ISEMPTY([ResignedDate])` |
 
-Because the syntax can be hard to follow with additional arguments, you
-can nest additional conditions to group your logical tests. The result
-will not be affected, but make sure that the second and is clearly
-defined.
+構文が追加の引数によって複雑になるため、追加の条件をネストして論理テストをグループ化できます。結果に影響はありませんが、2 つ目の and を明確に定義する必要があります。
 
 `and([BirthDate]>date(1981,07,15,4,06,05),[Department]="CPA",[OfficeId]>=3,ISEMPTY([ResignedDate]))`
 
-  - Logical Test 1: `[BirthDate]>date(1983,07,15,4,06,55)`
+  - 論理テスト 1: `[BirthDate]>date(1983,07,15,4,06,55)`
 
-  - Logical Test 2: `[Department]="CPA"`
+  - 論理テスト 2: `[Department]="CPA"`
 
-  - Logical Test 3: `[OfficeId]>=3`
+  - 論理テスト 3: `[OfficeId]>=3`
 
-  - Logical Test 4: `ISEMPTY([ResignedDate])`
+  - 論理テスト 4: `ISEMPTY([ResignedDate])`
 
-#### Simplifying Complex Calculated Fields
+#### 複雑な計算フィールドの簡素化
 
-While formulas like the one in the sample above can be useful if you
-need to get results based on multiple if conditions, their syntax can be
-hard to follow. You can create separate calculated fields and combine
-them in a single one to simplify them. For example, let's take a look at
-the mentioned calculated field:
+複数の if 条件に基づいた結果が必要な場合は、上記のサンプルの数式などが便利ですが、構文は複雑になります。個別の計算フィールドを作成して 1 つの数式に結合することにより簡素化できます。たとえば、以下の計算フィールドがあります。
 
 `and([BirthDate]>date(1981,07,15,4,06,05),[Department]="CPA",[OfficeId]>=3,ISEMPTY([ResignedDate]))`
 
-There are four IF conditions:
+4 つの if 条件があります。
 
   - `[BirthDate]>date(1983,07,15,4,06,55)`
 
@@ -268,17 +239,16 @@ There are four IF conditions:
 
   - `ISEMPTY([ResignedDate])`
 
-We can create a calculated field for each if condition with a clear
-enough name:
+各 IF 条件の計算フィールドをわかりやすい名前で作成できます。
 
-| IF Statements  | New Calculated Field Name          | Calculated Formula                     |
+| IF ステートメント  | 新しい計算フィールド          | 計算済の数式                     |
 | -------------- | ---------------------------------- | -------------------------------------- |
-| IF Statement 1 | Employees Born after July 15, 1981 | `[BirthDate]>date(1981,07,15,4,06,05)` |
-| IF Statement 2 | CPA Employees                      | `[Department]="CPA"`                   |
-| IF Statement 3 | JP, UY and BG Employees            | `[OfficeId]>=3`                        |
-| IF Statement 4 | Current Employees                  | `ISEMPTY([ResignedDate])`              |
+| IF ステートメント 1 | Employees Born after July 15, 1981 | `[BirthDate]>date(1981,07,15,4,06,05)` |
+| IF ステートメント 2 | CPA Employees                      | `[Department]="CPA"`                   |
+| IF ステートメント 3 | JP, UY and BG Employees            | `[OfficeId]>=3`                        |
+| IF ステートメント 4 | Current Employees                  | `ISEMPTY([ResignedDate])`              |
 
-If we combine these new statements in a new calculated field:
+これらの新しいステートメントを新しい計算フィールドに結合します。
 
 `and([Employees Born after 1981],[CPA Employees],[JP, UY and BG
 Employees],[Current Employees])`
@@ -286,76 +256,61 @@ Employees],[Current Employees])`
 <a name='calc-fields-not'></a>
 ### Not
 
-Using the not function, you can verify whether a logical test is true or
-not. By default, you will see the following structure when you tap not:
+Not 関数を使用して、論理テストが true かどうかを確認できます。デフォルトでは、Not をタップすると以下の構造が表示されます。
 
 `not(logical)`
 
-#### Samples
+#### サンプル
 
-| Function Name | Logical Test     |
+| 関数名 | 論理テスト     |
 | ------------- | ---------------- |
 | `not (…​)`     | `[OfficeId]>=3)` |
 
-Where
+説明:
 
-| Expression   | Operator 1 | Operator 2 | Criteria Argument |
+| 式   | 演算子 1 | 演算子 2 | 条件の引数 |
 | ------------ | ---------- | ---------- | ----------------- |
 | `[OfficeId]` | `>`        | `=`        | `3`               |
 
-#### Combining not with and/or
+#### Not を and/or と組み合わせる
 
-You can also use not to get the opposite result of `and`/`or` calculated
-fields.
+Not を使用して `and`/`or` 計算フィールドで反対の結果を取得できます。
 
-The following and calculated field will return "1" only for EmployeeId
-66 ("Zerbe Johansen"), because only in his case are both if statements
-true at the same time. All other rows return "0".
+以下の and 計算フィールドは、両方の if 条件が同時に true の EmployeeId 66 (Zerbe Johansen) のみに 1 を返します。すべての他の行は 0 を返します。
 
-| Function Name | Logical Test 1       | Logical Test 2                         |
+| 関数名 | 論理テスト 1       | 論理テスト 2                         |
 | ------------- | -------------------- | -------------------------------------- |
 | `and (…​)`     | `[Department]="CPA"` | `[BirthDate]>date(1992,09,15,4,06,55)` |
 
-By adding a `not` before the calculated field, you can get the opposite
-results:
+`not` を計算フィールドの前に追加することにより、反対の結果を取得できます。
 
-| not        | and        | Logical Test 1       | Logical Test 2                         |
+| not        | and        | 論理テスト 1       | 論理テスト 2                         |
 | ---------- | ---------- | -------------------- | -------------------------------------- |
 | `not (…​)`  | `and (…​)`  | `[Department]="CPA"` | `[BirthDate]>date(1992,09,15,4,06,55)` |
 
-All rows that previously returned "0" will now do "1", and all "1" will
-be "0".
+以前 0 を返したすべての行は 1 を返し、すべての 1 は 0 になります。
 
 <a name='true-false'></a>
-### True and False
+### True と False
 
-The `true` and false functions are used without arguments, which means
-that there is no logical test applied; that is, **there is no expression
-or particular statement you are running the logical test against**.
+`true` と false 関数が引数なしで使用されます。つまり論理テストが適用されていないため、**論理テストを実行する式や特定のステートメントがありません**。
 
-They are particularly useful to be used in combination with other
-logical calculated fields; for example, if. Let's take a look at the
-general if syntax:
+これらを if などの他の論理計算フィールドと組み合わせて使用すると便利です。以下は一般的な if 構文の例です。
 
-| Function Name | Argument 1     | Argument 2      | Argument 3       |
+| 関数名 | 引数 1     | 引数 2      | 引数 3       |
 | ------------- | -------------- | --------------- | ---------------- |
 | **if** (…​)    | `logical test` | `value if true` | `value if false` |
 
-Let's replace this formula with if example at the start of this section
-(`if([BirthDate]<date(1971,04,15,4,06,55),1,0)`). Also, let's change the
-values of the "Value if true" and "value if false" arguments to 3 and 4.
+この式を、セクションの最初にある if の例で置き換えましょう (`if([BirthDate]<date(1971,04,15,4,06,55),1,0)`)。更に true の場合の値と false の場合の値の引数の値を 3 と 4 に変更します。
 
-| Function Name | Logical Test                           | Value if true | Value if false |
+| 関数名 | 論理テスト                           | true の場合の値 | false の場合の値 |
 | ------------- | -------------------------------------- | ------------- | -------------- |
 | if (…​)        | `[BirthDate]<date(1971,04,15,4,06,55)` | `3`           | `4`            |
 
-The output of this if statement will be 3 if the logical test is true,
-and 4 if the logical test is false. If you want to use the standard 1,0
-boolean results, you can include `true()` and `false()` in their place.
+if ステートメントの出力は、論理テストが true の場合 3、論理テストが false の場合 4 です。標準 1.0 ブール値の結果を使用する場合、その位置に `true()` and `false()` を含むことができます。
 
-| Function Name | Logical Test                           | Value if true | Value if false |
+| 関数名 | 論理テスト                           | true の場合の値 | false の場合の値 |
 | ------------- | -------------------------------------- | ------------- | -------------- |
 | if (…​)        | `[BirthDate]<date(1971,04,15,4,06,55)` | `true()`      | `false()`      |
 
-This will force your if formula to output 1 and 0 depending on your
-logical test.
+論理テストに基づいて if 数式の出力を強制的に 1 と 0 にします。

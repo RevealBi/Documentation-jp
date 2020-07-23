@@ -1,27 +1,23 @@
-## KPI Gauge
+## KPI ゲージ
 
-Key Performance Indicators (KPIs) is a measurable value that demonstrates how effectively a company is achieving key business objectives. The indicators vary depending on the specific needs of the viewer, but they always provide
-information over metrics important for the organization, such as the
-progress towards goals and over-time trends.
+KPI (Key Performance Indicator: キー パフォーマンス インジケーター) とは、パフォーマンス管理の特定のタイプを表す用語です。KPI は個別のニーズによって変化し、目標に対する進捗や時間軸での傾向など、組織の重要なメトリックスに関する情報を提供します。
 
-Similarly to the [Text Gauge](gauge-views.html#text-gauge), the KPI Gauge
-displays the Value column in a large font. However, the value in the KPI
-is also evaluated against the same value for a previous time period.
+[テキスト ゲージ](gauge-views.html#text-gauge) と同様に、KPI ゲージは値列を大きなフォントで表示します。ただし、KPI の値は、前の期間の同じ値に対しても評価されます。
 
 ![KPI Gauge view in the Visualization editor](images/pivot-editor-view-kpi-gauge.png)
 
-You can also have multiple KPI's in one visualization if you add a
-Category.
+カテゴリを追加すると、1 つの表示形式に複数の KPI を含めることもできます。
 
 ![Multiple KPI Gauges](images/multiple-kpi-gauges.png)
 
-### Indicator Settings
+### インジケータ設定
 
-The KPI gauge has similar settings to the [sparkline](sparkline-charts.md)
-visualization, through which you can configure:
+KPI ゲージには[スパークライン](sparkline-charts.md)表示形式と同様の設定があり、それを使用して構成できます:
 
-  - **Type**: the time period you will use to compare both values.
-  - **Show difference as**: whether you will display the difference as a value, percentage, or both value and percentage.
-  - **When difference is positive**: the color for the difference indicator.
+  - **タイプ**: 両方の値を比較するために使用する期間。
+
+  - **差異の表示**: 差異を値、パーセンテージ、または値とパーセンテージの両方として表示するかどうか。
+
+  - **差異が正の場合**: 差異インジケータの色。
 
 ![Advanced Settings KPI Gauge](images/advanced-settings-kpi-gauge.png)

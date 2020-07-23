@@ -1,28 +1,25 @@
-## Creating an Image View
+## イメージ ビューを作成する方法
 
-In this tutorial, you will learn how to create an Image visualization
-using a sample spreadsheet.
+このチュートリアルでは、サンプル スプレッドシートを使用しイメージ表示形式を作成する方法を説明します。
 
 ![ImageVisualizationDashboard\_All.png](images/ImageVisualizationDashboard_All.png)
 
-### Key Concepts
+### 重要なコンセプト
 
-As mentioned in the Data Visualization section, the [Image View](image-view.md) displays information in an embedded browser by making
-a request to a URL and displaying the results. The data source,
-therefore, will need to:
+[データ表示] セクションに述べたように、[イメージ ビュー](image-view.md)は URL へ要求を送信して、埋め込みのブラウザーで結果を表示します。したがって、データ ソースに以下の項目が必要です:
 
-  - Include a link to a web resource to be displayed in the widget.
+  - ウィジェットに表示されるウェブ リソースへのリンク。
 
-  - Include it **in the first row of the data set**.
+  - **データセットの最初の行**に含みます。
 
-### Sample Data Source
+### サンプル データ ソース
 
-For this tutorial, you will use the "Image View" sheet in the [Reveal Tutorials Spreadsheet](http://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx).
+このチュートリアルでは、[Reveal チュートリアル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx)の [イメージ ビュー] のシートを使用します。
 
 >[!NOTE]
->Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the supported [cloud services](data-sources.md) or add it as a [Web Resource](web-resource.md).
+>このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされている[クラウド サービス](data-sources.md)のいずれかにファイルをアップロードするか、[Web リソース](web-resource.md)として追加してください。
 
-### Creating an Image View
+### イメージ ビューを作成する方法
 
 |                                          |                                                                                                |                                                                                                                                                      |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
