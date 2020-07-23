@@ -187,7 +187,7 @@ information. In order to do this:
 <a name='change-axis-configuration'></a>
 ### Changing your Axis Configuration
 
-Similarly to the [Gauge bands](~/en/data-visualizations/gauge-views.html#bands-configuration), the
+Similarly to the [Gauge bands](~/jp/data-visualizations/gauge-views.html#bands-configuration), the
 chart axis configuration allows you to set the lowest and highest values
 in your chart. You can use this feature to include or exclude specific
 data.

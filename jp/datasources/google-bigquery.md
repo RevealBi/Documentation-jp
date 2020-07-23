@@ -35,13 +35,13 @@ Reveal でビッグ データを操作する場合、数百万のレコードを
 
 現在、BigQuery のデータを使用する*計算フィールド*で、使用できる**関数**の数は限られています。
 
-- [日付](~/en/fields/calculated-fields/date.md) - date; time.
+- [日付](~/jp/fields/calculated-fields/date.md) - date; time.
 
-- [ロジック](~/en/fields/calculated-fields/logic.md) - false; true; if; not.
+- [ロジック](~/jp/fields/calculated-fields/logic.md) - false; true; if; not.
 
-- [数学](~/en/fields/calculated-fields/math.md) - abs; exp; log; log10; mod; rand; sign; sqrt; trunc.
+- [数学](~/jp/fields/calculated-fields/math.md) - abs; exp; log; log10; mod; rand; sign; sqrt; trunc.
 
-- [文字列](~/en/fields/calculated-fields/string.md) - find; len; trim; lower; mid; upper.
+- [文字列](~/jp/fields/calculated-fields/string.md) - find; len; trim; lower; mid; upper.
 
 #### データ ブレンディングの制限
 

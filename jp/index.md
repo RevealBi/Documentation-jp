@@ -27,36 +27,36 @@ Reveal is purposely designed to be embedded into applications. Reveal SDK allows
 </colgroup>
   <tr>
     <th class="tg-0pky"><img src="images/dataSourcesHomePage_All.png" alt="Adding a data source dialog" width="200" height="150"></th>
-    <th class="tg-0pky"><a href="~/en/datasources/overview.md">データに安全に接続する</a>: 人気のあるデータ ソースへ、特別なサーバー設定なしで接続できます。<a href="~/en/datasources/sharepoint.md">SharePoint オンライン</a>, <a href="~/en/datasources/google-drive.md">Googleドライブ</a>, <a href="~/en/datasources/onedrive.md">OneDrive</a>, <a href="~/en/datasources/microsoft-analysis-services.md">Microsoft Analysis Services</a>, <a href="~/en/datasources/microsoft-sql-server.md">Microsoft SQL Server</a>, <a href="~/en/datasources/microsoft-dynamics-crm.md">CRM</a> などに直接接続して、リアルタイムなインサイトを取得します。</th>
+    <th class="tg-0pky"><a href="~/jp/datasources/overview.md">データに安全に接続する</a>: 人気のあるデータ ソースへ、特別なサーバー設定なしで接続できます。<a href="~/jp/datasources/sharepoint.md">SharePoint オンライン</a>, <a href="~/jp/datasources/google-drive.md">Googleドライブ</a>, <a href="~/jp/datasources/onedrive.md">OneDrive</a>, <a href="~/jp/datasources/microsoft-analysis-services.md">Microsoft Analysis Services</a>, <a href="~/jp/datasources/microsoft-sql-server.md">Microsoft SQL Server</a>, <a href="~/jp/datasources/microsoft-dynamics-crm.md">CRM</a> などに直接接続して、リアルタイムなインサイトを取得します。</th>
   </tr>
   <tr>
     <td class="tg-0pky"><img src="images/VisualizationEditorHomePage_All.png" alt="Selecting a Visualization type dialog" width="200" height="150"></td>
-    <td class="tg-0pky"><a href="~/en/dashboards/creating-dashboards.md"><span style="font-weight:bold">ダッシュボードをを簡単に作成できる</span></a><span style="font-weight:bold">:</span> 直感的なドラッグ＆ドロップ インターフェイスを備えた Reveal は、数分でダッシュボードを簡単に作成できます。20 以上の異なる表示形式から選択して、データを提示し、ストーリーを最良の方法で伝えます。</td>
+    <td class="tg-0pky"><a href="~/jp/dashboards/creating-dashboards.md"><span style="font-weight:bold">ダッシュボードをを簡単に作成できる</span></a><span style="font-weight:bold">:</span> 直感的なドラッグ＆ドロップ インターフェイスを備えた Reveal は、数分でダッシュボードを簡単に作成できます。20 以上の異なる表示形式から選択して、データを提示し、ストーリーを最良の方法で伝えます。</td>
   </tr>
   <tr>
     <td class="tg-0pky"><img src="images/visualizations-editor.png" alt="Visualization editor" width="200" height="150"></td>
-    <td class="tg-0pky"><a href="~/en/data-visualizations/visualizations-editor.md">データ表示形式のカスタマイズ:</a>: 必要に応じて、データを並べ替えて、フィルターし、集計できます! チャートの種類ごとにさまざまな設定が用意されており、表示形式を希望どおりにデザインできます。</td>
+    <td class="tg-0pky"><a href="~/jp/data-visualizations/visualizations-editor.md">データ表示形式のカスタマイズ:</a>: 必要に応じて、データを並べ替えて、フィルターし、集計できます! チャートの種類ごとにさまざまな設定が用意されており、表示形式を希望どおりにデザインできます。</td>
   </tr>
   <tr>
     <td class="tg-0pky"><img src="images/dashboardsInteractHome_All.png" alt="Dashboard viewer show tooltips" width="200" height="150"></td>
-    <td class="tg-0pky"><a href="~/en/dashboards/exporting-dashboards/overview.md">ダッシュボードをインタラクティブに操作する</a>: ダッシュボードが作成されたら、ドリルダウン サポートを使用して表示形式を操作するか、表示形式をオンザフライで変更することもできます。より深いインサイトを得るために、表示形式の注釈付き画像を作成して共有します。</td>
+    <td class="tg-0pky"><a href="~/jp/dashboards/exporting-dashboards/overview.md">ダッシュボードをインタラクティブに操作する</a>: ダッシュボードが作成されたら、ドリルダウン サポートを使用して表示形式を操作するか、表示形式をオンザフライで変更することもできます。より深いインサイトを得るために、表示形式の注釈付き画像を作成して共有します。</td>
   </tr>
   <tr>
     <td class="tg-0pky"><img src="images/sharingHome_All.png" alt="Sharing dialog" width="200" height="150"></td>
-    <td class="tg-0pky"><a href="~/en/dashboards/sharing-dashboards/sharing-dashboards.md">チームとインサイトを共有する</a>: <a href="~/en/dashboards/teams/teams-collaboration-privacy.html#organization-team">組織のリポジトリ内</a>のダッシュボードを、所属しているチーム、または同僚と共有することで、全員にデータの力を与えます。ユーザーにさまざまなレベルの権限を割り当てて、ダッシュボードへのアクセス権を付与します。</td>
+    <td class="tg-0pky"><a href="~/jp/dashboards/sharing-dashboards/sharing-dashboards.md">チームとインサイトを共有する</a>: <a href="~/jp/dashboards/teams/teams-collaboration-privacy.html#organization-team">組織のリポジトリ内</a>のダッシュボードを、所属しているチーム、または同僚と共有することで、全員にデータの力を与えます。ユーザーにさまざまなレベルの権限を割り当てて、ダッシュボードへのアクセス権を付与します。</td>
   </tr>
 </table>
 
 
 ### 新機能:
 
-  - [**新規 TreeMap 表示形式**](~/en/data-visualizations/treemap-view.md) – この新しい表示形式を使用して、大きな階層をネストされた四角形の集合で表示できます。四角形のサイズは、さまざまなメトリック間の部分と全体の関係を示し、同様のデータ間のパターンと関係を識別します。
+  - [**新規 TreeMap 表示形式**](~/jp/data-visualizations/treemap-view.md) – この新しい表示形式を使用して、大きな階層をネストされた四角形の集合で表示できます。四角形のサイズは、さまざまなメトリック間の部分と全体の関係を示し、同様のデータ間のパターンと関係を識別します。
 
-  - [**Excel エクスポート**](~/en/dashboards/exporting-dashboards/excel-data-format.md) の機能拡張 – エクスポートする際に複数の表示形式をスプレッドシートに追加できます。散布図、バブル チャート、スパークライン チャートが利用できるようになりました。
+  - [**Excel エクスポート**](~/jp/dashboards/exporting-dashboards/excel-data-format.md) の機能拡張 – エクスポートする際に複数の表示形式をスプレッドシートに追加できます。散布図、バブル チャート、スパークライン チャートが利用できるようになりました。
 
   - **UI/UX の改善** – 表示形式、ダッシュボード、新しいデータソース ダイアログなどのユーザーエクスペリエンスを向上するために、小さな変更が追加されました。
   
-  - **Google ドライブで共有ドライブのサポート**を追加 – G Suite Business アカウントをお持ちの場合、共有ドライブ データにアクセスし、 Reveal で可視化できます。Reveal で [Google ドライブ](~/en/datasources/google-drive.md)をデータ ソースとして追加すると、共有ドライブが表示されます。
+  - **Google ドライブで共有ドライブのサポート**を追加 – G Suite Business アカウントをお持ちの場合、共有ドライブ データにアクセスし、 Reveal で可視化できます。Reveal で [Google ドライブ](~/jp/datasources/google-drive.md)をデータ ソースとして追加すると、共有ドライブが表示されます。
 
 
 私たちの [**無料デモ**](https://app.revealbi.io/Login?provider=Demo&_ga=2.197140908.2008019520.1580398635-1419162557.1572354605) 版を試して、Reveal がお客様のビジネスに何ができるかを発見してください!

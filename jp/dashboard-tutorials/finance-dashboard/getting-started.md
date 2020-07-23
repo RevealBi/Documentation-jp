@@ -20,7 +20,7 @@
 [ここ](http://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)からサンプル データシートをダウンロードできます。その他すべてのダッシュボード [チュートリアル](dashboard-tutorials/overview.md)で同じサンプル スプレッドシートを使用します。
 
 >[!NOTE]
->このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、[サポートされているクラウド サービス](~/en/datasources/data-sources.md)のいずれかにファイルをアップロードしてください。
+>このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、[サポートされているクラウド サービス](~/jp/datasources/data-sources.md)のいずれかにファイルをアップロードしてください。
 
 ### ステップの概要
 

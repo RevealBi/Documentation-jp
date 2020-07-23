@@ -10,7 +10,7 @@ NOTE
 
 </div>
 
-[データソースを変更する](~/en/datasources/changing-data-source-visualization.md)場合は、データ ソース名の横にある **[オーバーフロー ボタン]** または [新しいデータ ソース](~/en/datasources/creating-new-datasource.md)を選択する必要があります。表示形式を[複製し](~/en/general/overview.html#view-edit-mode)、作成時間を短縮することもできます。
+[データソースを変更する](~/jp/datasources/changing-data-source-visualization.md)場合は、データ ソース名の横にある **[オーバーフロー ボタン]** または [新しいデータ ソース](~/jp/datasources/creating-new-datasource.md)を選択する必要があります。表示形式を[複製し](~/jp/general/overview.html#view-edit-mode)、作成時間を短縮することもできます。
 
 </div>
 
@@ -56,7 +56,7 @@ NOTE
 
 ### Followers
 
-Followers の表示形式はソーシャル メディア チャネルごとに分類されたフォロワーの数を[縦棒チャート](~/en/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
+Followers の表示形式はソーシャル メディア チャネルごとに分類されたフォロワーの数を[縦棒チャート](~/jp/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**[Social Dashboard]** オプションが選択されていることを確認し、 **[データのロード]** を押します。
     
@@ -99,7 +99,7 @@ Followers の表示形式はソーシャル メディア チャネルごとに�
 
 ### YTD Facebook Followers
 
-YTD Facebook Followers の表示形式は、[テキスト ゲージ](~/en/visualization-tutorials/gauge-views.html#createtextgauge)でそのソーシャル メディア チャネルのフォロワー数を示します。以下は作成方法です。
+YTD Facebook Followers の表示形式は、[テキスト ゲージ](~/jp/visualization-tutorials/gauge-views.html#createtextgauge)でそのソーシャル メディア チャネルのフォロワー数を示します。以下は作成方法です。
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**[Social Dashboard]** オプションが選択されていることを確認し、 **[データのロード]** を押します。
     
@@ -129,7 +129,7 @@ YTD Facebook Followers の表示形式は、[テキスト ゲージ](~/en/visual
 
 ### Monthly Facebook Likes
 
-Monthly Facebook Likes の表示形式は、[line chart](~/en/visualization-tutorials/simple-charts.md)で会社の月ごとの Facebook の「いいね」数を示します。以下は作成方法です。
+Monthly Facebook Likes の表示形式は、[line chart](~/jp/visualization-tutorials/simple-charts.md)で会社の月ごとの Facebook の「いいね」数を示します。以下は作成方法です。
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**[Social Dashboard]** オプションが選択されていることを確認し、 **[データのロード]** を押します。
     
@@ -175,7 +175,7 @@ Monthly Facebook Likes の表示形式は、[line chart](~/en/visualization-tuto
 
 ### Retweets &amp; Favorites
 
-Retweets &amp; Favorites の表示形式は[縦棒チャート](~/en/visualization-tutorials/simple-charts.md)で会社の月ごとの Twitter のリツイート&; お気に入り数を示します。以下は作成方法です。
+Retweets &amp; Favorites の表示形式は[縦棒チャート](~/jp/visualization-tutorials/simple-charts.md)で会社の月ごとの Twitter のリツイート&; お気に入り数を示します。以下は作成方法です。
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。新しい表示形式ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**[Social Dashboard]** オプションが選択されていることを確認し、 **[データのロード]** を押します。
     
@@ -216,7 +216,7 @@ Retweets &amp; Favorites の表示形式は[縦棒チャート](~/en/visualizati
 
 ### Facebook Reach vs. Impressions
 
-Facebook Reach vs. Impressions の数表示形式は[エリア チャート](~/en/visualization-tutorials/simple-charts.md)で会社の Facebook のリーチ vs. インプレッション数を示します。以下は作成方法です。
+Facebook Reach vs. Impressions の数表示形式は[エリア チャート](~/jp/visualization-tutorials/simple-charts.md)で会社の Facebook のリーチ vs. インプレッション数を示します。以下は作成方法です。
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**[Social Dashboard]** オプションが選択されていることを確認し、 **[データのロード]** を押します。
     
@@ -254,7 +254,7 @@ Facebook Reach vs. Impressions の数表示形式は[エリア チャート](~/e
 
 ### Monthly Twitter Mentions
 
-Monthly Twitter Mentions の表示形式は、[折れ線チャート](~/en/visualization-tutorials/simple-charts.md)で会社の Twitter のメンション数を示します。以下は作成方法です。
+Monthly Twitter Mentions の表示形式は、[折れ線チャート](~/jp/visualization-tutorials/simple-charts.md)で会社の Twitter のメンション数を示します。以下は作成方法です。
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**[Social Dashboard]** オプションが選択されていることを確認し、 **[データのロード]** を押します。
     
