@@ -1,82 +1,62 @@
 ## Microsoft Azure Synapse Analytics
 
-The Microsoft Azure Synapse data source provides a significant speed
-increase when processing big data within Reveal. This allows you to use
-massive datasets for your visualizations with no slow down.
+Microsoft Azure Synapse データ ソースは、Reveal 内でビッグ データを処理する際の速度を大幅に向上させます。これにより、大量のデータセットを速度低下することなく表示形式に使用できます。
 
-### Configuring an Azure Synapse Analytics Data Source
+### Azure Synapse Analytics データソースの設定
 
-To configure a Microsoft Azure Synapse Analytics data source, you will
-need to enter the following information:
+Microsoft Azure Synapse Analytics データソースを設定するには、以下の情報が必要です。
 
 ![Configuring azure synapse data source dialog](images/synapse-azure-configuration.png)
 
-1. **Default name** of the data source: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Reveal names it *Microsoft Azure SQL Synapse Analytics*. You can change it to your preference.
+1. データソースの **デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Microsoft Azure SQL Synapse Analytics* という名前を付けます。好みに合わせて変更できます。
    
-2.  **Server**: the computer name or IP address assigned to the computer
-    on which the server is running.
+2.  **サーバー**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 
-3.  **Port**: if applicable, the server port details. If no information
-    is entered, Reveal will connect to the port in the hint text (1433)
-    by default.
+3.  **ポート**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Reveal はデフォルトでヒント テキスト (1433) のポートに接続します。
 
-4.  **Credentials**: after selecting Credentials, you will be able to
-    enter the credentials for your Microsoft Azure Synapse Analytics or
-    select existing one if applicable.
+4.  **資格情報**: 資格情報を選択した後、Microsoft Azure Synapse Analytics の資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
 
-    Once ready, select *Create Account*. You can verify whether the
-    account is reaching the data source or not by selecting Test
-    Connection.
+    準備ができたら、*アカウントの作成*を選択します。[接続テスト] を選択すると、アカウントがデータソースに到達しているかどうかを確認できます。
 
-5.  **Database**: Once you connect to your account you will get your databases to choose from.
-Select *Continue*.
+5.  **データベース**: アカウントに接続すると、データベースを選択できるようになります。*続行*を選択します。
 
-### How to find your Server Information
+### サーバー情報を見つける方法
 
-You can find your server by following the steps below. Please note that
-the commands should be executed on the server.
+以下の手順で サーバーを確認できます。以下の手順で サーバーを確認できます。
 
 
 | WINDOWS                                                                                                         | LINUX                                                                                                         | MAC                                                                  |
 | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| 1\. Open the File Explorer.                                                                                     | 1\. Open a Terminal.                                                                                          | 1\. Open System Preferences.                                         |
-| 2\. Right Click on My Computer \> Properties.                                                                   | 2\. Type in **$hostname**                                                                                     | 2\. Navigate to the Sharing Section.                                 |
-| Your Hostname will appear as "Computer Name" under the *Computer name, domain and workgroups settings* section. | Your Hostname will appear along with your DNS domain name. Make sure you only include **Hostname** in Reveal. | Your Hostname will be listed under the "Computer Name" field on top. |
+| 1\. ファイル エクスプローラーを開きます。                                                                                     | 1\. ターミナルを開きます。                                                                                          | 1\. システム環境設定を開きます。                                         |
+| 2\. [マイ コンピューター] \> [プロパティ] を右クリックします。                                                                   | 2\. **$hostname** を入力します。                                                                                     | 2\. 共有セクションへ移動します。                                 |
+| ホスト名は、*コンピューター名、ドメインおよびワークグループの設定* セクションの下に 「コンピューター名」 として表示されます。 | ホスト名と DNS ドメイン名が表示されます。Reveal には **ホスト名** のみを含めるようにしてください。| ホスト名は、上部のコンピューター名の下に表示されます。|
 
-You can find your *IP address* by following the steps below. Please note
-that the commands should be executed on the server.
+以下の手順で *IP アドレス*も確認できます。コマンドはサーバーで実行する必要があることに注意してください。
 
 | WINDOWS                              | LINUX                             | MAC                                                           |
 | ------------------------------------ | --------------------------------- | ------------------------------------------------------------- |
-| 1\. Open a Command Prompt.           | 1\. Open a Terminal.              | 1\. Launch your Network app.                                  |
-| 2\. Type in **ipconfig**             | 2\. Type in **$ /bin/ifconfig**   | 2\. Select your connection.                                   |
-| **IPv4 Address** is your IP address. | **Inet addr** is your IP address. | The **IP Address** field will have the necessary information. |
+| 1\. コマンド プロンプトを開きます。           | 1\. ターミナルを開きます。              | 1\. ネットワーク アプリケーションを起動します。                                  |
+| 2\. **ipconfig** を入力します。             | 2\. **$/bin/ifconfig** を入力します。   | 2\. 接続を選択します。                                   |
+| **IPv4 Address** は IP アドレスです。 | **Inet addr** は IP アドレスです。 | **IP アドレス** フィールドに必要な情報が含まれます。 |
 
-### Working with Views
+### ビューの作業
 
-Once you connect to a database in MS Azure Synapse Analytics, you can
-choose to retrieve data from an entire table or a particular view.
+MS Azure Synapse Analytics でデータベースに接続すると、表全体または特定のビューからデータを取得することを選択できます。
 
-Working with views when using Azure Synapse Analytics closely resembles
-working with views when using MS SQL Server. For more information,
-please refer to [this section](Microsoft-SQL-Server.html#working-with-views)
-of the **MS SQL Server data source** topic.
+Azure Synapse Analytics を使用する場合のビューの操作は、MS SQL Server を使用する場合のビューの操作とよく似ています。詳細については、**MS SQL Server データソース** トピックの[このセクション](Microsoft-SQL-Server.html#working-with-views)を参照してください。
 
-### Limitations in the Visualization Editor
+### 表示形式エディターでの制限事項
 
-When working with big data in Reveal, there are a couple of limitations
-in the Visualization Editor due to the specific approach used to handle
-data sources storing millions of records.
+Reveal でビッグ データを操作する場合、数百万のレコードを格納するデータ ソースを処理するために使用される特定のアプローチにより、表示形式エディターにはいくつかの制限があります。
 
-#### Limitations in Functions Available for Calculated Fields
+#### 計算フィールドで使用できる関数の制限
 
-Currently, only a limited number of **functions** are available for
-*Calculated Fields* using data from Azure Synapse Analytics:
+現在、Azure Synapse Analytics のデータを使用する*計算フィールド*で、使用できる**関数**の数は限られています。
 
-- [Logic](~/jp/fields/logic-calculated-fields.md) - false; true; not.
-- [Math](~/jp/fields/math-calculated-fields.md) - abs; log; log10; sign; sqrt.
-- [Strings](~/jp/fields/string-calculated-fields.md) - find; len; trim; lower; mid; upper.
+- [ロジック](~/jp/fields/logic-calculated-fields.md) - false; true; not.
+- [数学](~/jp/fields/math-calculated-fields.md) - abs; log; log10; sign; sqrt.
+- [文字列](~/jp/fields/string-calculated-fields.md) - find; len; trim; lower; mid; upper.
 
-#### Limitations in Data Blending
+#### データ ブレンディングの制限
 
-Currently, Data Blending ([combining data sources in one visualization](data-blending.md)) is **not available** when using data from the Azure Synapse Analytics data source.
+現在、Azure Synapse Analytics データ ソースからのデータを使用する場合、データ ブレンディング ([1 つの表示形式でデータ ソースを組み合わせる](data-blending.md)) は**使用できません**。

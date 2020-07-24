@@ -1,98 +1,78 @@
-## Managing Teams
+## チームの管理
 
-As an [Owner](index.html#members-roles-permissions) of
-a team you can:
+チームの[オーナー](index.html#members-roles-permissions)として、次のことができます:
 
-  - manage team members;
+  - チーム メンバーを管理する
 
-  - manage team properties;
+  - チーム プロパティを管理する
 
-  - [delete](#delete-team) the team;
+  - チームを[削除する](#delete-team)
 
-As a special type of team, the [Organization repository](index.html#organization-team) management
-corresponds to the general rules of team management in Reveal. In the
-cases when there are differences in Organization repository management,
-they will be explicitly mentioned in this topic.
+特殊なタイプのチームとして、[組織リポジトリ](index.html#organization-team) 管理は、Reveal のチーム管理の一般的なルールに対応しています。組織のリポジトリ管理に違いがある場合、それらはこのトピックで明示的に言及されます。
 
 <a name='manage-team-members'></a>
-### Managing Team Members
+### チーム メンバーを管理する
 
-Only the Owner of a team can invite members.
+チームのオーナーのみがメンバーを招待できます。
 
-To see the full members' list of a team: go to your teams' list → select a team → click/tap the members' icons
-on the right, as shown below.
+チームの完全なメンバーのリストを表示するには、以下に示すように、チームのリストに移動 → チームを選択 → 右側にあるメンバーのアイコンをクリック/タップします。
 
 ![manage team members menu](images/manage-team-members_all.png)
 
-Here you can change members' roles, remove members and add new ones.
+ここでは、メンバーの役割を変更し、メンバーを削除または追加できます。
 
-Additionally to the members who are already part of your team, you will
-also see those who still have not accepted your invitation. Their names
-appear grayed out. You cannot change their role before they accept the
-invitation.
+チームのメンバーに加えて、まだ招待を受け入れていないメンバーの名前が灰色で表示されます。彼らが招待を受け入れるまで、彼らの役割を変えることはできません。
 
-#### Changing the role or removing more than one member at the same time
+#### 役割の変更または複数のメンバーの同時削除
 
-1. Select the checked box on the right of the *+Members* blue button. 
-2. Checkboxes on the right of members' roles appear.
-3.  Select the trash icon or a role from the menu at the bottom center
-    of the screen.
+1.  メンバー リストの上にある右側のチェックボックスをオフにします。
+
+2.  メンバーの名前の右側にチェックボックスが表示されます。変更/削除するものを選択します。
+
+3.  画面下部中央のメニューからゴミ箱アイコンまたは役割を選択します。
 
 ![select role menu at the bottom center in manage members](images/select-role-menu.png)
 
 <a name='manage-team-properties'></a>
-### Managing Team Properties
+### チーム プロパティを管理する
 
-To change your team's properties: go to your teams'
-list→ select a team → click/tap the gear icon on the
-right.
+チームのプロパティを変更するには、チームのリストに移動 → チームを選択 → 右側のギア アイコンをクリック/タップします。
 
 ![team settings managing menu](images/team-settings-managing_all.png)
 
-Here you can change team's *Privacy* settings, *Color* and name of your
-team.
+ここでは、チームの*プライバシー*の設定、*色*と名前を変更できます。
 
-You can also configure your team's **branding** by uploading a logo and
-setting a color. The image used as a *logo* must be:
+ロゴをアップロードして色を設定することで、チームの**ブランディング**を設定することもできます。*ロゴ*として使用する画像は次の条件を満たす必要があります:
 
   - jpg, jpeg, png, gif;
 
-  - 5 MB max.
+  - 最大 5 MB。
 
-Your branding information will be used when exporting dashboards to PDF
-documents and PowerPoint presentations.
+ブランド情報は、ダッシュボードを PDF 文書および PowerPoint プレゼンテーションにエクスポートするときに使用されます。
 
-**Organization repository**: You cannot change the name of the
-Organization repository.
+**組織リポジトリ**: 組織リポジトリの名前は変更できません。
 
 <a name='delete-team'></a>
-### Deleting a Team
+### チームの削除
 
-You can delete a team only if you are an Owner. To do this, go to the
-team's [properties](#manage-team-properties) and click *Delete Team*.
+オーナーのみがチームを削除できます。これを行うには、チームの[プロパティ](#manage-team-properties)に移動し、*[チームの削除]*をクリックします。
 
 ![delete team button](images/delete-team.png)
 
-When you delete a team, it disappears with all its content.
+チームを削除すると、チームのすべてのコンテンツが消えます。
 
-A team is also deleted if its last member leaves it.
+最後のメンバーがチームを離れた場合、チームも削除されます。
 
-**Organization repository**: cannot be deleted.
+**組織リポジトリ**: は削除できません。
 
-### Leaving a Team
+### チームを退会する
 
-To leave a team, go to the team's [members' list](#manage-team-members),
-click/tap the dropdown menu on the right of your name and select
-*Leave*.
+チームを退会するには、チームの[メンバー リスト](#manage-team-members)に移動し、名前の右側にあるドロップダウン メニューをクリック/タップして、*[退会]*を選択します。
 
-If you are the only Owner of a team you cannot leave it without
-assigning another member as an Owner.
+チームの唯一のオーナーである場合、別のメンバーをオーナーとして割り当てずにチームを退会することはできません。
 
 ![leave team dialog to assign a new owner](images/owner-leaves-team.png)
 
-Reveal shows you all the members of the team who are suitable for an
-Owner's role.
+Reveal は、オーナーの役割に適したチームのすべてのメンバーを示します。
 
-**Organization repository**: If you are the only (or last) owner of the
-Organization repository and want to leave it, please contact
-Infragistics to start the process of assigning a new owner.
+**組織リポジトリ**: 組織リポジトリの唯一または最後のオーナーであり、退会する場合は、インフラジスティックスに連絡して、新しいオーナーを割り当てるプロセスを開始してください。

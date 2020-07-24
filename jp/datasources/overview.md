@@ -1,42 +1,42 @@
-## Data Sources
+## データ ソース
 
-As listed in the [features](~/jp/general/feature-matrix.md) section, Reveal provides you with the opportunity to connect to different enterprise data sources to retrieve information. While there are no changes to be made on the server side, you will need to configure the Data Sources within Reveal to access the data. You can choose from any of the following options:
+[機](~/jp/general/feature-matrix.md)のクションにリストされているように、Reveal がさまざまなエンタープライズ データ ソースに接続できることを説明しました。サーバー側に変更がない場合、Reveal 内でデータにアクセスするためのデータ ソースを構成する必要があります。以下のオプションを選択できます。
 
-* **Analytics tools** [Google Analytics](google-analytics.md).
-* *Content Managers* and *Cloud Services* ([Box](box.md), [Dropbox](dropbox.md),  [Google Drive](google-drive.md),  [OneDrive](onedrive.md) and [SharePoint Online](sharepoint.md)).
-* *Customer Relationship Managers* ([Microsoft Dynamics CRM](microsoft-dynamics-crm.md) On-Premises and Online)
-* *Databases* ([Microsoft SQL Server](microsoft-sql-server.md),  [Microsoft Analysis Services Server](configuring-microsoft-analysis-services.md),  MySQL[MySQL](mysql.md), [PostgreSQL](postgresql.md), [Oracle](oracle.md), [Sybase](sybase.md)) [*](~/jp/general/feature-matrix.html#databases-web)
-* *Other Data Sources* ([OData-Feed](odatafeed.md), [Web-Resource](web-resource.md), [JSON files](working-with-json-files.md))
+* **アナリティクス ツール** [Google Analytics](google-analytics.md)。
+* *コンテンツ マネージャー* と *クラウド サービス* ([Box](box.md)、[Dropbox](dropbox.md)、[Google Drive](google-drive.md)、[OneDrive](onedrive.md) と [SharePoint Online](sharepoint.md))。
+* *カスタマー リレーションシップ マネージャー* ([Microsoft Dynamics CRM](microsoft-dynamics-crm.md) オンプレミスおよびオンライン)。
+* *データベース* ([Microsoft SQL Server](Microsoft-SQL-Server.md)、[Microsoft Analysis Services Server](Microsoft-Analysis-Services.md)、[MySQL](MySQL.md)、[PostgreSQL](PostgreSQL.md)、[Oracle](Oracle.md)、[Sybase](Sybase.md))[*](~/en/general/feature-matrix.html#databases-web)
+* *その他のデータ ソース* (OData Feed、Web Resources、JSON files)。
 
-### Entering Your Credentials
+### 資格情報を入力
 
-If you open an existing dashboard and have not yet added the Data Source credentials, you will see a message similar to the following one:
+既存のダッシュボードを開いた際にデータソース資格情報に追加していない場合、以下のようなメッセージが表示されます。
 
 ![addingdatasourceaccount_all](images/addingdatasourceaccount_all.png)
 
-When you select any of the data sources, you will see a new dialog pop up prompting you to enter details for your data source. You will see one of two screens:
+いずれかのデータ ソースを選択すると、新しいダイアログがポップ アップしてデータ ソースの詳細の入力を促されます。以下の画面のいずれかが表示されます:
 
-1. When using a web-based cloud, you will see a **web login** dialog.
-2. When using any other provider, you will be prompted to **add an account**.
+1. ウェブベースのクラウドを使用している場合は、**ウェブ ログイン** ダイアログが表示されます。
+2. 他のプロバイダーを使用している場合は、[**アカウントの追加**](#adding-account)を促されます。
 
 <a name='adding-account'></a>
-### Adding an Account
+### アカウントの追加
 
-If you add a data source which is not web-based, you will see the following dialog:
+ウェブベースではないデータ ソースを追加すると、次のダイアログが表示されます:
 
 ![Adding Account](images/Adding-Account-All.png)
 
-You can either enter new credentials for your data source, select the "No Account" option (data sources which do not require authentication), or select an existing one if applicable. To create a new account, select the + button in the top-right hand corner.
+データ ソースの新しい資格情報を入力するか、[アカウントなし]オプション （認証を必要としないデータ ソース）を選択するか、該当する場合は既存の資格情報を選択します。新しいアカウントを作成するには、右上角にある [+] ボタンを選択します。
 
 ![Creating-New-Account](images/Creating-New-Account.png)
 
-You can configure the following details:
+以下の情報を提供する必要があります。
 
-* *Default name* of the data source: Your data source name will be displayed in the list of accounts in the previous dialog. Reveal names it after the data source type by default. You can edit it by selecting the *pencil* icon.
-* _(Optional)_ *Domain*: the name of the domain, if applicable.
-* *Username*: the user account for the data source.
-* *Password*: the password for the data source.
+* *名前*: データソース アカウントの名前。以前のダイアログのアカウントのリストに表示されます。
+* (オプション) *ドメイン*: ドメイン名 (適用可能な場合)。
+* *ユーザー名*: データ ソースのユーザー アカウント。
+* *パスワード*: データ ソース用のパスワード。
 
-Once ready, select *Create and Use*. 
+準備ができたら、[作成と使用] を選択します。 
 
 ![Email Efforts Credentials dashboard](images/EmailEffortsCredentials.png)

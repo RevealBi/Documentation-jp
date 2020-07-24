@@ -1,11 +1,7 @@
-## Dashboard Tutorials
+## ダッシュボード チュートリアル
 
 
-Within this section, you will find step-by-step tutorials on how to
-create a variety of Reveal dashboards. For specific information on any
-visualization, visit the [Data Visualizations](data-visualizations.md)
-section. You can also find detailed information on which filters you can
-apply to a visualization or dashboard in the [Filters](filters.md) topic.
+このセクションでは、さまざまな Reveal ダッシュボードの作成方法を説明するチュートリアルがあります。データ表示については、[データ表示](data-visualizations.md)セクションをご覧ください。表示形式またはダッシュボードに適用可能なフィルターの詳細については、[「フィルター」](filters.md)トピックを参照してください。
 
 <table>
 <colgroup>

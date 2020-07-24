@@ -1,35 +1,31 @@
-## Managing Your Data Source Credentials
+## データ ソース資格情報の管理
 
-When configuring certain data sources in Reveal, you may need to provide
-your account credentials for these services to access your information.
-These credentials are encrypted and stored by Reveal for future use.
+Reveal で特定のデータ ソースを設定するとき、これらのサービスが情報にアクセスするためのアカウント資格情報を提供する必要がある場合があります。今後のアクセスのために、資格情報は暗号化されて Reveal に保存されます。
 
-To access and manage all your credentials, in the home screen click/tap on your **profile picture** (top right corner) -> **Settings** -> **Manage Reveal Credentials** section.
+すべての資格情報にアクセスして管理するには、ホーム画面で**プロフィール写真** (右上角) -> **[設定]** -> **[Reveal の資格情報の管理]** セクションをクリック/タップします。
 
 ![Manage Reveal Credentials menu](images/manage-reveal-credentials.png)
 
-In this section, you can create, edit and remove credentials for all your data sources accounts.
+このセクションでは、すべてのデータ ソース アカウントの資格情報を作成、編集および削除できます。
 
-### Adding New Account Credentials
+### 新しいアカウント資格情報の追加
 
-To add new account credentials to the list, click/tap on the *+ New* button in the dialog shown above. The *Account Details* menu opens:
+リストに新しいアカウント資格情報を追加するには、上記のダイアログの *[+ 新規]* ボタンをクリック/タップします。*[アカウントの詳細]* メニューが開きます。
 
 ![Add New Account Credentials dialog](images/add-new-account-credentials.png)
 
-You need to fill in the following information:
+次の情報を入力する必要があります:
 
-  - **Name**: the name for your data source account. It will be
-    displayed in the list of accounts in the Credentials dialog of every
-    data source requiring your credentials.
+  - **名前**: データソース アカウントの名前。資格情報を必要とするすべてのデータ ソースの [資格情報] ダイアログのアカウント リストに表示されます。
 
-  - *(Optional)* **Domain**: the name of the domain, if applicable.
+  - *(オプション)* **ドメイン**: ドメイン名 (適用可能な場合)。
 
-  - **Username**: the user account for the service.
+  - **ユーザー名**: サービスのユーザー アカウント。
 
-  - **Password**: the password to access the service.
+  - **パスワード**: サービスにアクセスするためのパスワード。
 
-Click/Tap *Create* to finish adding your account details.
+アカウントの詳細の追加を完了するには、*[作成]*をクリック/タップします。
 
->[!NOTE] **Using Your Stored Credentials**.
->Unless you remove them, the accounts' credentials stored in Reveal will always appear in the *Choose Credentials* screen when configuring a data source requiring credentials.
->![Choose Credentials for a Data Source dialog](images/ChooseCredentialsDataSource_All.png)
+>[!NOTE] **保存された資格情報の使用**。
+>それらを削除しない限り、Reveal に保存されているアカウントの資格情報は資格情報を必要とするデータ ソースを構成するときに *[資格情報の選択]* 画面に常に表示されます。
+>![データ ソースの資格情報を選択ダイアログ](images/ChooseCredentialsDataSource_All.png)
