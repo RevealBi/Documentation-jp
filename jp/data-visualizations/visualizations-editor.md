@@ -1,49 +1,39 @@
-## Visualizations Editor
+## 表示形式エディター
 
-The Visualization editor is where you create and edit your visualizations. It helps you work with the data to get the most desired view.
+表示形式エディターは、表示形式を作成および編集する場所です。これにより、データを操作して最も適切なビューを表示できます。
 
-### Accessing the Visualizations Editor
+### 表示形式エディターにアクセスする
 
-You can access the Visualization editor in two ways:
+表示形式エディターには、次の 2 つの方法でアクセスできます。
 
-***1. In the visualization creation process***
+***1. 表示形式作成プロセスで***
 
-Once you have selected and configured your data source, the Visualization editor will open automatically.
+データソースを選択して設定すると、表示形式エディターが自動的に開きます。
 
-***2. In the dashboard editing process***
+***2. ダッシュボード編集プロセスで***
 
-After opening a chosen dashboard and entering [Dashboard Edit mode](~/jp/dashboards/index.html#view-edit-mode), you will be able to **access the visualizations editor** by selecting *Edit* from a visualization's overflow button.
+選択したダッシュボードを開き、[ダッシュボードの編集モード](~/jp/dashboards/index.html#view-edit-mode)に入ると、表示形式のオーバーフロー ボタンから *[編集]* を選択して、**表示形式エディターにアクセス**できます。
 
-### Visualization Editor Overview
+### 表示形式エディターの概要
 
-There are three main areas in the
-visualizations editor:
+表示形式 エディターには、主に 3 つのエリアがあります。
 
 ![visualization editor panes](images/visualization-editor-panes.png)
 
-  1. **Data Section**, where you will find the list of available fields
-    in the selected dataset and the data editor. This tool is meant to
-    help you slice-and-dice data according to your needs.
+  1. **データ セクション**選択したデータセットとデータ エディターで使用可能なフィールドのリストが表示されます。このツールは、データを必要に応じてスライスアンドダイスする際に役立ちます。
 
-  2. **Settings Section**, where you can access the settings for the
-    specific visualization you are using and the *General Settings* for
-    the visualization.
+  2. **設定セクション**使用している特定の表示形式の設定と、表示形式の一般設定にアクセスできます。
 
-  3. **Visualizations Selector**, where you can choose your desired
-    visualization and preview the final result.
+  3. **表示形式 セレクター**表示形式を選択し、最終結果をプレビューできます。
 
-Among other things, you will be able to:
+特に、次のことが可能になります。
 
-  - **Sort** & **filter** data.
+  - データの**並べ替え**と**フィルター**。
 
-  - **Bind the visualization data to a dashboard page selection**.
+  - **表示形式のデータをダッシュボード ページの選択へバインド**。
 
-  - **Aggregate data** in the data editor.
+  - データ エディターの**集計データ**。
 
-  - **Visualize** & **format** data.
+  - データの **表示形式**と**書式設定**。
 
-After you're done building the visualization and selecting the
-appropriate visualizations, select the *Back arrow* to return to the
-Dashboard Editor. In the Dashboard Editor, you can control the layout,
-size, and location of the visualizations simply by dragging
-visualizations and their borders.
+表示形式の設定と適切な表示形式の選択後、*戻る矢印*を選択してダッシュボード エディターに戻ります。ダッシュボード エディターでは、表示形式をドラッグしてレイアウト、サイズ、配置を操作できます。

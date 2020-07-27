@@ -1,49 +1,41 @@
-## What is a Visualization?
+## 表示形式の概要
 
-Visualizations are individual pieces of information. Any dashboard is
-composed by one or more visualizations. The image below shows the
-quantity of units produced by different lines in a [Column Chart](category-charts.md) visualization.
+表示形式は、個々の情報です。すべてのダッシュボードは 1 つ以上の表示形式で構成されます。以下の画像は、[縦棒チャート](category-charts.md) による表示形式でさまざまな線によって生成される単位量を示しています。
 
 ![SampleVisualization\_Desktop](images/SampleVisualization_Desktop.png)
 
-### How are Visualizations presented?
+### 表示形式はどのように表示されますか？
 
-In order for users to get the most insight possible out of business
-data, Reveal provides several options to customize the way information
-is visualized. These are called "visualizations".
+ビジネス データを理解するために Reveal は情報の表示形式をカスタマイズする複数のオプションを提供します。これらは「表示形式」といいます。
 
 ![A sample dashboard displaying seven different visualizations](images/reveal-uploading-dashboards-menu.png)
 
-In the dashboard above, you see the following visualization types:
+上記のダッシュボードでは、以下の表示形式タイプが表示されます。
 
-  - **Productivity**: [Text Gauge](Gauge-Views.html#text-gauge)
+  - **Productivity**: [テキスト ゲージ](Gauge-Views.html#text-gauge)
 
-  - **Units Lost**: [Text Gauge](Gauge-Views.html#text-gauge)
+  - **Units Lost**: [テキスト ゲージ](Gauge-Views.html#text-gauge)
 
-  - **Cost of Labor vs Revenue**: [Line Chart](category-charts.md)
+  - **Cost of Labor vs Revenue**: [折れ線チャート](category-charts.md)
 
-  - **Units Produced by Line**: [Column Chart](category-charts.md)
+  - **Units Produced by Line**: [柱状チャート](category-charts.md)
 
-  - **Operators Available**: [Doughnut Chart](category-charts.md)
+  - **Operators Available**: [ドーナツ型チャート](category-charts.md)
 
-  - **Line 1 Efficiency**: [Circular Gauge](gauge-views.md)
+  - **Line 1 Efficiency**: [円形ゲージ](gauge-views.md)
 
-  - **Line 2 Efficiency**: [Circular Gauge](gauge-views.md)
+  - **Line 2 Efficiency**: [円形ゲージ](gauge-views.md)
 
-### How do you create a Visualization?
+### 表示形式の作成方法
 
-Once you select the + sign to add a new dashboard, you will be prompted
-to enter a new or an existing [data source](~/jp/datasources/data-sources.md). This will be
-the first step towards creating your visualization.
+[+] 記号を選択して新しいダッシュボードを追加すると、新しい[データソース](~/jp/datasources/data-sources.md)または既存のデータソースを入力するよう求められます。表示形式の作成にはじめに行う必要のある手順です。
 
 ![Creating a new visualization dialog](images/creating-new-visualization.png)
 
-With the data source selected, the visualization will be created. You
-can edit it through the [Visualizations Editor](visualizations-editor.md).
+データソースを選択すると、ビジュアライゼーションが作成されます。[表示形式 エディター](visualizations-editor.md)を使用して編集できます。
 
-### How do you edit Visualizations?
+### 表示形式の編集
 
-Once a dataset is selected for a dashboard, the **Visualizations Editor** is automatically displayed. This helps
-you work with the data to get the most desired view.
+ダッシュボードのデータセットを選択すると、**表示形式 エディター**が自動的に表示されます。これにより、データを操作して最も適切なビューを表示できます。
 
-To learn how to work in the Visualization editor and also access it, read [this topic](visualizations-editor.md)
+表示形式エディターでの作業方法とアクセス方法については、[このトピック](visualizations-editor.md)をご覧ください。

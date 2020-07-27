@@ -1,15 +1,13 @@
-## Uploading Dashboards
+## ダッシュボードのアップロード
 
-In Reveal, you can also work with dashboards saved on your computer/device by directly uploading them. To do that, perform the following steps:
+Reveal では、直接アップロードしてコンピューター/デバイスに保存されたダッシュボードを操作することもできます。これを行うには、次のステップを実行します。
 
-1.  Select the arrow on the right of the *+ Dashboard* split button and then *Upload*.
+1.  *[+ダッシュボード]* 分割ボタンの右側にある矢印を選択し、*[アップロード]* を選択します。
 
     ![Upload option](images/upload-create-folder-menu.png)
 
-2.  A dialog showing your local files will open. Double click/tap the
-    dashboard you want to upload. Reveal dashboards' file extension is
-    **.rdash**.
+2.  ローカル ファイルを表示するダイアログが開きます。アップロードするダッシュボードをダブル クリック/タップします。Reveal ダッシュボードのファイル拡張子は **.rdash** です。
     >[!NOTE]
-    >**Uploading ReportPlus Dashboards** Reveal also allows you to upload and work with dashboards created in ReportPlus. ReportPlus dashboards' file extension is **.rplus**.
+    >**ReportPlus ダッシュボードのアップロード** Reveal では、ReportPlus で作成されたダッシュボードをアップロードして操作することもできます。ReportPlus ダッシュボードのファイル拡張子は **.rplus** です。
 
-Your dashboard is now uploaded and ready to be edited and shared with others.
+これでダッシュボードがアップロードされ、編集して他のユーザーと共有する準備が整いました。

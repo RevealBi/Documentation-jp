@@ -1,83 +1,73 @@
-## Sharing Dashboards
+## ダッシュボードの共有
 
 
-Shared dashboards are ideal for cross-team collaboration. There are so
-many possibilities when it comes to sharing in Reveal. Depending on your
-own sharing rights you can give other users and teams different [access permissions](#access-permissions) to the content you share with them.
+共有ダッシュボードは、チーム間のコラボレーションに最適です。Reveal での共有に関しては、非常に多くの利用シナリオが考えられます。自分の共有権に応じて、他のユーザーやチームに、共有するコンテンツへの異なる[アクセス許可](#access-permissions)を与えることができます。
 
-Below you will find the specifics of access permissions in the three available sharing scenarios:
+以下に、3 つの利用可能な共有シナリオにおけるアクセス許可の詳細を示します。
 
-  - [sharing dashboards created by you with other users](#sharing-dashboards-users),
+  - [自分が作成したダッシュボードを他のユーザーと共有する](#sharing-dashboards-users)、
 
-  - [sharing your team's dashboards with other users](#sharing-team-dashboard),
+  - [チームのダッシュボードを他のユーザーと共有する](#sharing-team-dashboard)、
 
-  - [sharing a dashboard with a whole team](#sharing-dashboard-with-team).
+  - [チーム全体とダッシュボードを共有する](#sharing-dashboard-with-team)。
 
 > [!NOTE]
-> **Sharing Folders**. Rules for dashboards sharing in this article also apply to sharing folders.
+> **フォルダーを共有**。この記事のダッシュボード共有のルールは、共有フォルダーにも適用されます。
 
 <a name='sharing-dashboards-users'></a>
-### Sharing Your Own Dashboards with Other Users
+### 独自のダッシュボードを他のユーザーと共有する
 
-To share a dashboard created by you with individual users you need to:
+作成したダッシュボードを個人ユーザーと共有するには、次のことを行う必要があります。
 
-1.  Access the **Share dialog** - Select the overflow button in the top right-hand corner of a dashboard or a folder and choose *Share*.
+1.  **[共有]ダイアログ**にアクセスする - ダッシュボードまたはフォルダの右上角にあるオーバーフロー ボタンを選択し、*[共有]* を選択します。
 
 
   ![Accessing the sharing dialog of a dashboard](images/sharing-dialog.png)
 
-  Once you share a folder with other people, the new files will appear in their accounts as well under the *Shared with Me* section.
+  フォルダーを共有して他の人を追加すると、新しいファイルを共有した人のアカウントおよび*共有*セクションに表示されます。
 
   ![Shared with Me option selected](images/shared-with-me.png)
 
 <a name='access-permissions'></a>
-1.  **Choose the users** you want to share the dashboard with - Enter the e-mail addresses of the people you want to invite and **set the level of access** those people will have over the shared dashboard.
+1.  ダッシュボードを共有する**ユーザーを選択する** - 招待するユーザーのメールアドレスを入力し、そのユーザーが共有ダッシュボードを介して**アクセスできるレベル**を設定します。
 
-The available options are:
+使用可能なオプションは以下のとおりです:
 
-  - **Owner** permissions - the user can create, edit, share and delete.
+  - **オーナー**権限 - ユーザーは、作成、編集、共有、削除を行うことができます。
 
-  - **Modify** permissions - the user can create, edit and share but cannot delete the dashboard or folder.
+  - **変更**の権限 - ユーザーは、ダッシュボードまたはフォルダーを作成、編集、共有できますが、削除することはできません。
 
-  - **Viewer** permissions - the user can view and share dashboards and folders for view only.
+  - **表示**の権限 - ユーザーは、ダッシュボードとフォルダーを表示および共有することができます。
 
-3.  After setting the access level, click/tap *Send Invites*. The dashboard is shared automatically with members of your [Organization](Teams-Collaboration-Privacy.html#organization-team). Other users will have the dashboard shared with them only after they accept the invitation.
+3.  アクセス レベルを設定した後、*招待を送信する*をクリック/タップします。ダッシュボードは[組織](Teams-Collaboration-Privacy.html#organization-team)のメンバーと自動的に共有されます。他のユーザーは、招待を承諾した後にのみ、ダッシュボードが共有されます。
 
   ![Sending invitations with access permissions](images/send-invites-share-button.png)
 
-**You can change the access level for users at any time** by accessing
-the Share menu. You will see a list of all users you have shared the
-dashboard with and their access level. You can change their access level
-by selecting a new one from the dropdown menu next to their name.
+共有メニューにアクセスし、いつでも**ユーザーのアクセスレベルを変更**できます。ダッシュボードを共有したすべてのユーザーとそのアクセスレベルのリストが表示されます。名前の横にあるドロップダウン メニューから新しいアクセス レベルを選択して、アクセス レベルを変更できます。
 
 > [!NOTE]
-> Names of users, who have still not accepted the shared dashboard, will appear greyed out in the list. You cannot change their access level before they accept the dashboard.
+> 共有ダッシュボードをまだ受け入れていないユーザーの名前は、リストでグレーアウトされます。ダッシュボードを受け入れる前に、アクセス レベルを変更することはできません。
 
-**You can also unshare any dashboard at any time** by accessing the
-Share dialog and selecting *Remove* from the dropdown menu next to any
-member's name.
+また、[共有] ダイアログにアクセスし、メンバー名の横にあるドロップダウン メニューから *[削除]* を選択して、**いつでもダッシュボードの共有を解除できます**。
 
 ![Remove sharing button](images/remove-sharing.png)
 
 <a name='sharing-team-dashboard'></a>
-### Sharing a Team's Dashboard with Other Users
+### チームのダッシュボードを他のユーザーと共有する
 
-Any member of a team can share the team's dashboards with other users. To do this, go to the *Teams* tab and choose a dashboard from the *Dashboards* section. Then, follow the steps in [Sharing your Own Dashboard with Other Users](#sharing-dashboards-users).
+チームのメンバーは、チームのダッシュボードを他のユーザーと共有できます。これを行うには、*[チーム]* タブに移動し、*[ダッシュボード]* セクションからダッシュボードを選択します。次に、[独自のダッシュボードを他のユーザーと共有する](#sharing-dashboards-users)の手順に従います。
 
-The main difference between sharing a team's dashboard and a dashboard created by you is the [access permissions](#access-permissions) you can
-give to the users you share the dashboard with. Depending on your role in the team you can have one, two or all the access permissions options available to choose from.
+チームのダッシュボードと自分で作成したダッシュボードの共有の主な違いは、ダッシュボードを共有するユーザーに与えることができる[アクセス許可](#access-permissions)です。チームでの役割に応じて、1 つ、2 つ、またはすべてのアクセス許可オプションを選択できます。
 
-Your role in the team can be:
+チームでの役割は次のとおりです。
 
-  - **Owner** - have full access to the team's dashboards, including
-    editing, sharing and deleting them.
+  - **オーナー** - 編集、共有、削除など、チームのダッシュボードへの完全なアクセス権があります。
 
-  - **Member** - can create, edit and share dashboards and folders
-    but cannot delete them.
+  - **コントリビューター** - ダッシュボードとフォルダーを作成、編集、共有できますが、削除することはできません。
 
-  - **Viewer** - can view and share dashboards for view only.
+  - **ビューアー** - ダッシュボードを表示および共有できます。
 
-Here you can see the access permissions options every team member can give when sharing a dashboard:
+ここでは、ダッシュボードを共有するときにすべてのチーム メンバーが付与できるアクセス許可オプションを確認できます。
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -92,58 +82,48 @@ Here you can see the access permissions options every team member can give when 
 
 <table class="tg">
  <tr>
-    <th class="tg-oav7" rowspan="2">Team Roles</th>
-    <th class="tg-t96r" colspan="3">Access Permissions</th>
+    <th class="tg-oav7" rowspan="2">チームの役割</th>
+    <th class="tg-t96r" colspan="3">アクセス許可</th>
   </tr>
   <tr>
-    <td class="tg-baqh">Owner</td>
-    <td class="tg-baqh">Modify</td>
-    <td class="tg-baqh">Viewer</td>
+    <td class="tg-baqh">オーナー</td>
+    <td class="tg-baqh">変更</td>
+    <td class="tg-baqh">ビューアー</td>
   </tr>
   <tr>
     <td>Owner</td>
-    <td><span style="color: #007F00">Yes</span></td>
-    <td><span style="color: #007F00">Yes</span></td>
-    <td><span style="color: #007F00">Yes</span></td>
+    <td><span style="color: #007F00">〇</span></td>
+    <td><span style="color: #007F00">〇</span></td>
+    <td><span style="color: #007F00">〇</span></td>
   </tr>
   <tr>
     <td>Member</td>
-    <td><span style="color: #FF0000">No</span></td>
-    <td><span style="color: #007F00">Yes</span></td>
-    <td><span style="color: #007F00">Yes</span></td>
+    <td><span style="color: #FF0000">X</span></td>
+    <td><span style="color: #007F00">〇</span></td>
+    <td><span style="color: #007F00">〇</span></td>
   </tr>
   <tr>
     <td>Viewer</td>
-    <td><span style="color: #FF0000">No</span></td>
-    <td><span style="color: #FF0000">No</span></td>
-    <td><span style="color: #007F00">Yes</span></td>
+    <td><span style="color: #FF0000">X</span></td>
+    <td><span style="color: #FF0000">X</span></td>
+    <td><span style="color: #007F00">〇</span></td>
   </tr>
 </table>
 
 
 <a name='sharing-dashboard-with-team'></a>
-### Sharing a Dashboard with a Whole Team
+### チーム全体とダッシュボードを共有する
 
-You can share a dashboard you created or a team's dashboard with a whole
-team instead of individually with every team member. To do this, choose
-a dashboard from the *Dashboards* section in *My Stuff* or *Teams* tab.
-Then follow the steps in [Sharing your Own Dashboards with Other Users](#sharing-dashboards-users).
+作成したダッシュボードまたはチームのダッシュボードを、各チーム メンバー個別に共有するのではなく、チーム全体と共有できます。これを行うには、*[アイテム]*  タブまたは *[チーム]* タブの *[ダッシュボード]* セクションからダッシュボードを選択します。次に、[独自のダッシュボードを他のユーザーと共有する](#sharing-dashboards-users)の手順に従います。
 
 >[!NOTE]
->You can share a dashboard with any public team that [belongs to your main Organization](creating-joining-teams.html#organization), whether you are a member of it or not. You can also share with private teams that you are a member of.
+>ダッシュボードは、メンバーであるかどうかに関係なく、[メイン組織に属する](creating-joining-teams.html#organization)任意の公開チームと共有できます。自分がメンバーになっている非公開のチームと共有することもできます。
 
-When setting access permissions for the whole team, you must take into
-account that individual members will get only the highest permissions
-they have for the team's dashboards.
+チーム全体のアクセス許可を設定するときは、個人のメンバーがチームのダッシュボードに対して持つ最も高いアクセス許可のみを取得することを考慮する必要があります。
 
-For example, if you give Owner permissions to the team, Viewers in this
-team will have only Viewer permissions, Members will get as high as
-Modify permissions and only the Owners can get the full Owner access to
-the dashboard. If you give Viewer permissions to the team, even members
-with an Owner role will have only Viewer permissions to this dashboard.
+たとえば、チームにオーナー権限を付与すると、このチームのビューアーにはビューアー権限のみが付与され、メンバーには変更権限が付与され、オーナーのみがダッシュボードへの完全なオーナー アクセス権を取得できます。チームにビューアーを付与すると、ビューアーの役割を持つメンバーであっても、このダッシュボードに対するビューアー権限のみが付与されます。
 
-Look at the table below for a quick reference of what permissions can
-every team member get depending on their role in the team:
+チームでの役割に応じてすべてのチーム メンバーが取得できる権限のクイック リファレンスについては、以下の表をご覧ください。
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -159,40 +139,40 @@ every team member get depending on their role in the team:
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-9wq8" rowspan="3">Team Roles</th>
-    <th class="tg-7btt" colspan="3">Access Permissions Given to the Team</th>
+    <th class="tg-9wq8" rowspan="3">チームの役割</th>
+    <th class="tg-7btt" colspan="3">チームに与えられたアクセス許可</th>
   </tr>
   <tr>
-    <td class="tg-c3ow">Owner</td>
-    <td class="tg-c3ow">Modify</td>
-    <td class="tg-c3ow">Viewer</td>
+    <td class="tg-c3ow">オーナー</td>
+    <td class="tg-c3ow">変更</td>
+    <td class="tg-c3ow">ビューアー</td>
   </tr>
   <tr>
-    <td class="tg-7btt" style="text-align: center !important" colspan="3">Max Level Permissions Received by a Member</td>
+    <td class="tg-7btt" style="text-align: center !important" colspan="3">メンバーが受け取る最大レベルの権限</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Owner</td>
-    <td class="tg-c3ow"><span style="color: #007F00">Owner</span></td>
-    <td class="tg-c3ow"><span style="color: #D1A827">Modify</span></td>
-    <td class="tg-c3ow"><span style="color: #FF0000">Viewer</span></td>
+    <td class="tg-0pky">オーナー</td>
+    <td class="tg-c3ow"><span style="color: #007F00">オーナー</span></td>
+    <td class="tg-c3ow"><span style="color: #D1A827">変更</span></td>
+    <td class="tg-c3ow"><span style="color: #FF0000">ビューアー</span></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Contributer</td>
-    <td class="tg-c3ow"><span style="color: #D1A827">Modify</span></td>
-    <td class="tg-c3ow"><span style="color: #D1A827">Modify</span></td>
-    <td class="tg-c3ow"><span style="color: #FF0000">Viewer</span></td>
+    <td class="tg-0pky">コントリビューター</td>
+    <td class="tg-c3ow"><span style="color: #D1A827">変更</span></td>
+    <td class="tg-c3ow"><span style="color: #D1A827">変更</span></td>
+    <td class="tg-c3ow"><span style="color: #FF0000">ビューアー</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax">Viewer</td>
-    <td class="tg-baqh"><span style="color: #FF0000">Viewer</span></td>
-    <td class="tg-baqh"><span style="color: #FF0000">Viewer</span></td>
-    <td class="tg-baqh"><span style="color: #FF0000">Viewer</span></td>
+    <td class="tg-0lax">ビューアー</td>
+    <td class="tg-baqh"><span style="color: #FF0000">ビューアー</span></td>
+    <td class="tg-baqh"><span style="color: #FF0000">ビューアー</span></td>
+    <td class="tg-baqh"><span style="color: #FF0000">ビューアー</span></td>
   </tr>
 </table>
 
 >[!NOTE]
->**Giving Exclusive Access to a Team Member**. If you want to give a member of a team higher access level to the dashboard than its membership role allows, add their email individually to the list of invitations and set the access permissions you want them to have.
+>**チーム メンバーに排他的なアクセス権を与える**チーム メンバーに、そのメンバーシップの役割で許可されているよりも高いダッシュボードへのアクセス レベルを付与する場合は、招待メールのリストに個別にメールを追加し、必要なアクセス許可を設定します。
 
-### See Also
+### 関連項目
 
-When you have used a data source file located on a cloud service to build a dashboard, you will need to grant access to this file to successfully share your dashboard. To learn more, read [Sharing Dashboards with Cloud Files as a Data Source](sharing-dashboards-datasource-files-cloud-provider.md).
+クラウド サービスにあるデータソース ファイルを使用してダッシュボードを作成した場合、ダッシュボードを共有するには、このファイルへのアクセスを許可する必要があります。詳細については、[クラウド ファイルをデータソースとするダッシュボードを共有する](sharing-dashboards-datasource-files-cloud-provider.md)をご覧ください。

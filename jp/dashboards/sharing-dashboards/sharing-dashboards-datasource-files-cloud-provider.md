@@ -1,32 +1,21 @@
-## Sharing Dashboards with Cloud Files as a Data Source
+## クラウド ファイルをデータソースとするダッシュボードを共有する
 
-When you share dashboards with other Reveal users, you need to take into
-account the data sources you used to build the visualizations in the
-dashboard. If your data source is a file uploaded on a cloud provider,
-users you share your dashboard with may not be able to open it unless
-you grant them access to the file.
+ダッシュボードを他の Reveal ユーザーと共有する場合は、ダッシュボードで表示形式を作成するために使用したデータソースを考慮する必要があります。データソースがクラウド プロバイダーにアップロードされたファイルである場合、ダッシュボードを共有するユーザーは、ファイルへのアクセスを許可しない限り、ダッシュボードを開くことができない場合があります。
 
-When you choose to allow access to a data source file on a cloud
-provider, a **shareable link** to this file is created. Dashboards that
-use this file as a data source will be properly viewed when shared with
-other users. The link itself will not be shared with Reveal users but is
-stored encrypted on our servers.
+クラウド プロバイダーのデータソース ファイルへのアクセスを許可すると、このファイルへの**共有可能なリンク**が作成されます。このファイルをデータソースとして使用するダッシュボードは、他のユーザーと共有すると正しく表示されます。リンク自体は、Reveal ユーザーと共有されませんが、暗号化されてサーバーに保存されます。
 
-You can create a shareable link when:
+次の場合に共有可能なリンクを作成できます:
 
-  - [choosing a file uploaded on a cloud provider](#cloud-data-source-file) as a data source for a
-    visualization;
+  - [クラウド プロバイダーにアップロードされたファイル](#cloud-data-source-file) を表示形式のデータソースとして選択する場合。
 
-  - [sharing a dashboard](#grant-access-shared-dashboard), which uses a
-    cloud file data source;
+  - クラウド ファイル データソースを使用する[ダッシュボードを共有する](#grant-access-shared-dashboard)場合。
 
-  - saving a dashboard [in a team](#save-dashboard-team).
+  - [チームに](#save-dashboard-team)ダッシュボードを保存する場合。
 
 <a name='cloud-providers'></a>
-### Supported Cloud Providers
+### サポートされるクラウド プロバイダー
 
-You can grant access to dashboards, which use files uploaded on the
-following cloud providers:
+次のクラウド プロバイダーにアップロードされたファイルを使用するダッシュボードへのアクセスを許可できます:
 
   - Google Drive
 
@@ -34,54 +23,47 @@ following cloud providers:
 
   - Dropbox
 
->[!NOTE] **File Share Support for Box:**
->Coming soon!
+>[!NOTE] **Box のファイル共有サポート:**
+>追加予定!
 
 
 <a name='cloud-data-source-file'></a>
-### Granting Access when Choosing a Cloud File as a Data Source
+### クラウド ファイルをデータソースとして選択する場合のアクセス権の付与
 
-You can allow access to a cloud file at the point of selecting your data source to build a visualization. After choosing a file uploaded on one of the [supported cloud providers](#cloud-providers), you will be prompted to the following dialog:
+データソースを選択した時点でクラウド ファイルへのアクセスを許可して、表示形式を構築できます。[サポートされているクラウド プロバイダー](#cloud-providers)のいずれかにアップロードされたファイルを選択すると、次のダイアログが表示されます。
 
 ![Allow access checkbox in the Set up your file dialog](images/allow-access-box-sharing.png)
 
-Make sure the *Allow Access* checkbox is selected, otherwise the
-shareable link will be disabled.
+*「アクセスを許可」*チェックボックスが選択されていることを確認してください。選択されていない場合、共有可能なリンクは無効になります。
 
 <a name='grant-access-shared-dashboard'></a>
-### Granting Access when Sharing a Dashboard
+### ダッシュボードの共有時にアクセスを許可する
 
-You can grant access to dashboards that use cloud files with a disabled
-shareable link, when sharing them with other users.
+他のユーザーと共有するときに、共有可能なリンクが無効になっているクラウド ファイルを使用するダッシュボードへのアクセスを許可できます。
 
-1.  Click/tap the *overflow button* of a dashboard.
+1.  ダッシュボードの*オーバーフロー ボタン*をクリック/タップします。
 
-2.  Select *Share*.
+2.  *[共有]*を選択します。
 
-3.  The following dialog opens:
+3.  次のダイアログが開きます。
 
     ![A dialog to grant access to cloud file data sources](images/grant-access-share-dashboard-dialog.png)
 
-    Click/Tap *Allow Access* and proceed with selecting users to [share your dashboard](sharing-dashboards.md) with.
+    *[アクセスを許可]*をクリック/タップして、[ダッシュボードを共有する](sharing-dashboards.md)ユーザーの選択に進みます。
 
 
->[!NOTE] **Access Not Allowed.**
->If you continue sharing without allowing access, users will not be able to view your dashboard's data. *Request access* feature will be supported in a future version of Reveal.
+>[!NOTE] **アクセスは許可されていません。**
+>アクセスを許可せずに共有を続行すると、ユーザーはダッシュボードのデータを表示できなくなります。*アクセス要求*機能は、Reveal の将来のバージョンでサポートされる予定です。
 
 <a name='save-dashboard-team'></a>
-### Saving a Dashboard with a Cloud File Data Source in a Team
+### チーム内のクラウド ファイル データソースを含むダッシュボードの保存
 
-You may want to save in your team's space a dashboard, which contains
-one or more visualizations using cloud files as data source. If a
-shareable link to these data source files hasn't been created (has been
-disabled), Reveal will prompt you to allow access:
+クラウド ファイルをデータソースとして使用する 1 つ以上の表示形式を含むダッシュボードをチームのスペースに保存することができます。これらのデータソース　ファイルへの共有可能なリンクが作成されていない (無効になっている) 場合、Reveal はアクセスを許可するように求めます。
 
 ![Allow access to a dashboard with a disabled link when saving in a team](images/save-dashboard-disabled-link-teams_all.png)
 
-This way you make sure all team members can view the dashboard you saved
-in your team.
+これにより、チームに保存したダッシュボードをすべてのチーム メンバーが確実に表示できるようになります。
 
-### See Also
+### 関連項目
 
-If you can't see the contents of a dashboard, shared with you, please
-read: [Requesting Access to Shared Dashboards with Cloud Files](request-access-shared-dashboards-cloud-files.md)
+共有されているダッシュボードのコンテンツが表示されない場合は、[クラウド ファイルを使用した共有ダッシュボードへのアクセスのリクエスト](request-access-shared-dashboards-cloud-files.md)をお読みください。

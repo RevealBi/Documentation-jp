@@ -1,18 +1,11 @@
-## Radial Charts
+## ラジアル チャート
 
-Like category charts, Radial charts are simply representations of
-information in a coordinate system.
+カテゴリ チャートと同様に、ラジアル チャートは情報を座標上に表現したものです。
 
 ![Radial Chart Sample](images/radial-chart-samples.png)
 
-### Chart Trendlines for Radial Charts
+### ラジアル チャートのチャート トレンドライン
 
-Chart settings enable the display of trend lines, which are lines that
-are painted across a chart, based on an algorithm. Trendlines are a very
-simple, yet powerful tool to help you determine trends in datasets, and
-define thresholds for taking action. The supported algorithms are Linear
-Fit, Quadratic Fit, Cubic Fit, Quartic Fit, Logarithmic Fit, Exponential
-Fit, Power Law Fit, Simple Average, Exponential Average, Modified
-Average, Cumulative Average, Weighted Average.
+チャートの設定でトレンドラインの表示を有効にできます。このラインはアルゴリズムに基づいてチャートに表示されます。近似曲線でデータセットの傾向を把握し、意思決定のためのしきい値を定義できます。サポートされるトレンド ラインは、二次フィット、キュービック フィット、四次フィット、対数フィット、指数フィト、べき乗フィット、単純平均、指数平均、修正平均、累加平均、加重平均です。
 
 ![Radial Chart Trendline settings](images/chart-trendlines-radial.png)
