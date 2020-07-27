@@ -6,7 +6,7 @@
  
 Reveal は、手頃な価格のビジネス ユーザー向けセルフサービス BI ツールであり、データに基づく意思決定を迅速に行うことができます。ユーザー エクスペリエンスに特化した開発者によって構築され、ビジネス ユーザー向けに設計された Reveal は、ダッシュボードの作成、表示、チームとの共有を簡単にします。使用しているデバイスに関係なく、シームレスで同一のエクスペリエンスを提供します: ウェブ、デスクトップ、 iOS および Android。 
 
-Reveal is purposely designed to be embedded into applications. Reveal SDK allows you to provide your users with analytical capabilities by integrating quickly and seamlessly into your Windows or web-hosted applications. Interested? [Download Reveal SDK](https://www.revealbi.io/download-sdk). To find out how to start using it, refer to the [Reveal SDK help](developer/index.md). 
+Reveal は自由にアプリに埋め込まれるように設計されています。Reveal SDK を使用すると、Windows または Web でホストされるアプリに迅速かつシームレスに統合することで、ユーザーに分析機能を提供できます。興味をお持ちですか? [Reveal SDK をダウンロードします](https://www.revealbi.io/download-sdk)。使用を開始する方法については、[Reveal SDK ヘルプ](developer/index.md)を参照してください。 
 
 ### Reveal を使用して、次のことができます:
 
@@ -31,11 +31,11 @@ Reveal is purposely designed to be embedded into applications. Reveal SDK allows
   </tr>
   <tr>
     <td class="tg-0pky"><img src="images/VisualizationEditorHomePage_All.png" alt="Selecting a Visualization type dialog" width="200" height="150"></td>
-    <td class="tg-0pky"><a href="~/jp/dashboards/creating-dashboards.md"><span style="font-weight:bold">ダッシュボードをを簡単に作成できる</span></a><span style="font-weight:bold">:</span> 直感的なドラッグ＆ドロップ インターフェイスを備えた Reveal は、数分でダッシュボードを簡単に作成できます。20 以上の異なる表示形式から選択して、データを提示し、ストーリーを最良の方法で伝えます。</td>
+    <td class="tg-0pky"><a href="~/jp/dashboards/creating-dashboards.md"><span style="font-weight:bold">ダッシュボードを簡単に作成できる</span></a><span style="font-weight:bold">:</span> 直感的なドラッグ＆ドロップ インターフェイスを備えた Reveal は、数分でダッシュボードを簡単に作成できます。20 以上の異なる表示形式から選択して、データを提示し、ストーリーを最良の方法で伝えます。</td>
   </tr>
   <tr>
     <td class="tg-0pky"><img src="images/visualizations-editor.png" alt="Visualization editor" width="200" height="150"></td>
-    <td class="tg-0pky"><a href="~/jp/data-visualizations/visualizations-editor.md">データ表示形式のカスタマイズ:</a>: 必要に応じて、データを並べ替えて、フィルターし、集計できます! チャートの種類ごとにさまざまな設定が用意されており、表示形式を希望どおりにデザインできます。</td>
+    <td class="tg-0pky"><a href="~/jp/data-visualizations/visualizations-editor.md">データ表示形式のカスタマイズ:</a> 必要に応じて、データを並べ替えて、フィルターし、集計できます! チャートの種類ごとにさまざまな設定が用意されており、表示形式を希望どおりにデザインできます。</td>
   </tr>
   <tr>
     <td class="tg-0pky"><img src="images/dashboardsInteractHome_All.png" alt="Dashboard viewer show tooltips" width="200" height="150"></td>

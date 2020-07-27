@@ -34,10 +34,10 @@
     <td class="tg-cly1"><span style="font-weight:bold">選択</span>。この設定では、次を構成できます。 <a href="#multiple-selection">複数選択</a> (一度に複数の値を選択できます) および/または <a href="#required-selection">必須選択</a> (少なくとも 1 つの値を常に選択する必要があります)。</td>
   </tr>
   <tr>
-    <td class="tg-cly1"><a href="#data-filters">データ フィルター</a>。This setting allows you to apply any <a href="#~/jp/fields/field-filters-rules.md">field filters and rules</a> to the data source used for the dashboard filter.</td>
+    <td class="tg-cly1"><a href="#data-filters">データ フィルター</a>。この設定により、ダッシュボード フィルターに使用されるデータソースに<a href="#~/jp/fields/field-filters-rules.md">フィールド フィルターとルール</a>を適用できます。</td>
   </tr>
   <tr>
-    <td class="tg-cly1"><a href="connecting-dashboard-filters-visualization.md">接続された表示形式</a>。Whether your dashboard will be connected to any visualization or not.</td>
+    <td class="tg-cly1"><a href="connecting-dashboard-filters-visualization.md">接続された表示形式</a>。ダッシュボードを表示形式に接続するかどうか。</td>
   </tr>
 </table>
 
