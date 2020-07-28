@@ -1,40 +1,34 @@
-## What is a Data Source?
+## データ ソースの概要
 
-Data Sources are the places where your data comes from. Reveal provides
-users the chance to connect to analytics tools, content managers, CRMs,
-databases, spreadsheets, and public data sources. It also
-does not require users to have direct access to these sources in their
-computers or their network.
+データ ソースはデータの送信元です。Reveal は解析ツール、コンテント マネージャー、CRM、データベース、スプレッドシート、ソーシャル メディア、および公開用のデータ ソースに接続できます。ユーザーがコンピューターまたはネットワークでソースへ直接アクセスする必要はありません。
 
-The screenshot below displays a number of different data sources one user has connected to in their application.
+以下のスクリーンショットはアプリケーションで構成される複数のデータ ソースを表示します。
 
 ![Sample data sources](images/sample-data-sources-screen.png)
 
-### How Do You Connect to  Data Sources?
+### データ ソースの構成方法とは?
 
-Once you select the *+ Visualization* button to create a dashboard, you will be prompted
-to enter a new or existing data source.
+*[+] 表示形式*ボタンを選択してダッシュボードを作成すると、新しいデータソースまたは既存のデータソースを設定するよう求められます。
 
 ![Available data sources when creating a new visualization](images/creating-new-visualization.png)
 
-Here you will see a list of recently used
-Data Sources. To create a new one, **select the  + Data Source button**.
+最近使用したデータソースのリストが表示されます。新しいデータソースを作成するには、**[+データソース]ボタンを選択します**。
 
-For the complete list of supported data sources and detailed information on how to configure each fo them, access the following topics:
+サポートされるデータソースの完全なリストと、各データソースの構成方法に関する詳細情報については、次のトピックにアクセスしてください。
 
-  - [Data Sources](data-sources.md)
+  - [データ ソース](data-sources.md)
 
-  - [Box](box.md)
+  - [ボックス](box.md)
 
   - [Dropbox](dropbox.md)
 
-  - [Google Analytics](google-analytics.md)
+  - [Google アナリティクス](google-analytics.md)
 
   - [Google BigQuery](google-bigquery.md)
 
   - [Google Drive](google-drive.md)
 
-  - [Microsoft Analysis Services](microsoft-analysis-services/configuring-microsoft-analysis-services.md)
+  - [Microsoft Analysis サービス](microsoft-analysis-services/microsoft-analysis-services.md)
 
   - [Microsoft Azure Synapse Analytics](microsoft-azure-synapse-analytics.md)
 
@@ -54,7 +48,7 @@ For the complete list of supported data sources and detailed information on how 
 
   - [Oracle](oracle.md)
 
-  - [PostgreSQL](postgresql.md)
+  - [PostgreSql](postgresql.md)
 
   - [REST API](rest-api.md)
 
@@ -64,10 +58,10 @@ For the complete list of supported data sources and detailed information on how 
 
   - [Sybase](sybase.md)
 
-  - [Web Resource](web-resource.md)
+  - [ウェブ リソース](web-resource.md)
 
-  - [JSON file](working-with-json-files.md)
+  - [JSON ファイル](working-with-json-files.md)
 
-  - [Integration with Azure Machine Learning](azure-machine-learning-models.md)
+  - [Azure Machine Learning との統合](azure-machine-learning-models.md)
 
-  - [Integration with BigQuery Machine Learning](bigquery-machine-learning-models.md)
+  - [BigQuery Machine Learning との統合](bigquery-machine-learning-models.md)

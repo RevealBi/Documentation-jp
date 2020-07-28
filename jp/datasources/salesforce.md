@@ -1,28 +1,23 @@
 ## Salesforce
 
-Upon selecting the Salesforce data source, you will see the following login prompt:
+Salesforce データ ソースを選択すると、以下のログイン プロンプトが表示されます。
 
 ![Salesforce login prompt](images/salesforce-login-prompt.png)
 
-Enter your login credentials and click *Log In*.
+ログイン情報を*入力*してサインインをクリックします。
 
-If you have Identity Confirmation activations enabled, you will see a
-prompt to enter the **verification code** sent to you. For more
-information on Identity Confirmation Activations, visit the [Salesforce help](https://help.salesforce.com/articleView?id=security_activation_about.htm&type=5).
+ID 認証が有効な場合は、送信された**確認コード**を入力するプロンプトが表示されます。ID 認証についての情報は、[Salesforce ヘルプ](https://help.salesforce.com/articleView?id=security_activation_about.htm&type=5)をご覧ください。
 
-You will then see an authorization prompt. Click *Allow*.
+認証プロンプトが表示されます。*許可*をクリックしてください。
 
-### Setting Up Your Data
+### データの設定
 
-After logging in, you can set up your Salesforce data in the following
-dialog:
+ログイン後、次のダイアログで Salesforce データを設定できます。
 
 ![Set up your data dialog](images/set-up-data-salesforce.png)
 
-Here you can choose the Salesforce object you need from:
+ここで、必要な Salesforce オブジェクトを選択できます。
 
-  - *Popular Objects* - this category allows quick selection between the
-    seven most used objects among our users;
+  - *人気のオブジェクト* - このカテゴリでは、ユーザーが最もよく使用する 7 つのオブジェクトをすばやく選択できます。
 
-  - *All Objects* - this category displays the full list of objects
-    contained in your Salesforce account.  You can use the provided search to find quickly the object you need.
+  - *すべてのオブジェクト* - このカテゴリには、Salesforce アカウントに含まれるオブジェクトの完全なリストが表示されます。提供されている検索を使用して、必要なオブジェクトをすばやく見つけることができます。

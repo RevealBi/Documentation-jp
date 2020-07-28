@@ -1,20 +1,17 @@
-## SharePoint Online
+## SharePoint オンライン
 
-Upon selecting SharePoint, you will see the following dialog:
+SharePoint を選択すると、以下のログイン ダイアログトが表示されます。
 
 ![Add a new SharePoint dialog](images/add-sharepoint-site-subsite.png)
 
-Here you can login with your Office365 account and connect to your **SharePoint root site**.
+ここで、Office365 アカウントでログインし、**SharePoint ルート サイト**に接続できます。
 
-You can also enter **a subsite URL** if you want to directly add a SharePoint subsite as a datasource in Reveal.
+Reveal でデータソースとして SharePoint サブサイトを直接追加する場合は、**サブサイトの URL** を入力することもできます。
 
-### Supported Files
+### サポートされるファイル
 
-When working within Reveal, you will be able to use a wide variety of
-files:
+Reveal では、広範な種類のファイルを使用できます。
 
-  - **Spreadsheets & tabular data**: Excel (.xls, .xlsx), CSV, TSV, which you can use
-    dynamically within Reveal.
+  - **スプレッドシート**: Excel (.xls, .xlsx) または CSV (Reveal 内で動的に使用できます)。
 
-  - **Other files** (including images or document files such as PDFs,
-    texts, etc.), which will be displayed in a preview mode only.
+  - **その他のファイル**: プレビューモードのみで表示されます (画像および PDF やテキストなどのドキュメント ファイルを含む)。

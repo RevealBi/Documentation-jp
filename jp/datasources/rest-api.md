@@ -1,134 +1,101 @@
 ## REST API
 
-The REST API data source in Reveal enables you to send GET, POST, and PUT
-HTTP requests to a unique URL in order to manipulate data via a web
-service.
+Reveal の REST API データソースを使用すると、GET、POST、および PUT HTTP リクエストを一意の URLに送信して、Web サービス経由でデータを操作できます。
 
-The REST API data source also provides the possibility to change the
-received data by simply changing parameters' values in the URL in the
-midst of creating your visualization without losing your progress.
+REST API データソースは、進行状況を失わずに表示形式を作成している最中に、URL のパラメーターの値を変更するだけで、受信データを変更する可能性も提供します。
 
-### What is a REST API?
+### REST API とは?
 
-An **API** (Application Program Interface) allows two software programs
-to communicate with each other. All web services are APIs accessed
-through the web environment.
+**API** (アプリケーション プログラム インターフェイス) を使用すると、2 つのソフトウェア プログラムが相互に通信できます。すべての Web サービスは、Web 環境を通じてアクセスされる API です。
 
-REST APIs (also referred to as REST web services) are based on **REST**
-(Representational State Transfer) - a group of architectural
-constraints, providing standards for communication between computer
-systems on the web. In the REST architecture, clients send requests to
-retrieve or modify resources, and servers send responses to these
-requests.
+REST API (REST Web サービスとも呼ばれる) は、**REST** (Representational State Transfer) アーキテクチャ上の制約のグループに基づいており、Web 上のコンピューターシステム間の通信の標準を提供します。REST アーキテクチャでは、クライアントはリソースを取得または変更するリクエストを送信し、サーバーはこれらの要求への応答を送信します。
 
-### Configuring a REST API Data Source
+### REST API データソースの構成
 
-To configure a REST API data source, you will need to enter the
-following information:
+REST API データソースを構成するには、以下の情報が必要です。
 
 ![Configuring-REST-API-Data-Source\_All](images/Configuring-REST-API-Data-Source_All.png)
 
-1. 1.  **Default name** of the data source: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Reveal names it *REST API*. You can change it to your preference.
+1. データソースの**デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *REST API* という名前を付けます。好みに合わせて変更できます。
 
 
-2.  **URL**: the URL where the service is located.
+2.  **URL**:  サービスが配置されている URL。
 
-3.  **Method**: from the dropdown menu, you can choose your preferred request type - *GET*, *POST* or *PUT*.
-    > [!NOTE] **Unsupported method**.
-    > If the REST service does not support your method (e.g., POST), you will receive an error message.
+3.  **メソッド**:  ドロップダウンメニューから、希望のリクエスト タイプ (*GET*、*POST*、または *PUT*) を選択できます。
+    > [!NOTE] **サポートされていないメソッド**。
+    > メソッド (POST など) が REST サービスでサポートされていない場合、エラー メッセージが表示されます。
 
-4. **Result Type**: You can specify the file type you expect to be retrieved from the REST API. For example, if you choose *.csv* and the REST API responds with a *JSON*, Reveal will try to parse the file as a *.csv*.
+4. **結果タイプ**: REST API から取得する予定のファイル タイプを指定できます。たとえば、*.csv* を選択し、REST API が *json* で応答した場合、Reveal はファイルを *.csv* として解析しようとします。
 
-    If you choose *Auto Detect*, Reveal will use the information about the file (content) type, coming from the REST API to parse the file.  
+    *自動検出*を選択した場合、Reveal は REST API からのファイル (コンテンツ) タイプに関する情報を使用してファイルを解析します。  
 
-5.  **Credentials**: after selecting *Credentials*, you will be able to
-    enter the credentials for your REST API or select existing ones if
-    applicable. You can also pick the *No Account* option.
+5.  **資格情報**: *資格情報*を選択した後、REST API の資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。*[アカウントなし]*オプションを選択することもできます。
 
-### Working with URL Parameters
+### URL パラメーターの使用
 
-Parameters are options you can pass in your URL to influence the
-response from the web service. You can provide path and query parameters
-in your URL when configuring the REST API data source.
+パラメーターは、Web サービスからの応答に影響を与えるために URL で渡すことができるオプションです。REST API データソースを構成するときに、URL にパスとクエリのパラメーターを指定できます。
 
-To use parameters effectively follow the procedure below:
+パラメーターを効果的に使用するには、以下の手順に従います。
 
-1.  **Provide parameters in the URL**. You must put path parameters in
-    *curly braces* and specify query parameters after a *question mark
-    (?)*. You can see in the example below both path, and query
-    parameters are color-coded in *blue* to make them more easily
-    identifiable.
+1.  **URL にパラメーターを指定します**。パス パラメーターは*波括弧*で囲み、*疑問符 (?)* の後にクエリ パラメーターを指定する必要があります。以下の例では、パス パラメーターとクエリ パラメーターの両方が*青*で色分けされ、識別しやすくなっています。
 
     ![Parameters-URL-Rest-API\_All](images/Parameters-URL-Rest-API_All.png)
 
-2.  **Add parameters' values**. In the following screen specify the
-    value of each parameter you have added in the URL.
+2.  **パラメーター値の追加**。次の画面で、URL に追加した各パラメーターの値を指定します。
 
     ![Parameters-Values-Rest-API\_All](images/Parameters-Values-Rest-API_All.png)
 
-    As a result, the REST API service will respond with the data on the
-    provided URL in a REST compliant format. Generally, you will receive
-    a JSON file:
+    その結果、REST API サービスは、提供された URL のデータを REST に準拠する形式で応答します。通常、JSON ファイルを受け取ります。
 
     ![REST-API-Data-Format-Result\_All](images/REST-API-Data-Format-Result_All.png)
 
-    For more information on how to work with a JSON file, please refer
-    to [this topic](working-with-json-files.md).
-
-    After loading the data, you will continue to the Visualization Editor
-    screen.
+    JSON ファイルの使用方法の詳細については、[このトピック](working-with-json-files.md)を参照してください。
+    
+    データをロードした後、表示形式エディター画面に進みます。
 
     <div class="note">
 
-    **Unsupported File Formats**
+    **サポートされていないファイル形式**
 
-    If the REST API responds with a file format, which is not supported
-    by Reveal (e.g., XML), you will not be able to create visualizations
-    with the data in this file.
+    REST API が Reveal でサポートされていないファイル形式 (XML など) で応答する場合、このファイルに含まれるデータを使用して表示形式を作成することはできません。
 
     </div>
 
-3.  **Change the parameters' values without losing your visualization data**. Changing the parameters' values after you have started building your visualization offers a variety of possibilities. For example, you can access new data to add to your visualization or directly change the displayed data in the visualization you have already created.
+3.  **表示形式のデータを失わずにパラメーターの値を変更します**。表示形式の構築を開始した後でパラメーターの値を変更すると、新しいデータにアクセスして表示形式に追加し、既に作成した表示形式に表示されているデータを直接変更するなど、さまざまな可能性が提供されます。
 
-To do this, click on the file icon in the upper-left corner of the
-    *Visualization Editor* screen.
+これを行うには、*表示形式エディター*画面の左上角にあるファイル　アイコンをクリックします。
 
 ![REST-API-Change-Parameters-Values\_All](images/REST-API-Change-Parameters-Values_All.png)
 
-In the screen that opens, *click/tap* the *REST API Parameters* button.
+開いた画面で、*[REST API パラメーター]* ボタンを*クリック/タップします*。
 
 ![REST-API-Parameters-Button\_All](images/REST-API-Parameters-Button_All.png)
 
-You will be redirected to the screen in *step 2* where you can provide new values to your parameters.
+*ステップ 2* の画面にリダイレクトされます。ここで、パラメーターに新しい値を指定できます。
 
 > [!NOTE]
-> **Losing Your Data Warning**
-Sometimes when you change the values of your parameters, there might be a chance to lose the visualization you already created in the Editor. In this case, the following warning message will appear when you *click/tap* the *Load Data* button:
+> **データを失う警告**
+パラメーターの値を変更すると、エディターで既に作成した表示形式が失われる可能性があります。この場合、*[データの読み込み]*ボタンを*クリック/タップする*と、次の警告メッセージが表示されます。
 >![REST-API-Losing-Data\_All](images/REST-API-Losing-Data_All.png)
 
-### Choosing a Method
+### メソッドの選択
 
-The *Method* in your REST API data source configuration represents a
-request used to interact with resources in a REST system. The request
-generally consists of:
+REST API データソース構成のメソッドは、REST システムのリソースと対話するために使用されるリクエストを表します。リクエストは通常、次のもので構成されます。
 
-1.  A path to a resource (**URL**)
+1.  リソースへのパス (**URL**)
 
 2.  **HTTP verb**:
 
-      - *GET* - to retrieve a specific resource
+      - *GET* - 特定のリソースを取得する
 
-      - *POST* - to create a new resource
+      - *POST* - 新しいリソースを作成する
 
-      - *PUT* - update a specific resource
+      - *PUT* - 特定のリソースを更新する
 
-3.  A **Header**: allows the client to pass along information about the
-    request
+3.  **ヘッダー**: ヘッダーにより、クライアントはリクエストに関する情報を渡すことができます。
 
-4.  A **Body**: an optional message (when using *POST* and *PUT*
-    methods) containing data
+4.  **ボディ**: データを含むオプションのメッセージ (*POST* および *PUT* メソッドを使用する場合)。
 
     ![Working-With-Methods\_All](images/Working-With-Methods_All.png)
 
-For more information about the Header and Body of a request, please
-refer to [this link](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages#Headers).
+リクエストのヘッダーとボディの詳細については、[このリンク](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages#Headers)を参照してください。

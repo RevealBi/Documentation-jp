@@ -1,20 +1,15 @@
 ## Dropbox
 
-Upon selecting Dropbox, you will see the following log in prompt.
+Dropbox を選択すると、以下のログイン プロンプトが表示されます。
 
 ![Dropbox login dialog](images/dropbox-login.png)
 
-Enter your login credentials and select *Sign In*.
-You will then see an
-authorization prompt; select *Allow* to grant the Reveal application access to files on your Dropbox cloud.
+ログイン情報を入力して*サインイン*を選択します。次に承認プロンプトが表示されます。*許可*を選択して Reveal アプリケーションの Dropbox クラウドのファイルへのアクセスを許可します。
 
-### Supported Files
+### サポートされるファイル
 
-When working within Reveal, you will be able to use a wide variety of
-files:
+Reveal では、広範な種類のファイルを使用できます。
 
-  - **Spreadsheets & tabular data**: Excel (.xls, .xlsx), CSV, TSV, which you can use
-    dynamically within Reveal.
+  - **スプレッドシート**: Excel (.xlsls, .xlsx) または CSV (Reveal 内で動的に使用できます)。
 
-  - **Other files** (including images or document files such as PDFs,
-    texts, etc.), which will be displayed in a preview mode only.
+  - **その他のファイル**: プレビューモードのみで表示されます (画像および PDF やテキストなどのドキュメント ファイルを含む)。

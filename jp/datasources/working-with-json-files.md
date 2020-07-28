@@ -1,115 +1,88 @@
-## Working With JSON Files
+## JSON ファイル を使用した作業
 
-The JSON format is fully supported in Reveal as your visualizations can
-consume data from any JSON file.
+Reveal では、JSON ファイル データの可視化をサポートします。
 
-After reading your JSON file format, Reveal provides you with possible
-data structures you may want to use. In addition, there is an
-[**Advanced Selection**](#json-advanced-selection) mode where you can
-choose a custom data structure.
+JSON ファイル形式を読み込んだ後、Reveal は使用する可能性のあるデータ構造を提供します。さらに、カスタム データ構造を選択できる[**高度な選択**](#json-advanced-selection)モードがあります。
 
-### JSON Format Information
+### JSON 書式の情報
 
-JSON (**J**ava**S**cript **O**bject **N**otation) is a self-describing
-lightweight format for storing and exchanging data.
+JSON (**J**ava**S**cript **O**bject **N**otation) は、データを保存および交換するための自己記述型の軽量なフォーマットです。
 
-Format highlights:
+書式のハイライト:
 
-  - JSON, as a format, can be used to **represent many different
-    structures of data**.
+  - JSON の書式は、**データのさまざまな構造を表す**ために使用できます。
 
-  - Data is always arranged as **name/value pairs, separated by
-    commas**.
+  - データは常に**コンマで区切られた名前/値のペア**として配置されます。
 
-  - Data types' notation includes: curly braces **{} for objects** and
-    **square brackets \[\] for arrays**.
+  - データ型の表記には、**オブジェクトの波括弧 {}** と**配列の角括弧 \[\]** が含まれます。
 
-### Loading a JSON file
+### JSON ファイルの読み込み
 
-Follow these steps to create a new visualization that consumes data from
-your JSON file:
+JSON ファイルのデータを使用する新しいビジュアライゼーションを作成するには、次の手順に従います。
 
-1.  **Make your file available**
+1.  **ファイルを利用できるようにする**。
 
-    Upload the JSON file to one of your storage providers, so you can
-    later access it from Reveal. You can choose between the following
-    available options: Dropbox, OneDrive, Box, Google Drive, and
-    SharePoint.
+    JSON ファイルをストレージ プロバイダーのいずれかにアップロードして、後で Reveal からアクセスできるようにします。次の使用可能なオプションから選択できます。Dropbox、OneDrive、Box、Google Drive、および SharePoint。
 
-2.  **Create a new visualization**.
+2.  **新しいビジュアライゼーションの作成**。
 
-    Within your dashboard, create the visualization that will consume
-    data from the JSON file.
+    ダッシュボード内で、JSON ファイルのデータを使用するビジュアライゼーションを作成します。
 
-3.  **Locate your file**.
+3.  **ファイルの参照**。
 
-    a.  Choose the storage provider with the file and provide your login credentials.
+    a.  ファイルのあるストレージ プロバイダーを選択し、ログイン認証情報を提供します。
 
-    b.  Navigate the provider and select your JSON file.
+    b.  プロバイダーを参照し、JSON ファイルを選択します。
 
     ![A JSON file located in a cloud data source](images/json-files-locate-file.png)
 
-4.  **Choose the data structure you want**.
+4.  **必要なデータ構造の選択**。
 
-    After scanning the file, Reveal will show you a list of possible
-    data structures for you to choose.
+    ファイルをスキャンした後、Reveal は選択可能なデータ構造のリストを表示します。
 
     ![Json Files Choose Data table](images/json-files-choose-data-structure.png)
 
-    If the list does not include the data structure you want, use the
-    [**Advanced Selection**](#json-advanced-selection) mode where you
-    can choose a custom data structure.
+    リストに目的のデータ構造が含まれていない場合は、[**高度な選択モード**](#json-advanced-selection)を使用して、カスタムデータ構造を選択できます。
 
-5.  **Click/Tap *Load Data***.
+5.  ***データのロード*をクリック/タップ**。
 
-    Once you selected the data structure, click/tap the *Load Data*
-    button to continue to the *Visualizations Editor*.
+    データ構造を選択、*[データのロード]* ボタンをクリック/タップして、*表示形式エディター*を開きます。
 
     ![Json Files Visualizations Editor](images/JsonFilesVisualizationsEditor_All.png)
 
 <a name='json-advanced-selection'></a>
-### Advanced Selection Mode
+### 高度な選択モード
 
-JSON files can be used to represent many different data structures.
-Because of this, Reveal allows you to choose a custom data structure for
-you to work with. After selecting the data columns you want to work
-with, you are able to build your visualization upon them.
+JSON ファイルを使用して、さまざまなデータ構造を表すことができます。このため、Reveal では、作業するカスタム データ構造を選択できます。処理したいデータ列を選択した後、それらの上に表示形式を構築することができます。
 
-1.  **Open the Advanced Selection mode**.
+1.  **詳細選択モードを開く**。
 
-    Click/Tap the **+ Table** button to get access to the *Advanced Selection*
-    screen.
+    **[+テーブル]** ボタンをクリック/タップして、*[詳細選択]* 画面にアクセスします。
 
     ![Json Files Open Advanced Selection](images/json-files-open-advanced-selection.png)
 
-2.  **Navigate the JSON Tree**.
+2.  **JSON ツリーのナビゲーション**。
 
-    Expand the nodes and select the deepest level where you want to
-    select the data.
+    ノードを展開し、データを選択する最も深いレベルを選択します。
 
     ![Json Files Navigate Tree](images/json-files-navigate-tree.png)
 
-3.  **Select the tree elements and fields you want**.
-
-    You need to select a tree element (object **[ ]** or array **{ }**)
-    to enable child selection.
+3.  **ツリー要素とフィールドを選択**。
+    子の選択を有効にするには、ツリー要素 (object **[ ]** または配列 **{ }**) を選択する必要があります。
 
     |                                                                             |                                                                                                                                           |
     | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-    | ![Json Files Unselect Elements](images/json-files-unselect-elements.png) | After selecting one or more children, you can unselect the parent elements (Objects and Arrays) to leave them out of your data structure. |
+    | ![Json Files Unselect Elements](images/json-files-unselect-elements.png) | 1 つ以上の子の選択後、親要素 (オブジェクトと配列) の選択を解除し、データ構造から除外できます。 |
 
 
-4.  (*Optional*) **Format text fields to Date/Time or Number**
+4.  (*オプション*) **テキスト フィールドを日付/時刻または数値に書式設定します**。
 
-    When selecting a field, Reveal reads its values, autodetects the
-    optimal format, and presents a dialog where you can choose what to
-    do.
+    フィールドを選択すると、Reveal はその値を読み取り、最適な形式を自動検出し、実行する操作を選択できるダイアログを表示します。
 
     ![Json Files Format Fields](images/json-files-format-fields.png)
 
-5.  **Click/Tap *Create Table***.
+5.  ***テーブルの作成*をクリック/タップ**。
 
-    Once you selected your custom data structure, click/tap the *Create
-    Table* button to continue to the *Visualizations Editor*.
+    カスタム データ構造を選択後、*[テーブルの作成]* ボタンをクリック/タップして、*表示形式* エディターを開きます。
 
     ![JsonFilesVisualizationsEditor2\_All](images/json-files-visualizations-editor2.png)

@@ -1,116 +1,83 @@
-## Google Analytics
+## Google アナリティクス
 
-Google Analytics is one of the most used web analytics services in the
-web, it tracks and reports website traffic. In addition, Google also
-provides an SDK to gather usage data from iOS and Android apps.
+Google アナリティクスは、ウェブで最も使用されているウェブ分析サービスの 1 つであり、ウェブサイトのトラフィックを追跡して報告します。さらに、Google は、iOS および Android アプリから使用状況データを収集するための SDK も提供しています。
 
-### Configuring a Google Analytics Data Source
+### Google アナリティクス データソースの構成
 
-1.  **Log in**
+1.  **ログイン**
 
-    1.  Select Google Analytics as your data source and you will see
-        Google's login screen.
+    1.  データ ソースとして Google アナリティクスを選択すると、Google のログイン画面が表示されます。
 
-    2.  Enter your login credentials and click/tap _Sign In_. You will then
-        see an authorization prompt; click/tap _Allow_.
+    2.  ログイン情報を入力して [サインイン] をクリック/タップします。承認プロンプトが表示されます。[許可] をクリック/タップします。
 
-2.  **Choose an account**
+2.  **アカウントを選択**
 
-    If you have several Google Analytics accounts, select the one you
-    want to use.
+    複数の Google アナリティクス アカウントがある場合は、使用するアカウントを選択します。
 
     ![Select a Google account to be used with Reveal's Google Analytics data source](images/choose-ga-account.png)
 
-    Once logged in, you can also use the same account later to create
-    another visualization unless you delete the data source.
+    ログインすると、データ ソースを削除しない限り、他の表示形式の作成時に同じアカウントを使用できます。
 
-3.  **Choose a Property**
+3.  **プロパティを選択**
 
-    Select the Google Analytics property that you want to use.
+    使用する Google アナリティクス プロパティを選択します。
 
     ![Select a Google property to be used with Reveal's Google Analytics data source](images/choose-ga-property.png)
 
-    In Google Analytics, **properties** can be websites, mobile apps,
-    blogs, among others.
+    Google アナリティクスでは、**プロパティ**はウェブサイト、モバイル アプリ、ブログなどです。
 
-4.  **Choose a database cube**
+4.  **データベース キューブを選択**
 
-    Select the data cube that you want to use.
+    使用するデータ キューブを選択します。
 
     ![Select a data cube to be used with Reveal's Google Analytics data source](images/choose-ga-datacube.png)
 
-    In this dialog you can configure the Refresh Data setting to to the
-    following values:
+    このダイアログでは、データの更新間隔を次のように設定できます:
 
-      - Always
+      - 常に
 
-      - Once an hour
+      - 1 時間に 1 回
 
-      - Once a day
+      - 1 日に 1 回
 
-      - Once a week
+      - 週に １ 回
 
-After your credentials are verified, Reveal will take you to the
-Visualizations Editor showing Dimensions and Measures.
+資格情報が確認されると、Reveal はディメンションとメジャーを表示する表示形式エディターに移動します。
 
-### What is a Data Cube?
+### データ キューブの概要
 
-A data cube is used to store and represent multidimensional data. Unlike
-two-dimensional data models, where two dimensions are used (arranged in
-row and column format) to view, analyze and calculate data, a data cube
-has three or more dimensions.
+データ キューブは、多次元データを保存および表現するために使用されます。データの表示、分析、計算に 2 つのディメンションが使用される (行と列の形式で配置される) 2 ディメンション データ モデルとは異なり、データ キューブには 3 つ以上のディメンションがあります。
 
-The concept of a data cube is used to represent the dimensions of data
-available to a user. For example, "sales" could be measured in the
-**dimensions** of product category, geography, date, customers, etc. In
-this case, "sales" is the **measure** attribute of the data cube.
+データ キューブの概念は、ユーザーが利用できるデータのディメンションを表すために使用されます。たとえば、「販売」 は、製品カテゴリ、地理、日付、顧客などの**ディメンション**で測定できます。この場合、「販売」はデータ キューブの**測定**属性です。
 
-### Working in the Visualization Editor
+### 表示形式エディターでの作業
 
-When you create a dashboard with information coming from Google
-Analytics, you will see fields organized differently as seen in the
-screenshot below.
+Google アナリティクスから取得した情報でダッシュボードを作成する場合、以下のスクリーンショットのようにフィールドが異なって体系化されます。
 
 ![Visualization Editor showing a Google Analytics data cube](images/ga-visualizationeditor.png)
 
-As you can see, there is no "Fields" heading. In its place, there are
-two sections in their own query field:
+以下のように 「フィールド」 見出しがありません。代わりにクエリ フィールドに 2 つのセクションがあります。
 
-1.  **Dimensions** (depicted by a cube icon with a pink side):
-    Dimensions are structures used to categorize data that can be
-    measured. Elements in a dimension are organized in attributes.
-    Attributes are elements with single level hierarchies (e.g. a
-    "Demographic" attribute, containing groups of elements like
-    "Gender", "Marital Status", etc.)
+1.  **ディメンション** (ピンク色の側面の立方体アイコンで表示): ディメンションは、測定可能なデータを分類するために使用される構造です。ディメンションの要素は属性で編成されます。属性は要素は単一レベルの階層を持つ要素です (「性別」、「婚姻状況」 などの要素のグループを含む 「人口統計」 属性など)。
 
-2.  **Measures** (depicted by *123* icon): Measures consist of
-    numeric data.
+2.  **メジャー** (*[123]* アイコンで表示): メジャーは数値データで構成されます。
 
-The default visualization type for the Google Analytics data source is a
-Pivot table. For *Rows and Columns* you must use **Dimensions** data,
-for *Values* you use **Measures** data.
+Google アナリティクス データソースのデフォルトの表示形式 は、ピボット テーブルです。*行列*については、**ディメンション** データと*値* - **メジャー** データを使用する必要があります。
 
-For more information on dimensions and measures, please visit this
-[Technet article](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2012/ms174527\(v=sql.110\)).
+ディメンションとメジャーの詳細については、この [Technet article (英語)](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2012/ms174527\(v=sql.110\)) をご覧ください。
 
-#### Using Goals from Google Analytics
+#### Google アナリティクスの目標を使用する
 
-You can use *Goals* defined in Google Analytics in the *Visualization
-Editor*. Your *Goals* are listed as part of the metrics in both
-**Dimensions** and **Measures** data types.
+Google アナリティクスで定義された*目標*を*表示形式エディター*で使用できます。*目標*は、**ディメンション**と**メジャー**の両方のデータ型のメトリックの一部としてリストされます。
 
 ![goals google analytics 2 option](images/goals-google-analytics-2-option.png)
 
-As you can see in the example above, the titles of your Google Analytics
-*Goals* in Reveal include one or more of the following:
+上記の例でわかるように、Reveal での Google アナリティクスの*目標*のタイトルには、次の 1 つ以上が含まれています:
 
-  - a **numeric ID**, from 1 to 20.
+  - 1 から 20 までの**数値 ID**。
 
-  - a **label** at the beginning - this is the name of the goal you
-    configured for the specific goal, e.g. *Completed Download* for
-    *Goal 19*.
+  - 最初の**ラベル** - これは、特定の目標に設定した目標の名前です。例えば、*目標 19* の*ダウンロード完了*。
 
-  - a goal **type** at the end - e.g. *Completions*, *Abandoned Funnels*, etc.
+  - 最後の目標**タイプ** - 例えば、*完了*、*放棄されたファネル*など。
 
-For more information about Goals, please refer to this Google Analytics
-[help page](https://support.google.com/analytics/answer/1012040?hl=en).
+目標の詳細については、Google アナリティクスの[ヘルプ ページ](https://support.google.com/analytics/answer/1012040?hl=en)をご覧ください。

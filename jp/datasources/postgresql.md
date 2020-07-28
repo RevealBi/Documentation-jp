@@ -44,10 +44,7 @@ PostgreSQL サーバーデータソースを設定するには、以下の情報
 
 ### ビューの作業
 
-With Reveal, you can retrieve PostgreSQL data from entire tables, but
-you can also select a particular
-[view](https://www.postgresql.org/docs/10/views.html) that
-returns a subset of data from a table or a set of tables instead.
+Reveal を使用すると、テーブル全体から PostgreSQL データを取得できますが、代わりにテーブルまたはテーブルのセットからデータのサブセットを返す特定の [ビュー](https://www.postgresql.org/docs/10/views.html) を選択することもできます。
 
 ![PostgreSQL views dialog](images/postgre-SQL-views.png)
 

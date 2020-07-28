@@ -1,43 +1,29 @@
-## Web Resource
+## ウェブ リソース
 
-A web resource, as the name suggests, is any virtual file stored in the
-web which you can retrieve by using a unique URL address. It might, for
-example, be an excel spreadsheet (for example, [this one](http://download.infragistics.com/reveal/help/samples/Reveal_Dashboard_Tutorials.xlsx)),
-or an image (for example, [this one](http://www.infragistics.com/media/442175/home-header-shots.png)).
+ウェブ リソースは、ウェブの任意の仮想ファイルで一意の URL アドレスを使用して取得できます。たとえば、エクセル スプレッドシート ([サンプル](http://download.infragistics.com/reveal/help/samples/Reveal_Dashboard_Tutorials.xlsx)など) または画像 ([サンプル](http://www.infragistics.com/media/442175/home-header-shots.png)など) です。
 
-To configure a Web Resource as a Data Source, you will need to enter the
-following information:
+Web リソース データソースを構成するには、以下の情報が必要です。
 
 ![Configure Web resource connection](images/enter-web-resource-details.png)
 
-1.  **Default name** of the data source: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Reveal names it *Web Resource*. You can change it to your preference.
+1.  データソースの**デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Web Resource* という名前を付けます。好みに合わせて変更できます。
 
-2.  **URL**: the URL where the service is located (for example,
-    <http://download.infragistics.com/reveal/help/samples/Reveal_Dashboard_Tutorials.xlsx>
-    for the Dashboard tutorials).
+2.  **URL**: サービスの URL (ダッシュボード チュートリアルの場合は <http://download.infragistics.com/reveal/help/samples/Reveal_Dashboard_Tutorials.xlsx> など)。
 
-3. **Result Type**: You can specify the file type you expect to be retrieved from the service. For example, if you choose *.csv* and the service responds with a *json*, Reveal will try to parse the file as a *.csv*.
+3. **結果タイプ**:  サービスから取得する予定のファイル タイプを指定できます。たとえば、*.csv* を選択し、サービス が *json* で応答した場合、Reveal はファイルを *.csv* として解析しようとします。
 
-    If you choose *Auto Detect*, Reveal will use the information about the file (content) type, coming from the service to parse the file.  
+    *自動検出*を選択した場合、Reveal は サービス からのファイル (コンテンツ) タイプに関する情報を使用してファイルを解析します。  
 
-4.  **Credentials**: after selecting *Credentials*, you will be able to
-    enter the credentials for your Web Resource or select existing ones
-    if applicable.
+4.  **資格情報**: *資格情報*を選択した後、Web リソースの資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
 
-      - **Name**: the name for your data source account. It will be
-        displayed in the list of accounts in the previous dialog.
+      - **名前**: データソース アカウントの名前。以前のダイアログのアカウントのリストに表示されます。
 
-      - *(Optional)* **Domain**: the name of the domain, if applicable.
+      - *(オプション)* **ドメイン**:  ドメイン名 (該当する場合)。
 
-      - **Username**: the user account for the Web Resource, if
-        applicable.
+      - **ユーザー名**:  Web リソースのユーザー アカウント (該当する場合)。
 
-      - **Password**: the password to access the Web Resource, if
-        applicable.
+      - **パスワード**:  Web リソース にアクセスするためのパスワード (該当する場合)。
 
-Once ready, select **Create Account**. You can verify whether the
-account is reaching the data source or not by selecting **Test
-Connection**.
+準備ができたら、**アカウントの作成**を選択します。**[接続テスト]** を選択すると、アカウントがデータソースに到達しているかどうかを確認できます。
 
-To set up an *OAuth 2 / OIDC account* for a protected web resource,
-please read [this topic](oauth-2-oidc-user-authentication.md).
+保護された Web リソースの *OAuth 2 / OIDC アカウント* を設定するには、[このトピック](oauth-2-oidc-user-authentication.md)をお読みください。
