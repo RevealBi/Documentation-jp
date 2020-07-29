@@ -1,6 +1,6 @@
-## Third-Party Software Used by Reveal
+## Reveal で使用されるサードパーティ ソフトウェア
 
-| PLATFORM | CODE USED                                                                                                                     | LICENSE                                                                                                                                                                             |
+| プラットフォーム | 使用されたコード                                                                                                                     | ライセンス                                                                                                                                                                             |
 | -------- | ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Android  | [Java Cifs](http://jcifs.samba.org)                                                                                           | [LGPL - 2.1](http://www.gnu.org/licenses/lgpl-3.0.html)                                                                                                                             |
 | Android  | [kxml2](https://github.com/stefanhaustein/kxml2)                                                                              | [MIT](https://opensource.org/licenses/mit-license.html)                                                                                                                             |
