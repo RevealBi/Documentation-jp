@@ -1,7 +1,6 @@
-## Release Notes
+## リリース ノート
 
-All future updates and new features added to Reveal will be included
-here.
+以下は、Reveal の新機能および追加予定のアップデートです。
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -12,142 +11,142 @@ here.
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-cly1"><span style="font-weight:bold">Reveal version</span></th>
-    <th class="tg-cly1"><span style="font-weight:bold">Description</span></th>
+    <th class="tg-cly1"><span style="font-weight:bold">Reveal バージョン</span></th>
+    <th class="tg-cly1"><span style="font-weight:bold">説明</span></th>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="5">1.0.8</td>
-    <td class="tg-cly1"><span style="font-style:italic">New TreeMap visualization</span><br>You can use this new visualization type to present large hierarchies with a set of nested rectangles. Rectangles' size will show you part-to-whole relationships amongst a variety of metrics, helping you identify patterns and relations between similar data.
+    <td class="tg-cly1"><span style="font-style:italic">新規 TreeMap の表示形式</span><br>この新しい表示形式タイプを使用して、大きな階層をネストされた四角形の集合で表示できます。四角形のサイズは、さまざまなメトリック間の部分と全体の関係を示し、同様のデータ間のパターンと関係を識別します。
 </td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-style:italic">Export to Excel enhancements</span>e<br>You can include more visualization types in your spreadsheets upon export. Scatter, Bubble and Sparkline charts are now available.
+    <td class="tg-cly1"><span style="font-style:italic">Excel へエクスポート機能拡張</span>e<br>エクスポートする際に複数の表示形式タイプをスプレッドシートに追加できます。散布図、バブル チャート、スパークライン チャートが利用できるようになりました。
 </td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">Various UI/UX improvements</span><br>Various minor changes were added to improve user experience in the Visualization, Dashboard, New Data Source dialog, etc.
+    <td class="tg-0lax"><span style="font-style:italic">UI/UX の改善</span><br>表示形式、ダッシュボード、新しいデータソース ダイアログなどのユーザーエクスペリエンスを向上するために、小さな変更が追加されました。
 </td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">Added support for Shared Drives in Google Drive</span><br>If you have a GSuite Business account, you can now access your Shared Drives data and use it to build visualizations in Reveal.
+    <td class="tg-0lax"><span style="font-style:italic">Google ドライブで共有ドライブのサポートを追加</span><br>G Suite Business アカウントをお持ちの場合、共有ドライブ データにアクセスし、それを使用して Reveal で表示形式を構築できます。
 </td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">Improved Google Authentication process</span><br>Reveal Desktop will now open your system (default) browser to provide you with maximum security when accessing your Google account.
+    <td class="tg-0lax"><span style="font-style:italic">Google 認証プロセスの改善</span><br>セキュリティを最大にするために、Reveal Desktop は Google アカウントにアクセスする際にシステム (デフォルト) ブラウザーを表示します。
 </td>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="5">1.0.7</td>
-    <td class="tg-cly1"><span style="font-style:italic">New integration with BigQuery Machine Learning models</span><br>You can use your BigQuery machine learning models with your BigQuery data source connection in Reveal.</td>
+    <td class="tg-cly1"><span style="font-style:italic">BigQuery Machine Learning との統合</span><br>Reveal のデータソースで BigQuery 機械学習モデルを使用できるようになりました。</td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-style:italic">New Salesforce data sourc</span>e<br>With this new data source, you can create dashboards with data from your objects in Salesforce.</td>
+    <td class="tg-cly1"><span style="font-style:italic">新規データ Salesforce ソース</span><br>この新しいデータソースは、Salesforce のオブジェクトのデータを使用してダッシュボードを作成できます。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">New Google Analytics Goals</span><br>Reveal now displays metrics for goals defined in Google Analytics allowing you to get deeper insights from your data.</td>
+    <td class="tg-0lax"><span style="font-style:italic">新規 Google アナリティクスの目標</span><br>Reveal は、Google アナリティクスで定義された目標の指標を表示し、データを詳細に分析します。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">New dashboard styling</span><br>Two pre-designed dashboard palettes are available to choose from for your dashboards. Coming soon! Reveal is getting ready to introduce to you its wholly new dashboard styling concept!</td>
+    <td class="tg-0lax"><span style="font-style:italic">ダッシュボードの新しいスタイル設定</span><br>2 つのダッシュボード パレットから選択できます。追加予定Reveal はまったく新しいダッシュボード スタイル設定の準備をしています。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">Export to Excel enhancements</span><br>You can now choose to include visualizations from Reveal in your spreadsheets upon export.</td>
+    <td class="tg-0lax"><span style="font-style:italic">Excel へエクスポート機能拡張</span><br>エクスポートの際、Reveal の表示形式をスプレッドシートに含めることができます。</td>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="10">1.0.5</td>
-    <td class="tg-0lax"><span style="font-style:italic">New Statistical Functions</span><br>Reveal can now process and perform statistical analysis on existing datasets. This means you can better analyze data and even forecast performance based on historical data.</td>
+    <td class="tg-0lax"><span style="font-style:italic">新しい分析機能</span><br>既存のデータセットの統計分析を処理および実行できるようになりました。つまり、データをより細かく分析し、履歴データに基づいてパフォーマンスを予測することもできます。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">New integration with Azure Machine Learning models</span><br>You can use data in Reveal to evaluate models in Azure and then use the results as fields in your visualizations.</td>
+    <td class="tg-0lax"><span style="font-style:italic">Azure Machine Learning モデルとの新たな統合</span><br>Reveal のデータを使用して Azure のモデルを評価し、その結果を可視フィールドとして使用できます。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">New Google Analytics data source</span><br>With this new data source, you can create dashboards with information from Google Analytics.</td>
+    <td class="tg-0lax"><span style="font-style:italic">新規 Google Analytics データソース</span><br>この新しいデータソースは、Google Analytics の情報を使用してダッシュボードを作成できます。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">New Google Big Query data source</span><br>You are now able to connect to Google's Big Query web service within Reveal and have massive datasets processed with zero slowdown.</td>
+    <td class="tg-0lax"><span style="font-style:italic">新規 Google BigQuery データソース</span><br>Reveal 内で Google の BigQuery ウェブサービスに接続し、大規模なデータセットをパフォーマンスを低下せずに処理できるようになりました。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">New Azure Synapse and Azure SQL data sources</span><br>Connect to Azure analytics service and SQL databases, to work with big data and advanced query processing features.</td>
+    <td class="tg-0lax"><span style="font-style:italic">新しい Azure Synapse と Azure SQL データソース</span><br>Azure 分析サービスと SQL データベースに接続して、ビッグデータと高度なクエリ処理機能を操作します。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">New Microsoft Reporting Services (SSRS) data sources</span><br>You can now use your existing SSRS reports in your visualizations, you can embed them as PDF files or get the data for the report and create your own visualizations.</td>
+    <td class="tg-0lax"><span style="font-style:italic">新しい Microsoft Reporting Services (SSRS) データソース</span><br>表示形式に既存の SSRS レポートを使用できるようになりました。それらを PDF ファイルとして埋め込み、またはレポートのデータを取得して独自のビジュアライゼーションを作成できます。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">Manage dashboards within folder and Teams</span><br>You can now move and copy dashboards between folders or Teams.</td>
+    <td class="tg-0lax"><span style="font-style:italic">フォルダーやチームのダッシュボード管理</span><br>フォルダーまたはチーム間でダッシュボードを移動およびコピーできるようになりました。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">Export to Excel and PowerPoint enhancements</span><br>A new robust UI allows you to customize how you export your data to slides and spreadsheets.</td>
+    <td class="tg-0lax"><span style="font-style:italic">Excel および PowerPoint へのエクスポート機能拡張</span><br>新しい UI では、データをスライドやスプレッドシートにエクスポートする方法をカスタマイズできます。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">New export to PDF</span><br>You can now export your dashboards to the PDF format.</td>
+    <td class="tg-0lax"><span style="font-style:italic">PDF エクスポート</span><br>ダッシュボードを PDF 形式にエクスポートできるようになりました。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">Redesign of hover tooltips and crosshairs addition</span><br>Tooltips were improved, they are now slightly smaller and the pointer was removed. In addition, crosshairs are now shown to help give context to the tooltip.</td>
+    <td class="tg-0lax"><span style="font-style:italic">ホバー ツールチップと十字線の追加の新しいデザイン</span><br>ツールチップが小さくなり、ポインターは削除されました。さらに、ツールヒントにコンテキストを提供するために十字線が表示されるようになりました。</td>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="5">1.0.4</td>
-    <td class="tg-0lax"><span style="font-style:italic">Pie and doughnut charts legends now can show elements with value 0</span><br>You now have the option to show elements with value 0 in the legends of pie and doughnut visualizations. This allows you to see every data piece of the field selected for a Label, but those with value 0 will not be displayed in the chart itself.</td>
+    <td class="tg-0lax"><span style="font-style:italic">円およびドーナツ型チャートの凡例に、値 0 の要素を表示できるようになりました。</span><br>円とドーナツの表示形式の凡例に値 0 の要素を表示するオプションが追加されました。これにより、ラベルに選択されたフィールドのすべてのデータを見ることができますが、値 0 のデータはチャート自体には表示されません。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">Shades of colors supported</span><br>Reveal now automatically generates shades of the 8 existing colors in the Visualization editor palette. This allows charts including large sets of values to display the variety of colors needed for separation/comparison.</td>
+    <td class="tg-0lax"><span style="font-style:italic">サポートされる色合い</span><br>Reveal は、表示形式 エディター パレットに 8 つの既存の色の陰影を自動的に生成できるようになりました。これにより、大きな値のセットを含むチャートで、分離/比較に必要なさまざまな色を表示できます。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">[bug fix] Localization in Windows platform</span><br>The display language set in the Windows platform was detected but not applied in Reveal.</td>
+    <td class="tg-0lax"><span style="font-style:italic">[バグ修正] Windows プラットフォームのローカリゼーション</span><br>Windows プラットフォームで設定された表示言語は検出されましたが、Reveal に適用されない問題。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">[bug fix] Japanese phonetic characters</span><br>Characters from the Japanese phonetic alphabet were displayed by error.</td>
+    <td class="tg-0lax"><span style="font-style:italic">[バグ修正] 日本語の発音記号</span><br>日本語の発音記号が誤って表示される問題。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">[bug fix] Find function starting parameter</span><br>The find function used in calculated fields didn't consider the start position parameter as optional.</td>
+    <td class="tg-0lax"><span style="font-style:italic">[バグ修正] 開始パラメーターの検索関数</span><br>計算フィールドで使用される検索機能で開始位置パラメーターがオプションと見なされない問題。</td>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="6">1.0.3</td>
-    <td class="tg-0lax"><span style="font-style:italic">Export to Excel and PowerPoint</span><br>You can now export your dashboard's visualizations as slides of a PowerPoint presentation. In addition, you can also export the data used in your dashboard to the Excel format.</td>
+    <td class="tg-0lax"><span style="font-style:italic">Excel および PowerPoint へのエクスポート</span><br>ダッシュボードの表示形式を PowerPoint プレゼンテーションのスライドとしてエクスポートできるようになりました。さらに、ダッシュボードで使用されているデータを Excel 形式にエクスポートすることもできます。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">Scatter/Bubble Visualization</span><br>These two new visualizations are very similar and used to show relationships between two variables in a scatter chart or three variables in a bubble chart with ease.</td>
+    <td class="tg-0lax"><span style="font-style:italic">散布/バブルの表示形式</span><br>これらの 2 つの新しい表示形式は非常によく似てますが、散布図の 2 つの変数またはバブルチャートの 3 つの変数間の関係を簡単に示すことができます。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">Improvements to Combo Chart Visualization</span><br>A level of transparency has been added to the chart displayed in front. In addition, you can now reorder which chart is displayed in front or behind.</td>
+    <td class="tg-0lax"><span style="font-style:italic">コンボチャートを使用した表示形式の改善</span><br>前面に表示されるチャートに透明度のレベルが追加されました。さらに、どのチャートを前面または背面に表示するかを並べ替えるようになりました。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">Text Box Visualization</span><br>With this new visualization, you can add a text summary to your dashboard. It consists of a text body and an optional title.</td>
+    <td class="tg-0lax"><span style="font-style:italic">テキストボックス表示形式</span><br>この新しい表示形式により、ダッシュボードにテキストで概要を追加できるようになりました。テキスト本文とオプションのタイトルで構成されます。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">UI Navigation changes</span><br>The main navigation was changed, with a different UI and organization, resulting in a better navigation experience.</td>
+    <td class="tg-0lax"><span style="font-style:italic">UI ナビゲーションの変更</span><br>メイン ナビゲーションが変更され、UI と組織が異なるため、ナビゲーション エクスペリエンスが向上しました。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">Chart Legends improvements</span>Size and layout were visually enhanced and badges were adjusted to be more representative of the series-type.</td>
+    <td class="tg-0lax"><span style="font-style:italic">チャート凡例の機能拡張</span>サイズ変更やレイアウト時のビジュアルが向上し、バッジではシリーズ タイプをより強調するように改善されました。</td>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="6">1.0.2</td>
-    <td class="tg-0lax"><span style="font-style:italic">Improved dashboard level interactions</span><br>You are now able to interact with your dashboard visualizations while minimized. Zoom, scroll, drill down, link to other dashboards and view chart point details (tooltips) without maximizing the visualizations in a dashboard.</td>
+    <td class="tg-0lax"><span style="font-style:italic">ダッシュボード レベルの操作の改善:</span><br>ダッシュボード最小化時に表示形式をインタラクティブに操作できるようになりました。ズーム、スクロール、ドリルダウン、他のダッシュボードへのリンク、およびダッシュボードの表示形式を最大化せずにチャート ポイントの詳細 (ツールチップ) を表示します。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">Improved cloud file sharing</span><br>You can now enable and restore access to data source files from Google Drive, OneDrive and Dropbox. Request access to cloud files used for dashboards shared with you.</td>
+    <td class="tg-0lax"><span style="font-style:italic">クラウド ファイル共有の改善</span><br>Google ドライブ、OneDrive、Dropbox からデータソース ファイルへのアクセスを有効にして復元できるようになりました。共有されたダッシュボードに使用されるクラウド ファイルへのアクセスを要求します。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">New Combo chart visualization</span><br>A new visualization type was added to Reveal. You can now build visualizations using a Combo (combined) chart visualization - a 2 Y-axis chart.</td>
+    <td class="tg-0lax"><span style="font-style:italic">新しいコンボチャートの表示形式</span><br>新しい表示形式タイプを追加しました。コンボ (組み合わせ) チャート ビジュアリゼーション (2 つの Y 軸チャート) を使用して表示形式を構築できるようになりました。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">New Adding total to tooltip popups option</span><br>You can now enable total values in tooltip popups.</td>
+    <td class="tg-0lax"><span style="font-style:italic">新しいツールチップ ポップアップ オプションに合計を追加</span><br>ツールチップ ポップアップで合計値を有効にできるようになりました。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:bold;font-style:italic">[bug fix] </span><span style="font-style:italic">SQL Server and Azure connections</span><br>There were issues when trying to connect to SQL Server databases on Azure.</td>
+    <td class="tg-0lax"><span style="font-weight:bold;font-style:italic">バグ修正 </span><span style="font-style:italic">SQL Server and Azure connections</span><br>SQL Server と Azure の接続</span><br>Azure の SQL Server データベース接続時の問題。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:bold;font-style:italic">[bug fix]</span><span style="font-style:italic"> Excel headers coming from cloud providers</span><br>The first row has labels setting used for headers in the first row was not displayed for Excel files hosted in cloud providers(Google Drive, Dropbox, OneDrive).</td>
+    <td class="tg-0lax"><span style="font-weight:bold;font-style:italic">バグ修正</span><span style="font-style:italic"> クラウド プロバイダーからの Excel ヘッダー:</span><br>最初の行に使用されるラベル設定が、クラウド プロバイダー (Google ドライブ、Dropbox、OneDrive) でホストされる Excel ファイルで表示されない問題。</td>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="4">1.0.1</td>
-    <td class="tg-0lax"><span style="font-style:italic">Localization</span><br>Reveal is now localized to: German, Spanish, French, Italian, Japanese, Korean, Malay, Dutch, Portuguese, Russian and Chinese (Simplified and Traditional).</td>
+    <td class="tg-0lax"><span style="font-style:italic">ローカライズ</span><br>Reveal は現在ドイツ語、スペイン語、フランス語、イタリア語、日本語、韓国語、マレー語、オランダ語、ポルトガル語、ロシア語、中国語 (簡体字および繁体字) にローカライズされています。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">Less permissions requested for Google or Microsoft accounts</span><br>When signing in to the application, Reveal will now only request access to your personal information. Later, if you use Google Drive or OneDrive additional permissions will be requested as needed.</td>
+    <td class="tg-0lax"><span style="font-style:italic">Google または Microsoft アカウントに必要な権限が少ない</span><br>アプリケーションにサインインすると、Reveal は個人情報へのアクセスのみを要求するようになります。その後、Googleドライブまたは OneDrive を使用する場合、必要に応じて追加の権限が要求されます。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">Better UX when sharing dashboards and working with cloud storages</span><br>Improved the experience when sharing dashboards that get data from files in OneDrive, Google Drive, and Dropbox accounts.</td>
+    <td class="tg-0lax"><span style="font-style:italic">ダッシュボードを共有してクラウド ストレージを操作するときの UX の向上</span><br>OneDrive、Google ドライブ、Dropbox アカウントのファイルからデータを取得するダッシュボードを共有するときのエクスペリエンスを改善しました。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">Organization management and permission control</span><br>The owners of Organizations can now invite members and set permission for users within their organization.</td>
+    <td class="tg-0lax"><span style="font-style:italic">組織管理と権限管理</span><br>組織のオーナーは、メンバーを招待し、組織内のユーザーに権限を設定できるようになりました。</td>
   </tr>
 </table>

@@ -1,63 +1,37 @@
-## Visualization Quick Filters
+## 表示形式のクイック フィルター
 
-At a visualization level, you can also apply "quick" filters, which
-allow you to dynamically filter the visualization contents as the quick
-filter selection changes. These become part of the dashboard definition,
-and can't be modified by consumers of the dashboard.
+表示形式レベルでは、「クイック」フィルターを適用することもできます。これにより、クイック フィルターの選択が変更されたときに表示形式コンテンツを動的にフィルターできます。これらは、ダッシュボード定義の一部となり、ダッシュボードのユーザーが変更することはできません。
 
-In order to define a quick filter, select the **Add a Visualization Filter** button on top of your visualization in the Visualizations
-Editor:
+クイック フィルターを定義するには、表示形式エディターで表示形式の上にある **[表示形式フィルターの追加]** ボタンを選択します。
 
 ![Visualization Quick Filter button in the Visualization Editor](images/visualization-quick-filter-sample.png)
 
-The filter options displayed in the Visualization Filters area depend on
-the data type of the field. There are three different filter dialogs:
-text, numeric, and date fields. Once created, the quick filter will be
-displayed on top of your visualization in the Visualizations Editor.
+フィルター オプションは、フィールドのデータ タイプに応じて表示形式フィルター エリアで表示されます。テキスト、数値、日付の 3 つのフィルター ダイアログがあります。作成されたクイック フィルターは、表示形式エディターの表示形式の上に表示されます。
 
 ![Visualization Filter settings](images/visualization-filter-location-editor.png)
 
-When the visualization is maximized in Dashboard View mode, you will see
-it under the visualization's title.
+ダッシュボード ビュー モードで表示形式を最大化すると、表示形式のタイトルの下に表示されます。
 
 ![VisualizationFilterLocation\_All](images/visualization-filter-location.png)
 
-As with [Dashboard Filters](dashboard-filters.md), this enables a dynamic
-filtering of the visualization contents as the quick filter selection
-changes.
+[ダッシュボード フィルター](dashboard-filters.md)同様に、簡易フィルター セクションが変更されると表示形式コンテンツの動的なフィルターが有効になります。
 
-### Cascading Filters
+### フィルターのカスケード
 
-The list of possible values displayed to select from in Quick Filters
-will be filtered based on previous Quick Filter selections. Fields on
-the left take precedence and determine the list of possible values on
-filters to the right.
+クイック フィルターで表示される選択可能な値のリストは、以前のクイック フィルター選択に基づいてフィルターされます。左側のフィールドが優先され、右側のフィルターに表示される選択可能な値のリストを決定します。
 
-For instance, in the example below, the *Office* filter was created
-first, and the *Departments* filter created after that one. After
-selecting **Cranbury, New Jersey, USA** as an *Office*, the Departments
-list was the following:
+たとえば、以下の例では、*オフィス* フィルターが最初に作成され、*部門* フィルターがその後に作成されました。**Cranbury, New Jersey, USA** を *オフィス* として選択すると、部門リストは次のようになります。
 
 ![Cascading Filter for the HR Dashboard showing departments in Cranbury](images/cascading-filter-hr-dashboard.png)
 
-However, if you select **Tokyo, Japan** instead, the list of
-*Departments* will be a different one.
+ただし、代わりに **Tokyo, Japan** を選択した場合、*部門*のリストは異なります。
 
 ![Cascading Filter for the HR Dashboard showing departments in Tokyo](images/cascading-filter-hr-dashboard-second-filter.png)
 
-### Data Filters
+### データ フィルター
 
-You can also apply filters to the fields in the dataset displayed in the
-Visualization Filter. This allows you, for example, to filter rows in
-the dataset that have null or empty values on a specific column by
-enabling the filter empty values configuration setting in a specific
-column. You can also select specific values, or add rules to your field
-in order to change the options depending on the field type. For more
-information, visit the [field filters and rules](field-filters-rules.md)
-section.
+表示形式フィルターに表示されたデータセットのフィールドにフィルターを適用することもできます。これにより、たとえば、特定の列で空値のフィルターを有効に設定することで、特定の列に null、または空の値を持つデータ セット内の行をフィルタリングする機能を提供します。特定の値を選択するか、フィールド タイプに応じてオプションを変更するためにフィールドにルールを追加することもできます。詳細は、[フィールド フィルターとルール](field-filters-rules.md)をご覧ください。
 
-In the **Visualization Filter** section, select **Edit** in the overflow
-button next to the Visualization Filter. This will allow you to select
-the type of filter you want to apply to your field.
+**[表示形式フィルター]**セクションで、表示形式フィルターの横にあるオーバーフロー ボタンで **[編集]** を選択します。これにより、フィールドに適用するフィルターのタイプを選択できます。
 
 ![Dashboard Filter Field](images/Dashboard-Filter-Field.png)
