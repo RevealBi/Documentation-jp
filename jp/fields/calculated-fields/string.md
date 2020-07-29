@@ -23,72 +23,72 @@
   </tr>
   <tr>
     <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">concatenate</span>: <span class="gray-snippet-cstm">concatenate</span> は、複数の文字列 <span class="gray-snippet-cstm">テキスト</span>を結合して句を構成できます。スペースは自動的には含まれません。必要な場合は、テキスト引数に含む必要があります。</td>
-    <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm">concatenate()</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm">concatenate()</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm">concatenate("Getting started"," with"," the"," Reveal"," application")</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm">concatenate("Getting started"," with"," the"," Reveal"," application")</span></td>
   </tr>
   <tr>
     <td class="tg-cly1" rowspan="2"><a href="#calc-fields-find">find</a>: <span class="gray-snippet-cstm">find</span> は引数で指定した 2 つ目の文字列内 の 1 つ目 の文字列の開始位置 <span class="gray-snippet-cstm">(数値)</span> を返します。</td>
-    <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm">find({find text},{within text},{start number})</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm">find({find text},{within text},{start number})</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm">find("with","Getting Started with Reveal visualizations",3)</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm">find("with","Getting Started with Reveal visualizations",3)</span></td>
   </tr>
   <tr>
     <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">len</span>: <span class="gray-snippet-cstm">len</span> は入力した <span class="gray-snippet-cstm">テキスト</span> 文字列のすべて大文字を小文字へ変換します。</td>
-    <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm">len({text})</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm">len({text})</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm">len("Getting Started with Reveal")</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm">len("Getting Started with Reveal")</span></td>
   </tr>
   <tr>
     <td class="tg-yla0" rowspan="2">lower: <span style="font-weight:normal"><span class="gray-snippet-cstm">lower</span> は指定した<span class="gray-snippet-cstm">テキスト</span>文字列のすべて大文字を小文字へ変換します。</span></td>
-    <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm">lower({text})</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm">lower({text})</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm">lower("Getting Started with Reveal")</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm">lower("Getting Started with Reveal")</span></td>
   </tr>
   <tr>
     <td class="tg-cly1" rowspan="2"><a href="#calc-fields-mid">mid</a>: <span class="gray-snippet-cstm">mid</span> は引数で指定したことに基づいて指定した文字列<span class="gray-snippet-cstm">テキスト</span>の部分文字列 (<span class="gray-snippet-cstm">長さ</span>) を返します。</td>
-    <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm">mid({text},{start},{length})</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm">mid({text},{start},{length})</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm">mid("Getting Started with Reveal",9,12)</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm">mid("Getting Started with Reveal",9,12)</span></td>
   </tr>
   <tr>
     <td class="tg-cly1" rowspan="2"><a href="#calc-fields-replace">replace</a>: <span class="gray-snippet-cstm">replace</span> は文字列を関数で指定した他の文字列と置き換えます。</td>
-    <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm">replace({text},{old text},{new text})</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm">replace({text},{old text},{new text})</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm">replace("Getting Started with Reveal","Getting Started","Creating Visualizations with")</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm">replace("Getting Started with Reveal","Getting Started","Creating Visualizations with")</span></td>
   </tr>
   <tr>
     <td class="tg-cly1" rowspan="4"><a href="#calc-fields-sortinterval">sortinterval</a>: <span class="gray-snippet-cstm">sortinterval</span> は、関数で設定された間隔で値を返します。<span class="gray-snippet-cstm">NN [from,to]</span> の書式として文字列が返されます。</td>
-    <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm">sortinterval()</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm">sortinterval()</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-weight:bold">Sample 1</span>: <span class="gray-snippet-cstm">sortinterval(33,140)</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">サンプル 1</span>: <span class="gray-snippet-cstm">sortinterval(33,140)</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:bold">Sample 2</span>: <span class="gray-snippet-cstm">sortinterval([Wage],150000)</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">サンプル 2</span>: <span class="gray-snippet-cstm">sortinterval([Wage],150000)</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-weight:bold">Sample 3:</span> <span class="gray-snippet-cstm">sortinterval([Wage],50000,80000,110000,140000)</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">サンプル 3:</span> <span class="gray-snippet-cstm">sortinterval([Wage],50000,80000,110000,140000)</span></td>
   </tr>
   <tr>
     <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">trim</span>: <span class="gray-snippet-cstm">trim</span> は入力した文字列と同じ文字列を返しますが、先行または後続の空白を削除し、単語間の空白のみ保持します。</td>
-    <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm">trim({text})</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm">trim({text})</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm">trim(" Getting Started with Reveal ")</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm">trim(" Getting Started with Reveal ")</span></td>
   </tr>
   <tr>
     <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">upper</span>: <span class="gray-snippet-cstm">upper</span> は指定したテキスト文字列のすべて大文字を小文字へ変換します。</td>
-    <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm">upper({text})</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm">upper({text})</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm">upper("Caution: Hot. Do not touch")</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm">upper("Caution: Hot. Do not touch")</span></td>
   </tr>
 </table>
 

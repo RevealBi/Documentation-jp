@@ -32,7 +32,7 @@
 
 4.  [ダッシュボードにテーマを適用](finance-applying-theme.md)
 
-5.  [その他の表示形式の追加](finance-adding-other-visualizations.md) ([Silver Security Stock Value 2018](Finance-Adding-Other-Visualizations.html#sis-stock-value-2018), [GLB Fiscal (Monthly) NYSE + BATS](Finance-Adding-Other-Visualizations.html#glb-fiscal-monthly), [Forecast (Chg, Bid & Offer) - 2018 to 2013](Finance-Adding-Other-Visualizations.html#forecast-change-bid-offers), [Stock Variations](Finance-Adding-Other-Visualizations.html#stock-variations), [Stock Volumes](Finance-Adding-Other-Visualizations.html#stock-volumes))
+5.  [その他の表示形式の追加](finance-adding-other-visualizations.md) ([Silver Security Stock Value 2018](Finance-Adding-Other-Visualizations.html#sis-stock-value-2018)、[GLB Fiscal (Monthly) NYSE + BATS](Finance-Adding-Other-Visualizations.html#glb-fiscal-monthly)、[Forecast (Chg, Bid & Offer) - 2018 to 2013](Finance-Adding-Other-Visualizations.html#forecast-change-bid-offers)、[Stock Variations](Finance-Adding-Other-Visualizations.html#stock-variations)、[Stock Volumes](Finance-Adding-Other-Visualizations.html#stock-volumes))
 
 6.  [ダッシュボードの保存](finance-saving-dashboard.md)
 

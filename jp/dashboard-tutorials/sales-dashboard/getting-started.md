@@ -32,7 +32,7 @@
 4.  [ダッシュボードにテーマを適用](sales-applying-theme.md)
 
 5.  [その他表示形式の追加](sales-adding-other-visualizations.md) ([Win/Lost by Month](sales-adding-other-visualizations.html#win-lost-by-month)、
-[Forecasted](sales-adding-other-visualizations#forecasted)、 [Lost Opportunities](sales-adding-other-visualizations.html#lost-opportunities)、[Pipeline by Territory](sales-adding-other-visualizations.html#pipeline-by-territory)、[Total Opportunities](sales-adding-other-visualizations.html#total-opportunities)、[Revenue by Territory](sales-adding-other-visualizations.html#revenue-by-territory)、[Pipeline per Employee](sales-adding-other-visualizations.html#pipeline-per-employee)、[Sales by Product](sales-adding-other-visualizations.html#sales-by-product))
+[Forecasted](sales-adding-other-visualizations#forecasted)、[Lost Opportunities](sales-adding-other-visualizations.html#lost-opportunities)、[Pipeline by Territory](sales-adding-other-visualizations.html#pipeline-by-territory)、[Total Opportunities](sales-adding-other-visualizations.html#total-opportunities)、[Revenue by Territory](sales-adding-other-visualizations.html#revenue-by-territory)、[Pipeline per Employee](sales-adding-other-visualizations.html#pipeline-per-employee)、[Sales by Product](sales-adding-other-visualizations.html#sales-by-product))
 
 6.  [ダッシュボードの保存](sales-saving-dashboard.md)
 

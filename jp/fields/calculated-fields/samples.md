@@ -1,20 +1,20 @@
-## Samples, Tips, and Useful Cases
+## サンプル、ヒント、および便利なケース
 
-This topic includes the following information:
+このトピックは、以下の情報を含みます。
 
-  - [Basic Sample Expressions](#basic-sample-expressions)
+  - [ベーシックなサンプル式](#basic-sample-expressions)
 
-  - [Converting Unix TimeStamps to Usable Dates](#converting-unix-timestamps)
+  - [Unix 更新日時を使用可能な日付へ変換](#converting-unix-timestamps)
 
-  - [YoY Analysis: Comparing Revenue Figures for a 2 Year Period](#yoy-analysis-revenue)
+  - [YoY 解析: 売上を 2 年期間の比較](#yoy-analysis-revenue)
 
 <a name='basic-sample-expressions'></a>
-### Basic Sample Expressions
+### ベーシックなサンプル式
 
-The following are a set of calculated field sample expressions.
+以下は計算フィールドのサンプル式のセットです。
 
 
-| Function Name              | Sample Dataset to Test Function                                                               | Expression                                                        | Sample Output                          |
+| 関数名              | 関数をテストするためのサンプル データセット                                                               | 式                                                        | サンプル出力                          |
 | -------------------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | -------------------------------------- |
 | **Opposite Value**         | [HR Dataset](http://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | \-[Wage]                                                          | \-36,452.00 (for Joan Baez)            |
 | **Age**                    | [HR Dataset](http://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | (today()-[BirthDate])/365                                         | 46.12 (for Joan Baez)                  |
@@ -26,50 +26,41 @@ The following are a set of calculated field sample expressions.
 | **Deviation from Avg**     | [HR Dataset](http://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | [Wage]-average([Wage])                                            | \-50476.71 (for Joan Baez)             |
 
 <a name='converting-unix-timestamps'></a>
-### Converting Unix TimeStamps to Usable Dates
+### Unix 更新日時を使用可能な日付へ変換
 
-Unix times, defined in the seconds elapsed since January 1st, 1970
-("Epoch" time) are particularly useful because they represent all
-timezones at once. You can import data sources with unix timestamps and
-convert them into usable dates with the [`date`](Date-Calculated-Fields.md)
-formula.
+1970 年 1 月 1 日後の秒によって定義される Unix 時間 (Epoch 時間) はすべてのタイムゾーンを一度に表すために便利です。Unix 更新日時を持つデータ ソースをインポートする場合、[`date`](Date-Calculated-Fields.md) 数式を使用して利用可能な日付に変換できます。
 
 `((([Unix Time Stamp]/60)/60)/24)+DATE(1970,1,1)+([Timezone]/24)`
 
-Where:
+説明:
 
-  - **Original Field**: [Unix Time Stamp]
+  - **オリジナルのフィールド**: [Unix Time Stamp]
 
-  - **Convert to Minutes**: /60
+  - **分に変換**: /60
 
-  - **Convert to Hours**: /60
+  - **時に変換**: /60
 
-  - **Convert to Day**: /24
+  - **日に変換**: /24
 
-  - **Adding Epoch Time**: +DATE(1970,1,1)
+  - **Epoch 時間の追加**: +DATE(1970,1,1)
 
-  - **Adding Timezone**: +([Timezone]/24)
+  - **タイムゾーンの追加**: +([Timezone]/24)
 
-The timezone can be entered as a number, or you can use one of your
-fields with a number. In either case, it must be GMT time.
+タイムゾーンを数値として入力するか、数値を持つフィールドを使用できます。GMT 時間が必要です。
 
 <a name='yoy-analysis-revenue'></a>
-### YoY Analysis: Comparing Revenue Figures for a 2 Year Period
+### YoY 解析: 売上を 2 年期間の比較
 
-You can create calculated fields, for example, to carry out a simple YOY
-analysis.
+計算フィールドを簡易な YOY 解析を実行するために作成できます。
 
-Let's take a look at the following dashboard, which has the different
-divisions for a company and the revenue they represented during two
-different years.
+以下のダッシュボードを参照します。会社の事業部および 2 年間の売上を表示します。
 
 ![YoyAnalysisRevenue\_All](images/YoyAnalysisRevenue_All.png)
 
-You can compare the two figures by using the following calculated field.
-The "-1" is used to substract the total difference for the year.
+以下の計算フィールドを使用して 2 つの数値を比較できます。「-1」は年の違いを減算します。
 
 `([Revenue 2017]/[Revenue 2016])-1`
 
-You can then either keep the number, or [format it as a percentage](~/jp/fields/field-settings.html#numeric-fields).
+数値を使用するか、[パーセンテージとして書式](~/jp/fields/field-settings.html#numeric-fields)設定できます。
 
 ![YoyAnalysisPercentage\_All](images/YoyAnalysisPercentage_All.png)

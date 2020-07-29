@@ -6,7 +6,7 @@
 
 <img src="images/grid-view-sorting-columns.png" alt="Grid View Sorting Columns" width="800"/>
 
-**設定** でフォント サイズを変更できます。デフォルト サイズは *[小]* です。*中サイズ*では 2px 大きくなり、*大サイズ*は 4px 大きくなります。
+**設定**でフォント サイズを変更できます。デフォルト サイズは *[小]* です。*中サイズ*では 2px 大きくなり、*大サイズ*は 4px 大きくなります。
 
 <img src="images/fix-second-column.png" alt="fix font size of second column" width="800"/>
 
