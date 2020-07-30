@@ -67,5 +67,5 @@
 
 </style>
 
-<a href="sales-selecting-data-visualization.md" class="previous">&laquo; Previous Step</a>
-<a href="sales-applying-theme.md" class="next">Next Step &raquo;</a>
+<a href="sales-selecting-data-visualization.md" class="previous">&laquo; 前へ</a>
+<a href="sales-applying-theme.md" class="next">次へ &raquo;</a>

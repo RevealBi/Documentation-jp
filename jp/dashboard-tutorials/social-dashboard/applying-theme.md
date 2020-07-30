@@ -16,6 +16,6 @@
 
 </style>
 
-<a href="social-applying-formatting-visualization.md" class="previous">&laquo; Previous Step</a>
-<a href="social-adding-other-visualizations.md" class="next">Next Step &raquo;</a>
+<a href="social-applying-formatting-visualization.md" class="previous">&laquo; 前へ</a>
+<a href="social-adding-other-visualizations.md" class="next">次へ &raquo;</a>
 

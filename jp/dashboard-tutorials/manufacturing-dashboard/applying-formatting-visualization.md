@@ -32,5 +32,5 @@ Y 軸に分数のない数値を表示するには、データ エディター�
 
 </style>
 
-<a href="manufacturing-selecting-data-visualization.md" class="previous">&laquo; Previous Step</a>
-<a href="manufacturing-applying-theme.md" class="next">Next Step &raquo;</a>
+<a href="manufacturing-selecting-data-visualization.md" class="previous">&laquo; 前へ</a>
+<a href="manufacturing-applying-theme.md" class="next">次へ &raquo;</a>

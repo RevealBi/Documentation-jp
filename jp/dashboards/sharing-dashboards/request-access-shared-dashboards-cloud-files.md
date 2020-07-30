@@ -50,4 +50,4 @@
 
         **ファイルへのアクセスを復元できなかった**場合は、ファイルがクラウドから削除された可能性があります。
 
-    4. If **access to the file has been restored**, select the *tick icon* to save the change, otherwise, the access to the file will still be denied to other users. 
+    4. **ファイルへのアクセスが復元された**場合は、*ティック アイコン*を選択して変更を保存します。それ以外の場合、ファイルへのアクセスは他のユーザーに対して拒否されます。 

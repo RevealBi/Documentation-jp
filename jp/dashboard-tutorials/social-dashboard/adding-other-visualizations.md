@@ -299,5 +299,5 @@ Monthly Twitter Mentions の表示形式は、[折れ線チャート](~/jp/visua
 
 </style>
 
-<a href="social-applying-theme.md" class="previous">&laquo; Previous Step</a>
-<a href="social-saving-dashboard.md" class="next">Next Step &raquo;</a>
+<a href="social-applying-theme.md" class="previous">&laquo; 前へ</a>
+<a href="social-saving-dashboard.md" class="next">次へ &raquo;</a>

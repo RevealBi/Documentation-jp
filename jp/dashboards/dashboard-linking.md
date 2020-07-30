@@ -44,7 +44,7 @@ URL の場合は、**変数**を含めることもできます。これにより
 
 ![PivotEditorViewActionsOpenURL\_All](images/PivotEditorViewActionsOpenURL_All.png)
 
-URL は <http://www.countryreports.org/travel>に設定されており、選択した **変数** は **国** になります。したがって、表示形式で **国のレポートを表示** リンクを選択したユーザーは次のように表示されます:
+URL は <http://www.countryreports.org/travel> に設定されており、選択した **変数** は **国** になります。したがって、表示形式で **国のレポートを表示** リンクを選択したユーザーは次のように表示されます:
 
     http://www.countryreports.org/country/[Country Name].htm
 
