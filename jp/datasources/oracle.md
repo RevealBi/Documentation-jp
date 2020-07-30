@@ -1,129 +1,97 @@
 ## Oracle
 
-There are two modes you can use to connect to Oracle depending on your
-database's settings:
+サーバー データベースの設定に基づいて Oracle に接続するための 2 つのモジュールがあります。
 
-  - [**Using SID**](#using-sid): the unique name of your Oracle database
-    instance.
+  - [**SID の使用**](#using-sid): Oracle データベース インスタンスの一意の名前。
 
-  - [**Using Service**](#using-service): the alias used when connecting
-    to the database instance.
+  - [**サービスの使用**](#using-service): データベース インスタンスへ接続するときに使用されるエイリアス。
 
 <a name='using-sid'></a>
-### Using SID
+### SID の使用
 
-To configure Oracle using SID, you will need to enter the following
-information:
+SID を使用して Orable を構成するには、以下の情報が必要です。
 
 ![Configure Oracle SID mode details](images/enter-oracle-details.png)
 
-1. 1.  **Default name** of the data source: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Reveal names it *Oracle*. You can change it to your preference.
+1. 1. データ ソースの**デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Oracle* という名前を付けます。好みに合わせて変更できます。
 
 
-1.  [**Server**](#how-to-find-server): the computer name or IP address
-    assigned to the computer on which the server is running.
+1.  [**サーバー**](#how-to-find-server): コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 
-2.  **Port**: if applicable, the server port details. If no information
-    is entered, Reveal will connect to the port in the hint text (1521)
-    by default.
+2.  **ポート**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Reveal はデフォルトでヒント テキスト (1521) のポートに接続します。
 
-3.  **Connection Mode**: SID.
+3.  **接続モード**: SID。
 
-4.  **SID**: the unique name of your Oracle database instance. By
-    default, the SID for Oracle is orcl. To find your SID, log into
-    Server Manager and type select instance from v$thread. This will
-    return your ORACLE\_SID.
+4.  **SID**: Oracle データベース インスタンスの一意の名前。デフォルトでは、Oracle の SID は orcl です。SID を見つけるには、サーバー マネージャーにログインし select instance from v$thread と入力します。これは ORACLE\_SID を返します。
 
-5.  **Credentials**: after selecting *Credentials*, you will be able to
-    enter the credentials for your Oracle server or select existing ones
-    if applicable.
+5.  **資格情報**: *資格情報*を選択した後、Oracle サーバーの資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
 
-     - **Name**: the name for your data source account (default: _Oracle_). It will be
-        displayed in the list of accounts in the previous dialog.
+     - **名前**: データソース アカウントの名前 (デフォルトは *Oracle*)。以前のダイアログのアカウントのリストに表示されます。
 
-      - *(Optional)* **Domain**: the name of the domain, if applicable.
+      - *(オプション)***ドメイン**: ドメイン名 (適用可能な場合)。
 
-      - **Username**: the user account for the Oracle server.
+      - **ユーザー名**: Oracle サーバーのユーザー アカウント
 
-      - **Password**: the password to access the Oracle server.
+      - **パスワード**: Oracle サーバーのパスワード
 
-    Once ready, select **Create Account**. You can verify whether the
-    account is reaching the data source or not by selecting **Test
-    Connection**.
+    準備ができたら、**アカウントの作成**を選択します。**[接続テスト]** を選択すると、アカウントがデータソースに到達しているかどうかを確認できます。
 
 <a name='using-service'></a>
-### Using Service
+### サービスの使用
 
-To configure Oracle using Service, you will need to enter the following
-information:
+サービスを使用して Oracle を構成するには、以下の情報が必要です。
 
 ![Configure Oracle Service mode details](images/enter-oracle-details-service-mode.png)
 
-1.  **Data Source Name**: this field will be displayed in the Data
-    Sources list.
+1.  **データ ソース名**: このフィールドはデータソース リストに表示されます。
 
-2.  [**Server**](#how-to-find-server): the computer name or IP address
-    assigned to the computer on which the server is running.
+2.  [**サーバー**](#how-to-find-server): コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 
-3.  **Port**: if applicable, the server port details. If no information
-    is entered, Reveal will connect to the port in the hint text (1521)
-    by default.
+3.  **ポート**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Reveal はデフォルトでヒント テキスト (1521) のポートに接続します。
 
-4.  **Connection Mode**: Service.
+4.  **接続モード**: サービス。
 
-5.  **Service Name**: the alias used when connecting to the database
-    instance. To find your Service, log into Server Manager and run
-    select sys\_context('userenv', 'service\_name') from dual;. This
-    will return your Service\_name.
+5.  **サービス名**: データベース インスタンスへ接続するときに使用されるエイリアス。サービスを見つけるには、サーバー マネージャーへログインし、dual から select sys\_context('userenv’);,  'service\_name’) を実行します。これは Service\_name を返します。
 
-6.  **Credentials**: after selecting *Credentials*, you will be able to
-    enter the credentials for your Oracle server or select existing ones
-    if applicable.
+6.  **資格情報**: *資格情報*を選択した後、Oracle サーバーの資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
 
-      - **Name**: the name for your data source account (default: _Oracle_). It will be
-        displayed in the list of accounts in the previous dialog.
+      - **名前**: データソース アカウントの名前 (デフォルトは _Oracle_)。以前のダイアログのアカウントのリストに表示されます。
 
-      - *(Optional)* **Domain**: the name of the domain, if applicable.
+      - *(オプション)* **ドメイン**: ドメイン名 (適用可能な場合)。
 
-      - **Username**: the user account for the Oracle server.
+      - **ユーザー名**: Oracle サーバーのユーザー アカウント
 
-      - **Password**: the password to access the Oracle server.
+      - **パスワード**: Oracle サーバーのパスワード
 
-    Once ready, select **Create and Use**.
+    準備ができたら、**作成と使用**を選択します。
 
 <a name='how-to-find-server'></a>
-### How to find your Server Information
+### サーバー情報を見つける方法
 
-You can find your server by following the steps below. Please note that
-the commands should be executed on the server.
+以下の手順でサーバーも確認できます。コマンドはサーバーで実行する必要があることに注意してください。
 
 | WINDOWS                                                                                                         | LINUX                                                                                                         | MAC                                                                  |
 | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| 1\. Open the File Explorer.                                                                                     | 1\. Open a Terminal.                                                                                          | 1\. Open System Preferences.                                         |
-| 2\. Right Click on My Computer \> Properties.                                                                   | 2\. Type in **$hostname**                                                                                     | 2\. Navigate to the Sharing Section.                                 |
-| Your Hostname will appear as "Computer Name" under the *Computer name, domain and workgroups settings* section. | Your Hostname will appear along with your DNS domain name. Make sure you only include **Hostname** in Reveal. | Your Hostname will be listed under the "Computer Name" field on top. |
+| 1\. ファイル エクスプローラーを開きます。                                                                                     | 1\. ターミナルを開きます。                                                                                          | 1\. システム環境設定を開きます。                                        |
+| 2\. [マイ コンピューター] \> [プロパティ] を右クリックします。                                                                   | 2\. **$hostname** を入力します。                                                                                     | 2\. 共有セクションへ移動します。                                 |
+| ホスト名は、*コンピューター名、ドメインおよびワークグループの設定* セクションの下に 「コンピューター名」 として表示されます。| ホスト名と DNS ドメイン名が表示されます。Reveal には **ホスト名** のみを含めるようにしてください。| ホスト名は、上部のコンピューター名の下に表示されます。|
 
-You can find your *IP address* by following the steps below. Please note
-that the commands should be executed on the server.
+以下の手順で *IP アドレス*も確認できます。コマンドはサーバーで実行する必要があることに注意してください。
 
 | WINDOWS                              | LINUX                             | MAC                                                           |
 | ------------------------------------ | --------------------------------- | ------------------------------------------------------------- |
-| 1. Open a Command Prompt.            | 1. Open a Terminal.               | 1. Launch your Network app.                                   |
-| 2. Type in **ipconfig**              | 2. Type in **$ /bin/ifconfig**    | 2. Select your connection.                                    |
-| **IPv4 Address** is your IP address. | **Inet addr** is your IP address. | The **IP Address** field will have the necessary information. |
+| 1. コマンド プロンプトを開きます。            | 1. ターミナルを開きます。               | 1. ネットワーク アプリケーションを起動します。                                  |
+| 2. **ipconfig** を入力します。              | 2. **$ /bin/ifconfig** を入力します。    | 2. 接続を選択します。                                    |
+| **IPv4 Address** は IP アドレスです。 | **Inet addr** は IP アドレスです。| **IP アドレス** フィールドに必要な情報が含まれます。|
 
-### Working with Views
+### ビューの作業
 
-With Reveal, you can retrieve Oracle data from entire tables. Still, you
-can select a particular
-[view](https://docs.oracle.com/cd/B19306_01/server.102/b14220/objects.htm#i440066)
-that returns a subset of data from a table or a set of tables instead.
+Reveal を使用すると、すべてのテーブルから Oracle データを取得できますが、その他にもテーブルまたはテーブルのセットからデータのサブセットを返す特定の[ビュー](https://docs.oracle.com/cd/B19306_01/server.102/b14220/objects.htm#i440066)を選択することもできます。
 
 ![Oracle views dialog](images/Oracle-views.png)
 
-The **invoices** view, for example, contains information on sales
-projections taken from one of the tables in the database.
+たとえば、**請求書**ビューには、データベース内のテーブルから取得した営業予測に関する情報が含まれています。
 
 ![A dashboard sample using Oracle view data](images/oracle-view-sample-invoices.png)
 
-For more information on views and Oracle, visit [this documentation website](https://docs.oracle.com/cd/B19306_01/server.102/b14220/objects.htm#i440066).
+ビューおよび Oracle の詳細については、[このドキュメント Web サイト](https://docs.oracle.com/cd/B19306_01/server.102/b14220/objects.htm#i440066)を参照してください。
