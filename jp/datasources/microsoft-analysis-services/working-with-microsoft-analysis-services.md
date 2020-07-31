@@ -2,11 +2,11 @@
 
 データソースとしての Microsoft Analysis Services は、以下に関するいくつかの詳細を示しています。
 
-  - [ビジュアライゼーション エディターで Microsoft Analysis データソースを操作する](#visualization-editor);
+  - [ビジュアライゼーション エディターで Microsoft Analysis データソースを操作する](#visualization-editor)。
 
-  - [フィールド設定](#sort-by-caption-setting);
+  - [フィールド設定](#sort-by-caption-setting)。
 
-  - [ダッシュボード フィルター](#dashboard-filters).
+  - [ダッシュボード フィルター](#dashboard-filters)。
 
 <a name='visualization-editor'></a>
 ### ビジュアライゼーション エディターでの作業
@@ -36,8 +36,7 @@ Microsoft Analysis Services データソースのデフォルトのビジュア�
 
 ![PivotTableExampleMSAnalysis\_All](images/PivotTableExampleMSAnalysis_All.png)
 
-For more information on dimensions and measures, please visit this
-[Technet article](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2012/ms174527\(v=sql.110\)).
+ディメンションとメジャーの詳細については、[Technet article (英語)](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2012/ms174527\(v=sql.110\)) の記事をご覧ください。
 
 <a name='sort-by-caption-setting'></a>
 ### キャプション設定で並べ替え

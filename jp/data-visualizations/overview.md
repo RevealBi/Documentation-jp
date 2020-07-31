@@ -16,7 +16,7 @@
 
   - [画像ビューアー](image-view.md)
 
-  - [ブレット グラフ](gauge-views.html#bullet-graph)、[円形](gauge-views.html#circular-gauge)、[KPI](kpi-gauge.md)、[リニア](gauge-views.html#linear-gauge)、および [テキスト](gauge-views.html#text-gauge)ゲージを含むゲージ ビュー。
+  - [ブレット グラフ](gauge-views.html#bullet-graph)、[円形](gauge-views.html#circular-gauge)、[KPI](kpi-gauge.md)、[リニア](gauge-views.html#linear-gauge)、および [テキスト](gauge-views.html#text-gauge) ゲージを含むゲージ ビュー。
 
   - [カテゴリ](category-charts.md)、[コンボ](combo-charts.md)、[ファイナンシャル](financial-charts.md)、[ラジアル](radial-charts.md)、[散布とバブル](scatter-bubble-charts.md)、[スパークライン](sparkline-charts.md)など、いくつかの種類のチャート。
 
