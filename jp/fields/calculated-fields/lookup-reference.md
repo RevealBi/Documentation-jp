@@ -41,10 +41,9 @@
 
 previous の計算フィールドでは、`式`で選択したフィールドの値で結果を取得できます。引数を 2 つ設定します。
 
-  - `式`: one of the fields in your data source.
+  - `式`:  データソースのフィールドの 1 つ。
 
-  - `first value`: the value for your first row, which will be empty by
-    default.
+  - `最初の値`: デフォルトで空の最初の行の値。
 
 #### サンプル
 

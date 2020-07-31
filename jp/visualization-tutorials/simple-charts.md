@@ -139,8 +139,8 @@
 | 2\. **データ ソースの構成**       | ![Tutorials-Select-Data-Source](images/Tutorials-Select-Data-Source.png)                                          | *新しい表示形式*ウィンドウで、右下角の [+] ボタンを選択し、データソースを選択します。                                                                                |
 | 3\. **チュートリアル スプレッドシートの選択** | ![Tutorials-Select-Simple-Series-Charts-Spreadshee](images/Tutorials-Select-Simple-Series-Charts-Spreadsheet.png) | データソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。次に、「シンプル シリーズ チャート」 シートを選択します。                                                                |
 | 4\. **表示形式メニューを開く**     | ![Tutorials-Select-Change-Visualization](images/Tutorials-Select-Change-Visualization.png)                        | 表示形式 エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                                                         |
-| 5\. **表示形式の選択**        | ![Tutorials-Charts-Select-Visualization](images/Tutorials-Charts-Select-Visualization.png)                        | デフォルトで、表示形式のタイプは*グリッド*に設定されています。Select any of the **chart** visualizations.                                                                                          |
-| 6\. **データの体系化**               | ![Tutorials-Charts-Organizing-Data](images/Tutorials-Charts-Organizing-Data.png)                                  | The charts in the table above, for example, display the population for a select list of countries. [ラベル] に [Country Name] フィールド、[Population] フィールドを [値] へドラッグアンドドロップします。|
+| 5\. **表示形式の選択**        | ![Tutorials-Charts-Select-Visualization](images/Tutorials-Charts-Select-Visualization.png)                        | デフォルトで、表示形式のタイプは*グリッド*に設定されています。**チャート**の表示形式のいずれかを選択します。                                                                                          |
+| 6\. **データの体系化**               | ![Tutorials-Charts-Organizing-Data](images/Tutorials-Charts-Organizing-Data.png)                                  | たとえば、上の表のチャートには、選択した国のリストの人口が表示されます。[ラベル] に [Country Name] フィールド、[Population] フィールドを [値] へドラッグアンドドロップします。|
 
 ### チャートのタイプの変更
 
@@ -159,7 +159,7 @@
 |                                     |                                                                        |                                                                  |
 | ----------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | 1\. **設定を変更します**             | ![Tutorials-Navigate-Settings](images/Tutorials-Navigate-Settings.png) | 表示形式エディターの**設定**セクションへ移動します。      |
-| 2\. **チャート トレンドラインへアクセスします** | ![Tutorials-Expand-Trendlines](images/Tutorials-Expand-Trendlines.png) | Expand the Chart Trendline dropdown by selecting the down arrow. |
+| 2\. **チャート トレンドラインへアクセスします** | ![Tutorials-Expand-Trendlines](images/Tutorials-Expand-Trendlines.png) | 下矢印を選択して、チャート トレンドライン ドロップダウンを展開します。|
 | 3\. **チャート トレンドラインを選択します**    | ![Select-Predefined-Trendline](images/Select-Predefined-Trendline.png) | Reveal の定義済みのトレンドラインの 1 つを選択します。                    |
 
 <a name='change-axis-configuration'></a>
@@ -179,8 +179,8 @@
 |                                           |                                                                          |                                                             |
 | ----------------------------------------- | ------------------------------------------------------------------------ | ----------------------------------------------------------- |
 | 1\. **設定を変更します**                   | ![Tutorials-Navigate-Settings](images/Tutorials-Navigate-Settings.png)   | 表示形式エディターの**設定**セクションへ移動します。|
-| 2\. **軸オプションにアクセスする**            | ![Tutorials-Axis-Bounds](images/Tutorials-Axis-Bounds.png)               | Expand the Axis dropdown by selecting the down arrow.       |
-| 3\. **Select an Axis Configuration type** | ![Tutorials-Charts-Logarithmic](images/Tutorials-Charts-Logarithmic.png) |「対数」を選択します。                                       |
+| 2\. **軸オプションにアクセスする**            | ![Tutorials-Axis-Bounds](images/Tutorials-Axis-Bounds.png)               | 下矢印を選択して、軸ドロップダウンを展開します。       |
+| 3\. **軸構成タイプを選択します** | ![Tutorials-Charts-Logarithmic](images/Tutorials-Charts-Logarithmic.png) |「対数」を選択します。                                       |
 
 <a name='change-start-position'></a>
 ### ドーナツ型と円チャートの開始位置の変更
@@ -188,8 +188,8 @@
 |                                                   |                                                                                |                                                                                           |
 | ------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
 | 1\. **設定を変更します**                           | ![Tutorials-Navigate-Settings](images/Tutorials-Navigate-Settings.png)         | 表示形式エディターの**設定**セクションへ移動します。                               |
-| 2\. **開始位置セクションにアクセスする**         | ![Tutorials-Start-Position](images/Tutorials-Start-Position.png)               | Expand the Start Position dropdown by selecting the down arrow.                           |
-| 3\. **Select one of the Start Position options**. | ![Tutorials-Select-Start-Position](images/Tutorials-Select-Start-Position.png) | Select one of Reveal's predefined start positions for your chart (0°, 90°, 180° or 270°). |
+| 2\. **開始位置セクションにアクセスする**         | ![Tutorials-Start-Position](images/Tutorials-Start-Position.png)               | 下矢印を選択して、開始位置ドロップダウンを展開します。                           |
+| 3\. **開始位置オプションの 1 つを選択します**。 | ![Tutorials-Select-Start-Position](images/Tutorials-Select-Start-Position.png) | チャートに対して、Reveal の事前定義された開始位置 （0°、90°、180°、または 270°） のいずれかを選択します。 |
 
 <a name='change-slice-labels'></a>
 ### ドーナツ型、ファンネルと円チャートのスライスのラベルの変更
@@ -197,5 +197,5 @@
 |                                                |                                                                          |                                                                                                        |
 | ---------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
 | 1\. **設定を変更します**                        | ![Tutorials-Navigate-Settings](images/Tutorials-Navigate-Settings.png)   | 表示形式エディターの**設定**セクションへ移動します。                                            |
-| 2\. **スライス ラベルのセクションにアクセスする**         | ![Tutorials-Slice-Label](images/Tutorials-Slice-Label.png)               | Expand the Slice Labels dropdown by selecting the down arrow.                                          |
-| 3\. **Select one of the Slice Label options**. | ![Tutorials-Select-Slice-Label](images/Tutorials-Select-Slice-Label.png) | Select one of Reveal's predefined labeling options ("Percentage", "Value", or "Value and Percentage"). |
+| 2\. **スライス ラベルのセクションにアクセスする**         | ![Tutorials-Slice-Label](images/Tutorials-Slice-Label.png)               | 下矢印を選択して、スライス ラベル ドロップダウンを展開します。                                          |
+| 3\. **スライス ラベル オプションの 1 つを選択します**。 | ![Tutorials-Select-Slice-Label](images/Tutorials-Select-Slice-Label.png) | Reveal の事前定義されたラベル付けオプション （パーセント、値、または値とパーセント） のいずれかを選択します。 |
