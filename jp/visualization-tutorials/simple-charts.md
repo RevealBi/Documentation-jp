@@ -189,7 +189,7 @@
 | ------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
 | 1\. **設定を変更します**                           | ![Tutorials-Navigate-Settings](images/Tutorials-Navigate-Settings.png)         | 表示形式エディターの**設定**セクションへ移動します。                               |
 | 2\. **開始位置セクションにアクセスする**         | ![Tutorials-Start-Position](images/Tutorials-Start-Position.png)               | 下矢印を選択して、開始位置ドロップダウンを展開します。                           |
-| 3\. **開始位置オプションの 1 つを選択します**。 | ![Tutorials-Select-Start-Position](images/Tutorials-Select-Start-Position.png) | チャートに対して、Reveal の事前定義された開始位置 （0°、90°、180°、または 270°） のいずれかを選択します。 |
+| 3\. **開始位置オプションの 1 つを選択します**。 | ![Tutorials-Select-Start-Position](images/Tutorials-Select-Start-Position.png) | チャートに対して、Reveal の事前定義された開始位置 (0°、90°、180°、または 270°) のいずれかを選択します。 |
 
 <a name='change-slice-labels'></a>
 ### ドーナツ型、ファンネルと円チャートのスライスのラベルの変更
@@ -198,4 +198,4 @@
 | ---------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
 | 1\. **設定を変更します**                        | ![Tutorials-Navigate-Settings](images/Tutorials-Navigate-Settings.png)   | 表示形式エディターの**設定**セクションへ移動します。                                            |
 | 2\. **スライス ラベルのセクションにアクセスする**         | ![Tutorials-Slice-Label](images/Tutorials-Slice-Label.png)               | 下矢印を選択して、スライス ラベル ドロップダウンを展開します。                                          |
-| 3\. **スライス ラベル オプションの 1 つを選択します**。 | ![Tutorials-Select-Slice-Label](images/Tutorials-Select-Slice-Label.png) | Reveal の事前定義されたラベル付けオプション （パーセント、値、または値とパーセント） のいずれかを選択します。 |
+| 3\. **スライス ラベル オプションの 1 つを選択します**。 | ![Tutorials-Select-Slice-Label](images/Tutorials-Select-Slice-Label.png) | Reveal の事前定義されたラベル付けオプション (パーセント、値、または値とパーセント) のいずれかを選択します。 |

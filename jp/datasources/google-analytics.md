@@ -64,7 +64,7 @@ Google アナリティクスから取得した情報でダッシュボードを�
 
 Google アナリティクス データソースのデフォルトの表示形式 は、ピボット テーブルです。*行列*については、**ディメンション** データと*値* - **メジャー** データを使用する必要があります。
 
-ディメンションとメジャーの詳細については、この [Technet article (英語)](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2012/ms174527\(v=sql.110\)) の記事をご覧ください。
+ディメンションとメジャーの詳細については、この [Technet](https://docs.microsoft.com/ja-jp/previous-versions/sql/sql-server-2012/ms174527(v=sql.110)) の記事をご覧ください。
 
 #### Google アナリティクスの目標を使用する
 

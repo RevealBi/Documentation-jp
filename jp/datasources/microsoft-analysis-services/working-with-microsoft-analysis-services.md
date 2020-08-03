@@ -36,7 +36,7 @@ Microsoft Analysis Services データソースのデフォルトのビジュア�
 
 ![PivotTableExampleMSAnalysis\_All](images/PivotTableExampleMSAnalysis_All.png)
 
-ディメンションとメジャーの詳細については、[Technet article (英語)](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2012/ms174527\(v=sql.110\)) の記事をご覧ください。
+ディメンションとメジャーの詳細については、[Technet](https://docs.microsoft.com/ja-jp/previous-versions/sql/sql-server-2012/ms174527(v=sql.110)) の記事をご覧ください。
 
 <a name='sort-by-caption-setting'></a>
 ### キャプション設定で並べ替え
