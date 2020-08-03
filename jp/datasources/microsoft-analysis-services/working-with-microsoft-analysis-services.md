@@ -2,14 +2,14 @@
 
 データソースとしての Microsoft Analysis Services は、以下に関するいくつかの詳細を示しています。
 
-  - [ビジュアライゼーション エディターで Microsoft Analysis データソースを操作する](#visualization-editor)。
+  - [表示形式エディターで Microsoft Analysis データソースを操作する](#visualization-editor)。
 
   - [フィールド設定](#sort-by-caption-setting)。
 
   - [ダッシュボード フィルター](#dashboard-filters)。
 
 <a name='visualization-editor'></a>
-### ビジュアライゼーション エディターでの作業
+### 表示形式エディターでの作業
 
 Microsoft Analysis Services からの情報でダッシュボードを作成する場合、以下のスクリーンショットのようにフィールドが異なって体系化されます。
 
@@ -29,8 +29,8 @@ Microsoft Analysis Services からの情報でダッシュボードを作成す�
 
 2.  **メジャー** ([123] アイコンで表示): メジャーは数値データで構成されます。
 
-Microsoft Analysis Services データソースのデフォルトのビジュアライゼーション タイプは、ピボットテーブルです。
-行列については、ピボット テーブル ビジュアライゼーションを構築するときに、ディメンションデータと値 - メジャー データを使用する必要があります。
+Microsoft Analysis Services データソースのデフォルトの表示形式 タイプは、ピボットテーブルです。
+行列については、ピボット テーブル 表示形式を構築するときに、ディメンションデータと値 - メジャー データを使用する必要があります。
 
 ピボット表ビュー:
 
@@ -63,7 +63,7 @@ SSAS ベースのダッシュボードフィルターを構成する場合、セ
 
     ![SSASDashboardFilterMeasure\_All](images/SSASDashboardFilterMeasure_All.png)
 
-たとえば、製品を 表示要素として使用してビジュアライゼーションの販売データをフィルタリングする場合、ダッシュボードフィルターには製品のリスト (バイク、衣服など) が含まれます。
+たとえば、製品を 表示要素として使用して表示形式の販売データをフィルタリングする場合、ダッシュボードフィルターには製品のリスト (バイク、衣服など) が含まれます。
 
 リストから値を選択すると、接続された視覚エフェクトが更新され、選択した製品のデータのみが表示されます。
 
@@ -73,4 +73,4 @@ SSAS ベースのダッシュボードフィルターを構成する場合、セ
 
   - [ダッシュボード フィルターとそのプロパティ](~/jp/filters/dashboard-filters-properties.md)
 
-  - [ダッシュボード フィルターをビジュアライゼーションに接続](~/jp/filters/connecting-dashboard-filters-visualization.md)
+  - [ダッシュボード フィルターを表示形式に接続](~/jp/filters/connecting-dashboard-filters-visualization.md)

@@ -79,7 +79,7 @@
 | 1\. **ダッシュボードの作成**               | ![Tutorials-Create-New-Dashboard](images/Tutorials-Create-New-Dashboard.png)                           | ダッシュボード ビューアーで、[ダッシュボード] 画面の右上隅にある [+] ボタンを選択します。                                                                                            |
 | 2\. **データ ソースの構成**       | ![Tutorials-Select-Data-Source](images/Tutorials-Select-Data-Source.png)                               | [新しい表示形式] ウィンドウで、右下隅の [+] ボタンを選択し、データソースを選択します。                                                                                                                                  |
 | 3\. **チュートリアル スプレッドシートの選択** | ![Tutorials-Select-Stacked-Charts-Spreadsheet](images/Tutorials-Select-Stacked-Charts-Spreadsheet.png) | データソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。 次に、「Stacked Charts」シートを選択します。                                                                                                                       |
-| 4\. **表示形式メニューを開く**     | ![Tutorials-Select-Change-Visualization](images/Tutorials-Select-Change-Visualization.png)             | 表示形式 エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                                                                                                          |
+| 4\. **表示形式メニューを開く**     | ![Tutorials-Select-Change-Visualization](images/Tutorials-Select-Change-Visualization.png)             | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                                                                                                          |
 | 5\. **表示形式の選択**        | ![Tutorials-Stacked-Select-Visualization](images/Tutorials-Stacked-Select-Visualization.png)           | デフォルトで、表示形式のタイプは*グリッド*に設定されています。 Select any of the **stack** visualizations.                                                                                                                                           |
 | 6\. **データの構成**               | ![Tutorials-Stacked-Charts-Organizing-Data](images/Tutorials-Stacked-Charts-Organizing-Data.png)       | 積層型チャートには 2 つ以上のフィールドをデータ エディターの [値] プレースホルダーへドラッグアンドドロップする必要があります。今の例で、[1960]、[2003]、[2008] と [20010] を [値] へ、[Country Name] を [ラベル] へドラッグアンドドロップします。 |
 
@@ -90,7 +90,7 @@
 
 |                                      |                                                                                              |                                                                                                                                      |
 | ------------------------------------ | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| 1\. **表示形式メニューを開く** | ![Tutorials-Select-Change-Visualization](images/Tutorials-Select-Change-Visualization.png)   | 表示形式 エディターのトップ バーで**グリッド アイコン**を選択します。                                                                |
+| 1\. **表示形式メニューを開く** | ![Tutorials-Select-Change-Visualization](images/Tutorials-Select-Change-Visualization.png)   | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                |
 | 2\. **表示形式の選択**    | ![Tutorials-Stacked-Select-Visualization](images/Tutorials-Stacked-Select-Visualization.png) | Select the type of stack chart you need. This section has a [preview of every stack chart type](#creating-stacked-chart) at the top. |
 
 <a name='change-axis-configuration'></a>

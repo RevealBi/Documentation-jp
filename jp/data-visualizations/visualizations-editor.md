@@ -16,7 +16,7 @@
 
 ### 表示形式エディターの概要
 
-表示形式 エディターには、主に 3 つのエリアがあります。
+表示形式エディターには、主に 3 つのエリアがあります。
 
 ![visualization editor panes](images/visualization-editor-panes.png)
 

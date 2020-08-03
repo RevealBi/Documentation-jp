@@ -138,7 +138,7 @@
 | 1\. **ダッシュボードの作成**               | ![Tutorials-Create-New-Dashboard](images/Tutorials-Create-New-Dashboard.png)                                      | ダッシュボード ビューアーで、[ダッシュボード] 画面の右上隅にある [+] ボタンを選択します。次に、ドロップダウンから [ダッシュボード] を選択します。                                           |
 | 2\. **データ ソースの構成**       | ![Tutorials-Select-Data-Source](images/Tutorials-Select-Data-Source.png)                                          | *新しい表示形式*ウィンドウで、右下角の [+] ボタンを選択し、データソースを選択します。                                                                                |
 | 3\. **チュートリアル スプレッドシートの選択** | ![Tutorials-Select-Simple-Series-Charts-Spreadshee](images/Tutorials-Select-Simple-Series-Charts-Spreadsheet.png) | データソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。次に、「シンプル シリーズ チャート」 シートを選択します。                                                                |
-| 4\. **表示形式メニューを開く**     | ![Tutorials-Select-Change-Visualization](images/Tutorials-Select-Change-Visualization.png)                        | 表示形式 エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                                                         |
+| 4\. **表示形式メニューを開く**     | ![Tutorials-Select-Change-Visualization](images/Tutorials-Select-Change-Visualization.png)                        | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                                                         |
 | 5\. **表示形式の選択**        | ![Tutorials-Charts-Select-Visualization](images/Tutorials-Charts-Select-Visualization.png)                        | デフォルトで、表示形式のタイプは*グリッド*に設定されています。**チャート**の表示形式のいずれかを選択します。                                                                                          |
 | 6\. **データの体系化**               | ![Tutorials-Charts-Organizing-Data](images/Tutorials-Charts-Organizing-Data.png)                                  | たとえば、上の表のチャートには、選択した国のリストの人口が表示されます。[ラベル] に [Country Name] フィールド、[Population] フィールドを [値] へドラッグアンドドロップします。|
 
@@ -148,7 +148,7 @@
 
 |                                      |                                                                                            |                                                                                                                                 |
 | ------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **表示形式メニューを開く** | ![Tutorials-Select-Change-Visualization](images/Tutorials-Select-Change-Visualization.png) | 表示形式 エディターのトップ バーで**グリッド アイコン**を選択します。                                                          |
+| 1\. **表示形式メニューを開く** | ![Tutorials-Select-Change-Visualization](images/Tutorials-Select-Change-Visualization.png) | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                          |
 | 2\. **表示形式の選択**    | ![Tutorials-Charts-Select-Visualization](images/Tutorials-Charts-Select-Visualization.png) | このセクションの上部に各チャートのタイプのプレビューがあります。|
 
 <a name='add-trendline-chart'></a>

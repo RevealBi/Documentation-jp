@@ -20,7 +20,7 @@
 
   - [カテゴリ](category-charts.md)、[コンボ](combo-charts.md)、[ファイナンシャル](financial-charts.md)、[ラジアル](radial-charts.md)、[散布とバブル](scatter-bubble-charts.md)、[スパークライン](sparkline-charts.md)など、いくつかの種類のチャート。
 
-  - [DIY ビジュアライゼーション](diy-visualizations.md)
+  - [DIY 表示形式](diy-visualizations.md)
   
   - [テキスト ボックス表示形式](text-box.md)
 

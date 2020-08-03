@@ -68,7 +68,7 @@
     <td class="tg-0lax"><span style="font-style:italic">新しい Azure Synapse と Azure SQL データソース</span><br>Azure 分析サービスと SQL データベースに接続して、ビッグデータと高度なクエリ処理機能を操作します。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">新しい Microsoft Reporting Services (SSRS) データソース</span><br>表示形式に既存の SSRS レポートを使用できるようになりました。それらを PDF ファイルとして埋め込み、またはレポートのデータを取得して独自のビジュアライゼーションを作成できます。</td>
+    <td class="tg-0lax"><span style="font-style:italic">新しい Microsoft Reporting Services (SSRS) データソース</span><br>表示形式に既存の SSRS レポートを使用できるようになりました。それらを PDF ファイルとして埋め込み、またはレポートのデータを取得して独自の表示形式を作成できます。</td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-style:italic">フォルダーやチームのダッシュボード管理</span><br>フォルダーまたはチーム間でダッシュボードを移動およびコピーできるようになりました。</td>
@@ -87,7 +87,7 @@
     <td class="tg-0lax"><span style="font-style:italic">円およびドーナツ型チャートの凡例に、値 0 の要素を表示できるようになりました。</span><br>円とドーナツの表示形式の凡例に値 0 の要素を表示するオプションが追加されました。これにより、ラベルに選択されたフィールドのすべてのデータを見ることができますが、値 0 のデータはチャート自体には表示されません。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">サポートされる色合い</span><br>Reveal は、表示形式 エディター パレットに 8 つの既存の色の陰影を自動的に生成できるようになりました。これにより、大きな値のセットを含むチャートで、分離/比較に必要なさまざまな色を表示できます。</td>
+    <td class="tg-0lax"><span style="font-style:italic">サポートされる色合い</span><br>Reveal は、表示形式エディター パレットに 8 つの既存の色の陰影を自動的に生成できるようになりました。これにより、大きな値のセットを含むチャートで、分離/比較に必要なさまざまな色を表示できます。</td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-style:italic">[バグ修正] Windows プラットフォームのローカリゼーション</span><br>Windows プラットフォームで設定された表示言語は検出されましたが、Reveal に適用されない問題。</td>
