@@ -1,85 +1,62 @@
-## Azure Machine Learning in Reveal
+## Reveal の Azure Machine Learning
 
 
-You can use your trained models data from Azure Machine Learning Studio
-in Reveal. Get better insights than ever! Just choose your data source,
-build a visualization, and use the integration to connect to a trained
-machine learning model.
+Reveal で Azure Machine Learning Studio のトレーニング済みモデル データを使用できます。これまで以上に洗練された情報を取得できます。データソースを選択し、表示形式を作成し、トレーニング済みの機械学習モデルに接続します。
 
-For example, you may have a machine learning (ML) model that is trained
-to predict the credit risk for a bank's clients, using specific
-information about the clients. This ML model can be used in Reveal to
-build a visualization giving insight about how the clients' housing type
-relates to their credit risk:
+たとえば、クライアントに関する特定の情報を使用して、銀行のクライアントの信用リスクを予測するようにトレーニングされた機械学習 (Machine Learning) モデルがあるとします。この機械学習モデルを Reveal で使用して、クライアントの住宅タイプが信用リスクにどのように関連するかについての洞察を与える表示形式を構築できます。
 
 ![Credit risk by Housing example](images/ml-credit-risk-by-housing-visualization-example.png)
 
-### Prerequisites
+### 前提条件
 
-To use the Azure Machine Learning integration in Reveal, you first need
-to have an account in **MS Azure Machine Learning Studio** as well as a
-**trained machine learning model** to connect to when building your
-visualization.
+Reveal で Azure Machine Learning を使用するには、表示形式を構築する際に接続するための **Microsoft Azure Machine Learning Studio** のアカウントと、**トレーニング済みの機械学習モデル**が必要です。
 
-### Accessing Azure Machine Learning Integration
+### Azure Machine Learning へのアクセス
 
-To access the Azure Machine Learning Integration, follow the steps
-below:
+Azure Machine Learning にアクセスするには、以下の手順を実行します。
 
-1.  Connect to a data source of your choice. It should contain
-    information related to the data your machine learning model
-    predicts.
+1.  任意のデータソースに接続します。機械学習モデルが予測するデータに関連する情報を含む必要があります。
 
-    Please, refer to the [Creating a New Data Source Connection](creating-new-datasource.md) topic for more information on
-    how to connect to a data source.
+    データソースへの接続方法の詳細については、[「新規データ ソース接続を追加」](creating-new-datasource.md)トピックを参照してください。
 
-2.  In the *Visualization editor*, click/tap the **brain icon** located
-    at the top of the *Fields* list to the left. Then choose **Azure
-    Machine Learning**.
+2.  *表示形式エディター*で、左側の*フィールド* リストの上にある**脳アイコン**をクリック/タップします。次に、**Azure Machine Learning** を選択します。
 
     ![Brain icon location in the Visualization editor](images/brain-icon-azure-ml-model.png)
 
-### Connecting to Your Azure Machine Learning Model
+### Azure Machine Learning モデルへの接続
 
-To connect to your Machine Learning Model in Azure, you need to do the
-following:
+Azure で機械学習モデルに接続するには、以下を実行する必要があります。
 
-1.  Provide the requested values in the configuration dialog below in
-    order to access the Web Service exposed by the Azure Machine
-    Learning Model:
+1.  Azure Machine Learning Model によって公開される Web サービスにアクセスするために、以下の構成ダイアログで要求された値を提供します。
 
     ![MS Azure configuration dialog requested values](images/microsoft-azure-configuration-requested-values.png)
 
-    To find the **Swagger Document URL** and **API key** you need to do
-    the following:
+    **Swagger ドキュメントの URL** と **API キー**を検索するには、以下を実行する必要があります。
 
-    a.  Go to **MS Azure Machine Learning Studio**.
+    a. **Microsoft Azure Machine Learning Studio** に移動します。
 
-    b.  Select **Web Services** in the menu on the left.
+    b. 左側のメニューで **[Webサービス]** を選択します。
 
-    c.  From the list, choose the web service (exposed by the trained model) you want to integrate with Reveal.
+    c. リストから、Reveal と統合する Webサービス (トレーニング済みモデルで公開) を選択します。
 
-    d.  Copy the **API key** you are given for this service.
+    d. このサービスに指定された **API キー**をコピーします。
 
-    e.  From the **Default Endpoint** table for the same service select **REQUEST/RESPONSE**.
+    e. 同じサービスの**既定のエンドポイント** テーブルから **[要求/応答]** を選択します。
 
-    f.  In the **API Documentation page** that opens, copy the URL of the **API Swagger Document** and paste it in Reveal.
+    f. 開いた **API ドキュメント ページ**で **API Swagger ドキュメント**の URL をコピーし、Reveal に貼り付けます。
 
-2.  The dialog displayed requires you to map the data in Reveal to the
-    input expected by your ML model.
+2.  表示されるダイアログで、Reveal のデータを機械学習モデルで予期される入力にマップする必要があります。
 
     ![Input list in ML model connection dialog](images/input-output-ml-list.png)
 
-    In the dialog above you have the following columns to consider:
+    上記のダイアログには、以下の列があります。
 
-    a.  **Input** - the left column displays what kind of data the model requires in order to calculate the output information (e.g. *Credit Risk*). In the right column, select the fields in your dataset (e.g. *Age in years*) that match the requested data in the left column (e.g. *Age*) for the model. Reveal automatically matches all fields in the *Input* list sharing the same name with the model's requested data.
+    a. **入力** - 左の列は、出力情報 (例: *Credit Risk*) を計算するためにモデルが必要とするデータの種類を表示します。右側の列で、モデルの左側の列 (例: *Age* など) の要求されたデータと一致するデータセット内のフィールド (例: *Age in years*) を選択します。Reveal は、同じ名前を共有する*入力*リストのすべてのフィールドをモデルの要求されたデータと自動的に一致させます。
 
-    b.  **Output** - choose the information you want calculated (predicted) by the model. The result will appear as new fields
-    in the Visualization editor, under *From Azure model*.
+    b. **出力** - モデルで計算 (予測) する情報を選択します。結果は、表示形式エディターの新しいフィールドとして表示されます (*From Azure model* の下)。
 
-    c.  **Parameters** - some Azure ML models require you to fill in values for the parameters they need in order to calculate the output. In this case you will see a third *Parameters* column between *Input* and *Output*.
+    c. **パラメーター** - 一部の Azure 機械学習モデルでは、出力を計算するために必要なパラメーターの値を入力する必要があります。この場合、*[入力]* と *[出力]* の間に 3 番目の *[パラメーター]* 列があります。
 
       ![Data output loaded from Azure model](images/loaded-data-from-azure-model.png)
 
-You can use the fields returned by the Azure model as regular fields in
-the Visualization editor.
+Azure モデルによって返されたフィールドを表示形式エディターの通常のフィールドとして使用できます。

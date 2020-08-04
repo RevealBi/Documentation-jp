@@ -1,45 +1,38 @@
 ## Azure SQL
 
-To configure an Azure SQL data source, you will need to enter the following information:
+Azure SQL データソースを構成するには、以下の情報が必要です。
 
 ![Opening Reveal's AzureSQL data source configuration screen](images/enter-Azure-SQL-details.png)
 
-1.  **Data Source Name**: this field will be displayed in the Data
-    Sources list.
+1.  **データ ソース名**: このフィールドはデータソース リストに表示されます。
 
-2.  **Server**: the computer name or IP address assigned to the computer
-    on which the server is running.
+2.  **サーバー**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 
-3.  **Port**: if applicable, the server port details. If no information
-    is entered, Reveal will connect to the port in the hint text (1433)
-    by default.
+3.  **ポート**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Reveal はデフォルトでヒント テキスト (1433) のポートに接続します。
 
-4.  **Credentials**: after selecting *Credentials*, you will be able to
-    enter the credentials for Azure SQL or select existing ones if
-    applicable.
+4.  **資格情報**: [資格情報] を選択した後、Azure SQL の資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
 
-      - *Default name* of the data source: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Reveal names it *Microsoft Azure SQL Database*. You can change it to your preference.
+      - データソースの**デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Microsoft Azure SQL Database* という名前を付けます。好みに合わせて変更できます。
 
 
-      - *(Optional)* **Domain**: the name of the domain, if applicable.
+      - *(オプション)* **ドメイン**:  ドメイン名 (該当する場合)。
 
-      - **Username**: the user account for Azure SQL.
+      - **ユーザー名**: Azure SQL のユーザー アカウント。
 
-      - **Password**: the password to access Azure SQL.
+      - **パスワード**: Azure SQL にアクセスするためのパスワード。
 
-5.  *(Conditional)* **Database**: Once you connect to your account, you
-    will get your databases to choose from (if more than one).
+5.  (条件付き) **データベース**: アカウントに接続すると、データベースを選択できるようになります (複数のデータベースがある場合)。
 
-Once ready, select **Create and Use**.
+準備ができたら、**[作成と使用]** を選択します。
 
-### Further Information
+### 詳細情報
 
-Finally, if you want to know more about any of the following:
+以下の詳細については、
 
-  - How to find your Server Information
+  - サーバー情報を見つける方法
 
-  - Working with Views
+  - ビューの作業
 
-  - Working with Stored Procedures
+  - ストアド プロシージャの作業
 
-Please refer to [**SQL Server**](microsoft-sql-server.html#how-to-find-server) as both Reveal data sources work similarly.
+Reveal の両データソースは同様に機能するため、[**SQL Server**](microsoft-sql-server.html#how-to-find-server) を参照してください。

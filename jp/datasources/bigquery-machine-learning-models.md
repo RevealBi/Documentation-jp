@@ -1,51 +1,51 @@
-## BigQuery Machine Learning in Reveal
+## Reveal の BigQuery Machine Learning
 
-You can use your trained machine learning models data from BigQuery in Reveal. Get better insights than ever! Just choose BigQuery as your data source for building a visualization, and use the integration to connect to a trained machine learning model.
+Reveal で BigQuery のトレーニング済みの機械学習モデルを使用できます。これまで以上に洗練された情報を取得できます。BigQuery をデータソースとして選択し、表示形式を作成し、トレーニング済みの機械学習モデルに接続します。
 
-For example, you may have a machine learning (ML) model that is trained to predict the credit risk for a bank's clients, using specific information about the clients. This ML model can be used in Reveal to build a visualization giving insight about how the clients' housing type relates to their credit risk:
+たとえば、クライアントに関する特定の情報を使用して、銀行のクライアントの信用リスクを予測するようにトレーニングされた機械学習 (Machine Learning) モデルがあるとします。この機械学習モデルを Reveal で使用して、クライアントの住宅タイプが信用リスクにどのように関連するかについての洞察を与える表示形式を構築できます。
 
 ![Credit risk by type of Housing example](images/bigquery-machine-learning-model-visualization-example.png)
 
 
-### Prerequisites
+### 前提条件
 
-To use the BigQuery Machine Learning integration in Reveal, you need to **connect to a BigQuery data source** account, where you have a **trained machine learning model**.
+Reveal で BigQuery Machine Learning を使用するには、**トレーニング済みの機械学習モデル**がある **BigQuery データソース アカウントに接続する**必要があります。
 
-### Accessing BigQuery Machine Learning Integration
+### BigQuery Machine Learning へのアクセス
 
-To access the BigQuery Machine Learning Integration, follow the steps below:
+BigQuery Machine Learning にアクセスするには、以下の手順を実行します。
 
-1. Connect to a BigQuery data source. Select the dataset, which contains information necessary for your machine learning model predictions.
+1. BigQuery データソースに接続します。機械学習モデルの予測に必要な情報を含むデータセットを選択します。
 
-    Please, refer to the [Google BigQuery](google-bigquery.md)  topic for more information on the BigQuery data source.
+    BigQuery データソースの詳細については、[Google BigQuery](google-bigquery.md) のトピックを参照してください。
 
 
-2. In the _Visualization editor_, click/tap the **brain icon** located at the top of the _Fields_ list to the left.
+2. 表示形式エディターで、左側のフィールド リストの上にある**脳アイコン**をクリック/タップします。
 
     ![Brain icon location in the Visualization editor](images/brain-icon-bigquery-ml-model.png)
 
 
-### Connecting to Your Machine Learning model
+### 機械学習モデルへの接続
 
-To connect to your BigQuery machine learning model you need to do the following:
+BigQuery 機械学習モデルに接続するには、以下を実行する必要があります。
 
-1. Select from your trained BigQuery models in the dialog that opens:
+1. 開いたダイアログでトレーニング済みの BigQuery モデルから選択します。
 
     ![A dialog displaying a list of bigquery machine learning models](images/ml-models-list-bigquery.png)
 
 
-2. The next dialog requires you to map the data loaded in Reveal to the input expected by your ML model.
+2. 次のダイアログで、Reveal に読み込まれたデータを機械学習モデルで予期される入力にマップする必要があります。
 
     ![Mapping expected input and choosing output](images/ml-model-mapping-input-output.png)
 
-    In the dialog above you have the following columns to consider:
+    上記のダイアログには、以下の列があります。
 
-    a. **Input** - on the left you see the kind of data the model requires in order to calculate the output information (e.g. _Duration_). On the right, you need to select the fields in your dataset (e.g. _Duration_in_months_) that match the requested data on the left. Reveal automatically matches all fields from the loaded BigQuery dataset, which share the same name with the model's requested data.
+    a. **入力** - 左側では、出力情報 (例: Duration) を計算するためにモデルが必要とするデータの種類を表示します。右側で、要求されたデータに一致するデータセットのフィールド (例: _Duration_in_months_) を左側で選択する必要があります。Reveal は、同じ名前を共有する読み込まれた BigQuery データセットのすべてのフィールドをモデルの要求されたデータと自動的に一致させます。
 
-    b. **Output** - choose the information you want calculated (predicted) by the model. The result will appear as new fields in the Visualization editor, under _From (name of the model)_, e.g. *From credit_risk_model*.
+    b. **出力** - モデルで計算 (予測) する情報を選択します。結果は、表示形式エディターの _From (モデル名)_ の下に新しいフィールドとして表示されます。例: *From credit_risk_model*。
 
-    c. (_Optional_) **Parameters** - some of your BigQuery models may require you to fill in values for the parameters they need to calculate the output. In this case you will see a third _Parameters_ column between _Input_ and _Output_.
+    c. (オプション) **パラメーター** - 一部の BigQuery 機械学習モデルでは、出力を計算するために必要なパラメーターの値を入力する必要がある場合があります。この場合、[入力] と [出力] の間に 3 番目の [パラメーター] 列があります。
 
 ![Data output loaded from the bigquery model](images/bq-ml-model-final-example.png)
 
-You can use the fields returned by the BigQuery model as regular fields in the Visualization editor.
+BigQuery モデルによって返されたフィールドを表示形式エディターの通常のフィールドとして使用できます。
