@@ -75,6 +75,10 @@ Reveal にサインインする組織の最初のユーザーには、組織リ�
 | **非公開チーム**を表示できます。                                      | <span style="color: #FF0000">x</span>  | <span style="color: #FF0000">x</span>  | <span style="color: #FF0000">x</span>  |
 | 組織内に独自の公開または非公開チームを作成できます。 | <span style="color: #007F00">〇</span> | <span style="color: #007F00">〇</span> | <span style="color: #FF0000">x</span>  |
 
+<span style="color: #007F00">〇</span> - 使用可能
+
+<span style="color: #FF0000">X</span> - 使用不可
+
 #### チーム - メンバーのロールおよびアクセス許可の割り当て
 
 ユーザーがチームを作成すると、ユーザーはそのチームの管理者であり、そこにアクセス許可のレベルを分散できます。管理者は新しいメンバーをチームに招待し、ロールを割り当てます。
