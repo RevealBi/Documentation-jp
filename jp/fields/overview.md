@@ -1,23 +1,19 @@
-## Fields
+## フィールド
 
-This section describes the different options for applying transformations to the fields in your dataset. By applying filters, you can optimize the information in your fields for your business analysis. Remove any unnecessary noise, highlight the most valuable aspects, and summarize information in many useful ways.
+このセクションでは、データセットのフィールドに変換を適用するためのさまざまなオプションについて説明します。フィルターを適用することにより、フィールドの情報をビジネス分析用に最適化できます。必要のないノイズを削除し、最も重要なアスペクトを強調表示して、さまざまな方法で情報を要約します。
 
 ![Field-Rules-Settings.png](images/Field-Rules-Settings.png)
 
-### Topics Overview
+### トピックの概要
 
-There are several field settings and filtering options:
+いくつかのフィールド設定とフィルタリング オプションがあります。
 
-  - Settings for [date](field-settings.html#date-fields),
-    [numeric](field-settings.html#numeric-fields), and
-    [string](field-settings.html#abc-fields) fields, including label
-    renaming, aggregation, sorting, formatting, and [conditional formatting](conditional-formatting.md).
+  - ラベルの名前変更、集計、並べ替え、書式、[条件付き書式](conditional-formatting.md)を含む[日付](field-settings.html#date-fields)、[数値](field-settings.html#numeric-fields)および[文字列](field-settings.html#abc-fields)フィールドの設定。
 
-  - Filters for [empty values](field-filters-rules.html#empty-values).
+  - [空値](field-filters-rules.html#empty-values)のフィルター。
 
-  - Filters to [select specific values](field-filters-rules.html#select-values).
+  - [特定の値を選択する](field-filters-rules.html#select-values)ためのフィルター。
 
-  - Filters by [Rule](field-filters-rules.html#rules).
+  - [ルール](field-filters-rules.html#rules)でフィルター。
 
-Field settings and rules are accessible through the [visualizations editor](~/jp/data-visualization/visualizations-editor.md), which is displayed automatically when a
-dataset is added to the dashboard canvas.
+データセットがダッシュボード キャンバスに追加されると自動的に表示される[表示形式エディター](~/jp/data-visualization/visualizations-editor.md)を介して、フィールド設定とルールにアクセスできます。
