@@ -1,41 +1,34 @@
-## Creating the Dashboard Filter and Connecting your Visualization 
+## ダッシュボード フィルターの作成と表示形式の接続 
 
-The dashboard displayed [in the first page of this tutorial](social-dashboard-tutorial.md) is connected to a [date range dashboard filter](date-range-filter.md). These kinds of filters enable a
-time-based scenario analysis. When connected to all visualizations, they
-allow for users to dynamically filter their whole dashboard.
+[このチュートリアルの最初のページ](social-dashboard-tutorial.md)に表示されるダッシュボードは、[日付範囲ダッシュボード フィルター](date-range-filter.md)に接続されます。これらのフィルターは、時系列のシナリオ分析を可能にします。すべての表示形式へ接続するとダッシュボード全体を動的にフィルターできます。
 
-In order create the filter, you will need to:
+フィルターの作成方法:
 
-1.  Select the **Add Filter** button under your dashbaord's name, and
-    then **Add Date Filter**
+1.  ダッシュボード名の下の **[フィルターの追加]** ボタンをクリックし、**[日付フィルターの追加]** をクリックします。
     
     ![AddDateFilterDashboard\_All](images/AddDateFilterDashboard_All.png)
 
 
 
-2.  Under **Date Filter**, select **Last Year**.
+2.  **[日付フィルター]** の下の **[前の年]** を選択します。
     
     ![AddLastYearFilter\_All](images/AddLastYearFilter_All.png)
 
-Once the date filter has been created, you will need to connect it to
-your existing visualization. In order to do so:
+日付フィルターを作成したら、それを既存の表示形式に接続する必要があります。以下は変更手順です。
 
-1.  Select the **Connect** button in the **YTD Twitter Followers**
-    visualization. Reveal will attempt to connect the dashboard filter
-    to a field in your visualization.
+1.  **YTD Twitter Followers** 表示形式の **[接続]** ボタンを選択します。Reveal は、ダッシュボード フィルターを表示形式のフィールドに接続しようとします。
     
     ![SocialDateFilterConnected\_All](images/SocialDateFilterConnected_All.png)
     
-    If you select **Date Filter**, you will be able to edit the
-    connection if necessary.
+    **[日付フィルター]** を選択すると、必要に応じて接続を編集できます。
     
     ![EditFilterConnection\_All](images/EditFilterConnection_All.png)
 
 
 
-2.  Select **Update Binding**.
+2.  **[バインディングの更新]** を選択します。
 
-Your visualization will the look like the following one:
+表示形式は以下のようになります。
 
 ![SocialDateFilterConnectedFirstVisualization\_All](images/SocialDateFilterConnectedFirstVisualization_All.png)
 
