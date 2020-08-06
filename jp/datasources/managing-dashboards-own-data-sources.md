@@ -4,7 +4,7 @@ Reveal を使用すると、まだアプリに追加していないデータ ソ
 
 ![A dashboard sample](images/dashboard-own-data-sources.png)
 
-接続の詳細 (サーバー、ポートなど) は自動的にインポートされます。ダッシュボード内のデータにアクセスするために、まだ追加されていない場合にのみ、データ ソースのアカウント詳細を入力する必要があります。これを行うには、画面の右上角にある + 記号を選択します。
+接続の詳細 (サーバー、ポートなど) は自動的にインポートされます。ダッシュボード内のデータにアクセスするために、まだ追加されていない場合にのみ、データ ソースのアカウント詳細を入力する必要があります。これを行うには、画面の右上隅にある + 記号を選択します。
 
 ![Dashboard Adding Imported Data Source Account](images/dashboard-adding-imported-data-source-account.png)
 

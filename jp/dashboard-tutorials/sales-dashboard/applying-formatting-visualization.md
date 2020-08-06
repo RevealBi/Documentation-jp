@@ -49,12 +49,12 @@
     
     ![SalesChangingBandColorIndicator\_All](images/SalesChangingBandColorIndicator_All.png)
 
-表示形式編集の完了後、右上角の**ティック ボタン**を選択し、ダッシュボード エディターに戻ります。
+表示形式編集の完了後、右上隅の**ティック ボタン**を選択し、ダッシュボード エディターに戻ります。
 
 ![SalesWidgetInDashboardEditor\_All](images/SalesWidgetInDashboardEditor_All.png)
 
 >[!NOTE]
->表示形式を選択し、角を下または横にドラッグすると、表示形式のサイズを変更できます。
+>表示形式を選択し、隅を下または横にドラッグすると、表示形式のサイズを変更できます。
 
 <style>
 .previous {

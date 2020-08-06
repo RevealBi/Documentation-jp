@@ -22,7 +22,7 @@
 
 ![SocialFirstVisualizationSample\_All](images/SocialFirstVisualizationSample_All.png)
 
-完了すると、右上角の**ティック アイコン**を選択して、ダッシュボード エディターに戻ります。
+完了すると、右上隅の**ティック アイコン**を選択して、ダッシュボード エディターに戻ります。
 
 <style>
 .previous {
