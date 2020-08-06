@@ -79,7 +79,7 @@
 | 3\. **チュートリアル スプレッドシートの選択** | ![Tutorials-Select-Sparkline-Charts-Spreadsheet.png](images/Tutorials-Select-Sparkline-Charts-Spreadsheet.png) | データソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。次に、「スパークライン チャート」 シートを選択します。                        |
 | 4\. **表示形式メニューを開く**     | ![Tutorials-Select-Change-Visualization](images/Tutorials-Select-Change-Visualization.png)                     | 表示形式エディターのトップ バーの**グリッド アイコン**を選択します。                                                                                |
 | 5\. **表示形式の選択**        | ![Tutorials-Charts-Select-Sparkline-Chart](images/Tutorials-Charts-Select-Sparkline-Chart.png)                 | デフォルトで、表示形式のタイプは*グリッド*に設定されています。スパークライン チャートを選択します。                                                           |
-| 6\. **データの構成**               | ![Tutorials-SparklineChart-Organizing-Data](images/Tutorials-SparklineChart-Organizing-Data.png)               | Drag and drop the "Date" field into "Date", "Offer" into "Value" and "Stocks" into "Category".                                                       |
+| 6\. **データの構成**               | ![Tutorials-SparklineChart-Organizing-Data](images/Tutorials-SparklineChart-Organizing-Data.png)               | [Date] フィールドを [日付] に、[Offer] を [値] に、[Stocks] を [カテゴリ] にドラッグアンドドロップします。                                                       |
 
 <a name='change-chart-type-sparkline'></a>
 ### スパークラインのチャート タイプを変更する方法

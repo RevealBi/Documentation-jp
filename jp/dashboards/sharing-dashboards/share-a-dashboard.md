@@ -110,6 +110,9 @@
   </tr>
 </table>
 
+<span style="color: #007F00">〇</span> - 使用可能
+
+<span style="color: #FF0000">X</span> - 使用不可
 
 <a name='sharing-dashboard-with-team'></a>
 ### チーム全体とダッシュボードを共有する
