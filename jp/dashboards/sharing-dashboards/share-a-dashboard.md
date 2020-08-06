@@ -33,11 +33,11 @@
 
 使用可能なオプションは以下のとおりです:
 
-  - **オーナー**権限 - ユーザーは、作成、編集、共有、削除を行うことができます。
+  - **管理**権限 - ユーザーは、作成、編集、共有、削除を行うことができます。
 
-  - **変更**の権限 - ユーザーは、ダッシュボードまたはフォルダーを作成、編集、共有できますが、削除することはできません。
+  - **変更**権限 - ユーザーは、ダッシュボードまたはフォルダーを作成、編集、共有できますが、削除することはできません。
 
-  - **表示**の権限 - ユーザーは、ダッシュボードとフォルダーを表示および共有することができます。
+  - **閲覧**権限 - ユーザーは、ダッシュボードとフォルダーを表示および共有することができます。
 
 3.  アクセス レベルを設定した後、*招待を送信する*をクリック/タップします。ダッシュボードは[組織](Teams-Collaboration-Privacy.html#organization-team)のメンバーと自動的に共有されます。他のユーザーは、招待を承諾した後にのみ、ダッシュボードが共有されます。
 
@@ -61,11 +61,11 @@
 
 チームでの役割は次のとおりです。
 
-  - **オーナー** - 編集、共有、削除など、チームのダッシュボードへの完全なアクセス権があります。
+  - **管理者** - 編集、共有、削除など、チームのダッシュボードへの完全なアクセス権があります。
 
-  - **コントリビューター** - ダッシュボードとフォルダーを作成、編集、共有できますが、削除することはできません。
+  - **メンバー** - ダッシュボードとフォルダーを作成、編集、共有できますが、削除することはできません。
 
-  - **ビューアー** - ダッシュボードを表示および共有できます。
+  - **閲覧者** - ダッシュボードを表示および共有できます。
 
 ここでは、ダッシュボードを共有するときにすべてのチーム メンバーが付与できるアクセス許可オプションを確認できます。
 
@@ -86,24 +86,24 @@
     <th class="tg-t96r" colspan="3">アクセス許可</th>
   </tr>
   <tr>
-    <td class="tg-baqh">オーナー</td>
+    <td class="tg-baqh">管理</td>
     <td class="tg-baqh">変更</td>
-    <td class="tg-baqh">ビューアー</td>
+    <td class="tg-baqh">閲覧</td>
   </tr>
   <tr>
-    <td>Owner</td>
+    <td>管理者</td>
     <td><span style="color: #007F00">〇</span></td>
     <td><span style="color: #007F00">〇</span></td>
     <td><span style="color: #007F00">〇</span></td>
   </tr>
   <tr>
-    <td>Member</td>
+    <td>メンバー</td>
     <td><span style="color: #FF0000">X</span></td>
     <td><span style="color: #007F00">〇</span></td>
     <td><span style="color: #007F00">〇</span></td>
   </tr>
   <tr>
-    <td>Viewer</td>
+    <td>閲覧者</td>
     <td><span style="color: #FF0000">X</span></td>
     <td><span style="color: #FF0000">X</span></td>
     <td><span style="color: #007F00">〇</span></td>
@@ -146,30 +146,30 @@
     <th class="tg-7btt" colspan="3">チームに与えられたアクセス許可</th>
   </tr>
   <tr>
-    <td class="tg-c3ow">オーナー</td>
+    <td class="tg-c3ow">管理</td>
     <td class="tg-c3ow">変更</td>
-    <td class="tg-c3ow">ビューアー</td>
+    <td class="tg-c3ow">閲覧</td>
   </tr>
   <tr>
     <td class="tg-7btt" style="text-align: center !important" colspan="3">メンバーが受け取る最大レベルの権限</td>
   </tr>
   <tr>
-    <td class="tg-0pky">オーナー</td>
-    <td class="tg-c3ow"><span style="color: #007F00">オーナー</span></td>
+    <td class="tg-0pky">管理者</td>
+    <td class="tg-c3ow"><span style="color: #007F00">管理</span></td>
     <td class="tg-c3ow"><span style="color: #D1A827">変更</span></td>
-    <td class="tg-c3ow"><span style="color: #FF0000">ビューアー</span></td>
+    <td class="tg-c3ow"><span style="color: #FF0000">閲覧</span></td>
   </tr>
   <tr>
-    <td class="tg-0pky">コントリビューター</td>
+    <td class="tg-0pky">メンバー</td>
     <td class="tg-c3ow"><span style="color: #D1A827">変更</span></td>
     <td class="tg-c3ow"><span style="color: #D1A827">変更</span></td>
-    <td class="tg-c3ow"><span style="color: #FF0000">ビューアー</span></td>
+    <td class="tg-c3ow"><span style="color: #FF0000">閲覧</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax">ビューアー</td>
-    <td class="tg-baqh"><span style="color: #FF0000">ビューアー</span></td>
-    <td class="tg-baqh"><span style="color: #FF0000">ビューアー</span></td>
-    <td class="tg-baqh"><span style="color: #FF0000">ビューアー</span></td>
+    <td class="tg-0lax">閲覧者</td>
+    <td class="tg-baqh"><span style="color: #FF0000">閲覧</span></td>
+    <td class="tg-baqh"><span style="color: #FF0000">閲覧</span></td>
+    <td class="tg-baqh"><span style="color: #FF0000">閲覧</span></td>
   </tr>
 </table>
 
