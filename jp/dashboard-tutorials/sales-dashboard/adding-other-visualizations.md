@@ -18,37 +18,37 @@
 <tr class="odd">
 <td><p><img src="images/ThumbnailWinLostMonth_All.png" alt="ThumbnailWinLostMonth All" /><br />
 </p>
-<p><a href="#win-lost-by-month">Win/Lost by Month</a><br />
+<p><a href="#win-lost-by-month">Win/Lost by Month (月別の勝敗)</a><br />
 </p></td>
 <td><p><img src="images/ThumbnailForecasted_All.png" alt="ThumbnailForecasted All" /><br />
 </p>
-<p><a href="#forecasted">Forecasted</a><br />
+<p><a href="#forecasted">Forecasted (予測)</a><br />
 </p></td>
 <td><p><img src="images/ThumbnailLostOpportunities_All.png" alt="ThumbnailLostOpportunities All" /><br />
 </p>
-<p><a href="#lost-opportunities">Lost Opportunities</a><br />
+<p><a href="#lost-opportunities">Lost Opportunities (機会損失)</a><br />
 </p></td>
 <td><p><img src="images/ThumbnailPipelinebyTerritory_All.png" alt="ThumbnailPipelinebyTerritory All" /><br />
 </p>
-<p><a href="#pipeline-by-territory">Pipeline by Territory</a><br />
+<p><a href="#pipeline-by-territory">Pipeline by Territory (地域別パイプライン)</a><br />
 </p></td>
 </tr>
 <tr class="even">
 <td><p><img src="images/ThumbnailTotalOpportunities_All.png" alt="ThumbnailTotalOpportunities All" /><br />
 </p>
-<p><a href="#total-opportunities">Total Opportunities</a><br />
+<p><a href="#total-opportunities">Total Opportunities (機会の合計)</a><br />
 </p></td>
 <td><p><img src="images/ThumbnailRevenuebyTerritory_All.png" alt="ThumbnailRevenuebyTerritory All" /><br />
 </p>
-<p><a href="#revenue-by-territory">Revenue by Territory</a><br />
+<p><a href="#revenue-by-territory">Revenue by Territory (地域別収益)</a><br />
 </p></td>
 <td><p><img src="images/ThumbnailPipelineEmployee_All.png" alt="ThumbnailPipelineEmployee All" /><br />
 </p>
-<p><a href="#pipeline-per-employee">Pipeline per Employee</a><br />
+<p><a href="#pipeline-per-employee">Pipeline per Employee (従業員あたりのパイプライン)</a><br />
 </p></td>
 <td><p><img src="images/ThumbnailSalesbyProduct_All.png" alt="ThumbnailSalesbyProduct All" /><br />
 </p>
-<p><a href="#sales-by-product">Sales by Product</a><br />
+<p><a href="#sales-by-product">Sales by Product (製品別売上高)</a><br />
 </p></td>
 </tr>
 </tbody>
@@ -57,9 +57,9 @@
 <a name='win-lost-by-month'></a>
 ### Win/Lost by Month
 
-Win/Lost by Month の表示形式は、6ヶ月間の勝敗の回数を[棒チャート](~/jp/visualization-tutorials/simple-charts.md)で示します。以下は作成方法です。
+Win/Lost by Month 表示形式は、6ヶ月間の勝敗の回数を[棒チャート](~/jp/visualization-tutorials/simple-charts.md)で示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**[Sales Dashboard]** オプションが選択されていることを確認し、 **[データのロード]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データのロード]** を押します。
     
     ![SelectingSalesSheet\_All.png](images/SelectingSalesSheet_All.png)
 
@@ -71,7 +71,7 @@ Win/Lost by Month の表示形式は、6ヶ月間の勝敗の回数を[棒チャ
 
  
 
-3.  データ エディターで、**[日付]** フィールドを [ラベル] に、**[勝]** と **[負]** フィールドを [値] にドラッグアンドドロップします。
+3.  データ エディターで、**Date** フィールドを [ラベル] に、**Win** と **Loss** フィールドを [値] にドラッグアンドドロップします。
     
     ![DragDropSalesWinLossMonth\_All](images/DragDropSalesWinLossMonth_All.png)
 
@@ -86,7 +86,7 @@ Win/Lost by Month の表示形式は、6ヶ月間の勝敗の回数を[棒チャ
  
 
 5.  表示形式で 6ヶ月の期間を表示するには、フィルターを追加する必要があります。
-    これを行うには、**[日付]** をデータ フィルターにドロップし、表示形式フィルター メニューにアクセスするために、それを選択します。その中で、**[フィルター タイプ]** の **[ルールでフィルターする]** を選択します。
+    これを行うには、**Date** をデータ フィルターにドロップし、表示形式フィルター メニューにアクセスするために、それを選択します。その中で、**[フィルター タイプ]** の **[ルールでフィルターする]** を選択します。
     
     ![FilterbyRuleSalesWinLost\_All](images/FilterbyRuleSalesWinLost_All.png)
     
@@ -103,9 +103,9 @@ Win/Lost by Month の表示形式は、6ヶ月間の勝敗の回数を[棒チャ
 <a name='forecasted'></a>
 ### Forecasted
 
-Forecasted の表示形式は、6ヶ月間の予測を[バー チャート](~/jp/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
+Forecasted 表示形式は、6ヶ月間の予測を[バー チャート](~/jp/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、 **Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**[Sales Dashboard]** オプションが選択されていることを確認し、 **[データのロード]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、 **Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データのロード]** を押します。
     
     ![SelectingSalesSheet\_All.png](images/SelectingSalesSheet_All.png)
 
@@ -117,7 +117,7 @@ Forecasted の表示形式は、6ヶ月間の予測を[バー チャート](~/jp
 
  
 
-3.  データ エディターで、**[日付]** フィールドを [ラベル] に、**[Forecasted]** フィールドを [値] にドラッグアンドドロップします。
+3.  データ エディターで、**Date** フィールドを [ラベル] に、**Forecasted** フィールドを [値] にドラッグアンドドロップします。
     
     ![DragDropSalesForecasted\_All](images/DragDropSalesForecasted_All.png)
 
@@ -132,7 +132,7 @@ Forecasted の表示形式は、6ヶ月間の予測を[バー チャート](~/jp
 
  
 
-5.  **[Forecasted]** フィールドにセールス情報が含まれるため通貨の書式設定にする必要があります。[値] で **[Forecasted]** フィールドを選択し、以下の変更を適用します。
+5.  **Forecasted** フィールドにセールス情報が含まれるため通貨の書式設定にする必要があります。[値] で **Forecasted** フィールドを選択し、以下の変更を適用します。
     
     ![SalesForecastedFormatting\_All](images/SalesForecastedFormatting_All.png)
     
@@ -144,7 +144,7 @@ Forecasted の表示形式は、6ヶ月間の予測を[バー チャート](~/jp
  
 
 6.  表示形式で 6ヶ月の期間を表示するには、フィルターを追加する必要があります。
-    これを行うには、**[日付]** をデータ フィルターにドロップし、表示形式フィルター メニューにアクセスするために、それを選択します。その中で、**[フィルター タイプ]** の **[ルールでフィルターする]** を選択します。
+    これを行うには、**Date** をデータ フィルターにドロップし、表示形式フィルター メニューにアクセスするために、それを選択します。その中で、**[フィルター タイプ]** の **[ルールでフィルターする]** を選択します。
     
     ![FilterbyRuleSalesWinLost\_All](images/FilterbyRuleSalesWinLost_All.png)
     
@@ -167,9 +167,9 @@ Forecasted の表示形式は、6ヶ月間の予測を[バー チャート](~/jp
 <a name='lost-opportunities'></a>
 ### Lost Opportunities
 
-Lost Opportunities の表示形式は、[テキスト ゲージ](~/jp/visualization-tutorials/Gauge-Views.html#text-gauge)で機会損失の割合を表示します。以下は作成方法です。
+Lost Opportunities 表示形式は、[テキスト ゲージ](~/jp/visualization-tutorials/Gauge-Views.html#text-gauge)で機会損失の割合を表示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある[+]ボタンを選択します。[新しい表示形式] ダイアログで、 **Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**[Sales Dashboard]** オプションが選択されていることを確認し、 **[データのロード]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、 **Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データのロード]** を押します。
     
     ![SelectingSalesSheet\_All.png](images/SelectingSalesSheet_All.png)
 
@@ -181,14 +181,14 @@ Lost Opportunities の表示形式は、[テキスト ゲージ](~/jp/visualizat
 
  
 
-3.  データ エディターで、**[機会損失]** フィールドを [値] にドラッグアンドドロップします。
+3.  データ エディターで、**Lost Opportunites** フィールドを [値] にドラッグアンドドロップします。
     
     ![DragDropSalesLostOpportunities\_All](images/DragDropSalesLostOpportunities_All.png)
 
  
 
 4.  サンプル ダッシュボードで、機会損失はパーセンテージとして表されます。
-    この書式を適用するには、値プレース ホルダーの [Lost Opportunies] フィールドを選択します。書式設定のメニューで:
+    この書式を適用するには、値プレース ホルダーの Lost Opportunies フィールドを選択します。書式設定のメニューで:
     
     ![SalesWonOpportFormatting\_All](images/SalesWonOpportFormatting_All.png)
     
@@ -227,9 +227,9 @@ Lost Opportunities の表示形式は、[テキスト ゲージ](~/jp/visualizat
 <a name='pipeline-by-territory'></a>
 ### Pipeline by Territory
 
-Pipeline by Territory の表示形式は、[ファンネルチャート](~/jp/visualization-tutorials/simple-charts.md)平均的な販売見込みとそれらの位置を表示します。以下は作成方法です。
+Pipeline by Territory 表示形式は、[ファンネルチャート](~/jp/visualization-tutorials/simple-charts.md)平均的な販売見込みとそれらの位置を表示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。 **[Sales Dashboard]** オプションが選択されていることを確認し、 **[データのロード]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。 **Sales Dashboard** オプションが選択されていることを確認し、 **[データのロード]** を押します。
     
     ![SelectingSalesSheet\_All.png](images/SelectingSalesSheet_All.png)
 
@@ -241,13 +241,13 @@ Pipeline by Territory の表示形式は、[ファンネルチャート](~/jp/vi
 
  
 
-3.  データ エディターで、**[地域]** を [ラベル] に、パイプラインを [値] にドラッグアンドドロップします。
+3.  データ エディターで、**Territory** を [ラベル] に、**Pipeline** を [値] にドラッグアンドドロップします。
     
     ![DragDropSalesPipelineTerritory\_All](images/DragDropSalesPipelineTerritory_All.png)
 
  
 
-4.  **地域**には 4 つの地域しかないため、多くの空の値がありますが、元のデータ ソースの他の列には 1000 を超える値があります。値をフィルタリングするため、**[地域]** をデータ フィルターにドラッグアンドドロップします。
+4.  **Territory** には 4 つの地域しかないため、多くの空の値がありますが、元のデータ ソースの他の列には 1000 を超える値があります。値をフィルタリングするため、**Territory** をデータ フィルターにドラッグアンドドロップします。
     
     ![DragDropTerritoryDataFilter\_All](images/DragDropTerritoryDataFilter_All.png)
     
@@ -263,10 +263,10 @@ Pipeline by Territory の表示形式は、[ファンネルチャート](~/jp/vi
 <a name='opportunities'></a>
 ### Total Opportunities
 
-Total Opportunities の表示形式は、12 か月間の会社の機会が表すによる収益を
+Total Opportunities 表示形式は、12 か月間の会社の機会が表すによる収益を
 [折れ線チャート](~/jp/visualization-tutorials/simple-charts)で表示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式]ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**[Sales Dashboard]** オプションが選択されていることを確認し、**[データのロード]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、**[データのロード]** を押します。
     
     ![SelectingSalesSheet\_All.png](images/SelectingSalesSheet_All.png)
 
@@ -278,7 +278,7 @@ Total Opportunities の表示形式は、12 か月間の会社の機会が表す
 
  
 
-3.  データ エディターで、**[日付]** をラベルに、**[Total Opportunities]** を [値] にドラッグアンドドロップします。
+3.  データ エディターで、**Date** をラベルに、**Total Opportunities** を [値] にドラッグアンドドロップします。
     
     ![DragDropSalesTotalOpportunities\_All](images/DragDropSalesTotalOpportunities_All.png)
 
@@ -292,7 +292,7 @@ Total Opportunities の表示形式は、12 か月間の会社の機会が表す
 
  
 
-5.  **Total Opportunities** フィールドにセールス情報が含まれるため通貨で書式設定する必要があります。[値] の **[Total Opportunities]** フィールドを選択し、次の変更を適用します。
+5.  **Total Opportunities** フィールドにセールス情報が含まれるため通貨で書式設定する必要があります。[値] の **Total Opportunities** フィールドを選択し、次の変更を適用します。
     
     ![SalesForecastedFormatting\_All](images/SalesForecastedFormatting_All.png)
     
@@ -305,7 +305,7 @@ Total Opportunities の表示形式は、12 か月間の会社の機会が表す
  
 
 6.  表示形式で 12ヶ月の期間を表示するには、フィルターを追加する必要があります。
-    これを行うには、**[日付]** をデータ フィルターにドロップし、表示形式フィルター メニューにアクセスするために、それを選択します。その中で、**[フィルター タイプ]** の **[ルールでフィルターする]** を選択します。
+    これを行うには、**Date** をデータ フィルターにドロップし、表示形式フィルター メニューにアクセスするために、それを選択します。その中で、**[フィルター タイプ]** の **[ルールでフィルターする]** を選択します。
     
     ![FilterbyRuleSalesWinLost\_All](images/FilterbyRuleSalesWinLost_All.png)
     
@@ -328,9 +328,9 @@ Total Opportunities の表示形式は、12 か月間の会社の機会が表す
 <a name='revenue-by-territory'></a>
 ### Revenue by Territory
 
-Revenue by Territory の表示形式には、会社の各地域における収益を[円チャート](~/jp/visualization-tutorials/simple-charts.md)で表示されます。以下は作成方法です。
+Revenue by Territory 表示形式には、会社の各地域における収益を[円チャート](~/jp/visualization-tutorials/simple-charts.md)で表示されます。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**[Sales Dashboard]** オプションが選択されていることを確認し、 **[データのロード]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データのロード]** を押します。
     
     ![SelectingSalesSheet\_All.png](images/SelectingSalesSheet_All.png)
 
@@ -342,7 +342,7 @@ Revenue by Territory の表示形式には、会社の各地域における収�
 
  
 
-3.  データ エディターで、**[地域]** を [ラベル]に、**[販売地域]** を [値] にドラッグアンドドロップします。
+3.  データ エディターで、**Territory** を [ラベル] に、**Sales Territory** を [値] にドラッグアンドドロップします。
     
     ![DragDropRevenueTerritory\_All](images/DragDropRevenueTerritory_All.png)
 
@@ -360,9 +360,9 @@ Revenue by Territory の表示形式には、会社の各地域における収�
 <a name='pipeline-per-employee'></a>
 ### Pipeline per Employee
 
-Pipeline per Employee の表示形式は、従業員別の上位 10 位までの販売見込みを[柱状チャート](~/jp/visualization-tutorials/simple-charts.md)で示します。以下は作成方法です。
+Pipeline per Employee 表示形式は、従業員別の上位 10 位までの販売見込みを[柱状チャート](~/jp/visualization-tutorials/simple-charts.md)で示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**[Sales Dashboard]** オプションが選択されていることを確認し、 **[データのロード]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データのロード]** を押します。
     
     ![SelectingSalesSheet\_All.png](images/SelectingSalesSheet_All.png)
 
@@ -374,13 +374,13 @@ Pipeline per Employee の表示形式は、従業員別の上位 10 位までの
 
  
 
-3.  データ エディターで、**[従業員]** を [ラベル]に、**[パイプライン]** を [値] にドラッグアンドドロップします。
+3.  データ エディターで、**Employee** を [ラベル]に、**Pipeline** を [値] にドラッグアンドドロップします。
     
     ![DragDropPipelineEmployee\_All](images/DragDropPipelineEmployee_All.png)
 
  
 
-4.  **パイプライン**の値は売り上げ見込みを参照するため、通貨で書式設定する必要があります。[値] で **[パイプライン]** フィールドを選択し、次の変更を適用します。
+4.  **Pipeline** の値は売り上げ見込みを参照するため、通貨で書式設定する必要があります。[値] で **Pipeline** フィールドを選択し、次の変更を適用します。
     
     ![SalesForecastedFormatting\_All](images/SalesForecastedFormatting_All.png)
     
@@ -393,7 +393,7 @@ Pipeline per Employee の表示形式は、従業員別の上位 10 位までの
  
 
 5.  この表示形式は 見込み客のトップ 10 を表示するため、フィルターが必要です。
-    これを行うには、**[データ フィルターの追加]** を選択し、リストの一番下までスクロールします。集計された **[パイプライン]** フィールドを選択します。
+    これを行うには、**[データ フィルターの追加]** を選択し、リストの一番下までスクロールします。集計された **Pipeline** フィールドを選択します。
     
     ![SelectPipelineDataEditor\_All](images/SelectPipelineDataEditor_All.png)
     
@@ -416,10 +416,9 @@ Pipeline per Employee の表示形式は、従業員別の上位 10 位までの
 <a name='sales-by-product'></a>
 ### Sales by Product
 
-Sales by Product の表示形式は、さまざまな会社の製品とそれぞれの売上げの割合を[ドーナツ型チャート](~/jp/visualization-tutorials/simple-charts.md)で表示します。
-以下は作成方法です。
+Sales by Product 表示形式は、さまざまな会社の製品とそれぞれの売上げの割合を[ドーナツ型チャート](~/jp/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**[Sales Dashboard]** オプションが選択されていることを確認し、 **[データのロード]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データのロード]** を押します。
     
     ![SelectingSalesSheet\_All.png](images/SelectingSalesSheet_All.png)
 
@@ -431,7 +430,7 @@ Sales by Product の表示形式は、さまざまな会社の製品とそれぞ
 
  
 
-3.  データ エディターで、**[製品]** を [ラベル]に、[販売製品] を [値] にドラッグアンドドロップします。
+3.  データ エディターで、**Product** を [ラベル]に、**Sales Product** を [値] にドラッグアンドドロップします。
     
     ![DragDropSalesProduct\_All](images/DragDropSalesProduct_All.png)
 
