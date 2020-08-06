@@ -75,7 +75,7 @@ KPI ゲージは、特定の期間内のパフォーマンスとその変動を�
 | 3\. **チュートリアル スプレッドシートの選択** | ![Tutorials-Select-KPI-Gauge-Spreadsheet](images/Tutorials-Select-KPI-Gauge-Spreadsheet.png) | データソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。 次に、[KPI ゲージ] シートを選択します。                                 |
 | 4\. **表示形式メニューを開く**     | ![Tutorials-Select-Change-Visualization](images/Tutorials-Select-Change-Visualization.png)   | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                |
 | 5\. **表示形式の選択**        | ![Tutorials-Select-KPI-Gauge](images/Tutorials-Select-KPI-Gauge.png)                         | デフォルトで、表示形式のタイプは*グリッド*に設定されています。 **スパークライン** チャートを選択します。                                                            |
-| 6\. **Organize your Data**               | ![Tutorials-KPIGauge-Organizing-Data](images/Tutorials-KPIGauge-Organizing-Data.png)         | [ラベル] に [Date] フィールド、[値]に [Sales] フィールドをドラッグアンドドロップします。                                                                       |
+| 6\. **Organize your Data**               | ![Tutorials-KPIGauge-Organizing-Data](images/Tutorials-KPIGauge-Organizing-Data.png)         | [ラベル] に Date フィールド、[値] に Sales フィールドをドラッグアンドドロップします。                                                                       |
 
 <a name='adding-category-kpi'></a>
 ### 1 つの表示形式で複数の KPI ゲージを作成する方法
@@ -89,7 +89,7 @@ KPI ゲージは、特定の期間内のパフォーマンスとその変動を�
 | 3\. **チュートリアル スプレッドシートの選択** | ![Tutorials-Select-KPI-Gauge-Spreadsheet](images/Tutorials-Select-KPI-Gauge-Spreadsheet.png)         | データソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。 次に、[KPI ゲージ] シートを選択します。                                 |
 | 4\. **表示形式メニューを開く**     | ![Tutorials-Select-Change-Visualization](images/Tutorials-Select-Change-Visualization.png)           | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                |
 | 5\. **表示形式の選択**        | ![Tutorials-Select-KPI-Gauge](images/Tutorials-Select-KPI-Gauge.png)                                 | デフォルトで、表示形式のタイプは*グリッド*に設定されています。 **スパークライン** チャートを選択します。                                                            |
-| 6\. **データの体系化**               | ![Tutorials-MultipleKPIGauge-Organizing-Data](images/Tutorials-MultipleKPIGauge-Organizing-Data.png) | [Date] フィールドを [日付] に、[Sales] フィールドを [値] に、[State] フィールドを [カテゴリ] にドラッグアンドドロップします。                                    |
+| 6\. **データの体系化**               | ![Tutorials-MultipleKPIGauge-Organizing-Data](images/Tutorials-MultipleKPIGauge-Organizing-Data.png) | Date フィールドを [日付] に、Sales フィールドを [値] に、State フィールドを [カテゴリ] にドラッグアンドドロップします。                                    |
 
 <a name='changing-date-comparison-type'></a>
 ### 日付比較タイプの変更
