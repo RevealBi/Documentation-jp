@@ -1,12 +1,11 @@
-## Adding the other Visualizations
+## その他の表示形式の追加
 
-All the remaining visualizations in the dashboards will use the same
-[sample spreadsheet](http://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)
+その他すべてのダッシュボードにある表示形式で同じ[サンプル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)を使用します。
 
 >[!NOTE]
->If you want to [change your data source](changing-data-source-visualization.md), you will need to select the **overflow button** next to the data source name or [create a new data source](creating-new-datasource.md) instead. You can also [duplicate](overview.html#view-edit-mode) visualizations to speed up the creation process.
+>[データソースを変更する](changing-data-source-visualization.md)場合は、データ ソース名の横にあるオーバーフロー ボタンまたは[新しいデータ ソース](creating-new-datasource.md)を選択する必要があります。表示形式を[複製](overview.html#view-edit-mode)し、作成時間を短縮することもできます。
 
-This section will cover the following visualizations:
+このセクションは以下の表示形式について説明します。
 
 <table>
 <colgroup>
@@ -18,25 +17,25 @@ This section will cover the following visualizations:
 <tr class="odd">
 <td><p><img src="images/ThumbnailManufacturingProduction_All.png" alt="ThumbnailManufacturingProduction All" /><br />
 </p>
-<p><a href="#production">Production</a><br />
+<p><a href="#production">Production (製品)</a><br />
 </p></td>
 <td><p><img src="images/ThumbnailManufacturingShipping_All.png" alt="ThumbnailManufacturingShipping All" /><br />
 </p>
-<p><a href="#shipping">Shipping</a><br />
+<p><a href="#shipping">Shipping (配送)</a><br />
 </p></td>
 <td><p><img src="images/ThumbnailAverageHours_All.png" alt="ThumbnailAverageHours All" /><br />
 </p>
-<p><a href="#average-hours">Average Hours</a><br />
+<p><a href="#average-hours">Average Hours (平均時間)</a><br />
 </p></td>
 </tr>
 <tr class="even">
 <td><p><img src="images/ThumbnailManufacturingHeadcount_All.png" alt="ThumbnailManufacturingHeadcount All" /><br />
 </p>
-<p><a href="#headcount">Headcount</a><br />
+<p><a href="#headcount">Headcount (人数)</a><br />
 </p></td>
 <td><p><img src="images/ThumbnailManufacturingLaborCost_All.png" alt="ThumbnailManufacturingLaborCost All" /><br />
 </p>
-<p><a href="#labor-cost">Labor Cost</a><br />
+<p><a href="#labor-cost">Labor Cost (人件費)</a><br />
 </p></td>
 <td></td>
 </tr>
@@ -44,290 +43,217 @@ This section will cover the following visualizations:
 </table>
 
 <a name='production'></a>
-### Production
+### Production (製品)
 
-The Production visualization displays the amount of manufactured goods
-for a 12-month period arranged by worker type in a [line chart](tutorial-simple-charts.md). In order to create it:
+Production 表示形式は、12 か 月間の製造量を作業者タイプ別に [折れ線チャート](tutorial-simple-charts.md)で表示します。以下は作成方法です。
 
-1.  Select the + button in the right corner of your dashboard, and
-    select the **Manufacturing Dashboard** sheet in the
-    **Reveal\_Dashboard\_Tutorials** spreadsheet. Then, select *Load
-    Data*.
+1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Manufacturing Dashboard** シートを選択します。次に、*[データの選択]*を選択します。
     
     ![SelectingManufacturingSheet\_All.png](images/SelectingManufacturingSheet_All.png)
 
 
 
-2.  **Open the visualizations picker** by selecting the grid icon in the
-    top bar, and select the "Line" chart.
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「折れ線チャート」を選択します。
     
     ![SelectLineChart\_All](images/SelectLineChart_All.png)
 
 
 
-3.  In the Data Editor, drag and drop the **Worker Type** field into
-    Label, and the **Production** one into Values.
+3.  データ エディターで **[Worker Type]** フィールドを [ラベル] に、**[Production]** フィールドを [値] にドラッグアンドドロップします。
     
     ![DragDropManufacturingProduction\_All](images/DragDropManufacturingProduction_All.png)
 
 
 
-4.  Because the **Production** field has information on goods that were
-    manufactured, the fraction digits should be removed. Select
-    **Production** in Values, and change **Fraction Digits** to **0**
-    under **Formatting**.
+4.  **[Production]** フィールドには製造された製品の情報があるため、小数桁を削除する必要があります。[値] で **[Production]** を選択し、**[書式設定]** で **[小数桁]** を **[0]** に変更します。
     
     ![ManufacturingProductionFractionDigits\_All](images/ManufacturingProductionFractionDigits_All.png)
     
-    Then, select **Update Field**.
+    次に, **フィールドの更新**を選択します。
 
 
 
-5.  For the line chart to match the color in the sample visualization,
-    change the **Start Color** to the fifth one within the **Settings**
-    screen of the Visualizations Editor.
+5.  折れ線チャートをサンプル表示形式の色と一致させるには、表示形式エディターの **[設定]** 画面で **[開始色]** を 5 番目の色に変更します。
     
     ![ManufacturingProductionChangingStartColor\_All](images/ManufacturingProductionChangingStartColor_All.png)
 
 
 
-6.  **Change the title of your visualization** to "Production" **by selecting the pencil icon** next to "Manufacturing Dashboard".
+6.  **表示形式のタイトルを 「Production」 に変更する**ため、「Manufacturing Dashboard」 の横にある**鉛筆アイコンを選択します**。
 
-Once you are done, go back to the Dashboard Editor by selecting the
-**tick icon** in the top right-hand corner.
+完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='shipping'></a>
-### Shipping
+### Shipping (配送)
 
-The Shipping visualization displays the amount of shipped orders for a
-12 month period in an [area chart](~/jp/visualization-tutorials/simple-charts.md). In order to
-create it:
+Shipping 表示形式は、12 か 月間の出荷量を[エリア チャート](~/jp/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
 
-1.  Select the + button in the right corner of your dashboard, and
-    select the **Manufacturing Dashboard** sheet in the
-    **Reveal\_Dashboard\_Tutorials** spreadsheet. Then, select *Load
-    Data*.
+1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Manufacturing Dashboard** シートを選択します。次に、*[データの選択]*を選択します。
     
     ![SelectingManufacturingSheet\_All.png](images/SelectingManufacturingSheet_All.png)
 
 
 
-2.  **Open the visualizations picker** by selecting the grid icon in the
-    top bar, and select the "Area" chart.
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「エリア型チャート」を選択します。
     
     ![SelectAreaChart\_All](images/SelectAreaChart_All.png)
 
 
 
-3.  In the Data Editor, drag and drop the **Month** field into Label,
-    and the **Shipping Orders** one into Values.
+3.  データ エディターで、**[Month]** フィールドを [ラベル] に、**[Shipping Orders]** フィールドを [値] にドラッグアンドドロップします。
     
     ![DragDropManufacturingShipping\_All](images/DragDropManufacturingShipping_All.png)
 
 
 
-4.  By default, the date aggregation for your information will be set to
-    **Year**. To change this, select the **Month** field in the
-    **Label** placeholder, and change the **Date Aggregation** to
-    **Month**.
+4.  デフォルトでは、情報の日付集計は **[年]** 設定されています。変更するには、**[ラベル]** プレースホルダーの **[日付]** を選択し、**[日付の集計]** を **[月]** に変更します。
     
     ![ManufacturingShippingChangingDateAggregation\_All](images/ManufacturingShippingChangingDateAggregation_All.png)
     
-    Then, select **Update Field**.
+    次に, **フィールドの更新**を選択します。
 
 
-5.  Because the **Shipping Orders** field has information on goods that
-    were shipped to clients, the fraction digits should be removed.
-    Select **Shipping Orders** in Values, and change **Fraction Digits**
-    to **0** under **Formatting**.
+5.  **[Shipping Orders]** フィールドにはクライアントに出荷された製品に関する情報があるため、小数桁を削除する必要があります。[値] で **[Shipping Orders]** を選択し、**[書式設定]** で **[小数桁]** を **[0]** に変更します。
     
     ![ManufacturingShippingFractionDigits\_All](images/ManufacturingShippingFractionDigits_All.png)
     
-    Then, select **Update Field**.
+    次に, **フィールドの更新**を選択します。
 
 
-6.  **Change the title of your visualization** to "Shipping" **by
-    selecting the pencil icon** next to "Manufacturing Dashboard".
+6.  **表示形式のタイトルを 「Shipping」 に変更する**ため、「Manufacturing Dashboard」 の横にある**鉛筆アイコンを選択します**。
 
-Once you are done, go back to the Dashboard Editor by selecting the
-**tick icon** in the top right-hand corner.
+完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='average-hours'></a>
-### Average Hours
+### Average Hours (平均時間)
 
-The Average Hours visualization displays hours logged by the company's
-employees compared to the hours they spent on the company's machinery
-broken down by month in a [spline chart](~/jp/visualization-tutorials/simple-charts.md). In
-order to create it:
+Average Hours 表示形式では、会社の機械に費やされた時間と、会社の従業員によってログに記録された時間の比較を[スプライン チャート](~/jp/visualization-tutorials/simple-charts.md)で月別に表示します。以下は作成方法です。
 
-1.  Select the + button in the right corner of your dashboard, and
-    select the **Manufacturing Dashboard** sheet in the
-    **Reveal\_Dashboard\_Tutorials** spreadsheet. Then, select *Load
-    Data*.
+1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Manufacturing Dashboard** シートを選択します。次に、*[データの選択]*を選択します。
     
     ![SelectingManufacturingSheet\_All.png](images/SelectingManufacturingSheet_All.png)
 
 
-2.  **Open the visualizations picker** by selecting the grid icon in the
-    top bar, and select the "Area" chart.
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「エリア型チャート」を選択します。
     
     ![SelectSplineChart\_All](images/SelectSplineChart_All.png)
 
 
 
-3.  In the Data Editor, drag and drop the **Month** field into Label,
-    and both the **Machine Hours** and the **Employee Hours** fields
-    into Values.
+3.  データ エディターで、**[Month]** フィールドを [ラベル] に、**[Machine Hours]** フィールドと **[Employee Hours]** フィールドの両方を [値] にドラッグアンドドロップします。
     
     ![DragDropManufacturingAverageHours\_All](images/DragDropManufacturingAverageHours_All.png)
 
 
 
-4.  By default, the date aggregation for your information will be set to
-    **Year**. To change this, select the **Month** field in the
-    **Label** placeholder, and change the **Date Aggregation** to
-    **Month**.
+4.  デフォルトでは、情報の日付集計は **[年]** 設定されています。変更するには、**[ラベル]** プレースホルダーの **[日付]** を選択し、**[日付の集計]** を **[月]** に変更します。
     
     ![ManufacturingShippingChangingDateAggregation\_All](images/ManufacturingShippingChangingDateAggregation_All.png)
     
-    Then, select **Update Field**.
+    次に, **フィールドの更新**を選択します。
 
 
 
-5.  To match the sample visualization, remove the fraction digits for
-    hours by selecting *both* **Average Hours** and **Machine Hours**
-    from the Values placeholder, and change **Fraction Digits** to **0**
-    under **Formatting**.
+5.  サンプルの表示形式と一致させるには、[値]　プレースホルダーから **[Average Hours]** と **[Machine Hours]** の*両方*を選択して時間の小数桁を削除し、**[書式設定]** で **[小数桁]** を **[0]** に変更します。
     
     ![ManufacturingAverageHoursFractionDigits\_All](images/ManufacturingAverageHoursFractionDigits_All.png)
     
-    Then, select **Update Field**.
+    次に, **フィールドの更新**を選択します。
 
 
 
-6.  **Change the title of your visualization** to "Average Hours" **by
-    selecting the pencil icon** next to "Manufacturing Dashboard".
+6.  **表示形式のタイトルを 「Average Hours」 に変更する**ため、「Manufacturing Dashboard」 の横にある**鉛筆アイコンを選択します**。
 
-Once you are done, go back to the Dashboard Editor by selecting the
-**tick icon** in the top right-hand corner.
+完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='headcount'></a>
-### Headcount
+### Headcount (人数)
 
-The Headcount visualization displays the amount of workers broken down
-by category in a [bar chart](~/jp/visualization-tutorials/simple-charts.md). In order to create
-it:
+Headcount 表示形式はカテゴリごとに分類された従業員の数を[棒チャート](~/jp/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
 
-1.  Select the + button in the right corner of your dashboard, and
-    select the **Manufacturing Dashboard** sheet in the
-    **Reveal\_Dashboard\_Tutorials** spreadsheet. Then, select *Load
-    Data*.
+1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Manufacturing Dashboard** シートを選択します。次に、*[データの選択]*を選択します。
     
     ![SelectingManufacturingSheet\_All.png](images/SelectingManufacturingSheet_All.png)
 
 
 
-2.  **Open the visualizations picker** by selecting the grid icon in the
-    top bar, and select the "Area" chart.
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「エリア型チャート」を選択します。
     
     ![SelectBarChart\_All](images/SelectBarChart_All.png)
 
 
 
-3.  In the Data Editor, drag and drop the **Division** field into Label,
-    and the **Number of Workers** one into Values.
+3.  データ エディターで、**[Division]** フィールドを [ラベル] に、**[Number of Workers]** フィールドを [値] にドラッグアンドドロップします。
     
     ![DragDropManufacturingHeadcount\_All](images/DragDropManufacturingHeadcount_All.png)
 
 
 
-4.  The **Number of Workers** field should display no fraction digits
-    because of the information it contains refers to people. Select it
-    from the Values placeholder, and change **Fraction Digits** to **0**
-    under **Formatting**.
+4.  **[Number of Workers]** フィールドには、人に関する情報が含まれているため、小数桁は表示されるべきではありません。それを[値] プレースホルダーから選択し、[**書式設定]** で **[小数桁]** を **[0]** に変更します。
     
     ![ManufacturingHeadcountFractionDigits\_All](images/ManufacturingHeadcountFractionDigits_All.png)
     
-    Then, select **Update Field**.
+    次に, **フィールドの更新**を選択します。
 
 
 
-5.  For the bar chart to match the color in the sample visualization,
-    change the **Start Color** to the fourth one within the **Settings**
-    screen of the Visualizations Editor.
+5.  棒チャートをサンプル表示形式の色と一致させるには、表示形式エディターの **[設定]** 画面で **[開始色]** を 4 番目の色に変更します。
     
     ![ManufacturingHeadcountChangingStartColor\_All](images/ManufacturingHeadcountChangingStartColor_All.png)
 
 
-6.  **Change the title of your visualization** to "Headcount" **by
-    selecting the pencil icon** next to "Manufacturing Dashboard".
+6.  **表示形式のタイトルを「Headcount」に変更する**ため、「Manufacturing Dashboard」の横にある**鉛筆アイコンを選択します**。
 
-Once you are done, go back to the Dashboard Editor by selecting the
-**tick icon** in the top right-hand corner.
+完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='labor-cost'></a>
-### Labor Cost
+### Labor Cost (人件費)
 
-The Labor Cost visualization displays the wages for each employee from
-highest to lowest in a [column chart](~/jp/visualization-tutorials/simple-charts.md). In order
-to create it:
+Labor Cost 表示形式は、各従業員の最高から最低までの賃金を[縦棒チャート](~/jp/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
 
-1.  Select the + button in the right corner of your dashboard, and
-    select the **Manufacturing Dashboard** sheet in the
-    **Reveal\_Dashboard\_Tutorials** spreadsheet. Then, select *Load
-    Data*.
+1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Manufacturing Dashboard** シートを選択します。次に、*[データの選択]*を選択します。
     
     ![SelectingManufacturingSheet\_All.png](images/SelectingManufacturingSheet_All.png)
 
 
 
-2.  **Open the visualizations picker** by selecting the grid icon in the
-    top bar, and select the "Area" chart.
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「エリア型チャート」を選択します。
     
     ![SelectColumnChart\_All](images/SelectColumnChart_All.png)
 
 
 
-3.  In the Data Editor, drag and drop the **Employee** field into Label,
-    and the **Labor** one into Values.
+3.  データ エディターで、**[Employee]** フィールドを [ラベル] に、**[Labor]** フィールドを [値] にドラッグアンドドロップします。
     
     ![DragDropManufacturingHeadcount\_All](images/DragDropManufacturingHeadcount_All.png)
 
 
 
-4.  The Labor figures should be formatted to be shown as currency and
-    with no fraction digits. In order to do this, select the **Labor**
-    field from the Values placeholder and apply the following changes:
+4.  [Labor] の数値は、小数桁のない通貨として表示するために書式設定する必要があります。これを行うには、[値] プレースホルダーで **[Labor]** フィールドを選択し、以下の変更を適用します。
     
     ![ManufacturingLaborCostFormatting\_All](images/ManufacturingLaborCostFormatting_All.png)
     
-      - **Type**: Currency
+      - **型**: 通貨
     
-      - **Fraction Digits**: 0
+      - **小数桁**: 0
         
-        In addition, the visualization displays the wages in descending
-        order. In this same dialog, change the **Sorting** from None to
-        **Descending**.
+        また、表示形式は賃金を降順で表示します。同じダイアログで、**[並べ替え]** を [なし] から **[降順]** に変更します。
         
         ![ManufacturingLaborCostDescendingOrder\_All](images/ManufacturingLaborCostDescendingOrder_All.png)
         
-        Then, select **Update Field**.
+        次に, **フィールドの更新**を選択します。
 
 
 
-5.  For the column chart to match the color in the sample visualization,
-    change the **Start Color** to the second one within the **Settings**
-    screen of the Visualizations Editor.
+5.  縦棒チャートをサンプル表示形式の色と一致させるには、表示形式エディターの **[設定]** 画面で **[開始色]** を 2 番目の色に変更します。
     
     ![ManufacturingLaborCostChangingStartColor\_All](images/ManufacturingLaborCostChangingStartColor_All.png)
 
 
 
-6.  **Change the title of your visualization** to "Labor Cost" **by
-    selecting the pencil icon** next to "Manufacturing Dashboard".
+6.  **表示形式のタイトルを「Labor Cost」に変更する**ため、「Manufacturing Dashboard」の横にある**鉛筆アイコンを選択します**。
 
-Once you are done, go back to the Dashboard Editor by selecting the
-**tick icon** in the top right-hand corner.
+完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <style>
 .previous {
@@ -340,5 +266,5 @@ Once you are done, go back to the Dashboard Editor by selecting the
 
 </style>
 
-<a href="manufacturing-applying-theme.md" class="previous">&laquo; Previous Step</a>
-<a href="manufacturing-saving-dashboard.md" class="next">Next Step &raquo;</a>
+<a href="manufacturing-applying-theme.md" class="previous">&laquo; 前へ</a>
+<a href="manufacturing-saving-dashboard.md" class="next">次へ &raquo;</a>
