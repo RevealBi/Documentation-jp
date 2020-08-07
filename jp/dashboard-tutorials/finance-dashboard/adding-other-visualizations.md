@@ -1,12 +1,12 @@
-## Adding the other Visualizations
+## その他の表示形式の追加
 
-All the remaining visualizations in the dashboards will use the same
-[sample spreadsheet](http://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx).
+ダッシュボードにあるその他すべての表示形式で同じ [サンプル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)を使用します。
+
 
 >[!NOTE]
->If you want to [change your data source](changing-data-source-visualization.md), you will need to select the **overflow button** next to the data source name or [create a new data source](creating-new-datasource.md) instead. You can also[duplicate](~/jp/general/overview.html#view-edit-mode) visualizations to speed up the creation process.
+>[データソースを変更する](changing-data-source-visualization.md)場合は、データ ソース名の横にあるオーバーフロー ボタンまたは[新しいデータ ソース](creating-new-datasource.md)を選択する必要があります。表示形式を[複製](~/jp/general/overview.html#view-edit-mode)し、作成時間を短縮することもできます。
 
-This section will cover the following visualizations:
+このセクションは以下の表示形式について説明します。
 
 <table>
 <colgroup>
@@ -18,25 +18,25 @@ This section will cover the following visualizations:
 <tr class="odd">
 <td><p><img src="images/ThumbnailSISStockValue_All.png" alt="ThumbnailSISStockValue All" /><br />
 </p>
-<p><a href="#sis-stock-value-2018">Silver Security Stock Value 2018</a><br />
+<p><a href="#sis-stock-value-2018">Silver Security Stock Value 2018 (2018 年 Silver Security 株価指数)</a><br />
 </p></td>
 <td><p><img src="images/ThumbnailSISNYSEBATS_All.png" alt="ThumbnailSISNYSEBATS All" /><br />
 </p>
-<p><a href="#glb-fiscal-monthly">GLB Fiscal (Monthly) NYSE + BATS</a><br />
+<p><a href="#glb-fiscal-monthly">GLB Fiscal (Monthly) NYSE + BATS (Globex 月次会計; ニューヨーク証券取引所 + アドバンストオルタナティブトレーディングシステム) </a><br />
 </p></td>
 <td><p><img src="images/ThumbnailForecast_All.png" alt="ThumbnailForecast All" /><br />
 </p>
-<p><a href="#forecast-change-bid-offers">Forecast (Chg, Bid &amp; Offers) - 2018 to 2023</a><br />
+<p><a href="#forecast-change-bid-offers">Forecast (Chg, Bid & Offers) - 2018 to 2023 (予測 (変動、買注文、売注文) - 2018 年 ～  2023 年</a><br />
 </p></td>
 </tr>
 <tr class="even">
 <td><p><img src="images/ThumbnailStockVariation_All.png" alt="ThumbnailStockVariation All" /><br />
 </p>
-<p><a href="#stock-variations">Stock Variations</a><br />
+<p><a href="#stock-variations">Stock Variations (株価の変動)</a><br />
 </p></td>
 <td><p><img src="images/ThumbnailStockVolumes_All.png" alt="ThumbnailStockVolumes All" /><br />
 </p>
-<p><a href="#stock-volumes">Stock Volumes</a><br />
+<p><a href="#stock-volumes">Stock Volumes (株式量)</a><br />
 </p></td>
 <td></td>
 </tr>
@@ -44,308 +44,230 @@ This section will cover the following visualizations:
 </table>
 
 <a name='sis-stock-value-2018'></a>
-### Silver Security Stock Value 2018
+### Silver Security Stock Value 2018 (2018 年 Silver Security 株価指数)
 
-The SIS Stock Value 2018 visualization displays the average value for
-the Soylent Corp stock during 2018 in a [text gauge](~/jp/visualization-tutaorials/gauge-views.html#create-text-gauge). In this case, you can
-duplicate the first visualization created during the first steps, as all
-that will change is the selected filter.
+SIS Stock Value 2018 表示形式は、2018 年の Soylent Corp 株の平均値を[テキスト ゲージ](~/jp/visualization-tutaorials/gauge-views.html#create-text-gauge)で表示します。この場合、変更されるのは選択したフィルターのみであるため、最初の手順で作成された最初の表示形式を複製できます。
 
-1.  Open the overflow button in the "Globex Stock Value 2018"
-    visualization, and then select **Duplicate**.
+1.  「Globex Stock Value 2018」 表示形式でオーバーフロー ボタンを開き、**[複製]** を選択します。
 
     ![DuplicatingVisualizationSISStockValue\_All](images/DuplicatingVisualizationSISStockValue_All.png)
 
 <!-- end list -->
 
-2.  Rename the visualization by opening its overflow button and
-    selecting **Rename**.
+2.  表示形式の名前を変更するには、オーバーフロー ボタンを開き、**[名前の変更]** を選択します。
 
     ![DuplicateVisualizationRenaming\_All](images/DuplicateVisualizationRenaming_All.png)
 
-    Set the value to "Silver Security Stock Value 2018"
+    値を 「Silver Security Stock Value 2018」 に設定します。
 
     ![SISStockRenamingVisualization\_All](images/SISStockRenamingVisualization_All.png)
 
 <!-- end list -->
 
-3.  Enter Edit Mode by selecting the overflow button again and selecting
-    **Edit**.
+3.  オーバーフロー ボタンをもう一度選択し、**[編集]** を選択して編集モードに入ります。
 
     ![SISStockValueEditingVisualization\_All](images/SISStockValueEditingVisualization_All.png)
 
 <!-- end list -->
 
-4.  This visualization displays the stock value for **Silver Security
-    Corp**, as it is the second highest stock value. Because we choose
-    to duplicate the visualization, the number you are seeing in the
-    text gauge corresponds to **Globex**. In order to change it, select
-    the **Stocks** field in **Data Filters**. Then, change the
-    **Selected Value** to **Silver Security Corp** and *unselect
-    Globex*.
+4.  この表示形式は、**Silver Security Corp** の株価 (2 番目に高い株価) を表示します。表示形式の複製を選択したため、テキスト ゲージに表示される数値は **Globex** に対応します。変更するには、**[データ フィルター]** の **Stocks** フィールドを選択します。次に、**Selected Value** を **Silver Security Corp** に変更し、*Globex の選択を解除します*。
 
     ![SISStockValueChangeStock\_All](images/SISStockValueChangeStock_All.png)
 
-    Then, select **Update Filter**.
+    次に, **[フィルターの更新]** を選択します。
 
-Once you are done, go back to the Dashboard Editor by selecting the
-**tick icon** in the top right-hand corner.
+完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name=glb-fiscal-monthly></a>
-### GLB Fiscal (Monthly) NYSE + BATS
+### GLB Fiscal (Monthly) NYSE + BATS (Globex 月次会計; ニューヨーク証券取引所 + アドバンストオルタナティブトレーディングシステム)
 
-The GLB Fiscal visualization displays the price movements for the Globex
-stock during 2018 considering both the New York Stock Exchange (NYSE)
-and the Better Alternative Trading System (BATS) values in a
-[Candlestick Chart](~/jp/visualization-tutorials/candlestick-chart.md). In order to create it:
+GLB Fiscal 表示形式は、ニューヨーク証券取引所 (New York Stock Exchange - NYSE) と アドバンストオルタナティブトレーディングシステム (Better Alternative Trading System - BATS) の両方を考慮して、2018 年の Globex 株の価格変動を[ローソク足チャート](~/jp/visualization-tutorials/candlestick-chart.md)で表示します。
+以下は作成方法です。
 
-1.  Select the + button in the right corner of your dashboard, and
-    select the **Finance Dashboard** sheet in the
-    **Reveal\_Dashboard\_Tutorials** spreadsheet. Then, select *Load Data*.
+1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Finance Dashboard** シートを選択します。次に、[データの選択] を選択します。
 
     ![SelectingFinanceSheet\_All.png](images/SelectingFinanceSheet_All.png)
 
 <!-- end list -->
 
-2.  **Open the visualizations picker** by selecting the grid icon in the
-    top bar, and select the "Candlestick" chart.
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「ローソク足チャート」を選択します。
 
     ![SelectCandlestickChart\_All](images/SelectCandlestickChart_All.png)
 
 <!-- end list -->
 
-3.  In the Data Editor, drag and drop the **Date** field into the Label
-    placeholder of the data editor, **Open** into Open, **High** into
-    High, **Low** into Low and **Close** into Close.
+3.  データ エディターで、**Date** フィールドをデータ エディターの [ラベル] プレースホルダーにドラッグアンドドロップし、**Open** を [始値] に、**High** を [高値] に、**Low** を [安値] に、**Close** を [終値] にドラッグアンドドロップします。
 
     ![DragDropFinanceGLBFiscal\_All](images/DragDropFinanceGLBFiscal_All.png)
 
 <!-- end list -->
 
-4.  By default, the Date information in Label will be displayed in
-    years. In order to change this, select **Date** in the Label
-    placeholder of the data editor, and change the **Date Aggregation**
-    to **Day**.
+4.  デフォルトで、[ラベル]の日付情報は年で表示されます。変更するには、データ エディターの [ラベル] プレースホルダーの **[日付]** を選択し、**[日付の集計]** を **[日]** に変更します。
 
     ![FinanceGLBDateAggregation\_All](images/FinanceGLBDateAggregation_All.png)
 
-    Then, select **Update Field**.
+    次に, **[フィールドの更新]** を選択します。
 
 <!-- end list -->
 
-5.  If needed, you can remove the fraction digits in the Y axis by
-    selecting the values in Open, High, Low and Close, and changing
-    **Fraction Digits** to **0**.
+5.  必要に応じて、[始値]、[高値]、[安値]、[終値]の値を選択し**、[小数桁]**を **[0]** に変更して、Y 軸の小数桁を削除できます。
 
     ![GLBFiscalRemovingFractionDigits\_All](images/GLBFiscalRemovingFractionDigits_All.png)
 
-    Then, select **Update Field**.
+    次に, **[フィールドの更新]** を選択します。
 
 <!-- end list -->
 
-6.  The visualization displays the GLB stock value, so **you will need
-    to introduce a filter** for **Stocks** in order to display that
-    particular option. Drag and drop **Stocks** into **Data Filters**
-    and then choose **Select Values**.
+6.  表示形式は GLB 株価を表示するため、その特定のオプションを表示するために **Stocks** の**フィルターを導入する**必要があります。**Stocks** を **[データ フィルター]** にドラッグアンドドロップし、**[値の選択]** を選択します。
 
     ![GlobexCandlestickSelectValues\_All](images/GlobexCandlestickSelectValues_All.png)
 
-    There, uncheck all options and select only **Globex**.
+    すべてのオプションをチェック解除し、**Globex** のみを選択します。
 
     ![GlobexCandlestickSelectGlobex\_All](images/GlobexCandlestickSelectGlobex_All.png)
 
-    Then, select **Create Filter**.
+    次に、**[フィルターの作成]** を選択します。
 
 <!-- end list -->
 
-7.  You will also need to introduce a filter in order to display
-    information only for 2018. To do this, drag and drop **Date** into
-    the **Data Filters** placeholder of the data editor and, under
-    **Filter Type**, select **Filter by Rule**.
+7.  2018 年の情報のみを表示するには、フィルターを導入する必要があります。これを行うには、**Date** をデータ エディターの **[データ フィルター]** プレースホルダーにドラッグアンドドロップし、**[フィルター タイプ]** で **[ルールによるフィルター]** を選択します。
 
     ![GLBFilterbyRule](images/GLBFilterbyRule.png)
 
-    Select the **Custom Date Range** rule and enter January 1st through
-    December 31st.
+    **[カスタム日付範囲]** ルールを選択し、1 月 1 日から 12 月 3 1日までを入力します。
 
     ![GLBEnterCustomDateRange\_All](images/GLBEnterCustomDateRange_All.png)
 
-    Then, select **Create Filter**.
+    次に、**[フィルターの作成]** を選択します。
 
 <!-- end list -->
 
-8.  **Change the title of your visualization** to "GLB Fiscal (Monthly)
-    NYSE + BATS" **by selecting the pencil icon** next to "Finance
-    Dashboard".
+8.  **表示形式のタイトルを 「GLB Fiscal (Monthly) NYSE + BATS」 に変更する**ため、「Finance Dashboard」 の横にある**鉛筆アイコンを選択します。**
 
-Once you are done, go back to the Dashboard Editor by selecting the
-**tick icon** in the top right-hand corner.
+完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='forecast-change-bid-offers'></a>
-### Forecast (Chg, Bid & Offers) - 2018 to 2023
+### Forecast (Chg, Bid & Offers) - 2018 to 2023 (予測 (変動、買注文、売注文) - 2018 年 ～  2023 年
 
-The Forecast visualization displays the changes, bids and offers for all
-stocks for a 5 year period in a [line chart](~/jp/visualization-tutorials/simple-charts.md). In
-order to create it:
+Forecast 表示形式は、5 年間の株の変動、買注文、売注文を[折れ線チャート](~/jp/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
 
-1.  Select the + button in the right corner of your dashboard, and
-    select the **Finance Dashboard** sheet in the
-    **Reveal\_Dashboard\_Tutorials** spreadsheet. Then, select *Load
-    Data*.
+1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Finance Dashboard** シートを選択します。次に、*[データの選択]* を選択します。
 
     ![SelectingFinanceSheet\_All.png](images/SelectingFinanceSheet_All.png)
 
 <!-- end list -->
 
-2.  **Open the visualizations picker** by selecting the grid icon in the
-    top bar, and select the "Line" chart.
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「折れ線チャート」を選択します。
 
     ![SelectLineChart\_All](images/SelectLineChart_All.png)
 
 <!-- end list -->
 
-3.  In the Data Editor, drag and drop the **Date** field into Label,
-    **Stocks** into the *Add Hierarchy* section of Label, and
-    **Change**, **Bid** and **Offer** into **Values**.
+3.  データエ ディターで、**Date** フィールドを [ラベル] に、**Stocks** を [ラベル] の *[階層の追加]* セクションに、**Change**、**Bid**、**Offer** を **[値]** にドラッグアンドドロップします。
 
     ![DragDropFinanceForecast\_All](images/DragDropFinanceForecast_All.png)
 
 <!-- end list -->
 
-4.  By default, the Date information in Label will be displayed in
-    years. In order to change this, select **Date** in the Label
-    placeholder of the data editor, and change the **Date Aggregation**
-    to **Month**.
+4.  デフォルトで、[ラベル]の日付情報は年で表示されます。変更するには、データ エディターの [ラベル] プレースホルダーの **[日付]** を選択し、**[日付の集計]** を **[月]** に変更します。
 
     ![FinanceForecastDateAggregation\_All](images/FinanceForecastDateAggregation_All.png)
 
-    Then, select **Update Field**.
+    次に, **[フィールドの更新]** を選択します。
 
 <!-- end list -->
 
-5.  To remove the fraction digits in the Y axis, select the fields in
-    Values, and change **Fraction Digits** to **0**.
+5.  Y 軸の小数桁を削除するには、[値] フィールドを選択し、**[小数桁]** を **[0]** に変更します。
 
     ![ForecastRemovingFractionDigits\_All](images/ForecastRemovingFractionDigits_All.png)
 
-    Then, select **Update Field**.
+    次に, **[フィールドの更新]** を選択します。
 
 <!-- end list -->
 
-6.  **Change the title of your visualization** to "Forecast (Chg, Bid &
-    Offers) - 2018 to 2023" **by selecting the pencil icon** next to
-    "Finance Dashboard".
+6.  **表示形式のタイトルを 「Forecast (Chg, Bid & Offers) - 2018 to 2023」 に変更する**ため、「Finance Dashboard」 の横にある**鉛筆アイコンを選択します。**
 
-Once you are done, go back to the Dashboard Editor by selecting the
-**tick icon** in the top right-hand corner.
+完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='stock-variations'></a>
-### Stock Variations
+### Stock Variations (株価の変動)
 
-The Stock Variations visualization displays the change in stock offers
-for a 12 month period in a [sparkline chart](~/jp/visualization-tutorials/sparkline-charts.md).
-In order to create it:
+Stock Variations 表示形式は、12 か月間の株価の変化を[スパークライン チャート](~/jp/visualization-tutorials/sparkline-charts.md)で表示します。以下は作成方法です。
 
-1.  Select the + button in the right corner of your dashboard, and
-    select the **Finance Dashboard** sheet in the
-    **Reveal\_Dashboard\_Tutorials** spreadsheet. Then, select *Load
-    Data*.
+1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Finance Dashboard** シートを選択します。次に、*[データの選択]* を選択します。
 
     ![SelectingFinanceSheet\_All.png](images/SelectingFinanceSheet_All.png)
 
 <!-- end list -->
 
-2.  **Open the visualizations picker** by selecting the grid icon in the
-    top bar, and select the "Sparkline" chart.
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「スパークライン チャート」を選択します。
 
     ![SelectSparklineChart\_All](images/SelectSparklineChart_All.png)
 
 <!-- end list -->
 
-3.  In the Data Editor, drag and drop the **Date** field into Date, the
-    **Offer** field into **Value** and **Stocks** into Category.
+3.  データ エディターで、**Date** フィールドを [日付] に、**Offer** フィールドを **[値]** に、**Stocks** を [カテゴリ] にドラッグアンドドロップします。
 
     ![DragDropFinanceStockVariation\_All](images/DragDropFinanceStockVariation_All.png)
 
 <!-- end list -->
 
-4.  By default, the **Offer** field will be displayed as a number. In
-    order to display it as currency, select it in the data editor and
-    change **Type** to **Currency**.
+4.  デフォルトで、**Offer** フィールドは数値として表示されます。通貨として表示するには、フィールドを選択し、**[タイプ]** **を [通貨]** に変更します。
 
     ![StockVariationCurrencyFormatting\_All](images/StockVariationCurrencyFormatting_All.png)
 
-    Then, select **Update Field**
+    次に, **[フィールドの更新]** を選択します。
 
 <!-- end list -->
 
-5.  The **Last 12 Months** chart will be displayed using a Line Chart by
-    default. In order to match the sample, let's set it to display an
-    area chart instead. Go to the **Settings** menu of the
-    Visualizations Editor, open the **Chart Type** dropdown, and select
-    **Area**.
+5.  **過去 12 か月**のチャートは、デフォルトで折れ線チャートで表示されます。サンプルと一致させるために、代わりにエリア チャートを表示するように設定します。表示形式エディターの **[設定]** メニューに移動し、**[チャート タイプ]** ドロップダウンを開き、**[エリア]** を選択します。
 
     ![StockVariationChangingChartType\_All](images/StockVariationChangingChartType_All.png)
 
 <!-- end list -->
 
-6.  **Change the title of your visualization** to "Stock Variations"
-    **by selecting the pencil icon** next to "Finance Dashboard".
+6.  **表示形式のタイトルを 「Stock Variations」 に変更する**ため、「Finance Dashboard」 の横にある**鉛筆アイコンを選択します**。
 
-Once you are done, go back to the Dashboard Editor by selecting the
-**tick icon** in the top right-hand corner.
+完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='stock-volumes'></a>
-### Stock Volumes
+### Stock Volumes (株式量)
 
-The Stock Volumes visualization displays the amount of stocks available
-during a one year period in a [line gauge](~/jp/visualization-tutorials/gauge-views#create-linear-gauge). In order to create it:
+Stock Volumes 表示形式は、1 年間の株式数を[リニア ゲージ](~/jp/visualization-tutorials/gauge-views#create-linear-gauge)で表示します。以下は作成方法です。
 
-1.  Select the + button in the right corner of your dashboard, and
-    select the **Finance Dashboard** sheet in the
-    **Reveal\_Dashboard\_Tutorials** spreadsheet. Then, select *Load
-    Data*.
+1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Finance Dashboard** シートを選択します。次に、*[データの選択]* を選択します。
 
     ![SelectingFinanceSheet\_All.png](images/SelectingFinanceSheet_All.png)
 
 <!-- end list -->
 
-2.  **Open the visualizations picker** by selecting the grid icon in the
-    top bar, and select the "Sparkline" chart.
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「スパークライン チャート」を選択します。
 
     ![SelectLinearGauge\_All](images/SelectLinearGauge_All.png)
 
 <!-- end list -->
 
-3.  In the Data Editor, drag and drop the **Stocks** field into Label
-    and the **Volume** field into the Values placeholder of the data
-    editor.
+3.  データ エディターで、**Stocks**フィールドを [ラベル] に、**Volume** をデータ エディターの [値] プレースホルダーにドラッグアンドドロップします。
 
     ![DragDropFinanceStockVolume\_All](images/DragDropFinanceStockVolume_All.png)
 
 <!-- end list -->
 
-4.  You will also need to introduce a filter in order to display
-    information only for 2018. To do this, drag and drop **Date** into
-    the **Data Filters** placeholder of the data editor and, under
-    **Filter Type**, select **Filter by Rule**.
+4.  2018 年の情報のみを表示するには、フィルターを導入する必要があります。これを行うには、**Date** をデータ エディターの [データ フィルター] プレースホルダーにドラッグアンドドロップし、**[フィルター タイプ]** で **[ルールによるフィルター]** を選択します。
 
     ![StockVolFilterbyRule\_All](images/StockVolFilterbyRule_All.png)
 
-    Select the **Custom Date Range** rule and enter January 1st through
-    December 31st.
+    **[カスタム日付範囲]** ルールを選択し、1 月 1 日から 12 月 3 1日までを入力します。
 
     ![StockVolEnterCustomDateRange\_All](images/StockVolEnterCustomDateRange_All.png)
 
-    Then, select **Create Filter**.
+    次に、**[フィルターの作成]** を選択します。
 
 <!-- end list -->
 
-5.  **Change the title of your visualization** to "Stock Volumes" **by
-    selecting the pencil icon** next to "Finance Dashboard".
+5.  **表示形式のタイトルを「Stock Volumes」に変更する**ため、「Finance Dashboard」の横にある**鉛筆アイコンを選択します**。
 
-Once you are done, go back to the Dashboard Editor by selecting the
-**tick icon** in the top right-hand corner.
+完了したら、右上隅の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <style>
 .previous {
@@ -358,5 +280,5 @@ Once you are done, go back to the Dashboard Editor by selecting the
 
 </style>
 
-<a href="finance-applying-theme.md" class="previous">&laquo; Previous Step</a>
-<a href="finance-saving-dashboard.md" class="next">Next Step &raquo;</a>
+<a href="finance-applying-theme.md" class="previous">&laquo; 前へ</a>
+<a href="finance-saving-dashboard.md" class="next">次へ &raquo;</a>
