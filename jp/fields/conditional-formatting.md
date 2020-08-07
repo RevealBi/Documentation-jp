@@ -1,6 +1,6 @@
 ## 条件付き書式
 
-条件付き書式を使用して数値列の値に応じて、セル  (または[テキス トビュー](~/jp/data-visualizations/text-view.md))の行に異なる書式を設定できます。たとえば、グリッドの下位 50% 範囲内の値は、非常に低い値を通知する赤色のアドナーで色を付けることができます。
+条件付き書式を使用して数値列の値に応じて、セル  (または[テキス トビュー](text-view.md))の行に異なる書式を設定できます。たとえば、グリッドの下位 50% 範囲内の値は、非常に低い値を通知する赤色のアドナーで色を付けることができます。
 
 <img src="images/pivot-table-view-conditional-formatting.png" alt="Pivot table view conditional formatting in the Visualization editor" width="800"/>
 
@@ -32,11 +32,11 @@
 
 条件付き書式は、以下の表示形式に適用できます。
 
-  - [グリッド ビュー](~/jp/data-visualizations/grid-view.md)
+  - [グリッド ビュー](grid-view.md)
 
-  - [ピボット表ビュー](~/jp/data-visualizations/pivot-table.md)
+  - [ピボット表ビュー](pivot-table.md)
 
-  - [テキスト ビュー](~/jp/data-visualizations/text-view.md)
+  - [テキスト ビュー](text-view.md)
 
 >[!NOTE]
->[KPI](~/jp/data-visualizations/kpi-gauge.md)、[リニア](~/jp/data-visualizations/gauge-views.html#linear-gauge)、[円形](~/jp/data-visualizations/gauge-views.html#circular-gauge)、[テキスト](~/jp/data-visualizations/gauge-views.html#text-gauge)、および[ブレット グラフ](~/jp/data-visualizations/gauge-views.html#bullet-graph) ゲージは、[**表示形式バンドの範囲の構成**](~/jp/data-visualizations/gauge-views.html#bands-configuration).で条件付き書式をサポートします
+>[KPI](kpi-gauge.md)、[リニア](gauge-views.html#linear-gauge)、[円形](gauge-views.html#circular-gauge)、[テキスト](gauge-views.html#text-gauge)、および[ブレット グラフ](gauge-views.html#bullet-graph) ゲージは、[**表示形式バンドの範囲の構成**](gauge-views.html#bands-configuration).で条件付き書式をサポートします

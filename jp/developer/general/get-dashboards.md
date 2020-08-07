@@ -29,6 +29,6 @@ Reveal SDK を使用して最初からダッシュボードを作成すること
 
     オーバーフロー メニューに移動し、`[エクスポート]`、`[ダッシュボード]` の順に選択します。これにより、後で SDK を統合するときにアプリケーションで使用する拡張子 .rdash のファイルが生成されます。
 
-    ![export\_dashboards\_sdk\_web](images/export_dashboards_sdk_web.png)
+    <img src="images/export_dashboards_sdk_web.png" alt="exporting format dialog " width="800"/>
 
     ダッシュボード ファイルは、電子メール (Android および iOS) を介してエクスポートすることも、コンピュータ上の .rdash ファイル (デスクトップおよび Web) としてエクスポートすることもできます。

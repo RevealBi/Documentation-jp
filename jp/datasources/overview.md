@@ -6,7 +6,7 @@
 * *コンテンツ マネージャー* と *クラウド サービス* ([Box](box.md)、[Dropbox](dropbox.md)、[Google Drive](google-drive.md)、[OneDrive](onedrive.md) と [SharePoint Online](sharepoint.md))。
 * *カスタマー リレーションシップ マネージャー* ([Microsoft Dynamics CRM](microsoft-dynamics-crm.md) オンプレミスおよびオンライン)。
 * *データベース* ([Microsoft SQL Server](Microsoft-SQL-Server.md)、[Microsoft Analysis Services Server](Microsoft-Analysis-Services.md)、[MySQL](MySQL.md)、[PostgreSQL](PostgreSQL.md)、[Oracle](Oracle.md)、[Sybase](Sybase.md))[*](~/en/general/feature-matrix.html#databases-web)
-* *その他のデータ ソース* (OData Feed、Web Resources、JSON files)。
+* *その他のデータ ソース* ([OData-Feed](odatafeed.md)、[Web-Resource](web-resource.md)、[JSON ファイル](working-with-json-files.md))。
 
 ### 資格情報を入力
 
@@ -30,9 +30,9 @@
 
 ![Creating-New-Account](images/Creating-New-Account.png)
 
-以下の情報を提供する必要があります。
+以下の情報を設定できます。
 
-* *名前*: データソース アカウントの名前。以前のダイアログのアカウントのリストに表示されます。
+* データソースの*デフォルト名*: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal はデータソースと同じ名前を付けます。変更するには、**鉛筆**アイコンを選択します。
 * (オプション) *ドメイン*: ドメイン名 (適用可能な場合)。
 * *ユーザー名*: データ ソースのユーザー アカウント。
 * *パスワード*: データ ソース用のパスワード。

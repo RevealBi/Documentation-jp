@@ -1,12 +1,12 @@
 ## データ ソースの概要
 
-データ ソースはデータの送信元です。Reveal は解析ツール、コンテント マネージャー、CRM、データベース、スプレッドシート、ソーシャル メディア、および公開用のデータ ソースに接続できます。ユーザーがコンピューターまたはネットワークでソースへ直接アクセスする必要はありません。
+データ ソースはデータの送信元です。Reveal は解析ツール、コンテント マネージャー、CRM、データベース、スプレッドシート、および公開用のデータ ソースに接続できます。ユーザーがコンピューターまたはネットワークでソースへ直接アクセスする必要はありません。
 
-以下のスクリーンショットはアプリケーションで構成される複数のデータ ソースを表示します。
+以下のスクリーンショットでは、ユーザーがアプリケーションで接続される複数のデータ ソースを表示します。
 
 ![Sample data sources](images/sample-data-sources-screen.png)
 
-### データ ソースの構成方法とは?
+### データ ソースに接続する方法とは?
 
 *[+] 表示形式*ボタンを選択してダッシュボードを作成すると、新しいデータソースまたは既存のデータソースを設定するよう求められます。
 
@@ -28,7 +28,7 @@
 
   - [Google Drive](google-drive.md)
 
-  - [Microsoft Analysis サービス](microsoft-analysis-services/microsoft-analysis-services.md)
+  - [Microsoft Analysis Services](microsoft-analysis-services/configuring-microsoft-analysis-services.md)
 
   - [Microsoft Azure Synapse Analytics](microsoft-azure-synapse-analytics.md)
 

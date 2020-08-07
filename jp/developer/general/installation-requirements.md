@@ -2,11 +2,11 @@
 
 ### デスクトップ SDK 要件
 
-Reveal SDK は、.NET バージョン 4.6.1 以降および Visual Studio 2015 以降が必要です。
+Reveal SDK は、.NET バージョン 4.6.2 以降および Visual Studio 2015 以降が必要です。
 
 ### ウェブ SDK 要件
 
-Reveal Server SDK は、.NET Framework 4.6.1 をターゲットとする .NET Core 2+ サーバーサイド プロジェクトが必要です。
+Reveal Server SDK は、.NET Framework 4.6.2 以降をターゲットとする .NET Core 2.2 以降のサーバーサイド プロジェクトが必要です。
 
 ### Reveal SDK のインストール
 

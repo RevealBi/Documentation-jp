@@ -21,7 +21,7 @@
 
 <img src="images/grid-view-sorting-columns-options.png" alt="Grid View Sorting Columns Options" width="800"/>
 
-複数の並べ替え条件を適用できます。既存の列ヘッダーの横に小さな番号が表示されます。矢印の方向は、前の列で昇順または降順のどちらの並べ替えを適用したかを判断するのに役立ちます。
+複数の並べ替え条件を適用できます。既存の列ヘッダーの横に小さな番号が表示されます。矢印の方向は、昇順または降順のどちらの並べ替えを適用したかを判断するのに役立ちます。
 
 <img src="images/sorting-view-all-numbers.png" alt="Sorting View All Numbers" width="800"/>
 
