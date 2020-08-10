@@ -2,14 +2,14 @@
 
 ### 前提条件
 
-Reveal Server SDK には、.NET Core 2.2+ または .NET Framework 4.6.1+ ASP MVC アプリケーション プロジェクトが必要です。
+Reveal Server SDK には、.NET Core 2.2+ または .NET Framework 4.6.2 以降の ASP MVC アプリケーション プロジェクトが必要です。
 
-NET Framework 4.6.1+ をターゲットとする場合、Reveal Server SDK には win7-x64 ランタイム環境がサポートされます。Web プロジェクトをデバッグするには、win7-x64 互換の RuntimeIdentifier プラットフォームを追加する必要があります。
+NET Framework 4.6.2 以降 をターゲットとする場合、Reveal Server SDK には win7-x64 ランタイム環境がサポートされます。Web プロジェクトをデバッグするには、win7-x64 互換の RuntimeIdentifier プラットフォームを追加する必要があります。
 
 ``` xml
 <PropertyGroup>
 
-   <TargetFramework>net461</TargetFramework>
+   <TargetFramework>net462</TargetFramework>
 
    <RuntimeIdentifier>win7-x64</RuntimeIdentifier>
 
@@ -195,7 +195,7 @@ JavaScript ファイル は \<InstallationDirectory\>\\SDK\\Web\\JS\\Client に�
     > **サーバー側とクライアント側のパーツを個別にホスト**
     > 個別のサーバーでクライアント側とサーバー側のパーツをホストする場合は、次の手順を続行する前に[こちら](~/jp/developer/web-sdk/sdk-overview-web.html#host-client-server-separate) を参照してください。
 
-2.  コンストラクタで \_dashboardId\</emphasis\> を指定して __$.ig.RevealSettings__ のインスタンスを作成します。
+2.  コンストラクタで \_dashboardId\ を指定して __$.ig.RevealSettings__ のインスタンスを作成します。
 
 3.  __$.ig.RevealUtility.loadDashboard__ を呼び出して dashboardId と成功およびエラーハンドラを指定します。
 
@@ -247,19 +247,3 @@ Web コンポーネントには他の依存関係も含める必要があるこ�
 
   - **reveal-webComponent.js**
   - **reveal-WebComponent-ie11.js**
-
-#### IE11 サポート
-
-IE11 ユーザーをサポートする場合について説明します。以下のスニペットでほとんどのブラウザーで問題なく動作します。
-
-``` html
-@section Scripts {
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.4.4/polyfill.min.js"></script>
-    <script src="https://unpkg.com/@@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
-    <script src="~/Reveal/reveal-webComponent-ie11.js"></script>
-}
-<section>
-    <reveal-view dashboard-name="Sales"></reveal-view>
-```
-
-ただし、フロントエンドのパフォーマンスを向上させたい場合や、IE11 を考慮しない場合は、上記の他のスニペットを確認し、代わりに **reveal-webComponent.js** を使用してください。
