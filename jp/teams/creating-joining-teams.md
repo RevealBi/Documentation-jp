@@ -1,143 +1,122 @@
-## Creating and Joining Teams
+## チームの作成と参加
 
-*Teams* in Reveal enables easy collaboration within and out of your
-organization. Now you can access and join freely all your organization's
-teams and also make your own team available for others in the
-organization to join and work with you.
+Reveal の*チーム*は、組織内外とのコラボレーションを容易にします。組織内すべてのチームへのアクセスや参加が可能で、あなたのチームを作成して、組織内のユーザーが他のチームと共同作業を行うことができます。
 
-Start using Teams by [creating a team from scratch](#create-team-scratch) or [joining an existing team](#join-team).
+[チームを新規に作成](#create-team-scratch)または[既存のチームに参加](#join-team)し、チームの使用を開始します。
 
 <a name='create-team-scratch'></a>
-### Creating a Team from Scratch
+### チームを新規に作成
 
-1.  Click *My Stuff* at the top left corner and select the *Join or Create a Team* button in the popover menu.
+1.  左上の *[アイテム]* をクリックし、ポップオーバー メニューの *[チームに参加 / チームを作成]* ボタンを選択します。
 
   ![join or create a team button in the popover menu](images/button-join-create-team.png)
 
 
   >[!NOTE]
-  > When signing in for the first time, you might already have a team. This is your [Organization team](index.html#organization-team) including other members of your organization, who have logged in Reveal with their Office365 account at least once.
+  > 初めてサインインする際に、すでにチームに参加されている場合があります。つまり、Office365 アカウントで Reveal にログインしたことのある、組織の他のメンバーを含む[組織チーム](index.html#organization-team)です。
 
 
 
-2.  Click/Tap the *+ Create Team* blue button. The following screen
-    opens:
+2.  青い [+ チームの作成] ボタンをクリック/タップします。以下の画面が表示されます。
 
     ![team properties dialog](images/create-team-properties.png)
 
-    Here you will need to:
+    以下の手順を実行します。
 
-      - assign a *name* to your team;
+      - チームに*名前*を割り当てます。
 
-      - choose if your team will belong to the main *Organization*.
+      - チームがメイン*組織*に属するかどうかを選択します。
 
-          - [Organization team](index.html#organization-team) (this
-            option will appear with the name of your organization, e.g.
-            *Infragistics, Inc*) - if you associate your team with the
-            main Organization team, your team will appear in the list of
-            teams that every member of the main Organization can
-            [join](#join-team) (unless you make your team private).
+          - [組織チーム](index.html#organization-team) (このオプションは、*Infragistics、Inc* などの組織名で表示されます)。チームをメイン組織チームに関連付けると、チームがメイン組織のすべてのメンバーが[参加できる](#join-team)チームのリストに表示されます (チームを非公開にしない場合)。
 
-          - *Personal organization* - your new team does not belong to
-            the main Organization and cannot be joined by other users
-            without invitation.
+          - *個人組織* - 新しいチームはメイン組織に属しておらず、招待なしに他のユーザーが参加できません。
 
             >[!NOTE]
-            >Carefully choose the *Organization* property for your team as you cannot change it later.
-      - decide on team's [*privacy*](index.html#team-privacy-levels) - this option will not be availabe if you choose _Personal Organization_ for your team. 
+            >後で変更することはできないため、慎重にチームの*組織*プロパティを選択してください。
+      - チームの[*プライバシー*](index.html#team-privacy-levels)を決定する - このオプションは、チームに_組織_を選択した場合は使用できません。 
   
-      - configure _branding_ settings - choose a main color and logo to be used when the teams' dashboards are exported as [PDF documents](~/jp/dashboards/exporting/export-as-pdf-document.md) and [PPT presentations](~/jp/dashboards/exporting/export-as-powerpoint-presentation). 
+      - _ブランディング_ 設定 - チームのダッシュボードを [PDF 文書](~/jp/dashboards/exporting/export-as-pdf-document.md)および [PPT プレゼンテーション](~/jp/dashboards/exporting/export-as-powerpoint-presentation)としてエクスポートするときに使用するメイン色とロゴを選択します。 
        
-        >[!NOTE] **Requirements for logo images**. The image you upload for a logo must be no bigger than **5 MB** and one of the following formats: jpg, jpeg, png, gif.
+        >[!NOTE] **ロゴ画像の要件**。ロゴとしてアップロードする画像は、**5 MB** 以下で、jpg、jpeg、png、gif のいずれかの形式である必要があります。
 
-3.  Click/Tap *Create* to continue. Start inviting members to your team by selecting the *+ Members* blue button and adding their emails to the list. They will receive an
-invitation by email.
+3.  続行するには *[作成]* をクリック/タップします。*[+メンバー]* の青いボタンを選択し、メールをリストに追加して、メンバーをチームに招待します。メンバーに招待メールが送信されます。
 
     ![invite members dialog](images/team-invite-members.png)
 
-    *Member* is the default role for every user you invite, unless you assign them a different role.
+    別のロールを割り当てない場合、招待するユーザーのデフォルトのロールは*メンバー*です。
 
     >[!NOTE]
-    >When adding members, whose emails are not auto-completed by Reveal, type the whole email and press Enter to add it to the list of users you want to invite.
+    >メールが Reveal によって自動補完されないメンバーを追加する場合は、メール全体を入力して Enter キーを押し、招待するユーザーのリストに追加します。
 
-4.  After clicking/tapping *Send Invites* button your new team is
-    created. You will find it in the teams' list under *My Stuff* in the
-    popover menu shown below:
+4.  *[招待の送信]* ボタンをクリック/タップすると、新しいチームが作成されます。チームが以下に示すポップオーバー メニューの *[アイテム]* の下のチーム リストにあります。
 
     ![new team in the teams tab](images/new-team-created.png)
 
 <a name='join-team'></a>
-### Joining an Existing Team
+### 既存のチームに参加
 
-If your account has been automatically added to an [Organization team](index.html#organization-team), you can **discover
-and join other teams that belong to your organization**.
-To join an existing team, follow the steps below.
+アカウントが[組織チーム](index.html#organization-team)に自動的に追加された場合、**組織に属する他のチームを検出して参加できます**。以下の手順で既存のチームに参加できます。
 
-1.  Click/Tap the popover menu in the top left corner (next to the
-    *Reveal* icon)
+1.  左上隅にある (*Reveal* アイコンの横) ポップオーバー メニューをクリック/タップします。
+    
 
-2.  Click/tap the *Join or Create a Team* blue button.
+2.  青い *[チームに参加 / チームを作成]* ボタンをクリック/タップします。
 
-3.  The following screen shows up:
+3.  以下の画面が表示されます。
 
     ![join or create a team dialog](images/join-or-create.png)
 
-    Here you will find all the
-    [public](index.html#team-privacy-levels) teams that
-    belong to your organization.
+    ここには、組織に属するすべての[公開](index.html#team-privacy-levels)チームがあります。
 
-4.  After clicking/tapping the *Join* button, you will automatically be
-    added as a new member with Member's
-    [permissions](index.html#members-roles-permissions)
-    to the team you have chosen. The team will appear in your teams' list.
+4.  *[参加]* ボタンをクリック/タップすると、メンバーの[権限](index.html#members-roles-permissions)を持つ新しいメンバーとして選択したチームに自動的に追加されます。チームがチーム リストに表示されます。
 
-### Organizing your Teams' List
+### チーム リストの編成
 
-There is no limit to the teams you can create or join. To easily navigate through a large list of teams and find the one you need, you can filter your teams by:
+作成または参加できるチームに制限はありません。多くのチームのリストを簡単に移動してチームを検索するには、以下の方法でチームをフィルターできます。
 
-* the *Organization* they belong to,
-* *favorites*,
-* custom *groups* you have created.
+* 属する*組織*。
+* *お気に入り*。
+* *作成した*カスタム グループ。
 
-#### Filtering by Organization
+#### 組織にでフィルター
 
-Filtering by organization appears as an option only if you have at least one team, which is part of your *Organization team* and one team, which is a *Personal team*. 
+組織によるフィルタリングは、組織に少なくとも 1 つの*組織チーム*と 1 つの*個人チーム*がある場合にのみ、オプションとして表示されます。 
 
-1.  Click/Tap the popover menu in the top left corner (next to the _Reveal_ icon).
+1.  左上隅にある (_Reveal_ アイコンの横) ポップオーバー メニューをクリック/タップします。
 
-2. Click/Tap _All Organizations_ dropdown on top of your teams' list.
+2. チーム リストの上にある [すべての組織] ドロップダウンをクリック/タップします。
 
 ![organization filter in the teams list](images/teams-organization-filter.png)
 
 
-3. Choose to see: all teams, only these that belong to the main Organization or only teams that do not belong to the Organization (_Personal Organization_ option).
+3. 表示の選択: すべてのチーム、メイン組織に属するチームのみ、または組織に属さないチームのみ (個人組織のオプション)。
 
 >[!NOTE]
->**All Organizations menu not available**. The _All Organizations_ dropdown menu will not appear unless you have both teams belonging to the main Organization, and _Personal Organization_ teams.
+>**すべての組織メニューは利用できません。**メイン組織に所属するチームと個人組織のチームの両方がない場合、[すべての組織] ドロップダウン メニューは表示されません。
 
 
-#### Adding to Favorites
+#### お気に入りに追加
 
-1. Click/Tap the overflow menu of any team in your teams' list.
-2. Select _Favorite_.
+1. チーム リストにあるチームのオーバーフロー メニューをクリック/タップします。
+2. [お気に入り] を選択します。
 
 ![adding a team to favorites](images/adding-teams-favorites.png)
 
 
-3. This team will appear in the _Favorites_ list at the top of your teams.
+3. このチームは、チームの上部にある「お気に入り」リストに表示されます。
 
-#### Organizing by Groups
+#### グループによる整理
 
-You can organize your teams by custom groups of your choice. To create a new group:
+選択したカスタム グループでチームを編成できます。新しいグループを作成する方法:
 
-1. Go to the overflow menu of a team in your list.
-2. Click/Tap _Select Group_.
-3. The _Group Team_ dialog opens. Click/Tap _+ Add Group_ to create a new group.
+1. リスト内のチームのオーバーフロー メニューに移動します。
+2. [グループの選択] をクリック/タップします。
+3. [チームのグループ化] ダイアログが開きます。新しいグループを作成するには、[+グループの追加] をクリック/タップします。
 
 ![[add group to group team dialog]](images/group-team-dialog-add-group.png)
 
-4. Tick the circle of the group you want to add the team to. Select _Apply_.
+4. チームを追加するグループの丸をオンにします。[適用] を選択します。
 
-Your teams' list now shows your teams categorized by _Ungrouped Teams_ and teams in custom groups:
+チーム リストには、チームが グループ化されていないチームとカスタム グループのチームで分類されて表示されます。
 ![teams' list separated by custom groups and ungrouped teams](images/teams-categorized-by-groups.png)
 
