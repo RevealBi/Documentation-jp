@@ -4,7 +4,7 @@ OData サービスのデータソースを設定するには、以下の情報�
 
 ![Enter OData Service Details dialog](images/enter-OData-service-details.png)
 
-1.  **Default name** of the data source: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Reveal names it *OData Feed*. You can change it to your preference.
+1.  データソースの **デフォルト名**: データソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *OData Feed* という名前を付けます。好みに合わせて変更できます。
 
 
 2.  **URL**: サービスの URL (Northwind OData Test Service の <http://services.odata.org/Northwind/Northwind.svc> など)。

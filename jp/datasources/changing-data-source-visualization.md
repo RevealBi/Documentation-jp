@@ -2,8 +2,8 @@
 
 表示形式を作成した後もリンク データ ソースを変更できます。
 
-1. Access **Dashboard Edit mode** by selecting *Edit* from the overflow menu in the top right hand corner.
-2. Click/tap on **Edit** in the overflow menu of a chosen visualization:
+1. 右上隅のオーバーフロー メニューから [編集] を選択して、*ダッシュボード編集モード*にアクセスします。
+2. 選択した表示形式のオーバーフロー メニューで [編集] をクリック/タップします。
 
 ![Select edit mode of a visualization](images/visualization-enter-edit-mode.png)
 
@@ -15,8 +15,8 @@
 
 ![Current data source swap button](images/current-data-source-information.png)
 
-This will open the _Select a Data Source_ dialog.
-Here you can choose a new data source. The data already present in the editor will be completely replaced by the data in your new data source.
+これにより、*データソースの選択*ダイアログが開きます。
+ここで、新しいデータソースを選択できます。エディターに既に存在するデータは、新しいデータソースのデータに完全に置き換えられます。
 
 データソース名が表示形式エディターの [データ] セクションに表示されます。
 

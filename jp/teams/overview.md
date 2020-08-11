@@ -4,11 +4,7 @@
 
 Reveal チームの機能:
 
-  - Organize your group's work in a **team's dashboards** section -
-    create and share dashboards directly with other members, view and
-    edit their dashboards.
-
-  - グループの作業を**チームのダッシュボード**セクションで整理 - ダッシュボードを作成して他のメンバーと直接共有し、メンバーのダッシュボードを表示および編集します。
+  - グループの作業を**チームのダッシュボード** セクションで整理 - ダッシュボードを作成して他のメンバーと直接共有し、メンバーのダッシュボードを表示および編集します。
 
   - チームのダッシュボードを他のチームや Reveal のユーザーと[**共有します**](~/jp/sharing-dashboards/sharing-dashboards.md)。
 
