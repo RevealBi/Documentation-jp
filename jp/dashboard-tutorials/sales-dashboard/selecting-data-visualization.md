@@ -11,7 +11,7 @@
 
 ![SelectTextGauge\_All](images/SelectTextGauge_All.png)
 
-次に、データ エディターの [値] プレースホルダーへ **[Won Opportunities]** フィールドを**ドラッグアンドドロップします**。
+次に、データ エディターの [値] プレースホルダーへ **Won Opportunities** フィールドを**ドラッグアンドドロップします**。
 
 ![SalesFirstDragDrop\_All](images/SalesFirstDragDrop_All.png)
 

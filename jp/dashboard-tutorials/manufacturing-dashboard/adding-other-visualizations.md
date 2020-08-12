@@ -59,13 +59,13 @@ Production 表示形式は、12 か 月間の製造量を作業者タイプ別�
 
 
 
-3.  データ エディターで **[Worker Type]** フィールドを [ラベル] に、**[Production]** フィールドを [値] にドラッグアンドドロップします。
+3.  データ エディターで **Worker Type** フィールドを [ラベル] に、**Production** フィールドを [値] にドラッグアンドドロップします。
     
     ![DragDropManufacturingProduction\_All](images/DragDropManufacturingProduction_All.png)
 
 
 
-4.  **[Production]** フィールドには製造された製品の情報があるため、小数桁を削除する必要があります。[値] で **[Production]** を選択し、**[書式設定]** で **[小数桁]** を **[0]** に変更します。
+4.  **Production** フィールドには製造された製品の情報があるため、小数桁を削除する必要があります。[値] で **Production** を選択し、**[書式設定]** で **[小数桁]** を **[0]** に変更します。
     
     ![ManufacturingProductionFractionDigits\_All](images/ManufacturingProductionFractionDigits_All.png)
     
@@ -100,7 +100,7 @@ Shipping 表示形式は、12 か 月間の出荷量を[エリア チャート](
 
 
 
-3.  データ エディターで、**[Month]** フィールドを [ラベル] に、**[Shipping Orders]** フィールドを [値] にドラッグアンドドロップします。
+3.  データ エディターで、**Month** フィールドを [ラベル] に、**Shipping Orders** フィールドを [値] にドラッグアンドドロップします。
     
     ![DragDropManufacturingShipping\_All](images/DragDropManufacturingShipping_All.png)
 
@@ -113,7 +113,7 @@ Shipping 表示形式は、12 か 月間の出荷量を[エリア チャート](
     次に, **フィールドの更新**を選択します。
 
 
-5.  **[Shipping Orders]** フィールドにはクライアントに出荷された製品に関する情報があるため、小数桁を削除する必要があります。[値] で **[Shipping Orders]** を選択し、**[書式設定]** で **[小数桁]** を **[0]** に変更します。
+5.  **Shipping Orders** フィールドにはクライアントに出荷された製品に関する情報があるため、小数桁を削除する必要があります。[値] で **Shipping Orders** を選択し、**[書式設定]** で **[小数桁]** を **[0]** に変更します。
     
     ![ManufacturingShippingFractionDigits\_All](images/ManufacturingShippingFractionDigits_All.png)
     
@@ -140,7 +140,7 @@ Average Hours 表示形式では、会社の機械に費やされた時間と、
 
 
 
-3.  データ エディターで、**[Month]** フィールドを [ラベル] に、**[Machine Hours]** フィールドと **[Employee Hours]** フィールドの両方を [値] にドラッグアンドドロップします。
+3.  データ エディターで、**Month** フィールドを [ラベル] に、**Machine Hours** フィールドと **Employee Hours** フィールドの両方を [値] にドラッグアンドドロップします。
     
     ![DragDropManufacturingAverageHours\_All](images/DragDropManufacturingAverageHours_All.png)
 
@@ -183,7 +183,7 @@ Headcount 表示形式はカテゴリごとに分類された従業員の数を[
 
 
 
-3.  データ エディターで、**[Division]** フィールドを [ラベル] に、**[Number of Workers]** フィールドを [値] にドラッグアンドドロップします。
+3.  データ エディターで、**Division** フィールドを [ラベル] に、**Number of Workers** フィールドを [値] にドラッグアンドドロップします。
     
     ![DragDropManufacturingHeadcount\_All](images/DragDropManufacturingHeadcount_All.png)
 
@@ -223,13 +223,13 @@ Labor Cost 表示形式は、各従業員の最高から最低までの賃金を
 
 
 
-3.  データ エディターで、**[Employee]** フィールドを [ラベル] に、**[Labor]** フィールドを [値] にドラッグアンドドロップします。
+3.  データ エディターで、**Employee** フィールドを [ラベル] に、**Labor** フィールドを [値] にドラッグアンドドロップします。
     
     ![DragDropManufacturingHeadcount\_All](images/DragDropManufacturingHeadcount_All.png)
 
 
 
-4.  [Labor] の数値は、小数桁のない通貨として表示するために書式設定する必要があります。これを行うには、[値] プレースホルダーで **[Labor]** フィールドを選択し、以下の変更を適用します。
+4.  Labor の数値は、小数桁のない通貨として表示するために書式設定する必要があります。これを行うには、[値] プレースホルダーで **Labor** フィールドを選択し、以下の変更を適用します。
     
     ![ManufacturingLaborCostFormatting\_All](images/ManufacturingLaborCostFormatting_All.png)
     

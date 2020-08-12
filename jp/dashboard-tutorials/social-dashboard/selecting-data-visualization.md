@@ -10,7 +10,7 @@
 
 ![SelectTextGauge\_All](images/SelectTextGauge_All.png)
 
-次に、データ エディターの [値] プレースホルダーへ **[Twitter Followers by Year]** フィールドを**ドラッグアンドドロップします**。
+次に、データ エディターの [値] プレースホルダーへ **Twitter Followers by Year** フィールドを**ドラッグアンドドロップします**。
 
 ![SocialFirstDragDrop\_All](images/SocialFirstDragDrop_All.png)
 
