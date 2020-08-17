@@ -119,7 +119,7 @@ Marketing ダッシュボードを選択し、**編集モード**に入ります
 <img src="images/marketing-dashboard-theme-button.png" alt="edit mode menu of the marketing dashboard" width="800"/>
 
 
-Ocean テーマを選択します。
+[Ocean テーマ] を選択します。
 
 <img src="images/dashboard-themes-ocean-theme.png" alt="edit mode menu of the marketing dashboard" width="800"/>
 
@@ -132,8 +132,7 @@ Ocean テーマを選択します。
 
 **Marketing.rdash** ダッシュボード ファイルを手順 3 で作成したダッシュボード フォルダーへ移動し、Visual Studio でこのアイテムのビルド アクションを**埋め込みリソース**に設定します。
 
-![setting build action in marketing.rdash file
-properties](images/build-action-set.png)
+![setting build action in marketing.rdash file properties](images/build-action-set.png)
 
 次に、新しいページ *Marketing.cshtml* を追加して、ダウンロードしたダッシュボードを可視化します。
 
@@ -203,8 +202,7 @@ Reveal が使用するサードパーティの参照の 1 つに **Day.js** が�
 
 最後に、Web ページを実行すると、ダッシュボードが表示されます。
 
-![marketing dashboard result in web
-page](images/marketing-dashboard-result.png)
+![marketing dashboard result in web page](images/marketing-dashboard-result.png)
 
 手順 4 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/380d369b46437c3913ed3c61de32a7f607b96b47)**.
 
@@ -277,8 +275,7 @@ Reveal アプリは Roboto フォントを使用します。アプリと同じ�
 
 結果は以下のようになります。
 
-![marketing dashboard loaded with the new
-font](images/marketing-dashboard-new-font.png)
+![marketing dashboard loaded with the new font](images/marketing-dashboard-new-font.png)
 
 手順 5 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/9fd40e047bf6aa4c03258112e6d47f577625a63b)**.
 
@@ -390,7 +387,6 @@ font](images/marketing-dashboard-new-font.png)
 
 結果は以下のようになります。
 
-![result after styling the client
-application](images/marketing-dashboard-style-client-application-result.png)
+![result after styling the client application](images/marketing-dashboard-style-client-application-result.png)
 
 手順 6 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/085fd35db4d07eb9130ff72dd3bb96a157f6d4ed)**。

@@ -2,9 +2,9 @@
 
 ### 前提条件
 
-Reveal Server SDK には、.NET Core 2.2+ または .NET Framework 4.6.2 ASP MVC アプリケーション プロジェクトが必要です。
+Reveal Server SDK には、.NET Core 2.2+ または .NET Framework 4.6.2 以降の ASP MVC アプリケーション プロジェクトが必要です。
 
-NET Framework 4.6.1+ をターゲットとする場合、Reveal Server SDK には win7-x64 ランタイム環境がサポートされます。Web プロジェクトをデバッグするには、win7-x64 互換の RuntimeIdentifier プラットフォームを追加する必要があります。
+NET Framework 4.6.2 以降 をターゲットとする場合、Reveal Server SDK には win7-x64 ランタイム環境がサポートされます。Web プロジェクトをデバッグするには、win7-x64 互換の RuntimeIdentifier プラットフォームを追加する必要があります。
 
 ``` xml
 <PropertyGroup>
