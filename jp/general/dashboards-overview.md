@@ -28,7 +28,7 @@
 
 可視化のデータ ビハインド表示で並べ替え (昇順または降順) を適用できます。グリッドの並べ替え詳細については、[グリッド ビュー](~/jp/data-visualizations/grid-view.md)トピックをご覧ください。
 
-元の表示形式へ戻すために、**[元の表示形式を表示]** リンクを選択します。
+元の表示形式へ戻すために、**[元の形式を表示]** リンクを選択します。
 
 ![show original link](images/change-visualization-show-original.png)
 
