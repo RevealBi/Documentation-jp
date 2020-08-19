@@ -66,7 +66,7 @@
 
 ![Reveal Portrait Orientation](images/tooltips-totals.png)
 
-この機能を有効にするには、次のように、[設定] \> [ツールチップに合計を表示] に移動します:
+この機能を有効にするには、次のように、[設定] \> [ツールチップで合計を表示] に移動します:
 
 ![Reveal Portrait Orientation](images/tooltips-configuration.png)
 
