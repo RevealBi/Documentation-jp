@@ -225,7 +225,7 @@ Labor Cost 表示形式は、各従業員の最高から最低までの賃金を
 
 3.  データ エディターで、**Employee** フィールドを [ラベル] に、**Labor** フィールドを [値] にドラッグアンドドロップします。
     
-    ![DragDropManufacturingHeadcount\_All](images/DragDropManufacturingHeadcount_All.png)
+    ![DragDropManufacturingHeadcount\_All](images/DragDropManufacturingLaborcount_All.png)
 
 
 
