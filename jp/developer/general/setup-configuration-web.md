@@ -165,8 +165,9 @@ AddRevealServices と同様に、AddReveal メソッドは Infragistics.Sdk
 #### 1\. 依存関係の確認
 Reveal Web Client SDK には、サードパーティーの参照が 2 つあります。
 
-  - jQuery 2.2 またはそれ以上
-  - Day.js 1.8.15 またはそれ以上
+  - [jQuery](https://jquery.com) 2.2 またはそれ以上
+  - [Day.js](https://day.js.org) 1.8.15 またはそれ以上
+  - [Quill RTE](https://quilljs.com/) 1.3.6 またはそれ以上
 
 <a name='reference-web-client-sdk'></a>
 

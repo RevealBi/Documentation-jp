@@ -18,7 +18,7 @@
 
 表示形式エディターには、主に 3 つのエリアがあります。
 
-![visualization editor panes](images/visualization-editor-panes.png)
+<img src="images/visualization-editor-panes.png" alt="Panes of the Visualization editor" width="800"/>
 
   1. **データ セクション**選択したデータセットとデータ エディターで使用可能なフィールドのリストが表示されます。このツールは、データを必要に応じてスライスアンドダイスする際に役立ちます。
 
@@ -28,12 +28,12 @@
 
 特に、次のことが可能になります。
 
-  - データの**並べ替え**と**フィルター**。
+  - データの[**並べ替え**](~/jp/fields/sort-by-field.md)と[**フィルター**](~/jp/filters/visualization-filters.md)。
 
   - **表示形式のデータをダッシュボード ページの選択へバインド**。
 
-  - データ エディターの**集計データ**。
+  - データ エディターの[**集計データ**](~/jp/fields/field-settings.md)。
 
-  - データの **表示形式**と**書式設定**。
+  - データの **検索**、**表示形式**と[**書式設定**](~/jp/fields/conditional-formatting.md)。
 
 表示形式の設定と適切な表示形式の選択後、*戻る矢印*を選択してダッシュボード エディターに戻ります。ダッシュボード エディターでは、表示形式をドラッグしてレイアウト、サイズ、配置を操作できます。

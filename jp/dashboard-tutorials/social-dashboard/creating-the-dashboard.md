@@ -11,7 +11,7 @@
 
 ![creatingnewvisualization\_all](images/creating-new-visualization.png)
 
->[NOTE]
+>[!NOTE]
 >各プロバイダーにデータソースを追加する方法については、[このトピック](~/jp/datasources/data-sources.md)を参照してください。
 
 **[表示形式データ]**ダイアログでファイルを選択するときは、必ずサンプル スプレッドシートの **[Social Dashboard]** シートを選択してください。

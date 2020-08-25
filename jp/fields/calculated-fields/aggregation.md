@@ -27,7 +27,7 @@ Reveal では、集計計算フィールドに以下が含まれます。
     <th class="tg-cly1"><span style="font-weight:bold">関数の構文とサンプル</span></th>
   </tr>
   <tr>
-    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">average</span>: <span class="gray-snippet-cstm">average</span> 集計は、選択した<span class="gray-snippet-cstm">式</span>のすべての行の平均値で計算される数値を返します。</td>
+    <td class="tg-cly1" rowspan="2"><a name='average'></a><span style="font-weight:bold">average</span>: <span class="gray-snippet-cstm">average</span> 集計は、選択した<span class="gray-snippet-cstm">式</span>のすべての行の平均値で計算される数値を返します。</td>
     <td class="tg-cly1"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm">average({expression})</span></td>
   </tr>
   <tr>

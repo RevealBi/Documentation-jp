@@ -14,9 +14,9 @@
 
 Reveal Web Client SDK には、サードパーティーの参照が 1 つあります。
 
-  - jQuery 2.2 またはそれ以上
-
-  - Day.js 1.8.15 またはそれ以上
+  - [jQuery](https://jquery.com) 2.2 またはそれ以上
+  - [Day.js](https://day.js.org) 1.8.15 またはそれ以上
+  - [Quill RTE](https://quilljs.com/) 1.3.6 またはそれ以上
 
 ### 2\. Web Client SDK の参照
 

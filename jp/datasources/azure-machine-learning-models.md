@@ -23,6 +23,7 @@ Azure Machine Learning にアクセスするには、以下の手順を実行し
 
     ![Brain icon location in the Visualization editor](images/brain-icon-azure-ml-model.png)
 
+<a href="ml-model-connect"></a>
 ### Azure Machine Learning モデルへの接続
 
 Azure で機械学習モデルに接続するには、以下を実行する必要があります。
