@@ -122,11 +122,9 @@
 >[!NOTE]
 >ダッシュボードは、メンバーであるかどうかに関係なく、[メイン組織に属する](creating-joining-teams.html#organization)任意の公開チームと共有できます。自分がメンバーになっている非公開のチームと共有することもできます。
 
-チーム全体のアクセス許可を設定するときは、個人のメンバーがチームのダッシュボードに対して持つ最も高いアクセス許可のみを取得することを考慮する必要があります。
+When setting access permissions for the whole team, you must take into account that these permissions will not be available for everybody in the team. Individual members will receive only the highest permissions possible for their role in the team.
 
-たとえば、チームにオーナー権限を付与すると、このチームのビューアーにはビューアー権限のみが付与され、メンバーには変更権限が付与され、オーナーのみがダッシュボードへの完全なオーナー アクセス権を取得できます。チームにビューアーを付与すると、ビューアーの役割を持つメンバーであっても、このダッシュボードに対するビューアー権限のみが付与されます。
-
-チームでの役割に応じてすべてのチーム メンバーが取得できる権限のクイック リファレンスについては、以下の表をご覧ください。
+Look at the table below for a quick reference of the permissions every team member can get depending on their role in the team. For example, if you give *Modify* permissions to the whole team, its *Owners* and *Members* will be able to modify the dashboard, but *Viewers* will only receive permissions to view and share the dashboard. This is the highest level of permissions possible for their role in general.   
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -143,7 +141,7 @@
 <table class="tg">
   <tr>
     <th class="tg-9wq8" rowspan="3">チームの役割</th>
-    <th class="tg-7btt" colspan="3">チームに与えられたアクセス許可</th>
+    <th class="tg-7btt" colspan="3">チーム全体に与えられたアクセス許可</th>
   </tr>
   <tr>
     <td class="tg-c3ow">管理</td>
@@ -151,7 +149,7 @@
     <td class="tg-c3ow">閲覧</td>
   </tr>
   <tr>
-    <td class="tg-7btt" style="text-align: center !important" colspan="3">メンバーが受け取る最大レベルの権限</td>
+    <td class="tg-7btt" style="text-align: center !important" colspan="3">Permissions Received by Users Depending on Their Role</td>
   </tr>
   <tr>
     <td class="tg-0pky">管理者</td>
