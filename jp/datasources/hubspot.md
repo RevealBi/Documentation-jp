@@ -1,23 +1,23 @@
 ## Hubspot
 
-Upon connecting Hubspot, you will see the following login prompt:
+Hubspot に接続すると、以下のログイン プロンプトが表示されます。
 
 ![Hubspot login prompt](images/hubspot-login.png)
 
-Enter your login credentials, and click _Log In_.
+ログイン情報を入力して [ログイン] をクリックします。
 
-You will then see an authorization prompt. Click _Grant Access_.
+認証プロンプトが表示されます。[アクセスを許可] をクリックします。
 
-### Setting Up Your Data
+### データの設定
 
-After logging in you can set up your Hubspot data in the following dialog:
+ログイン後、次のダイアログで Hubspot データを設定できます:
 
 
 <img src="images/set-up-data-hubspot.png" alt="Set up your data dialog" width="800"/>
 
-Here you will find a list of your Hubspot _Objects_. Use the search in big lists to find quickly the object you need.
+ここには、Hubspot オブジェクトのリストがあります。大きなリストでは、検索を使用して必要なオブジェクトをすばやく見つけます。
 
 >[!NOTE]
->**Calendar Objects**.
->Calendar Events objects require you to set two parameters - _from_ and _to_ (dates) to query the data, before you can continue to the Visualization editor. 
+>**カレンダー オブジェクト**。
+>カレンダー イベント オブジェクトでは、表示形式エディターに進む前に、データをクエリするために _from_ および _to_ (日付) の 2 つのパラメーターを設定する必要があります。  
 

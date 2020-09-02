@@ -20,7 +20,7 @@
 
 <img src="images/visualization-editor-panes.png" alt="Panes of the Visualization editor" width="800"/>
 
-  1. **データ セクション**選択したデータセットとデータ エディターで使用可能なフィールドのリストが表示されます。このツールは、データを必要に応じてスライスアンドダイスする際に役立ちます。You can use the search to find a data field, when the available fields are more than ten.
+  1. **データ セクション**選択したデータセットとデータ エディターで使用可能なフィールドのリストが表示されます。このツールは、データを必要に応じてスライスアンドダイスする際に役立ちます。使用可能なフィールドが 10 を超える場合、検索によってデータ フィールドを見つけることができます。
 
   2. **設定セクション**使用している特定の表示形式の設定と、表示形式の一般設定にアクセスできます。
 

@@ -18,9 +18,9 @@
 
 ![maximized visualization view](images/maximized-visualization.png)
 
-In this mode, you can also switch the maximized view to other visualizations by selecting the **small chart icon** in the top right corner. Different visualizations are displayed based on the data that was used in the editor. Only chart types that work well with your data will be offered. 
+さらに、このモードでは、右上隅の**小さなチャート アイコン**をタップし、最大化されたビューを他の表示形式に切り替えることができます。エディターで使用されたデータに基づいて、さまざまな表示形式が表示されます。データで適切に機能するチャート タイプのみが提供されます。 
 
-If you want to save the changed visualization, you need to have edit permissions, be in [dashboard Edit Mode](#view-edit-mode) and explicitly save the changes by selecting the check icon in the top right corner. You have edit permission for dashboards that are created by you or shared with you with [Owner or Modify permissions](~/en/dashboards/sharing-dashboards/share-a-dashboard.html#access-permissions). 
+変更された表示形式を保存する場合は、編集権限を持ち、[ダッシュボード編集モード](#view-edit-mode)で右上隅のチェック アイコンを選択して変更を明示的に保存する必要があります。自分で作成したか、[オーナーまたは変更の権限](~/jp/dashboards/sharing-dashboards/share-a-dashboard.html#access-permissions)で共有しているダッシュボードの編集権限があります。 
 
 ![chart change in visualization view mode](images/chart-change-visualization-view-mode.png)
 

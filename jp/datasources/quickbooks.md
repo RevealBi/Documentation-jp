@@ -1,21 +1,21 @@
 ## Quickbooks
 
-Upon connecting Quickbooks, you will see the following login prompt:
+Quickbooks に接続すると、次のログイン プロンプトが表示されます:
 
 ![Quickbooks login prompt](images/quickbooks-login.png)
 
 
-Enter your login credentials, or select _Sign in with Google_ and click _Sign In_.
+ログイン情報を入力するか、[Google でサインイン] を選択して、[サインイン] をクリックします。
 
-If you have Identity Confirmation activations enabled, you will see a prompt to enter the *verification code* sent to you.
+ID 認証が有効な場合は、送信された*確認コード*を入力するプロンプトが表示されます。
 
-### Setting Up Your Data
+### データの設定
 
-After logging in you can set up your Quickbooks data in the following dialog:
+ログイン後、次のダイアログで Quickbooks データを設定できます:
 
 <img src="images/set-up-data-quickbooks.png" alt="Set up your data dialog" width="800"/>
 
-Here you can choose the Quickbooks entities you need from:
+ここで、必要な Quickbooks エンティティを選択できます。
 
-- _Common Entities_ - this category allows quick selection between the  most used entities among our users;
-- _All Entities_ - this category displays the full list of entities contained in your Quickbooks account. You can use the provided search to find quickly the entity you need.
+- _共通エンティティ_ - このカテゴリでは、ユーザーが最もよく使用するエンティティをすばやく選択できます。
+- _すべてのエンティティ_ - このカテゴリには、Quickbooks アカウントに含まれるエンティティの完全なリストが表示されます。提供されている検索を使用して、必要なエンティティをすばやく見つけることができます。

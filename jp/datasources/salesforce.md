@@ -22,16 +22,16 @@ ID 認証が有効な場合は、送信された**確認コード**を入力す�
 
   - *すべてのオブジェクト* - このカテゴリには、Salesforce アカウントに含まれるオブジェクトの完全なリストが表示されます。提供されている検索を使用して、必要なオブジェクトをすばやく見つけることができます。
 
-#### Using Reports
+#### レポートの使用
 
-After selecting which report you want to use in the visualization editor, you need to set the values for the parameters in the dialog that follows:
+表示形式エディターで使用するレポートを選択した後、次のダイアログでパラメーターの値を設定する必要があります:
 
 ![A dialog showing filters from Salesforce to be configured](images/filters-set-dialog.png)
 
-The parameters you see in the list (_Show me_, _Probability_, etc.) are the filters for your report. Report filters are criteria set to control the data a user sees in their report. In Reveal, the filtered data will be used in your charts in the Visualization editor.
+リストに表示されるパラメーター (_Show me_、_Probability_ など) は、レポートのフィルターです。レポート フィルターは、ユーザーがレポートに表示するデータを制御するために設定された条件です。Reveal では、フィルタリングされたデータは、表示形式エディターのチャートで使用されます。
 
-In the dialog above, filters are preconfigured with the default values from Salesforce. Use the dropdown next to each filter to change these values.
+上のダイアログでは、フィルターは Salesforce のデフォルト値で事前設定されています。これらの値を変更するには、各フィルターの横にあるドロップダウンを使用します。
 
-You can change the report filters' values later in the Visualization editor by choosing to _edit_ your data source (as shown below):
+その後、データソースを [編集] を選択することで、表示形式エディターでレポート フィルターの値を変更できます (以下を参照)。
 
 ![Edit your data source in the Visualization editor](images/edit-salesforce-data-source.png)

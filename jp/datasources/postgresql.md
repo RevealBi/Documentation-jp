@@ -54,25 +54,25 @@ Reveal を使用すると、テーブル全体から PostgreSQL データを取�
 
 ビューと PostgreSQL の詳細については、[このウェブサイト](https://www.postgresql.org/docs/10/tutorial-views.html)。
 
-### Working With Functions
+### 関数の使用
 
-PostgreSQL functions allow you to carry out operations that would normally take several queries and round trips in a single function within the database.
+PostgreSQL 関数を使用すると、データベース内の単一の関数で、通常は複数のクエリとラウンド トリップを必要とする操作を実行できます。
 
-The following are just a set of sample functions running on a test server with [Northwind](link:https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases) data:
+以下は、[Northwind](link:https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases) データを使用してテスト サーバーで実行されるサンプル関数のセットです:
 
 
 <img src="images/postgresql-functions-list.png" alt="A list of PostgreSQL functions" width="800"/>
 
 
-After you select a function, you will need to set up some additional parameters. In this case, the function requires you to configure the start and end date to display the Sales for period information.
+関数を選択した後、いくつかの追加パラメーターを設定する必要があります。この場合、関数は、Sales for period の情報を表示するために開始日と終了日を設定する必要があります。
 
 
 <img src="images/sales-for-period.png" alt="Sales for period function parameters" width="800"/>
 
 
-For more information on Functions and PostgreSQL, visit this [documentation website](https://www.postgresql.org/docs/9.0/sql-createfunction.html).
+関数と PostgreSQLの 詳細については、この [Web サイト (英語)](https://www.postgresql.org/docs/9.0/sql-createfunction.html) にアクセスしてください。
 
-### Limitations for Functions in Reveal
+### Reveal の関数の制限
 
-* Output parameters in functions are ignored.
-* Functions that return no result sets will be listed in the Data Sources list, but will fail.
+* 関数の出力パラメーターは無視されます。
+* 結果セットを返さない関数は、データ ソース リストにリストされますが、失敗します。

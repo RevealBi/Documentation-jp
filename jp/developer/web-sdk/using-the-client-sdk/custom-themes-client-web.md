@@ -80,34 +80,36 @@ revealTheme.dashboardBackgroundColor = "#E8EBFC";
 
 ```
 
-### Pre-Built Themes 
-Reveal SDK comes with four pre-built themes: *Mountain Light*, *Mountain Dark*, *Ocean Light*, and *Ocean Dark*. You can set the one that best matches your application's design, or you can also use it as the basis for your custom theme modifications.    
-Apply the settings of a chosen pre-built theme by using the *UpdateCurrentTheme* method. 
-***Mountain Light Theme***
+### ビルド済みのテーマ 
+Reveal SDK には、*Mountain Light*、 *Mountain Dark*、*Ocean Light*、*Ocean Dark* の 4 つのビルド済みテーマが付属しています。アプリケーションのデザインに最適なものを設定することも、カスタム テーマのベースとして使用することもできます。    
+*UpdateCurrentTheme* メソッドを使用して、選択したビルド済みテーマの設定を適用します。 
+
+***Mountain Light テーマ***
 ``` js
 $.ig.RevealView.UpdateCurrentTheme(new $.ig.MountainLightTheme());
 ```
 
 > [NOTE]
-> Mountain Light contains the default values for all customizable settings. 
-***Mountain Dark Theme***
+> Mountain Light には、カスタマイズ可能なすべての設定のデフォルト値が含まれています。 
+
+***Mountain Dark テーマ***
 ``` js
 $.ig.RevealView.UpdateCurrentTheme(new $.ig.MountainDarkTheme());
 ```
 
-***Ocean Light Theme***
+***Ocean Light テーマ***
 ``` js
 $.ig.RevealView.UpdateCurrentTheme(new $.ig.OceanLightTheme());
 ```
 
-***Ocean Dark Theme***
+***Ocean Dark テーマ***
 ``` js
 $.ig.RevealView.UpdateCurrentTheme(new $.ig.OceanDarkTheme());
 ```
 
-#### How Pre-Built Themes Look? 
+#### ビルド済みのテーマはどのように見えますか? 
 
-Below, you will find a table showing how the *Visualization Editor* and *Dashboard Editor* look when each of the pre-built themes is applied. 
+以下は、各ビルド済みテーマが適用されたときの*表示形式エディター*と*ダッシュボード エディター*の外観を示すテーブルです。
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -121,14 +123,14 @@ Below, you will find a table showing how the *Visualization Editor* and *Dashboa
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-fymr">Theme</th>
-    <th class="tg-0pky"><span style="font-weight:bold">Dashboard Editor</span></th>
-    <th class="tg-0pky"><span style="font-weight:bold">Visualization Editor</span></th>
+    <th class="tg-fymr">テーマ</th>
+    <th class="tg-0pky"><span style="font-weight:bold">ダッシュボード エディター</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold">表示形式エディター</span></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0pky">Mountain Light (Default?)</td>
+    <td class="tg-0pky">Mountain Light (デフォルト?)</td>
     <td class="tg-0pky"><img src="images/mountain-light-theme-dashboard-pre-built.png" alt="Image" width="300" height="206"></td>
     <td class="tg-0pky"><img src="images/mountain-light-theme-visualization-pre-built.png" width="300" height="206"></td>
   </tr>

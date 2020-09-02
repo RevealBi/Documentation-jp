@@ -1,33 +1,33 @@
 ## Microsoft Azure Analysis Services
 
-Azure Analysis Services is a fully managed platform as a service (PaaS) that provides enterprise-grade data models in the cloud. Now, you can use the Azure Analysis data models in Reveal to create dashboards and perform data analysis.
+Azure Analysis Services は、クラウドでエンタープライズ　レベルのデータ モデルを提供するサービス (PaaS) としてのフル マネージド プラットフォームです。Reveal の Azure Analysis データ モデルを使用して、ダッシュボードを作成し、データ分析を実行できるようになりました。
 
-### Configuring an Azure Analysis Services data source
+### Azure Analysis Services データソースを設定する
 
-Unlike other databases used in Reveal (Microsoft Analysis Services, MySQL, Oracle, etc.), MS Azure Analysis Services can be used in Reveal Web.
+Reveal で使用される他のデータベース (Microsoft Analysis Services、MySQL、Oracle など) とは異なり、MS Azure Analysis Services は Reveal Web で使用できます。
 
 >[!NOTE]
->L**imitations in Web when first connecting to your Azure Analysis Services.**
->Due to security restrictions, the process of initial configuration and authentication of your Azure Analysis Services cannot be done in Reveal Web. You can initially connect to this data source in the iOS, Android, or Desktop app. Afterward, you can create or edit dashboards using data from this Azure Analysis Services connection with no further limitations.
+>**Azure Analysis Services に初めて接続するときの Web の制限**。
+>セキュリティ上の制限により、Azure Analysis Services の初期設定と認証のプロセスは、Reveal Web 上では実行できません。最初に、iOS、Android、またはデスクトップ アプリでこのデータソースに接続できます。その後、この Azure Analysis Services 接続のデータを使用してダッシュボードを作成または編集できます。制限はありません。
 
-To configure your Azure Analysis Services data source, you will need to perform the steps below.
+Azure Analysis Services データソースを設定するには、以下の手順を実行する必要があります。
 
-1. Provide a _URL_ to your server in the _New Data Source_ dialog:
+1. [データ ソースの作成] ダイアログでサーバーの URL を指定します:
 
     <img src="images/configure-azure-analysis-services-data-source.png" alt="Configuring an azure analysis services connection" width="800"/>
 
-    The _URL_ requested is the full name of the server, which contains the database with the data models you want to connect. You can *copy the server name* from the Azure Portal. To do this, go to:
+    要求される _URL_ は、接続するデータ モデルのデータベースを含むサーバーの完全な名前です。Azure ポータルから*サーバー名をコピー*できます。これを行うには、以下にアクセスしてください:
 
-    *Azure portal* > selected server > *Overview* > *Server name*
+    *Azure ポータル* > 選択したサーバー > *概要* > *サーバー名*
 
-2. Go back to Reveal and paste the server name in _URL_. Click the _Sign in_ button, which is now enabled.  
+2. Reveal に戻り、サーバー名を _URL_ に貼り付けます。有効になっている [サインイン] ボタンをクリックします。  
 
-3. Provide the credentials to your Microsoft account (the account associated with the Azure Analysis server).  
+3. Microsoft アカウント (Azure Analysis サーバーに関連付けられたアカウント) に資格情報を提供します。  
 
-4. You will be navigated back to the _New Data Source_ dialog (see the screenshot in _Step 1_). Select a _database_ and click/tap _Continue_.
+4. データ ソースの作成ダイアログに戻ります (*Step 1* のスクリーンショットを参照してください)。データベースを選択し、[続行] をクリック/タップします。
 
-5. In _Set Up the Database_ dialog, you will find a list of all available semantic models in your database. Choose a model and click/tap _Select Data_.
+5. データベースの設定ダイアログには、データベースで利用可能なすべてのセマンティック モデルのリストがあります。モデルを選択し、[データを選択] をクリック/タップします。
 
-The _Visualization editor_ will open. Here you will see the data from your model presented in two categories: _Dimensions_, and _Measures_.
+表示形式エディターが開きます。ここでは、モデルのデータが 2 つのカテゴリで表示されます: ディメンションとメジャー。
 
-*Dimensions* contain qualitative data ("Country", "Name", "Product", etc). *Measures* consist of numeric data.
+*ディメンション*には定性的なデータ (国、名前、製品など) が含まれています。*メジャー*は数値データで構成されます。
