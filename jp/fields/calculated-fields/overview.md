@@ -1,0 +1,156 @@
+## 計算フィールド
+
+Reveal では、計算フィールドというフィールドをデータセットに定義することができます。フィールドは、式 (数式) を使用して作成されます。式は、既存のフィールド、定数値、および以下の組み合わせにすることができます。
+
+  - [定義済み関数](#predefined-functions)および/または
+
+  - [単純な数学関数および定義されていない他の関数](#without-predefined-functions)。
+
+以下の 2 種類の計算フィールドがあります。
+
+  - [事前計算](#precalculated-fields) (計算済み) および
+
+  - [事後計算](#postcalculated-fields)。
+
+<a name='precalculated-fields'></a>
+### 事前計算フィールド
+
+事前計算フィールドは、データ エディターの集計を実行する前に評価されます。つまり、特定の数式を適用するために、Reveal はフィールドのデータセット内のすべてのレコードを 1 回または複数回調べます。そのため、大規模なデータセットを使用する場合、事前計算のパフォーマンスが低下する可能性があります。
+
+新しい計算フィールドを追加するには、[フィールド] パネルの [+] ボタンをクリック/タップします。
+
+![計算フィールドのボタン](images/pre-calculated-field-button.png)
+
+[計算フィールドの作成] 画面が開きます。
+
+<img src="images/new-calculated-field-screen.png" alt="New calculated field screen" width="800"/>
+
+以下の手順を実行します。
+
+1.  新しい計算フィールドに名前を割り当てます。
+
+2.  数式(式)を入力します。[フィールド] セクションで、すべての既存のフィールドのリストがら選択できます。1 つ以上のフィールドを使用して (選択したフィールドをクリックまたは角括弧で名前を入力) 数式を作成できます。[関数] セクションにリストされている定義済み関数のいずれかを選択して、または単純な数学計算を使用します (上記に表示)。
+
+新しい計算フィールドは、「フィール」ドリストの下部に表示されます。
+
+<img src="images/new-calculated-field-bottom-list.png" alt="New calculated field shown at the bottom of fields list" width="800"/>
+
+上記の例では、集計がデータ フィールドに適用されていないグリッドの表示形式で新しい計算フィールドが使用されます。事前計算フィールドは、ピボット グリッドでも使用できます。この場合、計算は事前計算フィールドで集計されたレコードに適用されます。
+
+<a name='postcalculated-fields'></a>
+### 事後計算フィールド
+
+データ エディターでデータ フィールドの集計を実行するピボット テーブルやその他の表示形式を使用する場合、事後計算フィールドを作成できます。事後計算フィールドは、すでに集計された値に数式を適用することによって常に作成されます。
+
+事後計算フィールドを作成する手順:
+
+1.  データ エディターでデータソースからフィールドを追加して、表示形式 (またはピボット テーブル) を作成します。
+
+    <img src="images/post-calculated-fields-data-editor.png" alt="Post calculated fields in the Data editor" width="800"/>
+
+2.  [値] の横にある [F(x)] ボタンをクリック/タップして、[計算フィールドの作成] 画面を開きます。
+
+    <img src="images/post-calculated-field-new-calculated-field-screen.png" alt="Post calculated field new calculated field screen" width="800"/>
+
+3.  事後計算のフィールドの [計算フィールドの作成] 画面
+計算フィールドに名前を付け、集計値に数式を適用します。
+注: 値のリストには、集計後に表示形式で使用したデータ フィールドが含まれています (Spend、Budget ではなく、Sum of Spend、Sum of Budget)。
+
+データ エディターに含まれていないデータソースの他のフィールドを使用する場合は、[値] の横の [+] ボタンをクリック/タップして追加できます。事後計算フィールドは集計値のみで作成されるため、最初にデータ フィールドで実行する集計をドロップダウン リストから選択する必要があります。
+
+<img src="images/post-calculated-field-new-calculated-field-screen-adding-fields.png" alt="Adding fields in the calculated field screen" width="800"/>
+
+手順 1 をスキップして、最初に事後計算フィールドを作成するか、表示形式で事後計算フィールドのみを使用することもできます。
+
+大規模なデータセットを使用する場合、事後計算は事前計算よりパフォーマンスが向上します。
+
+<a name='predefined-functions'></a>
+### Reveal 定義済み関数の使用
+
+事前計算フィールドと事後計算フィールドの両方で、Reveal で使用可能な機能のいずれかを使用できます。
+
+  - [**集計**](aggregation.md):
+    [AVERAGE](aggregation.md#average)、
+    [AVERAGEIF](aggregation.md#averageif)、
+    [COUNT](aggregation.md#count)、
+    [COUNTIF](aggregation.md#countif)、
+    [MAX](aggregation.md#max)、
+    [MAXIF](aggregation.md#maxif)、
+    [MIN](aggregation.md#min)、
+    [MINIF](aggregation.md#minif)。
+
+  - [**日付**](date.md):
+    [DATE](date.md#date-date)、
+    [DATEVALUE](date.md#datevalue)、
+    [DAY](date.md#day)、
+    [FORMATDATE](date.md#formatdate)、
+    [FQUARTER](date.md#fquarter)、
+    [FYEAR](date.md#fyear)、
+    [HOUR](date.md#hour)、
+    [MILLISECOND](date.md#millisecond)、
+    [MINUTE](date.md#minute)、
+    [MONTH](date.md#month)、
+    [MONTHNAME](date.md#monthname)、
+    [MONTHSHORTNAME](date.md#monthshortname)、
+    [NOW](date.md#now)、
+    [QUARTER](date.md#quarter)、
+    [SECOND](date.md#second)、
+    [TIME](date.md#date-time)、
+    [TODAY](date.md#today)、
+    [WEEKDAY](date.md#weekday)、
+    [WEEKNUM](date.md#weeknum)、
+    [YEAR](date.md#year)。
+
+  - [**情報**](information.md):
+    [EMPTY](information.md#empty)、
+    [ISEMPTY](information.md#isempty)。
+
+  - [**ロジック**](logic.md):
+    [AND](logic.md#and)、
+    [FALSE](logic.md#false)、
+    [IF](logic.md#if)、
+    [NOT](logic.md#not)、
+    [OR](logic.md#or)、
+    [TRUE](logic.md#true)。
+
+  - [**検索/行列**](lookup-reference.md):
+    [PREVIOUS](lookup-reference.md#previous)、
+    [ROW](lookup-reference.md#row)。
+
+  - [**数学**](math.md):
+    [ABS](math.md#abs)、
+    [EXP](math.md#exp)、
+    [LOG](math.md#log)、
+    [LOG10](math.md#log10)、
+    [MOD](math.md#mod)、
+    [RAND](math.md#rand)、
+    [RANDBETWEEN](math.md#randbetween)、
+    [SIGN](math.md#sign)、
+    [SQRT](math.md#sqrt)、
+    [TRUNC](math.md#trunc)。
+
+  - [**文字列**](string.md):
+    [CONCATENATE](string.md#concatenate)、
+    [FIND](string.md#find)、
+    [LEN](string.md#len)、
+    [LOWER](string.md#lower)、
+    [MID](string.md#mid)、
+    [REPLACE](string.md#replace)、
+    [SORTINTERVAL](string.md#sortinterval)、
+    [TRIM](string.md#trim)、
+    [UPPER](string.md#upper)。
+
+>[!NOTE] **IF 条件の制限**.
+>事前計算のフィールドの集計関数に含まれる場合、IF 条件には既知の制限があります。計算式内の IF 条件を確認するためにすべてのレコードを複数回調べる必要があり、パフォーマンスが低下する問題が発生するため、サポートされていません。
+
+<a name='without-predefined-functions'></a>
+### 定義済み関数を使用せず計算フィールドを作成
+
+定義済み関数を使用せずに計算フィールドを作成することもできます。 たとえば、減算、除算、加算、乗算などの単純な数学計算用。[こちらの表](samples.md)には、定義済み関数を使用しない例があります。
+
+### Reveal 関数を使用する際に以下に注意してください。
+
+  - **テキスト文字列は引用符で囲む必要があります**。
+    例えば、ロケール ("en") および日付書式 ("dd/mm/yyyy") 。
+
+  - **数式に含まれるフィールドは角括弧で囲む必要があります**。たとえば、HR データセットの [Wage]、[BirthDate]、[EmployeeID] などです。

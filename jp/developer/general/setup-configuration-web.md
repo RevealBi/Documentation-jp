@@ -165,8 +165,9 @@ AddRevealServices と同様に、AddReveal メソッドは Infragistics.Sdk
 #### 1\. 依存関係の確認
 Reveal Web Client SDK には、サードパーティーの参照が 2 つあります。
 
-  - jQuery 2.2 またはそれ以上
-  - Day.js 1.8.15 またはそれ以上
+  - [jQuery](https://jquery.com) 2.2 またはそれ以上
+  - [Day.js](https://day.js.org) 1.8.15 またはそれ以上
+  - [Quill RTE](https://quilljs.com/) 1.3.6 またはそれ以上
 
 <a name='reference-web-client-sdk'></a>
 
@@ -193,7 +194,7 @@ JavaScript ファイル は \<InstallationDirectory\>\\SDK\\Web\\JS\\Client に�
 
     > [!NOTE]
     > **サーバー側とクライアント側のパーツを個別にホスト**
-    > 個別のサーバーでクライアント側とサーバー側のパーツをホストする場合は、次の手順を続行する前に[こちら](~/jp/developer/web-sdk/sdk-overview-web.html#host-client-server-separate) を参照してください。
+    > 個別のサーバーでクライアント側とサーバー側のパーツをホストする場合は、次の手順を続行する前に[こちら](../../web-sdk/sdk-overview-web.md#host-client-server-separate) を参照してください。
 
 2.  コンストラクタで \_dashboardId\ を指定して __$.ig.RevealSettings__ のインスタンスを作成します。
 

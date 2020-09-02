@@ -12,7 +12,7 @@
 
 ### データソースのリストを表示
 
-データソースのリストを表示するために使用する必要があるコールバックは、__onDataSourcesRequested__ です。このコールバックに独自の関数を設定しない場合、新しいビジュアライゼーションが作成されると、Reveal はダッシュボードで使用されているすべてのデータソースを表示します (存在する場合)。
+データソースのリストを表示するために使用する必要があるコールバックは、__onDataSourcesRequested__ です。このコールバックに独自の関数を設定しない場合、新しい表示形式が作成されると、Reveal はダッシュボードで使用されているすべてのデータソースを表示します (存在する場合)。
 
 #### コード:
 
@@ -39,7 +39,7 @@ window.revealView.onDataSourcesRequested = function (callback) {
 
 ![displayingDataSources\_web](images/displayingDataSources_web.png)
 
-RVInMemoryDataSourceItem コンストラクタに渡される employees パラメーターは、[**インメモリ データのサポート**](~/jp/developer/web-sdk/using-the-server-sdk/in-memory-data.md)で使用されているコンストラクタと同じデータセット ID で、サーバー側で返されるデータセットを識別します。
+RVInMemoryDataSourceItem コンストラクタに渡される employees パラメーターは、[**インメモリ データのサポート**](../../web-sdk/using-the-server-sdk/in-memory-data.md)で使用されているコンストラクタと同じデータセット ID で、サーバー側で返されるデータセットを識別します。
 
 ### 新しいダッシュボードの作成
 

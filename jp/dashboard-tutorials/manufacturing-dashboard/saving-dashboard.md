@@ -1,0 +1,22 @@
+## ダッシュボードの保存 
+
+ダッシュボードの作成後、作業を保存できます。ダッシュボード エディターの右上隅にあるオーバーフロー ボタンの **[名前を付けて保存]** オプションを選択します。
+
+![ManufacturingAccessingSaveMenu\_All](images/ManufacturingAccessingSaveMenu_All.png)
+
+ダッシュボードを個人用リポジトリに保存するか、参加または作成したチーム リポジトリを選択できます。 
+
+ダッシュボードの名前を選択し、準備ができた後 **[ここに保存]** をクリック/タップします。
+
+<style>
+.previous {
+    text-align: left
+}
+
+.next {
+    float: right
+}
+
+</style>
+
+<a href="manufacturing-adding-other-visualizations.md" class="previous">&laquo; 前へ</a>

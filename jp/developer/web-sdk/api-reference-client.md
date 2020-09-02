@@ -665,7 +665,7 @@ PDF エクスポート操作が使用可能かどうかを示すフラグ。
 <a name='RevealSettings+showDataBlending'></a>
 #### $.ig.RevealSettings.showDataBlending : `boolean`
 
-別のデータソースからフィールドを追加する操作がビジュアライゼーション エディターで使用可能かどうかを示すフラグ。
+別のデータソースからフィールドを追加する操作が表示形式エディターで使用可能かどうかを示すフラグ。
 
 **種類**: [`$.ig.RevealSettings`](#RevealSettings) のインスタンス プロパティ 
 **デフォルト**: `false`
@@ -673,7 +673,7 @@ PDF エクスポート操作が使用可能かどうかを示すフラグ。
 <a name='RevealSettings+showMachineLearningModelsIntegration'></a>
 #### $.ig.RevealSettings.showMachineLearningModelsIntegration : `boolean`
 
-ML モデルからフィールドを追加する操作がビジュアライゼーション エディターで使用可能かどうかを示すフラグ。
+ML モデルからフィールドを追加する操作が表示形式エディターで使用可能かどうかを示すフラグ。
 
 **種類**: [`$.ig.RevealSettings`](#RevealSettings) のインスタンス プロパティ 
 **デフォルト**: `false`

@@ -14,9 +14,9 @@
 
 Reveal Web Client SDK には、サードパーティーの参照が 1 つあります。
 
-  - jQuery 2.2 またはそれ以上
-
-  - Day.js 1.8.15 またはそれ以上
+  - [jQuery](https://jquery.com) 2.2 またはそれ以上
+  - [Day.js](https://day.js.org) 1.8.15 またはそれ以上
+  - [Quill RTE](https://quilljs.com/) 1.3.6 またはそれ以上
 
 ### 2\. Web Client SDK の参照
 
@@ -43,7 +43,7 @@ JavaScript ファイル は "\<InstallationDirectory\>\\SDK\\Web\\JS\\Client" �
 
     a.  成功ハンドラーでは、取得したダッシュボードを使用し、__$.ig.RevealSettings__ オブジェクトの dashboard プロパティに設定する必要があります。
 
-4.  最後に、2つのパラメータを渡して [$.ig.RevealView\*](api-reference-client-web.html#_revealview) コンポーネントをインスタンス化します。1 つはダッシュボードをレンダリングする DOM 要素のセレクター、もう 1 つは設定オブジェクトです。
+4.  最後に、2つのパラメータを渡して [$.ig.RevealView\*](api-reference-client-web.md#_revealview) コンポーネントをインスタンス化します。1 つはダッシュボードをレンダリングする DOM 要素のセレクター、もう 1 つは設定オブジェクトです。
 
 #### サンプル コード
 
