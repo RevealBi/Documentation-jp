@@ -1,20 +1,20 @@
-## How to prepare Your Data for a Choropleth Map. Location Data Requirements
+## 階級区分図のデータを準備する方。法場所のデータ要件
 
-*Location names* column in your data set has to match the actual geographic units on the selected map. If for example, the column contains name of countries, but you want to use the USA states map, you will see the "_There is no data to display_" error on the screen. Find more about this error in [Troubleshooting Errors](#troubleshooting-choropleth-map) below.
+データセットの**場所名**列は、選択したマップの実際の地理単位と一致する必要があります。たとえば、列に国の名前が含まれているが、アメリカ合衆国の州のマップを使用する場合、「表示するデータはありません。」というエラーが画面に表示されます。このエラーの詳細については、以下の[「エラーのトラブルシューティング」](#エラーのトラブルシューティング)を参照してください。
 
 <a name='location-formats'></a>
-### Location Formats
-To have your location column recognized by Reveal, provide one of the following formats:
+### 場所の形式
+場所列を Reveal に認識させるには、以下のいずれかの形式を指定します。
 
- - *names* of countries and their subdivisions (provinces, states, departments, regions, etc.) - comply with the official spelling in English or another supported language. Find more information about supported languages in [My Data Source Is Not in English](#data-not-in-english) below.
- - *three-letter country codes* defined by [ISO 3166-1 alpha-3](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) standard; 
- - [*two-letter US state abbreviations*](https://pe.usps.com/text/pub28/28apb.htm) established by USPS;
- - *[county name, state name] format* e.g., _Seneca, New York_. You can use this format for USA maps, which include counties.
- - *[county name, state abbreviation] format* e.g., _Seneca, NY_. This is another format recognized for USA maps, which include counties.
+ - 国の**名前**およびその下位区分 (省、州、部、地域など) - 英語またはサポートされる他の言語の公式スペルに準拠します。サポートされる言語の詳細については、以下の[「データソースが英語ではありません」](#data-not-in-english)を参照してください。
+ - [ISO 3166-1 alpha-3](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) 規格で定義される **3 文字の国コード**。 
+ - USPS によって確立された [*2 文字の米国州の略語*](https://pe.usps.com/text/pub28/28apb.htm)。
+ - [郡名、州名] の形式 (_Seneca、New York_ など)。この形式は、郡を含む米国のマップに使用できます。
+ - [郡名、州の略語] の形式 (_Seneca、NY_ など)。これは、郡を含む米国のマップで認識されるもう 1 つの形式です。
 
-Be consistent with the format you provide. Do not mix full names and codes in the same column. However, there is an exception for some ***very commonly used country abbreviations***. Below, you will find a list of abbreviated country names that you can mix with countries' full names in your location column and still have them recognized by Reveal.
+指定した形式と一致している必要があります。同じ列に完全名とコードを使用しないでください。ただし、**一般的に使用される国の略語***には例外があります。以下は、場所の列で国の完全名と組み合わせることができ、それらを Reveal で認識できるようにする省略された国名のリストです。
 
-| Country Full Name        | Accepted Abbreviation |
+| 国の完全名        | 略語 |
 |--------------------------|-----------------------|
 | United States            | USA                   |
 | United Kingdom           | UK                    |
@@ -38,51 +38,51 @@ Be consistent with the format you provide. Do not mix full names and codes in th
 | Equatorial Guinea        | Eq. Guinea            |
 
 <a name='troubleshooting-choropleth-map'></a>
-### Troubleshooting Errors
+### エラーのトラブルシューティング
 
-The Choropleth map was designed to find any match that is available. This way, you'll see a map with partial results doesn't look right, but it will be working regardless.
-For example, when using the US States map, Reveal will show the states that match the map and the other states will be greyed out.
+階級区分図は、使用可能な一致を検索するように設計されています。このように、部分的な結果のマップが正しく表示されませんが、動作します。
+たとえば、米国の州のマップを使用する場合、Reveal はマップに一致する州を表示し、その他の州はグレーアウトされます。
 
-#### Troubleshooting the Choropleth Map
+#### 階級区分図のトラブルシューティング
 
-If you are getting the *"There is no data to display"* error, this means the predefined map wasn't matched to any of your information. Try the  suggestions below to troubleshoot this issue.
+**「表示するデータはありません」** というエラーが表示される場合、定義済みのマップが提供された情報と一致していません。この問題をトラブルシューティングするには、以下の手順をお試しください。
 
-1. *Check the Visualization Editor*
+1. **表示形式エディターの確認**
    
-    - You might have assigned the wrong fields in the *_Location_* placeholder. Check if the _Location_ field contains geographic units - continents, countries, states, etc.  
+    - [場所] プレースホルダーで誤ったフィールドを割り当てた可能性があります。[場所] フィールドに大陸、国、州などの地理単位が含まれているかどうかを確認します。  
   
-    - Your field in the  *_Value_* placeholder may not contain information for the selected locations. If you have added an additional category in the *_Map Color_* placeholder (see link:choropleth-map#map-color[this example]), then your _Value_ field must contain information for this category. For example, there must be information about votes for each candidate, if you compare candidate votes by state.
+    - [値] プレースホルダーのフィールドに、選択した場所の情報が含まれていない場合があります。[マップの色] プレースホルダーでカテゴリを追加した場合 [この例](overview.md#マップの色を使用したマルチカラー階級区分図の作成)を参照、[値] フィールドにこのカテゴリの情報を含める必要があります。たとえば、州ごとに候補者の投票を比較する場合、各候補者の投票に関する情報が必要です。
   
-    - Also, please confirm that you selected the right *_MAP_* in the map selector.
+    - また、マップ セレクターで正しいマップを選択したことを確認してください。
   
-    - If you receive the error when *drilling down*, make sure the _MAP_ selector contains the map for the level you want to drill down to. For example, currently Swiss cantons are not available in the maps selector and this means you can't drill down into Switzerland even if you have the necessary information in your data source.
+    - ドリルダウン時にエラーが発生した場合は、マップ セレクターにドリルダウンするレベルのマップが含まれていることを確認してください。たとえば、現在スイスの州はマップ セレクターで使用できないため、データソースに必要な情報がある場合でもスイスにドリルダウンできません。
 
-2. *Check your Data Source*. Your data source might be empty or with no location data at all. If not empty, try searching for misspellings or odd punctuation. Check whether you are using the right [location format](#location-formats). If your data source contents are not written in the English language, please go to the [My data source is not in English](#data-not-in-english) section.
+2. **データソースの確認**データソースが空であるか、あるいは場所のデータがない場合があります。空でない場合は、つづりの間違いや奇妙な句読点を検索してみてください。正しい[場所の形式](#場所の形式)を使用しているかどうかを確認します。データソースの内容が英語で記載されていない場合は、[「データソースが英語ではありません」](#データソースが英語ではありません)セクションに移動してください。
 
-If you are getting an outcome, but it's not exactly what you were expecting, please go through the entire Choropleth map documentation, including this topic, the [Choropleth Maps](choropleth-map.md), and [Working with the Choropleth Map Settings](settings-choropleth-map.md) topic.
+期待どおりの結果が得られなかった場合は、このトピックを含む、[「階級区分図」](overview.md)および[「階級区分図設定の操作」](settings-choropleth-map.md)トピック全体を参照してください。
 
-#### General Troubleshooting Tips
+#### 一般的なトラブルシューティングのヒント
 
-- *Isolate the issue.* If possible, try to isolate your problem. For example, if you can’t use a specific location, try with another different location or even a different data source. When trying to isolate your issue, make only small changes at a time.
+- *問題の特定*できる限り問題を特定します。たとえば、特定の場所を使用できない場合は、別の場所または別のデータソースを使用してみてください。問題を特定するには、一度に多くの設定を変更するのではなく、特定の設定を変更して結果を観察します。
 
-- *Remember/write down the steps you made.* Once you start troubleshooting, it is really helpful to remember what you have already done. When asking for support, things get much easier if you know exactly which steps you made in the past.
+- *実行した手順を記録*トラブルシューティングを開始したら、実際に行った手順を記録しておきます。実行した手順を記録し、再現できることにより、問題の特定を効率的に行うことができます。
 
 <a name='data-not-in-english'></a>
-### My Data Source Is Not In English
+### データソースが英語ではありません
 
-Reveal doesn't recognize the language of your data source automatically.
-If your data source information is written in another language, you need to specify it by going to:
+Reveal はデータソースの言語を自動的に認識しません。
+データソース情報が他の言語で記述されている場合、以下のように指定する必要があります。
 
-*Visualization editor* > *Settings* > *Data is written in*, and selecting a language from the dropdown.
+表示形式エディター > [設定] > [データが以下の言語に書き込まれています]、ドロップダウンから言語を選択します。
 
-Currently, the Choropleth Map in Reveal supports:
+現在、Reveal の階級区分図は以下の言語をサポートします。
 
-    * English, and
-    * Japanese.
+    * 英語と
+    * 日本語
 
-If location information in your data source is written in a different language, you have to translate it outside of Reveal.
+データソースの場所情報が異なる言語で記述されている場合、Reveal 以外で翻訳する必要があります。
 
 >[!NOTE]
->**Using a Japanese Data Source with the Japan Map.**
->If you want to use a data source in Japanese to display the Japan map and have all Japanese prefectures mapped, you need to provide the location data in the format shown in [this table](https://ja.wikipedia.org/wiki/%E9%83%BD%E9%81%93%E5%BA%9C%E7%9C%8C#%E4%BA%94%E5%8D%81%E9%9F%B3%E9%A0%86%E3%83%BB%E5%9F%BA%E7%A4%8E%E3%83%87%E3%83%BC%E3%82%BF).
+>**日本のマップで日本語のデータソースを使用**
+>日本語のデータソースを使用して日本のマップを表示し、すべての日本の都道府県をマップしたい場合は、[この表](https://ja.wikipedia.org/wiki/%E9%83%BD%E9%81%93%E5%BA%9C%E7%9C%8C#%E4%BA%94%E5%8D%81%E9%9F%B3%E9%A0%86%E3%83%BB%E5%9F%BA%E7%A4%8E%E3%83%87%E3%83%BC%E3%82%BF)の形式とおりに位場所のデータを提供する必要があります。
 
