@@ -72,17 +72,17 @@
 <td><p><img src="images/reveal-logo.png" alt="reveal logo" /><br />
 </p>
 <p>デフォルトで<strong>2 桁の小数桁があります。</strong>これを変更するには、フィールドの <em>[書式設定]</em> メニューへアクセスします。</p>
-<p><a href="~/jp/fields/field-settings.html#numeric-fields">詳細情報</a><br />
+<p><a href="~/jp/fields/field-settings.md#numeric-fields">詳細情報</a><br />
 </p></td>
 <td><p><img src="images/top-1000.png" alt="top 1000" /><br />
 </p>
 <p>数値が大きい場合もデフォルトでは桁区切りが無効です。有効にするには、<em>[書式設定]</em> メニューへアクセスします。</p>
-<p><a href="~/jp/fields/field-settings.html#numeric-fields">詳細情報</a><br />
+<p><a href="~/jp/fields/field-settings.md#numeric-fields">詳細情報</a><br />
 </p></td>
 <td><p><img src="images/percentage.png" alt="percentage" /><br />
 </p>
 <p>パーセンテージまたは通貨を表示するには、そのオプションを [書式設定] メニューから選択します。</p>
-<p><a href="~/jp/fields/field-settings.html#numeric-fields">詳細情報</a><br />
+<p><a href="~/jp/fields/field-settings.md#numeric-fields">詳細情報</a><br />
 </p></td>
 </tr>
 <tr class="even">

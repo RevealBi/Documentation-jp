@@ -194,7 +194,7 @@ JavaScript ファイル は \<InstallationDirectory\>\\SDK\\Web\\JS\\Client に�
 
     > [!NOTE]
     > **サーバー側とクライアント側のパーツを個別にホスト**
-    > 個別のサーバーでクライアント側とサーバー側のパーツをホストする場合は、次の手順を続行する前に[こちら](~/jp/developer/web-sdk/sdk-overview-web.html#host-client-server-separate) を参照してください。
+    > 個別のサーバーでクライアント側とサーバー側のパーツをホストする場合は、次の手順を続行する前に[こちら](../../web-sdk/sdk-overview-web.md#host-client-server-separate) を参照してください。
 
 2.  コンストラクタで \_dashboardId\ を指定して __$.ig.RevealSettings__ のインスタンスを作成します。
 

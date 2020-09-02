@@ -43,7 +43,7 @@ Reveal は自由にアプリに埋め込まれるように設計されていま�
   </tr>
   <tr>
     <td class="tg-0pky"><img src="images/sharingHome_All.png" alt="Sharing dialog" width="200" height="150"></td>
-    <td class="tg-0pky"><a href="~/jp/dashboards/sharing-dashboards/sharing-dashboards.md">チームとインサイトを共有する</a>: <a href="~/jp/dashboards/teams/teams-collaboration-privacy.html#organization-team">組織のリポジトリ内</a>のダッシュボードを、所属しているチーム、または同僚と共有することで、全員にデータの力を与えます。ユーザーにさまざまなレベルの権限を割り当てて、ダッシュボードへのアクセス権を付与します。</td>
+    <td class="tg-0pky"><a href="~/jp/dashboards/sharing-dashboards/sharing-dashboards.md">チームとインサイトを共有する</a>: <a href="~/jp/dashboards/teams/teams-collaboration-privacy.md#organization-team">組織のリポジトリ内</a>のダッシュボードを、所属しているチーム、または同僚と共有することで、全員にデータの力を与えます。ユーザーにさまざまなレベルの権限を割り当てて、ダッシュボードへのアクセス権を付与します。</td>
   </tr>
 </table>
 

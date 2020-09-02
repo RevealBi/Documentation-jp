@@ -1,11 +1,11 @@
 ## データ ソース
 
-[機](~/jp/general/feature-matrix.md)のクションにリストされているように、Reveal がさまざまなエンタープライズ データ ソースに接続できることを説明しました。サーバー側に変更がない場合、Reveal 内でデータにアクセスするためのデータ ソースを構成する必要があります。以下のオプションを選択できます。
+[機](../../general/feature-matrix.md)のクションにリストされているように、Reveal がさまざまなエンタープライズ データ ソースに接続できることを説明しました。サーバー側に変更がない場合、Reveal 内でデータにアクセスするためのデータ ソースを構成する必要があります。以下のオプションを選択できます。
 
 * **アナリティクス ツール** [Google Analytics](google-analytics.md)。
 * *コンテンツ マネージャー* と *クラウド サービス* ([Box](box.md)、[Dropbox](dropbox.md)、[Google Drive](google-drive.md)、[OneDrive](onedrive.md) と [SharePoint Online](sharepoint.md))。
 * *カスタマー リレーションシップ マネージャー* ([Microsoft Dynamics CRM](microsoft-dynamics-crm.md) オンプレミスおよびオンライン)。
-* *データベース* ([Microsoft SQL Server](Microsoft-SQL-Server.md)、[Microsoft Analysis Services Server](Microsoft-Analysis-Services.md)、[MySQL](MySQL.md)、[PostgreSQL](PostgreSQL.md)、[Oracle](Oracle.md)、[Sybase](Sybase.md))[*](~/en/general/feature-matrix.html#databases-web)
+* *データベース* ([Microsoft SQL Server](Microsoft-SQL-Server.md)、[Microsoft Analysis Services Server](Microsoft-Analysis-Services.md)、[MySQL](MySQL.md)、[PostgreSQL](PostgreSQL.md)、[Oracle](Oracle.md)、[Sybase](Sybase.md))[*](~/en/general/feature-matrix.md#databases-web)
 * *その他のデータ ソース* ([OData-Feed](odatafeed.md)、[Web-Resource](web-resource.md)、[JSON ファイル](working-with-json-files.md))。
 
 ### 資格情報を入力

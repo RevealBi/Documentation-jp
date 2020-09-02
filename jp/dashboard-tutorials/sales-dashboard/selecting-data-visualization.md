@@ -1,7 +1,7 @@
 ## 初めての表示形式作成
  
 
-チュートリアルのはじめの[サンプル ダッシュボード](sales-dashboard-tutorial.md)に Won Opportunities 表示形式を作成します。表示形式は[テキスト ゲージ](~/en/data-visualizations/gauge-views.html#text-gauge)を表示します。
+チュートリアルのはじめの[サンプル ダッシュボード](sales-dashboard-tutorial.md)に Won Opportunities 表示形式を作成します。表示形式は[テキスト ゲージ](~/en/data-visualizations/gauge-views.md#text-gauge)を表示します。
 
 まず、トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開きます**。
 
@@ -35,5 +35,5 @@
 
 </style>
 
-<a href="sales-starting-creation-process.md" class="previous">&laquo; 前へ</a>
+<a href="sales-creating-the-dashboard.md" class="previous">&laquo; 前へ</a>
 <a href="sales-applying-formatting-visualization.md" class="next">次へ &raquo;</a>

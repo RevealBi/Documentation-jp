@@ -39,4 +39,4 @@
   - [テキスト ビュー](text-view.md)
 
 >[!NOTE]
->[KPI](kpi-gauge.md)、[リニア](gauge-views.html#linear-gauge)、[円形](gauge-views.html#circular-gauge)、[テキスト](gauge-views.html#text-gauge)、および[ブレット グラフ](gauge-views.html#bullet-graph) ゲージは、[**表示形式バンドの範囲の構成**](gauge-views.html#bands-configuration).で条件付き書式をサポートします
+>[KPI](kpi-gauge.md)、[リニア](gauge-views.md#linear-gauge)、[円形](gauge-views.md#circular-gauge)、[テキスト](gauge-views.md#text-gauge)、および[ブレット グラフ](gauge-views.md#bullet-graph) ゲージは、[**表示形式バンドの範囲の構成**](gauge-views.md#bands-configuration).で条件付き書式をサポートします
