@@ -23,18 +23,18 @@
 
 ### ステップの概要
 
-1.  [ダッシュボードを作成してデータ ソースを追加](sales-starting-creation-process.md)
+1.  [ダッシュボードを作成してデータ ソースを追加](creating-the-dashboard.md)
 
-2.  [初めての表示形式を作成](sales-selecting-data-visualization.md)
+2.  [初めての表示形式を作成](selecting-data-visualization.md)
 
-3.  [はじめての表示形式に書式を適用](sales-applying-formatting-visualization.md)
+3.  [はじめての表示形式に書式を適用](applying-formatting-visualization.md)
 
-4.  [ダッシュボードにテーマを適用](sales-applying-theme.md)
+4.  [ダッシュボードにテーマを適用](applying-theme.md)
 
-5.  [その他表示形式の追加](sales-adding-other-visualizations.md) ([Win/Lost by Month](sales-adding-other-visualizations.html#win-lost-by-month)、
-[Forecasted](sales-adding-other-visualizations#forecasted)、[Lost Opportunities](sales-adding-other-visualizations.html#lost-opportunities)、[Pipeline by Territory](sales-adding-other-visualizations.html#pipeline-by-territory)、[Total Opportunities](sales-adding-other-visualizations.html#total-opportunities)、[Revenue by Territory](sales-adding-other-visualizations.html#revenue-by-territory)、[Pipeline per Employee](sales-adding-other-visualizations.html#pipeline-per-employee)、[Sales by Product](sales-adding-other-visualizations.html#sales-by-product))
+5.  [その他表示形式の追加](adding-other-visualizations.md) ([Win/Lost by Month](adding-other-visualizations.md#win-lost-by-month)、
+[Forecasted](adding-other-visualizations#forecasted)、[Lost Opportunities](adding-other-visualizations.md#lost-opportunities)、[Pipeline by Territory](adding-other-visualizations.md#pipeline-by-territory)、[Total Opportunities](adding-other-visualizations.md#total-opportunities)、[Revenue by Territory](adding-other-visualizations.md#revenue-by-territory)、[Pipeline per Employee](adding-other-visualizations.md#pipeline-per-employee)、[Sales by Product](adding-other-visualizations.md#by-product))
 
-6.  [ダッシュボードの保存](sales-saving-dashboard.md)
+6.  [ダッシュボードの保存](saving-dashboard.md)
 
 <style>
 .previous {
@@ -47,4 +47,4 @@
 
 </style>
 
-<a href="sales-starting-creation-process.md" class="next">作業の開始 &raquo;</a>
+<a href="creating-the-dashboard.md" class="next">作業の開始 &raquo;</a>

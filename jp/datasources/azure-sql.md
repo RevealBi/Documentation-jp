@@ -35,4 +35,4 @@ Azure SQL データソースを構成するには、以下の情報が必要で�
 
   - ストアド プロシージャの作業
 
-Reveal の両データソースは同様に機能するため、[**SQL Server**](microsoft-sql-server.html#how-to-find-server) を参照してください。
+Reveal の両データソースは同様に機能するため、[**SQL Server**](microsoft-sql-server.md#how-to-find-server) を参照してください。

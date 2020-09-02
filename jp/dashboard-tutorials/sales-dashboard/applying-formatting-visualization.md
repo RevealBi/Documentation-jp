@@ -21,7 +21,7 @@
 
 ### 赤インジケーターの追加
 
-サンプル ダッシュボードの **Won Opportunities** 表示形式に表示される赤矢印のインジケーターは、受注済商談が減少していることを示します。このマーカーは、ゲージ設定の[バンド構成](~/jp/data-visualizations/gauge-views.html#bands-configuration) で作成します。
+サンプル ダッシュボードの **Won Opportunities** 表示形式に表示される赤矢印のインジケーターは、受注済商談が減少していることを示します。このマーカーは、ゲージ設定の[バンド構成](~/jp/data-visualizations/gauge-views.md#bands-configuration) で作成します。
 
 ![SalesWonOpportunitiesConditionalFormattingMarker\_All](images/SalesWonOpportunitiesConditionalFormattingMarker_All.png)
 

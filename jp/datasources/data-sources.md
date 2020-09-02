@@ -7,7 +7,7 @@
 
   - **カスタマー リレーションシップ マネージャ-**: [Microsoft Dynamics CRM](microsoft-dynamics-crm.md) (オンプレミスおよびオンライン)。
 
-  - **データベース**: [Microsoft SQL Server](microsoft-sql-server.md)、[Microsoft Analysis Services サーバー](microsoft-analysis-services.md)、[MS Azure SQL](azure-sql.md)、[MySQL](mysql.md)、[PostgreSQL](postgresql.md)、[Oracle](oracle.md)、[Sybase](sybase.md).[\*](feature-matrix.html#databases-web)。
+  - **データベース**: [Microsoft SQL Server](microsoft-sql-server.md)、[Microsoft Analysis Services サーバー](microsoft-analysis-services.md)、[MS Azure SQL](azure-sql.md)、[MySQL](mysql.md)、[PostgreSQL](postgresql.md)、[Oracle](oracle.md)、[Sybase](sybase.md).[\*](feature-matrix.md#databases-web)。
 
   - **その他データ ソース**: [OData Feed](odata-feed.md)、[Web リソース](web-resource.md)、[JSON ファイル](working-with-json-files.md)、[Salesforce](salesforce.md)。
 

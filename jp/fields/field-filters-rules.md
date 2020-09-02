@@ -97,7 +97,7 @@ Reveal は特定の列で空値のフィルター構成の設定を有効にす�
 
 ### 値のフィールドのフィルタリング
 
-**データ エディターの値プレースホルダーにドロップされたフィールドをフィルターすること**もできます。これは、フィールドのリストとは異なる[集計](field-settings.html#numeric-fields)になる可能性があります。
+**データ エディターの値プレースホルダーにドロップされたフィールドをフィルターすること**もできます。これは、フィールドのリストとは異なる[集計](field-settings.md#numeric-fields)になる可能性があります。
 
 <img src="images/data-filters-filtering-data-editor.png" alt="Data Filters Filtering in the Data Editor" width="800"/>
 

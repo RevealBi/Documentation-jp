@@ -43,7 +43,7 @@ Microsoft Azure Synapse Analytics データソースを設定するには、以�
 
 MS Azure Synapse Analytics でデータベースに接続すると、表全体または特定のビューからデータを取得することを選択できます。
 
-Azure Synapse Analytics を使用する場合のビューの操作は、MS SQL Server を使用する場合のビューの操作とよく似ています。詳細については、**MS SQL Server データソース** トピックの[このセクション](Microsoft-SQL-Server.html#working-with-views)を参照してください。
+Azure Synapse Analytics を使用する場合のビューの操作は、MS SQL Server を使用する場合のビューの操作とよく似ています。詳細については、**MS SQL Server データソース** トピックの[このセクション](Microsoft-SQL-Server.md#working-with-views)を参照してください。
 
 ### 表示形式エディターでの制限事項
 

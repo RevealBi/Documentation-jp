@@ -40,5 +40,5 @@
 
 </style>
 
-<a href="finance-starting-creation-process.md" class="previous">&laquo; 前へ</a>
+<a href="finance-creating-the-dashboard.md" class="previous">&laquo; 前へ</a>
 <a href="finance-applying-formatting-visualization.md" class="next">次へ &raquo;</a>

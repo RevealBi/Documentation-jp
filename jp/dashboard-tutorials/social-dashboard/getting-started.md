@@ -23,18 +23,18 @@
 
 ### ステップの概要
 
-1.  [ダッシュボードを作成してデータ ソースを追加](social-starting-creation-process.md)
+1.  [ダッシュボードを作成してデータ ソースを追加](creating-the-dashboard.md)
 
-2.  [初めての表示形式を作成](social-selecting-data-visualization.md)
+2.  [初めての表示形式を作成](selecting-data-visualization.md)
 
-3.  [ダッシュボード フィルターの作成と表示形式の接続](social-creating-dashboard-filter-connecting-visualization.md)
+3.  [ダッシュボード フィルターの作成と表示形式の接続](creating-dashboard-filter-connecting-visualization.md)
 
-4.  [ダッシュボードにテーマを適用](social-applying-theme.md)
+4.  [ダッシュボードにテーマを適用](applying-theme.md)
 
-5.  [その他の表示形式の追加](social-adding-other-visualizations.md) ([フォロワー](social-adding-other-visualizations.html#followers)、[YTD Facebook フォロワー](social-adding-other-visualizations#ytd-facebook-followers)、[月ごとの Facebook いいね!](social-adding-other-visualizations.html#monthly-facebook-likes)、[リツイート& お気に入り](social-adding-other-visualizations.html#retweets-favorites)、[Facebook リーチ vs. インプレッション数](social-adding-other-visualizations.html#facebook-reach-impressions)、[月ごとの Twitter メンション数](social-adding-other-visualizations.html#monthly-twitter-mentions))
+5.  [その他の表示形式の追加](adding-other-visualizations.md) ([フォロワー](adding-other-visualizations.md#followers)、[YTD Facebook フォロワー](adding-other-visualizations#ytd-facebook-followers)、[月ごとの Facebook いいね!](adding-other-visualizations.md#monthly-facebook-likes)、[リツイート& お気に入り](adding-other-visualizations.md#retweets-favorites)、[Facebook リーチ vs. インプレッション数](adding-other-visualizations.md#facebook-reach-impressions)、[月ごとの Twitter メンション数](adding-other-visualizations.md#monthly-twitter-mentions))
 
-6.  [ダッシュボードの保存](social-saving-dashboard.md)
+6.  [ダッシュボードの保存](saving-dashboard.md)
 
 
-[作業の開始 »](social-starting-creation-process.md)
+[作業の開始 »](creating-the-dashboard.md)
 

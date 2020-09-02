@@ -17,7 +17,7 @@
 
 ### ダッシュボード ビュー モードで列を並べ替え
 
-[ダッシュボード ビュー モード](~/jp/dashboards/index.html#view-edit-mode)でグリッド ビューの列の並べ替え (昇順や降順) を変更できます。列名の横にある矢印ボタンを選択して変更できます。
+[ダッシュボード ビュー モード](~/jp/dashboards/index.md#view-edit-mode)でグリッド ビューの列の並べ替え (昇順や降順) を変更できます。列名の横にある矢印ボタンを選択して変更できます。
 
 <img src="images/grid-view-sorting-columns-options.png" alt="Grid View Sorting Columns Options" width="800"/>
 

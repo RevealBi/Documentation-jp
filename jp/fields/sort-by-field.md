@@ -13,7 +13,7 @@ Reveal では、データを昇順または降順に並べ替えることで、 
 <a name='string-date-chr-order'></a>
 ### 文字列日付を時系列で順序
 
-次の表示形式を見てみましょう。ここでは、 [積層型柱状チャート](~/jp/visualization-tutorials/stacked-charts.html#create-stacked-chart)で企業の現金と売掛金の増加をプロットしています。
+次の表示形式を見てみましょう。ここでは、 [積層型柱状チャート](~/jp/visualization-tutorials/stacked-charts.md#create-stacked-chart)で企業の現金と売掛金の増加をプロットしています。
 
 ![SortByFieldSalesInformation\_All](images/SortByFieldSalesInformation_All.png)
 
@@ -30,7 +30,7 @@ Reveal では、データを昇順または降順に並べ替えることで、 
 <a name='by-priority'></a>
 ### 企業を優先順位で順序
 
-別のシナリオでは、たとえば、スプレッドシートのカスタム ビジネス ロジックに基づいてフィールドを並べ替えます。たとえば、次の表示形式は、6 つの企業の収益予測を[スプライン エリア  チャート](~/jp/visualization-tutorials/simple-charts.html#create-basic-chart).
+別のシナリオでは、たとえば、スプレッドシートのカスタム ビジネス ロジックに基づいてフィールドを並べ替えます。たとえば、次の表示形式は、6 つの企業の収益予測を[スプライン エリア  チャート](../visualization-tutorials/simple-charts.md#create-basic-chart).
 
 ![RevenueCompanyFilterSample\_All](images/RevenueCompanyFilterSample_All.png)
 

@@ -1,6 +1,6 @@
 ## チームの管理
 
-チームの[オーナー](index.html#members-roles-permissions)として、次のことができます:
+チームの[オーナー](overview.md#members-roles-permissions)として、次のことができます:
 
   - チーム メンバーを管理する
 
@@ -8,7 +8,7 @@
 
   - チームを[削除する](#delete-team)
 
-特殊なタイプのチームとして、[組織リポジトリ](index.html#organization-team) 管理は、Reveal のチーム管理の一般的なルールに対応しています。組織のリポジトリ管理に違いがある場合、それらはこのトピックで明示的に言及されます。
+特殊なタイプのチームとして、[組織リポジトリ](overview.md#organization-team) 管理は、Reveal のチーム管理の一般的なルールに対応しています。組織のリポジトリ管理に違いがある場合、それらはこのトピックで明示的に言及されます。
 
 <a name='manage-team-members'></a>
 ### チーム メンバーを管理する
