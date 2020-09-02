@@ -74,7 +74,7 @@ KPI ゲージは、特定の期間内のパフォーマンスとその変動を�
 | 2\. **データ ソースの構成**       | ![Tutorials-Select-Data-Source](images/Tutorials-Select-Data-Source.png)                     | *新しい表示形式*ウィンドウで、右下隅の [+] ボタンを選択し、データソースを選択します。                                       |
 | 3\. **チュートリアル スプレッドシートの選択** | ![Tutorials-Select-KPI-Gauge-Spreadsheet](images/Tutorials-Select-KPI-Gauge-Spreadsheet.png) | データソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。 次に、[KPI ゲージ] シートを選択します。                                 |
 | 4\. **表示形式メニューを開く**     | ![Tutorials-Select-Change-Visualization](images/Tutorials-Select-Change-Visualization.png)   | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                |
-| 5\. **表示形式の選択**        | ![Tutorials-Select-KPI-Gauge](images/Tutorials-Select-KPI-Gauge.png)                         | デフォルトで、表示形式のタイプは*グリッド*に設定されています。 **スパークライン** チャートを選択します。                                                            |
+| 5\. **表示形式の選択**        | ![Tutorials-Select-KPI-vs-Time-Gauge](images/Tutorials-Select-KPI-vs-Time-Gauge.png)                         | デフォルトで、表示形式のタイプは*グリッド*に設定されています。 **KPI vs Time** ゲージを選択します。                                                            |
 | 6\. **Organize your Data**               | ![Tutorials-KPIGauge-Organizing-Data](images/Tutorials-KPIGauge-Organizing-Data.png)         | [ラベル] に Date フィールド、[値] に Sales フィールドをドラッグアンドドロップします。                                                                       |
 
 <a name='adding-category-kpi'></a>
@@ -88,7 +88,7 @@ KPI ゲージは、特定の期間内のパフォーマンスとその変動を�
 | 2\. **データ ソースの構成**       | ![Tutorials-Select-Data-Source](images/Tutorials-Select-Data-Source.png)                             | *新しい表示形式*ウィンドウで、右下隅の [+] ボタンを選択し、データソースを選択します。                                       |
 | 3\. **チュートリアル スプレッドシートの選択** | ![Tutorials-Select-KPI-Gauge-Spreadsheet](images/Tutorials-Select-KPI-Gauge-Spreadsheet.png)         | データソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。 次に、[KPI ゲージ] シートを選択します。                                 |
 | 4\. **表示形式メニューを開く**     | ![Tutorials-Select-Change-Visualization](images/Tutorials-Select-Change-Visualization.png)           | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                |
-| 5\. **表示形式の選択**        | ![Tutorials-Select-KPI-Gauge](images/Tutorials-Select-KPI-Gauge.png)                                 | デフォルトで、表示形式のタイプは*グリッド*に設定されています。 **スパークライン** チャートを選択します。                                                            |
+| 5\. **表示形式の選択**        | ![Tutorials-Select-KPI-vs-Target-Gauge](images/Tutorials-Select-KPI-vs-Target-Gauge.png)                                 | デフォルトで、表示形式のタイプは*グリッド*に設定されています。 **KPI vs Target** ゲージを選択します。                                                            |
 | 6\. **データの体系化**               | ![Tutorials-MultipleKPIGauge-Organizing-Data](images/Tutorials-MultipleKPIGauge-Organizing-Data.png) | Date フィールドを [日付] に、Sales フィールドを [値] に、State フィールドを [カテゴリ] にドラッグアンドドロップします。                                    |
 
 <a name='changing-date-comparison-type'></a>
@@ -99,7 +99,7 @@ KPI ゲージは、特定の期間内のパフォーマンスとその変動を�
 |                                  |                                                                        |                                                                                                                                                |
 | -------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1\. **設定メニューへアクセス** | ![Tutorials-Navigate-Settings](images/Tutorials-Navigate-Settings.png) | 表示形式エディターの**設定**セクションへ移動します。                                                                                    |
-| 2\. **タイプを変更します。**          | ![Tutorial-Change-Date-Type](images/Change-Date-Type.png)     | デフォルトでは、日付タイプは前年比になります。 **[タイプ]** の横のドロップダウンを選択し、選択を **[月度累計]** に変更します。|
+| 2\. **タイプを変更します。**          | ![Tutorial-Change-Date-Type](images/Tutorial-Change-Date-Type.png)     | デフォルトでは、日付タイプは前年比になります。 **[目票期間]]** の横のドロップダウンを選択し、選択を **[月度累計]** に変更します。|
 
 <a name='changingdifferencelabelkpi'></a>
 ### KPI ゲージの差分ラベルの変更
@@ -107,7 +107,7 @@ KPI ゲージは、特定の期間内のパフォーマンスとその変動を�
 |                                  |                                                                                            |                                                                                                                                                                         |
 | -------------------------------- | ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1\. **設定メニューへアクセス** | ![Tutorials-Navigate-Settings](images/Tutorials-Navigate-Settings.png)                     | 表示形式エディターの**設定**セクションへ移動します。                                                                                                             |
-| 2\. **タイプを変更します。**          | ![Tutorial-Change-Date-Difference-Label](images/Change-Date-Difference-Label.png) | デフォルトで、差分ラベルは*パーセンテージ*に設定されています。 **[差異の表示]** の横のドロップダウンを選択し、選択を **[値とパーセンテージを]** に変更します。|
+| 2\. **タイプを変更します。**          | ![Tutorial-Change-Date-Difference-Label](images/Tutorial-Change-Date-Difference-Label.png) | デフォルトで、差分ラベルは*パーセンテージ*に設定されています。 **[差異の表示]** の横のドロップダウンを選択し、選択を **[値とパーセンテージ]** に変更します。|
 
 <a name='changing-color-difference-marker'></a>
 ### 差分マーカーの色の変更
@@ -117,4 +117,4 @@ KPI ゲージは、特定の期間内のパフォーマンスとその変動を�
 |                                  |                                                                                                          |                                                                                                                                                             |
 | -------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1\. **設定メニューへアクセス** | ![Tutorials-Navigate-Settings](images/Tutorials-Navigate-Settings.png)                                   | 表示形式エディターの**設定**セクションへ移動します。                                                                                                 |
-| 2\. **タイプを変更します。**          | ![Tutorial-Change-Date-Difference-Marker-Color](images/Change-Date-Difference-Marker-Color.png) | デフォルトでは、マーカーの色は緑に設定されます。**[差異が正の場合]** の横のドロップダウンを選択し、選択を **[赤]** に変更します。|
+| 2\. **タイプを変更します。**          | ![Tutorial-Change-Date-Difference-Marker-Color](images/Tutorial-Change-Date-Difference-Marker-Color.png) | デフォルトでは、マーカーの色は緑に設定されます。**[値の増加を表す色]** の横のドロップダウンを選択し、選択を **[赤色]** に変更します。|

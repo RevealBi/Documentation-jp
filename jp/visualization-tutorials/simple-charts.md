@@ -152,15 +152,15 @@
 | 2\. **表示形式の選択**    | ![Tutorials-Charts-Select-Visualization](images/Tutorials-Charts-Select-Visualization.png) | このセクションの上部に各チャートのタイプのプレビューがあります。|
 
 <a name='add-trendline-chart'></a>
-### チャートにトレンドラインを追加する
+### チャートに近似曲線を追加する
 
-情報全体の方向性またチャートの変数の関係を表すためにチャート トレンドラインを追加できます。以下は作業手順です。
+情報全体の方向性またチャートの変数の関係を表すためにチャートの近似曲線を追加できます。以下は作業手順です。
 
 |                                     |                                                                        |                                                                  |
 | ----------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | 1\. **設定を変更します**             | ![Tutorials-Navigate-Settings](images/Tutorials-Navigate-Settings.png) | 表示形式エディターの**設定**セクションへ移動します。      |
-| 2\. **チャート トレンドラインへアクセスします** | ![Tutorials-Expand-Trendlines](images/Tutorials-Expand-Trendlines.png) | 下矢印を選択して、チャート トレンドライン ドロップダウンを展開します。|
-| 3\. **チャート トレンドラインを選択します**    | ![Select-Predefined-Trendline](images/Select-Predefined-Trendline.png) | Reveal の定義済みのトレンドラインの 1 つを選択します。                    |
+| 2\. **チャートの近似曲線アクセスします** | ![Tutorials-Expand-Trendlines](images/Tutorials-Expand-Trendlines.png) | 下矢印を選択して、[チャートの近似曲線] ドロップダウンを展開します。|
+| 3\. **チャートの近似曲線を選択します**    | ![Select-Predefined-Trendline](images/Select-Predefined-Trendline.png) | Reveal の定義済みの近似曲線の 1 つを選択します。                    |
 
 <a name='change-axis-configuration'></a>
 ### 軸の構成の変更
