@@ -8,7 +8,6 @@
   href: general/installation-requirements.md
 - name: セットアップと構成
   href: setup-configuration/toc.yml
-  href: general/setup-configuration-desktop.md
 - name: SDK 用のダッシュボードの取得
   href: general/get-dashboards.md
 - name: Web SDK
