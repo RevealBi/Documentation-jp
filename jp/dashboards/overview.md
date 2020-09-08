@@ -10,9 +10,9 @@
 
   - **KPI 目標**: 自分またはアナリストがダッシュボードに何を示し、何を中心にサイクルを回す必要があるかを決定します。
 
-  - **ダッシュボードの計画**: 情報をグラフィカルにどのように表現しますか? [グリッド](~/jp/data-visualizations/grid-view.md)、マップ [ゲージ](~/jp/data-visualizations/gauge-views.md)、[カテゴリ チャート](~/jp/data-visualizations/category-charts.md)、または[ピラミッド チャート](https://www.infragistics.com/community/blogs/b/infragistics/posts/creating-a-population-pyramid-chart-using-stacked-bar-charts-with-Reveal)を使用しますか? [フィルター](~/jp/filters/overview.md)を使用しますか? Reveal の高度な機能を使用してデータの表示形式を向上する方法については、[このブログ (英語) をご覧ください](https://www.infragistics.com/community/blogs/b/infragistics/posts/8-ways-to-improve-your-data-visualizations)\!
+  - **ダッシュボードの計画**: 情報をグラフィカルにどのように表現しますか? [グリッド](../data-visualizations/visualization-types/grid-chart.md)、マップ [ゲージ](../data-visualizations/visualization-types/gauge-charts.md)、[カテゴリ チャート](../data-visualizations/visualization-types/category-charts.md)、または[ピラミッド チャート](https://www.infragistics.com/community/blogs/b/infragistics/posts/creating-a-population-pyramid-chart-using-stacked-bar-charts-with-Reveal)を使用しますか? [フィルター](../filters/overview.md)を使用しますか? Reveal の高度な機能を使用してデータの表示形式を向上する方法については、[このブログ (英語) をご覧ください](https://www.infragistics.com/community/blogs/b/infragistics/posts/8-ways-to-improve-your-data-visualizations)\!
 
-  - Reveal で使用する**データを準備します**。デスクトップと iOS の古いバージョンの場合、Reveal で[スプレッドシートを操作する方法](~/jp/datasources/working-with-spreadsheets.md) の概要を以下に示します。
+  - Reveal で使用する**データを準備します**。デスクトップと iOS の古いバージョンの場合、Reveal で[スプレッドシートを操作する方法](../datasources/working-files/working-with-spreadsheets.md) の概要を以下に示します。
 
   - **ダッシュボードの作成**: 完全な手順については、[このトピック](creating-dashboards.md)をご覧ください。
 
@@ -28,7 +28,7 @@ Reveal を利用して実行できる機能:
 
   - [ダッシュボードを他のダッシュボードまたは URL のリンク](dashboard-linking.md)
 
-  - [ダッシュボードの共有](sharing-dashboards/sharing-dashboards.md)
+  - [ダッシュボードの共有](sharing-dashboards/share-a-dashboard.md)
 
   - [現在のダッシュボードの管理](managing-dashboards.md)
 
@@ -47,17 +47,17 @@ Reveal を利用して実行できる機能:
 <tr class="odd">
 <td><p><img src="images/ThumbnailFinanceDashboard_All.png" alt="ThumbnailFinanceDashboard All" /><br />
 </p>
-<p><a href="~/jp/dashboard-tutorials/finance-dashboard/overview.md">Finance Dashboard</a><br />
+<p><a href="~/jp/dashboard-tutorials/finance-dashboard/getting-started.md">Finance Dashboard</a><br />
 </p></td>
 <td><p><img src="images/ThumbnailManufacturingDashboard_All.png" alt="ThumbnailManufacturingDashboard All" /><br />
 </p>
-<p><a href="~/jp/dashboard-tutorials/manufacturing-dashboard/overview.md">Manufacturing Dashboard</a><br />
+<p><a href="~/jp/dashboard-tutorials/manufacturing-dashboard/getting-started.md">Manufacturing Dashboard</a><br />
 </p></td>
 </tr>
 <tr class="even">
 <td><p><img src="images/ThumbnailSalesDashboard_All.png" alt="ThumbnailSalesDashboard All" /><br />
 </p>
-<p><a href="~/jp/dashboard-tutorials/sales-dashboard/overview.md">Sales Dashboard</a><br />
+<p><a href="~/jp/dashboard-tutorials/sales-dashboard/getting-started.md">Sales Dashboard</a><br />
 </p></td>
 <td><p><img src="images/ThumbnailSocialDashboard_All.png" alt="ThumbnailSocialDashboard All" /><br />
 </p>

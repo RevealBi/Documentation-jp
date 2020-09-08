@@ -17,4 +17,6 @@
 - name: 新しい可視化とダッシュボードの作成
   href: creating-visualizations-dashboards.md
 - name: カスタム テーマの作成
-  href: custom-themes-client-web.md 
+  href: custom-themes-client-web.md
+- name: ツールチップの作業
+  href: working-tooltips-client-web.md

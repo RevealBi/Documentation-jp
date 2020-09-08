@@ -1,5 +1,5 @@
 ## API リファレンス
 
-このトピックは、Desktop SDK API の概要ページです。
+This part of the documentation is your gateway to the Desktop SDK API, to get information about classes, functions, and procedures.
 
-Desktop SDK API に含まれているさまざまなクラス、関数、およびプロシージャを見つけることができるようになります。
+Coming soon...

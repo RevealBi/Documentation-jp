@@ -80,7 +80,7 @@ revealTheme.dashboardBackgroundColor = "#E8EBFC";
 
 ```
 
-### ビルド済みのテーマ 
+### 定義済みのテーマ 
 Reveal SDK には、*Mountain Light*、 *Mountain Dark*、*Ocean Light*、*Ocean Dark* の 4 つのビルド済みテーマが付属しています。アプリケーションのデザインに最適なものを設定することも、カスタム テーマのベースとして使用することもできます。    
 *UpdateCurrentTheme* メソッドを使用して、選択したビルド済みテーマの設定を適用します。 
 
@@ -89,8 +89,8 @@ Reveal SDK には、*Mountain Light*、 *Mountain Dark*、*Ocean Light*、*Ocean
 $.ig.RevealView.UpdateCurrentTheme(new $.ig.MountainLightTheme());
 ```
 
-> [NOTE]
-> Mountain Light には、カスタマイズ可能なすべての設定のデフォルト値が含まれています。 
+> [!NOTE]
+> Mountain Light contains the default values for the customizable theme settings. This means Mountain Light and the Reveal Theme look basically the same way. 
 
 ***Mountain Dark テーマ***
 ``` js
@@ -107,7 +107,7 @@ $.ig.RevealView.UpdateCurrentTheme(new $.ig.OceanLightTheme());
 $.ig.RevealView.UpdateCurrentTheme(new $.ig.OceanDarkTheme());
 ```
 
-#### ビルド済みのテーマはどのように見えますか? 
+#### 定義済みのテーマはどのように見えますか? 
 
 以下は、各ビルド済みテーマが適用されたときの*表示形式エディター*と*ダッシュボード エディター*の外観を示すテーブルです。
 
@@ -130,7 +130,7 @@ $.ig.RevealView.UpdateCurrentTheme(new $.ig.OceanDarkTheme());
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0pky">Mountain Light (デフォルト?)</td>
+    <td class="tg-0pky">Mountain Light (デフォルト)</td>
     <td class="tg-0pky"><img src="images/mountain-light-theme-dashboard-pre-built.png" alt="Image" width="300" height="206"></td>
     <td class="tg-0pky"><img src="images/mountain-light-theme-visualization-pre-built.png" width="300" height="206"></td>
   </tr>

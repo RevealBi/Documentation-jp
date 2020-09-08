@@ -12,7 +12,7 @@
 <tr class="odd">
 <td><p><img src="images/OHLCChart_All.png" alt="OHLCChart All" /><br />
 </p>
-<p><a href="#create-ohlc-chart">OHLC チャート</a><br />
+<p><a href="#creating-ohlc-chart">OHLC チャート</a><br />
 </p></td>
 <td><p><img src="images/OHLCChartBounds_All.png" alt="OHLCChartBounds All" /><br />
 </p>
@@ -57,9 +57,9 @@ OHLC チャートとローソク足チャートは各財務データの始値、
 このチュートリアルでは、[Reveal チュートリアル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx)の「OHLC and Candlestick」のシートを使用します。
 
 >[!NOTE]
->このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、Web リソースとして追加してください。
+>このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[Web リソース](~/jp/datasources/supported-data-sources/web-resource.md)として追加してください。
 
-<a name='create-ohlc-chart'></a>
+<a name='creating-ohlc-chart'></a>
 ### OHLC チャートを作成する方法
 
 |                                          |                                                                                                                          |                                                                                                                                                       |
@@ -75,7 +75,7 @@ OHLC チャートとローソク足チャートは各財務データの始値、
 <a name='changing-axis-configuration'></a>
 ### 軸の構成の変更
 
-[ゲージの範囲](tutorial-gauge-views.md#adding-bounds-gauge)と同様に、チャート軸構成でチャートの最小と最大値を設定できます。この機能を使用して、特定のデータ含有や除外ができます。
+[ゲージの範囲](gauge-views.md#adding-bounds-gauge)と同様に、チャート軸構成でチャートの最小と最大値を設定できます。この機能を使用して、特定のデータ含有や除外ができます。
 
 以下は軸構成のメニューへアクセスするための手順です。
 

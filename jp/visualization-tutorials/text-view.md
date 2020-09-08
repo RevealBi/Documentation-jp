@@ -19,7 +19,7 @@
 このチュートリアルでは [Reveal チュートリアル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx) の [Simple Series Charts] のシートを使用します。
 
 >[!NOTE]
->このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、Web リソースとして追加してください。
+>このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[Web リソース](datasources/supported-data-sources/web-resource.md)として追加してください。
 
 <a name='creating-text-view'></a>
 ### テキスト ビューを作成する方法
@@ -43,4 +43,3 @@
 | 1\. **データフィルターの追加** | ![SelectFieldTextView\_All](images/SelectFieldTextView_All.png)       | [国名] フィールドをデータ フィルターにドラッグアンドドロップします。                                                                                  |
 | 2\. **フィルターの設定**   | ![SelectedValuesTextView\_All](images/SelectedValuesTextView_All.png) | [フィルター タイプ] を選択してドロップダウン メニューを有効にしてから [値の選択] を選択します。                                                       |
 | 3\. **値の選択** | ![SelectValueTextView2\_All](images/SelectValueTextView2_All.png)     | デフォルトでは、すべての値が選択済です。[すべて] のボックスをオフにして、「ボスニアとヘルツェゴビナ」のみを選択します。 |
-

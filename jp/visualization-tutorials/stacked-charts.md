@@ -67,7 +67,7 @@
 このチュートリアルでは [Reveal チュートリアル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx) の [Stacked Charts] のシートを使用します。
 
 >[!NOTE]
-このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、Web リソースとして追加してください。
+このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[Web リソース](datasources/supported-data-sources/web-resource.md)として追加してください。
 
 </div>
 
@@ -91,12 +91,12 @@
 |                                      |                                                                                              |                                                                                                                                      |
 | ------------------------------------ | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | 1\. **表示形式メニューを開く** | ![Tutorials-Select-Change-Visualization](images/Tutorials-Select-Change-Visualization.png)   | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                |
-| 2\. **表示形式の選択**    | ![Tutorials-Stacked-Select-Visualization](images/Tutorials-Stacked-Select-Visualization.png) | 必要な積層型チャートのタイプを選択します。このセクションの上部に[各積層型チャートのタイプのプレビュー](#creating-stacked-chart)があります。 |
+| 2\. **表示形式の選択**    | ![Tutorials-Stacked-Select-Visualization](images/Tutorials-Stacked-Select-Visualization.png) | 必要な積層型チャートのタイプを選択します。このセクションの上部に[各積層型チャートのタイプのプレビュー](#create-stacked-chart)があります。 |
 
 <a name='change-axis-configuration'></a>
 ### 軸の構成の変更
 
-[ゲージのバンド](~/jp/data-visualizations/gauge-views#bands-configuration)と同様に、チャート軸構成でチャートの最小と最大値を設定できます。
+[ゲージのバンド](~/jp/data-visualizations/gauge-charts#bands-configuration)と同様に、チャート軸構成でチャートの最小と最大値を設定できます。
 この機能を使用して、特定のデータ含有や除外ができます。
 
 |                                        |                                                                                      |                                                                                                                                       |

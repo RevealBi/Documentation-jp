@@ -11,7 +11,7 @@
 <tr class="odd">
 <td><p><img src="images/KPIGaugeSimple_All.png" alt="KPIGaugeSimple All" /><br />
 </p>
-<p><a href="#create-kpi-gauge">KPI ゲージ</a><br />
+<p><a href="#creating-kpi-gauge">KPI ゲージ</a><br />
 </p></td>
 <td><p><img src="images/TutorialMultipleKPIGauges_All.png" alt="TutorialMultipleKPIGauges All" /><br />
 </p>
@@ -40,7 +40,7 @@
 
 KPI ゲージ ビューのためのガイドは、以下のリンクから参照してください:
 
-  - [KPI ゲージの作成方法](#create-kpi-gauge)
+  - [KPI ゲージの作成方法](#creating-kpi-gauge)
 
   - [1 つの表示形式で複数の KPI ゲージを作成する方法](#adding-category-kpi)
 
@@ -101,7 +101,7 @@ KPI ゲージは、特定の期間内のパフォーマンスとその変動を�
 | 1\. **設定メニューへアクセス** | ![Tutorials-Navigate-Settings](images/Tutorials-Navigate-Settings.png) | 表示形式エディターの**設定**セクションへ移動します。                                                                                    |
 | 2\. **タイプを変更します。**          | ![Tutorial-Change-Date-Type](images/Tutorial-Change-Date-Type.png)     | デフォルトでは、日付タイプは前年比になります。 **[目票期間]]** の横のドロップダウンを選択し、選択を **[月度累計]** に変更します。|
 
-<a name='changingdifferencelabelkpi'></a>
+<a name='changing-difference-label-kpi'></a>
 ### KPI ゲージの差分ラベルの変更
 
 |                                  |                                                                                            |                                                                                                                                                                         |

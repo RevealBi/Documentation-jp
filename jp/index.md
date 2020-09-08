@@ -1,62 +1,77 @@
-## Reveal ヘルプ センターへようこそ!
+## Welcome to the Reveal help!
+
+Reveal is a modern BI solution that was built for embedded analytics. You can easily integrate data analytics into your application, taking advantage of rich APIs that give you control over Reveal data visualizations, while also enhancing the user's experience with your app.
+
+Built by user experience experts and designed for the business user, Reveal makes it simple for you to create, view, and share data visualizations with your teams. Offering you a seamless, identical experience no matter what device you are on: Web, Desktop, iOS, or Android.
+
+<img src="images/homePage_All.png" alt="Welcome image for Reveal" width="800"/>
+
+Interested on embedded analytics? [Download Reveal SDK](https://www.revealbi.io/download-sdk). To find out how to start using it, refer to the [Reveal SDK help](developer/index.md).
+
+### Reveal Application Highlights
+
+<h4 style="color:#2328B0;">Securely Connect to your Data and Build Powerful Data Visualizations</h4>
+
+Connect to the most popular data sources without setting anything up on the server. Get real-time insights by connecting directly to SharePoint Online, Google Drive, OneDrive, Microsoft Analysis Services, Microsoft SQL Server, CRM, and many more.
+
+<img src="dashboards/images/adding-data-source.png" alt="Connecting to data in Reveal" width="800"/>
+
+With an intuitive drag and drop interface, Reveal makes it simple to create dashboards within minutes. Choose from more than 20 different visualizations to present your data and tell your story the best way.
+
+<h4 style="color:#2328B0;">Customize your Data Visualizations</h4>
+
+Sort, filter and aggregate your data as you wish! Each chart type provides you with different settings to design your visualizations the way you want.
+
+<img src="filters/images/visualization-quick-filter-sample.png" alt="Using visualization quick filters in Reveal" width="800"/>
+
+<h4 style="color:#2328B0;">Interact with your Dashboards</h4>
+
+Once your dashboard is created, interact with your visualizations with drill-down support, or even the ability to change visualization on the fly. Create and share annotated images of your visualizations for deeper insights.
+
+<img src="general/images/tooltips-totals.png" alt="Using tooltips and displaying totals in Reveal" width="800"/>
+
+<h4 style="color:#2328B0;">Share Insights with your Teams </h4>
+
+Give everyone the power of data by sharing your dashboards within your Organization's repository, teams you are part of or with individual coworkers. Assign different levels of permissions to users to give them the level of access you want them to have to your dashboard.
+
+<img src="dashboards/sharing-dashboards/images/remove-sharing.png" alt="Showing user roles while sharing in Reveal" width="800"/>
+
+<h4 style="color:#2328B0;">Leverage Advanced Predictive Analysis </h4>
+
+Get even more insight from your visualizations with advanced predictive analysis, using statistical functions.
+You can use the Time series forecast, Linear regression and Detect outliers to make predictions, recognize and evaluate trends, or discover outliers in your data series.
+
+<img src="data-visualizations/images/time-series-forecast-6-months.png" alt="Showing statistical functions in Reveal" width="800"/>
 
 
-![homePage\_All](images/homePage_All.png)
+<h4 style="color:#2328B0;">Get Better Insights with Machine Learning</h4>
 
- 
-Reveal は、手頃な価格のビジネス ユーザー向けセルフサービス BI ツールであり、データに基づく意思決定を迅速に行うことができます。ユーザー エクスペリエンスに特化した開発者によって構築され、ビジネス ユーザー向けに設計された Reveal は、ダッシュボードの作成、表示、チームとの共有を簡単にします。使用しているデバイスに関係なく、シームレスで同一のエクスペリエンスを提供します: ウェブ、デスクトップ、 iOS および Android。 
+Use your trained models' data from BigQuery or Azure Machine Learning Studio in Reveal. In just three steps, choose your data source, build a visualization, and use the integration to connect to a trained machine learning model.
 
-Reveal は自由にアプリに埋め込まれるように設計されています。Reveal SDK を使用すると、Windows または Web でホストされるアプリに迅速かつシームレスに統合することで、ユーザーに分析機能を提供できます。興味をお持ちですか? [Reveal SDK をダウンロードします](https://www.revealbi.io/download-sdk)。使用を開始する方法については、[Reveal SDK ヘルプ](developer/index.md)を参照してください。 
+<img src="datasources/ml-integration/images/ml-models-list-bigquery.png" alt="Connecting to a trained machine learning model in Reveal" width="800"/>
 
-### Reveal を使用して、次のことができます:
+### What's new?
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;overflow:hidden;word-break:normal;border-color:black;border-collapse:collapse;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;overflow:hidden;word-break:normal;border-color:black;border-collapse:collapse;}
-.tg .tg-0pky{text-align:left;vertical-align:top;border-top: 1px solid;border-collapse:collapse;
+* [Amazon Redshift](~/en/datasources/supported-data-sources/redshift.md) data source – You can now use and gain new insights from your data in the Amazon Redshift cloud data warehouse.
+* [Marketo](~/en/datasources/supported-data-sources/marketo.md) data source – Connect to your account in the marketing platform Marketo and use your data in Reveal.
+* [Process Data on Server](~/en/datasources/process-data-server-side.md) – You can now have server-side aggregation of the data coming from the MS SQL, MySQL and Postgres data sources.
 
-.table-responsive {
-    background: #fff;
-    border: none;}
-</style>
-<table class="tg">
-<colgroup>
-<col style="width: 30%" />
-<col style="width: 70%" />
-</colgroup>
-  <tr>
-    <th class="tg-0pky"><img src="images/dataSourcesHomePage_All.png" alt="Adding a data source dialog" width="200" height="150"></th>
-    <th class="tg-0pky"><a href="~/jp/datasources/overview.md">データに安全に接続する</a>: 人気のあるデータ ソースへ、特別なサーバー設定なしで接続できます。<a href="~/jp/datasources/sharepoint.md">SharePoint オンライン</a>, <a href="~/jp/datasources/google-drive.md">Googleドライブ</a>, <a href="~/jp/datasources/onedrive.md">OneDrive</a>, <a href="~/jp/datasources/microsoft-analysis-services.md">Microsoft Analysis Services</a>, <a href="~/jp/datasources/microsoft-sql-server.md">Microsoft SQL Server</a>, <a href="~/jp/datasources/microsoft-dynamics-crm.md">CRM</a> などに直接接続して、リアルタイムなインサイトを取得します。</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky"><img src="images/VisualizationEditorHomePage_All.png" alt="Selecting a Visualization type dialog" width="200" height="150"></td>
-    <td class="tg-0pky"><a href="~/jp/dashboards/creating-dashboards.md"><span style="font-weight:bold">ダッシュボードを簡単に作成できる</span></a><span style="font-weight:bold">:</span> 直感的なドラッグ＆ドロップ インターフェイスを備えた Reveal は、数分でダッシュボードを簡単に作成できます。20 以上の異なる表示形式から選択して、データを提示し、ストーリーを最良の方法で伝えます。</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"><img src="images/visualizations-editor.png" alt="Visualization editor" width="200" height="150"></td>
-    <td class="tg-0pky"><a href="~/jp/data-visualizations/visualizations-editor.md">データ表示形式のカスタマイズ:</a> 必要に応じて、データを並べ替えて、フィルターし、集計できます! チャートの種類ごとにさまざまな設定が用意されており、表示形式を希望どおりにデザインできます。</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"><img src="images/dashboardsInteractHome_All.png" alt="Dashboard viewer show tooltips" width="200" height="150"></td>
-    <td class="tg-0pky"><a href="~/jp/dashboards/exporting-dashboards/overview.md">ダッシュボードをインタラクティブに操作する</a>: ダッシュボードが作成されたら、ドリルダウン サポートを使用して表示形式を操作するか、表示形式をオンザフライで変更することもできます。より深いインサイトを得るために、表示形式の注釈付き画像を作成して共有します。</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"><img src="images/sharingHome_All.png" alt="Sharing dialog" width="200" height="150"></td>
-    <td class="tg-0pky"><a href="~/jp/dashboards/sharing-dashboards/sharing-dashboards.md">チームとインサイトを共有する</a>: <a href="~/jp/dashboards/teams/teams-collaboration-privacy.md#organization-team">組織のリポジトリ内</a>のダッシュボードを、所属しているチーム、または同僚と共有することで、全員にデータの力を与えます。ユーザーにさまざまなレベルの権限を割り当てて、ダッシュボードへのアクセス権を付与します。</td>
-  </tr>
-</table>
+### Coming Soon to Reveal
 
+Coming Soon...
 
-### 新機能:
+### Where Can I Get Reveal?
 
-  - [**新規 TreeMap 表示形式**](~/jp/data-visualizations/treemap-view.md) – この新しい表示形式を使用して、大きな階層をネストされた四角形の集合で表示できます。四角形のサイズは、さまざまなメトリック間の部分と全体の関係を示し、同様のデータ間のパターンと関係を識別します。
+Reveal offers you a seamless, almost identical experience no matter what device you are on.
+You can use a web browser or get native applications on iOS, Android, and Desktop, making it easy for you to work across different devices and platforms.
 
-  - [**Excel エクスポート**](~/jp/dashboards/exporting-dashboards/excel-data-format.md) の機能拡張 – エクスポートする際に複数の表示形式をスプレッドシートに追加できます。散布図、バブル チャート、スパークライン チャートが利用できるようになりました。
+Try our [**free demo**](https://app.revealbi.io/Login?provider=Demo&_ga=2.197140908.2008019520.1580398635-1419162557.1572354605) version to discover what Reveal can do for your business!
 
-  - **UI/UX の改善** – 表示形式、ダッシュボード、新しいデータソース ダイアログなどのユーザーエクスペリエンスを向上するために、小さな変更が追加されました。
-  
-  - **Google ドライブで共有ドライブのサポート**を追加 – G Suite Business アカウントをお持ちの場合、共有ドライブ データにアクセスし、 Reveal で可視化できます。Reveal で [Google ドライブ](~/jp/datasources/google-drive.md)をデータ ソースとして追加すると、共有ドライブが表示されます。
+Below you can find the versions supported for each platform:
 
-
-私たちの [**無料デモ**](https://app.revealbi.io/Login?provider=Demo&_ga=2.197140908.2008019520.1580398635-1419162557.1572354605) 版を試して、Reveal がお客様のビジネスに何ができるかを発見してください!
+| PLATFORM | SUPPORT |
+| --- | --- |
+|**Android**|Android 5.0 (Lollipop) or higher (except for the Kindle Fire).|
+|**Desktop**|Any Windows 7 SP1 or newer with .NET Framework 4.6.2 installed. For more information on .NET Framework system requirements, check [this Microsoft article](https://docs.microsoft.com/en-us/dotnet/framework/get-started/system-requirements).|
+|**IOS**|iOS 12 or higher.|
+|**Web**|All major browsers on Mac and Windows (latest 2 releases). Web browsers are not supported in mobile devices.|

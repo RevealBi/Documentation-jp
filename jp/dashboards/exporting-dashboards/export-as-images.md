@@ -39,4 +39,4 @@ Reveal では、ダッシュボード全体のスクリーン キャプチャま
 
 ![Adding text in image annotation](images/image-annotation-text.png)
 
-**Android および iOS** デバイスでの画像のエクスポートについては、[「ダッシュボードのエクスポート」](Exporting-Dashboards.md#mobile-devices)トピックを参照してください。
+**Android および iOS** デバイスでの画像のエクスポートについては、[「ダッシュボードのエクスポート」](how-to-export-a-dashboard.md#mobile-devices)トピックを参照してください。

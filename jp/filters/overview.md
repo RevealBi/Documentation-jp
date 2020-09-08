@@ -16,7 +16,7 @@ Reveal は、日付範囲をダッシュボード フィルターとして有効
 
       - [表示フィールド](dashboard-filters-properties.md#displayed-field)
 
-      - [複数選択](dashboard-filters-properties.md#multiple-selections)
+      - [複数選択](dashboard-filters-properties.md#multiple-selection)
 
       - [必須選択](dashboard-filters-properties.md#required-selection)
 

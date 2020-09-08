@@ -4,37 +4,7 @@
 
 分析を既存のアプリケーションに埋め込む場合、それらのダッシュボードがアプリのルック アンド フィールと一致することが重要です。そのため、SDK を通じて Reveal ダッシュボードを完全に制御できます。
 
-カスタム テーマで達成できる主なカスタマイズ:
-
-- **カラー パレット**: 表示形式でシリーズを表示するために使用される色。色の数に制限はありません。すべての色が表示形式で使用されると、Reveal はこれらの色の新しい色合いを自動生成します。これにより、色が重複せず、各値に独自の色が設定されます。
-- **アクセント色**: Reveal のデフォルトのアクセント色は、**[+ ダッシュボード]** ボタンやその他のインタラクティブなアクションで見つけることができる青の色合いです。アプリケーションで使用するのと同じアクセント色に一致するように色を変更できます。
-- **条件付き書式の色**: 条件付き書式を使用するときに設定できる境界のデフォルトの色を変更します。
-- **フォント**: Reveal は、アプリケーションで 3 種類のテキストを使用します: 標準、中、太字。これらの各テキストグループのフォントの使用を指定できます。
-- **表示形式とダッシュボードの背景色**: ダッシュボードの背景色と表示形式の背景色を個別に構成できます。
-
-### 一般的なユース ケース: 新しいカスタム テーマ
-Reveal で独自のテーマを作成するのは、新しい __RevealTheme()__ クラスのインスタンスを作成するのと同じように簡単です。このクラスには、概要にリストされているすべてのカスタマイズ可能な設定が含まれています。
-
-新しい __RevealTheme__ インスタンスを作成すると、各設定のデフォルト値が取得され、必要に応じてそれらを変更できます。
-
-次に、テーマ インスタンスを __UpdateRevealTheme(theme)__ メソッドに渡します。画面にダッシュボードまたは別の Reveal コンポーネントがすでに表示されている場合は、適用された変更を表示するために、再度レンダリングする必要があります。
-
-### 一般的なユース ケース: カスタム テーマの変更
-
-すでに独自のテーマを適用しているが、他に加えた変更を失わずに一部の設定を変更したい場合があります。
-
-この場合、__GetCurrentTheme()__ メソッドを呼び出す必要があります。このメソッドを使用すると、RevealTheme 設定に最後に設定した値を取得できます。RevealTheme の新しいインスタンスを最初から作成する場合とは異なり、変更を適用してテーマを再度更新すると、デフォルト値ではなく、変更していない各設定の最新の値が取得されます。
-
-__GetCurrentTheme()__ メソッドと __UpdateRevealTheme(theme)__ メソッドの両方に、__RevealView__ クラスからアクセスできます。
-
-
-### コード例
-
-まず、以下は変更する前のサンプル ダッシュボードです。
-
-![Image showing a Reveal dashboard before any theme changes](images/custom-theme-sample-before.png)
-
-次のコード スニペットでは、現在のテーマを取得し、変更したい設定を適用し、Reveal でテーマを更新する方法を確認できます。
+Creating your own theme in Reveal is done by setting the **Theme** property. 
 
 ``` csharp
 
@@ -42,27 +12,114 @@ var regularFont = new FontFamily(new Uri("pack://application:,,,/ [Your ProjectN
 var boldFont = new FontFamily(new Uri("pack://application:,,,/ [Your ProjectName];component/[pathToFonts]/"), "./#Verdana Bold");
 var mediumFont = new FontFamily(new Uri("pack://application:,,,/ [Your ProjectName];component/[pathToFonts]/"), "./#Verdana Bold Italic");
 
-var customTheme = RevealView.GetCurrentTheme();
-customTheme.ChartColors.Clear();
-customTheme.ChartColors.Add(Color.FromRgb(192, 80, 77));
-customTheme.ChartColors.Add(Color.FromRgb(101, 197, 235));
-customTheme.ChartColors.Add(Color.FromRgb(232, 77, 137);
+var currentTheme = RevealSdkSettings.Theme;
+currentTheme.ChartColors.Clear();
+currentTheme.ChartColors.Add(Color.FromRgb(192, 80, 77));
+currentTheme.ChartColors.Add(Color.FromRgb(101, 197, 235));
+currentTheme.ChartColors.Add(Color.FromRgb(232, 77, 137);
 
-customTheme.BoldFont = new FontFamily("Gabriola");
-customTheme.MediumFont = new FontFamily("Comic Sans MS");
-customTheme.FontColor = Color.FromRgb(31, 59, 84);
-customTheme.AccentColor = Color.FromRgb(192, 80, 77);
-customTheme.DashboardBackgroundColor = Color.FromRgb(232, 235, 252);
+currentTheme.BoldFont = new FontFamily("Gabriola");
+currentTheme.MediumFont = new FontFamily("Comic Sans MS");
+currentTheme.FontColor = Color.FromRgb(31, 59, 84);
+currentTheme.AccentColor = Color.FromRgb(192, 80, 77);
+currentTheme.DashboardBackgroundColor = Color.FromRgb(232, 235, 252);
 
-RevealView.UpdateRevealTheme(customTheme);
+RevealSdkSettings.Theme = currentTheme;
 
 ```
 
 > [!NOTE]
-> 新しい色のセットを追加するには、まずチャートの色リストのデフォルト値をクリアする必要があります。
+> You first need to clear your chart colors list default values to have the new set of colors added.
 
-テーマの変更を実装すると、ダッシュボード エディターと表示形式エディターの両方の結果が表示されます。
+If you have a dashboard or another Reveal component already displayed on your screen, you will need to render it again in order to see the applied changes.
 
-![Image showing a Reveal dashboard after theme changes](images/custom-theme-sample-after-dashboard.png)
+### Customizable Theme Settings
 
-![Image showing a Reveal visualization after theme changes](images/custom-theme-sample-after-visualization.png)
+The settings that you can use to customize your theme are part of the _RevealTheme()_ class. The _RevealTheme() class_ contains all Dashboard and App settings with their current values. 
+In the table below, you will find a full list of the customizable settings, followed by their type and a short description. 
+
+| Name                         | Type                    | Description                                                                                                                                                                                                                                                                       |
+|------------------------------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **ChartColors**                  | List<Color>             | The colors used to show the series in your visualizations. You can add an unlimited number of colors. Once all colors are used in a visualization, Reveal will autogenerate new shades of these colors. This way your colors won’t repeat and each value will have its own color. |
+| **AccentColor**                  | Color                   | The default accent color in Reveal is a shade of blue that you can find in the + Dashboard button and other interactive actions. You can change the color to match the same accent color you use in your applications.                                                            |
+| **DashboardBackgroundColor**     | Color                   | Sets the background color of the dashboards. This is the main background color.                                                                                                                                                                                                   |
+| **VisualizationBackgroundColor** | Color                   | Sets the background color of the visualizations. This is a secondary background color.                                                                                                                                                                                            |
+| **ConditionalFormatting**        | RVConditionalFormatting | Changes the default colors of the bounds you can set when using conditional formatting.                                                                                                                                                                                           |
+| **RegularFont**                  | FontFamily              | Sets the regular font style.                                                                                                                                                                                                                                                      |
+| **BoldFont**                     | FontFamily              | Sets the bold font style.                                                                                                                                                                                                                                                         |
+| **MediumFont**                   | FontFamily              | Sets the medium font style.                                                                                                                                                                                                                                                       |
+| **FontColor**                    | Color                   | Sets the color of the font.                                                                                                                                                                                                                                                       |
+| **HighlightColor**               | Color                   | Sets the highlighting color in specific dashboard scenarios (forecast and outliers statistical functions).                                                                                                                                                                        |
+| **UseRoundedCorners**            | bool                    | (By default) Rounded corners in buttons, tooltips, containers, visualizations, etc. If set to false, squared corners will be shown.                                                                                                                                               |
+### Built-In Themes 
+
+Reveal SDK comes with four pre-built themes: *Mountain Light*, *Mountain Dark*, *Ocean Light*, and *Ocean Dark*. You can set the one that best matches your application's design, or you can also use it as the basis for your custom theme modifications.    
+
+Apply the settings of a chosen built-in theme by creating a new instance.
+
+***Mountain Light Theme***
+``` csharp
+RevealSdkSettings.Theme = new MountainLightTheme();
+```
+> [!NOTE]
+> Mountain Light contains the default values for the customizable theme settings. This means MountainLight and the RevealTheme look basically the same way. 
+
+***Mountain Dark Theme***
+``` csharp
+RevealSdkSettings.Theme = new MountainDarkTheme();
+```
+
+***Ocean Light Theme***
+``` csharp
+RevealSdkSettings.Theme = new OceanLightTheme();
+```
+
+***Ocean Dark Theme***
+``` csharp
+RevealSdkSettings.Theme = new OceanDarkTheme();
+```
+
+#### How the Built-In Themes Look? 
+
+Below, you will find a table showing how the *Visualization Editor* and *Dashboard Editor* look when each of the pre-built themes is applied. 
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-fymr">Theme</th>
+    <th class="tg-0pky"><span style="font-weight:bold">Dashboard Editor</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold">Visualization Editor</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">Mountain Light (Default?)</td>
+    <td class="tg-0pky"><img src="images/mountain-light-theme-dashboard-pre-built.png" alt="Image" width="300" height="206"></td>
+    <td class="tg-0pky"><img src="images/mountain-light-theme-visualization-pre-built.png" width="300" height="206"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Mountain Dark </td>
+    <td class="tg-0pky"><img src="images/mountain-dark-theme-dashboard-pre-built.png" width="300" height="206"></td>
+    <td class="tg-0pky"><img src="images/mountain-dark-theme-visualization-pre-built.png" width="300" height="206"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Ocean Light</td>
+    <td class="tg-0pky"><img src="images/ocean-light-theme-dashboard-pre-built.png" width="300" height="206"></td>
+    <td class="tg-0pky"><img src="images/ocean-light-theme-visualization-pre-built.png" width="300" height="206"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Ocean Dark</td>
+    <td class="tg-0pky"><img src="images/ocean-dark-theme-dashboard-pre-built.png" width="300" height="206"></td>
+    <td class="tg-0pky"><img src="images/ocean-dark-theme-visualization-pre-built.png" width="300" height="206"></td>
+  </tr>
+</tbody>
+</table>

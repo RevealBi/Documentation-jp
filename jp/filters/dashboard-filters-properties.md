@@ -34,7 +34,7 @@
     <td class="tg-cly1"><span style="font-weight:bold">選択</span>。この設定では、次を構成できます。 <a href="#multiple-selection">複数選択</a> (一度に複数の値を選択できます) および/または <a href="#required-selection">必須選択</a> (少なくとも 1 つの値を常に選択する必要があります)。</td>
   </tr>
   <tr>
-    <td class="tg-cly1"><a href="#data-filters">データ フィルター</a>。この設定により、ダッシュボード フィルターに使用されるデータソースに<a href="#~/jp/fields/field-filters-rules.md">フィールド フィルターとルール</a>を適用できます。</td>
+    <td class="tg-cly1"><a href="#data-filters">データ フィルター</a>。この設定により、ダッシュボード フィルターに使用されるデータソースに<a href="~/jp/data-visualizations/fields/field-filters-rules.md">フィールド フィルターとルール</a>を適用できます。</td>
   </tr>
   <tr>
     <td class="tg-cly1"><a href="connecting-dashboard-filters-visualization.md">接続された表示形式</a>。ダッシュボードを表示形式に接続するかどうか。</td>
@@ -74,7 +74,7 @@ Reveal は、複数のダッシュボード フィルター値の同時選択を
 <a name='data-filters'></a>
 ### データ フィルター
 
-ダッシュボード フィルターに表示されるデータセットのフィールドにフィルターを適用することもできます。これにより、特定のフィールドの null または空の値をフィルター アウトできます ([空の値のフィルター](field-filters-rules.md#empty-values))。[特定の値を選択する](field-filters-rules.md#select-values)か、フィールド タイプに応じてオプションを変更するためにフィールドに[ルール](field-filters-rules.md#rules) を追加することもできます。詳細は、[フィールド フィルターとルール](field-filters-rules.md)をご覧ください。
+ダッシュボード フィルターに表示されるデータセットのフィールドにフィルターを適用することもできます。これにより、特定のフィールドの null または空の値をフィルター アウトできます ([空の値のフィルター](~/jp/data-visualizations/fields/field-filters-rules.md#empty-values))。[特定の値を選択する](~/jp/data-visualizations/fields/field-filters-rules.md#select-values)か、フィールド タイプに応じてオプションを変更するためにフィールドに[ルール](~/jp/data-visualizations/fields/field-filters-rules.md#rules) を追加することもできます。詳細は、[フィールド フィルターとルール](~/jp/data-visualizations/fields/field-filters-rules.md)をご覧ください。
 
 たとえば、*従業員名*フィールドを使用して *HR ダッシュボード*のデータをフィルタリングする場合、*ダッシュボード フィルター*は会社のすべてのオフィスの従業員リストを表示します。
 

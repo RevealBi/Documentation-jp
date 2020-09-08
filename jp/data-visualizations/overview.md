@@ -8,21 +8,19 @@
 
 表示形式タイプはいくつかあります。
 
-  - [グリッド ビュー](grid-view.md)
+  - [グリッド ビュー](visualization-types/grid-chart.md)
 
-  - [ピボット テーブル](pivot-table.md)
+  - [ピボット テーブル](visualization-types/pivot-table.md)
 
-  - [テキスト ビュー](text-view.md)
+  - [テキスト ビュー](visualization-types/text-view.md)
 
-  - [画像ビューアー](image-view.md)
+  - [画像ビューアー](visualization-types/image-chart.md)
 
-  - [ブレット グラフ](gauge-views.md#bullet-graph)、[円形](gauge-views.md#circular-gauge)、[KPI](kpi-gauge.md)、[リニア](gauge-views.md#linear-gauge)、および [テキスト](gauge-views.md#text-gauge) ゲージを含むゲージ ビュー。
+  - [ブレット グラフ](visualization-types/gauge-charts.md#bullet-graph)、[円形](visualization-types/gauge-charts.md#circular-gauge)、[KPI](visualization-types/kpi-gauge.md)、[リニア](visualization-types/gauge-charts.md#linear-gauge)、および [テキスト](visualization-types/gauge-charts.md#text-gauge) ゲージを含むゲージ ビュー。
 
-  - [カテゴリ](category-charts.md)、[コンボ](combo-charts.md)、[ファイナンシャル](financial-charts.md)、[ラジアル](radial-charts.md)、[散布とバブル](scatter-bubble-charts.md)、[スパークライン](sparkline-charts.md)など、いくつかの種類のチャート。
+  - [カテゴリ](visualization-types/category-charts.md)、[コンボ](visualization-types/combo-charts.md)、[ファイナンシャル](visualization-types/financial-charts.md)、[ラジアル](visualization-types/radial-charts.md)、[散布とバブル](visualization-types/scatter-bubble-charts.md)、[スパークライン](visualization-types/sparkline-charts.md)など、いくつかの種類のチャート。
 
-  - [DIY 表示形式](diy-visualizations.md)
-  
-  - [テキスト ボックス表示形式](text-box.md)
+  - [テキスト ボックス表示形式](visualization-types/text-box.md)
 
 ### 表示形式チュートリアル
 
