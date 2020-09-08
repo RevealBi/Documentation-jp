@@ -17,13 +17,11 @@ Azure Machine Learning にアクセスするには、以下の手順を実行し
 
 1.  任意のデータソースに接続します。機械学習モデルが予測するデータに関連する情報を含む必要があります。
 
-    データソースへの接続方法の詳細については、[「新規データ ソース接続を追加」](creating-new-datasource.md)トピックを参照してください。
-
 2.  *表示形式エディター*で、左側の*フィールド* リストの上にある**脳アイコン**をクリック/タップします。次に、**Azure Machine Learning** を選択します。
 
     ![Brain icon location in the Visualization editor](images/brain-icon-azure-ml-model.png)
 
-<a href="ml-model-connect"></a>
+<a href="ml-integration/ml-model-connect"></a>
 ### Azure Machine Learning モデルへの接続
 
 Azure で機械学習モデルに接続するには、以下を実行する必要があります。

@@ -1,12 +1,13 @@
 - name: 全般
   header: true
-- name: Reveal SDK の概要
+- name: Welcome to Reveal SDK
+  href: index.md
+- name: SDK の概要
   href: general/overview.md
 - name: インストールと要件
   href: general/installation-requirements.md
-- name: セットアップと構成 (Web)
-  href: general/setup-configuration-web.md
-- name: セットアップと構成 (Desktop)
+- name: セットアップと構成
+  href: setup-configuration/toc.yml
   href: general/setup-configuration-desktop.md
 - name: SDK 用のダッシュボードの取得
   href: general/get-dashboards.md
@@ -28,8 +29,6 @@
   header: true
 - name: 概要
   href: desktop-sdk/overview.md
-- name: はじめてのアプリ作成 -追加予定-
-  href: 
 - name: Desktop SDK の使用
   href: desktop-sdk/using-the-desktop-sdk/toc.yml
 - name: API リファレンス

@@ -1,3 +1,6 @@
+- name: Amazon Redshift
+  href: redshift.md
+  new: true
 - name: Box
   href: box.md
 - name: Dropbox
@@ -12,6 +15,7 @@
   href: hubspot.md
 - name: Marketo
   href: marketo.md
+  new: true
 - name: Microsoft Analysis Services
   href: microsoft-analysis-services.md
 - name: Working with Microsoft Analysis Services

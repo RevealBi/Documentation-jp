@@ -12,7 +12,7 @@
 
 ***2. ダッシュボード編集プロセスで***
 
-選択したダッシュボードを開き、[ダッシュボードの編集モード](~/jp/dashboards/index.md#view-edit-mode)に入ると、表示形式のオーバーフロー ボタンから *[編集]* を選択して、**表示形式エディターにアクセス**できます。
+選択したダッシュボードを開き、ダッシュボードの編集モードに入ると、表示形式のオーバーフロー ボタンから *[編集]* を選択して、**表示形式エディターにアクセス**できます。
 
 ### 表示形式エディターの概要
 
@@ -28,12 +28,12 @@
 
 特に、次のことが可能になります。
 
-  - データの[**並べ替え**](~/jp/fields/sort-by-field.md)と[**フィルター**](~/jp/filters/visualization-filters.md)。
+  - データの[**並べ替え**](~/jp/data-visualizations/fields/sort-by-field.md)と[**フィルター**](~/jp/filters/visualization-filters.md)。
 
   - **表示形式のデータをダッシュボード ページの選択へバインド**。
 
-  - データ エディターの[**集計データ**](~/jp/fields/field-settings.md)。
+  - データ エディターの[**集計データ**](~/jp/data-visualizations/fields/field-settings.md)。
 
-  - データの **検索**、**表示形式**と[**書式設定**](~/jp/fields/conditional-formatting.md)。
+  - データの **検索**、**表示形式**と[**書式設定**](~/jp/data-visualizations/fields/conditional-formatting.md)。
 
 表示形式の設定と適切な表示形式の選択後、*戻る矢印*を選択してダッシュボード エディターに戻ります。ダッシュボード エディターでは、表示形式をドラッグしてレイアウト、サイズ、配置を操作できます。

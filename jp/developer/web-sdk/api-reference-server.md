@@ -1,7 +1,5 @@
 ## サーバー API リファレンス
 
-このトピックは、サーバー SDK API の概要ページです。
+This part of the documentation is your gateway to the Server SDK API, to get information about classes, functions, and procedures.
 
-サーバー SDK API に含まれているさまざまなクラス、関数、およびプロシージャについては、[**こちら**](infragistics.reportplus.common)をご確認ください。
-
-[サーバーアセンブリ](infragistics.reveal.sdk.server) と [WebAPI アセンブリ](infragistics.reveal.sdk.webapi) には、さまざまなクラス、関数、およびプロシージャが含まれます。
+Coming soon...

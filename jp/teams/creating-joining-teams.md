@@ -13,7 +13,7 @@ Reveal の*チーム*は、組織内外とのコラボレーションを容易�
 
 
   >[!NOTE]
-  > 初めてサインインする際に、すでにチームに参加されている場合があります。つまり、Office365 アカウントで Reveal にログインしたことのある、組織の他のメンバーを含む[組織チーム](index.md#organization-team)です。
+  > 初めてサインインする際に、すでにチームに参加されている場合があります。つまり、Office365 アカウントで Reveal にログインしたことのある、組織の他のメンバーを含む[組織チーム](overview.md#組織リポジトリ)です。
 
 
 
@@ -27,15 +27,15 @@ Reveal の*チーム*は、組織内外とのコラボレーションを容易�
 
       - チームがメイン*組織*に属するかどうかを選択します。
 
-          - [組織チーム](index.md#organization-team) (このオプションは、*Infragistics、Inc* などの組織名で表示されます)。チームをメイン組織チームに関連付けると、チームがメイン組織のすべてのメンバーが[参加できる](#join-team)チームのリストに表示されます (チームを非公開にしない場合)。
+          - [組織チーム](overview.md#組織リポジトリ) (このオプションは、*Infragistics、Inc* などの組織名で表示されます)。チームをメイン組織チームに関連付けると、チームがメイン組織のすべてのメンバーが[参加できる](#join-team)チームのリストに表示されます (チームを非公開にしない場合)。
 
           - *個人組織* - 新しいチームはメイン組織に属しておらず、招待なしに他のユーザーが参加できません。
 
             >[!NOTE]
             >後で変更することはできないため、慎重にチームの*組織*プロパティを選択してください。
-      - チームの[*プライバシー*](index.md#team-privacy-levels)を決定する - このオプションは、チームに_組織_を選択した場合は使用できません。 
+      - チームの[*プライバシー*](overview.md#team-privacy-levels)を決定する - このオプションは、チームに_組織_を選択した場合は使用できません。 
   
-      - _ブランディング_ 設定 - チームのダッシュボードを [PDF 文書](~/jp/dashboards/exporting/export-as-pdf-document.md)および [PPT プレゼンテーション](~/jp/dashboards/exporting/export-as-powerpoint-presentation)としてエクスポートするときに使用するメイン色とロゴを選択します。 
+      - _ブランディング_ 設定 - チームのダッシュボードを [PDF 文書](~/jp/dashboards/exporting-dashboards/export-as-pdf-document.md)および [PPT プレゼンテーション](~/jp/dashboards/exporting-dashboards/export-as-powerpoint-presentation.md)としてエクスポートするときに使用するメイン色とロゴを選択します。 
        
         >[!NOTE] **ロゴ画像の要件**。ロゴとしてアップロードする画像は、**5 MB** 以下で、jpg、jpeg、png、gif のいずれかの形式である必要があります。
 
@@ -55,7 +55,7 @@ Reveal の*チーム*は、組織内外とのコラボレーションを容易�
 <a name='join-team'></a>
 ### 既存のチームに参加
 
-アカウントが[組織チーム](index.md#organization-team)に自動的に追加された場合、**組織に属する他のチームを検出して参加できます**。以下の手順で既存のチームに参加できます。
+アカウントが[組織チーム](overview.md#組織リポジトリ)に自動的に追加された場合、**組織に属する他のチームを検出して参加できます**。以下の手順で既存のチームに参加できます。
 
 1.  左上隅にある (*Reveal* アイコンの横) ポップオーバー メニューをクリック/タップします。
     
@@ -66,9 +66,9 @@ Reveal の*チーム*は、組織内外とのコラボレーションを容易�
 
     ![join or create a team dialog](images/join-or-create.png)
 
-    ここには、組織に属するすべての[公開](index.md#team-privacy-levels)チームがあります。
+    ここには、組織に属するすべての[公開](overview.md#team-privacy-levels)チームがあります。
 
-4.  *[参加]* ボタンをクリック/タップすると、メンバーの[権限](index.md#members-roles-permissions)を持つ新しいメンバーとして選択したチームに自動的に追加されます。チームがチーム リストに表示されます。
+4.  *[参加]* ボタンをクリック/タップすると、メンバーの[権限](overview.md#members-roles-permissions)を持つ新しいメンバーとして選択したチームに自動的に追加されます。チームがチーム リストに表示されます。
 
 ### チーム リストの編成
 
@@ -119,4 +119,3 @@ Reveal の*チーム*は、組織内外とのコラボレーションを容易�
 
 チーム リストには、チームが グループ化されていないチームとカスタム グループのチームで分類されて表示されます。
 ![teams' list separated by custom groups and ungrouped teams](images/teams-categorized-by-groups.png)
-

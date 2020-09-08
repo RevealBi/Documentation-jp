@@ -172,7 +172,7 @@ and 計算フィールドは 4 つの TRUE 行のみ返します。
 
   - 行 96 (従業員 Jorge Stanatto).
 
-[ルールでフィルターする](~/jp/fields/field-filters-rules.md#rules-numeric-fields) または [値を選択する](~/jp/fields/field-filters-rules.md#select-values) 1.00 を適用した場合のみ 2 つの行を確認します。
+[ルールでフィルターする](~/jp/data-visualizations/fields/field-filters-rules.md#rules-numeric-fields) または [値を選択する](~/jp/data-visualizations/fields/field-filters-rules.md#select-values) 1.00 を適用した場合のみ 2 つの行を確認します。
 
 Zolleis Walker を見つけるために and 条件を設定し直す場合、以下の論理テストを使用できます。
 

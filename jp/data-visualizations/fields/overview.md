@@ -16,4 +16,4 @@
 
   - [ルール](field-filters-rules.md#rules)でフィルター。
 
-データセットがダッシュボード キャンバスに追加されると自動的に表示される[表示形式エディター](~/jp/data-visualization/visualizations-editor.md)を介して、フィールド設定とルールにアクセスできます。
+データセットがダッシュボード キャンバスに追加されると自動的に表示される[表示形式エディター](~/jp/data-visualizations/visualizations-editor.md)を介して、フィールド設定とルールにアクセスできます。

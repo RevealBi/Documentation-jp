@@ -4,7 +4,7 @@ SharePoint を選択すると、次のログイン プロンプトが表示さ�
 
 ![SharePoint Login](images/sharepoint-login.png)
 
-ここでは、Office365 アカウントでルートの SharePoint サイトを使用することを選択できます。*サブサイト URL* を追加して、コンテンツのブラウズを直接開始することもできます。SharePoint サブサイトに接続すると、[_データソースの選択_](what-is-datasource.html＃configured-data-sources)ダイアログのリストからすばやくアクセスできるようになります。
+ここでは、Office365 アカウントでルートの SharePoint サイトを使用することを選択できます。*サブサイト URL* を追加して、コンテンツのブラウズを直接開始することもできます。SharePoint サブサイトに接続すると、[データソースの選択] ダイアログのリストからすばやくアクセスできるようになります。
 
 <a name='supported-files'></a>
 ### サポートされるファイル

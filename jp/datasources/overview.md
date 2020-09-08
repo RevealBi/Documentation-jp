@@ -1,42 +1,33 @@
-## データ ソース
+## Data Sources
 
-[機](../../general/feature-matrix.md)のクションにリストされているように、Reveal がさまざまなエンタープライズ データ ソースに接続できることを説明しました。サーバー側に変更がない場合、Reveal 内でデータにアクセスするためのデータ ソースを構成する必要があります。以下のオプションを選択できます。
 
-* **アナリティクス ツール** [Google Analytics](google-analytics.md)。
-* *コンテンツ マネージャー* と *クラウド サービス* ([Box](box.md)、[Dropbox](dropbox.md)、[Google Drive](google-drive.md)、[OneDrive](onedrive.md) と [SharePoint Online](sharepoint.md))。
-* *カスタマー リレーションシップ マネージャー* ([Microsoft Dynamics CRM](microsoft-dynamics-crm.md) オンプレミスおよびオンライン)。
-* *データベース* ([Microsoft SQL Server](Microsoft-SQL-Server.md)、[Microsoft Analysis Services Server](Microsoft-Analysis-Services.md)、[MySQL](MySQL.md)、[PostgreSQL](PostgreSQL.md)、[Oracle](Oracle.md)、[Sybase](Sybase.md))[*](~/en/general/feature-matrix.md#databases-web)
-* *その他のデータ ソース* ([OData-Feed](odatafeed.md)、[Web-Resource](web-resource.md)、[JSON ファイル](working-with-json-files.md))。
+Data Sources are the places where your data comes from. Reveal provides
+you with the opportunity to connect to different enterprise data sources. You can choose from analytics tools, content managers, cloud services, CRMs,
+databases, spreadsheets, and public data sources.
 
-### 資格情報を入力
+The screenshot below displays a number of different data sources the user John Williams has connected to in his application.
 
-既存のダッシュボードを開いた際にデータソース資格情報に追加していない場合、以下のようなメッセージが表示されます。
+![Sample data sources](images/sample-data-sources-screen.png)
 
-![addingdatasourceaccount_all](images/addingdatasourceaccount_all.png)
+### Connecting to Data Sources
 
-いずれかのデータ ソースを選択すると、新しいダイアログがポップ アップしてデータ ソースの詳細の入力を促されます。以下の画面のいずれかが表示されます:
+To retrieve information from a data source and use it for your visualizations you need to connect to it first. Once you have connected to a data source, it will be saved in the _Select a Data Source_ menu (see the screenshot above) for quick selection next time you need it.
 
-1. ウェブベースのクラウドを使用している場合は、**ウェブ ログイン** ダイアログが表示されます。
-2. 他のプロバイダーを使用している場合は、[**アカウントの追加**](#adding-account)を促されます。
+To connect to a data source, perform the steps below.  
 
-<a name='adding-account'></a>
-### アカウントの追加
+1. From the *Home screen*, click/tap the **+ Dashboard** split blue button.
+   ![Reveal's home screen](images/start-creating-dashboard-data-source.png)
+2. In the _New Visualization_ dialog, you will see a list of recently used data sources. To create a new connection, select the **+ Data Source** button on the right.
+   ![Available data sources when creating a new visualization](images/creating-new-visualization.png)
+3. Select a data source provider from the dropdown list.
 
-ウェブベースではないデータ ソースを追加すると、次のダイアログが表示されます:
+After you select a data source provider, you will be prompted to configure your data source.  
 
-![Adding Account](images/Adding-Account-All.png)
+* **Analytics tools** [Google Analytics](supported-data-sources/google-analytics.md), [Hubspot](supported-data-sources/hubspot.md).
+* *Content Managers* and *Cloud Services* ([Box](supported-data-sources/box.md), [Dropbox](supported-data-sources/dropbox.md),  [Google Drive](supported-data-sources/google-drive.md),  [OneDrive](supported-data-sources/onedrive.md) and [SharePoint Online](supported-data-sources/sharepoint.md)).
+* *Customer Relationship Managers* ([Microsoft Dynamics CRM](supported-data-sources/microsoft-dynamics-crm.md) On-Premises and Online, [Quickbooks](supported-data-sources/quickbooks.md))
+* *Databases* ([Microsoft SQL Server](supported-data-sources/microsoft-sql-server.md),  [Microsoft Analysis Services Server](supported-data-sources/microsoft-analysis-services.md), [Microsoft Azure Analysis Services](supported-data-sources/microsoft-azure-analysis-services.md), [MySQL](supported-data-sources/mysql.md), [PostgreSQL](supported-data-sources/postgresql.md), [Oracle](supported-data-sources/oracle.md), [Sybase](supported-data-sources/sybase.md))
+* *Other Data Sources* ([OData-Feed](supported-data-sources/odatafeed.md), [Web-Resource](supported-data-sources/web-resource.md), [JSON files](working-files/working-with-json-files.md))
 
-データ ソースの新しい資格情報を入力するか、[アカウントなし]オプション (認証を必要としないデータ ソース) を選択するか、該当する場合は既存の資格情報を選択します。新しいアカウントを作成するには、右上隅にある [+] ボタンを選択します。
-
-![Creating-New-Account](images/Creating-New-Account.png)
-
-以下の情報を設定できます。
-
-* データソースの*デフォルト名*: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal はデータソースと同じ名前を付けます。変更するには、**鉛筆**アイコンを選択します。
-* (オプション) *ドメイン*: ドメイン名 (適用可能な場合)。
-* *ユーザー名*: データ ソースのユーザー アカウント。
-* *パスワード*: データ ソース用のパスワード。
-
-準備ができたら、[作成と使用] を選択します。 
-
-![Email Efforts Credentials dashboard](images/EmailEffortsCredentials.png)
+>[NOTE]
+> **Databases** are not supported in the Web version of Reveal.

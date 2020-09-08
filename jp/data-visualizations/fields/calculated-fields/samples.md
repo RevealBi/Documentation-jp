@@ -28,7 +28,7 @@
 <a name='converting-unix-timestamps'></a>
 ### Unix 更新日時を使用可能な日付へ変換
 
-1970 年 1 月 1 日後の秒によって定義される Unix 時間 (Epoch 時間) はすべてのタイムゾーンを一度に表すために便利です。Unix 更新日時を持つデータ ソースをインポートする場合、[`date`](Date-Calculated-Fields.md) 数式を使用して利用可能な日付に変換できます。
+1970 年 1 月 1 日後の秒によって定義される Unix 時間 (Epoch 時間) はすべてのタイムゾーンを一度に表すために便利です。Unix 更新日時を持つデータ ソースをインポートする場合、[`date`](date.md) 数式を使用して利用可能な日付に変換できます。
 
 `((([Unix Time Stamp]/60)/60)/24)+DATE(1970,1,1)+([Timezone]/24)`
 
@@ -61,6 +61,6 @@
 
 `([Revenue 2017]/[Revenue 2016])-1`
 
-数値を使用するか、[パーセンテージとして書式](~/jp/fields/field-settings.md#numeric-fields)設定できます。
+数値を使用するか、[パーセンテージとして書式](~/jp/data-visualizations/fields/field-settings.md#numeric-fields)設定できます。
 
 ![YoyAnalysisPercentage\_All](images/YoyAnalysisPercentage_All.png)

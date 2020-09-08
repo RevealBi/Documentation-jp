@@ -49,7 +49,7 @@
 
     ![A dialog to grant access to cloud file data sources](images/grant-access-share-dashboard-dialog.png)
 
-    *[アクセスを許可]*をクリック/タップして、[ダッシュボードを共有する](sharing-dashboards.md)ユーザーの選択に進みます。
+    *[アクセスを許可]*をクリック/タップして、[ダッシュボードを共有する](share-a-dashboards.md)ユーザーの選択に進みます。
 
 
 >[!NOTE] **アクセスは許可されていません。**

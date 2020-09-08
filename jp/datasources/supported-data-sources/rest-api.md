@@ -49,7 +49,7 @@ REST API データソースを構成するには、以下の情報が必要で�
 
     ![REST-API-Data-Format-Result\_All](images/REST-API-Data-Format-Result_All.png)
 
-    JSON ファイルの使用方法の詳細については、[このトピック](working-with-json-files.md)を参照してください。
+    JSON ファイルの使用方法の詳細については、[このトピック](~/jp/datasources/working-files/working-with-json-files.md)を参照してください。
     
     データをロードした後、表示形式エディター画面に進みます。
 

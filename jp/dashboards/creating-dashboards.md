@@ -17,11 +17,7 @@ Reveal のダッシュボード作成には以下のオプションが含まれ�
 
 ![Creating new dashboard](images/create-new-dashboard.png)
 
-[新しい表示形式] のダイアログを表示します。続行するには、以下のいずれか作成するかどうかを選択します。
-
-  - データ ソースを使用した表示形式、または
-
-  - 単純[テキスト ボックス](~/jp/data-visualizations/text-box.md)。
+[新しい表示形式] のダイアログを表示します。Proceed to create a visualization using a data source.
 
 ![New visualization dialog](images/new-visualization-dialog.png)
 
@@ -38,11 +34,11 @@ Reveal のダッシュボード作成には以下のオプションが含まれ�
 
 #### 使用可能なコンテンツ
 
-Reveal では [Dropbox](~/jp/datasources/Dropbox.md)、[OneDrive](~/jp/datasources/OneDrive.md)、[Box](~/jp/datasources/Box.md)、[Google Drive](~/jp/datasources/Google-Drive.md) などの複数のコンテンツ ソースを追加でき、それらの使用可能なフォルダー、ファイル、スプレッドシートを閲覧できます。
+Reveal では [Dropbox](../datasources/supported-data-sources/Dropbox.md)、[OneDrive](../datasources/supported-data-sources/OneDrive.md)、[Box](../datasources/supported-data-sources/Box.md)、[Google Drive](../datasources/supported-data-sources/Google-Drive.md) などの複数のコンテンツ ソースを追加でき、それらの使用可能なフォルダー、ファイル、スプレッドシートを閲覧できます。
 
 ![available content in OneDrive datasource account](images/available-content-onedrive.png)
 
-さらに、[SharePoint](~/jp/datasources/SharePoint.md) データ ソースを追加することもできるため、リストまたはライブラリにアクセスする機能が使用可能です。
+さらに、[SharePoint](../datasources/supported-data-sources/SharePoint.md) データ ソースを追加することもできるため、リストまたはライブラリにアクセスする機能が使用可能です。
 
 ![available content in SharePoint datasource account](images/available-content-sharepoint.png)
 
