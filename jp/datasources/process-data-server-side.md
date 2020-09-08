@@ -24,4 +24,22 @@ You can enable the _Process Data on Server_ function while connecting to one of 
 
 If you need more information on how to do the initial configuration of the data source, select one of the three data sources in the bullet list above and read the article on how to set it up. 
 
-After configuring the connection, you will 
+After configuring the connection, you will you will have the _Set Up the Database_ screen opened:
+
+<img src="images/process-data-server-checkbox.png" alt="New Process data on server checkbox added in the Set Up the Database dialog in PostgreSQL" width="800"/>
+
+Notice that the _Process Data on Server_ is enabled by default. Consider unchecking the box next to this feature in case you need to use any of the capabilities that are limited (see in _Limitations_ below), when your data is processed on the server.
+
+### Limitations
+
+The _Process Data on Server_ feature helps you build visualizations over very large datasets, where it would otherwise be unfeasible to download all the data locally. However, this feature introduces some limitations to the use of the data source it's enabled for.  
+
+The following capabilities are **not supported** in the Visualization editor when _Process Data on Server_ is enabled:
+
+* [Data Blending](data-blending.md)
+* [Azure ML models integration](ml-integration/azure-machine-learning-models.md)
+
+Restrictions are placed on the [Pre-Calculated](~/en/data-visualizations/fields/calculated-fields/overview.html#precalculated-fields) fields feature in the Visualization editor. Unavailable functions are greyed out in the _New Calculated Field_ dialog.
+In this dialog, you can click on the link to disable the _Process Data on Server_ feature.
+
+<img src="images/pre-calculated-fields-unavailable-process-data-server.png" alt="Disable Process Data on Server prompt in the Calculated Fields dialog" width="800"/>
