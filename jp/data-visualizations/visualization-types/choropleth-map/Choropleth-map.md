@@ -54,17 +54,14 @@ Reveal に場所の列を認識させるには、場所の完全名または公�
 
 このチュートリアルを実行するには、[2016 November General Election](https://download.infragistics.com/reveal/help/samples/2016_November_General_Election.xlsx) スプレッドシートをダウンロードし、クラウド プロバイダーにアップロードして以下の手順を実行します。
 
-1. スプレッドシートをアップロードしたクラウド プロバイダーに接続します。Reveal でのデータソースの追加の詳細については、[データソース](../../datasources/data-sources.md)セクションを参照してください。
+1. スプレッドシートをアップロードしたクラウド プロバイダーに接続します。Reveal でのデータソースの追加の詳細については、[データソース](../../datasources/overview.md)セクションを参照してください。
 2. 表示形式エディターで、階級区分図の表示形式を選択します。
 
-
-    <img src="images/select-visualization-choropleth-map.png" alt="Select choropleth map visualization from the Change Visualization menu in the Visualization editor" width="800"/>
-
+  <img src="images/select-visualization-choropleth-map.png" alt="Select choropleth map visualization from the Change Visualization menu in the Visualization editor" width="800"/>
 
 3. [階級区分図データ] セクションで、[マップ] ドロップダウンから [アメリカ合衆国の州] マップを選択します。米国のマップのアウトラインが画面に表示されます。
 
-
-    <img src="images/select-us-map.png" alt="Select choropleth map visualization from the Change Visualization menu in the Visualization editor" width="800"/>
+  <img src="images/select-us-map.png" alt="Select choropleth map visualization from the Change Visualization menu in the Visualization editor" width="800"/>
 
 4. [場所] プレースホルダーに State または State Abv フィールドをドロップします。両方とも米国の州のリストを含みます。
 
@@ -74,10 +71,9 @@ Reveal に場所の列を認識させるには、場所の完全名または公�
 
 7. (オプション) フィルターを追加します。この例では、[データ フィルター] プレースホルダーに Year フィールドをドロップします。フィールドをクリックし、[フィルター タイプ] > [値の選択] > 2016 を選択します。
 
-    <img src="images/presidential-election-2016-map.png" alt="Select choropleth map visualization from the Change Visualization menu in the Visualization editor" width="800"/>
+  <img src="images/presidential-election-2016-map.png" alt="Select choropleth map visualization from the Change Visualization menu in the Visualization editor" width="800"/>
 
 州に分割された米国のマップが表示されます。州の有権者の割合が高いほど、州の色は濃くなります。
-
 
 <a name='map-color'></a>
 ### マップ カラーを使用したマルチカラー階級区分図の作成

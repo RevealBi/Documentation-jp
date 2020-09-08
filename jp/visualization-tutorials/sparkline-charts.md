@@ -37,7 +37,7 @@
 
   - [スパークラインのチャート タイプを変更する方法](#change-chart-type-sparkline)
 
-  - [日付集計を変更する方法](#change-datea-ggregation)
+  - [日付集計を変更する方法](#change-date-aggregation)
 
   - [スパークラインの列数を変更する方法](#modify-columns)
 
@@ -67,7 +67,7 @@
 このチュートリアルでは [Reveal チュートリアル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx) の [Sparkline Charts] のシートを使用します。
 
 >[!NOTE]
->このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、Web リソースとして追加してください。
+>このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[Web リソースとして](datasources/supported-data-sources/web-resource.md)追加してください。
 
 <a name='create-sparkline'></a>
 ### スパークライン チャートの作成

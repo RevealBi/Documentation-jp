@@ -58,7 +58,7 @@ Reveal を使用すると、テーブル全体から PostgreSQL データを取�
 
 PostgreSQL 関数を使用すると、データベース内の単一の関数で、通常は複数のクエリとラウンド トリップを必要とする操作を実行できます。
 
-以下は、[Northwind](link:https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases) データを使用してテスト サーバーで実行されるサンプル関数のセットです:
+以下は、[Northwind](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases) データを使用してテスト サーバーで実行されるサンプル関数のセットです:
 
 
 <img src="images/postgresql-functions-list.png" alt="A list of PostgreSQL functions" width="800"/>
