@@ -4,7 +4,7 @@
 
 分析を既存のアプリケーションに埋め込む場合、それらのダッシュボードがアプリのルック アンド フィールと一致することが重要です。そのため、SDK を通じて Reveal ダッシュボードを完全に制御できます。
 
-Creating your own theme in Reveal is done by setting the **Theme** property. 
+Reveal で独自のテーマを作成するには、**Theme** プロパティを変更します。 
 
 ``` csharp
 
@@ -29,16 +29,16 @@ RevealSdkSettings.Theme = currentTheme;
 ```
 
 > [!NOTE]
-> You first need to clear your chart colors list default values to have the new set of colors added.
+> 新しい色のセットを追加するには、まずチャートの色リストのデフォルト値をクリアする必要があります。
 
-If you have a dashboard or another Reveal component already displayed on your screen, you will need to render it again in order to see the applied changes.
+画面にダッシュボードまたは別の Reveal コンポーネントがすでに表示されている場合は、適用された変更を表示するために、再度レンダリングする必要があります。
 
-### Customizable Theme Settings
+### カスタマイズ可能なテーマ設定
 
 The settings that you can use to customize your theme are part of the _RevealTheme()_ class. The _RevealTheme() class_ contains all Dashboard and App settings with their current values. 
-In the table below, you will find a full list of the customizable settings, followed by their type and a short description. 
+以下のテーブルには、カスタマイズ可能なすべての設定とそれぞれに関する簡単な説明、タイプ、各設定のデフォルト値があります。 
 
-| Name                         | Type                    | Description                                                                                                                                                                                                                                                                       |
+| 名前                         | タイプ                    | 説明                                                                                                                                                                                                                                                                       |
 |------------------------------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **ChartColors**                  | List<Color>             | The colors used to show the series in your visualizations. You can add an unlimited number of colors. Once all colors are used in a visualization, Reveal will autogenerate new shades of these colors. This way your colors won’t repeat and each value will have its own color. |
 | **AccentColor**                  | Color                   | The default accent color in Reveal is a shade of blue that you can find in the + Dashboard button and other interactive actions. You can change the color to match the same accent color you use in your applications.                                                            |
@@ -51,37 +51,37 @@ In the table below, you will find a full list of the customizable settings, foll
 | **FontColor**                    | Color                   | Sets the color of the font.                                                                                                                                                                                                                                                       |
 | **HighlightColor**               | Color                   | Sets the highlighting color in specific dashboard scenarios (forecast and outliers statistical functions).                                                                                                                                                                        |
 | **UseRoundedCorners**            | bool                    | (By default) Rounded corners in buttons, tooltips, containers, visualizations, etc. If set to false, squared corners will be shown.                                                                                                                                               |
-### Built-In Themes 
+### ビルド済みのテーマ
 
-Reveal SDK comes with four pre-built themes: *Mountain Light*, *Mountain Dark*, *Ocean Light*, and *Ocean Dark*. You can set the one that best matches your application's design, or you can also use it as the basis for your custom theme modifications.    
+Reveal SDK には、*Mountain Light*、 *Mountain Dark*、*Ocean Light*、*Ocean Dark* の 4 つのビルド済みテーマが付属しています。アプリケーションのデザインに最適なものを設定することも、カスタム テーマのベースとして使用することもできます。    
 
-Apply the settings of a chosen built-in theme by creating a new instance.
+新しいインスタンスを作成して、選択したビルド済みテーマの設定を適用します。
 
-***Mountain Light Theme***
+***Mountain Light テーマ***
 ``` csharp
 RevealSdkSettings.Theme = new MountainLightTheme();
 ```
 > [!NOTE]
-> Mountain Light contains the default values for the customizable theme settings. This means MountainLight and the RevealTheme look basically the same way. 
+> Mountain Light には、カスタマイズ可能なすべての設定のデフォルト値が含まれています。 
 
-***Mountain Dark Theme***
+***Mountain Dark テーマ***
 ``` csharp
 RevealSdkSettings.Theme = new MountainDarkTheme();
 ```
 
-***Ocean Light Theme***
+***Ocean Light テーマ***
 ``` csharp
 RevealSdkSettings.Theme = new OceanLightTheme();
 ```
 
-***Ocean Dark Theme***
+***Ocean Dark テーマ***
 ``` csharp
 RevealSdkSettings.Theme = new OceanDarkTheme();
 ```
 
-#### How the Built-In Themes Look? 
+#### ビルド済みのテーマはどのように見えますか? 
 
-Below, you will find a table showing how the *Visualization Editor* and *Dashboard Editor* look when each of the pre-built themes is applied. 
+以下は、各ビルド済みテーマが適用されたときの*形式エディター*と*ダッシュボード エディター*の外観を示すテーブルです。 
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -95,14 +95,14 @@ Below, you will find a table showing how the *Visualization Editor* and *Dashboa
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-fymr">Theme</th>
-    <th class="tg-0pky"><span style="font-weight:bold">Dashboard Editor</span></th>
-    <th class="tg-0pky"><span style="font-weight:bold">Visualization Editor</span></th>
+    <th class="tg-fymr">テーマ</th>
+    <th class="tg-0pky"><span style="font-weight:bold">ダッシュボード エディター</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold">形式エディター</span></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0pky">Mountain Light (Default?)</td>
+    <td class="tg-0pky">Mountain Light (デフォルト?)</td>
     <td class="tg-0pky"><img src="images/mountain-light-theme-dashboard-pre-built.png" alt="Image" width="300" height="206"></td>
     <td class="tg-0pky"><img src="images/mountain-light-theme-visualization-pre-built.png" width="300" height="206"></td>
   </tr>
