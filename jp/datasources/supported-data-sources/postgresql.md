@@ -1,6 +1,6 @@
 ## PostgreSQL
 
->[!NOTE] PostgreSQL is not supported in the Web version of Reveal.
+>[!NOTE] PostgreSQL は Reveal の Web バージョンでサポートされていません。
 
 PostgreSQL サーバーデータソースを設定するには、以下の情報が必要です。
 

@@ -1,6 +1,6 @@
 ## Azure SQL
 
->[!NOTE] Azure SQL is not supported in the Web version of Reveal.
+>[!NOTE] Azure SQL は Reveal の Web バージョンでサポートされていません。
 
 Azure SQL データソースを構成するには、以下の情報が必要です。
 
