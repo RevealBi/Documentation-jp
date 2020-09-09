@@ -1,73 +1,74 @@
-## Welcome to the Reveal help!
+## Reveal ヘルプへようこそ！
 
-Reveal is a modern BI solution that was built for embedded analytics. You can easily integrate data analytics into your application, taking advantage of rich APIs that give you control over Reveal data visualizations, while also enhancing the user's experience with your app.
+Reveal は、埋め込み分析用に構築された最新の BI ソリューションです。データ分析をアプリケーションに簡単に統合でき、Reveal データ可視化を制御できる豊富な API を利用しながら、アプリでのユーザー エクスペリエンスを強化できます。
 
-Built by user experience experts and designed for the business user, Reveal makes it simple for you to create, view, and share data visualizations with your teams. Offering you a seamless, identical experience no matter what device you are on: Web, Desktop, iOS, or Android.
+ユーザー エクスペリエンスのエキスパートによって構築され、ビジネス ユーザー向けに設計された Reveal は、データ可視化の作成、表示、チームとの共有を簡単にします。使用しているデバイスに関係なく、シームレスで同一のエクスペリエンスを提供します: ウェブ、デスクトップ、 iOS および Android。
 
 <img src="images/homePage_All.png" alt="Welcome image for Reveal" width="800"/>
 
-Interested on embedded analytics? [Download Reveal SDK](https://www.revealbi.io/download-sdk). To find out how to start using it, refer to the [Reveal SDK help](developer/index.md).
+埋め込み分析に興味をお持ちですか? [Reveal SDK をダウンロードします](https://www.revealbi.io/download-sdk)。使用を開始する方法については、[Reveal SDK ヘルプ](developer/index.md)を参照してください。
 
-### Reveal Application Highlights
+### Reveal アプリケーションのハイライト
 
-<h4 style="color:#2328B0;">Securely Connect to your Data and Build Powerful Data Visualizations</h4>
+<h4 style="color:#2328B0;">データに安全に接続し、強力なデータ視覚化を構築する</h4>
 
-Connect to the most popular data sources without setting anything up on the server. Get real-time insights by connecting directly to SharePoint Online, Google Drive, OneDrive, Microsoft Analysis Services, Microsoft SQL Server, CRM, and many more.
+人気のあるデータ ソースへ、特別なサーバー設定なしで接続できます。SharePoint オンライン、Googleドライブ、OneDrive、Microsoft Analysis Services、Microsoft SQL Server、CRM などに直接接続して、リアルタイムなインサイトを取得します。
 
 <img src="dashboards/images/adding-data-source.png" alt="Connecting to data in Reveal" width="800"/>
 
-With an intuitive drag and drop interface, Reveal makes it simple to create dashboards within minutes. Choose from more than 20 different visualizations to present your data and tell your story the best way.
+直感的なドラッグ＆ドロップ インターフェイスを備えた Reveal は、数分でダッシュボードを簡単に作成できます。20 以上の異なる表示形式から選択して、データを提示し、ストーリーを最良の方法で伝えます。
 
-<h4 style="color:#2328B0;">Customize your Data Visualizations</h4>
+<h4 style="color:#2328B0;">データ視覚化をカスタマイズ</h4>
 
-Sort, filter and aggregate your data as you wish! Each chart type provides you with different settings to design your visualizations the way you want.
+必要に応じて、データを並べ替えて、フィルターし、集計できます! チャートの種類ごとにさまざまな設定が用意されており、表示形式を希望どおりにデザインできます。
 
 <img src="filters/images/visualization-quick-filter-sample.png" alt="Using visualization quick filters in Reveal" width="800"/>
 
-<h4 style="color:#2328B0;">Interact with your Dashboards</h4>
+<h4 style="color:#2328B0;">ダッシュボードを操作する</h4>
 
-Once your dashboard is created, interact with your visualizations with drill-down support, or even the ability to change visualization on the fly. Create and share annotated images of your visualizations for deeper insights.
+ダッシュボードが作成されたら、ドリルダウン サポートを使用して表示形式を操作するか、表示形式をオンザフライで変更することもできます。より深いインサイトを得るために、表示形式の注釈付き画像を作成して共有します。
+
 
 <img src="general/images/tooltips-totals.png" alt="Using tooltips and displaying totals in Reveal" width="800"/>
 
-<h4 style="color:#2328B0;">Share Insights with your Teams </h4>
+<h4 style="color:#2328B0;">チームとインサイトを共有する </h4>
 
-Give everyone the power of data by sharing your dashboards within your Organization's repository, teams you are part of or with individual coworkers. Assign different levels of permissions to users to give them the level of access you want them to have to your dashboard.
+組織のリポジトリ内のダッシュボードを、所属しているチーム、または同僚と共有することで、すべての人がデータの恩恵を享受できます。ユーザーにさまざまなレベルの権限を割り当てて、ダッシュボードへのアクセス権を付与します。
 
 <img src="dashboards/sharing-dashboards/images/remove-sharing.png" alt="Showing user roles while sharing in Reveal" width="800"/>
 
-<h4 style="color:#2328B0;">Leverage Advanced Predictive Analysis </h4>
+<h4 style="color:#2328B0;">高度な予測分析を活用する </h4>
 
-Get even more insight from your visualizations with advanced predictive analysis, using statistical functions.
-You can use the Time series forecast, Linear regression and Detect outliers to make predictions, recognize and evaluate trends, or discover outliers in your data series.
+統計関数を使用した高度な予測分析により、表示形式からさらにインサイトを得ることができます。
+時系列予測、線形回帰、および外れ値の検出を使用して、データ シリーズで予測を行い、傾向を認識して評価し、外れ値を検出できます。
 
 <img src="data-visualizations/images/time-series-forecast-6-months.png" alt="Showing statistical functions in Reveal" width="800"/>
 
 
-<h4 style="color:#2328B0;">Get Better Insights with Machine Learning</h4>
+<h4 style="color:#2328B0;">機械学習でより良いインサイトを得る</h4>
 
-Use your trained models' data from BigQuery or Azure Machine Learning Studio in Reveal. In just three steps, choose your data source, build a visualization, and use the integration to connect to a trained machine learning model.
+Reveal で BigQueryまたは Azure Machine Learning Studio からのトレーニング済みモデルのデータを使用します。たった 3 つの手順で、データソースを選択し、表示形式を構築し、統合を使用して、トレーニングされた機械学習モデルに接続します。
 
 <img src="datasources/ml-integration/images/ml-models-list-bigquery.png" alt="Connecting to a trained machine learning model in Reveal" width="800"/>
 
-### What's new?
+### 新機能
 
-* [Amazon Redshift](~/en/datasources/supported-data-sources/redshift.md) data source – You can now use and gain new insights from your data in the Amazon Redshift cloud data warehouse.
-* [Marketo](~/en/datasources/supported-data-sources/marketo.md) data source – Connect to your account in the marketing platform Marketo and use your data in Reveal.
-* [Process Data on Server](~/en/datasources/process-data-server-side.md) – You can now have server-side aggregation of the data coming from the MS SQL, MySQL and Postgres data sources.
+* [Amazon Redshift](~/en/datasources/supported-data-sources/redshift.md) データソース – Amazon Redshift クラウド データ ウェアハウスのデータを使用して、新しいインサイトを得ることができます。
+* [Marketo](~/en/datasources/supported-data-sources/marketo.md) データソース – Marketo マーケティング プラットフォームのアカウントに接続し、データを Reveal で使用します。
+* [サーバーでデータを処理する](~/en/datasources/process-data-server-side.md)機能 – MS SQL、MySQL、Postgres データソースからのデータをサーバー側で集計することが可能です。
 
-### Coming Soon to Reveal
+### Reveal に追加予定
 
 Coming Soon...
 
-### Where Can I Get Reveal?
+### Reveal はどこで入手できますか?
 
-Reveal offers you a seamless, almost identical experience no matter what device you are on.
-You can use a web browser or get native applications on iOS, Android, and Desktop, making it easy for you to work across different devices and platforms.
+Reveal は使用しているデバイスに関係なく、シームレスでほぼ同一のエクスペリエンスを提供します。
+Web ブラウザーの使用やiOS、Android、デスクトップでネイティブ アプリケーションを取得することが可能であるため、さまざまなデバイスやプラットフォームで簡単に作業できます。
 
-Try our [**free demo**](https://app.revealbi.io/Login?provider=Demo&_ga=2.197140908.2008019520.1580398635-1419162557.1572354605) version to discover what Reveal can do for your business!
+私たちの[**無料デモ**](https://app.revealbi.io/Login?provider=Demo&_ga=2.197140908.2008019520.1580398635-1419162557.1572354605)版を試して、Reveal がお客様のビジネスに何ができるかを発見してください!
 
-Below you can find the versions supported for each platform:
+以下に、各プラットフォームでサポートされているバージョンを示します:
 
 | PLATFORM | SUPPORT |
 | --- | --- |

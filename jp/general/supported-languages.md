@@ -1,25 +1,24 @@
-## Supported Languages
+## サポート対象言語
 
-The general User Experience (UX) can be customized applying application themes, changing localization and regional settings, or even including further customization with the Reveal SDK.
+一般的なユーザー エクスペリエンス (UX) は、アプリケーション テーマを適用し、ローカライズと地域の設定を変更、さらに Reveal SDK でカスタマイズすることもできます。
 
-Reveal will detect and apply the language and regional settings configured in the different platforms, including:
+Reveal は、次のようなさまざまなプラットフォームで構成されている言語と地域の設定を検出して適用します。
 
-  - **Web browser**
+  - **Web ブラウザ**
 
   - **Windows**
 
-  - **Mobile devices (Android and iOS)**
+  - **モバイル デバイス (Android と iOS)**
 
 > [!NOTE]
->**About Date Format in Visualizations**
->The date format used in Reveal visualizations can be customized by field **in the Visualization editor**. Doing so will effectively override the "general" format.
+>**表示形式における日付形式について**
+>Reveal 表示形式で使用される日付形式は、**表示形式エディター**のフィールドでカスタマイズできます。そうすることで、「一般」形式を効果的に上書きします。
 
-#### Languages
+#### 言語
 
-The available languages are English, German, Spanish, French, Italian,
-Japanese, Korean, Malay, Dutch, Portuguese, Russian, Chinese
-(Traditional and Simplified).
+利用可能な言語は、英語、ドイツ語、スペイン語、フランス語、イタリア語、日本語、韓国語、マレー語、オランダ語、ポルトガル語、ロシア語、中国語 (繁体および簡体) です。
 
-In addition, you can explicitly configure within Reveal the language
-used for email notifications and the Notification center. To do this, go
-to: **Settings -> General Settings -> Language for Notifications**.
+
+
+さらに、メール通知と通知センターに使用される言語を Reveal 内で明示的に構成できます。
+これを行うには、**設定 -> 一般設定 -> 通知の言語**に移動します。

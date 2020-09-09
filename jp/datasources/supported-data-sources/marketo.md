@@ -1,23 +1,23 @@
 ## Marketo 
 
-Marketo’s REST APIs are authenticated with 2-legged OAuth 2.0.
-To configure your Marketo data source connection in Reveal, you need to provide the following connection information: 
+Marketo の REST API は、2-legged OAuth 2.0 で認証されています。
+Reveal で Marketo データソース接続を構成するには、次の接続情報を提供する必要があります: 
 
 ![Data source connection configuring screen](images/marketo-configure-login-screen.png)
 
-1. **URL** - paste here the *Identity URL* you will find in your Marketo Admin panel. 
-2. **Client ID** 
-3. **Client Secret**
+1. **URL** - Marketo 管理パネルにある *ID URL* をここに貼り付けます。 
+2. **クライアント ID** 
+3. **クライアント シークレット**
 
-Your *Admin* panel in Marketo contains the authentication elements listed above. For more information on how to find them, check the article about [Authentication](https://developers.marketo.com/rest-api/authentication/) in Marketo's documentation. 
+Marketo の*管理*パネルには、上記の認証要素が含まれています。それらを見つける方法の詳細については、Marketo のドキュメントの[認証](https://developers.marketo.com/rest-api/authentication/)に関する記事をご覧ください。 
 
-### Setting Up Your Data
+### データの設定
 
-After logging in, you can set up your Marketo data in the following dialog:
+ログイン後、次のダイアログで Marketo データを設定できます:
 
 ![Setting up the revenue](images/set-up-dialog-marketo.png)
 
-*Activities* and *Leads* objects require you to set two parameters - *from* and *to* (dates) to query the data, before you can continue to the Visualization editor. The date range must be less than 31 days, incl. the first and the last day. 
+*アクティビティ*と*リード*オブジェクトでは、表示形式エディターに進む前に、データを取得するために *from* および *to* (日付) の 2 つのパラメーターを設定する必要があります。日付範囲は、最初日と最後日を含めて 31 日未満である必要があります。 
 
 > [!NOTE]
-> Please, note that you may need to wait up to several minutes the first time your data from the *Activities* and *Leads* objects is loaded in the *Visualization Editor*. The same query will be executed much faster next time. 
+> *アクティビティ*と*リード*のオブジェクトからのデータが表示形式エディターに最初に読み込まれるまで、数分かかる場合があることに注意してください。次回は、同じクエリがより速く実行されます。

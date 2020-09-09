@@ -1,28 +1,28 @@
-## Processing Data on Server
+## サーバーでデータを処理
 
-Basically, when connecting to a data source, all your data on the server is loaded and downloaded locally.  In this way, you have your data set, ready to be directly processed in Reveal - sorted, filtered, aggregated, and used for visualizations. 
+基本的に、データソースに接続すると、サーバー上のすべてのデータがローカルに読み込まれ、ダウンロードされます。  このようにして、データセットをソート、フィルタリング、集計、および表示形式に使用することなど、Reveal 内で直接処理できます。 
 
-For some data sources, with much larger data sets, sometimes involving million of records, downloading the data to work with locally isn't a feasible solution. That's why an alternative approach is available in Reveal: processing the data directly on the server. 
+数百万のレコードが含まれるような非常に大きなデータセットを持つデータソースの場合、ローカルで使用するためにデータをダウンロードすることは得策ではありません。その理由で、Reveal では代替アプローチとしてサーバー上で直接データを処理する機能が提供されています。 
 
-### Supported Data Sources
+### サポートされるデータ ソース
 
-For some of the available data sources in Reveal, processing data directly on the server is the **only** approach used. These are: 
+Reveal で利用可能なデータソースの一部では、サーバー上で直接データを処理するアプローチ**のみ**が使用可能です。以下があります: 
 
 * Amazon Redshift
 * Google BigQuery
-* MS Azure Synapse Analytics  
+* Microsoft Azure Synapse Analytics  
 
-Processing data on server is an option you can **enable** for the following data sources: 
+サーバーでのデータ処理は、次のデータソースに対して**有効**にできるオプションです。 
 
 * [MS SQL Server](microsoft-sql-server.md)
 * [MySQL](mysql.md)
 * [PostgreSQL](postgresql.md)
 
-### How to Enable Process Data on Server?
+### サーバー上でデータを処理を有効にする方法は?
 
-You can enable the _Process Data on Server_ function while connecting to one of the data sources (see above) supporting it. 
+_Process Data on Server_ 関数を有効にして、それをサポートするデータソース (上記を参照) のいずれかに接続できます。 
 
-If you need more information on how to do the initial configuration of the data source, select one of the three data sources in the bullet list above and read the article on how to set it up. 
+データソースの初期構成を行う方法の詳細については、上記の箇条書きリストで 3 つのデータソースのいずれかを選択し、設定方法に関する記事をご覧ください。
 
 After configuring the connection, you will you will have the _Set Up the Database_ screen opened:
 
