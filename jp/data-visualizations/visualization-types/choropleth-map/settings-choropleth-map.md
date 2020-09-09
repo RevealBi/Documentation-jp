@@ -1,35 +1,35 @@
-## Working With the Choropleth Map Settings
+## 階級区分図設定の操作
 
 ![Settings in the Visualization editor of the choropleth map](images/visualization-settings-choropleth-map.png)
 
-In the _Settings_ section of the Choropleth map visualization you can configure the following:
+階級区分図表示形式の [設定] セクションでは、以下を設定できます:
 
-  - *Show Title* - choose whether to show the visualization’s title;
-  - *Show Legend* - choose whether to show the color scale range above the map;
-  - *Color* - select which color to be picked as a base of the color scheme. Areas with average data values will be filled with this color. In contrast, regions on the map with lower and higher data values will be displayed in lighter and darker shades,  respectively.
-  - *Color as* - here you can choose between:
-      * _Range of Values_ - use a range of seven colors as a color scheme and fill the regions depending on the data value;
-      * _Single Color_ - use one color to display all regions that contain data. Regions, where information is missing, are grey.
+  - **タイトルの表示** - 表示形式のタイトルを表示するかどうかを選択します。
+  - **凡例の表示** - マップの上にカラー スケール範囲を表示するかどうかを選択します。
+  - **カラー** - 配色のベースとして選択する色を選択します。平均データ値の領域はこの色で塗りつぶされます。対照的に、データ値が低いマップ領域は明るい色で表示され、高いデータ領域は暗い色で表示されます。
+  - **カラー バリエーション** - 以下から選択できます:
+      * 値の範囲 - 7 色の範囲を配色として使用し、データ値に基づいて領域を塗りつぶします。
+      * 単色 - 単一の色を使用して、データを含むすべての領域を表示します。情報のない領域は灰色です。
 
     >[!NOTE]
-    >If you have added a field in the _Map Color_ placeholder, then the _Color as_ setting will change to _Color based on_ settings. Find more about using the Map Color to create choropleth maps [here](choropleth-map.md#map-color).
+    >[マップ カラー] プレースホルダーにフィールドを追加した場合、[カラー バリエーション] の設定は [次に基づいた色] 設定に変更されます。マップ カラーを使用した階級区分図の作成の詳細については、[こちら](choropleth-map.html#map-color)を参照してください。
 
-  - *Show labels* - IF the selected map supports labels, you can choose whether to put them on _all_ regions, only on regions that contain information (_Only when has value_), or turn them off (_None_).
-  - *Labels are* - You can use labels to indicate the geographical names (abbreviated) of the regions by selecting _Location Abbreviation_. Alternatively, your labels can show _Values_ for each area. Value labels can be displayed on the map as numbers, percent, or currency, depending on what formatting you chose for your _Value_ field.
+  - **ラベルの表示** - 選択したマップがラベルをサポートする場合、ラベルを [すべて] の領域に配置するか、情報を含む領域のみに配置するか [値がある場合のみ]、オフにするか [なし] を選択できます。
+  - **現在のラベル** - [場所の略語] を選択して、ラベルを使用して地域の地名 (省略) を示すことができます。または、ラベルに各領域の「値」を表示できます。値ラベルは、[値] フィールドに選択した書式設定に基づいて、数値、パーセント、または通貨としてマップに表示できます。
 
-### Localization Settings
+### ローカライズ設定
 
-Currently, you can provide your dataset in English and Japanese.
+現在、データセットは英語と日本語で提供できます。
 
-When your location data is in Japanese, Reveal translates it in English to connect it to the desired map.
+場所データが日本語の場合、Reveal はそれを英語に翻訳して目的のマップに接続します。
 
-If you use a Japanese dataset in Reveal, and your Language and Regional settings are not set to Japanese, then you need to use the *Data is written in* setting to help Reveal recognize the language of your dataset by switching to Japanese (_ja_):
+Reveal で日本語のデータセットを使用し、言語および地域設定が日本語に設定されていない場合、Reveal が日本語 (_ja_) に切り替えてデータセットの言語を認識するために **[データの言語]** 設定を使用する必要があります。
 
 <img src="images/japanese-data-language.png" alt="Set the Language of Data to Japanese" width="800"/>
 
 
-#### Language of Labels
+#### ラベルの言語
 
-The language of labels on the choropleth map is defined by the language and regional settings configured in your OS and/or browser. So if you are running Reveal on a machine with its locale/language set to [a language Reveal supports](../../../general/supported-languages.md), the app will attempt to localize the labels to that language. This has nothing to do with the _Data is written in_ setting.
+階級区分図のラベルの言語は、OS またはブラウザーで構成された言語と地域の設定によって定義されます。ロケール/言語を [Reveal がサポートする言語](../../../general/supported-languages.md)に設定したマシンで Reveal を実行している場合、アプリはラベルをその言語にローカライズしようとします。これは [データが書き込まれる言語] 設定とは関係ありません。
 
-If a Japanese employee's machine, for example, is set to use their native language (Japanese), but the data given to them is in English, Reveal will still display the labels in Japanese. Then, if they share the dashboard with a German contractor, the German will see the labels in the language their machine is set to use (the German language is supported in Reveal).
+たとえば、日本人の従業員のマシンが母国語 (日本語) を使用するように設定されていて、そのデータが英語の場合、Reveal はラベルを日本語で表示します。ダッシュボードをドイツの投稿者と共有した場合、ドイツ語のラベルはマシンで使用する言語で表示されます (ドイツ語は Reveal でサポートされます)。
