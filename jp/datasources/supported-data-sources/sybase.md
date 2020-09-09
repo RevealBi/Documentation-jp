@@ -1,5 +1,7 @@
 ## Sybase
 
+>[!NOTE] Sybase is not supported in the Web version of Reveal. 
+
 Sybase サーバー データソースを構成するには、以下の情報が必要です。
 
 ![Configure Sybase database connection](images/enter-sybase-server-details.png)

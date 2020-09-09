@@ -1,5 +1,7 @@
 ## MySQL
 
+>[!NOTE] MySQL is not supported in the Web version of Reveal.
+
 MySQL サーバーデータソースを構成するには、以下の情報が必要です。
 
 ![Enter MySQL Server Details dialog](images/enter-mySQL-server-details.png)

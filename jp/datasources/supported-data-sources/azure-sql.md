@@ -1,5 +1,7 @@
 ## Azure SQL
 
+>[!NOTE] Azure SQL is not supported in the Web version of Reveal.
+
 Azure SQL データソースを構成するには、以下の情報が必要です。
 
 ![Opening Reveal's AzureSQL data source configuration screen](images/enter-Azure-SQL-details.png)

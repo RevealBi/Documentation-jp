@@ -1,5 +1,7 @@
 ## Microsoft SQL サーバー
 
+>[!NOTE] Microsoft SQL Server is not supported in the Web version of Reveal.
+
 Microsoft SQL サーバーデータソースを構成するには、以下の情報が必要です。
 
 ![Enter SQL Server Details](images/Enter-SQL-Server-Details.png)

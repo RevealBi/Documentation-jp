@@ -2,6 +2,8 @@
 
 Microsoft SQL Analysis Services (SSAS) は、Microsoft SQL Server の OLAP (同時に複数のデータベース システムからの情報のオンライン分析処理) およびデータ マイニング ツールです。
 
+>[!NOTE] Microsoft Analysis Services is not supported in the Web version of Reveal.
+
 ### Microsoft Analysis Services データソースの構成
 
 Microsoft Analysis Services データソースを構成するときにサーバー設定に基づいて使用できるモジュールが 2 つあります - [*Native*](#native) および [*HTTP*](#http)。

@@ -1,5 +1,7 @@
 ## Oracle
 
+>[!NOTE] Oracle is not supported in the Web version of Reveal.
+
 サーバー データベースの設定に基づいて Oracle に接続するための 2 つのモジュールがあります。
 
   - [**SID の使用**](#using-sid): Oracle データベース インスタンスの一意の名前。
