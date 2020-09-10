@@ -1,67 +1,38 @@
-## Configuring the RevealView Object
+## RevealView オブジェクトの設定
 
-### Overview
+### 概要
 
-The __$.ig.RevealView__
-component can be instantiated while passing the
-__$.ig.RevealSettings__
-object as a parameter.
+**RevealSettings** オブジェクトをパラメーターとして渡している間に **RevealView** コンポーネントをインスタンス化できます。
 
-The __$.ig.RevealSettings__
-object can be used to enable or disable different features towards the
-end user, including:
+**RevealSettings** オブジェクトを使用して、エンドユーザーに対するさまざまな機能を有効または無効にすることができます。
 
-  - **Showing/Hiding UI Elements** - The *showFilters* property is read
-    by
-    __$.ig.RevealView__
-    during initialization time and based on its value either shows or
-    hides the Global Filters UI to the user. Other similar properties
-    are *showExportImage*, *canEdit*, *showChangeDataSource*, and *maximizedVisualization*.
-  - **Specifying a Dashboard** - The *dashboard* property is used to
-    specify which dashboard should be rendered. As shown in
-    [**Instantiating the Web Client SDK**](~/en/developer/general/setup-configuration-web.md#instantiate-web-client-sdk),
-    the dashboard must be retrieved by using the
-    *$.ig.RevealUtility.loadDashboard* method, which receives a
-    dashboardId and a success callback called when the dashboard is
-    loaded.
-  - **Selecting Dashboard Filter values** - You can specify which values are initially selected for existing Dashboard Filters when loading a dashboard. In the Reveal app, by using Dashboard Filters you can apply dynamic filtering to all connected visualizations of your dashboard. When the selection changes, all the visualizations change at once. For further details, please refer to [**Reveal Filters**](https://www.revealbi.io/help/filters) within _Reveal's User Guide_.
+  - **UI 要素の表示/非表示** -  *ShowFilters* プロパティは初期化時に **RevealView** によって読み込まれ、その値に基づいてグローバル フィルター UI をユーザーに表示または非表示にします。他の同様のプロパティは、*showExportImage*、*canEdit*、*showChangeDataSource*、*maximizedVisualization*です。
+  - **ダッシュボードの指定** - どのダッシュボードをレンダリングするかを指定するには、dashboard プロパティを使用します。[**Web Client SDK のインスタンス化**](~/jp/developer/general/setup-configuration-web.md#instantiate-web-client-sdk)で説明の通り、ダッシュボードは、dashboardId と、ダッシュボードがロードされたときに呼び出される成功コールバックを受け取る *RevealUtility.loadDashboard* メソッドを使用して取得する必要があります。
+  - **ダッシュボード フィルター値の選択** - ダッシュボードのロード時に既存のダッシュボード フィルターに対して最初に選択される値を指定できます。Reveal アプリでは、ダッシュボードフィルターを使用して、ダッシュボードのすべての接続された表示形式に動的フィルタリングを適用できます。選択が変更されると、すべての表示形式が一度に更新します。詳細については、_Reveal のユーザー ガイド_ にある [**Reveal フィルター**](https://www.revealbi.io/help/filters)  を参照してください。
 
-### Code
+### コード
 
-The following code snippet illustrates how to load a dashboard
-“AppsStats”. By setting the “application\_name” global filter’s
-selected value to be “App2”, the dashboard will be showing data filtered
-by “App2”.
+次のコードスニペットは、ダッシュボード「AppsStats」を読み込む方法を示しています。「application_name」 グローバル フィルターの選択値を 「App2」 に設定して、ダッシュボードには 「App2」 でフィルタリングされたデータが表示されます。
 
 ``` js
 var dashboardId = "AppsStats";
-var revealSettings = new $.ig.RevealSettings(dashboardId);
+var revealSettings = new RevealSettings(dashboardId);
 
-$.ig.RevealUtility.loadDashboard(dashboardId, function (dashboard) {
+RevealUtility.loadDashboard(dashboardId, function (dashboard) {
     revealSettings.dashboard = dashboard;
 
     var applicationNameFilter = dashboard.getFilterByTitle("application_name");
     revealSettings.setFilterSelectedValues(applicationNameFilter, ["App2"]);
 
-    window.revealView = new $.ig.RevealView("#revealView", revealSettings);
+    window.revealView = new RevealView("#revealView", revealSettings);
 }, function (error) {
 });
 ```
 
-### About Initialization
+### 初期化
 
-$.ig.RevealView applies $.ig.RevealSettings during **initialization
-time**, which is a particular time before the dashboard is displayed on
-screen. This has several implications:
+**RevealView** は、ダッシュボードが画面に表示される前の特定の時間である**初期化時**に **RevealSettings** を適用します。これによるいくつかの影響があります。
 
-  - If you change the settings object after the dashboard is rendered,
-    it will not affect the already loaded dashboard.
-  - You can, however, change the selected values for dashboard filters
-    after the view was created. To do that you need to use the
-    __setFilterSelectedValues__
-    method in the $.ig.RevealView object.
-  - Any change for properties in the
-    __$.ig.RevealSettings__
-    object (like canEdit, canSaveAs, etc) requires the creation of a new
-    instance of
-    __$.ig.RevealView__.
+  - ダッシュボードのレンダリング後に設定オブジェクトを変更しても、すでにロードされているダッシュボードには影響しません。
+  - ただし、ビューの作成後にダッシュボード フィルターの選択値を変更することはできます。これを行うには、RevealView オブジェクトの **setFilterSelectedValues** メソッドを使用する必要があります。
+  - **RevealSettings** オブジェクトのプロパティを変更した場合 (canEdit、canSaveAsなど)、**RevealView** の新しいインスタンスを作成する必要があります。

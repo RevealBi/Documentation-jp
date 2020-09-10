@@ -1,6 +1,6 @@
 - name: 全般
   header: true
-- name: Welcome to Reveal SDK
+- name: Reveal 開発者ガイド
   href: index.md
 - name: SDK の概要
   href: general/overview.md
