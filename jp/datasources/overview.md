@@ -1,27 +1,25 @@
-## Data Sources
+## データ ソース
 
 
-Data Sources are the places where your data comes from. Reveal provides
-you with the opportunity to connect to different enterprise data sources. You can choose from analytics tools, content managers, cloud services, CRMs,
-databases, spreadsheets, and public data sources.
+データ ソースはデータの送信元です。Reveal は、さまざまなエンタープライズ データソースに接続する機会を提供します。分析ツール、コンテンツ マネージャー、クラウド サービス、CRM、データベース、スプレッドシート、および公開用のデータ ソースから選択できます。
 
-The screenshot below displays a number of different data sources the user John Williams has connected to in his application.
+次のスクリーンショットは、John Williams がアプリケーションで接続したさまざまなデータソースを示しています。
 
 ![Sample data sources](images/sample-data-sources-screen.png)
 
-### Connecting to Data Sources
+### データソースに接続
 
-To retrieve information from a data source and use it for your visualizations you need to connect to it first. Once you have connected to a data source, it will be saved in the _Select a Data Source_ menu (see the screenshot above) for quick selection next time you need it.
+データソースから情報を取得し、それを表示形式に使用するには、まずデータソースに接続する必要があります。データソースに接続すると、*データ ソースの選択*メニュー (上のスクリーンショットを参照) に保存され、次に必要になったときにすばやく選択できます。
 
-To connect to a data source, perform the steps below.  
+データソースに接続するには、以下の手順を実行します。  
 
-1. From the *Home screen*, click/tap the **+ Dashboard** split blue button.
+1. *ホーム画面*で、**[+ ダッシュボード]** の青色の分割ボタンをクリックまたはタップします。
    ![Reveal's home screen](images/start-creating-dashboard-data-source.png)
-2. In the _New Visualization_ dialog, you will see a list of recently used data sources. To create a new connection, select the **+ Data Source** button on the right.
+2. *新しい表示形式*_ダイアログに、最近使用したデータソースのリストが表示されます。新しい接続を作成するには、右側の **[+ データソース]** ボタンを選択します。
    ![Available data sources when creating a new visualization](images/creating-new-visualization.png)
-3. Select a data source provider from the dropdown list.
+3. ドロップダウン リストからデータソース プロバイダーを選択します。
 
-After selecting a data source provider, you will be prompted to **configure** it. Not sure how to do this? Find out in the article about the chosen data source (see the list below).
+データソース プロバイダーを選択すると、データソースを**設定**するように求められます。Not sure how to do this? Find out in the article about the chosen data source (see the list below).
 
    - [Amazon Redshift](~/jp/datasources/supported-data-sources/redshift.md)
 
@@ -77,5 +75,5 @@ After selecting a data source provider, you will be prompted to **configure** it
 
    - [JSON ファイル](~/jp/datasources/supported-data-sources/working-with-json-files.md)
 
->[!NOTE]
-> **Databases** (*) are not supported in the Web version of Reveal.
+>[NOTE]
+> **データベース**は Reveal の Web バージョンでサポートされていません。

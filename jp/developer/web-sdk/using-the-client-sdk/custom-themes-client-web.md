@@ -90,7 +90,7 @@ $.ig.RevealView.UpdateCurrentTheme(new $.ig.MountainLightTheme());
 ```
 
 > [!NOTE]
-> Mountain Light には、カスタマイズ可能なすべての設定のデフォルト値が含まれています。This means Mountain Light and the Reveal Theme look basically the same way. 
+> Mountain Light には、カスタマイズ可能なすべての設定のデフォルト値が含まれています。つまり、Mountain Light と Reveal テーマは基本的に同じように見えます。 
 
 ***Mountain Dark テーマ***
 ``` js

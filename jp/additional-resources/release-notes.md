@@ -16,55 +16,55 @@
   </tr>
    <tr>
     <td class="tg-0lax" rowspan="3">1.0.13</td>
-    <td class="tg-cly1"><span style="font-style:italic">New Amazon Redshift data source</span><br>You can now use and gain new insights from your data in the Amazon Redshift cloud data warehouse.
+    <td class="tg-cly1"><span style="font-style:italic">新規の Amazon Redshift データソース</span><br>Amazon Redshift クラウド データ ウェアハウスのデータを使用して、新しいインサイトを得ることができます。
 </td>
 <tr>
-    <td class="tg-cly1"><span style="font-style:italic">New Marketo data source</span><br>Connect to your account in the marketing platform Marketo and use your data in Reveal.
+    <td class="tg-cly1"><span style="font-style:italic">新しい Marketo データソース</span><br>Marketo マーケティング プラットフォームのアカウントに接続し、データを Reveal で使用します。
 </td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-style:italic">Processing Data on Server</span><br>You can now have server-side aggregation of the data coming from the MS SQL, MySQL and Postgres data sources.
+    <td class="tg-cly1"><span style="font-style:italic">サーバーでデータを処理</span><br>MS SQL、MySQL、Postgres データソースからのデータをサーバー側で集計することが可能です。
 </td>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="7">1.0.12</td>
-    <td class="tg-cly1"><span style="font-style:italic">New Choropleth Map visualization</span><br>The Choropleth map visualization allows you to create beautiful thematic maps. You can now present geospatial data in an incredibly digestible manner. Let color guide you and help you quickly discover patterns, trends and anomalies on the map.
+    <td class="tg-cly1"><span style="font-style:italic">新しい階級区分図</span><br>Choropleth マップの表示形式により、美しい主題図を作成できます。地理空間データを驚くほどわかりやすく表示できます。色によって、マップ上のパターン、トレンド、および異常をすばやく発見できます。
 </td>
   <tr>
-    <td class="tg-cly1"><span style="font-style:italic">New Quickbooks data source</span><br>Connect to your Quickbooks account and use your entities to perform data analysis in Reveal.
-</td>
-  </tr>
-  <tr>
-    <td class="tg-cly1"><span style="font-style:italic">New Hubspot data source</span><br>You can now use your Hubspot objects to create dashboards in Reveal.
+    <td class="tg-cly1"><span style="font-style:italic">新規の Quickbooks データソース</span><br>Quickbooks アカウントに接続し、エンティティを使用して Reveal でデータ分析を実行します。
 </td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-style:italic">New Search functionality in the Visualization Editor</span><br>When you load a dataset with more than 10 data fields in the Visualization Editor, you will have this new search enabled.
+    <td class="tg-cly1"><span style="font-style:italic">新しい Hubspot データソース</span><br>Hubspot オブジェクトを使用して、Reveal でダッシュボードを作成できるようになりました。
 </td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-style:italic">Salesforce data source enhancements</span><br>Now you can use your Salesforce report in Reveal.
+    <td class="tg-cly1"><span style="font-style:italic">表示形式エディターの新しい検索機能</span><br>表示形式エディターで 10 を超えるデータ フィールドを含むデータセットを読み込むと、この新しい検索が有効になります。
 </td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-style:italic">SharePoint data source enhancements</span><br>You can now use the metadata (name, type, etc.) collected for all files in a SharePoint library as a data source in Reveal.
+    <td class="tg-cly1"><span style="font-style:italic">Salesforce データソースの機能強化</span><br>Reveal で Salesforce レポートを使用できます。
 </td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-style:italic">PostgreSQL data source enhancements</span><br>Functions from your PostgreSQL database can now be used to create dashboards.
+    <td class="tg-cly1"><span style="font-style:italic">SharePoint データソースの機能強化</span><br>SharePoint ライブラリのすべてのファイルについて収集されたメタデータ (名前、タイプなど) を Reveal のデータソースとして使用できるようになりました。
+</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-style:italic">PostgreSQL データソースの機能強化</span><br>PostgreSQL データベースの関数を使用して、ダッシュボードを作成できるようになりました。
 </td>
   </tr>
    <tr>
     <td class="tg-0lax" rowspan="2">1.0.10/1.0.11</td>
-    <td class="tg-cly1"><span style="font-style:italic">New Microsoft Azure Analysis Services data source</span><br>With this new data source, you can create dashboards using your data models in Azure Analysis Services.
+    <td class="tg-cly1"><span style="font-style:italic">新しい Microsoft Azure Analysis Services データソース</span><br>この新しいデータソースにより、Azure Analysis Services のデータ モデルを使用してダッシュボードを作成できます。
 </td>
 <tr>
-    <td class="tg-cly1"><span style="font-style:italic">New icon for Google Sheets files</span><br>We changed the look of the Google Sheets files icon.
+    <td class="tg-cly1"><span style="font-style:italic">Google スプレッドシート ファイルの新しいアイコン</span><br>Google スプレッドシート ファイルのアイコンを変更しました。
 </td>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="5">1.0.8/1.0.9</td>
-    <td class="tg-cly1"><span style="font-style:italic">新規 TreeMap の表示形式</span><br>この新しい表示形式タイプを使用して、大きな階層をネストされた四角形の集合で表示できます。四角形のサイズは、さまざまなメトリック間の部分と全体の関係を示し、同様のデータ間のパターンと関係を識別します。
+    <td class="tg-cly1"><span style="font-style:italic">新規の TreeMap の表示形式</span><br>この新しい表示形式タイプを使用して、大きな階層をネストされた四角形の集合で表示できます。四角形のサイズは、さまざまなメトリック間の部分と全体の関係を示し、同様のデータ間のパターンと関係を識別します。
 </td>
   </tr>
   <tr>
@@ -88,10 +88,10 @@
     <td class="tg-cly1"><span style="font-style:italic">BigQuery Machine Learning との統合</span><br>Reveal のデータソースで BigQuery 機械学習モデルを使用できるようになりました。</td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-style:italic">新規データ Salesforce ソース</span><br>この新しいデータソースは、Salesforce のオブジェクトのデータを使用してダッシュボードを作成できます。</td>
+    <td class="tg-cly1"><span style="font-style:italic">新規の Salesforce データソース</span><br>この新しいデータソースは、Salesforce のオブジェクトのデータを使用してダッシュボードを作成できます。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">新規 Google アナリティクスの目標</span><br>Reveal は、Google アナリティクスで定義された目標の指標を表示し、データを詳細に分析します。</td>
+    <td class="tg-0lax"><span style="font-style:italic">新規の Google アナリティクスの目標</span><br>Reveal は、Google アナリティクスで定義された目標の指標を表示し、データを詳細に分析します。</td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-style:italic">ダッシュボードの新しいスタイル設定</span><br>2 つのダッシュボード パレットから選択できます。追加予定Reveal はまったく新しいダッシュボード スタイル設定の準備をしています。</td>
@@ -107,10 +107,10 @@
     <td class="tg-0lax"><span style="font-style:italic">Azure Machine Learning モデルとの新たな統合</span><br>Reveal のデータを使用して Azure のモデルを評価し、その結果を可視フィールドとして使用できます。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">新規 Google Analytics データソース</span><br>この新しいデータソースは、Google Analytics の情報を使用してダッシュボードを作成できます。</td>
+    <td class="tg-0lax"><span style="font-style:italic">新規の Google Analytics データソース</span><br>この新しいデータソースは、Google Analytics の情報を使用してダッシュボードを作成できます。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">新規 Google BigQuery データソース</span><br>Reveal 内で Google の BigQuery ウェブサービスに接続し、大規模なデータセットをパフォーマンスを低下せずに処理できるようになりました。</td>
+    <td class="tg-0lax"><span style="font-style:italic">新規の Google BigQuery データソース</span><br>Reveal 内で Google の BigQuery ウェブサービスに接続し、大規模なデータセットをパフォーマンスを低下せずに処理できるようになりました。</td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-style:italic">新しい Azure Synapse と Azure SQL データソース</span><br>Azure 分析サービスと SQL データベースに接続して、ビッグデータと高度なクエリ処理機能を操作します。</td>

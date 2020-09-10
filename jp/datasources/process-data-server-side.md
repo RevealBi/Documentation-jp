@@ -23,23 +23,22 @@ Reveal で利用可能なデータソースの一部では、サーバー上で�
 _Process Data on Server_ 関数を有効にして、それをサポートするデータソース (上記を参照) のいずれかに接続できます。 
 
 データソースの初期構成を行う方法の詳細については、上記の箇条書きリストで 3 つのデータソースのいずれかを選択し、設定方法に関する記事をご覧ください。
-
-After configuring the connection, you will you will have the _Set Up the Database_ screen opened:
+接続を設定すると、*データベースの設定*画面が開きます:
 
 <img src="images/process-data-server-checkbox.png" alt="New Process data on server checkbox added in the Set Up the Database dialog in PostgreSQL" width="800"/>
 
-Notice that the _Process Data on Server_ is enabled by default. Consider unchecking the box next to this feature in case you need to use any of the capabilities that are limited (see in _Limitations_ below), when your data is processed on the server.
+*サーバー上でデータを処理*がデフォルトで有効になっていることに注意してください。データがサーバー上で処理されるときに、制限されている機能 (以下の*制限*を参照) を使用する必要がある場合は、この機能の横にあるチェックボックスをオフにすることを検討してください。
 
-### Limitations
+### 制限
 
-The _Process Data on Server_ feature helps you build visualizations over very large datasets, where it would otherwise be unfeasible to download all the data locally. However, this feature introduces some limitations to the use of the data source it's enabled for.  
+*サーバー上でデータを処理*機能は、全てをローカルにはダウンロード出来ないような、非常に大規模なデータセットで表示形式を構築するのに役立ちます。ただし、この機能により、有効になっているデータソースの使用にいくつかの制限が生じます。  
 
-The following capabilities are **not supported** in the Visualization editor when _Process Data on Server_ is enabled:
+*サーバー上でデータを処理*_が有効になっている場合、次の機能は表示形式エディターで**サポートされません**。
 
-* [Data Blending](data-blending.md)
-* [Azure ML models integration](ml-integration/azure-machine-learning-models.md)
+* [データ ブレンディング](data-blending.md)
+* [Azure ML モデルの統合](ml-integration/azure-machine-learning-models.md)
 
-Restrictions are placed on the [Pre-Calculated](~/jp/data-visualizations/fields/calculated-fields/overview.html#precalculated-fields) fields feature in the Visualization editor. Unavailable functions are greyed out in the _New Calculated Field_ dialog.
-In this dialog, you can click on the link to disable the _Process Data on Server_ feature.
+表示形式エディターの[事前計算](~/jp/data-visualizations/fields/calculated-fields/overview.html#precalculated-fields)フィールド機能に制限が適用されます。使用できない関数は、*新しい計算フィールド* ダイアログでグレーアウトされます。
+このダイアログで、リンクをクリックして、*サーバー上でデータを処理*機能を無効にすることができます。
 
 <img src="images/pre-calculated-fields-unavailable-process-data-server.png" alt="Disable Process Data on Server prompt in the Calculated Fields dialog" width="800"/>

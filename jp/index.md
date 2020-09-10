@@ -72,7 +72,7 @@ Web ブラウザーの使用やiOS、Android、デスクトップでネイティ
 
 | PLATFORM | SUPPORT |
 | --- | --- |
-|**Android**|Android 5.0 (Lollipop) or higher (except for the Kindle Fire).|
-|**Desktop**|Any Windows 7 SP1 or newer with .NET Framework 4.6.2 installed. For more information on .NET Framework system requirements, check [this Microsoft article](https://docs.microsoft.com/en-us/dotnet/framework/get-started/system-requirements).|
-|**IOS**|iOS 12 or higher.|
-|**Web**|All major browsers on Mac and Windows (latest 2 releases). Web browsers are not supported in mobile devices.|
+|**Android**|Android 5.0 (Lollipop) 以降 (Kindle Fire を除く)。|
+|**Desktop**|.NET Framework 4.6.2 がインストールされているすべての Windows 7 SP1以降。.NET Framework のシステム要件の詳細については、[Microsoft 記事](https://docs.microsoft.com/en-us/dotnet/framework/get-started/system-requirements)をご参照ください。|
+|**IOS**|iOS 12 以降。|
+|**Web**|Mac および Windows のすべての主要なブラウザー ( 直近の2 リリース)。Web ブラウザーは、モバイル デバイスではサポートされていません。|
