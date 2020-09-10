@@ -28,7 +28,7 @@
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="7">1.0.12</td>
-    <td class="tg-cly1"><span style="font-style:italic">新しい階級区分図</span><br>Choropleth マップの表示形式により、美しい主題図を作成できます。地理空間データを驚くほどわかりやすく表示できます。色によって、マップ上のパターン、トレンド、および異常をすばやく発見できます。
+    <td class="tg-cly1"><span style="font-style:italic">新しい階級区分図</span><br>階級区分図の表示形式により、美しい主題図を作成できます。地理空間データを驚くほどわかりやすく表示できます。色によって、マップ上のパターン、トレンド、および異常をすばやく発見できます。
 </td>
   <tr>
     <td class="tg-cly1"><span style="font-style:italic">新規の Quickbooks データソース</span><br>Quickbooks アカウントに接続し、エンティティを使用して Reveal でデータ分析を実行します。
