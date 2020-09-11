@@ -1,17 +1,17 @@
-## Application Themes
+## アプリケーション テーマ
 
-The general User Experience (UX) can be customized applying application themes, changing localization and regional settings, or even including further customization with the Reveal SDK.
+一般的なユーザー エクスペリエンス (UX) は、アプリケーション テーマを適用し、ローカライズと地域の設定を変更、さらに Reveal SDK でカスタマイズすることもできます。
 
-Color themes allow you to modify the colors in the Reveal interface to suit your preferences. In order to change your current theme, click/tap the icon with your initial (photo) in the right top corner of the initial screen. Then navigate to *Settings* ⇒ *General Settings* ⇒ *UI Theme*.
+カラー テーマを使用すると、Reveal インターフェースの色を好みに合わせて変更できます。現在のテーマを変更するには、初期画面の右上角にあるイニシャル (写真) アイコンをクリック/タップします。次に、[設定] ⇒ [一般設定] ⇒ [UI テーマ] に移動します。
 
 ![Application themes in Settings](images/application-themes.png)
 
-You can choose between a Light (Default) and Dark Theme. These colors will change some of the application's UI, including the dashboard name background color, the data source dialog, and others. The following are just some examples of screens with each theme.
+ライト (デフォルト) とダークテーマから選択できます。これらの色は、ダッシュボード名の背景色、データソースダイアログなど、アプリケーションの UI の一部を変更します。以下は、各テーマの画面のほんの一例です。
 
-| **スクリーン名**     | **Light**                                                                                   | **Dark**                                                                                  |
+| **スクリーン名**     | **ライト**                                                                                   | **ダーク**                                                                                  |
 | ------------------- | ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 | ダッシュボード セレクター  | ![Creating a Dashboard in Light Theme](images/creating-dashboard-light-theme.png)           | ![Creating a Dashboard in Dark Theme](images/creating-dashboard-dark-theme.png)           |
 | データソース クリエーター | ![Creating a New Data Source in Light Theme](images/create-new-data-source-light-theme.png) | ![Creating a New Data Source in Dark Theme](images/create-new-data-source-dark-theme.png) |
 | チーム クリエーター       | ![Team Creation in Light Theme](images/team-creation-light-theme.png)                       | ![Team Creation in Dark Theme](images/team-creation-dark-theme.png)                       |
 
-If you switch the *Match OS* function on, your theme in Reveal will automatically change every time your operating system's theme changes. 
+*Match OS* 機能をオンにすると、Reveal のテーマは、オペレーティング システムのテーマが変更されるたびに自動的に変更されます。 
