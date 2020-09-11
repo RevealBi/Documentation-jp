@@ -1,50 +1,48 @@
-## Logging into Reveal
+## Reveal へのログイン
 
-Welcome to Reveal!  
-When opening the app you'll be met with different login options:
+Reveal へようこそ！
+アプリを開くとき、さまざまなログイン オプションが表示されます。
 
 <img src="images/log-in-screen.png" alt="Reveal's log in screen" width="800"/>
 
-Before jumping in, take into account that in Reveal you can join an **Organization**. If you are a member of an organization, you have to log in with your organization’s email. Choose Google (G Suite) or Microsoft (O365) as needed and you'll be associated with the organization team. Alternatively, you can log in using your iCloud (*Apple*) account credentials.
+開始前に、Reveal で **組織**に参加できることを考慮してください。組織のメンバーは、組織のメール アドレスでログインする必要があります。Google (G Suite) または Microsoft (O365) を選択し、組織チームに関連付けられます。または、iCloud (*Apple*) アカウントの資格情報を使用してログインできます。
 
 > [!NOTE]
-> The organization team is named after your organization (e.g. your company's name).  
+> 組織チームの名前は組織と同じ名前になります (会社名など)。  
 
 <img src="images/limited-permission-sign-in-o365.png" alt="Permissions request sign in with Office 365" width="800"/>
 
-Depending on which account you used to sign in Reveal, you will have your OneDrive or Google Drive automatically added to your list of [data sources](~/en/datasources/overview.md). You will be additionally asked for **limited permissions** only the first time you use your [OneDrive](~/en/datasources/OneDrive.md) and [Google Drive](~/en/datasources/Google-Drive.md).
+Reveal へのサインインに使用したアカウントに応じて、OneDrive または Google ドライブが[データ ソース](~/jp/datasources/overview.md)のリストに自動的に追加されます。さらに、[OneDrive](~/jp/datasources/OneDrive.md) と [Google ドライブ](~/jp/datasources/Google-Drive.md)を初めて使用するときにのみ、制限された権限制限付きのアクセス許可を求められます。
 
-### Your First Screen
+### 初期画面
 
-Once you get in, you are greeted with your first screen:
+開始するときに、初期画面が表示されます。
 
 <img src="images/reveal-initial-view.png" alt="First screen in Reveal with numbering added" width="800"/>
 
-You always start in your personal space, **My Stuff**.
+**アイテム**の個人用スペースで開始します。
 
-Below you can find a quick reference for this initial screen:
+以下は、この初期画面のクイック リファレンスです。
 
- 1.  **My Stuff/Teams** - In this popover menu, you can access your personal space and any team you are a member of. You can also create new teams or join existing ones.
+ 1.  **[アイテム/チーム]** - このポップオーバー メニューでは、個人用スペースとメンバーになっているチームにアクセスできます。新しいチームを作成、あるいは既存のチームに参加することもできます。
 
 
- 1.  **Dashboards** - This is the central hub for all dashboards. Start from here when you want to create, revise, share, or just open a dashboard you need that was created by other team members.
+ 1.  **[ダッシュボード]** - すべてのダッシュボードの中央のスペースです。他のチーム メンバーによって作成された必要なダッシュボードを作成、修正、共有または検索する場合は、ここから始めてください。
 
- 3.  **Favorites** - Keep your most important dashboards at hand in *Favorites*.
+ 3.  **[お気に入り]** - 最も重要なダッシュボードを [お気に入り] に保存できます。
 
- 4.  **Recent** - In *Recent*, you will find the dashboards you have viewed or edited, sorted by the most recently used.
+ 4.  **[最近]** - [最近] では、表示または編集したダッシュボードが、最近使用した順に並べ替えられています。
 
- 5.  **Dashboard samples** - In *Samples*, you will find dashboards composed by the Reveal's team. Their rich variety of visualizations will inspire your creativity and help you create your own beautiful dashboards.
+ 5.  **[ダッシュボードのサンプル]** - [サンプル] には、Reveal のチームによって構成されたダッシュボードがあります。豊富な種類の表示形式により、創造性が刺激され、独自の美しいダッシュボードを作成できます。
 
- 6.  **+ Dashboard split button** - By selecting the *+ Dashboard* split button, you can create folders or go directly to dashboard creation. In addition, here you can also upload a .rdash file (Reveal dashboard).
+ 6.  **[+ ダッシュボード]の分割ボタン** - [+ ダッシュボード] 分割ボタンを選択すると、フォルダーを作成するか、ダッシュボードの作成に直接移動できます。また、ここで .rdash ファイル (Reveal ダッシュボード) をアップロードすることもできます。
 
- 7.  **Filter** - choose from the dropdown menu which dashboards to see in the dashboard module: all, only created by you
- or shared with you.
+ 7.  **[フィルター]** - ドロップダウン メニューから、ダッシュボード モジュールに表示するダッシュボードを選択します: すべてのダッシュボード、自分で作成したダッシュボード、あるいは共有しているダッシュボードです。
 
- 8.  **Notifications center** - Select the the bell icon to access team and dashboard updates.
+ 8.  **[通知センター]** - ベル アイコンを選択してチームおよびダッシュボードの更新にアクセスします。
 
- 9.  **Profile settings** - Select the icon with your initial (photo) to access Reveal's *general settings*, *learning tips*, *Help center* and *give feedback* or ask any questions related to the application.
+ 9.  **プロファイル設定** - イニシャル (写真) のアイコンを選択して、Reveal の一般設定、学習のヒント、ヘルプ センターにアクセスし、アプリケーションに関するフィードバックや質問をします。
 
-### What About Roles & Permissions?
+### ロールとアクセス許可
 
-In Reveal, people can join an organization and one or more teams. Roles and permissions apply to both organizations and teams.  
-Roles represent a set of permissions assigned to a Reveal user in relation to a team or an organization. This means every user is assigned a role when joining organizations or teams. There are three different roles (owner, member, viewer) with a clear set of permissions each.
+Reveal では、ユーザーは組織および 1 つ以上のチームに参加できます。ロールとアクセス許可は組織とチームの両方に適用されます。ロールは、チームまたは組織に関連して Reveal ユーザーに割り当てられた一連のアクセス許可を表します。つまり、組織またはチームに参加するときにすべてのユーザーにロールが割り当てられます。明確なアクセス許可を持つ 3 つの異なるロール (管理者者、メンバー、閲覧者) があります。

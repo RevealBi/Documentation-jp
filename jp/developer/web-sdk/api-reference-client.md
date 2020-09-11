@@ -1,5 +1,5 @@
 ## クライアント API リファレンス
 
-This part of the documentation is your gateway to the Client SDK API, to get information about classes, functions, and procedures.
+このトピックは、クラス、関数、およびプロシージャに関する情報を取得するためのクライアント SDK API の概要ページです。
 
-Coming soon...
+追加予定...

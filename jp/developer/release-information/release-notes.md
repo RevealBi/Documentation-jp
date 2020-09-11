@@ -16,69 +16,69 @@
     <tbody>
         <tr>
             <td rowspan="5">1.0.1422</td>
-            <td><i>Amazon Athena connector in BETA</i><br>
-            You can now connect to Amazon's serverless, interactive query service Athena.</td>
+            <td><i>Amazon Athena コネクター (ベータ版)</i><br>
+            Amazon のサーバーレス インタラクティブな Athena クエリ サービスに接続できるようになりました。</td>
         </tr>
         <tr>
-            <td><i>NEW Pre-built Themes</i><br>We added four pre-built app themes. Set one of them and use the customizable settings to additionaly personalize the look and feel of the Visualization and Dashboard editor. You can choose from one of the following themes:
+            <td><i>新しいビルド済みテーマ</i><br>4 つのビルド済みアプリ テーマを追加しました。いずれかを選択し、カスタマイズ可能な設定を使用して、表示形式およびダッシュボード エディターのルックアンドフィールをカスタマイズします。次のテーマから選択できます: 
             MountainLightTheme (Desktop) / $.ig.MountainLightTheme (Web); 
             MountainDarkTheme (Desktop) / $.ig.MountainDarkTheme (Web);
             OceanLightTheme (Desktop) / $.ig.OceanLightTheme (Web);
-            OceanDarkTheme (Desktop) / $.ig.OceanDarkTheme (Web).
+            OceanDarkTheme (Desktop) / $.ig.OceanDarkTheme (Web)。
 </td>
         </tr>
         <tr>
-            <td><i>Marketo provider is Now Available</i><br>You can now connect to the marketing platform Marketo and use your data in Reveal.</td>
+            <td><i>Marketo プロバイダーを利用できるようになりました。</i><br>Marketo マーケティング プラットフォームに接続し、データを Reveal で使用します。</td>
         </tr>
         <tr>
-            <td><i>Amazon Redshift provider is Now Available</i><br>You can now use and gain new insights from your data in the Amazon Redshift cloud data warehouse.</td>
+            <td><i>Amazon Redshift を利用できるようになりました。</i><br>Amazon Redshift クラウド データ ウェアハウスのデータを使用して、新しいインサイトを得ることができます。</td>
         </tr>
         <tr>
-            <td><i>New "Data Process on Server" feature</i><br>You can now have server-side aggregation of the data coming from the MS SQL, MySQL and Postgres data sources</td>
+            <td><i>新しい「サーバーでデータを処理」機能</i><br>MS SQL、MySQL、Postgres データソースからのデータをサーバー側で集計することが可能です。</td>
         </tr>
         <tr>
             <td rowspan="6">1.0.1374</td>
-            <td><i> New API to set axis bounds for charts</i><br> You can now programmatically change the axis bounds in runtime for a particular visualization.</td>
+            <td><i> チャートの軸範囲を設定する新しい API</i><br> 特定の表示形式のためにランタイムで軸範囲をプログラム的に変更できるようになりました。</td>
         </tr>
         <tr>
-            <td><i>Salesforce data source enhancements</i><br>Now you can use your Salesforce reports in Reveal.</td>
+            <td><i>Salesforce データソースの機能強化</i><br>Reveal で Salesforce レポートを使用できます。</td>
         </tr>
         <tr>
-            <td><i>New QuickBooks data source</i><br>Connect to your Quickbooks account and use your entities to perform data analysis in Reveal.</td>
+            <td><i>新しい Quickbooks データソース</i><br>Quickbooks アカウントに接続し、エンティティを使用して Reveal でデータ分析を実行します。</td>
         </tr>
         <tr>
-            <td><i>New Hubspot data source</i><br>You can now connect to Hubspot.</td>
+            <td><i>新しい Hubspot データソース</i><br>Hubspot に接続できます。</td>
         </tr>
         <tr>
-            <td><i>Sharepoint lists and document libraries support</i><br>You can now use the metadata (name, type, etc.) collected for all files in a SharePoint library as a data source in Reveal.</td>
+            <td><i>Sharepoint リストとドキュメント ライブラリのサポート</i><br>SharePoint ライブラリのすべてのファイルについて収集されたメタデータ (名前、タイプなど) を Reveal のデータソースとして使用できるようになりました。</td>
         </tr>
         <tr>
-            <td><i>New Choropleth Map Visualization</i><br>The Choropleth map visualization allows you to create beautiful thematic maps. You can now present geospatial data in an incredibly digestible manner. Let color guide you and help you quickly discover patterns, trends and anomalies on the map.</td>
+            <td><i>新しい階級区分図</i><br>階級区分図の表示形式により、美しい主題図を作成できます。地理空間データを驚くほどわかりやすく表示できます。色によって、マップ上のパターン、トレンド、および異常をすばやく発見できます。</td>
         </tr>
         <tr>
             <td rowspan="2">1.0.1255</td>
-            <td><i>New Azure Analysis Services data source</i><br>With this new data source, you can create dashboards using your data models in Azure Analysis Services.</td>
+            <td><i>新しい Azure Analysis Services データソース</i><br>この新しいデータソースにより、Azure Analysis Services のデータ モデルを使用してダッシュボードを作成できます。</td>
         </tr>
         <tr>
-            <td><i>New icon for Google Sheets files</i><br>The look of the Google Sheets files icon was changed.</td>
+            <td><i>Google スプレッドシート ファイルの新しいアイコン</i><br>Google スプレッドシート ファイルのアイコンが変更されました。</td>
         </tr>
         <tr>
             <td rowspan="5">1.0.1222</td>
-            <td><i>New Hover Events API</i><br>
-            This new event is called *revealView.TooltipShowing* in WPF and .onTooltipShowing in Web and is triggered whenever the end-user hovers over a series in a visualization or clicks on the series.</td>
+            <td><i>新しいホバー イベント API</i><br>
+            この新しいイベントは、WPF では *revealView.TooltipShowing*、Web では .onTooltipShowing と呼ばれ、エンドユーザーが表示形式でシリーズをホバーするか、シリーズをクリックするたびに発生されます。</td>
         </tr>
         <tr>
-            <td><i>New TreeMap visualization</i><br>You can use this new visualization type to present large hierarchies with a set of nested rectangles. Rectangles’ size will show you part-to-whole relationships amongst a variety of metrics, helping you identify patterns and relations between similar data.
+            <td><i>新しい TreeMap 表示形式</i><br>この新しい表示形式タイプを使用して、大きな階層をネストされた四角形の集合で表示できます。四角形のサイズは、さまざまなメトリック間の部分と全体の関係を示し、同様のデータ間のパターンと関係を識別します。
 </td>
         </tr>
         <tr>
-            <td><i>Export to Excel enhancements</i><br>You can include more visualization types in your spreadsheets upon export. Scatter, Bubble and Sparkline charts are now available.</td>
+            <td><i>Excel へエクスポート機能拡張</i><br>エクスポートする際に複数の表示形式タイプをスプレッドシートに追加できます。散布図、バブル チャート、スパークライン チャートが利用できるようになりました。</td>
         </tr>
         <tr>
-            <td><i>Various UI/UX improvements</i><br>Various minor changes were added to improve user experience in the Visualization, Dashboard, New Data Source dialog, etc.</td>
+            <td><i>UI/UX の改善</i><br>表示形式、ダッシュボード、新しいデータソース ダイアログなどのユーザーエクスペリエンスを向上するために、小さな変更が追加されました。</td>
         </tr>
         <tr>
-            <td><i>Added support for Shared Drives in Google Drive</i><br>If you have a GSuite Business account, you can now access your Shared Drives data and use it to build visualizations in Reveal.</td>
+            <td><i>Google ドライブで共有ドライブのサポートを追加</i><br>G Suite Business アカウントをお持ちの場合、共有ドライブ データにアクセスし、それを使用して Reveal で表示形式を構築できます。</td>
         </tr>
         <tr>
             <td>1.0.1136</td>

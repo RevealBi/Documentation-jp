@@ -59,7 +59,7 @@ Reveal で BigQueryまたは Azure Machine Learning Studio からのトレーニ
 
 ### Reveal に追加予定
 
-Coming Soon...
+追加予定...
 
 ### Reveal はどこで入手できますか?
 
