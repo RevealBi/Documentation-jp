@@ -19,7 +19,7 @@
    ![Available data sources when creating a new visualization](images/creating-new-visualization.png)
 3. ドロップダウン リストからデータソース プロバイダーを選択します。
 
-データソース プロバイダーを選択すると、データソースを**設定**するように求められます。Not sure how to do this? Find out in the article about the chosen data source (see the list below).
+データソース プロバイダーを選択すると、データソースを**設定**するように求められます。設定に関しては、選択したデータソースの設定に関する記事をご覧ください (以下のリストを参照)。
 
    - [Amazon Redshift](~/jp/datasources/supported-data-sources/redshift.md)
 
