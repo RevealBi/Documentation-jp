@@ -80,8 +80,8 @@
 >[NOTE]
 > **データベース**は Reveal の Web バージョンでサポートされていません。
 
-### Related Topics 
+### 関連トピック 
 
-- You received a dashboard that consumes data from a data source you still haven't connected to? See how to open it in the [Managing Dashboards With Their Own Data Sources](managing-dashboards-own-data-sources.md) topic. 
-- You started creating a visualization, but changed your mind about the data source? Read how to connect to a different data source while you are in the Visualization Editor in [Changing the Data Source for a Visualization](changing-data-source-visualization.md).
-- You want to use data from more than one data source for your visualization? Read the [Combining Data Sources in one Visualization](data-blending.md)
+- まだ接続していないデータソースからのデータを使用するダッシュボードを受け取りましたか? [データソースを含むダッシュボードの管理](managing-dashboards-own-data-sources.md)トピックで開く方法を参照してください。 
+- 表示形式の作成途中でデータソースを変更することにしましたか? 表示形式エディターで別のデータソースに接続する方法については、[表示形式に使用するデータソースの変更](changing-data-source-visualization.md)を参照してください。
+- 複数のデータソースからのデータを表示形式に使用しますか? [データソースを 1 つの表示形式に統合](data-blending.md)を参照してください。
