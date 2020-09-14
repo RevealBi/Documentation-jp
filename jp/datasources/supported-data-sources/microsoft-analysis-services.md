@@ -29,8 +29,6 @@ Microsoft Analysis Services データソースを *Native* モード用に構成
     | 2\. [マイ コンピューター] \> [プロパティ] を右クリックします。                                                                   | 2\. **$hostname** を入力します。                                                                                     | 2\. 共有セクションへ移動します。                                 |
     | ホスト名は、*コンピューター名、ドメインおよびワークグループの設定* セクションの下に 「コンピューター名」 として表示されます。 | ホスト名と DNS ドメイン名が表示されます。Reveal には **ホスト名** のみを含めるようにしてください。 | ホスト名は、上部のコンピューター名の下に表示されます。 |
 
-
-
   以下の手順で *IP アドレス*も確認できます。コマンドはサーバー マシンで実行する必要があることに注意してください。
 
   | WINDOWS                              | LINUX                             | MAC                                                           |
@@ -67,13 +65,37 @@ Analysis Services サーバーの資格情報が確認されたら、Reveal は�
 
 ![MSAnalysisCubes\_All](images/MSAnalysisCubes_All.png)
 
-*データベースの設定*ダイアログでデータベース*キューブ*を選択します。
+Choose a database *cube* and click/tap _Select Data_ to continue to the *Visualizations Editor*.
 
-#### データ キューブの概要
+<a name='visualization-editor'></a>
+### Working in the Visualization Editor
 
-データ キューブは、多次元データを保存および表現するために使用されます。データの表示、分析、および計算に 2 つの次元が使用される (行と列の形式で配置される) 2 次元のデータ モデルとは異なり、データ キューブには 3 つ以上の次元があります。
+When you create a dashboard with information coming from Microsoft Analysis Services, you will see fields organized differently, as seen in the screenshot below.
 
-データ キューブの概念は、ユーザーが利用できるデータの次元表すために使用されます。
-たとえば、「売上」 は製品カテゴリ、地理、日付、顧客などの**次元**で測定できます。この場合、「売上」 はデータ キューブの**測定**属性です。
+![VisEditorDimensionsMeasures\_All](images/VisEditorDimensionsMeasures_All.png)
 
-Microsoft Analysis データ ソースの操作方法の詳細については、[このトピック](working-with-microsoft-analysis-services.md) を参照してください。
+As you can see, there is no "Fields" heading. In its place, there are two sections in their own query field:
+
+1.  **Dimensions** (depicted by a cube icon with a pink side): Dimensions are structures used to categorize data that can be measured. Elements in a dimension can be organized by:
+
+    1.  **Hierarchy** - when elements in a dimension are organized by hierarchy, you can use the whole hierarchy or part of it, starting from an element at any lower level. For example, if you have a "Geography" dimension organized in "Country → State → City" hierarchy, you can drag and use only the "State → City" part of this hierarchy.
+
+    2.  **Named Sets** (depicted by a folder icon and named "Sets") - an arbitrary collection of elements with a name (e.g. "Top 50 Customers").
+
+    3.  **Attributes** - elements are organized in single-level hierarchies (e.g. a "Demographic" attribute, containing groups of elements like "Gender," "Marital Status," etc.)
+
+2.  **Measures** (depicted by *[123]* icon): Measures consist of numeric data.
+
+![PivotTableExampleMSAnalysis\_All](images/PivotTableExampleMSAnalysis_All.png)
+
+For more information on dimensions and measures, please visit this
+[Technet article](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2012/ms174527\(v=sql.110\)).
+
+<a name='sort-by-caption-setting'></a>
+### Sort by Caption Setting
+
+There is also a Sort by Caption option which defines whether the filter will be applied to the dimension's labels or to the corresponding values. When enabled, *Sort by Caption* sorts the dimensions alphabetically by their label
+
+To enable it, select a dimension in *Rows* or *Columns*. Enable *Sorting* for the field by choosing *Ascending* or *Descending* to have the *Sort by Caption* option show up:
+
+![SortByCaption\_All](images/SortByCaption_All.png)

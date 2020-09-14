@@ -84,7 +84,8 @@ Reveal は、複数のダッシュボード フィルター値の同時選択を
 
 #### ダッシュボード フィルターにデータ フィルターを適用
 
-ダッシュボード フィルターとして使用されるデータソースにフィールド フィルターとルールを適用し、ダッシュボード フィルターに (上記の例のように) *ロンドン、英国* オフィスの従業員のみを表示するには、次の手順に従います。
+If you want your filter list to contain only employees working in a particular office, e.g.
+*London, UK*, apply a data filter as shown below.
 
 1.  ダッシュボード フィルター設定の*データ フィルター*に移動します。
 
@@ -98,6 +99,21 @@ Reveal は、複数のダッシュボード フィルター値の同時選択を
 
     ![Dashboard Filters Filter type option](images/dashboard-filter-field.png)
 
-5.  リストから*ロンドン、英国*を選択し、*[フィルターの作成]* ボタンをクリック/タップします。
+5.  リストから *London, UK* を選択し、[フィルターの作成] ボタンをクリック/タップします。
+
+### Specifics When Using an MS Analysis Services Data Source
+
+There are some specifics when configuring a SSAS-based dashboard filter (see in the list below).
+
+> A screenshot showing both fields below (no collapsing a dropdown, please)
+
+ 1. **Displayed Element** - you can select a *Dimension*, *Hierarchy* or *Level* data field to display dashboard filter values, but not a _Measure_ data field. 
+
+2. (*Optional*) **Show only when Measure has data** - select a *Measure* to limit the dashboard filter values list to those that contain data for a certain Measure.
+
+For example, if you use the *Product* Dimension as a *Displayed element* to filter sales data in a visualization, your dashboard filter will show a list of products (e.g. bikes, clothes, etc). 
+By additionally selecting the *Internet orders* Measure for *Show only when Measure has data* field, you will exclude dashboard filter values, which do not contain information about the *Internet orders* Measure. So, if there are no internet orders of bikes, the _bike_ product will not show up in the _Dashboard Filters_ list.
+
+### Next Steps 
 
 ダッシュボード フィルターを作成したので、フィルターを適用する**表示形式に接続する**必要があります。詳細は、[ダッシュボード フィルターを表示形式に接続](connecting-dashboard-filters-visualization.md)をご覧ください。
