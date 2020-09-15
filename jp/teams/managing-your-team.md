@@ -25,9 +25,9 @@
 
 #### 役割の変更または複数のメンバーの同時削除
 
-1. Select the checked box on the right of the *+Members* blue button.
+1. *+ メンバー*の青いボタンの右側にあるチェックボックスを選択します。
  
-2. Checkboxes on the right of members' roles appear.
+2. メンバーの役割の右側にチェックボックスが表示されます。
 
 3.  画面下部中央のメニューからゴミ箱アイコンまたは役割を選択します。
 
