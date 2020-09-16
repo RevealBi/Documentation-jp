@@ -44,33 +44,34 @@ Google アナリティクスは、ウェブで最も使用されているウェ�
 
 資格情報が確認されると、Reveal は表示形式エディターに移動します。
 
-### Working in the Visualizations Editor
+### 表示形式エディターでの作業
 
-When you create a dashboard with information coming from Google Analytics, you will see fields organized differently (see screenshot below).
+Google Analytics からの情報でダッシュボードを作成する場合、以下のスクリーンショットのようにフィールドが異なって体系化されます。
 
 ![Visualization Editor showing a Google Analytics data cube](images/ga-visualizationeditor.png)
 
-You may notice that there is no "Fields" heading on the left. Instead, there are two sections in their own query field:
+左側に「フィールド」の見出しはありません。代わりに、クエリ フィールドに 2 つのセクションがあります。
 
-1.  **Dimensions** (depicted by a cube icon with a pink side): Dimensions are attributes of your data. For example, the dimension _Gender_ (under the _Audience_ cube) indicates the gender of your web site's audience.
+1.  **ディメンション** (ピンク色の側面の立方体アイコンで表示): ディメンションはデータの属性です。たとえば、_Gender_ ディメンション (_Audience_ キューブの下) は、Web サイトのユーザーの性別を示します。
 
-2.  **Measures** (depicted by *123* icon): Measures consist of numeric data. For example, the measure _AdX Clicks_ is the number of times AdX ads were clicked on the site.
+2.  **メジャー** ([123] アイコンで表示): メジャーは数値データで構成されます。たとえば、_AdX Clicks_ メジャーは、サイトで AdX 広告がクリックされた回数です。
 
-If you need to learn more, check this Google Analytics article: [Dimensions and metrics](https://support.google.com/analytics/answer/1033861?hl=en). 
+詳細については、Google Analytics の記事をご覧ください: [ディメンションと指標](https://support.google.com/analytics/answer/1033861?hl=ja)。
 
 >[!NOTE] 
-> Some dimensions and measures cannot be used together. For a list of valid dimensions-measures combinations, refer to the [Dimensions & Metrics Explorer](https://ga-dev-tools.appspot.com/dimensions-metrics-explorer/) on the Google Developer website.
+> 一部のディメンションとメジャーは併用できません。有効なディメンションとメジャーの組み合わせのリストについては、Google Developer　ウェブサイトの [Dimensions ＆ Metrics Explorer (英語)](https://ga-dev-tools.appspot.com/dimensions-metrics-explorer/)を参照してください。
 
-#### Data Filters
+#### データ フィルター
 
-There are two *Data Filters* when using the GA data source in Reveal. 
+Reveal で Google Analytics データソースを使用する場合、2 つのデータ フィルターがあります。
 
-* **Segment** filter. The *Segment filters* are predefined. *System* Segments are defined by Google, and *Custom* Segments are defined by the user on the Google Analytics website. You can choose only one segment to filter your data. 
-* **Date Range**. Select a specific date range in the calendar to filter your data. You can also choose one of the preset date ranges by clicking the arrow in the upper right corner: 
+* **セグメント** フィルター。**セグメント フィルター** はあらかじめ定義されています。**システム** セグメントは Google によって定義し、**カスタム** セグメントは Google Analytics のウェブサイトのユーザーによって定義します。
+データをフィルターするセグメントは 1 つのみ選択できます。
+* **日付範囲**。データをフィルターするには、カレンダーで特定の日付範囲を選択します。右上の矢印をクリックして、日付範囲プリセットの 1 つを選択することもできます。 
 
   ![Date Range dialog](images/ga-data-source-date-range-preset.png)
 
-  >[!NOTE] Default date range is _Last 30 days_. This means data will be retrieved for the last 30-day period, including today. 
+  >[!NOTE] デフォルトの日付範囲は「過去 30 日間」です。つまり、今日を含む過去 30 日間のデータが取得されます。
 
 
 #### Google アナリティクスの目標を使用する

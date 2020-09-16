@@ -65,37 +65,36 @@ Analysis Services サーバーの資格情報が確認されたら、Reveal は�
 
 ![MSAnalysisCubes\_All](images/MSAnalysisCubes_All.png)
 
-Choose a database *cube* and click/tap _Select Data_ to continue to the *Visualizations Editor*.
+データベース キューブを選択し、[データの選択] をクリック/タップして、表示形式エディターに進みます。
 
 <a name='visualization-editor'></a>
-### Working in the Visualization Editor
+### 表示形式エディターでの作業
 
-When you create a dashboard with information coming from Microsoft Analysis Services, you will see fields organized differently, as seen in the screenshot below.
+Microsoft Analysis Services からの情報でダッシュボードを作成する場合、以下のスクリーンショットのようにフィールドが異なって体系化されます。
 
 ![VisEditorDimensionsMeasures\_All](images/VisEditorDimensionsMeasures_All.png)
 
-As you can see, there is no "Fields" heading. In its place, there are two sections in their own query field:
+以下のように 「フィールド」 見出しがありません。代わりにクエリ フィールドに 2 つのセクションがあります。
 
-1.  **Dimensions** (depicted by a cube icon with a pink side): Dimensions are structures used to categorize data that can be measured. Elements in a dimension can be organized by:
+1.  **ディメンション** (ピンク色の側面の立方体アイコンで表示): ディメンションは、測定可能なデータを分類するために使用される構造です。ディメンションの要素は、以下の方法で整理できます。
 
-    1.  **Hierarchy** - when elements in a dimension are organized by hierarchy, you can use the whole hierarchy or part of it, starting from an element at any lower level. For example, if you have a "Geography" dimension organized in "Country → State → City" hierarchy, you can drag and use only the "State → City" part of this hierarchy.
+    1.  **階層** - ディメンション内の要素が階層別に編成されている場合、下位レベルの要素から開始して、階層全体または階層の一部を使用できます。たとえば、「国→都道府県→都市」階層で編成された「地理」ディメンションがある場合、この階層の「都道府県→都市」部分のみをドラッグして使用できます。
 
-    2.  **Named Sets** (depicted by a folder icon and named "Sets") - an arbitrary collection of elements with a name (e.g. "Top 50 Customers").
+    2.  **名前付きセット** (フォルダーアイコンで示され、「Sets」という名前) - 名前を持つ要素の任意のコレクション (「Top 50 Customers」など)。
 
-    3.  **Attributes** - elements are organized in single-level hierarchies (e.g. a "Demographic" attribute, containing groups of elements like "Gender," "Marital Status," etc.)
+    3.  **属性** - 要素は単一レベルの階層で編成されます (「性別」、「婚姻状況」などの要素のグループを含む「人口統計」属性など)。
 
-2.  **Measures** (depicted by *[123]* icon): Measures consist of numeric data.
+2.  **メジャー** ([123]アイコンで表示): メジャーは数値データで構成されます。
 
 ![PivotTableExampleMSAnalysis\_All](images/PivotTableExampleMSAnalysis_All.png)
 
-For more information on dimensions and measures, please visit this
-[Technet article](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2012/ms174527\(v=sql.110\)).
+ディメンションとメジャーの詳細については、[Technet](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2012/ms174527\(v=sql.110\)) の記事をご覧ください。
 
 <a name='sort-by-caption-setting'></a>
-### Sort by Caption Setting
+### キャプション設定で並べ替え
 
-There is also a Sort by Caption option which defines whether the filter will be applied to the dimension's labels or to the corresponding values. When enabled, *Sort by Caption* sorts the dimensions alphabetically by their label
+またキャプションで並べ替えオプションがあり、フィルターの適用をディメンションのラベルまたは対応する値に設定できます。有効にすると、[キャプションで並べ替え] により、ディメンションがラベルでアルファベット順に並べ替えられます。
 
-To enable it, select a dimension in *Rows* or *Columns*. Enable *Sorting* for the field by choosing *Ascending* or *Descending* to have the *Sort by Caption* option show up:
+有効にするには、行または列でディメンションを選択します。[昇順] または [降順] を選択してフィールドの並べ替えを有効にし、[キャプションで並べ替え] オプションを表示します。
 
 ![SortByCaption\_All](images/SortByCaption_All.png)

@@ -84,8 +84,7 @@ Reveal は、複数のダッシュボード フィルター値の同時選択を
 
 #### ダッシュボード フィルターにデータ フィルターを適用
 
-If you want your filter list to contain only employees working in a particular office, e.g.
-*London, UK*, apply a data filter as shown below.
+フィルター リストに特定のオフィスで働いている従業員のみ (たとえば、*London, UK*) を含める場合は、以下に示すようにデータ フィルターを適用します。
 
 1.  ダッシュボード フィルター設定の*データ フィルター*に移動します。
 
@@ -101,19 +100,19 @@ If you want your filter list to contain only employees working in a particular o
 
 5.  リストから *London, UK* を選択し、[フィルターの作成] ボタンをクリック/タップします。
 
-### Specifics When Using an MS Analysis Services Data Source
+### Microsoft Analysis Services データソースを使用する場合の仕様
 
-There are some specifics when configuring a SSAS-based dashboard filter (see in the list below).
+SSAS ベースのダッシュボード フィルターを構成する場合、いくつかの詳細があります (以下のリストを参照)。
 
 > A screenshot showing both fields below (no collapsing a dropdown, please)
 
- 1. **Displayed Element** - you can select a *Dimension*, *Hierarchy* or *Level* data field to display dashboard filter values, but not a _Measure_ data field. 
+ 1. **表示される要素** - ダッシュボード フィルター値を表示するために **ディメンション**、**階層**または**レベル**データ フィールドを選択できますが、**メジャー** データ フィールドは選択できません。
 
-2. (*Optional*) **Show only when Measure has data** - select a *Measure* to limit the dashboard filter values list to those that contain data for a certain Measure.
+2. (オプション) **メジャーにデータがある場合のみ表示** - メジャーを選択して、ダッシュボードのフィルター値リストを特定のメジャーのデータを含む値に制限します。
 
-For example, if you use the *Product* Dimension as a *Displayed element* to filter sales data in a visualization, your dashboard filter will show a list of products (e.g. bikes, clothes, etc). 
-By additionally selecting the *Internet orders* Measure for *Show only when Measure has data* field, you will exclude dashboard filter values, which do not contain information about the *Internet orders* Measure. So, if there are no internet orders of bikes, the _bike_ product will not show up in the _Dashboard Filters_ list.
+たとえば、**製品**ディメンションを**表示要素**として使用し、表示形式の売上データをフィルターする場合、ダッシュボード フィルターは製品のリスト (バイク、衣服など) を表示します。
+[メジャーにデータがある場合のみ表示] フィールドの**インターネット注文** メジャーを追加選択すると、**インターネット注文**メジャーに関する情報を含まないダッシュボード フィルター値を除外します。自転車のインターネット注文がない場合、その製品は [ダッシュボード フィルター] リストに表示されません。
 
-### Next Steps 
+### 次の手順 
 
 ダッシュボード フィルターを作成したので、フィルターを適用する**表示形式に接続する**必要があります。詳細は、[ダッシュボード フィルターを表示形式に接続](connecting-dashboard-filters-visualization.md)をご覧ください。
