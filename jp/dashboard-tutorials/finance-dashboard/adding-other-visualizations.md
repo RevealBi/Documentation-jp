@@ -89,7 +89,7 @@ GLB Fiscal 表示形式は、ニューヨーク証券取引所 (New York Stock E
 
 <!-- end list -->
 
-2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「ローソク足チャート」を選択します。
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、ローソク足チャートを選択します。
 
     ![SelectCandlestickChart\_All](images/SelectCandlestickChart_All.png)
 
@@ -156,7 +156,7 @@ Forecast 表示形式は、5 年間の株の変動、買注文、売注文を[�
 
 <!-- end list -->
 
-2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「折れ線チャート」を選択します。
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、折れ線チャートを選択します。
 
     ![SelectLineChart\_All](images/SelectLineChart_All.png)
 
@@ -199,7 +199,7 @@ Stock Variations 表示形式は、12 か月間の株価の変化を[スパー�
 
 <!-- end list -->
 
-2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「スパークライン チャート」を選択します。
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、スパークライン チャートを選択します。
 
     ![SelectSparklineChart\_All](images/SelectSparklineChart_All.png)
 
@@ -240,7 +240,7 @@ Stock Volumes 表示形式は、1 年間の株式数を[リニア ゲージ](~/j
 
 <!-- end list -->
 
-2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「スパークライン チャート」を選択します。
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、リニア チャートを選択します。
 
     ![SelectLinearGauge\_All](images/SelectLinearGauge_All.png)
 

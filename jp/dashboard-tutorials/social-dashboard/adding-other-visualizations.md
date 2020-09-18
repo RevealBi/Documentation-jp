@@ -10,7 +10,7 @@ NOTE
 
 </div>
 
-[データソースを変更する](~/jp/datasources/changing-data-source-visualization.md)場合は、データ ソース名の横にある**オーバーフロー ボタン**または [新しいデータ ソース](~/jp/datasources/creating-new-datasource.md)を選択する必要があります。表示形式を[複製し](../../general/overview.md#view-edit-mode)、作成時間を短縮することもできます。
+[データソースを変更する](~/jp/datasources/changing-data-source-visualization.md)場合は、データ ソース名の横にある**オーバーフロー ボタン**または [新しいデータ ソース](~/jp/datasources/creating-new-datasource.md)を選択する必要があります。表示形式を [複製し](../../general/overview.md#view-edit-mode)、作成時間を短縮することもできます。
 
 </div>
 
@@ -56,15 +56,15 @@ NOTE
 
 ### Followers
 
-Followers 表示形式はソーシャル メディア チャネルごとに分類されたフォロワーの数を[縦棒チャート](~/jp/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
+Followers 表示形式はソーシャル メディア チャネルごとに分類されたフォロワーの数を[柱状チャート](~/jp/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、 **[データのロード]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
     
     ![SelectingSocialSheet\_All](images/SelectingSocialSheet_All.png)
 
 
 
-2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「縦棒」チャートを選択します。
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、柱状チャートを選択します。
     
     ![SelectColumnChart\_All](images/SelectColumnChart_All.png)
 
@@ -101,13 +101,13 @@ Followers 表示形式はソーシャル メディア チャネルごとに分�
 
 YTD Facebook Followers 表示形式は、[テキスト ゲージ](~/jp/visualization-tutorials/gauge-views.md#createtextgauge)でそのソーシャル メディア チャネルのフォロワー数を示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、 **[データのロード]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
     
     ![SelectingSocialSheet\_All](images/SelectingSocialSheet_All.png)
 
 
 
-2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「テキスト ゲージ」を選択します。
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、テキストを選択します。
     
     ![SelectTextGauge\_All](images/SelectTextGauge_All.png)
 
@@ -125,19 +125,19 @@ YTD Facebook Followers 表示形式は、[テキスト ゲージ](~/jp/visualiza
 
 
 
-5.  **表示形式のタイトルを YTD Facebook Followers に変更する**ため、Social Dashboard の横にある**鉛筆アイコンを選択します**。 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
+5.  **表示形式のタイトルを YTD Facebook Followers に変更する**ため、 Social Dashboard の横にある**鉛筆アイコンを選択します**。 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 ### Monthly Facebook Likes
 
 Monthly Facebook Likes 表示形式は、[折れ線チャート](~/jp/visualization-tutorials/simple-charts.md)で会社の月ごとの Facebook の「いいね」数を示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、 **[データのロード]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
     
     ![SelectingSocialSheet\_All](images/SelectingSocialSheet_All.png)
 
 
 
-2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「折れ線チャート」を選択します。
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、折れ線チャートを選択します。
     
     ![SelectLineChart\_All](images/SelectLineChart_All.png)
 
@@ -175,14 +175,14 @@ Monthly Facebook Likes 表示形式は、[折れ線チャート](~/jp/visualizat
 
 ### Retweets &amp; Favorites
 
-Retweets &amp; Favorites の表示形式は[縦棒チャート](~/jp/visualization-tutorials/simple-charts.md)で会社の月ごとの Twitter のリツイート&; お気に入り数を示します。以下は作成方法です。
+Retweets &amp; Favorites の表示形式は[柱状チャート](~/jp/visualization-tutorials/simple-charts.md)で会社の月ごとの Twitter のリツイート&; お気に入り数を示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。新しい表示形式ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、 **[データのロード]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。新しい表示形式ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
     
     ![SelectingSocialSheet\_All](images/SelectingSocialSheet_All.png)
 
 
-2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「縦棒チャート」を選択します。
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、柱状チャートを選択します。
     
     ![SelectColumnChart\_All](images/SelectColumnChart_All.png)
 
@@ -218,12 +218,12 @@ Retweets &amp; Favorites の表示形式は[縦棒チャート](~/jp/visualizati
 
 Facebook Reach vs. Impressions の数表示形式は[エリア チャート](~/jp/visualization-tutorials/simple-charts.md)で会社の Facebook のリーチ vs. インプレッション数を示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、 **[データのロード]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
     
     ![SelectingSocialSheet\_All](images/SelectingSocialSheet_All.png)
 
 
-2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「エリア型チャート」を選択します。
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、エリア型チャートを選択します。
     
     ![SelectAreaChart\_All](images/SelectAreaChart_All.png)
 
@@ -256,12 +256,12 @@ Facebook Reach vs. Impressions の数表示形式は[エリア チャート](~/j
 
 Monthly Twitter Mentions の表示形式は、[折れ線チャート](~/jp/visualization-tutorials/simple-charts.md)で会社の Twitter のメンション数を示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、 **[データのロード]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
     
     ![SelectingSocialSheet\_All](images/SelectingSocialSheet_All.png)
 
 
-2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「折れ線チャート」を選択します。
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、折れ線チャートを選択します。
     
     ![SelectLineChart\_All](images/SelectLineChart_All.png)
 

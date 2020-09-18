@@ -8,7 +8,7 @@
 
 ![Various charts visualizations in a dashboard](images/various-charts_all.png)
 
-たとえば、縦棒チャートでは、すべての数値列がチャートに追加されます。Reveal の列の自動選択は、チャートの設定の構成で変更できます。
+たとえば、柱状チャートでは、すべての数値列がチャートに追加されます。Reveal の列の自動選択は、チャートの設定の構成で変更できます。
 
 ### チャートの近似曲線
 
