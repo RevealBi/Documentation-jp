@@ -47,13 +47,13 @@
 
 Production 表示形式は、12 か 月間の製造量を作業者タイプ別に [折れ線チャート](tutorial-simple-charts.md)で表示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Manufacturing Dashboard** シートを選択します。次に、*[データの選択]*を選択します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Manufacturing Dashboard** シートを選択します。次に、[データを選択] を選択します。
     
     ![SelectingManufacturingSheet\_All.png](images/SelectingManufacturingSheet_All.png)
 
 
 
-2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「折れ線チャート」を選択します。
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、折れ線チャートを選択します。
     
     ![SelectLineChart\_All](images/SelectLineChart_All.png)
 
@@ -69,7 +69,7 @@ Production 表示形式は、12 か 月間の製造量を作業者タイプ別�
     
     ![ManufacturingProductionFractionDigits\_All](images/ManufacturingProductionFractionDigits_All.png)
     
-    次に, **フィールドの更新**を選択します。
+    次に、**[フィールドの更新]** を選択します。
 
 
 
@@ -79,7 +79,7 @@ Production 表示形式は、12 か 月間の製造量を作業者タイプ別�
 
 
 
-6.  **表示形式のタイトルを 「Production」 に変更する**ため、「Manufacturing Dashboard」 の横にある**鉛筆アイコンを選択します**。
+6.  **表示形式のタイトルを Production に変更する**ため、Manufacturing Dashboard の横にある**鉛筆アイコンを選択します**。
 
 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
@@ -88,13 +88,13 @@ Production 表示形式は、12 か 月間の製造量を作業者タイプ別�
 
 Shipping 表示形式は、12 か 月間の出荷量を[エリア チャート](~/jp/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Manufacturing Dashboard** シートを選択します。次に、*[データの選択]*を選択します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Manufacturing Dashboard** シートを選択します。次に、[データを選択] を選択します。
     
     ![SelectingManufacturingSheet\_All.png](images/SelectingManufacturingSheet_All.png)
 
 
 
-2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「エリア型チャート」を選択します。
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、エリア型チャートを選択します。
     
     ![SelectAreaChart\_All](images/SelectAreaChart_All.png)
 
@@ -110,7 +110,7 @@ Shipping 表示形式は、12 か 月間の出荷量を[エリア チャート](
     
     ![ManufacturingShippingChangingDateAggregation\_All](images/ManufacturingShippingChangingDateAggregation_All.png)
     
-    次に, **フィールドの更新**を選択します。
+    次に、**[フィールドの更新]** を選択します。
 
 
 5.  **Shipping Orders** フィールドにはクライアントに出荷された製品に関する情報があるため、小数桁を削除する必要があります。[値] で **Shipping Orders** を選択し、**[書式設定]** で **[小数桁]** を **[0]** に変更します。
@@ -120,7 +120,7 @@ Shipping 表示形式は、12 か 月間の出荷量を[エリア チャート](
     次に, **フィールドの更新**を選択します。
 
 
-6.  **表示形式のタイトルを 「Shipping」 に変更する**ため、「Manufacturing Dashboard」 の横にある**鉛筆アイコンを選択します**。
+6.  **表示形式のタイトルを Shipping に変更する**ため、Manufacturing Dashboard の横にある**鉛筆アイコンを選択します**。
 
 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
@@ -129,12 +129,12 @@ Shipping 表示形式は、12 か 月間の出荷量を[エリア チャート](
 
 Average Hours 表示形式では、会社の機械に費やされた時間と、会社の従業員によってログに記録された時間の比較を[スプライン チャート](~/jp/visualization-tutorials/simple-charts.md)で月別に表示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Manufacturing Dashboard** シートを選択します。次に、*[データの選択]*を選択します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Manufacturing Dashboard** シートを選択します。次に、[データを選択] を選択します。
     
     ![SelectingManufacturingSheet\_All.png](images/SelectingManufacturingSheet_All.png)
 
 
-2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「エリア型チャート」を選択します。
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、スプライン チャートを選択します。
     
     ![SelectSplineChart\_All](images/SelectSplineChart_All.png)
 
@@ -150,11 +150,11 @@ Average Hours 表示形式では、会社の機械に費やされた時間と、
     
     ![ManufacturingShippingChangingDateAggregation\_All](images/ManufacturingShippingChangingDateAggregation_All.png)
     
-    次に, **フィールドの更新**を選択します。
+    次に、**[フィールドの更新]** を選択します。
 
 
 
-5.  サンプルの表示形式と一致させるには、[値]　プレースホルダーから **[Average Hours]** と **[Machine Hours]** の*両方*を選択して時間の小数桁を削除し、**[書式設定]** で **[小数桁]** を **[0]** に変更します。
+5.  サンプルの表示形式と一致させるには、[値] プレースホルダーから **Average Hours** と **Machine Hours** の*両方*を選択して時間の小数桁を削除し、**[書式設定]** で **[小数桁]** を **[0]** に変更します。
     
     ![ManufacturingAverageHoursFractionDigits\_All](images/ManufacturingAverageHoursFractionDigits_All.png)
     
@@ -162,7 +162,7 @@ Average Hours 表示形式では、会社の機械に費やされた時間と、
 
 
 
-6.  **表示形式のタイトルを 「Average Hours」 に変更する**ため、「Manufacturing Dashboard」 の横にある**鉛筆アイコンを選択します**。
+6.  **表示形式のタイトルを Average Hours に変更する**ため、Manufacturing Dashboard の横にある**鉛筆アイコンを選択します**。
 
 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
@@ -171,13 +171,13 @@ Average Hours 表示形式では、会社の機械に費やされた時間と、
 
 Headcount 表示形式はカテゴリごとに分類された従業員の数を[棒チャート](~/jp/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Manufacturing Dashboard** シートを選択します。次に、*[データの選択]*を選択します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Manufacturing Dashboard** シートを選択します。次に、[データを選択] を選択します。
     
     ![SelectingManufacturingSheet\_All.png](images/SelectingManufacturingSheet_All.png)
 
 
 
-2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「エリア型チャート」を選択します。
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、棒チャートを選択します。
     
     ![SelectBarChart\_All](images/SelectBarChart_All.png)
 
@@ -189,11 +189,11 @@ Headcount 表示形式はカテゴリごとに分類された従業員の数を[
 
 
 
-4.  **[Number of Workers]** フィールドには、人に関する情報が含まれているため、小数桁は表示されるべきではありません。それを[値] プレースホルダーから選択し、[**書式設定]** で **[小数桁]** を **[0]** に変更します。
+4.  **Number of Workers** フィールドには、人に関する情報が含まれているため、小数桁は表示されるべきではありません。それを[値] プレースホルダーから選択し、[**書式設定]** で **[小数桁]** を **[0]** に変更します。
     
     ![ManufacturingHeadcountFractionDigits\_All](images/ManufacturingHeadcountFractionDigits_All.png)
     
-    次に, **フィールドの更新**を選択します。
+    次に、**[フィールドの更新]** を選択します。
 
 
 
@@ -202,7 +202,7 @@ Headcount 表示形式はカテゴリごとに分類された従業員の数を[
     ![ManufacturingHeadcountChangingStartColor\_All](images/ManufacturingHeadcountChangingStartColor_All.png)
 
 
-6.  **表示形式のタイトルを「Headcount」に変更する**ため、「Manufacturing Dashboard」の横にある**鉛筆アイコンを選択します**。
+6.  **表示形式のタイトルを Headcount に変更する**ため、Manufacturing Dashboard の横にある**鉛筆アイコンを選択します**。
 
 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
@@ -211,13 +211,13 @@ Headcount 表示形式はカテゴリごとに分類された従業員の数を[
 
 Labor Cost 表示形式は、各従業員の最高から最低までの賃金を[縦棒チャート](~/jp/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Manufacturing Dashboard** シートを選択します。次に、*[データの選択]*を選択します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Manufacturing Dashboard** シートを選択します。次に、[データを選択] を選択します。
     
     ![SelectingManufacturingSheet\_All.png](images/SelectingManufacturingSheet_All.png)
 
 
 
-2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「エリア型チャート」を選択します。
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、柱状チャートを選択します。
     
     ![SelectColumnChart\_All](images/SelectColumnChart_All.png)
 
@@ -241,17 +241,17 @@ Labor Cost 表示形式は、各従業員の最高から最低までの賃金を
         
         ![ManufacturingLaborCostDescendingOrder\_All](images/ManufacturingLaborCostDescendingOrder_All.png)
         
-        次に, **フィールドの更新**を選択します。
+        次に、**[フィールドの更新]** を選択します。
 
 
 
-5.  縦棒チャートをサンプル表示形式の色と一致させるには、表示形式エディターの **[設定]** 画面で **[開始色]** を 2 番目の色に変更します。
+5.  縦棒チャートをサンプル表示形式の色と一致させるには、表示形式エディターの **[設定]** 画面で **[開始色]** を 8 番目の色に変更します。
     
     ![ManufacturingLaborCostChangingStartColor\_All](images/ManufacturingLaborCostChangingStartColor_All.png)
 
 
 
-6.  **表示形式のタイトルを「Labor Cost」に変更する**ため、「Manufacturing Dashboard」の横にある**鉛筆アイコンを選択します**。
+6.  **表示形式のタイトルを Labor Cost に変更する**ため、Manufacturing Dashboard の横にある**鉛筆アイコンを選択します**。
 
 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 

@@ -59,13 +59,13 @@
 
 Win/Lost by Month 表示形式は、6ヶ月間の勝敗の回数を[棒チャート](~/jp/visualization-tutorials/simple-charts.md)で示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データのロード]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
     
     ![SelectingSalesSheet\_All.png](images/SelectingSalesSheet_All.png)
 
 
 
-2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「縦棒チャート」を選択します。
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、柱状チャートを選択します。
     
     ![SelectColumnChart\_All](images/SelectColumnChart_All.png)
 
@@ -94,24 +94,24 @@ Win/Lost by Month 表示形式は、6ヶ月間の勝敗の回数を[棒チャー
     
     ![SalesCustomDateRange\_All](images/SalesCustomDateRange_All.png)
     
-    この後、**フィールドの更新**を選択します。
+    この後、**[フィールドの更新]** を選択します。
 
  
 
-6.  **表示形式のタイトルを Win/Lost by Month に変更する**ため、「セールス ダッシュボード」の横にある**鉛筆アイコンを選択します**。完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
+6.  **表示形式のタイトルを Win/Lost by Month に変更する**ため、Sales Dashboard の横にある**鉛筆アイコンを選択します**。完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='forecasted'></a>
 ### Forecasted
 
 Forecasted 表示形式は、6ヶ月間の予測を[バー チャート](~/jp/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、 **Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データのロード]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、 **Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
     
     ![SelectingSalesSheet\_All.png](images/SelectingSalesSheet_All.png)
 
  
 
-2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「棒チャート」を選択します。
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、棒チャートを選択します。
     
     ![SelectBarChart\_All](images/SelectBarChart_All.png)
 
@@ -152,7 +152,7 @@ Forecasted 表示形式は、6ヶ月間の予測を[バー チャート](~/jp/vi
     
     ![SalesCustomDateRange\_All](images/SalesCustomDateRange_All.png)
     
-    次に, **[フィールドの更新]** を選択します。
+    次に、**[フィールドの更新]** を選択します。
 
  
 
@@ -169,13 +169,13 @@ Forecasted 表示形式は、6ヶ月間の予測を[バー チャート](~/jp/vi
 
 Lost Opportunities 表示形式は、[テキスト ゲージ](~/jp/visualization-tutorials/Gauge-Views.md#text-gauge)で機会損失の割合を表示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、 **Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データのロード]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、 **Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
     
     ![SelectingSalesSheet\_All.png](images/SelectingSalesSheet_All.png)
 
  
 
-2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「テキスト ゲージ」を選択します。
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、テキスト ゲージを選択します。
     
     ![SelectTextGauge\_All](images/SelectTextGauge_All.png)
 
@@ -229,13 +229,13 @@ Lost Opportunities 表示形式は、[テキスト ゲージ](~/jp/visualization
 
 Pipeline by Territory 表示形式は、[ファンネルチャート](~/jp/visualization-tutorials/simple-charts.md)平均的な販売見込みとそれらの位置を表示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。 **Sales Dashboard** オプションが選択されていることを確認し、 **[データのロード]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。 **Sales Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
     
     ![SelectingSalesSheet\_All.png](images/SelectingSalesSheet_All.png)
 
  
 
-2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「ファンネルチャート」を選択します。
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、ファンネルチャートを選択します。
     
     ![SelectFunnelChart\_All](images/SelectFunnelChart_All.png)
 
@@ -266,13 +266,13 @@ Pipeline by Territory 表示形式は、[ファンネルチャート](~/jp/visua
 Total Opportunities 表示形式は、12 か月間の会社の機会が表すによる収益を
 [折れ線チャート](~/jp/visualization-tutorials/simple-charts)で表示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、**[データのロード]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、**[データを選択]** を押します。
     
     ![SelectingSalesSheet\_All.png](images/SelectingSalesSheet_All.png)
 
  
 
-2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「折れ線チャート」を選択します。
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、折れ線チャートを選択します。
     
     ![SelectLineChart\_All](images/SelectLineChart_All.png)
 
@@ -304,7 +304,7 @@ Total Opportunities 表示形式は、12 か月間の会社の機会が表すに
 
  
 
-6.  表示形式で 12ヶ月の期間を表示するには、フィルターを追加する必要があります。
+6.  表示形式で 12 ヶ月の期間を表示するには、フィルターを追加する必要があります。
     これを行うには、**Date** をデータ フィルターにドロップし、表示形式フィルター メニューにアクセスするために、それを選択します。その中で、**[フィルター タイプ]** の **[ルールでフィルターする]** を選択します。
     
     ![FilterbyRuleSalesWinLost\_All](images/FilterbyRuleSalesWinLost_All.png)
@@ -330,13 +330,13 @@ Total Opportunities 表示形式は、12 か月間の会社の機会が表すに
 
 Revenue by Territory 表示形式には、会社の各地域における収益を[円チャート](~/jp/visualization-tutorials/simple-charts.md)で表示されます。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データのロード]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
     
     ![SelectingSalesSheet\_All.png](images/SelectingSalesSheet_All.png)
 
  
 
-2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「円チャート」を選択します。
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、円チャートを選択します。
     
     ![SelectPieChart\_All](images/SelectPieChart_All.png)
 
@@ -362,19 +362,19 @@ Revenue by Territory 表示形式には、会社の各地域における収益�
 
 Pipeline per Employee 表示形式は、従業員別の上位 10 位までの販売見込みを[柱状チャート](~/jp/visualization-tutorials/simple-charts.md)で示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データのロード]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
     
     ![SelectingSalesSheet\_All.png](images/SelectingSalesSheet_All.png)
 
  
 
-2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「縦棒チャート」を選択します。
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、縦棒チャートを選択します。
     
     ![SelectTextGauge\_All](images/SelectColumnChart_All.png)
 
  
 
-3.  データ エディターで、**Employee** を [ラベル]に、**Pipeline** を [値] にドラッグアンドドロップします。
+3.  データ エディターで、**Employee** を [ラベル] に、**Pipeline** を [値] にドラッグアンドドロップします。
     
     ![DragDropPipelineEmployee\_All](images/DragDropPipelineEmployee_All.png)
 
@@ -418,19 +418,19 @@ Pipeline per Employee 表示形式は、従業員別の上位 10 位までの販
 
 Sales by Product 表示形式は、さまざまな会社の製品とそれぞれの売上げの割合を[ドーナツ型チャート](~/jp/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データのロード]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
     
     ![SelectingSalesSheet\_All.png](images/SelectingSalesSheet_All.png)
 
  
 
-2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、「ドーナツ型チャート」を選択します。
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、円チャートを選択します。
     
     ![SelectFunnelChart\_All](images/SelectDoughnutChart_All.png)
 
  
 
-3.  データ エディターで、**Product** を [ラベル]に、**Sales Product** を [値] にドラッグアンドドロップします。
+3.  データ エディターで、**Product** を [ラベル] に、**Sales Product** を [値] にドラッグアンドドロップします。
     
     ![DragDropSalesProduct\_All](images/DragDropSalesProduct_All.png)
 
