@@ -209,7 +209,7 @@ Headcount 表示形式はカテゴリごとに分類された従業員の数を[
 <a name='labor-cost'></a>
 ### Labor Cost (人件費)
 
-Labor Cost 表示形式は、各従業員の最高から最低までの賃金を[縦棒チャート](~/jp/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
+Labor Cost 表示形式は、各従業員の最高から最低までの賃金を[柱状チャート](~/jp/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Manufacturing Dashboard** シートを選択します。次に、[データを選択] を選択します。
     
@@ -245,7 +245,7 @@ Labor Cost 表示形式は、各従業員の最高から最低までの賃金を
 
 
 
-5.  縦棒チャートをサンプル表示形式の色と一致させるには、表示形式エディターの **[設定]** 画面で **[開始色]** を 8 番目の色に変更します。
+5.  柱状チャートをサンプル表示形式の色と一致させるには、表示形式エディターの **[設定]** 画面で **[開始色]** を 8 番目の色に変更します。
     
     ![ManufacturingLaborCostChangingStartColor\_All](images/ManufacturingLaborCostChangingStartColor_All.png)
 

@@ -60,7 +60,7 @@
 <tr class="even">
 <td><p><img src="images/Column-Chart.png" alt="Column Chart" /><br />
 </p>
-<p><a href="~/en/visualization-tutorials/simple-charts.md">縦棒</a><br />
+<p><a href="~/en/visualization-tutorials/simple-charts.md">柱状</a><br />
 </p></td>
 <td><p><img src="images/Doughnut-Chart.png" alt="Doughnut Chart" /><br />
 </p>

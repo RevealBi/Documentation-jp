@@ -169,7 +169,7 @@ Forecasted 表示形式は、6 ヶ月間の予測を[バー チャート](~/jp/v
 
 Lost Opportunities 表示形式は、[テキスト ゲージ](~/jp/visualization-tutorials/Gauge-Views.md#text-gauge)で機会損失の割合を表示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、 **Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を選択します。
     
     ![SelectingSalesSheet\_All.png](images/SelectingSalesSheet_All.png)
 
@@ -317,7 +317,7 @@ Total Opportunities 表示形式は、12 か月間の会社の機会が表すに
 
  
 
-7.  同じ表示形式サンプルの色にあわせるために、**[設定]** セクションに移動し、7 番目の色に変更します。
+7.  同じ表示形式サンプルの色にあわせるために、**[設定]** セクションに移動し、9 番目の色に変更します。
     
     ![SalesTotalOpportunitiesStartColor\_All](images/SalesTotalOpportunitiesStartColor_All.png)
 
@@ -368,7 +368,7 @@ Pipeline per Employee 表示形式は、従業員別の上位 10 位までの販
 
  
 
-2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、縦棒チャートを選択します。
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、柱状チャートを選択します。
     
     ![SelectTextGauge\_All](images/SelectColumnChart_All.png)
 
@@ -405,7 +405,7 @@ Pipeline per Employee 表示形式は、従業員別の上位 10 位までの販
 
  
 
-6.  同じ表示形式サンプルの色にあわせるために、**[設定]** セクションに移動し、5 番目の色に変更します。
+6.  同じ表示形式サンプルの色にあわせるために、**[設定]** セクションに移動し、10 番目の色に変更します。
     
     ![SalesPipelineEmployeeStartColor\_All](images/SalesPipelineEmployeeStartColor_All.png)
 
