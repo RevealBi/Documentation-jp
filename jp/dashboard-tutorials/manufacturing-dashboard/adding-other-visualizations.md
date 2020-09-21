@@ -73,7 +73,7 @@ Production 表示形式は、12 か 月間の製造量を作業者タイプ別�
 
 
 
-5.  折れ線チャートをサンプル表示形式の色と一致させるには、表示形式エディターの **[設定]** 画面で **[開始色]** を 5 番目の色に変更します。
+5.  折れ線チャートをサンプル表示形式の色と一致させるには、表示形式エディターの **[設定]** 画面で **[開始色]** を 2 番目の色に変更します。
     
     ![ManufacturingProductionChangingStartColor\_All](images/ManufacturingProductionChangingStartColor_All.png)
 
@@ -197,7 +197,7 @@ Headcount 表示形式はカテゴリごとに分類された従業員の数を[
 
 
 
-5.  棒チャートをサンプル表示形式の色と一致させるには、表示形式エディターの **[設定]** 画面で **[開始色]** を 4 番目の色に変更します。
+5.  棒チャートをサンプル表示形式の色と一致させるには、表示形式エディターの **[設定]** 画面で **[開始色]** を 7 番目の色に変更します。
     
     ![ManufacturingHeadcountChangingStartColor\_All](images/ManufacturingHeadcountChangingStartColor_All.png)
 
