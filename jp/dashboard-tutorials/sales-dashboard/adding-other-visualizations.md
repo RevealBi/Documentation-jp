@@ -57,7 +57,7 @@
 <a name='win-lost-by-month'></a>
 ### Win/Lost by Month
 
-Win/Lost by Month 表示形式は、6ヶ月間の勝敗の回数を[棒チャート](~/jp/visualization-tutorials/simple-charts.md)で示します。以下は作成方法です。
+Win/Lost by Month 表示形式は、6 ヶ月間の勝敗の回数を[棒チャート](~/jp/visualization-tutorials/simple-charts.md)で示します。以下は作成方法です。
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
     
@@ -81,11 +81,11 @@ Win/Lost by Month 表示形式は、6ヶ月間の勝敗の回数を[棒チャー
     
     ![SalesWinLostByMonthDateAggregation\_All](images/SalesWinLostByMonthDateAggregation_All.png)
     
-    次に, **[フィールドの更新]** を選択します。
+    次に、**[フィールドの更新]** を選択します。
 
  
 
-5.  表示形式で 6ヶ月の期間を表示するには、フィルターを追加する必要があります。
+5.  表示形式で 6 ヶ月の期間を表示するには、フィルターを追加する必要があります。
     これを行うには、**Date** をデータ フィルターにドロップし、表示形式フィルター メニューにアクセスするために、それを選択します。その中で、**[フィルター タイプ]** の **[ルールでフィルター]** を選択します。
     
     ![FilterbyRuleSalesWinLost\_All](images/FilterbyRuleSalesWinLost_All.png)
@@ -103,7 +103,7 @@ Win/Lost by Month 表示形式は、6ヶ月間の勝敗の回数を[棒チャー
 <a name='forecasted'></a>
 ### Forecasted
 
-Forecasted 表示形式は、6ヶ月間の予測を[バー チャート](~/jp/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
+Forecasted 表示形式は、6 ヶ月間の予測を[バー チャート](~/jp/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、 **Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
     
@@ -128,7 +128,7 @@ Forecasted 表示形式は、6ヶ月間の予測を[バー チャート](~/jp/vi
     
     ![SalesWinLostByMonthDateAggregation\_All](images/SalesWinLostByMonthDateAggregation_All.png)
     
-    次に, **[フィールドの更新]** を選択します。
+    次に、**[フィールドの更新]** を選択します。
 
  
 
@@ -156,7 +156,7 @@ Forecasted 表示形式は、6ヶ月間の予測を[バー チャート](~/jp/vi
 
  
 
-7.  同じ表示形式サンプルの色にあわせるために、**[設定]** セクションに移動し、3 番目の色に変更します。
+7.  同じ表示形式サンプルの色にあわせるために、**[設定]** セクションに移動し、1 番目の色に変更します。
     
     ![SalesForecastedStartColor\_All](images/SalesForecastedStartColor_All.png)
 
@@ -386,7 +386,7 @@ Pipeline per Employee 表示形式は、従業員別の上位 10 位までの販
     
     1.  **[タイプ]** を **[通貨]** に変更します。
     
-    2.  **[小数桁]**を **[0]** に変更します。
+    2.  **[小数桁]** を **[0]** に変更します。
         
         次に、**[フィールドの更新]** を選択します。
 

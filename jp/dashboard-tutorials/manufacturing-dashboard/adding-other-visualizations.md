@@ -94,7 +94,7 @@ Shipping 表示形式は、12 か 月間の出荷量を[エリア チャート](
 
 
 
-2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、エリア型チャートを選択します。
+2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、エリア チャートを選択します。
     
     ![SelectAreaChart\_All](images/SelectAreaChart_All.png)
 
@@ -117,7 +117,7 @@ Shipping 表示形式は、12 か 月間の出荷量を[エリア チャート](
     
     ![ManufacturingShippingFractionDigits\_All](images/ManufacturingShippingFractionDigits_All.png)
     
-    次に, **フィールドの更新**を選択します。
+    次に、**[フィールドの更新]** を選択します。
 
 
 6.  **表示形式のタイトルを Shipping に変更する**ため、Manufacturing Dashboard の横にある**鉛筆アイコンを選択します**。
@@ -158,7 +158,7 @@ Average Hours 表示形式では、会社の機械に費やされた時間と、
     
     ![ManufacturingAverageHoursFractionDigits\_All](images/ManufacturingAverageHoursFractionDigits_All.png)
     
-    次に, **フィールドの更新**を選択します。
+    次に、**[フィールドの更新]** を選択します。
 
 
 
@@ -189,7 +189,7 @@ Headcount 表示形式はカテゴリごとに分類された従業員の数を[
 
 
 
-4.  **Number of Workers** フィールドには、人に関する情報が含まれているため、小数桁は表示されるべきではありません。それを[値] プレースホルダーから選択し、[**書式設定]** で **[小数桁]** を **[0]** に変更します。
+4.  **Number of Workers** フィールドには、人に関する情報が含まれているため、小数桁は表示されるべきではありません。それを[値] プレースホルダーから選択し、**[書式設定]** で **[小数桁]** を **[0]** に変更します。
     
     ![ManufacturingHeadcountFractionDigits\_All](images/ManufacturingHeadcountFractionDigits_All.png)
     
