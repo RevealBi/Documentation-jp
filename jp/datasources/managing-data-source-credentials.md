@@ -1,8 +1,8 @@
 ## データ ソース資格情報の管理
 
-Reveal で特定のデータ ソースを設定するとき、これらのサービスが情報にアクセスするためのアカウント資格情報を提供する必要がある場合があります。今後のアクセスのために、資格情報は暗号化されて Reveal に保存されます。
+Reveal で特定のデータ ソースを設定するとき、これらのサービスが情報にアクセスするためのアカウント資格情報を提供する必要があります。今後のアクセスのために、資格情報は暗号化されて Reveal に**自動的に保存されます**。
 
-すべての資格情報にアクセスして管理するには、ホーム画面で**プロフィール写真** (右上隅) -> **[設定]** -> **[Reveal の資格情報の管理]** セクションをクリック/タップします。
+すべての資格情報にアクセスして管理するには、ホーム画面で**プロフィール写真** (右上隅) > **[設定]** > **[Reveal の資格情報の管理]** セクションを選択します。
 
 ![Manage Reveal Credentials menu](images/manage-reveal-credentials.png)
 
@@ -10,13 +10,16 @@ Reveal で特定のデータ ソースを設定するとき、これらのサー
 
 ### 新しいアカウント資格情報の追加
 
-リストに新しいアカウント資格情報を追加するには、上記のダイアログの *[+ 新規]* ボタンをクリック/タップします。*[アカウントの詳細]* メニューが開きます。
+In the _Manage Reveal Credentials_ section, you can create, edit and remove credentials for all your data sources accounts. To add new account credentials follow the instructions below.
+
+1. In _Manage Reveal Credentials_, click tap the **+ New** blue button (upper right corner).
+2. The *Account Details* menu opens:
 
 ![Add New Account Credentials dialog](images/add-new-account-credentials.png)
 
-次の情報を入力する必要があります:
+Here, you need to fill in the following information:
 
-  - **名前**: データソース アカウントの名前。資格情報を必要とするすべてのデータ ソースの [資格情報] ダイアログのアカウント リストに表示されます。
+  -  **Name**: choose a name, which suggests the data source(s) you are going to access with these credentials. It will be displayed in the *Choose Credentials* dialog when connecting to a data source.
 
   - *(オプション)* **ドメイン**: ドメイン名 (適用可能な場合)。
 
@@ -24,8 +27,14 @@ Reveal で特定のデータ ソースを設定するとき、これらのサー
 
   - **パスワード**: サービスにアクセスするためのパスワード。
 
-アカウントの詳細の追加を完了するには、*[作成]*をクリック/タップします。
+3. Click/Tap **Create** to finish. You will find your newly saved credentials at the bottom of the list in _Manage Reveal Credentials_.
 
->[!NOTE] **保存された資格情報の使用**。
->それらを削除しない限り、Reveal に保存されているアカウントの資格情報は資格情報を必要とするデータ ソースを構成するときに *[資格情報の選択]* 画面に常に表示されます。
->![データ ソースの資格情報を選択ダイアログ](images/ChooseCredentialsDataSource_All.png)
+### Using Your Stored Credentials
+
+Unless you remove them, the accounts' credentials stored in Reveal will always appear in the *Choose Credentials* screen when configuring a data source requiring credentials.
+
+![Choose Credentials for a Data Source dialog](images/choose-credentials-data-source.png)
+
+> [!NOTE] **Useful tip!** Take your time to add and organize here all credentials that you intend to use with multiple data sources. 
+
+

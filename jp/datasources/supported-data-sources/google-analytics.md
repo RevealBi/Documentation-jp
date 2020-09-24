@@ -89,3 +89,7 @@ Google アナリティクスで定義された*目標*を*表示形式エディ�
   - 最後の目標**タイプ** - 例えば、*完了*、*放棄されたファネル*など。
 
 目標の詳細については、Google アナリティクスの[ヘルプ ページ](https://support.google.com/analytics/answer/1012040?hl=en)をご覧ください。
+
+### Limitations of the Data Source
+
+Currently, you cannot create a [dashboard filter](~/jp/filters/dashboard-filters.md) with Google Analytics data. 

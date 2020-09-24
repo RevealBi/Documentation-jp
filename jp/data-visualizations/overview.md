@@ -1,10 +1,16 @@
 ## データ表示形式
 
-ビジネス データを理解するために Reveal は情報の可視化をカスタマイズする複数のオプションを提供します。
+Reveal helps you get the most insight possible out of business data by providing a variety of visualizations.
 
-![Reveal-UploadingDashboardsMenu\_All](images/reveal-uploading-dashboards-menu.png)
+### What is a Visualization?
 
-### トピックの概要
+<img src="images/data-visualizations-example.png" alt="Reveal's log in screen" width="800"/>
+
+Add description here.
+
+### Choosing the Right Chart Type
+
+### トピックの概要 - delete 
 
 表示形式タイプはいくつかあります。
 
@@ -22,7 +28,11 @@
 
   - [テキスト ボックス表示形式](visualization-types/text-box.md)
 
-### 表示形式チュートリアル
+### Next Steps 
+
+Creating a vis in the Visualizations editor - link 
+
+### Visualization Tutorials - delete; leave only a link to the Overview
 
 このセクションでは、Reveal の表示形式の作成手順を説明します。すべてのセクションのデータ ビジュアライゼーションに使用しているデータソースは、[こちら](http://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx)からダウンロードしてください。表示形式がサポートされる各ウィジェットの情報については、ヘルプの [データ表示] セクションを参照してください。
 

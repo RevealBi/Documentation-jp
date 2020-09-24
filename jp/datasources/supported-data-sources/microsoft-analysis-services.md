@@ -70,19 +70,19 @@ Analysis Services サーバーの資格情報が確認されたら、Reveal は�
 <a name='visualization-editor'></a>
 ### 表示形式エディターでの作業
 
-Microsoft Analysis Services からの情報でダッシュボードを作成する場合、以下のスクリーンショットのようにフィールドが異なって体系化されます。
+When you create a dashboard using a cube data source like Microsoft Analysis Services, you will see fields organized differently in the  *Visualizations Editor* (see screenshot below). Cube data sources consist of hierarchies and aggregations, which have been created by the cubes' designers in advance.
 
 ![VisEditorDimensionsMeasures\_All](images/VisEditorDimensionsMeasures_All.png)
 
-以下のように 「フィールド」 見出しがありません。代わりにクエリ フィールドに 2 つのセクションがあります。
+In the screenshot above, you may notice that there is no "Fields" heading on the left. Instead, there are two sections in their own query field:
 
 1.  **ディメンション** (ピンク色の側面の立方体アイコンで表示): ディメンションは、測定可能なデータを分類するために使用される構造です。ディメンションの要素は、以下の方法で整理できます。
 
-    1.  **階層** - ディメンション内の要素が階層別に編成されている場合、下位レベルの要素から開始して、階層全体または階層の一部を使用できます。たとえば、「国→都道府県→都市」階層で編成された「地理」ディメンションがある場合、この階層の「都道府県→都市」部分のみをドラッグして使用できます。
+    a.  **階層** - ディメンション内の要素が階層別に編成されている場合、下位レベルの要素から開始して、階層全体または階層の一部を使用できます。たとえば、「国→都道府県→都市」階層で編成された「地理」ディメンションがある場合、この階層の「都道府県→都市」部分のみをドラッグして使用できます。
 
-    2.  **名前付きセット** (フォルダーアイコンで示され、「Sets」という名前) - 名前を持つ要素の任意のコレクション (「Top 50 Customers」など)。
+    b.  **名前付きセット** (フォルダーアイコンで示され、Sets という名前) - 名前を持つ要素の任意のコレクション (Top 50 Customers など)。
 
-    3.  **属性** - 要素は単一レベルの階層で編成されます (「性別」、「婚姻状況」などの要素のグループを含む「人口統計」属性など)。
+    c.  **属性** - 要素は単一レベルの階層で編成されます (「性別」、「婚姻状況」などの要素のグループを含む「人口統計」属性など)。
 
 2.  **メジャー** ([123]アイコンで表示): メジャーは数値データで構成されます。
 
