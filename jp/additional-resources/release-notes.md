@@ -195,6 +195,6 @@
     <td class="tg-0lax"><span style="font-style:italic">ダッシュボードを共有してクラウド ストレージを操作するときの UX の向上</span><br>OneDrive、Google ドライブ、Dropbox アカウントのファイルからデータを取得するダッシュボードを共有するときのエクスペリエンスを改善しました。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">組織管理と権限管理</span><br>組織のオーナーは、メンバーを招待し、組織内のユーザーに権限を設定できるようになりました。</td>
+    <td class="tg-0lax"><span style="font-style:italic">組織管理と権限管理</span><br>組織の管理者は、メンバーを招待し、組織内のユーザーに権限を設定できるようになりました。</td>
   </tr>
 </table>

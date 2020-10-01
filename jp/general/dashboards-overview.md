@@ -20,7 +20,7 @@
 
 さらに、このモードでは、右上隅の**小さなチャート アイコン**をタップし、最大化されたビューを他の表示形式に切り替えることができます。エディターで使用されたデータに基づいて、さまざまな表示形式が表示されます。データで適切に機能するチャート タイプのみが提供されます。 
 
-変更された表示形式を保存する場合は、編集権限を持ち、[ダッシュボード編集モード](#view-edit-mode)で右上隅のチェック アイコンを選択して変更を明示的に保存する必要があります。自分で作成したか、[オーナーまたは変更の権限](~/jp/dashboards/sharing-dashboards/share-a-dashboard.md#access-permissions)で共有しているダッシュボードの編集権限があります。 
+変更された表示形式を保存する場合は、編集権限を持ち、[ダッシュボード編集モード](#view-edit-mode)で右上隅のチェック アイコンを選択して変更を明示的に保存する必要があります。自分で作成したか、[管理者または変更の権限](~/jp/dashboards/sharing-dashboards/share-a-dashboard.md#access-permissions)で共有しているダッシュボードの編集権限があります。 
 
 ![chart change in visualization view mode](images/chart-change-visualization-view-mode.png)
 
