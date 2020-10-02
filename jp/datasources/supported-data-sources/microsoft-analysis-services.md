@@ -70,11 +70,11 @@ Analysis Services サーバーの資格情報が確認されたら、Reveal は�
 <a name='visualization-editor'></a>
 ### 表示形式エディターでの作業
 
-When you create a dashboard using a cube data source like Microsoft Analysis Services, you will see fields organized differently in the  *Visualizations Editor* (see screenshot below). Cube data sources consist of hierarchies and aggregations, which have been created by the cubes' designers in advance.
+Microsoft Analysis Services などのキューブ データソースを使用してダッシュボードを作成すると、*表示形式エディター*でフィールドが異なって体系化されます (下のスクリーンショットを参照)。キューブのデータソースは、キューブのデザイナーが事前に作成した階層と集計で構成されています。
 
 ![VisEditorDimensionsMeasures\_All](images/VisEditorDimensionsMeasures_All.png)
 
-In the screenshot above, you may notice that there is no "Fields" heading on the left. Instead, there are two sections in their own query field:
+上のスクリーンショットでは、左側に「フィールド」の見出しがないことに気付くかもしれません。代わりに、クエリ フィールドに 2 つのセクションがあります:
 
 1.  **ディメンション** (ピンク色の側面の立方体アイコンで表示): ディメンションは、測定可能なデータを分類するために使用される構造です。ディメンションの要素は、以下の方法で整理できます。
 

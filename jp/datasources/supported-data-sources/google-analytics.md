@@ -90,6 +90,6 @@ Google アナリティクスで定義された*目標*を*表示形式エディ�
 
 目標の詳細については、Google アナリティクスの[ヘルプ ページ](https://support.google.com/analytics/answer/1012040?hl=en)をご覧ください。
 
-### Limitations of the Data Source
+### データソースの制限
 
-Currently, you cannot create a [dashboard filter](~/jp/filters/dashboard-filters.md) with Google Analytics data. 
+現在、Google Analytics データで[ダッシュボード フィルター](~/jp/filters/dashboard-filters.md)を作成することはできません。

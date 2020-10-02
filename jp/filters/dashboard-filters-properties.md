@@ -100,7 +100,7 @@ Reveal は、複数のダッシュボード フィルター値の同時選択を
 
 5.  リストから *London, UK* を選択し、[フィルターの作成] ボタンをクリック/タップします。
 
-### Dashboard Filters Using MS Analysis Data
+### MS Analysis Data を使用したダッシュボード フィルター
 
 SSAS ベースのダッシュボード フィルターを構成する場合、いくつかの詳細があります (以下のリストを参照)。
 

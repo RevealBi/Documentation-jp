@@ -10,31 +10,29 @@ Reveal で特定のデータ ソースを設定するとき、これらのサー
 
 ### 新しいアカウント資格情報の追加
 
-In the _Manage Reveal Credentials_ section, you can create, edit and remove credentials for all your data sources accounts. To add new account credentials follow the instructions below.
+_Reveal 資格情報の管理_ セクションでは、すべてのデータ ソース アカウントの資格情報を作成、編集および削除できます。新しいアカウント資格情報を追加するには、次の手順に従ってください。
 
-1. In _Manage Reveal Credentials_, click tap the **+ New** blue button (upper right corner).
-2. The *Account Details* menu opens:
+1. _Reveal 資格情報の管理_で、**[+ 新規]** の青いボタン (右上隅) をクリック/タップします。
+2. *アカウント情報*メニューが開きます:
 
 ![Add New Account Credentials dialog](images/add-new-account-credentials.png)
 
-Here, you need to fill in the following information:
+ここでは、次の情報を入力する必要があります:
 
-  -  **Name**: choose a name, which suggests the data source(s) you are going to access with these credentials. It will be displayed in the *Choose Credentials* dialog when connecting to a data source.
-
+  -  **名前**: これらの資格情報を使用してアクセスするデータソースを示す名前を選択します。データソースに接続すると、*資格情報の選択*ダイアログに表示されます。
   - *(オプション)* **ドメイン**: ドメイン名 (適用可能な場合)。
 
   - **ユーザー名**: サービスのユーザー アカウント。
 
   - **パスワード**: サービスにアクセスするためのパスワード。
 
-3. Click/Tap **Create** to finish. You will find your newly saved credentials at the bottom of the list in _Manage Reveal Credentials_.
+3. 完了するには、 **[作成]**をクリック/タップします。新しく保存した資格情報は、リストの下部にある _Reveal 資格情報の管理_にあります。
+### 保存された資格情報の使用
 
-### Using Your Stored Credentials
-
-Unless you remove them, the accounts' credentials stored in Reveal will always appear in the *Choose Credentials* screen when configuring a data source requiring credentials.
+それらを削除しない限り、Reveal に保存されているアカウントの資格情報は資格情報を必要とするデータ ソースを構成するときに*資格情報の選択*画面に常に表示されます。
 
 ![Choose Credentials for a Data Source dialog](images/choose-credentials-data-source.png)
 
-> [!NOTE] **Useful tip!** Take your time to add and organize here all credentials that you intend to use with multiple data sources. 
+> [!NOTE] **役立つヒント!** 複数のデータソースで使用する予定のすべての資格情報をここに追加して整理するために時間をかけてください。
 
 
