@@ -4,9 +4,9 @@
 
 Reveal Server SDK には、.NET Core 2.2+ または .NET Framework 4.6.2 以降の ASP MVC アプリケーション プロジェクトが必要です。
 
-NET Framework 4.6.2 以降 をターゲットとする場合、Reveal Server SDK には win7-x64 ランタイム環境がサポートされます。Web プロジェクトをデバッグするには、win7-x64 互換の RuntimeIdentifier プラットフォームを追加する必要があります。
+NET Framework 4.6.2 以降 をターゲットとする場合、Reveal Server SDK には win7-x64 ランタイム環境がサポートされます。Web プロジェクトをデバッグするには、win7-x64 互換の _RuntimeIdentifier_ プラットフォームを追加する必要があります。
 
-``` xml
+```xml
 <PropertyGroup>
 
    <TargetFramework>net462</TargetFramework>
@@ -29,13 +29,14 @@ NET Framework 4.6.2 以降 をターゲットとする場合、Reveal Server SDK
 4.  [**サーバー側画像生成の有効化**](#server-side-image-export).
 
 <a name='getting-assemblies-dependencies'></a>
+
 #### 1\. アセンブリと依存関係パッケージの準備
 
 アセンブリへの参照を追加して依存関係パッケージをインストールするには、**NuGet** パッケージ マネージャの使用をお勧めします。プロジェクトのセットアップには、**Infragistics.Reveal.Sdk.Web.AspNetCore** (トライアル) NuGet パッケージをインストールする方法が最も簡単です。
 
-Reveal SDK をインストールすると、%public%\\Documents\\Infragistics\\NuGet を指す Infragistics (Local) と呼ばれる新しい NuGet パッケージソースが **nuget.config** に追加されます。
+Reveal SDK をインストールすると、%public%\\Documents\\Infragistics\\NuGet を指す _Infragistics (Local)_ と呼ばれる新しい NuGet パッケージソースが **nuget.config** に追加されます。
 
-![addingNugetPackage\_web](images/addingNugetPackage_web.png)
+![addingNugetPackage_web](images/addingNugetPackage_web.png)
 
 Infragistics (Local) フィードがインストーラーによって正しく設定されていることを確認後:
 
@@ -47,11 +48,12 @@ Infragistics (Local) フィードがインストーラーによって正しく�
 <a name='defining-server-context'></a>
 
 <a name='defining-server-context'></a>
+
 #### 2\. サーバー コンテキストの定義
 
-必要な DLL を参照後、__IRevealSdkContext__ インターフェイスを実装するクラスを作成する必要があります。このインターフェイスは、Reveal SDK をアプリケーション内で実行できるようにし、SDK を操作するためのコールバックを提供します。
+必要な DLL を参照後、**IRevealSdkContext** インターフェイスを実装するクラスを作成する必要があります。このインターフェイスは、Reveal SDK をアプリケーション内で実行できるようにし、SDK を操作するためのコールバックを提供します。
 
-``` csharp
+```csharp
 using Infragistics.Sdk;
 public class RevealSdkContext : IRevealSdkContext
 {
@@ -81,20 +83,21 @@ public class RevealSdkContext : IRevealSdkContext
 }
 ```
 
-上記の実装は、C:\\Temp フォルダからダッシュボードをロードし、dashboardId 変数に依存する .rdash ファイルを検索します。アプリケーションでは、他のディレクトリやデータベースから、あるいは組み込みリソースからもダッシュボードを読み込めるよう変更します。
+上記の実装は、C:\\Temp フォルダからダッシュボードをロードし、_dashboardId_ 変数に依存する .rdash ファイルを検索します。アプリケーションでは、他のディレクトリやデータベースから、あるいは組み込みリソースからもダッシュボードを読み込めるよう変更します。
 
 > [!NOTE]
-> **null を返すプロパティ:** 最初の 3 つのプロパティ DataSourceProvider、DataProvider、および AuthenticationProvider はすべて null を返すように実装されています。このガイドでは、これらのプロパティのためにすべてのインターフェイスをインストールする方法について説明します。
+> **null を返すプロパティ:** 最初の 3 つのプロパティ _DataSourceProvider_、_DataProvider_、および _AuthenticationProvider_ はすべて null を返すように実装されています。このガイドでは、これらのプロパティのためにすべてのインターフェイスをインストールする方法について説明します。
 
 <a name='initializing-server-sdk'></a>
+
 #### 3\. サーバー SDK の初期化
 
 **Startup.cs** のアプリケーションの **ConfigureServices** メソッドで
-__RevealEmbedSettings__ クラスを渡し、サービス拡張メソッド AddRevealServices を呼び出します。
+\_RevealEmbedSettings\_ クラスを渡し、サービス拡張メソッド _AddRevealServices_ を呼び出します。
 
-*AddRevealServices* 拡張メソッドは __Infragistics.Sdk__ 名前空間で定義されているため、ユーザーを追加する必要があります。また、以下に示すように **CachePath** プロパティも設定してください。
+_AddRevealServices_ 拡張メソッドは **Infragistics.Sdk** 名前空間で定義されているため、ユーザーを追加する必要があります。また、以下に示すように **CachePath** プロパティも設定してください。
 
-``` csharp
+```csharp
 services.AddRevealServices(new RevealEmbedSettings
 {
     LocalFileStoragePath = @"C:\Temp\Reveal\DataSources",
@@ -103,23 +106,25 @@ services.AddRevealServices(new RevealEmbedSettings
 ```
 
 > [!NOTE]
-> **LocalFileStoragePath** は、ダッシュボード データソースとしてローカルの Excel ファイルまたは CSV ファイルを使用しており、RevealSdkContext クラスが前述のように IRevealSdkContext を実装している場合にのみ必要です。
+> **LocalFileStoragePath** は、ダッシュボード データソースとしてローカルの Excel ファイルまたは CSV ファイルを使用しており、_RevealSdkContext_ クラスが前述のように _IRevealSdkContext_ を実装している場合にのみ必要です。
 
 MVC サービスを追加するときに **AddReveal** 拡張メソッドを呼び出すことによって、Reveal エンドポイントを追加できます。以下はコードスニペットです。
 
-``` csharp
+```csharp
 services.AddMvc().AddReveal();
 ```
 
-AddRevealServices と同様に、AddReveal メソッドは Infragistics.Sdk
+_AddRevealServices_ と同様に、_AddReveal_ メソッドは _Infragistics.Sdk_
 で定義されているため、ディレクティブを使用してください。
 
 <a name='server-side-image-export'></a>
+
 #### 4\. サーバー側画像生成の有効化
 
 **画像エクスポート**機能 (プログラム上およびユーザー操作の両方により) を使用するには、以下の手順を実行する必要があります。
 
 1.  **\<InstallationDirectory\>\\SDK\\Web\\JS\\Server** から以下の 3 つのファイルを取得します。
+
       - package.json
       - packages-lock.json
       - screenshoteer.js
@@ -132,7 +137,7 @@ AddRevealServices と同様に、AddReveal メソッドは Infragistics.Sdk
 
 このエラーを解決するには、以下のプロパティをプロジェクトに追加します。
 
-``` xml
+```xml
 <PropertyGroup>
   <DisableRevealExportToImage>true</DisableRevealExportToImage>
 </PropertyGroup>
@@ -162,25 +167,25 @@ AddRevealServices と同様に、AddReveal メソッドは Infragistics.Sdk
 4.  [**React / Angular のサポートを設定**](#web-component-support) (オプション)
 
 <a name='check-dependencies'></a>
+
 #### 1\. 依存関係の確認
 Reveal Web Client SDK には、サードパーティーの参照が 2 つあります。
 
-  - [jQuery](https://jquery.com) 2.2 またはそれ以上
-  - [Day.js](https://day.js.org) 1.8.15 またはそれ以上
-  - [Quill RTE](https://quilljs.com/) 1.3.6 またはそれ以上
+- [jQuery](https://jquery.com) 2.2 またはそれ以上
+- [Day.js](https://day.js.org) 1.8.15 またはそれ以上
+- [Quill RTE](https://quilljs.com/) 1.3.6 またはそれ以上
 
 <a name='reference-web-client-sdk'></a>
 
 #### 2\. Web Client SDK の参照
 
-Web ページで __$.ig.RevealView__ コンポーネントを有効にするには、いくつかの クリプトを含める必要があります。これらのスクリプトは Reveal Web Client SDK の一部として提供されます。
+Web ページで **$.ig.RevealView** コンポーネントを有効にするには、いくつかの クリプトを含める必要があります。これらのスクリプトは Reveal Web Client SDK の一部として提供されます。
 
-``` html
+```html
 <script src="~/Reveal/infragistics.reveal.js"></script>
 ```
 
 JavaScript ファイル は \<InstallationDirectory\>\\SDK\\Web\\JS\\Client にあります。
-
 
 <a name='instantiate-web-client-sdk'></a>
 
@@ -190,52 +195,57 @@ JavaScript ファイル は \<InstallationDirectory\>\\SDK\\Web\\JS\\Client に�
 
 以下の手順に従って作業を開始します。
 
-1.  id を指定して \<div /\> 要素を定義し、__$.ig.RevealView__ コンストラクターを呼び出します。
+1.  id を指定して \<div /\> 要素を定義し、**\$.ig.RevealView** コンストラクターを呼び出します。
 
     > [!NOTE]
     > **サーバー側とクライアント側のパーツを個別にホスト**
-    > 個別のサーバーでクライアント側とサーバー側のパーツをホストする場合は、次の手順を続行する前に[こちら](../../web-sdk/sdk-overview-web.md#host-client-server-separate) を参照してください。
+    > 個別のサーバーでクライアント側とサーバー側のパーツをホストする場合は、次の手順を続行する前に[こちら](~/jp/developer/web-sdk/overview.html#host-client-server-separate)を参照してください。
 
-2.  コンストラクタで \_dashboardId\ を指定して __$.ig.RevealSettings__ のインスタンスを作成します。
+2.  コンストラクタで \_dashboardId\ を指定して **\$.ig.RevealSettings** のインスタンスを作成します。
 
-3.  __$.ig.RevealUtility.loadDashboard__ を呼び出して dashboardId と成功およびエラーハンドラを指定します。
+3.  **\$.ig.RevealUtility.loadDashboard** を呼び出して _dashboardId_ と成功およびエラーハンドラを指定します。
 
-    a.  成功ハンドラーでは、取得したダッシュボードを使用し、__$.ig.RevealSettings__ オブジェクトの dashboard プロパティに設定する必要があります。
+    a.  成功ハンドラーでは、取得したダッシュボードを使用し、**\$.ig.RevealSettings** オブジェクトの dashboard プロパティに設定する必要があります。
 
-4.  最後に、2 つのパラメータを渡して __$.ig.RevealView__ コンポーネントをインスタンス化します。1 つはダッシュボードをレンダリングする DOM 要素のセレクター、もう 1 つは設定オブジェクトです。
+4.  最後に、2 つのパラメータを渡して **\$.ig.RevealView** コンポーネントをインスタンス化します。1 つはダッシュボードをレンダリングする DOM 要素のセレクター、もう 1 つは設定オブジェクトです。
 
 #### サンプル コード
 
-``` html
+```html
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     ⋮
     <script type="text/javascript">
-        var dashboardId = "dashboardId";
-        var revealSettings = new $.ig.RevealSettings(dashboardId);
+      var dashboardId = "dashboardId";
+      var revealSettings = new $.ig.RevealSettings(dashboardId);
 
-        $.ig.RevealUtility.loadDashboard(dashboardId, function (dashboard) {
-            revealSettings.dashboard = dashboard;
-            var revealView = new $.ig.RevealView("#revealView", revealSettings);
-        }, function (error) {
-        //ここで発生する可能性があるエラーを処理します。
-        });
+      $.ig.RevealUtility.loadDashboard(
+        dashboardId,
+        function (dashboard) {
+          revealSettings.dashboard = dashboard;
+          var revealView = new $.ig.RevealView("#revealView", revealSettings);
+        },
+        function (error) {
+          //Process any error that might occur here
+        }
+      );
     </script>
-</head>
-<body>
+  </head>
+  <body>
     <div id="revealView" style="height:500px;" />
-</body>
+  </body>
 </html>
 ```
 <a name='web-component-support'></a>
+
 #### 4\. React / Angular のサポートを設定 (オプション) 
 
 フロントエンドでは、Reveal は Angular と React との互換性を提供する Web コンポーネントを提供します。
 
 次のスニペットは、クライアント側で追加する必要があるものを示しています。
 
-``` html
+```html
 <script src="~/Reveal/reveal-webComponent.js"></script>
 <section>
     <reveal-view dashboard-name="Sales" can-edit="" editing="" show-menu="" can-add-visualization=""</reveal-view>
@@ -246,5 +256,5 @@ Web コンポーネントには他の依存関係も含める必要があるこ�
 
 次の 2 つの JS ファイルが "\<InstallationDirectory\>\\Web\\JS" にあります。
 
-  - **reveal-webComponent.js**
-  - **reveal-WebComponent-ie11.js**
+- **reveal-webComponent.js**
+- **reveal-WebComponent-ie11.js**
