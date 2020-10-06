@@ -1,14 +1,46 @@
 ## 並べ替えフィールド
 
-Reveal では、データを昇順または降順に並べ替えることで、 表示形式のデータの表示方法を変更できます。さらに、元のデータ ソースの別のフィールドで文字列フィールドと数値フィールドを並べ替えることもできます。
+Reveal では、データを昇順または降順に並べ替えることで、 表示形式のデータの表示方法を変更できます。In addition, it is
+also possible to further control how a visualization looks with sorting by selected fields in your original data source. 
 
 ![Sort Visualization by setting dialog](images/sort-visualization-by-field.png)
 
+### Enabling Sort by Field 
+
+The *Sort by field* option is part of the fields settings, but is hidden by default. To enable it: 
+
+1. Select a field under the _Label_ placeholder. 
+2. In *Field Settings*, choose _Ascending_ or _Descending_ for _Sorting_. 
+3. _Sort by field_ shows under the _Sorting_ setting. You can choose a field from the dropdown on the right (as shown above).
+
 より実用的な情報については、この機能を示す次の例をご覧ください。
+
+  - [企業を優先順位で順序](#by-priority)
 
   - [文字列日付を時系列で並べ替え](#string-date-chr-order)
 
-  - [企業を優先順位で順序](#by-priority)
+<a name='by-priority'></a>
+### Ordering Support Cases by Priority
+
+There are scenarios where you would like to order a field by using business logic instead of ordering it alphabetically. 
+For example, the following is a visualization, which displays new support cases during the week, in ascending order.
+
+<img src="images/RevenueCompanyFilterSample_All.png" alt="Welcome image for Reveal" width="100%"/>
+
+The _Priority_ field is a text field so it's ordered A-Z by default. However, if we use business logic, _Priority_ values should be ordered as follows: _Low_ - _Normal_ - _High_. To achieve this, you should have a _Priority Level_ column in your data set showing the numeric representation of the priority status (see below). 
+
+<img src="images/RevenueCompanyPriority_All.png" alt="Welcome image for Reveal" width="100%"/>
+
+Organize the information in your chart by priority level without actually
+dragging and dropping *Priority Level* field into the data editor by using the
+*Sort By* field option.
+
+<img src="images/ForecastPriorityLevel_All.png" alt="Welcome image for Reveal" width="100%"/>
+
+Your resulting widget, therefore, will place new cases with *Low*
+priority first, ordered A-Z, *Normal* priority cases after those, and, lastly, *High* priority ones.
+
+<img src="images/ForecastSortByFieldFinal_All.png" alt="Welcome image for Reveal" width="100%"/>  
 
 <a name='string-date-chr-order'></a>
 ### 文字列日付を時系列で順序
@@ -27,21 +59,3 @@ Reveal では、データを昇順または降順に並べ替えることで、 
 
 ![FinalSortingFinancialSample\_All](images/FinalSortingFinancialSample_All.png)
 
-<a name='by-priority'></a>
-### 企業を優先順位で順序
-
-別のシナリオでは、たとえば、スプレッドシートのカスタム ビジネス ロジックに基づいてフィールドを並べ替えます。たとえば、次の表示形式は、6 つの企業の収益予測を[スプライン エリア  チャート](../visualization-tutorials/simple-charts.md#create-basic-chart).
-
-![RevenueCompanyFilterSample\_All](images/RevenueCompanyFilterSample_All.png)
-
-企業の名前はデフォルトで A-Z の順になっています。ただし、それらに割り当てられた優先度レベルは異なります。
-
-![RevenueCompanyPriority\_All](images/RevenueCompanyPriority_All.png)
-
-*並べ替え*フィールドを使用して、「優先度コード」 をデータ エディターにドラッグアンドドロップすることなく、優先度別にチャートの情報を整理します。
-
-![ForecastPriorityLevel\_All](images/ForecastPriorityLevel_All.png)
-
-したがって、結果のウィジェットでは、優先順位が「高」の企業を最初に A-Z の順に配置し、次に「中」の優先企業を配置し、最後に「低」の優先企業を配置します。
-
-![ForecastSortByFieldFinal\_All](images/ForecastSortByFieldFinal_All.png)
