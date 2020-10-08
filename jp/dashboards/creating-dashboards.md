@@ -6,7 +6,7 @@ Reveal のダッシュボード作成には以下のオプションが含まれ�
 
 2.  [データ ソースの追加](#add-data-source)。
 
-3.  *オプション* [表示形式の変更](#modify-visualization)。
+3.  *オプション*[表示形式の変更](#modify-visualization)。
 
 4.  [ダッシュボードの保存](#save-dashboard)。
 
@@ -17,7 +17,7 @@ Reveal のダッシュボード作成には以下のオプションが含まれ�
 
 ![Creating new dashboard](images/create-new-dashboard.png)
 
-[新しい表示形式] のダイアログを表示します。Proceed to create a visualization using a data source.
+[新しい表示形式] のダイアログを表示します。データソースを使用して表示形式を作成します。
 
 ![New visualization dialog](images/new-visualization-dialog.png)
 
