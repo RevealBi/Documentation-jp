@@ -29,7 +29,7 @@ Reveal は、埋め込み分析用に構築された最新の BI ソリューシ
 ダッシュボードが作成されたら、ドリルダウン サポートを使用して表示形式を操作するか、表示形式をオンザフライで変更することもできます。より深いインサイトを得るために、表示形式の注釈付き画像を作成して共有します。
 
 
-<img src="general/images/tooltips-totals.png" alt="Using tooltips and displaying totals in Reveal" width="800"/>
+<img src="dashboards/images/tooltips-totals.png" alt="Using tooltips and displaying totals in Reveal" width="100%"/>
 
 <h4 style="color:#2328B0;">チームとインサイトを共有する </h4>
 
