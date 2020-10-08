@@ -12,13 +12,9 @@ OneDrive データを使用するには、以下の手順を実行します。
 
 2.  OneDrive データを使用するには、Reveal に**制限付きのアクセス許可**を与える必要があることが通知されます。
 
-    ![Reveal notification for giving permissions to the app](images/notification-limited-permissions.png)
-
-    [続行] をクリックすると、**認証プロンプト**が表示されます。
-
     ![Limited permissions request Microsoft dialog](images/limited-permissions-onedrive_all.png)
 
-3.  [許可] を選択して、OneDrive ファイルの使用 (読み取りとアクセスの維持) を Reveal に許可します。
+[承認] を選択して、OneDrive ファイルの使用 (読み取りとアクセスの維持) を Reveal に許可します。
 
 OneDrive データを使用して表示形式を作成できます。以降、これらのアクセス許可は要求されません。
 
