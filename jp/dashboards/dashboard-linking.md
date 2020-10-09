@@ -2,17 +2,17 @@
 
 Reveal はダッシュボード リンクをサポートしています。これは、表示形式のグリッド行またはチャート列/バーが選択されたときにトリガーされます。この機能は、高度なドリルダウン ナビゲーションが可能です。表示形式により詳細な情報を表示したい場合、新しいダッシュボードを使用して目的を達成できます。この機能はトップダウン分析パスでとても役立ちます。ビジネスのハイレベルな概要から特定の詳細情報まで簡単にナビゲーションができます。1 つの例として Company 360 ダッシュボードの実装があり、各エリアの KPI (キー パフォーマンス インジケーター) を提供します。表示形式の 1 つを選択して最大化すると、Reveal はすべてのプロジェクトのより詳細な情報を含む他のダッシュボードを開きます。
 
-<img src="images/dashboard-linking-sample.png" alt="Dashboard linking sample" width="100%/>
+<img src="images/dashboard-linking-sample.png" alt="Dashboard linking sample" width="100%"/>
 
 特定のイベントに操作を関連づけることも可能です。サポートされる操作としてその他の**ダッシュボード**を開くことができます。さらに、**URL を開く**こともできます。これは、ダッシュボード ナビゲーションの一部としてサードパーティ ウェブ アプリケーションとのインタラクションなど拡張性を有効にします。リンクは、表示形式エディターの**設定**セクションの**リンク**から追加できます。
 
-![Pivot editor adding link](images/pivot-editor-linking2.png)
+<img src="images/pivot-editor-linking2.png" alt="Pivot editor adding link" width="100%"/>
 
 ### イベント
 
 **リンク** セクションのコントロールは、操作を実行するために使用されるイベントまたはトリガーを選択します。使用可能なオプション:
 
-![Possible options shown in Trigger linking](images/pivot-editor-link-trigger.png)
+<img src="images/pivot-editor-link-trigger.png" alt="Possible options shown in Trigger linking" width="100%"/>
 
   - **値が選択されています**: イベントは、ユーザーがグリッド ビューで行を選択すると常にトリガーされます。チャートなどの他の表示形式では、チャートのデータ アイテムを選択すると常にトリガーされます。これには、表示形式で使用されるチャート タイプに依存する柱状、横棒、円スライス、またはその他の要素が含まれる場合があります。
 
@@ -28,7 +28,7 @@ Reveal はダッシュボード リンクをサポートしています。これ
 
       - グリッド行またはチャート要素を選択した場合にユーザーに表示されるタイトルである**リンク名**。
 
-![Dashboard Action in the New Link Dialog](images/pivot-editor-actions-dashboard.png)
+<img src="images/pivot-editor-actions-dashboard.png" alt="Dashboard Action in the New Link Dialog" width="100%"/>
 
 ターゲット ダッシュボードにフィルターがある場合は、現在のダッシュボードのいずれかのダッシュボード フィルターから必要な値を取得する方法を構成することもできます。
 
@@ -38,11 +38,11 @@ Reveal はダッシュボード リンクをサポートしています。これ
 
       - グリッド行またはチャート要素を選択した場合にユーザーに表示されるタイトルである**リンク名**。
 
-![URL Action in the New Link Dialog](images/PivotEditorViewActionsConfig_All.png)
+<img src="images/PivotEditorViewActionsConfig_All.png" alt="URL Action in the New Link Dialog" width="100%"/>
 
 URL の場合は、**変数**を含めることもできます。これにより、表示形式フィールドの値に基づいて、ユーザーにリンクされる URL が動的に作成されます。たとえば、以下の表示形式リンクを見てみましょう。
 
-![PivotEditorViewActionsOpenURL\_All](images/PivotEditorViewActionsOpenURL_All.png)
+<img src="images/PivotEditorViewActionsOpenURL_All.png" alt="PivotEditorViewActionsOpenURL\_All" width="100%"/>
 
 URL は <http://www.countryreports.org/travel> に設定されており、選択した **変数** は **国** になります。したがって、表示形式で **国のレポートを表示** リンクを選択したユーザーは次のように表示されます:
 
@@ -50,4 +50,4 @@ URL は <http://www.countryreports.org/travel> に設定されており、選択
 
 `[Country Name]` は、**国**フィールドの値によって異なります。
 
-![Links added to pivot table with countries variables](images/dashboard-linking-variables.png)
+<img src="images/dashboard-linking-variables.png" alt="Links added to pivot table with countries variables" width="100%"/>
