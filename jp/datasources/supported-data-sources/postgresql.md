@@ -4,7 +4,7 @@
 
 PostgreSQL サーバーデータソースを設定するには、以下の情報が必要です。
 
-<img src="images/enter-postgreSQL-server-details.png" alt="Configure PostgreSQL Server details" width="100%"/>
+<img src="images/enter-postgreSQL-server-details.png" alt="Configure PostgreSQL Server details" width="80%"/>
 
 1.  データ ソースの**デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *PostgreSQL* という名前を付けます。好みに合わせて変更できます。
 
@@ -48,11 +48,11 @@ PostgreSQL サーバーデータソースを設定するには、以下の情報
 
 Reveal を使用すると、テーブル全体から PostgreSQL データを取得できますが、代わりにテーブルまたはテーブルのセットからデータのサブセットを返す特定の [ビュー](https://www.postgresql.org/docs/10/views.html) を選択することもできます。
 
-<img src="images/postgre-SQL-views.png" alt="PostgreSQL views dialog" width="100%"/>
+<img src="images/postgre-SQL-views.png" alt="PostgreSQL views dialog" width="80%"/>
 
 上記のサンプルの**請求書**ビューには、PostgreSQL サーバーの **Products** テーブルにあるデータの変更バージョンが含まれています。
 
-<img src="images/invoices-postgre-sql-view-sample.png" alt="Sample dashboard using PostgreSQL invoices view data" width="100%"/>
+<img src="images/invoices-postgre-sql-view-sample.png" alt="Sample dashboard using PostgreSQL invoices view data" width="80%"/>
 
 ビューと PostgreSQL の詳細については、[このウェブサイト](https://www.postgresql.org/docs/10/tutorial-views.html)。
 
@@ -63,13 +63,13 @@ PostgreSQL 関数を使用すると、データベース内の単一の関数で
 以下は、[Northwind](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases) データを使用してテスト サーバーで実行されるサンプル関数のセットです:
 
 
-<img src="images/postgresql-functions-list.png" alt="A list of PostgreSQL functions" width="100%"/>
+<img src="images/postgresql-functions-list.png" alt="A list of PostgreSQL functions" width="80%"/>
 
 
 関数を選択した後、いくつかの追加パラメーターを設定する必要があります。この場合、関数は、Sales for period の情報を表示するために開始日と終了日を設定する必要があります。
 
 
-<img src="images/sales-for-period.png" alt="Sales for period function parameters" width="100%"/>
+<img src="images/sales-for-period.png" alt="Sales for period function parameters" width="80%"/>
 
 
 関数と PostgreSQLの 詳細については、この [Web サイト (英語)](https://www.postgresql.org/docs/9.0/sql-createfunction.html) にアクセスしてください。

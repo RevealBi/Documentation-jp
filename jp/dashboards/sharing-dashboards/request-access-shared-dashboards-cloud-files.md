@@ -8,11 +8,11 @@
 
 ファイルが**削除されている**場合、共有ダッシュボードをクリックすると、Reveal は次のメッセージを表示します。
 
-<img src="images/message-deleted-source-file.png" alt="Message in Reveal: Can't access this data" width="100%"/>
+<img src="images/message-deleted-source-file.png" alt="Message in Reveal: Can't access this data" width="80%"/>
 
 ファイルへのアクセス権が**取り消された**場合は、次のように表示されます。
 
-<img src="images/request-access-button.png" alt="configure Google drive and request access options when access denied" width="100%"/>
+<img src="images/request-access-button.png" alt="configure Google drive and request access options when access denied" width="80%"/>
 
 ### 権限の取り消されたデータソース ファイルへのアクセス許可
 
@@ -20,7 +20,7 @@
 
 **管理者**が (アプリまたはメールを介して) 通知を開くと、次のダイアログが表示され、データソースへの接続を更新するように求められます。
 
-<img src="images/connections-failed-dialog.png" alt="connections failed dialog" width="100%"/>
+<img src="images/connections-failed-dialog.png" alt="connections failed dialog" width="80%"/>
 
 管理者が *[更新]* をクリックすると、アクセスが正常に修正されたかどうかを通知するメッセージが表示されます。
 
@@ -42,7 +42,7 @@
 
     2.  オーバーフロー メニューの *[ファイル アクセスの確認]* ボタンを選択します。
 
-        <img src="images/check-file-access-button.png" alt="Check shared access button in the overflow menu" width="100%"/>
+        <img src="images/check-file-access-button.png" alt="Check shared access button in the overflow menu" width="80%"/>
 
     3.  開いたダイアログで *[更新]* を選択します。
 

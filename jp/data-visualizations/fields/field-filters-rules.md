@@ -2,21 +2,21 @@
 
 データセットのフィールドにもフィルターとルールを適用できます。そのためには、データ エディターの下部にある**データ フィルター** プレースホルダーにフィールドを追加する必要があります。次に、ドロップダウンからフィールドを選択して、*データ フィルター* ウィンドウにアクセスします。
 
-<img src="images/add-data-filter.png" alt="Adding data filter fields list" width="100%"/>
+<img src="images/add-data-filter.png" alt="Adding data filter fields list" width="80%"/>
 
 <a name='empty-values'></a>
 ### 空値をフィルター
 
 Reveal は特定の列で空値のフィルター構成の設定を有効にすることによって、特定の列に null、または空の値を持つデータ セット内の行をフィルタリングする機能を提供します。
 
-<img src="images/FilterEmtpyValues_All.png" alt="FilterEmtpyValues\_All" width="100%"/>
+<img src="images/FilterEmtpyValues_All.png" alt="FilterEmtpyValues\_All" width="80%"/>
 
 <a name='select-values'></a>
 ### 値の選択
 
 このタイプのフィルターは、特定のフィールドに表示する値セットの定義をサポートします。これを有効にするには、フィールドを**データ フィルター** プレースホルダーにドラッグアンドドロップします。
 
-<img src="images/SelectValues_All.png" alt="SelectValues\_All" width="100%"/>
+<img src="images/SelectValues_All.png" alt="SelectValues\_All" width="80%"/>
 
 *[フィールド設定]* ダイアログに、**[値の選択]** オプションが表示されます。列に使用可能な値のリストを表示し、データセット内に残したい項目のみを選択できます。フィルターによって除外された値を持つ行は表示形式に表示されません。
 
@@ -99,6 +99,6 @@ Reveal は特定の列で空値のフィルター構成の設定を有効にす�
 
 **データ エディターの値プレースホルダーにドロップされたフィールドをフィルターすること**もできます。これは、フィールドのリストとは異なる[集計](field-settings.html#numeric-fields)になる可能性があります。
 
-<img src="images/data-filters-filtering-data-editor.png" alt="Data Filters Filtering in the Data Editor" width="100%"/>
+<img src="images/data-filters-filtering-data-editor.png" alt="Data Filters Filtering in the Data Editor" width="80%"/>
 
 これらのフィールドは、フィールド リストの下部に、それらに適用される集計の名前とともに表示されます。

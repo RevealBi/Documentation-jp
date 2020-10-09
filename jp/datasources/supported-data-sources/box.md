@@ -2,7 +2,7 @@
 
 データ ソースとして Box を選択すると、以下のログイン プロンプトが表示されます。
 
-<img src="images/box-login.png" alt="Box login prompt" width="100%"/>
+<img src="images/box-login.png" alt="Box login prompt" width="80%"/>
 
 ログイン情報を入力し [認証] を選択します。
 

@@ -4,7 +4,7 @@ Reveal で特定のデータ ソースを設定するとき、これらのサー
 
 すべての資格情報にアクセスして管理するには、ホーム画面で**プロフィール写真** (右上隅) > **[設定]** > **[Reveal の資格情報の管理]** セクションを選択します。
 
-<img src="images/manage-reveal-credentials.png" alt="Manage Reveal Credentials menu" width="100%"/>
+<img src="images/manage-reveal-credentials.png" alt="Manage Reveal Credentials menu" width="80%"/>
 
 このセクションでは、すべてのデータ ソース アカウントの資格情報を作成、編集および削除できます。
 
@@ -15,7 +15,7 @@ _Reveal 資格情報の管理_ セクションでは、すべてのデータ ソ
 1. _Reveal 資格情報の管理_で、**[+ 新規]** の青いボタン (右上隅) をクリック/タップします。
 2. *アカウント情報*メニューが開きます:
 
-<img src="images/add-new-account-credentials.png" alt="Add New Account Credentials dialog" width="100%"/>
+<img src="images/add-new-account-credentials.png" alt="Add New Account Credentials dialog" width="80%"/>
 
 ここでは、次の情報を入力する必要があります:
 
@@ -31,7 +31,7 @@ _Reveal 資格情報の管理_ セクションでは、すべてのデータ ソ
 
 それらを削除しない限り、Reveal に保存されているアカウントの資格情報は資格情報を必要とするデータ ソースを構成するときに*資格情報の選択*画面に常に表示されます。
 
-<img src="images/choose-credentials-data-source.png" alt="Choose Credentials for a Data Source dialog" width="100%"/>
+<img src="images/choose-credentials-data-source.png" alt="Choose Credentials for a Data Source dialog" width="80%"/>
 
 > [!NOTE] **役立つヒント!** 複数のデータソースで使用する予定のすべての資格情報をここに追加して整理するために時間をかけてください。
 

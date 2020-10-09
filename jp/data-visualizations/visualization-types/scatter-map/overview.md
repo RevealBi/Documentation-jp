@@ -4,7 +4,7 @@ Scatter maps in Reveal present you with a lot of opportunities for your map visu
 
 Scatter maps give you the possibility to connect to a number of map services, which will not only create a more realistic background for your maps, but will also allow you to delve into details. Just imagine how much value you can add to your real estate market analysis if you can show neighborhoods and streets on your map! 
 
-<img src="images/scatter-maps-dashboard.png" alt="Different scatter maps visualizations in a dashboard" width="100%"/>
+<img src="images/scatter-maps-dashboard.png" alt="Different scatter maps visualizations in a dashboard" width="80%"/>
 
 <a name='location-data-format'></a>
 ### Location Data Requirements
@@ -22,7 +22,7 @@ The Scatter Map in Reveal provides you with a variety of opportunities for your 
 
 The most basic scatter maps in Reveal consist of uniform color dots plotted over a chosen area. 
 
-<img src="images/scatter-dot-map-airports.png" alt="A dot map showing the distribution of airports across the US" width="100%"/>
+<img src="images/scatter-dot-map-airports.png" alt="A dot map showing the distribution of airports across the US" width="80%"/>
 
 The dot maps are the most basic of the scatter maps in Reveal. They can be created by using only the *Latitude* and *Longitude* data from your data set. If your data source does not contain these fields, you can add them from another data source. See how to do this in [Combining Data Sources in One Visualization](~/en/datasources/data-blending.html).
 
@@ -39,7 +39,7 @@ Because of the conceptual simplicity of this map, you can only choose whether to
 
 You can also create scatter maps using different-sized dots - bubbles. 
 
-<img src="images/scatter-bubble-map-electoral-college.png" alt="A bubble map showing the electoral college votes distribution across US states" width="100%"/>
+<img src="images/scatter-bubble-map-electoral-college.png" alt="A bubble map showing the electoral college votes distribution across US states" width="80%"/>
 
 Bubble maps are created by using the same data as simple dot maps. Plus, you need to drop a numeric field in the _Bubble Radius_ placeholder.
 
@@ -55,7 +55,7 @@ The bubble tooltips are used to help your audience read the map. It gives a bett
 The scatter map allows you to visualize a third variable indicated by color. Adding color is optional for both dot and bubble maps.
 
 <img src="images/scatter-color-average-age-euro-population
-.png" alt="A scatter map showing the average age of Euro Population sized by number and colored using conditional formatting for medium age" width="100%"/>
+.png" alt="A scatter map showing the average age of Euro Population sized by number and colored using conditional formatting for medium age" width="80%"/>
 
 Color on the map can be determined by: 
 
@@ -96,7 +96,7 @@ One-to-many dot maps are not supported in Reveal. This means, one dot cannot rep
 
 Bubble maps are great for showing and comparing quantitative data in different locations. The size of bubbles indicates the value of a particular variable being compared. To achieve the comparison effect, it would be best if your data set contains a large variation of values for the compared variable. Otherwise, bubbles on the map will appear similar by size (see example below). 
 
-<img src="images/bubble-map-density-population-europe-bad-example.png" alt="Bubble map showing similar density of population in European countries except for Monaco" width="100%"/>
+<img src="images/bubble-map-density-population-europe-bad-example.png" alt="Bubble map showing similar density of population in European countries except for Monaco" width="80%"/>
 
 Unless you aim to identify and focus on outliers (like in the screenshot above), you may need to reconsider your choice of visualization.
 
@@ -111,12 +111,12 @@ Color makes maps easier to perceive and gives you the opportunity to add one mor
 Simple dot maps colored by category are good for drawing the attention of your audience to clusters and areas where the distribution of an object is really high. For example, you can be much quicker identifying the states with most airports if the airports in different states are colored differently (see below). 
 
 <img src="images/scatter-dot-different-colors
-.png" alt="A scatter map showing the average age of Euro Population sized by number and colored using conditional formatting for medium age" width="100%"/>
+.png" alt="A scatter map showing the average age of Euro Population sized by number and colored using conditional formatting for medium age" width="80%"/>
 
 Dot maps colored by value will help you provide insight while avoiding the risk of overlapping large bubbles. If, for example, you aim to make the tendency of aging population in Europe evident with one look, create a dot map colored by the medium age of population and style the color to show low, medium and high average age:
 
 <img src="images/scatter-dot-map-colored-by-value
-.png" alt="A scatter map showing the average age of Euro Population with dots colored by using conditional formatting for medium age" width="100%"/>
+.png" alt="A scatter map showing the average age of Euro Population with dots colored by using conditional formatting for medium age" width="80%"/>
 
 However, if you aim to show the correlation between two  values for individual locations, your purpose will be served by presenting one value with size and the other - with color. Taking the previous example, you can color the dots by the age of population and size them by GDP of the country to show the correlation between prosperity and higher life expectancy. 
 
@@ -135,6 +135,6 @@ Zooming also allows you to change the clear shapes Reveal uses as a map backgrou
 * Mapbox
 
 <img src="images/scatter-map-image-tiles-enabled
-.png" alt="A scatter map showing the average age of Population in East Asia zoomed in and using image tiles" width="100%"/>
+.png" alt="A scatter map showing the average age of Population in East Asia zoomed in and using image tiles" width="80%"/>
 
 For more information on how to use your map se key in Reveal or how to view shared maps using image files, read the [Using Map Image Tiles](map-image-tiles.html) topic.

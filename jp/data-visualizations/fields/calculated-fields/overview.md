@@ -19,11 +19,11 @@ Reveal では、計算フィールドというフィールドをデータセッ�
 
 新しい計算フィールドを追加するには、[フィールド] パネルの [+] ボタンをクリック/タップします。
 
-<img src="images/pre-calculated-field-button.png" alt="計算フィールドのボタン" width="100%"/>
+<img src="images/pre-calculated-field-button.png" alt="計算フィールドのボタン" width="80%"/>
 
 [計算フィールドの作成] 画面が開きます。
 
-<img src="images/new-calculated-field-screen.png" alt="New calculated field screen" width="100%"/>
+<img src="images/new-calculated-field-screen.png" alt="New calculated field screen" width="80%"/>
 
 以下の手順を実行します。
 
@@ -33,7 +33,7 @@ Reveal では、計算フィールドというフィールドをデータセッ�
 
 新しい計算フィールドは、「フィール」ドリストの下部に表示されます。
 
-<img src="images/new-calculated-field-bottom-list.png" alt="New calculated field shown at the bottom of fields list" width="100%"/>
+<img src="images/new-calculated-field-bottom-list.png" alt="New calculated field shown at the bottom of fields list" width="80%"/>
 
 上記の例では、集計がデータ フィールドに適用されていないグリッドの表示形式で新しい計算フィールドが使用されます。事前計算フィールドは、ピボット グリッドでも使用できます。この場合、計算は事前計算フィールドで集計されたレコードに適用されます。
 
@@ -46,11 +46,11 @@ Reveal では、計算フィールドというフィールドをデータセッ�
 
 1.  データ エディターでデータソースからフィールドを追加して、表示形式 (またはピボット テーブル) を作成します。
 
-    <img src="images/post-calculated-fields-data-editor.png" alt="Post calculated fields in the Data editor" width="100%"/>
+    <img src="images/post-calculated-fields-data-editor.png" alt="Post calculated fields in the Data editor" width="80%"/>
 
 2.  [値] の横にある [F(x)] ボタンをクリック/タップして、[計算フィールドの作成] 画面を開きます。
 
-    <img src="images/post-calculated-field-new-calculated-field-screen.png" alt="Post calculated field new calculated field screen" width="100%"/>
+    <img src="images/post-calculated-field-new-calculated-field-screen.png" alt="Post calculated field new calculated field screen" width="80%"/>
 
 3.  事後計算のフィールドの [計算フィールドの作成] 画面
 計算フィールドに名前を付け、集計値に数式を適用します。
@@ -58,7 +58,7 @@ Reveal では、計算フィールドというフィールドをデータセッ�
 
 データ エディターに含まれていないデータソースの他のフィールドを使用する場合は、[値] の横の [+] ボタンをクリック/タップして追加できます。事後計算フィールドは集計値のみで作成されるため、最初にデータ フィールドで実行する集計をドロップダウン リストから選択する必要があります。
 
-<img src="images/post-calculated-field-new-calculated-field-screen-adding-fields.png" alt="Adding fields in the calculated field screen" width="100%"/>
+<img src="images/post-calculated-field-new-calculated-field-screen-adding-fields.png" alt="Adding fields in the calculated field screen" width="80%"/>
 
 手順 1 をスキップして、最初に事後計算フィールドを作成するか、表示形式で事後計算フィールドのみを使用することもできます。
 

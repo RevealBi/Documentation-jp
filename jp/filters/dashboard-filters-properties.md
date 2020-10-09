@@ -8,7 +8,7 @@
 
 2.  ダッシュボード フィルター メニューが開きます。デフォルトで、選択されたデータ ソースは、はじめての表示形式で使用されるデータ ソースになります。変更するには、データソース名の横にあるオーバーフロー ボタンを選択します。
 
-    <img src="images/select-dashboard-filter-data-source-menu.png" alt="Selecting Dashboard Filter data source menu" width="100%"/>
+    <img src="images/select-dashboard-filter-data-source-menu.png" alt="Selecting Dashboard Filter data source menu" width="80%"/>
 
 3.  ダッシュボード フィルターとして使用するデータセットを選択し、[データの選択] をクリック/タップします。
 
@@ -48,18 +48,18 @@
 
 ダッシュボード フィルター名の隣りのオーバーフロー メニューで [編集] ボタンをクリックして、編集モードで表示列を変更できます。
 
-<img src="images/edit-displayed-field-filter-setting.png" alt="Accessing dashboard filter edit mode" width="100%"/>
+<img src="images/edit-displayed-field-filter-setting.png" alt="Accessing dashboard filter edit mode" width="80%"/>
 
 <a name='multiple-selection'></a>
 ### 複数選択
 
 Reveal は、複数のダッシュボード フィルター値の同時選択をサポートしています。これにより、コレクション内で要素を並べて比較できます。たとえば、[HR ダッシュボード] で複数の選択を有効にすることで、さまざまなオフィスの雇用や欠勤を比較することができます。
 
-<img src="images/dashboard-filters-multiple-selection.png" alt="Filters multiple selection applied to a dashboard" width="100%"/>
+<img src="images/dashboard-filters-multiple-selection.png" alt="Filters multiple selection applied to a dashboard" width="80%"/>
 
 **「複数選択」を有効する**には、ダッシュボードを編集モードに替える必要があります。⇒ ダッシュボード フィルターのオーバーフロー ニューから [編集] を選択 ⇒ [選択] ⇒ [複数選択] チェックボックスをオンにします。
 
-<img src="images/dashboard-filters-enable-multiple-selection.png" alt="Enabling dashboard filters multiple selection" width="100%"/>
+<img src="images/dashboard-filters-enable-multiple-selection.png" alt="Enabling dashboard filters multiple selection" width="80%"/>
 
 <a name='required-selection'></a>
 ### 必須選択
@@ -69,7 +69,7 @@ Reveal は、複数のダッシュボード フィルター値の同時選択を
 
 **「必須選択」を有効する**には、ダッシュボードを編集モードに替える必要があります。⇒ ダッシュボード フィルターのオーバーフロー ニューから [編集] を選択 ⇒ [選択] ⇒ [必須選択] チェックボックスをオンにします。
 
-<img src="images/dashboard-filter-enable-required-selection.png" alt="Enabling dashboard filters required selection" width="100%"/>
+<img src="images/dashboard-filter-enable-required-selection.png" alt="Enabling dashboard filters required selection" width="80%"/>
 
 <a name='data-filters'></a>
 ### データ フィルター
@@ -78,7 +78,7 @@ Reveal は、複数のダッシュボード フィルター値の同時選択を
 
 たとえば、*従業員名*フィールドを使用して *HR ダッシュボード*のデータをフィルタリングする場合、*ダッシュボード フィルター*は会社のすべてのオフィスの従業員リストを表示します。
 
-<img src="images/data-filters-dashboard-filters-hr-dashboard-example.png" alt="Employee name dashboard filter applied to HR Dashboard" width="100%"/>
+<img src="images/data-filters-dashboard-filters-hr-dashboard-example.png" alt="Employee name dashboard filter applied to HR Dashboard" width="80%"/>
 
 ここでは、特定のオフィスで働いている従業員だけをフィルターとして使用する場合は、*データ フィルター* プロパティを適用でる、たとえば、*ロンドン、英国*。それにより、ダッシュボード フィルターには、ロンドンオフィスで働く従業員のリストが表示されます。
 
@@ -92,11 +92,11 @@ Reveal は、複数のダッシュボード フィルター値の同時選択を
 
 3.  *フィールドを選択*をクリック/タップして、リストから*オフィス*を選択します。
 
-    <img src="images/dashboard-filters-select-data-filter-field.png" alt="Selecting a field for a data filter in the dashboard filter settings menu" width="100%"/>
+    <img src="images/dashboard-filters-select-data-filter-field.png" alt="Selecting a field for a data filter in the dashboard filter settings menu" width="80%"/>
 
 4.  次のダイアログで、適用するフィルター タイプを選択します (この例では、*値の選択*を選択します)。
 
-    <img src="images/dashboard-filter-field.png" alt="Dashboard Filters Filter type option" width="100%"/>
+    <img src="images/dashboard-filter-field.png" alt="Dashboard Filters Filter type option" width="80%"/>
 
 5.  リストから *London, UK* を選択し、[フィルターの作成] ボタンをクリック/タップします。
 

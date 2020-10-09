@@ -4,11 +4,11 @@ KPI (Key Performance Indicator: キー パフォーマンス インジケータ�
 
 [テキスト ゲージ](gauge-views.html#text-gauge) と同様に、KPI ゲージは値列を大きなフォントで表示します。ただし、KPI の値は、前の期間の同じ値に対しても評価されます。
 
-<img src="images/pivot-editor-view-kpi-gauge.png" alt="KPI Gauge view in the Visualization editor" width="100%"/>
+<img src="images/pivot-editor-view-kpi-gauge.png" alt="KPI Gauge view in the Visualization editor" width="80%"/>
 
 カテゴリを追加すると、1 つの表示形式に複数の KPI を含めることもできます。
 
-<img src="images/multiple-kpi-gauges.png" alt="Multiple KPI Gauges" width="100%"/>
+<img src="images/multiple-kpi-gauges.png" alt="Multiple KPI Gauges" width="80%"/>
 
 ### インジケータ設定
 
@@ -20,4 +20,4 @@ KPI ゲージには[スパークライン](sparkline-charts.html)表示形式と
 
   - **差異が正の場合**: 差異インジケータの色。
 
-<img src="images/advanced-settings-kpi-gauge.png" alt="Advanced Settings KPI Gauge" width="100%"/>
+<img src="images/advanced-settings-kpi-gauge.png" alt="Advanced Settings KPI Gauge" width="80%"/>

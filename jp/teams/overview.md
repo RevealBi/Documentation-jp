@@ -18,7 +18,7 @@ Reveal チームの機能:
 
 チームにアクセスするには、*Reveal* アイコンの隣のポップオーバー メニューをクリック/タップします。
 
-<img src="images/accessing-teams-menu.png" alt="Accessing teams popover menu" width="100%"/>
+<img src="images/accessing-teams-menu.png" alt="Accessing teams popover menu" width="80%"/>
 
 ポップオーバー メニューの [アイテム] の下にチームのリストがあります。
 

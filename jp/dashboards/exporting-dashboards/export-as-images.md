@@ -29,14 +29,14 @@ Reveal では、ダッシュボード全体のスクリーン キャプチャま
 
 特定の場所に異なる図形のメモやのハイライトを含む必要がある場合、*[画像をエクスポート]* メニューでダッシュボードに注釈を追加できます。**注釈セクションにアクセスする**には、*[画像をエクスポート]*ダイアログで鉛筆アイコンを選択します。
 
-<img src="images/image-annotation-menu.png" alt="Accessing Image Annotation Menu" width="100%"/>
+<img src="images/image-annotation-menu.png" alt="Accessing Image Annotation Menu" width="80%"/>
 
 注釈メニューの上部ツールバーには、形状の追加やフリースタイルの注釈など、多くのオプションがあります。
 
-<img src="images/image-annotation-shapes.png" alt="Image annotation shapes options" width="100%"/>
+<img src="images/image-annotation-shapes.png" alt="Image annotation shapes options" width="80%"/>
 
 テキストのオプションでは画像の上にテキストを追加できます。背景色、フォントの太さ、フォント サイズ、フォント カラーなど、テキストをカスタマイズするオプションを提供します。
 
-<img src="images/image-annotation-text.png" alt="Adding text in image annotation" width="100%"/>
+<img src="images/image-annotation-text.png" alt="Adding text in image annotation" width="80%"/>
 
 **Android および iOS** デバイスでの画像のエクスポートについては、[「ダッシュボードのエクスポート」](how-to-export-a-dashboard.html#mobile-devices)トピックを参照してください。

@@ -13,7 +13,7 @@
 
 以下に示すような**階層データなしの表示形式**を作成できます:
 
-<img src="images/treemap-chart-example-no-hierarchy.png" alt="An example of a treemap with no hierarchy" width="100%"/>
+<img src="images/treemap-chart-example-no-hierarchy.png" alt="An example of a treemap with no hierarchy" width="80%"/>
 
 階層のないツリーマップを使用して、パターンおよび一部と全体の関係を魅力的で明確な方法で表示できます。
 
@@ -21,11 +21,11 @@
 
 1. *データソースの選択*ダイアログで、*Reveal のサンプル データ*を選択します。
 
-    <img src="images/data-source-reveal-sample.png" alt="Reveal Sample Data in the list of data sources" width="100%"/>
+    <img src="images/data-source-reveal-sample.png" alt="Reveal Sample Data in the list of data sources" width="80%"/>
 
 2. *表示形式エディター*で、**ツリーマップ表示形式**を選択します。
 
-    <img src="images/choose-treemap.png" alt="Tree Map visualization in the Change Visualization dialog" width="100%"/>
+    <img src="images/choose-treemap.png" alt="Tree Map visualization in the Change Visualization dialog" width="80%"/>
 
 3. *ツリーマップ データ セクション*で、*ラベル*に _Product_ を、*値*に _New Sales_ をドロップします。
 
@@ -39,7 +39,7 @@
 
 階層データの処理は、ツリーマップの当初の目的です。階層に構成できる値のメトリックは 1 つだけですが、カテゴリは無制限です。
 
-<img src="images/treemap-hierarchy-example.png" alt="Example of a hierarchical treemap visualization" width="100%"/>
+<img src="images/treemap-hierarchy-example.png" alt="Example of a hierarchical treemap visualization" width="80%"/>
 
 上記の例では、ツリーマップは、_Product_ カテゴリによって決定される 5 つの大きな四角形 (ツリーマップのブランチ) に分割されています。各ブランチには、次のカテゴリ レベル - _Territory_ によって決定された*小さな四角形が含まれています*。下位レベルは表示されません。
 
@@ -54,13 +54,13 @@
 
 ツリーマップ表示形式をドリルアップおよびドリルダウンして、異なる階層レベル間を移動できます。これを行うには、*大きな四角形の領域をクリックします* (含まれるタイルに関係なく)。ツールチップで、*ドリルダウン/アップ*を選択します。
 
-<img src="images/drill-down-select.png" alt="Select drill down in tooltip" width="100%"/>
+<img src="images/drill-down-select.png" alt="Select drill down in tooltip" width="80%"/>
 
 #### ツリーマップ レベルの詳細
 
 階層の最下部 (*ラベル*にドロップされた最後のフィールド) に到達すると、表示形式は[フラット ツリーマップ](#flat-treemap.html)のようになります。
 
-<img src="images/total-tooltips-treemap.png" alt="Tooltips in the bottom of a treemap" width="100%"/>
+<img src="images/total-tooltips-treemap.png" alt="Tooltips in the bottom of a treemap" width="80%"/>
 
 ツリーマップ表示形式の上部 (左側) にある*合計ラベル*は、すべてのレベルで変化します。_Totals_ は、*ラベル*の各階層レベルの*値*フィールドの変更を反映しています (前の例の合計を比較してください)。上の例の合計ラベルには、日本での製品 B のすべての新規販売が表示されます。
 
@@ -68,7 +68,7 @@
 
 ### 表示形式エディター設定の操作
 
-<img src="images/settings-section.png" alt="Settings section in the Visualization editor" width="100%"/>
+<img src="images/settings-section.png" alt="Settings section in the Visualization editor" width="80%"/>
 
 ツリーマップ表示形式の*設定*セクションでは、以下を設定できます:
 

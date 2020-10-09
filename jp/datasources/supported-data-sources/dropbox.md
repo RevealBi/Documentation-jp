@@ -2,7 +2,7 @@
 
 Dropbox を選択すると、以下のログイン プロンプトが表示されます。
 
-<img src="images/dropbox-login.png" alt="Dropbox login dialog" width="100%"/>
+<img src="images/dropbox-login.png" alt="Dropbox login dialog" width="80%"/>
 
 ログイン情報を入力して*サインイン*を選択します。次に承認プロンプトが表示されます。*許可*を選択して Reveal アプリケーションの Dropbox クラウドのファイルへのアクセスを許可します。
 

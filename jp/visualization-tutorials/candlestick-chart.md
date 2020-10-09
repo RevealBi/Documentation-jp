@@ -44,7 +44,7 @@
 
   - [Open]、[High]、 [Low] および [Close] の **4 つの異なるフィールド** データ エディタのカテゴリ。
 
-<img src="images/candlestick-chart-visualization-settings.png" alt="Candlestick chart visualization settings" width="100%"/>
+<img src="images/candlestick-chart-visualization-settings.png" alt="Candlestick chart visualization settings" width="80%"/>
 
 チャートに追加情報を表示するためのオプションが複数あります。
 

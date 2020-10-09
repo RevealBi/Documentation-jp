@@ -9,7 +9,7 @@ Reveal を別のアプリケーション (Windows WPF、Windows フォーム、i
 RevealView コンポーネントはレンダリングおよびデータ変換機能を Reveal エンジンを通じて自動的に提供しますが、ダッシュボードまたは資格情報の保管は処理しません。
 ダッシュボードの定義を保持するバイナリ コンテンツ (.rdashファイル) は、内包アプリケーションによって提供される必要があります。これにより、コンテナ アプリケーションは、ダッシュボードの使用方法やエンドユーザーによる共有方法を処理できます (たとえば、ダッシュボードは内部サーバーからダウンロードしたり、アプリケーションのバイナリにリソースとしてまとめたり、ファイルシステムに保存したりできます)。
 
-<img src="images/sdk_native_diagram_desktop.png" alt="sdk\_native\_diagram\_desktop" width="100%"/>
+<img src="images/sdk_native_diagram_desktop.png" alt="sdk\_native\_diagram\_desktop" width="80%"/>
 
 ### 資格情報の詳細
 

@@ -2,7 +2,7 @@
 
 OData サービスのデータソースを設定するには、以下の情報が必要です。
 
-<img src="images/enter-OData-service-details.png" alt="Enter OData Service Details dialog" width="100%"/>
+<img src="images/enter-OData-service-details.png" alt="Enter OData Service Details dialog" width="80%"/>
 
 1.  データソースの **デフォルト名**: データソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *OData Feed* という名前を付けます。好みに合わせて変更できます。
 
@@ -30,11 +30,11 @@ Reveal は、動的な[*オープン型の列*](https://docs.microsoft.com/ja-jp
 以下の例は、動的な Odata サンプルの [1 つ](https://services.odata.org/V3/OData/\(S\(bwrmr2ccg0nex5gmubqxjkkz\)\)/OData.svc/)に基づいて作成されます。
 最初に 3 つのカテゴリを持つ 2 つのフィールド (**ID** および **Name**) の表示形式が作成されました。
 
-<img src="images/ODataOpenTypesSampleV3_All.png" alt="ODataOpenTypesSampleV3\_All" width="100%"/>
+<img src="images/ODataOpenTypesSampleV3_All.png" alt="ODataOpenTypesSampleV3\_All" width="80%"/>
 
 いくつかのレコードが [Postman](https://www.odata.org/getting-started/learning-odata-on-postman/) によって Categories セクションに追加されました。変更後、ダッシュボードが更新され、新しいレコードが表示されました。
 
-<img src="images/ODataRefreshedOpenTypeV3_All.png" alt="ODataRefreshedOpenTypeV3\_All" width="100%"/>
+<img src="images/ODataRefreshedOpenTypeV3_All.png" alt="ODataRefreshedOpenTypeV3\_All" width="80%"/>
 
 OData のオープン型の詳細については、[こちら](https://docs.microsoft.com/ja-jp/aspnet/web-api/overview/odata-support-in-aspnet-web-api/odata-v4/use-open-types-in-odata-v4)を参照してください。
 
@@ -42,15 +42,15 @@ OData のオープン型の詳細については、[こちら](https://docs.micr
 
 OData サービスによって公開されるように設定した関数は、データソースの  **[可視化データ]** メニューの **[関数]** タブに表示されます。
 
-<img src="images/OData-functions.png" alt="OData Functions tab in the Set up your entity dialog" width="100%"/>
+<img src="images/OData-functions.png" alt="OData Functions tab in the Set up your entity dialog" width="80%"/>
 
 関数によっては、データを取得するために 1 つ以上の値を入力する必要がある場合があります。V3 OData サンプルには、結果を得るために**評価**値を入力する必要がある以下のサンプル関数が含まれています。
 
-<img src="images/OData-function-sample.png" alt="Setting up rating value of a function and Function preview dialog" width="100%"/>
+<img src="images/OData-function-sample.png" alt="Setting up rating value of a function and Function preview dialog" width="80%"/>
 
 準備ができたら、表示形式エディターは関数条件に一致するデータソースのフィールドを読み込みます。
 
-<img src="images/Odata-get-products-by-rating.png" alt="Odata function used in the Visualization editor" width="100%"/>
+<img src="images/Odata-get-products-by-rating.png" alt="Odata function used in the Visualization editor" width="80%"/>
 
 OData 関数の詳細については、[こちら](https://docs.microsoft.com/ja-jp/aspnet/web-api/overview/odata-support-in-aspnet-web-api/odata-v4/odata-actions-and-functions)を参照してください。
 

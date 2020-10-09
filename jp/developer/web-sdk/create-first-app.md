@@ -34,9 +34,9 @@ dialog](images/adding-new-package-source.png)
 
 その後、パッケージ ソースを追加したものに変更して Nuget をインストールできます。
 
-<img src="images/install-nuget.png" alt="installing the Nuget dialog" width="100%"/>
+<img src="images/install-nuget.png" alt="installing the Nuget dialog" width="80%"/>
 
-<img src="images/preview-changes-dialog.png" alt="preview changes dialog" width="100%"/>
+<img src="images/preview-changes-dialog.png" alt="preview changes dialog" width="80%"/>
 
 手順 2 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/3308bd229c1b50efd12e553e1e54d5ac4d36b6e3)**.
 
@@ -107,32 +107,32 @@ dialog](images/adding-new-package-source.png)
 
 Reveal アプリ (<https://app.revealbi.io>) を開き、**サンプル**に移動します。
 
-<img src="images/accessing-marketing-dashboard.png" alt="accessing the marketing dashboard from Reveal samples" width="100%"/>
+<img src="images/accessing-marketing-dashboard.png" alt="accessing the marketing dashboard from Reveal samples" width="80%"/>
 
 
 Marketing ダッシュボードを選択し、**編集モード**に入ります。
 
-<img src="images/reveal-marketing-dashboard-sample.png" alt="enter edit mode of marketing sample dashboard in Reveal app" width="100%"/>
+<img src="images/reveal-marketing-dashboard-sample.png" alt="enter edit mode of marketing sample dashboard in Reveal app" width="80%"/>
 
 編集モードに入った後に \[テーマ\] ボタンをクリックします。
 
-<img src="images/marketing-dashboard-theme-button.png" alt="edit mode menu of the marketing dashboard" width="100%"/>
+<img src="images/marketing-dashboard-theme-button.png" alt="edit mode menu of the marketing dashboard" width="80%"/>
 
 
 [Ocean テーマ] を選択します。
 
-<img src="images/dashboard-themes-ocean-theme.png" alt="edit mode menu of the marketing dashboard" width="100%"/>
+<img src="images/dashboard-themes-ocean-theme.png" alt="edit mode menu of the marketing dashboard" width="80%"/>
 
 変更したダッシュボードを保存し、エクスポートします。
 
 > [!NOTE]
 > Marketing ダッシュボードは、Reveal アプリの**サンプル**の一部であるため、通常のダッシュボードと同じ方法で保存することはできません。代わりに、**名前を付けて保存**を使用して場所を選択する必要があります。
 
-<img src="images/export-marketing-dashboard-changed-theme.png" alt="export marketing dashboard menu" width="100%"/>
+<img src="images/export-marketing-dashboard-changed-theme.png" alt="export marketing dashboard menu" width="80%"/>
 
 **Marketing.rdash** ダッシュボード ファイルを手順 3 で作成したダッシュボード フォルダーへ移動し、Visual Studio でこのアイテムのビルド アクションを**埋め込みリソース**に設定します。
 
-<img src="images/build-action-set.png" alt="setting build action in marketing.rdash file properties" width="100%"/>
+<img src="images/build-action-set.png" alt="setting build action in marketing.rdash file properties" width="80%"/>
 
 次に、新しいページ *Marketing.cshtml* を追加して、ダウンロードしたダッシュボードを可視化します。
 
@@ -170,7 +170,7 @@ Reveal が使用するサードパーティの参照の 1 つに **Day.js** が�
 
 続行するには、プロジェクトの wwwroot フォルダーに新しい Reveal フォルダーを作成します。**infragistics.reveal.js** をコピーします。このファイルは、Reveal SDK のインストール フォルダーにあります。
 
-<img src="images/wwwroot-folder.png" alt="wwwroot folder hierarchy" width="100%"/>
+<img src="images/wwwroot-folder.png" alt="wwwroot folder hierarchy" width="80%"/>
 
 そして、Day.js のスクリプトの後に **\_Layout.cshtml** でこのライブラリを参照します。
 
@@ -202,7 +202,7 @@ Reveal が使用するサードパーティの参照の 1 つに **Day.js** が�
 
 最後に、Web ページを実行すると、ダッシュボードが表示されます。
 
-<img src="images/marketing-dashboard-result.png" alt="marketing dashboard result in web page" width="100%"/>
+<img src="images/marketing-dashboard-result.png" alt="marketing dashboard result in web page" width="80%"/>
 
 手順 4 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/380d369b46437c3913ed3c61de32a7f607b96b47)**.
 
@@ -275,7 +275,7 @@ Reveal アプリは Roboto フォントを使用します。アプリと同じ�
 
 結果は以下のようになります。
 
-<img src="images/marketing-dashboard-new-font.png" alt="marketing dashboard loaded with the new font" width="100%"/>
+<img src="images/marketing-dashboard-new-font.png" alt="marketing dashboard loaded with the new font" width="80%"/>
 
 手順 5 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/9fd40e047bf6aa4c03258112e6d47f577625a63b)**.
 
@@ -387,6 +387,6 @@ Reveal アプリは Roboto フォントを使用します。アプリと同じ�
 
 結果は以下のようになります。
 
-<img src="images/marketing-dashboard-style-client-application-result.png" alt="result after styling the client application" width="100%"/>
+<img src="images/marketing-dashboard-style-client-application-result.png" alt="result after styling the client application" width="80%"/>
 
 手順 6 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/085fd35db4d07eb9130ff72dd3bb96a157f6d4ed)**。

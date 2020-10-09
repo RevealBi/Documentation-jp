@@ -1,6 +1,6 @@
 ## 階級区分図設定の操作
 
-<img src="images/visualization-settings-choropleth-map.png" alt="Settings in the Visualization editor of the choropleth map" width="100%"/>
+<img src="images/visualization-settings-choropleth-map.png" alt="Settings in the Visualization editor of the choropleth map" width="80%"/>
 
 階級区分図表示形式の [設定] セクションでは、以下を設定できます:
 
@@ -25,7 +25,7 @@
 
 Reveal で日本語のデータセットを使用し、言語および地域設定が日本語に設定されていない場合、Reveal が日本語 (_ja_) に切り替えてデータセットの言語を認識するために **[データの言語]** 設定を使用する必要があります。
 
-<img src="images/japanese-data-language.png" alt="Set the Language of Data to Japanese" width="100%"/>
+<img src="images/japanese-data-language.png" alt="Set the Language of Data to Japanese" width="80%"/>
 
 
 #### ラベルの言語

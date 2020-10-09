@@ -32,7 +32,7 @@
 
 データソースを選択した時点でクラウド ファイルへのアクセスを許可して、表示形式を構築できます。[サポートされているクラウド プロバイダー](#cloud-providers)のいずれかにアップロードされたファイルを選択すると、次のダイアログが表示されます。
 
-<img src="images/allow-access-box-sharing.png" alt="Allow access checkbox in the Set up your file dialog" width="100%"/>
+<img src="images/allow-access-box-sharing.png" alt="Allow access checkbox in the Set up your file dialog" width="80%"/>
 
 *「アクセスを許可」*チェックボックスが選択されていることを確認してください。選択されていない場合、共有可能なリンクは無効になります。
 
@@ -47,7 +47,7 @@
 
 3.  次のダイアログが開きます。
 
-    <img src="images/grant-access-share-dashboard-dialog.png" alt="A dialog to grant access to cloud file data sources" width="100%"/>
+    <img src="images/grant-access-share-dashboard-dialog.png" alt="A dialog to grant access to cloud file data sources" width="80%"/>
 
     *[アクセスを許可]*をクリック/タップして、[ダッシュボードを共有する](share-a-dashboards.html)ユーザーの選択に進みます。
 
@@ -60,7 +60,7 @@
 
 クラウド ファイルをデータソースとして使用する 1 つ以上の表示形式を含むダッシュボードをチームのスペースに保存することができます。これらのデータソース　ファイルへの共有可能なリンクが作成されていない (無効になっている) 場合、Reveal はアクセスを許可するように求めます。
 
-<img src="images/save-dashboard-disabled-link-teams_all.png" alt="Allow access to a dashboard with a disabled link when saving in a team" width="100%"/>
+<img src="images/save-dashboard-disabled-link-teams_all.png" alt="Allow access to a dashboard with a disabled link when saving in a team" width="80%"/>
 
 これにより、チームに保存したダッシュボードをすべてのチーム メンバーが確実に表示できるようになります。
 

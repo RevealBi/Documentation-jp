@@ -4,7 +4,7 @@
 
 まず、トップ バーのグリッド アイコンを選択し、**表示形式ペインを開きます**。
 
-<img src="images/VisualizationsMenu_All.png" alt="VisualizationsMenu\_All" width="100%"/>
+<img src="images/VisualizationsMenu_All.png" alt="VisualizationsMenu\_All" width="80%"/>
 
 **表示形式を [柱状] に変更します**。
 
@@ -14,15 +14,15 @@
 
   - *Orders* を [値] のプレースホルダーにドラッグアンドドロップ。
 
-<img src="images/ManufacturingFirstDragDrop_All.png" alt="ManufacturingFirstDragDrop\_All" width="100%"/>
+<img src="images/ManufacturingFirstDragDrop_All.png" alt="ManufacturingFirstDragDrop\_All" width="80%"/>
 
 最後に、Manufacturing Dashboard タイトルの横にある鉛筆を選択して、**表示形式のタイトルを Incoming Daily Orders MTD に変更します**。
 
-<img src="images/ManufacturingDailyOrdersMTDTitle_All.png" alt="ManufacturingDailyOrdersMTDTitle\_All" width="100%"/>
+<img src="images/ManufacturingDailyOrdersMTDTitle_All.png" alt="ManufacturingDailyOrdersMTDTitle\_All" width="80%"/>
 
 表示形式は以下のようになります。
 
-<img src="images/ManufacturingFirstVisualizationSample_All.png" alt="ManufacturingFirstVisualizationSample\_All" width="100%"/>
+<img src="images/ManufacturingFirstVisualizationSample_All.png" alt="ManufacturingFirstVisualizationSample\_All" width="80%"/>
 
 <style>
 .previous {

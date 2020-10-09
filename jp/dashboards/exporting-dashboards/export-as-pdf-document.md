@@ -6,7 +6,7 @@ Reveal では、ダッシュボードを PDF 文書としてエクスポート�
 
 ### エクスポート設定
 
-<img src="images/export-settings-pdf.png" alt="Settings for PDF document in the Export Dashboard menu" width="100%"/>
+<img src="images/export-settings-pdf.png" alt="Settings for PDF document in the Export Dashboard menu" width="80%"/>
 
 *[ダッシュボード エクスポート]* ダイアログでは、次の設定を管理できます:
 

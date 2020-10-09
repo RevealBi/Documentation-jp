@@ -4,7 +4,7 @@ Reveal で BigQuery のトレーニング済みの機械学習モデルを使用
 
 たとえば、クライアントに関する特定の情報を使用して、銀行のクライアントの信用リスクを予測するようにトレーニングされた機械学習 (Machine Learning) モデルがあるとします。この機械学習モデルを Reveal で使用して、クライアントの住宅タイプが信用リスクにどのように関連するかについての洞察を与える表示形式を構築できます。
 
-<img src="images/bigquery-machine-learning-model-visualization-example.png" alt="Credit risk by type of Housing example" width="100%"/>
+<img src="images/bigquery-machine-learning-model-visualization-example.png" alt="Credit risk by type of Housing example" width="80%"/>
 
 
 ### 前提条件
@@ -22,7 +22,7 @@ BigQuery Machine Learning にアクセスするには、以下の手順を実行
 
 2. 表示形式エディターで、左側のフィールド リストの上にある**脳アイコン**をクリック/タップします。
 
-    <img src="images/brain-icon-bigquery-ml-model.png" alt="Brain icon location in the Visualization editor" width="100%"/>
+    <img src="images/brain-icon-bigquery-ml-model.png" alt="Brain icon location in the Visualization editor" width="80%"/>
 
 
 ### 機械学習モデルへの接続
@@ -31,12 +31,12 @@ BigQuery 機械学習モデルに接続するには、以下を実行する必�
 
 1. 開いたダイアログでトレーニング済みの BigQuery モデルから選択します。
 
-    <img src="images/ml-models-list-bigquery.png" alt="A dialog displaying a list of bigquery machine learning models" width="100%"/>
+    <img src="images/ml-models-list-bigquery.png" alt="A dialog displaying a list of bigquery machine learning models" width="80%"/>
 
 
 2. 次のダイアログで、Reveal に読み込まれたデータを機械学習モデルで予期される入力にマップする必要があります。
 
-    <img src="images/ml-model-mapping-input-output.png" alt="Mapping expected input and choosing output" width="100%"/>
+    <img src="images/ml-model-mapping-input-output.png" alt="Mapping expected input and choosing output" width="80%"/>
 
     上記のダイアログには、以下の列があります。
 
@@ -46,6 +46,6 @@ BigQuery 機械学習モデルに接続するには、以下を実行する必�
 
     c. (オプション) **パラメーター** - 一部の BigQuery 機械学習モデルでは、出力を計算するために必要なパラメーターの値を入力する必要がある場合があります。この場合、[入力] と [出力] の間に 3 番目の [パラメーター] 列があります。
 
-<img src="images/bq-ml-model-final-example.png" alt="Data output loaded from the bigquery model" width="100%"/>
+<img src="images/bq-ml-model-final-example.png" alt="Data output loaded from the bigquery model" width="80%"/>
 
 BigQuery モデルによって返されたフィールドを表示形式エディターの通常のフィールドとして使用できます。

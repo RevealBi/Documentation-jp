@@ -4,4 +4,4 @@
 
 以下の例は、[表示形式のコレクション](~/jp/data-visualizations/What-is-Visualization.html)で構成されるマーケティング ダッシュボードでマーケティング キャンペーンの活動を示します。
 
-<img src="images/dashboard-sample.png" alt="A dashboard sample" width="100%"/>
+<img src="images/dashboard-sample.png" alt="A dashboard sample" width="80%"/>

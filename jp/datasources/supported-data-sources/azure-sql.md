@@ -4,7 +4,7 @@
 
 Azure SQL データソースを構成するには、以下の情報が必要です。
 
-<img src="images/enter-Azure-SQL-details.png" alt="Opening Reveal's AzureSQL data source configuration screen" width="100%"/>
+<img src="images/enter-Azure-SQL-details.png" alt="Opening Reveal's AzureSQL data source configuration screen" width="80%"/>
 
 1.  **データ ソース名**: このフィールドはデータソース リストに表示されます。
 

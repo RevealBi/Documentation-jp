@@ -5,7 +5,7 @@ Reveal で Azure Machine Learning Studio のトレーニング済みモデル �
 
 たとえば、クライアントに関する特定の情報を使用して、銀行のクライアントの信用リスクを予測するようにトレーニングされた機械学習 (Machine Learning) モデルがあるとします。この機械学習モデルを Reveal で使用して、クライアントの住宅タイプが信用リスクにどのように関連するかについての洞察を与える表示形式を構築できます。
 
-<img src="images/ml-credit-risk-by-housing-visualization-example.png" alt="Credit risk by Housing example" width="100%"/>
+<img src="images/ml-credit-risk-by-housing-visualization-example.png" alt="Credit risk by Housing example" width="80%"/>
 
 ### 前提条件
 
@@ -19,7 +19,7 @@ Azure Machine Learning にアクセスするには、以下の手順を実行し
 
 2.  *表示形式エディター*で、左側の*フィールド* リストの上にある**脳アイコン**をクリック/タップします。次に、**Azure Machine Learning** を選択します。
 
-    <img src="images/brain-icon-azure-ml-model.png" alt="Brain icon location in the Visualization editor" width="100%"/>
+    <img src="images/brain-icon-azure-ml-model.png" alt="Brain icon location in the Visualization editor" width="80%"/>
 
 <a href="ml-integration/ml-model-connect"></a>
 ### Azure Machine Learning モデルへの接続
@@ -28,7 +28,7 @@ Azure で機械学習モデルに接続するには、以下を実行する必�
 
 1.  Azure Machine Learning Model によって公開される Web サービスにアクセスするために、以下の構成ダイアログで要求された値を提供します。
 
-    <img src="images/microsoft-azure-configuration-requested-values.png" alt="MS Azure configuration dialog requested values" width="100%"/>
+    <img src="images/microsoft-azure-configuration-requested-values.png" alt="MS Azure configuration dialog requested values" width="80%"/>
 
     **Swagger ドキュメントの URL** と **API キー**を検索するには、以下を実行する必要があります。
 
@@ -46,7 +46,7 @@ Azure で機械学習モデルに接続するには、以下を実行する必�
 
 2.  表示されるダイアログで、Reveal のデータを機械学習モデルで予期される入力にマップする必要があります。
 
-    <img src="images/input-output-ml-list.png" alt="Input list in ML model connection dialog" width="100%"/>
+    <img src="images/input-output-ml-list.png" alt="Input list in ML model connection dialog" width="80%"/>
 
     上記のダイアログには、以下の列があります。
 
@@ -56,6 +56,6 @@ Azure で機械学習モデルに接続するには、以下を実行する必�
 
     c. **パラメーター** - 一部の Azure 機械学習モデルでは、出力を計算するために必要なパラメーターの値を入力する必要があります。この場合、*[入力]* と *[出力]* の間に 3 番目の *[パラメーター]* 列があります。
 
-      <img src="images/loaded-data-from-azure-model.png" alt="Data output loaded from Azure model" width="100%"/>
+      <img src="images/loaded-data-from-azure-model.png" alt="Data output loaded from Azure model" width="80%"/>
 
 Azure モデルによって返されたフィールドを表示形式エディターの通常のフィールドとして使用できます。
