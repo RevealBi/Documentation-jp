@@ -31,8 +31,8 @@
 
 4.  [ダッシュボードにテーマを適用](applying-theme.html)
 
-5.  [その他表示形式の追加](adding-other-visualizations.html) ([Win/Lost by Month](adding-other-visualizations.md#win-lost-by-month)、
-[Forecasted](adding-other-visualizations#forecasted)、[Lost Opportunities](adding-other-visualizations.md#lost-opportunities)、[Pipeline by Territory](adding-other-visualizations.md#pipeline-by-territory)、[Total Opportunities](adding-other-visualizations.md#total-opportunities)、[Revenue by Territory](adding-other-visualizations.md#revenue-by-territory)、[Pipeline per Employee](adding-other-visualizations.md#pipeline-per-employee)、[Sales by Product](adding-other-visualizations.md#by-product))
+5.  [その他表示形式の追加](adding-other-visualizations.html) ([Win/Lost by Month](adding-other-visualizations.html#win-lost-by-month)、
+[Forecasted](adding-other-visualizations#forecasted)、[Lost Opportunities](adding-other-visualizations.html#lost-opportunities)、[Pipeline by Territory](adding-other-visualizations.html#pipeline-by-territory)、[Total Opportunities](adding-other-visualizations.html#total-opportunities)、[Revenue by Territory](adding-other-visualizations.html#revenue-by-territory)、[Pipeline per Employee](adding-other-visualizations.html#pipeline-per-employee)、[Sales by Product](adding-other-visualizations.html#by-product))
 
 6.  [ダッシュボードの保存](saving-dashboard.html)
 

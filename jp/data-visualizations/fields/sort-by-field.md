@@ -41,7 +41,7 @@ _Priority_ フィールドはテキスト フィールドであるため、デ�
 <a name='string-date-chr-order'></a>
 ### 文字列日付を時系列で順序
 
-次の表示形式を見てみましょう。ここでは、 [積層型柱状チャート](~/jp/visualization-tutorials/stacked-charts.md#create-stacked-chart)で企業の現金と売掛金の増加をプロットしています。
+次の表示形式を見てみましょう。ここでは、 [積層型柱状チャート](~/jp/visualization-tutorials/stacked-charts.html#create-stacked-chart)で企業の現金と売掛金の増加をプロットしています。
 
 ![SortByFieldSalesInformation\_All](images/SortByFieldSalesInformation_All.png)
 

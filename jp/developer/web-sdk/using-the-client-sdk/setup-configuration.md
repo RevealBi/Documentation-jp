@@ -43,7 +43,7 @@ JavaScript ファイル は "\<InstallationDirectory\>\\SDK\\Web\\JS\\Client" �
 
     a.  成功ハンドラーでは、取得したダッシュボードを使用し、__$.ig.RevealSettings__ オブジェクトの dashboard プロパティに設定する必要があります。
 
-4.  最後に、2つのパラメータを渡して [$.ig.RevealView\*](api-reference-client-web.md#_revealview) コンポーネントをインスタンス化します。1 つはダッシュボードをレンダリングする DOM 要素のセレクター、もう 1 つは設定オブジェクトです。
+4.  最後に、2つのパラメータを渡して [$.ig.RevealView\*](api-reference-client-web.html#_revealview) コンポーネントをインスタンス化します。1 つはダッシュボードをレンダリングする DOM 要素のセレクター、もう 1 つは設定オブジェクトです。
 
 #### サンプル コード
 

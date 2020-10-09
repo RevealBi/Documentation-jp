@@ -11,14 +11,14 @@
 
 ダッシュボードまたは視覚化を有効するには、次のことができます。
 
-  - [RevealView](＃enable-export-revealview) のエクスポート設定を使用するか、
+  - [RevealView](#enable-export-revealview) のエクスポート設定を使用するか、
 
   - **画像**としてエクスポートする場合は、コードによってエクスポートを開始します [RevealView 以外](#programmatically-initiated-export)。
 
 
 ### 前提条件
 
-画像へのエクスポート機能を使用するには、[CefSharp.Wpf NuGet package (\>= 57.0.0)](../../general/setup-configuration-desktop.html) への参照をプロジェクトに追加する必要があります。
+画像へのエクスポート機能を使用するには、[CefSharp.Wpf NuGet package (\>= 57.0.0)](~/jp/developer/general/setup-configuration-desktop.html) への参照をプロジェクトに追加する必要があります。
 
 <a name='enable-export-revealview'></a>
 

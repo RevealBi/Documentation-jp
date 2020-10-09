@@ -10,7 +10,7 @@ NOTE
 
 </div>
 
-[データソースを変更する](~/jp/datasources/changing-data-source-visualization.html)場合は、データ ソース名の横にある**オーバーフロー ボタン**または [新しいデータ ソース](~/jp/datasources/creating-new-datasource.html)を選択する必要があります。表示形式を [複製し](../../general/overview.md#view-edit-mode)、作成時間を短縮することもできます。
+[データソースを変更する](~/jp/datasources/changing-data-source-visualization.html)場合は、データ ソース名の横にある**オーバーフロー ボタン**または [新しいデータ ソース](~/jp/datasources/creating-new-datasource.html)を選択する必要があります。表示形式を [複製し](../../general/overview.html#view-edit-mode)、作成時間を短縮することもできます。
 
 </div>
 
@@ -99,7 +99,7 @@ Followers 表示形式はソーシャル メディア チャネルごとに分�
 
 ### YTD Facebook Followers
 
-YTD Facebook Followers 表示形式は、[テキスト ゲージ](~/jp/visualization-tutorials/gauge-views.md#createtextgauge)でそのソーシャル メディア チャネルのフォロワー数を示します。以下は作成方法です。
+YTD Facebook Followers 表示形式は、[テキスト ゲージ](~/jp/visualization-tutorials/gauge-views.html#createtextgauge)でそのソーシャル メディア チャネルのフォロワー数を示します。以下は作成方法です。
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
     

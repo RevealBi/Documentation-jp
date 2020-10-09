@@ -99,7 +99,7 @@ If 関数で論理テストで定義した特定の条件を満たす結果を�
 | ------------- | -------- | -------------------------- |
 | `[BirthDate]` | `<`      | `date(1971,04,15,4,06,55)` |
 
-date 引数は [date](date.md#date-date)で説明された構文に従います。
+date 引数は [date](date.html#date-date)で説明された構文に従います。
 
 | 関数名 | 年   | 月 | 日  | 時 | 分 | 秒 |
 | ------------- | ------ | ----- | ---- | ---- | ------ | ------ |
@@ -172,7 +172,7 @@ and 計算フィールドは 4 つの TRUE 行のみ返します。
 
   - 行 96 (従業員 Jorge Stanatto).
 
-[ルールでフィルターする](~/jp/data-visualizations/fields/field-filters-rules.md#rules-numeric-fields) または [値を選択する](~/jp/data-visualizations/fields/field-filters-rules.md#select-values) 1.00 を適用した場合のみ 2 つの行を確認します。
+[ルールでフィルターする](~/jp/data-visualizations/fields/field-filters-rules.html#rules-numeric-fields) または [値を選択する](~/jp/data-visualizations/fields/field-filters-rules.html#select-values) 1.00 を適用した場合のみ 2 つの行を確認します。
 
 Zolleis Walker を見つけるために and 条件を設定し直す場合、以下の論理テストを使用できます。
 
@@ -205,7 +205,7 @@ Zolleis Walker を見つけるために and 条件を設定し直す場合、以
   </tr>
 </table>
 
-and/or 関数を [isempty](information.md#isempty) 計算フィールドと組み合わせて同じ結果を取得することも可能です。
+and/or 関数を [isempty](information.html#isempty) 計算フィールドと組み合わせて同じ結果を取得することも可能です。
 
 | 関数名 | 論理テスト 1 | 論理テスト 2 | 論理テスト 3  | 論理テスト 4            |
 | ------------- | -------------- | -------------- | --------------- | ------------------------- |

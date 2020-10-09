@@ -2,7 +2,7 @@
 
 KPI (Key Performance Indicator: キー パフォーマンス インジケーター) とは、パフォーマンス管理の特定のタイプを表す用語です。KPI は個別のニーズによって変化し、目標に対する進捗や時間軸での傾向など、組織の重要なメトリックスに関する情報を提供します。
 
-[テキスト ゲージ](gauge-views.md#text-gauge) と同様に、KPI ゲージは値列を大きなフォントで表示します。ただし、KPI の値は、前の期間の同じ値に対しても評価されます。
+[テキスト ゲージ](gauge-views.html#text-gauge) と同様に、KPI ゲージは値列を大きなフォントで表示します。ただし、KPI の値は、前の期間の同じ値に対しても評価されます。
 
 ![KPI Gauge view in the Visualization editor](images/pivot-editor-view-kpi-gauge.png)
 

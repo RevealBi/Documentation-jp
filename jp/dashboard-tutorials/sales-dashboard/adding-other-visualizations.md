@@ -3,7 +3,7 @@
 その他すべてのダッシュボードにある表示形式で同じ[サンプル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)を使用します。
 
 >[!NOTE]
->[データソースを変更する](changing-data-source-visualization.html)場合は、データ ソース名の横にあるオーバーフロー ボタン、または[新しいデータ ソースを作成する](creating-new-datasource)を選択する必要があります。表示形式を[複製して](overview.md#view-edit-mode)作成時間を短縮することもできます。
+>[データソースを変更する](changing-data-source-visualization.html)場合は、データ ソース名の横にあるオーバーフロー ボタン、または[新しいデータ ソースを作成する](creating-new-datasource)を選択する必要があります。表示形式を[複製して](overview.html#view-edit-mode)作成時間を短縮することもできます。
 
 このセクションは以下の表示形式について説明します。
 
@@ -167,7 +167,7 @@ Forecasted 表示形式は、6 ヶ月間の予測を[バー チャート](~/jp/v
 <a name='lost-opportunities'></a>
 ### Lost Opportunities
 
-Lost Opportunities 表示形式は、[テキスト ゲージ](~/jp/visualization-tutorials/Gauge-Views.md#text-gauge)で機会損失の割合を表示します。以下は作成方法です。
+Lost Opportunities 表示形式は、[テキスト ゲージ](~/jp/visualization-tutorials/Gauge-Views.html#text-gauge)で機会損失の割合を表示します。以下は作成方法です。
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を選択します。
     
