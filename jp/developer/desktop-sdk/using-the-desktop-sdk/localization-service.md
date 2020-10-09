@@ -25,7 +25,7 @@
 
 Marketing サンプルの初期状態:
 
-![Initial state of the Marketing Sample](images/dashboard-title-initial-state.png)
+<img src="images/dashboard-title-initial-state.png" alt="Initial state of the Marketing Sample" width="100%"/>
 
 以下の手順に従って、Marketing ダッシュボードのタイトルを Localized Marketing にローカライズします。
 
@@ -72,7 +72,7 @@ Marketing サンプルの初期状態:
 
 アプリを再度実行すると、ローカライズされたダッシュボードのタイトル (Localized Marketing) が表示されます。
 
-![Localized Marketing Sample Title](images/dashboard-title-localized.png)
+<img src="images/dashboard-title-localized.png" alt="Localized Marketing Sample Title" width="100%"/>
 
 <a name='localize-field-label'></a>
 #### フィールド ラベルのローカライズの例
@@ -81,7 +81,7 @@ Marketing サンプルの初期状態:
 
 以下は、Marketing サンプルの可視化 (Actual Spend vs Budget) の初期状態の 1 つの例です。
 
-![initial state of the Actual Spend vs Budget visualization](images/field-label-initial-state.png)
+<img src="images/field-label-initial-state.png" alt="initial state of the Actual Spend vs Budget visualization" width="100%"/>
 
 Date フィールド ラベルをローカライズするには、Date フィールドのローカライズを処理するロジックを **UpMediaLocalizationService** に追加する必要があります。
 
@@ -111,7 +111,7 @@ public class UpMediaLocalizationService : IRVLocalizationService
 
 Actual Spend vs Budget の Date フィールド ラベルが Localized Date に変更されました。
 
-![localized date field label](images/dashboard-field-label-localized.png)
+<img src="images/dashboard-field-label-localized.png" alt="localized date field label" width="100%"/>
 
 手順の例に従って、その他のダッシュボード要素をローカライズできます。
 
@@ -124,7 +124,7 @@ Actual Spend vs Budget の Date フィールド ラベルが Localized Date に�
 
 以下の Spend vs Budget 可視化の初期状態では、米ドル($) 通貨で書式設定された数値フィールドを示します。
 
-![Original numeric field in US Dollars currency format](images/numeric-field-us-dollars-currency.png)
+<img src="images/numeric-field-us-dollars-currency.png" alt="Original numeric field in US Dollars currency format" width="100%"/>
 
 通貨書式を変更するには、新しい書式設定を作成し、**IRVLocalizationService** の実装の **GetFormattingSettingsForField** メソッドでそれらを返す必要があります。
 
@@ -162,7 +162,7 @@ public class UpMediaLocalizationService : IRVLocalizationService
 
 現在、金額はその他の通貨で表示されます。
 
-![Changed numeric field in Japanese Yen currency format](images/numeric-field-changed-currency-yen.png)
+<img src="images/numeric-field-changed-currency-yen.png" alt="Changed numeric field in Japanese Yen currency format" width="100%"/>
 
 <a name='format-date-field'></a>
 #### 日付フィールドの書式設定の変更の例
@@ -173,7 +173,7 @@ public class UpMediaLocalizationService : IRVLocalizationService
 
 はじめに、集計データを除外するために、Actual Spend vs Budget 可視化を **Grid** に変更します。
 
-![Visualization in Grid format](images/visualization-grid-format-original-date.png)
+<img src="images/visualization-grid-format-original-date.png" alt="Visualization in Grid format" width="100%"/>
 
 Date フィールドの書式設定を変更するには、**GetFormattingSettingsForField** メソッドのロジックに設定を追加する必要があります。以下のコード スニペットは、January 01、2001 のように、日付形式を変更して月のフルネームを表示する方法を示します。
 
@@ -213,4 +213,4 @@ public RVFormattingSpec GetFormattingSettingsForField(string fieldName, RVDashbo
 
 アプリを再度実行し、可視化をグリッドに変更すると更新された日付形式が表示されます。
 
-![Visualization in grid format with changed date format](images/visualization-grid-format-changed-date.png)
+<img src="images/visualization-grid-format-changed-date.png" alt="Visualization in grid format with changed date format" width="100%"/>

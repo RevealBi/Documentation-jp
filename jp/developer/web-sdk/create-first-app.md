@@ -34,9 +34,9 @@ dialog](images/adding-new-package-source.png)
 
 その後、パッケージ ソースを追加したものに変更して Nuget をインストールできます。
 
-![installing the Nuget dialog](images/install-nuget.png)
+<img src="images/install-nuget.png" alt="installing the Nuget dialog" width="100%"/>
 
-![preview changes dialog](images/preview-changes-dialog.png)
+<img src="images/preview-changes-dialog.png" alt="preview changes dialog" width="100%"/>
 
 手順 2 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/3308bd229c1b50efd12e553e1e54d5ac4d36b6e3)**.
 
@@ -132,7 +132,7 @@ Marketing ダッシュボードを選択し、**編集モード**に入ります
 
 **Marketing.rdash** ダッシュボード ファイルを手順 3 で作成したダッシュボード フォルダーへ移動し、Visual Studio でこのアイテムのビルド アクションを**埋め込みリソース**に設定します。
 
-![setting build action in marketing.rdash file properties](images/build-action-set.png)
+<img src="images/build-action-set.png" alt="setting build action in marketing.rdash file properties" width="100%"/>
 
 次に、新しいページ *Marketing.cshtml* を追加して、ダウンロードしたダッシュボードを可視化します。
 
@@ -170,7 +170,7 @@ Reveal が使用するサードパーティの参照の 1 つに **Day.js** が�
 
 続行するには、プロジェクトの wwwroot フォルダーに新しい Reveal フォルダーを作成します。**infragistics.reveal.js** をコピーします。このファイルは、Reveal SDK のインストール フォルダーにあります。
 
-![wwwroot folder hierarchy](images/wwwroot-folder.png)
+<img src="images/wwwroot-folder.png" alt="wwwroot folder hierarchy" width="100%"/>
 
 そして、Day.js のスクリプトの後に **\_Layout.cshtml** でこのライブラリを参照します。
 
@@ -202,7 +202,7 @@ Reveal が使用するサードパーティの参照の 1 つに **Day.js** が�
 
 最後に、Web ページを実行すると、ダッシュボードが表示されます。
 
-![marketing dashboard result in web page](images/marketing-dashboard-result.png)
+<img src="images/marketing-dashboard-result.png" alt="marketing dashboard result in web page" width="100%"/>
 
 手順 4 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/380d369b46437c3913ed3c61de32a7f607b96b47)**.
 
@@ -275,7 +275,7 @@ Reveal アプリは Roboto フォントを使用します。アプリと同じ�
 
 結果は以下のようになります。
 
-![marketing dashboard loaded with the new font](images/marketing-dashboard-new-font.png)
+<img src="images/marketing-dashboard-new-font.png" alt="marketing dashboard loaded with the new font" width="100%"/>
 
 手順 5 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/9fd40e047bf6aa4c03258112e6d47f577625a63b)**.
 
@@ -387,6 +387,6 @@ Reveal アプリは Roboto フォントを使用します。アプリと同じ�
 
 結果は以下のようになります。
 
-![result after styling the client application](images/marketing-dashboard-style-client-application-result.png)
+<img src="images/marketing-dashboard-style-client-application-result.png" alt="result after styling the client application" width="100%"/>
 
 手順 6 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/085fd35db4d07eb9130ff72dd3bb96a157f6d4ed)**。

@@ -34,13 +34,13 @@ JSON ファイルのデータを使用する新しい表示形式を作成する
 
     b.  プロバイダーを参照し、JSON ファイルを選択します。
 
-    ![A JSON file located in a cloud data source](images/json-files-locate-file.png)
+    <img src="images/json-files-locate-file.png" alt="A JSON file located in a cloud data source" width="100%"/>
 
 4.  **必要なデータ構造の選択**。
 
     ファイルをスキャンした後、Reveal は選択可能なデータ構造のリストを表示します。
 
-    ![Json Files Choose Data table](images/json-files-choose-data-structure.png)
+    <img src="images/json-files-choose-data-structure.png" alt="Json Files Choose Data table" width="100%"/>
 
     リストに目的のデータ構造が含まれていない場合は、[**高度な選択モード**](#json-advanced-selection)を使用して、カスタムデータ構造を選択できます。
 
@@ -48,7 +48,7 @@ JSON ファイルのデータを使用する新しい表示形式を作成する
 
     データ構造を選択、*[データのロード]* ボタンをクリック/タップして、*表示形式エディター*を開きます。
 
-    ![Json Files Visualizations Editor](images/JsonFilesVisualizationsEditor_All.png)
+    <img src="images/JsonFilesVisualizationsEditor_All.png" alt="Json Files Visualizations Editor" width="100%"/>
 
 <a name='json-advanced-selection'></a>
 ### 高度な選択モード
@@ -59,30 +59,30 @@ JSON ファイルを使用して、さまざまなデータ構造を表すこと
 
     **[+テーブル]** ボタンをクリック/タップして、*[詳細選択]* 画面にアクセスします。
 
-    ![Json Files Open Advanced Selection](images/json-files-open-advanced-selection.png)
+    <img src="images/json-files-open-advanced-selection.png" alt="Json Files Open Advanced Selection" width="100%"/>
 
 2.  **JSON ツリーのナビゲーション**。
 
     ノードを展開し、データを選択する最も深いレベルを選択します。
 
-    ![Json Files Navigate Tree](images/json-files-navigate-tree.png)
+    <img src="images/json-files-navigate-tree.png" alt="Json Files Navigate Tree" width="100%"/>
 
 3.  **ツリー要素とフィールドを選択**。
     子の選択を有効にするには、ツリー要素 (object **[ ]** または配列 **{ }**) を選択する必要があります。
 
     |                                                                             |                                                                                                                                           |
     | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-    | ![Json Files Unselect Elements](images/json-files-unselect-elements.png) | 1 つ以上の子の選択後、親要素 (オブジェクトと配列) の選択を解除し、データ構造から除外できます。 |
+    | <img src="images/json-files-unselect-elements.png" alt="Json Files Unselect Elements" width="100%"/> | 1 つ以上の子の選択後、親要素 (オブジェクトと配列) の選択を解除し、データ構造から除外できます。 |
 
 
 4.  (*オプション*) **テキスト フィールドを日付/時刻または数値に書式設定します**。
 
     フィールドを選択すると、Reveal はその値を読み取り、最適な形式を自動検出し、実行する操作を選択できるダイアログを表示します。
 
-    ![Json Files Format Fields](images/json-files-format-fields.png)
+    <img src="images/json-files-format-fields.png" alt="Json Files Format Fields" width="100%"/>
 
 5.  ***テーブルの作成*をクリック/タップ**。
 
     カスタム データ構造を選択後、*[テーブルの作成]* ボタンをクリック/タップして、*表示形式* エディターを開きます。
 
-    ![JsonFilesVisualizationsEditor2\_All](images/json-files-visualizations-editor2.png)
+    <img src="images/json-files-visualizations-editor2.png" alt="JsonFilesVisualizationsEditor2\_All" width="100%"/>

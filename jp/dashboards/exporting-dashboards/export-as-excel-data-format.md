@@ -7,7 +7,7 @@ Reveal では、ダッシュボードに使用されるデータを **Excel 形�
 
 ダッシュボードを Excel スプレッドシートとしてエクスポートするには、*ダッシュボード ビュー* モードに移動して、オーバーフロー メニューから *[エクスポート]* ⇒ *Excel* を選択します。次のダイアログが開きます:
 
-![Settings for Excel spreadsheet in the Export Dashboard menu](images/export-settings-excel.png)
+<img src="images/export-settings-excel.png" alt="Settings for Excel spreadsheet in the Export Dashboard menu" width="100%"/>
 
 この *[ダッシュボードのエクスポート]* ダイアログでは、Excel ファイルに含めるデータ シートを**選択**して**名前を変更**できます。各データ シートには、エクスポートするダッシュボードの特定の表示形式のデータが含まれています。Excel ドキュメントに**表示形式を含める**こともできます。
 

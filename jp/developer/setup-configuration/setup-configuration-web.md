@@ -36,7 +36,7 @@ NET Framework 4.6.2 以降 をターゲットとする場合、Reveal Server SDK
 
 Reveal SDK をインストールすると、%public%\\Documents\\Infragistics\\NuGet を指す _Infragistics (Local)_ と呼ばれる新しい NuGet パッケージソースが **nuget.config** に追加されます。
 
-![addingNugetPackage_web](images/addingNugetPackage_web.png)
+<img src="images/addingNugetPackage_web.png" alt="addingNugetPackage_web" width="100%"/>
 
 Infragistics (Local) フィードがインストーラーによって正しく設定されていることを確認後:
 

@@ -13,11 +13,11 @@ Reveal Server SDK は、.NET Framework 4.6.2 以降をターゲットとする .
 ウェブとデスクトップの両方のプラットフォーム用の Reveal SDK
 は、[こちら](https://www.revealbi.io/jp)からダウンロードしてください。準備ができたら、インストーラーの手順に従います。
 
-![installScreen_desktop](images/installScreen_desktop.png)
+<img src="images/installScreen_desktop.png" alt="installScreen_desktop" width="100%"/>
 
 インストール完了後、`[SDK サンプルを開く]` リンクをクリックしてサンプルを表示できます。
 
-![afterInstallScreen_desktop](images/afterInstallScreen_desktop.png)
+<img src="images/afterInstallScreen_desktop.png" alt="afterInstallScreen_desktop" width="100%"/>
 
 ### サンプル
 

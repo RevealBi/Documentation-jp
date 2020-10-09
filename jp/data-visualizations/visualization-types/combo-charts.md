@@ -4,17 +4,17 @@
 
 通常のチャートには、 X 軸と Y 軸が 1 つづつ必要です。複合チャートには 2 つの Y 軸があり、同じチャートに 2 種類のデータ ポイントを表示できます。
 
-![Combo chart sample within Reveal](images/combo-charts-sample.png)
+<img src="images/combo-charts-sample.png" alt="Combo chart sample within Reveal" width="100%"/>
 
 たとえば、上記のように、複合チャートは国の総人口および若い人口を表示して、それらの間の関係を示すことができます。
 
-![Selecting the Combo Chart visualization in Reveal](images/combo-charts-selection.png)
+<img src="images/combo-charts-selection.png" alt="Selecting the Combo Chart visualization in Reveal" width="100%"/>
 
 データソースとコンボの表示形式を選択した後、デフォルトでは、柱状チャートと折れ線チャートを組み合わせて開始します。最初の画像のように、両方のチャートのラベルと値を構成する必要があります。
 
 ### 複合チャートの設定
 
-![Combo Charts configuration settings in Reveal](images/combo-charts-settings.png)
+<img src="images/combo-charts-settings.png" alt="Combo Charts configuration settings in Reveal" width="100%"/>
 
 [設定] では:
 

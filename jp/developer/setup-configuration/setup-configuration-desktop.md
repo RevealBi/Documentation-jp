@@ -12,7 +12,7 @@ WPF または WinForms アプリケーション プロジェクトのセット�
 Reveal SDK をインストールすると、%public%\\Documents\\Infragistics\\NuGet を指す
 Infragistics (Local) と呼ばれる新しい NuGet パッケージソースが nuget.config に追加されます。
 
-![addingNugetPackage\_desktop](images/addingNugetPackage_desktop.png)
+<img src="images/addingNugetPackage_desktop.png" alt="addingNugetPackage\_desktop" width="100%"/>
 
 Infragistics (Local) フィードがインストーラーによって正しく設定されていることを確認後、**Infragistics.Reveal.Sdk.Wpf** パッケージをアプリケーション プロジェクトにインストールできます。
 

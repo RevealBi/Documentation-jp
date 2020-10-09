@@ -2,13 +2,13 @@
 
 表示形式は、個々の情報です。すべてのダッシュボードは 1 つ以上の表示形式で構成されます。以下の画像は、[柱状チャート](category-charts.html) による表示形式でさまざまな線によって生成される単位量を示しています。
 
-![SampleVisualization\_Desktop](images/SampleVisualization_Desktop.png)
+<img src="images/SampleVisualization_Desktop.png" alt="SampleVisualization\_Desktop" width="100%"/>
 
 ### 表示形式はどのように表示されますか？
 
 ビジネス データを理解するために Reveal は情報の表示形式をカスタマイズする複数のオプションを提供します。これらは「表示形式」といいます。
 
-![A sample dashboard displaying seven different visualizations](images/reveal-uploading-dashboards-menu.png)
+<img src="images/reveal-uploading-dashboards-menu.png" alt="A sample dashboard displaying seven different visualizations" width="100%"/>
 
 上記のダッシュボードでは、以下の表示形式タイプが表示されます。
 
@@ -30,7 +30,7 @@
 
 [+] 記号を選択して新しいダッシュボードを追加すると、新しい[データソース](~/jp/datasources/data-sources.html)または既存のデータソースを入力するよう求められます。表示形式の作成にはじめに行う必要のある手順です。
 
-![Creating a new visualization dialog](images/creating-new-visualization.png)
+<img src="images/creating-new-visualization.png" alt="Creating a new visualization dialog" width="100%"/>
 
 データソースを選択すると、表示形式が作成されます。[表示形式エディター](visualizations-editor.html)を使用して編集できます。
 

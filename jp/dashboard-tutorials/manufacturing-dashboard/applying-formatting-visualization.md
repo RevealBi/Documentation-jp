@@ -6,17 +6,17 @@
 
 ウィジェットをサンプル ダッシュボードと一致させるには、データ エディターのプレース ホルダーで **[月]** を選択し、[フィールド設定] メニューの **[日付の集計]** を選択する必要があります。
 
-![ManufacturingDateAggregationChange\_All](images/ManufacturingDateAggregationChange_All.png)
+<img src="images/ManufacturingDateAggregationChange_All.png" alt="ManufacturingDateAggregationChange\_All" width="100%"/>
 
 ### 注文の書式
 
 Y 軸に分数のない数値を表示するには、データ エディターの値プレース ホルダーにドロップされた **[注文]** フィールドの書式を変更する必要があります。それを選択し、**[フィルド設定]** メニューの **[書式]** で **[小数桁]** を [0] に変更します。
 
-![ManufacturingFormattingOrders\_All](images/ManufacturingFormattingOrders_All.png)
+<img src="images/ManufacturingFormattingOrders_All.png" alt="ManufacturingFormattingOrders\_All" width="100%"/>
 
 表示形式編集の完了後、右上隅の**ティック ボタン**を選択し、ダッシュボード エディターに戻ります。
 
-![ManufacturingWidgetInDashboardEditor\_All](images/ManufacturingWidgetInDashboardEditor_All.png)
+<img src="images/ManufacturingWidgetInDashboardEditor_All.png" alt="ManufacturingWidgetInDashboardEditor\_All" width="100%"/>
 
 >NOTE
 >表示形式を選択し、隅を下または横にドラッグすると、表示形式のサイズを変更できます。

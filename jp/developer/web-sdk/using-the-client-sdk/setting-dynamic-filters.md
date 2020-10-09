@@ -6,7 +6,7 @@
 
 たとえば、現在の地域に基づいて数字を変更する Sales ダッシュボードと、地域を選択するためのカスタム UI を作成する場合、ユーザーが選択を変更後、Sales ダッシュボードにその変更を反映させる必要があります。ほとんどの場合、ダッシュボードに通常表示されているフィルター選択を非表示にします。これにより、ユーザーが画面領域を変更する 2 つの異なる方法を混同することはありません。
 
-![Displaying filter selections](images/territory_filter_selections.png)
+<img src="images/territory_filter_selections.png" alt="Displaying filter selections" width="100%"/>
 
 次のコードスニペットでは、説明したシナリオを実現する方法について詳しく説明しています。
 

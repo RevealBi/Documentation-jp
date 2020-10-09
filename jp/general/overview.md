@@ -6,7 +6,7 @@ Reveal は、セルフ サービスのクロスプラットフォーム ビジ�
 
 最初に Reveal を開くと、次の画面が表示されます。
 
-![Reveal start screen view](images/reveal-initial-view.png)
+<img src="images/reveal-initial-view.png" alt="Reveal start screen view" width="100%"/>
 
 以下は、Reveal の最初の画面のメニューと、そこでできることです。
 

@@ -6,13 +6,13 @@ OneDrive データを使用するには、以下の手順を実行します。
 
 1.  OneDrive を選択すると、以下のログイン プロンプトが表示されます。
 
-    ![One Drive Login](images/OneDriveLogin_All.png)
+    <img src="images/OneDriveLogin_All.png" alt="One Drive Login" width="100%"/>
 
     **アカウント名とパスワード**を入力し、[サインイン] をクリックします。
 
 2.  OneDrive データを使用するには、Reveal に**制限付きのアクセス許可**を与える必要があることが通知されます。
 
-    ![Limited permissions request Microsoft dialog](images/limited-permissions-onedrive_all.png)
+    <img src="images/limited-permissions-onedrive_all.png" alt="Limited permissions request Microsoft dialog" width="100%"/>
 
 [承認] を選択して、OneDrive ファイルの使用 (読み取りとアクセスの維持) を Reveal に許可します。
 

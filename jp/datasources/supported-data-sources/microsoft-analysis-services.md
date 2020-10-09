@@ -15,7 +15,7 @@ Native および HTTP モードの詳細については、[Microsoft Instance Ma
 
 Microsoft Analysis Services データソースを *Native* モード用に構成するため、以下の情報が必要です。
 
-![Configure Microsoft Analysis Services connection](images/microsoft-analysis-native-configuration.png)
+<img src="images/microsoft-analysis-native-configuration.png" alt="Configure Microsoft Analysis Services connection" width="100%"/>
 
 1. データ ソースの*デフォルト名*: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Microsoft Analysis Services* という名前を付けます。好みに合わせて変更できます。
 
@@ -47,7 +47,7 @@ Microsoft Analysis Services データソースを *Native* モード用に構成
 
 Microsoft Analysis Services データソースを *HTTP* モード用に構成するため、以下の情報が必要です。
 
-![Configure Microsoft Analysis HTTP mode connection](images/miscrosoft-analysis-http-config.png)
+<img src="images/miscrosoft-analysis-http-config.png" alt="Configure Microsoft Analysis HTTP mode connection" width="100%"/>
 
 1.  **データ ソース名**: このフィールドはデータソース リストに表示されます。デフォルト名: *Microsoft Analysis Services*。
 
@@ -59,11 +59,11 @@ Microsoft Analysis Services データソースを *HTTP* モード用に構成�
 
 Analysis Services サーバーの資格情報が確認されたら、Reveal はサーバー上のデータベースを読み込んで表示します。
 
-![MSAnalysisDatabases\_All](images/MSAnalysisDatabases_All.png)
+<img src="images/MSAnalysisDatabases_All.png" alt="MSAnalysisDatabases\_All" width="100%"/>
 
 データベースを選択し、*続行*をクリックして設定します。
 
-![MSAnalysisCubes\_All](images/MSAnalysisCubes_All.png)
+<img src="images/MSAnalysisCubes_All.png" alt="MSAnalysisCubes\_All" width="100%"/>
 
 データベース キューブを選択し、[データの選択] をクリック/タップして、表示形式エディターに進みます。
 
@@ -72,7 +72,7 @@ Analysis Services サーバーの資格情報が確認されたら、Reveal は�
 
 Microsoft Analysis Services などのキューブ データソースを使用してダッシュボードを作成すると、*表示形式エディター*でフィールドが異なって体系化されます (下のスクリーンショットを参照)。キューブのデータソースは、キューブのデザイナーが事前に作成した階層と集計で構成されています。
 
-![VisEditorDimensionsMeasures\_All](images/VisEditorDimensionsMeasures_All.png)
+<img src="images/VisEditorDimensionsMeasures_All.png" alt="VisEditorDimensionsMeasures\_All" width="100%"/>
 
 上のスクリーンショットでは、左側に「フィールド」の見出しがないことに気付くかもしれません。代わりに、クエリ フィールドに 2 つのセクションがあります:
 
@@ -86,7 +86,7 @@ Microsoft Analysis Services などのキューブ データソースを使用し
 
 2.  **メジャー** ([123]アイコンで表示): メジャーは数値データで構成されます。
 
-![PivotTableExampleMSAnalysis\_All](images/PivotTableExampleMSAnalysis_All.png)
+<img src="images/PivotTableExampleMSAnalysis_All.png" alt="PivotTableExampleMSAnalysis\_All" width="100%"/>
 
 ディメンションとメジャーの詳細については、[Technet](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2012/ms174527\(v=sql.110\)) の記事をご覧ください。
 
@@ -97,4 +97,4 @@ Microsoft Analysis Services などのキューブ データソースを使用し
 
 有効にするには、行または列でディメンションを選択します。[昇順] または [降順] を選択してフィールドの並べ替えを有効にし、[キャプションで並べ替え] オプションを表示します。
 
-![SortByCaption\_All](images/SortByCaption_All.png)
+<img src="images/SortByCaption_All.png" alt="SortByCaption\_All" width="100%"/>

@@ -2,7 +2,7 @@
 
 このチュートリアルでは、同様のデータを含むサンプル スプレッドシートを使用して作成した、以下の ソーシャル メディア分析ダッシュボドを表示する方法について説明します。
 
-![SocialMediaAnalytics\_All](images/SocialMediaAnalytics_All.png)
+<img src="images/SocialMediaAnalytics_All.png" alt="SocialMediaAnalytics\_All" width="100%"/>
 
 ### ダッシュボードに含まれる項目
 

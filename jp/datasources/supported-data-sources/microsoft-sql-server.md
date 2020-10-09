@@ -4,7 +4,7 @@
 
 Microsoft SQL サーバーデータソースを構成するには、以下の情報が必要です。
 
-![Enter SQL Server Details](images/Enter-SQL-Server-Details.png)
+<img src="images/Enter-SQL-Server-Details.png" alt="Enter SQL Server Details" width="100%"/>
 
 1.  データ ソースの**デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Microsoft SQL Server* という名前を付けます。好みに合わせて変更できます。
 
@@ -48,11 +48,11 @@ Microsoft SQL サーバーデータソースを構成するには、以下の情
 
 Reveal を使用すると、テーブル全体から SQL Server データを取得できますが、代わりにテーブルまたはテーブルのセットからデータのサブセットを返す、特定の[ビュー](https://docs.microsoft.com/ja-jp/sql/relational-databases/views/views?view=sql-server-2017)を選択することもできます。
 
-![SQLServerViews\_All](images/SQLServerViews_All.png)
+<img src="images/SQLServerViews_All.png" alt="SQLServerViews\_All" width="100%"/>
 
 上記のサンプルでは、**Alphabetical list of products** ビューに SQL サーバーの **Products** テーブルのデータの一部が含まれています。
 
-![AlphabeticalListProductsSQLServer\_All](images/AlphabeticalListProductsSQLServer_All.png)
+<img src="images/AlphabeticalListProductsSQLServer_All.png" alt="AlphabeticalListProductsSQLServer\_All" width="100%"/>
 
 ビューおよび MS SQL サーバーの詳細については、[この Web サイト](https://docs.microsoft.com/ja-jp/sql/relational-databases/views/views?view=sql-server-2017)を参照してください。
 
@@ -60,15 +60,15 @@ Reveal を使用すると、テーブル全体から SQL Server データを取�
 
 MS SQL では、ストアド プロシージャを利用することで、特定のパラメーターを使用して、リレーショナル データベースで一連のクエリ ステートメントを実行できます。以下は、[Northwind](https://docs.microsoft.com/ja-jp/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases) データを使用してテスト サーバーで実行されるサンプル ストアド プロシージャのセットです。
 
-![SQLStoredProcedures\_All](images/SQLStoredProcedures_All.png)
+<img src="images/SQLStoredProcedures_All.png" alt="SQLStoredProcedures\_All" width="100%"/>
 
 たとえば、このストアド プロシージャは、**Products** テーブルの製品を、**Unit Price** で並べ替えて返します。  **ProductName** の名前は、**TenMostExpensiveProducts** に変更されました。
 
-![StoredProcedureSampleResults\_All](images/StoredProcedureSampleResults_All.png)
+<img src="images/StoredProcedureSampleResults_All.png" alt="StoredProcedureSampleResults\_All" width="100%"/>
 
 この場合、ストアド プロシージャは、**Sales by Year** 情報を表示するための開始日と終了日を設定する必要があります。
 
-![StoredProcedureSampleDates\_All](images/Stored-Procedure-Sample-Dates.png)
+<img src="images/Stored-Procedure-Sample-Dates.png" alt="StoredProcedureSampleDates\_All" width="100%"/>
 
 ストアドプロシージャおよび MS SQL サーバーの詳細については、[この Web サイト](https://docs.microsoft.com/ja-jp/sql/relational-databases/stored-procedures/stored-procedures-database-engine?view=sql-server-2017)を参照してください。
 

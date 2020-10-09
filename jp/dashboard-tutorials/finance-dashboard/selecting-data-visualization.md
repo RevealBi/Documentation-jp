@@ -8,7 +8,7 @@
 
 まず、トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開きます**。
 
-![VisualizationsMenu\_All](images/VisualizationsMenu_All.png)
+<img src="images/VisualizationsMenu_All.png" alt="VisualizationsMenu\_All" width="100%"/>
 
 **表示形式を [テキスト ゲージ] に変更します**。
 
@@ -18,15 +18,15 @@
 
   - [値] のプレースホルダーに *Actual Values* をドラッグアンドドロップ。
 
-![FinanceFirstDragDrop\_All](images/FinanceFirstDragDrop_All.png)
+<img src="images/FinanceFirstDragDrop_All.png" alt="FinanceFirstDragDrop\_All" width="100%"/>
 
 最後に、Finance Dashboard タイトルの横にある鉛筆アイコンを選択して、**表示形式のタイトルを Globex Stock Value 2018 に変更します**。
 
-![FinanceGlobexTitle\_All](images/FinanceGlobexTitle_All.png)
+<img src="images/FinanceGlobexTitle_All.png" alt="FinanceGlobexTitle\_All" width="100%"/>
 
 表示形式は以下のようになります。
 
-![FinanceFirstVisualizationSample\_All](images/FinanceFirstVisualizationSample_All.png)
+<img src="images/FinanceFirstVisualizationSample_All.png" alt="FinanceFirstVisualizationSample\_All" width="100%"/>
 
 
 <style>

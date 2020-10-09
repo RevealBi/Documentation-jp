@@ -4,7 +4,7 @@
 
 PostgreSQL サーバーデータソースを設定するには、以下の情報が必要です。
 
-![Configure PostgreSQL Server details](images/enter-postgreSQL-server-details.png)
+<img src="images/enter-postgreSQL-server-details.png" alt="Configure PostgreSQL Server details" width="100%"/>
 
 1.  データ ソースの**デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *PostgreSQL* という名前を付けます。好みに合わせて変更できます。
 
@@ -48,11 +48,11 @@ PostgreSQL サーバーデータソースを設定するには、以下の情報
 
 Reveal を使用すると、テーブル全体から PostgreSQL データを取得できますが、代わりにテーブルまたはテーブルのセットからデータのサブセットを返す特定の [ビュー](https://www.postgresql.org/docs/10/views.html) を選択することもできます。
 
-![PostgreSQL views dialog](images/postgre-SQL-views.png)
+<img src="images/postgre-SQL-views.png" alt="PostgreSQL views dialog" width="100%"/>
 
 上記のサンプルの**請求書**ビューには、PostgreSQL サーバーの **Products** テーブルにあるデータの変更バージョンが含まれています。
 
-![Sample dashboard using PostgreSQL invoices view data](images/invoices-postgre-sql-view-sample.png)
+<img src="images/invoices-postgre-sql-view-sample.png" alt="Sample dashboard using PostgreSQL invoices view data" width="100%"/>
 
 ビューと PostgreSQL の詳細については、[このウェブサイト](https://www.postgresql.org/docs/10/tutorial-views.html)。
 

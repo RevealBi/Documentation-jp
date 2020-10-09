@@ -2,7 +2,7 @@
 
 このセクションでは、並べ替え、フィルター処理、データの集計などデータセットへの変換を適用するためのさまざまなオプションについて説明します。
 
-![data-filters-currency](images/data-filters-currency.png)
+<img src="images/data-filters-currency.png" alt="data-filters-currency" width="100%"/>
 
 データにフォーマットまたはフィルターを適用するには、対応するプレースホルダー (*カテゴリ*、 *列*、 *ラベル*、 *行*、および*値*) で変更する特定のフィールドを選択する必要があります。フィールドには 3 つのタイプがあり、それぞれに独自のフォーマットおよびフィルター オプションがあります:
 
@@ -20,7 +20,7 @@
 <a name='date-fields'></a>
 ### 日付フィールド
 
-![Date-Field-Formatting](images/Date-Field-Formatting.png)
+<img src="images/Date-Field-Formatting.png" alt="Date-Field-Formatting" width="100%"/>
 
   - **ラベル名の変更**: 表示のみを目的としてフィールド名を変更します。フィールドは常に計算フィールド式で元の名前によって参照されます。名前を変更すると、ラベルを完全に消去し元の値に戻ります。
 
@@ -35,7 +35,7 @@
 <a name='numeric-fields'></a>
 ### 数値フィールド
 
-![Numeric-Field-Formatting\_All.png](images/Numeric-Field-Formatting.png)
+<img src="images/Numeric-Field-Formatting.png" alt="Numeric-Field-Formatting\_All.png" width="100%"/>
 
   - **ラベル名の変更**: 表示のみを目的としてフィールド名を変更します。フィールドは常に計算フィールド式で元の名前によって参照されます。名前を変更すると、ラベルを完全に消去し元の値に戻ります。
 
@@ -60,7 +60,7 @@
 <a name='abc-fields'></a>
 ### 文字列フィールド
 
-![String-Field-Formatting](images/string-field-formatting.png)
+<img src="images/string-field-formatting.png" alt="String-Field-Formatting" width="100%"/>
 
   - **ラベル名の変更**: 表示のみを目的としてフィールド名を変更します。フィールドは常に計算フィールド式で元の名前によって参照されます。名前を変更すると、ラベルを完全に消去し元の値に戻ります。
 

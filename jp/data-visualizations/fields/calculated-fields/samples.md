@@ -55,7 +55,7 @@
 
 以下のダッシュボードを参照します。会社の事業部および 2 年間の売上を表示します。
 
-![YoyAnalysisRevenue\_All](images/YoyAnalysisRevenue_All.png)
+<img src="images/YoyAnalysisRevenue_All.png" alt="YoyAnalysisRevenue\_All" width="100%"/>
 
 以下の計算フィールドを使用して 2 つの数値を比較できます。「-1」は年の違いを減算します。
 
@@ -63,4 +63,4 @@
 
 数値を使用するか、[パーセンテージとして書式](~/jp/data-visualizations/fields/field-settings.html#numeric-fields)設定できます。
 
-![YoyAnalysisPercentage\_All](images/YoyAnalysisPercentage_All.png)
+<img src="images/YoyAnalysisPercentage_All.png" alt="YoyAnalysisPercentage\_All" width="100%"/>

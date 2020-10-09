@@ -2,17 +2,17 @@
 
 スパークライン チャートは、軸、ラベル、またはその他のチャート要素なしでグリッド ビュー内にプロットされる小さなチャートで、指定された日付範囲のトレンドとその進行を表します。
 
-![Sparkline Chart sample](images/sparkline-chart-dashboard-view.png)
+<img src="images/sparkline-chart-dashboard-view.png" alt="Sparkline Chart sample" width="100%"/>
 
 最初の列は表示形式エディターで固定されたままで、情報内の別の列をスクロールできます。
 
-![SparklineChartVisualizationsEditor\_All](images/sparkline-chart-visualizations-editor.png)
+<img src="images/sparkline-chart-visualizations-editor.png" alt="SparklineChartVisualizationsEditor\_All" width="100%"/>
 
 ### スパークラインの詳細設定
 
 表示形式エディターの **[設定]** セクションにアクセスすると、以下のいくつかの設定を変更できます。
 
-![SparklineAdvancedChartSettings\_All](images/sparkline-advanced-chart-settings.png)
+<img src="images/sparkline-advanced-chart-settings.png" alt="SparklineAdvancedChartSettings\_All" width="100%"/>
 
   - テキスト、数値、および日付の**配置**。
 

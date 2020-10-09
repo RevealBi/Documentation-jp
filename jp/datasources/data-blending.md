@@ -4,7 +4,7 @@
 
 たとえば、休暇日数を部署ごとに他の従業員不就業と比較して、それらの変数の相関関係についてインサイトを得ることができます。
 
-![Data Blending Example Visualization](images/data-blending-example.png)
+<img src="images/data-blending-example.png" alt="Data Blending Example Visualization" width="100%"/>
 
 ２つの データソースを 1 つの表示形式に統合ため、以下の手順を実行します:
 
@@ -12,7 +12,7 @@
 
     *[フィールド]* セクションの **[+]** ボタンをクリックもしくはタップし、*[別のデータソースのフィールド]* を選択します。
 
-    ![Data Blending Accessing dialog in the Visualization editor](images/data-blending-open-dialog.png)
+    <img src="images/data-blending-open-dialog.png" alt="Data Blending Accessing dialog in the Visualization editor" width="100%"/>
 
 2.  **新しいデータソースを選択します**。
 
@@ -22,19 +22,19 @@
 
     2 つのデータ セットを統合するために一致する必要がある等価条件を設定します。
 
-    ![Data Blending Join Condition selection](images/data-blending-join-condition.png)
+    <img src="images/data-blending-join-condition.png" alt="Data Blending Join Condition selection" width="100%"/>
 
 4.  **必要なフィールドを選択**
 
     結合するフィールドを指定して、表示形式でアクセスできるようにします。
 
-    ![Data Blending Choose New Fields dialog](images/data-blending-choose-new-fields.png)
+    <img src="images/data-blending-choose-new-fields.png" alt="Data Blending Choose New Fields dialog" width="100%"/>
 
 5.  **[データの結合] を選択します**。
 
     2 つ のデータセットをマージすると、*[フィールド]* セクションの下部に新しいフィールドを確認できます。
 
-    ![Show Data Blending Result](images/data-blending-result.png)
+    <img src="images/data-blending-result.png" alt="Show Data Blending Result" width="100%"/>
 
     上記画像に表示されように、部署 ID を使用する代わりに、部署名で休暇日を表示できるようになりました。
 

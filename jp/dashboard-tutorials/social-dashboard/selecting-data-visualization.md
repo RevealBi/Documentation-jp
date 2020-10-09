@@ -4,23 +4,23 @@
 
 まず、トップ バーのグリッド アイコンを選択し、**表示形式ペインを開きます**。
 
-![VisualizationsMenu\_All](images/VisualizationsMenu_All.png)
+<img src="images/VisualizationsMenu_All.png" alt="VisualizationsMenu\_All" width="100%"/>
 
 **表示形式を [テキスト ゲージ] に変更します**。
 
-![SelectTextGauge\_All](images/SelectTextGauge_All.png)
+<img src="images/SelectTextGauge_All.png" alt="SelectTextGauge\_All" width="100%"/>
 
 次に、データ エディターの [値] プレースホルダーへ **Twitter Followers by Year** フィールドを**ドラッグアンドドロップします**。
 
-![SocialFirstDragDrop\_All](images/SocialFirstDragDrop_All.png)
+<img src="images/SocialFirstDragDrop_All.png" alt="SocialFirstDragDrop\_All" width="100%"/>
 
 最後に、Social Dashboard タイトルの横にある鉛筆を選択して、**表示形式のタイトルを YTD Twitter Followers に変更します**。
 
-![SocialWonOpportunitiesTitle\_All](images/SocialWonOpportunitiesTitle_All.png)
+<img src="images/SocialWonOpportunitiesTitle_All.png" alt="SocialWonOpportunitiesTitle\_All" width="100%"/>
 
 表示形式は以下のようになります。
 
-![SocialFirstVisualizationSample\_All](images/SocialFirstVisualizationSample_All.png)
+<img src="images/SocialFirstVisualizationSample_All.png" alt="SocialFirstVisualizationSample\_All" width="100%"/>
 
 完了すると、右上隅の**ティック アイコン**を選択して、ダッシュボード エディターに戻ります。
 

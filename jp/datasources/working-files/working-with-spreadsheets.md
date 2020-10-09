@@ -105,20 +105,20 @@ Microsoft Excel および Google スプレッドシートを使用する場合�
 >[!NOTE]**スプレッドシートの最初の 200 行のみが転置されます。**
 >データソースでシートを展開するときに、[表示データ] メニューの転置メニューにアクセスできます。
 
-![Spreadsheets Transpose Data Source Menu](images/spreadsheets-transpose-data-source-menu.png)
+<img src="images/spreadsheets-transpose-data-source-menu.png" alt="Spreadsheets Transpose Data Source Menu" width="100%"/>
 
 十字ボタンの隣の右上隅に転置アイコンが表示されます。
 それを押すと、Reveal は列を行に、またはその逆に切り替えます。
 
-![Transposing Action Spreadsheet](images/transposing-action-spreadsheet.png)
+<img src="images/transposing-action-spreadsheet.png" alt="Transposing Action Spreadsheet" width="100%"/>
 
 上記の例では、スプレッドシートの情報は、会社の各従業員の EmployeeID を表す列に編成されます。
 
-![Transposing Action Final Spreadsheet](images/transposing-action-final-spreadsheet.png)
+<img src="images/transposing-action-final-spreadsheet.png" alt="Transposing Action Final Spreadsheet" width="100%"/>
 
 ティック アイコンを選択します。これにより、[表示データ] メニューに戻ります。ここで、シートの名前が表示され、その左側に、シートが変更されたことを示す新しいアイコンが表示されます。
 
-![Transposed Spreadsheet Visualization Data](images/transposed-spreadsheet-visualization-data.png)
+<img src="images/transposed-spreadsheet-visualization-data.png" alt="Transposed Spreadsheet Visualization Data" width="100%"/>
 
 ### 関連項目
 

@@ -2,7 +2,7 @@
 
 Quickbooks に接続すると、次のログイン プロンプトが表示されます:
 
-![Quickbooks login prompt](images/quickbooks-login.png)
+<img src="images/quickbooks-login.png" alt="Quickbooks login prompt" width="100%"/>
 
 
 ログイン情報を入力するか、[Google でサインイン] を選択して、[サインイン] をクリックします。

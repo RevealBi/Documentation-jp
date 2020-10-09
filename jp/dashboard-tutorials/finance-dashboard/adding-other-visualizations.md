@@ -49,29 +49,29 @@ SIS Stock Value 2018 表示形式は、2018 年の Soylent Corp 株の平均値�
 
 1.  「Globex Stock Value 2018」 表示形式でオーバーフロー ボタンを開き、**[複製]** を選択します。
 
-    ![DuplicatingVisualizationSISStockValue\_All](images/DuplicatingVisualizationSISStockValue_All.png)
+    <img src="images/DuplicatingVisualizationSISStockValue_All.png" alt="DuplicatingVisualizationSISStockValue\_All" width="100%"/>
 
 <!-- end list -->
 
 2.  表示形式の名前を変更するには、オーバーフロー ボタンを開き、**[名前の変更]** を選択します。
 
-    ![DuplicateVisualizationRenaming\_All](images/DuplicateVisualizationRenaming_All.png)
+    <img src="images/DuplicateVisualizationRenaming_All.png" alt="DuplicateVisualizationRenaming\_All" width="100%"/>
 
     値を 「Silver Security Stock Value 2018」 に設定します。
 
-    ![SISStockRenamingVisualization\_All](images/SISStockRenamingVisualization_All.png)
+    <img src="images/SISStockRenamingVisualization_All.png" alt="SISStockRenamingVisualization\_All" width="100%"/>
 
 <!-- end list -->
 
 3.  オーバーフロー ボタンをもう一度選択し、**[編集]** を選択して編集モードに入ります。
 
-    ![SISStockValueEditingVisualization\_All](images/SISStockValueEditingVisualization_All.png)
+    <img src="images/SISStockValueEditingVisualization_All.png" alt="SISStockValueEditingVisualization\_All" width="100%"/>
 
 <!-- end list -->
 
 4.  この表示形式は、**Silver Security Corp** の株価 (2 番目に高い株価) を表示します。表示形式の複製を選択したため、テキスト ゲージに表示される数値は **Globex** に対応します。変更するには、**[データ フィルター]** の **Stocks** フィールドを選択します。次に、**Selected Value** を **Silver Security Corp** に変更し、*Globex の選択を解除します*。
 
-    ![SISStockValueChangeStock\_All](images/SISStockValueChangeStock_All.png)
+    <img src="images/SISStockValueChangeStock_All.png" alt="SISStockValueChangeStock\_All" width="100%"/>
 
     次に, **[フィルターの更新]** を選択します。
 
@@ -85,25 +85,25 @@ GLB Fiscal 表示形式は、ニューヨーク証券取引所 (New York Stock E
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Finance Dashboard** シートを選択します。次に、[データの選択] を選択します。
 
-    ![SelectingFinanceSheet\_All.png](images/SelectingFinanceSheet_All.png)
+    <img src="images/SelectingFinanceSheet_All.png" alt="SelectingFinanceSheet\_All.png" width="100%"/>
 
 <!-- end list -->
 
 2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、ローソク足チャートを選択します。
 
-    ![SelectCandlestickChart\_All](images/SelectCandlestickChart_All.png)
+    <img src="images/SelectCandlestickChart_All.png" alt="SelectCandlestickChart\_All" width="100%"/>
 
 <!-- end list -->
 
 3.  データ エディターで、**Date** フィールドをデータ エディターの [ラベル] プレースホルダーにドラッグアンドドロップし、**Open** を [始値] に、**High** を [高値] に、**Low** を [安値] に、**Close** を [終値] にドラッグアンドドロップします。
 
-    ![DragDropFinanceGLBFiscal\_All](images/DragDropFinanceGLBFiscal_All.png)
+    <img src="images/DragDropFinanceGLBFiscal_All.png" alt="DragDropFinanceGLBFiscal\_All" width="100%"/>
 
 <!-- end list -->
 
 4.  デフォルトで、[ラベル]の日付情報は年で表示されます。変更するには、データ エディターの [ラベル] プレースホルダーの **[日付]** を選択し、**[日付の集計]** を **[日]** に変更します。
 
-    ![FinanceGLBDateAggregation\_All](images/FinanceGLBDateAggregation_All.png)
+    <img src="images/FinanceGLBDateAggregation_All.png" alt="FinanceGLBDateAggregation\_All" width="100%"/>
 
     次に, **[フィールドの更新]** を選択します。
 
@@ -111,7 +111,7 @@ GLB Fiscal 表示形式は、ニューヨーク証券取引所 (New York Stock E
 
 5.  必要に応じて、[始値]、[高値]、[安値]、[終値]の値を選択し**、[小数桁]**を **[0]** に変更して、Y 軸の小数桁を削除できます。
 
-    ![GLBFiscalRemovingFractionDigits\_All](images/GLBFiscalRemovingFractionDigits_All.png)
+    <img src="images/GLBFiscalRemovingFractionDigits_All.png" alt="GLBFiscalRemovingFractionDigits\_All" width="100%"/>
 
     次に, **[フィールドの更新]** を選択します。
 
@@ -119,11 +119,11 @@ GLB Fiscal 表示形式は、ニューヨーク証券取引所 (New York Stock E
 
 6.  表示形式は GLB 株価を表示するため、その特定のオプションを表示するために **Stocks** の**フィルターを導入する**必要があります。**Stocks** を **[データ フィルター]** にドラッグアンドドロップし、**[値の選択]** を選択します。
 
-    ![GlobexCandlestickSelectValues\_All](images/GlobexCandlestickSelectValues_All.png)
+    <img src="images/GlobexCandlestickSelectValues_All.png" alt="GlobexCandlestickSelectValues\_All" width="100%"/>
 
     すべてのオプションをチェック解除し、**Globex** のみを選択します。
 
-    ![GlobexCandlestickSelectGlobex\_All](images/GlobexCandlestickSelectGlobex_All.png)
+    <img src="images/GlobexCandlestickSelectGlobex_All.png" alt="GlobexCandlestickSelectGlobex\_All" width="100%"/>
 
     次に、**[フィルターの作成]** を選択します。
 
@@ -131,11 +131,11 @@ GLB Fiscal 表示形式は、ニューヨーク証券取引所 (New York Stock E
 
 7.  2018 年の情報のみを表示するには、フィルターを導入する必要があります。これを行うには、**Date** をデータ エディターの **[データ フィルター]** プレースホルダーにドラッグアンドドロップし、**[フィルター タイプ]** で **[ルールによるフィルター]** を選択します。
 
-    ![GLBFilterbyRule](images/GLBFilterbyRule.png)
+    <img src="images/GLBFilterbyRule.png" alt="GLBFilterbyRule" width="100%"/>
 
     **[カスタム日付範囲]** ルールを選択し、1 月 1 日から 12 月 3 1日までを入力します。
 
-    ![GLBEnterCustomDateRange\_All](images/GLBEnterCustomDateRange_All.png)
+    <img src="images/GLBEnterCustomDateRange_All.png" alt="GLBEnterCustomDateRange\_All" width="100%"/>
 
     次に、**[フィルターの作成]** を選択します。
 
@@ -152,25 +152,25 @@ Forecast 表示形式は、5 年間の株の変動、買注文、売注文を[�
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Finance Dashboard** シートを選択します。次に、*[データの選択]* を選択します。
 
-    ![SelectingFinanceSheet\_All.png](images/SelectingFinanceSheet_All.png)
+    <img src="images/SelectingFinanceSheet_All.png" alt="SelectingFinanceSheet\_All.png" width="100%"/>
 
 <!-- end list -->
 
 2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、折れ線チャートを選択します。
 
-    ![SelectLineChart\_All](images/SelectLineChart_All.png)
+    <img src="images/SelectLineChart_All.png" alt="SelectLineChart\_All" width="100%"/>
 
 <!-- end list -->
 
 3.  データエ ディターで、**Date** フィールドを [ラベル] に、**Stocks** を [ラベル] の *[階層の追加]* セクションに、**Change**、**Bid**、**Offer** を **[値]** にドラッグアンドドロップします。
 
-    ![DragDropFinanceForecast\_All](images/DragDropFinanceForecast_All.png)
+    <img src="images/DragDropFinanceForecast_All.png" alt="DragDropFinanceForecast\_All" width="100%"/>
 
 <!-- end list -->
 
 4.  デフォルトで、[ラベル]の日付情報は年で表示されます。変更するには、データ エディターの [ラベル] プレースホルダーの **[日付]** を選択し、**[日付の集計]** を **[月]** に変更します。
 
-    ![FinanceForecastDateAggregation\_All](images/FinanceForecastDateAggregation_All.png)
+    <img src="images/FinanceForecastDateAggregation_All.png" alt="FinanceForecastDateAggregation\_All" width="100%"/>
 
     次に, **[フィールドの更新]** を選択します。
 
@@ -178,7 +178,7 @@ Forecast 表示形式は、5 年間の株の変動、買注文、売注文を[�
 
 5.  Y 軸の小数桁を削除するには、[値] フィールドを選択し、**[小数桁]** を **[0]** に変更します。
 
-    ![ForecastRemovingFractionDigits\_All](images/ForecastRemovingFractionDigits_All.png)
+    <img src="images/ForecastRemovingFractionDigits_All.png" alt="ForecastRemovingFractionDigits\_All" width="100%"/>
 
     次に, **[フィールドの更新]** を選択します。
 
@@ -195,25 +195,25 @@ Stock Variations 表示形式は、12 か月間の株価の変化を[スパー�
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Finance Dashboard** シートを選択します。次に、*[データの選択]* を選択します。
 
-    ![SelectingFinanceSheet\_All.png](images/SelectingFinanceSheet_All.png)
+    <img src="images/SelectingFinanceSheet_All.png" alt="SelectingFinanceSheet\_All.png" width="100%"/>
 
 <!-- end list -->
 
 2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、スパークライン チャートを選択します。
 
-    ![SelectSparklineChart\_All](images/SelectSparklineChart_All.png)
+    <img src="images/SelectSparklineChart_All.png" alt="SelectSparklineChart\_All" width="100%"/>
 
 <!-- end list -->
 
 3.  データ エディターで、**Date** フィールドを [日付] に、**Offer** フィールドを **[値]** に、**Stocks** を [カテゴリ] にドラッグアンドドロップします。
 
-    ![DragDropFinanceStockVariation\_All](images/DragDropFinanceStockVariation_All.png)
+    <img src="images/DragDropFinanceStockVariation_All.png" alt="DragDropFinanceStockVariation\_All" width="100%"/>
 
 <!-- end list -->
 
 4.  デフォルトで、**Offer** フィールドは数値として表示されます。通貨として表示するには、フィールドを選択し、**[タイプ]** **を [通貨]** に変更します。
 
-    ![StockVariationCurrencyFormatting\_All](images/StockVariationCurrencyFormatting_All.png)
+    <img src="images/StockVariationCurrencyFormatting_All.png" alt="StockVariationCurrencyFormatting\_All" width="100%"/>
 
     次に, **[フィールドの更新]** を選択します。
 
@@ -221,7 +221,7 @@ Stock Variations 表示形式は、12 か月間の株価の変化を[スパー�
 
 5.  **過去 12 か月**のチャートは、デフォルトで折れ線チャートで表示されます。サンプルと一致させるために、代わりにエリア チャートを表示するように設定します。表示形式エディターの **[設定]** メニューに移動し、**[チャート タイプ]** ドロップダウンを開き、**[エリア]** を選択します。
 
-    ![StockVariationChangingChartType\_All](images/StockVariationChangingChartType_All.png)
+    <img src="images/StockVariationChangingChartType_All.png" alt="StockVariationChangingChartType\_All" width="100%"/>
 
 <!-- end list -->
 
@@ -236,29 +236,29 @@ Stock Volumes 表示形式は、1 年間の株式数を[リニア ゲージ](~/j
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Finance Dashboard** シートを選択します。次に、*[データの選択]* を選択します。
 
-    ![SelectingFinanceSheet\_All.png](images/SelectingFinanceSheet_All.png)
+    <img src="images/SelectingFinanceSheet_All.png" alt="SelectingFinanceSheet\_All.png" width="100%"/>
 
 <!-- end list -->
 
 2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、リニア チャートを選択します。
 
-    ![SelectLinearGauge\_All](images/SelectLinearGauge_All.png)
+    <img src="images/SelectLinearGauge_All.png" alt="SelectLinearGauge\_All" width="100%"/>
 
 <!-- end list -->
 
 3.  データ エディターで、**Stocks**フィールドを [ラベル] に、**Volume** をデータ エディターの [値] プレースホルダーにドラッグアンドドロップします。
 
-    ![DragDropFinanceStockVolume\_All](images/DragDropFinanceStockVolume_All.png)
+    <img src="images/DragDropFinanceStockVolume_All.png" alt="DragDropFinanceStockVolume\_All" width="100%"/>
 
 <!-- end list -->
 
 4.  2018 年の情報のみを表示するには、フィルターを導入する必要があります。これを行うには、**Date** をデータ エディターの [データ フィルター] プレースホルダーにドラッグアンドドロップし、**[フィルター タイプ]** で **[ルールによるフィルター]** を選択します。
 
-    ![StockVolFilterbyRule\_All](images/StockVolFilterbyRule_All.png)
+    <img src="images/StockVolFilterbyRule_All.png" alt="StockVolFilterbyRule\_All" width="100%"/>
 
     **[カスタム日付範囲]** ルールを選択し、1 月 1 日から 12 月 3 1日までを入力します。
 
-    ![StockVolEnterCustomDateRange\_All](images/StockVolEnterCustomDateRange_All.png)
+    <img src="images/StockVolEnterCustomDateRange_All.png" alt="StockVolEnterCustomDateRange\_All" width="100%"/>
 
     次に、**[フィルターの作成]** を選択します。
 

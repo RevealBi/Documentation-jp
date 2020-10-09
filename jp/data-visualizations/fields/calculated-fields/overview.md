@@ -19,7 +19,7 @@ Reveal では、計算フィールドというフィールドをデータセッ�
 
 新しい計算フィールドを追加するには、[フィールド] パネルの [+] ボタンをクリック/タップします。
 
-![計算フィールドのボタン](images/pre-calculated-field-button.png)
+<img src="images/pre-calculated-field-button.png" alt="計算フィールドのボタン" width="100%"/>
 
 [計算フィールドの作成] 画面が開きます。
 

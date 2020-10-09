@@ -2,7 +2,7 @@
 
 このチュートリアルでは、サンプル スプレッドシートで同様のデータを使用して作成した以下の Stock Market (Performance) ダッシュボードを表示する方法について説明します。
 
-![StockPerformanceDashboard\_All](images/StockPerformanceDashboard_All.png)
+<img src="images/StockPerformanceDashboard_All.png" alt="StockPerformanceDashboard\_All" width="100%"/>
 
 ### ダッシュボードに含まれる項目
 

@@ -2,7 +2,7 @@
 
 SharePoint を選択すると、次のログイン プロンプトが表示されます:
 
-![SharePoint Login](images/sharepoint-login.png)
+<img src="images/sharepoint-login.png" alt="SharePoint Login" width="100%"/>
 
 ここでは、Office365 アカウントでルートの SharePoint サイトを使用することを選択できます。*サブサイト URL* を追加して、コンテンツのブラウズを直接開始することもできます。SharePoint サブサイトに接続すると、[データソースの選択] ダイアログのリストからすばやくアクセスできるようになります。
 
@@ -18,7 +18,7 @@ Reveal では、SharePoint サイト (サブサイト) の広範な種類のフ�
 
 ログイン後、SharePoint データ - サブサイト、ライブラリ、フォルダー、リスト、ファイル (下に表示) のブラウズを開始できます。
 
-![A SharePoint site's browsing dialog showing Subsites, Libraries and lists](images/sharepoint-browse-dialog.png)
+<img src="images/sharepoint-browse-dialog.png" alt="A SharePoint site's browsing dialog showing Subsites, Libraries and lists" width="100%"/>
 
 ダッシュボードを作成するには、以下の SharePoint データ型を使用できます。
 
@@ -26,7 +26,7 @@ Reveal では、SharePoint サイト (サブサイト) の広範な種類のフ�
 
 2. *SharePoint リスト* - すべてのタイプの SharePoint リストのアイテムを使用できます。*SharePoint ビュー*を選択して、SharePoint リストを設定します。
 
-  ![Setting up your SharePoint list](images/sharepoint-list-data-set-up.png)
+  <img src="images/sharepoint-list-data-set-up.png" alt="Setting up your SharePoint list" width="100%"/>
 
   >[!NOTE]
   >**詳細設定 - ページごとの項目。**
@@ -38,11 +38,11 @@ Reveal では、SharePoint サイト (サブサイト) の広範な種類のフ�
 
     これを行うには、ライブラリを開いて、右上隅にある [メタデータの使用] ボタンをクリックする必要があります。
 
-    ![Use Metadata button in a Sharepoint library](images/sharepoint-library-metadata-button.png)
+    <img src="images/sharepoint-library-metadata-button.png" alt="Use Metadata button in a Sharepoint library" width="100%"/>
 
     ここでは、選択可能な SharePoint リストとして表示されるライブラリのメタデータがあります。
 
-![Metadata presented as sharepoint lists](images/set-up-metadata-list.png)
+<img src="images/set-up-metadata-list.png" alt="Metadata presented as sharepoint lists" width="100%"/>
 
 >[!NOTE]
 >**Reveal のライブラリのメタデータと SharePoint の管理されたメタデータを混同しないでください!**

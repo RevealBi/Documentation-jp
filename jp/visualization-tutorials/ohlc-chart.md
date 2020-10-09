@@ -44,7 +44,7 @@ OHLC チャートとローソク足チャートは各財務データの始値、
 
   - データ エディターの [始値]、[高値]、[安値]、および [終値] カテゴリの **4 つの異なるフィールド**。
 
-![OHLCChartVisualizationSettings\_All](images/OHLCChartVisualizationSettings_All.png)
+<img src="images/OHLCChartVisualizationSettings_All.png" alt="OHLCChartVisualizationSettings\_All" width="100%"/>
 
 チャートに追加情報を表示するためのオプションが複数あります。
 
@@ -64,13 +64,13 @@ OHLC チャートとローソク足チャートは各財務データの始値、
 
 |                                          |                                                                                                                          |                                                                                                                                                       |
 | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **ダッシュボードの作成**               | ![Tutorials-Create-New-Dashboard](images/Tutorials-Create-New-Dashboard.png)                                             | ダッシュボード ビューアーで、[ダッシュボード] 画面の右上隅にある [+] ボタンを選択します。次に、ドロップダウンから [ダッシュボード] を選択します。  |
-| 2\. **データ ソースの構成**       | ![Tutorials-Select-Data-Source](images/Tutorials-Select-Data-Source.png)                                                 | [新しい表示形式] ウィンドウで、右下隅の [+] ボタンを選択し、データソースを選択します。                                        |
-| 3\. **チュートリアル スプレッドシートの選択** | ![Tutorials-Select-OHLC-Candlestick-Charts-Spreadsheet](images/Tutorials-Select-OHLC-Candlestick-Charts-Spreadsheet.png) | データソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。次に、「OHLC と ローソク足」 シートを選択します。                      |
-| 4\. **表示形式ペインを開く**     | ![Tutorials-Select-Change-Visualization](images/Tutorials-Select-Change-Visualization.png)                               | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                 |
-| 5\. **表示形式をの選択**        | ![Tutorials-Charts-Select-OHLC-Chart](images/Tutorials-Charts-Select-OHLC-Chart.png)                                     | デフォルトで、表示形式のタイプは*グリッド*に設定されています。**OHLC** を選択します。                                                                        |
-| 6\. **データの構成**               | ![Tutorials-TextView-Organizing-Data](images/Tutorials-CandlestickChart-Organizing-Data.png)                             | *日付*フィールドを*ラベル*にドラッグアンドドロップし、[始値]、[高値]、[安値]、および [終値] フィールドを対応するプレースホルダーにドラッグアンドドロップします。                      |
-| 7\. **日付集計の変更**      | ![Tutorials-CandlestickChart-Changing-Aggregation](images/Tutorials-CandlestickChart-Changing-Aggregation.png)           | データ エディターのラベル プレースホルダーで**日付**フィールドを選択し、**日付集計**を**日**に変更します。次に, **フィールドの更新**を選択します。 |
+| 1\. **ダッシュボードの作成**               | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Tutorials-Create-New-Dashboard" width="100%"/>                                             | ダッシュボード ビューアーで、[ダッシュボード] 画面の右上隅にある [+] ボタンを選択します。次に、ドロップダウンから [ダッシュボード] を選択します。  |
+| 2\. **データ ソースの構成**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" width="100%"/>                                                 | [新しい表示形式] ウィンドウで、右下隅の [+] ボタンを選択し、データソースを選択します。                                        |
+| 3\. **チュートリアル スプレッドシートの選択** | <img src="images/Tutorials-Select-OHLC-Candlestick-Charts-Spreadsheet.png" alt="Tutorials-Select-OHLC-Candlestick-Charts-Spreadsheet" width="100%"/> | データソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。次に、「OHLC と ローソク足」 シートを選択します。                      |
+| 4\. **表示形式ペインを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" width="100%"/>                               | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                 |
+| 5\. **表示形式をの選択**        | <img src="images/Tutorials-Charts-Select-OHLC-Chart.png" alt="Tutorials-Charts-Select-OHLC-Chart" width="100%"/>                                     | デフォルトで、表示形式のタイプは*グリッド*に設定されています。**OHLC** を選択します。                                                                        |
+| 6\. **データの構成**               | <img src="images/Tutorials-CandlestickChart-Organizing-Data.png" alt="Tutorials-TextView-Organizing-Data" width="100%"/>                             | *日付*フィールドを*ラベル*にドラッグアンドドロップし、[始値]、[高値]、[安値]、および [終値] フィールドを対応するプレースホルダーにドラッグアンドドロップします。                      |
+| 7\. **日付集計の変更**      | <img src="images/Tutorials-CandlestickChart-Changing-Aggregation.png" alt="Tutorials-CandlestickChart-Changing-Aggregation" width="100%"/>           | データ エディターのラベル プレースホルダーで**日付**フィールドを選択し、**日付集計**を**日**に変更します。次に, **フィールドの更新**を選択します。 |
 
 <a name='changing-axis-configuration'></a>
 ### 軸の構成の変更
@@ -81,8 +81,8 @@ OHLC チャートとローソク足チャートは各財務データの始値、
 
 |                                             |                                                                                      |                                                             |
 | ------------------------------------------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------------- |
-| 1\. **設定メニューへアクセス**            | ![Tutorials-Navigate-Settings](images/Tutorials-Navigate-Settings.png)               | 表示形式エディターの**設定**セクションへ移動します。 |
-| 2\. **軸範囲セクションへ移動** | ![Tutorial-Access-Axis-Configuration](images/Access-Axis-Configuration.png) | 変更する設定は**軸範囲**です。   |
+| 1\. **設定メニューへアクセス**            | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" width="100%"/>               | 表示形式エディターの**設定**セクションへ移動します。 |
+| 2\. **軸範囲セクションへ移動** | <img src="images/Access-Axis-Configuration.png" alt="Tutorial-Access-Axis-Configuration" width="100%"/> | 変更する設定は**軸範囲**です。   |
 
 最大値または最小値 (または両方) のどれを設定するかに基づいて、以下のオプションの 1 つへアクセスする必要があります。
 
@@ -99,5 +99,5 @@ OHLC チャートとローソク足チャートは各財務データの始値、
 
 |                                        |                                                                                                       |                                                             |
 | -------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
-| 1\. **設定メニューへアクセス**       | ![Tutorials-Navigate-Settings](images/Tutorials-Navigate-Settings.png)                                | 表示形式エディターの**設定**セクションへ移動します。 |
-| 2\. **軸を対数に変更します。** | ![Tutorial-Access-OHLC-Axis-Configuration](images/Access-Candlestick-Axis-Configuration.png) | **軸**ドロップダウンを開き、**対数**を選択します。      |
+| 1\. **設定メニューへアクセス**       | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" width="100%"/>                                | 表示形式エディターの**設定**セクションへ移動します。 |
+| 2\. **軸を対数に変更します。** | <img src="images/Access-Candlestick-Axis-Configuration.png" alt="Tutorial-Access-OHLC-Axis-Configuration" width="100%"/> | **軸**ドロップダウンを開き、**対数**を選択します。      |

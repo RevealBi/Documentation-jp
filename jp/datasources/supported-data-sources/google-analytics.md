@@ -22,7 +22,7 @@ Google アナリティクスは、ウェブで最も使用されているウェ�
 
     使用する Google アナリティクス プロパティを選択します。
 
-    ![Select a Google property to be used with Reveal's Google Analytics data source](images/choose-ga-property.png)
+    <img src="images/choose-ga-property.png" alt="Select a Google property to be used with Reveal's Google Analytics data source" width="100%"/>
 
     Google アナリティクスでは、**プロパティ**はウェブサイト、モバイル アプリ、ブログなどです。
 
@@ -30,7 +30,7 @@ Google アナリティクスは、ウェブで最も使用されているウェ�
 
     使用するデータ キューブを選択します。
 
-    ![Select a data cube to be used with Reveal's Google Analytics data source](images/choose-ga-datacube.png)
+    <img src="images/choose-ga-datacube.png" alt="Select a data cube to be used with Reveal's Google Analytics data source" width="100%"/>
 
     このダイアログでは、データの更新間隔を次のように設定できます:
 
@@ -48,7 +48,7 @@ Google アナリティクスは、ウェブで最も使用されているウェ�
 
 Google Analytics からの情報でダッシュボードを作成する場合、以下のスクリーンショットのようにフィールドが異なって体系化されます。
 
-![Visualization Editor showing a Google Analytics data cube](images/ga-visualizationeditor.png)
+<img src="images/ga-visualizationeditor.png" alt="Visualization Editor showing a Google Analytics data cube" width="100%"/>
 
 左側に「フィールド」の見出しはありません。代わりに、クエリ フィールドに 2 つのセクションがあります。
 
@@ -69,7 +69,7 @@ Reveal で Google Analytics データソースを使用する場合、2 つの�
 データをフィルターするセグメントは 1 つのみ選択できます。
 * **日付範囲**。データをフィルターするには、カレンダーで特定の日付範囲を選択します。右上の矢印をクリックして、日付範囲プリセットの 1 つを選択することもできます。 
 
-  ![Date Range dialog](images/ga-data-source-date-range-preset.png)
+  <img src="images/ga-data-source-date-range-preset.png" alt="Date Range dialog" width="100%"/>
 
   >[!NOTE] デフォルトの日付範囲は「過去 30 日間」です。つまり、今日を含む過去 30 日間のデータが取得されます。
 
@@ -78,7 +78,7 @@ Reveal で Google Analytics データソースを使用する場合、2 つの�
 
 Google アナリティクスで定義された*目標*を*表示形式エディター*で使用できます。*目標*は、**ディメンション**と**メジャー**の両方のデータ型のメトリックの一部としてリストされます。
 
-![goals google analytics 2 option](images/goals-google-analytics-2-option.png)
+<img src="images/goals-google-analytics-2-option.png" alt="goals google analytics 2 option" width="100%"/>
 
 上記の例でわかるように、Reveal での Google アナリティクスの*目標*のタイトルには、次の 1 つ以上が含まれています:
 

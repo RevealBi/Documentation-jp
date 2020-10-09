@@ -2,7 +2,7 @@
 
 ダッシュボードの作成後、作業を保存できます。ダッシュボード エディターの右上隅にあるオーバーフロー ボタンの **[名前を付けて保存]** オプションを選択します。
 
-![ManufacturingAccessingSaveMenu\_All](images/ManufacturingAccessingSaveMenu_All.png)
+<img src="images/ManufacturingAccessingSaveMenu_All.png" alt="ManufacturingAccessingSaveMenu\_All" width="100%"/>
 
 ダッシュボードを個人用リポジトリに保存するか、参加または作成したチーム リポジトリを選択できます。 
 

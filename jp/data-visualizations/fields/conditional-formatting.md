@@ -13,7 +13,7 @@
 数値列で条件付き書式を有効にするには、[フィールドの設定] ダイアログボックスを表示するためにデータ エディターのフィールドを選択します。
 条件付き書式は、設定の最後のオプションであり、デフォルトでは無効になっています。
 
-![Conditional formatting configuration in Field settings menu](images/conditional-formatting-configuration.png)
+<img src="images/conditional-formatting-configuration.png" alt="Conditional formatting configuration in Field settings menu" width="100%"/>
 
   - **制限**: これらの値は自動的に指定された値の列のデータセット内の最高値/最低値として設定されますが、一定の値を使用して手動でオーバーライドすることができます。
 

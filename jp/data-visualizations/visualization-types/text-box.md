@@ -2,7 +2,7 @@
 
 テキスト ボックスの表示形式は、その名前が示すように、テキスト本文とオプションのタイトルで構成されます。データソースに接続されていません。テキスト ボックスを使用する一般的なシナリオは、レポートにテキストの概要を追加することです。
 
-![An example of a summary text box added to a dashboard](images/text-box-summary-example.png)
+<img src="images/text-box-summary-example.png" alt="An example of a summary text box added to a dashboard" width="100%"/>
 
 ### ダッシュボードにテキスト ボックスを追加
 
@@ -12,7 +12,7 @@
 
 2.  [+ 追加] の分割ボタンの右にある矢印をクリック/タップして ⇒ [テキスト ボックス] をクリック/タップします。
 
-![Adding a text box in dashboard edit mode](images/add-textbox-existing-dashboard.png)
+<img src="images/add-textbox-existing-dashboard.png" alt="Adding a text box in dashboard edit mode" width="100%"/>
 
 テキスト ボックス表示形式を既存のダッシュボードに追加すると、**ダッシュボードの下部**に表示されます。
 
@@ -24,19 +24,19 @@
 
 2.  *[新しい表示形式]* ダイアログが開き、データソースを選択するように求められます。
 
-    ![New visualization dialog](images/new-visualization-dialog.png)
+    <img src="images/new-visualization-dialog.png" alt="New visualization dialog" width="100%"/>
 
     *X* をクリック/タップしてダイアログを閉じます。
 
 3.  [+ 追加] の分割ボタンにある*矢印*をクリック/タップして ⇒*テキスト ボックス*をクリック/タップします。
 
-    ![Accessing text box creation in the New Dashboard screen](images/add-text-box-menu.png)
+    <img src="images/add-text-box-menu.png" alt="Accessing text box creation in the New Dashboard screen" width="100%"/>
 
 ### テキスト ボックス可視化の作業
 
 新しいテキスト ボックス表示形式を追加すると、以下の空のフォームが表示されます。
 
-![New text box dialog showing an empty text box form](images/text-box-empty-form.png)
+<img src="images/text-box-empty-form.png" alt="New text box dialog showing an empty text box form" width="100%"/>
 
 このダイアログでは:
 

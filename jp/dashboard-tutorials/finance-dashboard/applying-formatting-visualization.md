@@ -6,11 +6,11 @@
 
 表示形式に Soylent Corp の**平均**実際値を表示するには、データ エディターでフィールドを変更する必要があります。**値**プレース ホルダーで **[実際値]** を選択します。次に、[一般] 設定 で **[集計]** を **[平均]** に変更します。
 
-![GlobexValueAggregation\_All](images/GlobexValueAggregation_All.png)
+<img src="images/GlobexValueAggregation_All.png" alt="GlobexValueAggregation\_All" width="100%"/>
 
 次に、[書式設定] で **[タイプ]** を **[通貨]** に変更します。
 
-![GlobexValueCurrency\_All](images/GlobexValueCurrency_All.png)
+<img src="images/GlobexValueCurrency_All.png" alt="GlobexValueCurrency\_All" width="100%"/>
 
 次に, **[フィールドの更新]** を選択します。
 
@@ -18,41 +18,41 @@
 
 このウィジェットの場合、日付をフィルタリングし、元のスプレッド シートの完全なデータ範囲ではなく、2018 のみを表示する必要があります。これを行うには、**[日付]** フィールドを **[データ フィルター]** にドラッグアンドドロップし、**[ルールでフィルタリング]** を選択します。
 
-![GlobexFilterbyRule\_All](images/GlobexFilterbyRule_All.png)
+<img src="images/GlobexFilterbyRule_All.png" alt="GlobexFilterbyRule\_All" width="100%"/>
 
 新しい [ルール] メニューで、**[カスタム日付範囲]** を選択します。
 
-![GlobexFilterCustomDateRange\_All](images/GlobexFilterCustomDateRange_All.png)
+<img src="images/GlobexFilterCustomDateRange_All.png" alt="GlobexFilterCustomDateRange\_All" width="100%"/>
 
 次に、1 月 1 日から 12 月 31 日までを入力し、**[フィルタの作成]** を選択します。
 
-![GlobexFilteringSpecificCustomDateRange\_All](images/GlobexFilteringSpecificCustomDateRange_All.png)
+<img src="images/GlobexFilteringSpecificCustomDateRange_All.png" alt="GlobexFilteringSpecificCustomDateRange\_All" width="100%"/>
 
 これで、表示形式は下のようになります:
 
-![GlobexResultingVisualizationPartial\_All](images/GlobexResultingVisualizationPartial_All.png)
+<img src="images/GlobexResultingVisualizationPartial_All.png" alt="GlobexResultingVisualizationPartial\_All" width="100%"/>
 
 ### 最高値の選択
 
 テキスト ゲージはデータの最初の行の値のみを表示しますが、その後ろのデータをフィルターし、必要な特定の行を表示することもできます。以下はこの表示形式のデータです。表示形式の右上隅にある **[データの表示]** ボタンを選択します。
 
-![SelectingViewDataGlobex\_All](images/SelectingViewDataGlobex_All.png)
+<img src="images/SelectingViewDataGlobex_All.png" alt="SelectingViewDataGlobex\_All" width="100%"/>
 
 以下のテーブルが表示されます。
 
-![GlobexViewTableBehindGauge\_All](images/GlobexViewTableBehindGauge_All.png)
+<img src="images/GlobexViewTableBehindGauge_All.png" alt="GlobexViewTableBehindGauge\_All" width="100%"/>
 
 この場合、Globex は平均値が最も高い株です。それを表示するには、追加のフィルターを導入する必要があります。**[株式]** を **[データ フィルター]** にドラッグアンドドロップし、[フィルター タイプ] メニューで **[値の選択]** を選択します。
 
-![GlobexFilterSelectValues\_All](images/GlobexFilterSelectValues_All.png)
+<img src="images/GlobexFilterSelectValues_All.png" alt="GlobexFilterSelectValues\_All" width="100%"/>
 
 **Globex** を選択してから、**[フィルターの作成]** を選択します。
 
-![GlobexFilterSelectOption\_All](images/GlobexFilterSelectOption_All.png)
+<img src="images/GlobexFilterSelectOption_All.png" alt="GlobexFilterSelectOption\_All" width="100%"/>
 
 表示形式は以下のようになります。
 
-![GlobexAverageStockValue\_All](images/GlobexAverageStockValue_All.png)
+<img src="images/GlobexAverageStockValue_All.png" alt="GlobexAverageStockValue\_All" width="100%"/>
 
 表示形式が正しいデータを表示していることを確認する場合は、右上隅の **[データの表示]** をもう一度選択できます。
 
@@ -68,16 +68,16 @@
 
 表示形式エディターの **[設定]** セクションへ移動します。**条件付き書式**セクションが表示されます。このセクションには、デフォルトで次の 3 つの範囲が構成されています。
 
-![GlobexConditionalFormatting\_All](images/GlobexConditionalFormatting_All.png)
+<img src="images/GlobexConditionalFormatting_All.png" alt="GlobexConditionalFormatting\_All" width="100%"/>
 
 表示形式にインジケーターと色を追加するには、ドロップダウンのいずれかを開きます。
 この場合、最高の範囲には緑色の上矢印緑、中程度の範囲には黄色い線、低い範囲には赤色の下矢印を追加します。表示形式が更新され、対応するインジケーターが表示されます。
 
-![GlobexConditionalFormattingApplied\_All](images/GlobexConditionalFormattingApplied_All.png)
+<img src="images/GlobexConditionalFormattingApplied_All.png" alt="GlobexConditionalFormattingApplied\_All" width="100%"/>
 
 表示形式編集の完了後、右上隅の**ティック ボタン**を選択し、ダッシュボード エディターに戻ります。
 
-![FinanceWidgetInDashboardEditor\_All](images/FinanceWidgetInDashboardEditor_All.png)
+<img src="images/FinanceWidgetInDashboardEditor_All.png" alt="FinanceWidgetInDashboardEditor\_All" width="100%"/>
 
 >[!NOTE]
 >表示形式を選択し、隅を下または横にドラッグすると、表示形式のサイズを変更できます。

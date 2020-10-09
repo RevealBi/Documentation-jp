@@ -17,7 +17,7 @@
 
 チームの完全なメンバーのリストを表示するには、以下に示すように、チームのリストに移動 → チームを選択 → 右側にあるメンバーのアイコンをクリック/タップします。
 
-![manage team members menu](images/manage-team-members_all.png)
+<img src="images/manage-team-members_all.png" alt="manage team members menu" width="100%"/>
 
 ここでは、メンバーの役割を変更し、メンバーを削除または追加できます。
 
@@ -31,14 +31,14 @@
 
 3.  画面下部中央のメニューからゴミ箱アイコンまたは役割を選択します。
 
-![select role menu at the bottom center in manage members](images/select-role-menu.png)
+<img src="images/select-role-menu.png" alt="select role menu at the bottom center in manage members" width="100%"/>
 
 <a name='manage-team-properties'></a>
 ### チーム プロパティを管理する
 
 チームのプロパティを変更するには、チームのリストに移動 → チームを選択 → 右側のギア アイコンをクリック/タップします。
 
-![team settings managing menu](images/team-settings-managing_all.png)
+<img src="images/team-settings-managing_all.png" alt="team settings managing menu" width="100%"/>
 
 ここでは、チームの*プライバシー*の設定、*色*と名前を変更できます。
 
@@ -57,7 +57,7 @@
 
 管理者のみがチームを削除できます。これを行うには、チームの[プロパティ](#manage-team-properties)に移動し、*[チームの削除]*をクリックします。
 
-![delete team button](images/delete-team.png)
+<img src="images/delete-team.png" alt="delete team button" width="100%"/>
 
 チームを削除すると、チームのすべてのコンテンツが消えます。
 
@@ -71,7 +71,7 @@
 
 チームの唯一の管理者である場合、別のメンバーを管理者として割り当てずにチームを退会することはできません。
 
-![leave team dialog to assign a new owner](images/owner-leaves-team.png)
+<img src="images/owner-leaves-team.png" alt="leave team dialog to assign a new owner" width="100%"/>
 
 Reveal は、管理者の役割に適したチームのすべてのメンバーを示します。
 

@@ -9,14 +9,14 @@
 
 Reveal は特定の列で空値のフィルター構成の設定を有効にすることによって、特定の列に null、または空の値を持つデータ セット内の行をフィルタリングする機能を提供します。
 
-![FilterEmtpyValues\_All](images/FilterEmtpyValues_All.png)
+<img src="images/FilterEmtpyValues_All.png" alt="FilterEmtpyValues\_All" width="100%"/>
 
 <a name='select-values'></a>
 ### 値の選択
 
 このタイプのフィルターは、特定のフィールドに表示する値セットの定義をサポートします。これを有効にするには、フィールドを**データ フィルター** プレースホルダーにドラッグアンドドロップします。
 
-![SelectValues\_All](images/SelectValues_All.png)
+<img src="images/SelectValues_All.png" alt="SelectValues\_All" width="100%"/>
 
 *[フィールド設定]* ダイアログに、**[値の選択]** オプションが表示されます。列に使用可能な値のリストを表示し、データセット内に残したい項目のみを選択できます。フィルターによって除外された値を持つ行は表示形式に表示されません。
 

@@ -2,23 +2,23 @@
 
 新しいダッシュボードを作成するには、初期画面の右上端にある **[+ダッシュボード]** ボタンを選択し、*新規作成*メニューの **[ダッシュボード]** オプションを選択する必要があります。
 
-![Access New Dashboard menu](images/create-new-dashboard.png)
+<img src="images/create-new-dashboard.png" alt="Access New Dashboard menu" width="100%"/>
 
 ### データ ソースを追加する
 
 **[ダッシュボード]** を選択すると、**[新しい表示形式]** 画面が表示されます。
 右上隅の [+] 記号を選択してから、[このセクション](finance-dashboard-tutorial.html#sample-datasheet)で言及されたサンプルデータシートを保存したデータソースを選択します。
 
-![creatingnewvisualization\_all](images/creating-new-visualization.png)
+<img src="images/creating-new-visualization.png" alt="creatingnewvisualization\_all" width="100%"/>
 
 >[NOTE]
 >各プロバイダーにデータソースを追加する方法については、[このトピック](data-sources.html)を参照してください。**[表示形式データ]** ダイアログでファイルを選択するときは、必ずサンプル スプレッドシートの **[Finance Dashboard]** を選択してください。次に、*[データの選択]*を選択します。
 
-![Selecting Finance Sheet](images/Selecting-Finance-Sheet.png)
+<img src="images/Selecting-Finance-Sheet.png" alt="Selecting Finance Sheet" width="100%"/>
 
 データを読み込んだ後、[グリッド ビュー](grid-view.html)は[表示形式エディター](visualizations-editor.html)でデフォルトで選択されます。
 
-![FinanceFirstVisualizationGrid\_All](images/FinanceFirstVisualizationGrid_All.png)
+<img src="images/FinanceFirstVisualizationGrid_All.png" alt="FinanceFirstVisualizationGrid\_All" width="100%"/>
 
 <style>
 .previous {

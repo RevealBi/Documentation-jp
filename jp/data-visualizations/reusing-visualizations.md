@@ -2,13 +2,13 @@
 
 表示形式を再利用してダッシュボードの作成をスピード アップできます。必要な表示形式を**コピーし貼り付けて**ください。
 
-![Overflow menu of a visualization in a dashboard displayed](images/reusing-visualization.png)
+<img src="images/reusing-visualization.png" alt="Overflow menu of a visualization in a dashboard displayed" width="100%"/>
 
 ### 表示形式の複製
 
 ダッシュボード内で元の表示形式と同じものを作成します。既にカスタマイズした表示形式を複製して、複製したデータ セットを調整します。たとえば、以下のチャートはすべてのオフィスの雇用を示し、特定のものを別に表示します。
 
-![Duplicated visualizations](images/duplicate-visualization.png)
+<img src="images/duplicate-visualization.png" alt="Duplicated visualizations" width="100%"/>
 
 ### 表示形式のコピーと貼り付け
 

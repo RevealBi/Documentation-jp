@@ -13,7 +13,7 @@
 
 SID を使用して Orable を構成するには、以下の情報が必要です。
 
-![Configure Oracle SID mode details](images/enter-oracle-details.png)
+<img src="images/enter-oracle-details.png" alt="Configure Oracle SID mode details" width="100%"/>
 
 1. 1. データ ソースの**デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Oracle* という名前を付けます。好みに合わせて変更できます。
 
@@ -43,7 +43,7 @@ SID を使用して Orable を構成するには、以下の情報が必要で�
 
 サービスを使用して Oracle を構成するには、以下の情報が必要です。
 
-![Configure Oracle Service mode details](images/enter-oracle-details-service-mode.png)
+<img src="images/enter-oracle-details-service-mode.png" alt="Configure Oracle Service mode details" width="100%"/>
 
 1.  **データ ソース名**: このフィールドはデータソース リストに表示されます。
 
@@ -90,10 +90,10 @@ SID を使用して Orable を構成するには、以下の情報が必要で�
 
 Reveal を使用すると、すべてのテーブルから Oracle データを取得できますが、その他にもテーブルまたはテーブルのセットからデータのサブセットを返す特定の[ビュー](https://docs.oracle.com/cd/B19306_01/server.102/b14220/objects.htm#i440066)を選択することもできます。
 
-![Oracle views dialog](images/Oracle-views.png)
+<img src="images/Oracle-views.png" alt="Oracle views dialog" width="100%"/>
 
 たとえば、**請求書**ビューには、データベース内のテーブルから取得した営業予測に関する情報が含まれています。
 
-![A dashboard sample using Oracle view data](images/oracle-view-sample-invoices.png)
+<img src="images/oracle-view-sample-invoices.png" alt="A dashboard sample using Oracle view data" width="100%"/>
 
 ビューおよび Oracle の詳細については、[このドキュメント Web サイト](https://docs.oracle.com/cd/B19306_01/server.102/b14220/objects.htm#i440066)を参照してください。

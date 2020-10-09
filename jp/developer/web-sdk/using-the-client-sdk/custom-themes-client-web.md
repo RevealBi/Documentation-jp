@@ -31,7 +31,7 @@ __getCurrentTheme()__ メソッドと __updateRevealTheme(theme)__ メソッド�
 
 まず、以下は変更する前のサンプル ダッシュボードです。
 
-![Image showing a Reveal dashboard before any theme changes](images/custom-theme-sample-before.png)
+<img src="images/custom-theme-sample-before.png" alt="Image showing a Reveal dashboard before any theme changes" width="100%"/>
 
 次のコード スニペットでは、_revealTheme_ クラスの新しいインスタンスを作成し、必要な設定に変更を適用し、Reveal Web でテーマを更新する方法を確認できます。
 
@@ -65,9 +65,9 @@ $.ig.RevealView.updateRevealTheme(revealTheme);
 
 テーマの変更を実装すると、ダッシュボードと表示形式エディターの両方の結果を確認できます。
 
-![Image showing a Reveal dashboard after theme changes](images/custom-theme-sample-after-dashboard.png)
+<img src="images/custom-theme-sample-after-dashboard.png" alt="Image showing a Reveal dashboard after theme changes" width="100%"/>
 
-![Image showing a Reveal visualization after theme changes](images/custom-theme-sample-after-visualization.png)
+<img src="images/custom-theme-sample-after-visualization.png" alt="Image showing a Reveal visualization after theme changes" width="100%"/>
 
 ### カラー タイプの使用
 

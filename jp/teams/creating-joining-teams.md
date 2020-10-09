@@ -9,7 +9,7 @@ Reveal の*チーム*は、組織内外とのコラボレーションを容易�
 
 1.  左上の *[アイテム]* をクリックし、ポップオーバー メニューの *[チームに参加 / チームを作成]* ボタンを選択します。
 
-  ![join or create a team button in the popover menu](images/button-join-create-team.png)
+  <img src="images/button-join-create-team.png" alt="join or create a team button in the popover menu" width="100%"/>
 
 
   >[!NOTE]
@@ -19,7 +19,7 @@ Reveal の*チーム*は、組織内外とのコラボレーションを容易�
 
 2.  青い [+ チームの作成] ボタンをクリック/タップします。以下の画面が表示されます。
 
-    ![team properties dialog](images/create-team-properties.png)
+    <img src="images/create-team-properties.png" alt="team properties dialog" width="100%"/>
 
     以下の手順を実行します。
 
@@ -41,7 +41,7 @@ Reveal の*チーム*は、組織内外とのコラボレーションを容易�
 
 3.  続行するには *[作成]* をクリック/タップします。*[+メンバー]* の青いボタンを選択し、メールをリストに追加して、メンバーをチームに招待します。メンバーに招待メールが送信されます。
 
-    ![invite members dialog](images/team-invite-members.png)
+    <img src="images/team-invite-members.png" alt="invite members dialog" width="100%"/>
 
     別のロールを割り当てない場合、招待するユーザーのデフォルトのロールは*メンバー*です。
 
@@ -50,7 +50,7 @@ Reveal の*チーム*は、組織内外とのコラボレーションを容易�
 
 4.  *[招待の送信]* ボタンをクリック/タップすると、新しいチームが作成されます。チームが以下に示すポップオーバー メニューの *[アイテム]* の下のチーム リストにあります。
 
-    ![new team in the teams tab](images/new-team-created.png)
+    <img src="images/new-team-created.png" alt="new team in the teams tab" width="100%"/>
 
 <a name='join-team'></a>
 ### 既存のチームに参加
@@ -64,7 +64,7 @@ Reveal の*チーム*は、組織内外とのコラボレーションを容易�
 
 3.  以下の画面が表示されます。
 
-    ![join or create a team dialog](images/join-or-create.png)
+    <img src="images/join-or-create.png" alt="join or create a team dialog" width="100%"/>
 
     ここには、組織に属するすべての[公開](overview.html#team-privacy-levels)チームがあります。
 
@@ -86,7 +86,7 @@ Reveal の*チーム*は、組織内外とのコラボレーションを容易�
 
 2. チーム リストの上にある [すべての組織] ドロップダウンをクリック/タップします。
 
-![organization filter in the teams list](images/teams-organization-filter.png)
+<img src="images/teams-organization-filter.png" alt="organization filter in the teams list" width="100%"/>
 
 
 3. 表示の選択: すべてのチーム、メイン組織に属するチームのみ、または組織に属さないチームのみ (個人組織のオプション)。
@@ -100,7 +100,7 @@ Reveal の*チーム*は、組織内外とのコラボレーションを容易�
 1. チーム リストにあるチームのオーバーフロー メニューをクリック/タップします。
 2. [お気に入り] を選択します。
 
-![adding a team to favorites](images/adding-teams-favorites.png)
+<img src="images/adding-teams-favorites.png" alt="adding a team to favorites" width="100%"/>
 
 
 3. このチームは、チームの上部にある「お気に入り」リストに表示されます。
@@ -113,10 +113,10 @@ Reveal の*チーム*は、組織内外とのコラボレーションを容易�
 2. [グループの選択] をクリック/タップします。
 3. [チームのグループ化] ダイアログが開きます。新しいグループを作成するには、[+グループの追加] をクリック/タップします。
 
-![[add group to group team dialog]](images/group-team-dialog-add-group.png)
+<img src="images/group-team-dialog-add-group.png" alt="[add group to group team dialog]" width="100%"/>
 
 4. チームを追加するグループの丸をオンにします。[適用] を選択します。
 
 チーム リストには、チームが グループ化されていないチームとカスタム グループのチームで分類されて表示されます。
 
-![teams' list separated by custom groups and ungrouped teams](images/teams-categorized-by-groups.png)
+<img src="images/teams-categorized-by-groups.png" alt="teams' list separated by custom groups and ungrouped teams" width="100%"/>

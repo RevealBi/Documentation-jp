@@ -9,7 +9,7 @@
 
 表示形式の色をサンプルウィジェットの色とマッチさせるために、表示形式エディターへ移動します。 次に、**[設定]** に移動し、**スタート色** を 6 番目に変更します。
 
-![ChangingStartColor\_All](images/ChangingStartColor_All.png)
+<img src="images/ChangingStartColor_All.png" alt="ChangingStartColor\_All" width="100%"/>
 
 表示形式編集の完了後、右上隅の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。 
 

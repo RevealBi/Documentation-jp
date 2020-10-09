@@ -2,7 +2,7 @@
 
 初期画面でダッシュボードのサムネイル画像をクリックし、既存のダッシュボードを開くことができます。
 
-![dashboard opened in edit mode](images/dashboard-opened-edit-mode.png)
+<img src="images/dashboard-opened-edit-mode.png" alt="dashboard opened in edit mode" width="100%"/>
 
 さまざまな方法で表示形式の **UI 操作が**できます。たとえば、表示形式がグリッド ビューの場合、水平方向および垂直方向にスクロールできます。チャート ビューではパン、ズームがサポートされています。また、基になるデータ モデルがサポートしている場合は、ドリルダウンとドリルアップの実行が可能になります。
 
@@ -11,33 +11,33 @@
 
 ダッシュボードが開くと、表示形式のいずれかにカーソルをホバーし、右上隅の矢印をクリック/タップすることで**最大化**できます。
 
-![maximizing arrow in the top right corner](images/visualization-maximizing-arrow.png)
+<img src="images/visualization-maximizing-arrow.png" alt="maximizing arrow in the top right corner" width="100%"/>
 
 最大化されたビューは、より多くの情報の表示を可能にします。
 
-![maximized visualization view](images/maximized-visualization.png)
+<img src="images/maximized-visualization.png" alt="maximized visualization view" width="100%"/>
 
 さらに、このモードでは、右上隅の**小さなチャート アイコン**をタップし、最大化されたビューを他の表示形式に切り替えることができます。エディターで使用されたデータに基づいて、さまざまな表示形式が表示されます。データで適切に機能するチャート タイプのみが提供されます。 
 
 変更された表示形式を保存する場合は、編集権限を持ち、[ダッシュボード編集モード](#view-edit-mode)で右上隅のチェック アイコンを選択して変更を明示的に保存する必要があります。自分で作成したか、[管理者または変更の権限](~/jp/dashboards/sharing-dashboards/share-a-dashboard.html#access-permissions)で共有しているダッシュボードの編集権限があります。 
 
-![chart change in visualization view mode](images/chart-change-visualization-view-mode.png)
+<img src="images/chart-change-visualization-view-mode.png" alt="chart change in visualization view mode" width="100%"/>
 
 さらに、表示形式メニューの右上隅にある**シャープ記号 (#)** アイコンをクリックすると、ビューを切り替え、チャートの背後のデータを表示できます。
 
-![flip to grid](images/flip-grid.png)
+<img src="images/flip-grid.png" alt="flip to grid" width="100%"/>
 
 可視化のデータ ビハインド表示で並べ替え (昇順または降順) を適用できます。グリッドの並べ替え詳細については、[グリッド ビュー](~/jp/data-visualizations/grid-view.html)トピックをご覧ください。
 
 元の表示形式へ戻すために、**[元の形式を表示]** リンクを選択します。
 
-![show original link](images/change-visualization-show-original.png)
+<img src="images/change-visualization-show-original.png" alt="show original link" width="100%"/>
 
 ### 通常のツールチップ
 
 特定の表示形式 (タッチ環境で長押すと) をクリックすると、ツールチップ ポップアップが表示されます。ツールチップは、次のようにチャートの特定のポイントで値を表示するのに役立ちます:
 
-![tooltips popups on visualizations](images/tooltips-popups.png)
+<img src="images/tooltips-popups.png" alt="tooltips popups on visualizations" width="100%"/>
 
 通常のツールチップを閉じるには、離れてクリックするかタップしてください。
 
@@ -45,17 +45,17 @@
 
 **インタラクション**メニューでは、次の 2 つのオプションを有効にできます: *ツールチップのホバー*と*十字線*。どちらもダッシュボード ビュー モードの場合のみ使用できます。ダッシュボード編集モードでは使用できません。
 
-![Accessing Reveal's Dashboard Interactions menu](images/dashboard-interactions-menu.png)
+<img src="images/dashboard-interactions-menu.png" alt="Accessing Reveal's Dashboard Interactions menu" width="100%"/>
 
   - *ホバー ツールチップ*を有効にすると、データにホバーした際に (タッチ環境で長押しした際に) **ツールチップ** ポップアップが表示されます。
 
-    ![Reveal displays tooltips when hovering over data](images/tooltips-hover.png)
+    <img src="images/tooltips-hover.png" alt="Reveal displays tooltips when hovering over data" width="100%"/>
 
     データをクリックすると (タッチ環境でドラッグ ツールチップをリリースすると)、ツールチップのインタラクションが適用可能な場合、ドリルダウン、ドリルアップ、および、リンク済みのダッシュボードなどのインタラクションで **[ツール]** セクションにアクセスできます。
 
   - *十字線*を有効にすると、Reveal はツールチップとともに十字線要素を表示します。ツールチップにより多くのコンテキストを与える。
 
-    ![Reveal displays crosshairs along with tooltips](images/crosshairs-enabled.png)
+    <img src="images/crosshairs-enabled.png" alt="Reveal displays crosshairs along with tooltips" width="100%"/>
 
 十字線は、現在以下のデータ 表示形式でサポートされています。散布図、バブル、エリア、ローソク足、折れ線、OHLC、スプライン、スプラインエリア、ステップエリア、ステップ折れ線。
 
@@ -65,11 +65,11 @@
 
 ツールチップを表示するときに、カテゴリごとに合計値を表示するように構成できます。
 
-![Reveal Portrait Orientation](images/tooltips-totals.png)
+<img src="images/tooltips-totals.png" alt="Reveal Portrait Orientation" width="100%"/>
 
 この機能を有効にするには、次のように、[設定] \> [ツールチップで合計を表示] に移動します:
 
-![Reveal Portrait Orientation](images/tooltips-configuration.png)
+<img src="images/tooltips-configuration.png" alt="Reveal Portrait Orientation" width="100%"/>
 
 合計を有効にする場合、表示形式で複数の値を表示するためにカテゴリを追加したことを確認してください。
 
@@ -82,7 +82,7 @@
 
 以下は、*ダッシュボード編集*モードのダッシュボードです:
 
-![dashboard opened in edit mode](images/dashboard-opened-edit-mode.png)
+<img src="images/dashboard-opened-edit-mode.png" alt="dashboard opened in edit mode" width="100%"/>
 
 **編集モードを終了するには**、右上隅の*チェック アイコン*を選択するだけです。これにより、*表示モード*に戻ります。
 
@@ -100,6 +100,6 @@
 
 Reveal の自動レイアウトは、デバイスのサイズ制約と表示形式の量に基づいて、ダッシュボードのすべての表示形式を動的にサイズ変更します。
 
-![auto layout view and resizing of dashboards](images/auto-layout-dashboard.png)
+<img src="images/auto-layout-dashboard.png" alt="auto layout view and resizing of dashboards" width="100%"/>
 
 自動レイアウトが有効なときに表示形式のサイズを変更するには、隅を下または横にドラッグするだけです。これにより、*自動レイアウト* が自動的にオフになります。

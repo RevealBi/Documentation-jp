@@ -3,7 +3,7 @@
 
 ピボット テーブルの表示形式により、ユーザーは、*データ* セクションの対応するプレースホルダーにフィールドをドロップすることで情報を集約できます。
 
-![Pivot Table Visualization](images/pivot-table-visualizations.png)
+<img src="images/pivot-table-visualizations.png" alt="Pivot Table Visualization" width="100%"/>
 
 行、列、または値のデータ エディターのプレースホルダーにフィールドが追加されているときに、フィールドを選択すると、そのフィールドの要約された設定が表示されます。
 

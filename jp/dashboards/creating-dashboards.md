@@ -15,47 +15,47 @@ Reveal のダッシュボード作成には以下のオプションが含まれ�
 
 初期画面の [+ ダッシュボード] 分割ボタンを選択し、ダッシュボードを作成できます。
 
-![Creating new dashboard](images/create-new-dashboard.png)
+<img src="images/create-new-dashboard.png" alt="Creating new dashboard" width="100%"/>
 
 [新しい表示形式] のダイアログを表示します。データソースを使用して表示形式を作成します。
 
-![New visualization dialog](images/new-visualization-dialog.png)
+<img src="images/new-visualization-dialog.png" alt="New visualization dialog" width="100%"/>
 
 <a name='add-data-source'></a>
 ### データ ソースの追加
 
 データ ソースが [データ ソースの選択] セクションにない場合は、右上側の [+ データ ソース] ボタンを選択します。新しいダイアログがポップアップして、すべてのデータソース カテゴリおよび利用可能なデータ ソースを表示します。
 
-![add data source to create dashboards](images/adding-data-source.png)
+<img src="images/adding-data-source.png" alt="add data source to create dashboards" width="100%"/>
 
 データ ソースがコンテンツ マネージャーのスプレッドシートの場合、表示形式で使用する特定のシートを選択できます。
 
-![select a data sheet from an excel file data source](images/select-data-source-sheet.png)
+<img src="images/select-data-source-sheet.png" alt="select a data sheet from an excel file data source" width="100%"/>
 
 #### 使用可能なコンテンツ
 
 Reveal では [Dropbox](../datasources/supported-data-sources/Dropbox.html)、[OneDrive](../datasources/supported-data-sources/OneDrive.html)、[Box](../datasources/supported-data-sources/Box.html)、[Google Drive](../datasources/supported-data-sources/Google-Drive.html) などの複数のコンテンツ ソースを追加でき、それらの使用可能なフォルダー、ファイル、スプレッドシートを閲覧できます。
 
-![available content in OneDrive datasource account](images/available-content-onedrive.png)
+<img src="images/available-content-onedrive.png" alt="available content in OneDrive datasource account" width="100%"/>
 
 さらに、[SharePoint](../datasources/supported-data-sources/SharePoint.html) データ ソースを追加することもできるため、リストまたはライブラリにアクセスする機能が使用可能です。
 
-![available content in SharePoint datasource account](images/available-content-sharepoint.png)
+<img src="images/available-content-sharepoint.png" alt="available content in SharePoint datasource account" width="100%"/>
 
 <a name='modify-visualization'></a>
 ### 表示形式の変更
 
 データソースを追加した後、表示形式エディターが表示されます。デフォルトでは、グリッドの表示形式が選択されています。
 
-![dashboards first visualization in the visualization editor](images/dashboards-first-visualization.png)
+<img src="images/dashboards-first-visualization.png" alt="dashboards first visualization in the visualization editor" width="100%"/>
 
 Reveal では、情報を可覚化する方法をカスタマイズするためのいくつかのオプションがあります。上部バーの**グリッド アイコン**を選択してオプションにアクセスできます。
 
-![editing visualizations types in editor](images/editing-visualizations-in-editor.png)
+<img src="images/editing-visualizations-in-editor.png" alt="editing visualizations types in editor" width="100%"/>
 
 表示形式にラベルと値を追加し、右側のペインでプレビューします。必要に応じて、表示形式設定を変更してフィルターを追加できます。
 
-![editing visualization fields preview](images/editing-visualization-fields-preview.png)
+<img src="images/editing-visualization-fields-preview.png" alt="editing visualization fields preview" width="100%"/>
 
 表示形式を変更した後**ダッシュボード エディター**に移動されます。右上側に [**元に戻す**]、[**やり直し**]、[**テーマ**]、[**名前を付けて保存**] ボタンが表示されます。
 同じ場所に [**+**] 記号を使用して別の表示形式を追加でき、ティック アイコンを選択してダッシュボードを保存することもできます。
@@ -64,7 +64,7 @@ Reveal では、情報を可覚化する方法をカスタマイズするため�
 
 ダッシュボードに移動された後、⇒ *テーマ* を選択し、以下に示すように *Mountain テーマ* と *Ocean テーマ* を切り替えることができます。
 
-![changing the theme of a dashboard](images/dashboard-changing-theme.png)
+<img src="images/dashboard-changing-theme.png" alt="changing the theme of a dashboard" width="100%"/>
 
 <a name='save-dashboard'></a>
 ### ダッシュボードの保存
@@ -73,6 +73,6 @@ Reveal では、情報を可覚化する方法をカスタマイズするため�
 
 ダッシュボードを個人用リポジトリに保存するか、[参加または作成した](~/jp/teams/Creating-Joining-Teams.html)チーム リポジトリを選択できます。ダッシュボードの名前を選択し、準備ができた後 [ここに保存] をクリック/タップします。
 
-![save as menu](images/save-as-menu.png)
+<img src="images/save-as-menu.png" alt="save as menu" width="100%"/>
 
 スペースを適切に整理するには、[名前を付けて保存] メニューで右上側の [+フォルダー] ボタンをクリックして、ダッシュボード ビューアーでフォルダーを作成します。

@@ -2,11 +2,11 @@
 
 ダッシュボードは、すばやく最小限の情報をシンプルに表示することにより、一目で情報を把握できます。これは、ビジネスのステータス、メトリック、またはパフォーマンスを伝えるために配置された表示形式のコレクションで構成されるデータ 表示形式です。各表示形式は、関連する情報の異なる部分を持っていることを意味しており、ユーザーが自分のデータを理解できるようにします。
 
-![A complete dashboard example](images/dashboards-home-page.png)
+<img src="images/dashboards-home-page.png" alt="A complete dashboard example" width="100%"/>
 
 ### ダッシュボード作成プロセス
 
-![Infographic showing the dashboard creation process ](images/dashboard-creation-process.png)
+<img src="images/dashboard-creation-process.png" alt="Infographic showing the dashboard creation process " width="100%"/>
 
   - **KPI 目標**: 自分またはアナリストがダッシュボードに何を示し、何を中心にサイクルを回す必要があるかを決定します。
 

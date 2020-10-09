@@ -2,7 +2,7 @@
 
 通知センターは、チームおよびダッシュボードの変更を通知するように設計されています。アプリケーションの右上の**ベル アイコン**を選択して開きます。
 
-![Notification center icon and notifications' list](images/in-app-notifications.png)
+<img src="images/in-app-notifications.png" alt="Notification center icon and notifications' list" width="100%"/>
 
 通知を受け取ると、通知のアイコンが変更されます。通知設定によっては、特定の変更を含むアプリ内通知が表示される場合もあります。
 
@@ -14,13 +14,13 @@
 
   - さらに、オーバーフロー メニューで *[この種類の通知をミュート]* オプションを選択すると、**通知をオフにできます**。
 
-![Accessing options of notifications in the Notification center](images/notification-center-options.png)
+<img src="images/notification-center-options.png" alt="Accessing options of notifications in the Notification center" width="100%"/>
 
 ### 通知設定
 
 通知設定は簡単に編集できます。メイン画面の右上にある名前のイニシャル (または写真) のアイコンをクリック/タップします。次に、*[設定]* ⇒ *[通知]*へ移動します。
 
-![Notifications Settings menu](images/notification-settings.png)
+<img src="images/notification-settings.png" alt="Notifications Settings menu" width="100%"/>
 
 ### 通知の種類
 
@@ -42,8 +42,8 @@
 
 |                         | メール                                                     | プッシュ | アプリ内                                                   |
 | ----------------------- | --------------------------------------------------------- | ---- | -------------------------------------------------------- |
-| チームから削除されました。 | ![enabled feature](images/enabled-feature.png)            |      | ![enabled feature](images/enabled-feature.png)           |
-| 新しいメンバーが参加しました。        |                                                           |      | ![enabled feature](images/enabled-feature.png)           |
+| チームから削除されました。 | <img src="images/enabled-feature.png" alt="enabled feature" width="100%"/>            |      | <img src="images/enabled-feature.png" alt="enabled feature" width="100%"/>           |
+| 新しいメンバーが参加しました。        |                                                           |      | <img src="images/enabled-feature.png" alt="enabled feature" width="100%"/>           |
 
 #### ダッシュボード通知
 
@@ -53,6 +53,6 @@
 
 |                                     | メール                                                     | プッシュ | アプリ内                                                    |
 | ----------------------------------- | --------------------------------------------------------- | --------------------------------------------------------- | --------------------------------------------------------- |
-| ダッシュボードが共有されました。         | ![enabled feature](images/enabled-feature.png)            | ![enabled feature](images/enabled-feature.png)            | ![enabled feature](images/enabled-feature.png)            |
-| ダッシュボードが自分が参加しているチームと共有されました。 |                                                           |                                                           | ![enabled feature](images/enabled-feature.png)            |
-| ダッシュボードが更新されました。               |                                                           | ![enabled feature](images/enabled-feature.png)            | ![enabled feature](images/enabled-feature.png)            |
+| ダッシュボードが共有されました。         | <img src="images/enabled-feature.png" alt="enabled feature" width="100%"/>            | <img src="images/enabled-feature.png" alt="enabled feature" width="100%"/>            | <img src="images/enabled-feature.png" alt="enabled feature" width="100%"/>            |
+| ダッシュボードが自分が参加しているチームと共有されました。 |                                                           |                                                           | <img src="images/enabled-feature.png" alt="enabled feature" width="100%"/>            |
+| ダッシュボードが更新されました。               |                                                           | <img src="images/enabled-feature.png" alt="enabled feature" width="100%"/>            | <img src="images/enabled-feature.png" alt="enabled feature" width="100%"/>            |

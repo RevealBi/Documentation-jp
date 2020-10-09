@@ -5,23 +5,23 @@
 
 まず、トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開きます**。
 
-![VisualizationsMenu\_All](images/VisualizationsMenu_All.png)
+<img src="images/VisualizationsMenu_All.png" alt="VisualizationsMenu\_All" width="100%"/>
 
 **表示形式を [テキストゲージ] に変更します**。
 
-![SelectTextGauge\_All](images/SelectTextGauge_All.png)
+<img src="images/SelectTextGauge_All.png" alt="SelectTextGauge\_All" width="100%"/>
 
 次に、データ エディターの [値] プレースホルダーへ **Won Opportunities** フィールドを**ドラッグアンドドロップします**。
 
-![SalesFirstDragDrop\_All](images/SalesFirstDragDrop_All.png)
+<img src="images/SalesFirstDragDrop_All.png" alt="SalesFirstDragDrop\_All" width="100%"/>
 
 最後に、Sales Dashboard タイトルの横にある鉛筆アイコンを選択して、**表示形式のタイトルを Won Opportunities に変更します**。
 
-![SalesWonOpportunitiesTitle\_All](images/SalesWonOpportunitiesTitle_All.png)
+<img src="images/SalesWonOpportunitiesTitle_All.png" alt="SalesWonOpportunitiesTitle\_All" width="100%"/>
 
 表示形式は以下のようになります。
 
-![SalesFirstVisualizationSample\_All](images/SalesFirstVisualizationSample_All.png)
+<img src="images/SalesFirstVisualizationSample_All.png" alt="SalesFirstVisualizationSample\_All" width="100%"/>
 
 
 <style>

@@ -10,7 +10,7 @@
 
 ### 散布図チャートを作成する方法
 
-![Example for a scatter chart visualization](images/scatter-chart-sales-one-color-example.png)
+<img src="images/scatter-chart-sales-one-color-example.png" alt="Example for a scatter chart visualization" width="100%"/>
 
 上記の例では、散布図の表示形式は、特定の各*従業員*によって産み出された*新規販売*の数量と*収益*の関係を示しています。
 
@@ -18,7 +18,7 @@
 
 1.  *[表示形式の変更]* メニューで *散布図*の表示形式を選択します。
 
-    ![Location of the scatter visualization in the change visualization menu](images/scatter-chart-change-visualization-menu.png)
+    <img src="images/scatter-chart-change-visualization-menu.png" alt="Location of the scatter visualization in the change visualization menu" width="100%"/>
 
 2.  *X 軸* と *Y 軸*の数値フィールドを選択して、データ ポイントの位置を決定します。
 
@@ -26,13 +26,13 @@
 
 すべてのデータ ポイントには独自の**ツールヒント**があり、クリックすると表示されます。
 
-![Tooltip shown for a particular data point in the scatter chart](images/scatter-chart-tooltips.png)
+<img src="images/scatter-chart-tooltips.png" alt="Tooltip shown for a particular data point in the scatter chart" width="100%"/>
 
 この例では、ツールヒントは、データ ポイントが表す特定の従業員に関する情報と、チャートに含まれるそれらの量的なデータを提供します。
 
 ### バブル チャートを作成する方法
 
-![An Example of a bubble chart using one color](images/bubble-chart-one-color-example.png)
+<img src="images/bubble-chart-one-color-example.png" alt="An Example of a bubble chart using one color" width="100%"/>
 
 1 つの色だけを使用して基本的なバブル チャートを作成するには、次の操作が必要です。
 
@@ -56,7 +56,7 @@
 
 カテゴリ フィールドを散布図またはバブル チャートに追加できます。このフィールドの値に応じて、バブルまたは散布ポイントに異なる色が付けられます。
 
-![Example of adding colors to the basic bubble chart](images/bubble-chart-with-colors-example.png)
+<img src="images/bubble-chart-with-colors-example.png" alt="Example of adding colors to the basic bubble chart" width="100%"/>
 
 上記の例では、*日付*フィールドが*カラー*ボックスに適用されています。色分類を追加すると、部門の数値情報が *2017*、*2018*、*2019* のいずれを参照しているかに応じて、バブルに異なる色が割り当てられます。
 
@@ -64,7 +64,7 @@
 
 ### 散布図とバブル チャートの設定
 
-![Settings for scatter and bubble charts](images/scatter-bubble-chart-settings.png)
+<img src="images/scatter-bubble-chart-settings.png" alt="Settings for scatter and bubble charts" width="100%"/>
 
 *[設定]*:
 

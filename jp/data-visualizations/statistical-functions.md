@@ -13,7 +13,7 @@ Reveal の統計関数を使用すると、表示形式からより多くの気�
 
 3.  画面の右上に表示されるアイコンをクリック/タップします (以下を参照)。
 
-![Statistical functions icon](images/statistical-functions-enable-icon.png)
+<img src="images/statistical-functions-enable-icon.png" alt="Statistical functions icon" width="100%"/>
 
 >[!NOTE] **関数の有効化/無効化**。
 >表示形式に 3 つの関数のうち有効にできるのは 1 つのみです。有効な関数を再度クリックして無効にするか、あるいはリストから別の関数を選択して切り替えます。
@@ -34,7 +34,7 @@ Reveal の統計関数を使用すると、表示形式からより多くの気�
 *時系列予測*関数は、特定のデータ シリーズのデータを予測するために使用します。以下の例では、関数が次の 6 か月間の 2 つの製品の売上予測を提供するために使用されています。
 
 
-![Time series sales forecast for next 6 month](images/time-series-forecast-6-months.png)
+<img src="images/time-series-forecast-6-months.png" alt="Time series sales forecast for next 6 month" width="100%"/>
 
 上記の予測を実現するには、以下の手順を実行します。
 
@@ -42,7 +42,7 @@ Reveal の統計関数を使用すると、表示形式からより多くの気�
 
 2.  以下の設定ダイアログが開きます。
 
-    ![Time series forecast settings](images/time-series-forecast-settings.png)
+    <img src="images/time-series-forecast-settings.png" alt="Time series forecast settings" width="100%"/>
 
     ここで、*季節の長さ*と*期間予測*を構成する必要があります。
 
@@ -63,7 +63,7 @@ Reveal の統計関数を使用すると、表示形式からより多くの気�
 
 時系列関数を適用した後に**表示形式の基になるデータ**を確認すると、予測値が黄色で強調表示されます (以下を参照)。
 
-![Underlying data in table format with highlighted forecasted data](images/underlying-data-time-series.png)
+<img src="images/underlying-data-time-series.png" alt="Underlying data in table format with highlighted forecasted data" width="100%"/>
 
 >[!NOTE]
 **時系列関数は時系列のチャートでのみ使用できます。**
@@ -76,13 +76,13 @@ Reveal の統計関数を使用すると、表示形式からより多くの気�
 
 *線形回帰*関数では、**選択した期間のデータの線形予測**を含めることもできます。*統計関数*メニューから*線形回帰*関数を選択すると、以下のダイアログが表示されます。
 
-![Forecast settings dialog for the Linear regression function](images/linear-regression-forecast-settings.png)
+<img src="images/linear-regression-forecast-settings.png" alt="Forecast settings dialog for the Linear regression function" width="100%"/>
 
 *予測期間*には、データを予測する**日、月、または年**を選択します。期間の長さの時間単位は、*日付*フィールドが日、月、または年のいずれで測定されるかに基づいて決定されます。
 
 以下は、*線形回帰*関数を表示形式に適用します。この場合、観測された傾向に基づいた予測を示すために線が 6 か月間延長されます。
 
-![Linear regression with a forecast for 6 months](images/linear-regression-example.png)
+<img src="images/linear-regression-example.png" alt="Linear regression with a forecast for 6 months" width="100%"/>
 
 上記の表示形式で描画される線は、売上 (Y 軸に配置された変数) の変化が時間 (または X 軸に配置された他の変数) に起因する範囲を示します。売上データと時間データの間の線形関係が折れ線を決定します。これにより、売上が徐々に低下する傾向がより明確になります。
 
@@ -93,7 +93,7 @@ Reveal の統計関数を使用すると、表示形式からより多くの気�
 
 外れ値は、データの他の観測値から逸脱する極値です。*外れ値の検出*関数は、データ シリーズの残りのポイントの平均値から大幅に逸脱されたポイントを表示します。
 
-![Outlier detection applied](images/outlier-detection-example.png)
+<img src="images/outlier-detection-example.png" alt="Outlier detection applied" width="100%"/>
 
 上記の例では、検出されたデータ ポイントは分配の残りの部分から離れて位置し、特定の瞬間に売上の急上昇を示します。これは、売上の全体的なパターンとは大幅に異なります。
 

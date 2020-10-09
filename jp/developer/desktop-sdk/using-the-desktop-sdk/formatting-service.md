@@ -57,7 +57,7 @@ data](images/initial-state-visualization-formatting-numeric-data.png)
 
 アプリを再実行すると、すべての数値データが 5 桁の 10 進数で数値を表示するように書式設定され、他のすべての書式設定 (フィールドが通貨またはパーセンテージを表すかどうかなど) が無視されることがわかります。
 
-![After formatting all numbers in the visualizations have five decimal digits](images/result-formatting-numeric-data.png)
+<img src="images/result-formatting-numeric-data.png" alt="After formatting all numbers in the visualizations have five decimal digits" width="100%"/>
 
 たとえば、パーセンテージを表示するフィールドのみの書式を変更する場合は、数値フィールドのタイプのチェックを追加する必要があります。
 
@@ -78,7 +78,7 @@ public class UpMediaFormattingService : RVBaseFormattingService
 
 これで、書式設定されたパーセンテージ フィールドのみができました。
 
-![Only percentage numeric data in the visualization displays five decimal digits](images/result-formatting-numeric-data-percentage.png)
+<img src="images/result-formatting-numeric-data-percentage.png" alt="Only percentage numeric data in the visualization displays five decimal digits" width="100%"/>
 
 ダッシュボードのその他の可視化では、数値データの書式が変更されていないことがわかります。書式設定はチャートによって制御されるため、フィールドの書式設定を変更するには、フィールドの書式設定を変更する必要があります。 変更には、[ローカライゼーション サービス](localization-service.html)を使用してください。
 
@@ -91,7 +91,7 @@ changes](images/formatting-service-marketing-sample-result.png)
 
 これは、Marketing サンプル **Actual Spend vs Budget** の可視化のうちの 1 つの初期状態です。
 
-![Actual Spend vs Budget initial state](images/formatting-visualization-aggregated-datetime-initial-state.png)
+<img src="images/formatting-visualization-aggregated-datetime-initial-state.png" alt="Actual Spend vs Budget initial state" width="100%"/>
 
 以下に、完全な月名を表示するために集約された日付データを表示する方法の例を示します (例: January 2001)。これを行うには、**RVBaseFormattingService** の実装で **FormatAggregatedDate** メソッドをオーバーライドする必要があります。
 
@@ -138,4 +138,4 @@ public class UpMediaFormattingService : RVBaseFormattingService
 
 また、アプリを再実行してグリッドの可視化を変更すると、更新された日付が表示されます (キャッシュのためにデータの更新が必要な場合があります)。
 
-![Visualization after formatting showing full names of the dates in a grid](images/formatting-non-aggregated-date-result.png)
+<img src="images/formatting-non-aggregated-date-result.png" alt="Visualization after formatting showing full names of the dates in a grid" width="100%"/>

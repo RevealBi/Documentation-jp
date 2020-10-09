@@ -6,7 +6,7 @@
 
 Microsoft Reporting Services (SSRS) データソースを構成するには、以下の情報が必要です。
 
-![Set up menu for Microsoft Reporting Services data source](images/ssrs-configuration.png)
+<img src="images/ssrs-configuration.png" alt="Set up menu for Microsoft Reporting Services data source" width="100%"/>
 
 1.  データ ソースの**デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Microsoft Reporting Services* という名前を付けます。好みに合わせて変更できます。
 
@@ -24,13 +24,13 @@ Microsoft Reporting Services (SSRS) データソースを構成するには、�
 
 Microsoft Reporting Services レポートへの接続を構成した後、以下のダイアログが開き、レポートの選択を促されます。
 
-![Select a Report dialog](images/select-report-dialog.png)
+<img src="images/select-report-dialog.png" alt="Select a Report dialog" width="100%"/>
 
 レポートとフォルダーの順序は、Microsoft Reporting Services アカウントの順序とよく似ています。
 
 データに応じて、以下に示すようにレポートの特定の**パラメーター**を構成する必要があります。
 
-![Set up parameters and choose an output format dialog](images/multiple-selection-parameters.png)
+<img src="images/multiple-selection-parameters.png" alt="Set up parameters and choose an output format dialog" width="100%"/>
 
 レポートのパラメーターを選択/入力した後、レポートを*表示形式エディター*に読み込む形式を選択できます。
 
