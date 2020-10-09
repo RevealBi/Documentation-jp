@@ -25,7 +25,7 @@ _Process Data on Server_ 関数を有効にして、それをサポートする�
 データソースの初期構成を行う方法の詳細については、上記の箇条書きリストで 3 つのデータソースのいずれかを選択し、設定方法に関する記事をご覧ください。
 接続を設定すると、*データベースの設定*画面が開きます:
 
-<img src="images/process-data-server-checkbox.png" alt="New Process data on server checkbox added in the Set Up the Database dialog in PostgreSQL" width="800"/>
+<img src="images/process-data-server-checkbox.png" alt="New Process data on server checkbox added in the Set Up the Database dialog in PostgreSQL" width="100%/>
 
 *サーバー上でデータを処理*がデフォルトで有効になっていることに注意してください。データがサーバー上で処理されるときに、制限されている機能 (以下の*制限*を参照) を使用する必要がある場合は、この機能の横にあるチェックボックスをオフにすることを検討してください。
 
@@ -41,4 +41,4 @@ _Process Data on Server_ 関数を有効にして、それをサポートする�
 表示形式エディターの[事前計算](~/jp/data-visualizations/fields/calculated-fields/overview.html#precalculated-fields)フィールド機能に制限が適用されます。使用できない関数は、*新しい計算フィールド* ダイアログでグレーアウトされます。
 このダイアログで、リンクをクリックして、*サーバー上でデータを処理*機能を無効にすることができます。
 
-<img src="images/pre-calculated-fields-unavailable-process-data-server.png" alt="Disable Process Data on Server prompt in the Calculated Fields dialog" width="800"/>
+<img src="images/pre-calculated-fields-unavailable-process-data-server.png" alt="Disable Process Data on Server prompt in the Calculated Fields dialog" width="100%/>

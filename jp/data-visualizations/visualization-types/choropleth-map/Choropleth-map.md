@@ -3,7 +3,7 @@
 階級区分図は、分割された地理的領域または地域の統計データを表すことを目的とした広範なテーマ別のマップです。マップの各領域は、データ変数に関連して均一な色で塗りつぶされます。
 このトピックでは、マップの領域を「領域」または「図形」とも呼びます。
 
-<img src="images/choropleth-map-intro-example.png" alt="A choropleth map showing 2016 general elections in the US" width="800"/>
+<img src="images/choropleth-map-intro-example.png" alt="A choropleth map showing 2016 general elections in the US" width="100%/>
 
 
 Reveal では、階級区分図に表示されるマップ タイプは一般的な政治マップです。つまり、マップ内の個々の図形は大陸、国、州、郡、政治組合などです。
@@ -29,7 +29,7 @@ Reveal の階級区分図では、階層データを[ドリル ダウン](#drill
 
 以下は、東アジアの人口 10 万人あたりの交通死を示すマップです。ここでは、大国の人口に惑わされることなく、アジア諸国の運転文化について現実的な結論を出すことができます。
 
-<img src="images/road-traffic-deaths-eastern-asia-example.png" alt="A choropleth map of Eastern Asia showing traffic deaths per 100 000" width="800"/>
+<img src="images/road-traffic-deaths-eastern-asia-example.png" alt="A choropleth map of Eastern Asia showing traffic deaths per 100 000" width="100%/>
 
 
 階級区分図の表示形式のためのデータ選択は、提供したい情報に依存します。地域全体で伝染病の広がりを示したい場合、データ点数を使用することが適切です。
@@ -57,11 +57,11 @@ Reveal に場所の列を認識させるには、場所の完全名または公�
 1. スプレッドシートをアップロードしたクラウド プロバイダーに接続します。Reveal でのデータソースの追加の詳細については、[データソース](../../datasources/overview.html)セクションを参照してください。
 2. 表示形式エディターで、階級区分図の表示形式を選択します。
 
-  <img src="images/select-visualization-choropleth-map.png" alt="Select choropleth map visualization from the Change Visualization menu in the Visualization editor" width="800"/>
+  <img src="images/select-visualization-choropleth-map.png" alt="Select choropleth map visualization from the Change Visualization menu in the Visualization editor" width="100%/>
 
 3. [階級区分図データ] セクションで、[マップ] ドロップダウンから [アメリカ合衆国の州] マップを選択します。米国のマップのアウトラインが画面に表示されます。
 
-  <img src="images/select-us-map.png" alt="Select choropleth map visualization from the Change Visualization menu in the Visualization editor" width="800"/>
+  <img src="images/select-us-map.png" alt="Select choropleth map visualization from the Change Visualization menu in the Visualization editor" width="100%/>
 
 4. [場所] プレースホルダーに State または State Abv フィールドをドロップします。両方とも米国の州のリストを含みます。
 
@@ -71,7 +71,7 @@ Reveal に場所の列を認識させるには、場所の完全名または公�
 
 7. (オプション) フィルターを追加します。この例では、[データ フィルター] プレースホルダーに Year フィールドをドロップします。フィールドをクリックし、[フィルター タイプ] > [値の選択] > 2016 を選択します。
 
-  <img src="images/presidential-election-2016-map.png" alt="Select choropleth map visualization from the Change Visualization menu in the Visualization editor" width="800"/>
+  <img src="images/presidential-election-2016-map.png" alt="Select choropleth map visualization from the Change Visualization menu in the Visualization editor" width="100%/>
 
 州に分割された米国のマップが表示されます。州の有権者の割合が高いほど、州の色は濃くなります。
 
@@ -80,7 +80,7 @@ Reveal に場所の列を認識させるには、場所の完全名または公�
 
 代わりに、[マップ カラー] プロパティを設定して、マップの各領域の色を制御できます。これは、領域内でどの候補者または政党が上位/下位票を獲得したかなどを反映するのに役立ちます。
 
-<img src="images/using-color-choropleth-map.png" alt="A choropleth map using the color category" width="800"/>
+<img src="images/using-color-choropleth-map.png" alt="A choropleth map using the color category" width="100%/>
 
 上記の例では、ドナルド・トランプ、ヒラリーク・リントン、および「その他」が 2016 年の投票で比較されています。州の色は、選挙で誰が最も多く投票されたかによって異なります。
 
@@ -98,7 +98,7 @@ Reveal に場所の列を認識させるには、場所の完全名または公�
 マップ上の図形をホバーすると強調表示され、ツールチップが表示されます (以下を参照)。[ドリル ダウン] オプションをクリックして、次の場所階層レベルのマップを表示します。  
 
 
-<img src="images/drill-down-option.png" alt="Drill down to tooltip shown for a state" width="800"/>  
+<img src="images/drill-down-option.png" alt="Drill down to tooltip shown for a state" width="100%/>  
   
 >[!NOTE]
 >**利用可能なマップ。**

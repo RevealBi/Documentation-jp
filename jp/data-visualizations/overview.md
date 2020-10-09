@@ -4,7 +4,7 @@ Reveal は、さまざまな表示形式を提供することにより、ビジ�
 
 ### 表示形式の概要
 
-<img src="images/data-visualizations-example.png" alt="Reveal's log in screen" width="800"/>
+<img src="images/data-visualizations-example.png" alt="Reveal's log in screen" width="100%/>
 
 Add description here.
 

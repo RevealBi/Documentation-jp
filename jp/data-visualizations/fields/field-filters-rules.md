@@ -2,7 +2,7 @@
 
 データセットのフィールドにもフィルターとルールを適用できます。そのためには、データ エディターの下部にある**データ フィルター** プレースホルダーにフィールドを追加する必要があります。次に、ドロップダウンからフィールドを選択して、*データ フィルター* ウィンドウにアクセスします。
 
-<img src="images/add-data-filter.png" alt="Adding data filter fields list" width="800"/>
+<img src="images/add-data-filter.png" alt="Adding data filter fields list" width="100%/>
 
 <a name='empty-values'></a>
 ### 空値をフィルター
@@ -99,6 +99,6 @@ Reveal は特定の列で空値のフィルター構成の設定を有効にす�
 
 **データ エディターの値プレースホルダーにドロップされたフィールドをフィルターすること**もできます。これは、フィールドのリストとは異なる[集計](field-settings.md#numeric-fields)になる可能性があります。
 
-<img src="images/data-filters-filtering-data-editor.png" alt="Data Filters Filtering in the Data Editor" width="800"/>
+<img src="images/data-filters-filtering-data-editor.png" alt="Data Filters Filtering in the Data Editor" width="100%/>
 
 これらのフィールドは、フィールド リストの下部に、それらに適用される集計の名前とともに表示されます。

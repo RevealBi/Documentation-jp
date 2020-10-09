@@ -63,13 +63,13 @@ PostgreSQL 関数を使用すると、データベース内の単一の関数で
 以下は、[Northwind](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases) データを使用してテスト サーバーで実行されるサンプル関数のセットです:
 
 
-<img src="images/postgresql-functions-list.png" alt="A list of PostgreSQL functions" width="800"/>
+<img src="images/postgresql-functions-list.png" alt="A list of PostgreSQL functions" width="100%/>
 
 
 関数を選択した後、いくつかの追加パラメーターを設定する必要があります。この場合、関数は、Sales for period の情報を表示するために開始日と終了日を設定する必要があります。
 
 
-<img src="images/sales-for-period.png" alt="Sales for period function parameters" width="800"/>
+<img src="images/sales-for-period.png" alt="Sales for period function parameters" width="100%/>
 
 
 関数と PostgreSQLの 詳細については、この [Web サイト (英語)](https://www.postgresql.org/docs/9.0/sql-createfunction.html) にアクセスしてください。

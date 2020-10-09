@@ -118,4 +118,5 @@ Reveal の*チーム*は、組織内外とのコラボレーションを容易�
 4. チームを追加するグループの丸をオンにします。[適用] を選択します。
 
 チーム リストには、チームが グループ化されていないチームとカスタム グループのチームで分類されて表示されます。
+
 ![teams' list separated by custom groups and ungrouped teams](images/teams-categorized-by-groups.png)

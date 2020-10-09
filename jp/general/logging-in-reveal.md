@@ -3,14 +3,14 @@
 Reveal へようこそ！
 アプリを開くとき、さまざまなログイン オプションが表示されます。
 
-<img src="images/log-in-screen.png" alt="Reveal's log in screen" width="800"/>
+<img src="images/log-in-screen.png" alt="Reveal's log in screen" width="100%/>
 
 開始前に、Reveal で **組織**に参加できることを考慮してください。組織のメンバーは、組織のメール アドレスでログインする必要があります。Google (G Suite) または Microsoft (O365) を選択し、組織チームに関連付けられます。または、iCloud (*Apple*) アカウントの資格情報を使用してログインできます。
 
 > [!NOTE]
 > 組織チームの名前は組織と同じ名前になります (会社名など)。  
 
-<img src="images/limited-permission-sign-in-o365.png" alt="Permissions request sign in with Office 365" width="800"/>
+<img src="images/limited-permission-sign-in-o365.png" alt="Permissions request sign in with Office 365" width="100%/>
 
 Reveal へのサインインに使用したアカウントに応じて、OneDrive または Google ドライブが[データ ソース](~/jp/datasources/overview.html)のリストに自動的に追加されます。さらに、[OneDrive](~/jp/datasources/OneDrive.html) と [Google ドライブ](~/jp/datasources/Google-Drive.html)を初めて使用するときにのみ、制限された権限制限付きのアクセス許可を求められます。
 
@@ -18,7 +18,7 @@ Reveal へのサインインに使用したアカウントに応じて、OneDriv
 
 開始するときに、初期画面が表示されます。
 
-<img src="images/reveal-initial-view.png" alt="First screen in Reveal with numbering added" width="800"/>
+<img src="images/reveal-initial-view.png" alt="First screen in Reveal with numbering added" width="100%/>
 
 **アイテム**の個人用スペースで開始します。
 

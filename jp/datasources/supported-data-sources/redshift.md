@@ -2,7 +2,7 @@
 
 Amazon Redshift のデータソースを設定するには、以下の情報が必要です:
 
-<img src="images/enter-amazon-redshift-server-details.png" alt="Configure Redshift Server details" width="800"/>
+<img src="images/enter-amazon-redshift-server-details.png" alt="Configure Redshift Server details" width="100%/>
 
 1.  データソースの **デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Amazon Redshift* という名前を付けます。好みに合わせて変更できます。 
 
@@ -47,10 +47,10 @@ Amazon Redshift のデータソースを設定するには、以下の情報が�
 
 Reveal ではすべてのテーブルから *Redshift* データを取得できますが、その他にもテーブルまたはテーブルのセットからデータのサブセットを返す特定の[ビュー](https://docs.aws.amazon.com/redshift/latest/dg/r_CREATE_VIEW.html)を選択することもできます。
 
-<img src="images/amazon-redshift-views.png" alt="Redshift views dialog" width="800"/>
+<img src="images/amazon-redshift-views.png" alt="Redshift views dialog" width="100%/>
 
 上記のスクリーンショットの **motor_vehicle_collisions_time** ビューには、Redshift サーバーの **motor_vehicle_collisions** テーブルにあるデータの変更バージョンが含まれています。 
 以下のスクリーンショットでは、左側の表示形式はテーブルのデータを使用して構築され、右側の表示形式はビューに含まれるデータを使用しています。 
 
-<img src="images/collisions-time-redshift-view-sample.png" alt="Sample dashboard using Redshift tables and view data" width="800"/>
+<img src="images/collisions-time-redshift-view-sample.png" alt="Sample dashboard using Redshift tables and view data" width="100%/>
 
