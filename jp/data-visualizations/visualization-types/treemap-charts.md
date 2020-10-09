@@ -54,7 +54,7 @@
 
 ツリーマップ表示形式をドリルアップおよびドリルダウンして、異なる階層レベル間を移動できます。これを行うには、*大きな四角形の領域をクリックします* (含まれるタイルに関係なく)。ツールチップで、*ドリルダウン/アップ*を選択します。
 
-<img src="images/drill-down-select.png" alt="Select drill down in tooltip" width="100%/>
+<img src="images/drill-down-select.png" alt="Select drill down in tooltip" width="100%"/>
 
 #### ツリーマップ レベルの詳細
 

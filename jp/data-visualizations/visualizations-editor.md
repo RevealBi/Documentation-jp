@@ -18,7 +18,7 @@
 
 表示形式エディターには、主に 3 つのエリアがあります。
 
-<img src="images/visualization-editor-panes.png" alt="Panes of the Visualization editor" width="100%/>
+<img src="images/visualization-editor-panes.png" alt="Panes of the Visualization editor" width="100%"/>
 
   1. **データ セクション**選択したデータセットとデータ エディターで使用可能なフィールドのリストが表示されます。このツールは、データを必要に応じてスライスアンドダイスする際に役立ちます。使用可能なフィールドが 10 を超える場合、検索によってデータ フィールドを見つけることができます。
 

@@ -107,28 +107,28 @@ dialog](images/adding-new-package-source.png)
 
 Reveal アプリ (<https://app.revealbi.io>) を開き、**サンプル**に移動します。
 
-<img src="images/accessing-marketing-dashboard.png" alt="accessing the marketing dashboard from Reveal samples" width="100%/>
+<img src="images/accessing-marketing-dashboard.png" alt="accessing the marketing dashboard from Reveal samples" width="100%"/>
 
 
 Marketing ダッシュボードを選択し、**編集モード**に入ります。
 
-<img src="images/reveal-marketing-dashboard-sample.png" alt="enter edit mode of marketing sample dashboard in Reveal app" width="100%/>
+<img src="images/reveal-marketing-dashboard-sample.png" alt="enter edit mode of marketing sample dashboard in Reveal app" width="100%"/>
 
 編集モードに入った後に \[テーマ\] ボタンをクリックします。
 
-<img src="images/marketing-dashboard-theme-button.png" alt="edit mode menu of the marketing dashboard" width="100%/>
+<img src="images/marketing-dashboard-theme-button.png" alt="edit mode menu of the marketing dashboard" width="100%"/>
 
 
 [Ocean テーマ] を選択します。
 
-<img src="images/dashboard-themes-ocean-theme.png" alt="edit mode menu of the marketing dashboard" width="100%/>
+<img src="images/dashboard-themes-ocean-theme.png" alt="edit mode menu of the marketing dashboard" width="100%"/>
 
 変更したダッシュボードを保存し、エクスポートします。
 
 > [!NOTE]
 > Marketing ダッシュボードは、Reveal アプリの**サンプル**の一部であるため、通常のダッシュボードと同じ方法で保存することはできません。代わりに、**名前を付けて保存**を使用して場所を選択する必要があります。
 
-<img src="images/export-marketing-dashboard-changed-theme.png" alt="export marketing dashboard menu" width="100%/>
+<img src="images/export-marketing-dashboard-changed-theme.png" alt="export marketing dashboard menu" width="100%"/>
 
 **Marketing.rdash** ダッシュボード ファイルを手順 3 で作成したダッシュボード フォルダーへ移動し、Visual Studio でこのアイテムのビルド アクションを**埋め込みリソース**に設定します。
 

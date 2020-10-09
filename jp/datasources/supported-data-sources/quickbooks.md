@@ -13,7 +13,7 @@ ID 認証が有効な場合は、送信された*確認コード*を入力する
 
 ログイン後、次のダイアログで Quickbooks データを設定できます:
 
-<img src="images/set-up-data-quickbooks.png" alt="Set up your data dialog" width="100%/>
+<img src="images/set-up-data-quickbooks.png" alt="Set up your data dialog" width="100%"/>
 
 ここで、必要な Quickbooks エンティティを選択できます。
 
