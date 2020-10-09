@@ -14,7 +14,7 @@ Google アナリティクスは、ウェブで最も使用されているウェ�
 
     複数の Google アナリティクス アカウントがある場合は、使用するアカウントを選択します。
 
-    ![Select a Google account to be used with Reveal's Google Analytics data source](images/choose-ga-account.png)
+    <img src="images/choose-ga-account.png" alt="Select a Google account to be used with Reveal's Google Analytics data source" width="100%"/>
 
     ログインすると、データ ソースを削除しない限り、他の表示形式の作成時に同じアカウントを使用できます。
 
