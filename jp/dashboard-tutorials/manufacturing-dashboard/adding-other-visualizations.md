@@ -3,7 +3,7 @@
 その他すべてのダッシュボードにある表示形式で同じ[サンプル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)を使用します。
 
 >[!NOTE]
->[データソースを変更する](changing-data-source-visualization.md)場合は、データ ソース名の横にあるオーバーフロー ボタンまたは[新しいデータ ソース](creating-new-datasource.md)を選択する必要があります。表示形式を[複製](overview.md#view-edit-mode)し、作成時間を短縮することもできます。
+>[データソースを変更する](changing-data-source-visualization.html)場合は、データ ソース名の横にあるオーバーフロー ボタンまたは[新しいデータ ソース](creating-new-datasource.html)を選択する必要があります。表示形式を[複製](overview.md#view-edit-mode)し、作成時間を短縮することもできます。
 
 このセクションは以下の表示形式について説明します。
 
@@ -45,7 +45,7 @@
 <a name='production'></a>
 ### Production (製品)
 
-Production 表示形式は、12 か 月間の製造量を作業者タイプ別に [折れ線チャート](tutorial-simple-charts.md)で表示します。以下は作成方法です。
+Production 表示形式は、12 か 月間の製造量を作業者タイプ別に [折れ線チャート](tutorial-simple-charts.html)で表示します。以下は作成方法です。
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Manufacturing Dashboard** シートを選択します。次に、[データを選択] を選択します。
     
@@ -86,7 +86,7 @@ Production 表示形式は、12 か 月間の製造量を作業者タイプ別�
 <a name='shipping'></a>
 ### Shipping (配送)
 
-Shipping 表示形式は、12 か 月間の出荷量を[エリア チャート](~/jp/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
+Shipping 表示形式は、12 か 月間の出荷量を[エリア チャート](~/jp/visualization-tutorials/simple-charts.html)で表示します。以下は作成方法です。
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Manufacturing Dashboard** シートを選択します。次に、[データを選択] を選択します。
     
@@ -127,7 +127,7 @@ Shipping 表示形式は、12 か 月間の出荷量を[エリア チャート](
 <a name='average-hours'></a>
 ### Average Hours (平均時間)
 
-Average Hours 表示形式では、会社の機械に費やされた時間と、会社の従業員によってログに記録された時間の比較を[スプライン チャート](~/jp/visualization-tutorials/simple-charts.md)で月別に表示します。以下は作成方法です。
+Average Hours 表示形式では、会社の機械に費やされた時間と、会社の従業員によってログに記録された時間の比較を[スプライン チャート](~/jp/visualization-tutorials/simple-charts.html)で月別に表示します。以下は作成方法です。
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Manufacturing Dashboard** シートを選択します。次に、[データを選択] を選択します。
     
@@ -169,7 +169,7 @@ Average Hours 表示形式では、会社の機械に費やされた時間と、
 <a name='headcount'></a>
 ### Headcount (人数)
 
-Headcount 表示形式はカテゴリごとに分類された従業員の数を[棒チャート](~/jp/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
+Headcount 表示形式はカテゴリごとに分類された従業員の数を[棒チャート](~/jp/visualization-tutorials/simple-charts.html)で表示します。以下は作成方法です。
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Manufacturing Dashboard** シートを選択します。次に、[データを選択] を選択します。
     
@@ -209,7 +209,7 @@ Headcount 表示形式はカテゴリごとに分類された従業員の数を[
 <a name='labor-cost'></a>
 ### Labor Cost (人件費)
 
-Labor Cost 表示形式は、各従業員の最高から最低までの賃金を[柱状チャート](~/jp/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
+Labor Cost 表示形式は、各従業員の最高から最低までの賃金を[柱状チャート](~/jp/visualization-tutorials/simple-charts.html)で表示します。以下は作成方法です。
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Manufacturing Dashboard** シートを選択します。次に、[データを選択] を選択します。
     

@@ -26,4 +26,4 @@ Web リソース データソースを構成するには、以下の情報が必
 
 準備ができたら、**アカウントの作成**を選択します。**[接続テスト]** を選択すると、アカウントがデータソースに到達しているかどうかを確認できます。
 
-保護された Web リソースの *OAuth 2 / OIDC アカウント* を設定するには、[このトピック](~/jp/datasources/oauth-2-oidc-user-authentication.md)をお読みください。
+保護された Web リソースの *OAuth 2 / OIDC アカウント* を設定するには、[このトピック](~/jp/datasources/oauth-2-oidc-user-authentication.html)をお読みください。

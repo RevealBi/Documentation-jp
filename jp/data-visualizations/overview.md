@@ -14,19 +14,19 @@ Add description here.
 
 表示形式タイプはいくつかあります。
 
-  - [グリッド ビュー](visualization-types/grid-chart.md)
+  - [グリッド ビュー](visualization-types/grid-chart.html)
 
-  - [ピボット テーブル](visualization-types/pivot-table.md)
+  - [ピボット テーブル](visualization-types/pivot-table.html)
 
-  - [テキスト ビュー](visualization-types/text-view.md)
+  - [テキスト ビュー](visualization-types/text-view.html)
 
-  - [画像ビューアー](visualization-types/image-chart.md)
+  - [画像ビューアー](visualization-types/image-chart.html)
 
-  - [ブレット グラフ](visualization-types/gauge-charts.md#bullet-graph)、[円形](visualization-types/gauge-charts.md#circular-gauge)、[KPI](visualization-types/kpi-gauge.md)、[リニア](visualization-types/gauge-charts.md#linear-gauge)、および [テキスト](visualization-types/gauge-charts.md#text-gauge) ゲージを含むゲージ ビュー。
+  - [ブレット グラフ](visualization-types/gauge-charts.md#bullet-graph)、[円形](visualization-types/gauge-charts.md#circular-gauge)、[KPI](visualization-types/kpi-gauge.html)、[リニア](visualization-types/gauge-charts.md#linear-gauge)、および [テキスト](visualization-types/gauge-charts.md#text-gauge) ゲージを含むゲージ ビュー。
 
-  - [カテゴリ](visualization-types/category-charts.md)、[コンボ](visualization-types/combo-charts.md)、[ファイナンシャル](visualization-types/financial-charts.md)、[ラジアル](visualization-types/radial-charts.md)、[散布とバブル](visualization-types/scatter-bubble-charts.md)、[スパークライン](visualization-types/sparkline-charts.md)など、いくつかの種類のチャート。
+  - [カテゴリ](visualization-types/category-charts.html)、[コンボ](visualization-types/combo-charts.html)、[ファイナンシャル](visualization-types/financial-charts.html)、[ラジアル](visualization-types/radial-charts.html)、[散布とバブル](visualization-types/scatter-bubble-charts.html)、[スパークライン](visualization-types/sparkline-charts.html)など、いくつかの種類のチャート。
 
-  - [テキスト ボックス表示形式](visualization-types/text-box.md)
+  - [テキスト ボックス表示形式](visualization-types/text-box.html)
 
 ### 次の手順
 

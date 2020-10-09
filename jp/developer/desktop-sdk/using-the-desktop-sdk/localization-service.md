@@ -167,7 +167,7 @@ public class UpMediaLocalizationService : IRVLocalizationService
 <a name='format-date-field'></a>
 #### 日付フィールドの書式設定の変更の例
 
-現在、集計された日付フィールドの書式設定の変更はローカリゼーション サービスでは設定できず、ピボットの値には影響しません。変更には[書式設定サービス](formatting-service.md)を使用してください。
+現在、集計された日付フィールドの書式設定の変更はローカリゼーション サービスでは設定できず、ピボットの値には影響しません。変更には[書式設定サービス](formatting-service.html)を使用してください。
 
 ローカリゼーション サービスでは、**非集計日付フィールド**の書式設定を変更できます。 .
 

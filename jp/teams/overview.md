@@ -6,7 +6,7 @@ Reveal チームの機能:
 
   - グループの作業を**チームのダッシュボード** セクションで整理 - ダッシュボードを作成して他のメンバーと直接共有し、メンバーのダッシュボードを表示および編集します。
 
-  - チームのダッシュボードを他のチームや Reveal のユーザーと[**共有します**](~/jp/sharing-dashboards/sharing-dashboards.md)。
+  - チームのダッシュボードを他のチームや Reveal のユーザーと[**共有します**](~/jp/sharing-dashboards/sharing-dashboards.html)。
 
   - すべてのチーム メンバーを個別のアクセス レベルを持つ [**3 つのメンバー役割**](#members-roles-permissions)の 1 つに割り当て、機密情報を含むダッシュボードを保護します。
 
@@ -92,4 +92,4 @@ Reveal にサインインする組織の最初のユーザーには、組織リ�
 | **公開チーム**にメンバーとして参加できます。                           | <span style="color: #007F00">〇</span> | <span style="color: #007F00">〇</span> | <span style="color: #007F00">〇</span> |
 | **非公開チーム**を表示できます。                                      | <span style="color: #FF0000">x</span>  | <span style="color: #FF0000">x</span>  | <span style="color: #FF0000">x</span>  |
 
-チームおよび組織リポジトリのプロパティとメンバーの管理の詳細については、[「チームの管理」](managing-your-team.md)トピックを参照してください。
+チームおよび組織リポジトリのプロパティとメンバーの管理の詳細については、[「チームの管理」](managing-your-team.html)トピックを参照してください。

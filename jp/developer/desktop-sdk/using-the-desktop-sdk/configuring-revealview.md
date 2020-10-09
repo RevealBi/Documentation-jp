@@ -7,7 +7,7 @@ The __RevealView__ コンポーネントは、__RevealSettings__ オブジェク
  __RevealSettings__ オブジェクトを使用して、エンドユーザーに対するさまざまな機能を有効または無効にすることができます。
   - **UI 要素の表示/非表示** - ShowFilters プロパティは初期化時に __RevealView__ によって読み込まれ、その値に基づいてグローバル フィルター UI をユーザーに表示または非表示にします。その他の同様のプロパティには、ShowExportButton、CanEdit、showChangeDataSource、MaximizedVisualization があります。
 
-  - **ダッシュボードの指定** - どのダッシュボードをレンダリングするかを指定するには、dashboard プロパティを使用します。[**ダッシュボード ファイルの読み込み**](loading-dashboards.md) に示すように、ダッシュボードは、Stream を受信して​​ダッシュボード オブジェクト __RevealUtility.LoadDashboard__ を返す **RVDashboard** メソッドを使用して取得する必要があります。
+  - **ダッシュボードの指定** - どのダッシュボードをレンダリングするかを指定するには、dashboard プロパティを使用します。[**ダッシュボード ファイルの読み込み**](loading-dashboards.html) に示すように、ダッシュボードは、Stream を受信して​​ダッシュボード オブジェクト __RevealUtility.LoadDashboard__ を返す **RVDashboard** メソッドを使用して取得する必要があります。
 
   - **グローバル フィルター値の選択** - ダッシュボードのロード時に既存のグローバル フィルターに対して最初に選択される値を指定できます。
 

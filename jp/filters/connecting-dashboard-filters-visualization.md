@@ -38,7 +38,7 @@
 
 ### パラメーター バインド
 
-パラメーター ([REST](~/jp/datasources/supported-data-sources/rest-api.md)、[OData](~/jp/datasources/supported-data-sources/odata-feed.md) および [MS SQL Server](~/jp/datasources/supported-data-sources/microsoft-sql-server.md) ストアド ロシージャ) を使用するデータソースの場合、ダッシュボード フィルターをパラメーターに接続する必要があります。そのため、可覚化のフィルター データを変更すると、接続されたパラメーターで選択した値で更新されます。
+パラメーター ([REST](~/jp/datasources/supported-data-sources/rest-api.html)、[OData](~/jp/datasources/supported-data-sources/odata-feed.html) および [MS SQL Server](~/jp/datasources/supported-data-sources/microsoft-sql-server.html) ストアド ロシージャ) を使用するデータソースの場合、ダッシュボード フィルターをパラメーターに接続する必要があります。そのため、可覚化のフィルター データを変更すると、接続されたパラメーターで選択した値で更新されます。
 
 ダッシュボード フィルターをパラメーターに接続するには、[フィールド バインド](#フィールドのバインド)の手順に従います。データソース パラメーターは、[フィルター接続の編集] ダイアログの表示形式ドロップダウン リストの下部にあります。
 

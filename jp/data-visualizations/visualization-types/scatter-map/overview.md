@@ -24,7 +24,7 @@ The most basic scatter maps in Reveal consist of uniform color dots plotted over
 
 <img src="images/scatter-dot-map-airports.png" alt="A dot map showing the distribution of airports across the US" width="100%"/>
 
-The dot maps are the most basic of the scatter maps in Reveal. They can be created by using only the *Latitude* and *Longitude* data from your data set. If your data source does not contain these fields, you can add them from another data source. See how to do this in [Combining Data Sources in One Visualization](~/en/datasources/data-blending.md).
+The dot maps are the most basic of the scatter maps in Reveal. They can be created by using only the *Latitude* and *Longitude* data from your data set. If your data source does not contain these fields, you can add them from another data source. See how to do this in [Combining Data Sources in One Visualization](~/en/datasources/data-blending.html).
 
 You also need to choose one of the predefined maps from the *Map* dropdown in the _Scatter Map Data_ section.  
 
@@ -137,4 +137,4 @@ Zooming also allows you to change the clear shapes Reveal uses as a map backgrou
 <img src="images/scatter-map-image-tiles-enabled
 .png" alt="A scatter map showing the average age of Population in East Asia zoomed in and using image tiles" width="100%"/>
 
-For more information on how to use your map se key in Reveal or how to view shared maps using image files, read the [Using Map Image Tiles](map-image-tiles.md) topic.
+For more information on how to use your map se key in Reveal or how to view shared maps using image files, read the [Using Map Image Tiles](map-image-tiles.html) topic.

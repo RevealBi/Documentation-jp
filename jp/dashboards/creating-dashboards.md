@@ -34,11 +34,11 @@ Reveal のダッシュボード作成には以下のオプションが含まれ�
 
 #### 使用可能なコンテンツ
 
-Reveal では [Dropbox](../datasources/supported-data-sources/Dropbox.md)、[OneDrive](../datasources/supported-data-sources/OneDrive.md)、[Box](../datasources/supported-data-sources/Box.md)、[Google Drive](../datasources/supported-data-sources/Google-Drive.md) などの複数のコンテンツ ソースを追加でき、それらの使用可能なフォルダー、ファイル、スプレッドシートを閲覧できます。
+Reveal では [Dropbox](../datasources/supported-data-sources/Dropbox.html)、[OneDrive](../datasources/supported-data-sources/OneDrive.html)、[Box](../datasources/supported-data-sources/Box.html)、[Google Drive](../datasources/supported-data-sources/Google-Drive.html) などの複数のコンテンツ ソースを追加でき、それらの使用可能なフォルダー、ファイル、スプレッドシートを閲覧できます。
 
 ![available content in OneDrive datasource account](images/available-content-onedrive.png)
 
-さらに、[SharePoint](../datasources/supported-data-sources/SharePoint.md) データ ソースを追加することもできるため、リストまたはライブラリにアクセスする機能が使用可能です。
+さらに、[SharePoint](../datasources/supported-data-sources/SharePoint.html) データ ソースを追加することもできるため、リストまたはライブラリにアクセスする機能が使用可能です。
 
 ![available content in SharePoint datasource account](images/available-content-sharepoint.png)
 
@@ -71,7 +71,7 @@ Reveal では、情報を可覚化する方法をカスタマイズするため�
 
 ダッシュボードの準備後、右上側の**ティック アイコン**を選択してあるいはオーバーフロー メニューの [**名前を付けて保存**] オプションにアクセスして、ダッシュボードを保存します。
 
-ダッシュボードを個人用リポジトリに保存するか、[参加または作成した](~/jp/teams/Creating-Joining-Teams.md)チーム リポジトリを選択できます。ダッシュボードの名前を選択し、準備ができた後 [ここに保存] をクリック/タップします。
+ダッシュボードを個人用リポジトリに保存するか、[参加または作成した](~/jp/teams/Creating-Joining-Teams.html)チーム リポジトリを選択できます。ダッシュボードの名前を選択し、準備ができた後 [ここに保存] をクリック/タップします。
 
 ![save as menu](images/save-as-menu.png)
 

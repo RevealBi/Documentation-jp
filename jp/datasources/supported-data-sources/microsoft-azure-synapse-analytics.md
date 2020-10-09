@@ -53,10 +53,10 @@ Reveal でビッグ データを操作する場合、数百万のレコードを
 
 現在、Azure Synapse Analytics のデータを使用する*計算フィールド*で、使用できる**関数**の数は限られています。
 
-- [ロジック](~/jp/data-visualizations/fields/logic-calculated-fields.md) - false; true; not。
-- [数学](~/jp/data-visualizations/fields/math-calculated-fields.md) - abs; log; log10; sign; sqrt。
-- [文字列](~/jp/data-visualizations/fields/string-calculated-fields.md) - find; len; trim; lower; mid; upper。
+- [ロジック](~/jp/data-visualizations/fields/logic-calculated-fields.html) - false; true; not。
+- [数学](~/jp/data-visualizations/fields/math-calculated-fields.html) - abs; log; log10; sign; sqrt。
+- [文字列](~/jp/data-visualizations/fields/string-calculated-fields.html) - find; len; trim; lower; mid; upper。
 
 #### データ ブレンディングの制限
 
-現在、Azure Synapse Analytics データ ソースからのデータを使用する場合、データ ブレンディング ([1 つの表示形式でデータ ソースを組み合わせる](data-blending.md)) は**使用できません**。
+現在、Azure Synapse Analytics データ ソースからのデータを使用する場合、データ ブレンディング ([1 つの表示形式でデータ ソースを組み合わせる](data-blending.html)) は**使用できません**。

@@ -128,7 +128,7 @@
 このチュートリアルでは [Reveal チュートリアル スプレッドシート](http://download.infragistics.com/Reveal/help/samples/Reveal_Dashboard_Tutorials.xlsx). の [シンプル シリーズのチャート] のシートを使用します。
 
 >[!NOTE]
->このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされている[クラウド サービス](data-sources.md)のいずれかにファイルをアップロードするか、[Web リソース](web-resource.md)として追加してください。
+>このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされている[クラウド サービス](data-sources.html)のいずれかにファイルをアップロードするか、[Web リソース](web-resource.html)として追加してください。
 
 <a name='create-basic-chart'></a>
 ### チャートの作成

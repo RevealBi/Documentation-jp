@@ -4,7 +4,7 @@ Reveal は、データをダッシュボード フィルターにバインドす
 
 ![Add filter dropdown menu for a visualization](images/add-new-dashboard-filter.png)
 
-日付のダッシュボード フィルターを有効にすると、[表示形式バインディング式](connecting-dashboard-filters-visualization.md)で使用できるようになります。
+日付のダッシュボード フィルターを有効にすると、[表示形式バインディング式](connecting-dashboard-filters-visualization.html)で使用できるようになります。
 
 ![Filter Date Range dialog](images/dashboard-filter-date-range-menu.png)
 

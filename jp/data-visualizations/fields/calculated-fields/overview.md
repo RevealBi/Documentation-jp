@@ -69,7 +69,7 @@ Reveal では、計算フィールドというフィールドをデータセッ�
 
 事前計算フィールドと事後計算フィールドの両方で、Reveal で使用可能な機能のいずれかを使用できます。
 
-  - [**集計**](aggregation.md):
+  - [**集計**](aggregation.html):
     [AVERAGE](aggregation.md#average)、
     [AVERAGEIF](aggregation.md#averageif)、
     [COUNT](aggregation.md#count)、
@@ -79,7 +79,7 @@ Reveal では、計算フィールドというフィールドをデータセッ�
     [MIN](aggregation.md#min)、
     [MINIF](aggregation.md#minif)。
 
-  - [**日付**](date.md):
+  - [**日付**](date.html):
     [DATE](date.md#date-date)、
     [DATEVALUE](date.md#datevalue)、
     [DAY](date.md#day)、
@@ -101,11 +101,11 @@ Reveal では、計算フィールドというフィールドをデータセッ�
     [WEEKNUM](date.md#weeknum)、
     [YEAR](date.md#year)。
 
-  - [**情報**](information.md):
+  - [**情報**](information.html):
     [EMPTY](information.md#empty)、
     [ISEMPTY](information.md#isempty)。
 
-  - [**ロジック**](logic.md):
+  - [**ロジック**](logic.html):
     [AND](logic.md#and)、
     [FALSE](logic.md#false)、
     [IF](logic.md#if)、
@@ -113,11 +113,11 @@ Reveal では、計算フィールドというフィールドをデータセッ�
     [OR](logic.md#or)、
     [TRUE](logic.md#true)。
 
-  - [**検索/行列**](lookup-reference.md):
+  - [**検索/行列**](lookup-reference.html):
     [PREVIOUS](lookup-reference.md#previous)、
     [ROW](lookup-reference.md#row)。
 
-  - [**数学**](math.md):
+  - [**数学**](math.html):
     [ABS](math.md#abs)、
     [EXP](math.md#exp)、
     [LOG](math.md#log)、
@@ -129,7 +129,7 @@ Reveal では、計算フィールドというフィールドをデータセッ�
     [SQRT](math.md#sqrt)、
     [TRUNC](math.md#trunc)。
 
-  - [**文字列**](string.md):
+  - [**文字列**](string.html):
     [CONCATENATE](string.md#concatenate)、
     [FIND](string.md#find)、
     [LEN](string.md#len)、
@@ -146,7 +146,7 @@ Reveal では、計算フィールドというフィールドをデータセッ�
 <a name='without-predefined-functions'></a>
 ### 定義済み関数を使用せず計算フィールドを作成
 
-定義済み関数を使用せずに計算フィールドを作成することもできます。 たとえば、減算、除算、加算、乗算などの単純な数学計算用。[こちらの表](samples.md)には、定義済み関数を使用しない例があります。
+定義済み関数を使用せずに計算フィールドを作成することもできます。 たとえば、減算、除算、加算、乗算などの単純な数学計算用。[こちらの表](samples.html)には、定義済み関数を使用しない例があります。
 
 ### Reveal 関数を使用する際に以下に注意してください。
 

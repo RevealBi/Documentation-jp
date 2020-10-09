@@ -10,9 +10,9 @@ Reveal は、日付範囲をダッシュボード フィルターとして有効
 
 このセクションは以下のトピックを説明します:
 
-  - *ダッシュボード*と*表示形式エディター*の両方の[ダッシュボード フィルター](dashboard-filters.md)
+  - *ダッシュボード*と*表示形式エディター*の両方の[ダッシュボード フィルター](dashboard-filters.html)
 
-  - [ダッシュボード フィルターの構成可能なプロパティ](dashboard-filters-properties.md):
+  - [ダッシュボード フィルターの構成可能なプロパティ](dashboard-filters-properties.html):
 
       - [表示フィールド](dashboard-filters-properties.md#displayed-field)
 
@@ -22,6 +22,6 @@ Reveal は、日付範囲をダッシュボード フィルターとして有効
 
       - [データ フィルター](dashboard-filters-properties.md#data-filters)
 
-  - [ダッシュボード フィルターと表示形式への接続](connecting-dashboard-filters-visualization.md) (表示形式バインディングとも呼ばれます)
+  - [ダッシュボード フィルターと表示形式への接続](connecting-dashboard-filters-visualization.html) (表示形式バインディングとも呼ばれます)
 
-  - [表示形式のクイック フィルター](visualization-filters.md)
+  - [表示形式のクイック フィルター](visualization-filters.html)

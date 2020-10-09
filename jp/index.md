@@ -6,7 +6,7 @@ Reveal は、埋め込み分析用に構築された最新の BI ソリューシ
 
 <img src="images/homePage_All.png" alt="Welcome image for Reveal" width="800"/>
 
-埋め込み分析に興味をお持ちですか? [Reveal SDK をダウンロードします](https://www.revealbi.io/download-sdk)。使用を開始する方法については、[Reveal SDK ヘルプ](developer/index.md)を参照してください。
+埋め込み分析に興味をお持ちですか? [Reveal SDK をダウンロードします](https://www.revealbi.io/download-sdk)。使用を開始する方法については、[Reveal SDK ヘルプ](developer/index.html)を参照してください。
 
 ### Reveal アプリケーションのハイライト
 
@@ -53,9 +53,9 @@ Reveal で BigQueryまたは Azure Machine Learning Studio からのトレーニ
 
 ### 新機能
 
-* [Amazon Redshift](~/en/datasources/supported-data-sources/redshift.md) データソース – Amazon Redshift クラウド データ ウェアハウスのデータを使用して、新しいインサイトを得ることができます。
-* [Marketo](~/en/datasources/supported-data-sources/marketo.md) データソース – Marketo マーケティング プラットフォームのアカウントに接続し、データを Reveal で使用します。
-* [サーバーでデータを処理する](~/en/datasources/process-data-server-side.md)機能 – MS SQL、MySQL、Postgres データソースからのデータをサーバー側で集計することが可能です。
+* [Amazon Redshift](~/en/datasources/supported-data-sources/redshift.html) データソース – Amazon Redshift クラウド データ ウェアハウスのデータを使用して、新しいインサイトを得ることができます。
+* [Marketo](~/en/datasources/supported-data-sources/marketo.html) データソース – Marketo マーケティング プラットフォームのアカウントに接続し、データを Reveal で使用します。
+* [サーバーでデータを処理する](~/en/datasources/process-data-server-side.html)機能 – MS SQL、MySQL、Postgres データソースからのデータをサーバー側で集計することが可能です。
 
 ### Reveal に追加予定
 

@@ -49,7 +49,7 @@
 
     ![A dialog to grant access to cloud file data sources](images/grant-access-share-dashboard-dialog.png)
 
-    *[アクセスを許可]*をクリック/タップして、[ダッシュボードを共有する](share-a-dashboards.md)ユーザーの選択に進みます。
+    *[アクセスを許可]*をクリック/タップして、[ダッシュボードを共有する](share-a-dashboards.html)ユーザーの選択に進みます。
 
 
 >[!NOTE] **アクセスは許可されていません。**
@@ -66,4 +66,4 @@
 
 ### 関連項目
 
-共有されているダッシュボードのコンテンツが表示されない場合は、[クラウド ファイルを使用した共有ダッシュボードへのアクセスのリクエスト](request-access-shared-dashboards-cloud-files.md)をお読みください。
+共有されているダッシュボードのコンテンツが表示されない場合は、[クラウド ファイルを使用した共有ダッシュボードへのアクセスのリクエスト](request-access-shared-dashboards-cloud-files.html)をお読みください。

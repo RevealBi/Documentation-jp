@@ -5,6 +5,6 @@
 
 ![Text View in the Visualization editor](images/text-view-visualization-editor.png)
 
-[このセクション](conditional-formatting.md)で説明されているように**テキスト ビューは条件付き書式をサポートします**。
+[このセクション](conditional-formatting.html)で説明されているように**テキスト ビューは条件付き書式をサポートします**。
 
 ![TextViewConditionalFormatting\_All](images/text-view-conditional-formatting.png)

@@ -14,9 +14,9 @@ Reveal で利用可能なデータソースの一部では、サーバー上で�
 
 サーバーでのデータ処理は、次のデータソースに対して**有効**にできるオプションです。 
 
-* [MS SQL Server](microsoft-sql-server.md)
-* [MySQL](mysql.md)
-* [PostgreSQL](postgresql.md)
+* [MS SQL Server](microsoft-sql-server.html)
+* [MySQL](mysql.html)
+* [PostgreSQL](postgresql.html)
 
 ### サーバー上でデータを処理を有効にする方法は?
 
@@ -35,8 +35,8 @@ _Process Data on Server_ 関数を有効にして、それをサポートする�
 
 *サーバー上でデータを処理*_が有効になっている場合、次の機能は表示形式エディターで**サポートされません**。
 
-* [データ ブレンディング](data-blending.md)
-* [Azure ML モデルの統合](ml-integration/azure-machine-learning-models.md)
+* [データ ブレンディング](data-blending.html)
+* [Azure ML モデルの統合](ml-integration/azure-machine-learning-models.html)
 
 表示形式エディターの[事前計算](~/jp/data-visualizations/fields/calculated-fields/overview.html#precalculated-fields)フィールド機能に制限が適用されます。使用できない関数は、*新しい計算フィールド* ダイアログでグレーアウトされます。
 このダイアログで、リンクをクリックして、*サーバー上でデータを処理*機能を無効にすることができます。

@@ -80,7 +80,7 @@ public class UpMediaFormattingService : RVBaseFormattingService
 
 ![Only percentage numeric data in the visualization displays five decimal digits](images/result-formatting-numeric-data-percentage.png)
 
-ダッシュボードのその他の可視化では、数値データの書式が変更されていないことがわかります。書式設定はチャートによって制御されるため、フィールドの書式設定を変更するには、フィールドの書式設定を変更する必要があります。 変更には、[ローカライゼーション サービス](localization-service.md)を使用してください。
+ダッシュボードのその他の可視化では、数値データの書式が変更されていないことがわかります。書式設定はチャートによって制御されるため、フィールドの書式設定を変更するには、フィールドの書式設定を変更する必要があります。 変更には、[ローカライゼーション サービス](localization-service.html)を使用してください。
 
 ![The Marketing sample dashboard after formatting
 changes](images/formatting-service-marketing-sample-result.png)

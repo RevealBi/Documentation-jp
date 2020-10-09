@@ -17,25 +17,25 @@
 <a name='sample-datasheet'>
 ### サンプル データシート
 
-[ここ](http://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)からサンプル データシートをダウンロードできます。その他すべてのダッシュボード [チュートリアル](dashboard-tutorials/overview.md)で同じサンプル スプレッドシートを使用します。
+[ここ](http://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)からサンプル データシートをダウンロードできます。その他すべてのダッシュボード [チュートリアル](dashboard-tutorials/overview.html)で同じサンプル スプレッドシートを使用します。
 
 >[!NOTE]
->このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、[サポートされているクラウド サービス](~/jp/datasources/data-sources.md)のいずれかにファイルをアップロードしてください。
+>このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、[サポートされているクラウド サービス](~/jp/datasources/data-sources.html)のいずれかにファイルをアップロードしてください。
 
 ### ステップの概要
 
-1.  [ダッシュボードを作成してデータ ソースを追加](creating-the-dashboard.md)
+1.  [ダッシュボードを作成してデータ ソースを追加](creating-the-dashboard.html)
 
-2.  [初めての表示形式を作成](selecting-data-visualization.md)
+2.  [初めての表示形式を作成](selecting-data-visualization.html)
 
-3.  [はじめての表示形式に書式を適用](applying-formatting-visualization.md)
+3.  [はじめての表示形式に書式を適用](applying-formatting-visualization.html)
 
-4.  [ダッシュボードにテーマを適用](applying-theme.md)
+4.  [ダッシュボードにテーマを適用](applying-theme.html)
 
-5.  [その他の表示形式の追加](adding-other-visualizations.md) ([Silver Security Stock Value 2018](adding-other-visualizations.md#sis-stock-value-2018)、[GLB Fiscal (Monthly) NYSE + BATS](adding-other-visualizations.md#glb-fiscal-monthly)、[Forecast (Chg, Bid & Offer) - 2018 to 2013](adding-other-visualizations.md#forecast-change-bid-offers)、[Stock Variations](adding-other-visualizations.md#stock-variations)、[Stock Volumes](adding-other-visualizations.md#stock-volumes))
+5.  [その他の表示形式の追加](adding-other-visualizations.html) ([Silver Security Stock Value 2018](adding-other-visualizations.md#sis-stock-value-2018)、[GLB Fiscal (Monthly) NYSE + BATS](adding-other-visualizations.md#glb-fiscal-monthly)、[Forecast (Chg, Bid & Offer) - 2018 to 2013](adding-other-visualizations.md#forecast-change-bid-offers)、[Stock Variations](adding-other-visualizations.md#stock-variations)、[Stock Volumes](adding-other-visualizations.md#stock-volumes))
 
-6.  [ダッシュボードの保存](saving-dashboard.md)
+6.  [ダッシュボードの保存](saving-dashboard.html)
 
 
 
-[作業の開始 »](creating-the-dashboard.md)
+[作業の開始 »](creating-the-dashboard.html)

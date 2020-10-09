@@ -92,4 +92,4 @@ Google アナリティクスで定義された*目標*を*表示形式エディ�
 
 ### データソースの制限
 
-現在、Google Analytics データで[ダッシュボード フィルター](~/jp/filters/dashboard-filters.md)を作成することはできません。
+現在、Google Analytics データで[ダッシュボード フィルター](~/jp/filters/dashboard-filters.html)を作成することはできません。

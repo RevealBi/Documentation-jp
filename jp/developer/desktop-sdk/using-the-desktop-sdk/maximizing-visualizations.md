@@ -20,7 +20,7 @@ Desktop SDK は、ダッシュボードをユーザーに表示する際に最�
 この属性に視覚化を設定しないと、ダッシュボード全体が表示されます。この属性に可視化を設定しないと、ダッシュボード全体が表示されます。
 
 
-[**RevealView オブジェクトの設定**](configuring-revealview.md)に示すように、ページに特定のダッシュボードを表示できます。 今回は、__MaximizedVisualization__ 属性を設定する必要があります。以下のコード スニペットに示すように、可視化 Sales を使用してください。
+[**RevealView オブジェクトの設定**](configuring-revealview.html)に示すように、ページに特定のダッシュボードを表示できます。 今回は、__MaximizedVisualization__ 属性を設定する必要があります。以下のコード スニペットに示すように、可視化 Sales を使用してください。
 
 ``` csharp
 var revealView = new RevealView();

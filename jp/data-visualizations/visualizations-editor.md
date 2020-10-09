@@ -28,12 +28,12 @@
 
 特に、次のことが可能になります。
 
-  - データの[**並べ替え**](~/jp/data-visualizations/fields/sort-by-field.md)と[**フィルター**](~/jp/filters/visualization-filters.md)。
+  - データの[**並べ替え**](~/jp/data-visualizations/fields/sort-by-field.html)と[**フィルター**](~/jp/filters/visualization-filters.html)。
 
   - **表示形式のデータをダッシュボード ページの選択へバインド**。
 
-  - データ エディターの[**集計データ**](~/jp/data-visualizations/fields/field-settings.md)。
+  - データ エディターの[**集計データ**](~/jp/data-visualizations/fields/field-settings.html)。
 
-  - データの **検索**、**表示形式**と[**書式設定**](~/jp/data-visualizations/fields/conditional-formatting.md)。
+  - データの **検索**、**表示形式**と[**書式設定**](~/jp/data-visualizations/fields/conditional-formatting.html)。
 
 表示形式の設定と適切な表示形式の選択後、*戻る矢印*を選択してダッシュボード エディターに戻ります。ダッシュボード エディターでは、表示形式をドラッグしてレイアウト、サイズ、配置を操作できます。

@@ -3,7 +3,7 @@
 ダッシュボードにあるその他すべての表示形式で同じ [サンプル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)を使用します。
 
 >[!NOTE]
->[データソースを変更する](changing-data-source-visualization.md)場合は、データ ソース名の横にあるオーバーフロー ボタンまたは[新しいデータ ソース](creating-new-datasource.md)を選択する必要があります。表示形式を[複製](../../general/overview.md#view-edit-mode)し、作成時間を短縮することもできます。
+>[データソースを変更する](changing-data-source-visualization.html)場合は、データ ソース名の横にあるオーバーフロー ボタンまたは[新しいデータ ソース](creating-new-datasource.html)を選択する必要があります。表示形式を[複製](../../general/overview.md#view-edit-mode)し、作成時間を短縮することもできます。
 
 このセクションは以下の表示形式について説明します。
 
@@ -80,7 +80,7 @@ SIS Stock Value 2018 表示形式は、2018 年の Soylent Corp 株の平均値�
 <a name=glb-fiscal-monthly></a>
 ### GLB Fiscal (Monthly) NYSE + BATS (Globex 月次会計; ニューヨーク証券取引所 + アドバンストオルタナティブトレーディングシステム)
 
-GLB Fiscal 表示形式は、ニューヨーク証券取引所 (New York Stock Exchange - NYSE) と アドバンストオルタナティブトレーディングシステム (Better Alternative Trading System - BATS) の両方を考慮して、2018 年の Globex 株の価格変動を[ローソク足チャート](~/jp/visualization-tutorials/candlestick-chart.md)で表示します。
+GLB Fiscal 表示形式は、ニューヨーク証券取引所 (New York Stock Exchange - NYSE) と アドバンストオルタナティブトレーディングシステム (Better Alternative Trading System - BATS) の両方を考慮して、2018 年の Globex 株の価格変動を[ローソク足チャート](~/jp/visualization-tutorials/candlestick-chart.html)で表示します。
 以下は作成方法です。
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Finance Dashboard** シートを選択します。次に、[データの選択] を選択します。
@@ -148,7 +148,7 @@ GLB Fiscal 表示形式は、ニューヨーク証券取引所 (New York Stock E
 <a name='forecast-change-bid-offers'></a>
 ### Forecast (Chg, Bid & Offers) - 2018 to 2023 (予測 (変動、買注文、売注文) - 2018 年 ～  2023 年
 
-Forecast 表示形式は、5 年間の株の変動、買注文、売注文を[折れ線チャート](~/jp/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
+Forecast 表示形式は、5 年間の株の変動、買注文、売注文を[折れ線チャート](~/jp/visualization-tutorials/simple-charts.html)で表示します。以下は作成方法です。
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Finance Dashboard** シートを選択します。次に、*[データの選択]* を選択します。
 
@@ -191,7 +191,7 @@ Forecast 表示形式は、5 年間の株の変動、買注文、売注文を[�
 <a name='stock-variations'></a>
 ### Stock Variations (株価の変動)
 
-Stock Variations 表示形式は、12 か月間の株価の変化を[スパークライン チャート](~/jp/visualization-tutorials/sparkline-charts.md)で表示します。以下は作成方法です。
+Stock Variations 表示形式は、12 か月間の株価の変化を[スパークライン チャート](~/jp/visualization-tutorials/sparkline-charts.html)で表示します。以下は作成方法です。
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Finance Dashboard** シートを選択します。次に、*[データの選択]* を選択します。
 

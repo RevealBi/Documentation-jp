@@ -10,11 +10,11 @@
 
   - **KPI 目標**: 自分またはアナリストがダッシュボードに何を示し、何を中心にサイクルを回す必要があるかを決定します。
 
-  - **ダッシュボードの計画**: 情報をグラフィカルにどのように表現しますか? [グリッド](../data-visualizations/visualization-types/grid-chart.md)、マップ [ゲージ](../data-visualizations/visualization-types/gauge-charts.md)、[カテゴリ チャート](../data-visualizations/visualization-types/category-charts.md)、または[ピラミッド チャート](https://www.infragistics.com/community/blogs/b/infragistics/posts/creating-a-population-pyramid-chart-using-stacked-bar-charts-with-Reveal)を使用しますか? [フィルター](../filters/overview.md)を使用しますか? Reveal の高度な機能を使用してデータの表示形式を向上する方法については、[このブログ (英語) をご覧ください](https://www.infragistics.com/community/blogs/b/infragistics/posts/8-ways-to-improve-your-data-visualizations)\!
+  - **ダッシュボードの計画**: 情報をグラフィカルにどのように表現しますか? [グリッド](../data-visualizations/visualization-types/grid-chart.html)、マップ [ゲージ](../data-visualizations/visualization-types/gauge-charts.html)、[カテゴリ チャート](../data-visualizations/visualization-types/category-charts.html)、または[ピラミッド チャート](https://www.infragistics.com/community/blogs/b/infragistics/posts/creating-a-population-pyramid-chart-using-stacked-bar-charts-with-Reveal)を使用しますか? [フィルター](../filters/overview.html)を使用しますか? Reveal の高度な機能を使用してデータの表示形式を向上する方法については、[このブログ (英語) をご覧ください](https://www.infragistics.com/community/blogs/b/infragistics/posts/8-ways-to-improve-your-data-visualizations)\!
 
-  - Reveal で使用する**データを準備します**。デスクトップと iOS の古いバージョンの場合、Reveal で[スプレッドシートを操作する方法](../datasources/working-files/working-with-spreadsheets.md) の概要を以下に示します。
+  - Reveal で使用する**データを準備します**。デスクトップと iOS の古いバージョンの場合、Reveal で[スプレッドシートを操作する方法](../datasources/working-files/working-with-spreadsheets.html) の概要を以下に示します。
 
-  - **ダッシュボードの作成**: 完全な手順については、[このトピック](creating-dashboards.md)をご覧ください。
+  - **ダッシュボードの作成**: 完全な手順については、[このトピック](creating-dashboards.html)をご覧ください。
 
   - **レビューと反復**: ダッシュボードの準備ができた後、ダッシュボードをレビューして、自分またはアナリストが必要と考える変更を加えることができます。
 
@@ -22,17 +22,17 @@
 
 Reveal を利用して実行できる機能:
 
-  - [ダッシュボードの作成](creating-dashboards.md)
+  - [ダッシュボードの作成](creating-dashboards.html)
 
-  - [ダッシュボードのスタイル](dashboard-styling.md)
+  - [ダッシュボードのスタイル](dashboard-styling.html)
 
-  - [ダッシュボードを他のダッシュボードまたは URL のリンク](dashboard-linking.md)
+  - [ダッシュボードを他のダッシュボードまたは URL のリンク](dashboard-linking.html)
 
-  - [ダッシュボードの共有](sharing-dashboards/share-a-dashboard.md)
+  - [ダッシュボードの共有](sharing-dashboards/share-a-dashboard.html)
 
-  - [現在のダッシュボードの管理](managing-dashboards.md)
+  - [現在のダッシュボードの管理](managing-dashboards.html)
 
-[ReportPlus の以前のバージョンで作成されたダッシュボード](Uploading-Dashboards.md)をインポートすることもできます。
+[ReportPlus の以前のバージョンで作成されたダッシュボード](Uploading-Dashboards.html)をインポートすることもできます。
 
 ### ダッシュボード チュートリアル
 

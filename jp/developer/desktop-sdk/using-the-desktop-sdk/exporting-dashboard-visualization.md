@@ -18,7 +18,7 @@
 
 ### 前提条件
 
-画像へのエクスポート機能を使用するには、[CefSharp.Wpf NuGet package (\>= 57.0.0)](../../general/setup-configuration-desktop.md) への参照をプロジェクトに追加する必要があります。
+画像へのエクスポート機能を使用するには、[CefSharp.Wpf NuGet package (\>= 57.0.0)](../../general/setup-configuration-desktop.html) への参照をプロジェクトに追加する必要があります。
 
 <a name='enable-export-revealview'></a>
 

@@ -3,7 +3,7 @@
 その他すべてのダッシュボードにある表示形式で同じ[サンプル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)を使用します。
 
 >[!NOTE]
->[データソースを変更する](changing-data-source-visualization.md)場合は、データ ソース名の横にあるオーバーフロー ボタン、または[新しいデータ ソースを作成する](creating-new-datasource)を選択する必要があります。表示形式を[複製して](overview.md#view-edit-mode)作成時間を短縮することもできます。
+>[データソースを変更する](changing-data-source-visualization.html)場合は、データ ソース名の横にあるオーバーフロー ボタン、または[新しいデータ ソースを作成する](creating-new-datasource)を選択する必要があります。表示形式を[複製して](overview.md#view-edit-mode)作成時間を短縮することもできます。
 
 このセクションは以下の表示形式について説明します。
 
@@ -57,7 +57,7 @@
 <a name='win-lost-by-month'></a>
 ### Win/Lost by Month
 
-Win/Lost by Month 表示形式は、6 ヶ月間の勝敗の回数を[棒チャート](~/jp/visualization-tutorials/simple-charts.md)で示します。以下は作成方法です。
+Win/Lost by Month 表示形式は、6 ヶ月間の勝敗の回数を[棒チャート](~/jp/visualization-tutorials/simple-charts.html)で示します。以下は作成方法です。
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
     
@@ -103,7 +103,7 @@ Win/Lost by Month 表示形式は、6 ヶ月間の勝敗の回数を[棒チャ�
 <a name='forecasted'></a>
 ### Forecasted
 
-Forecasted 表示形式は、6 ヶ月間の予測を[バー チャート](~/jp/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
+Forecasted 表示形式は、6 ヶ月間の予測を[バー チャート](~/jp/visualization-tutorials/simple-charts.html)で表示します。以下は作成方法です。
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、 **Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
     
@@ -227,7 +227,7 @@ Lost Opportunities 表示形式は、[テキスト ゲージ](~/jp/visualization
 <a name='pipeline-by-territory'></a>
 ### Pipeline by Territory
 
-Pipeline by Territory 表示形式は、[ファンネルチャート](~/jp/visualization-tutorials/simple-charts.md)平均的な販売見込みとそれらの位置を表示します。以下は作成方法です。
+Pipeline by Territory 表示形式は、[ファンネルチャート](~/jp/visualization-tutorials/simple-charts.html)平均的な販売見込みとそれらの位置を表示します。以下は作成方法です。
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。 **Sales Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
     
@@ -328,7 +328,7 @@ Total Opportunities 表示形式は、12 か月間の会社の機会が表すに
 <a name='revenue-by-territory'></a>
 ### Revenue by Territory
 
-Revenue by Territory 表示形式には、会社の各地域における収益を[円チャート](~/jp/visualization-tutorials/simple-charts.md)で表示されます。以下は作成方法です。
+Revenue by Territory 表示形式には、会社の各地域における収益を[円チャート](~/jp/visualization-tutorials/simple-charts.html)で表示されます。以下は作成方法です。
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
     
@@ -360,7 +360,7 @@ Revenue by Territory 表示形式には、会社の各地域における収益�
 <a name='pipeline-per-employee'></a>
 ### Pipeline per Employee
 
-Pipeline per Employee 表示形式は、従業員別の上位 10 位までの販売見込みを[柱状チャート](~/jp/visualization-tutorials/simple-charts.md)で示します。以下は作成方法です。
+Pipeline per Employee 表示形式は、従業員別の上位 10 位までの販売見込みを[柱状チャート](~/jp/visualization-tutorials/simple-charts.html)で示します。以下は作成方法です。
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
     
@@ -416,7 +416,7 @@ Pipeline per Employee 表示形式は、従業員別の上位 10 位までの販
 <a name='sales-by-product'></a>
 ### Sales by Product
 
-Sales by Product 表示形式は、さまざまな会社の製品とそれぞれの売上げの割合を[ドーナツ型チャート](~/jp/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
+Sales by Product 表示形式は、さまざまな会社の製品とそれぞれの売上げの割合を[ドーナツ型チャート](~/jp/visualization-tutorials/simple-charts.html)で表示します。以下は作成方法です。
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
     

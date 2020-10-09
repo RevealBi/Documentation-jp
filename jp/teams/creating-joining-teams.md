@@ -35,7 +35,7 @@ Reveal の*チーム*は、組織内外とのコラボレーションを容易�
             >後で変更することはできないため、慎重にチームの*組織*プロパティを選択してください。
       - チームの[*プライバシー*](overview.md#team-privacy-levels)を決定する - このオプションは、チームに_組織_を選択した場合は使用できません。 
   
-      - _ブランディング_ 設定 - チームのダッシュボードを [PDF 文書](~/jp/dashboards/exporting-dashboards/export-as-pdf-document.md)および [PPT プレゼンテーション](~/jp/dashboards/exporting-dashboards/export-as-powerpoint-presentation.md)としてエクスポートするときに使用するメイン色とロゴを選択します。 
+      - _ブランディング_ 設定 - チームのダッシュボードを [PDF 文書](~/jp/dashboards/exporting-dashboards/export-as-pdf-document.html)および [PPT プレゼンテーション](~/jp/dashboards/exporting-dashboards/export-as-powerpoint-presentation.html)としてエクスポートするときに使用するメイン色とロゴを選択します。 
        
         >[!NOTE] **ロゴ画像の要件**。ロゴとしてアップロードする画像は、**5 MB** 以下で、jpg、jpeg、png、gif のいずれかの形式である必要があります。
 

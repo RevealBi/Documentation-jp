@@ -16,24 +16,24 @@
 
 ### サンプル データシート
 
-[ここ](http://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)からサンプル データシートをダウンロードできます。その他すべてのダッシュボード [チュートリアル](dashboard-tutorials.md)で同じサンプル スプレッドシートを使用します。
+[ここ](http://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)からサンプル データシートをダウンロードできます。その他すべてのダッシュボード [チュートリアル](dashboard-tutorials.html)で同じサンプル スプレッドシートを使用します。
 
 >[!NOTE]
->このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、[サポートされているクラウド サービス](data-sources.md)のいずれかにファイルをアップロードしてください。
+>このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、[サポートされているクラウド サービス](data-sources.html)のいずれかにファイルをアップロードしてください。
 
 ### ステップの概要
 
-1.  [ダッシュボードを作成してデータ ソースを追加](creating-the-dashboard.md)
+1.  [ダッシュボードを作成してデータ ソースを追加](creating-the-dashboard.html)
 
-2.  [はじめての表示形式: フィールドの選択と表示形式](selecting-data-visualization.md)
+2.  [はじめての表示形式: フィールドの選択と表示形式](selecting-data-visualization.html)
 
-3.  [はじめての表示形式に書式を適用](applying-formatting-visualization.md)
+3.  [はじめての表示形式に書式を適用](applying-formatting-visualization.html)
 
-4.  [ダッシュボードにテーマを適用](applying-theme.md)
+4.  [ダッシュボードにテーマを適用](applying-theme.html)
 
-5.  [その他の表示形式の追加](adding-other-visualizations.md) ([Production](adding-other-visualizations.md#production)、[Shipping](adding-other-visualizations.md#shipping)、[Average Hours](adding-other-visualizations.md#average-hours)、 [Headcount](adding-other-visualizations.md#headcount)、[Labor Cost](adding-other-visualizations.md#labor-cost))
+5.  [その他の表示形式の追加](adding-other-visualizations.html) ([Production](adding-other-visualizations.md#production)、[Shipping](adding-other-visualizations.md#shipping)、[Average Hours](adding-other-visualizations.md#average-hours)、 [Headcount](adding-other-visualizations.md#headcount)、[Labor Cost](adding-other-visualizations.md#labor-cost))
 
-6.  [ダッシュボードの保存](saving-dashboard.md)
+6.  [ダッシュボードの保存](saving-dashboard.html)
 
 <style>
 .previous {

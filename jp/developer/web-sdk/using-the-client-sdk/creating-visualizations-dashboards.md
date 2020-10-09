@@ -2,7 +2,7 @@
 
 ### 概要
 
-[**ダッシュボードの編集と保存**](editing-saving-dashboards.md)で説明したように、ダッシュボードの変更を保存する方法を処理する方法は 2 つ (**クライアント サイドとサーバー サイド**) あります。これらのシナリオは、ユーザーが既存のダッシュボードに以下のような変更を加える際には正しく機能します。
+[**ダッシュボードの編集と保存**](editing-saving-dashboards.html)で説明したように、ダッシュボードの変更を保存する方法を処理する方法は 2 つ (**クライアント サイドとサーバー サイド**) あります。これらのシナリオは、ユーザーが既存のダッシュボードに以下のような変更を加える際には正しく機能します。
 
   - フィルターの追加/編集
   - 視覚化のタイプを変更する (チャート、ゲージ、グリッドなど)
@@ -39,7 +39,7 @@ window.revealView.onDataSourcesRequested = function (callback) {
 
 ![displayingDataSources\_web](images/displayingDataSources_web.png)
 
-RVInMemoryDataSourceItem コンストラクタに渡される employees パラメーターは、[**インメモリ データのサポート**](../../web-sdk/using-the-server-sdk/in-memory-data.md)で使用されているコンストラクタと同じデータセット ID で、サーバー側で返されるデータセットを識別します。
+RVInMemoryDataSourceItem コンストラクタに渡される employees パラメーターは、[**インメモリ データのサポート**](../../web-sdk/using-the-server-sdk/in-memory-data.html)で使用されているコンストラクタと同じデータセット ID で、サーバー側で返されるデータセットを識別します。
 
 ### 新しいダッシュボードの作成
 

@@ -60,7 +60,7 @@
 
 株式のリストが長かった場合、最高値を簡単に特定できなかったかもしれません。
 値を昇順/降順で並べ替え、より大きなテーブルで役立つようにすることができます。
-[マニュファクチャリン グダッシュボード チュートリアル](manufacturing-dashboard-tutorial.md)の[労働](~/jp/dashboard-tutorials/manufacturing-dashboard/manufacturing-adding-other-visualizations#labor-cost)の表示形式には、それを適用する方法の説明があります。
+[マニュファクチャリン グダッシュボード チュートリアル](manufacturing-dashboard-tutorial.html)の[労働](~/jp/dashboard-tutorials/manufacturing-dashboard/manufacturing-adding-other-visualizations#labor-cost)の表示形式には、それを適用する方法の説明があります。
 
 ### 条件付き書式設定を追加
 

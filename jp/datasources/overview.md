@@ -21,67 +21,67 @@
 
 データソース プロバイダーを選択すると、データソースを**設定**するように求められます。設定に関しては、選択したデータソースの設定に関する記事をご覧ください (以下のリストを参照)。
 
-   - [Amazon Redshift](~/jp/datasources/supported-data-sources/redshift.md)
+   - [Amazon Redshift](~/jp/datasources/supported-data-sources/redshift.html)
 
-   - [Box](~/jp/datasources/supported-data-sourcesbox.md)
+   - [Box](~/jp/datasources/supported-data-sourcesbox.html)
 
-   - [Dropbox](~/jp/datasources/supported-data-sources/dropbox.md)
+   - [Dropbox](~/jp/datasources/supported-data-sources/dropbox.html)
 
-   - [Google Analytics](~/jp/datasources/supported-data-sources/google-analytics.md)
+   - [Google Analytics](~/jp/datasources/supported-data-sources/google-analytics.html)
 
-   - [Google BigQuery](~/jp/datasources/supported-data-sources/google-bigquery.md)
+   - [Google BigQuery](~/jp/datasources/supported-data-sources/google-bigquery.html)
 
-   - [Google Drive](~/jp/datasources/supported-data-sources/google-drive.md)
+   - [Google Drive](~/jp/datasources/supported-data-sources/google-drive.html)
   
-   - [Hubspot](~/jp/datasources/supported-data-sources/hubspot.md)
+   - [Hubspot](~/jp/datasources/supported-data-sources/hubspot.html)
   
-   - [Marketo](~/jp/datasources/supported-data-sources/marketo.md)
+   - [Marketo](~/jp/datasources/supported-data-sources/marketo.html)
 
-   - [Microsoft Analysis Services](~/jp/datasources/supported-data-sources/microsoft-analysis-services/configuring-microsoft-analysis-services.md)*
+   - [Microsoft Analysis Services](~/jp/datasources/supported-data-sources/microsoft-analysis-services/configuring-microsoft-analysis-services.html)*
   
-   - [Microsoft Azure Analysis Services](~/jp/datasources/supported-data-sources/microsoft-azure-analysis-services.md)
+   - [Microsoft Azure Analysis Services](~/jp/datasources/supported-data-sources/microsoft-azure-analysis-services.html)
 
-   - [Microsoft Azure SQL Database](~/jp/datasources/supported-data-sources/azure-sql.md)*
+   - [Microsoft Azure SQL Database](~/jp/datasources/supported-data-sources/azure-sql.html)*
   
-   - [Microsoft Azure Synapse Analytics](~/jp/datasources/supported-data-sources/microsoft-azure-synapse-analytics.md)
+   - [Microsoft Azure Synapse Analytics](~/jp/datasources/supported-data-sources/microsoft-azure-synapse-analytics.html)
 
-   - [Microsoft Dynamics CRM](~/jp/datasources/supported-data-sources/microsoft-dynamics-crm.md)
+   - [Microsoft Dynamics CRM](~/jp/datasources/supported-data-sources/microsoft-dynamics-crm.html)
 
-   - [Microsoft Reporting Services (SSRS)](~/jp/datasources/supported-data-sources/microsoft-reporting-services.md)
+   - [Microsoft Reporting Services (SSRS)](~/jp/datasources/supported-data-sources/microsoft-reporting-services.html)
 
-   - [Microsoft SQL Server](~/jp/datasources/supported-data-sources/microsoft-sql-server.md)*
+   - [Microsoft SQL Server](~/jp/datasources/supported-data-sources/microsoft-sql-server.html)*
 
-   - [MySQL](~/jp/datasources/supported-data-sources/mysql.md)*
+   - [MySQL](~/jp/datasources/supported-data-sources/mysql.html)*
 
-   - [OData Feed](~/jp/datasources/supported-data-sources/odata-feed.md)
+   - [OData Feed](~/jp/datasources/supported-data-sources/odata-feed.html)
 
-   - [OneDrive](~/jp/datasources/supported-data-sources/onedrive.md)
+   - [OneDrive](~/jp/datasources/supported-data-sources/onedrive.html)
 
-   - [Oracle](~/jp/datasources/supported-data-sources/oracle.md)*
+   - [Oracle](~/jp/datasources/supported-data-sources/oracle.html)*
 
-   - [PostgreSQL](~/jp/datasources/supported-data-sources/postgresql.md)*
+   - [PostgreSQL](~/jp/datasources/supported-data-sources/postgresql.html)*
   
-   - [Quickbooks](~/jp/datasources/supported-data-sources/quickbooks.md) 
+   - [Quickbooks](~/jp/datasources/supported-data-sources/quickbooks.html) 
 
-   - [REST API](~/jp/datasources/supported-data-sources/rest-api.md)
+   - [REST API](~/jp/datasources/supported-data-sources/rest-api.html)
 
-   - [Salesforce](~/jp/datasources/supported-data-sources/salesforce.md)
+   - [Salesforce](~/jp/datasources/supported-data-sources/salesforce.html)
 
-   - [SharePoint](~/jp/datasources/supported-data-sources/sharepoint.md)
+   - [SharePoint](~/jp/datasources/supported-data-sources/sharepoint.html)
 
-   - [Sybase](~/jp/datasources/supported-data-sources/sybase.md)*
+   - [Sybase](~/jp/datasources/supported-data-sources/sybase.html)*
 
-   - [Web リソース](~/jp/datasources/supported-data-sources/web-resource.md)
+   - [Web リソース](~/jp/datasources/supported-data-sources/web-resource.html)
 
-   - [JSON ファイル](~/jp/datasources/working-files/working-with-json-files.md)
+   - [JSON ファイル](~/jp/datasources/working-files/working-with-json-files.html)
 
-   - [スプレッドシート]((~/jp/datasources/working-files/working-with-spreadsheets.md))
+   - [スプレッドシート]((~/jp/datasources/working-files/working-with-spreadsheets.html))
 
 >[NOTE]
 > **データベース**は Reveal の Web バージョンでサポートされていません。
 
 ### 関連トピック 
 
-- まだ接続していないデータソースからのデータを使用するダッシュボードを受け取りましたか? [ダッシュボードをデータソースに接続](connect-dashboard-to-data-source.md)トピックで開く方法を参照してください。 
-- 表示形式の作成途中でデータソースを変更することにしましたか? 表示形式エディターで別のデータソースに接続する方法については、[表示形式に使用するデータソースの変更](changing-data-source-visualization.md)を参照してください。
-- 複数のデータソースからのデータを表示形式に使用しますか? [データソースを 1 つの表示形式に統合](data-blending.md)を参照してください。
+- まだ接続していないデータソースからのデータを使用するダッシュボードを受け取りましたか? [ダッシュボードをデータソースに接続](connect-dashboard-to-data-source.html)トピックで開く方法を参照してください。 
+- 表示形式の作成途中でデータソースを変更することにしましたか? 表示形式エディターで別のデータソースに接続する方法については、[表示形式に使用するデータソースの変更](changing-data-source-visualization.html)を参照してください。
+- 複数のデータソースからのデータを表示形式に使用しますか? [データソースを 1 つの表示形式に統合](data-blending.html)を参照してください。

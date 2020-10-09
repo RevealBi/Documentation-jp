@@ -12,11 +12,11 @@
 ![creatingnewvisualization\_all](images/creating-new-visualization.png)
 
 >[NOTE]
->各プロバイダーにデータソースを追加する方法については、[このトピック](data-sources.md)を参照してください。**[表示形式データ]** ダイアログでファイルを選択するときは、必ずサンプル スプレッドシートの **[Finance Dashboard]** を選択してください。次に、*[データの選択]*を選択します。
+>各プロバイダーにデータソースを追加する方法については、[このトピック](data-sources.html)を参照してください。**[表示形式データ]** ダイアログでファイルを選択するときは、必ずサンプル スプレッドシートの **[Finance Dashboard]** を選択してください。次に、*[データの選択]*を選択します。
 
 ![Selecting Finance Sheet](images/Selecting-Finance-Sheet.png)
 
-データを読み込んだ後、[グリッド ビュー](grid-view.md)は[表示形式エディター](visualizations-editor.md)でデフォルトで選択されます。
+データを読み込んだ後、[グリッド ビュー](grid-view.html)は[表示形式エディター](visualizations-editor.html)でデフォルトで選択されます。
 
 ![FinanceFirstVisualizationGrid\_All](images/FinanceFirstVisualizationGrid_All.png)
 

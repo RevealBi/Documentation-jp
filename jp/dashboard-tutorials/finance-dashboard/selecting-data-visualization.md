@@ -1,6 +1,6 @@
 ## 初めての表示形式作成 
 
-チュートリアルのはじめの[サンプル ダッシュボード](finance-dashboard-tutorial.md)に Globex Stock Value 2018 表示形式を作成します。表示形式は[テキスト ゲージ](~/en/data-visualizations/gauge-views.md#text-gauge)を表示します。この表示形式は 2 つのフィールドを表示します:
+チュートリアルのはじめの[サンプル ダッシュボード](finance-dashboard-tutorial.html)に Globex Stock Value 2018 表示形式を作成します。表示形式は[テキスト ゲージ](~/en/data-visualizations/gauge-views.md#text-gauge)を表示します。この表示形式は 2 つのフィールドを表示します:
 
   - 株
 

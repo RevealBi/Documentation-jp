@@ -21,4 +21,4 @@
 
 ![Connecting to a dashboard filter in the visualization editor](images/connect-dashboard-filter-visualization-editor.png)
 
-バインド機能の詳細については、[ダッシュボード フィルターを表示形式に接続](connecting-dashboard-filters-visualization.md)トピックを参照してください。
+バインド機能の詳細については、[ダッシュボード フィルターを表示形式に接続](connecting-dashboard-filters-visualization.html)トピックを参照してください。

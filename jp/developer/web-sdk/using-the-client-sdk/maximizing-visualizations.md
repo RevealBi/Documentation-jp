@@ -20,7 +20,7 @@ Web Client SDK は、ダッシュボードをユーザーに表示する際に�
 最大化された表示形式でダッシュボードを開くには、__$.ig.RevealSettings__ の __MaximizedVisualization__ 属性を使用する必要があります。 
 この属性に視覚化を設定しない場合、ダッシュボード全体が表示されます。
 
-[**$.ig.RevealView オブジェクトの構成**](configuring-revealview.md)に示すように、ページに特定のダッシュボードを表示できます。今回は、__MaximizedVisualization__ 属性を設定する必要があります。以下のコードスニペットに示すように、ID が AllDivisions のダッシュボードから可視化した Sales が表示されています。
+[**$.ig.RevealView オブジェクトの構成**](configuring-revealview.html)に示すように、ページに特定のダッシュボードを表示できます。今回は、__MaximizedVisualization__ 属性を設定する必要があります。以下のコードスニペットに示すように、ID が AllDivisions のダッシュボードから可視化した Sales が表示されています。
 
 ``` html
 <script type="text/javascript">

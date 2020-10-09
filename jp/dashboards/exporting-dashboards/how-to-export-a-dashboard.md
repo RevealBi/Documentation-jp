@@ -12,13 +12,13 @@
 
 ![Export formats available](images/export-formats.png)
 
-  - [**画像のエクスポート**](export-as-images.md) - ダッシュボード全体または個別の表示形式のスクリーン キャプチャをエクスポートします。
+  - [**画像のエクスポート**](export-as-images.html) - ダッシュボード全体または個別の表示形式のスクリーン キャプチャをエクスポートします。
 
-  - [**PowerPoint のエクスポート**](export-as-powerpoint-presentation.md) - ダッシュボードを PowerPoint プレゼンテーションとしてエクスポートします。
+  - [**PowerPoint のエクスポート**](export-as-powerpoint-presentation.html) - ダッシュボードを PowerPoint プレゼンテーションとしてエクスポートします。
 
-  - [**PDF のエクスポート**](export-as-pdf-document.md) - ダッシュボードを PDF ドキュメントとしてエクスポートします。
+  - [**PDF のエクスポート**](export-as-pdf-document.html) - ダッシュボードを PDF ドキュメントとしてエクスポートします。
 
-  - [**データのエクスポート**](export-as-excel-data-format.md) - ダッシュボードに使用されるデータを **Excel 形式**にエクスポートできます。
+  - [**データのエクスポート**](export-as-excel-data-format.html) - ダッシュボードに使用されるデータを **Excel 形式**にエクスポートできます。
 
   - **ダッシュボードのエクスポート** - Android と iOS のダッシュボードをメール経由でエクスポートするか、もしくはデスクトップと Web ではコンピューター上のファイル (.rdash) としてエクスポートします。
 
