@@ -31,7 +31,7 @@
 
 4.  [ダッシュボードにテーマを適用](applying-theme.html)
 
-5.  [その他の表示形式の追加](adding-other-visualizations.html) ([Production](adding-other-visualizations.md#production)、[Shipping](adding-other-visualizations.md#shipping)、[Average Hours](adding-other-visualizations.md#average-hours)、 [Headcount](adding-other-visualizations.md#headcount)、[Labor Cost](adding-other-visualizations.md#labor-cost))
+5.  [その他の表示形式の追加](adding-other-visualizations.html) ([Production](adding-other-visualizations.html#production)、[Shipping](adding-other-visualizations.html#shipping)、[Average Hours](adding-other-visualizations.html#average-hours)、 [Headcount](adding-other-visualizations.html#headcount)、[Labor Cost](adding-other-visualizations.html#labor-cost))
 
 6.  [ダッシュボードの保存](saving-dashboard.html)
 

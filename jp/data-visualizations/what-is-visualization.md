@@ -12,9 +12,9 @@
 
 上記のダッシュボードでは、以下の表示形式タイプが表示されます。
 
-  - **Productivity**: [テキスト ゲージ](Gauge-Views.md#text-gauge)
+  - **Productivity**: [テキスト ゲージ](Gauge-Views.html#text-gauge)
 
-  - **Units Lost**: [テキスト ゲージ](Gauge-Views.md#text-gauge)
+  - **Units Lost**: [テキスト ゲージ](Gauge-Views.html#text-gauge)
 
   - **Cost of Labor vs Revenue**: [折れ線チャート](category-charts.html)
 

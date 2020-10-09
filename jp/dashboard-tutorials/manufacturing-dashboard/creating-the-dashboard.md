@@ -7,7 +7,7 @@
 ### データ ソースを追加する
 
 **[ダッシュボード]** を選択すると、**[新しい表示形式]** 画面が表示されます。
-右上隅の [+] 記号を選択してから、[このセクション](~/jp/dashboard-tutorials/finance-dashboard/index.md#sample-datasheet)で言及されたサンプルデータシートを保存したデータソースを選択します。
+右上隅の [+] 記号を選択してから、[このセクション](~/jp/dashboard-tutorials/finance-dashboard/index.html#sample-datasheet)で言及されたサンプルデータシートを保存したデータソースを選択します。
 
 ![creatingnewvisualization\_all](images/creating-new-visualization.png)
 

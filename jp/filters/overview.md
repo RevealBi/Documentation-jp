@@ -14,13 +14,13 @@ Reveal は、日付範囲をダッシュボード フィルターとして有効
 
   - [ダッシュボード フィルターの構成可能なプロパティ](dashboard-filters-properties.html):
 
-      - [表示フィールド](dashboard-filters-properties.md#displayed-field)
+      - [表示フィールド](dashboard-filters-properties.html#displayed-field)
 
-      - [複数選択](dashboard-filters-properties.md#multiple-selection)
+      - [複数選択](dashboard-filters-properties.html#multiple-selection)
 
-      - [必須選択](dashboard-filters-properties.md#required-selection)
+      - [必須選択](dashboard-filters-properties.html#required-selection)
 
-      - [データ フィルター](dashboard-filters-properties.md#data-filters)
+      - [データ フィルター](dashboard-filters-properties.html#data-filters)
 
   - [ダッシュボード フィルターと表示形式への接続](connecting-dashboard-filters-visualization.html) (表示形式バインディングとも呼ばれます)
 

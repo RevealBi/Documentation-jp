@@ -22,7 +22,7 @@ Add description here.
 
   - [画像ビューアー](visualization-types/image-chart.html)
 
-  - [ブレット グラフ](visualization-types/gauge-charts.md#bullet-graph)、[円形](visualization-types/gauge-charts.md#circular-gauge)、[KPI](visualization-types/kpi-gauge.html)、[リニア](visualization-types/gauge-charts.md#linear-gauge)、および [テキスト](visualization-types/gauge-charts.md#text-gauge) ゲージを含むゲージ ビュー。
+  - [ブレット グラフ](visualization-types/gauge-charts.html#bullet-graph)、[円形](visualization-types/gauge-charts.html#circular-gauge)、[KPI](visualization-types/kpi-gauge.html)、[リニア](visualization-types/gauge-charts.html#linear-gauge)、および [テキスト](visualization-types/gauge-charts.html#text-gauge) ゲージを含むゲージ ビュー。
 
   - [カテゴリ](visualization-types/category-charts.html)、[コンボ](visualization-types/combo-charts.html)、[ファイナンシャル](visualization-types/financial-charts.html)、[ラジアル](visualization-types/radial-charts.html)、[散布とバブル](visualization-types/scatter-bubble-charts.html)、[スパークライン](visualization-types/sparkline-charts.html)など、いくつかの種類のチャート。
 
