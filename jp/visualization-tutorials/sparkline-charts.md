@@ -89,7 +89,7 @@
 |                                  |                                                                                        |                                                                     |
 | -------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | 1\. **設定メニューへアクセス** | ![Tutorials-Navigate-Settings](images/Tutorials-Navigate-Settings.png)                 | 表示形式エディターの **[設定]** セクションへ移動します。         |
-| 2\. **チャート タイプの変更**    | ![Tutorial-Change-Chart-Configuration](images/Change-Chart-Configuration.png) | デフォルトで、チャート タイプは折れ線に設定されています。エリアに設定します。 |
+| 2\. **チャート タイプの変更**    | ![Tutorial-Change-Chart-Configuration](images/Tutorial-Change-Chart-Configuration.png) | デフォルトで、チャート タイプは折れ線に設定されています。エリアに設定します。 |
 
 <a name='change-date-aggregation'></a>
 ### 日付集計の変更
