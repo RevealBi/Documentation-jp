@@ -98,7 +98,7 @@ dialog](images/adding-new-package-source.png)
 
 手順 3 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/44340ad7154f7101f80fce4aea50153ccbd902d7)**.
 
-問題が発生した場合は、サーバー SDK - [**セットアップと構成**](../../general/setup-configuration/setup-configuration-web.html) トピックを参照してください。
+問題が発生した場合は、サーバー SDK - [**セットアップと構成**](~/jp/developer/setup-configuration/setup-configuration-web.html) トピックを参照してください。
 
 ### 手順 4 - クライアント アプリケーションに Reveal を埋め込む
 
@@ -206,7 +206,7 @@ Reveal が使用するサードパーティの参照の 1 つに **Day.js** が�
 
 手順 4 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/380d369b46437c3913ed3c61de32a7f607b96b47)**.
 
-問題が発生した場合は、クライアント SDK [**セットアップと構成**](../../general/setup-configuration/setup-configuration-web.html)トピックを参照してください。
+問題が発生した場合は、クライアント SDK [**セットアップと構成**](../../setup-configuration/setup-configuration-web.html)トピックを参照してください。
 
 ### 手順 5 - Reveal フォントの使用
 
