@@ -1,6 +1,6 @@
 ## 階級区分図設定の操作
 
-<img src="images/visualization-settings-choropleth-map.png" alt="Settings in the Visualization editor of the choropleth map" width="80%"/>
+<img src="images/visualization-settings-choropleth-map.png" alt="Settings in the Visualization editor of the choropleth map" width="50%"/>
 
 階級区分図表示形式の [設定] セクションでは、以下を設定できます:
 

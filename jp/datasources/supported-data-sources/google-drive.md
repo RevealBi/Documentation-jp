@@ -8,13 +8,13 @@ Google ドライブのデータを使用するには、以下の手順に従っ�
 
 1.  Google Drive (またはその中のフォルダー) を選択すると、以下のログイン プロンプトが表示されます。
 
-    <img src="images/google-drive-login.png" alt="Google Drive Login" width="80%"/>
+    <img src="images/google-drive-login.png" alt="Google Drive Login" width="60%"/>
 
     **ログイン情報**を入力し *[次]* を選択します。
 
 2.  **初めてのユーザーのみ**には、以下のダイアログが表示され、Google ドライブのデータを使用できるように、**適切な権限**を開示するように求められます。
 
-    <img src="images/limited-permissions-google-drive.png" alt="Limited permissions request google dialog" width="80%"/>
+    <img src="images/limited-permissions-google-drive.png" alt="Limited permissions request google dialog" width="60%"/>
 
 *[許可]* を選択して、Reveal が Google ドライブ ファイルを使用 (表示およびダウンロード) することを承認します。
 

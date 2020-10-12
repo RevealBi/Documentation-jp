@@ -20,4 +20,4 @@
 
 </style>
 
-<a href="finance-adding-other-visualizations.md" class="previous">&laquo; 前へ</a>
+<a href="adding-other-visualizations.md" class="previous">&laquo; 前へ</a>

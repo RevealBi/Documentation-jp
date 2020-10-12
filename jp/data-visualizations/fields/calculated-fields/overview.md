@@ -77,7 +77,7 @@ Reveal では、計算フィールドというフィールドをデータセッ�
     [MAX](aggregation.html#max)、
     [MAXIF](aggregation.html#maxif)、
     [MIN](aggregation.html#min)、
-    [MINIF](aggregation.html#minif)。
+    [MINIF](aggregation.html#minif)
 
   - [**日付**](date.html):
     [DATE](date.html#date-date)、
@@ -99,11 +99,11 @@ Reveal では、計算フィールドというフィールドをデータセッ�
     [TODAY](date.html#today)、
     [WEEKDAY](date.html#weekday)、
     [WEEKNUM](date.html#weeknum)、
-    [YEAR](date.html#year)。
+    [YEAR](date.html#year)
 
   - [**情報**](information.html):
     [EMPTY](information.html#empty)、
-    [ISEMPTY](information.html#isempty)。
+    [ISEMPTY](information.html#isempty)
 
   - [**ロジック**](logic.html):
     [AND](logic.html#and)、
@@ -111,11 +111,11 @@ Reveal では、計算フィールドというフィールドをデータセッ�
     [IF](logic.html#if)、
     [NOT](logic.html#not)、
     [OR](logic.html#or)、
-    [TRUE](logic.html#true)。
+    [TRUE](logic.html#true)
 
   - [**検索/行列**](lookup-reference.html):
     [PREVIOUS](lookup-reference.html#previous)、
-    [ROW](lookup-reference.html#row)。
+    [ROW](lookup-reference.html#row)
 
   - [**数学**](math.html):
     [ABS](math.html#abs)、
@@ -127,7 +127,7 @@ Reveal では、計算フィールドというフィールドをデータセッ�
     [RANDBETWEEN](math.html#randbetween)、
     [SIGN](math.html#sign)、
     [SQRT](math.html#sqrt)、
-    [TRUNC](math.html#trunc)。
+    [TRUNC](math.html#trunc)
 
   - [**文字列**](string.html):
     [CONCATENATE](string.html#concatenate)、
@@ -138,7 +138,7 @@ Reveal では、計算フィールドというフィールドをデータセッ�
     [REPLACE](string.html#replace)、
     [SORTINTERVAL](string.html#sortinterval)、
     [TRIM](string.html#trim)、
-    [UPPER](string.html#upper)。
+    [UPPER](string.html#upper)
 
 >[!NOTE] **IF 条件の制限**.
 >事前計算のフィールドの集計関数に含まれる場合、IF 条件には既知の制限があります。計算式内の IF 条件を確認するためにすべてのレコードを複数回調べる必要があり、パフォーマンスが低下する問題が発生するため、サポートされていません。

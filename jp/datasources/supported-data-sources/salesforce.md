@@ -2,7 +2,7 @@
 
 Salesforce データ ソースを選択すると、以下のログイン プロンプトが表示されます。
 
-<img src="images/salesforce-login-prompt.png" alt="Salesforce login prompt" width="80%"/>
+<img src="images/salesforce-login-prompt.png" alt="Salesforce login prompt" width="60%"/>
 
 ログイン情報を*入力*してサインインをクリックします。
 

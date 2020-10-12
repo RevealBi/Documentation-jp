@@ -78,7 +78,7 @@ OAuth 2 / OIDC アカウントでデータソースを使用するには、以�
 OAuth 2 / OIDC アカウントを構成した後、サインイン画面にリダイレクトされます。
 サインイン後、Reveal にデータの使用を許可するよう求められます。
 
-<img src="images/permissions-request.png" alt="Permissions Request dialog" width="80%"/>
+<img src="images/permissions-request.png" alt="Permissions Request dialog" width="60%"/>
 
 必要なアクセス許可を与えた後、保護されたデータソースのデータを使用して、Reveal で表示形式とダッシュボードを構築できます。
 

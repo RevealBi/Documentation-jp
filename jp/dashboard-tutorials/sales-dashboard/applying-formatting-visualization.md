@@ -29,25 +29,25 @@
 
 1.  表示形式エディターの **[設定]** タブへ移動します。
     
-    <img src="images/TutorialsSettingsMenu_All.png" alt="TutorialsSettingsMenu\_All" width="80%"/>
+    <img src="images/TutorialsSettingsMenu_All.png" alt="TutorialsSettingsMenu\_All" width="50%"/>
 
 
 
 2.  [セールス ダッシュボード] のスプレッド シートでは、表示形式がパーセンテージで表されている場合でも、「受注済商談」 は値として 0.35 に相当します。したがって、**値比較タイプ**へスクロールし、[数]に設定します。
     
-    <img src="images/TutorialsValueComparisonTypeNumber_All.png" alt="TutorialsValueComparisonTypeNumber\_All" width="80%"/>
+    <img src="images/TutorialsValueComparisonTypeNumber_All.png" alt="TutorialsValueComparisonTypeNumber\_All" width="50%"/>
 
 
 
 3.  **範囲を設定する**。この場合、範囲は 0.7～0.5 です。
     
-    <img src="images/SalesChangingBands_All.png" alt="SalesChangingBands\_All" width="80%"/>
+    <img src="images/SalesChangingBands_All.png" alt="SalesChangingBands\_All" width="50%"/>
 
 
 
 4.  各バンドを選択し、**色とインジケーターの両方を選択します**。デフォルトで、最高値は緑に、最低値は赤に設定されます。
     
-    <img src="images/SalesChangingBandColorIndicator_All.png" alt="SalesChangingBandColorIndicator\_All" width="80%"/>
+    <img src="images/SalesChangingBandColorIndicator_All.png" alt="SalesChangingBandColorIndicator\_All" width="50%"/>
 
 表示形式編集の完了後、右上隅の**ティック ボタン**を選択し、ダッシュボード エディターに戻ります。
 

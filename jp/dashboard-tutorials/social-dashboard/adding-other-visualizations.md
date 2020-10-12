@@ -72,7 +72,7 @@ Followers 表示形式はソーシャル メディア チャネルごとに分�
 
 3.  データ エディターで、**Date** フィールドをラベルに、**Facebook Followers** と **Twitter Followers** フィールドを値にドラッグアンドドロップしします。
     
-    <img src="images/DragDropSocialFollowers_All.png" alt="DragDropSocialFollowers\_All" width="80%"/>
+    <img src="images/DragDropSocialFollowers_All.png" alt="DragDropSocialFollowers\_All" width="50%"/>
 
 
 
@@ -115,7 +115,7 @@ YTD Facebook Followers 表示形式は、[テキスト ゲージ](~/jp/visualiza
 
 3.  データエディターで、**Facebook Followers** フィールドを値プレースホルダにドラッグアンドドロップします。
     
-    <img src="images/DragDropSocialFacebookFollowers_All.png" alt="DragDropSocialFacebookFollowers\_All" width="80%"/>
+    <img src="images/DragDropSocialFacebookFollowers_All.png" alt="DragDropSocialFacebookFollowers\_All" width="50%"/>
 
 
 
@@ -145,7 +145,7 @@ Monthly Facebook Likes 表示形式は、[折れ線チャート](~/jp/visualizat
 
 3.  データ エディターで、**Date** フィールドを [ラベル] にドラッグアンドドロップし、**Likes** をデータ エディターの [値] プレースホルダーにドラッグアンドドロップします。
     
-    <img src="images/DragDropSocialMonthlyLikes_All.png" alt="DragDropSocialMonthlyLikes\_All" width="80%"/>
+    <img src="images/DragDropSocialMonthlyLikes_All.png" alt="DragDropSocialMonthlyLikes\_All" width="50%"/>
 
 
 
@@ -189,7 +189,7 @@ Retweets &amp; Favorites の表示形式は[柱状チャート](~/jp/visualizati
 
 3.  データ エディターで、**Date** フィールドを [ラベル] に、**Retweets** と **Favorites** フィールドを [値] にドラッグアンドドロップします。
     
-    <img src="images/DragDropRetweetsFavorites_All.png" alt="DragDropRetweetsFavorites\_All" width="80%"/>
+    <img src="images/DragDropRetweetsFavorites_All.png" alt="DragDropRetweetsFavorites\_All" width="50%"/>
 
 
 4.  リツイート＆お気に入りのサンプル表示形式では、日付は月として表示されます。ラベルの **[日付]** フィールドを選択し、**[日付の集計]** を **[月]** に設定します。次に, **[フィールドの更新]** を選択します。
@@ -230,7 +230,7 @@ Facebook Reach vs. Impressions の数表示形式は[エリア チャート](~/j
 
 3.  [データ エディター] で、**Date** フィールドを [ラベル] に、**Post Reach** と **Impressions** をデータ エディターの [値] プレースホルダーにドラッグアンドドロップします。
     
-    <img src="images/DragDropReachImpressions_All.png" alt="DragDropReachImpressions\_All" width="80%"/>
+    <img src="images/DragDropReachImpressions_All.png" alt="DragDropReachImpressions\_All" width="50%"/>
 
 
 4.  Facebook リーチ vs. インプレションのサンプル表示形式では、日付は月として表示されます。ラベルの **[日付]** フィールドを選択し、**[日付の集計]** を **[月]** に設定します。次に, **[フィールドの更新]** を選択します。
@@ -268,7 +268,7 @@ Monthly Twitter Mentions の表示形式は、[折れ線チャート](~/jp/visua
 
 3.  データ エディターで、**Date** フィールドを [ラベル] に、**Mentions** をデータ エディターの [値] プレースホルダーにドラッグアンドドロップします。月ごと Twitter メンションのサンプル表示形式では、日付は月として表示されます。
     
-    <img src="images/DragDropMonthlyTwitterMentions_All.png" alt="DragDropMonthlyTwitterMentions\_All" width="80%"/>
+    <img src="images/DragDropMonthlyTwitterMentions_All.png" alt="DragDropMonthlyTwitterMentions\_All" width="50%"/>
 
 
 4.  ラベルの **[日付]** フィールドを選択し、**[日付の集計]** を **[月]** に設定します。次に、**[フィールドの更新]** を選択します。

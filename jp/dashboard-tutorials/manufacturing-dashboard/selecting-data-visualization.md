@@ -14,7 +14,7 @@
 
   - *Orders* を [値] のプレースホルダーにドラッグアンドドロップ。
 
-<img src="images/ManufacturingFirstDragDrop_All.png" alt="ManufacturingFirstDragDrop\_All" width="80%"/>
+<img src="images/ManufacturingFirstDragDrop_All.png" alt="ManufacturingFirstDragDrop\_All" width="50%"/>
 
 最後に、Manufacturing Dashboard タイトルの横にある鉛筆を選択して、**表示形式のタイトルを Incoming Daily Orders MTD に変更します**。
 

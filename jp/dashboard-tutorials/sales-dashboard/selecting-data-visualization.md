@@ -13,7 +13,7 @@
 
 次に、データ エディターの [値] プレースホルダーへ **Won Opportunities** フィールドを**ドラッグアンドドロップします**。
 
-<img src="images/SalesFirstDragDrop_All.png" alt="SalesFirstDragDrop\_All" width="80%"/>
+<img src="images/SalesFirstDragDrop_All.png" alt="SalesFirstDragDrop\_All" width="50%"/>
 
 最後に、Sales Dashboard タイトルの横にある鉛筆アイコンを選択して、**表示形式のタイトルを Won Opportunities に変更します**。
 

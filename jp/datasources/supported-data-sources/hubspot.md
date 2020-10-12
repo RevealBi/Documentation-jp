@@ -2,7 +2,7 @@
 
 Hubspot に接続すると、以下のログイン プロンプトが表示されます。
 
-<img src="images/hubspot-login.png" alt="Hubspot login prompt" width="80%"/>
+<img src="images/hubspot-login.png" alt="Hubspot login prompt" width="60%"/>
 
 ログイン情報を入力して [ログイン] をクリックします。
 

@@ -31,7 +31,7 @@
 | 3\. **チュートリアル スプレッドシートの選択** | <img src="images/Tutorials-Select-Simple-Series-Charts-Spreadsheet.png" alt="Tutorials-Select-Simple-Series-Charts-Spreadshee" width="80%"/> | データソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。 次に、「Simple Series Charts」シートを選択します。                                                                                        |
 | 4\. **表示形式メニューを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" width="80%"/>                        | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                                                                                   |
 | 5\. **表示形式の選択**        | <img src="images/Tutorials-Charts-Select-Text-View.png" alt="Tutorials-Charts-Select-Text-View" width="80%"/>                                | デフォルトで、表示形式のタイプは*グリッド*に設定されています。 Select the **Text View**.                                                                                                                                     |
-| 6\. **データの構成**               | <img src="images/Tutorials-TextView-Organizing-Data.png" alt="Tutorials-TextView-Organizing-Data" width="80%"/>                              | たとえば、上記のテキスト ビューには、特定の国の人口、平均余命、および出生率が表示されます。[国名]、[人口]、[平均余命]、[出生率] を列にドラッグアンドドロップします。 |
+| 6\. **データの構成**               | <img src="images/Tutorials-TextView-Organizing-Data.png" alt="Tutorials-TextView-Organizing-Data" width="50%"/>                              | たとえば、上記のテキスト ビューには、特定の国の人口、平均余命、および出生率が表示されます。[国名]、[人口]、[平均余命]、[出生率] を列にドラッグアンドドロップします。 |
 
 <a name='changing-selected-row'></a>
 ### 選択された行を変更する方法

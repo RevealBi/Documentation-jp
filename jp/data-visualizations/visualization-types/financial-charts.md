@@ -2,7 +2,7 @@
 
 ファイナンシャル チャートは、終日の株価の動き (始値と終値、最高値と最低値) を表すために使用されます。
 
-<img src="images/financial-charts.png" alt="Financial Charts types" width="80%"/>
+<img src="images/financial-charts.png" alt="Financial Charts types" width="30%"/>
 
 各キャンドルまたは OHLC セクションの色は、終値が開始値を下回っているか上回っているかを表すためのものです。
 
