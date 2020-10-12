@@ -47,7 +47,7 @@
 
 Production 表示形式は、12 か 月間の製造量を作業者タイプ別に [折れ線チャート](tutorial-simple-charts.html)で表示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Manufacturing Dashboard** シートを選択します。次に、[データを選択] を選択します。
+1.  ダッシュボードの右隅にある [+ 追加] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Manufacturing Dashboard** シートを選択します。次に、[データを選択] を選択します。
     
     <img src="images/SelectingManufacturingSheet_All.png" alt="SelectingManufacturingSheet\_All.png" width="80%"/>
 
