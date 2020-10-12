@@ -7,7 +7,7 @@ Web Client SDK は、ダッシュボードをユーザーに表示する際に�
 
 <img src="images/three_divisions_dashboard_maximized.png" alt="Displaying a dashboard with a maximized visualization" width="80%"/>
 
-#### Example Details
+#### 例の詳細
 
 可視化した 3 つのダッシュボードがあり、それぞれの可視化に会社の異なる部門のデータが表示されているとします。
 

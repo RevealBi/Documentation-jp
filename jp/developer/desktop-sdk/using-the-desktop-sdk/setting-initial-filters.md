@@ -11,7 +11,7 @@
   - 定期間 (過去 365 日、年累計など)。
   - 地域 (南北アメリカ、ヨーロッパ、アジアなど)
 
-<img src="images/sales-data_example.png" alt="sales-data\_example" width="80%"/>
+<img src="images/sales-data_example.png" alt="sales-data\_example" width="70%"/>
 
 ### コード例
 

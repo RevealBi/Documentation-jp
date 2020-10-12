@@ -36,7 +36,7 @@ dialog](images/adding-new-package-source.png)
 
 <img src="images/install-nuget.png" alt="installing the Nuget dialog" width="80%"/>
 
-<img src="images/preview-changes-dialog.png" alt="preview changes dialog" width="80%"/>
+<img src="images/preview-changes-dialog.png" alt="preview changes dialog" width="50%"/>
 
 手順 2 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/3308bd229c1b50efd12e553e1e54d5ac4d36b6e3)**.
 
@@ -98,7 +98,7 @@ dialog](images/adding-new-package-source.png)
 
 手順 3 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/44340ad7154f7101f80fce4aea50153ccbd902d7)**.
 
-問題が発生した場合は、サーバー SDK - [**セットアップと構成**](../../general/setup-configuration-web.html) トピックを参照してください。
+問題が発生した場合は、サーバー SDK - [**セットアップと構成**](../../general/setup-configuration/setup-configuration-web.html) トピックを参照してください。
 
 ### 手順 4 - クライアント アプリケーションに Reveal を埋め込む
 
@@ -132,7 +132,7 @@ Marketing ダッシュボードを選択し、**編集モード**に入ります
 
 **Marketing.rdash** ダッシュボード ファイルを手順 3 で作成したダッシュボード フォルダーへ移動し、Visual Studio でこのアイテムのビルド アクションを**埋め込みリソース**に設定します。
 
-<img src="images/build-action-set.png" alt="setting build action in marketing.rdash file properties" width="80%"/>
+<img src="images/build-action-set.png" alt="setting build action in marketing.rdash file properties" width="40%"/>
 
 次に、新しいページ *Marketing.cshtml* を追加して、ダウンロードしたダッシュボードを可視化します。
 
@@ -170,7 +170,7 @@ Reveal が使用するサードパーティの参照の 1 つに **Day.js** が�
 
 続行するには、プロジェクトの wwwroot フォルダーに新しい Reveal フォルダーを作成します。**infragistics.reveal.js** をコピーします。このファイルは、Reveal SDK のインストール フォルダーにあります。
 
-<img src="images/wwwroot-folder.png" alt="wwwroot folder hierarchy" width="80%"/>
+<img src="images/wwwroot-folder.png" alt="wwwroot folder hierarchy" width="40%"/>
 
 そして、Day.js のスクリプトの後に **\_Layout.cshtml** でこのライブラリを参照します。
 
@@ -206,7 +206,7 @@ Reveal が使用するサードパーティの参照の 1 つに **Day.js** が�
 
 手順 4 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/380d369b46437c3913ed3c61de32a7f607b96b47)**.
 
-問題が発生した場合は、クライアント SDK [**セットアップと構成**](../../general/setup-configuration-web.html)トピックを参照してください。
+問題が発生した場合は、クライアント SDK [**セットアップと構成**](../../general/setup-configuration/setup-configuration-web.html)トピックを参照してください。
 
 ### 手順 5 - Reveal フォントの使用
 

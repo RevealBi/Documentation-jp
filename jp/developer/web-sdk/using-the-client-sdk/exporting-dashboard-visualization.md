@@ -17,7 +17,7 @@
 
 ### 前提条件
 
-サーバー側で**画像エクスポート**機能を有効にする必要があります。これを行うには、[サーバー側のスクリーンショット生成を有効にする](../../general/setup-configuration-web.html#server-side-image-export) を参照してください。
+サーバー側で**画像エクスポート**機能を有効にする必要があります。これを行うには、[サーバー側のスクリーンショット生成を有効にする](../../general/setup-configuration/setup-configuration-web.html#server-side-image-export) を参照してください。
 
 <a name='enable-export-revealview'></a>
 ### エクスポートの設定の使用
