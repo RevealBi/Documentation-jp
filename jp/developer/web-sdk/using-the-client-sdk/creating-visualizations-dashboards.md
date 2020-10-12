@@ -39,7 +39,7 @@ window.revealView.onDataSourcesRequested = function (callback) {
 
 <img src="images/displayingDataSources_web.png" alt="displayingDataSources\_web" width="60%"/>
 
-RVInMemoryDataSourceItem コンストラクタに渡される employees パラメーターは、[**インメモリ データのサポート**](../../web-sdk/using-the-server-sdk/in-memory-data.html)で使用されているコンストラクタと同じデータセット ID で、サーバー側で返されるデータセットを識別します。
+RVInMemoryDataSourceItem コンストラクタに渡される employees パラメーターは、[**インメモリ データのサポート**](~jp/developer/web-sdk/using-the-server-sdk/in-memory-data.html)で使用されているコンストラクタと同じデータセット ID で、サーバー側で返されるデータセットを識別します。
 
 ### 新しいダッシュボードの作成
 

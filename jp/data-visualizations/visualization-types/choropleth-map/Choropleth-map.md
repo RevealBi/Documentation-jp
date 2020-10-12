@@ -54,7 +54,7 @@ Reveal に場所の列を認識させるには、場所の完全名または公�
 
 このチュートリアルを実行するには、[2016 November General Election](https://download.infragistics.com/reveal/help/samples/2016_November_General_Election.xlsx) スプレッドシートをダウンロードし、クラウド プロバイダーにアップロードして以下の手順を実行します。
 
-1. スプレッドシートをアップロードしたクラウド プロバイダーに接続します。Reveal でのデータソースの追加の詳細については、[データソース](../../datasources/overview.html)セクションを参照してください。
+1. スプレッドシートをアップロードしたクラウド プロバイダーに接続します。Reveal でのデータソースの追加の詳細については、[データソース](~jp/datasources/overview.html)セクションを参照してください。
 2. 表示形式エディターで、階級区分図の表示形式を選択します。
 
   <img src="images/select-visualization-choropleth-map.png" alt="Select choropleth map visualization from the Change Visualization menu in the Visualization editor" width="80%"/>
@@ -67,7 +67,7 @@ Reveal に場所の列を認識させるには、場所の完全名または公�
 
 5. [値] で、マップする定量データを含むフィールドを選択します。この例では、すべての州の投票率を含む _Total Votes (%)_ を使用します。
 
-6. [値] フィールドを書式設定してパーセンテージを表示します。[値] > [書式設定] > [タイプ] > [パーセント] で _Total Votes (%)_ を選択します。フィールドの書式設定の詳細については、[フィールド設定](../../fields/field-settings.html)トピックを参照してください。
+6. [値] フィールドを書式設定してパーセンテージを表示します。[値] > [書式設定] > [タイプ] > [パーセント] で _Total Votes (%)_ を選択します。フィールドの書式設定の詳細については、[フィールド設定](~jp/fields/field-settings.html)トピックを参照してください。
 
 7. (オプション) フィルターを追加します。この例では、[データ フィルター] プレースホルダーに Year フィールドをドロップします。フィールドをクリックし、[フィルター タイプ] > [値の選択] > 2016 を選択します。
 

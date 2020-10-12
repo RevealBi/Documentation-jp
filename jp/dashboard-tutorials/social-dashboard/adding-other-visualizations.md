@@ -10,7 +10,7 @@ NOTE
 
 </div>
 
-[データソースを変更する](~/jp/datasources/changing-data-source-visualization.html)場合は、データ ソース名の横にある**オーバーフロー ボタン**または [新しいデータ ソース](~/jp/datasources/creating-new-datasource.html)を選択する必要があります。表示形式を [複製し](../../general/overview.html#view-edit-mode)、作成時間を短縮することもできます。
+[データソースを変更する](~/jp/datasources/changing-data-source-visualization.html)場合は、データ ソース名の横にある**オーバーフロー ボタン**または [新しいデータ ソース](~/jp/datasources/creating-new-datasource.html)を選択する必要があります。表示形式を [複製し](~jp/general/overview.html#view-edit-mode)、作成時間を短縮することもできます。
 
 </div>
 
@@ -161,15 +161,12 @@ Monthly Facebook Likes 表示形式は、[折れ線チャート](~/jp/visualizat
 
 
 
-6.  同じ表示形式サンプルの色にマッチするために、**[開始色]** を **[表示形式設定] ペイン**で 4 番目の色に設定します。
+6.  同じ表示形式サンプルの色にマッチするために、**[開始色]** を **[表示形式設定] ペイン**で 2 番目の色に設定します。
     
     <img src="images/SocialMonthlyFacebookLikesStartColor_All.png" alt="SocialMonthlyFacebookLikesStartColor\_All" width="80%"/>
 
 
 7.  **[日付フィルター]** で **[接続]** を選択し、表示形式を既存のダッシュボード フィルターに接続します。このメニューは、ソーシャル ダッシュボードの上にあります。
-    
-    <img src="images/SocialMonthlyFacebookLikesConnectDateFilter_All.png" alt="SocialMonthlyFacebookLikesConnectDateFilter\_All" width="80%"/>
-
 
 8.  **表示形式のタイトルを Monthly Facebook Likes に変更する**ため、Social Dashboard の横にある**鉛筆アイコンを選択します**。完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
