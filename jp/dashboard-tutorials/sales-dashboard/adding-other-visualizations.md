@@ -73,7 +73,7 @@ Win/Lost by Month 表示形式は、6 ヶ月間の勝敗の回数を[棒チャ�
 
 3.  データ エディターで、**Date** フィールドを [ラベル] に、**Win** と **Loss** フィールドを [値] にドラッグアンドドロップします。
     
-    <img src="images/DragDropSalesWinLossMonth_All.png" alt="DragDropSalesWinLossMonth\_All" width="80%"/>
+    <img src="images/DragDropSalesWinLossMonth_All.png" alt="DragDropSalesWinLossMonth\_All" width="50%"/>
 
  
 
@@ -119,7 +119,7 @@ Forecasted 表示形式は、6 ヶ月間の予測を[バー チャート](~/jp/v
 
 3.  データ エディターで、**Date** フィールドを [ラベル] に、**Forecasted** フィールドを [値] にドラッグアンドドロップします。
     
-    <img src="images/DragDropSalesForecasted_All.png" alt="DragDropSalesForecasted\_All" width="80%"/>
+    <img src="images/DragDropSalesForecasted_All.png" alt="DragDropSalesForecasted\_All" width="50%"/>
 
  
 
@@ -183,7 +183,7 @@ Lost Opportunities 表示形式は、[テキスト ゲージ](~/jp/visualization
 
 3.  データ エディターで、**Lost Opportunites** フィールドを [値] にドラッグアンドドロップします。
     
-    <img src="images/DragDropSalesLostOpportunities_All.png" alt="DragDropSalesLostOpportunities\_All" width="80%"/>
+    <img src="images/DragDropSalesLostOpportunities_All.png" alt="DragDropSalesLostOpportunities\_All" width="50%"/>
 
  
 
@@ -243,13 +243,13 @@ Pipeline by Territory 表示形式は、[ファンネルチャート](~/jp/visua
 
 3.  データ エディターで、**Territory** を [ラベル] に、**Pipeline** を [値] にドラッグアンドドロップします。
     
-    <img src="images/DragDropSalesPipelineTerritory_All.png" alt="DragDropSalesPipelineTerritory\_All" width="80%"/>
+    <img src="images/DragDropSalesPipelineTerritory_All.png" alt="DragDropSalesPipelineTerritory\_All" width="50%"/>
 
  
 
 4.  **Territory** には 4 つの地域しかないため、多くの空の値がありますが、元のデータ ソースの他の列には 1000 を超える値があります。値をフィルタリングするため、**Territory** をデータ フィルターにドラッグアンドドロップします。
     
-    <img src="images/DragDropTerritoryDataFilter_All.png" alt="DragDropTerritoryDataFilter\_All" width="80%"/>
+    <img src="images/DragDropTerritoryDataFilter_All.png" alt="DragDropTerritoryDataFilter\_All" width="50%"/>
     
     次に、[地域] を選択し、**[表示形式フィルター]** ダイアログにアクセスします。**[フィルター タイプ]** を **[空値をフィルター]** に変更し、[フィルターの作成] を選択します。
     
@@ -280,7 +280,7 @@ Total Opportunities 表示形式は、12 か月間の会社の機会が表すに
 
 3.  データ エディターで、**Date** をラベルに、**Total Opportunities** を [値] にドラッグアンドドロップします。
     
-    <img src="images/DragDropSalesTotalOpportunities_All.png" alt="DragDropSalesTotalOpportunities\_All" width="80%"/>
+    <img src="images/DragDropSalesTotalOpportunities_All.png" alt="DragDropSalesTotalOpportunities\_All" width="50%"/>
 
  
 
@@ -344,7 +344,7 @@ Revenue by Territory 表示形式には、会社の各地域における収益�
 
 3.  データ エディターで、**Territory** を [ラベル] に、**Sales Territory** を [値] にドラッグアンドドロップします。
     
-    <img src="images/DragDropRevenueTerritory_All.png" alt="DragDropRevenueTerritory\_All" width="80%"/>
+    <img src="images/DragDropRevenueTerritory_All.png" alt="DragDropRevenueTerritory\_All" width="50%"/>
 
  
 
@@ -376,7 +376,7 @@ Pipeline per Employee 表示形式は、従業員別の上位 10 位までの販
 
 3.  データ エディターで、**Employee** を [ラベル] に、**Pipeline** を [値] にドラッグアンドドロップします。
     
-    <img src="images/DragDropPipelineEmployee_All.png" alt="DragDropPipelineEmployee\_All" width="80%"/>
+    <img src="images/DragDropPipelineEmployee_All.png" alt="DragDropPipelineEmployee\_All" width="50%"/>
 
  
 
@@ -395,7 +395,7 @@ Pipeline per Employee 表示形式は、従業員別の上位 10 位までの販
 5.  この表示形式は 見込み客のトップ 10 を表示するため、フィルターが必要です。
     これを行うには、**[データ フィルターの追加]** を選択し、リストの一番下までスクロールします。集計された **Pipeline** フィールドを選択します。
     
-    <img src="images/SelectPipelineDataEditor_All.png" alt="SelectPipelineDataEditor\_All" width="80%"/>
+    <img src="images/SelectPipelineDataEditor_All.png" alt="SelectPipelineDataEditor\_All" width="50%"/>
     
     次に、**[ルール]** の下の **[トップ アイテム]** を選択し、**10** と入力します。
     
@@ -432,7 +432,7 @@ Sales by Product 表示形式は、さまざまな会社の製品とそれぞれ
 
 3.  データ エディターで、**Product** を [ラベル] に、**Sales Product** を [値] にドラッグアンドドロップします。
     
-    <img src="images/DragDropSalesProduct_All.png" alt="DragDropSalesProduct\_All" width="80%"/>
+    <img src="images/DragDropSalesProduct_All.png" alt="DragDropSalesProduct\_All" width="50%"/>
 
  
 

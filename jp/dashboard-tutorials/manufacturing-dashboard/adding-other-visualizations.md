@@ -61,7 +61,7 @@ Production 表示形式は、12 か 月間の製造量を作業者タイプ別�
 
 3.  データ エディターで **Worker Type** フィールドを [ラベル] に、**Production** フィールドを [値] にドラッグアンドドロップします。
     
-    <img src="images/DragDropManufacturingProduction_All.png" alt="DragDropManufacturingProduction\_All" width="80%"/>
+    <img src="images/DragDropManufacturingProduction_All.png" alt="DragDropManufacturingProduction\_All" width="50%"/>
 
 
 
@@ -102,7 +102,7 @@ Shipping 表示形式は、12 か 月間の出荷量を[エリア チャート](
 
 3.  データ エディターで、**Month** フィールドを [ラベル] に、**Shipping Orders** フィールドを [値] にドラッグアンドドロップします。
     
-    <img src="images/DragDropManufacturingShipping_All.png" alt="DragDropManufacturingShipping\_All" width="80%"/>
+    <img src="images/DragDropManufacturingShipping_All.png" alt="DragDropManufacturingShipping\_All" width="50%"/>
 
 
 
@@ -142,7 +142,7 @@ Average Hours 表示形式では、会社の機械に費やされた時間と、
 
 3.  データ エディターで、**Month** フィールドを [ラベル] に、**Machine Hours** フィールドと **Employee Hours** フィールドの両方を [値] にドラッグアンドドロップします。
     
-    <img src="images/DragDropManufacturingAverageHours_All.png" alt="DragDropManufacturingAverageHours\_All" width="80%"/>
+    <img src="images/DragDropManufacturingAverageHours_All.png" alt="DragDropManufacturingAverageHours\_All" width="50%"/>
 
 
 
@@ -185,7 +185,7 @@ Headcount 表示形式はカテゴリごとに分類された従業員の数を[
 
 3.  データ エディターで、**Division** フィールドを [ラベル] に、**Number of Workers** フィールドを [値] にドラッグアンドドロップします。
     
-    <img src="images/DragDropManufacturingHeadcount_All.png" alt="DragDropManufacturingHeadcount\_All" width="80%"/>
+    <img src="images/DragDropManufacturingHeadcount_All.png" alt="DragDropManufacturingHeadcount\_All" width="50%"/>
 
 
 
@@ -225,7 +225,7 @@ Labor Cost 表示形式は、各従業員の最高から最低までの賃金を
 
 3.  データ エディターで、**Employee** フィールドを [ラベル] に、**Labor** フィールドを [値] にドラッグアンドドロップします。
     
-    <img src="images/DragDropManufacturingLaborcount_All.png" alt="DragDropManufacturingHeadcount\_All" width="80%"/>
+    <img src="images/DragDropManufacturingLaborcount_All.png" alt="DragDropManufacturingHeadcount\_All" width="50%"/>
 
 
 
