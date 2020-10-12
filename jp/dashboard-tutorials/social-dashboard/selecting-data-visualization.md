@@ -35,6 +35,6 @@
 
 </style>
 
-<a href="social-creating-the-dashboard.md" class="previous">&laquo; 前へ</a>
-<a href="social-creating-dashboard-filter-connecting-visualization.md" class="next">次へ &raquo;</a>
+<a href="creating-the-dashboard.md" class="previous">&laquo; 前へ</a>
+<a href="creating-dashboard-filter-connecting-visualization.md" class="next">次へ &raquo;</a>
 

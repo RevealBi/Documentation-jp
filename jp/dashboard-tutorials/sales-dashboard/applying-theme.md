@@ -16,5 +16,5 @@
 
 </style>
 
-<a href="sales-applying-formatting-visualization.md" class="previous">&laquo; 前へ</a>
-<a href="sales-adding-other-visualizations.md" class="next">次へ &raquo;</a>
+<a href="applying-formatting-visualization.md" class="previous">&laquo; 前へ</a>
+<a href="adding-other-visualizations.md" class="next">次へ &raquo;</a>

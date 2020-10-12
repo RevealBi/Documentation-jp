@@ -266,5 +266,5 @@ Labor Cost 表示形式は、各従業員の最高から最低までの賃金を
 
 </style>
 
-<a href="manufacturing-applying-theme.md" class="previous">&laquo; 前へ</a>
-<a href="manufacturing-saving-dashboard.md" class="next">次へ &raquo;</a>
+<a href="applying-theme.md" class="previous">&laquo; 前へ</a>
+<a href="saving-dashboard.md" class="next">次へ &raquo;</a>

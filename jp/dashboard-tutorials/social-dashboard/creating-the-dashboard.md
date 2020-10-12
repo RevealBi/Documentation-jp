@@ -36,6 +36,6 @@
 
 </style>
 
-<a href="social-dashboard-tutorial.md" class="previous">&laquo; Social Dashboard</a>
-<a href="social-selecting-data-visualization.md" class="next">次へ &raquo;</a>
+<a href="dashboard-tutorial.md" class="previous">&laquo; Social Dashboard</a>
+<a href="selecting-data-visualization.md" class="next">次へ &raquo;</a>
 

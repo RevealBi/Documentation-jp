@@ -456,5 +456,5 @@ Sales by Product 表示形式は、さまざまな会社の製品とそれぞれ
 
 </style>
 
-<a href="sales-applying-theme.md" class="previous">&laquo; 前へ</a>
-<a href="sales-saving-dashboard.md" class="next">次へ &raquo;</a>
+<a href="applying-theme.md" class="previous">&laquo; 前へ</a>
+<a href="saving-dashboard.md" class="next">次へ &raquo;</a>
