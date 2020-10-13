@@ -53,7 +53,7 @@ RevealSdkSettings.Theme = currentTheme;
 | **UseRoundedCorners**            | bool                    | (デフォルト) ボタン、ツールチップ、コンテナ、表示形式などの隅が丸められています。false に設定すると、コーナーは四角になります。                                                                                                                                               |
 ### ビルド済みのテーマ
 
-Reveal SDK には、*Mountain Light*、 *Mountain Dark*、*Ocean Light*、*Ocean Dark* の 4 つのビルド済みテーマが付属しています。アプリケーションのデザインに最適なものを設定することも、カスタム テーマのベースとして使用することもできます。    
+Reveal SDK には、*Mountain Light*、*Mountain Dark*、*Ocean Light*、*Ocean Dark* の 4 つのビルド済みテーマが付属しています。アプリケーションのデザインに最適なものを設定することも、カスタム テーマのベースとして使用することもできます。    
 
 新しいインスタンスを作成して、選択したビルド済みテーマの設定を適用します。
 

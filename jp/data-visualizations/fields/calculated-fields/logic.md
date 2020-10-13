@@ -54,7 +54,7 @@ Reveal では、論理計算フィールドは次のとおりです。
     <td class="tg-0lax"><span style="font-weight:bold">サンプル</span>:  <span class="gray-snippet-cstm">not([OfficeId]&gt;=3)</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2"><a href="https://www.revealbi.io/help/logic.html#calc-fields-and-or"><span style="font-weight:bold">or</span></a>: <span class="gray-snippet-cstm">or</span> は 2 つの論理テストを実行します (if ステートメント)。<span style="font-weight:bold">論理テスト の 1 つのいずれか true の場合、 1 を返します。両方が false の場合、0 を返します。</span></td>
+    <td class="tg-0lax" rowspan="2"><a href="https://www.revealbi.io/help/logic.html#calc-fields-and-or"><span style="font-weight:bold">or</span></a>: <span class="gray-snippet-cstm">or</span> は 2 つの論理テストを実行します (if ステートメント)。<span style="font-weight:bold">論理テスト の 1 つのいずれか true の場合、1 を返します。両方が false の場合、0 を返します。</span></td>
     <td class="tg-0lax"><span style="font-weight:bold">構文</span>:  <span class="gray-snippet-cstm">or({logical1},{logical2})</span></td>
   </tr>
   <tr>

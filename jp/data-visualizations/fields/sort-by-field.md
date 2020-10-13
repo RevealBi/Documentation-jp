@@ -1,6 +1,6 @@
 ## フィールドで並べ替え
 
-Reveal では、データを昇順または降順に並べ替えることで、 表示形式のデータの表示方法を変更できます。さらに、元のデータソースで選択したフィールドで並べ替えることで、表示形式の外観をさらに制御することもできます。
+Reveal では、データを昇順または降順に並べ替えることで、表示形式のデータの表示方法を変更できます。さらに、元のデータソースで選択したフィールドで並べ替えることで、表示形式の外観をさらに制御することもできます。
 
 <img src="images/sort-visualization-by-field.png" alt="Sort Visualization by setting dialog" width="80%"/>
 
@@ -41,7 +41,7 @@ _Priority_ フィールドはテキスト フィールドであるため、デ�
 <a name='string-date-chr-order'></a>
 ### 文字列日付を時系列で順序
 
-次の表示形式を見てみましょう。ここでは、 [積層型柱状チャート](~/jp/visualization-tutorials/stacked-charts.html#create-stacked-chart)で企業の現金と売掛金の増加をプロットしています。
+次の表示形式を見てみましょう。ここでは、[積層型柱状チャート](~/jp/visualization-tutorials/stacked-charts.html#create-stacked-chart)で企業の現金と売掛金の増加をプロットしています。
 
 <img src="images/SortByFieldSalesInformation_All.png" alt="SortByFieldSalesInformation\_All" width="80%"/>
 

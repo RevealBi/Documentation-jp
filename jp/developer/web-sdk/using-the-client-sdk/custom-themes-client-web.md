@@ -81,7 +81,7 @@ revealTheme.dashboardBackgroundColor = "#E8EBFC";
 ```
 
 ### 定義済みのテーマ 
-Reveal SDK には、*Mountain Light*、 *Mountain Dark*、*Ocean Light*、*Ocean Dark* の 4 つのビルド済みテーマが付属しています。アプリケーションのデザインに最適なものを設定することも、カスタム テーマのベースとして使用することもできます。    
+Reveal SDK には、*Mountain Light*、*Mountain Dark*、*Ocean Light*、*Ocean Dark* の 4 つのビルド済みテーマが付属しています。アプリケーションのデザインに最適なものを設定することも、カスタム テーマのベースとして使用することもできます。    
 *UpdateCurrentTheme* メソッドを使用して、選択したビルド済みテーマの設定を適用します。 
 
 ***Mountain Light テーマ***
