@@ -10,7 +10,7 @@ Reveal へようこそ！
 > [!NOTE]
 > 組織チームの名前は組織と同じ名前になります (会社名など)。  
 
-<img src="images/limited-permission-sign-in-o365.png" alt="Permissions request sign in with Office 365" width="80%"/>
+<img src="images/limited-permission-sign-in-o365.png" alt="Permissions request sign in with Office 365" width="40%"/>
 
 Reveal へのサインインに使用したアカウントに応じて、OneDrive または Google ドライブが[データ ソース](~/jp/datasources/overview.html)のリストに自動的に追加されます。さらに、[OneDrive](~/jp/datasources/OneDrive.html) と [Google ドライブ](~/jp/datasources/Google-Drive.html)を初めて使用するときにのみ、制限された権限制限付きのアクセス許可を求められます。
 
