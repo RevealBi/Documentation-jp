@@ -7,7 +7,7 @@ Reveal の*チーム*は、組織内外とのコラボレーションを容易�
 <a name='create-team-scratch'></a>
 ### チームを新規に作成
 
-1.  左上の *[アイテム]* をクリックし、ポップオーバー メニューの *[チームに参加 / チームを作成]* ボタンを選択します。
+1.  左上の **[アイテム]** をクリックし、ポップオーバー メニューの **[チームに参加/チームを作成]** ボタンを選択します。
 
   <img src="images/button-join-create-team.png" alt="join or create a team button in the popover menu" width="80%"/>
 
@@ -17,7 +17,7 @@ Reveal の*チーム*は、組織内外とのコラボレーションを容易�
 
 
 
-2.  青い [+ チームの作成] ボタンをクリック/タップします。以下の画面が表示されます。
+2.  青い **[+ チームの作成]** ボタンをクリック/タップします。以下の画面が表示されます。
 
     <img src="images/create-team-properties.png" alt="team properties dialog" width="80%"/>
 
@@ -33,17 +33,17 @@ Reveal の*チーム*は、組織内外とのコラボレーションを容易�
 
             >[!NOTE]
             >後で変更することはできないため、慎重にチームの*組織*プロパティを選択してください。
-      - チームの[*プライバシー*](overview.html#team-privacy-levels)を決定する - このオプションは、チームに_組織_を選択した場合は使用できません。 
+      - チームの[*プライバシー*](overview.html#team-privacy-levels)を決定する - このオプションは、チームに [組織] を選択した場合は使用できません。 
   
-      - _ブランディング_ 設定 - チームのダッシュボードを [PDF 文書](~/jp/dashboards/exporting-dashboards/export-as-pdf-document.html)および [PPT プレゼンテーション](~/jp/dashboards/exporting-dashboards/export-as-powerpoint-presentation.html)としてエクスポートするときに使用するメイン色とロゴを選択します。 
+      - ブランディング設定 - チームのダッシュボードを [PDF 文書](~/jp/dashboards/exporting-dashboards/export-as-pdf-document.html)および [PPT プレゼンテーション](~/jp/dashboards/exporting-dashboards/export-as-powerpoint-presentation.html)としてエクスポートするときに使用するメイン色とロゴを選択します。 
        
         >[!NOTE] **ロゴ画像の要件**。ロゴとしてアップロードする画像は、**5 MB** 以下で、jpg、jpeg、png、gif のいずれかの形式である必要があります。
 
-3.  続行するには *[作成]* をクリック/タップします。*[+メンバー]* の青いボタンを選択し、メールをリストに追加して、メンバーをチームに招待します。メンバーに招待メールが送信されます。
+3.  続行するには **[作成]** をクリック/タップします。**[+ メンバー]** の青いボタンを選択し、メールをリストに追加して、メンバーをチームに招待します。メンバーに招待メールが送信されます。
 
     <img src="images/team-invite-members.png" alt="invite members dialog" width="80%"/>
 
-    別のロールを割り当てない場合、招待するユーザーのデフォルトのロールは*メンバー*です。
+    別の役割を割り当てない場合、招待するユーザーのデフォルトの役割は*メンバー*です。
 
     >[!NOTE]
     >メールが Reveal によって自動補完されないメンバーを追加する場合は、メール全体を入力して Enter キーを押し、招待するユーザーのリストに追加します。
