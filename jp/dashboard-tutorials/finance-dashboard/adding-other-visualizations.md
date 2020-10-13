@@ -97,7 +97,7 @@ GLB Fiscal 表示形式は、ニューヨーク証券取引所 (New York Stock E
 
 3.  データ エディターで、**Date** フィールドをデータ エディターの [ラベル] プレースホルダーにドラッグアンドドロップし、**Open** を [始値] に、**High** を [高値] に、**Low** を [安値] に、**Close** を [終値] にドラッグアンドドロップします。
 
-    <img src="images/DragDropFinanceGLBFiscal_All.png" alt="DragDropFinanceGLBFiscal\_All" width="50%"/>
+    <img src="images/DragDropFinanceGLBFiscal_All.png" alt="DragDropFinanceGLBFiscal\_All" width="30%"/>
 
 <!-- end list -->
 
@@ -164,7 +164,7 @@ Forecast 表示形式は、5 年間の株の変動、買注文、売注文を[�
 
 3.  データエ ディターで、**Date** フィールドを [ラベル] に、**Stocks** を [ラベル] の *[階層の追加]* セクションに、**Change**、**Bid**、**Offer** を **[値]** にドラッグアンドドロップします。
 
-    <img src="images/DragDropFinanceForecast_All.png" alt="DragDropFinanceForecast\_All" width="50%"/>
+    <img src="images/DragDropFinanceForecast_All.png" alt="DragDropFinanceForecast\_All" width="30%"/>
 
 <!-- end list -->
 
@@ -207,7 +207,7 @@ Stock Variations 表示形式は、12 か月間の株価の変化を[スパー�
 
 3.  データ エディターで、**Date** フィールドを [日付] に、**Offer** フィールドを **[値]** に、**Stocks** を [カテゴリ] にドラッグアンドドロップします。
 
-    <img src="images/DragDropFinanceStockVariation_All.png" alt="DragDropFinanceStockVariation\_All" width="50%"/>
+    <img src="images/DragDropFinanceStockVariation_All.png" alt="DragDropFinanceStockVariation\_All" width="30%"/>
 
 <!-- end list -->
 
@@ -248,7 +248,7 @@ Stock Volumes 表示形式は、1 年間の株式数を[リニア ゲージ](~/j
 
 3.  データ エディターで、**Stocks**フィールドを [ラベル] に、**Volume** をデータ エディターの [値] プレースホルダーにドラッグアンドドロップします。
 
-    <img src="images/DragDropFinanceStockVolume_All.png" alt="DragDropFinanceStockVolume\_All" width="50%"/>
+    <img src="images/DragDropFinanceStockVolume_All.png" alt="DragDropFinanceStockVolume\_All" width="30%"/>
 
 <!-- end list -->
 
