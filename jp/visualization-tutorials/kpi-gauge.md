@@ -88,7 +88,7 @@ KPI ゲージは、特定の期間内のパフォーマンスとその変動を�
 | 2\. **データ ソースの構成**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" width="100%"/>                             | *新しい表示形式*ウィンドウで、右下隅の [+] ボタンを選択し、データソースを選択します。                                       |
 | 3\. **チュートリアル スプレッドシートの選択** | <img src="images/Tutorials-Select-KPI-Gauge-Spreadsheet.png" alt="Tutorials-Select-KPI-Gauge-Spreadsheet" width="100%"/>         | データソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。 次に、[KPI ゲージ] シートを選択します。                                 |
 | 4\. **表示形式メニューを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" width="100%"/>           | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                |
-| 5\. **表示形式の選択**        | <img src="images/Tutorials-Select-KPI-vs-Target-Gauge.png" alt="Tutorials-Select-KPI-Gauge" width="100%"/>                                 | デフォルトで、表示形式のタイプは*グリッド*に設定されています。 **KPI vs Target** ゲージを選択します。                                                            |
+| 5\. **表示形式の選択**        | <img src="images/Tutorials-Select-KPI-vs-Time-Gauge.png" alt="Tutorials-Select-KPI-Gauge" width="100%"/>                                 | デフォルトで、表示形式のタイプは*グリッド*に設定されています。 **KPI vs Time** ゲージを選択します。                                                            |
 | 6\. **データの体系化**               | <img src="images/Tutorials-MultipleKPIGauge-Organizing-Data.png" alt="Tutorials-MultipleKPIGauge-Organizing-Data" width="100%"/> | Date フィールドを [日付] に、Sales フィールドを [値] に、State フィールドを [カテゴリ] にドラッグアンドドロップします。                                    |
 
 <a name='changing-date-comparison-type'></a>
