@@ -12,7 +12,7 @@
 
 次に、データ エディターの [値] プレースホルダーへ **Twitter Followers by Year** フィールドを**ドラッグアンドドロップします**。
 
-<img src="images/SocialFirstDragDrop_All.png" alt="SocialFirstDragDrop\_All" width="50%"/>
+<img src="images/SocialFirstDragDrop_All.png" alt="SocialFirstDragDrop\_All" width="30%"/>
 
 最後に、Social Dashboard タイトルの横にある鉛筆を選択して、**表示形式のタイトルを YTD Twitter Followers に変更します**。
 

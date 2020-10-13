@@ -206,19 +206,19 @@ Lost Opportunities 表示形式は、[テキスト ゲージ](~/jp/visualization
 
 2.  Sales Dashboard のスプレッド シートでは、表示形式がパーセンテージで表されている場合でも、Lost Opportunities は値として 0.56 に相当します。したがって、**[値比較タイプ]** へスクロールし、[数] に設定します。
     
-    <img src="images/TutorialsValueComparisonTypeNumber_All.png" alt="TutorialsValueComparisonTypeNumber\_All" width="80%"/>
+    <img src="images/TutorialsValueComparisonTypeNumber_All.png" alt="TutorialsValueComparisonTypeNumber\_All" width="50%"/>
 
  
 
 3.  **しきい値を設定する**。この場合、バインドは 0.7～5 です。
     
-    <img src="images/SalesChangingBandLostOpps_All.png" alt="SalesChangingBandLostOpps\_All" width="80%"/>
+    <img src="images/SalesChangingBandLostOpps_All.png" alt="SalesChangingBandLostOpps\_All" width="50%"/>
 
  
 
 4.  各バンドを選択し、**[色] と [インジケーター] の両方を選択します**。
     
-    <img src="images/SalesChangingBandColorIndicator_All.png" alt="SalesChangingBandColorIndicator\_All" width="80%"/>
+    <img src="images/SalesChangingBandColorIndicator_All.png" alt="SalesChangingBandColorIndicator\_All" width="50%"/>
 
  
 
@@ -351,7 +351,7 @@ Revenue by Territory 表示形式には、会社の各地域における収益�
 4.  サンプルの表示形式では、円チャートの開始位置が異なります。
     開始位置を変更するには、表示形式エディターの **[設定]** タブに移動し、**[開始位置]** を **[90°]** に変更します。
     
-    <img src="images/SalesRevenuebyTerritoryStartPosition_All.png" alt="SalesRevenuebyTerritoryStartPosition\_All" width="80%"/>
+    <img src="images/SalesRevenuebyTerritoryStartPosition_All.png" alt="SalesRevenuebyTerritoryStartPosition\_All" width="50%"/>
 
  
 
@@ -438,7 +438,7 @@ Sales by Product 表示形式は、さまざまな会社の製品とそれぞれ
 
 4.  サンプルの表示形式では、円チャートの開始位置が異なります。開始位置を変更するには、表示形式エディターの **[設定]** タブに移動し、**[開始位置]** を **[90°]** に変更します。
     
-    <img src="images/SalesRevenuebyTerritoryStartPosition_All.png" alt="SalesRevenuebyTerritoryStartPosition\_All" width="80%"/>
+    <img src="images/SalesRevenuebyTerritoryStartPosition_All.png" alt="SalesRevenuebyTerritoryStartPosition\_All" width="50%"/>
 
  
 

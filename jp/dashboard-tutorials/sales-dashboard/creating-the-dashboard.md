@@ -33,5 +33,5 @@
 
 </style>
 
-<a href="dashboard-tutorial.md" class="previous">&laquo; Sales Dashboard</a>
+<a href="getting-started.md" class="previous">&laquo; 前へ</a>
 <a href="selecting-data-visualization.md" class="next">次へ &raquo;</a>
