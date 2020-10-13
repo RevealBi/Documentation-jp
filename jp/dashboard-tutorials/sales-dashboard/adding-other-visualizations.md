@@ -59,7 +59,7 @@
 
 Win/Lost by Month 表示形式は、6 ヶ月間の勝敗の回数を[棒チャート](~/jp/visualization-tutorials/simple-charts.html)で示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、**[データを選択]** を押します。
     
     <img src="images/SelectingSalesSheet_All.png" alt="SelectingSalesSheet\_All.png" width="80%"/>
 
@@ -105,7 +105,7 @@ Win/Lost by Month 表示形式は、6 ヶ月間の勝敗の回数を[棒チャ�
 
 Forecasted 表示形式は、6 ヶ月間の予測を[バー チャート](~/jp/visualization-tutorials/simple-charts.html)で表示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、 **Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、**[データを選択]** を押します。
     
     <img src="images/SelectingSalesSheet_All.png" alt="SelectingSalesSheet\_All.png" width="80%"/>
 
@@ -169,7 +169,7 @@ Forecasted 表示形式は、6 ヶ月間の予測を[バー チャート](~/jp/v
 
 Lost Opportunities 表示形式は、[テキスト ゲージ](~/jp/visualization-tutorials/Gauge-Views.html#text-gauge)で機会損失の割合を表示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を選択します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、**[データを選択]** を選択します。
     
     <img src="images/SelectingSalesSheet_All.png" alt="SelectingSalesSheet\_All.png" width="80%"/>
 
@@ -229,7 +229,7 @@ Lost Opportunities 表示形式は、[テキスト ゲージ](~/jp/visualization
 
 Pipeline by Territory 表示形式は、[ファンネルチャート](~/jp/visualization-tutorials/simple-charts.html)平均的な販売見込みとそれらの位置を表示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。 **Sales Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。 **Sales Dashboard** オプションが選択されていることを確認し、**[データを選択]** を押します。
     
     <img src="images/SelectingSalesSheet_All.png" alt="SelectingSalesSheet\_All.png" width="80%"/>
 
@@ -330,7 +330,7 @@ Total Opportunities 表示形式は、12 か月間の会社の機会が表すに
 
 Revenue by Territory 表示形式には、会社の各地域における収益を[円チャート](~/jp/visualization-tutorials/simple-charts.html)で表示されます。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、**[データを選択]** を押します。
     
     <img src="images/SelectingSalesSheet_All.png" alt="SelectingSalesSheet\_All.png" width="80%"/>
 
@@ -362,7 +362,7 @@ Revenue by Territory 表示形式には、会社の各地域における収益�
 
 Pipeline per Employee 表示形式は、従業員別の上位 10 位までの販売見込みを[柱状チャート](~/jp/visualization-tutorials/simple-charts.html)で示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、**[データを選択]** を押します。
     
     <img src="images/SelectingSalesSheet_All.png" alt="SelectingSalesSheet\_All.png" width="80%"/>
 
@@ -418,7 +418,7 @@ Pipeline per Employee 表示形式は、従業員別の上位 10 位までの販
 
 Sales by Product 表示形式は、さまざまな会社の製品とそれぞれの売上げの割合を[ドーナツ型チャート](~/jp/visualization-tutorials/simple-charts.html)で表示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、**[データを選択]** を押します。
     
     <img src="images/SelectingSalesSheet_All.png" alt="SelectingSalesSheet\_All.png" width="80%"/>
 

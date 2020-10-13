@@ -58,7 +58,7 @@ NOTE
 
 Followers 表示形式はソーシャル メディア チャネルごとに分類されたフォロワーの数を[柱状チャート](~/jp/visualization-tutorials/simple-charts.html)で表示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、**[データを選択]** を押します。
     
     <img src="images/SelectingSocialSheet_All.png" alt="SelectingSocialSheet\_All" width="80%"/>
 
@@ -101,7 +101,7 @@ Followers 表示形式はソーシャル メディア チャネルごとに分�
 
 YTD Facebook Followers 表示形式は、[テキスト ゲージ](~/jp/visualization-tutorials/gauge-views.html#createtextgauge)でそのソーシャル メディア チャネルのフォロワー数を示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、**[データを選択]** を押します。
     
     <img src="images/SelectingSocialSheet_All.png" alt="SelectingSocialSheet\_All" width="80%"/>
 
@@ -125,13 +125,13 @@ YTD Facebook Followers 表示形式は、[テキスト ゲージ](~/jp/visualiza
 
 
 
-5.  **表示形式のタイトルを YTD Facebook Followers に変更する**ため、 Social Dashboard の横にある**鉛筆アイコンを選択します**。 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
+5.  **表示形式のタイトルを YTD Facebook Followers に変更する**ため、Social Dashboard の横にある**鉛筆アイコンを選択します**。 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 ### Monthly Facebook Likes
 
 Monthly Facebook Likes 表示形式は、[折れ線チャート](~/jp/visualization-tutorials/simple-charts.html)で会社の月ごとの Facebook の「いいね」数を示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、**[データを選択]** を押します。
     
     <img src="images/SelectingSocialSheet_All.png" alt="SelectingSocialSheet\_All" width="80%"/>
 
@@ -174,7 +174,7 @@ Monthly Facebook Likes 表示形式は、[折れ線チャート](~/jp/visualizat
 
 Retweets &amp; Favorites の表示形式は[柱状チャート](~/jp/visualization-tutorials/simple-charts.html)で会社の月ごとの Twitter のリツイート&; お気に入り数を示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。新しい表示形式ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。新しい表示形式ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、**[データを選択]** を押します。
     
     <img src="images/SelectingSocialSheet_All.png" alt="SelectingSocialSheet\_All" width="80%"/>
 
@@ -215,7 +215,7 @@ Retweets &amp; Favorites の表示形式は[柱状チャート](~/jp/visualizati
 
 Facebook Reach vs. Impressions の数表示形式は[エリア チャート](~/jp/visualization-tutorials/simple-charts.html)で会社の Facebook のリーチ vs. インプレッション数を示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、**[データを選択]** を押します。
     
     <img src="images/SelectingSocialSheet_All.png" alt="SelectingSocialSheet\_All" width="80%"/>
 
@@ -253,7 +253,7 @@ Facebook Reach vs. Impressions の数表示形式は[エリア チャート](~/j
 
 Monthly Twitter Mentions の表示形式は、[折れ線チャート](~/jp/visualization-tutorials/simple-charts.html)で会社の Twitter のメンション数を示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、 **[データを選択]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、**[データを選択]** を押します。
     
     <img src="images/SelectingSocialSheet_All.png" alt="SelectingSocialSheet\_All" width="80%"/>
 
