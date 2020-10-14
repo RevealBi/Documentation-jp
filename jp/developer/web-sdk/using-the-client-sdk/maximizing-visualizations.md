@@ -17,24 +17,26 @@ Web Client SDK は、ダッシュボードをユーザーに表示する際に�
 
 ### 可視化の最大化
 
-最大化された表示形式でダッシュボードを開くには、__$.ig.RevealSettings__ の __MaximizedVisualization__ 属性を使用する必要があります。 
+To open a dashboard with a maximized visualization, you need to set the dashboardProperty of the revealView and then
+set it's property by passing the visualization you want maximized
+__maximizedVisualization__
+property by passing the visualization you want maximized
+__$.ig.RevealView__ instance. 
 この属性に視覚化を設定しない場合、ダッシュボード全体が表示されます。
 
-[**$.ig.RevealView オブジェクトの構成**](configuring-revealview.html)に示すように、ページに特定のダッシュボードを表示できます。今回は、__MaximizedVisualization__ 属性を設定する必要があります。以下のコードスニペットに示すように、ID が AllDivisions のダッシュボードから可視化した Sales が表示されています。
+[**$.ig.RevealView オブジェクトの構成**](configuring-revealview.html)に示すように、ページに特定のダッシュボードを表示できます。今回は、__maximizedVisualization__ プロパティを設定する必要があります。以下のコードスニペットに示すように、ID が AllDivisions のダッシュボードから可視化した Sales が表示されています。
 
 ``` html
 <script type="text/javascript">
 ...
 
 var dashboardId = 'AllDivisions';
-var revealSettings = new $.ig.RevealSettings(dashboardId);
 
-$.ig.RevealUtility.loadDashboard(dashboardId, function (dashboard) {
-    revealSettings.dashboard = dashboard;
+$.ig.RVDashboard.loadDashboard(dashboardId, function (dashboard) {
+    var revealView = new $.ig.RevealView("#revealView");
+    revealView.dashboard = dashboard;
+    revealView.maximizedVisualization = dashboard.visualizations.getByTitle('Sales');
 
-    revealSettings.maximizedVisualization = dashboard.getVisualizationByTitle('Sales');
-
-    new $.ig.RevealView("#revealView", revealSettings);
 }, function (error) {
     console.log(error);
 });
@@ -47,15 +49,15 @@ $.ig.RevealUtility.loadDashboard(dashboardId, function (dashboard) {
 
 ### 単一可視化モード
 
-また、最初の可視化をロックして、常に可視化を 1 つのみ表示するようにすることもできます。これにより、ダッシュボードは単一の視覚化ダッシュボードのように機能します。これが \[単一可視化モード\] の概念です。
+また、最初の可視化をロックして、常に可視化を 1 つのみ表示するようにすることもできます。これにより、ダッシュボードは単一の視覚化ダッシュボードのように機能します。これが [単一可視化モード] の概念です。
 
-\[単一可視化モード\]をオンにするには、以下のように __singleVisualizationMode__ を true に設定します。
+[単一可視化モード] をオンにするには、以下のように __singleVisualizationMode__ を true に設定します。
 
 ``` js
-$.ig.revealSettings.singleVisualizationMode = true;
+revealView.singleVisualizationMode = true;
 ```
 
-この 1 行を追加すると、ダッシュボードは単一の視覚化ダッシュボードとして機能します。各部門のホームページでも同じことができます。__getVisualizationByTitle__ の表示形式のタイトルを正しいものに置き換えてください。
+この 1 行を追加すると、ダッシュボードは単一の視覚化ダッシュボードとして機能します。各部門のホームページでも同じことができます。dashboard.visualizations.getByTitle() の表示形式のタイトルを正しいものに置き換えてください。
 
 #### ロックされた可視化を動的に変更
 
@@ -66,21 +68,19 @@ $.ig.revealSettings.singleVisualizationMode = true;
 ``` html
 <script type="text/javascript">
     var dashboardId = 'AllDivisions';
-    var revealSettings = new $.ig.RevealSettings(dashboardId);
 
-    $.ig.RevealUtility.loadDashboard(dashboardId, function (dashboard) {
-        revealSettings.dashboard = dashboard;
-        revealSettings.singleVisualizationMode = true;
-        revealSettings.maximizedVisualization = dashboard.getVisualizationByTitle('Sales');
+    $.ig.RVDashboard.loadDashboard(dashboardId, function (dashboard) {
+        var revealView = window.revealView = new $.ig.RevealView("#revealView");
+        revealView.singleVisualizationMode = true;
+        revealView.dashboard = dashboard;
+        revealView.maximizedVisualization = dashboard.visualizations.getByTitle('Sales');
 
-        window.revealView = new $.ig.RevealView("#revealView", revealSettings);
     }, function (error) {
         console.log(error);
     });
     function maximizeVisualization(title) {
-        window.revealView.maximizeVisualization(
-            window.revealView.dashboard.getVisualizationByTitle(title)
-        );
+        var dashboard = window.revealView.dashboard;
+        window.revealView.maximizedVisualization = dashboard.visualizations.getByTitle(title);
     }
 </script>
 
@@ -96,6 +96,6 @@ $.ig.revealSettings.singleVisualizationMode = true;
 
 注意事項:
 
-- __\$.ig.RevealView__ オブジェクトは  window.revealView に設定し、後で __maximizeVisualization__ が呼び出されたときに使用できます。
+- __\$.ig.RevealView__ オブジェクトは  window.revealView に設定し、後で __maximizeVisualization__ プロパティが設定されたときに使用できます。
 - div の前のセクションに追加されたボタンは、例として使用しています。最大化された可視化を切り替える手段として追加されました。ここでは、アプリケーションで同様のコードを使用する必要があります。
 - この例では、サンプル ダッシュボードの表示形式と一致するようにボタンがハードコードされていますが、ダッシュボードの表示形式のリストを繰り返すことでボタンのリストを動的に生成することもできます。詳細については、__\$.ig.RVDashboard.visualizations__ をご覧ください。

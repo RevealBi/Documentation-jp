@@ -22,15 +22,15 @@
 <a name='enable-export-revealview'></a>
 ### エクスポートの設定の使用
 
-ユーザー側でダッシュボードから特定の可視化画像やドキュメントなどを生成可能にするには、ダッシュボードを読み込むときに関連するプロパティを true に設定するだけでできるようになります。
+ユーザー側でダッシュボードから特定の可視化画像やドキュメントなどを生成可能にするには、関連するプロパティを true に設定するだけでできるようになります。
 
-- __$.ig.RevealSettings.showExportImage__ - **画像**としてエクスポートする場合;
+- __revealView.showExportImage__ - **画像**としてエクスポートする場合;
 
-- __$.ig.RevealSettings.showExportToPDF__ - **PDF** としてエクスポートする場合;
+- __revealView.showExportToPDF__ - **PDF** としてエクスポートする場合;
 
-- __$.ig.RevealSettings.showExportToPowerpoint__ - **PowerPoint** プレゼンテーションとしてエクスポートする場合;
+- __revealView.showExportToPowerpoint__ - **PowerPoint** プレゼンテーションとしてエクスポートする場合;
 
-- __$.ig.RevealSettings.showExportToExcel__ - **Excel** データ形式としてエクスポートする場合;
+- __revealView.showExportToExcel__ - **Excel** データ形式としてエクスポートする場合;
 
 これにより、ダッシュボードが開かれたとき、または特定の可視化が最大化されたときに、オーバーフロー メニューで**エクスポート** ボタンが使用可能になります。
 

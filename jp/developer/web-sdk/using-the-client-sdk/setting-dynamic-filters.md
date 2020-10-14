@@ -13,19 +13,16 @@
 ``` html
 <script type="text/javascript">
     var dashboardId = 'Sales';
-    var revealSettings = new $.ig.RevealSettings(dashboardId);
 
-    $.ig.RevealUtility.loadDashboard(dashboardId, function (dashboard) {
-        revealSettings.dashboard = dashboard;
-        revealSettings.showFilters = false;
-
-        window.revealView = new $.ig.RevealView("#revealView", revealSettings);
+    $.ig.RVDashboard.loadDashboard(dashboardId, function (dashboard) {
+       var revealView = window.revealView = new $.ig.RevealView("#revealView");
+        revealView.showFilters = false;
+        revealView.dashboard = dashboard;
     }, function (error) {
         console.log(error);
     });
     function setSelectedTerritory(territory) {
-        var filter = window.revealView.dashboard.getFilterByTitle('Territory');
-        window.revealView.setFilterSelectedValues(filter, [territory]);
+        window.revealView.dashboard.filters.getByTitle('Territory').selectedValues = [territory];
     }
 </script>
 
@@ -47,34 +44,32 @@
 
 アメリカ大陸、アジア太平洋地域、インドなどの地域は時間の経過とともに変化しませんが、他の値の一覧は変化する可能性があります。この場合、新しい地域がリストに追加されても、新しいボタンは自動的に追加されません。
 
-__$.ig.RevealUtility.getFilterValues__ を使用して特定のフィルター値の一覧を取得することができます。この場合、次の呼び出しは \_window.territories\</emphasis\> に 5 つの __$.ig.RVFilterValue__ オブジェクトを含む配列を残します。
+__$.ig.RVRVDashboardFilter.getFilterValues__ メソッドを使用して特定のフィルター値の一覧を取得することができます。この場合、次の呼び出しは \_window.territories\</emphasis\> に 5 つの __$.ig.RVFilterValue__ オブジェクトを含む配列を残します。
 
 ``` js
-var filter = window.revealView.dashboard.getFilterByTitle('Territory');
-$.ig.RevealUtility.getFilterValues(dashboard, filter, function (values) {
+var filter = window.revealView.dashboard.getByTitle('Territory');
+filter.getFilterValues(function (values) {
     window.territories = values;
 }, function (error) {
     console.log(error);
 });
 ```
 
-__$.ig.RVFilterValue__ の label 属性を使用して地域の名前を表示し、Value 属性を使用してフィルターに選択を設定できます。
+__$.ig.RVFilterValue__ の label 属性を使用して地域の名前を表示し、__values__ 属性を使用してフィルターに選択を設定できます。
 以下のコード スニペットは、自動的に地域を選択するための ComboBox を設定する方法を示します。
 
 
 ``` html
 <script type="text/javascript">
     var dashboardId = 'Sales';
-    var revealSettings = new $.ig.RevealSettings(dashboardId);
 
-    $.ig.RevealUtility.loadDashboard(dashboardId, function (dashboard) {
-        revealSettings.dashboard = dashboard;
-        revealSettings.showFilters = false;
+    $.ig.RVDashaboard.loadDashboard(dashboardId, function (dashboard) {
+        var revealView = window.revealView = new $.ig.RevealView("#revealView");
+        revealView.showFilters = false;
+        revealView.dashboard = dashboard;
 
-        window.revealView = new $.ig.RevealView("#revealView", revealSettings);
-
-        var filter = window.revealView.dashboard.getFilterByTitle('Territory');
-        $.ig.RevealUtility.getFilterValues(dashboard, filter, function (values) {
+        var filter = revealView.dashboard.filters.getByTitle('Territory');
+        filter.getFilterValues(function (values) {
             window.territories = values;
             var buttonsPanel = $('#buttonsPanel')[0];
             for (var i = 0; i < values.length; i++) {
@@ -88,8 +83,8 @@ __$.ig.RVFilterValue__ の label 属性を使用して地域の名前を表示�
         console.log(error);
     });
     function setSelectedTerritory(territory) {
-        var filter = window.revealView.dashboard.getFilterByTitle('Territory');
-        window.revealView.setFilterSelectedValues(filter, [territory]);
+        var filter = window.revealView.dashboard.getByTitle('Territory');
+        filter.selectedValues = [territory]);
     }
 </script>
 

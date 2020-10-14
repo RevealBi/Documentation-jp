@@ -45,16 +45,18 @@ RVInMemoryDataSourceItem コンストラクタに渡される employees パラ�
 
 以下の手順でダッシュボードを簡単に作成できます。
 
-  - ダッシュボード属性を RevealSettings に設定せず、更に __\$.ig.RevealUtility.loadDashboard__ を使用せずに __\$.ig.RevealView__ と __\$.ig.RevealSettings__ オブジェクトを初期化します。
+  - ダッシュボードプロパティを $.ig.RevealView に設定せず、更に __$.ig.RVDashboard.loadDashboard__ を使用せずに __\$.ig.RevealView__ オブジェクトを初期化します。
 
   - ダッシュボードを編集モードで起動するには、isEditing を true に設定します。
+
+  - Set the dashboard property to newly created instance of __$.ig.RVDashboard__
 
 <!-- end list -->
 
 ``` js
-var revealSettings = new $.ig.RevealSettings(null);
-revealSettings.startInEditMode = true;
-var revealView = new $.ig.RevealView("#revealView", revealSettings);
+var revealView = new $.ig.RevealView("#revealView");
+revealView.startInEditMode = true;
+revealView.dashboard = new $.ig.RVDashboard;
 ```
 
 SDK とともに配布されている UpMedia ウェブ アプリケーションに、**CreateDashboard.cshtml** の実用的な例が含まれます。

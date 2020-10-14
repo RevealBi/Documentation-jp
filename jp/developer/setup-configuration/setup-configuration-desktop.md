@@ -7,18 +7,18 @@ Reveal Desktop SDK の設定は、次のいずれかを選択できます。
 
 ### NuGet の使用 (推奨)
 
-WPF または WinForms アプリケーション プロジェクトのセットアップには、**Infragistics.Reveal.Sdk.Wpf** パッケージをインストールする方法が最も簡単です。
+WPF または WinForms アプリケーション プロジェクトのセットアップには、**Reveal.Sdk.Wpf** パッケージをインストールする方法が最も簡単です。
 
 Reveal SDK をインストールすると、%public%\\Documents\\Infragistics\\NuGet を指す
 Infragistics (Local) と呼ばれる新しい NuGet パッケージソースが nuget.config に追加されます。
 
 <img src="images/addingNugetPackage_desktop.png" alt="addingNugetPackage\_desktop" width="60%"/>
 
-Infragistics (Local) フィードがインストーラーによって正しく設定されていることを確認後、**Infragistics.Reveal.Sdk.Wpf** パッケージをアプリケーション プロジェクトにインストールできます。
+Infragistics (Local) フィードがインストーラーによって正しく設定されていることを確認後、**Reveal.Sdk.Wpf** パッケージをアプリケーション プロジェクトにインストールできます。
 
 NuGet パッケージをインストールすると、以下の依存関係パッケージもインストールされます。
 
-  - CefSharp.Wpf (57.0.0+)
+  - CefSharp.Wpf (83.4.20+)
   - SkiaSharp (1.68.0+)
   - System.Data.SQLite.Core (1.0.108+)
 
@@ -31,7 +31,7 @@ NuGet パッケージをインストールすると、以下の依存関係パ�
 1.  インストーラーによってドロップされたアセンブリへの参照を \<InstallationDirectory\>\\SDK\\WPF\\Binaries に追加します。
 
 2.  RevealView コントロールが依存する以下の NuGet パッケージをインストールします。
-      - CefSharp.Wpf (57.0.0+)
+      - CefSharp.Wpf (83.4.20+)
       - SkiaSharp (1.68.0+)
       - System.Data.SQLite.Core (1.0.108+)
 

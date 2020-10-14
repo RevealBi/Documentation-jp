@@ -2,8 +2,8 @@
 
 ### 概要
 
-すでに適用されているフィルターを含むダッシュボードを表示したい場合は、ダッシュボード フィルターですべてのウィジェットのコンテンツを一度にスライスすると非常に便利です。
-これにより、SDK を使用して、すべてのダッシュボードのウィジェットに対してコンテキスト内に留まる最初のダッシュボード フィルター選択を設定できます。
+すでに適用されているフィルターを含むダッシュボードを表示したい場合は、ダッシュボード フィルターですべての可視化のコンテンツを一度にスライスすると非常に便利です。
+これにより、SDK を使用して、すべてのダッシュボードの可視化に対してコンテキスト内に留まる最初のダッシュボード フィルター選択を設定できます。
 
 #### 例の詳細
 
@@ -20,23 +20,19 @@
   - 過去 1 年間 (過去365日の代わりとなる、このダッシュボードのデフォルト設定)。
   - 現在のユーザーの地域に関連付けられている売上。
 
-初期化プロセスの一部として、そしてダッシュボードがロードされたら、ダッシュボード内のフィルターのリストを取得し、これらのフィルターを使用して __$.ig.RevealSettings__ で最初に選択された値を設定できます。
+As part of the initialization process and once the dashboard is loaded, you can retrieve the list of filters in the dashboard and use these filters to set the selected values though the dashboard object and finally assign it to the revealView's dashboard property:
 
 ``` html
 <script type="text/javascript">
     var dashboardId = 'Sales';
-    var revealSettings = new $.ig.RevealSettings(dashboardId);
 
-    $.ig.RevealUtility.loadDashboard(dashboardId, function (dashboard) {
-        revealSettings.dashboard = dashboard;
+    $.ig.RVDashboard.loadDashboard(dashboardId, function (dashboard) {
 
-        revealSettings.setDateFilter(new $.ig.RVDateDashboardFilter($.ig.RVDateFilterType.YearToDate));
-        revealSettings.setFilterSelectedValues(
-            dashboard.getFilterByTitle("Territory"),
-            [getCurrentUser().territory]
-        );
+      dashboard.filters.getByTitle("Territory").selectedValues = [getCurrentUser().territory]
 
-        new $.ig.RevealView("#revealView", revealSettings);
+        var revealView = new $.ig.RevealView("#revealView");
+
+        revealView.dashboard = dashboard;
     }, function (error) {
         console.log(error);
     });
@@ -53,7 +49,7 @@
 ユーザーが自分の地域以外のデータにアクセスしたくない場合があります。 このような場合、ダッシュボード フィルターを含むパネルを非表示にするように __$.ig.RevealView__ オブジェクトを設定することで、フィルターへのアクセスを制限できます。
 
 ``` js
-$.ig.revealSettings.showFilters = false;
+revealView.showFilters = false;
 ```
 
 この設定では、関連する地域のデータのみを表示するようにユーザーを制限します。

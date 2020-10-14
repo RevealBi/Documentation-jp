@@ -32,7 +32,7 @@ NET Framework 4.6.2 以降 をターゲットとする場合、Reveal Server SDK
 
 #### 1\. アセンブリと依存関係パッケージの準備
 
-アセンブリへの参照を追加して依存関係パッケージをインストールするには、**NuGet** パッケージ マネージャの使用をお勧めします。プロジェクトのセットアップには、**Infragistics.Reveal.Sdk.Web.AspNetCore** (トライアル) NuGet パッケージをインストールする方法が最も簡単です。
+アセンブリへの参照を追加して依存関係パッケージをインストールするには、**NuGet** パッケージ マネージャの使用をお勧めします。プロジェクトのセットアップには、**Reveal.Sdk.Web.AspNetCore** (トライアル) NuGet パッケージをインストールする方法が最も簡単です。
 
 Reveal SDK をインストールすると、%public%\\Documents\\Infragistics\\NuGet を指す _Infragistics (Local)_ と呼ばれる新しい NuGet パッケージソースが **nuget.config** に追加されます。
 
@@ -40,7 +40,7 @@ Reveal SDK をインストールすると、%public%\\Documents\\Infragistics\\N
 
 Infragistics (Local) フィードがインストーラーによって正しく設定されていることを確認後:
 
-  - **Infragistics.Reveal.Sdk.Web.AspNetCore** NuGet パッケージを プロジェクトにインストールします。
+  - **Reveal.Sdk.Web.AspNetCore** NuGet パッケージを プロジェクトにインストールします。
   - NuGet パッケージ参照を System.Data.SQLite バージョン 1.0.111 以降に追加します。
 
 ビルドに問題がある場合は、この [**リンク**](#sqlite-fix)を参照してください。
@@ -164,7 +164,7 @@ _AddRevealServices_ と同様に、_AddReveal_ メソッドは _Infragistics.Sdk
 
 3.  [**Web Client SDK のインスタンス化**](#instantiate-web-client-sdk)
 
-4.  [**React / Angular のサポートを設定**](#web-component-support) (オプション)
+<!-- 4.  [**React / Angular のサポートを設定**](#web-component-support) (オプション)-->
 
 <a name='check-dependencies'></a>
 
@@ -201,13 +201,9 @@ JavaScript ファイル は \<InstallationDirectory\>\\SDK\\Web\\JS\\Client に�
     > **サーバー側とクライアント側のパーツを個別にホスト**
     > 個別のサーバーでクライアント側とサーバー側のパーツをホストする場合は、次の手順を続行する前に[こちら](~/jp/developer/web-sdk/overview.html#host-client-server-separate)を参照してください。
 
-2.  コンストラクタで \_dashboardId\ を指定して **\$.ig.RevealSettings** のインスタンスを作成します。
+2.  **\$.ig.RVDashboard.loadDashboard** を呼び出して _dashboardId_ と成功およびエラー ハンドラを指定します。
 
-3.  **\$.ig.RevealUtility.loadDashboard** を呼び出して _dashboardId_ と成功およびエラーハンドラを指定します。
-
-    a.  成功ハンドラーでは、取得したダッシュボードを使用し、**\$.ig.RevealSettings** オブジェクトの dashboard プロパティに設定する必要があります。
-
-4.  最後に、2 つのパラメータを渡して **\$.ig.RevealView** コンポーネントをインスタンス化します。1 つはダッシュボードをレンダリングする DOM 要素のセレクター、もう 1 つは設定オブジェクトです。
+3.  In the success handler instantiate the **\$.ig.RevealView** component by passing a selector for the DOM element where the dashboard should be rendered into. Finally you should use the retrieved dashboard and set it to the dashboard property of the **\$.ig.RevealView**
 
 #### サンプル コード
 
@@ -218,13 +214,12 @@ JavaScript ファイル は \<InstallationDirectory\>\\SDK\\Web\\JS\\Client に�
     ⋮
     <script type="text/javascript">
       var dashboardId = "dashboardId";
-      var revealSettings = new $.ig.RevealSettings(dashboardId);
 
-      $.ig.RevealUtility.loadDashboard(
+      $.ig.RVDashboard.loadDashboard(
         dashboardId,
         function (dashboard) {
-          revealSettings.dashboard = dashboard;
-          var revealView = new $.ig.RevealView("#revealView", revealSettings);
+          var revealView = new $.ig.RevealView("#revealView");
+          revealView.dashboard = dashboard;
         },
         function (error) {
           //Process any error that might occur here
@@ -237,7 +232,7 @@ JavaScript ファイル は \<InstallationDirectory\>\\SDK\\Web\\JS\\Client に�
   </body>
 </html>
 ```
-<a name='web-component-support'></a>
+<!-- <a name='web-component-support'></a>
 
 #### 4\. React / Angular のサポートを設定 (オプション) 
 
@@ -257,4 +252,4 @@ Web コンポーネントには他の依存関係も含める必要があるこ�
 次の 2 つの JS ファイルが "\<InstallationDirectory\>\\Web\\JS" にあります。
 
 - **reveal-webComponent.js**
-- **reveal-WebComponent-ie11.js**
+- **reveal-WebComponent-ie11.js** -->

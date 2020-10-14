@@ -20,7 +20,7 @@
     保存操作を処理したくない場合は、次の設定でダッシュボードを編集するオプションをオフにすることができます。
 
     ``` js
-    revealSettings.canSaveAs = false;
+    revealView.canSaveAs = false;
     ```
 
     この方法は、ユーザーが変更を加えることを想定していない場合などに便利です。

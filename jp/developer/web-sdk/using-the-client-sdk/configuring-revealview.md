@@ -2,7 +2,7 @@
 
 ### 概要
 
-**RevealSettings** オブジェクトをパラメーターとして渡している間に **RevealView** コンポーネントをインスタンス化できます。
+The __$.ig.RevealView__ component can be instantiated while passing the selector pointing to the dom element where the reveal view should be rendered.
 
 **RevealSettings** オブジェクトを使用して、エンドユーザーに対するさまざまな機能を有効または無効にすることができます。
 
@@ -16,15 +16,12 @@
 
 ``` js
 var dashboardId = "AppsStats";
-var revealSettings = new RevealSettings(dashboardId);
 
-RevealUtility.loadDashboard(dashboardId, function (dashboard) {
-    revealSettings.dashboard = dashboard;
+$.ig.RevealUtility.loadDashboard(dashboardId, function (dashboard) {
+    dashboard.filters.getByTitle("application_name").selectedValues = ["App2"];
 
-    var applicationNameFilter = dashboard.getFilterByTitle("application_name");
-    revealSettings.setFilterSelectedValues(applicationNameFilter, ["App2"]);
-
-    window.revealView = new RevealView("#revealView", revealSettings);
+    var revealView = new $.ig.RevealView("#revealView");
+    revealView.dashboard = dashboard;
 }, function (error) {
 });
 ```

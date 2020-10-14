@@ -45,7 +45,7 @@ dialog](images/adding-new-package-source.png)
 プロジェクトに新しい Reveal SDK フォルダーを作成し、**IRvealSdkContext** インターフェースを実装する **RevealSdkContext.cs** クラスを追加します。
 
 ``` csharp
-   using Infragistics.Sdk;
+    using Reveal.Sdk;
     using System;
     using System.IO;
     using System.Reflection;
@@ -92,8 +92,8 @@ dialog](images/adding-new-package-source.png)
 同じファイルに必要な参照を追加します。
 
 ``` csharp
-   using Demo1.RevealSDK;
-    using Infragistics.Sdk;
+    using Demo1.RevealSDK;
+    using Reveal.Sdk;
 ```
 
 手順 3 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/44340ad7154f7101f80fce4aea50153ccbd902d7)**.
@@ -162,25 +162,30 @@ Marketing ダッシュボードを選択し、**編集モード**に入ります
     }
 ```
 
-Reveal が使用するサードパーティの参照の 1 つに **Day.js** があります。したがって、含まれる他のスクリプトとともに **\_Layout.cshtml** に参照を追加します。
+Let’s add some references to scripts & css files for some third party dependencies of Reveal in **\_Layout.cshtml** :
 
-``` csharp
+``` html
    <script src="https://unpkg.com/dayjs"></script>
+   <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+   <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+   <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+   <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
 ```
 
-続行するには、プロジェクトの wwwroot フォルダーに新しい Reveal フォルダーを作成します。**infragistics.reveal.js** をコピーします。このファイルは、Reveal SDK のインストール フォルダーにあります。
+続行するには、プロジェクトの wwwroot フォルダーに新しい Reveal フォルダーを作成します。**infragistics.reveal.js** をコピーします。このファイルは、Reveal SDK の **\<InstallationDirectory\>\\SDK\\Web\\JS\\Client** にあります。
 
 <img src="images/wwwroot-folder.png" alt="wwwroot folder hierarchy" width="40%"/>
 
 そして、Day.js のスクリプトの後に **\_Layout.cshtml** でこのライブラリを参照します。
 
-``` csharp
+``` html
    <script src="~/Reveal/infragistics.reveal.js"></script>
 ```
 
 同じファイル内のフッター セクションも削除し、新しいページのナビゲーションにリンクを追加します。
 
-``` csharp
+``` html
    <li class="nav-item">
         <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Marketing">Marketing</a>
     </li>
@@ -188,15 +193,14 @@ Reveal が使用するサードパーティの参照の 1 つに **Day.js** が�
 
 **Marketing.cshtml** のスクリプトを、ダッシュボードをロードするためのロジックで更新しましょう。
 
-``` csharp
-   var dashboardId = "Marketing.rdash";
-    var revealSettings = new $.ig.RevealSettings(dashboardId);
+``` js
+    var dashboardId = "Marketing.rdash";
 
-    $.ig.RevealUtility.loadDashboard(dashboardId, function (dashboard) {
-        revealSettings.dashboard = dashboard;
-        var revealView = new $.ig.RevealView("#revealView", revealSettings);
+    $.ig.RVDashboard.loadDashboard(dashboardId, function (dashboard) {
+        var revealView = new $.ig.RevealView("#revealView");
+        revealView.dashboard = dashboard;
     }, function (error) {
-        //ここで発生する可能性があるエラーを処理します。
+        //Process any error that might occur here
     });
 ```
 
@@ -247,7 +251,7 @@ Reveal アプリは Roboto フォントを使用します。アプリと同じ�
 
 フォントの読み込みを改善するには、infragistics.reveal.js 参照の横にある **\_Layout.cshtml** で Google Web Font Loader への参照を追加します。
 
-``` csharp
+``` html
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
 ```
 
@@ -261,11 +265,10 @@ Reveal アプリは Roboto フォントを使用します。アプリと同じ�
         },
         active: function () {
             var dashboardId = "Marketing.rdash";
-            var revealSettings = new $.ig.RevealSettings(dashboardId);
 
-            $.ig.RevealUtility.loadDashboard(dashboardId, function (dashboard) {
-                revealSettings.dashboard = dashboard;
-                var revealView = new $.ig.RevealView("#revealView", revealSettings);
+            $.ig.RVDashboard.loadDashboard(dashboardId, function (dashboard) {
+                var revealView = new $.ig.RevealView("#revealView");
+                revealView.dashboard = dashboard;
             }, function (error) {
                 //Process any error that might occur here
             });
@@ -306,7 +309,7 @@ Reveal アプリは Roboto フォントを使用します。アプリと同じ�
 
 <!-- end list -->
 
-``` csharp
+``` html
    <header>
         <div class="header">
             <img class="logo" src="~/img/logo.png" alt="logo" />
