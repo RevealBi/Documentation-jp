@@ -47,7 +47,7 @@
 
 SIS Stock Value 2018 表示形式は、2018 年の Soylent Corp 株の平均値を[テキスト ゲージ](~/jp/visualization-tutaorials/gauge-views.html#create-text-gauge)で表示します。この場合、変更されるのは選択したフィルターのみであるため、最初の手順で作成された最初の表示形式を複製できます。
 
-1.  「Globex Stock Value 2018」 表示形式でオーバーフロー ボタンを開き、**[複製]** を選択します。
+1. 「Globex Stock Value 2018」表示形式でオーバーフロー ボタンを開き、**[複製]** を選択します。
 
     <img src="images/DuplicatingVisualizationSISStockValue_All.png" alt="DuplicatingVisualizationSISStockValue\_All" width="80%"/>
 
@@ -57,7 +57,7 @@ SIS Stock Value 2018 表示形式は、2018 年の Soylent Corp 株の平均値�
 
     <img src="images/DuplicateVisualizationRenaming_All.png" alt="DuplicateVisualizationRenaming\_All" width="80%"/>
 
-    値を 「Silver Security Stock Value 2018」 に設定します。
+    値を「Silver Security Stock Value 2018」に設定します。
 
     <img src="images/SISStockRenamingVisualization_All.png" alt="SISStockRenamingVisualization\_All" width="80%"/>
 
@@ -109,7 +109,7 @@ GLB Fiscal 表示形式は、ニューヨーク証券取引所 (New York Stock E
 
 <!-- end list -->
 
-5.  必要に応じて、[始値]、[高値]、[安値]、[終値]の値を選択し**、[小数桁]**を **[0]** に変更して、Y 軸の小数桁を削除できます。
+5.  必要に応じて、[始値]、[高値]、[安値]、[終値]の値を選択し、**[小数桁]** を **[0]** に変更して、Y 軸の小数桁を削除できます。
 
     <img src="images/GLBFiscalRemovingFractionDigits_All.png" alt="GLBFiscalRemovingFractionDigits\_All" width="80%"/>
 
@@ -141,7 +141,7 @@ GLB Fiscal 表示形式は、ニューヨーク証券取引所 (New York Stock E
 
 <!-- end list -->
 
-8.  **表示形式のタイトルを 「GLB Fiscal (Monthly) NYSE + BATS」 に変更する**ため、「Finance Dashboard」 の横にある**鉛筆アイコンを選択します。**
+8.  **表示形式のタイトルを「GLB Fiscal (Monthly) NYSE + BATS」に変更する**ため、「Finance Dashboard」の横にある**鉛筆アイコンを選択します。**
 
 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
@@ -184,7 +184,7 @@ Forecast 表示形式は、5 年間の株の変動、買注文、売注文を[�
 
 <!-- end list -->
 
-6.  **表示形式のタイトルを 「Forecast (Chg, Bid & Offers) - 2018 to 2023」 に変更する**ため、「Finance Dashboard」 の横にある**鉛筆アイコンを選択します。**
+6.  **表示形式のタイトルを「Forecast (Chg, Bid & Offers) - 2018 to 2023」に変更する**ため、「Finance Dashboard」の横にある**鉛筆アイコンを選択します。**
 
 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
@@ -225,7 +225,7 @@ Stock Variations 表示形式は、12 か月間の株価の変化を[スパー�
 
 <!-- end list -->
 
-6.  **表示形式のタイトルを 「Stock Variations」 に変更する**ため、「Finance Dashboard」 の横にある**鉛筆アイコンを選択します**。
+6.  **表示形式のタイトルを「Stock Variations」に変更する**ため、「Finance Dashboard」の横にある**鉛筆アイコンを選択します**。
 
 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 

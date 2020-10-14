@@ -12,7 +12,7 @@ The __$.ig.RevealView__ component can be instantiated while passing the selector
 
 ### コード
 
-次のコードスニペットは、ダッシュボード「AppsStats」を読み込む方法を示しています。「application_name」 グローバル フィルターの選択値を 「App2」 に設定して、ダッシュボードには 「App2」 でフィルタリングされたデータが表示されます。
+次のコードスニペットは、ダッシュボード「AppsStats」を読み込む方法を示しています。「application_name」グローバル フィルターの選択値を「App2」に設定して、ダッシュボードには「App2」でフィルタリングされたデータが表示されます。
 
 ``` js
 var dashboardId = "AppsStats";

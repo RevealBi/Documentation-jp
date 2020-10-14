@@ -22,7 +22,7 @@
 </p></td>
 <td><p><img src="images/excel.png" alt="excel" /><br />
 </p>
-<p><strong>シリーズが 2 つ以上あるチャートの場合、</strong>Excel ファイルの列順序に関係なく 「列」、「行」、および「値」にフィールドをドロップする順序によって<strong>チャートをプロットする方法を決定します</strong>。</p></td>
+<p><strong>シリーズが 2 つ以上あるチャートの場合、</strong>Excel ファイルの列順序に関係なく「列」、「行」、および「値」にフィールドをドロップする順序によって<strong>チャートをプロットする方法を決定します</strong>。</p></td>
 </tr>
 <tr class="even">
 <td><p><img src="images/excel.png" alt="excel" /> <img src="images/csv.png" alt="csv" /><br />
@@ -88,7 +88,7 @@
 <tr class="even">
 <td><p><img src="images/excel.png" alt="excel" /><br />
 </p>
-<p>日付を列ヘッダーに設定するには、Excel が書式設定を使用するために 「'」 を含みます。デフォルトのヘッダー日付書式は (YYYY-MM-DD 00:00:00 +0000) の省略なしで全体を示す書式です。</p></td>
+<p>日付を列ヘッダーに設定するには、Excel が書式設定を使用するために「'」を含みます。デフォルトのヘッダー日付書式は (YYYY-MM-DD 00:00:00 +0000) の省略なしで全体を示す書式です。</p></td>
 <td><p><img src="images/percentage.png" alt="percentage" /><br />
 </p>
 <p>書式設定が "Percentage" に変更される場合以外、Excel シートのパーセンテージは 0 ～ 1 スケールで表示されます。たとえば、39% が 0.39 として表示されます。</p></td>

@@ -41,4 +41,4 @@
 
 <img src="images/pie-doughnut-chart-legends-value-zero-setting.png" alt="Enabling the legend setting in the visualization editor" width="80%"/>
 
-上記の例では、「Auburn、Al」 ラベルが円チャートの凡例に含まれていますが、その値は 0 であるため、表示形式には表示さません。
+上記の例では、「Auburn、Al」ラベルが円チャートの凡例に含まれていますが、その値は 0 であるため、表示形式には表示さません。
