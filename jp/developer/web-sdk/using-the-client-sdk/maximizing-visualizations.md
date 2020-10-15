@@ -17,11 +17,7 @@ Web Client SDK は、ダッシュボードをユーザーに表示する際に�
 
 ### 可視化の最大化
 
-To open a dashboard with a maximized visualization, you need to set the dashboardProperty of the revealView and then
-set it's property by passing the visualization you want maximized
-__maximizedVisualization__
-property by passing the visualization you want maximized
-__$.ig.RevealView__ instance. 
+To open a dashboard with a maximized visualization, you need to set the dashboard property of __revealView__ first. Then, set the __maximizedVisualization__ property by passing the visualization you want maximized to the __$.ig.RevealView__ instance. 
 この属性に視覚化を設定しない場合、ダッシュボード全体が表示されます。
 
 [**$.ig.RevealView オブジェクトの構成**](configuring-revealview.html)に示すように、ページに特定のダッシュボードを表示できます。今回は、__maximizedVisualization__ プロパティを設定する必要があります。以下のコードスニペットに示すように、ID が AllDivisions のダッシュボードから可視化した Sales が表示されています。

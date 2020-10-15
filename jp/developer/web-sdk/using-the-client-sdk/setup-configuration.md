@@ -2,13 +2,11 @@
 
 以下は、Reveal Web Client SDK を設定するための手順です。
 
-1.  [**依存関係の確認**](#依存関係の確認).
+1.  [**依存関係の確認**](#依存関係の確認)。
 
-2.  [**Web Client SDK の参照**](#Web-Client-SDK-の参照).
+2.  [**Web Client SDK の参照**](#Web-Client-SDK-の参照)。
 
-3.  [**Web Client SDK のインスタンス化**](#Web-Client-SDK-のインスタンス化).
-
-4.  [**React / Angular のサポートを設定**](#web-component-support) (オプション)
+3.  [**Web Client SDK のインスタンス化**](#Web-Client-SDK-のインスタンス化)。
 
 ### 1\. 依存関係の確認
 
@@ -69,29 +67,6 @@ JavaScript ファイル は "\<InstallationDirectory\>\\SDK\\Web\\JS\\Client" �
 </body>
 </html>
 ```
-
-### 4\. React / Angular のサポートを設定 (オプション)
-
-フロントエンドでは、Reveal は Angular と React との互換性を提供する Web コンポーネントを提供します。
-
-次のスニペットは、クライアント側で追加する必要があるものを示しています。
-
-``` html
-<script src="~/Reveal/reveal-webComponent.js"></script>
-<section>
-    <reveal-view dashboard-name="Sales" can-edit="" editing="" show-menu="" can-add-visualization=""</reveal-view>
-</section>
-```
-
-Web コンポーネントには他の依存関係も含める必要があることに注意してください (jQuery 2.2 以降および Infragistics.reveal.js)。
-
-次の 2 つの JS ファイルが
-
-次の 2 つの JS ファイルが "\<InstallationDirectory\>\\Web\\JS" にあります。
-
-  - **reveal-webComponent.js**
-
-  - **reveal-WebComponent-ie11.js**
 
 #### IE11 サポート
 

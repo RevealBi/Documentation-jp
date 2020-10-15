@@ -18,7 +18,7 @@
 
 ### 前提条件
 
-画像へのエクスポート機能を使用するには、[CefSharp.Wpf NuGet package (\>= 57.0.0)](~/jp/developer/setup-configuration/setup-configuration-desktop.html) への参照をプロジェクトに追加する必要があります。
+画像へのエクスポート機能を使用するには、[CefSharp.Wpf NuGet package (\>= 83.4.20)](~/jp/developer/setup-configuration/setup-configuration-desktop.html) への参照をプロジェクトに追加する必要があります。
 
 <a name='enable-export-revealview'></a>
 
@@ -26,13 +26,13 @@
 
 ユーザーがダッシュボードから画像、ドキュメント、プレゼンテーションを生成できるようにするためにはダッシュボードを読み込む際に関連するプロパティをtrueに設定してください。
 
-- __RevealSettings.ShowExportImage__-**画像**としてエクスポートする場合;
+- __revealView.showExportImage__ - **画像**としてエクスポートする場合;
 
-- __RevealSettings.ShowExportToPDF](api-reference__ - **PDF** ドキュメントとしてエクスポートする場合;
+- __RevealView.ShowExportToPDF__ - **PDF** ドキュメントとしてエクスポートする場合;
 
-- __RevealSettings.ShowExportToPowerpoint__ - **PowerPoint** プレゼンテーションとしてエクスポートする場合;
+- __RevealView.ShowExportToPowerpoint__ - **PowerPoint** プレゼンテーションとしてエクスポートする場合;
 
-- __RevealSettings.ShowExportToExcel__ - **Excel** データ形式でエクスポートする場合;
+- __RevealView.ShowExportToExcel__ - **Excel** データ形式でエクスポートする場合;
 
 これにより、ダッシュボードが開かれたとき、または特定の可視化が最大化されたときに、オーバーフロー メニューで [エクスポート] ボタンが使用可能になります。
 
@@ -44,7 +44,7 @@
 
 ユーザーが [エクスポート] ボタンをクリックすると、[画像としてエクスポート] ダイアログが開きます。ユーザーは 2 つのオプションから選択することができます。[クリップボードへコピー] と [画像としてエクスポート]。
 
-右下の [画像としてエクスポート] ボタンをクリックすると、RevealView は __ImageExported__ イベントを発生します。 __ImageExportedEventArgs__ の __ImageProperty__ で画像にアクセスするには、イベント ハンドラーを通してこのイベントにすでにサブスクライブしている必要があります。
+右下の [画像としてエクスポート] ボタンをクリックすると、RevealView は __ImageExported__ イベントを発生します。 __ImageExportedEventArgs__ の __ImageProperty__ で画像にアクセスするには、イベント ハンドラーを通してこのイベントにすでにサブスクライブしている必要があります。If you haven't subscribed to the event the save file dialog will be opened for the user to specify a location to save the image to.
 
 以下は ImageExported イベント ハンドラーのサンプル実装です。
 

@@ -2,7 +2,7 @@
 
 ### 概要とコード
 
-ダッシュボードを表示するには、その rdash ファイルを SDK へのストリームとして指定する必要があります。
+In order to display a dashboard, you must supply its .rdash file as a stream or as a path on the local file system to the constructor of the RVDashboard class
 
 以下のコードスニペットは、相対パス (..\\..\\Sales.rdash): から rdash ファイルを読み込む方法を示しています。
 
@@ -20,13 +20,17 @@ public partial class MainWindow : Window
         var path = @"..\..\Sales.rdash";
 
         var revealView = new RevealView();
+
+        // using a path within the file system
+        RVDashboard dashboard = new RVDashboard(path);
+
+        // using a stream to create an RVDashboard object
         using (var fileStream = File.OpenRead(path))
         {
-            var dashboard = await RevealUtility.LoadDashboard(fileStream);
-            var settings = new RevealSettings(dashboard);
-            revealView.Settings = settings;
+            dashboard = new RVDashboard(fileStream);
         }
 
+        revealView.Dashboard = dashboard;
         Grid grid = this.Content as Grid;
         grid.Children.Add(revealView);
     }

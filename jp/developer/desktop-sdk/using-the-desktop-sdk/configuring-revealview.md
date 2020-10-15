@@ -17,14 +17,9 @@ The __RevealView__ コンポーネントは、__RevealSettings__ オブジェク
 
 ``` csharp
 var revealView = new RevealView();
-using (var fileStream = File.OpenRead(path))
-{
-    var dashboard = await RevealUtility.LoadDashboard(fileStream);
-    var territoryFilter = dashboard.GetFilterByTitle("Territory");
-    var settings = new RevealSettings(dashboard);
-    settings.SetFilterSelectedValues(territoryFilter, new List<object>() { "Americas" });
-    revealView.Settings = settings;
-}
+var dashboard = new RVdashboard(path);
+dashboard.filters.GetByTitle("Territory").selectedValues = new List<object>() { "Americas" };
+revealView.Dashboard = dashboard;
 ```
 
 #### タイミングについて

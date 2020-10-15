@@ -27,10 +27,10 @@ Tooltip イベントをキャンセルするか、もしくはユーザーに表
 private void RevealView_TooltipShowing(object sender, TooltipShowingEventArgs e)
 {
        if (e.Visualization.Title == "NoNeedForTooltips")
-            {
-                 e.Cancel = true;
-            }
-             Debug.WriteLine($"TooltipShowing: Visualization: {e.Visualization.Title}, Cell: {e.Cell}, Row: {e.Row}");
+       {
+            e.Cancel = true;
+       }
+       Debug.WriteLine($"TooltipShowing: Visualization: {e.Visualization.Title}, Cell: {e.Cell}, Row: {e.Row}");
 }
 
 ```

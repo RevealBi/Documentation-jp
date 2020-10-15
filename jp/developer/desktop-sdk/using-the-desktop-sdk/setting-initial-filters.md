@@ -27,15 +27,12 @@ var revealView = new RevealView();
 
 using (var fileStream = File.OpenRead(path))
 {
-    var dashboard = await RevealUtility.LoadDashboard(fileStream);
+    var dashboard = new RVDashboard(fileStream);
 
-    var settings = new RevealSettings(dashboard);
-    settings.DateFilter = new RVDateDashboardFilter(RVDateFilterType.YearToDate);
-    settings.SetFilterSelectedValues(
-        dashboard.GetFilterByTitle("Territory"),
-        new List<object>() { CurrentUser.Territory }
-    );
-    revealView.Settings = settings;
+    dashboard.DateFilter = new RVDateDashboardFilter(RVDateFilterType.YearToDate);
+    dashboard.Filters.GetByTitle("Territory").SelectedValues = new List<object>() { CurrentUser.Territory };
+
+    revealView.Dashboard = dashboard;
 }
 ```
 
@@ -48,7 +45,7 @@ using (var fileStream = File.OpenRead(path))
 ユーザーが自分の地域以外のデータにアクセスしたくない場合があります。このような場合、ダッシュボード フィルターを含むパネルを非表示にするように __RevealView__ オブジェクトを設定することで、フィルターへのアクセスを制限できます。
 
 ``` csharp
-settings.ShowFilters = false;
+revealView.ShowFilters = false;
 ```
 
 この設定では、関連する地域のデータのみを表示するようにユーザーを制限します。

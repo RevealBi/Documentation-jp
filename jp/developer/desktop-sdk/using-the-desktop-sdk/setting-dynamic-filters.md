@@ -14,15 +14,11 @@
 ``` csharp
 private void Americas_Click(object sender, RoutedEventArgs e)
 {
-    revealView.SetFilterSelectedValues(
-        revealView.Dashboard.GetFilterByTitle("Territory"),
-        new List<object>() { "Americas" });
+    revealView.Dashboard.Filters.GetByTitle("Territory").SelectedValues = new List<object>() { "Americas" };
 }
 private void APAC_Click(object sender, RoutedEventArgs e)
 {
-    revealView.SetFilterSelectedValues(
-        revealView.Dashboard.GetFilterByTitle("Territory"),
-        new List<object>() { "APAC" });
+    revealView.Dashboard.Filters.GetByTitle("Territory").SelectedValues = new List<object>() { "APAC" };
 }
 ```
 
@@ -40,14 +36,11 @@ __RevealUtility.GetFilterValues__ を使用して、特定のフィルター値�
 using (var stream = File.OpenRead(@"..\..\Sales.rdash"))
 {
     var dashboard = await RevealUtility.LoadDashboard(stream);
-    var settings = new RevealSettings(dashboard);
 
-    revealView.Settings = settings;
-
-    var filterValues = await RevealUtility.GetFilterValues(
-        dashboard,
-        dashboard.GetFilterByTitle("Territory"));
+    var filterValues = await dashboard.Filters.GetByTitle("Territory").GetFilterValuesAsync();
     var territories = filterValues.ToList();
+
+    revealView.Dashboard = dashboard;
 
     foreach (var t in territories)
     {
@@ -71,9 +64,8 @@ private void CmbTerritories_SelectionChanged(object sender, SelectionChangedEven
     {
         selectedItems.Add(filterValue.Value);
     }
-    revealView.SetFilterSelectedValues(
-         revealView.Dashboard.GetFilterByTitle("Territory"),
-         selectedItems);
+
+    await dashboard.Filters.GetByTitle("Territory").SelectedItems = selectedItems;
 }
 ```
 
@@ -86,7 +78,7 @@ private void CmbTerritories_SelectionChanged(object sender, SelectionChangedEven
 定義済みフィルターの 1 つを設定するには、次のようなコードを使用できます。
 
 ``` csharp
-revealView.SetDateFilter(new RVDateDashboardFilter(RVDateFilterType.YearToDate));
+revealView.Dashboard.DateFilter = new RVDateDashboardFilter(RVDateFilterType.YearToDate);
 ```
 
 すべての定義済み日付フィルターのリストが必要な場合は、API リファレンスの
@@ -97,10 +89,10 @@ __RVDateFilterType__ を参照してください。
 たとえば過去 15 日間のカスタム範囲を設定する場合、以下のようなコードを使用できます。
 
 ``` csharp
-revealView.SetDateFilter(
+revealView.Dashboard.DateFilter = 
     new RVDateDashboardFilter(
         RVDateFilterType.CustomRange,
-        new RVDateRange(DateTime.UtcNow.AddDays(-15), DateTime.UtcNow)
+         new RVDateRange(DateTime.UtcNow.AddDays(-15), DateTime.UtcNow)
 ));
 ```
 

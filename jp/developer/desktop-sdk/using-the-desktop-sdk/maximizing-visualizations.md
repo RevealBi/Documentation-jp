@@ -16,8 +16,8 @@ Desktop SDK は、ダッシュボードをユーザーに表示する際に最�
 
 ### 可視化の最大化
 
-最大化された可視化でダッシュボードを開くには、__RevealSettings__ の __MaximizedVisualization__ 属性を使用する必要があります。 
-この属性に視覚化を設定しないと、ダッシュボード全体が表示されます。この属性に可視化を設定しないと、ダッシュボード全体が表示されます。
+To open a dashboard with a maximized visualization, you need to use the __MaximizedVisualization__ property of __RevealView__ after you have assigned the revealView.Dashboard property. 
+この属性に視覚化を設定しないと、ダッシュボード全体が表示されます。
 
 
 [**RevealView オブジェクトの設定**](configuring-revealview.html)に示すように、ページに特定のダッシュボードを表示できます。 今回は、__MaximizedVisualization__ 属性を設定する必要があります。以下のコード スニペットに示すように、可視化 Sales を使用してください。
@@ -26,11 +26,9 @@ Desktop SDK は、ダッシュボードをユーザーに表示する際に最�
 var revealView = new RevealView();
 using (var fileStream = File.OpenRead(path))
 {
-    var dashboard = await RevealUtility.LoadDashboard(fileStream);
-
-    var settings = new RevealSettings(dashboard);
-    settings.MaximizedVisualization = dashboard.GetVisualizationByTitle("Sales");
-    revealView.Settings = settings;
+    var dashboard = new RVDashboard(fileStream);
+    revealView.Dashboard = dashboard;
+    revealView.MaximizedVisualization = dashboard.Visualizations.GetByTitle("Sales");
 }
 ```
 
@@ -45,10 +43,10 @@ __SingleVisualizationMode__
 プロパティを true に設定します。
 
 ``` csharp
-settings.SingleVisualizationMode = true;
+revealView.SingleVisualizationMode = true;
 ```
 
-この 1 行を追加すると、ダッシュボードは単一の視覚化ダッシュボードとして機能します。各部門のホームページでも同じことができます。__GetVisualizationByTitle__ の可視化のタイトルを適切なタイトルに置き換えてください。
+この 1 行を追加すると、ダッシュボードは単一の視覚化ダッシュボードとして機能します。各部門のホームページでも同じことができます。__dashboard.Visualizations.GetByTitle()__ の可視化のタイトルを適切なタイトルに置き換えてください。
 
 
 #### ロックされた可視化を動的に変更
@@ -56,12 +54,14 @@ settings.SingleVisualizationMode = true;
 ページを再ロードせずに、表示されている単一の表示形式を動的に変更することもできます。ユーザーの観点から見ると、アプリは部門のセレクターと最大化された視覚化を備えた単一ページのアプリケーションになります。ユーザーがリストから 1 つの部門を選択すると、最大化された視覚化が更新されます。
 
 以下では、
-__RevealView__ の __MaximizeVisualization__ メソッドを使用してこのシナリオを実現できます。
+__RevealView__ の __MaximizeVisualization__ メソッドを使用するか、__MaximizedVisualization__ プロパティを設定してこのシナリオを実現できます。
 
 ``` csharp
 private void MaximizeVisualization(string title)
         {
-            revealView.MaximizeVisualization(revealView.Dashboard.GetVisualizationByTitle(title));
+            revealView.MaximizeVisualization(revealView.Dashboard.Visualizations.GetTitle(title));
+            //or set the property
+            revealView.MaximizedVisualization = revealView.Dashboard.Visualizations.GetTitle(title);
         }
 ```
 

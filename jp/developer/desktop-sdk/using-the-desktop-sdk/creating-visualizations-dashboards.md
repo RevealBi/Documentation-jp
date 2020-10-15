@@ -34,8 +34,8 @@ private void RevealView_DataSourcesRequested(object sender, DataSourcesRequested
     sqlDs.Database = "Invoices";
 
     e.Callback(new RevealDataSources(
-            new List<object>() { sqlDs },
-            new List<object>() { inMemoryDSI },
+            new List<RVDashboardDataSource> { sqlDs },
+            new List<RVDataSourceItem> { inMemoryDSI },
             false));
 }
 ```
@@ -54,11 +54,14 @@ RVInMemoryDataSourceItem コンストラクタに渡される employees パラ�
 
 ### 新しいダッシュボードの作成
 
-以下の手順でダッシュボードを簡単に作成できます。RevealSettings で指定された null のダッシュボード値を使用し、__RevealUtility.LoadDashboard__ を使用せずに、__RevealView__ と __RevealSettings__ オブジェクトを初期化するだけです。
+以下の手順でダッシュボードを簡単に作成できます。You just need to initialize __RevealView__. Usually when providing the users the capability to create a dashboard from scratch you would want to open the empty dashboard directly in edit mode so the user could start editing it straight away. 
 
 ``` csharp
-revealView.Settings = new RevealSettings(null);
+revealView = new RevealView();
+revealView.StartInEditMode = true;
 revealView.DataSourcesRequested += RevealView_DataSourcesRequested;
+
+revealView.Dashboard = new RVDashboard();
 ```
 
 SDK とともに配布されている UpMedia WPF アプリケーションに、*EmptyDashboard.xaml.cs* の実用的な例があります。

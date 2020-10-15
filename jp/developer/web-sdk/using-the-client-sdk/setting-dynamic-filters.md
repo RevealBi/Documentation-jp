@@ -44,7 +44,7 @@
 
 アメリカ大陸、アジア太平洋地域、インドなどの地域は時間の経過とともに変化しませんが、他の値の一覧は変化する可能性があります。この場合、新しい地域がリストに追加されても、新しいボタンは自動的に追加されません。
 
-__$.ig.RVRVDashboardFilter.getFilterValues__ メソッドを使用して特定のフィルター値の一覧を取得することができます。この場合、次の呼び出しは \_window.territories\</emphasis\> に 5 つの __$.ig.RVFilterValue__ オブジェクトを含む配列を残します。
+__$.ig.RVDashboardFilter.getFilterValues__ メソッドを使用して特定のフィルター値の一覧を取得することができます。この場合、次の呼び出しは \_window.territories\</emphasis\> に 5 つの __$.ig.RVFilterValue__ オブジェクトを含む配列を残します。
 
 ``` js
 var filter = window.revealView.dashboard.getByTitle('Territory');

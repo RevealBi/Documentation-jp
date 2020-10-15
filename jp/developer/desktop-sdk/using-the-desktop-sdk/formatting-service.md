@@ -28,7 +28,7 @@ data](images/initial-state-visualization-formatting-numeric-data.png)
 1.  1. ダッシュボード データの書式を許可するには、**FormattingProvider** プロパティをカスタム実装に設定します。
 
     ``` csharp
-    RevealView.FormattingProvider = new UpMediaFormattingProvider();
+    RevealSdkSettings.FormattingProvider = new UpMediaFormattingProvider();
     ```
 
 2.  **IRVFormattingProvider** プロバイダーを実装します。

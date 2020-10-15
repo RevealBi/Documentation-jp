@@ -49,7 +49,7 @@ Reveal アプリは、ダッシュボードを作成して表示し、チーム�
 
 ダミーのデータではなくカスタムのデータを使ってダッシュボードを可視化する必要があります。
 
-1.  [**データ ソースの置き換え**](replacing-data-sources.html)を参照して、__IRVDataSourceProvider__ を実装し、__RevealView__ の __DataSourceProvider__ プロパティに設定します。
+1.  [**データ ソースの置き換え**](replacing-data-sources.html)を参照して、__IRVDataSourceProvider__ を実装し、__RevealSdkSettings__ の __DataSourceProvider__ プロパティに設定します。
 
     次に、メソッド __ChangeVisualizationDataSourceItemAsync__ の実装では、次のようなコードを追加する必要があります。
 

@@ -33,7 +33,7 @@ Marketing サンプルの初期状態:
     **LocalizationProvider** プロパティを設定する必要があります。
 
     ``` csharp
-    RevealView.LocalizationProvider = new UpMediaLocalizationProvider()
+    RevealSdkSettings.LocalizationProvider = new UpMediaLocalizationProvider()
     ```
 
 2.  **IRVLocalizationProvider** の実装:

@@ -33,7 +33,7 @@ private async void RevealView_SaveDashboard(object sender, DashboardSaveEventArg
 保存操作を処理したくない場合は、次の設定でダッシュボードを編集するオプションをオフにすることができます。
 
 ``` csharp
-revealSettings.CanEdit = false;
+revealView.CanEdit = false;
 ```
 
 この方法は、たとえば、ユーザーが変更を加えることを想定していない場合に便利です。
