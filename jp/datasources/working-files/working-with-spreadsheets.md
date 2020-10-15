@@ -123,4 +123,4 @@ Microsoft Excel および Google スプレッドシートを使用する場合�
 ### 関連項目
 
 一般的な使用例として、クラウド ファイル共有サービスにあるスプレッドシートでのダッシュボードの構築があります。
-これらのダッシュボードを他のユーザーと正常に共有する方法については、[クラウド ファイルをデータソースとして使用してダッシュボードを共有する](~/jp/dashboards/sharing-dashboards/sharing-dashboards-datasource-files-cloud-provider.html)をご覧ください。
+これらのダッシュボードを他のユーザーと正常に共有する方法については、「[クラウド ファイルをデータソースとして使用してダッシュボードを共有する](~/jp/dashboards/sharing-dashboards/sharing-dashboards-datasource-files-cloud-provider.html)」トピックをご覧ください。

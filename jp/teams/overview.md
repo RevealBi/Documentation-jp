@@ -6,7 +6,7 @@ Reveal チームの機能:
 
   - グループの作業を**チームのダッシュボード** セクションで整理 - ダッシュボードを作成して他のメンバーと直接共有し、メンバーのダッシュボードを表示および編集します。
 
-  - チームのダッシュボードを他のチームや Reveal のユーザーと[**共有します**](~/jp/sharing-dashboards/sharing-dashboards.html)。
+  - チームのダッシュボードを他のチームや Reveal のユーザーと[**共有します**](~/jp/dashboards/sharing-dashboards/share-a-dashboard.html)。
 
   - すべてのチーム メンバーを個別のアクセス レベルを持つ [**3 つのメンバー役割**](#members-roles-permissions)の 1 つに割り当て、機密情報を含むダッシュボードを保護します。
 

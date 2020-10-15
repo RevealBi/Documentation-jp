@@ -5,6 +5,6 @@
 
 <img src="images/text-view-visualization-editor.png" alt="Text View in the Visualization editor" width="80%"/>
 
-[このセクション](conditional-formatting.html)で説明されているように**テキスト ビューは条件付き書式をサポートします**。
+[このセクション](~/jp/data-visualizations/fields/conditional-formatting.html)で説明されているように**テキスト ビューは条件付き書式をサポートします**。
 
 <img src="images/text-view-conditional-formatting.png" alt="TextViewConditionalFormatting\_All" width="80%"/>

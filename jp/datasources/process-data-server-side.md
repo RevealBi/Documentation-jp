@@ -14,9 +14,9 @@ Reveal で利用可能なデータソースの一部では、サーバー上で�
 
 サーバーでのデータ処理は、次のデータソースに対して**有効**にできるオプションです。 
 
-* [MS SQL Server](microsoft-sql-server.html)
-* [MySQL](mysql.html)
-* [PostgreSQL](postgresql.html)
+* [MS SQL Server](supported-data-sources/microsoft-sql-server.html)
+* [MySQL](supported-data-sources/mysql.html)
+* [PostgreSQL](supported-data-sources/postgresql.html)
 
 ### サーバー上でデータを処理を有効にする方法は?
 
