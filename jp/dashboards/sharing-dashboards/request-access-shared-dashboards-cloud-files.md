@@ -10,7 +10,7 @@
 
 <img src="images/message-deleted-source-file.png" alt="Message in Reveal: Can't access this data" width="80%"/>
 
-ファイルへのアクセス権が**取り消された**場合は、次のように表示されます。
+ファイルへのアクセス許可が**取り消された**場合は、次のように表示されます。
 
 <img src="images/request-access-button.png" alt="configure Google drive and request access options when access denied" width="80%"/>
 

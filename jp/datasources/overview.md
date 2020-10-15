@@ -26,7 +26,7 @@
 
    - [Amazon Redshift](~/jp/datasources/supported-data-sources/redshift.html)
 
-   - [Box](~/jp/datasources/supported-data-sourcesbox.html)
+   - [Box](~/jp/datasources/supported-data-sources/box.html)
 
    - [Dropbox](~/jp/datasources/supported-data-sources/dropbox.html)
 
@@ -40,7 +40,7 @@
   
    - [Marketo](~/jp/datasources/supported-data-sources/marketo.html)
 
-   - [Microsoft Analysis Services](~/jp/datasources/supported-data-sources/microsoft-analysis-services/configuring-microsoft-analysis-services.html)*
+   - [Microsoft Analysis Services](~/jp/datasources/supported-data-sources/microsoft-analysis-services/microsoft-analysis-services.html)*
   
    - [Microsoft Azure Analysis Services](~/jp/datasources/supported-data-sources/microsoft-azure-analysis-services.html)
 
@@ -78,7 +78,7 @@
 
    - [JSON ファイル](~/jp/datasources/working-files/working-with-json-files.html)
 
-   - [スプレッドシート]((~/jp/datasources/working-files/working-with-spreadsheets.html))
+   - [スプレッドシート](~/jp/datasources/working-files/working-with-spreadsheets.html)
 
 >[NOTE]
 > **データベース**は Reveal の Web バージョンでサポートされていません。

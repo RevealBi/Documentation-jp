@@ -28,7 +28,7 @@
 
 
 <a name='cloud-data-source-file'></a>
-### クラウド ファイルをデータソースとして選択する場合のアクセス権の付与
+### クラウド ファイルをデータソースとして選択する場合のアクセス許可の付与
 
 データソースを選択した時点でクラウド ファイルへのアクセスを許可して、表示形式を構築できます。[サポートされているクラウド プロバイダー](#cloud-providers)のいずれかにアップロードされたファイルを選択すると、次のダイアログが表示されます。
 
@@ -49,7 +49,7 @@
 
     <img src="images/grant-access-share-dashboard-dialog.png" alt="A dialog to grant access to cloud file data sources" width="80%"/>
 
-    *[アクセスを許可]*をクリック/タップして、[ダッシュボードを共有する](share-a-dashboards.html)ユーザーの選択に進みます。
+    *[アクセスを許可]*をクリック/タップして、[ダッシュボードを共有する](share-a-dashboard.html)ユーザーの選択に進みます。
 
 
 >[!NOTE] **アクセスは許可されていません。**

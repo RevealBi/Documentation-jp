@@ -1,6 +1,6 @@
 ## 条件付き書式
 
-条件付き書式を使用して数値列の値に応じて、セル  (または[テキス トビュー](~/jp/data-visualizations/visualization-typestext-view.html))の行に異なる書式を設定できます。たとえば、グリッドの下位 50% 範囲内の値は、非常に低い値を通知する赤色のアドナーで色を付けることができます。
+条件付き書式を使用して数値列の値に応じて、セル  (または[テキス トビュー](~/jp/data-visualizations/visualization-types/text-view.html))の行に異なる書式を設定できます。たとえば、グリッドの下位 50% 範囲内の値は、非常に低い値を通知する赤色のアドナーで色を付けることができます。
 
 <img src="images/pivot-table-view-conditional-formatting.png" alt="Pivot table view conditional formatting in the Visualization editor" width="80%"/>
 

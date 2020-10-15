@@ -63,7 +63,7 @@ KPI ゲージは、特定の期間内のパフォーマンスとその変動を�
 このチュートリアルでは、[Reveal チュートリアル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx)の [KPI ビュー] のシートを使用します。
 
 >[!NOTE]
->このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされている[クラウド サービス](data-sources.html)のいずれかにファイルをアップロードするか、[Web リソース](web-resource.html)として追加してください。
+>このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[Web リソース](web-resource.html)として追加してください。
 
 <a name='creating-kpi-gauge'></a>
 ### KPI ゲージを作成

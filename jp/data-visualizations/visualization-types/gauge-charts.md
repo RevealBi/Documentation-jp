@@ -1,7 +1,7 @@
 ## ゲージ ビュー
 
 
-ゲージ ビューは単一値を表示します。または、それらを範囲しきい値と比較した値のリストを表示します。ゲージはまた、他の範囲の条件付き書式設定を可能にします。5 つの異なるスタイルがあります: [リニア](linear-gauge.html)、[円形](circular-gauge.html)、[テキスト](text-gauge.html)、[KPI](kpi-gauge.html)、[ブレット グラフ](bullet-graph.html)。
+ゲージ ビューは単一値を表示します。または、それらを範囲しきい値と比較した値のリストを表示します。ゲージはまた、他の範囲の条件付き書式設定を可能にします。5 つの異なるスタイルがあります: [リニア](#linear-gauge)、[円形](#circular-gauge)、[テキスト](#text-gauge)、[KPI](kpi-gauge.html)、[ブレット グラフ](#bullet-graph)。
 
 <a name='linear-gauge'></a>
 ### リニア ゲージ
