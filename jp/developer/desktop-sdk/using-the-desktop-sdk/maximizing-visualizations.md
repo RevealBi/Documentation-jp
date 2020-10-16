@@ -16,7 +16,7 @@ Desktop SDK は、ダッシュボードをユーザーに表示する際に最�
 
 ### 可視化の最大化
 
-To open a dashboard with a maximized visualization, you need to use the __MaximizedVisualization__ property of __RevealView__ after you have assigned the revealView.Dashboard property. 
+最大化された可視化でダッシュボードを開くには、revealView.Dashboard プロパティを割り当てた後、__RevealView__ の __MaximizedVisualization__ プロパティを使用する必要があります。
 この属性に視覚化を設定しないと、ダッシュボード全体が表示されます。
 
 

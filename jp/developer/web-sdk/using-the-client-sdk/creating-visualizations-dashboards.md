@@ -21,15 +21,15 @@
 ``` js
 window.revealView.onDataSourcesRequested = function (callback) {
     var inMemoryDSI = new $.ig.RVInMemoryDataSourceItem("employees");
-    inMemoryDSI.title("Employees");
-    inMemoryDSI.description("Employees");
+    inMemoryDSI.title = "Employees";
+    inMemoryDSI.description = "Employees";
 
     var sqlDs = new $.ig.RVSqlServerDataSource();
-    sqlDs.title("Clients");
-    sqlDs.id("SqlDataSource1");
-    sqlDs.host("db.mycompany.local");
-    sqlDs.port(1433);
-    sqlDs.database("Invoices");
+    sqlDs.title = "Clients";
+    sqlDs.id = "SqlDataSource1";
+    sqlDs.host = "db.mycompany.local";
+    sqlDs.port = 1433;
+    sqlDs.database ="Invoices";
 
     callback(new $.ig.RevealDataSources([sqlDs], [inMemoryDSI], false));
 };
@@ -56,7 +56,7 @@ RVInMemoryDataSourceItem コンストラクタに渡される employees パラ�
 ``` js
 var revealView = new $.ig.RevealView("#revealView");
 revealView.startInEditMode = true;
-revealView.dashboard = new $.ig.RVDashboard;
+revealView.dashboard = new $.ig.RVDashboard();
 ```
 
 SDK とともに配布されている UpMedia ウェブ アプリケーションに、**CreateDashboard.cshtml** の実用的な例が含まれます。

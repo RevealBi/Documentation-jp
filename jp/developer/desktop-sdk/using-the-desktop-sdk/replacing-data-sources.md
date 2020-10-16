@@ -4,7 +4,7 @@
 
 ダッシュボードのデータを (Reveal SDKによって) ロードして処理する前に、ダッシュボードの各視覚化に使用される構成またはデータをオーバーライドできます。
 
-You would need to set the DataSourceProvider property of __RevealSdkSettings__:
+__RevealSdkSettings__ の DataSourceProvider プロパティを設定する必要があります:
 
 ``` csharp
 public IRVDataSourceProvider DataSourceProvider { get; set; }

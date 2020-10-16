@@ -44,7 +44,7 @@
 
 ユーザーが [エクスポート] ボタンをクリックすると、[画像としてエクスポート] ダイアログが開きます。ユーザーは 2 つのオプションから選択することができます。[クリップボードへコピー] と [画像としてエクスポート]。
 
-右下の [画像としてエクスポート] ボタンをクリックすると、RevealView は __ImageExported__ イベントを発生します。 __ImageExportedEventArgs__ の __ImageProperty__ で画像にアクセスするには、イベント ハンドラーを通してこのイベントにすでにサブスクライブしている必要があります。If you haven't subscribed to the event the save file dialog will be opened for the user to specify a location to save the image to.
+右下の [画像としてエクスポート] ボタンをクリックすると、RevealView は __ImageExported__ イベントを発生します。 __ImageExportedEventArgs__ の __ImageProperty__ で画像にアクセスするには、イベント ハンドラーを通してこのイベントにすでにサブスクライブしている必要があります。イベントをサブスクライブしていない場合は、ファイルの保存ダイアログが開き、ユーザーは画像を保存する場所を指定できます。
 
 以下は ImageExported イベント ハンドラーのサンプル実装です。
 

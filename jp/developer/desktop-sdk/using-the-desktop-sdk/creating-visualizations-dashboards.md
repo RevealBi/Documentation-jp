@@ -54,7 +54,7 @@ RVInMemoryDataSourceItem コンストラクタに渡される employees パラ�
 
 ### 新しいダッシュボードの作成
 
-以下の手順でダッシュボードを簡単に作成できます。You just need to initialize __RevealView__. Usually when providing the users the capability to create a dashboard from scratch you would want to open the empty dashboard directly in edit mode so the user could start editing it straight away. 
+以下の手順でダッシュボードを簡単に作成できます。__RevealView__ を初期化するだけです。通常、ユーザーにダッシュボードを最初から作成する機能を提供する場合は、空のダッシュボードを編集モードで直接開いて、ユーザーがすぐに編集を開始できるようにします。 
 
 ``` csharp
 revealView = new RevealView();

@@ -2,7 +2,7 @@
 
 ### 概要とコード
 
-In order to display a dashboard, you must supply its .rdash file as a stream or as a path on the local file system to the constructor of the RVDashboard class
+ダッシュボードを表示するには、その .rdash ファイルをストリームとして、またはローカル ファイル システム上のパスとして RVDashboard クラスのコンストラクターに提供する必要があります。
 
 以下のコードスニペットは、相対パス (..\\..\\Sales.rdash): から rdash ファイルを読み込む方法を示しています。
 
