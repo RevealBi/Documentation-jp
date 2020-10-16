@@ -22,7 +22,7 @@ Amazon Athena のデータソースを設定するには、以下の情報が必
 5. *(オプション)* **クエリ結果の場所**:  これは、クエリの結果が保存される *Amazon S3* のディレクトリです。有効な *S3* パスを指定する必要があります (例: *s3://query-results-bucket/folder/*)。このダイアログでパスを明示的に指定しない場合、結果は選択された/デフォルトのワークグループで指定された出力場所に保存されます。ワークグループに出力場所が作成されていない場合、Athena クエリは失敗します。
 
    >[!NOTE]
-   > Reveal でクエリ結果の場所 (QRL) を指定したが、この場所で出力が見つからない場合は、カスタム QRL を使用できないようにする設定について、Athena のワークグループ構成を確認してください。詳細については、Athena のユーザーガイドの[クエリ結果の場所の指定](https://docs.aws.amazon.com/athena/latest/ug/querying.html#query-results-specify-location)を参照してください。 
+   > Reveal でクエリ結果の場所 (QRL) を指定したが、この場所で出力が見つからない場合は、カスタム QRL を使用できないようにする設定について、Athena のワークグループ構成を確認してください。詳細については、Athena のユーザーガイドの[クエリ結果の場所の指定](https://docs.aws.amazon.com/ja_jp/athena/latest/ug/querying.html#query-results-specify-location)を参照してください。 
 
 6. **アテネ データ ソース**:  データベースを含む データ カタログとしても知られています。Athena アカウントに接続した後に表示されるリストから選択できます (手順 1-3 を参照)。 
 
@@ -32,7 +32,7 @@ Athena データソース接続を構成した後、前のダイアログで選�
 
 <img src="images/athena-set-up-database-views.png" alt="Configure Amazon Athena dialog" width="80%"/>
 
-データベースを選択した後、その中の*テーブル*または[*ビュー*](https://docs.aws.amazon.com/athena/latest/ug/views.html)から選択できます。 
+データベースを選択した後、その中の*テーブル*または[*ビュー*](https://docs.aws.amazon.com/ja_jp/athena/latest/ug/views.html)から選択できます。 
 
 上記のスクリーンショットの **motor_vehicle_collisions_time** ビューには、Athena の **motor_vehicle_collisions** テーブルにあるデータの変更バージョンが含まれています。 
 以下のスクリーンショットでは、左側の表示形式はテーブルのデータを使用して構築され、右側の表示形式はビューに含まれるデータを使用しています。
