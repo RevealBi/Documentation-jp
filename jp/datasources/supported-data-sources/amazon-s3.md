@@ -1,29 +1,29 @@
 ## Amazon S3
 
-Amazon Simple Storage Service (S3) is a highly scalable and fast data storage service. Adding Amazon S3 to your data sources allows you to access and analyze your data from S3 directly in Reveal.
+Amazon Simple Storage Service (S3) は、拡張性が高く高速なデータ ストレージ サービスです。Amazon S3 をデータソースに追加すると、Reveal で S3 から直接データにアクセスして分析できます。
 
-To configure an Amazon S3 data source, you will need to enter the following information:
+Amazon S3 データソースを設定するには、次の情報を入力する必要があります:
 
 <img src="images/configure-amazon-s3-dialog.png" alt="Configure Amazon Athena dialog" width="80%"/>
 
-1.  **Default name** of the data source: Your data source name will be displayed in the list of accounts in the _Select a Data Source_ dialog. By default, Reveal names it *Amazon S3*. You can change it to your preference.
+1.  データソースの **デフォルト名**: データソース名は [データソースの選択] ダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Amazon S3* という名前を付けます。好みに合わせて変更できます。
    
-2. **Region**: Amazon regions are listed with their names and codes in the dropdown. Choose the one where the data you need is located.  
+2. **地域**: Amazon の地域は、ドロップダウンに名前とコードとともに一覧表示されます。必要なデータがある場所を選択してください。  
 
-3. **Credentials**: here you will be asked to provide the root or IAM user credentials: 
+**資格情報**: ここでは、ルートまたは IAM ユーザーの資格情報を提供するように求められます。 
    
-   * *Access Key*
-   * *Secret Key* 
+   * *アクセス キー*
+   * *シークレット キー* 
 
-   Add your credentials and click/tap the _Create and Use_ blue button.
+   資格情報を追加し、[作成して使用] の青いボタンをクリック/タップします。
 
-   For more information about the AWS credentials, please take a look at this [Amazon article](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html).
+   AWS 資格情報の詳細については、この [Amazon 記事](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html)をご覧ください。
 
-4. Upon successful connection, you will be returned to the previous dialog where the _Continue_ blue button becomes available. After clicking/tapping it, you can start browsing your directories and files in Amazon S3. 
+4. 接続に成功すると、前のダイアログに戻り、[続行] の青いボタンが使用可能になります。クリック/タップすると、Amazon S3 でディレクトリとファイルの閲覧を開始できます。
 
-### Supported Files
+### サポートされるファイル
 
-When working within Reveal, you will be able to use a wide variety of files from your Amazon S3 directories:
+Reveal では、Amazon S3 のディレクトリの広範な種類のファイルを使用できます。
 
-* *Spreadsheets, JSON files & tabular data* (Excel - .xls, .xlsx; CSV, TSV), which you can use dynamically within Reveal to create chart visualizations.
-* *Other files* (including images or document files such as PDFs, texts, etc.), which will be displayed in a preview mode only.
+* **スプレッドシート、JSON ファイルおよび表形式データ** (Excel - .xls、.xlsx、CSV、TSV) を Reveal 内で動的に使用して、チャートの表示形式を作成できます。
+* **その他のファイル**はプレビュー モードのみで表示されます (画像および PDF やテキストなどのドキュメント ファイルを含む)。
