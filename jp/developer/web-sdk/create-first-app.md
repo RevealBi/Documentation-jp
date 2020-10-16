@@ -162,7 +162,7 @@ Marketing ダッシュボードを選択し、**編集モード**に入ります
     }
 ```
 
-Let’s add some references to scripts & css files for some third party dependencies of Reveal in **\_Layout.cshtml** :
+**\_Layout.cshtml** にある Reveal のサードパーティの依存関係について、スクリプトと css ファイルへの参照をいくつか追加しましょう:
 
 ``` html
    <script src="https://unpkg.com/dayjs"></script>

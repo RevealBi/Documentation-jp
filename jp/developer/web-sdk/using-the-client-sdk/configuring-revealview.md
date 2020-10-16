@@ -2,7 +2,7 @@
 
 ### 概要
 
-The __$.ig.RevealView__ component can be instantiated while passing the selector pointing to the dom element where the reveal view should be rendered.
+__$.ig.RevealView__ コンポーネントは、Reveal ビューを描画する必要がある dom 要素を指すセレクターを渡してインスタンス化できます。
 
 **RevealSettings** オブジェクトを使用して、エンドユーザーに対するさまざまな機能を有効または無効にすることができます。
 

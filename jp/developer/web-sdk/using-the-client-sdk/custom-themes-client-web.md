@@ -17,13 +17,13 @@ Reveal で独自のテーマを作成するのは、新しい __$.ig.RevealTheme
 
 新しい __$.ig.RevealTheme__ インスタンスを作成すると、各設定のデフォルト値が取得され、必要に応じてそれらを変更できます。
 
-Then, pass the theme instance to the __$.ig.RevealSdkSettings__'s class static theme property. If you have a dashboard or another Reveal component already displayed on your screen, you will need to render it again(set the dashboard property again) in order to see the applied changes.
+次に、テーマ インスタンスを __$.ig.RevealSdkSettings__ のクラスの静的テーマ プロパティに渡します。画面にダッシュボードまたは別の Reveal コンポーネントがすでに表示されている場合は、適用された変更を表示するために、再度描画する (ダッシュボード プロパティを再度設定する) 必要があります。
 
 ### 一般的なユース ケース: カスタム テーマの変更
 
 すでに独自のテーマを適用しているが、他に加えた変更を失わずに一部の設定を変更したい場合があります。
 
-In this case, you need to get the theme static property from the __$.ig.RevealSdkSettings__. このメソッドを使用すると、RevealTheme 設定に最後に設定した値を取得できます。RevealTheme の新しいインスタンスを最初から作成する場合とは異なり、変更を適用してテーマを再度更新すると、デフォルト値ではなく、変更していない各設定の最新の値が取得されます。
+この場合、__$.ig.RevealSdkSettings__ からテーマの静的プロパティを取得する必要があります。このメソッドを使用すると、RevealTheme 設定に最後に設定した値を取得できます。RevealTheme の新しいインスタンスを最初から作成する場合とは異なり、変更を適用してテーマを再度更新すると、デフォルト値ではなく、変更していない各設定の最新の値が取得されます。
 
 ### コード例
 

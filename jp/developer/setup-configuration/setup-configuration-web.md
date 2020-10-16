@@ -201,7 +201,7 @@ JavaScript ファイル は \<InstallationDirectory\>\\SDK\\Web\\JS\\Client に�
 
 2.  **\$.ig.RVDashboard.loadDashboard** を呼び出して _dashboardId_ と成功およびエラー ハンドラを指定します。
 
-3.  In the success handler instantiate the **\$.ig.RevealView** component by passing a selector for the DOM element where the dashboard should be rendered into. Finally you should use the retrieved dashboard and set it to the dashboard property of the **\$.ig.RevealView**
+3.  成功ハンドラーで、ダッシュボードが描画される DOM 要素のセレクターを渡すことにより、**\$.ig.RevealView** コンポーネントをインスタンス化します。最後に、取得したダッシュボードを使用し、**\$.ig.RevealView** のダッシュボード プロパティに設定する必要があります。
 
 #### サンプル コード
 

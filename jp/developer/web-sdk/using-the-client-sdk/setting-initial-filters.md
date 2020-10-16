@@ -20,7 +20,7 @@
   - 過去 1 年間 (過去365日の代わりとなる、このダッシュボードのデフォルト設定)。
   - 現在のユーザーの地域に関連付けられている売上。
 
-As part of the initialization process and once the dashboard is loaded, you can retrieve the list of filters in the dashboard and use these filters to set the selected values though the dashboard object and finally assign it to the revealView's dashboard property:
+初期化プロセスの一部として、ダッシュボードがロードされたら、ダッシュボード内のフィルターのリストを取得し、これらのフィルターを使用して、ダッシュボード オブジェクトを介して選択した値を設定し、最後にそれを revealView のダッシュボード プロパティに割り当てることができます。 
 
 ``` html
 <script type="text/javascript">
