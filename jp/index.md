@@ -53,13 +53,12 @@ Reveal で BigQuery または Azure Machine Learning Studio からのトレー�
 
 ### 新機能
 
-* [Amazon Redshift](~/en/datasources/supported-data-sources/redshift.html) データソース – Amazon Redshift クラウド データ ウェアハウスのデータを使用して、新しいインサイトを得ることができます。
-* [Marketo](~/en/datasources/supported-data-sources/marketo.html) データソース – Marketo マーケティング プラットフォームのアカウントに接続し、データを Reveal で使用します。
-* [サーバーでデータを処理する](~/en/datasources/process-data-server-side.html)機能 – MS SQL、MySQL、Postgres データソースからのデータをサーバー側で集計することが可能です。
+* [Amazon Athena](~/jp/datasources/supported-data-sources/athena.md) データソース – Amazon Athena に接続して Amazon S3 からデータをクエリし、それを使用して Reveal で表示形式を構築できるようになりました。
+* [Amazon S3](~/jp/datasources/supported-data-sources/amazon-s3.md) データソース – Reveal で Amazon S3 から直接データにアクセスできるようになりました。
 
 ### Reveal に追加予定
 
-追加予定...
+**散布図**表示形式! We are looking forward to presenting you with another map visualization that will give you more insight for your geospatial data. Coming with an added capability to connect to a number of mapping services to use as a background.
 
 ### Reveal はどこで入手できますか?
 

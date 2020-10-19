@@ -14,6 +14,14 @@
     <th class="tg-cly1"><span style="font-weight:bold">Reveal バージョン</span></th>
     <th class="tg-cly1"><span style="font-weight:bold">説明</span></th>
   </tr>
+     <tr>
+    <td class="tg-0lax" rowspan="2">1.0.14</td>
+    <td class="tg-cly1"><span style="font-style:italic">新しい Amazon Athena データソース</span><br>Amazon Athena に接続して Amazon S3 からデータをクエリし、それを使用して Reveal で表示形式を構築できるようになりました。
+</td>
+<tr>
+    <td class="tg-cly1"><span style="font-style:italic">新しい Amazon S3 データソース</span><br>Reveal で Amazon S3 から直接データにアクセスします。
+</td>
+  </tr>
    <tr>
     <td class="tg-0lax" rowspan="3">1.0.13</td>
     <td class="tg-cly1"><span style="font-style:italic">新規の Amazon Redshift データソース</span><br>Amazon Redshift クラウド データ ウェアハウスのデータを使用して、新しいインサイトを得ることができます。
