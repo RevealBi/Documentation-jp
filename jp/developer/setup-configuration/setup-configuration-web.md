@@ -54,7 +54,7 @@ Infragistics (Local) フィードがインストーラーによって正しく�
 必要な DLL を参照後、**IRevealSdkContext** インターフェイスを実装するクラスを作成する必要があります。このインターフェイスは、Reveal SDK をアプリケーション内で実行できるようにし、SDK を操作するためのコールバックを提供します。
 
 ```csharp
-using Infragistics.Sdk;
+using Reveal.Sdk;
 public class RevealSdkContext : IRevealSdkContext
 {
     public IRVDataSourceProvider DataSourceProvider => null;
@@ -95,7 +95,7 @@ public class RevealSdkContext : IRevealSdkContext
 **Startup.cs** のアプリケーションの **ConfigureServices** メソッドで
 \_RevealEmbedSettings\_ クラスを渡し、サービス拡張メソッド _AddRevealServices_ を呼び出します。
 
-_AddRevealServices_ 拡張メソッドは **Infragistics.Sdk** 名前空間で定義されているため、ユーザーを追加する必要があります。また、以下に示すように **CachePath** プロパティも設定してください。
+_AddRevealServices_ 拡張メソッドは **Reveal.Sdk** 名前空間で定義されているため、ユーザーを追加する必要があります。また、以下に示すように **CachePath** プロパティも設定してください。
 
 ```csharp
 services.AddRevealServices(new RevealEmbedSettings
@@ -114,7 +114,7 @@ MVC サービスを追加するときに **AddReveal** 拡張メソッドを呼�
 services.AddMvc().AddReveal();
 ```
 
-_AddRevealServices_ と同様に、_AddReveal_ メソッドは _Infragistics.Sdk_
+_AddRevealServices_ と同様に、_AddReveal_ メソッドは _Reveal.Sdk_
 で定義されているため、ディレクティブを使用してください。
 
 <a name='server-side-image-export'></a>

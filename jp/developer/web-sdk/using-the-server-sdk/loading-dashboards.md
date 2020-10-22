@@ -29,5 +29,5 @@ public Task<Stream> GetDashboardAsync(string dashboardId)
  }
 ```
 
-__IRevealSdkContext.GetDashboardAsync__ のこのコードは、クライアントで **RevealUtility.loadDashboard** 関数を使用するとサーバー上で呼び出されます。そして最初のパラメーターとしてクライアント側で指定された dashboardId を取得します。
+__IRevealSdkContext.GetDashboardAsync__ のこのコードは、クライアントで **RVDashboard.loadDashboard** 関数を使用するとサーバー上で呼び出されます。そして最初のパラメーターとしてクライアント側で指定された dashboardId を取得します。
 

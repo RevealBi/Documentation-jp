@@ -35,7 +35,7 @@ __RevealUtility.GetFilterValues__ を使用して、特定のフィルター値�
 ``` csharp
 using (var stream = File.OpenRead(@"..\..\Sales.rdash"))
 {
-    var dashboard = await RevealUtility.LoadDashboard(stream);
+    var dashboard = new RVDashboard(stream);
 
     var filterValues = await dashboard.Filters.GetByTitle("Territory").GetFilterValuesAsync();
     var territories = filterValues.ToList();
