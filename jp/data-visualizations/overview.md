@@ -158,7 +158,7 @@ td {
 <tr class="odd">
 <td><p><img src="images/Area-Chart.png" alt="Area Chart" /><br />
 </p>
-<p><a href="~/en/visualization-tutorials/simple-charts.html">エリア。</a><br />
+<p><a href="~/en/visualization-tutorials/simple-charts.html">エリア</a><br />
 </p></td>
 <td><p><img src="images/Bar-Chart.png" alt="Bar Chart" /><br />
 </p>
@@ -216,7 +216,7 @@ td {
 </p>
 <p><a href="~/en/visualization-tutorials/simple-charts.html">円</a><br />
 </p></td>
-<td><p><img src="images/Circular-Chart.png" alt="Circular Chart" /><br />
+<td><p><img src="images/radial-chart.png" alt="Circular Chart" /><br />
 </p>
 <p><a href="~/en/visualization-tutorials/simple-charts.html">ラジアル</a><br />
 </p></td>
