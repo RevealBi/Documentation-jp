@@ -4,13 +4,123 @@ Reveal は、さまざまな表示形式を提供することにより、ビジ�
 
 ### 表示形式の概要
 
-<img src="images/data-visualizations-example.png" alt="Reveal's log in screen" width="80%"/>
+For users to get the most insight possible out of business data, Reveal provides several options to customize the way information is visualized. These are called "visualizations". Any dashboard is composed of one or more visualizations. 
 
-Add description here.
+The dashboard shown below contains a wide variety of visualizations, all of which analyze different aspects of Manufacturing.
+
+<img src="images/data-visualizations-example.png" alt="Reveal's log in screen" width="80%"/>
 
 ### 適切なチャート タイプの選択
 
-### トピックの概要 - delete 
+To choose the right chart type for your visualization you need to answer the following question: what data story are you trying to tell with your visualization?
+
+The table below will help you choose the visualization to use for the type of data that you are trying to represent. 
+
+<style type="text/css">
+td { 
+  border: 1px solid black;
+}
+</style>
+<table>
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+</colgroup>
+<body>
+  <tr>
+    <td><b>Compare Data</b></td>
+    <td><img src="images/Bar-Chart.png" alt="Bar Chart" /></th>
+    <td><img src="images/Column-chart.png" alt="Column Chart" /></td>
+    <td><img src="images/Area-chart.png" alt="Area Chart" /></td>
+    <td><img src="images/Spline-chart.png" alt="Spline Chart" /></td>
+    <td><img src="images/Combo-chart.png" alt="Combo Chart" /></td>
+    <td><img src="images/Circular-chart.png" alt="Radial Chart" /></td>
+    <td><img src="images/Spline-Area-chart.png" alt="Spline with Area Chart" /></td>
+    <td><img src="images/OHLC-chart.png" alt="OHLC Chart" /></td>
+    <td><img src="images/Candlestick-chart.png" alt="Candlestic Chart" /></td>
+  </tr>
+  <tr>
+    <td>Part to Whole</td>
+    <td><img src="images/Stacked-Column-Chart.png" alt="Bar Chart" /></td>
+    <td><img src="images/Stacked-Bar-Chart.png" alt="Bar Chart" /></td>
+    <td><img src="images/Stacked-Area-Chart.png" alt="Bar Chart" /></td>
+    <td><img src="images/Pie-Chart.png" alt="Bar Chart" /></td>
+    <td><img src="images/Stacked-Column-Chart.png" alt="Bar Chart" /></td>
+    <td><img src ="images/funnel-chart.png" alt="Funnel Chart" /></td>
+    <td><img src ="images/treemap-chart.png" alt="Treemap Chart" /></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Data Distribution</td>
+    <td><img src="images/step-area-Chart.png" alt="Step Area Chart" /></td>
+    <td><img src="images/Stacked-Column-Chart.png" alt="Bar Chart" /></td>
+    <td><img src="images/scatter-chart.png" alt="Scatter Chart" /></td>
+    <td><img src="images/bubble-Chart.png" alt="Bubble Chart" /></td>
+    <td></td>
+    <td />
+    <td />
+    <td />
+    <td />
+  <tr>
+    <td>Data Trend Analysis</td>
+    <td><img src="images/line-chart.png" alt="Line Chart" /></td>
+    <td><img src="images/spline-Chart.png" alt="Spline Chart" /></td>
+    <td><img src="images/Combo-Chart.png" alt="Combo Chart" /></td>
+    <td><img src="images/ohlc-Chart.png" alt="OHLC Chart" /></td>
+    <td><img src="images/candlestick-Chart.png" alt="Candlestick Chart" /></td>
+    <td />
+    <td />
+    <td />
+    <td />
+  </tr>
+  <tr>
+  <td>Data Relationships</td>
+  <td><img src="images/scatter-chart.png" alt="Scatter Chart" /></td>
+  <td><img src="images/Bubble-chart.png" alt="Bubble Chart" /></td>
+  <td><img src="images/line-chart.png" alt="Line Chart" /></td>
+  <td />
+  <td />
+  <td />
+  <td />
+  <td />
+  <td />
+  </tr>
+  <tr>
+  <td>KPIs and Gauges</td>
+    <td><img src="images/bullet-graph-gauge.png" alt="Bullet Graph Gauge" /></td>
+    <td><img src="images/linear-gauge.png" alt="Linear Gauge" /></td>
+    <td><img src="images/text-gauge.png" alt="Text Chart" /></td>
+    <td><img src="images/kpi.png" alt="KPI Gauge" /></td>
+    <td><img src="images/circular-gauge.png" alt="Circular Gauge" /></td>
+    <td />
+    <td />
+    <td />
+    <td />
+  </tr>
+  <tr>
+  <td>Geospatial Data</td>
+  <td><img src="images/choropleth-map.png" alt="Choropleth Map" /></td>
+  <td><img src="images/scatter-map.png" alt="Scatter Map" /></td>
+  <td />
+  <td />
+  <td />
+  <td />
+  <td />
+  <td />
+  <td />
+</body>
+</table>
+
+### トピックの概要 
 
 表示形式タイプはいくつかあります。
 
@@ -30,9 +140,9 @@ Add description here.
 
 ### 次の手順
 
-Creating a vis in the Visualizations editor - link 
+[表示形式エディターで表示形式を作成](#visualizations-editor.md)
 
-### 表示形式チュートリアル - delete; leave only a link to the Overview
+### 表示形式チュートリアル 
 
 このセクションでは、Reveal の表示形式の作成手順を説明します。すべてのセクションのデータ ビジュアライゼーションに使用しているデータソースは、[こちら](http://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx)からダウンロードしてください。表示形式がサポートされる各ウィジェットの情報については、ヘルプの [データ表示] セクションを参照してください。
 
@@ -80,7 +190,7 @@ Creating a vis in the Visualizations editor - link
 </p>
 <p><a href="~/en/visualization-tutorials/simple-charts.html">ファンネル</a><br />
 </p></td>
-<td><p><img src="images/Web-View.png" alt="Web View" /><br />
+<td><p><img src="images/Web-View.png" alt="Image View" /><br />
 </p>
 <p><a href="~/en/visualization-tutorials/image-view.html">画像</a><br />
 </p></td>

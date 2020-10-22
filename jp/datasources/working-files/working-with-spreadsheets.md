@@ -102,7 +102,7 @@
 
 Microsoft Excel および Google スプレッドシートを使用する場合、転置機能を使用して列を行から切り替えることができます。
 
->[!NOTE]**スプレッドシートの最初の 200 行のみが転置されます。**
+>[!NOTE] **スプレッドシートの最初の 200 行のみが転置されます。**
 >データソースでシートを展開するときに、[表示データ] メニューの転置メニューにアクセスできます。
 
 <img src="images/spreadsheets-transpose-data-source-menu.png" alt="Spreadsheets Transpose Data Source Menu" width="80%"/>

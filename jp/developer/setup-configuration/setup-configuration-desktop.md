@@ -22,8 +22,6 @@ NuGet パッケージをインストールすると、以下の依存関係パ�
   - SkiaSharp (1.68.0+)
   - System.Data.SQLite.Core (1.0.108+)
 
-**CefSharp.Wpf** の既知の問題を処理するには、[**こちら**](#cefsharp-fix)を参照してください。
-
 > [!NOTE]
 You need to manually install Microsoft.Data.SqlClient (1.1.3) package in
 your project to be able to visualize Microsoft Sql Server data.
@@ -40,7 +38,7 @@ your project to be able to visualize Microsoft Sql Server data.
       - System.Data.SQLite.Core (1.0.108+)
       - Microsoft.Data.SqlClient (1.1.3+)
 
-以下は、CefSharp.Wpf の既知の問題を処理する方法です。
+以下は、**CefSharp.Wpf** の既知の問題を処理する方法です。
 
 <a name='cefsharp-fix'></a>
 ### CefSharp 依存パッケージの処理
