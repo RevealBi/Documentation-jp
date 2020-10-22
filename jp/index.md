@@ -58,7 +58,7 @@ Reveal で BigQuery または Azure Machine Learning Studio からのトレー�
 
 ### Reveal に追加予定
 
-**散布図**表示形式! We are looking forward to presenting you with another map visualization that will give you more insight for your geospatial data. Coming with an added capability to connect to a number of mapping services to use as a background.
+**散布図**表示形式! 地理空間データのインサイトを深める別のマップの可視化提供できるようになりました。背景として使用するために、多数のマッピング サービスに接続する機能が追加されています。
 
 ### Reveal はどこで入手できますか?
 
