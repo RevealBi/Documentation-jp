@@ -50,7 +50,7 @@ RevealSdkSettings.Theme = currentTheme;
 | **MediumFont**                   | FontFamily              | 中のフォント スタイルを設定します。                                                                                                                                                                                                                                                       |
 | **FontColor**                    | Color                   | フォントの色を設定します。                                                                                                                                                                                                                                                       |
 | **HighlightColor**               | Color                   | 特定のダッシュボード シナリオ (予測および外れ値の統計関数) の強調色を設定します。                                                                                                                                                                        |
-| **UseRoundedCorners**            | bool                    | (デフォルト) ボタン、ツール ヒント、コンテナ、表示形式などの隅が丸められています。false に設定すると、コーナーは四角になります。                                                                                                                                               |
+| **UseRoundedCorners**            | bool                    | (デフォルト) ボタン、ツールチップ、コンテナ、表示形式などの隅が丸められています。false に設定すると、コーナーは四角になります。                                                                                                                                               |
 ### ビルド済みのテーマ
 
 Reveal SDK には、*Mountain Light*、*Mountain Dark*、*Ocean Light*、*Ocean Dark* の 4 つのビルド済みテーマが付属しています。アプリケーションのデザインに最適なものを設定することも、カスタム テーマのベースとして使用することもできます。    

@@ -136,7 +136,7 @@
     <td class="tg-0lax"><span style="font-style:italic">PDF エクスポート</span><br>ダッシュボードを PDF 形式にエクスポートできるようになりました。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">ホバー ツール ヒントと十字線の追加の新しいデザイン</span><br>ツール ヒントが小さくなり、ポインターは削除されました。さらに、ツール ヒントにコンテキストを提供するために十字線が表示されるようになりました。</td>
+    <td class="tg-0lax"><span style="font-style:italic">ホバー ツールチップと十字線の追加の新しいデザイン</span><br>ツールチップが小さくなり、ポインターは削除されました。さらに、ツールチップにコンテキストを提供するために十字線が表示されるようになりました。</td>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="5">1.0.4</td>
@@ -175,7 +175,7 @@
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="6">1.0.2</td>
-    <td class="tg-0lax"><span style="font-style:italic">ダッシュボード レベルの操作の改善:</span><br>ダッシュボード最小化時に表示形式をインタラクティブに操作できるようになりました。ズーム、スクロール、ドリルダウン、他のダッシュボードへのリンク、およびダッシュボードの表示形式を最大化せずにチャート ポイントの詳細 (ツール ヒント) を表示します。</td>
+    <td class="tg-0lax"><span style="font-style:italic">ダッシュボード レベルの操作の改善:</span><br>ダッシュボード最小化時に表示形式をインタラクティブに操作できるようになりました。ズーム、スクロール、ドリルダウン、他のダッシュボードへのリンク、およびダッシュボードの表示形式を最大化せずにチャート ポイントの詳細 (ツールチップ) を表示します。</td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-style:italic">クラウド ファイル共有の改善</span><br>Google ドライブ、OneDrive、Dropbox からデータソース ファイルへのアクセスを有効にして復元できるようになりました。共有されたダッシュボードに使用されるクラウド ファイルへのアクセスを要求します。</td>
@@ -184,7 +184,7 @@
     <td class="tg-0lax"><span style="font-style:italic">新しいコンボチャートの表示形式</span><br>新しい表示形式タイプを追加しました。コンボ (組み合わせ) チャート ビジュアリゼーション (2 つの Y 軸チャート) を使用して表示形式を構築できるようになりました。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">新しいツール ヒント ポップアップ オプションに合計を追加</span><br>ツール ヒント ポップアップで合計値を有効にできるようになりました。</td>
+    <td class="tg-0lax"><span style="font-style:italic">新しいツールチップ ポップアップ オプションに合計を追加</span><br>ツールチップ ポップアップで合計値を有効にできるようになりました。</td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:bold;font-style:italic">バグ修正 </span><span style="font-style:italic">SQL Server and Azure connections</span><br>SQL Server と Azure の接続</span><br>Azure の SQL Server データベース接続時の問題。</td>
