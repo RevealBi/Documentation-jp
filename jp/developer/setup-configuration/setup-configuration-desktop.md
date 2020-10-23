@@ -23,8 +23,7 @@ NuGet パッケージをインストールすると、以下の依存関係パ�
   - System.Data.SQLite.Core (1.0.108+)
 
 > [!NOTE]
-You need to manually install Microsoft.Data.SqlClient (1.1.3) package in
-your project to be able to visualize Microsoft Sql Server data.
+Microsoft SQL Server データを視覚化できるようにするには、プロジェクトに Microsoft.Data.SqlClient (1.1.3) パッケージを手動でインストールする必要があります。
 
 ### 手動設定の使用
 
