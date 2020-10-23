@@ -1,64 +1,64 @@
-## Scatter Maps
+## 散布図
 
-This map displays  scattered markers in a geographic area by using geo-coordinates. The visual distribution of markers can help in identifying density and spatial patterns within your data. By adding size and/or color to the markers, you can reveal more information about your data relative to other points. 
+このマップは、地理座標を使用して地理領域に散布マーカーを表示します。マーカーの視覚的な分布は、データ内の密度および空間パターンを識別するのに役立ちます。マーカーにサイズや色を追加すると、他のポイントと比較してデータに関する詳細情報を表示できます。 
 
-Scatter maps give you the possibility to connect to a number of map services, which will not only create a more realistic background for your maps, but will also allow you to delve into details. In some scenarios, like when presenting a real estate market analysis, the ability to show neighborhoods and streets on your map will add more value to your work. 
+散布図を使用すると、複数のマップ サービスに接続して、マップの背景をよりリアルにするだけでなく、詳細を調べることもできます。不動産市場分析を表示する場合など、一部のシナリオでは、マップに近所や通りを表示する機能が追加されます。 
 
 <img src="images/scatter-maps-dashboard.png" alt="Different scatter maps visualizations in a dashboard" width="80%"/>
 
-### Using the Scatter Maps
+### 散布図の使用
 
-The information below will help you choose the best scatter map visualization depending on your needs.
+以下の情報は、必要に応じて最適な散布図の表示形式を選択する際に役立ちます。
 
-#### What are Basic Dot Maps Used for?
+#### 基本点マップとは?
 
-The most basic scatter maps in Reveal consist of uniform color dots plotted over a chosen area.
+Reveal の最も基本的な散布図は、選択した領域に均一な色の点をプロットしたものです。
 
-Dot maps are a great way to visualize the geographical distribution of an entity and can reveal patterns when the dots cluster on the map. One dot represents one entity so every single object is depicted on the map using the geo-location in the data set. 
+点マップは、エンティティの地理的分布を可視化する優れた方法で、点がマップ上でクラスター化するときにパターンを明らかにできます。1 つの点は 1 つのエンティティを表すため、各オブジェクトはデータセットの地理位置情報を使用してマップに表示されます。 
 
-One-to-many dot maps are not supported in Reveal. This means, one dot cannot represent more than one object (e.g. 1 dot = 1000 people), so you cannot use the scatter dot maps to create population density maps, for example.  
+1対多の点マップは Reveal ではサポートされません。つまり、1 つの点が複数のオブジェクトを表すことはできないため (1 点 = 1000 人)、散布点マップを使用して人口密度マップなどを作成することはできません。  
 
-#### What are Bubble Maps Used for? 
+#### バブル マップとは? 
 
-Adding the size category to your basic scatter map is how bubble maps are created. They are great for 
-comparing quantitative data in different locations. 
+基本散布図にサイズ カテゴリを追加すると、バブル マップが作成されます。異なる場所の定量データの比較に最適です。 
+ 
 
-The size of bubbles indicates the value of a particular variable being compared. To achieve the comparison effect, it would be best if your data set contains a large variety of values for the compared variable. Otherwise, bubbles on the map will appear similar by size (see example below). 
+バブルのサイズは、比較される特定の変数の値を示します。比較効果を得るには、データセットに比較変数のさまざまな値が含まれていることが最適です。それ以外の場合、マップのバブルはサイズが同じように表示されます (以下の例を参照)。 
 
 <img src="images/bubble-map-density-population-europe-bad-example.png" alt="Bubble map showing similar density of population in European countries except for Monaco" width="80%"/>
 
-Unless you aim to identify and focus on **outliers** (like in the screenshot above), you may need to reconsider your choice of visualization.
+上記のスクリーンショットのように**外れ値**を特定してフォーカスしない限り、表示形式の選択を再検討する必要があります。
 
-Bubbles are not bound to the exact location defined by the latitude and longitude data. Their location is approximate, but the bubbles must appear in the area, for which they carry information. For example, if you want to make a report about the most dangerous neighborhoods across all the US, you will most probably not need the exact location of each crime reported. You will just need to plot the bubbles, sized according to the aggregated crime data, in the correct neighborhoods.
+バブルは、緯度と経度のデータで定義された正確な場所にバインドされていません。それらの場所は概算ですが、バブルは情報を伝達する領域に表示される必要があります。たとえば、米国全土で最も危険な領域に関するレポートを作成する場合、ほとんどの場合、報告された各犯罪の正確な場所は必要ありません。集計された犯罪データに基づいてサイズ設定されたバブルを正しい領域にプロットする必要があります。
 
 > [!NOTE]
-> A potential issue you need to take into account is that overly large bubbles can spread over more than one area. In this case, adding location data to the [bubble tooltip](#bubble-maps) text can help your audience identify the area where the oversize bubble belongs. 
+> 考慮する必要がある潜在的な問題は、過度に大きいバブルが複数の領域に広がる可能性があることです。この場合、[バブル ツールヒント](#bubble-maps)のテキストに場所データを追加すると、オーバーサイズのバブルが属する領域をユーザーが識別しやすくなります。 
 
-#### What are Colored Scatter Maps Used for?
+#### 色付き散布図とは?
 
-Color makes maps easier to perceive and gives you the opportunity to add one more variable to your analysis. 
+色を使用すると、マップがわかりやすくなり、分析に変数を追加できます。 
 
-Simple dot maps colored by category are good for drawing attention to clusters and areas where the distribution of an object is really high. For example, you can quickly identify the states with the most airports located if the airports in different states are colored differently (see below). 
+カテゴリ別に色分けされたシンプルな点マップは、オブジェクトの分布が多いクラスターや領域に注意を引くのに適しています。たとえば、異なる州の空港の色が異なる場合、最も多くの空港がある州をすばやく識別できます (以下を参照)。 
 
 <img src="images/scatter-dot-different-colors
 .png" alt="A scatter map showing the distribution of US airports with dots colored by state" width="80%"/>
 
-Dot maps colored by value will help you provide insight while avoiding the risk of overlapping large bubbles. If, for example, you aim to make the tendency of the aging population in Europe evident with one look, create a dot map colored by the medium age of population and style the color to show low, medium and high average age:
+値で色分けされた点マップは、大きなバブルが重なり合うリスクを回避しながらインサイトを提供します。たとえば、ヨーロッパの高齢人口の傾向を一目で確認したい場合は、人口の中年の色で点マップを作成し、低、中、高の平均年齢を示す色を設定します。
 
 <img src="images/scatter-dot-map-colored-by-value
 .png" alt="A scatter map showing the average age of Euro Population with dots colored by using conditional formatting for medium age" width="80%"/>
 
-However, if you aim to show the correlation between two  values for individual locations, your purpose will be served by presenting one value with size and the other - with color. Taking the previous example, you can color the dots by population age and size them by GDP of the country to show the correlation between prosperity and higher life expectancy. 
+ただし、個々の場所の 2 つの値の相関関係を表示する場合は、一方の値をサイズで、もう一方の値を色で表示します。前の例を使用すると、人口の年齢別に点に色を付け、国の国内総生産に基づいてサイズを設定して、国の豊かさと平均余命の相関関係を示すことができます。 
 
-### Zooming Scatter Maps
+### 散布図のズーム
 
-Scatter maps allow you to zoom in and focus on an area, where the markers are more densely plotted, or such that is not part of the _Map_ dropdown (e.g. the Balkan Peninsula).  
+散布図を使用すると、マーカーがより密にプロットされている領域、または [マップ] ドロップダウンの一部ではない領域 (バルカン半島など) にズームインしてフォーカスできます。  
 
-You can even save the zoomed area and keep this view in the dashboard. 
+ズーム領域を保存し、このビューをダッシュボードに保持することもできます。 
 
-You can zoom in and out in *Dashboard View mode*, when the map is [maximized](~/en/dashboards/dashboards-interactions.html#maximized-view). You can use the zoom in the *Visualization Editor* too.
+マップを[最大化する](~/en/dashboards/dashboards-interactions.html#maximized-view)と、*ダッシュボード ビュー モード*でズームインおよびズームアウトできます。**表示形式エディター**でズームを使用することもできます。
 
-Zooming also allows you to change the clear shapes Reveal uses as a map background. At a chosen zoom level, you can replace the grey areas with detailed real maps, called *image tiles* provided by one of the following map services: 
+ズームを使用すると、Reveal がマップの背景として使用するクリアな図形を変更することもできます。選択したズームレベルで、グレーの領域を、以下のいずれかのマップ サービスで提供される*画像タイル*と呼ばれる詳細な実際のマップで置き換えることができます。 
 
 * *Bing* 
 * *Esri*
@@ -67,11 +67,11 @@ Zooming also allows you to change the clear shapes Reveal uses as a map backgrou
 <img src="images/scatter-map-image-tiles-enabled
 .png" alt="A scatter map showing the average age of Population in East Asia zoomed in and using image tiles" width="80%"/>
 
-For more information on how to use your map service *authentication token* in Reveal or how to view shared maps using image tiles, read the [Using Map Image Tiles](map-image-tiles.md) topic.
+Reveal でマップ サービス**認証トークン**を使用する方法、または画像タイルを使用して共有マップを表示する方法の詳細については、[「マップ画像タイルの使用」](map-image-tiles.md)トピックを参照してください。
 
-### Creating a Scatter Map 
+### 散布図の作成 
 
-The Scatter Map in Reveal provides you with a variety of opportunities for your geographical analysis based on the data you choose to display. 
+Reveal の散布図は、表示するデータに基づいて地理分析のさまざまな機会を提供します。
 
 <a name='location-data-format'></a>
 #### Location Data Requirements

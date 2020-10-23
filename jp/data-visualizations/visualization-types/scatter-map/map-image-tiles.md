@@ -1,82 +1,82 @@
-## Using Image Tiles with Scatter Maps
+## 散布図で画像タイルを使用
 
-The *image tiles* feature allows you to switch from the clear grey background of Reveal to a different map layer upon zooming. The additional detail coming from the map service provider will provide more context to your analysis.
+**画像タイル**機能を使用して、ズーム時に Reveal のクリア グレーの背景から別のマップ レイヤーに切り替えることができます。マップ サービス プロバイダーから提供される追加の詳細は、分析のコンテキストを提供します。
 
 <img src="images/scatter-map-zoomed-tile-providers.png" alt="Scatter map in Dashboard View mode using zoom" width="80%"/>
 
-You can use the *slider* provided in the *Visualization Editor Settings* to specify at which zoom level you want to transition to using image tiles. Sliding left to right changes the moment of transition from minimum to maximum zoom. 
+**表示形式エディターの設定**で提供される**スライダー**を使用して、画像タイルを使用するために移行するズーム レベルを指定できます。左から右へスライドすると、トランジションの瞬間が最小ズームから最大ズームに変更されます。 
  
 <img src="images/tile-source-zoom-slider.png" alt="Zoom level slider in the Visualization Editor Settings" width="50%"/>
 
 
 <a name='adding-image-tiles'></a>
-### Adding Image Tiles to Your Maps
+### マップに画像タイルを追加
 
-To use image tiles:  
+画像タイルを使用するには:  
 
-1. In the _Visualization Editor_, go to _Settings_ > _Background_ and make sure _Use Image Tiles_ box is checked.  
-2. If no tile provider is configured, click the button in the yellow banner that shows up (see screenshot below). 
+1. 表示形式エディターの [設定] で [背景] に移動し、[画像タイルの使用] ボックスがチェックされていることを確認します。  
+2. タイル プロバイダーが構成されていない場合、表示される黄色いバナーのボタンをクリックします (以下のスクリーンショットを参照)。 
 
     <img src="images/configure-tile-provide-banner-button.png" alt="Yellow banner in settings prompting users to configure a tile provider on member or organization level" width="80%"/>
    
-    Here you are presented with three levels to configure a tile provider at: 
+    ここには、タイル プロバイダーを構成するための 3 つのレベルがあります。 
 
-    * personal;
-    * *team* - this option only appears when you creatе the dashboard inside a team;
-    * *Organization* - this option will only appear, if you are part of the Organization team or you creatе the dashboard inside a team, which is part of the Organization.
+    * 個人用
+    * **チーム** - このオプションは、チーム内でダッシュボードを作成する場合にのみ表示されます。
+    * **組織** - このオプションは、組織チームのメンバーである場合、または組織のメンバーであるチーム内でダッシュボードを作成する場合にのみ表示されます。
 
-3. Choose the level you prefer to set up a tile provider. 
+3. タイル プロバイダーを設定するレベルを選択します。 
 
-    The dialog that opens is similar for all levels. You can also find this dialog anytime in your *personal settings* or your *team's/Organization's settings*. 
+    開いたダイアログは、すべてのレベルで同様です。このダイアログは、**個人設定**または**チーム/組織の設定**でも確認できます。 
 
     <img src="images/tile-provider-settings-personal.png" alt="Map Image Tiles Personal settings" width="80%"/>
 
-    >[!NOTE] **Setting up a tile provider at Organizational/team level**. 
-    > You can configure a tile provider at the Organizational or team level only if you are an *Owner* in the Organization/team. This will allow all members of this team/Organization use the tile provider you configured. 
+    >[!NOTE] **組織/チームレベルでタイル プロバイダーを設定**。 
+    > 組織/チームの*管理者*である場合のみ、組織またはチーム レベルでタイル プロバイダーを構成できます。これにより、このチーム/組織のすべてのメンバーが構成したタイル プロバイダーを使用できるようになります。 
 
-4. For _Provider_ choose one of the options in the dropdown: 
+4. プロバイダーのドロップダウンで 1 つのオプションを選択します。 
 
     * *Esri*
     * *Bing*
     * *MapBox*
-    * If you choose the *None* option you will disable the tile provider at this level, but Reveal will let others know about this (shown in the screenshot below).
+    * [なし] オプションを選択すると、このレベルでタイル プロバイダーを無効にしますが、Reveal は他のユーザーに通知します (以下のスクリーンショットを参照)。
 
         <img src="images/provider-disabled-note.png" alt="Tile provider disabled message in the Visualization editor Settings" width="50%"/>
      
-    * The *Not Specified* option will also disable using a tile provider at the selected level (personal, team or organizational), but without notifying other users. You will only see the following banner if the _Not Specified_ option is selected at all levels: 
+    * *[指定なし]* オプションは、選択したレベル (個人用、チーム、または組織) でタイル プロバイダーの使用を無効にしますが、他のユーザーに通知しません。以下のバナーは、すべてのレベルで [指定なし]オ プションを選択した場合にのみ表示されます。 
     
         <img src="images/not-specified-all-levels-yellow-banner.png" alt="Yellow banner message prompting users to set up a tile provider" width="100%"/>
     
-    The _Not Specified_ option, however, makes Reveal ignore this level when determining which tile provider to use. For further details, check [How does Reveal determine which file provider to use?](#resolution-process).  
+    ただし、[指定なし] オプションを使用すると、使用するタイル プロバイダーを決定する際に Reveal はこのレベルを無視します。詳細については、[「Reveal は使用するファイル プロバイダーをどのように決定しますか?」](#resolution-process)を参照してください。  
  
-5. Add the _Authentication Token_ for the selected provider. The token can be found in your map service account. Once you add it, it will be stored in Reveal for future use. You can use it without adding it again no matter how many times you disable the tile provider in your settings.  
+5. 選択したプロバイダーの認証トークンを追加します。トークンはマップ サービス アカウントで確認できます。追加すると、Reveal に保存されます。設定でタイル プロバイダーを無効にした回数に関係なく、再度追加せずに使用できます。  
 
-6. For *Personal settings*, just close the dialog and your changes will be automatically updated. For *Organization/Team settings*, click/tap *Update* and close the dialog.
+6. **個人設定**の場合、ダイアログを閉じると変更が自動的に更新されます。**組織/チーム設定**の場合、**[更新]** をクリック/タップしてダイアログを閉じます。
 
 <a name='resolution-process'></a>
-### How does Reveal determine which file provider to use?
+### Reveal は使用するファイル プロバイダーをどのように決定しますか？
 
-When you open a scatter map where *Use Image Tiles* is enabled, Reveal resolves which tile provider to be used. The tile provider (and its authorization token) can be specified on any of three levels of user settings: Personal, Team, Organization (see more in [Adding Image Tiles](#adding-image-tiles) above). 
+**[画像タイルの使用]** が有効な散布図を開くと、Reveal は使用するタイル プロバイダーを解決します。タイル プロバイダー (およびその認証トークン)は、個人用、チーム、組織の 3 つのレベルで指定できます (上記の[画像タイルの追加](#adding-image-tiles)セクションを参照)。 
 
-What if a tile provider is **specified on more than one level**? You will notice that one of the tile providers is being used for the scatter map you opened. How did Reveal choose it? 
+**タイル プロバイダーが複数のレベルで指定されている**場合はどうなりますか？開いた散布図にいずれかのタイル プロバイダーが使用されていることがわかります。Reveal はどのように選択しましたか？ 
 
-The most important factor in determining which level settings take precedence over the others is who owns the dashboard. A dashboard can be owned by a user, the Organization, or a team. 
+ダッシュボードの管理者は、他の設定よりも優先される設定を決定する最も重要な要素です。ダッシュボードは、ユーザー、組織、またはチームが管理できます。 
 
-#### When the dashboard is owned by a user or by the Organization
+#### ダッシュボードがユーザーまたは組織によって管理されている場合
 
-When the dashboard is owned by a user (it's created in the _My Stuff_ space), or by the Organization (it's created in the Organization dashboards' space), Reveal checks for a tile provider, as follows: 
+ダッシュボードがユーザー ([アイテム] スペースで作成) または組織 (組織ダッシュボードのスペースで作成) によって管理されている場合、Reveal は以下のようにタイル プロバイダーを確認します。 
 
-1. In the *Organization* team settings, if the user is part of an Organization.
-2. In *Personal* settings of the user opening the dashboard. 
+1. **組織**チームの設定で、ユーザーが組織の一部である場合。
+2. ダッシュボードを開くユーザーの**個人**設定。 
 
-#### When the dashboard is owned by a team 
+#### ダッシュボードがチームによって管理されている場合 
 
-When the dashboard is owned by a team, i.e. it's created in a team dashboards' space, Reveal checks for a tile provider: 
+チームがダッシュボードを管理している場合、つまりチーム ダッシュボードのスペースで作成されている場合、Reveal は以下の設定でタイル プロバイダーを確認します。 
 
-1. In this *team*'s settings.
-2. In the *Organization* settings when the owning team is *part of the Organization*.
-3. In *Personal* settings of the user opening the dashboard.
+1. この**チーム**の設定
+2. **組織**の設定で、管理チームが**組織の一部**である場合。
+3. ダッシュボードを開くユーザーの**個人**設定。
 
->[!NOTE] **Always use my tile provider**. 
-> Marking this checkbox in your personal settings makes Reveal always choose your tile provider when tile providers on multiple levels are configured. This goes for all the scenarios above. 
+>[!NOTE] **常にタイル プロバイダーを使用する**。 
+> 個人設定でこのチェックボックスをオンにすると、複数レベルのタイル プロバイダーが構成されている場合、Reveal は常にタイル プロバイダーを選択します。これは上記のすべてのシナリオに当てはまります。 
 
