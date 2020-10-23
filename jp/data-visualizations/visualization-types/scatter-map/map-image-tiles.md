@@ -41,11 +41,11 @@
     * *MapBox*
     * [なし] オプションを選択すると、このレベルでタイル プロバイダーを無効にしますが、Reveal は他のユーザーに通知します (以下のスクリーンショットを参照)。
 
-        <img src="images/provider-disabled-note.png" alt="Tile provider disabled message in the Visualization editor Settings" width="50%"/>
+        <img src="images/provider-disabled-note.png" alt="Tile provider disabled message in the Visualization editor Settings" width="40%"/>
      
     * *[指定なし]* オプションは、選択したレベル (個人用、チーム、または組織) でタイル プロバイダーの使用を無効にしますが、他のユーザーに通知しません。以下のバナーは、すべてのレベルで [指定なし]オ プションを選択した場合にのみ表示されます。 
     
-        <img src="images/not-specified-all-levels-yellow-banner.png" alt="Yellow banner message prompting users to set up a tile provider" width="100%"/>
+        <img src="images/not-specified-all-levels-yellow-banner.png" alt="Yellow banner message prompting users to set up a tile provider" width="70%"/>
     
     ただし、[指定なし] オプションを使用すると、使用するタイル プロバイダーを決定する際に Reveal はこのレベルを無視します。詳細については、[「Reveal は使用するファイル プロバイダーをどのように決定しますか?」](#resolution-process)を参照してください。  
  
