@@ -3,7 +3,7 @@
 ダッシュボードにあるその他すべての表示形式で同じ [サンプル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)を使用します。
 
 >[!NOTE]
->[データソースを変更する](../../../jp/datasources/changing-data-source-visualization.html)場合は、データ ソース名の横にあるオーバーフロー ボタンまたは[新しいデータ ソース](../../jp/datasources/datasources/overview.html)を選択する必要があります。表示形式を[複製](../../../jp/dashboards/dashboards-interactions.html#view-edit-mode)し、作成時間を短縮することもできます。
+>[データソースを変更する](../../../jp/datasources/changing-data-source-visualization.html)場合は、データ ソース名の横にあるオーバーフロー ボタンまたは[新しいデータ ソース](../../../jp/datasources/datasources/overview.html)を選択する必要があります。表示形式を[複製](../../../jp/dashboards/dashboards-interactions.html#view-edit-mode)し、作成時間を短縮することもできます。
 
 このセクションは以下の表示形式について説明します。
 

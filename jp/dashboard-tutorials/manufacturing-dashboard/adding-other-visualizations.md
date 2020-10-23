@@ -3,7 +3,7 @@
 その他すべてのダッシュボードにある表示形式で同じ[サンプル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)を使用します。
 
 >[!NOTE]
->[データソースを変更する](~jp/datasources/changing-data-source-visualization.html)場合は、データ ソース名の横にあるオーバーフロー ボタンまたは[新しいデータ ソース](creating-new-datasource.html)を選択する必要があります。表示形式を[複製](overview.html#view-edit-mode)し、作成時間を短縮することもできます。
+>[データソースを変更する](../../../jp/datasourceschanging-data-source-visualization.html)場合は、データ ソース名の横にあるオーバーフロー ボタンまたは[新しいデータ ソース](../../../jp/datasources/datasources/overview.html)を選択する必要があります。表示形式を[複製](../../../jp/dashboards/dashboards-interactions.html#view-edit-mode)し、作成時間を短縮することもできます。
 
 このセクションは以下の表示形式について説明します。
 
@@ -45,7 +45,7 @@
 <a name='production'></a>
 ### Production (製品)
 
-Production 表示形式は、12 か 月間の製造量を作業者タイプ別に [折れ線チャート](tutorial-simple-charts.html)で表示します。以下は作成方法です。
+Production 表示形式は、12 か 月間の製造量を作業者タイプ別に [折れ線チャート](../../../jp/visualization-tutorials/simple-charts.html)で表示します。以下は作成方法です。
 
 1.  ダッシュボードの右隅にある [+ 追加] ボタンを選択し、**Reveal\_Dashboard\_Tutorials** スプレッドシートで **Manufacturing Dashboard** シートを選択します。次に、[データを選択] を選択します。
     

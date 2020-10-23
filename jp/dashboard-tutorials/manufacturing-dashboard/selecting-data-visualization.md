@@ -1,6 +1,6 @@
 ## 初めての表示形式を作成 
 
-チュートリアルのはじめの[サンプル ダッシュボード](manufacturing-dashboard/overview.html)に Incoming Daily Orders MTD 表示形式を作成します。ウィジェットは[柱状チャート](~/en/data-visualizations/category-charts.html)を表示するため、1 つのフィールドを [ラベル] にドロップし、もう 1 つのフィールドを [値] にドロップするだけで済みます。
+チュートリアルのはじめの[サンプル ダッシュボード](getting-started.html)に Incoming Daily Orders MTD 表示形式を作成します。ウィジェットは[柱状チャート](~/jp/data-visualizations/category-charts.html)を表示するため、1 つのフィールドを [ラベル] にドロップし、もう 1 つのフィールドを [値] にドロップするだけで済みます。
 
 まず、トップ バーのグリッド アイコンを選択し、**表示形式ペインを開きます**。
 
