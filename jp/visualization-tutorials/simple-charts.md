@@ -86,7 +86,7 @@
 </p></td>
 <td><p><img src="images/chartslicelabels_all.png" alt="chartslicelabels all" /><br />
 </p>
-<p><a href="#change-slice-labels">値と割合のスライス ラベルが付いたドーナツ型チャート</em> slice labels</a><br />
+<p><a href="#change-slice-labels">値と割合のスライス ラベルが付いたドーナツ型チャート</a><br />
 </p></td>
 <td></td>
 </tr>

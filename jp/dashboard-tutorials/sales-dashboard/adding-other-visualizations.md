@@ -3,7 +3,7 @@
 その他すべてのダッシュボードにある表示形式で同じ[サンプル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)を使用します。
 
 >[!NOTE]
->[データソースを変更する](~jp/datasources/changing-data-source-visualization.html)場合は、データ ソース名の横にあるオーバーフロー ボタン、または[新しいデータ ソースを作成する](creating-new-datasource)を選択する必要があります。表示形式を[複製して](overview.html#view-edit-mode)作成時間を短縮することもできます。
+>[データソースを変更する](../../../jp/datasources/changing-data-source-visualization.html)場合は、データ ソース名の横にあるオーバーフロー ボタン、または[新しいデータ ソースを作成する](../../../jp/datasources/datasources/overview.html)を選択する必要があります。表示形式を[複製して](../../../jp/dashboards/dashboards-interactions.html#view-edit-mode)作成時間を短縮することもできます。
 
 このセクションは以下の表示形式について説明します。
 
@@ -103,7 +103,7 @@ Win/Lost by Month 表示形式は、6 ヶ月間の勝敗の回数を[棒チャ�
 <a name='forecasted'></a>
 ### Forecasted
 
-Forecasted 表示形式は、6 ヶ月間の予測を[バー チャート](~/jp/visualization-tutorials/simple-charts.html)で表示します。以下は作成方法です。
+Forecasted 表示形式は、6 ヶ月間の予測を[棒チャート](~/jp/visualization-tutorials/simple-charts.html)で表示します。以下は作成方法です。
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、**[データを選択]** を押します。
     
