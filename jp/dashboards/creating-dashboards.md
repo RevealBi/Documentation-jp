@@ -1,14 +1,14 @@
 ## ダッシュボードの作成
 
-Reveal のダッシュボード作成には以下のオプションが含まれます。
+Reveal のダッシュボード作成には以下のオプションが含まれます:
 
-1.  [ダッシュボード作成メニューにアクセス](#access-dashboard-creation-menu)。
+1.  [ダッシュボード作成メニューにアクセス](#access-dashboard-creation-menu)
 
-2.  [データ ソースの追加](#add-data-source)。
+2.  [データ ソースの追加](#add-data-source)
 
-3.  *オプション*[表示形式の変更](#modify-visualization)。
+3.  *オプション*[表示形式の変更](#modify-visualization)
 
-4.  [ダッシュボードの保存](#save-dashboard)。
+4.  [ダッシュボードの保存](#save-dashboard)
 
 <a name='access-dashboard-creation-menu'></a>
 ### ダッシュボード作成メニューにアクセス
@@ -17,14 +17,14 @@ Reveal のダッシュボード作成には以下のオプションが含まれ�
 
 <img src="images/create-new-dashboard.png" alt="Creating new dashboard" width="80%"/>
 
-[新しい表示形式] のダイアログを表示します。データソースを使用して表示形式を作成します。
+[新しい表示形式] のダイアログが表示されます。データソースを使用して表示形式を作成します。
 
 <img src="images/new-visualization-dialog.png" alt="New visualization dialog" width="80%"/>
 
 <a name='add-data-source'></a>
 ### データ ソースの追加
 
-データ ソースが [データ ソースの選択] セクションにない場合は、右上側の [+ データ ソース] ボタンを選択します。新しいダイアログがポップアップして、すべてのデータソース カテゴリおよび利用可能なデータ ソースを表示します。
+データ ソースが [データ ソースの選択] セクションにない場合は、右上側の [+ データ ソース] ボタンを選択します。新しいダイアログがポップアップして、すべてのデータソース カテゴリおよび利用可能なデータ ソースが表示されます。
 
 <img src="images/adding-data-source.png" alt="add data source to create dashboards" width="80%"/>
 
@@ -45,11 +45,11 @@ Reveal では [Dropbox](../datasources/supported-data-sources/Dropbox.html)、[O
 <a name='modify-visualization'></a>
 ### 表示形式の変更
 
-データソースを追加した後、表示形式エディターが表示されます。デフォルトでは、グリッドの表示形式が選択されています。
+データソースを追加した後、表示形式エディターが表示されます。デフォルトでは、ピボットの表示形式が選択されています。
 
 <img src="images/dashboards-first-visualization.png" alt="dashboards first visualization in the visualization editor" width="80%"/>
 
-Reveal では、情報を可覚化する方法をカスタマイズするためのいくつかのオプションがあります。上部バーの**グリッド アイコン**を選択してオプションにアクセスできます。
+Reveal では、情報を可覚化する方法をカスタマイズするためのいくつかのオプションがあります。上部バーの**ピボット アイコン**を選択してオプションにアクセスできます。
 
 <img src="images/editing-visualizations-in-editor.png" alt="editing visualizations types in editor" width="80%"/>
 
@@ -58,11 +58,11 @@ Reveal では、情報を可覚化する方法をカスタマイズするため�
 <img src="images/editing-visualization-fields-preview.png" alt="editing visualization fields preview" width="80%"/>
 
 表示形式を変更した後**ダッシュボード エディター**に移動されます。右上側に [**元に戻す**]、[**やり直し**]、[**テーマ**]、[**名前を付けて保存**] ボタンが表示されます。
-同じ場所に [**+**] 記号を使用して別の表示形式を追加でき、ティック アイコンを選択してダッシュボードを保存することもできます。
+同じ場所に **[+ 追加]** ボタンを使用して別の表示形式を追加でき、ティック アイコンを選択してダッシュボードを保存することもできます。
 
 #### テーマの適用
 
-ダッシュボードに移動された後、⇒ *テーマ* を選択し、以下に示すように *Mountain テーマ* と *Ocean テーマ* を切り替えることができます。
+ダッシュボードに移動された後、*テーマ*を選択し、以下に示すように *Mountain テーマ* と *Ocean テーマ* を切り替えることができます。
 
 <img src="images/dashboard-changing-theme.png" alt="changing the theme of a dashboard" width="80%"/>
 
@@ -75,4 +75,4 @@ Reveal では、情報を可覚化する方法をカスタマイズするため�
 
 <img src="images/save-as-menu.png" alt="save as menu" width="80%"/>
 
-スペースを適切に整理するには、[名前を付けて保存] メニューで右上側の [+フォルダー] ボタンをクリックして、ダッシュボード ビューアーでフォルダーを作成します。
+スペースを適切に整理するには、[名前を付けて保存] メニューでの [+フォルダー] ボタンをクリックして、ダッシュボード ビューアーでフォルダーを作成します。

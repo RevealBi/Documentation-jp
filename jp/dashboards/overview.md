@@ -1,6 +1,6 @@
 ## ダッシュボード
 
-ダッシュボードは、すばやく最小限の情報をシンプルに表示することにより、一目で情報を把握できます。これは、ビジネスのステータス、メトリック、またはパフォーマンスを伝えるために配置された表示形式のコレクションで構成されるデータ 表示形式です。各表示形式は、関連する情報の異なる部分を持っていることを意味しており、ユーザーが自分のデータを理解できるようにします。
+ダッシュボードは、すばやく最小限の情報をシンプルに表示することにより、一目で情報を把握できます。これは、ビジネスのステータス、メトリック、またはパフォーマンスを伝えるために配置された表示形式のコレクションで構成されるデータ可視化です。各データ可視化は、関連する情報の異なる部分を持っていることを意味しており、ユーザーが自分のデータを理解できるようにします。
 
 <img src="images/dashboards-home-page.png" alt="A complete dashboard example" width="80%"/>
 
@@ -12,7 +12,7 @@
 
   - **ダッシュボードの計画**: 情報をグラフィカルにどのように表現しますか? [グリッド](../data-visualizations/visualization-types/grid-chart.html)、マップ [ゲージ](../data-visualizations/visualization-types/gauge-charts.html)、[カテゴリ チャート](../data-visualizations/visualization-types/category-charts.html)、または[ピラミッド チャート](https://www.infragistics.com/community/blogs/b/infragistics/posts/creating-a-population-pyramid-chart-using-stacked-bar-charts-with-Reveal)を使用しますか? [フィルター](../filters/overview.html)を使用しますか? Reveal の高度な機能を使用してデータの表示形式を向上する方法については、[このブログ (英語) をご覧ください](https://www.infragistics.com/community/blogs/b/infragistics/posts/8-ways-to-improve-your-data-visualizations)\!
 
-  - Reveal で使用する**データを準備します**。デスクトップと iOS の古いバージョンの場合、Reveal で[スプレッドシートを操作する方法](../datasources/working-files/working-with-spreadsheets.html) の概要を以下に示します。
+  - Reveal で使用する**データを準備します**。デスクトップと iOS の古いバージョンの場合、Reveal で[スプレッドシートを操作する方法](../datasources/working-files/working-with-spreadsheets.html)の概要を以下に示します。
 
   - **ダッシュボードの作成**: 完全な手順については、[このトピック](creating-dashboards.html)をご覧ください。
 
@@ -26,11 +26,11 @@ Reveal を利用して実行できる機能:
 
   - [ダッシュボードのスタイル](dashboard-styling.html)
 
-  - [ダッシュボードを他のダッシュボードまたは URL のリンク](dashboard-linking.html)
+  - [ダッシュボードを他のダッシュボードまたは URL にリンク](dashboard-linking.html)
 
   - [ダッシュボードの共有](sharing-dashboards/share-a-dashboard.html)
 
-  - [現在のダッシュボードの管理](managing-dashboards.html)
+  - [ダッシュボードの管理](managing-dashboards.html)
 
 [ReportPlus の以前のバージョンで作成されたダッシュボード](Uploading-Dashboards.html)をインポートすることもできます。
 
