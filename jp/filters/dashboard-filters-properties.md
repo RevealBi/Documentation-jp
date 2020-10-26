@@ -55,11 +55,11 @@
 
 Reveal は、複数のダッシュボード フィルター値の同時選択をサポートしています。これにより、コレクション内で要素を並べて比較できます。たとえば、[HR ダッシュボード] で複数の選択を有効にすることで、さまざまなオフィスの雇用や欠勤を比較することができます。
 
-<img src="images/dashboard-filters-multiple-selection.png" alt="Filters multiple selection applied to a dashboard" width="80%"/>
+<img src="images/dashboard-filters-multiple-selection.png" alt="Filters multiple selections applied to a dashboard" width="80%"/>
 
 **「複数選択」を有効する**には、ダッシュボードを編集モードに替える必要があります。⇒ ダッシュボード フィルターのオーバーフロー ニューから [編集] を選択 ⇒ [選択] ⇒ [複数選択] チェックボックスをオンにします。
 
-<img src="images/dashboard-filters-enable-multiple-selection.png" alt="Enabling dashboard filters multiple selection" width="80%"/>
+<img src="images/dashboard-filters-enable-multiple-selection.png" alt="Enabling dashboard filters multiple selections" width="80%"/>
 
 <a name='required-selection'></a>
 ### 必須選択
@@ -103,6 +103,8 @@ Reveal は、複数のダッシュボード フィルター値の同時選択を
 ### MS Analysis Data を使用したダッシュボード フィルター
 
 SSAS ベースのダッシュボード フィルターを構成する場合、いくつかの詳細があります (以下のリストを参照)。
+
+<img src="images/ssrs-filter.png" alt="Dashboard Filter dialog when configuring an SSRS filter" width="80%"/>
 
 > A screenshot showing both fields below (no collapsing a dropdown, please)
 
