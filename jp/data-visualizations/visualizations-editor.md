@@ -1,12 +1,12 @@
 ## 表示形式エディター
 
-### How do you create a Visualization?
+### 表示形式の作成方法
 
-Once you select the + sign to add a new dashboard, you will be prompted to enter a new or an existing [data source](~/en/datasources/data-sources.md). This will be the first step towards creating your visualization.
+[+ ダッシュボード] を選択して新しいダッシュボードを追加すると、新しいデータソースまたは既存の[データソース](~/jp/datasources/data-sources.md)を入力するよう求められます。表示形式の作成にはじめに行う必要のある手順です。
 
-![Creating a new visualization dialog](images/creating-new-visualization.png)
+<img src="images/creating-new-visualization.png" alt="Creating a new visualization dialog" width="80%"/>
 
-With the data source selected, the visualization will be created. You can edit it through the [Visualizations Editor](visualizations-editor.md).
+データソースを選択すると、表示形式が作成されます。[表示形式 エディター](visualizations-editor.md)を使用して編集できます。
 
 表示形式エディターは、表示形式を作成および編集する場所です。これにより、データを操作して最も適切なビューを表示できます。
 

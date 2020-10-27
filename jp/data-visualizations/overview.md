@@ -4,17 +4,17 @@ Reveal は、さまざまな表示形式を提供することにより、ビジ�
 
 ### 表示形式の概要
 
-For users to get the most insight possible out of business data, Reveal provides several options to customize the way information is visualized. These are called "visualizations". Any dashboard is composed of one or more visualizations. 
+ビジネス データを理解するために Reveal は情報の可視化をカスタマイズする複数のオプションを提供します。これらは表示形式といいます。すべてのダッシュボードは 1 つ以上の表示形式で構成されます。 
 
-The dashboard shown below contains a wide variety of visualizations, all of which analyze different aspects of Manufacturing.
+以下に示すダッシュボードには、製造のさまざまな側面を分析する多様な表示形式が含まれています。
 
 <img src="images/data-visualizations-example.png" alt="Reveal's log in screen" width="80%"/>
 
 ### 適切なチャート タイプの選択
 
-To choose the right chart type for your visualization you need to answer the following question: what data story are you trying to tell with your visualization?
+表示形式に適切なチャート タイプを選択するには、次の質問に答える必要があります: 表示形式でどのようなデータ ストーリーを伝えようとしていますか?
 
-The table below will help you choose the chart to use for the type of data that you are trying to represent. 
+以下の表は、表現しようとしているデータのタイプに使用する表示形式を選択するのに役立ちます。 
 
 <style type="text/css">
 td { 
@@ -36,34 +36,34 @@ td {
 </colgroup>
 <body>
   <tr>
-    <td><b>Compare Data</b></td>
+    <td><b>データの比較</b></td>
     <td>
       <img src="images/Bar-Chart.png" alt="Bar Chart" /><br/>
-      <a href="visualization-types/category-charts.md">Bar</a>
+      <a href="visualization-types/category-charts.md">棒</a>
     </td>
     <td>
       <img src="images/Column-chart.png" alt="Column Chart" /><br/>
-      <a href="visualization-types/category-charts.md">Column</а>
+      <a href="visualization-types/category-charts.md">柱状</а>
     </td>
     <td>
       <img src="images/Area-chart.png" alt="Area Chart" /><br/>
-      <a href="visualization-types/category-charts.md">Area</а>
+      <a href="visualization-types/category-charts.md">エリア</а>
     </td>
     <td>
       <img src="images/Spline-chart.png" alt="Spline Chart" /><br/>
-      <a href="visualization-types/category-charts.md">Spline</а>
+      <a href="visualization-types/category-charts.md">スプライン</а>
     </td>
     <td>
       <img src="images/Combo-chart.png" alt="Combo Chart" /><br/>
-      <a href="visualization-types/combo-charts.md">Combo</a>
+      <a href="visualization-types/combo-charts.md">複合</a>
     </td>
     <td>
       <img src="images/Circular-chart.png" alt="Circular Gauge" /><br/>
-      <a href="visualization-types/gauge-charts.html#circular-gauge">Circular Gauge</a>
+      <a href="visualization-types/gauge-charts.html#circular-gauge">円型</a>
     </td>
     <td>
       <img src="images/Spline-Area-chart.png" alt="Spline with Area Chart" /><br/>
-      <a href="visualization-types/category-charts.md">Spline Area</a>
+      <a href="visualization-types/category-charts.md">スプライン エリア</a>
     </td>
     <td>
       <img src="images/OHLC-chart.png" alt="OHLC Chart" /><br/>
@@ -71,59 +71,59 @@ td {
     </td>
     <td>
       <img src="images/Candlestick-chart.png" alt="Candlestick Chart" /><br/>
-      <a href="visualization-types/financial-charts.md">Candlestick</a>
+      <a href="visualization-types/financial-charts.md">ロウソク足</a>
     </td>
   </tr>
   <tr>
-    <td><b>Part to Whole</b></td>
+    <td><b>部分から全体</b></td>
     <td>
       <img src="images/Stacked-Column-Chart.png" alt="Stacked Column Chart" /><br/>
-      <a href="visualization-types/category-charts.md">Stacked Column</a>
+      <a href="visualization-types/category-charts.md">積層型柱状</a>
     </td>
     <td>
       <img src="images/Stacked-Bar-Chart.png" alt="Stacked Bar Chart" /><br/>
-      <a href="visualization-types/category-charts.md">Stacked Bar</a>
+      <a href="visualization-types/category-charts.md">積層型棒</a>
     </td>
     <td>
       <img src="images/Stacked-Area-Chart.png" alt="Stacked Area Chart" /><br/>
-      <a href="visualization-types/category-charts.md">Stacked Area</a>
+      <a href="visualization-types/category-charts.md">積層型エリア</a>
     </td>
     <td>
       <img src="images/Pie-Chart.png" alt="Pie Chart" /><br/>
-      <a href="visualization-types/category-charts.md">Pie</a>
+      <a href="visualization-types/category-charts.md">円</a>
     </td>
     <td>
       <img src="images/Doughnut-Chart.png" alt="Dougnut Chart" /><br/>
-      <a href="visualization-types/category-charts.md">Dougnut</a>
+      <a href="visualization-types/category-charts.md">ドーナツ型</a>
     </td>
     <td>
       <img src ="images/funnel-chart.png" alt="Funnel Chart" /><br/>
-      <a href="visualization-types/category-charts.md">Funnel</a>
+      <a href="visualization-types/category-charts.md">ファンネル</a>
     </td>
     <td>
       <img src ="images/treemap-chart.png" alt="Treemap Chart" /><br/>
-      <a href="visualization-types/treemap-charts.md">Treemap</a>
+      <a href="visualization-types/treemap-charts.md">ツリーマップ</a>
     </td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td><b>Data Distribution</b></td>
+    <td><b>データ分布</b></td>
     <td>
       <img src="images/step-area-Chart.png" alt="Step Area Chart" /><br/>
-      <a href="visualization-types/category-charts.md">Step Area</a>
+      <a href="visualization-types/category-charts.md">ステップ エリア</a>
     </td>
     <td>
       <img src="images/Stacked-Column-Chart.png" alt="Stacked Column Chart" /><br/>
-      <a href="visualization-types/category-charts.md">Stacked Column</a>
+      <a href="visualization-types/category-charts.md">積層型柱状</a>
     </td>
     <td>
       <img src="images/scatter-chart.png" alt="Scatter Chart" /><br/>
-      <a href="visualization-types/scatter-bubble-charts.md">Scatter</а>
+      <a href="visualization-types/scatter-bubble-charts.md">散布</а>
     </td>
     <td>
       <img src="images/bubble-Chart.png" alt="Bubble Chart" /><br/>
-      <a href="visualization-types/scatter-bubble-charts.md">Bubble</а>
+      <a href="visualization-types/scatter-bubble-charts.md">バブル</а>
     </td>
     <td></td>
     <td />
@@ -131,18 +131,18 @@ td {
     <td />
     <td />
   <tr>
-    <td><b>Data Trend Analysis<b/></td>
+    <td><b>データ トレンド分析<b/></td>
     <td>
       <img src="images/line-chart.png" alt="Line Chart" /><br/>
-      <a href="visualization-types/category-charts.md">Line</a>
+      <a href="visualization-types/category-charts.md">折れ線</a>
     </td>
     <td>
       <img src="images/spline-Chart.png" alt="Spline Chart" /><br/>
-      <a href="visualization-types/category-charts.md">Spline</a>
+      <a href="visualization-types/category-charts.md">スプライン</a>
     </td>
     <td>
       <img src="images/Combo-Chart.png" alt="Combo Chart" /><br/>
-      <a href="visualization-types/combo-charts.md">Combo</a>
+      <a href="visualization-types/combo-charts.md">複合</a>
     </td>
     <td>
       <img src="images/ohlc-Chart.png" alt="OHLC Chart" /><br/>
@@ -150,7 +150,7 @@ td {
     </td>
     <td>
       <img src="images/candlestick-Chart.png" alt="Candlestick Chart" /><br/>
-      <a href="visualization-types/financial-charts.md">Candlestick</a>
+      <a href="visualization-types/financial-charts.md">ロウソク足</a>
     </td>
     <td />
     <td />
@@ -158,18 +158,18 @@ td {
     <td />
   </tr>
   <tr>
-  <td><b>Data Relationships</b></td>
+  <td><b>データの関係</b></td>
   <td>
     <img src="images/scatter-chart.png" alt="Scatter Chart" /><br/>
-    <a href="visualization-types/scatter-bublle-charts.md">Scatter</а>
+    <a href="visualization-types/scatter-bublle-charts.md">散布</а>
   </td>
   <td>
     <img src="images/Bubble-chart.png" alt="Bubble Chart" /><br/>
-    <a href="visualization-types/scatter-bubble-charts.md">Bubble</а>
+    <a href="visualization-types/scatter-bubble-charts.md">バブル</а>
   </td>
   <td>
     <img src="images/line-chart.png" alt="Line Chart" /><br/>
-    <a href="visualization-types/category-charts.md">Line</a>
+    <a href="visualization-types/category-charts.md">折れ線</a>
   </td>
   <td />
   <td />
@@ -179,18 +179,18 @@ td {
   <td />
   </tr>
   <tr>
-  <td><b>KPIs and Gauges</b></td>
+  <td><b>KPI とゲージ</b></td>
   <td>
     <img src="images/bullet-graph-gauge.png" alt="Bullet Graph Gauge" /><br/>
-    <a href="visualization-types/gauge-charts.html#bullet-graph">Bullet Graph</a>
+    <a href="visualization-types/gauge-charts.html#bullet-graph">ブレット グラフ</a>
   </td>
   <td>
     <img src="images/linear-gauge.png" alt="Linear Gauge" /><br/>
-    <a href="visualization-types/gauge-charts.html#linear-gauge">Linear</а>
+    <a href="visualization-types/gauge-charts.html#linear-gauge">リニア</а>
   </td>
   <td>
     <img src="images/text-gauge.png" alt="Text Chart" /><br/>
-    <a href="visualization-types/gauge-charts.html#text-gauge">Text</a>
+    <a href="visualization-types/gauge-charts.html#text-gauge">テキスト</a>
   </td>
   <td>
     <img src="images/kpi.png" alt="KPI Gauge" /><br/>
@@ -198,7 +198,7 @@ td {
   </td>
   <td>
     <img src="images/circular-gauge.png" alt="Circular Gauge" /><br/>
-    <a href="visualization-types/gauge-charts.html#circular-gauge">Circular</a>
+    <a href="visualization-types/gauge-charts.html#circular-gauge">円型</a>
   </td>
     <td />
     <td />
@@ -206,14 +206,14 @@ td {
     <td />
   </tr>
   <tr>
-  <td><b>Geospatial Data</b></td>
+  <td><b>地理的データ</b></td>
   <td>
     <img src="images/choropleth-map.png" alt="Choropleth Map" /><br/>
-    <a href="visualization-types/choropleth-map/choropleth-map.md">Choropleth Map</a>
+    <a href="visualization-types/choropleth-map/choropleth-map.md">階級区分図</a>
   </td>
   <td>
     <img src="images/scatter-map.png" alt="Scatter Map" /><br/>
-    <a href="visualization-types/scatter-map/scatter-map.md">Scatter Map</a>
+    <a href="visualization-types/scatter-map/scatter-map.md">散布図</a>
   </td>
   <td />
   <td />
@@ -225,7 +225,7 @@ td {
 </body>
 </table>
 
-If you need more information about how to use each of these visualizations, use the hyperlinks in the table.
+これらの各表示形式の使用方法に関する詳細が必要な場合は、表のハイパーリンクを使用してください。
 
 ### トピックの概要 
 
@@ -281,7 +281,7 @@ If you need more information about how to use each of these visualizations, use 
 </p></td>
 <td><p><img src="images/Circular-Gauge.png" alt="Circular Gauge" /><br />
 </p>
-<p><a href="~/jp/visualization-tutorials/gauge-views.md">円形</a><br />
+<p><a href="~/jp/visualization-tutorials/gauge-views.md">円型</a><br />
 </p></td>
 </tr>
 <tr class="even">
