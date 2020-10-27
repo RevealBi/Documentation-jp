@@ -28,7 +28,7 @@
 
 ### 表示形式の作成方法
 
-[+] 記号を選択して新しいダッシュボードを追加すると、新しい[データソース](~/jp/datasources/data-sources.html)または既存のデータソースを入力するよう求められます。表示形式の作成にはじめに行う必要のある手順です。
+[+] 記号を選択して新しいダッシュボードを追加すると、新しい[データソース](~/jp/datasources/overview.md)または既存のデータソースを入力するよう求められます。表示形式の作成にはじめに行う必要のある手順です。
 
 <img src="images/creating-new-visualization.png" alt="Creating a new visualization dialog" width="80%"/>
 

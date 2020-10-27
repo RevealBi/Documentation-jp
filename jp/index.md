@@ -56,10 +56,6 @@ Reveal で BigQuery または Azure Machine Learning Studio からのトレー�
 * [Amazon Athena](~/jp/datasources/supported-data-sources/athena.md) データソース – Amazon Athena に接続して Amazon S3 からデータをクエリし、それを使用して Reveal で表示形式を構築できるようになりました。
 * [Amazon S3](~/jp/datasources/supported-data-sources/amazon-s3.md) データソース – Reveal で Amazon S3 から直接データにアクセスできるようになりました。
 
-### Reveal に追加予定
-
-**散布図**表示形式! 地理空間データのインサイトを深める別のマップの可視化提供できるようになりました。背景として使用するために、多数のマッピング サービスに接続する機能が追加されています。
-
 ### Reveal はどこで入手できますか?
 
 Reveal は使用しているデバイスに関係なく、シームレスでほぼ同一のエクスペリエンスを提供します。Web ブラウザーの使用や iOS、Android、デスクトップでネイティブ アプリケーションを取得することが可能であるため、さまざまなデバイスやプラットフォームで簡単に作業できます。

@@ -12,9 +12,11 @@ Reveal は、さまざまな表示形式を提供することにより、ビジ�
 
 ### 適切なチャート タイプの選択
 
-表示形式に適切なチャート タイプを選択するには、次の質問に答える必要があります: 表示形式でどのようなデータ ストーリーを伝えようとしていますか?
+In choosing the best chart type you need to look at your data and answer the questions that will help you find out what story you are trying to tell with your visualization. 
 
-以下の表は、表現しようとしているデータのタイプに使用する表示形式を選択するのに役立ちます。 
+Are you trying to compare data, show data distribution or present it as a part to a whole breakdown? Are you doing a trend analysis of your financial, marketing or sales data, need a date/time axis? Are you looking at relationships between data? Or you just want to show KPIs and gauges, which are really easy to read and tell a quick story? Is it important to plot your data on a map? 
+
+Answer what you want to show with your data and use the table below to choose the most suitable chart. 
 
 <style type="text/css">
 td { 
