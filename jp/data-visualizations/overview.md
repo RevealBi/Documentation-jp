@@ -154,6 +154,10 @@ td {
       <img src="images/candlestick-Chart.png" alt="Candlestick Chart" /><br/>
       <a href="visualization-types/financial-charts.md">ロウソク足</a>
     </td>
+    <td>
+      <img src="images/radial-Chart.png" alt="Radial Chart" /><br/>
+      <a href="visualization-types/radial-charts.md">ラジアル</a>
+    </td>
     <td />
     <td />
     <td />
@@ -163,7 +167,7 @@ td {
   <td><b>データの関係</b></td>
   <td>
     <img src="images/scatter-chart.png" alt="Scatter Chart" /><br/>
-    <a href="visualization-types/scatter-bublle-charts.md">散布</а>
+    <a href="visualization-types/scatter-bubble-charts.md">散布</а>
   </td>
   <td>
     <img src="images/Bubble-chart.png" alt="Bubble Chart" /><br/>
@@ -231,25 +235,16 @@ td {
 
 ### トピックの概要 
 
-表示形式タイプはいくつかあります。
+In the _Visualization Types_ dropdown (see the table of contents on the left) you will find an A-Z list of all kinds of charts Reveal provides. 
 
-  - [グリッド ビュー](visualization-types/grid-chart.md)
+In [Working with the Visualizations Editor](visualizations-editor.md) you will be introduced to the Visualizations Editor's main parts and will also learn how to start creating your first visualization.
 
-  - [ピボット テーブル](visualization-types/pivot-table.md)
+In the [_Fields_](fields/overview.md) topics you will find more information on how to aggregate, filter and highlight the most valuable aspects of the data fields you are using to build your visualization. 
 
-  - [テキスト ビュー](visualization-types/text-view.md)
+In [Reusing Visualization](reusing-visualizations.md) you will find useful ideas on how to speed up the dashboards creation process. 
 
-  - [画像ビューアー](visualization-types/image-chart.md)
+In [Statistical Functions](statistical-functions.md) you will find how advanced predictive analysis works in Reveal. See how to use the *Time series forecast*, *Linear regression*, and *Outliers Detection* function to receive more insight from your data.
 
-  - [ブレット グラフ](visualization-types/gauge-charts.md#bullet-graph)、[円形](visualization-types/gauge-charts.md#circular-gauge)、[KPI](visualization-types/kpi-gauge.md)、[リニア](visualization-types/gauge-charts.md#linear-gauge)、および [テキスト](visualization-types/gauge-charts.md#text-gauge) ゲージを含むゲージ ビュー。
-
-  - [カテゴリ](visualization-types/category-charts.md)、[コンボ](visualization-types/combo-charts.md)、[ファイナンシャル](visualization-types/financial-charts.md)、[ラジアル](visualization-types/radial-charts.md)、[散布とバブル](visualization-types/scatter-bubble-charts.md)、[スパークライン](visualization-types/sparkline-charts.md)など、いくつかの種類のチャート。
-
-  - [テキスト ボックス表示形式](visualization-types/text-box.md)
-
-### 次の手順
-
-[表示形式エディターで表示形式を作成](visualizations-editor.md)
 
 ### 表示形式チュートリアル 
 
@@ -376,3 +371,4 @@ td {
 </tr>
 </tbody>
 </table>
+
