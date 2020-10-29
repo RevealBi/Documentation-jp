@@ -1,47 +1,69 @@
-## 表示形式エディター
+## Visualizations Editor
 
-### 表示形式の作成方法
+The _Visualizations Editor_ is where you create and edit your visualizations in Reveal. Here you will find the data from your dataset aggregated and prepared for use as well as great variety of visualizations to build with it.
 
-[+ ダッシュボード] を選択して新しいダッシュボードを追加すると、新しいデータソースまたは既存の[データソース](~/jp/datasources/overview.md)を入力するよう求められます。表示形式の作成にはじめに行う必要のある手順です。
+### How Do You Create a Visualization?
+
+Visualizations are the building blocks of your dashboard. So, when you start creating a visualization you can choose between two alternative starting points.
+
+* Start with **creating a new dashboard** where the new visualization will be your first and/or only visualization. To do this, go to _My Stuff_ / a team space and click/tap the _+ Dashboard_ blue split button.
+* Start by **adding a new visualization** to an already existing dashboard. To do this, open a dashboard in [_Dashboard Edit_](~/jp/dashboards/dashboards-interactions.html#view-edit-mode) mode and click/tap the _+ Visualization_ blue split button. 
+
+After that, you will be prompted to add a new or select an existing [data source](~/jp/datasources/overview.md).
 
 <img src="images/creating-new-visualization.png" alt="Creating a new visualization dialog" width="80%"/>
 
-データソースを選択すると、表示形式が作成されます。[表示形式 エディター](visualizations-editor.md)を使用して編集できます。
+With the data source selected and configured, you will be navigated to the [Visualizations Editor](visualizations-editor.md), where you can start creating your visualization.
 
-表示形式エディターは、表示形式を作成および編集する場所です。これにより、データを操作して最も適切なビューを表示できます。
+The *Visualization editor* will help you get the most desired view using your data.
 
-### 表示形式エディターにアクセスする
+### Accessing the Visualizations Editor
 
-表示形式エディターには、次の 2 つの方法でアクセスできます。
+You can access the Visualization editor in two ways:
 
-***1. 表示形式作成プロセスで***
+***1. In the visualization creation process***
 
-データソースを選択して設定すると、表示形式エディターが自動的に開きます。
+Once you have selected and configured your data source, the *Visualization editor* will open automatically.
 
-***2. ダッシュボード編集プロセスで***
+***2. In the dashboard editing process***
 
-選択したダッシュボードを開き、ダッシュボードの編集モードに入ると、表示形式のオーバーフロー ボタンから *[編集]* を選択して、**表示形式エディターにアクセス**できます。
+After opening a chosen dashboard and entering _Dashboard Edit mode_, you will be able to **access the Visualizations editor** by selecting *Edit* from a visualization's overflow button.
 
-### 表示形式エディターの概要
+### Visualizations Editor Overview
 
-表示形式エディターには、主に 3 つのエリアがあります。
+Below, you will find a list of all sections of the _Editor_ with their capabilities.
 
 <img src="images/visualization-editor-panes.png" alt="Panes of the Visualization editor" width="80%"/>
 
-  1. **データ セクション**選択したデータセットとデータ エディターで使用可能なフィールドのリストが表示されます。このツールは、データを必要に応じてスライスアンドダイスする際に役立ちます。使用可能なフィールドが 10 を超える場合、検索によってデータ フィールドを見つけることができます。
+1. **Data Section** - this section contains two panels: 
 
-  2. **設定セクション**使用している特定の表示形式の設定と、表示形式の一般設定にアクセスできます。
+    a. **Fields** - All of the available fields within your data source will appear on the left panel. Each field has an indicator that informs the users what field type each field is: *Date*, *Value*, *Text*. A search bar appears when the available fields are more than ten.
+   
+   The *plus* icon in this panel allows you to either [blend data sources](~/jp/datasources/data-blending.md) or [calculate a field](fields/calculated-fields/overview.html#precalculated-fields). The *brain* icon allows you to use fields from a [BigQuery](~/jp/datasources/datasources/ml-integration/bigquery-machine-learning-models.md) or [Azure](~/jp/datasources/datasources/ml-integration/azure-machine-learning-models.md) *machine learning model* for your visualization. 
+   
+   
+   b. **Visualization Fields** - Here is where you will drag and drop, or click the *+* mark to see the available fields and select those you want to use for the visualization you are creating.
 
-  3. **表示形式 セレクター**表示形式を選択し、最終結果をプレビューできます。
 
-特に、次のことが可能になります。
+2. **Settings Section** - this section allows you to customize what you want to show. Each visualization comes with its own settings. 
 
-  - データの[**並べ替え**](~/jp/data-visualizations/fields/sort-by-field.html)と[**フィルター**](~/jp/filters/visualization-filters.html)。
+At the bottom of the *Settings* section you will see the option for links. This is a powerful feature that takes drill down to a whole new level. Read more in the [Dashboard Linking](~/jp/dashboards/dashboard-linking.md) topic.
 
-  - **表示形式のデータをダッシュボード ページの選択へバインド**。
+3. **Visualization Picker**, where you can choose your desired visualization and preview the final result. As you switch between the different chart types in the dropdown you will notice the visualization fields section change. The fields building each visualization are different, but they change automatically so you only need to fill them in. 
 
-  - データ エディターの[**集計データ**](~/jp/data-visualizations/fields/field-settings.html)。
+4. **Visualization Workspace** - Here is where you will be able to see the visualization you are creating or editing as you drag and drop fields. The visualization won't populate until you have all the necessary fields needed to create that chart type.
 
-  - データの **検索**、**表示形式**と[**書式設定**](~/jp/data-visualizations/fields/conditional-formatting.html)。
+5. **Data Source** - The data source that you are currently working with will be displayed here. With a click you can change between the different sheets, tables or views within your source or change your connection to a new source entirely without having to leave the editor. See more in [Changing the Data Source for a Visualization](~/jp/datasources/changing-data-source-visualization.md) topic. 
 
-表示形式の設定と適切な表示形式の選択後、*戻る矢印*を選択してダッシュボード エディターに戻ります。ダッシュボード エディターでは、表示形式をドラッグしてレイアウト、サイズ、配置を操作できます。
+Among other things, you will be able to:
+
+  - [**Sort**](~/jp/data-visualizations/fields/sort-by-field.md) & [**filter**](~/jp/filters/visualization-filters.md) data.
+
+  - [**Aggregate data**](~/jp/data-visualizations/fields/field-settings.md) in the data editor.
+
+  - **Search**, **Visualize** & [**format**](~/jp/data-visualizations/fields/conditional-formatting.md) data.
+
+After you're done building the visualization, select the *check* icon to return to the
+*Dashboard Editor*. In the Dashboard Editor, you can control the layout,
+size, and location of the visualizations in a dashboard by simply dragging
+visualizations and their borders. When you are ready formatting and styling your dashboard, click/tap the *check* icon again to save your dashboard.  
