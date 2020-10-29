@@ -27,7 +27,7 @@
 <tr>
   <td class="tg-cly1"><span style="font-style:italic">
   新しい散布図の表示形式 </span><br>
-  Gain more insight from your geospatial data and show distribution, spatial patterns, and outliers. ズームしてより詳細なビューを表示し、背景として使用する多数のマッピング サービスに接続することもできます。
+  地理空間データからより多くのインサイトを得て、配布、空間パターン、および外れ値を表示します。ズームしてより詳細なビューを表示し、背景として使用する多数のマッピング サービスに接続することもできます。
   </td>
 </tr>
    <tr>

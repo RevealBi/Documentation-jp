@@ -12,11 +12,11 @@ Reveal は、さまざまな表示形式を提供することにより、ビジ�
 
 ### 適切なチャート タイプの選択
 
-In choosing the best chart type you need to look at your data and answer the questions that will help you find out what story you are trying to tell with your visualization. 
+最適なチャート タイプを選択するには、データを確認し、表示形式で伝えようとしているストーリーを見つけるのに役立つ質問に答える必要があります。 
 
-Are you trying to compare data, show data distribution or present it as a part to a whole breakdown? Are you doing a trend analysis of your financial, marketing or sales data, need a date/time axis? Are you looking at relationships between data? Or you just want to show KPIs and gauges, which are really easy to read and tell a quick story? Is it important to plot your data on a map? 
+データを比較することか、データの分布を示すことあるいはデータを全体の一部分として提示しようとしていますか? 財務、マーケティング、または販売データのトレンド分析を行っていますか? 日付/時刻軸が必要ですか? データ間の関係を調べていますか? または、読みやすく、簡単なストーリーを伝える KPI とゲージを表示したいだけですか? データを地図上にプロットすることは重要ですか?
 
-Answer what you want to show with your data and use the table below to choose the most suitable chart. 
+データを通じて何を表示したいかについて回答し、以下の表を使用して最適なチャートを選択してください。 
 
 <style type="text/css">
 td { 
@@ -235,15 +235,15 @@ td {
 
 ### トピックの概要 
 
-In the _Visualization Types_ dropdown (see the table of contents on the left) you will find an A-Z list of all kinds of charts Reveal provides. 
+[表示形式タイプ] ドロップダウン (左側の目次を参照) には、Reveal が提供するすべての種類のグラフチャートの A-Z リストがあります。 
 
-In [Working with the Visualizations Editor](visualizations-editor.md) you will be introduced to the Visualizations Editor's main parts and will also learn how to start creating your first visualization.
+[表示形式エディターの操作](visualizations-editor.md)では、表示形式エディタの主要部分を紹介し、最初の表示形式の作成を開始する方法も学習します。
 
-In the [_Fields_](fields/overview.md) topics you will find more information on how to aggregate, filter and highlight the most valuable aspects of the data fields you are using to build your visualization. 
+[フィールド](fields/overview.md) トピックでは、表示形式の構築に使用しているデータ フィールドの最も価値のある側面を、集計、フィルタリング、および強調表示する方法の詳細を確認できます。 
 
-In [Reusing Visualization](reusing-visualizations.md) you will find useful ideas on how to speed up the dashboards creation process. 
+[表示形式の再利用](reusing-visualizations.md)には、ダッシュボードの作成プロセスを高速化する方法に関する役立つアイデアがあります。 
 
-In [Statistical Functions](statistical-functions.md) you will find how advanced predictive analysis works in Reveal. See how to use the *Time series forecast*, *Linear regression*, and *Outliers Detection* function to receive more insight from your data.
+[統計関数](statistical-functions.md)には、Reveal で高度な予測分析がどのように機能するかが記載されています。**時系列予測**、**線形回帰**、および**外れ値の検出**の機能を使用して、データからより多くのインサイトを得る方法をご覧ください。
 
 
 ### 表示形式チュートリアル 
