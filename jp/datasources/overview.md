@@ -80,7 +80,7 @@
 
    - [スプレッドシート](~/jp/datasources/working-files/working-with-spreadsheets.html)
 
->[NOTE]
+>[!NOTE]
 > **データベース**は Reveal の Web バージョンでサポートされていません。
 
 ### 関連トピック 
