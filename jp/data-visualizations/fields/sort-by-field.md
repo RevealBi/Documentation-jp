@@ -30,7 +30,7 @@ _Priority_ フィールドはテキスト フィールドであるため、デ�
 
 <img src="images/RevenueCompanyPriority_All.png" alt="Welcome image for Reveal" width="80%"/>
 
-[並べ替え条件] フィールド オプションを使用して、*Priority Level* フィールドをデータ エディタに実際にドラッグアンドドロップせずに、チャート内の情報を優先度レベル別に整理します。
+[並べ替え条件] フィールド オプションを使用して、*Priority Level* フィールドをデータ エディターに実際にドラッグアンドドロップせずに、チャート内の情報を優先度レベル別に整理します。
 
 <img src="images/ForecastPriorityLevel_All.png" alt="Welcome image for Reveal" width="80%"/>
 
