@@ -1,69 +1,66 @@
-## Visualizations Editor
+## 表示形式エディター
 
-The _Visualizations Editor_ is where you create and edit your visualizations in Reveal. Here you will find the data from your dataset aggregated and prepared for use as well as great variety of visualizations to build with it.
+**表示形式エディター**は、Reveal で表示形式を作成および編集する場所です。ここでは、データセットからのデータが集約されて使用できるように準備されているほか、それを使用して構築するためのさまざまな表示形式が表示されます。
 
-### How Do You Create a Visualization?
+### 表示形式の作成方法
 
-Visualizations are the building blocks of your dashboard. So, when you start creating a visualization you can choose between two alternative starting points.
+表示形式は、ダッシュボードの基本要素です。したがって、表示形式の作成を開始するときに、開始点には ２ つの選択肢があります。
 
-* Start with **creating a new dashboard** where the new visualization will be your first and/or only visualization. To do this, go to _My Stuff_ / a team space and click/tap the _+ Dashboard_ blue split button.
-* Start by **adding a new visualization** to an already existing dashboard. To do this, open a dashboard in [_Dashboard Edit_](~/jp/dashboards/dashboards-interactions.html#view-edit-mode) mode and click/tap the _+ Visualization_ blue split button. 
+* **新しいダッシュボードを作成する**ことから始めます。このダッシュボードでは、新しい表示形式が最初または唯一の表示形式になります。これを行うには、**[アイテム]** または任意のチームに移動し、**[+ ダッシュボード]** の青い分割ボタンをクリック/タップします。
+* 既存のダッシュボードに**新しい表示形式を追加する**ことから始めます。これを行うには、ダッシュボードを[ダッシュボード編集](~/jp/dashboards/dashboards-interactions.html#view-edit-mode)モードで開き、**[+ 追加]** の青い分割ボタンをクリック/タップします。 
 
-After that, you will be prompted to add a new or select an existing [data source](~/jp/datasources/overview.md).
+その後、新しいデータソースを追加するか、既存の[データソース](~/jp/datasources/overview.md)を選択するように求められます。
 
 <img src="images/creating-new-visualization.png" alt="Creating a new visualization dialog" width="80%"/>
 
-With the data source selected and configured, you will be navigated to the [Visualizations Editor](visualizations-editor.md), where you can start creating your visualization.
+データソースを選択して構成すると、[表示形式エディター](visualizations-editor.md)に移動し、表示形式の作成を開始できます。
 
-The *Visualization editor* will help you get the most desired view using your data.
+表示形式エディターは、データを使用して最も望ましいビューを作成するのに役立ちます。
 
-### Accessing the Visualizations Editor
+### 表示形式エディターにアクセスする
 
-You can access the Visualization editor in two ways:
+表示形式エディターには、次の 2 つの方法でアクセスできます:
 
-***1. In the visualization creation process***
+***1. 表示形式作成プロセス***
 
-Once you have selected and configured your data source, the *Visualization editor* will open automatically.
+データソースを選択して設定すると、**表示形式エディター**が自動的に開きます。
 
-***2. In the dashboard editing process***
+***2. ダッシュボード編集プロセス***
 
-After opening a chosen dashboard and entering _Dashboard Edit mode_, you will be able to **access the Visualizations editor** by selecting *Edit* from a visualization's overflow button.
+選択したダッシュボードを開き、**ダッシュボード編集**モードに入ると、表示形式のオーバーフロー ボタンから **[編集]** を選択して、**表示形式エディターにアクセス**できます。
 
-### Visualizations Editor Overview
+### 表示形式エディターの概要
 
-Below, you will find a list of all sections of the _Editor_ with their capabilities.
+以下は、エディターのすべてのセクションとその機能のリストです。
 
 <img src="images/visualization-editor-panes.png" alt="Panes of the Visualization editor" width="80%"/>
 
-1. **Data Section** - this section contains two panels: 
+1. **データ セクション** - このセクションには 2 つのパネルがあります。 
 
-    a. **Fields** - All of the available fields within your data source will appear on the left panel. Each field has an indicator that informs the users what field type each field is: *Date*, *Value*, *Text*. A search bar appears when the available fields are more than ten.
+    a. **フィールド** - データソース内で使用可能なすべてのフィールドが左側のパネルに表示されます。各フィールドには、フィールド タイプ (**日付**、**値**、**テキスト**) をユーザーに通知するインジケーターがあります。使用可能なフィールドが 10 を超えると、検索バーが表示されます。
    
-   The *plus* icon in this panel allows you to either [blend data sources](~/jp/datasources/data-blending.md) or [calculate a field](fields/calculated-fields/overview.html#precalculated-fields). The *brain* icon allows you to use fields from a [BigQuery](~/jp/datasources/datasources/ml-integration/bigquery-machine-learning-models.md) or [Azure](~/jp/datasources/datasources/ml-integration/azure-machine-learning-models.md) *machine learning model* for your visualization. 
+   このパネルの [+] アイコンを使用すると、[データソースをブレンドする](~/jp/datasources/data-blending.md)か、[フィールドを計算](fields/calculated-fields/overview.html#precalculated-fields)することができます。**脳**アイコンを使用すると、[BigQuery](~/jp/datasources/datasources/ml-integration/bigquery-machine-learning-models.md) または [Azure](~/jp/datasources/datasources/ml-integration/azure-machine-learning-models.md) の**機械学習モデル**のフィールドを表示形式に使用できます。 
    
    
-   b. **Visualization Fields** - Here is where you will drag and drop, or click the *+* mark to see the available fields and select those you want to use for the visualization you are creating.
+   b. **表示形式フィールド** - ここでフィールドをドラッグアンドドロップするか、**[+]** マークをクリックして使用可能なフィールドから作成する表示形式に使用するフィールドを選択します。
 
 
-2. **Settings Section** - this section allows you to customize what you want to show. Each visualization comes with its own settings. 
+2. **設定セクション** - このセクションでは、表示する内容をカスタマイズできます。各表示形式には独自の設定があります。 
 
-At the bottom of the *Settings* section you will see the option for links. This is a powerful feature that takes drill down to a whole new level. Read more in the [Dashboard Linking](~/jp/dashboards/dashboard-linking.md) topic.
+**[設定]** セクションの下部に、リンクのオプションが表示されます。これは、ドリルダウンを全く新しいレベルに到達させる強力な機能です。詳細については、[ダッシュボード リンク](~/jp/dashboards/dashboard-linking.md)トピックをご覧ください。
 
-3. **Visualization Picker**, where you can choose your desired visualization and preview the final result. As you switch between the different chart types in the dropdown you will notice the visualization fields section change. The fields building each visualization are different, but they change automatically so you only need to fill them in. 
+3. **表示形式ピッカー** - ここで目的の表示形式を選択して、最終結果をプレビューできます。ドロップダウンでさまざまなチャートの種類を切り替えると、表示形式フィールドのセクションが変更されます。各表示形式を構築するフィールドは異なりますが、入力するだけで自動的に変更されます。 
 
-4. **Visualization Workspace** - Here is where you will be able to see the visualization you are creating or editing as you drag and drop fields. The visualization won't populate until you have all the necessary fields needed to create that chart type.
+4. **表示形式のワークスペース** - フィールドをドラッグアンドドロップしながら作成または編集している表示形式を確認できます。そのチャート タイプを作成するために必要なすべてのフィールドが揃うまで、表示形式は入力されません。
 
-5. **Data Source** - The data source that you are currently working with will be displayed here. With a click you can change between the different sheets, tables or views within your source or change your connection to a new source entirely without having to leave the editor. See more in [Changing the Data Source for a Visualization](~/jp/datasources/changing-data-source-visualization.md) topic. 
+5. **データソース** - 現在使用しているデータソースがここに表示されます。クリックによってデータソース内のシート、テーブル、またはビューを変更し、またエディターを離れることなく、接続を新しいデータソースへ完全に変更できます。詳細については、[表示形式に使用するデータソースの変更](~/jp/datasources/changing-data-source-visualization.md)トピックを参照してください。 
 
-Among other things, you will be able to:
+特に、次のことが可能になります:
 
-  - [**Sort**](~/jp/data-visualizations/fields/sort-by-field.md) & [**filter**](~/jp/filters/visualization-filters.md) data.
+  - [**データの並べ替え**](~/jp/data-visualizations/fields/sort-by-field.md)と[**フィルタリング**](~/jp/filters/visualization-filters.md)。
 
-  - [**Aggregate data**](~/jp/data-visualizations/fields/field-settings.md) in the data editor.
+  - データ エディターで[**データの集計**](~/jp/data-visualizations/fields/field-settings.md)。
 
-  - **Search**, **Visualize** & [**format**](~/jp/data-visualizations/fields/conditional-formatting.md) data.
+  - データの**検索**、**視覚化**、および[**書式設定**](~/jp/data-visualizations/fields/conditional-formatting.md)。
 
-After you're done building the visualization, select the *check* icon to return to the
-*Dashboard Editor*. In the Dashboard Editor, you can control the layout,
-size, and location of the visualizations in a dashboard by simply dragging
-visualizations and their borders. When you are ready formatting and styling your dashboard, click/tap the *check* icon again to save your dashboard.  
+表示形式の作成を完了したら、**チェック** アイコンを選択して**ダッシュボード エディター**に戻ります。ダッシュボード エディターでは、表示形式をドラッグしてレイアウト、サイズ、配置を操作できます。ダッシュボードの書式設定とスタイル設定の準備ができたら、**チェック** アイコンをもう一度クリック/タップしてダッシュボードを保存します。 
