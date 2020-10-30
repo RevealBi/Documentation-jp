@@ -59,7 +59,7 @@ OAuth 2 / OIDC アカウントでデータソースを使用するには、以�
 
 1.  データソースの**デフォルト名**: データソース名はアカウントのリストに表示されます (リソース サーバーが提供する資格情報ではありません)。好みに合わせて名前を変更するには、鉛筆アイコンを選択します。
 
-2.  **URL 認証**: 認証 URL は通常、次のような形式です。 <https://authorization-server.com/oauth2/authorize> (例: <https://login.microsoftonline.com/common/oauth2/authorize>)。
+2.  **URL 認証**: 認証 URL は通常、次のような形式です。<https://authorization-server.com/oauth2/authorize> (例: <https://login.microsoftonline.com/common/oauth2/authorize>)。
 
 3.  **トークン Url**: トークン URLの形式は認証 URL の形式と同様です (例: <https://login.microsoftonline.com/common/oauth2/token>)。
 

@@ -20,7 +20,7 @@ Desktop SDK は、ダッシュボードをユーザーに表示する際に最�
 この属性に視覚化を設定しないと、ダッシュボード全体が表示されます。
 
 
-[**RevealView オブジェクトの設定**](configuring-revealview.html)に示すように、ページに特定のダッシュボードを表示できます。 今回は、__MaximizedVisualization__ 属性を設定する必要があります。以下のコード スニペットに示すように、可視化 Sales を使用してください。
+[**RevealView オブジェクトの設定**](configuring-revealview.html)に示すように、ページに特定のダッシュボードを表示できます。今回は、__MaximizedVisualization__ 属性を設定する必要があります。以下のコード スニペットに示すように、可視化 Sales を使用してください。
 
 ``` csharp
 var revealView = new RevealView();
@@ -69,5 +69,5 @@ private void MaximizeVisualization(string title)
 
 注意事項:
 
-  - ダッシュボードで可視化のリストを繰り返すことで、ボタンのリストを動的に生成できます。 詳細については、__RVDashboard.Visualizations__ をご覧ください。
+  - ダッシュボードで可視化のリストを繰り返すことで、ボタンのリストを動的に生成できます。詳細については、__RVDashboard.Visualizations__ をご覧ください。
   - SDK とともに配布されている UpMedia WPF アプリケーションの UpMedia に、**Manufacturing.xaml.cs** の動作を確認できる例があります。このサンプルビューでは、画面下部にすべての可視化がトグル ボタンのリストとして表示されます。

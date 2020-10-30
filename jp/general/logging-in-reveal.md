@@ -8,7 +8,7 @@ Reveal へようこそ！
 開始前に、Reveal で**組織**に参加できることを考慮してください。組織のメンバーは、組織のメール アドレスでログインする必要があります。Google (G Suite) または Microsoft (O365) を選択し、組織チームに関連付けられます。または、iCloud (Apple) アカウントの資格情報を使用してログインできます。
 
 > [!NOTE]
-> 組織チームの名前は組織と同じ名前になります (会社名など)。  
+> 組織チームの名前は組織と同じ名前になります (会社名など)。
 
 <img src="images/limited-permission-sign-in-o365.png" alt="Permissions request sign in with Office 365" width="40%"/>
 

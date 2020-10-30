@@ -31,7 +31,7 @@
     <td class="tg-cly1"><a href="#displayed-field">表示フィールド</a>。ダッシュボード フィルターとして使用されるデータセット内のフィールド。</td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-weight:bold">選択</span>。この設定では、次を構成できます。 <a href="#multiple-selection">複数選択</a> (一度に複数の値を選択できます) および/または <a href="#required-selection">必須選択</a> (少なくとも 1 つの値を常に選択する必要があります)。</td>
+    <td class="tg-cly1"><span style="font-weight:bold">選択</span>。この設定では、次を構成できます。<a href="#multiple-selection">複数選択</a> (一度に複数の値を選択できます) および/または <a href="#required-selection">必須選択</a> (少なくとも 1 つの値を常に選択する必要があります)。</td>
   </tr>
   <tr>
     <td class="tg-cly1"><a href="#data-filters">データ フィルター</a>。この設定により、ダッシュボード フィルターに使用されるデータソースに<a href="~/jp/data-visualizations/fields/field-filters-rules.md">フィールド フィルターとルール</a>を適用できます。</td>
