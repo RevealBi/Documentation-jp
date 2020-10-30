@@ -79,8 +79,8 @@ revealTheme.dashboardBackgroundColor = "#E8EBFC";
 ```
 
 ### 定義済みのテーマ 
-Reveal SDK には、*Mountain Light*、*Mountain Dark*、*Ocean Light*、*Ocean Dark* の 4 つのビルド済みテーマが付属しています。アプリケーションのデザインに最適なものを設定することも、カスタム テーマのベースとして使用することもできます。    
-*UpdateCurrentTheme* メソッドを使用して、選択したビルド済みテーマの設定を適用します。 
+Reveal SDK には、*Mountain Light*、*Mountain Dark*、*Ocean Light*、*Ocean Dark* の 4 つのビルド済みテーマが付属しています。アプリケーションのデザインに最適なものを設定することも、カスタム テーマのベースとして使用することもできます。   
+*UpdateCurrentTheme* メソッドを使用して、選択したビルド済みテーマの設定を適用します。
 
 ***Mountain Light テーマ***
 ``` js
@@ -88,7 +88,7 @@ $.ig.RevealSdkSettings.theme = new $.ig.MountainLightTheme();
 ```
 
 > [!NOTE]
-> Mountain Light には、カスタマイズ可能なすべての設定のデフォルト値が含まれています。つまり、Mountain Light と Reveal テーマは基本的に同じように見えます。 
+> Mountain Light には、カスタマイズ可能なすべての設定のデフォルト値が含まれています。つまり、Mountain Light と Reveal テーマは基本的に同じように見えます。
 
 ***Mountain Dark テーマ***
 ``` js

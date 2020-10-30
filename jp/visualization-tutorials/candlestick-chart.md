@@ -1,6 +1,6 @@
 ### ローソク足で可視化する方法
 
-このチュートリアルは、サンプル スプレッドシートを使用してローソク足を作成する方法を説明します。
+このチュートリアルは、サンプル スプレッドシートを使用してローソク足の表示形式を作成する方法を説明します。
 
 <table>
 <colgroup>
@@ -40,9 +40,9 @@
 
 そのため、ローソク足チャートには以下の項目が必要になります。
 
-  - 通常日付に関連するデータ エディターの **[ラベル] プレースホルダーへドロップする 1 つのフィールド**。
+  - 通常日付に関連するデータ エディターの **[ラベル] プレースホルダーにドロップする 1 つのフィールド**。
 
-  - [Open]、[High]、[Low] および [Close] の **4 つの異なるフィールド** データ エディターのカテゴリ。
+  - Open、High、Low および Close の **4 つの異なるフィールド** データ エディターのカテゴリ。
 
 <img src="images/candlestick-chart-visualization-settings.png" alt="Candlestick chart visualization settings" width="80%"/>
 
@@ -65,27 +65,27 @@
 
 |                                          |                                                                                                                                           |                                                                                                                                                       |
 | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **表示形式の作成**           | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Creating new visualization" width="300"/>                                       | ホーム画面で、[+ ダッシュボード] 分割ボタンを選択します。                                                                                            |
-| 2\. **データ ソースの構成**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Selecting a data source" width="300"/>                                            | **[新しい表示形式]** 画面で、[+ データソース] ボタンを選択し、リストからデータソースを選択します。                                       |
-| 3\. **チュートリアル スプレッドシートの選択** | <img src="images/Tutorials-Select-OHLC-Candlestick-Charts-Spreadsheet.png" alt="Seclect OHLC Candlestick Chart spreadsheet" width="300"/> | データソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。 次に、「OHLC and Candlestick」シートを選択します。                       |
+| 1\. **表示形式を作成する**           | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Creating new visualization" width="300"/>                                       | ホーム画面で、[+ ダッシュボード] 分割ボタンを選択します。                                                                                            |
+| 2\. **データ ソースを構成する**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Selecting a data source" width="300"/>                                            | **[新しい表示形式]** 画面で、[+ データソース] ボタンを選択し、リストからデータソースを選択します。                                       |
+| 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-OHLC-Candlestick-Charts-Spreadsheet.png" alt="Seclect OHLC Candlestick Chart spreadsheet" width="300"/> | データソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。 次に、「OHLC and Candlestick」シートを選択します。                       |
 | 4\. **表示形式ペインを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Seclect Change visualization" width="300"/>                              | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                 |
-| 5\. **表示形式の選択**        | <img src="images/Tutorials-Charts-Select-Candlestick-Chart.png" alt="Seclect Candlestick chart" width="300"/>                             | デフォルトで、表示形式のタイプはグリッドに設定されています。**ローソク足**を選択します。                                                                 |
-| 6\. **データの体系化**               | <img src="images/Tutorials-CandlestickChart-Organizing-Data.png" alt="Organizing data fields" width="300"/>                               | Date フィールドをラベルにドラッグアンドドロップし、*Open*、*High*、*Low* および *Close* フィールドを対応するプレースホルダーにドラッグアンドドロップします。                      |
-| 7\. **日付集計の変更**      | <img src="images/Tutorials-CandlestickChart-Changing-Aggregation.png" alt="Changing date aggregation" width="300"/>                       | データ エディターのラベル プレースホルダーで Date フィールドを選択し、**[日付集計]** を **[日]** に変更します。次に, [フィールドの更新] を選択します。 |
+| 5\. **表示形式を選択する**        | <img src="images/Tutorials-Charts-Select-Candlestick-Chart.png" alt="Seclect Candlestick chart" width="300"/>                             | デフォルトで、表示形式のタイプはグリッドに設定されています。**ローソク足**を選択します。                                                                 |
+| 6\. **データを体系化する**               | <img src="images/Tutorials-CandlestickChart-Organizing-Data.png" alt="Organizing data fields" width="300"/>                               | Date フィールドをラベルにドラッグアンドドロップし、*Open*、*High*、*Low* および *Close* フィールドを対応するプレースホルダーにドラッグアンドドロップします。                      |
+| 7\. **日付集計を変更する**      | <img src="images/Tutorials-CandlestickChart-Changing-Aggregation.png" alt="Changing date aggregation" width="300"/>                       | データ エディターのラベル プレースホルダーで Date フィールドを選択し、**[日付集計]** を **[日]** に変更します。次に, [フィールドの更新] を選択します。 |
 
 <a name='changing-axis-configuration'></a>
-### 軸の構成の変更
+### 軸の構成を変更する方法
 
 [ゲージの範囲](gauge-views.html#adding-bounds-gauge)と同様に、チャート軸構成でチャート (範囲) の最小値と最大値を設定できます。この機能を使用して、特定のデータ含有や除外ができます。
 
-以下は軸構成のメニューへアクセスするための手順です。
+以下は軸構成のメニューにアクセスするための手順です。
 
 |                                             |                                                                                               |                                                             |
 | ------------------------------------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
-| 1\. **設定メニューへアクセス**            | <img src="images/Tutorials-Navigate-Settings.png" alt="Navigating to Settings" width="300"/>  | 表示形式エディターの **[設定]** セクションに移動します。 |
+| 1\. **設定メニューにアクセスする**            | <img src="images/Tutorials-Navigate-Settings.png" alt="Navigating to Settings" width="300"/>  | 表示形式エディターの **[設定]** セクションに移動します。 |
 | 2\. **軸範囲セクションに移動する** | <img src="images/Access-Axis-Configuration.png" alt="Navigating to Axis Bounds" width="300"/> | 変更する設定は **[軸範囲]** です。   |
 
-最大値または最小値 (または両方) のどれを設定するかに基づいて、以下のオプションの 1 つへアクセスする必要があります。
+最大値または最小値 (または両方) のどれを設定するかに基づいて、以下のオプションの 1 つにアクセスする必要があります。
 
 #### 最小境界値を変更する
 
@@ -100,5 +100,5 @@
 
 |                                        |                                                                                                              |                                                             |
 | -------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------- |
-| 1\. **設定メニューへアクセス**       | <img src="images/Tutorials-Navigate-Settings.png" alt="Navigating to Settings" width="300"/>                 | 表示形式エディターの **[設定]** セクションへ移動します。 |
+| 1\. **設定メニューにアクセスする**       | <img src="images/Tutorials-Navigate-Settings.png" alt="Navigating to Settings" width="300"/>                 | 表示形式エディターの **[設定]** セクションに移動します。 |
 | 2\. **軸を対数に変更する** | <img src="images/Access-Candlestick-Axis-Configuration.png" alt="Accessing Axis configuration" width="300"/> | **[軸]** ドロップダウンを開き、**[対数]** を選択します。      |

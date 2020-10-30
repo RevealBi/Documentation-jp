@@ -1,20 +1,20 @@
-## イメージ ビューを作成する方法
+## 画像ビューを作成する方法
 
-このチュートリアルでは、サンプル スプレッドシートを使用しイメージ表示形式を作成する方法を説明します。
+このチュートリアルでは、サンプル スプレッドシートを使用して画像の表示形式を作成する方法を説明します。
 
 <img src="images/ImageVisualizationDashboard_All.png" alt="ImageVisualizationDashboard\_All.png" width="80%"/>
 
 ### 重要なコンセプト
 
-[データ表示] セクションに述べたように、[イメージ ビュー](image-view.html)は URL へ要求を送信して、埋め込みのブラウザーで結果を表示します。したがって、データ ソースに以下の項目が必要です:
+[データ表示] セクションに述べたように、画像ビュー は URL へ要求を送信して、埋め込みのブラウザーで結果を表示します。したがって、データ ソースに以下の項目が必要です:
 
   - ウィジェットに表示されるウェブ リソースへのリンク。
 
-  - **データセットの最初の行**に含みます。
+  - リンクを**データセットの最初の行**に含みます。
 
 ### サンプル データ ソース
 
-このチュートリアルでは、[Reveal チュートリアル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx)の [イメージ ビュー] のシートを使用します。
+このチュートリアルでは、[Reveal チュートリアル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx)の「Image View」シートを使用します。
 
 >[!NOTE]
 >このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[Web リソース](~/jp/datasources/supported-data-sources/web-resource.html)として追加してください。
@@ -23,9 +23,9 @@
 
 |                                          |                                                                                                |                                                                                                                                                      |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **ダッシュボードの作成**               | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Tutorials-Create-New-Dashboard" width="80%"/>                   | ダッシュボード ビューアーで、[ダッシュボード] 画面の右上隅にある [+] ボタンを選択します。次に、ドロップダウンから [ダッシュボード] を選択します。|
-| 2\. **データ ソースの構成**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" width="80%"/>                       | *新しい表示形式*ウィンドウで、右下隅の [+] ボタンを選択し、データソースを選択します。                                       |
-| 3\. **チュートリアル スプレッドシートの選択** | <img src="images/Tutorials-Select-Image-View-Spreadsheet.png" alt="Tutorials-Select-Image-View-Spreadsheet" width="80%"/> | データソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。次に、[画像 ビュー] シートを選択し、*[データのロード]* を選択します。                               |
+| 1\. **ダッシュボードを作成する**               | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Tutorials-Create-New-Dashboard" width="80%"/>                   | ダッシュボード ビューアーで、ダッシュボード画面の右上隅にある [+] ボタンを選択します。次に、ドロップダウンから [ダッシュボード] を選択します。|
+| 2\. **データ ソースを構成する**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" width="80%"/>                       | [新しい表示形式] ウィンドウで、右下隅の [+] ボタンを選択し、データソースを選択します。                                       |
+| 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-Image-View-Spreadsheet.png" alt="Tutorials-Select-Image-View-Spreadsheet" width="80%"/> | データソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。次に、「Image View」シートを選択し、[データのロード] を選択します。                               |
 | 4\. **表示形式メニューを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" width="80%"/>     | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                |
-| 5\. **表示形式の選択**        | <img src="images/Tutorial-Image-View-Select.png" alt="Tutorial-Image-View-Select" width="80%"/>                           | デフォルトで、表示形式のタイプは*グリッド*に設定されています。**画像** オプションを選択してください。                                                               |
-| 6\. **データを構成します**               | <img src="images/Tutorials-ImageView-Organizing-Data.png" alt="Tutorials-ImageView-Organizing-Data" width="80%"/>         | 使用可能なフィールドのいずれかを **URL** にドラッグします。                                                                                                       |
+| 5\. **表示形式を選択する**        | <img src="images/Tutorial-Image-View-Select.png" alt="Tutorial-Image-View-Select" width="80%"/>                           | デフォルトで、表示形式のタイプは**グリッド**に設定されています。**[画像]** オプションを選択してください。                                                               |
+| 6\. **データを構成する**               | <img src="images/Tutorials-ImageView-Organizing-Data.png" alt="Tutorials-ImageView-Organizing-Data" width="80%"/>         | 使用可能なフィールドのいずれかを **URL** にドラッグします。                                                                                                       |

@@ -46,7 +46,7 @@ JSON ファイルのデータを使用する新しい表示形式を作成する
 
 5.  ***データのロード*をクリック/タップ**。
 
-    データ構造を選択、*[データのロード]* ボタンをクリック/タップして、*表示形式エディター*を開きます。
+    データ構造を選択、[データのロード] ボタンをクリック/タップして、*表示形式エディター*を開きます。
 
     <img src="images/JsonFilesVisualizationsEditor_All.png" alt="Json Files Visualizations Editor" width="80%"/>
 

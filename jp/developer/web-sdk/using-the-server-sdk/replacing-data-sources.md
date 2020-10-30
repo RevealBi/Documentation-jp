@@ -24,7 +24,7 @@ IRVDataSourceProvider DataSourceProvider { get;  }
 
 ### コード
 
-以下のコードスニペットは、ダッシュボードの可視化のためにデータソースを置き換える方法の例です。 __ChangeVisualizationDataSourceItemAsync__ メソッドは、開かれているすべてのダッシュボードで、すべての可視化に対して呼び出されます。
+以下のコードスニペットは、ダッシュボードの可視化のためにデータソースを置き換える方法の例です。__ChangeVisualizationDataSourceItemAsync__ メソッドは、開かれているすべてのダッシュボードで、すべての可視化に対して呼び出されます。
 
 ``` csharp
 public class SampleDataSourceProvider : IRVDataSourceProvider
@@ -71,7 +71,7 @@ public class SampleDataSourceProvider : IRVDataSourceProvider
 
   - MS SQL Server データベースを使用するすべてのデータソースは、ハードコードされたサーバー 10.0.0.20、Adventure Works データベース、および Employees テーブルを使用するように変更されます。
 
-    **注:** これは単純化されたシナリオで、同じテーブルからデータを取得するためにすべての可視化を置き換えた場合も、現実のシナリオとしては意味がありません。 実際のアプリケーションでは、userId、dashboardId、データソース自体の値 (サーバー、データベースなど) などの追加情報を使用して新しい値を推測します。
+    **注:** これは単純化されたシナリオで、同じテーブルからデータを取得するためにすべての可視化を置き換えた場合も、現実のシナリオとしては意味がありません。実際のアプリケーションでは、userId、dashboardId、データソース自体の値 (サーバー、データベースなど) などの追加情報を使用して新しい値を推測します。
 
   - Top Customers というタイトルのすべてのウィジェットは、Customers テーブルを使用して salesdb.local サーバーの Sales データベースからデータを取得する新しい SQL Server データソースに設定されます。
 

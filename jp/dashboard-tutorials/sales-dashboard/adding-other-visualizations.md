@@ -162,7 +162,7 @@ Forecasted 表示形式は、6 ヶ月間の予測を[棒チャート](~/jp/visua
 
  
 
-8.  **表示形式のタイトルを Forecasted に変更する**ため、Sales Dashboard の横にある**鉛筆アイコンを選択します**。 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
+8.  **表示形式のタイトルを Forecasted に変更する**ため、Sales Dashboard の横にある**鉛筆アイコンを選択します**。完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='lost-opportunities'></a>
 ### Lost Opportunities
@@ -198,7 +198,7 @@ Lost Opportunities 表示形式は、[テキスト ゲージ](~/jp/visualization
 
 サンプルの黄色のダッシュ インジケーターは、前回と比較して数値が安定していることを表します。このマーカーは、ゲージ設定のバンドの構成で作成します。以下は追加方法です。
 
-1.  表示形式エディターの **[設定]** タブへ移動します。
+1.  表示形式エディターの **[設定]** タブに移動します。
     
     <img src="images/TutorialsSettingsMenu_All.png" alt="TutorialsSettingsMenu\_All" width="80%"/>
 
@@ -222,14 +222,14 @@ Lost Opportunities 表示形式は、[テキスト ゲージ](~/jp/visualization
 
  
 
-5. **表示形式のタイトルを Lost Opportunities に変更する**ため、Sales Dashboard の横にある**鉛筆アイコンを選択します**。 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
+5. **表示形式のタイトルを Lost Opportunities に変更する**ため、Sales Dashboard の横にある**鉛筆アイコンを選択します**。完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='pipeline-by-territory'></a>
 ### Pipeline by Territory
 
 Pipeline by Territory 表示形式は、[ファンネルチャート](~/jp/visualization-tutorials/simple-charts.html)平均的な販売見込みとそれらの位置を表示します。以下は作成方法です。
 
-1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。 **Sales Dashboard** オプションが選択されていることを確認し、**[データを選択]** を押します。
+1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、**[データを選択]** を押します。
     
     <img src="images/SelectingSalesSheet_All.png" alt="SelectingSalesSheet\_All.png" width="80%"/>
 
@@ -323,7 +323,7 @@ Total Opportunities 表示形式は、12 か月間の会社の機会が表すに
 
  
 
-8.  **表示形式のタイトルを Total Opportunities に変更する**ため、Sales Dashboard の横にある**鉛筆アイコンを選択します**。 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
+8.  **表示形式のタイトルを Total Opportunities に変更する**ため、Sales Dashboard の横にある**鉛筆アイコンを選択します**。完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='revenue-by-territory'></a>
 ### Revenue by Territory

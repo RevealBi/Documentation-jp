@@ -14,4 +14,4 @@
 | データソース クリエーター | <img src="images/create-new-data-source-light-theme.png" alt="Creating a New Data Source in Light Theme" width="80%"/> | <img src="images/create-new-data-source-dark-theme.png" alt="Creating a New Data Source in Dark Theme" width="80%"/> |
 | チーム クリエーター       | <img src="images/team-creation-light-theme.png" alt="Team Creation in Light Theme" width="80%"/>                       | <img src="images/team-creation-dark-theme.png" alt="Team Creation in Dark Theme" width="80%"/>                       |
 
-*Match OS* 機能をオンにすると、Reveal のテーマは、オペレーティング システムのテーマが変更されるたびに自動的に変更されます。 
+*Match OS* 機能をオンにすると、Reveal のテーマは、オペレーティング システムのテーマが変更されるたびに自動的に変更されます。

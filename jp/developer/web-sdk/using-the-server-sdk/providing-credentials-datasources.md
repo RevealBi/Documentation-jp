@@ -57,7 +57,7 @@ public class EmbedAuthenticationProvider : IRVAuthenticationProvider
 
 ### 認証なし
 
-認証なしで匿名のリソースで作業することがあります。 この場合、空のコンストラクタを持つ __RVUsernamePasswordDataSourceCredential__ を使用できます。これは、そのクラスで機能するすべてのデータソースに対して実行できます。
+認証なしで匿名のリソースで作業することがあります。この場合、空のコンストラクタを持つ __RVUsernamePasswordDataSourceCredential__ を使用できます。これは、そのクラスで機能するすべてのデータソースに対して実行できます。
 
 上記のサンプルで使用したコード スニペット:
 

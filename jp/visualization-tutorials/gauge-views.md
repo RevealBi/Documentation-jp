@@ -1,6 +1,6 @@
 ## ゲージで表示形式を作成する方法
 
-このチュートリアルは、サンプル スプレッドシートを使用したゲージでデータの可視化を行います。
+このチュートリアルは、サンプル スプレッドシートを使用してゲージの表示形式を作成する方法を説明します。
 
 <table>
 <colgroup>
@@ -50,7 +50,7 @@
 
   - [ブレット グラフ の作成方法](#create-bullet-graph-gauge)
 
-  - [ゲージ可視化に範囲を追加する方法](#adding-bounds-gauge)
+  - [ゲージ表示形式に範囲を追加する方法](#adding-bounds-gauge)
 
   - [バンドの色を変更する方法](#modify-bands)
 
@@ -61,9 +61,9 @@
 
   - **しきい値の構成**。ゲージのしきい値の構成ではゲージの最大値と最小値を設定できます。デフォルトで最小値に設定されますが、特定のデータを除外するために変更できます。
 
-  - **バンド構成**。バンドの構成は 3 つの範囲を設定できます (より大きい、中間、より小さい) です。データ ソースに基づく範囲でデフォルトの値を上書きします。
+  - **バンド構成**。バンドの構成は 3 つの範囲を設定できます (より大きい、中間、より小さい) です。データソースに基づく範囲でデフォルトの値を上書きします。
 
-### サンプル データ ソース
+### サンプル データソース
 
 このチュートリアルでは、[Reveal チュートリアル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx).
 
@@ -75,24 +75,24 @@
 
 |                                          |                                                                                            |                                                                                                                                                                       |
 | ---------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **ダッシュボードの作成**               | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Tutorials-Create-New-Dashboard" width="80%"/>               | ダッシュボード ビューアーで、[ダッシュボード] 画面の右上隅にある [+] ボタンを選択します。次に、ドロップダウンから [ダッシュボード] を選択します。                  |
-| 2\. **データ ソースの構成**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" width="80%"/>                   | *新しい表示形式*ウィンドウで、右下隅の [+] ボタンを選択し、データソースを選択します。                                                        |
-| 3\. **チュートリアル スプレッドシートの選択** | <img src="images/Tutorials-Select-Gauge-Views.png" alt="Tutorials-Select-Gauge-Views" width="80%"/>                   | データソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。次に、[ゲージ ビュー] シートを選択し、*[データのロード]* を選択します。                         |
+| 1\. **ダッシュボードを作成する**               | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Tutorials-Create-New-Dashboard" width="80%"/>               | ダッシュボード ビューアーで、ダッシュボード画面の右上隅にある [+] ボタンを選択します。次に、ドロップダウンから [ダッシュボード] を選択します。                  |
+| 2\. **データソースを構成する**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" width="80%"/>                   | [新しい表示形式] ウィンドウで、右下隅の [+] ボタンを選択し、データソースを選択します。                                                        |
+| 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-Gauge-Views.png" alt="Tutorials-Select-Gauge-Views" width="80%"/>                   | データソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。次に、「Gauge Views」シートを選択し、[データのロード] を選択します。                         |
 | 4\. **表示形式メニューを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" width="80%"/> | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                                 |
-| 5\. **表示形式の選択**        | <img src="images/Tutorials-Select-Linear-Gauge.png" alt="Tutorials-Select-Linear-Gauge" width="80%"/>                 | デフォルトで、表示形式タイプはグリッドに設定されています。[リニア] ゲージを選択してください。                                                                                  |
-| 6\. **データの体系化**               | ![Tutorials-LinearGauge-Data](images/Tutorials-LinearGauge-Data.png)                       | たとえば、このリニア ゲージは国別で平均寿命を表します。[ラベル] に [Country Name] フィールド、年フィールドの 1 つを [値] へドラッグアンドドロップします。|
+| 5\. **表示形式を選択する**        | <img src="images/Tutorials-Select-Linear-Gauge.png" alt="Tutorials-Select-Linear-Gauge" width="80%"/>                 | デフォルトで、表示形式タイプは**グリッド**に設定されています。[リニア] ゲージを選択してください。                                                                                  |
+| 6\. **データを体系化する**               | ![Tutorials-LinearGauge-Data](images/Tutorials-LinearGauge-Data.png)                       | たとえば、このリニア ゲージは国別で平均寿命を表します。[ラベル] に Country Name フィールド、年フィールドの 1 つを [値] にドラッグアンドドロップします。|
 
 <a name='create-circular-gauge'></a>
 ### 円型ゲージを作成する方法
 
 |                                          |                                                                                            |                                                                                                                                                                       |
 | ---------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **ダッシュボードの作成**               | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Tutorials-Create-New-Dashboard" width="80%"/>               | ダッシュボード ビューアーで、[ダッシュボード] 画面の右上隅にある [+] ボタンを選択します。次に、ドロップダウンから [ダッシュボード] を選択します。                  |
-| 2\. **データ ソースの構成**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" width="80%"/>                   | *新しい表示形式*ウィンドウで、右下隅の [+] ボタンを選択し、データソースを選択します。                                                       |
-| 3\. **チュートリアル スプレッドシートの選択** | <img src="images/Tutorials-Select-Gauge-Views.png" alt="Tutorials-Select-Gauge-Views" width="80%"/>                   | データソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。次に、[ゲージ ビュー] シートを選択し、*[データのロード]* を選択します。                         |
+| 1\. **ダッシュボードを作成する**               | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Tutorials-Create-New-Dashboard" width="80%"/>               | ダッシュボード ビューアーで、ダッシュボード画面の右上隅にある [+] ボタンを選択します。次に、ドロップダウンから [ダッシュボード] を選択します。                  |
+| 2\. **データソースを構成する**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" width="80%"/>                   | [新しい表示形式] ウィンドウで、右下隅の [+] ボタンを選択し、データソースを選択します。                                                       |
+| 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-Gauge-Views.png" alt="Tutorials-Select-Gauge-Views" width="80%"/>                   | データソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。次に、「Gauge Views」シートを選択し、[データのロード] を選択します。                         |
 | 4\. **表示形式メニューを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" width="80%"/> | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                                 |
-| 5\. **表示形式の選択**        | <img src="images/Tutorials-Select-Circular-Gauge.png" alt="Tutorials-Select-Circular-Gauge" width="80%"/>                 | デフォルトで、表示形式のタイプは*グリッド*に設定されています。[円型] ゲージを選択してください。                                                                                |
-| 6\. **データの体系化**               | ![Tutorials-CircularGauge-Data](images/Tutorials-CircularGauge-Data.png)                   | 例えば、このラジアル ゲージは国別平均寿命を表します。[ラベル] に [Country Name] フィールド、年フィールドの 1 つを [値] へドラッグアンドドロップします。|
+| 5\. **表示形式を選択する**        | <img src="images/Tutorials-Select-Circular-Gauge.png" alt="Tutorials-Select-Circular-Gauge" width="80%"/>                 | デフォルトで、表示形式のタイプは**グリッド**に設定されています。[円型] ゲージを選択してください。                                                                                |
+| 6\. **データを体系化する**               | ![Tutorials-CircularGauge-Data](images/Tutorials-CircularGauge-Data.png)                   | 例えば、このラジアル ゲージは国別平均寿命を表します。[ラベル] に Country Name フィールド、年フィールドの 1 つを [値] にドラッグアンドドロップします。|
 
 
 円形ゲージは、特に平均値と値の合計の表示に適しています。[値] に表示されるフィールドの集計を変更する手順:
@@ -101,8 +101,8 @@
 
 |                                              |                                                                            |                                                                                           |
 | -------------------------------------------- | -------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| 1\. **値のフィールド設定にアクセスする** | ![Add-Data-Filter-CircularGauge](images/Add-Data-Filter-CircularGauge.png) | **値** のフィールドを選択してアクセスします                                                  |
-| 2\. **別の集計を選択します**       | <img src="images/CircularGauge-Aggregation.png" alt="CircularGauge-Aggregation" width="80%"/>         | **集計**のドロップダウンを展開し、別のオプションを選択します (平均値など)。|
+| 1\. **[値] のフィールド設定にアクセスする** | ![Add-Data-Filter-CircularGauge](images/Add-Data-Filter-CircularGauge.png) | **[値]** のフィールドを選択してアクセスします                                                  |
+| 2\. **別の集計を選択する**       | <img src="images/CircularGauge-Aggregation.png" alt="CircularGauge-Aggregation" width="80%"/>         | **[集計]** のドロップダウンを展開し、別のオプションを選択します (平均値など)。|
 
 
 <a name='create-text-gauge'></a>
@@ -110,12 +110,12 @@
 
 |                                          |                                                                                                                   |                                                                                                                                                                                                                                                       |
 | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **ダッシュボードの作成**               | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Tutorials-Create-New-Dashboard" width="80%"/>                                      | ダッシュボード ビューアーで、[ダッシュボード] 画面の右上隅にある [+] ボタンを選択します。 次に、ドロップダウンから [ダッシュボード] を選択します。                                                                                                  |
-| 2\. **データ ソースの構成**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" width="80%"/>                                          | *新しい表示形式*ウィンドウで、右下隅の [+] ボタンを選択し、データソースを選択します。                                                                                                                                        |
-| 3\. **チュートリアル スプレッドシートの選択** | <img src="images/Tutorials-Select-Gauge-Views.png" alt="Tutorials-Select-Gauge-Views" width="80%"/> | データソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。次に、[ゲージ ビュー] シートを選択します。                                                                                                                               |
+| 1\. **ダッシュボードを作成する**               | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Tutorials-Create-New-Dashboard" width="80%"/>                                      | ダッシュボード ビューアーで、ダッシュボード画面の右上隅にある [+] ボタンを選択します。 次に、ドロップダウンから [ダッシュボード] を選択します。                                                                                                  |
+| 2\. **データソースを構成する**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" width="80%"/>                                          | [新しい表示形式] ウィンドウで、右下隅の [+] ボタンを選択し、データソースを選択します。                                                                                                                                        |
+| 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-Gauge-Views.png" alt="Tutorials-Select-Gauge-Views" width="80%"/> | データソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。次に、「Gauge Views」シートを選択します。                                                                                                                               |
 | 4\. **表示形式メニューを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" width="80%"/>                        | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                                                                                                                 |
-| 5\. **表示形式の選択**        | <img src="images/Tutorials-Select-Text-Gauge.png" alt="Tutorials-Select-Text-Gauge" width="80%"/>                                        | デフォルトで、表示形式のタイプは*グリッド*に設定されています。[テキスト] ゲージを選択してください。                                                                                                                                                                    |
-| 6\. **データの体系化**               | ![Tutorials-TextGauge-Organizing-Data](images/Tutorials-TextGauge-Organizing-Data.png)                            | 例えば、このテキスト ゲージは国別平均寿命を表します。年フィールドの 1 つを [値] にドラッグアンドドロップし、[Country Name] フィールドを [データ フィルター] にドラッグアンドドロップします。次に、フィールドを選択して、必要な特定の国を選択します。|
+| 5\. **表示形式を選択する**        | <img src="images/Tutorials-Select-Text-Gauge.png" alt="Tutorials-Select-Text-Gauge" width="80%"/>                                        | デフォルトで、表示形式のタイプは**グリッド**に設定されています。[テキスト] ゲージを選択してください。                                                                                                                                                                    |
+| 6\. **データを体系化する**               | ![Tutorials-TextGauge-Organizing-Data](images/Tutorials-TextGauge-Organizing-Data.png)                            | 例えば、このテキスト ゲージは国別平均寿命を表します。年フィールドの 1 つを [値] にドラッグアンドドロップし、Country Name フィールドを [データ フィルター] にドラッグアンドドロップします。次に、フィールドを選択して、必要な特定の国を選択します。|
 
 上記の [テキスト ゲージのサンプル] は平均値の集計を使用します。フィールドの集計を変更するために、[この手順](#aggregation-instructions)をご参照ください。
 
@@ -124,30 +124,30 @@
 
 |                                          |                                                                                                                   |                                                                                                                                                                                              |
 | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **ダッシュボードの作成**               | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Tutorials-Create-New-Dashboard" width="80%"/>                                      | ダッシュボード ビューアーで、[ダッシュボード] 画面の右上隅にある [+] ボタンを選択します。次に、ドロップダウンから [ダッシュボード] を選択します。                                         |
-| 2\. **データ ソースの構成**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" width="80%"/>                                          | *新しい表示形式*ウィンドウで、右下隅の [+] ボタンを選択し、データソースを選択します。                                                                               |
-| 3\. **チュートリアル スプレッドシートの選択** | <img src="images/Tutorials-Select-Gauge-Views.png" alt="Tutorials-Select-Gauge-Views" width="80%"/> | データソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。次に、[ゲージ ビュー] シートを選択します。                                                                       |
+| 1\. **ダッシュボードを作成する**               | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Tutorials-Create-New-Dashboard" width="80%"/>                                      | ダッシュボード ビューアーで、ダッシュボード画面の右上隅にある [+] ボタンを選択します。次に、ドロップダウンから [ダッシュボード] を選択します。                                         |
+| 2\. **データソースを構成する**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" width="80%"/>                                          | [新しい表示形式] ウィンドウで、右下隅の [+] ボタンを選択し、データソースを選択します。                                                                               |
+| 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-Gauge-Views.png" alt="Tutorials-Select-Gauge-Views" width="80%"/> | データソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。次に、「Gauge Views」シートを選択します。                                                                       |
 | 4\. **表示形式メニューを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" width="80%"/>                        | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                                                        |
-| 5\. **表示形式の選択**        | <img src="images/Tutorials-Select-Bullet-Graph.png" alt="Tutorials-Select-Bullet-Graph" width="80%"/>                        | デフォルトで、表示形式のタイプは*グリッド*に設定されています。ブレット グラフ の表示形式を選択してください。                                                                                           |
-| 6\. **データの体系化**               | ![Tutorials-Charts-Organizing-Data](images/Tutorials-Charts-Organizing-Data.png)                                  | 例えば、このブレット グラフ は国別平均寿命を表します。[ラベル] に [Country Name] フィールド、年フィールドの 1 つを [値] に、別の年フィールドを [ターゲット] にドラッグアンドドロップします。|
+| 5\. **表示形式を選択する**        | <img src="images/Tutorials-Select-Bullet-Graph.png" alt="Tutorials-Select-Bullet-Graph" width="80%"/>                        | デフォルトで、表示形式のタイプは**グリッド**に設定されています。[ブレット グラフ] の表示形式を選択してください。                                                                                           |
+| 6\. **データを体系化する**               | ![Tutorials-Charts-Organizing-Data](images/Tutorials-Charts-Organizing-Data.png)                                  | 例えば、このブレット グラフ は国別平均寿命を表します。[ラベル] に Country Name フィールド、年フィールドの 1 つを [値] に、別の年フィールドを [ターゲット] にドラッグアンドドロップします。|
 
 <a name='adding-bounds-gauge'></a>
 ### ゲージの化でしきい値を追加する方法
 
-しきい値を使用すると、ゲージの最小値と最大値を設定できます。 [重要なコンセプト](#key-concepts)で述べたように、特定のデータを除外するように変更できます。以下は作業手順です。
+しきい値を使用すると、ゲージの最小値と最大値を設定できます。[重要なコンセプト](#key-concepts)で述べたように、特定のデータを除外するように変更できます。以下は作業手順です。
 
 |                                                |                                                                        |                                                                                                                                       |
 | ---------------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **設定を変更します。**                        | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" width="80%"/> | 表示形式エディターの**設定**セクションへ移動します。                                                                           |
+| 1\. **設定を変更する**                        | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" width="80%"/> | 表示形式エディターの **[設定]** セクションに移動します。                                                                           |
 | 2\. **制限のデフォルトの選択を変更する** | <img src="images/Tutorials-Limits-Bounds.png" alt="Tutorials-Limits-Bounds" width="80%"/>         | 最大値または最小値 (または両方) 値を設定するかどうかに基づいて、チャートの開始値または終了値を入力します。|
 
 <a name='modify-bands'></a>
 ### バンドの色の変更
 
-以下は、バンド ([より大きい]、[中間] および [より小さい]) の色を変更するための手順です。以下は変更手順です。
+以下は、バンド (より大きい、中間 および より小さい) の色を変更するための手順です。以下は変更手順です。
 
 |                                    |                                                                        |                                                                          |
 | ---------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| 1\. **設定を変更します。**            | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" width="80%"/> | 表示形式エディターの**設定**セクションへ移動します。              |
-| 2\. **色のドロップダウンを表示します。** | <img src="images/Tutorials-Colors-Dropdown.png" alt="Tutorials-Colors-Dropdown" width="80%"/>     | 色を変更する範囲のドロップダウンを展開します。|
-| 3\. **色を選択します。**          | <img src="images/Tutorials-Changing-Color.png" alt="Tutorials-Changing-Color" width="80%"/>       | バンドの色として、Reveal の 3 つの定義済み色のいずれかを選択します。      |
+| 1\. **設定を変更する**            | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" width="80%"/> | 表示形式エディターの **[設定]** セクションに移動します。              |
+| 2\. **色のドロップダウンを表示する** | <img src="images/Tutorials-Colors-Dropdown.png" alt="Tutorials-Colors-Dropdown" width="80%"/>     | 色を変更する範囲のドロップダウンを展開します。|
+| 3\. **色を選択する**          | <img src="images/Tutorials-Changing-Color.png" alt="Tutorials-Changing-Color" width="80%"/>       | バンドの色として、Reveal の 3 つの定義済み色のいずれかを選択します。      |

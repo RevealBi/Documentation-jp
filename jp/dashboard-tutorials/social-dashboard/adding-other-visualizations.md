@@ -86,7 +86,7 @@ Followers 表示形式はソーシャル メディア チャネルごとに分�
 
 
 
-7.  **表示形式のタイトルを Followers に変更する**ため、Social Dashboard の横にある**鉛筆アイコンを選択します**。 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
+7.  **表示形式のタイトルを Followers に変更する**ため、Social Dashboard の横にある**鉛筆アイコンを選択します**。完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 ### YTD Facebook Followers
 
@@ -116,7 +116,7 @@ YTD Facebook Followers 表示形式は、[テキスト ゲージ](~/jp/visualiza
 
 
 
-5.  **表示形式のタイトルを YTD Facebook Followers に変更する**ため、Social Dashboard の横にある**鉛筆アイコンを選択します**。 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
+5.  **表示形式のタイトルを YTD Facebook Followers に変更する**ため、Social Dashboard の横にある**鉛筆アイコンを選択します**。完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 ### Monthly Facebook Likes
 
@@ -200,7 +200,7 @@ Retweets &amp; Favorites の表示形式は[柱状チャート](~/jp/visualizati
     <img src="images/SocialRetweetsFavoritesConnectDateFilter_All.png" alt="SocialRetweetsFavoritesConnectDateFilter\_All" width="80%"/>
 
 
-8.  **表示形式のタイトルを Retweets &amp; Favorites に変更する**ため、Social Dashboard の横にある**鉛筆アイコンを選択します**。 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
+8.  **表示形式のタイトルを Retweets &amp; Favorites に変更する**ため、Social Dashboard の横にある**鉛筆アイコンを選択します**。完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 ### Facebook Reach vs. Impressions
 
@@ -274,7 +274,7 @@ Monthly Twitter Mentions の表示形式は、[折れ線チャート](~/jp/visua
     <img src="images/SocialMonthlyTwitterMentionConnectDateFilter_All.png" alt="SocialMonthlyTwitterMentionConnectDateFilter\_All" width="80%"/>
 
 
-7.  **表示形式のタイトルを Monthly Twitter Mentions に変更する**ため、Social Dashboard の横にある**鉛筆アイコンを選択します**。 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
+7.  **表示形式のタイトルを Monthly Twitter Mentions に変更する**ため、Social Dashboard の横にある**鉛筆アイコンを選択します**。完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <style>
 .previous {
