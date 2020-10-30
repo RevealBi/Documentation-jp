@@ -198,7 +198,7 @@ Lost Opportunities 表示形式は、[テキスト ゲージ](~/jp/visualization
 
 サンプルの黄色のダッシュ インジケーターは、前回と比較して数値が安定していることを表します。このマーカーは、ゲージ設定のバンドの構成で作成します。以下は追加方法です。
 
-1.  表示形式エディターの **[設定]** タブへ移動します。
+1.  表示形式エディターの **[設定]** タブに移動します。
     
     <img src="images/TutorialsSettingsMenu_All.png" alt="TutorialsSettingsMenu\_All" width="80%"/>
 

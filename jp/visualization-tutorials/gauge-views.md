@@ -1,6 +1,6 @@
 ## ゲージで表示形式を作成する方法
 
-このチュートリアルは、サンプル スプレッドシートを使用したゲージで表示形式を行います。
+このチュートリアルは、サンプル スプレッドシートを使用してゲージの表示形式を作成する方法を説明します。
 
 <table>
 <colgroup>
@@ -80,7 +80,7 @@
 | 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-Gauge-Views.png" alt="Tutorials-Select-Gauge-Views" width="80%"/>                   | データソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。次に、「Gauge Views」シートを選択し、[データのロード] を選択します。                         |
 | 4\. **表示形式メニューを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" width="80%"/> | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                                 |
 | 5\. **表示形式を選択する**        | <img src="images/Tutorials-Select-Linear-Gauge.png" alt="Tutorials-Select-Linear-Gauge" width="80%"/>                 | デフォルトで、表示形式タイプは**グリッド**に設定されています。[リニア] ゲージを選択してください。                                                                                  |
-| 6\. **データを体系化する**               | ![Tutorials-LinearGauge-Data](images/Tutorials-LinearGauge-Data.png)                       | たとえば、このリニア ゲージは国別で平均寿命を表します。[ラベル] に Country Name フィールド、年フィールドの 1 つを [値] へドラッグアンドドロップします。|
+| 6\. **データを体系化する**               | ![Tutorials-LinearGauge-Data](images/Tutorials-LinearGauge-Data.png)                       | たとえば、このリニア ゲージは国別で平均寿命を表します。[ラベル] に Country Name フィールド、年フィールドの 1 つを [値] にドラッグアンドドロップします。|
 
 <a name='create-circular-gauge'></a>
 ### 円型ゲージを作成する方法
@@ -92,7 +92,7 @@
 | 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-Gauge-Views.png" alt="Tutorials-Select-Gauge-Views" width="80%"/>                   | データソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。次に、「Gauge Views」シートを選択し、[データのロード] を選択します。                         |
 | 4\. **表示形式メニューを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" width="80%"/> | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                                 |
 | 5\. **表示形式を選択する**        | <img src="images/Tutorials-Select-Circular-Gauge.png" alt="Tutorials-Select-Circular-Gauge" width="80%"/>                 | デフォルトで、表示形式のタイプは**グリッド**に設定されています。[円型] ゲージを選択してください。                                                                                |
-| 6\. **データを体系化する**               | ![Tutorials-CircularGauge-Data](images/Tutorials-CircularGauge-Data.png)                   | 例えば、このラジアル ゲージは国別平均寿命を表します。[ラベル] に Country Name フィールド、年フィールドの 1 つを [値] へドラッグアンドドロップします。|
+| 6\. **データを体系化する**               | ![Tutorials-CircularGauge-Data](images/Tutorials-CircularGauge-Data.png)                   | 例えば、このラジアル ゲージは国別平均寿命を表します。[ラベル] に Country Name フィールド、年フィールドの 1 つを [値] にドラッグアンドドロップします。|
 
 
 円形ゲージは、特に平均値と値の合計の表示に適しています。[値] に表示されるフィールドの集計を変更する手順:
@@ -138,7 +138,7 @@
 
 |                                                |                                                                        |                                                                                                                                       |
 | ---------------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **設定を変更する**                        | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" width="80%"/> | 表示形式エディターの **[設定]** セクションへ移動します。                                                                           |
+| 1\. **設定を変更する**                        | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" width="80%"/> | 表示形式エディターの **[設定]** セクションに移動します。                                                                           |
 | 2\. **制限のデフォルトの選択を変更する** | <img src="images/Tutorials-Limits-Bounds.png" alt="Tutorials-Limits-Bounds" width="80%"/>         | 最大値または最小値 (または両方) 値を設定するかどうかに基づいて、チャートの開始値または終了値を入力します。|
 
 <a name='modify-bands'></a>
@@ -148,6 +148,6 @@
 
 |                                    |                                                                        |                                                                          |
 | ---------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| 1\. **設定を変更する**            | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" width="80%"/> | 表示形式エディターの **[設定]** セクションへ移動します。              |
+| 1\. **設定を変更する**            | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" width="80%"/> | 表示形式エディターの **[設定]** セクションに移動します。              |
 | 2\. **色のドロップダウンを表示する** | <img src="images/Tutorials-Colors-Dropdown.png" alt="Tutorials-Colors-Dropdown" width="80%"/>     | 色を変更する範囲のドロップダウンを展開します。|
 | 3\. **色を選択する**          | <img src="images/Tutorials-Changing-Color.png" alt="Tutorials-Changing-Color" width="80%"/>       | バンドの色として、Reveal の 3 つの定義済み色のいずれかを選択します。      |

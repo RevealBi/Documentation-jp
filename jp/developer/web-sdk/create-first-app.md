@@ -130,7 +130,7 @@ Marketing ダッシュボードを選択し、**編集モード**に入ります
 
 <img src="images/export-marketing-dashboard-changed-theme.png" alt="export marketing dashboard menu" width="80%"/>
 
-**Marketing.rdash** ダッシュボード ファイルを手順 3 で作成したダッシュボード フォルダーへ移動し、Visual Studio でこのアイテムのビルド アクションを**埋め込みリソース**に設定します。
+**Marketing.rdash** ダッシュボード ファイルを手順 3 で作成したダッシュボード フォルダーに移動し、Visual Studio でこのアイテムのビルド アクションを**埋め込みリソース**に設定します。
 
 <img src="images/build-action-set.png" alt="setting build action in marketing.rdash file properties" width="40%"/>
 
