@@ -30,9 +30,9 @@
 
   - [ローソク足チャートを作成する方法](#creating-candlestick-chart)
 
-  - [軸の構成を変更する](#changing-axis-configuration)
+  - [軸の構成を変更する方法](#changing-axis-configuration)
 
-  - [軸の構成を対数に変更する](#setting-logarithmic-axis)
+  - [軸の構成を対数に変更する方法](#setting-logarithmic-axis)
 
 ### 重要なコンセプト
 
@@ -54,7 +54,7 @@
 
 ### サンプル データソース
 
-このチュートリアルでは、[Reveal チュートリアル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx)の「OHLC and Candlestick」シートを使用します。
+このチュートリアルでは、[Reveal チュートリアル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx)の OHLC and Candlestick シートを使用します。
 
 
 >[!NOTE]
@@ -67,9 +67,9 @@
 | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1\. **表示形式を作成する**           | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Creating new visualization" width="300"/>                                       | ホーム画面で、[+ ダッシュボード] 分割ボタンを選択します。                                                                                            |
 | 2\. **データソースを構成する**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Selecting a data source" width="300"/>                                            | **[新しい表示形式]** 画面で、[+ データソース] ボタンを選択し、リストからデータソースを選択します。                                       |
-| 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-OHLC-Candlestick-Charts-Spreadsheet.png" alt="Seclect OHLC Candlestick Chart spreadsheet" width="300"/> | データソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。 次に、「OHLC and Candlestick」シートを選択します。                       |
+| 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-OHLC-Candlestick-Charts-Spreadsheet.png" alt="Seclect OHLC Candlestick Chart spreadsheet" width="300"/> | データソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。 次に、OHLC and Candlestick シートを選択します。                       |
 | 4\. **表示形式ペインを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Seclect Change visualization" width="300"/>                              | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                 |
-| 5\. **表示形式を選択する**        | <img src="images/Tutorials-Charts-Select-Candlestick-Chart.png" alt="Seclect Candlestick chart" width="300"/>                             | デフォルトで、表示形式のタイプはグリッドに設定されています。**ローソク足**を選択します。                                                                 |
+| 5\. **表示形式を選択する**        | <img src="images/Tutorials-Charts-Select-Candlestick-Chart.png" alt="Seclect Candlestick chart" width="300"/>                             | デフォルトで、表示形式のタイプはグリッドに設定されています。**[ローソク足]** を選択します。                                                                 |
 | 6\. **データを体系化する**               | <img src="images/Tutorials-CandlestickChart-Organizing-Data.png" alt="Organizing data fields" width="300"/>                               | Date フィールドをラベルにドラッグアンドドロップし、*Open*、*High*、*Low* および *Close* フィールドを対応するプレースホルダーにドラッグアンドドロップします。                      |
 | 7\. **日付集計を変更する**      | <img src="images/Tutorials-CandlestickChart-Changing-Aggregation.png" alt="Changing date aggregation" width="300"/>                       | データ エディターのラベル プレースホルダーで Date フィールドを選択し、**[日付集計]** を **[日]** に変更します。次に, [フィールドの更新] を選択します。 |
 

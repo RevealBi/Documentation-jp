@@ -99,11 +99,11 @@
 
   - [チャートのタイプを変更する方法](#changing-chart-type)
 
-  - [チャートにトレンドラインを追加する](#add-trendline-chart)
+  - [チャートにトレンドラインを追加する方法](#add-trendline-chart)
 
-  - [軸の構成を変更する](#change-axis-configuration)
+  - [軸の構成を変更する方法](#change-axis-configuration)
 
-  - [軸の構成を対数に変更する](#set-logarithmic-axis)
+  - [軸の構成を対数に変更する方法](#set-logarithmic-axis)
 
   - [ドーナツ型と円チャートの開始位置の変更方法](#change-start-position)
 
@@ -125,7 +125,7 @@
 
 ### サンプル データソース
 
-このチュートリアルでは [Reveal チュートリアル スプレッドシート](http://download.infragistics.com/Reveal/help/samples/Reveal_Dashboard_Tutorials.xlsx). の「Simple Series Charts」シートを使用します。
+このチュートリアルでは [Reveal チュートリアル スプレッドシート](http://download.infragistics.com/Reveal/help/samples/Reveal_Dashboard_Tutorials.xlsx). の Simple Series Charts シートを使用します。
 
 >[!NOTE]
 >このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[Web リソース](~/jp/datasources/supported-datasources/web-resource.md)として追加してください。

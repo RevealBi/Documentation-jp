@@ -30,9 +30,9 @@ OHLC チャート ビューのガイドは、以下のリンクから参照し�
 
   - [OHLC 足チャートを作成する方法](#OHLC-足チャートを作成する方法)
 
-  - [軸の構成を変更する](#軸の構成を変更する)
+  - [軸の構成を変更する方法](#軸の構成を変更する)
 
-  - [軸の構成を対数に変更する](#軸の構成を対数に変更する)
+  - [軸の構成を対数に変更する方法](#軸の構成を対数に変更する)
 
 ### 重要なコンセプト
 
@@ -68,7 +68,7 @@ OHLC チャートとローソク足チャートは各財務データの始値、
 | 2\. **データソースを構成する**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" width="80%"/>                                                 | [新しい表示形式] ウィンドウで、右下隅の [+ データソース] ボタンを選択し、データソースを選択します。                                        |
 | 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-OHLC-Candlestick-Charts-Spreadsheet.png" alt="Tutorials-Select-OHLC-Candlestick-Charts-Spreadsheet" width="80%"/> | データソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。次に、OHLC and Candlestick シートを選択します。                      |
 | 4\. **表示形式ペインを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" width="80%"/>                               | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                 |
-| 5\. **表示形式を選択する**        | <img src="images/Tutorials-Charts-Select-OHLC-Chart.png" alt="Tutorials-Charts-Select-OHLC-Chart" width="80%"/>                                     | デフォルトで、表示形式のタイプは**グリッド**に設定されています。**OHLC** を選択します。                                                                        |
+| 5\. **表示形式を選択する**        | <img src="images/Tutorials-Charts-Select-OHLC-Chart.png" alt="Tutorials-Charts-Select-OHLC-Chart" width="80%"/>                                     | デフォルトで、表示形式のタイプは**グリッド**に設定されています。**[OHLC]** を選択します。                                                                        |
 | 6\. **データを構成する**               | <img src="images/Tutorials-CandlestickChart-Organizing-Data.png" alt="Tutorials-TextView-Organizing-Data" width="80%"/>                             | Date フィールドを **[ラベル]** にドラッグアンドドロップし、Open、High、Low および Close フィールドを対応するプレースホルダーにドラッグアンドドロップします。                      |
 | 7\. **日付集計を変更する**      | <img src="images/Tutorials-CandlestickChart-Changing-Aggregation.png" alt="Tutorials-CandlestickChart-Changing-Aggregation" width="80%"/>           | データ エディターのラベル プレースホルダーで Date フィールドを選択し、**[日付集計]** を **[日]** に変更します。次に、**[フィールドの更新]** を選択します。 |
 
