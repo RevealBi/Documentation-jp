@@ -1,6 +1,6 @@
 ## Google ドライブ
 
-Google アカウントでログインしている場合は、Google ドライブがデータ ソースに自動的に追加されます。
+Google アカウントでログインしている場合は、Google ドライブがデータソースに自動的に追加されます。
 
 <img src="images/google-drive-data-source-automatic.png" alt="Google Drive account in your data sources list" width="80%"/>
 

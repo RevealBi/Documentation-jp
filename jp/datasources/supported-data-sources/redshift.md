@@ -4,7 +4,7 @@ Amazon Redshift のデータソースを設定するには、以下の情報が�
 
 <img src="images/enter-amazon-redshift-server-details.png" alt="Configure Redshift Server details" width="80%"/>
 
-1.  データソースの **デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Amazon Redshift* という名前を付けます。好みに合わせて変更できます。 
+1.  データソースの **デフォルト名**: データソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Amazon Redshift* という名前を付けます。好みに合わせて変更できます。 
 
 2.  [**サーバー**](#how-to-find-server): コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 

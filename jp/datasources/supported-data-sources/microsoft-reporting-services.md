@@ -8,7 +8,7 @@ Microsoft Reporting Services (SSRS) データソースを構成するには、�
 
 <img src="images/ssrs-configuration.png" alt="Set up menu for Microsoft Reporting Services data source" width="80%"/>
 
-1.  データ ソースの**デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Microsoft Reporting Services* という名前を付けます。好みに合わせて変更できます。
+1.  データソースの**デフォルト名**: データソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Microsoft Reporting Services* という名前を付けます。好みに合わせて変更できます。
 
 2.  **URL**: サーバーの URL。
 

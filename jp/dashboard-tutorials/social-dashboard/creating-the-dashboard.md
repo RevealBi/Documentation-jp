@@ -4,7 +4,7 @@
 
 <img src="images/create-new-dashboard.png" alt="Access New Dashboard menu" width="80%"/>
 
-### データ ソースを追加する
+### データソースを追加する
 
 **[ダッシュボード]** を選択すると、**[新しい表示形式]** 画面が表示されます。
 右上隅の [+] 記号を選択してから、[このセクション](~/jp/dashboard-tutorials/finance-dashboard/getting-started.html#sample-datasheet)で言及されたサンプル データシートを保存したデータソースを選択します。

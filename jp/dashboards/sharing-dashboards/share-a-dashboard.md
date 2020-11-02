@@ -97,7 +97,7 @@
     <td><span style="color: #007F00">〇</span></td>
   </tr>
   <tr>
-    <td>変更</td>
+    <td>メンバー</td>
     <td><span style="color: #FF0000">X</span></td>
     <td><span style="color: #007F00">〇</span></td>
     <td><span style="color: #007F00">〇</span></td>

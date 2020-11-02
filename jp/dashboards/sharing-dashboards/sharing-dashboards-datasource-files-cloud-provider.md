@@ -34,7 +34,7 @@
 
 <img src="images/allow-access-box-sharing.png" alt="Allow access checkbox in the Set up your file dialog" width="80%"/>
 
-*「アクセスを許可」*チェックボックスが選択されていることを確認してください。選択されていない場合、共有可能なリンクは無効になります。
+**[アクセスの許可]** チェックボックスが選択されていることを確認してください。選択されていない場合、共有可能なリンクは無効になります。
 
 <a name='grant-access-shared-dashboard'></a>
 ### ダッシュボードの共有時にアクセスを許可する
@@ -43,13 +43,13 @@
 
 1.  ダッシュボードの*オーバーフロー ボタン*をクリック/タップします。
 
-2.  *[共有]*を選択します。
+2.  **[共有]** を選択します。
 
-3.  次のダイアログが開きます。
+3.  次のダイアログが開きます:
 
     <img src="images/grant-access-share-dashboard-dialog.png" alt="A dialog to grant access to cloud file data sources" width="80%"/>
 
-    *[アクセスを許可]*をクリック/タップして、[ダッシュボードを共有する](share-a-dashboard.html)ユーザーの選択に進みます。
+    **[アクセスの許可]** をクリック/タップして、[ダッシュボードを共有する](share-a-dashboard.html)ユーザーの選択に進みます。
 
 
 >[!NOTE] **アクセスは許可されていません。**
@@ -58,7 +58,7 @@
 <a name='save-dashboard-team'></a>
 ### チーム内のクラウド ファイル データソースを含むダッシュボードの保存
 
-クラウド ファイルをデータソースとして使用する 1 つ以上の表示形式を含むダッシュボードをチームのスペースに保存することができます。これらのデータソース　ファイルへの共有可能なリンクが作成されていない (無効になっている) 場合、Reveal はアクセスを許可するように求めます。
+クラウド ファイルをデータソースとして使用する 1 つ以上の表示形式を含むダッシュボードをチームのスペースに保存することができます。これらのデータソース ファイルへの共有可能なリンクが作成されていない (無効になっている) 場合、Reveal はアクセスを許可するように求めます。
 
 <img src="images/save-dashboard-disabled-link-teams_all.png" alt="Allow access to a dashboard with a disabled link when saving in a team" width="80%"/>
 

@@ -51,7 +51,7 @@
 <p><em>Excel ファイルはスプレッドシートでデータのカスタム範囲の選択を許可しますが、</em>CSV ファイルはこれを許可しません。特定のデータを選択する場合、常に Excel スプレッドシートを使用します。</p></td>
 <td><p><img src="images/excel-columns.png" alt="excel columns" /><br />
 </p>
-<p>名前付き範囲を持つスプレッドシートがある場合、<strong>その名前付き範囲をデータ ソースとして選択できます。</strong>.</p></td>
+<p>名前付き範囲を持つスプレッドシートがある場合、<strong>その名前付き範囲をデータソースとして選択できます。</strong>.</p></td>
 <td><p><img src="images/excel-columns.png" alt="excel columns" /><br />
 </p>
 <p>Excel データが<strong>隣接しない列</strong>にある場合、Reveal は<strong>データの最も多い列</strong>を使用します。</strong>.</p></td>

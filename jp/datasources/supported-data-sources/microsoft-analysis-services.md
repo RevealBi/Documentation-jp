@@ -17,7 +17,7 @@ Microsoft Analysis Services データソースを *Native* モード用に構成
 
 <img src="images/microsoft-analysis-native-configuration.png" alt="Configure Microsoft Analysis Services connection" width="80%"/>
 
-1. データ ソースの*デフォルト名*: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Microsoft Analysis Services* という名前を付けます。好みに合わせて変更できます。
+1. データソースの*デフォルト名*: データソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Microsoft Analysis Services* という名前を付けます。好みに合わせて変更できます。
 
 2.  **サーバー**: サーバーが実行されているコンピューターのホスト名または IP アドレスです。
 
@@ -49,7 +49,7 @@ Microsoft Analysis Services データソースを *HTTP* モード用に構成�
 
 <img src="images/miscrosoft-analysis-http-config.png" alt="Configure Microsoft Analysis HTTP mode connection" width="80%"/>
 
-1.  **データ ソース名**: このフィールドはデータソース リストに表示されます。デフォルト名: *Microsoft Analysis Services*。
+1.  **データソース名**: このフィールドはデータソース リストに表示されます。デフォルト名: *Microsoft Analysis Services*。
 
 2.  **URL**: サーバーの HTTP eService URL。例: *10.1.0.15/olap/msmdpump.dll*。
 

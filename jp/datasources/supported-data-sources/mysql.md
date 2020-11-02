@@ -6,7 +6,7 @@ MySQL サーバーデータソースを構成するには、以下の情報が�
 
 <img src="images/enter-mySQL-server-details.png" alt="Enter MySQL Server Details dialog" width="80%"/>
 
-1.  **データ ソース名**: データソースは以前のダイアログのアカウントのリストに表示されます。By default, Reveal names the data source *MySQL*. You can change it to your preference.
+1.  **データソース名**: データソースは以前のダイアログのアカウントのリストに表示されます。By default, Reveal names the data source *MySQL*. You can change it to your preference.
 
 
 2. [**サーバー**](#how-to-find-server): コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。

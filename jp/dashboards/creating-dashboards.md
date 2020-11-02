@@ -4,7 +4,7 @@ Reveal のダッシュボード作成には以下のオプションが含まれ�
 
 1.  [ダッシュボード作成メニューにアクセス](#access-dashboard-creation-menu)
 
-2.  [データ ソースの追加](#add-data-source)
+2.  [データソースの追加](#add-data-source)
 
 3.  *オプション*[表示形式の変更](#modify-visualization)
 
@@ -22,13 +22,13 @@ Reveal のダッシュボード作成には以下のオプションが含まれ�
 <img src="images/new-visualization-dialog.png" alt="New visualization dialog" width="80%"/>
 
 <a name='add-data-source'></a>
-### データ ソースの追加
+### データソースの追加
 
-データ ソースが [データ ソースの選択] セクションにない場合は、右上側の [+ データ ソース] ボタンを選択します。新しいダイアログがポップアップして、すべてのデータソース カテゴリおよび利用可能なデータ ソースが表示されます。
+データソースが [データソースの選択] セクションにない場合は、右上側の [+ データソース] ボタンを選択します。新しいダイアログがポップアップして、すべてのデータソース カテゴリおよび利用可能なデータソースが表示されます。
 
 <img src="images/adding-data-source.png" alt="add data source to create dashboards" width="80%"/>
 
-データ ソースがコンテンツ マネージャーのスプレッドシートの場合、表示形式で使用する特定のシートを選択できます。
+データソースがコンテンツ マネージャーのスプレッドシートの場合、表示形式で使用する特定のシートを選択できます。
 
 <img src="images/select-data-source-sheet.png" alt="select a data sheet from an excel file data source" width="80%"/>
 
@@ -38,7 +38,7 @@ Reveal では [Dropbox](../datasources/supported-data-sources/Dropbox.html)、[O
 
 <img src="images/available-content-onedrive.png" alt="available content in OneDrive datasource account" width="80%"/>
 
-さらに、[SharePoint](../datasources/supported-data-sources/SharePoint.html) データ ソースを追加することもできるため、リストまたはライブラリにアクセスする機能が使用可能です。
+さらに、[SharePoint](../datasources/supported-data-sources/SharePoint.html) データソースを追加することもできるため、リストまたはライブラリにアクセスする機能が使用可能です。
 
 <img src="images/available-content-sharepoint.png" alt="available content in SharePoint datasource account" width="80%"/>
 

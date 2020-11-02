@@ -1,6 +1,6 @@
 ## Microsoft Azure Synapse Analytics
 
-Microsoft Azure Synapse データ ソースは、Reveal 内でビッグ データを処理する際の速度を大幅に向上させます。これにより、大量のデータセットを速度低下することなく表示形式に使用できます。
+Microsoft Azure Synapse データソースは、Reveal 内でビッグ データを処理する際の速度を大幅に向上させます。これにより、大量のデータセットを速度低下することなく表示形式に使用できます。
 
 ### Azure Synapse Analytics データソースの設定
 
@@ -8,7 +8,7 @@ Microsoft Azure Synapse Analytics データソースを設定するには、以�
 
 <img src="images/synapse-azure-configuration.png" alt="Configuring azure synapse data source dialog" width="80%"/>
 
-1. データソースの **デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Microsoft Azure SQL Synapse Analytics* という名前を付けます。好みに合わせて変更できます。
+1. データソースの **デフォルト名**: データソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Microsoft Azure SQL Synapse Analytics* という名前を付けます。好みに合わせて変更できます。
    
 2.  **サーバー**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 
@@ -47,7 +47,7 @@ Azure Synapse Analytics を使用する場合のビューの操作は、MS SQL S
 
 ### 表示形式エディターでの制限事項
 
-Reveal でビッグ データを操作する場合、数百万のレコードを格納するデータ ソースを処理するために使用される特定のアプローチにより、表示形式エディターにはいくつかの制限があります。
+Reveal でビッグ データを操作する場合、数百万のレコードを格納するデータソースを処理するために使用される特定のアプローチにより、表示形式エディターにはいくつかの制限があります。
 
 #### 計算フィールドで使用できる関数の制限
 
@@ -59,4 +59,4 @@ Reveal でビッグ データを操作する場合、数百万のレコードを
 
 #### データ ブレンディングの制限
 
-現在、Azure Synapse Analytics データ ソースからのデータを使用する場合、データ ブレンディング ([1 つの表示形式でデータ ソースを組み合わせる](data-blending.html)) は**使用できません**。
+現在、Azure Synapse Analytics データソースからのデータを使用する場合、データ ブレンディング ([1 つの表示形式でデータソースを組み合わせる](data-blending.html)) は**使用できません**。

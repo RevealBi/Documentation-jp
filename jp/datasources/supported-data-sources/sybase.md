@@ -6,7 +6,7 @@ Sybase サーバー データソースを構成するには、以下の情報が
 
 <img src="images/enter-sybase-server-details.png" alt="Configure Sybase database connection" width="80%"/>
 
-1.  **データ ソース名**: このフィールドはデータソース リストに表示されます。デフォルト名: *Sybase*。
+1.  **データソース名**: このフィールドはデータソース リストに表示されます。デフォルト名: *Sybase*。
 
 2.  [**サーバー**](#サーバー情報を見つける方法): コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 

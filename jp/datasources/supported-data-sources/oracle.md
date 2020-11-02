@@ -15,7 +15,7 @@ SID を使用して Orable を構成するには、以下の情報が必要で�
 
 <img src="images/enter-oracle-details.png" alt="Configure Oracle SID mode details" width="80%"/>
 
-1. 1. データ ソースの**デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Oracle* という名前を付けます。好みに合わせて変更できます。
+1. 1. データソースの**デフォルト名**: データソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Oracle* という名前を付けます。好みに合わせて変更できます。
 
 
 1.  [**サーバー**](#how-to-find-server): コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
@@ -45,7 +45,7 @@ SID を使用して Orable を構成するには、以下の情報が必要で�
 
 <img src="images/enter-oracle-details-service-mode.png" alt="Configure Oracle Service mode details" width="80%"/>
 
-1.  **データ ソース名**: このフィールドはデータソース リストに表示されます。
+1.  **データソース名**: このフィールドはデータソース リストに表示されます。
 
 2.  [**サーバー**](#how-to-find-server): コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 

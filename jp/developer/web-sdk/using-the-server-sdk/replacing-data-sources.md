@@ -10,7 +10,7 @@
 IRVDataSourceProvider DataSourceProvider { get;  }
 ```
 
-インターフェイス __IRVDataSourceProvider__ を実装するクラスは、特定の可視化またはダッシュボード フィルターによって使用されるデータ ソースを置換または変更することができます。
+インターフェイス __IRVDataSourceProvider__ を実装するクラスは、特定の可視化またはダッシュボード フィルターによって使用されるデータソースを置換または変更することができます。
 
 ### 使用事例
 

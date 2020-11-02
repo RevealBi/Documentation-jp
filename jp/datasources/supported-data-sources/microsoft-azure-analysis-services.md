@@ -12,7 +12,7 @@ Reveal で使用される他のデータベース (Microsoft Analysis Services�
 
 Azure Analysis Services データソースを設定するには、以下の手順を実行する必要があります。
 
-1. [データ ソースの作成] ダイアログでサーバーの URL を指定します:
+1. [データソースの作成] ダイアログでサーバーの URL を指定します:
 
     <img src="images/configure-azure-analysis-services-data-source.png" alt="Configuring an azure analysis services connection" width="80%"/>
 
@@ -24,7 +24,7 @@ Azure Analysis Services データソースを設定するには、以下の手�
 
 3. Microsoft アカウント (Azure Analysis サーバーに関連付けられたアカウント) に資格情報を提供します。 
 
-4. データ ソースの作成ダイアログに戻ります (*Step 1* のスクリーンショットを参照してください)。データベースを選択し、[続行] をクリック/タップします。
+4. データソースの作成ダイアログに戻ります (*Step 1* のスクリーンショットを参照してください)。データベースを選択し、[続行] をクリック/タップします。
 
 5. データベースの設定ダイアログには、データベースで利用可能なすべてのセマンティック モデルのリストがあります。モデルを選択し、[データを選択] をクリック/タップします。
 

@@ -6,7 +6,7 @@ Web リソース データソースを構成するには、以下の情報が必
 
 <img src="images/enter-web-resource-details.png" alt="Configure Web resource connection" width="80%"/>
 
-1.  データソースの**デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Web Resource* という名前を付けます。好みに合わせて変更できます。
+1.  データソースの**デフォルト名**: データソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Web Resource* という名前を付けます。好みに合わせて変更できます。
 
 2.  **URL**: サービスの URL (ダッシュボード チュートリアルの場合は <http://download.infragistics.com/reveal/help/samples/Reveal_Dashboard_Tutorials.xlsx> など)。
 

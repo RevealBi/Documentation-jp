@@ -16,7 +16,7 @@ REST API データソースを構成するには、以下の情報が必要で�
 
 <img src="images/Configuring-REST-API-Data-Source_All.png" alt="Configuring-REST-API-Data-Source\_All" width="80%"/>
 
-1. データソースの**デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *REST API* という名前を付けます。好みに合わせて変更できます。
+1. データソースの**デフォルト名**: データソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *REST API* という名前を付けます。好みに合わせて変更できます。
 
 
 2.  **URL**:  サービスが配置されている URL。
