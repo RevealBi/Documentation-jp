@@ -31,7 +31,7 @@
 
 4.  [ダッシュボードにテーマを適用](applying-theme.html)
 
-5.  [その他の表示形式の追加](adding-other-visualizations.html) ([フォロワー](adding-other-visualizations.html#followers)、[YTD Facebook フォロワー](adding-other-visualizations#ytd-facebook-followers)、[月ごとの Facebook いいね!](adding-other-visualizations.html#monthly-facebook-likes)、[リツイート& お気に入り](adding-other-visualizations.html#retweets-favorites)、[Facebook リーチ vs. インプレッション数](adding-other-visualizations.html#facebook-reach-impressions)、[月ごとの Twitter メンション数](adding-other-visualizations.html#monthly-twitter-mentions))
+5.  [その他の表示形式の追加](adding-other-visualizations.html) ([フォロワー](adding-other-visualizations.html#followers)、[YTD Facebook フォロワー](adding-other-visualizations.html#ytd-facebook-followers)、[月ごとの Facebook いいね!](adding-other-visualizations.html#monthly-facebook-likes)、[リツイート& お気に入り](adding-other-visualizations.html#retweets-favorites)、[Facebook リーチ vs. インプレッション数](adding-other-visualizations.html#facebook-reach-impressions)、[月ごとの Twitter メンション数](adding-other-visualizations.html#monthly-twitter-mentions))
 
 6.  [ダッシュボードの保存](saving-dashboard.html)
 

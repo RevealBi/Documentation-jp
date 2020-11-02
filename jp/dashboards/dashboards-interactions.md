@@ -28,7 +28,7 @@
 
 <img src="images/flip-grid.png" alt="flip to grid" width="80%"/>
 
-表示形式のデータ ビハインド表示で並べ替え (昇順または降順) を適用できます。グリッドの並べ替え詳細については、[グリッド ビュー](~/jp/data-visualizations/grid-chart.html)トピックをご覧ください。
+表示形式のデータ ビハインド表示で並べ替え (昇順または降順) を適用できます。グリッドの並べ替え詳細については、[グリッド ビュー](~/jp/data-visualizations/visualization-types/grid-chart.md)トピックをご覧ください。
 
 元の表示形式へ戻すために、**[元の形式を表示]** リンクを選択します。
 

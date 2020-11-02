@@ -9,21 +9,21 @@
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><img src="images/SparklineChartSimple_All.png" alt="SparklineChartSimple All" /><br />
+<td><p><img src="images/SparklineChartSimple_All.png" alt="SparklineChartSimple All" width="80%"/><br />
 </p>
 <p><a href="#create-sparkline">シンプルなスパークライン</a><br />
 </p></td>
-<td><p><img src="images/SparklineChartArea_All.png" alt="SparklineChartArea All" /><br />
+<td><p><img src="images/SparklineChartArea_All.png" alt="SparklineChartArea All" width="80%"/><br />
 </p>
 <p><a href="#change-chart-type-sparkline">エリア チャートのスパークライン</a><br />
 </p></td>
 </tr>
 <tr class="even">
-<td><p><img src="images/SparklineDateAggregation_All.png" alt="SparklineDateAggregation All" /><br />
+<td><p><img src="images/SparklineDateAggregation_All.png" alt="SparklineDateAggregation All" width="80%"/><br />
 </p>
 <p><a href="#change-date-aggregation">日の集計のスパークライン</a><br />
 </p></td>
-<td><p><img src="images/SparklineLessColumns_All.png" alt="SparklineLessColumns All" /><br />
+<td><p><img src="images/SparklineLessColumns_All.png" alt="SparklineLessColumns All" width="80%"/><br />
 </p>
 <p><a href="#modify-columns">データ量の少ない柱状およびエリア チャートのスパークライン</a><br />
 </p></td>
@@ -67,7 +67,7 @@
 このチュートリアルでは [Reveal チュートリアル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx) の「Sparkline Charts」シートを使用します。
 
 >[!NOTE]
->このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[Web リソースとして](datasources/supported-data-sources/web-resource.html)追加してください。
+>このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[Web リソースとして](~/jp/datasources/supported-data-sources/web-resource.md)追加してください。
 
 <a name='create-sparkline'></a>
 ### スパークライン チャートの作成

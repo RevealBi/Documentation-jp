@@ -3,7 +3,7 @@
 その他すべてのダッシュボードにある表示形式で同じ[サンプル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)を使用します。
 
 >[!NOTE]
->[データソースを変更する](../../../jp/datasources/changing-data-source-visualization.html)場合は、データ ソース名の横にあるオーバーフロー ボタン、または[新しいデータ ソースを作成する](../../../jp/datasources/datasources/overview.html)を選択する必要があります。表示形式を[複製して](../../../jp/dashboards/dashboards-interactions.html#view-edit-mode)作成時間を短縮することもできます。
+>[データソースを変更する](../../../jp/datasources/changing-data-source-visualization.html)場合は、データ ソース名の横にあるオーバーフロー ボタン、または[新しいデータ ソースを作成する](~/jp/datasources/overview.md)を選択する必要があります。表示形式を[複製して](../../../jp/dashboards/dashboards-interactions.html#view-edit-mode)作成時間を短縮することもできます。
 
 このセクションは以下の表示形式について説明します。
 
@@ -16,37 +16,37 @@
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><img src="images/ThumbnailWinLostMonth_All.png" alt="ThumbnailWinLostMonth All" /><br />
+<td><p><img src="images/ThumbnailWinLostMonth_All.png" alt="ThumbnailWinLostMonth All" width="75%" /><br />
 </p>
 <p><a href="#win-lost-by-month">Win/Lost by Month (月別の勝敗)</a><br />
 </p></td>
-<td><p><img src="images/ThumbnailForecasted_All.png" alt="ThumbnailForecasted All" /><br />
+<td><p><img src="images/ThumbnailForecasted_All.png" alt="ThumbnailForecasted All" width="75%" /><br />
 </p>
 <p><a href="#forecasted">Forecasted (予測)</a><br />
 </p></td>
-<td><p><img src="images/ThumbnailLostOpportunities_All.png" alt="ThumbnailLostOpportunities All" /><br />
+<td><p><img src="images/ThumbnailLostOpportunities_All.png" alt="ThumbnailLostOpportunities All" width="75%" /><br />
 </p>
 <p><a href="#lost-opportunities">Lost Opportunities (機会損失)</a><br />
 </p></td>
-<td><p><img src="images/ThumbnailPipelinebyTerritory_All.png" alt="ThumbnailPipelinebyTerritory All" /><br />
+<td><p><img src="images/ThumbnailPipelinebyTerritory_All.png" alt="ThumbnailPipelinebyTerritory All" width="75%" /><br />
 </p>
 <p><a href="#pipeline-by-territory">Pipeline by Territory (地域別パイプライン)</a><br />
 </p></td>
 </tr>
 <tr class="even">
-<td><p><img src="images/ThumbnailTotalOpportunities_All.png" alt="ThumbnailTotalOpportunities All" /><br />
+<td><p><img src="images/ThumbnailTotalOpportunities_All.png" alt="ThumbnailTotalOpportunities All" width="75%" /><br />
 </p>
 <p><a href="#total-opportunities">Total Opportunities (機会の合計)</a><br />
 </p></td>
-<td><p><img src="images/ThumbnailRevenuebyTerritory_All.png" alt="ThumbnailRevenuebyTerritory All" /><br />
+<td><p><img src="images/ThumbnailRevenuebyTerritory_All.png" alt="ThumbnailRevenuebyTerritory All" width="75%" /><br />
 </p>
 <p><a href="#revenue-by-territory">Revenue by Territory (地域別収益)</a><br />
 </p></td>
-<td><p><img src="images/ThumbnailPipelineEmployee_All.png" alt="ThumbnailPipelineEmployee All" /><br />
+<td><p><img src="images/ThumbnailPipelineEmployee_All.png" alt="ThumbnailPipelineEmployee All" width="75%" /><br />
 </p>
 <p><a href="#pipeline-per-employee">Pipeline per Employee (従業員あたりのパイプライン)</a><br />
 </p></td>
-<td><p><img src="images/ThumbnailSalesbyProduct_All.png" alt="ThumbnailSalesbyProduct All" /><br />
+<td><p><img src="images/ThumbnailSalesbyProduct_All.png" alt="ThumbnailSalesbyProduct All" width="75%" /><br />
 </p>
 <p><a href="#sales-by-product">Sales by Product (製品別売上高)</a><br />
 </p></td>
@@ -264,7 +264,7 @@ Pipeline by Territory 表示形式は、[ファンネルチャート](~/jp/visua
 ### Total Opportunities
 
 Total Opportunities 表示形式は、12 か月間の会社の機会が表すによる収益を
-[折れ線チャート](~/jp/visualization-tutorials/simple-charts)で表示します。以下は作成方法です。
+[折れ線チャート](~/jp/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、**[データを選択]** を押します。
     
@@ -313,7 +313,7 @@ Total Opportunities 表示形式は、12 か月間の会社の機会が表すに
     
     <img src="images/SalesTotalOppsCustomDateRange_All.png" alt="SalesTotalOppsCustomDateRange\_All" width="80%"/>
     
-    次に, **[フィルターの更新]** を選択します。
+    次に、**[フィルターの更新]** を選択します。
 
  
 

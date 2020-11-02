@@ -14,4 +14,4 @@ Reveal で **Office 365** アカウントを使用して初めてサインイン
 
 **Google** アカウントを使用してサインインする場合は、アカウントの資格情報を入力するだけで済みます。
 
-Reveal へのサインインに使用したアカウントに応じて、OneDrive または Google ドライブが[データ ソース](~/jp/datasources/overview.html)のリストに自動的に追加されます。さらに、[OneDrive](~/jp/datasources/OneDrive.html) と [Google Drive](~/jp/datasources/Google-Drive.html) を初めて使用するときにのみ、**制限された権限**制限付きのアクセス許可を求められます。
+Reveal へのサインインに使用したアカウントに応じて、OneDrive または Google ドライブが[データ ソース](~/jp/datasources/overview.html)のリストに自動的に追加されます。さらに、[OneDrive](~/jp/datasources/supported-data-sources/onedrive.md) と [Google ドライブ](~/jp/datasources/supported-data-sources/google-drive.md)を初めて使用するときにのみ、制限された制限付きのアクセス許可を求められます。

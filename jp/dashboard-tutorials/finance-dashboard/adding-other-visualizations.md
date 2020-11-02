@@ -3,7 +3,7 @@
 ダッシュボードにあるその他すべての表示形式で同じ [サンプル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)を使用します。
 
 >[!NOTE]
->[データソースを変更する](../../../jp/datasources/changing-data-source-visualization.html)場合は、データ ソース名の横にあるオーバーフロー ボタンまたは[新しいデータ ソース](../../../jp/datasources/datasources/overview.html)を選択する必要があります。表示形式を[複製](../../../jp/dashboards/dashboards-interactions.html#view-edit-mode)し、作成時間を短縮することもできます。
+>[データソースを変更する](../../../jp/datasources/changing-data-source-visualization.html)場合は、データ ソース名の横にあるオーバーフロー ボタンまたは[新しいデータ ソース](~/jp/datasources/overview.md)を選択する必要があります。表示形式を[複製](../../../jp/dashboards/dashboards-interactions.html#view-edit-mode)し、作成時間を短縮することもできます。
 
 このセクションは以下の表示形式について説明します。
 
@@ -77,7 +77,7 @@ SIS Stock Value 2018 表示形式は、2018 年の Soylent Corp 株の平均値�
 
 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
-<a name=glb-fiscal-monthly></a>
+<a name="glb-fiscal-monthly"></a>
 ### GLB Fiscal (Monthly) NYSE + BATS (Globex 月次会計; ニューヨーク証券取引所 + アドバンストオルタナティブトレーディングシステム)
 
 GLB Fiscal 表示形式は、ニューヨーク証券取引所 (New York Stock Exchange - NYSE) と アドバンストオルタナティブトレーディングシステム (Better Alternative Trading System - BATS) の両方を考慮して、2018 年の Globex 株の価格変動を[ローソク足チャート](~/jp/visualization-tutorials/candlestick-chart.html)で表示します。
