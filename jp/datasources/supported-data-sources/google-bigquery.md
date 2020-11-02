@@ -8,12 +8,11 @@ Google BigQuery を選択すると、**Google アカウント**に接続する�
 
 Google アカウントを追加すると、BigQuery データセットにアクセスできるようになります。それらを表示形式に使用するには:
 
-1.  *[新しいデータソース]* ダイアログで**プロジェクトを選択します**。
+1.  **[データソースの作成]** ダイアログで**プロジェクトを選択します**。
 
     <img src="images/select-project-bigquery.png" alt="Select a project in the New Data Source dialog" width="80%"/>
 
-    >[!NOTE]    
-    **BigQuery の一般公開データセットを使ったデモ プロジェクト**。
+    >[!NOTE] **BigQuery の一般公開データセットを使ったデモ プロジェクト**。
     上のスクリーンショットの 2 つの公開 データ プロジェクトは、Reveal チームによって構成されたデモ プロジェクトです。BigQuery データセットを持たないユーザーは表示形式エディターでこのデータソースを操作して、ビッグ データがどのように迅速に処理されているかを確認できます。
 
 
@@ -37,7 +36,7 @@ Reveal でビッグ データを操作する場合、数百万のレコードを
 
 - [日付](~/jp/data-visualizations/fields/calculated-fields/date.html) - date; time.
 
-- [ロジック](~/jp/data-visualizations/fields/calculated-fields/logic.html) - false; true; if; not.
+- [論理](~/jp/data-visualizations/fields/calculated-fields/logic.html) - false; true; if; not.
 
 - [数学](~/jp/data-visualizations/fields/calculated-fields/math.html) - abs; exp; log; log10; mod; rand; sign; sqrt; trunc.
 
@@ -45,4 +44,4 @@ Reveal でビッグ データを操作する場合、数百万のレコードを
 
 #### データ ブレンディングの制限
 
-現在、Google BigQuery データソースからのデータを使用する場合、データ ブレンディング ([1 つの表示形式でデータソースを組み合わせる](~/jp/datasources/data-blending.html)) は**使用できません**。
+現在、Google BigQuery データソースからのデータを使用する場合、データ ブレンディング ([データソースを 1 つの表示形式に統合](~/jp/datasources/data-blending.html)) は**使用できません**。

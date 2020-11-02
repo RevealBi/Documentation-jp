@@ -10,13 +10,13 @@ Google ドライブのデータを使用するには、以下の手順に従っ�
 
     <img src="images/google-drive-login.png" alt="Google Drive Login" width="60%"/>
 
-    **ログイン情報**を入力し *[次]* を選択します。
+    **ログイン情報**を入力し [次へ] を選択します。
 
 2.  **初めてのユーザーのみ**には、以下のダイアログが表示され、Google ドライブのデータを使用できるように、**適切な権限**を開示するように求められます。
 
-    <img src="images/limited-permissions-google-drive.png" alt="Limited permissions request google dialog" width="60%"/>
+    <img src="images/limited-permissions-google-drive.png" alt="Limited permissions request google dialog" width="40%"/>
 
-*[許可]* を選択して、Reveal が Google ドライブ ファイルを使用 (表示およびダウンロード) することを承認します。
+[許可] を選択して、Reveal が Google ドライブ ファイルを使用 (表示およびダウンロード) することを承認します。
 
 これで、Google ドライブのデータを使用して表示形式を構築できるようになり、これらの権限を再度求められることはありません。
 
@@ -26,4 +26,4 @@ Reveal では、広範な種類のファイルを使用できます。
 
   - **スプレッドシートと表形式データ**: Excel (.xlsls, .xlsx)、CSV または TSV (Reveal 内で動的に使用できます)。
 
-  - **その他のファイル**: プレビューモードのみで表示されます (画像および PDF やテキストなどのドキュメント ファイルを含む)。
+  - **その他のファイル**: プレビュー モードのみで表示されます (画像および PDF やテキストなどのドキュメント ファイルを含む)。

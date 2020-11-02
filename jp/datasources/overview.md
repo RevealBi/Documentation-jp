@@ -40,7 +40,7 @@
   
    - [Marketo](~/jp/datasources/supported-data-sources/marketo.html)
 
-   - [Microsoft Analysis Services](~/jp/datasources/supported-data-sources/microsoft-analysis-services/microsoft-analysis-services.html)*
+   - [Microsoft Analysis Services](~/jp/datasources/supported-data-sources/microsoft-analysis-services.html)*
   
    - [Microsoft Azure Analysis Services](~/jp/datasources/supported-data-sources/microsoft-azure-analysis-services.html)
 
