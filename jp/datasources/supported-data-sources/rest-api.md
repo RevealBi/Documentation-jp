@@ -39,15 +39,15 @@ REST API データソースを構成するには、以下の情報が必要で�
 
 1.  **URL にパラメーターを指定します**。パス パラメーターは*波括弧*で囲み、*疑問符 (?)* の後にクエリ パラメーターを指定する必要があります。以下の例では、パス パラメーターとクエリ パラメーターの両方が*青*で色分けされ、識別しやすくなっています。
 
-    <img src="images/Parameters-URL-Rest-API_All.png" alt="Parameters-URL-Rest-API\_All" width="80%"/>
+    <img src="images/Parameters-URL-Rest-API_All.png" alt="Parameters-URL-Rest-API" width="80%"/>
 
 2.  **パラメーター値の追加**。次の画面で、URL に追加した各パラメーターの値を指定します。
 
-    <img src="images/Parameters-Values-Rest-API_All.png" alt="Parameters-Values-Rest-API\_All" width="80%"/>
+    <img src="images/Parameters-Values-Rest-API_All.png" alt="Parameters-Values-Rest-API" width="80%"/>
 
     その結果、REST API サービスは、提供された URL のデータを REST に準拠する形式で応答します。通常、JSON ファイルを受け取ります。
 
-    <img src="images/REST-API-Data-Format-Result_All.png" alt="REST-API-Data-Format-Result\_All" width="80%"/>
+    <img src="images/REST-API-Data-Format-Result_All.png" alt="REST-API-Data-Format-Result" width="80%"/>
 
     JSON ファイルの使用方法の詳細については、[このトピック](~/jp/datasources/working-files/working-with-json-files.html)を参照してください。
     
@@ -56,22 +56,21 @@ REST API データソースを構成するには、以下の情報が必要で�
     >[!NOTE]**サポートされていないファイル形式**
     >REST API が Reveal でサポートされていないファイル形式 (XML など) で応答する場合、このファイルに含まれるデータを使用して表示形式を作成することはできません。
 
-3.  **表示形式のデータを失わずにパラメーターの値を変更します**。表示形式の構築を開始した後でパラメーターの値を変更すると、新しいデータにアクセスして表示形式に追加し、既に作成した表示形式に表示されているデータを直接変更するなど、さまざまな可能性が提供されます。
+3.  **表示形式のデータを失わずにパラメーターの値を変更します**。Changing the parameters' values after you have started building your visualization offers a variety of possibilities. For example, you can change the city code path parameter for your weather rest API and have a new dataset loaded for this new city. The information for the visualization you have already built will be automatically updated with the new data. 
 
-これを行うには、*表示形式エディター*画面の左上隅にあるファイル　アイコンをクリックします。
+    これを行うには、表示形式エディター画面のファイル名の横にあるオーバーフロー メニューをクリックしてから、[編集] をクリックします。
 
-<img src="images/REST-API-Change-Parameters-Values_All.png" alt="REST-API-Change-Parameters-Values\_All" width="80%"/>
+    <img src="images/REST-API-Change-Parameters-Values.png" alt="Rest API Parameters Values changing in the editor" width="80%" />
 
-開いた画面で、*[REST API パラメーター]* ボタンを*クリック/タップします*。
+    開いた画面で、*[REST API パラメーター]* ボタンを*クリック/タップします*。
 
-<img src="images/REST-API-Parameters-Button_All.png" alt="REST-API-Parameters-Button\_All" width="80%"/>
+    <img src="images/REST-API-Parameters-Button.png" alt="Rest API Parameters button available in editor" width="80%" />
 
-*ステップ 2* の画面にリダイレクトされます。ここで、パラメーターに新しい値を指定できます。
+    *ステップ 2* の画面にリダイレクトされます。ここで、パラメーターに新しい値を指定できます。
 
 > [!NOTE]
 > **データを失う警告**
-パラメーターの値を変更すると、エディターで既に作成した表示形式が失われる可能性があります。この場合、*[データの読み込み]*ボタンを*クリック/タップする*と、次の警告メッセージが表示されます。
-><img src="images/REST-API-Losing-Data_All.png" alt="REST-API-Losing-Data\_All" width="80%"/>
+パラメーターの値を変更すると、エディターで既に作成した表示形式が失われる可能性があります。In this case, а warning message will appear when you *click/tap* the *Load Data* button. If you choose to continue, you will have the new dataset loaded in the editor and you will have to start building your visualization from scratch. 
 
 ### メソッドの選択
 
@@ -91,6 +90,6 @@ REST API データソース構成のメソッドは、REST システムのリソ
 
 4.  **ボディ**: データを含むオプションのメッセージ (*POST* および *PUT* メソッドを使用する場合)。
 
-    <img src="images/Working-With-Methods_All.png" alt="Working-With-Methods\_All" width="80%"/>
+    <img src="images/Working-With-Methods_All.png" alt="Working With Methods" width="80%"/>
 
 リクエストのヘッダーとボディの詳細については、[このリンク](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages#Headers)を参照してください。
