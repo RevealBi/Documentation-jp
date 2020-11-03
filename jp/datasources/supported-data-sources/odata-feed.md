@@ -19,7 +19,7 @@ OData サービスのデータソースを設定するには、以下の情報�
 
       - **[パスワード]**: OData Service にアクセスするためのパスワード (該当する場合)。
 
-準備ができたら、**[アカウントの作成]**を選択します。**[接続のテスト]** を選択すると、アカウントがデータソースに到達しているかどうかを確認できます。
+準備ができたら、**[アカウントの作成]** を選択します。**[接続のテスト]** を選択すると、アカウントがデータソースに到達しているかどうかを確認できます。
 
 保護された OData サービス データソースの *OAuth 2 / OIDC アカウント*を設定するには、[このトピック](/jp/datasources/OAuth-2-OIDC-User-Authentication.html)を参照してください。
 
@@ -32,7 +32,7 @@ Reveal は、動的な[*オープン型の列*](https://docs.microsoft.com/ja-jp
 
 <img src="images/ODataOpenTypesSampleV3_All.png" alt="ODataOpenTypesSampleV3\_All" width="80%"/>
 
-いくつかのレコードが [Postman](https://www.odata.org/getting-started/learning-odata-on-postman/) によって Categories セクションに追加されました。変更後、ダッシュボードが更新され、新しいレコードが表示されました。
+いくつかのレコードが [Postman (英語)](https://www.odata.org/getting-started/learning-odata-on-postman/) によって Categories セクションに追加されました。変更後、ダッシュボードが更新され、新しいレコードが表示されました。
 
 <img src="images/ODataRefreshedOpenTypeV3_All.png" alt="ODataRefreshedOpenTypeV3\_All" width="80%"/>
 
