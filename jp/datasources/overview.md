@@ -56,7 +56,7 @@
 
    - [MySQL](~/jp/datasources/supported-data-sources/mysql.html)*
 
-   - [OData Feed](~/jp/datasources/supported-data-sources/odata-feed.html)
+   - [OData フィード](~/jp/datasources/supported-data-sources/odata-feed.html)
 
    - [OneDrive](~/jp/datasources/supported-data-sources/onedrive.html)
 

@@ -53,7 +53,7 @@ public class EmbedAuthenticationProvider : IRVAuthenticationProvider
 
   - **両クラス**は以下と動作します。
 
-      - その他のデータソース (OData Feed、Web Resources、REST API)。
+      - その他のデータソース (OData フィード、Web Resources、REST API)。
 
 ### 認証なし
 

@@ -50,7 +50,7 @@ public class EmbedAuthenticationProvider : IRVAuthenticationProvider
       - データベース (Microsoft SQL Server、Microsoft Analysis Services サーバー、MySQL、PostgreSQL、Oracle、Sybase)
 
   - **両クラス** は以下と動作します。
-      - その他のデータソース (OData Feed, Web Resources, REST API)
+      - その他のデータソース (OData フィード、Web Resources、REST API)
 
 ### 認証なし
 
