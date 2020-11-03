@@ -69,7 +69,7 @@ Reveal に場所の列を認識させるには、場所の完全名または公�
 
 6. [値] フィールドを書式設定してパーセンテージを表示します。[値] > [書式設定] > [タイプ] > [パーセント] で _Total Votes (%)_ を選択します。フィールドの書式設定の詳細については、[フィールド設定](~/jp/data-visualizations/fields/field-settings.md)トピックを参照してください。
 
-7. (オプション) フィルターを追加します。この例では、[データ フィルター] プレースホルダーに Year フィールドをドロップします。フィールドをクリックし、[フィルター タイプ] > [値の選択] > 2016 を選択します。
+7. (オプション) のフィルターを追加します。この例では、[データ フィルター] プレースホルダーに Year フィールドをドロップします。フィールドをクリックし、[フィルター タイプ] > [値の選択] > 2016 を選択します。
 
   <img src="images/presidential-election-2016-map.png" alt="Select choropleth map visualization from the Change Visualization menu in the Visualization editor" width="80%"/>
 
