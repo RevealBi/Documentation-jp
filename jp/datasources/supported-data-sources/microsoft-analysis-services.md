@@ -19,9 +19,9 @@ Microsoft Analysis Services データソースを *Native* モード用に構成
 
 <img src="images/microsoft-analysis-native-configuration.png" alt="Configure Microsoft Analysis Services connection" width="80%"/>
 
-1. データソースの*デフォルト名*: データソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Microsoft Analysis Services* という名前を付けます。好みに合わせて変更できます。
+1. データソースの**デフォルト名**: データソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Microsoft Analysis Services* という名前を付けます。好みに合わせて変更できます。
 
-2.  **サーバー**: サーバーが実行されているコンピューターのホスト名または IP アドレスです。
+2.  **[サーバー]**: サーバーが実行されているコンピューターのホスト名または IP アドレスです。
 
     以下の手順で*ホスト名*情報も確認できます。コマンドはサーバー マシンで実行する必要があることに注意してください。
 
@@ -40,9 +40,9 @@ Microsoft Analysis Services データソースを *Native* モード用に構成
   | **IPv4 Address** は IP アドレスです。 | **Inet addr** は IP アドレスです。 | **IP アドレス** フィールドに必要な情報が含まれます。 |
 
 
-3.  (オプション) の**ポート**: サーバー ポートの詳細。情報が入力されない場合、Reveal はデフォルトでヒント テキスト (2383) のポートに接続します。
+3.  (オプション) の **[ポート]**: サーバー ポートの詳細。情報が入力されない場合、Reveal はデフォルトでヒント テキスト (2383) のポートに接続します。
 
-4.  **資格情報**: *資格情報*を選択した後、Microsoft Analysis Services の資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
+4.  **[資格情報]**: [資格情報] を選択した後、Microsoft Analysis Services の資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
 
 <a name='http'></a>
 #### HTTP の使用
@@ -55,7 +55,7 @@ Microsoft Analysis Services データソースを *HTTP* モード用に構成�
 
 2.  **URL**: サーバーの HTTP eService URL。例: *10.1.0.15/olap/msmdpump.dll*。
 
-3.  **資格情報**: Analysis Services サーバーのユーザー アカウントの資格情報。
+3.  **[資格情報]**: Analysis Services サーバーのユーザー アカウントの資格情報。
 
 ### データベースの構成
 
@@ -63,7 +63,7 @@ Analysis Services サーバーの資格情報が確認されたら、Reveal は�
 
 <img src="images/MSAnalysisDatabases_All.png" alt="MSAnalysisDatabases\_All" width="80%"/>
 
-データベースを選択し、*続行*をクリックして設定します。
+データベースを選択し、[続行] をクリックして設定します。
 
 <img src="images/MSAnalysisCubes_All.png" alt="MSAnalysisCubes\_All" width="80%"/>
 

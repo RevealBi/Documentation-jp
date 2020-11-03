@@ -8,7 +8,7 @@ Google ドライブのデータを使用するには、以下の手順に従っ�
 
 1.  Google Drive (またはその中のフォルダー) を選択すると、以下のログイン プロンプトが表示されます。
 
-    <img src="images/google-drive-login.png" alt="Google Drive Login" width="60%"/>
+    <img src="images/google-drive-login.png" alt="Google Drive Login" width="40%"/>
 
     **ログイン情報**を入力し [次へ] を選択します。
 
