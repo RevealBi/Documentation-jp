@@ -1,4 +1,4 @@
-## MMicrosoft Dynamics CRM
+## Microsoft Dynamics CRM
 
 Microsoft Dynamics CRM データソースを構成するには、以下の情報が必要です。
 
