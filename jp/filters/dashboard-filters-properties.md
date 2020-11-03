@@ -94,7 +94,7 @@ Reveal は、複数のダッシュボード フィルター値の同時選択を
 
     <img src="images/dashboard-filters-select-data-filter-field.png" alt="Selecting a field for a data filter in the dashboard filter settings menu" width="80%"/>
 
-4.  次のダイアログで、適用するフィルター タイプを選択します (この例では、*値の選択*を選択します)。
+4.  次のダイアログで、適用するフィルター タイプを選択します (この例では、**[値の選択]** を選択します)。
 
     <img src="images/dashboard-filter-field.png" alt="Dashboard Filters Filter type option" width="80%"/>
 
@@ -106,9 +106,7 @@ SSAS ベースのダッシュボード フィルターを構成する場合、�
 
 <img src="images/ssrs-filter.png" alt="Dashboard Filter dialog when configuring an SSRS filter" width="80%"/>
 
-> A screenshot showing both fields below (no collapsing a dropdown, please)
-
- 1. **表示される要素** - ダッシュボード フィルター値を表示するために **ディメンション**、**階層**または**レベル**データ フィールドを選択できますが、**メジャー** データ フィールドは選択できません。
+ 1. **表示される要素** - ダッシュボード フィルター値を表示するために **ディメンション**、**階層** または **レベル** データ フィールドを選択できますが、**メジャー** データ フィールドは選択できません。
 
 2. (オプション) **メジャーにデータがある場合のみ表示** - メジャーを選択して、ダッシュボードのフィルター値リストを特定のメジャーのデータを含む値に制限します。
 
