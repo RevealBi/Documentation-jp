@@ -40,11 +40,11 @@ OData のオープン型の詳細については、[こちら](https://docs.micr
 
 ### 関数の使用
 
-OData サービスによって公開されるように設定した関数は、データソースの  **[可視化データ]** メニューの **[関数]** タブに表示されます。
+OData サービスによって公開されるように設定した関数は、データソースの  **[新しい表示形式]** メニューの **[関数]** タブに表示されます。
 
 <img src="images/OData-functions.png" alt="OData Functions tab in the Set up your entity dialog" width="80%"/>
 
-関数によっては、データを取得するために 1 つ以上の値を入力する必要がある場合があります。V3 OData サンプルには、結果を得るために**評価**値を入力する必要がある以下のサンプル関数が含まれています。
+関数によっては、データを取得するために 1 つ以上の値を入力する必要がある場合があります。V3 OData サンプルには、結果を得るために **rating** の値を入力する必要がある以下のサンプル関数が含まれています。
 
 <img src="images/OData-function-sample.png" alt="Setting up rating value of a function and Function preview dialog" width="80%"/>
 
