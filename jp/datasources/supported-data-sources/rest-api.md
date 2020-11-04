@@ -56,7 +56,7 @@ REST API データソースを構成するには、以下の情報が必要で�
     >[!NOTE]**サポートされていないファイル形式**
     >REST API が Reveal でサポートされていないファイル形式 (XML など) で応答する場合、このファイルに含まれるデータを使用して表示形式を作成することはできません。
 
-3.  **表示形式のデータを失わずにパラメーターの値を変更します**。Changing the parameters' values after you have started building your visualization offers a variety of possibilities. For example, you can change the city code path parameter for your weather rest API and have a new dataset loaded for this new city. The information for the visualization you have already built will be automatically updated with the new data. 
+3.  **表示形式のデータを失わずにパラメーターの値を変更します**。表示形式の構築を開始した後でパラメータの値を変更すると、さまざまな可能性が提供されます。たとえば、weather rest api の都市コード パスパラメータを変更して、この新しい都市の新しいデータセットをロードすることができます。すでに作成した表示形式の情報は、新しいデータで自動的に更新されます。
 
     これを行うには、表示形式エディター画面のファイル名の横にあるオーバーフロー メニューをクリックしてから、[編集] をクリックします。
 
@@ -70,7 +70,7 @@ REST API データソースを構成するには、以下の情報が必要で�
 
 > [!NOTE]
 > **データを失う警告**
-パラメーターの値を変更すると、エディターで既に作成した表示形式が失われる可能性があります。In this case, а warning message will appear when you *click/tap* the *Load Data* button. If you choose to continue, you will have the new dataset loaded in the editor and you will have to start building your visualization from scratch. 
+パラメーターの値を変更すると、エディターで既に作成した表示形式が失われる可能性があります。この場合、[データの読み込み] ボタンをクリック/タップすると、警告メッセージが表示されます。続行する場合は、新しいデータセットがエディターに読み込まれ、表示形式の構築を最初から開始する必要があります。
 
 ### メソッドの選択
 
