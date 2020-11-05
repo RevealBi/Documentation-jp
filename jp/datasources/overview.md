@@ -74,7 +74,7 @@
 
    - [Sybase](~/jp/datasources/supported-data-sources/sybase.html)*
 
-   - [Web リソース](~/jp/datasources/supported-data-sources/web-resource.html)
+   - [ウェブ リソース](~/jp/datasources/supported-data-sources/web-resource.html)
 
    - [JSON ファイル](~/jp/datasources/working-files/working-with-json-files.html)
 

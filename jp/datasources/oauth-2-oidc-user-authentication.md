@@ -1,6 +1,6 @@
-## REST、OData、および Web リソースを使用した OAuth 2 / OIDC ユーザー認証
+## REST、OData、およびウェブ リソースを使用した OAuth 2 / OIDC ユーザー認証
 
-[OData サービス](supported-data-sources/odata-feed.html)、[REST API](supported-data-sources/rest-api.html)、または [Web リソース](supported-data-sources/web-resource.html)を使用する場合、リソースの一部が保護される場合があります。この場合、OAuth 2 / OIDC アカウントを設定して、これらのリソースへの Reveal アクセスを許可する必要があります。
+[OData サービス](supported-data-sources/odata-feed.html)、[REST API](supported-data-sources/rest-api.html)、または[ウェブ リソース](supported-data-sources/web-resource.html)を使用する場合、リソースの一部が保護される場合があります。この場合、OAuth 2 / OIDC アカウントを設定して、これらのリソースへの Reveal アクセスを許可する必要があります。
 
 ### OAuth 2 とは?
 
@@ -20,7 +20,7 @@ OAuth 2 / OIDC アカウントでデータソースを使用するには、以�
 
 1.  **OAuth クライアント (Reveal) をリソースサーバーに登録します** (これは、Microsoft、Google など、使用したい OAuth で保護されたリソースをホストするサーバーです) 。
 
-2.  OAuth2 / OIDC アカウントで使用できる Reveal の 3 つの**データソース**の 1 つを選択します - [OData サービス](supported-data-sources/odata-feed.html)、[Rest API](supported-data-sources/rest-api.html)、または [Web リソース](supported-data-sources/web-resource.html)。
+2.  OAuth2 / OIDC アカウントで使用できる Reveal の 3 つの**データソース**の 1 つを選択します - [OData サービス](supported-data-sources/odata-feed.html)、[Rest API](supported-data-sources/rest-api.html)、または[ウェブ リソース](supported-data-sources/web-resource.html)。
 
 3.  リソース サーバーがクライアントに提供した資格情報を使用して、**Reveal で OAuth 2 / OIDC アカウントを設定します**。
 
@@ -37,7 +37,7 @@ OAuth 2 / OIDC アカウントでデータソースを使用するには、以�
 
 ### データソースの選択
 
-1.  Reveal に移動し、**データソース (*Odata フィード*、*Rest API* 、または *Web リソース*) を選択します**。
+1.  Reveal に移動し、**データソース** (Odata フィード、Rest API 、またはウェブ リソース) **を選択します**。
 
 2.  このデータソースに意味のある*名前*を付けます。
 

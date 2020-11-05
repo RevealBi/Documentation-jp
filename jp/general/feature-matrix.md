@@ -30,7 +30,7 @@
 | Sybase                                            | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
 | Twitter                                           | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
 | UserVoice                                         | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
-| Web リソース 
+| ウェブ リソース 
                                       | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
 | **表示形式**                                |                                               |                                           |
 | エリア                                              | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |

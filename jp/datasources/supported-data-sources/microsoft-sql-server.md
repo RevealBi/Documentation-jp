@@ -33,7 +33,7 @@ Microsoft SQL サーバー データソースを構成するには、以下の�
 | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | 1\. ファイル エクスプローラーを開きます。                                                                                     | 1\. ターミナルを開きます。                                                                                          | 1\. システム環境設定を開きます。                                         |
 | 2\. マイコンピューターを右クリックしてプロパティを表示します。                                                                   | 2\. **$hostname** と入力します。                                                                                   | 2\. 共有セクションに移動します。                                 |
-| ホスト名は、[コンピューター名、ドメイン、ワークグループ設定] の下に [コンピューター名] として表示されます。 | ホスト名と DNS ドメイン名が表示されます。Reval では**ホスト名**のみを含めることに注意してください。 | ホスト名は、上部の「コンピューター名」の下に表示されます。 |
+| ホスト名は、[コンピューター名、ドメイン、ワークグループ設定] の下に [コンピューター名] として表示されます。 | [ホスト名] と [DNS ドメイン名] が表示されます。Reveal では**ホスト名**のみを含めることに注意してください。 | [ホスト名] は、上部の [コンピューター名] の下に表示されます。 |
 
 以下の手順で *IP アドレス*も確認できます。コマンドはサーバーで実行する必要があることに注意してください。
 
@@ -56,27 +56,27 @@ Reveal を使用すると、テーブル全体から SQL Server データを取�
 
 ビューおよび MS SQL サーバーの詳細については、[この Web サイト](https://docs.microsoft.com/ja-jp/sql/relational-databases/views/views?view=sql-server-2017)を参照してください。
 
-### ストアド プロシージャの作業
+### 保管されたプロシージャの作業
 
-MS SQL では、ストアド プロシージャを利用することで、特定のパラメーターを使用して、リレーショナル データベースで一連のクエリ ステートメントを実行できます。以下は、[Northwind](https://docs.microsoft.com/ja-jp/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases) データを使用してテスト サーバーで実行されるサンプル ストアド プロシージャのセットです。
+MS SQL では、保管されたプロシージャを利用することで、特定のパラメーターを使用して、リレーショナル データベースで一連のクエリ ステートメントを実行できます。以下は、[Northwind](https://docs.microsoft.com/ja-jp/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases) データを使用してテスト サーバーで実行されるサンプル 保管されたプロシージャのセットです。
 
 <img src="images/SQLStoredProcedures_All.png" alt="SQLStoredProcedures\_All" width="80%"/>
 
-たとえば、このストアド プロシージャは、**Products** テーブルの製品を、**Unit Price** で並べ替えて返します。  **ProductName** の名前は、**TenMostExpensiveProducts** に変更されました。
+たとえば、この保管されたプロシージャは、**Products** テーブルの製品を、**Unit Price** で並べ替えて返します。  **ProductName** の名前は、**TenMostExpensiveProducts** に変更されました。
 
 <img src="images/StoredProcedureSampleResults_All.png" alt="StoredProcedureSampleResults\_All" width="80%"/>
 
-この場合、ストアド プロシージャは、**Sales by Year** 情報を表示するための開始日と終了日を設定する必要があります。
+この場合、保管されたプロシージャは、**Sales by Year** 情報を表示するための開始日と終了日を設定する必要があります。
 
 <img src="images/Stored-Procedure-Sample-Dates.png" alt="StoredProcedureSampleDates\_All" width="80%"/>
 
 ストアドプロシージャおよび MS SQL サーバーの詳細については、[この Web サイト](https://docs.microsoft.com/ja-jp/sql/relational-databases/stored-procedures/stored-procedures-database-engine?view=sql-server-2017)を参照してください。
 
-#### Reveal ストアド プロシージャの制限
+#### Reveal 保管されたプロシージャの制限
 
 
   - 複数の結果セットを返すスト アドプロシージャの場合、最初の結果のみが表示されます。
 
-  - ストアド プロシージャの[出力パラメーター](https://docs.microsoft.com/ja-jp/sql/connect/jdbc/using-a-stored-procedure-with-output-parameters?view=sql-server-2017)は無視されます。
+  - 保管されたプロシージャの[出力パラメーター](https://docs.microsoft.com/ja-jp/sql/connect/jdbc/using-a-stored-procedure-with-output-parameters?view=sql-server-2017)は無視されます。
 
-  - 結果セットを返さないストアド プロシージャはデータソース リストに表示されますが、失敗します。
+  - 結果セットを返さない保管されたプロシージャはデータソース リストに表示されますが、失敗します。
