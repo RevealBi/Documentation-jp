@@ -1,6 +1,6 @@
 ## OData フィード
 
-OData サービスのデータソースを設定するには、以下の情報が必要です。
+OData フィードのデータソースを設定するには、以下の情報が必要です。
 
 <img src="images/enter-OData-service-details.png" alt="Enter OData Service Details dialog" width="80%"/>
 
@@ -21,7 +21,7 @@ OData サービスのデータソースを設定するには、以下の情報�
 
 準備ができたら、**[作成して使用]** を選択します。
 
-保護された OData サービス データソースの *OAuth 2 / OIDC アカウント*を設定するには、[このトピック](/jp/datasources/OAuth-2-OIDC-User-Authentication.html)を参照してください。
+保護された OData フィード データソースの *OAuth 2 / OIDC アカウント*を設定するには、[このトピック](/jp/datasources/OAuth-2-OIDC-User-Authentication.html)を参照してください。
 
 ### オープン型の列
 
@@ -40,7 +40,7 @@ OData のオープン型の詳細については、[こちら](https://docs.micr
 
 ### 関数の使用
 
-OData サービスによって公開されるように設定した関数は、データソースの  **[新しい表示形式]** メニューの **[関数]** タブに表示されます。
+OData フィードによって公開されるように設定した関数は、データソースの  **[新しい表示形式]** メニューの **[関数]** タブに表示されます。
 
 <img src="images/OData-functions.png" alt="OData Functions tab in the Set up your entity dialog" width="80%"/>
 

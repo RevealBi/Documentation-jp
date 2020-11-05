@@ -22,7 +22,7 @@
 </p></td>
 <td><p><img src="images/excel.png" alt="excel" /><br />
 </p>
-<p><strong>シリーズが 2 つ以上あるチャートの場合、</strong>Excel ファイルの列順序に関係なく「列」、「行」、および「値」にフィールドをドロップする順序によって<strong>チャートをプロットする方法を決定します</strong>。</p></td>
+<p><strong>シリーズが 2 つ以上あるチャートの場合、</strong>Excel ファイルの列順序に関係なく [列]、[行]、および [値] にフィールドをドロップする順序によって<strong>チャートをプロットする方法を決定します</strong>。</p></td>
 </tr>
 <tr class="even">
 <td><p><img src="images/excel.png" alt="excel" /> <img src="images/csv.png" alt="csv" /><br />
@@ -51,7 +51,7 @@
 <p><em>Excel ファイルはスプレッドシートでデータのカスタム範囲の選択を許可しますが、</em>CSV ファイルはこれを許可しません。特定のデータを選択する場合、常に Excel スプレッドシートを使用します。</p></td>
 <td><p><img src="images/excel-columns.png" alt="excel columns" /><br />
 </p>
-<p>名前付き範囲を持つスプレッドシートがある場合、<strong>その名前付き範囲をデータソースとして選択できます。</strong>.</p></td>
+<p>名前付き範囲を持つスプレッドシートがある場合、<strong>その名前付き範囲をデータソースとして選択できます。</strong></p></td>
 <td><p><img src="images/excel-columns.png" alt="excel columns" /><br />
 </p>
 <p>Excel データが<strong>隣接しない列</strong>にある場合、Reveal は<strong>データの最も多い列</strong>を使用します。</strong>.</p></td>
@@ -71,17 +71,17 @@
 <tr class="odd">
 <td><p><img src="images/reveal-logo.png" alt="reveal logo" /><br />
 </p>
-<p>デフォルトで<strong>2 桁の小数桁があります。</strong>これを変更するには、フィールドの <em>[書式設定]</em> メニューへアクセスします。</p>
+<p>デフォルトで<strong>2 桁の小数桁があります。</strong>これを変更するには、[フィールド設定] の [小数桁] へアクセスします。</p>
 <p><a href="~/jp/data-visualizations/fields/field-settings.html#numeric-fields">詳細情報</a><br />
 </p></td>
 <td><p><img src="images/top-1000.png" alt="top 1000" /><br />
 </p>
-<p>数値が大きい場合もデフォルトでは桁区切りが無効です。有効にするには、<em>[書式設定]</em> メニューへアクセスします。</p>
+<p>数値が大きい場合もデフォルトでは桁区切りが無効です。有効にするには、[フィールド設定] の [桁区切りの表示] へアクセスします。</p>
 <p><a href="~/jp/data-visualizations/fields/field-settings.html#numeric-fields">詳細情報</a><br />
 </p></td>
 <td><p><img src="images/percentage.png" alt="percentage" /><br />
 </p>
-<p>パーセンテージまたは通貨を表示するには、そのオプションを [書式設定] メニューから選択します。</p>
+<p>パーセントまたは通貨を表示するには、そのオプションを [タイプ] から選択します。</p>
 <p><a href="~/jp/data-visualizations/fields/field-settings.html#numeric-fields">詳細情報</a><br />
 </p></td>
 </tr>
@@ -91,7 +91,7 @@
 <p>日付を列ヘッダーに設定するには、Excel が書式設定を使用するために「'」を含みます。デフォルトのヘッダー日付書式は (YYYY-MM-DD 00:00:00 +0000) の省略なしで全体を示す書式です。</p></td>
 <td><p><img src="images/percentage.png" alt="percentage" /><br />
 </p>
-<p>書式設定が "Percentage" に変更される場合以外、Excel シートのパーセンテージは 0 ～ 1 スケールで表示されます。たとえば、39% が 0.39 として表示されます。</p></td>
+<p>書式設定がパーセントに変更される場合以外、Excel シートのパーセントは 0 ～ 1 スケールで表示されます。たとえば、39% が 0.39 として表示されます。</p></td>
 <td></td>
 </tr>
 </tbody>
@@ -103,7 +103,8 @@
 Microsoft Excel および Google スプレッドシートを使用する場合、転置機能を使用して列を行から切り替えることができます。
 
 >[!NOTE] **スプレッドシートの最初の 200 行のみが転置されます。**
->データソースでシートを展開するときに、[表示データ] メニューの転置メニューにアクセスできます。
+>転置メニューにアクセスするため、[スプレッドシートの設定] メニューで選択したシートの右側にある目のアイコン
+(データのプレビュー) をクリックしてください。  
 
 <img src="images/spreadsheets-transpose-data-source-menu.png" alt="Spreadsheets Transpose Data Source Menu" width="80%"/>
 
@@ -116,11 +117,11 @@ Microsoft Excel および Google スプレッドシートを使用する場合�
 
 <img src="images/transposing-action-final-spreadsheet.png" alt="Transposing Action Final Spreadsheet" width="80%"/>
 
-ティック アイコンを選択します。これにより、[表示データ] メニューに戻ります。ここで、シートの名前が表示され、その左側に、シートが変更されたことを示す新しいアイコンが表示されます。
+ティック アイコンを選択します。これにより、**[スプレッドシートの設定]** メニューに戻ります。ここで、シートの名前が表示され、その左側に、シートが変更されたことを示す新しいアイコンが表示されます。
 
 <img src="images/transposed-spreadsheet-visualization-data.png" alt="Transposed Spreadsheet Visualization Data" width="80%"/>
 
 ### 関連項目
 
 一般的な使用例として、クラウド ファイル共有サービスにあるスプレッドシートでのダッシュボードの構築があります。
-これらのダッシュボードを他のユーザーと正常に共有する方法については、「[クラウド ファイルをデータソースとして使用してダッシュボードを共有する](~/jp/dashboards/sharing-dashboards/sharing-dashboards-datasource-files-cloud-provider.html)」トピックをご覧ください。
+これらのダッシュボードを他のユーザーと正常に共有する方法については、[クラウド ファイルをデータソースとするダッシュボードを共有する](~/jp/dashboards/sharing-dashboards/sharing-dashboards-datasource-files-cloud-provider.html)トピックをご覧ください。

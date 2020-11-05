@@ -7,15 +7,15 @@
 
 <img src="images/visualization-enter-edit-mode.png" alt="Select edit mode of a visualization" width="80%"/>
 
-現在のデータソースが [データ] セクションに表示されます。変更するには、データソース名の横にあるオーバーフロー ボタンを選択します。
+現在のデータソースが [データ] セクションに表示されます。変更するには、データソース名の横にあるオーバーフロー ボタンをクリックして、[編集] を選択します。
 
 <img src="images/visualization-current-data-source.png" alt="Edit option of current data source" width="80%"/>
 
-[表示データ] が表示され、現在のデータソースを示します。データソース名の横にあるスワップボタンを選択し、リストでサポートされているものの 1 つから必要なデータソースを選択します。
+[表示データ] が表示され、現在のデータソースを示します。データソース名の横にあるスワップ ボタンを選択し、リストでサポートされているものの 1 つから必要なデータソースを選択します。
 
 <img src="images/current-data-source-information.png" alt="Current data source swap button" width="80%"/>
 
-これにより、*データソースの選択*ダイアログが開きます。
+これにより、[データソースの選択] ダイアログが開きます。
 ここで、新しいデータソースを選択できます。エディターに既に存在するデータは、新しいデータソースのデータに完全に置き換えられます。
 
 データソース名が表示形式エディターの [データ] セクションに表示されます。

@@ -1,30 +1,30 @@
 ## REST、OData、およびウェブ リソースを使用した OAuth 2 / OIDC ユーザー認証
 
-[OData サービス](supported-data-sources/odata-feed.html)、[REST API](supported-data-sources/rest-api.html)、または[ウェブ リソース](supported-data-sources/web-resource.html)を使用する場合、リソースの一部が保護される場合があります。この場合、OAuth 2 / OIDC アカウントを設定して、これらのリソースへの Reveal アクセスを許可する必要があります。
+[OData フィード](supported-data-sources/odata-feed.html)、[REST API](supported-data-sources/rest-api.html)、または[ウェブ リソース](supported-data-sources/web-resource.html)を使用する場合、リソースの一部が保護される場合があります。この場合、OAuth 2 / OIDC アカウントを設定して、これらのリソースへの Reveal アクセスを許可する必要があります。
 
 ### OAuth 2 とは?
 
 OAuth 2.0 は、元の Oauth プロトコルに代わるアクセス許可フレームワークです。通常、ユーザーの資格情報を公開せずに特定のリソースへの制限付きアクセスを許可します。OAuth 1.0 と同様に、このプロトコルは Oauth クライアントと呼ばれるある場所 (サードパーティのアプリケーションまたは Web サイト) から別の場所へのアクセスを可能にします。
 
-詳細については、[OAuth 2.0](https://oauth.net/2/) を参照してください。
+詳細については、[OAuth 2.0 (英語)](https://oauth.net/2/) を参照してください。
 
 ### OIDC とは?
 
 OIDC は OAuth 2.0 プロトコルの上にあるシンプルな ID レイヤーです。OIDC を利用すると、Web サイトまたはアプリケーションは、別のサービスまたはアプリケーション (Google、Office 365 など) のアカウントを使用してユーザーの認証が可能になり、それをもとにコンテンツへのアクセス許可の制御が可能になります。Web サイトまたはアプリケーション側でさまざまなアカウントを保持する必要がなくなります。
 
-詳細については、[OpenID Connect](https://openid.net/connect/) を参照してください。
+詳細については、[OpenID Connect (英語)](https://openid.net/connect/) を参照してください。
 
 ### OAuth 2 / OIDC アカウントで保護されたリソースを使用
 
 OAuth 2 / OIDC アカウントでデータソースを使用するには、以下の 4 つの手順を実行する必要があります。
 
-1.  **OAuth クライアント (Reveal) をリソースサーバーに登録します** (これは、Microsoft、Google など、使用したい OAuth で保護されたリソースをホストするサーバーです) 。
+1.  **OAuth クライアント (Reveal) をリソース サーバーに登録する** (これは、Microsoft、Google など、使用したい OAuth で保護されたリソースをホストするサーバーです) 。
 
-2.  OAuth2 / OIDC アカウントで使用できる Reveal の 3 つの**データソース**の 1 つを選択します - [OData サービス](supported-data-sources/odata-feed.html)、[Rest API](supported-data-sources/rest-api.html)、または[ウェブ リソース](supported-data-sources/web-resource.html)。
+2.  OAuth2 / OIDC アカウントで使用できる Reveal の 3 つの**データソース**の 1 つを選択する - [OData フィード](supported-data-sources/odata-feed.html)、[Rest API](supported-data-sources/rest-api.html)、または[ウェブ リソース](supported-data-sources/web-resource.html)。
 
-3.  リソース サーバーがクライアントに提供した資格情報を使用して、**Reveal で OAuth 2 / OIDC アカウントを設定します**。
+3.  リソース サーバーがクライアントに提供した資格情報を使用して、**Reveal で OAuth 2 / OIDC アカウントを設定する**。
 
-4.  データにアクセスして使用するための**権限を Reveal に付与します**。
+4.  データにアクセスして使用するための**権限を Reveal に付与する**。
 
 ### OАuth クライアントの登録
 
@@ -37,15 +37,15 @@ OAuth 2 / OIDC アカウントでデータソースを使用するには、以�
 
 ### データソースの選択
 
-1.  Reveal に移動し、**データソース** (Odata フィード、Rest API 、またはウェブ リソース) **を選択します**。
+1.  Reveal に移動し、**データソース** (Odata フィード、Rest API 、またはウェブ リソース) **を選択する**。
 
-2.  このデータソースに意味のある*名前*を付けます。
+2.  このデータソースに意味のある**名前**を付ける。
 
-3.  データの *URL* を提供します。
+3.  データの **URL** を提供する。
 
-4.  *[アカウントの選択]* をクリック/タップします。
+4.  **[アカウントなし]** をクリック/タップする。
 
-    次の画面が表示されたら、**[+ 資格情報]** ドロップダウンメニューから *[OAuth 2 / OIDC 資格情報]* を選択します。
+5. 次の画面が表示されたら、**[+ 資格情報]** ドロップダウン メニューから **[OAuth 2 / OIDC 資格情報]** を選択する。
 
     <img src="images/OAuth-2-OIDC-Credentials.png" alt="Accessing OAuth2/OIDC Credentials menu" width="80%"/>
 
@@ -59,19 +59,19 @@ OAuth 2 / OIDC アカウントでデータソースを使用するには、以�
 
 1.  データソースの**デフォルト名**: データソース名はアカウントのリストに表示されます (リソース サーバーが提供する資格情報ではありません)。好みに合わせて名前を変更するには、鉛筆アイコンを選択します。
 
-2.  **URL 認証**: 認証 URL は通常、次のような形式です。<https://authorization-server.com/oauth2/authorize> (例: <https://login.microsoftonline.com/common/oauth2/authorize>)。
+2.  **[URL 認証]**: 認証 URL は通常、次のような形式です: <https://authorization-server.com/oauth2/authorize> (例: <https://login.microsoftonline.com/common/oauth2/authorize>)。
 
-3.  **トークン Url**: トークン URLの形式は認証 URL の形式と同様です (例: <https://login.microsoftonline.com/common/oauth2/token>)。
+3.  **[トークン Url]**: トークン URLの形式は認証 URL の形式と同様です (例: <https://login.microsoftonline.com/common/oauth2/token>)。
 
-4.  **クライアント ID**: クライアント ID はアプリ (Reveal) の識別子です。その形式は、シンボルのランダムな組み合わせです。Reveal を OAuth クライアントとして最初に登録するときにクライアント ID を受け取ります。
+4.  **[クライアント ID]**: クライアント ID はアプリ (Reveal) の識別子です。その形式は、シンボルのランダムな組み合わせです。Reveal を OAuth クライアントとして最初に登録するときにクライアント ID を受け取ります。
 
 その他のフィールドは Reveal で必須としてマークされませんが、OAuth サービスに応じて以下を提供する必要があります。
 
-*  **クライアント シークレット**: クライアント シークレットは追加の保護として使用されます。その形式は、シンボルのランダムな組み合わせです。
+*  **[クライアント シークレット]**: クライアント シークレットは追加の保護として使用されます。その形式は、シンボルのランダムな組み合わせです。
 
-*  **スコープ**: スコープ値は、追加のアクセス レベルを要求するために使用されます。値は特定のサービスに依存します。
+*  **[スコープ]**: スコープ値は、追加のアクセス レベルを要求するために使用されます。値は特定のサービスに依存します。
 
-*  **リソース**: ここで、保護されたデータをホストするサービス (例: <https://infragisticsinc297.sharepoint.com>) に URL を入力する必要があります。
+*  **[リソース]**: ここで、保護されたデータをホストするサービス (例: <https://infragisticsinc297.sharepoint.com>) に URL を入力する必要があります。
 
 ### Reveal にデータにアクセスして使用する許可を与える
 

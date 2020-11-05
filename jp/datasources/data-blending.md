@@ -8,31 +8,31 @@
 
 ２つの データソースを 1 つの表示形式に統合ため、以下の手順を実行します:
 
-1.  **データ ブレンティングのダイヤログを開きます**。
+1.  **データ ブレンティングのダイヤログを開く**。
 
-    *[フィールド]* セクションの **[+]** ボタンをクリックもしくはタップし、*[別のデータソースのフィールド]* を選択します。
+    **[フィールド]** セクションの **[+]** ボタンをクリックもしくはタップし、**[その他のデータソース フィールド]** を選択します。
 
     <img src="images/data-blending-open-dialog.png" alt="Data Blending Accessing dialog in the Visualization editor" width="80%"/>
 
-2.  **新しいデータソースを選択します**。
+2.  **新しいデータソースを選択する**。
 
     統合するデータソースに接続します。
 
-3.  **JOIN 条件を指定します**。
+3.  **JOIN 条件を指定する**。
 
     2 つのデータ セットを統合するために一致する必要がある等価条件を設定します。
 
     <img src="images/data-blending-join-condition.png" alt="Data Blending Join Condition selection" width="80%"/>
 
-4.  **必要なフィールドを選択**
+4.  **必要なフィールドを選択する**。
 
     結合するフィールドを指定して、表示形式でアクセスできるようにします。
 
     <img src="images/data-blending-choose-new-fields.png" alt="Data Blending Choose New Fields dialog" width="80%"/>
 
-5.  **[データの結合] を選択します**。
+5.  **[データの結合] を選択する**。
 
-    2 つ のデータセットをマージすると、*[フィールド]* セクションの下部に新しいフィールドを確認できます。
+    2 つ のデータセットをマージすると、**[フィールド]** セクションの下部に新しいフィールドを確認できます。
 
     <img src="images/data-blending-result.png" alt="Show Data Blending Result" width="80%"/>
 
@@ -115,4 +115,4 @@
 | 92               | 10               |                  |                       |
 
 
-注: LEFT JOIN 操作は、左側のテーブルからすべてのレコードを返し、右側のテーブルから一致するレコードのみを保持します。
+**注**: LEFT JOIN 操作は、左側のテーブルからすべてのレコードを返し、右側のテーブルから一致するレコードのみを保持します。
