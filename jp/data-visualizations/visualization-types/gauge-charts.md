@@ -42,7 +42,7 @@
 <a name='bands-configuration'></a>
 ### バンドの構成
 
-All gauge types have a common band range configuration, which you can find in the *Settings* section of the _Visualizations Editor_. The configuration dialog allows you to set:
+すべてのゲージ タイプには共通のバンド範囲構成があり、これは表示形式エディターの **[設定]** セクションにあります。構成ダイアログでは、以下を設定できます:
 
 1. **制限**を設定する。これらの値は自動的に指定された値の列のデータセット内の最高値/最低値として設定されますが、定数値を使用して手動でオーバーライドすることができます。
 
