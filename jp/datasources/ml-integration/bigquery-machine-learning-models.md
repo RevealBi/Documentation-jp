@@ -31,21 +31,14 @@ BigQuery 機械学習モデルに接続するには、以下を実行する必�
 
 1. 開いたダイアログでトレーニング済みの BigQuery モデルから選択します。
 
-    <img src="images/ml-models-list-bigquery.png" alt="A dialog displaying a list of bigquery machine learning models" width="80%"/>
-
-
 2. 次のダイアログで、Reveal に読み込まれたデータを機械学習モデルで予期される入力にマップする必要があります。
 
-    <img src="images/ml-model-mapping-input-output.png" alt="Mapping expected input and choosing output" width="80%"/>
-
-    上記のダイアログには、以下の列があります。
+    例えば、以下の列があります:
 
     a. **[入力]**: 左側では、出力情報 (例: Duration) を計算するためにモデルが必要とするデータの種類を表示します。右側で、要求されたデータに一致するデータセットのフィールド (例: _Duration_in_months_) を左側で選択する必要があります。Reveal は、同じ名前を共有する読み込まれた BigQuery データセットのすべてのフィールドをモデルの要求されたデータと自動的に一致させます。
 
-    b. **[出力]**: モデルで計算 (予測) する情報を選択します。結果は、表示形式エディターの **データソース: <モデル名>** の下に新しいフィールドとして表示されます。**例**: データソース: credit_risk_model。
+    b. **[出力]**: モデルで計算 (予測) する情報を選択します。結果は、表示形式エディターの一番下に新しいフィールドとして表示されます。
 
     c. (オプション) の **[パラメーター]**: 一部の BigQuery 機械学習モデルでは、出力を計算するために必要なパラメーターの値を入力する必要がある場合があります。この場合、[入力] と [出力] の間に 3 番目の [パラメーター] 列があります。
-
-<img src="images/bq-ml-model-final-example.png" alt="Data output loaded from the bigquery model" width="80%"/>
 
 BigQuery モデルによって返されたフィールドを表示形式エディターの通常のフィールドとして使用できます。
