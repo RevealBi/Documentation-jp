@@ -294,7 +294,7 @@ td {
 </p>
 <p><a href="~/jp/visualization-tutorials/simple-charts.md">ファンネル</a><br />
 </p></td>
-<td><p><img src="images/Web-View.png" alt="Image View" /><br />
+<td><p><img src="images/image-view.png" alt="Image View" /><br />
 </p>
 <p><a href="~/jp/visualization-tutorials/image-view.md">画像</a><br />
 </p></td>
