@@ -1,6 +1,6 @@
 ## 条件付き書式
 
-条件付き書式を使用して数値列の値に応じて、セル  (または[テキス トビュー](~/jp/data-visualizations/visualization-types/text-view.html))の行に異なる書式を設定できます。たとえば、グリッドの下位 50% 範囲内の値は、非常に低い値を通知する赤色のアドナーで色を付けることができます。
+条件付き書式を使用して数値列の値に応じて、セル (または[テキス トビュー](~/jp/data-visualizations/visualization-types/text-view.html)) の行に異なる書式を設定できます。たとえば、グリッドの下位 50% 範囲内の値は、非常に低い値を通知する赤色のアドナーで色を付けることができます。
 
 <img src="images/pivot-table-view-conditional-formatting.png" alt="Pivot table view conditional formatting in the Visualization editor" width="80%"/>
 
@@ -10,7 +10,7 @@
 
 ### 条件付き書式設定の有効化
 
-数値列で条件付き書式を有効にするには、[フィールドの設定] ダイアログボックスを表示するためにデータ エディターのフィールドを選択します。
+数値列で条件付き書式を有効にするには、**[フィールドの設定]** ダイアログボックスを表示するためにデータ エディターのフィールドを選択します。
 条件付き書式は、設定の最後のオプションであり、デフォルトでは無効になっています。
 
 <img src="images/conditional-formatting-configuration.png" alt="Conditional formatting configuration in Field settings menu" width="80%"/>
@@ -39,4 +39,4 @@
   - [テキスト ビュー](~/jp/data-visualizations/visualization-types/text-chart.html)
 
 >[!NOTE]
->[KPI](~/jp/data-visualizations/visualization-types/kpi-gauge.html)、[リニア](~/jp/data-visualizations/visualization-types/gauge-charts.html#linear-gauge)、[円形](~/jp/data-visualizations/visualization-types/gauge-charts.html#circular-gauge)、[テキスト](~/jp/data-visualizations/visualization-types/gauge-charts.html#text-gauge)、および[ブレット グラフ](~/jp/data-visualizations/visualization-types/gauge-charts.html#bullet-graph) ゲージは、[**表示形式バンドの範囲の構成**](~/jp/data-visualizations/visualization-types/gauge-charts.html#bands-configuration).で条件付き書式をサポートします
+>[KPI](~/jp/data-visualizations/visualization-types/kpi-gauge.html)、[リニア](~/jp/data-visualizations/visualization-types/gauge-charts.html#linear-gauge)、[円形](~/jp/data-visualizations/visualization-types/gauge-charts.html#circular-gauge)、[テキスト](~/jp/data-visualizations/visualization-types/gauge-charts.html#text-gauge)、および[ブレット グラフ](~/jp/data-visualizations/visualization-types/gauge-charts.html#bullet-graph) ゲージは、[**表示形式バンドの範囲の構成**](~/jp/data-visualizations/visualization-types/gauge-charts.html#bands-configuration)で条件付き書式をサポートします

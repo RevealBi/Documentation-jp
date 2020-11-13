@@ -2,7 +2,7 @@
 
 日付数式は、ウィジェットでさまざまな日付と時刻の情報を出力するために使用できます。
 
-**注:** *計算フィールドに数式に含まれる情報が表示されます。日付と時刻に設定した書式をオーバーライトします。*
+**注:** 計算フィールドに数式に含まれる情報が表示されます。日付と時刻に設定した書式をオーバーライトします。
 
 以下は日付カテゴリに含まれる関数です。
 
@@ -125,7 +125,7 @@
     <td class="tg-0lax"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm">second(date(2017,12,1,12,33,48))</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2"><a href="https://www.revealbi.io/help/date-calculated-fields#date-time">time</a>: timeを使用する場合、Reveal は数式に含まれる値に設定した時刻を返します。</td>
+    <td class="tg-0lax" rowspan="2"><a href="https://www.revealbi.io/help/date-calculated-fields#date-time">time</a>: time を使用する場合、Reveal は数式に含まれる値に設定した時刻を返します。</td>
     <td class="tg-0lax"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm">time({hour},{minute},{second},{millisecond})</span></td>
   </tr>
   <tr>

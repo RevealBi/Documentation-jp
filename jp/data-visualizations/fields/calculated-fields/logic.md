@@ -9,7 +9,7 @@ Reveal では、論理計算フィールドは次のとおりです。
 
   - **論理テストのある複素関数**: 各関数の詳細な情報は、以下の表にあるリンクをクリックしてください。
 
-**Note:** *以下の表のすべてのサンプルは [HR Dataset 2016](http://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) スプレッドシートで作成されました。*
+**注:** *以下の表のすべてのサンプルは [HR Dataset 2016](http://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) スプレッドシートで作成されました。*
 
 以下は論理カテゴリに含まれる関数です。
 <style type="text/css">
@@ -117,7 +117,7 @@ date 引数は [date](date.html#date-date)で説明された構文に従いま�
 
 #### ネスト IF 文のサンプル
 
-論理演算子 (`and`, `or`) の後ろに続けてネスト IF 文を使用できます。
+論理演算子 (`and`、`or`) の後ろに続けてネスト IF 文を使用できます。
 
 以下は if 文が 2 つある例ですが、if 文を使用する際の上限はありません。
 
@@ -164,13 +164,13 @@ date 引数は [date](date.html#date-date)で説明された構文に従いま�
 
 and 計算フィールドは 4 つの TRUE 行のみ返します。
 
-  - 行 7 (従業員 Zolleis Walker).
+  - 行 7 (従業員 Zolleis Walker)。
 
-  - 行 57 (従業員 Yancy Martinez).
+  - 行 57 (従業員 Yancy Martinez)。
 
-  - 行 94 (従業員 Nicolas Favarelli).
+  - 行 94 (従業員 Nicolas Favarelli)。
 
-  - 行 96 (従業員 Jorge Stanatto).
+  - 行 96 (従業員 Jorge Stanatto)。
 
 [ルールでフィルターする](~/jp/data-visualizations/fields/field-filters-rules.html#rules-numeric-fields) または [値を選択する](~/jp/data-visualizations/fields/field-filters-rules.html#select-values) 1.00 を適用した場合のみ 2 つの行を確認します。
 
