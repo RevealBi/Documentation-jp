@@ -75,7 +75,7 @@
 | グリッド ビューのビュー モードで列を並べ替え         | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
 | 条件付き書式                            | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
 | デフォルト書式設定                       | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
-| ドリルダウンとドリルアップ                             | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| ドリル ダウンとドリル アップ                             | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
 | フリップ グリッド                                         | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
 | グローバル フィルターおよびウィジェットのバインド                   | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
 | グローバル変数                                  | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |

@@ -17,7 +17,7 @@ Reveal は年月日の日付フィールドの階層を自動的に作成しま�
 <img src="images/reveal-adhoc-hierarchies_all.png" alt="Reveal Ad-hoc Hierarchies table" width="80%"/>
 
 上記のスクリーンショットのように、単一の列が複数の列を置き換えます。
-スクリーンショットに示されている例では、ドリルアップおよびドリルダウンできるだけでなく、Department を展開して Office を表示することもできます。
+スクリーンショットに示されている例では、ドリル アップおよびドリル ダウンできるだけでなく、Department を展開して Office を表示することもできます。
 
 >[!NOTE]
 >**日付および時刻フィールドを含むアドホック階層**.
