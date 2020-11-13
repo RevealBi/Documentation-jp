@@ -2,9 +2,9 @@
 
 これらのチャートを使用して、カテゴリを定量的情報に関連付けます。
 
-<img src="images/category-charts.png" alt="Category charts variations" width="80%"/>
+<img src="images/category-charts.png" alt="Category charts variations" width="60%"/>
 
-データに適している限り、表示形式 オプション メニューに表示されたチャート アイコンをどれでも選択できます。Reveal はデータセットの最初の数字の列を選択し、選択したチャート タイプのデータ系列の要件と一致させようと試みます。
+データに適している限り、表示形式オプション メニューに表示されたチャート アイコンをどれでも選択できます。Reveal はデータセットの最初の数字の列を選択し、選択したチャート タイプのデータ系列の要件と一致させようと試みます。
 
 <img src="images/various-charts_all.png" alt="Various charts visualizations in a dashboard" width="80%"/>
 
@@ -13,7 +13,7 @@
 ### チャートの近似曲線
 
 チャートの設定でトレンドラインの表示を有効にできます。このラインはアルゴリズムに基づいてチャートにラインを表示します。近似曲線でデータセットの傾向を把握し、意思決定のためのしきい値を定義できます。
-サポートされるトレンド ラインは、二次フィット、キュービック フィット、四次フィット、対数フィット、指数フィト、べき乗フィット、単純平均、指数平均、修正平均、累加平均、加重平均です。
+サポートされるトレンドラインは、二次フィット、キュービック フィット、四次フィット、対数フィット、指数フィト、べき乗フィット、単純平均、指数平均、修正平均、累加平均、加重平均です。
 
 <img src="images/chart-trendlines.png" alt="Chart trendline options" width="80%"/>
 
@@ -41,4 +41,4 @@
 
 <img src="images/pie-doughnut-chart-legends-value-zero-setting.png" alt="Enabling the legend setting in the visualization editor" width="80%"/>
 
-上記の例では、「Auburn、Al」ラベルが円チャートの凡例に含まれていますが、その値は 0 であるため、表示形式には表示さません。
+上記の例では、Auburn、Al ラベルが円チャートの凡例に含まれていますが、その値は 0 であるため、表示形式には表示さません。
