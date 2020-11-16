@@ -38,7 +38,7 @@
 | バブル                                            | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
 | ブレット グラフ                                     | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
 | ローソク足                                       | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
-| 円形ゲージ                                   | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| 円型ゲージ                                   | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
 | 柱状                                            | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
 | 複合                                         | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
 | 顧客 DIY                                      | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |

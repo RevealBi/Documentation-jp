@@ -16,7 +16,7 @@
 </p></td>
 <td><p><img src="images/circulargauge-visualization.png" alt="circulargauge visualization" /><br />
 </p>
-<p><a href="#create-circular-gauge">円形ゲージ</a><br />
+<p><a href="#create-circular-gauge">円型ゲージ</a><br />
 </p></td>
 <td><p><img src="images/textgauge-visualization.png" alt="textgauge visualization" /><br />
 </p>
@@ -95,7 +95,7 @@
 | 6\. **データを体系化する**               | ![Tutorials-CircularGauge-Data](images/Tutorials-CircularGauge-Data.png)                   | 例えば、このラジアル ゲージは国別平均寿命を表します。[ラベル] に Country Name フィールド、年フィールドの 1 つを [値] にドラッグアンドドロップします。|
 
 
-円形ゲージは、特に平均値と値の合計の表示に適しています。[値] に表示されるフィールドの集計を変更する手順:
+円型ゲージは、特に平均値と値の合計の表示に適しています。[値] に表示されるフィールドの集計を変更する手順:
 
 <a name='aggregation-instructions'></a>
 

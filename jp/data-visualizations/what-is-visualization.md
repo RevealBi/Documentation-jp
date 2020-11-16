@@ -22,9 +22,9 @@
 
   - **Operators Available**: [ドーナツ型チャート](category-charts.html)
 
-  - **Line 1 Efficiency**: [円形ゲージ](gauge-views.html)
+  - **Line 1 Efficiency**: [円型ゲージ](gauge-views.html)
 
-  - **Line 2 Efficiency**: [円形ゲージ](gauge-views.html)
+  - **Line 2 Efficiency**: [円型ゲージ](gauge-views.html)
 
 ### 表示形式の作成方法
 

@@ -4,8 +4,8 @@
 
 <img src="images/financial-charts.png" alt="Financial Charts types" width="30%"/>
 
-各キャンドルまたは OHLC セクションの色は、終値が開始値を下回っているか上回っているかを表すためのものです。
+各ロウソクまたは OHLC セクションの色は、終値が開始値を下回っているか上回っているかを表すためのものです。
 
 <img src="images/financial-charts-sample.png" alt="Financial Charts Sample visualization" width="80%"/>
 
-たとえば、上のスクリーンショットでは、1 月 23 日の終値が始値より高くなっています。しかし、ろうそくの赤色が示すように、1 月 28 日の終値は始値より低くなっています。
+たとえば、上のスクリーンショットでは、1 月 23 日の終値が始値より高くなっています。しかし、ロウソクの赤色が示すように、1 月 28 日の終値は始値より低くなっています。

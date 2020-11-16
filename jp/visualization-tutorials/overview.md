@@ -30,7 +30,7 @@
 </p></td>
 <td><p><img src="images/Circular-Gauge.png" alt="Circular Gauge" /><br />
 </p>
-<p><a href="gauge-views.md">円形</a><br />
+<p><a href="gauge-views.md">円型</a><br />
 </p></td>
 </tr>
 <tr class="even">
