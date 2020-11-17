@@ -28,7 +28,7 @@ public class EmbedAuthenticationProvider : IRVAuthenticationProvider
             }
             else if (dataSource is RVRestDataSource)
             {
-                userCredential = new RVUsernamePasswordDataSourceCredential(); // Anonymous
+                userCredential = new RVUsernamePasswordDataSourceCredential(); // 匿名
             }
             return Task.FromResult<IRVDataSourceCredential>(userCredential);
     }

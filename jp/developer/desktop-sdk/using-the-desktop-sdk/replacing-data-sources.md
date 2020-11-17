@@ -44,17 +44,17 @@ public class SampleDataSourceProvider : IRVDataSourceProvider
       var sqlServerDsi = dataSourceItem as RVSqlServerDataSourceItem;
       if (sqlServerDsi != null)
       {
-          // Change SQL Server host and database
+          // SQL サーバーホストとデータベースの変更
           var sqlServerDS = (RVSqlServerDataSource)sqlServerDsi.DataSource;
           sqlServerDS.Host = "10.0.0.20";
           sqlServerDS.Database = "Adventure Works";
 
-          // Change SQL Server table/view
+          // SQL サーバー テーブル/ビュー
           sqlServerDsi.Table = "Employees";
                 return Task.FromResult((RVDataSourceItem)sqlServerDsi);
       }
 
-      // Fully replace a data source item with a new one
+      // データソース アイテムを新しいアイテムと置き換える
       if (visualization.Title == "Top Customers")
       {
           var sqlDs = new RVSqlServerDataSource();

@@ -9,7 +9,7 @@ SDK は、ユーザーが可視化内のデータを含むセルをクリック�
 __VisualizationDataPointClicked__ イベントに登録することで、ユーザー クリック イベントを処理できます。
 
 ``` csharp
-//attach to VisualizationDataPointClicked event
+//VisualizationDataPointClicked イベントに添付します。
 revealView.VisualizationDataPointClicked += RevealView_VisualizationDataPointClicked;
 ```
 
