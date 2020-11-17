@@ -28,7 +28,7 @@ SDK とのダッシュボードリンクを使用できますが、ナビゲー�
 
 ``` js
 revealView.onVisualizationLinkingDashboard = function (title, url, callback) {
-    //provide the dashboard id of the target of the link
+    // リンクのターゲットのダッシュボード ID を提供します。
     callback("Campaigns");
 };
 ```
