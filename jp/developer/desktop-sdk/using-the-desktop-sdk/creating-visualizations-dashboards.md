@@ -40,13 +40,13 @@ private void RevealView_DataSourcesRequested(object sender, DataSourcesRequested
 }
 ```
 
-上記のコードでは、“DataSourcesRequested” イベントを処理するために次のメソッドをアタッチしたと想定しています。
+上記のコードでは、DataSourcesRequested イベントを処理するために次のメソッドをアタッチしたと想定しています。
 
 ``` csharp
 revealView.DataSourcesRequested += RevealView_DataSourcesRequested
 ```
 
-3 番目のパラメータの “false” 値は、ダッシュボード上の既存のデータソースが表示されないようにします。そのため、[+] ボタンを使用して新しいウィジェットを作成すると、以下の画面が表示されます。
+3 番目のパラメータの false 値は、ダッシュボード上の既存のデータソースが表示されないようにします。そのため、[+] ボタンを使用して新しいウィジェットを作成すると、以下の画面が表示されます。
 
 <img src="images/displayingDataSources_web.png" alt="displayingDataSources\_web" width="60%"/>
 

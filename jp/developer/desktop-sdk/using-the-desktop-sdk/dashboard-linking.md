@@ -7,11 +7,11 @@ Reveal アプリケーションはダッシュボードのリンクをサポー�
 
 ### 一般的なユースケース
 
-たとえば、各部門 (HR、Sales、Marketing) の主要業績評価指標を表示する「Company 360」ダッシュボードを作成できます。ユーザーが表示形式の 1 つを最大化すると、ナビゲーションがトリガーされ、ユーザーはその部門に関するより詳細な情報を含む別のダッシュボードに移動します。
+たとえば、各部門 (HR、Sales、Marketing) の主要業績評価指標を表示する Company 360 ダッシュボードを作成できます。ユーザーが表示形式の 1 つを最大化すると、ナビゲーションがトリガーされ、ユーザーはその部門に関するより詳細な情報を含む別のダッシュボードに移動します。
 
 あるいは、ダッシュボード リンクを使用して、より具体的なダッシュボードに移動することもできます。たとえば、上位 25 の顧客を表示する可視化を含むダッシュボードで、顧客の1人を選択すると、ユーザーは新しいダッシュボードに移動します。この新しいダッシュボードには、最近の購入、連絡先情報、売れ筋商品など、選択した顧客に関する詳細情報が表示されます。
 
-ダッシュボードへリンクする機能の詳細については、Reveal のユーザーガイドの [**ダッシュボードのリンク**](https://https://help.revealbi.io/jp/dashboard-linking)を参照してください。
+ダッシュボードへリンクする機能の詳細については、Reveal のユーザーガイドの[**ダッシュボードのリンク**](https://https://help.revealbi.io/jp/dashboard-linking)を参照してください。
 
 ### コード例
 
@@ -27,10 +27,10 @@ SDK とのダッシュボードリンクを使用できますが、ナビゲー�
 <!-- end list -->
 
 ``` csharp
-//attach to VisualizationLinkingDashboard event
+//VisualizationLinkingDashboard イベントに添付します。
 revealView.VisualizationLinkingDashboard += RevealView_VisualizationLinking;
 
-//Implement the event handler
+//イベント ハンドラーを実装します。
 private void RevealView_VisualizationLinking(object sender,
     VisualizationLinkingDashboardEventArgs e)
     {

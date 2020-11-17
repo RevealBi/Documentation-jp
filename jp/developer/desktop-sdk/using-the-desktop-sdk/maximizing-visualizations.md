@@ -8,7 +8,7 @@ Desktop SDK は、ダッシュボードをユーザーに表示する際に最�
 
 #### サンプル詳細
 
-可視化した 3 つのダッシュボードがあり、それぞれの可視化で会社の異なる部門のデータが表示されていると仮定します。
+可視化した 3 つのダッシュボードがあり、それぞれの可視化で会社の異なる部門のデータが表示されていると仮定します (例えば、Marketing、Sales、HR)。
 
 <img src="images/three_divisions_dashboard.png" alt="Displaying a dashboard with three visualizations" width="80%"/>
 

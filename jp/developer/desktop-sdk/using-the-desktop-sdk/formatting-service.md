@@ -18,7 +18,7 @@
 
 #### 数値データの書式設定例
 
-以下に、**Marketing** サンプル ダッシュボードの「キャンペーン ID 別の新しいシート」可視化の初期状態を示します。
+以下に、**Marketing** サンプル ダッシュボードの New Seats by Campaign ID 可視化の初期状態を示します。
 
 ![Initial state of the Marketing visualization using numeric
 data](images/initial-state-visualization-formatting-numeric-data.png)

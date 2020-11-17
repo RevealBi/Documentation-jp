@@ -53,7 +53,7 @@ private void RevealView_ImageExported(object sender, ImageExportedEventArgs e)
 {
   var image = e.Image;
   if (image == null) return;
-  // save to disk just to open it with some app
+  // アプリで開くためだけにディスクに保存します。
   var imageFile = Path.GetTempFileName() + ".png";
   using (var fileStream = new FileStream(imageFile, FileMode.Create))
 

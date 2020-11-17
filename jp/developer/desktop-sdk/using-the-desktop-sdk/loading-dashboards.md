@@ -21,10 +21,10 @@ public partial class MainWindow : Window
 
         var revealView = new RevealView();
 
-        // using a path within the file system
+        // ファイル システム内のパスを使用する
         RVDashboard dashboard = new RVDashboard(path);
 
-        // using a stream to create an RVDashboard object
+        // ストリームを使用して RVDashboard オブジェクトを作成する
         using (var fileStream = File.OpenRead(path))
         {
             dashboard = new RVDashboard(fileStream);
@@ -36,9 +36,6 @@ public partial class MainWindow : Window
     }
 }
 ```
-
-上記のように、ダッシュボードのコンテンツは非同期メソッド __RevealUtility.LoadDashboard__ を使用してロードされます。
-同期メソッドを使用したい場合は、代わりに __RevealUtility.LoadDashboardSync__ を使用することもできます。
 
 > [!NOTE]
 > この例では、Loaded イベントでコンポーネントを初期化し、ウィンドウ コンテンツが Grid コンポーネントであると仮定しました。コードをアプリケーションに統合する場合、変更を加える必要がある場合があります。
