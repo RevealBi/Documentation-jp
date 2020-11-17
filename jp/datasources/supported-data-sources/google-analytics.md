@@ -71,8 +71,7 @@ Reveal で Google Analytics データソースを使用する場合、2 つの�
 
   <img src="images/ga-data-source-date-range-preset.png" alt="Date Range dialog" width="80%"/>
 
-  >[!NOTE] デフォルトの日付範囲は過去 30 日間です。つまり、今日を含む過去 30 日間のデータが取得されます。
-
+>[!NOTE] デフォルトの日付範囲は過去 30 日間です。つまり、今日を含む過去 30 日間のデータが取得されます。
 
 #### Google アナリティクスの目標を使用する
 

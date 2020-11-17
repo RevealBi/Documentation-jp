@@ -23,8 +23,7 @@
 
   - Dropbox
 
->[!NOTE] **Box のファイル共有サポート:**
->追加予定!
+>[!NOTE] **Box のファイル共有サポート:** 追加予定!
 
 
 <a name='cloud-data-source-file'></a>
