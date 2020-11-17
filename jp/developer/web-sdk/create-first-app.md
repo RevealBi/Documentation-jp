@@ -18,7 +18,7 @@ Visual Studio 2017 を開き、*ASP.NET Core Web アプリケーション*の新
 ![create new project dialog in Visual Studio
 2017](images/create-new-asp-net-project.png)
 
-以下のように *.NET Framework* および *ASP.NET Core 2.2* を選択します。
+以下のように **.NET Framework** および **ASP.NET Core 2.2** を選択します。
 
 ![select framework and mvc for project dialog in Visual Studio
 2017](images/select-framework-project.png)
@@ -27,7 +27,7 @@ Visual Studio 2017 を開き、*ASP.NET Core Web アプリケーション*の新
 
 ### Step 2 - Install Reveal SDK
 
-<https://www.revealbi.io/> から Infragistics Reveal SDK をダウンロードし、システムにインストールします。*Visual Studio* で ツール > オプション > Nuget パッケージ マネージャー > パッケージ ソース を選択します。インストールされた SDK の Nuget フォルダーを指す新しいソースを追加します。
+<https://www.revealbi.io/jp> から Infragistics Reveal SDK をダウンロードし、システムにインストールします。*Visual Studio* で ツール > オプション > Nuget パッケージ マネージャー > パッケージ ソース を選択します。インストールされた SDK の Nuget フォルダーを指す新しいソースを追加します。
 
 ![adding a new package source to the available package sources
 dialog](images/adding-new-package-source.png)
@@ -38,11 +38,11 @@ dialog](images/adding-new-package-source.png)
 
 <img src="images/preview-changes-dialog.png" alt="preview changes dialog" width="50%"/>
 
-手順 2 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/3308bd229c1b50efd12e553e1e54d5ac4d36b6e3)**.
+手順 2 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/3308bd229c1b50efd12e553e1e54d5ac4d36b6e3)**
 
 ### 手順 3 - サーバー構成の設定
 
-プロジェクトに新しい Reveal SDK フォルダーを作成し、**IRvealSdkContext** インターフェースを実装する **RevealSdkContext.cs** クラスを追加します。
+プロジェクトに新しい Reveal SDK フォルダーを作成し、**IRevealSdkContext** インターフェースを実装する **RevealSdkContext.cs** クラスを追加します。
 
 ``` csharp
     using Reveal.Sdk;
@@ -96,9 +96,9 @@ dialog](images/adding-new-package-source.png)
     using Reveal.Sdk;
 ```
 
-手順 3 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/44340ad7154f7101f80fce4aea50153ccbd902d7)**.
+手順 3 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/44340ad7154f7101f80fce4aea50153ccbd902d7)**
 
-問題が発生した場合は、サーバー SDK - [**セットアップと構成**](~/jp/developer/setup-configuration/setup-configuration-web.html) トピックを参照してください。
+問題が発生した場合は、サーバー SDK - [**セットアップと構成**](~/jp/developer/setup-configuration/setup-configuration-web.html)トピックを参照してください。
 
 ### 手順 4 - クライアント アプリケーションに Reveal を埋め込む
 
@@ -126,7 +126,7 @@ Marketing ダッシュボードを選択し、**編集モード**に入ります
 変更したダッシュボードを保存し、エクスポートします。
 
 > [!NOTE]
-> Marketing ダッシュボードは、Reveal アプリの**サンプル**の一部であるため、通常のダッシュボードと同じ方法で保存することはできません。代わりに、**名前を付けて保存**を使用して場所を選択する必要があります。
+> Marketing ダッシュボードは、Reveal アプリの**サンプル**の一部であるため、通常のダッシュボードと同じ方法で保存することはできません。代わりに、**[名前を付けて保存]** を使用して場所を選択する必要があります。
 
 <img src="images/export-marketing-dashboard-changed-theme.png" alt="export marketing dashboard menu" width="80%"/>
 
@@ -144,7 +144,7 @@ Marketing ダッシュボードを選択し、**編集モード**に入ります
     @section Scripts
         {
         <script type="text/javascript">
-            // Load dashboard in #revealView element
+            // #revealView 要素にダッシュボードを読み込む
         </script>
     }
 
@@ -200,7 +200,7 @@ Marketing ダッシュボードを選択し、**編集モード**に入ります
         var revealView = new $.ig.RevealView("#revealView");
         revealView.dashboard = dashboard;
     }, function (error) {
-        //Process any error that might occur here
+        //ここで発生する可能性があるエラーを処理します。
     });
 ```
 
@@ -208,7 +208,7 @@ Marketing ダッシュボードを選択し、**編集モード**に入ります
 
 <img src="images/marketing-dashboard-result.png" alt="marketing dashboard result in web page" width="80%"/>
 
-手順 4 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/380d369b46437c3913ed3c61de32a7f607b96b47)**.
+手順 4 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/380d369b46437c3913ed3c61de32a7f607b96b47)**
 
 問題が発生した場合は、クライアント SDK [**セットアップと構成**](~/jp/developer/setup-configuration/setup-configuration-web.html)トピックを参照してください。
 
@@ -270,7 +270,7 @@ Reveal アプリは Roboto フォントを使用します。アプリと同じ�
                 var revealView = new $.ig.RevealView("#revealView");
                 revealView.dashboard = dashboard;
             }, function (error) {
-                //Process any error that might occur here
+                //ここで発生する可能性があるエラーを処理します。
             });
         },
     });
@@ -280,7 +280,7 @@ Reveal アプリは Roboto フォントを使用します。アプリと同じ�
 
 <img src="images/marketing-dashboard-new-font.png" alt="marketing dashboard loaded with the new font" width="80%"/>
 
-手順 5 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/9fd40e047bf6aa4c03258112e6d47f577625a63b)**.
+手順 5 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/9fd40e047bf6aa4c03258112e6d47f577625a63b)**
 
 ### 手順 6 - クライアント アプリケーションのスタイル設定
 
@@ -392,4 +392,4 @@ Reveal アプリは Roboto フォントを使用します。アプリと同じ�
 
 <img src="images/marketing-dashboard-style-client-application-result.png" alt="result after styling the client application" width="80%"/>
 
-手順 6 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/085fd35db4d07eb9130ff72dd3bb96a157f6d4ed)**。
+手順 6 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/085fd35db4d07eb9130ff72dd3bb96a157f6d4ed)**
