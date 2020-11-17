@@ -96,7 +96,7 @@
             <td><i>Trigger プロパティが DataSourceRequested イベントに追加されました。</i><br>DataSourcesRequestedTriggerType 型の Trigger プロパティを DataSourcesRequested イベント引数に追加しました。このイベントのユーザーは、DataSourcesRequested の目的について詳細なコンテキストを取得できます。</td>
         </tr>
             <td>1.0.825</td>
-            <td><i>画像エクスポート機能が利用できるようになりました。</i><br>サーバー側の画像エクスポート (プログラム上およびユーザー操作の両方により) が再び有効になりました。修正の詳細については、以下のトピックを参照してください。<a href="setup-configuration-web#server-side-image-export">サーバー側画像生成の有効化</a></td>
+            <td><i>画像エクスポート機能が利用できるようになりました。</i><br>サーバー側の画像エクスポート (プログラム上およびユーザー操作の両方により) が再び有効になりました。修正の詳細については、以下のトピックを参照してください。<a href="setup-configuration-server-web#server-side-image-export">サーバー側画像生成の有効化</a></td>
         <tr>
         </tr>
             <td rowspan="4">1.0.80x</td>

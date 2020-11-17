@@ -31,7 +31,7 @@ private void RevealView_VisualizationDataPointClicked(object sender,
     foreach (var c in e.Row)
     {
         var cValue = c.Value;
-        //TODO: use value from column c.ColumnName
+        //列 c.ColumnName の値を使用します。
     }
 }
 ```
