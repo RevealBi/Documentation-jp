@@ -43,7 +43,7 @@ Infragistics (Local) フィードがインストーラーによって正しく�
   - **Reveal.Sdk.Web.AspNetCore** NuGet パッケージを プロジェクトにインストールします。
   - NuGet パッケージ参照を System.Data.SQLite バージョン 1.0.111 以降に追加します。
 
-ビルドに問題がある場合は、この [**リンク**](#sqlite-fix)を参照してください。
+ビルドに問題がある場合は、この[**リンク**](#sqlite-fix)を参照してください。
 
 <a name='defining-server-context'></a>
 
@@ -220,7 +220,7 @@ JavaScript ファイル は \<InstallationDirectory\>\\SDK\\Web\\JS\\Client に�
           revealView.dashboard = dashboard;
         },
         function (error) {
-          //Process any error that might occur here
+          //ここで発生する可能性があるエラーを処理します。
         }
       );
     </script>

@@ -18,12 +18,12 @@ Infragistics (Local) フィードがインストーラーによって正しく�
 
 NuGet パッケージをインストールすると、以下の依存関係パッケージもインストールされます。
 
-  - CefSharp.Wpf (83.4.20+)
-  - SkiaSharp (1.68.0+)
-  - System.Data.SQLite.Core (1.0.108+)
+  - CefSharp.Wpf (83.4.20 以降)
+  - SkiaSharp (1.68.0 以降)
+  - System.Data.SQLite.Core (1.0.108 以降)
 
 > [!NOTE]
-Microsoft SQL Server データを視覚化できるようにするには、プロジェクトに Microsoft.Data.SqlClient (1.1.3) パッケージを手動でインストールする必要があります。
+> Microsoft SQL Server データを視覚化できるようにするには、プロジェクトに Microsoft.Data.SqlClient (1.1.3) パッケージを手動でインストールする必要があります。
 
 ### 手動設定の使用
 
@@ -32,10 +32,10 @@ Microsoft SQL Server データを視覚化できるようにするには、プ�
 1.  インストーラーによってドロップされたアセンブリへの参照を \<InstallationDirectory\>\\SDK\\WPF\\Binaries に追加します。
 
 2.  RevealView コントロールが依存する以下の NuGet パッケージをインストールします。
-      - CefSharp.Wpf (83.4.20+)
-      - SkiaSharp (1.68.0+)
-      - System.Data.SQLite.Core (1.0.108+)
-      - Microsoft.Data.SqlClient (1.1.3+)
+      - CefSharp.Wpf (83.4.20 以降)
+      - SkiaSharp (1.68.0 以降)
+      - System.Data.SQLite.Core (1.0.108 以降)
+      - Microsoft.Data.SqlClient (1.1.3 以降)
 
 以下は、**CefSharp.Wpf** の既知の問題を処理する方法です。
 
