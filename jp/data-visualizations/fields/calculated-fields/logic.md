@@ -26,42 +26,42 @@ Reveal では、論理計算フィールドは次のとおりです。
     <th class="tg-cly1"><span style="font-weight:bold">構文とサンプル</span></th>
   </tr>
   <tr>
-    <td class="tg-cly1" rowspan="2"><a href="https://www.revealbi.io/help/logic.html#calc-fields-and-or">and</a>: <span class="gray-snippet-cstm">and</span> は 2 つの論理テストを実行します。<span style="font-weight:bold">論理テストは true の場合、1 を返します。1 つまた 2 つは false の場合、0 を返します。</span></td>
+    <td class="tg-cly1" rowspan="2"><a href="https://https://help.revealbi.io/jp/logic.html#calc-fields-and-or">and</a>: <span class="gray-snippet-cstm">and</span> は 2 つの論理テストを実行します。<span style="font-weight:bold">論理テストは true の場合、1 を返します。1 つまた 2 つは false の場合、0 を返します。</span></td>
     <td class="tg-cly1"><span style="font-weight:bold">構文</span>:  <span class="gray-snippet-cstm">and({logical1},{logical2})</span></td>
   </tr>
   <tr>
     <td class="tg-cly1"><span style="font-weight:bold">サンプル</span>:  <span class="gray-snippet-cstm">and([BirthDate]&gt;date(1983, 07, 15, 04, 06, 55),[Department]="CPA")</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1" rowspan="2"><a href="https://www.revealbi.io/help/logic.html#true-false"><span style="font-weight:bold">false</span></a>: <span class="gray-snippet-cstm">false</span> は論理値 の <span style="font-weight:bold">false</span> である 0 を返します。</td>
+    <td class="tg-cly1" rowspan="2"><a href="https://https://help.revealbi.io/jp/logic.html#true-false"><span style="font-weight:bold">false</span></a>: <span class="gray-snippet-cstm">false</span> は論理値 の <span style="font-weight:bold">false</span> である 0 を返します。</td>
     <td class="tg-cly1"><span style="font-weight:bold">構文</span>:  <span class="gray-snippet-cstm">false()</span></td>
   </tr>
   <tr>
     <td class="tg-cly1"><span style="font-weight:bold">サンプル</span>:  <span class="gray-snippet-cstm">false()</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2"><a href="https://www.revealbi.io/help/logic.html#calc-fields-if"><span style="font-weight:bold">if</span></a>: <span class="gray-snippet-cstm">if</span> は論理テストを実行します。<span style="font-weight:bold">論理テストは true の場合、1 を返します。</span> <span style="font-weight:bold">論理テストは false の場合、0 を返します。</span></td>
+    <td class="tg-0lax" rowspan="2"><a href="https://https://help.revealbi.io/jp/logic.html#calc-fields-if"><span style="font-weight:bold">if</span></a>: <span class="gray-snippet-cstm">if</span> は論理テストを実行します。<span style="font-weight:bold">論理テストは true の場合、1 を返します。</span> <span style="font-weight:bold">論理テストは false の場合、0 を返します。</span></td>
     <td class="tg-0lax"><span style="font-weight:bold">構文</span>:  <span class="gray-snippet-cstm">if({logical test},{value if true},{value if false})</span></td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:bold">サンプル</span>:  <span class="gray-snippet-cstm">if([BirthDate]&lt;(1971,04,15,4,06,55),1,0)</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2"><a href="https://www.revealbi.io/help/logic.html#calc-fields-not">not</a>: <span class="gray-snippet-cstm">not</span> は論理テストを実行します。<span style="font-weight:bold">論理テストは false の場合、1 を返します。論理テストは true の場合、0 を返します。</span></td>
+    <td class="tg-0lax" rowspan="2"><a href="https://https://help.revealbi.io/jp/logic.html#calc-fields-not">not</a>: <span class="gray-snippet-cstm">not</span> は論理テストを実行します。<span style="font-weight:bold">論理テストは false の場合、1 を返します。論理テストは true の場合、0 を返します。</span></td>
     <td class="tg-0lax"><span style="font-weight:bold">構文</span>:  <span class="gray-snippet-cstm">not({logical})</span></td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:bold">サンプル</span>:  <span class="gray-snippet-cstm">not([OfficeId]&gt;=3)</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2"><a href="https://www.revealbi.io/help/logic.html#calc-fields-and-or"><span style="font-weight:bold">or</span></a>: <span class="gray-snippet-cstm">or</span> は 2 つの論理テストを実行します (if ステートメント)。<span style="font-weight:bold">論理テスト の 1 つのいずれか true の場合、1 を返します。両方が false の場合、0 を返します。</span></td>
+    <td class="tg-0lax" rowspan="2"><a href="https://https://help.revealbi.io/jp/logic.html#calc-fields-and-or"><span style="font-weight:bold">or</span></a>: <span class="gray-snippet-cstm">or</span> は 2 つの論理テストを実行します (if ステートメント)。<span style="font-weight:bold">論理テスト の 1 つのいずれか true の場合、1 を返します。両方が false の場合、0 を返します。</span></td>
     <td class="tg-0lax"><span style="font-weight:bold">構文</span>:  <span class="gray-snippet-cstm">or({logical1},{logical2})</span></td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:bold">サンプル</span>:  <span class="gray-snippet-cstm">or(if([Office]="London,UK",1,0),if([BirthDate]&lt;date(1992,09,15,4,06,55),1,0))</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2"><a href="https://www.revealbi.io/help/logic.html#true-false">true</a>: <span class="gray-snippet-cstm">true</span> は論理値 の <span style="font-weight:bold">true</span> である 1 を返します。</td>
+    <td class="tg-0lax" rowspan="2"><a href="https://https://help.revealbi.io/jp/logic.html#true-false">true</a>: <span class="gray-snippet-cstm">true</span> は論理値 の <span style="font-weight:bold">true</span> である 1 を返します。</td>
     <td class="tg-0lax"><span style="font-weight:bold">構文</span>:  <span class="gray-snippet-cstm">true()</span></td>
   </tr>
   <tr>

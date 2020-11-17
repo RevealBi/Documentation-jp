@@ -6,7 +6,7 @@ __$.ig.RevealView__ コンポーネントは、Reveal ビューを描画する�
 
   - **UI 要素の表示/非表示** -  *ShowFilters* プロパティは初期化時に **RevealView** によって読み込まれ、その値に基づいてグローバル フィルター UI をユーザーに表示または非表示にします。他の同様のプロパティは、*showExportImage*、*canEdit*、*showChangeDataSource*、*maximizedVisualization*です。
   - **ダッシュボードの指定** - どのダッシュボードをレンダリングするかを指定するには、dashboard プロパティを使用します。[**Web Client SDK のインスタンス化**](~/jp/developer/setup-configuration/setup-configuration-web.html#instantiate-web-client-sdk)で説明の通り、ダッシュボードは、dashboardId と、ダッシュボードがロードされたときに呼び出される成功コールバックを受け取る *$.ig.RVDashboard.loadDashboard* メソッドを使用して取得する必要があります。
-  - **ダッシュボード フィルター値の選択** - ダッシュボードのロード時に既存のダッシュボード フィルターに対して最初に選択される値を指定できます。Reveal アプリでは、ダッシュボードフィルターを使用して、ダッシュボードのすべての接続された表示形式に動的フィルタリングを適用できます。選択が変更されると、すべての表示形式が一度に更新します。詳細については、_Reveal のユーザー ガイド_ にある [**Reveal フィルター**](https://www.revealbi.io/help/filters)  を参照してください。
+  - **ダッシュボード フィルター値の選択** - ダッシュボードのロード時に既存のダッシュボード フィルターに対して最初に選択される値を指定できます。Reveal アプリでは、ダッシュボードフィルターを使用して、ダッシュボードのすべての接続された表示形式に動的フィルタリングを適用できます。選択が変更されると、すべての表示形式が一度に更新します。詳細については、_Reveal のユーザー ガイド_ にある [**Reveal フィルター**](https://https://help.revealbi.io/jp/filters)  を参照してください。
 
 ### コード
 
