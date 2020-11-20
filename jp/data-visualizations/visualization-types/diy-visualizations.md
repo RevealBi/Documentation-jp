@@ -1,4 +1,4 @@
-## DIY 表示形式
+## Custom Visualizations
 
 Reveal は、グリッド ビュー、ゲージ ビュー、マップ ビュー、複数のチャート タイプなど、複数のデータ可視化コンポーネントを提供します。既成またはサポートされる方法以外の可視化を使用したい場合があります。そのような場合に Reveal ではカスタムに可視化するコンポーネントがサポートされており、Reveal ダッシュボードの一部として表示形式に表示します。
 
@@ -28,3 +28,25 @@ Reveal は、グリッド ビュー、ゲージ ビュー、マップ ビュー�
   </tr>
 </tbody>
 </table>
+
+### Using a Custom Visualization
+
+1. **Select Custom Visualization.**  
+To find this option open the Visualizations section within the Widget Editor.
+
+<img src="images/custom-visualization-access.png" alt="Selecting the Custom Visualization in Reveal" width="80%"/>
+
+2. **Point to the implementation.**  
+Add the URL of the web page that generates the custom visualization you want.
+
+<img src="images/custom-visualization-config.png" alt="Showing the Custom Visualization configuration screen within Reveal" width="80%"/>
+
+When referencing web components from a URL, keep in mind that the URL needs to be of public access. In addition, if the URL Address has an HTTPS:// protocol, every resource referenced in your custom HTML will need to use the same protocol.
+
+
+### Custom Web Components and Reveal
+These custom web components can access the data retrieved by Reveal from any of the supported data sources. Custom components interact with a Javascript API provided for that purpose.
+
+Web components can be referenced either from a public URL address or from an internal shared location in your intranet. However, Reveal web is only able to render custom visualizations that have their web components hosted on a public URL.
+
+[**Here you have a step-by-step tutorial**](diy-visualization-step-by-step.md) about a custom HTML visualization. This basic "Hello World" sample, generates a table with a data set retrieved from Reveal.
