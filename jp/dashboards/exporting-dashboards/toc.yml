@@ -1,10 +1,10 @@
-- name: How to Export a Dashboard
+- name: ダッシュボードのエクスポート方法
   href: how-to-export-a-dashboard.md
-- name: Export PDF
+- name: ダッシュボードを PDF 文書としてエクスポート
   href: export-as-pdf-document.md
-- name: Export Image
+- name: ダッシュボードを画像としてエクスポート
   href: export-as-images.md
-- name: Export PowerPoint
+- name: ダッシュボードを PowerPoint 形式としてエクスポート
   href: export-as-powerpoint-presentation.md
-- name: Export Excel
+- name: ダッシュボードを Excel としてエクスポート
   href: export-as-excel-data-format.md

@@ -1,12 +1,12 @@
-- name: Overview
+- name: 概要
   href: overview.md
-- name: Field Settings
+- name: フィールド設定
   href: field-settings.md
-- name: Sort by Field
+- name: フィールドで並べ替え
   href: sort-by-field.md
-- name: Ad-Hoc Hierarchies
+- name: アドホック階層
   href: adhoc-hierarchies.md
-- name: Conditional Formatting
+- name: 条件付き書式
   href: conditional-formatting.md
-- name: Calculated Fields
+- name: 計算フィールド
   href: calculated-fields/toc.yml

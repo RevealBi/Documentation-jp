@@ -1,6 +1,6 @@
-- name: Overview
+- name: 概要
   href: choropleth-map.md
-- name: Location Data
+- name: 法場所のデータ
   href: location-data-requirements.md
-- name: Working with Choropleth Map Settings
+- name: 階級区分図設定の操作
   href: settings-choropleth-map.md

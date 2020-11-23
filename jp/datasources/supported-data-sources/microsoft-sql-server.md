@@ -1,4 +1,4 @@
-## Microsoft SQL サーバー
+## Microsoft SQL Server
 
 >[!NOTE] Microsoft SQL Server は Reveal の Web バージョンでサポートされていません。
 

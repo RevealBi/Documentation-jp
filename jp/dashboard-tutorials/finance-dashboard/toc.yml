@@ -1,14 +1,14 @@
-- name: Getting Started
+- name: Finance Dashboard チュートリアル
   href: getting-started.md
-- name: Creating a Dashboard and Adding a Data Source
+- name: ダッシュボードを作成してデータソースを追加
   href: creating-the-dashboard.md
-- name: Creating the First Visualization
+- name: 初めての表示形式作成
   href: selecting-data-visualization.md
-- name: Applying Formatting to the First Visualization
+- name: はじめての表示形式に書式を適用
   href: applying-formatting-visualization.md
-- name: Applying a Theme to the Dashboard
+- name: ダッシュボードにテーマを適用
   href: applying-theme.md
-- name: Adding the other Visualizations
+- name: その他の表示形式の追加
   href: adding-other-visualizations.md
-- name: Saving your Dashboard
+- name: ダッシュボードの保存
   href: saving-dashboard.md

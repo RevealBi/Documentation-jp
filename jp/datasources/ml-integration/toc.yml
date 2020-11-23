@@ -1,4 +1,4 @@
-- name: Integrating with Azure ML Models
+- name: Reveal の Azure Machine Learning
   href: azure-machine-learning-models.md
-- name: Integrating with BigQuery ML Models
+- name: Reveal の BigQuery Machine Learning
   href: bigquery-machine-learning-models.md

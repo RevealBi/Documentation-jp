@@ -1,14 +1,14 @@
-- name: Getting Started
+- name: Social Dashboard チュートリアル
   href: getting-started.md
-- name: Creating a Dashboard and Adding a Data Source
+- name: ダッシュボードを作成してデータソースを追加
   href: creating-the-dashboard.md
-- name: Creating the First Visualization
+- name: 初めての表示形式を作成
   href: selecting-data-visualization.md
-- name: Creating the Dashboard Filter and Connecting your Visualization
+- name: ダッシュボード フィルターの作成と表示形式の接続
   href: creating-dashboard-filter-connecting-visualization.md  
-- name: Applying a Theme to the Dashboard
+- name: ダッシュボードにテーマを適用
   href: applying-theme.md
-- name: Adding the other Visualizations
+- name: その他の表示形式を追加する
   href: adding-other-visualizations.md
-- name: Saving your Dashboard
+- name: ダッシュボードの保存
   href: saving-dashboard.md

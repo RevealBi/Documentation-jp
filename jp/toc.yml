@@ -1,124 +1,125 @@
-- name: General
+- name: 概要
   header: true
-- name: Welcome to Reveal
+- name: Reveal ヘルプへようこそ!
   href: index.md
-- name: Logging into Reveal
+- name: Reveal へのログイン
   href: general/logging-in-reveal.md
-- name: Application Themes
+- name: アプリケーション テーマ
   href: general/app-themes.md
-- name: Supported Languages
+- name: サポート対象言語
   href: general/supported-languages.md
-- name: Notifications Center
+- name: 通知センター
   href: general/notifications-center.md
-- name: Teams
+- name: チーム
   header: true
-- name: Overview
+- name: 概要
   href: teams/overview.md
-- name: Creating and Joining Teams
+- name: チームの作成と参加
   href: teams/creating-joining-teams.md
-- name: Managing Your Team
+- name: チームの管理
   href: teams/managing-your-team.md
-- name: Dashboards
+- name: ダッシュボード
   header: true
-- name: Overview
+- name: 概要
   href: dashboards/overview.md
-- name: Creating Dashboards
+- name: ダッシュボードの作成
   href: dashboards/creating-dashboards.md
-- name: Uploading Dashboards
+- name: ダッシュボードのアップロード
   href: dashboards/uploading-dashboards.md
-- name: Interacting with Dashboards
+- name: ダッシュボードの操作
   href: dashboards/dashboards-interactions.md
-- name: Styling Dashboards
+- name: ダッシュボードのスタイル設定
   href: dashboards/dashboard-styling.md
-- name: Exporting Dashboards
+- name: ダッシュボードのエクスポート
   href: dashboards/exporting-dashboards/toc.yml
-- name: Managing Your Dashboards
+- name: ダッシュボードの管理
   href: dashboards/managing-dashboards.md
-- name: Sharing Dashboards
+- name: ダッシュボードの共有
   href: dashboards/sharing-dashboards/toc.yml
-- name: Linking Dashboards
+- name: ダッシュボードのリンク
   href: dashboards/dashboard-linking.md
-- name: Data Sources
+- name: データソース
   header: true
-- name: Overview
+- name: 概要
   href: datasources/overview.md
-- name: Supported Data Sources
+- name: サポートされているデータソース
   href: datasources/supported-data-sources/toc.yml
-- name: Managing Your Data Source Credentials
+- name: データソース資格情報の管理
   href: datasources/managing-data-source-credentials.md
-- name: Changing the Data Source for a Visualization
+- name: 表示形式に使用するデータソースの変更
   href: datasources/changing-data-source-visualization.md
-- name: Combining Data Sources in one Visualization
+- name: データソースを 1 つの表示形式に統合
   href: datasources/data-blending.md
-- name: Connecting a Dashboard to Its Data Source
+- name: ダッシュボードをデータソースに接続
   href: datasources/connect-dashboard-to-data-source.md
-- name: OAuth 2 / OIDC User Authentication
+- name: REST、OData、およびウェブ リソースを使用した OAuth 2 / OIDC ユーザー認証
   href: datasources/oauth-2-oidc-user-authentication.md
-- name: Processing Data on Server
+- name: サーバーでデータの処理
   href: datasources/process-data-server-side.md
-- name: Machine Learning Integration
+- name: 機械学習の統合
   href: datasources/ml-integration/toc.yml
-- name: Working with Files
+- name: ファイルの作業
   href: datasources/working-files/toc.yml
-- name: Data Visualizations
+- name: データ可視化
   header: true
-- name: Overview
+- name: 概要
   href: data-visualizations/overview.md
-- name: Working with the Visualization Editor
+- name: 表示形式エディターの作業
   href: data-visualizations/visualizations-editor.md
-- name: Visualization Types
+- name: 表示形式のタイプ
   href: data-visualizations/visualization-types/toc.yml
-- name: Fields
+- name: フィールド
   href: data-visualizations/fields/toc.yml
-- name: Reusing Visualizations
+- name: 表示形式の再利用
   href: data-visualizations/reusing-visualizations.md
-- name: Statistical Functions
+- name: Reveal の統計関数
   href: data-visualizations/statistical-functions.md
-- name: Custom Visualizations
+- name: カスタム表示形式
   href: data-visualizations/visualization-types/diy-visualizations.md
-- name: How to Create a Custom Visualization
+- name: カスタムsualizations/statistical-functions.md
+- name: カスタム表示形式の作成方法
   href: data-visualizations/visualization-types/diy-visualization-step-by-step.md
-- name: Filters
+- name: フィルター
   header: true
-- name: Overview
+- name: 概要
   href: filters/overview.md
-- name: Dashboard Filters
+- name: ダッシュボード フィルター
   href: filters/dashboard-filters.md
-- name: Dashboard Filters Properties
+- name: ダッシュボード フィルターとそのプロパティ
   href: filters/dashboard-filters-properties.md
-- name: Connecting Dashboard Filters to a Visualization
+- name: ダッシュボード フィルターを表示形式に接続
   href: filters/connecting-dashboard-filters-visualization.md
-- name: Field Filters and Rules
+- name: フィールド フィルターとルール
   href: data-visualizations/fields/field-filters-rules.md
-- name: Date Range Filter
+- name: 日付範囲ダッシュボード フィルター
   href: filters/date-range-filter.md
-- name: Visualization Filters
+- name: 表示形式のクイック フィルター
   href: filters/visualization-filters.md
-- name: Visualization Tutorials
+- name: 表示形式のチュートリアル
   header: true
-- name: Overview
+- name: 概要
   href: visualization-tutorials/overview.md
-- name: Candlestick Visualizations
+- name: ローソク足表示形式
   href: visualization-tutorials/candlestick-chart.md
-- name: Gauge Views
+- name: ゲージ ビュー
   href: visualization-tutorials/gauge-views.md
-- name: Image View
+- name: 画像ビュー
   href: visualization-tutorials/image-view.md
-- name: KPI Gauge
+- name: KPI ゲージ
   href: visualization-tutorials/kpi-gauge.md
-- name: OHLC Charts
+- name: OHLC チャート
   href: visualization-tutorials/ohlc-chart.md
-- name: Simple Series Charts
+- name: シンプル シリーズのチャート
   href: visualization-tutorials/simple-charts.md
-- name: Sparkline Charts
+- name: スパークライン チャート
   href: visualization-tutorials/sparkline-charts.md
-- name: Stacked Charts
+- name: 積層型チャート
   href: visualization-tutorials/stacked-charts.md
-- name: Text View
+- name: テキスト ビュー
   href: visualization-tutorials/text-view.md
-- name: Dashboard Tutorials
+- name: ダッシュボード チュートリアル
   header: true
-- name: Overview
+- name: 概要
   href: dashboard-tutorials/overview.md
 - name: Finance Dashboard
   href: dashboard-tutorials/finance-dashboard/toc.yml
@@ -128,11 +129,11 @@
   href: dashboard-tutorials/sales-dashboard/toc.yml
 - name: Social Dashboard
   href: dashboard-tutorials/social-dashboard/toc.yml
-- name: Additional Resources
+- name: その他のリソース
   header: true
-- name: Known Issues
+- name: 既知の問題
   href: additional-resources/known-issues.md
-- name: Release Notes
+- name: リリース ノート
   href: additional-resources/release-notes.md
-- name: Third-Party Software
+- name: サードパーティ ソフトウェア
   href: additional-resources/third-party-software.md

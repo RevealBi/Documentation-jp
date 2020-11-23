@@ -1,32 +1,32 @@
-- name: Category Charts
+- name: カテゴリ チャート
   href: category-charts.md
-- name: Choropleth Map
+- name: 階級区分図
   href: choropleth-map/toc.yml
-- name: Combo Charts
+- name: 複合チャート
   href: combo-charts.md
-- name: Financial Charts
+- name: 財務チャート
   href: financial-charts.md
-- name: Gauge Charts
+- name: ゲージ チャート
   href: gauge-charts.md
-- name: Grid Chart
+- name: グリッド ビュー
   href: grid-chart.md
-- name: Image Chart
+- name: 画像チャート
   href: image-chart.md
-- name: KPI Gauge
+- name: KPI ゲージ
   href: kpi-gauge.md
-- name: Pivot Table
+- name: ピボット テーブル
   href: pivot-table.md
-- name: Radial Charts
+- name: ラジアル チャート
   href: radial-charts.md
-- name: Scatter and Bubble Charts
+- name: 散布図・バブル チャート
   href: scatter-bubble-charts.md
-- name: Scatter Map
+- name: 散布図
   href: scatter-map/toc.yml
-- name: Sparkline Charts
+- name: スパークライン チャート
   href: sparkline-charts.md
-- name: Text View
+- name: テキスト ビュー
   href: text-view.md
-- name: Text Box
+- name: テキスト ボックス
   href: text-box.md
-- name: Treemap Charts
+- name: Reveal のツリーマップ
   href: treemap-charts.md

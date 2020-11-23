@@ -11,11 +11,11 @@
   href: box.md
 - name: Dropbox
   href: dropbox.md
-- name: Google Analytics
+- name: Google アナリティクス
   href: google-analytics.md
 - name: Google BigQuery
   href: google-bigquery.md
-- name: Google Drive
+- name: Google ドライブ
   href: google-drive.md
 - name: Hubspot
   href: hubspot.md
@@ -37,7 +37,7 @@
   href: microsoft-sql-server.md
 - name: MySQL
   href: mysql.md
-- name: OData Feed
+- name: OData フィード
   href: odata-feed.md
 - name: OneDrive
   href: onedrive.md
@@ -49,11 +49,11 @@
   href: quickbooks.md
 - name: REST API
   href: rest-api.md
-- name: SharePoint
+- name: SharePoint オンライン
   href: sharepoint.md
 - name: Salesforce
   href: salesforce.md
 - name: Sybase
   href: sybase.md
-- name: Web Resource
+- name: ウェブ リソース
   href: web-resource.md

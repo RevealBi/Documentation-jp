@@ -1,4 +1,4 @@
-- name: Using JSON Files
+- name: JSON ファイルの作業
   href: working-with-json-files.md
-- name: Using Spreadsheets
+- name: Reveal スプレッドシートの作業
   href: working-with-spreadsheets.md
