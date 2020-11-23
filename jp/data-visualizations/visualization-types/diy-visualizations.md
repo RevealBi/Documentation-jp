@@ -34,12 +34,12 @@ Reveal は、グリッド ビュー、ゲージ ビュー、マップ ビュー�
 1. **Select Custom Visualization.**  
 To find this option open the Visualizations section within the Widget Editor.
 
-<img src="images/custom-visualization-access.png" alt="Selecting the Custom Visualization in Reveal" width="80%"/>
+   <img src="images/custom-visualization-access.png" alt="Selecting the Custom Visualization in Reveal" width="80%"/>
 
 2. **Point to the implementation.**  
 Add the URL of the web page that generates the custom visualization you want.
 
-<img src="images/custom-visualization-config.png" alt="Showing the Custom Visualization configuration screen within Reveal" width="80%"/>
+   <img src="images/custom-visualization-config.png" alt="Showing the Custom Visualization configuration screen within Reveal" width="80%"/>
 
 When referencing web components from a URL, keep in mind that the URL needs to be of public access. In addition, if the URL Address has an HTTPS:// protocol, every resource referenced in your custom HTML will need to use the same protocol.
 
