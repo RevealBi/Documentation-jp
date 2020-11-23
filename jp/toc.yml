@@ -72,11 +72,10 @@
   href: data-visualizations/fields/toc.yml
 - name: 表示形式の再利用
   href: data-visualizations/reusing-visualizations.md
-- name: Reveal の統計関数
+- name: 統計関数
   href: data-visualizations/statistical-functions.md
 - name: カスタム表示形式
   href: data-visualizations/visualization-types/diy-visualizations.md
-- name: カスタムsualizations/statistical-functions.md
 - name: カスタム表示形式の作成方法
   href: data-visualizations/visualization-types/diy-visualization-step-by-step.md
 - name: フィルター
