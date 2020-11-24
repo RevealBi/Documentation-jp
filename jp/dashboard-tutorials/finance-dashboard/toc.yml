@@ -2,7 +2,7 @@
   href: getting-started.md
 - name: ダッシュボードを作成してデータソースを追加
   href: creating-the-dashboard.md
-- name: 初めての表示形式作成
+- name: 初めての表示形式を作成
   href: selecting-data-visualization.md
 - name: はじめての表示形式に書式を適用
   href: applying-formatting-visualization.md

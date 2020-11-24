@@ -1,4 +1,4 @@
-## その他の表示形式を追加する 
+## その他の表示形式の追加
 
 ダッシュボードにあるその他すべての表示形式で同じ[サンプル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)を使用します。
 
