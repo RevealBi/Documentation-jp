@@ -6,7 +6,10 @@
           "jp/**.md",
           "jp/**/toc.yml"
         ],
-        "exclude": [ "obj/**", "_site/**" ]
+        "exclude": [
+          "obj/**",
+          "_site/**"
+        ]
       }
     ],
     "resource": [
@@ -14,14 +17,25 @@
         "files": [
           "**/images/**"
         ],
-        "exclude": [ "obj/**", "_site/**" ]
+        "exclude": [
+          "obj/**",
+          "_site/**"
+        ]
+      },
+      {
+        "files": [
+          "index.html",
+          "index.css"
+        ]
       }
     ],
     "dest": "_site",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "markdownEngineName": "markdig",
-    "template": [ "templates/reveal" ],
+    "template": [
+      "templates/reveal"
+    ],
     "noLangKeyword": false,
     "keepFileLink": false,
     "cleanupCacheHistory": false,
