@@ -23,8 +23,6 @@ Visual Studio 2017 を開き、*ASP.NET Core Web アプリケーション*の新
 ![select framework and mvc for project dialog in Visual Studio
 2017](images/select-framework-project.png)
 
-手順 1 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/90b5a2952e98e8138751e3c9fd78864acc9c0a4f)**
-
 ### Step 2 - Install Reveal SDK
 
 <https://www.revealbi.io/jp> から Infragistics Reveal SDK をダウンロードし、システムにインストールします。*Visual Studio* で ツール > オプション > Nuget パッケージ マネージャー > パッケージ ソース を選択します。インストールされた SDK の Nuget フォルダーを指す新しいソースを追加します。
@@ -37,8 +35,6 @@ dialog](images/adding-new-package-source.png)
 <img src="images/install-nuget.png" alt="installing the Nuget dialog" width="80%"/>
 
 <img src="images/preview-changes-dialog.png" alt="preview changes dialog" width="50%"/>
-
-手順 2 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/3308bd229c1b50efd12e553e1e54d5ac4d36b6e3)**
 
 ### 手順 3 - サーバー構成の設定
 
@@ -95,8 +91,6 @@ dialog](images/adding-new-package-source.png)
     using Demo1.RevealSDK;
     using Reveal.Sdk;
 ```
-
-手順 3 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/44340ad7154f7101f80fce4aea50153ccbd902d7)**
 
 問題が発生した場合は、サーバー SDK - [**セットアップと構成**](~/jp/developer/setup-configuration/setup-configuration-web.html)トピックを参照してください。
 
@@ -208,8 +202,6 @@ Marketing ダッシュボードを選択し、**編集モード**に入ります
 
 <img src="images/marketing-dashboard-result.png" alt="marketing dashboard result in web page" width="80%"/>
 
-手順 4 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/380d369b46437c3913ed3c61de32a7f607b96b47)**
-
 問題が発生した場合は、クライアント SDK [**セットアップと構成**](~/jp/developer/setup-configuration/setup-configuration-web.html)トピックを参照してください。
 
 ### 手順 5 - Reveal フォントの使用
@@ -279,8 +271,6 @@ Reveal アプリは Roboto フォントを使用します。アプリと同じ�
 結果は以下のようになります。
 
 <img src="images/marketing-dashboard-new-font.png" alt="marketing dashboard loaded with the new font" width="80%"/>
-
-手順 5 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/9fd40e047bf6aa4c03258112e6d47f577625a63b)**
 
 ### 手順 6 - クライアント アプリケーションのスタイル設定
 
@@ -392,4 +382,3 @@ Reveal アプリは Roboto フォントを使用します。アプリと同じ�
 
 <img src="images/marketing-dashboard-style-client-application-result.png" alt="result after styling the client application" width="80%"/>
 
-手順 6 サンプル **[git コミット](https://github.com/Infragistics/reveal-sdk-web-sample/commit/085fd35db4d07eb9130ff72dd3bb96a157f6d4ed)**

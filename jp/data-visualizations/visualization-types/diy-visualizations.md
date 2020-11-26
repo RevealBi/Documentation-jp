@@ -17,14 +17,14 @@ Reveal は、グリッド ビュー、ゲージ ビュー、マップ ビュー�
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-x3gl"><br>カスタム フォント、タイトル、および幅のテーブル<br><img src="images/HRDashboardEmployeesDIY_All.png" alt="Image" width="400" height="291"></th>
-    <th class="tg-x3gl"><br>州別の米国の人口の Cloropleth マップ<br><img src="images/StatePopulation_all.png" alt="Image" width="400" height="291"></th>
+    <th class="tg-x3gl"><br>カスタム フォント、タイトル、および幅のテーブル<br><img src="images/HRDashboardEmployeesDIY_All.png" alt="Image" width="343" height="275"></th>
+    <th class="tg-x3gl"><br>州別の米国の人口の Cloropleth マップ<br><img src="images/StatePopulation_all.png" alt="Image" width="400" height="275"></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-spkm"><br>州別のブラジルの人口の Cloropleth マップ<br><img src="images/BrazilStatePopulation_all.png" alt="Image" width="400" height="291"></td>
-    <td class="tg-2ovq"><br>世界の GDP の Cloropleth マップ<br><img src="images/WorldPopulationGDP_All.png" alt="Image" width="400" height="291"></td>
+    <td class="tg-spkm"><br>州別のブラジルの人口の Cloropleth マップ<br><img src="images/BrazilStatePopulation_all.png" alt="Image" width="343" height="275"></td>
+    <td class="tg-2ovq"><br>世界の GDP の Cloropleth マップ<br><img src="images/WorldPopulationGDP_All.png" alt="Image" width="400" height="275"></td>
   </tr>
 </tbody>
 </table>

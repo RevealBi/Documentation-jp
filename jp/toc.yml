@@ -76,8 +76,9 @@
   href: data-visualizations/statistical-functions.md
 - name: カスタム表示形式
   href: data-visualizations/visualization-types/diy-visualizations.md
-- name: カスタム表示形式の作成方法
-  href: data-visualizations/visualization-types/diy-visualization-step-by-step.md
+  items:
+    - name: カスタム表示形式の作成方法
+      href: data-visualizations/visualization-types/diy-visualization-step-by-step.md
 - name: フィルター
   header: true
 - name: 概要

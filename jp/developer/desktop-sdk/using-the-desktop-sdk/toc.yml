@@ -16,8 +16,6 @@
   href: providing-credentials-datasources.md
 - name: データソースの置き換え
   href: replacing-data-sources.md
-- name: Filtering tables/sheets from a data source
-  href:
 - name: ローカリゼーション サービスの使用
   href: localization-service.md
 - name: 書式設定サービスの使用
@@ -28,8 +26,6 @@
   href: handling-click-events.md
 - name: ツールチップの作業
   href: working-tooltips-desktop.md
-- name: Showing/Hiding UI Elements
-  href:
 - name: 初期フィルター選択の設定
   href: setting-initial-filters.md
 - name: 動的フィルター選択の設定
