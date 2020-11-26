@@ -1,4 +1,4 @@
-## Custom Visualizations
+## カスタム表示形式
 
 Reveal は、グリッド ビュー、ゲージ ビュー、マップ ビュー、複数のチャート タイプなど、複数のデータ可視化コンポーネントを提供します。既成またはサポートされる方法以外の可視化を使用したい場合があります。そのような場合に Reveal ではカスタムに可視化するコンポーネントがサポートされており、Reveal ダッシュボードの一部として表示形式に表示します。
 
@@ -29,24 +29,24 @@ Reveal は、グリッド ビュー、ゲージ ビュー、マップ ビュー�
 </tbody>
 </table>
 
-### Using a Custom Visualization
+### カスタム表示形式の使用方法
 
-1. **Select Custom Visualization.**  
-To find this option open the Visualizations section within the Widget Editor.
+1. **[カスタム] 表示形式選択する**。 
+このオプションを見つけるには、ウィジェット エディター内の表示形式セクションを開きます。
 
    <img src="images/custom-visualization-access.png" alt="Selecting the Custom Visualization in Reveal" width="80%"/>
 
-2. **Point to the implementation.**  
-Add the URL of the web page that generates the custom visualization you want.
+2. **実装をポイントする**。  
+必要なカスタム表示形式を生成する Web ページの URL を追加します。
 
    <img src="images/custom-visualization-config.png" alt="Showing the Custom Visualization configuration screen within Reveal" width="80%"/>
 
-   Keep in mind that the URL needs to be publicly accessible and to use the HTTPS:// protocol. In addition, every resource referenced in your custom HTML will need to use the same protocol.
+   URL はパブリック アクセス可能であり、HTTPS:// プロトコルを使用する必要があることに注意してください。さらに、カスタム HTML で参照される各リソースは同じプロトコルを使用する必要があります。
 
 
-### Custom Web Pages and Reveal
-Custom web pages can access the data retrieved by Reveal from any of the supported data sources. The custom visualizations interact with a Javascript API provided for that purpose.
+### カスタム Web ページと Reveal
+これらのカスタム Web ページは、サポートされるデータソースから Reveal で取得したデータにアクセスできます。カスタム表示形式は、それを目的に Javascript API とインタラクティブに動作します。
 
-You can reference custom web pages either through a public URL address or from an internal shared location in your intranet. However, Reveal web is only able to render custom visualizations that have their components hosted on a public URL.
+カスタム Web ページは、パブリック URL アドレスまたはイントラネットの内部共有場所として参照できます。ただし、Reveal Web は、コンポーネントがパブリック URL でホストされているカスタム表示形式のみを描画できます。
 
-[**Here you have a step-by-step tutorial**](diy-visualization-step-by-step.md) about a custom HTML visualization. This basic "Hello World" sample, generates a table with a data set retrieved from Reveal.
+ここに、カスタム HTML 表示形式に関する[**ステップバイステップのチュートリアル**](diy-visualization-step-by-step.md)があります。この基本的な HelloWorld サンプルは、Reveal から取得したデータセットを使用してテーブルを生成します。
