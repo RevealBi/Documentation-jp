@@ -32,12 +32,14 @@ Reveal は、グリッド ビュー、ゲージ ビュー、マップ ビュー�
 ### カスタム表示形式の使用方法
 
 1. **[カスタム] 表示形式を選択する**。 
-このオプションを見つけるには、ウィジェット エディター内の表示形式セクションを開きます。
+
+   このオプションを見つけるには、ウィジェット エディター内の表示形式セクションを開きます。
 
    <img src="images/custom-visualization-access.png" alt="Selecting the Custom Visualization in Reveal" width="80%"/>
 
 2. **実装をポイントする**。  
-必要なカスタム表示形式を生成する Web ページの URL を追加します。
+
+   必要なカスタム表示形式を生成する Web ページの URL を追加します。
 
    <img src="images/custom-visualization-config.png" alt="Showing the Custom Visualization configuration screen within Reveal" width="80%"/>
 

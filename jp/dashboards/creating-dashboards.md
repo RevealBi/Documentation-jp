@@ -57,8 +57,15 @@ Reveal では、情報を可覚化する方法をカスタマイズするため�
 
 <img src="images/editing-visualization-fields-preview.png" alt="editing visualization fields preview" width="80%"/>
 
-表示形式を変更した後**ダッシュボード エディター**に移動されます。右上側に [**元に戻す**]、[**やり直し**]、[**テーマ**]、[**名前を付けて保存**] ボタンが表示されます。
-同じ場所に **[+ 追加]** ボタンを使用して別の表示形式を追加でき、ティック アイコンを選択してダッシュボードを保存することもできます。
+表示形式を変更した後**ダッシュボード エディター**に移動されます。You will see **Undo**, **Redo**, and the **+Visualization** split button on the top right-hand corner. Next to these buttons you will also find the overflow menu of the dashboard where you can choose to change the dashboard theme, switch on/off **Auto Layout**, **export** or **save** the dashboard. 
+
+You can also use the overflow menu in the top right corner of the visualizations to rename, edit, **copy** or **duplicate** them. 
+
+>[NOTE!] The **difference between copying and duplicating** a visualization is that duplicating works only inside the same dashboard and the copy option allows you to put the visualization in the same or a different dashboard. 
+
+After copying a visualization, find the _Paste_ option inside the overflow menu of the dashboard you want to paste the visualization in. 
+
+<img src="images/paste-option-dashboard.png" alt="paste option in the dashboard overflow menu" width=80%>
 
 #### テーマの適用
 

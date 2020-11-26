@@ -1,6 +1,5 @@
 ## ゲージ チャート
 
-
 ゲージ チャートは単一値を表示します。または、それらを範囲しきい値と比較した値のリストを表示します。ゲージはまた、他の範囲の条件付き書式設定を可能にします。5 つの異なるスタイルがあります: [リニア](#linear-gauge)、[円型](#circular-gauge)、[テキスト](#text-gauge)、[KPI](kpi-gauge.html)、[ブレット グラフ](#bullet-graph)。
 
 <a name='linear-gauge'></a>

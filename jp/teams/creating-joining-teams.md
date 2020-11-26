@@ -39,18 +39,17 @@ Reveal の*チーム*は、組織内外とのコラボレーションを容易�
        
         >[!NOTE] **ロゴ画像の要件**。ロゴとしてアップロードする画像は、**5 MB** 以下で、jpg、jpeg、png、gif のいずれかの形式である必要があります。
 
-3.  続行するには **[作成]** をクリック/タップします。**[+ メンバー]** の青いボタンを選択し、メールをリストに追加して、メンバーをチームに招待します。メンバーに招待メールが送信されます。
+3.  Click/Tap *Create*. Your team is now created and you can find it in the teams' list under *My Stuff* in the popover menu shown below: 
+  
+    <img src="images/new-team-created.png" alt="new team in the teams tab" width=80% />
+    
+4. After you create your team, you will be prompted to invite members. Click/tap the *+ Members* blue button. You can choose members from the dropdown list (see below) or use the search bar to add the emails of users who are outside of your Organization. Select _Done_ when you are ready. 
 
     <img src="images/team-invite-members.png" alt="invite members dialog" width="80%"/>
 
-    別の役割を割り当てない場合、招待するユーザーのデフォルトの役割は*メンバー*です。
+1. *Member* is the default role for every user you invite, unless you assign them a different role. You can choose between *Owner*, *Member* and *Viewer* in the dropdown next to each user name. Learn more about team roles in [Team Collaboration and Privacy](overview.html#members-roles-permissions)
 
-    >[!NOTE]
-    >メールが Reveal によって自動補完されないメンバーを追加する場合は、メール全体を入力して Enter キーを押し、招待するユーザーのリストに追加します。
-
-4.  *[招待の送信]* ボタンをクリック/タップすると、新しいチームが作成されます。チームが以下に示すポップオーバー メニューの *[アイテム]* の下のチーム リストにあります。
-
-    <img src="images/new-team-created.png" alt="new team in the teams tab" width="80%"/>
+2. After deciding on the roles, click _Update_ to send the invites.
 
 <a name='join-team'></a>
 ### 既存のチームに参加

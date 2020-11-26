@@ -2,7 +2,6 @@
 
 可視化したデータをダッシュボード フィルターにバインドする 2 つの方法があります:
 
-
 <img src="images/dashboard-filters-menu.png" alt="dashboard filters menu" width="80%"/>
 
   - **ダッシュボード フィルター構成の一部として接続** (上記を参照)
