@@ -1,14 +1,14 @@
 ## Microsoft Azure Synapse Analytics
 
-Microsoft Azure Synapse データソースは、Reveal 内でビッグ データを処理する際の速度を大幅に向上させます。これにより、大量のデータセットを速度低下することなく表示形式に使用できます。
+Microsoft Azure Synapse データ ソースは、Reveal 内でビッグ データを処理する際の速度を大幅に向上させます。これにより、大量のデータセットを速度低下することなく表示形式に使用できます。
 
-### Azure Synapse Analytics データソースの設定
+### Azure Synapse Analytics データ ソースの設定
 
-Microsoft Azure Synapse Analytics データソースを設定するには、以下の情報が必要です。
+Microsoft Azure Synapse Analytics データ ソースを設定するには、以下の情報が必要です。
 
 <img src="images/synapse-azure-configuration.png" alt="Configuring azure synapse data source dialog" width="80%"/>
 
-1. データソースの **デフォルト名**: データソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Microsoft Azure SQL Synapse Analytics* という名前を付けます。好みに合わせて変更できます。
+1. データ ソースの **デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Microsoft Azure SQL Synapse Analytics* という名前を付けます。好みに合わせて変更できます。
    
 2.  **[サーバー]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 
@@ -43,11 +43,11 @@ Microsoft Azure Synapse Analytics データソースを設定するには、以�
 
 MS Azure Synapse Analytics でデータベースに接続すると、表全体または特定のビューからデータを取得することを選択できます。
 
-Azure Synapse Analytics を使用する場合のビューの操作は、MS SQL Server を使用する場合のビューの操作とよく似ています。詳細については、**MS SQL Server データソース** トピックの[このセクション](Microsoft-SQL-Server.html#working-with-views)を参照してください。
+Azure Synapse Analytics を使用する場合のビューの操作は、MS SQL Server を使用する場合のビューの操作とよく似ています。詳細については、**MS SQL Server データ ソース** トピックの[このセクション](Microsoft-SQL-Server.html#working-with-views)を参照してください。
 
 ### 表示形式エディターでの制限事項
 
-Reveal でビッグ データを操作する場合、数百万のレコードを格納するデータソースを処理するために使用される特定のアプローチにより、表示形式エディターにはいくつかの制限があります。
+Reveal でビッグ データを操作する場合、数百万のレコードを格納するデータ ソースを処理するために使用される特定のアプローチにより、表示形式エディターにはいくつかの制限があります。
 
 #### 計算フィールドで使用できる関数の制限
 
@@ -59,4 +59,4 @@ Reveal でビッグ データを操作する場合、数百万のレコードを
 
 #### データ ブレンディングの制限
 
-現在、Azure Synapse Analytics データソースからのデータを使用する場合、データ ブレンディング ([データソースを 1 つの表示形式に統合](~/jp/datasources/data-blending.md)) は**使用できません**。
+現在、Azure Synapse Analytics データ ソースからのデータを使用する場合、データ ブレンディング ([データ ソースを 1 つの表示形式に統合](~/jp/datasources/data-blending.md)) は**使用できません**。

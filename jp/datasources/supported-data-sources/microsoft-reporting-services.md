@@ -2,13 +2,13 @@
 
 既存の Microsoft Reporting Services (SSRS) レポートをダッシュボードに PDF ファイルとして埋め込むか、レポートからデータを取得して表示形式を作成して、Reveal で使用できます。
 
-### Microsoft Reporting Services データソースの構成
+### Microsoft Reporting Services データ ソースの構成
 
-Microsoft Reporting Services (SSRS) データソースを構成するには、以下の情報が必要です。
+Microsoft Reporting Services (SSRS) データ ソースを構成するには、以下の情報が必要です。
 
 <img src="images/ssrs-configuration.png" alt="Set up menu for Microsoft Reporting Services data source" width="80%"/>
 
-1.  データソースの**デフォルト名**: データソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Microsoft Reporting Services* という名前を付けます。好みに合わせて変更できます。
+1.  データ ソースの**デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Microsoft Reporting Services* という名前を付けます。好みに合わせて変更できます。
 
 2.  **[URL]**: サーバーの URL。
 
@@ -38,5 +38,5 @@ Microsoft Reporting Services レポートへの接続を構成した後、以下
 
   - **[データの読み込み]** - レポートのデータは標準形式で読み込まれ、表示形式を作成するためのフィールドを提供します。
 
->[!NOTE] **表示形式エディターでデータソースを編集**
->読み込み後は変更できないため、レポート形式 (pdf または data) を選択してください。データソースを*編集する*場合、レポートのパラメーターの構成のみ変更できます。
+>[!NOTE] **表示形式エディターでデータ ソースを編集**
+>読み込み後は変更できないため、レポート形式 (pdf または data) を選択してください。データ ソースを*編集する*場合、レポートのパラメーターの構成のみ変更できます。

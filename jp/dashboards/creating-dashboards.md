@@ -4,7 +4,7 @@ Reveal のダッシュボード作成には以下のオプションが含まれ�
 
 1.  [ダッシュボード作成メニューにアクセス](#access-dashboard-creation-menu)
 
-2.  [データソースの追加](#add-data-source)
+2.  [データ ソースの追加](#add-data-source)
 
 3.  *オプション*[表示形式の変更](#modify-visualization)
 
@@ -17,18 +17,18 @@ Reveal のダッシュボード作成には以下のオプションが含まれ�
 
 <img src="images/create-new-dashboard.png" alt="Creating new dashboard" width="80%"/>
 
-[新しい表示形式] のダイアログが表示されます。データソースを使用して表示形式を作成します。
+[新しい表示形式] のダイアログが表示されます。データ ソースを使用して表示形式を作成します。
 
 <img src="images/new-visualization-dialog.png" alt="New visualization dialog" width="80%"/>
 
 <a name='add-data-source'></a>
-### データソースの追加
+### データ ソースの追加
 
-データソースが [データソースの選択] セクションにない場合は、右上側の [+ データソース] ボタンを選択します。新しいダイアログがポップアップして、すべてのデータソース カテゴリおよび利用可能なデータソースが表示されます。
+データ ソースが [データ ソースの選択] セクションにない場合は、右上側の [+ データ ソース] ボタンを選択します。新しいダイアログがポップアップして、すべてのデータ ソース カテゴリおよび利用可能なデータ ソースが表示されます。
 
 <img src="images/adding-data-source.png" alt="add data source to create dashboards" width="80%"/>
 
-データソースがコンテンツ マネージャーのスプレッドシートの場合、表示形式で使用する特定のシートを選択できます。
+データ ソースがコンテンツ マネージャーのスプレッドシートの場合、表示形式で使用する特定のシートを選択できます。
 
 <img src="images/select-data-source-sheet.png" alt="select a data sheet from an excel file data source" width="80%"/>
 
@@ -38,14 +38,14 @@ Reveal では [Dropbox](../datasources/supported-data-sources/Dropbox.html)、[O
 
 <img src="images/available-content-onedrive.png" alt="available content in OneDrive datasource account" width="80%"/>
 
-さらに、[SharePoint](../datasources/supported-data-sources/SharePoint.html) データソースを追加することもできるため、リストまたはライブラリにアクセスする機能が使用可能です。
+さらに、[SharePoint](../datasources/supported-data-sources/SharePoint.html) データ ソースを追加することもできるため、リストまたはライブラリにアクセスする機能が使用可能です。
 
 <img src="images/available-content-sharepoint.png" alt="available content in SharePoint datasource account" width="80%"/>
 
 <a name='modify-visualization'></a>
 ### 表示形式の変更
 
-データソースを追加した後、表示形式エディターが表示されます。デフォルトでは、ピボットの表示形式が選択されています。
+データ ソースを追加した後、表示形式エディターが表示されます。デフォルトでは、ピボットの表示形式が選択されています。
 
 <img src="images/dashboards-first-visualization.png" alt="dashboards first visualization in the visualization editor" width="80%"/>
 

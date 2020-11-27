@@ -106,7 +106,7 @@ services.AddRevealServices(new RevealEmbedSettings
 ```
 
 > [!NOTE]
-> **LocalFileStoragePath** は、ダッシュボード データソースとしてローカルの Excel ファイルまたは CSV ファイルを使用しており、_RevealSdkContext_ クラスが前述のように _IRevealSdkContext_ を実装している場合にのみ必要です。
+> **LocalFileStoragePath** は、ダッシュボード データ ソースとしてローカルの Excel ファイルまたは CSV ファイルを使用しており、_RevealSdkContext_ クラスが前述のように _IRevealSdkContext_ を実装している場合にのみ必要です。
 
 MVC サービスを追加するときに **AddReveal** 拡張メソッドを呼び出すことによって、Reveal エンドポイントを追加できます。以下はコードスニペットです。
 

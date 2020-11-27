@@ -18,10 +18,10 @@
   </tr>
      <tr>
     <td class="tg-0lax" rowspan="3">1.0.14</td>
-    <td class="tg-cly1"><span style="font-style:italic">新しい Amazon Athena データソース</span><br>Amazon Athena に接続して Amazon S3 からデータをクエリし、それを使用して Reveal で表示形式を構築できるようになりました。
+    <td class="tg-cly1"><span style="font-style:italic">新しい Amazon Athena データ ソース</span><br>Amazon Athena に接続して Amazon S3 からデータをクエリし、それを使用して Reveal で表示形式を構築できるようになりました。
 </td>
 <tr>
-    <td class="tg-cly1"><span style="font-style:italic">新しい Amazon S3 データソース</span><br>Reveal で Amazon S3 から直接データにアクセスします。
+    <td class="tg-cly1"><span style="font-style:italic">新しい Amazon S3 データ ソース</span><br>Reveal で Amazon S3 から直接データにアクセスします。
 </td>
   </tr>
 <tr>
@@ -32,14 +32,14 @@
 </tr>
    <tr>
     <td class="tg-0lax" rowspan="3">1.0.13</td>
-    <td class="tg-cly1"><span style="font-style:italic">新規の Amazon Redshift データソース</span><br>Amazon Redshift クラウド データ ウェアハウスのデータを使用して、新しいインサイトを得ることができます。
+    <td class="tg-cly1"><span style="font-style:italic">新規の Amazon Redshift データ ソース</span><br>Amazon Redshift クラウド データ ウェアハウスのデータを使用して、新しいインサイトを得ることができます。
 </td>
 <tr>
-    <td class="tg-cly1"><span style="font-style:italic">新しい Marketo データソース</span><br>Marketo マーケティング プラットフォームのアカウントに接続し、データを Reveal で使用します。
+    <td class="tg-cly1"><span style="font-style:italic">新しい Marketo データ ソース</span><br>Marketo マーケティング プラットフォームのアカウントに接続し、データを Reveal で使用します。
 </td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-style:italic">サーバーでデータを処理</span><br>MS SQL、MySQL、Postgres データソースからのデータをサーバー側で集計することが可能です。
+    <td class="tg-cly1"><span style="font-style:italic">サーバーでデータを処理</span><br>MS SQL、MySQL、Postgres データ ソースからのデータをサーバー側で集計することが可能です。
 </td>
   </tr>
   <tr>
@@ -47,11 +47,11 @@
     <td class="tg-cly1"><span style="font-style:italic">新しい階級区分図</span><br>階級区分図の表示形式により、美しい主題図を作成できます。地理空間データを驚くほどわかりやすく表示できます。色によって、マップ上のパターン、トレンド、および異常をすばやく発見できます。
 </td>
   <tr>
-    <td class="tg-cly1"><span style="font-style:italic">新規の Quickbooks データソース</span><br>Quickbooks アカウントに接続し、エンティティを使用して Reveal でデータ分析を実行します。
+    <td class="tg-cly1"><span style="font-style:italic">新規の Quickbooks データ ソース</span><br>Quickbooks アカウントに接続し、エンティティを使用して Reveal でデータ分析を実行します。
 </td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-style:italic">新しい Hubspot データソース</span><br>Hubspot オブジェクトを使用して、Reveal でダッシュボードを作成できるようになりました。
+    <td class="tg-cly1"><span style="font-style:italic">新しい Hubspot データ ソース</span><br>Hubspot オブジェクトを使用して、Reveal でダッシュボードを作成できるようになりました。
 </td>
   </tr>
   <tr>
@@ -59,20 +59,20 @@
 </td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-style:italic">Salesforce データソースの機能強化</span><br>Reveal で Salesforce レポートを使用できます。
+    <td class="tg-cly1"><span style="font-style:italic">Salesforce データ ソースの機能強化</span><br>Reveal で Salesforce レポートを使用できます。
 </td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-style:italic">SharePoint データソースの機能強化</span><br>SharePoint ライブラリのすべてのファイルについて収集されたメタデータ (名前、タイプなど) を Reveal のデータソースとして使用できるようになりました。
+    <td class="tg-cly1"><span style="font-style:italic">SharePoint データ ソースの機能強化</span><br>SharePoint ライブラリのすべてのファイルについて収集されたメタデータ (名前、タイプなど) を Reveal のデータ ソースとして使用できるようになりました。
 </td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-style:italic">PostgreSQL データソースの機能強化</span><br>PostgreSQL データベースの関数を使用して、ダッシュボードを作成できるようになりました。
+    <td class="tg-cly1"><span style="font-style:italic">PostgreSQL データ ソースの機能強化</span><br>PostgreSQL データベースの関数を使用して、ダッシュボードを作成できるようになりました。
 </td>
   </tr>
    <tr>
     <td class="tg-0lax" rowspan="2">1.0.10/1.0.11</td>
-    <td class="tg-cly1"><span style="font-style:italic">新しい Microsoft Azure Analysis Services データソース</span><br>この新しいデータソースにより、Azure Analysis Services のデータ モデルを使用してダッシュボードを作成できます。
+    <td class="tg-cly1"><span style="font-style:italic">新しい Microsoft Azure Analysis Services データ ソース</span><br>この新しいデータ ソースにより、Azure Analysis Services のデータ モデルを使用してダッシュボードを作成できます。
 </td>
 <tr>
     <td class="tg-cly1"><span style="font-style:italic">Google スプレッドシート ファイルの新しいアイコン</span><br>Google スプレッドシート ファイルのアイコンを変更しました。
@@ -88,7 +88,7 @@
 </td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">UI/UX の改善</span><br>表示形式、ダッシュボード、新しいデータソース ダイアログなどのユーザーエクスペリエンスを向上するために、小さな変更が追加されました。
+    <td class="tg-0lax"><span style="font-style:italic">UI/UX の改善</span><br>表示形式、ダッシュボード、新しいデータ ソース ダイアログなどのユーザーエクスペリエンスを向上するために、小さな変更が追加されました。
 </td>
   </tr>
   <tr>
@@ -101,10 +101,10 @@
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="5">1.0.7</td>
-    <td class="tg-cly1"><span style="font-style:italic">BigQuery Machine Learning との統合</span><br>Reveal のデータソースで BigQuery 機械学習モデルを使用できるようになりました。</td>
+    <td class="tg-cly1"><span style="font-style:italic">BigQuery Machine Learning との統合</span><br>Reveal のデータ ソースで BigQuery 機械学習モデルを使用できるようになりました。</td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-style:italic">新規の Salesforce データソース</span><br>この新しいデータソースは、Salesforce のオブジェクトのデータを使用してダッシュボードを作成できます。</td>
+    <td class="tg-cly1"><span style="font-style:italic">新規の Salesforce データ ソース</span><br>この新しいデータ ソースは、Salesforce のオブジェクトのデータを使用してダッシュボードを作成できます。</td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-style:italic">新規の Google アナリティクスの目標</span><br>Reveal は、Google アナリティクスで定義された目標の指標を表示し、データを詳細に分析します。</td>
@@ -123,16 +123,16 @@
     <td class="tg-0lax"><span style="font-style:italic">Azure Machine Learning モデルとの新たな統合</span><br>Reveal のデータを使用して Azure のモデルを評価し、その結果を可視フィールドとして使用できます。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">新規の Google Analytics データソース</span><br>この新しいデータソースは、Google Analytics の情報を使用してダッシュボードを作成できます。</td>
+    <td class="tg-0lax"><span style="font-style:italic">新規の Google Analytics データ ソース</span><br>この新しいデータ ソースは、Google Analytics の情報を使用してダッシュボードを作成できます。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">新規の Google BigQuery データソース</span><br>Reveal 内で Google の BigQuery ウェブサービスに接続し、大規模なデータセットをパフォーマンスを低下せずに処理できるようになりました。</td>
+    <td class="tg-0lax"><span style="font-style:italic">新規の Google BigQuery データ ソース</span><br>Reveal 内で Google の BigQuery ウェブサービスに接続し、大規模なデータセットをパフォーマンスを低下せずに処理できるようになりました。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">新しい Azure Synapse と Azure SQL データソース</span><br>Azure 分析サービスと SQL データベースに接続して、ビッグデータと高度なクエリ処理機能を操作します。</td>
+    <td class="tg-0lax"><span style="font-style:italic">新しい Azure Synapse と Azure SQL データ ソース</span><br>Azure 分析サービスと SQL データベースに接続して、ビッグデータと高度なクエリ処理機能を操作します。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">新しい Microsoft Reporting Services (SSRS) データソース</span><br>表示形式に既存の SSRS レポートを使用できるようになりました。それらを PDF ファイルとして埋め込み、またはレポートのデータを取得して独自の表示形式を作成できます。</td>
+    <td class="tg-0lax"><span style="font-style:italic">新しい Microsoft Reporting Services (SSRS) データ ソース</span><br>表示形式に既存の SSRS レポートを使用できるようになりました。それらを PDF ファイルとして埋め込み、またはレポートのデータを取得して独自の表示形式を作成できます。</td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-style:italic">フォルダーやチームのダッシュボード管理</span><br>フォルダーまたはチーム間でダッシュボードを移動およびコピーできるようになりました。</td>
@@ -186,7 +186,7 @@
     <td class="tg-0lax"><span style="font-style:italic">ダッシュボード レベルの操作の改善:</span><br>ダッシュボード最小化時に表示形式をインタラクティブに操作できるようになりました。ズーム、スクロール、ドリル ダウン、他のダッシュボードへのリンク、およびダッシュボードの表示形式を最大化せずにチャート ポイントの詳細 (ツールチップ) を表示します。</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-style:italic">クラウド ファイル共有の改善</span><br>Google ドライブ、OneDrive、Dropbox からデータソース ファイルへのアクセスを有効にして復元できるようになりました。共有されたダッシュボードに使用されるクラウド ファイルへのアクセスを要求します。</td>
+    <td class="tg-0lax"><span style="font-style:italic">クラウド ファイル共有の改善</span><br>Google ドライブ、OneDrive、Dropbox からデータ ソース ファイルへのアクセスを有効にして復元できるようになりました。共有されたダッシュボードに使用されるクラウド ファイルへのアクセスを要求します。</td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-style:italic">新しいコンボチャートの表示形式</span><br>新しい表示形式タイプを追加しました。コンボ (組み合わせ) チャート ビジュアリゼーション (2 つの Y 軸チャート) を使用して表示形式を構築できるようになりました。</td>

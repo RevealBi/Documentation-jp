@@ -54,7 +54,7 @@ Reveal に場所の列を認識させるには、場所の完全名または公�
 
 このチュートリアルを実行するには、[2016 November General Election](https://download.infragistics.com/reveal/help/samples/2016_November_General_Election.xlsx) スプレッドシートをダウンロードし、クラウド プロバイダーにアップロードして以下の手順を実行します。
 
-1. スプレッドシートをアップロードしたクラウド プロバイダーに接続します。Reveal でのデータソースの追加の詳細については、[データソース](~/jp/datasources/overview.md)セクションを参照してください。
+1. スプレッドシートをアップロードしたクラウド プロバイダーに接続します。Reveal でのデータ ソースの追加の詳細については、[データ ソース](~/jp/datasources/overview.md)セクションを参照してください。
 2. 表示形式エディターで、階級区分図の表示形式を選択します。
 
   <img src="images/select-visualization-choropleth-map.png" alt="Select choropleth map visualization from the Change Visualization menu in the Visualization editor" width="80%"/>

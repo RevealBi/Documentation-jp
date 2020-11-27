@@ -12,7 +12,7 @@ Reveal へようこそ！
 
 <img src="images/limited-permission-sign-in-o365.png" alt="Permissions request sign in with Office 365" width="40%"/>
 
-Reveal へのサインインに使用したアカウントに応じて、OneDrive または Google ドライブが[データソース](~/jp/datasources/overview.html)のリストに自動的に追加されます。さらに、[OneDrive](~/jp/datasources/supported-data-sources/onedrive.md) と [Google ドライブ](~/jp/datasources/supported-data-sources/google-drive.md)を初めて使用するときにのみ、制限された制限付きのアクセス許可を求められます。
+Reveal へのサインインに使用したアカウントに応じて、OneDrive または Google ドライブが[データ ソース](~/jp/datasources/overview.html)のリストに自動的に追加されます。さらに、[OneDrive](~/jp/datasources/supported-data-sources/onedrive.md) と [Google ドライブ](~/jp/datasources/supported-data-sources/google-drive.md)を初めて使用するときにのみ、制限された制限付きのアクセス許可を求められます。
 
 ### 初期画面
 

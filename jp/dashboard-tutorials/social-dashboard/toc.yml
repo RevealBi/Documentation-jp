@@ -1,6 +1,6 @@
 - name: Social Dashboard チュートリアル
   href: getting-started.md
-- name: ダッシュボードを作成してデータソースを追加
+- name: ダッシュボードを作成してデータ ソースを追加
   href: creating-the-dashboard.md
 - name: 初めての表示形式を作成
   href: selecting-data-visualization.md

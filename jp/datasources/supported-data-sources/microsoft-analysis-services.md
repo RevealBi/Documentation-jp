@@ -6,20 +6,20 @@ Microsoft SQL Analysis Services (SSAS) は、Microsoft SQL Server の OLAP (同�
 >[!NOTE] Microsoft Analysis Services は Reveal の Web バージョンでサポートされていません。
 
 
-### Microsoft Analysis Services データソースの構成
+### Microsoft Analysis Services データ ソースの構成
 
-Microsoft Analysis Services データソースを構成するときにサーバー設定に基づいて使用できるモジュールが 2 つあります - [*Native*](#native) および [*HTTP*](#http)。
+Microsoft Analysis Services データ ソースを構成するときにサーバー設定に基づいて使用できるモジュールが 2 つあります - [*Native*](#native) および [*HTTP*](#http)。
 
 Native および HTTP モードの詳細については、[Microsoft Instance Management ヘルプ (英語)](https://docs.microsoft.com/en-us/sql/analysis-services/instances/connect-to-analysis-services?view=sql-server-2017) をご覧ください。
 
 <a name='native'></a>
 #### Native の使用
 
-Microsoft Analysis Services データソースを *Native* モード用に構成するため、以下の情報が必要です。
+Microsoft Analysis Services データ ソースを *Native* モード用に構成するため、以下の情報が必要です。
 
 <img src="images/microsoft-analysis-native-configuration.png" alt="Configure Microsoft Analysis Services connection" width="80%"/>
 
-1. データソースの**デフォルト名**: データソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Microsoft Analysis Services* という名前を付けます。好みに合わせて変更できます。
+1. データ ソースの**デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Microsoft Analysis Services* という名前を付けます。好みに合わせて変更できます。
 
 2.  **[サーバー]**: サーバーが実行されているコンピューターのホスト名または IP アドレスです。
 
@@ -47,11 +47,11 @@ Microsoft Analysis Services データソースを *Native* モード用に構成
 <a name='http'></a>
 #### HTTP の使用
 
-Microsoft Analysis Services データソースを *HTTP* モード用に構成するため、以下の情報が必要です。
+Microsoft Analysis Services データ ソースを *HTTP* モード用に構成するため、以下の情報が必要です。
 
 <img src="images/miscrosoft-analysis-http-config.png" alt="Configure Microsoft Analysis HTTP mode connection" width="80%"/>
 
-1.  **データソース名**: このフィールドはデータソース リストに表示されます。デフォルト名: *Microsoft Analysis Services*。
+1.  **データ ソース名**: このフィールドはデータ ソース リストに表示されます。デフォルト名: *Microsoft Analysis Services*。
 
 2.  **[URL]**: サーバーの HTTP eService URL。例: *10.1.0.15/olap/msmdpump.dll*。
 
@@ -72,7 +72,7 @@ Analysis Services サーバーの資格情報が確認されたら、Reveal は�
 <a name='visualization-editor'></a>
 ### 表示形式エディターでの作業
 
-Microsoft Analysis Services などのキューブ データソースを使用してダッシュボードを作成すると、*表示形式エディター*でフィールドが異なって体系化されます (下のスクリーンショットを参照)。キューブのデータソースは、キューブのデザイナーが事前に作成した階層と集計で構成されています。
+Microsoft Analysis Services などのキューブ データ ソースを使用してダッシュボードを作成すると、*表示形式エディター*でフィールドが異なって体系化されます (下のスクリーンショットを参照)。キューブのデータ ソースは、キューブのデザイナーが事前に作成した階層と集計で構成されています。
 
 <img src="images/VisEditorDimensionsMeasures_All.png" alt="VisEditorDimensionsMeasures\_All" width="80%"/>
 

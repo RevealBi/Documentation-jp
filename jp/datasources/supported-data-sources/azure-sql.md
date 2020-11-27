@@ -2,11 +2,11 @@
 
 > [!NOTE] **Web の制限**。Azure SQL のプライベート URL には、Reveal Web からアクセスできません。デスクトップ、iOS、または Android アプリを使用して、プライベート アドレスに接続できます。
 
-Azure SQL データソースを構成するには、以下の情報が必要です。
+Azure SQL データ ソースを構成するには、以下の情報が必要です。
 
 <img src="images/enter-Azure-SQL-details.png" alt="Opening Reveal's AzureSQL data source configuration screen" width="80%"/>
 
-1.  **データソース名**: このフィールドはデータソース リストに表示されます。
+1.  **データ ソース名**: このフィールドはデータ ソース リストに表示されます。
 
 2.  **[サーバー]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 
@@ -14,7 +14,7 @@ Azure SQL データソースを構成するには、以下の情報が必要で�
 
 4.  **[資格情報]**: [資格情報] を選択した後、Azure SQL の資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
 
-      - データソースの**デフォルト名**: データソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Microsoft Azure SQL Database* という名前を付けます。好みに合わせて変更できます。
+      - データ ソースの**デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Microsoft Azure SQL Database* という名前を付けます。好みに合わせて変更できます。
 
 
       - (オプション) の **[ドメイン]**:  ドメイン名 (該当する場合)。
@@ -29,7 +29,7 @@ Azure SQL データソースを構成するには、以下の情報が必要で�
 
 ### 詳細情報
 
-以下の詳細については、Reveal の両データソースは同様に機能するため、[**SQL Server**](microsoft-sql-server.html#how-to-find-server) を参照してください。
+以下の詳細については、Reveal の両データ ソースは同様に機能するため、[**SQL Server**](microsoft-sql-server.html#how-to-find-server) を参照してください。
 
   - サーバー情報を見つける方法
 

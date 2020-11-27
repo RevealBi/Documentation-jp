@@ -12,7 +12,7 @@ Reveal は、埋め込み分析用に構築された最新の BI ソリューシ
 
 <h4 style="color:#2328B0;">データに安全に接続し、強力なデータ視覚化を構築する</h4>
 
-人気のあるデータソースへ、特別なサーバー設定なしで接続できます。SharePoint オンライン、Googleドライブ、OneDrive、Microsoft Analysis Services、Microsoft SQL Server、CRM などに直接接続して、リアルタイムなインサイトを取得します。
+人気のあるデータ ソースへ、特別なサーバー設定なしで接続できます。SharePoint オンライン、Googleドライブ、OneDrive、Microsoft Analysis Services、Microsoft SQL Server、CRM などに直接接続して、リアルタイムなインサイトを取得します。
 
 <img src="dashboards/images/adding-data-source.png" alt="Connecting to data in Reveal" width="80%"/>
 
@@ -47,14 +47,14 @@ Reveal は、埋め込み分析用に構築された最新の BI ソリューシ
 
 <h4 style="color:#2328B0;">機械学習でより良いインサイトを得る</h4>
 
-Reveal で BigQuery または Azure Machine Learning Studio からのトレーニング済みモデルのデータを使用します。たった 3 つの手順で、データソースを選択し、表示形式を構築し、統合を使用して、トレーニングされた機械学習モデルに接続します。
+Reveal で BigQuery または Azure Machine Learning Studio からのトレーニング済みモデルのデータを使用します。たった 3 つの手順で、データ ソースを選択し、表示形式を構築し、統合を使用して、トレーニングされた機械学習モデルに接続します。
 
 <img src="datasources/ml-integration/images/ml-models-list-bigquery.png" alt="Connecting to a trained machine learning model in Reveal" width="80%"/>
 
 ### 新機能
 
-* [Amazon Athena](~/jp/datasources/supported-data-sources/athena.md) データソース – Amazon Athena に接続して Amazon S3 からデータをクエリし、それを使用して Reveal で表示形式を構築できるようになりました。
-* [Amazon S3](~/jp/datasources/supported-data-sources/amazon-s3.md) データソース – Reveal で Amazon S3 から直接データにアクセスできるようになりました。
+* [Amazon Athena](~/jp/datasources/supported-data-sources/athena.md) データ ソース – Amazon Athena に接続して Amazon S3 からデータをクエリし、それを使用して Reveal で表示形式を構築できるようになりました。
+* [Amazon S3](~/jp/datasources/supported-data-sources/amazon-s3.md) データ ソース – Reveal で Amazon S3 から直接データにアクセスできるようになりました。
 
 ### Reveal はどこで入手できますか?
 

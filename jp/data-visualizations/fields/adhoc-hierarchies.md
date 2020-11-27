@@ -4,7 +4,7 @@ Reveal は年月日の日付フィールドの階層を自動的に作成しま�
 
 <img src="images/ad-hoc-hierarchies_All.png" alt="Ad Hoc Hierarchies example in the Visualization editor" width="80%"/>
 
-この機能は、Analysis Services などの多次元データソースではなく、プレーン データソース (SQLテーブル、Excel スプレッドシート、CSVファイルなど) に適用されます。
+この機能は、Analysis Services などの多次元データ ソースではなく、プレーン データ ソース (SQLテーブル、Excel スプレッドシート、CSVファイルなど) に適用されます。
 これらの場合、階層はサーバー側で定義され、Reveal は展開およびドリル操作をサポートします。
 
 >[!NOTE]

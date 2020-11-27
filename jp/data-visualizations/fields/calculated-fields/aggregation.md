@@ -1,7 +1,7 @@
 ## 集計計算フィールド
 
 
-集計式は元のデータソースを操作してその値を分析し、多くの場合、再編成するか、単にそれに含まれる情報を要約する場合に便利です。異なる値 (`average` など) の計算や最大  `max` と `min` の検索に使用することも可能です。そのため、**すべての数式**は**数値フィールドのみで使用します**。
+集計式は元のデータ ソースを操作してその値を分析し、多くの場合、再編成するか、単にそれに含まれる情報を要約する場合に便利です。異なる値 (`average` など) の計算や最大  `max` と `min` の検索に使用することも可能です。そのため、**すべての数式**は**数値フィールドのみで使用します**。
 
 Reveal では、集計計算フィールドに以下が含まれます。
 
@@ -41,7 +41,7 @@ Reveal では、集計計算フィールドに以下が含まれます。
     <td class="tg-cly1"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm">averageif([Wage],[OfficeId]=1)</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">count</span>: <span class="gray-snippet-cstm">count</span> 集計は、データソースの行数である<span style="font-weight:bold">数値</span>を返します。その他の引数は必要ありません。</td>
+    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">count</span>: <span class="gray-snippet-cstm">count</span> 集計は、データ ソースの行数である<span style="font-weight:bold">数値</span>を返します。その他の引数は必要ありません。</td>
     <td class="tg-cly1"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm">count()</span></td>
   </tr>
   <tr>
@@ -112,7 +112,7 @@ Reveal では、集計計算フィールドに以下が含まれます。
 
 2 つの引数を定義する必要があります。
 
-  - `式`: データソースのフィールドの 1 つを選択します。
+  - `式`: データ ソースのフィールドの 1 つを選択します。
 
   - `if-条件`: if 条件は論理テストの実行が必要です。`if-条件`の`論理テスト`は、集計を計算するための式に必要な条件です。
 

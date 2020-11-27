@@ -6,12 +6,12 @@
 
 <img src="images/application-themes.png" alt="Application themes in Settings" width="80%"/>
 
-ライト (デフォルト) とダーク テーマから選択できます。これらの色は、ダッシュボード名の背景色、データソースダイアログなど、アプリケーションの UI の一部を変更します。以下は、各テーマの画面のほんの一例です。
+ライト (デフォルト) とダーク テーマから選択できます。これらの色は、ダッシュボード名の背景色、データ ソースダイアログなど、アプリケーションの UI の一部を変更します。以下は、各テーマの画面のほんの一例です。
 
 | **スクリーン名**     | **ライト**                                                                                   | **ダーク**                                                                                  |
 | ------------------- | ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 | ダッシュボード セレクター  | <img src="images/creating-dashboard-light-theme.png" alt="Creating a Dashboard in Light Theme" width="80%"/>           | <img src="images/creating-dashboard-dark-theme.png" alt="Creating a Dashboard in Dark Theme" width="80%"/>           |
-| データソース クリエーター | <img src="images/create-new-data-source-light-theme.png" alt="Creating a New Data Source in Light Theme" width="80%"/> | <img src="images/create-new-data-source-dark-theme.png" alt="Creating a New Data Source in Dark Theme" width="80%"/> |
+| データ ソース クリエーター | <img src="images/create-new-data-source-light-theme.png" alt="Creating a New Data Source in Light Theme" width="80%"/> | <img src="images/create-new-data-source-dark-theme.png" alt="Creating a New Data Source in Dark Theme" width="80%"/> |
 | チーム クリエーター       | <img src="images/team-creation-light-theme.png" alt="Team Creation in Light Theme" width="80%"/>                       | <img src="images/team-creation-dark-theme.png" alt="Team Creation in Dark Theme" width="80%"/>                       |
 
 *Match OS* 機能をオンにすると、Reveal のテーマは、オペレーティング システムのテーマが変更されるたびに自動的に変更されます。

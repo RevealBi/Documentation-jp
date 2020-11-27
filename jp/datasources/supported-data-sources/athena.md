@@ -1,12 +1,12 @@
 ## Amazon Athena 
 
-Reveal の Amazon Athena データソースを使用すると、[Amazon S3](amazon-s3.md) に保存されている非構造化データにアクセスしてクエリを実行し、それを表示形式に使用できます。
+Reveal の Amazon Athena データ ソースを使用すると、[Amazon S3](amazon-s3.md) に保存されている非構造化データにアクセスしてクエリを実行し、それを表示形式に使用できます。
 
-Amazon Athena のデータソースを設定するには、以下の情報が必要です:
+Amazon Athena のデータ ソースを設定するには、以下の情報が必要です:
 
 <img src="images/configure-amazon-athena-dialog.png" alt="Configure Amazon Athena dialog" width="80%"/>
 
-1.  データソースの **デフォルト名**: データソース名は [データソースの選択] ダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Amazon Athena* という名前を付けます。好みに合わせて変更できます。
+1.  データ ソースの **デフォルト名**: データ ソース名は [データ ソースの選択] ダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Amazon Athena* という名前を付けます。好みに合わせて変更できます。
    
 2. **[地域]**: Amazon の地域は、ドロップダウンに名前とコードとともに一覧表示されます。必要なデータがある場所を選択してください。
 
@@ -24,11 +24,11 @@ Amazon Athena のデータソースを設定するには、以下の情報が必
    >[!NOTE]
    > Reveal でクエリ結果の場所 (QRL) を指定したが、この場所で出力が見つからない場合は、カスタム QRL を使用できないようにする設定について、Athena のワークグループ構成を確認してください。詳細については、Athena のユーザーガイドの[クエリ結果の場所の指定](https://docs.aws.amazon.com/ja_jp/athena/latest/ug/querying.html#query-results-specify-location)を参照してください。
 
-6. **アテネ データソース**:  データベースを含む データ カタログとしても知られています。Athena アカウントに接続した後に表示されるリストから選択できます (手順 1-3 を参照)。
+6. **アテネ データ ソース**:  データベースを含む データ カタログとしても知られています。Athena アカウントに接続した後に表示されるリストから選択できます (手順 1-3 を参照)。
 
 ### データの設定
 
-Athena データソース接続を構成した後、前のダイアログで選択したデータソース (カタログ) からデータベースを選択するように求められます。
+Athena データ ソース接続を構成した後、前のダイアログで選択したデータ ソース (カタログ) からデータベースを選択するように求められます。
 
 <img src="images/athena-set-up-database-views.png" alt="Configure Amazon Athena dialog" width="80%"/>
 

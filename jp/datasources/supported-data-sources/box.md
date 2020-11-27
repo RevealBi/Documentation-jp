@@ -1,6 +1,6 @@
 ## Box
 
-データソースとして Box を選択すると、以下のログイン プロンプトが表示されます。
+データ ソースとして Box を選択すると、以下のログイン プロンプトが表示されます。
 
 <img src="images/box-login.png" alt="Box login prompt" width="80%"/>
 

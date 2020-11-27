@@ -1,7 +1,7 @@
 ## Marketo 
 
 Marketo の REST API は、2-legged OAuth 2.0 で認証されています。
-Reveal で Marketo データソース接続を構成するには、次の接続情報を提供する必要があります: 
+Reveal で Marketo データ ソース接続を構成するには、次の接続情報を提供する必要があります: 
 
 <img src="images/marketo-configure-login-screen.png" alt="Data source connection configuring screen" width="80%"/>
 

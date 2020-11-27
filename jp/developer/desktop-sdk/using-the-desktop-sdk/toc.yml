@@ -12,9 +12,9 @@
   href: maximizing-visualizations.md
 - name: インメモリ データのサポート
   href: in-memory-data.md
-- name: データソースへの資格情報の提供
+- name: データ ソースへの資格情報の提供
   href: providing-credentials-datasources.md
-- name: データソースの置き換え
+- name: データ ソースの置き換え
   href: replacing-data-sources.md
 - name: ローカリゼーション サービスの使用
   href: localization-service.md

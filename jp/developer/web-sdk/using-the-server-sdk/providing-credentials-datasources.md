@@ -1,8 +1,8 @@
-## データソースへ資格情報を提供
+## データ ソースへ資格情報を提供
 
 ### 概要
 
-Server SDK では、データソースにアクセスするときに使用される一連の資格情報を渡すことができます。
+Server SDK では、データ ソースにアクセスするときに使用される一連の資格情報を渡すことができます。
 
 ### コード
 
@@ -37,7 +37,7 @@ public class EmbedAuthenticationProvider : IRVAuthenticationProvider
 
 ### 実装するクラスの選択
 
-使用できるクラスは 2 つあり、どちらも __IRVDataSourceCredential__ インターフェイスを実装します。以下に詳述するように、データソースに応じてクラスを選択する必要があります。
+使用できるクラスは 2 つあり、どちらも __IRVDataSourceCredential__ インターフェイスを実装します。以下に詳述するように、データ ソースに応じてクラスを選択する必要があります。
 
   - クラス __RVBearerTokenDataSourceCredential__ は以下で動作します。
 
@@ -53,11 +53,11 @@ public class EmbedAuthenticationProvider : IRVAuthenticationProvider
 
   - **両クラス**は以下と動作します。
 
-      - その他のデータソース (OData フィード、Web Resources、REST API)。
+      - その他のデータ ソース (OData フィード、Web Resources、REST API)。
 
 ### 認証なし
 
-認証なしで匿名のリソースで作業することがあります。この場合、空のコンストラクタを持つ __RVUsernamePasswordDataSourceCredential__ を使用できます。これは、そのクラスで機能するすべてのデータソースに対して実行できます。
+認証なしで匿名のリソースで作業することがあります。この場合、空のコンストラクタを持つ __RVUsernamePasswordDataSourceCredential__ を使用できます。これは、そのクラスで機能するすべてのデータ ソースに対して実行できます。
 
 上記のサンプルで使用したコード スニペット:
 

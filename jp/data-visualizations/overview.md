@@ -248,7 +248,7 @@ td {
 
 ### 表示形式チュートリアル 
 
-このセクションでは、Reveal の表示形式の作成手順を説明します。すべてのセクションのデータ可視化に使用しているデータソースは、[こちら](http://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx)からダウンロードしてください。表示形式がサポートされる各ウィジェットの情報については、ヘルプの [データ可視化] セクションを参照してください。
+このセクションでは、Reveal の表示形式の作成手順を説明します。すべてのセクションのデータ可視化に使用しているデータ ソースは、[こちら](http://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx)からダウンロードしてください。表示形式がサポートされる各ウィジェットの情報については、ヘルプの [データ可視化] セクションを参照してください。
 
 <table>
 <colgroup>

@@ -29,7 +29,7 @@
     <td class="tg-cly1"><span style="font-weight:bold">サンプル</span>:<span class="gray-snippet-cstm"> previous([Wage],1)</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">row</span>: <span class="gray-snippet-cstm">row</span> は、データソース内のすべての行の現在の行の番号を返します。</td>
+    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">row</span>: <span class="gray-snippet-cstm">row</span> は、データ ソース内のすべての行の現在の行の番号を返します。</td>
     <td class="tg-cly1"><span style="font-weight:bold">構文</span>:<span class="gray-snippet-cstm"> row()</span></td>
   </tr>
   <tr>
@@ -42,7 +42,7 @@
 
 previous の計算フィールドでは、`式`で選択したフィールドの値で結果を取得できます。引数を 2 つ設定します。
 
-  - `式`:  データソースのフィールドの 1 つ。
+  - `式`:  データ ソースのフィールドの 1 つ。
 
   - `最初の値`: デフォルトで空の最初の行の値。
 

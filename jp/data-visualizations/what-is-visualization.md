@@ -28,11 +28,11 @@
 
 ### 表示形式の作成方法
 
-[+] 記号を選択して新しいダッシュボードを追加すると、新しい[データソース](~/jp/datasources/overview.md)または既存のデータソースを入力するよう求められます。表示形式の作成にはじめに行う必要のある手順です。
+[+] 記号を選択して新しいダッシュボードを追加すると、新しい[データ ソース](~/jp/datasources/overview.md)または既存のデータ ソースを入力するよう求められます。表示形式の作成にはじめに行う必要のある手順です。
 
 <img src="images/creating-new-visualization.png" alt="Creating a new visualization dialog" width="80%"/>
 
-データソースを選択すると、表示形式が作成されます。[表示形式エディター](visualizations-editor.html)を使用して編集できます。
+データ ソースを選択すると、表示形式が作成されます。[表示形式エディター](visualizations-editor.html)を使用して編集できます。
 
 ### 表示形式の編集
 

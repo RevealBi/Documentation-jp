@@ -1,4 +1,4 @@
-## データソースの置き換え
+## データ ソースの置き換え
 
 ### 概要
 
@@ -12,7 +12,7 @@ public IRVDataSourceProvider DataSourceProvider { get; set; }
 
 インターフェイス
 __IRVDataSourceProvider__
-を実装するクラスは、特定の可視化またはダッシュボード フィルターによって使用されるデータソースを置換または変更することができます。
+を実装するクラスは、特定の可視化またはダッシュボード フィルターによって使用されるデータ ソースを置換または変更することができます。
 
 ### 使用事例
 
@@ -22,11 +22,11 @@ __IRVDataSourceProvider__
 
   - 使用されているテーブルの名前、ロードするファイルのパスなどを変更することができます。ユースケースは上記のものと似ています。
 
-  - データソースをメモリ内のデータソースに置き換えることができます。Reveal App はインメモリ データソースをサポートしていないため、CSV ファイルを使用してダッシュボードを設計し、このコールバックを使用して CSV データソースをインメモリデータソースに置き換えることができます。このシナリオでは、データは実際にメモリからロードされます (またはカスタムデータローダを使用して)。インメモリ データソースの使用方法の詳細については、[**インメモリ データのサポート**](in-memory-data.html)を参照してください。
+  - データ ソースをメモリ内のデータ ソースに置き換えることができます。Reveal App はインメモリ データ ソースをサポートしていないため、CSV ファイルを使用してダッシュボードを設計し、このコールバックを使用して CSV データ ソースをインメモリデータ ソースに置き換えることができます。このシナリオでは、データは実際にメモリからロードされます (またはカスタムデータローダを使用して)。インメモリ データ ソースの使用方法の詳細については、[**インメモリ データのサポート**](in-memory-data.html)を参照してください。
 
 ### コード
 
-次のコードスニペットは、ダッシュボードの可視化のためにデータソースを置き換える方法の例を示しています。メソッド __ChangeVisualizationDataSourceItemAsync__
+次のコードスニペットは、ダッシュボードの可視化のためにデータ ソースを置き換える方法の例を示しています。メソッド __ChangeVisualizationDataSourceItemAsync__
 は、開かれているすべてのダッシュボードで、すべての可視化に対して呼び出されます。
 
 ``` csharp
@@ -54,7 +54,7 @@ public class SampleDataSourceProvider : IRVDataSourceProvider
                 return Task.FromResult((RVDataSourceItem)sqlServerDsi);
       }
 
-      // データソース アイテムを新しいアイテムと置き換える
+      // データ ソース アイテムを新しいアイテムと置き換える
       if (visualization.Title == "Top Customers")
       {
           var sqlDs = new RVSqlServerDataSource();
@@ -72,12 +72,12 @@ public class SampleDataSourceProvider : IRVDataSourceProvider
 
 上記の例では、次の 2 つの置換が実行されます。
 
-  - MS SQL Server データベースを使用するすべてのデータソースは、ハードコードされたサーバー 10.0.0.20、Adventure Works データベース、および Employees テーブルを使用するように変更されます。
+  - MS SQL Server データベースを使用するすべてのデータ ソースは、ハードコードされたサーバー 10.0.0.20、Adventure Works データベース、および Employees テーブルを使用するように変更されます。
 
     > [!NOTE]
-    > これは単純化されたシナリオで、同じテーブルからデータを取得するためにすべての可視化を置き換えても、現実のシナリオとしては意味がありません。実際のアプリケーションでは、userId、dashboardId、データソース自体の値 (サーバー、データベースなど) などの追加情報を使用して新しい値を推測します。
+    > これは単純化されたシナリオで、同じテーブルからデータを取得するためにすべての可視化を置き換えても、現実のシナリオとしては意味がありません。実際のアプリケーションでは、userId、dashboardId、データ ソース自体の値 (サーバー、データベースなど) などの追加情報を使用して新しい値を推測します。
 
-  - Top Customers というタイトルのすべてのウィジェットは、Customers テーブルを使用して salesdb.local サーバーの Sales データベースからデータを取得する新しい SQL Server データソースに設定されます。
+  - Top Customers というタイトルのすべてのウィジェットは、Customers テーブルを使用して salesdb.local サーバーの Sales データベースからデータを取得する新しい SQL Server データ ソースに設定されます。
 
 __IRVDataSourceProvider__ の実装に加え、__RevealSdkSettings__ の __DataSourceProvider__ プロパティに実装を設定します。
 

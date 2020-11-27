@@ -1,6 +1,6 @@
 ## Salesforce
 
-Salesforce データソースを選択すると、以下のログイン プロンプトが表示されます。
+Salesforce データ ソースを選択すると、以下のログイン プロンプトが表示されます。
 
 <img src="images/salesforce-login-prompt.png" alt="Salesforce login prompt" width="40%"/>
 
@@ -30,6 +30,6 @@ ID 認証が有効な場合は、送信された**確認コード**を入力す�
 
 上のダイアログでは、フィルターは Salesforce のデフォルト値で事前設定されています。これらの値を変更するには、各フィルターの横にあるドロップダウンを使用します。
 
-その後、データソースを [編集] を選択することで、表示形式エディターでレポート フィルターの値を変更できます (以下を参照)。
+その後、データ ソースを [編集] を選択することで、表示形式エディターでレポート フィルターの値を変更できます (以下を参照)。
 
 <img src="images/edit-salesforce-data-source.png" alt="Edit your data source in the Visualization editor" width="80%"/>

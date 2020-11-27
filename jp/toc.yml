@@ -38,19 +38,19 @@
   href: dashboards/sharing-dashboards/toc.yml
 - name: ダッシュボードのリンク
   href: dashboards/dashboard-linking.md
-- name: データソース
+- name: データ ソース
   header: true
 - name: 概要
   href: datasources/overview.md
-- name: サポートされているデータソース
+- name: サポートされているデータ ソース
   href: datasources/supported-data-sources/toc.yml
-- name: データソース資格情報の管理
+- name: データ ソース資格情報の管理
   href: datasources/managing-data-source-credentials.md
-- name: 表示形式に使用するデータソースの変更
+- name: 表示形式に使用するデータ ソースの変更
   href: datasources/changing-data-source-visualization.md
-- name: データソースを 1 つの表示形式に統合
+- name: データ ソースを 1 つの表示形式に統合
   href: datasources/data-blending.md
-- name: ダッシュボードをデータソースに接続
+- name: ダッシュボードをデータ ソースに接続
   href: datasources/connect-dashboard-to-data-source.md
 - name: REST、OData、およびウェブ リソースを使用した OAuth 2 / OIDC ユーザー認証
   href: datasources/oauth-2-oidc-user-authentication.md

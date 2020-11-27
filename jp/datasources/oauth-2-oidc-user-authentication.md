@@ -16,11 +16,11 @@ OIDC は OAuth 2.0 プロトコルの上にあるシンプルな ID レイヤー
 
 ### OAuth 2 / OIDC アカウントで保護されたリソースを使用
 
-OAuth 2 / OIDC アカウントでデータソースを使用するには、以下の 4 つの手順を実行する必要があります。
+OAuth 2 / OIDC アカウントでデータ ソースを使用するには、以下の 4 つの手順を実行する必要があります。
 
 1.  **OAuth クライアント (Reveal) をリソース サーバーに登録する** (これは、Microsoft、Google など、使用したい OAuth で保護されたリソースをホストするサーバーです) 。
 
-2.  OAuth2 / OIDC アカウントで使用できる Reveal の 3 つの**データソース**の 1 つを選択する - [OData フィード](supported-data-sources/odata-feed.html)、[Rest API](supported-data-sources/rest-api.html)、または[ウェブ リソース](supported-data-sources/web-resource.html)。
+2.  OAuth2 / OIDC アカウントで使用できる Reveal の 3 つの**データ ソース**の 1 つを選択する - [OData フィード](supported-data-sources/odata-feed.html)、[Rest API](supported-data-sources/rest-api.html)、または[ウェブ リソース](supported-data-sources/web-resource.html)。
 
 3.  リソース サーバーがクライアントに提供した資格情報を使用して、**Reveal で OAuth 2 / OIDC アカウントを設定する**。
 
@@ -35,11 +35,11 @@ OAuth 2 / OIDC アカウントでデータソースを使用するには、以�
 
 登録が完了すると、リソース サーバーは Reveal で *OAuth 2 アカウント*を構成するために必要な資格情報を生成します。
 
-### データソースの選択
+### データ ソースの選択
 
-1.  Reveal に移動し、**データソース** (Odata フィード、Rest API 、またはウェブ リソース) **を選択する**。
+1.  Reveal に移動し、**データ ソース** (Odata フィード、Rest API 、またはウェブ リソース) **を選択する**。
 
-2.  このデータソースに意味のある**名前**を付ける。
+2.  このデータ ソースに意味のある**名前**を付ける。
 
 3.  データの **URL** を提供する。
 
@@ -57,7 +57,7 @@ OAuth 2 / OIDC アカウントでデータソースを使用するには、以�
 
 以下のフィールドは必須です。
 
-1.  データソースの**デフォルト名**: データソース名はアカウントのリストに表示されます (リソース サーバーが提供する資格情報ではありません)。好みに合わせて名前を変更するには、鉛筆アイコンを選択します。
+1.  データ ソースの**デフォルト名**: データ ソース名はアカウントのリストに表示されます (リソース サーバーが提供する資格情報ではありません)。好みに合わせて名前を変更するには、鉛筆アイコンを選択します。
 
 2.  **[URL 認証]**: 認証 URL は通常、次のような形式です: <https://authorization-server.com/oauth2/authorize> (例: <https://login.microsoftonline.com/common/oauth2/authorize>)。
 
@@ -80,6 +80,6 @@ OAuth 2 / OIDC アカウントを構成した後、サインイン画面にリ�
 
 <img src="images/permissions-request.png" alt="Permissions Request dialog" width="60%"/>
 
-必要なアクセス許可を与えた後、保護されたデータソースのデータを使用して、Reveal で表示形式とダッシュボードを構築できます。
+必要なアクセス許可を与えた後、保護されたデータ ソースのデータを使用して、Reveal で表示形式とダッシュボードを構築できます。
 
-構成した OAuth 2 / OIDC アカウントは、今後使用するためにアカウントのデータソース リストに保存されます。
+構成した OAuth 2 / OIDC アカウントは、今後使用するためにアカウントのデータ ソース リストに保存されます。

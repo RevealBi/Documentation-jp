@@ -4,7 +4,7 @@ SharePoint を選択すると、次のログイン プロンプトが表示さ�
 
 <img src="images/sharepoint-login.png" alt="SharePoint Login" width="80%"/>
 
-ここでは、Office365 アカウントでルートの SharePoint サイトを使用することを選択できます。*サブサイト URL* を追加して、コンテンツのブラウズを直接開始することもできます。SharePoint サブサイトに接続すると、[データソースの選択] ダイアログのリストからすばやくアクセスできるようになります。
+ここでは、Office365 アカウントでルートの SharePoint サイトを使用することを選択できます。*サブサイト URL* を追加して、コンテンツのブラウズを直接開始することもできます。SharePoint サブサイトに接続すると、[データ ソースの選択] ダイアログのリストからすばやくアクセスできるようになります。
 
 <a name='supported-files'></a>
 ### サポートされるファイル
@@ -46,4 +46,4 @@ Reveal では、SharePoint サイト (サブサイト) の広範な種類のフ�
 
 >[!NOTE]
 >**Reveal のライブラリのメタデータと SharePoint の管理されたメタデータを混同しないでください!**
-Reveal でデータソースとして使用できるドキュメント ライブラリから収集したメタデータを、SharePoint でユーザーが作成し、大規模なデータ リストの整理とフィルタリングに使用する管理されたメタデータと混同しないでください。管理されたメタデータの詳細については、[この SharePoint ドキュメント トピック](https://docs.microsoft.com/ja-jp/sharepoint/managed-metadata) をご覧ください。
+Reveal でデータ ソースとして使用できるドキュメント ライブラリから収集したメタデータを、SharePoint でユーザーが作成し、大規模なデータ リストの整理とフィルタリングに使用する管理されたメタデータと混同しないでください。管理されたメタデータの詳細については、[この SharePoint ドキュメント トピック](https://docs.microsoft.com/ja-jp/sharepoint/managed-metadata) をご覧ください。

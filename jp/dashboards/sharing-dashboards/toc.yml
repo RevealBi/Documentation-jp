@@ -1,6 +1,6 @@
 - name: ダッシュボードの共有方法
   href: share-a-dashboard.md 
-- name: クラウド ファイルをデータソースとするダッシュボードの共有
+- name: クラウド ファイルをデータ ソースとするダッシュボードの共有
   href: sharing-dashboards-datasource-files-cloud-provider.md
 - name: クラウド ファイルを使用した共有ダッシュボードへのアクセスのリクエスト
   href: request-access-shared-dashboards-cloud-files.md

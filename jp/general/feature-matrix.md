@@ -4,7 +4,7 @@
 
 | 機能                                           | ReportPlus                                    | Reveal                                    |
 | ------------------------------------------------- | --------------------------------------------- | ----------------------------------------- |
-| **データソース**                                  |                                               |                                           |
+| **データ ソース**                                  |                                               |                                           |
 | appFigures                                        | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
 | Box                                               | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
 | Dropbox                                           | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
