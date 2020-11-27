@@ -57,13 +57,13 @@ Reveal では、情報を可覚化する方法をカスタマイズするため�
 
 <img src="images/editing-visualization-fields-preview.png" alt="editing visualization fields preview" width="80%"/>
 
-表示形式を変更した後**ダッシュボード エディター**に移動されます。You will see **Undo**, **Redo**, and the **+Visualization** split button on the top right-hand corner. Next to these buttons you will also find the overflow menu of the dashboard where you can choose to change the dashboard theme, switch on/off **Auto Layout**, **export** or **save** the dashboard. 
+表示形式を変更した後**ダッシュボード エディター**に移動されます。右上側に **[元に戻す]**、**[やり直し]**、および **[+ 追加]** の分割ボタンが表示されます。これらのボタンの横には、ダッシュボードのオーバーフロー メニューもあります。 そこで、ダッシュボードの **[テーマ]** の変更、**[自動レイアウト]** のオン/オフ、ダッシュボードの **[エクスポート]**、またはダッシュボードに **[名前をつけて保存]** ボタンを選択できます。
 
-You can also use the overflow menu in the top right corner of the visualizations to rename, edit, **copy** or **duplicate** them. 
+表示形式の右上隅にあるオーバーフロー メニューを使用して、表示形式の **[名前を変更]**、**[編集]**、**[コピー]**、または **[複製]** できます。 
 
->[NOTE!] The **difference between copying and duplicating** a visualization is that duplicating works only inside the same dashboard and the copy option allows you to put the visualization in the same or a different dashboard. 
+>[NOTE!] 表示形式の**コピーと複製の違い**は、複製は同じダッシュボード内でのみ機能し、コピー オプションを使用すると、表示形式を同じダッシュボードまたは異なるダッシュボードに配置できることです。
 
-After copying a visualization, find the _Paste_ option inside the overflow menu of the dashboard you want to paste the visualization in. 
+表示形式をコピーした後、表示形式を貼り付けるダッシュボードのオーバーフロー メニュー内の [貼り付け] オプションを見つけます。
 
 <img src="images/paste-option-dashboard.png" alt="paste option in the dashboard overflow menu" width=80%>
 

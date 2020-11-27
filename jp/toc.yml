@@ -60,7 +60,7 @@
   href: datasources/ml-integration/toc.yml
 - name: ファイルの作業
   href: datasources/working-files/toc.yml
-- name: データ可視化
+- name: 表示形式
   header: true
 - name: 概要
   href: data-visualizations/overview.md
