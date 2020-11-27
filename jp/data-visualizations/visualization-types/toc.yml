@@ -20,7 +20,7 @@
   href: radial-charts.md
 - name: 散布図・バブル チャート
   href: scatter-bubble-charts.md
-- name: 散布図
+- name: 散布マップ
   href: scatter-map/toc.yml
 - name: スパークライン チャート
   href: sparkline-charts.md

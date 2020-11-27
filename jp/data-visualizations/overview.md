@@ -121,7 +121,7 @@ td {
     </td>
     <td>
       <img src="images/scatter-chart.png" alt="Scatter Chart" /><br/>
-      <a href="visualization-types/scatter-bubble-charts.md">散布</а>
+      <a href="visualization-types/scatter-bubble-charts.md">散布図</а>
     </td>
     <td>
       <img src="images/bubble-Chart.png" alt="Bubble Chart" /><br/>
@@ -167,7 +167,7 @@ td {
   <td><b>データの関係</b></td>
   <td>
     <img src="images/scatter-chart.png" alt="Scatter Chart" /><br/>
-    <a href="visualization-types/scatter-bubble-charts.md">散布</а>
+    <a href="visualization-types/scatter-bubble-charts.md">散布図</а>
   </td>
   <td>
     <img src="images/Bubble-chart.png" alt="Bubble Chart" /><br/>
@@ -219,7 +219,7 @@ td {
   </td>
   <td>
     <img src="images/scatter-map.png" alt="Scatter Map" /><br/>
-    <a href="visualization-types/scatter-map/scatter-map.md">散布図</a>
+    <a href="visualization-types/scatter-map/scatter-map.md">散布マップ</a>
   </td>
   <td />
   <td />

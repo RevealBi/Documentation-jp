@@ -1,6 +1,6 @@
 - name: 概要
   href: scatter-map.md
   new: true
-- name: 散布図で画像タイルの使用
+- name: 散布マップで画像タイルの使用
   href: map-image-tiles.md
   new: true
