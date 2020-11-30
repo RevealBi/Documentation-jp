@@ -1,7 +1,7 @@
 - name: 概要
   header: true
 - name: Reveal ヘルプへようこそ!
-  href: index.md
+  href: welcome.md
 - name: Reveal へのログイン
   href: general/logging-in-reveal.md
 - name: アプリケーション テーマ
