@@ -140,7 +140,7 @@ Reveal では、計算フィールドというフィールドをデータセッ�
     [TRIM](string.html#trim)、
     [UPPER](string.html#upper)
 
->[!NOTE] **IF 条件の制限**.
+>[!NOTE] **IF 条件の制限**。
 >事前計算のフィールドの集計関数に含まれる場合、IF 条件には既知の制限があります。計算式内の IF 条件を確認するためにすべてのレコードを複数回調べる必要があり、パフォーマンスが低下する問題が発生するため、サポートされていません。
 
 <a name='without-predefined-functions'></a>
