@@ -1,6 +1,7 @@
 ## Sybase
 
->[!NOTE] Sybase は Reveal の Web バージョンでサポートされていません。 
+>[!NOTE] 
+>Sybase は Reveal の Web バージョンでサポートされていません。 
 
 Sybase サーバー データ ソースを構成するには、以下の情報が必要です。
 

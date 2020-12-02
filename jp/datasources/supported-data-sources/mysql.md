@@ -1,6 +1,7 @@
 ## MySQL
 
->[!NOTE] MySQL は Reveal の Web バージョンでサポートされていません。
+>[!NOTE] 
+>MySQL は Reveal の Web バージョンでサポートされていません。
 
 MySQL サーバー データ ソースを構成するには、以下の情報が必要です。
 

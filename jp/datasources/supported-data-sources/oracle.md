@@ -1,6 +1,7 @@
 ## Oracle
 
->[!NOTE] Oracle は Reveal の Web バージョンでサポートされていません。
+>[!NOTE] 
+>Oracle は Reveal の Web バージョンでサポートされていません。
 
 サーバー データベースの設定に基づいて Oracle に接続するための 2 つのモジュールがあります。
 

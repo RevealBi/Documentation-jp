@@ -1,6 +1,7 @@
 ## Microsoft SQL Server
 
->[!NOTE] Microsoft SQL Server は Reveal の Web バージョンでサポートされていません。
+>[!NOTE] 
+>Microsoft SQL Server は Reveal の Web バージョンでサポートされていません。
 
 Microsoft SQL サーバー データ ソースを構成するには、以下の情報が必要です。
 
