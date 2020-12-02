@@ -71,7 +71,7 @@
 | 4\. **表示形式ペインを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Seclect Change visualization" width="300"/>                              | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                 |
 | 5\. **表示形式を選択する**        | <img src="images/Tutorials-Charts-Select-Candlestick-Chart.png" alt="Seclect Candlestick chart" width="300"/>                             | デフォルトで、表示形式のタイプはグリッドに設定されています。**[ローソク足]** を選択します。                                                                 |
 | 6\. **データを体系化する**               | <img src="images/Tutorials-CandlestickChart-Organizing-Data.png" alt="Organizing data fields" width="300"/>                               | Date フィールドをラベルにドラッグアンドドロップし、*Open*、*High*、*Low* および *Close* フィールドを対応するプレースホルダーにドラッグアンドドロップします。                      |
-| 7\. **日付集計を変更する**      | <img src="images/Tutorials-CandlestickChart-Changing-Aggregation.png" alt="Changing date aggregation" width="300"/>                       | データ エディターのラベル プレースホルダーで Date フィールドを選択し、**[日付集計]** を **[日]** に変更します。次に, [フィールドの更新] を選択します。 |
+| 7\. **日付集計を変更する**      | <img src="images/Tutorials-CandlestickChart-Changing-Aggregation.png" alt="Changing date aggregation" width="300"/>                       | データ エディターのラベル プレースホルダーで Date フィールドを選択し、**[日付集計]** を **[日]** に変更します。次に、[フィールドの更新] を選択します。 |
 
 <a name='changing-axis-configuration'></a>
 ### 軸の構成を変更する方法

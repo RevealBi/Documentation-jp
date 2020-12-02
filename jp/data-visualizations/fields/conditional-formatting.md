@@ -39,4 +39,4 @@
   - [テキスト ビュー](~/jp/data-visualizations/visualization-types/text-chart.html)
 
 >[!NOTE]
->[KPI](~/jp/data-visualizations/visualization-types/kpi-gauge.html)、[リニア](~/jp/data-visualizations/visualization-types/gauge-charts.html#linear-gauge)、[円型](~/jp/data-visualizations/visualization-types/gauge-charts.html#circular-gauge)、[テキスト](~/jp/data-visualizations/visualization-types/gauge-charts.html#text-gauge)、および[ブレット グラフ](~/jp/data-visualizations/visualization-types/gauge-charts.html#bullet-graph) ゲージは、[**表示形式バンドの範囲の構成**](~/jp/data-visualizations/visualization-types/gauge-charts.html#bands-configuration)で条件付き書式をサポートします
+>[KPI](~/jp/data-visualizations/visualization-types/kpi-gauge.html)、[リニア](~/jp/data-visualizations/visualization-types/gauge-charts.html#linear-gauge)、[円型](~/jp/data-visualizations/visualization-types/gauge-charts.html#circular-gauge)、[テキスト](~/jp/data-visualizations/visualization-types/gauge-charts.html#text-gauge)、および[ブレット グラフ](~/jp/data-visualizations/visualization-types/gauge-charts.html#bullet-graph) ゲージは、[**表示形式バンドの範囲の構成**](~/jp/data-visualizations/visualization-types/gauge-charts.html#bands-configuration)で条件付き書式をサポートします。

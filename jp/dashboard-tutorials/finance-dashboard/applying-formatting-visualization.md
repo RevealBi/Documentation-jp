@@ -12,7 +12,7 @@
 
 <img src="images/GlobexValueCurrency_All.png" alt="GlobexValueCurrency\_All" width="80%"/>
 
-次に, **[フィールドの更新]** を選択します。
+次に、**[フィールドの更新]** を選択します。
 
 ### カスタム日付範囲を追加
 

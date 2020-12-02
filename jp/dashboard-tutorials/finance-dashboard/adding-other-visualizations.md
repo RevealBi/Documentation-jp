@@ -73,7 +73,7 @@ SIS Stock Value 2018 表示形式は、2018 年の Soylent Corp 株の平均値�
 
     <img src="images/SISStockValueChangeStock_All.png" alt="SISStockValueChangeStock\_All" width="80%"/>
 
-    次に, **[フィルターの更新]** を選択します。
+    次に、**[フィルターの更新]** を選択します。
 
 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
@@ -105,7 +105,7 @@ GLB Fiscal 表示形式は、ニューヨーク証券取引所 (New York Stock E
 
     <img src="images/FinanceGLBDateAggregation_All.png" alt="FinanceGLBDateAggregation\_All" width="80%"/>
 
-    次に, **[フィールドの更新]** を選択します。
+    次に、**[フィールドの更新]** を選択します。
 
 <!-- end list -->
 
@@ -113,7 +113,7 @@ GLB Fiscal 表示形式は、ニューヨーク証券取引所 (New York Stock E
 
     <img src="images/GLBFiscalRemovingFractionDigits_All.png" alt="GLBFiscalRemovingFractionDigits\_All" width="80%"/>
 
-    次に, **[フィールドの更新]** を選択します。
+    次に、**[フィールドの更新]** を選択します。
 
 <!-- end list -->
 
@@ -172,7 +172,7 @@ Forecast 表示形式は、5 年間の株の変動、買注文、売注文を[�
 
     <img src="images/FinanceForecastDateAggregation_All.png" alt="FinanceForecastDateAggregation\_All" width="80%"/>
 
-    次に, **[フィールドの更新]** を選択します。
+    次に、**[フィールドの更新]** を選択します。
 
 <!-- end list -->
 
@@ -180,7 +180,7 @@ Forecast 表示形式は、5 年間の株の変動、買注文、売注文を[�
 
     <img src="images/ForecastRemovingFractionDigits_All.png" alt="ForecastRemovingFractionDigits\_All" width="80%"/>
 
-    次に, **[フィールドの更新]** を選択します。
+    次に、**[フィールドの更新]** を選択します。
 
 <!-- end list -->
 
@@ -215,7 +215,7 @@ Stock Variations 表示形式は、12 か月間の株価の変化を[スパー�
 
     <img src="images/StockVariationCurrencyFormatting_All.png" alt="StockVariationCurrencyFormatting\_All" width="80%"/>
 
-    次に, **[フィールドの更新]** を選択します。
+    次に、**[フィールドの更新]** を選択します。
 
 <!-- end list -->
 

@@ -74,7 +74,7 @@ Followers 表示形式はソーシャル メディア チャネルごとに分�
 
 
 5.  サンプル フォロワーの表示形式では、日付は月として表示されています。
-    ラベルの **[日付]** フィールドを選択し、**[日付の集計]** を **[月]** に設定します。次に, **[フィールドの更新]** を選択します。
+    ラベルの **[日付]** フィールドを選択し、**[日付の集計]** を **[月]** に設定します。次に、**[フィールドの更新]** を選択します。
     
     <img src="images/SocialFollowersDateFilter_All.png" alt="SocialFollowersDateFilter\_All" width="80%"/>
 
@@ -140,7 +140,7 @@ Monthly Facebook Likes 表示形式は、[折れ線チャート](~/jp/visualizat
 
 
 
-4.  月ごとの Facebook いいね! のサンプル表示形式では、日付は月として表示されます。ラベルの **[日付]** フィールドを選択し、**[日付の集計]** を **[月]** に設定します。次に, **[フィールドの更新]** を選択します。
+4.  月ごとの Facebook いいね! のサンプル表示形式では、日付は月として表示されます。ラベルの **[日付]** フィールドを選択し、**[日付の集計]** を **[月]** に設定します。次に、**[フィールドの更新]** を選択します。
     
     <img src="images/SocialMonthlyLikesDateFilter_All.png" alt="SocialMonthlyLikesDateFilter\_All" width="80%"/>
 
@@ -180,7 +180,7 @@ Retweets &amp; Favorites の表示形式は[柱状チャート](~/jp/visualizati
     <img src="images/DragDropRetweetsFavorites_All.png" alt="DragDropRetweetsFavorites\_All" width="50%"/>
 
 
-4.  リツイート＆お気に入りのサンプル表示形式では、日付は月として表示されます。ラベルの **[日付]** フィールドを選択し、**[日付の集計]** を **[月]** に設定します。次に, **[フィールドの更新]** を選択します。
+4.  リツイート＆お気に入りのサンプル表示形式では、日付は月として表示されます。ラベルの **[日付]** フィールドを選択し、**[日付の集計]** を **[月]** に設定します。次に、**[フィールドの更新]** を選択します。
     
     <img src="images/SocialRetweetsFavoritesDateFilter_All.png" alt="SocialRetweetsFavoritesDateFilter\_All" width="80%"/>
 
@@ -221,7 +221,7 @@ Facebook Reach vs. Impressions の数表示形式は[エリア チャート](~/j
     <img src="images/DragDropReachImpressions_All.png" alt="DragDropReachImpressions\_All" width="50%"/>
 
 
-4.  Facebook リーチ vs. インプレションのサンプル表示形式では、日付は月として表示されます。ラベルの **[日付]** フィールドを選択し、**[日付の集計]** を **[月]** に設定します。次に, **[フィールドの更新]** を選択します。
+4.  Facebook リーチ vs. インプレションのサンプル表示形式では、日付は月として表示されます。ラベルの **[日付]** フィールドを選択し、**[日付の集計]** を **[月]** に設定します。次に、**[フィールドの更新]** を選択します。
     
     <img src="images/SocialReachVsImpressionsDateFilter_All.png" alt="SocialReachVsImpressionsDateFilter\_All" width="80%"/>
 
