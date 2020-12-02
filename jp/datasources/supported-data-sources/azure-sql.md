@@ -1,6 +1,7 @@
 ## Azure SQL
 
-> [!NOTE] Web の制限: Azure SQL のプライベート URL には、Reveal Web からアクセスできません。デスクトップ、iOS、または Android アプリを使用して、プライベート アドレスに接続できます。
+> [!NOTE] 
+>Web の制限: Azure SQL のプライベート URL には、Reveal Web からアクセスできません。デスクトップ、iOS、または Android アプリを使用して、プライベート アドレスに接続できます。
 
 Azure SQL データ ソースを構成するには、以下の情報が必要です。
 

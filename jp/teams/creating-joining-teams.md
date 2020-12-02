@@ -37,7 +37,8 @@ Reveal の*チーム*は、組織内外とのコラボレーションを容易�
   
       - ブランディング設定 - チームのダッシュボードを [PDF 文書](~/jp/dashboards/exporting-dashboards/export-as-pdf-document.html)および [PPT プレゼンテーション](~/jp/dashboards/exporting-dashboards/export-as-powerpoint-presentation.html)としてエクスポートするときに使用するメイン色とロゴを選択します。
        
-        >[!NOTE] ロゴ画像の要件: ロゴとしてアップロードする画像は、**5 MB** 以下で、jpg、jpeg、png、gif のいずれかの形式である必要があります。
+        >[!NOTE] 
+        >ロゴ画像の要件: ロゴとしてアップロードする画像は、**5 MB** 以下で、jpg、jpeg、png、gif のいずれかの形式である必要があります。
 
 3.  **[作成]** をクリック/タップします。 これでチームが作成され、以下に示すポップオーバー メニューの [アイテム] の下にあるチームのリストで見つけることができます。 
   

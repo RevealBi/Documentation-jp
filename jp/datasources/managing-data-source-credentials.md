@@ -34,6 +34,7 @@ Reveal で特定のデータ ソースを設定するとき、これらのサー
 
 <img src="images/choose-credentials-data-source.png" alt="Choose Credentials for a Data Source dialog" width="80%"/>
 
-> [!NOTE] 役立つヒント! 複数のデータ ソースで使用する予定のすべての資格情報をここに追加して整理するために時間をかけてください。
+> [!NOTE] 
+>役立つヒント! 複数のデータ ソースで使用する予定のすべての資格情報をここに追加して整理するために時間をかけてください。
 
 
