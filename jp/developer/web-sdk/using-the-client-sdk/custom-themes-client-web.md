@@ -82,7 +82,7 @@ revealTheme.dashboardBackgroundColor = "#E8EBFC";
 Reveal SDK には、*Mountain Light*、*Mountain Dark*、*Ocean Light*、*Ocean Dark* の 4 つのビルド済みテーマが付属しています。アプリケーションのデザインに最適なものを設定することも、カスタム テーマのベースとして使用することもできます。   
 *UpdateCurrentTheme* メソッドを使用して、選択したビルド済みテーマの設定を適用します。
 
-***Mountain Light テーマ***
+**Mountain Light テーマ**
 ``` js
 $.ig.RevealSdkSettings.theme = new $.ig.MountainLightTheme();
 ```
@@ -90,24 +90,24 @@ $.ig.RevealSdkSettings.theme = new $.ig.MountainLightTheme();
 > [!NOTE]
 > Mountain Light には、カスタマイズ可能なすべての設定のデフォルト値が含まれています。つまり、Mountain Light と Reveal テーマは基本的に同じように見えます。
 
-***Mountain Dark テーマ***
+**Mountain Dark テーマ**
 ``` js
 $.ig.RevealSdkSettings.theme = new $.ig.MountainDarkTheme();
 ```
 
-***Ocean Light テーマ***
+**Ocean Light テーマ**
 ``` js
 $.ig.RevealSdkSettings.theme = new $.ig.OceanLightTheme();
 ```
 
-***Ocean Dark テーマ***
+**Ocean Dark テーマ**
 ``` js
 $.ig.RevealSdkSettings.theme = new $.ig.OceanDarkTheme();
 ```
 
 #### 定義済みのテーマはどのように見えますか? 
 
-以下は、各ビルド済みテーマが適用されたときの*表示形式エディター*と*ダッシュボード エディター*の外観を示すテーブルです。
+以下は、各ビルド済みテーマが適用されたときの**表示形式エディター**と**ダッシュボード エディター**の外観を示すテーブルです。
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}

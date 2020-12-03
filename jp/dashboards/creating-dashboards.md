@@ -69,7 +69,7 @@ Reveal では、情報を可覚化する方法をカスタマイズするため�
 
 #### テーマの適用
 
-ダッシュボードに移動された後、*テーマ*を選択し、以下に示すように *Mountain テーマ* と *Ocean テーマ* を切り替えることができます。
+ダッシュボードに移動された後、[テーマ] を選択し、以下に示すように **Mountain テーマ** と **Ocean テーマ** を切り替えることができます。
 
 <img src="images/dashboard-changing-theme.png" alt="changing the theme of a dashboard" width="80%"/>
 
