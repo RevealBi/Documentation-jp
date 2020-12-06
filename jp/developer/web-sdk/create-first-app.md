@@ -23,7 +23,7 @@ Visual Studio 2017 を開き、*ASP.NET Core Web アプリケーション*の新
 ![select framework and mvc for project dialog in Visual Studio
 2017](images/select-framework-project.png)
 
-### Step 2 - Install Reveal SDK
+### 手順 2 - Reveal SDK のインストール
 
 <https://www.revealbi.io/jp> から Infragistics Reveal SDK をダウンロードし、システムにインストールします。*Visual Studio* で ツール > オプション > Nuget パッケージ マネージャー > パッケージ ソース を選択します。インストールされた SDK の Nuget フォルダーを指す新しいソースを追加します。
 
