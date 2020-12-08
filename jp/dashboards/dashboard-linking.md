@@ -85,7 +85,7 @@ URL は <http://www.en.wikipedia.org/wiki> に設定されており、選択し�
 
 #### [値は選択されました] トリガー
 
-このオプションを選択すると、柱状、棒、円スライスなどのチャートのデータ項目がクリック/タップされるたびに、リンク記号の付いたツールチップが表示されます。グリッド ビューでは、リンク記号が右側の最後の列に表示されます (以下を参照)。
+このオプションを選択すると、柱状、棒、円スライスなどのチャートのデータ項目がクリック/タップされるたびに、リンク記号の付いたツールチップが表示されます。グリッド チャートでは、リンク記号が右側の最後の列に表示されます (以下を参照)。
 
   <img src="images/links-to-grid-view.png" alt="A grid with link symbols and an arrow pointing to the row of the Amethyst value for CampaignID" width="80%"/>
 

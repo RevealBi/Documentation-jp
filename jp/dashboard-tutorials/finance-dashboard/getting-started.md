@@ -29,7 +29,7 @@
 
 2.  [初めての表示形式を作成](selecting-data-visualization.html)
 
-3.  [はじめての表示形式に書式を適用](applying-formatting-visualization.html)
+3.  [初めての表示形式に書式を適用](applying-formatting-visualization.html)
 
 4.  [ダッシュボードにテーマを適用](applying-theme.html)
 

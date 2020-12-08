@@ -44,7 +44,7 @@
 | 顧客 DIY                                      | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
 | ドーナツ                                          | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
 | ファンネル                                            | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
-| グリッド ビュー                                         | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| グリッド チャート                                         | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
 | ヒート マップ                                          | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
 | KPI と 時間                                       | <span style="color: #FF0000">X</span>        | <span style="color: #007F00">〇</span>   |
 | KPI と ターゲット                                     | <span style="color: #FF0000">X</span>        | <span style="color: #007F00">〇</span>   |
@@ -72,7 +72,7 @@
 | 計算フィールド                                 | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
 | フィルターのカスケード                                 | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
 | ビュー モードで表示形式を変更                 | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
-| グリッド ビューのビュー モードで列を並べ替え         | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
+| グリッド チャートのビュー モードで列を並べ替え         | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
 | 条件付き書式                            | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
 | デフォルト書式設定                       | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
 | ドリル ダウンとドリル アップ                             | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |

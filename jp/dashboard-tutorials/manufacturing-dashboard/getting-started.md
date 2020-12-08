@@ -25,9 +25,9 @@
 
 1.  [ダッシュボードを作成してデータ ソースを追加](creating-the-dashboard.md)
 
-2.  [はじめての表示形式: フィールドの選択と表示形式](selecting-data-visualization.md)
+2.  [初めての表示形式: フィールドの選択と表示形式](selecting-data-visualization.md)
 
-3.  [はじめての表示形式に書式を適用](applying-formatting-visualization.md)
+3.  [初めての表示形式に書式を適用](applying-formatting-visualization.md)
 
 4.  [ダッシュボードにテーマを適用](applying-theme.md)
 

@@ -14,7 +14,7 @@
   header: true
 - name: 概要
   href: web-sdk/overview.md
-- name: はじめてのアプリ作成
+- name: 初めてのアプリ作成
   href: web-sdk/create-first-app.md
 - name: サーバー SDK の使用
   href: web-sdk/using-the-server-sdk/toc.yml

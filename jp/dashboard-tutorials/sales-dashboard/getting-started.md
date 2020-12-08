@@ -27,19 +27,19 @@
 
 2.  [初めての表示形式を作成](selecting-data-visualization.md)
 
-3.  [はじめての表示形式に書式を適用](applying-formatting-visualization.md)
+3.  [初めての表示形式に書式を適用](applying-formatting-visualization.md)
 
 4.  [ダッシュボードにテーマを適用](applying-theme.md)
 
 5.  [その他表示形式の追加](adding-other-visualizations.md) 
     ([Win/Lost by Month](adding-other-visualizations.html#win-lost-by-month)、
-    [Forecasted](adding-other-visualizations#forecasted)、
+    [Forecasted](adding-other-visualizations.html#forecasted)、
     [Lost Opportunities](adding-other-visualizations.html#lost-opportunities)、
     [Pipeline by Territory](adding-other-visualizations.html#pipeline-by-territory)、
     [Total Opportunities](adding-other-visualizations.html#total-opportunities)、
     [Revenue by Territory](adding-other-visualizations.html#revenue-by-territory)、
     [Pipeline per Employee](adding-other-visualizations.html#pipeline-per-employee)、
-    [Sales by Product](adding-other-visualizations.html#by-product))
+    [Sales by Product](adding-other-visualizations.html#sales-by-product))
 
 6.  [ダッシュボードの保存](saving-dashboard.md)
 
