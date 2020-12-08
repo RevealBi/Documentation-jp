@@ -2,8 +2,6 @@
 
 以下は、Reveal の新機能および追加予定のアップデートです。
 
-散布マップの表示形式! 地理空間データのインサイトを深める別のマップの可視化提供できるようになりました。背景として使用するために、多数のマッピング サービスに接続する機能が追加されています。
-
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
@@ -13,30 +11,33 @@
 </style>
 <table class="tg">
   <tr>
+    <th class="tg-cly1"><span style="font-weight:bold">日付</span></th>
     <th class="tg-cly1"><span style="font-weight:bold">Reveal バージョン</span></th>
     <th class="tg-cly1"><span style="font-weight:bold">説明</span></th>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="4">1.0.16</td>
+    <td class="tg-0lax" rowspan="4">12/4/2020</td>
+    <td class="tg-0lax" rowspan="4"> 1.0.16 <br> [1.0.20 iOS] </td>
     <td class="tg-cly1"><span style="font-style:italic">Save/Load Dashboards using JSON</span><br>You can now use Reveal SDK to save/load dashboards to/from JSON files..
-</td>
+    </td>
 <tr>
     <td class="tg-cly1"><span style="font-style:italic">[Public Bug Fix] Category field label not being shown</span><br>In Category Charts, tooltips were not displaying the field label but the original field name of a category instead.
 </td>
   </tr>
 <tr>
   <td class="tg-cly1"><span style="font-style:italic">
-  [Public Bug Fix] Title </span><br>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra elit nec venenatis blandit. Fusce vel ex sollicitudin, dapibus tortor in, posuere eros.
+  [Public Bug Fix] Dates in drill down breadcrumbs wrongly displayed </span><br>
+  When drilling down on a date field, breadcrumbs did not display values properly. Now breadcrumbs give clear information about your drill down level.
   </td>
 </tr>
 <tr>
   <td class="tg-cly1"><span style="font-style:italic">
-  [Public Bug Fix] Title </span><br>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra elit nec venenatis blandit. Fusce vel ex sollicitudin, dapibus tortor in, posuere eros.
+  [Public Bug Fix] Hover Tooltips and Crosshairs not shown by default </span><br>
+  In Dashboard View mode, Hover Tooltips and Crosshairs were not displayed until users enable them. Now they are enabled by default.
   </td>
 </tr>
   <tr>
+    <td class="tg-0lax" rowspan="3"></td>
     <td class="tg-0lax" rowspan="3">1.0.14</td>
     <td class="tg-cly1"><span style="font-style:italic">新しい Amazon Athena データ ソース</span><br>Amazon Athena に接続して Amazon S3 からデータをクエリし、それを使用して Reveal で表示形式を構築できるようになりました。
 </td>
@@ -51,6 +52,7 @@
   </td>
 </tr>
    <tr>
+   <td class="tg-0lax" rowspan="3"></td>
     <td class="tg-0lax" rowspan="3">1.0.13</td>
     <td class="tg-cly1"><span style="font-style:italic">新規の Amazon Redshift データ ソース</span><br>Amazon Redshift クラウド データ ウェアハウスのデータを使用して、新しいインサイトを得ることができます。
 </td>
@@ -63,6 +65,7 @@
 </td>
   </tr>
   <tr>
+  <td class="tg-0lax" rowspan="7"></td>
     <td class="tg-0lax" rowspan="7">1.0.12</td>
     <td class="tg-cly1"><span style="font-style:italic">新しい階級区分図</span><br>階級区分図の表示形式により、美しい主題図を作成できます。地理空間データを驚くほどわかりやすく表示できます。色によって、マップ上のパターン、トレンド、および異常をすばやく発見できます。
 </td>
@@ -91,6 +94,7 @@
 </td>
   </tr>
    <tr>
+   <td class="tg-0lax" rowspan="2"></td>
     <td class="tg-0lax" rowspan="2">1.0.10/1.0.11</td>
     <td class="tg-cly1"><span style="font-style:italic">新しい Microsoft Azure Analysis Services データ ソース</span><br>この新しいデータ ソースにより、Azure Analysis Services のデータ モデルを使用してダッシュボードを作成できます。
 </td>
@@ -99,6 +103,7 @@
 </td>
   </tr>
   <tr>
+    <td class="tg-0lax" rowspan="5"></td>
     <td class="tg-0lax" rowspan="5">1.0.8/1.0.9</td>
     <td class="tg-cly1"><span style="font-style:italic">新規の TreeMap の表示形式</span><br>この新しい表示形式タイプを使用して、大きな階層をネストされた四角形の集合で表示できます。四角形のサイズは、さまざまなメトリック間の部分と全体の関係を示し、同様のデータ間のパターンと関係を識別します。
 </td>
@@ -120,6 +125,7 @@
 </td>
   </tr>
   <tr>
+    <td class="tg-0lax" rowspan="5"></td>
     <td class="tg-0lax" rowspan="5">1.0.7</td>
     <td class="tg-cly1"><span style="font-style:italic">BigQuery Machine Learning との統合</span><br>Reveal のデータ ソースで BigQuery 機械学習モデルを使用できるようになりました。</td>
   </tr>
@@ -136,6 +142,7 @@
     <td class="tg-0lax"><span style="font-style:italic">Excel へエクスポート機能拡張</span><br>エクスポートの際、Reveal の表示形式をスプレッドシートに含めることができます。</td>
   </tr>
   <tr>
+    <td class="tg-0lax" rowspan="10"></td>
     <td class="tg-0lax" rowspan="10">1.0.5</td>
     <td class="tg-0lax"><span style="font-style:italic">新しい分析機能</span><br>既存のデータセットの統計分析を処理および実行できるようになりました。つまり、データをより細かく分析し、履歴データに基づいてパフォーマンスを予測することもできます。</td>
   </tr>
@@ -167,6 +174,7 @@
     <td class="tg-0lax"><span style="font-style:italic">ホバー ツールチップと十字線の追加の新しいデザイン</span><br>ツールチップが小さくなり、ポインターは削除されました。さらに、ツールチップにコンテキストを提供するために十字線が表示されるようになりました。</td>
   </tr>
   <tr>
+    <td class="tg-0lax" rowspan="5"></td>
     <td class="tg-0lax" rowspan="5">1.0.4</td>
     <td class="tg-0lax"><span style="font-style:italic">円およびドーナツ型チャートの凡例に、値 0 の要素を表示できるようになりました。</span><br>円とドーナツの表示形式の凡例に値 0 の要素を表示するオプションが追加されました。これにより、ラベルに選択されたフィールドのすべてのデータを見ることができますが、値 0 のデータはチャート自体には表示されません。</td>
   </tr>
@@ -183,6 +191,7 @@
     <td class="tg-0lax"><span style="font-style:italic">[バグ修正] 開始パラメーターの検索関数</span><br>計算フィールドで使用される検索機能で開始位置パラメーターがオプションと見なされない問題。</td>
   </tr>
   <tr>
+    <td class="tg-0lax" rowspan="6"></td>
     <td class="tg-0lax" rowspan="6">1.0.3</td>
     <td class="tg-0lax"><span style="font-style:italic">Excel および PowerPoint へのエクスポート</span><br>ダッシュボードの表示形式を PowerPoint プレゼンテーションのスライドとしてエクスポートできるようになりました。さらに、ダッシュボードで使用されているデータを Excel 形式にエクスポートすることもできます。</td>
   </tr>
@@ -202,6 +211,7 @@
     <td class="tg-0lax"><span style="font-style:italic">チャート凡例の機能拡張</span>サイズ変更やレイアウト時のビジュアルが向上し、バッジではシリーズ タイプをより強調するように改善されました。</td>
   </tr>
   <tr>
+    <td class="tg-0lax" rowspan="6"></td>
     <td class="tg-0lax" rowspan="6">1.0.2</td>
     <td class="tg-0lax"><span style="font-style:italic">ダッシュボード レベルの操作の改善:</span><br>ダッシュボード最小化時に表示形式をインタラクティブに操作できるようになりました。ズーム、スクロール、ドリル ダウン、他のダッシュボードへのリンク、およびダッシュボードの表示形式を最大化せずにチャート ポイントの詳細 (ツールチップ) を表示します。</td>
   </tr>
@@ -221,6 +231,7 @@
     <td class="tg-0lax"><span style="font-weight:bold;font-style:italic">バグ修正</span><span style="font-style:italic"> クラウド プロバイダーからの Excel ヘッダー:</span><br>最初の行に使用されるラベル設定が、クラウド プロバイダー (Google ドライブ、Dropbox、OneDrive) でホストされる Excel ファイルで表示されない問題。</td>
   </tr>
   <tr>
+    <td class="tg-0lax" rowspan="4"></td>
     <td class="tg-0lax" rowspan="4">1.0.1</td>
     <td class="tg-0lax"><span style="font-style:italic">ローカライズ</span><br>Reveal は現在ドイツ語、スペイン語、フランス語、イタリア語、日本語、韓国語、マレー語、オランダ語、ポルトガル語、ロシア語、中国語 (簡体字および繁体字) にローカライズされています。</td>
   </tr>
