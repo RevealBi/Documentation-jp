@@ -32,7 +32,7 @@
 
 条件付き書式は、以下の表示形式に適用できます。
 
-  - [グリッド ビュー](~/jp/data-visualizations/visualization-types/grid-chart.html)
+  - [グリッド チャート](~/jp/data-visualizations/visualization-types/grid-chart.html)
 
   - [ピボット表ビュー](~/jp/data-visualizations/visualization-types/pivot-table.html)
 

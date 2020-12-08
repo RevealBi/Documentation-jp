@@ -23,7 +23,7 @@
 
 ### ステップの概要
 
-1.  [ダッシュボードを作成してデータ ソースを追加](creating-the-dashboard.html)
+1.  [ダッシュボードを作成してデータ ソースを追加](creating-the-dashboard.md)
 
 2.  [初めての表示形式を作成](selecting-data-visualization.html)
 
@@ -37,4 +37,3 @@
 
 
 [作業の開始 »](creating-the-dashboard.html)
-

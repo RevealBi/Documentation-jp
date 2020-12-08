@@ -1,6 +1,6 @@
 ## 初めての表示形式を作成  
 
-チュートリアルのはじめの[サンプル ダッシュボード](creating-the-dashboard.html)に YTD Twitter Followers 表示形式を作成します。表示形式は[テキスト ゲージ](~/jp/data-visualizations/visualization-types/gauge-charts#text-gauge)を表示します。
+チュートリアルのはじめの[サンプル ダッシュボード](getting-started.md)に YTD Twitter Followers 表示形式を作成します。表示形式は[テキスト ゲージ](~/jp/data-visualizations/visualization-types/gauge-charts.html#text-gauge)を表示します。
 
 まず、トップ バーのグリッド アイコンを選択し、**表示形式ペインを開きます**。
 
@@ -37,4 +37,3 @@
 
 <a href="creating-the-dashboard.md" class="previous">&laquo; 前へ</a>
 <a href="creating-dashboard-filter-connecting-visualization.md" class="next">次へ &raquo;</a>
-

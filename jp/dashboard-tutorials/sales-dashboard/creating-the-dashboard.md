@@ -1,4 +1,4 @@
-## ダッシュボードを作成してデータ ソースを追加  
+## ダッシュボードを作成してデータ ソースを追加
 
 新しいダッシュボードを作成するには、初期画面の右上端にある **[+ ダッシュボード]** ボタンを選択し、*新規作成*メニューの **[ダッシュボード]** オプションを選択する必要があります。
 
@@ -18,7 +18,7 @@
 
 <img src="images/SelectingSalesSheet_All.png" alt="SelectingSalesSheet\_All" width="80%"/>
 
-データを読み込んだ後、[グリッド ビュー](~/jp/data-visualizations/visualization-types/grid-chart.html)は[表示形式エディター](~/jp/data-visualizations/visualizations-editor.html)でデフォルトで選択されます。
+データを読み込んだ後、[グリッド チャート](~/jp/data-visualizations/visualization-types/grid-chart.md)は[表示形式エディター](~/jp/data-visualizations/visualizations-editor.html)でデフォルトで選択されます。
 
 <img src="images/SalesFirstVisualizationGrid_All.png" alt="SalesFirstVisualizationGrid\_All" width="80%"/>
 

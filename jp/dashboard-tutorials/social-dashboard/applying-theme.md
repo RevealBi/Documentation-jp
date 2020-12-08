@@ -1,4 +1,4 @@
-## ダッシュボードにテーマを適用 
+## ダッシュボードにテーマを適用
 
 デフォルトで、**Mountain** テーマはダッシュボードに適用されます。右上隅のオーバーフローにある **[テーマ]** メニューを選択して変更できます。
 
@@ -18,4 +18,3 @@
 
 <a href="creating-dashboard-filter-connecting-visualization.md" class="previous">&laquo; 前へ</a>
 <a href="adding-other-visualizations.md" class="next">次へ &raquo;</a>
-

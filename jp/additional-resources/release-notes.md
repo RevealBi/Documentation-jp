@@ -16,7 +16,27 @@
     <th class="tg-cly1"><span style="font-weight:bold">Reveal バージョン</span></th>
     <th class="tg-cly1"><span style="font-weight:bold">説明</span></th>
   </tr>
-     <tr>
+  <tr>
+    <td class="tg-0lax" rowspan="4">1.0.16</td>
+    <td class="tg-cly1"><span style="font-style:italic">Save/Load Dashboards using JSON</span><br>You can now use Reveal SDK to save/load dashboards to/from JSON files..
+</td>
+<tr>
+    <td class="tg-cly1"><span style="font-style:italic">[Public Bug Fix] Category field label not being shown</span><br>In Category Charts, tooltips were not displaying the field label but the original field name of a category instead.
+</td>
+  </tr>
+<tr>
+  <td class="tg-cly1"><span style="font-style:italic">
+  [Public Bug Fix] Title </span><br>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra elit nec venenatis blandit. Fusce vel ex sollicitudin, dapibus tortor in, posuere eros.
+  </td>
+</tr>
+<tr>
+  <td class="tg-cly1"><span style="font-style:italic">
+  [Public Bug Fix] Title </span><br>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra elit nec venenatis blandit. Fusce vel ex sollicitudin, dapibus tortor in, posuere eros.
+  </td>
+</tr>
+  <tr>
     <td class="tg-0lax" rowspan="3">1.0.14</td>
     <td class="tg-cly1"><span style="font-style:italic">新しい Amazon Athena データ ソース</span><br>Amazon Athena に接続して Amazon S3 からデータをクエリし、それを使用して Reveal で表示形式を構築できるようになりました。
 </td>
