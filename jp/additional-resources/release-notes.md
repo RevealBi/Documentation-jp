@@ -12,7 +12,7 @@
 <table class="tg">
   <tr>
     <th class="tg-cly1"><span style="font-weight:bold">日付</span></th>
-    <th class="tg-cly1"><span style="font-weight:bold">Reveal バージョン</span></th>
+    <th class="tg-cly1"><span style="font-weight:bold">バージョン</span></th>
     <th class="tg-cly1"><span style="font-weight:bold">説明</span></th>
   </tr>
   <tr>
