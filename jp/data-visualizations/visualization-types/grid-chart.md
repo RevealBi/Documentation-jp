@@ -4,7 +4,7 @@
 
 グリッド チャートは、データを表示するためのデフォルトの視覚化オプションであり、情報を行列で表示します。グリッド ヘッダーを選択してグリッド内の**列の幅を変更する**ことができます。それによってグリッド内の列を強調表示し、列ヘッダーのサイズ変更ハンドルをドラッグします。列幅を変更するには右または左へスライドさせます。
 
-<img src="images/grid-view-sorting-columns.png" alt="Grid View Sorting Columns" width="80%"/>
+<img src="images/grid-view-sorting-columns.png" alt="Grid Chart Sorting Columns" width="80%"/>
 
 **[設定]** で [フォント サイズ] を変更できます。デフォルト サイズは [小] です。[中] サイズでは 2px 大きくなり、[大] サイズは 4px 大きくなります。
 
@@ -19,7 +19,7 @@
 
 **ダッシュボード ビュー モード**でグリッド チャートの列の並べ替え (昇順や降順) を変更できます。列名の横にある矢印ボタンを選択して変更できます。
 
-<img src="images/grid-view-sorting-columns-options.png" alt="Grid View Sorting Columns Options" width="80%"/>
+<img src="images/grid-view-sorting-columns-options.png" alt="Grid Chart Sorting Columns Options" width="80%"/>
 
 複数の並べ替え条件を適用できます。既存の列ヘッダーの横に小さな番号が表示されます。矢印の方向は、昇順または降順のどちらの並べ替えを適用したかを判断するのに役立ちます。
 

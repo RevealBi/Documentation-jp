@@ -34,7 +34,7 @@
 
   - [グリッド チャート](~/jp/data-visualizations/visualization-types/grid-chart.html)
 
-  - [ピボット表ビュー](~/jp/data-visualizations/visualization-types/pivot-table.html)
+  - [ピボット チャート](~/jp/data-visualizations/visualization-types/pivot-table.html)
 
   - [テキスト ビュー](~/jp/data-visualizations/visualization-types/text-chart.html)
 
