@@ -101,9 +101,9 @@
   href: visualization-tutorials/overview.md
 - name: ローソク足表示形式
   href: visualization-tutorials/candlestick-chart.md
-- name: ゲージ ビュー
+- name: ゲージ チャート
   href: visualization-tutorials/gauge-views.md
-- name: 画像ビュー
+- name: 画像チャート
   href: visualization-tutorials/image-view.md
 - name: KPI ゲージ
   href: visualization-tutorials/kpi-gauge.md
