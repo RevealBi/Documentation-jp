@@ -1,6 +1,6 @@
 ## 表示形式のチュートリアル
 
-このセクションでは、Reveal の表示形式の作成手順を説明します。すべてのセクションのデータ表示形式に使用しているデータ ソースは、[こちら](http://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx)からダウンロードしてください。表示形式がサポートされる各ウィジェットの情報については、ヘルプの [データ表示](~/jp/data-visualizations/overview.md) セクションを参照してください。
+このセクションでは、Reveal の表示形式の作成手順を説明します。すべてのセクションのデータ表示形式に使用しているデータ ソースは、[こちら](http://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx)からダウンロードしてください。表示形式がサポートされる各ウィジェットの情報については、ヘルプの[データ表示](~/jp/data-visualizations/overview.md)セクションを参照してください。
 
 <table>
 <colgroup>
