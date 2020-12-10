@@ -46,7 +46,7 @@
 </p>
 <p><a href="simple-charts.md">ファンネル</a><br />
 </p></td>
-<td><p><img src="images/Web-View.png" alt="Web View" /><br />
+<td><p><img src="images/image-view.png" alt="Web View" /><br />
 </p>
 <p><a href="image-chart.md">画像</a><br />
 </p></td>
