@@ -1,6 +1,6 @@
 ## 表示形式の概要
 
-表示形式は、個々の情報です。すべてのダッシュボードは 1 つ以上の表示形式で構成されます。以下の画像は、[柱状チャート](category-charts.html) による表示形式でさまざまな線によって生成される単位量を示しています。
+表示形式は、個々の情報です。すべてのダッシュボードは 1 つ以上の表示形式で構成されます。以下の画像は、[柱状チャート](category-charts.html)による表示形式でさまざまな線によって生成される単位量を示しています。
 
 <img src="images/SampleVisualization_Desktop.png" alt="SampleVisualization\_Desktop" width="80%"/>
 
@@ -12,19 +12,19 @@
 
 上記のダッシュボードでは、以下の表示形式タイプが表示されます。
 
-  - **Productivity**: [テキスト ゲージ](Gauge-Views.html#text-gauge)
+  - **Productivity**: [テキスト ゲージ](~/jp/data-visualizations/visualization-types/Gauge-Views.html#text-gauge)
 
-  - **Units Lost**: [テキスト ゲージ](Gauge-Views.html#text-gauge)
+  - **Units Lost**: [テキスト ゲージ](~/jp/data-visualizations/visualization-types/Gauge-Views.html#text-gauge)
 
-  - **Cost of Labor vs Revenue**: [折れ線チャート](category-charts.html)
+  - **Cost of Labor vs Revenue**: [折れ線チャート](~/jp/data-visualizations/visualization-types/category-charts.html)
 
-  - **Units Produced by Line**: [柱状チャート](category-charts.html)
+  - **Units Produced by Line**: [柱状チャート](~/jp/data-visualizations/visualization-types/category-charts.html)
 
-  - **Operators Available**: [ドーナツ型チャート](category-charts.html)
+  - **Operators Available**: [ドーナツ型チャート](~/jp/data-visualizations/visualization-types/category-charts.html)
 
-  - **Line 1 Efficiency**: [円型ゲージ](gauge-charts.html)
+  - **Line 1 Efficiency**: [円型ゲージ](~/jp/data-visualizations/visualization-types/gauge-charts.html)
 
-  - **Line 2 Efficiency**: [円型ゲージ](gauge-charts.html)
+  - **Line 2 Efficiency**: [円型ゲージ](~/jp/data-visualizations/visualization-types/gauge-charts.html)
 
 ### 表示形式の作成方法
 
