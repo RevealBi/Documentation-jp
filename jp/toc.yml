@@ -102,9 +102,9 @@
 - name: ローソク足表示形式
   href: visualization-tutorials/candlestick-chart.md
 - name: ゲージ チャート
-  href: visualization-tutorials/gauge-views.md
+  href: visualization-tutorials/gauge-charts.md
 - name: 画像チャート
-  href: visualization-tutorials/image-view.md
+  href: visualization-tutorials/image-chart.md
 - name: KPI ゲージ
   href: visualization-tutorials/kpi-gauge.md
 - name: OHLC チャート

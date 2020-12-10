@@ -22,7 +22,7 @@
 </p></td>
 <td><p><img src="images/Bullet-Graph-Gauge.png" alt="Bullet Graph Gauge" /><br />
 </p>
-<p><a href="gauge-views.md">ブレット グラフ</a><br />
+<p><a href="gauge-charts.md">ブレット グラフ</a><br />
 </p></td>
 <td><p><img src="images/Candlestick-Chart.png" alt="Candlestick Chart" /><br />
 </p>
@@ -30,7 +30,7 @@
 </p></td>
 <td><p><img src="images/Circular-Gauge.png" alt="Circular Gauge" /><br />
 </p>
-<p><a href="gauge-views.md">円型</a><br />
+<p><a href="gauge-charts.md">円型</a><br />
 </p></td>
 </tr>
 <tr class="even">
@@ -48,7 +48,7 @@
 </p></td>
 <td><p><img src="images/Web-View.png" alt="Web View" /><br />
 </p>
-<p><a href="image-view.md">画像</a><br />
+<p><a href="image-chart.md">画像</a><br />
 </p></td>
 <td><p><img src="images/kpi.png" alt="kpi" /><br />
 </p>
@@ -62,7 +62,7 @@
 </p></td>
 <td><p><img src="images/Linear-Gauge.png" alt="Linear Gauge" /><br />
 </p>
-<p><a href="gauge-views.md">リニア</a><br />
+<p><a href="gauge-charts.md">リニア</a><br />
 </p></td>
 <td><p><img src="images/OHLC-Chart.png" alt="OHLC Chart" /><br />
 </p>
@@ -114,7 +114,7 @@
 </p></td>
 <td><p><img src="images/Text-Gauge.png" alt="Text Gauge" /><br />
 </p>
-<p><a href="gauge-views.md">テキスト</a><br />
+<p><a href="gauge-charts.md">テキスト</a><br />
 </p></td>
 <td><p><img src="images/Text-View.png" alt="Text View" /><br />
 </p>
