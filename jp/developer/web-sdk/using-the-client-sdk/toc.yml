@@ -1,22 +1,25 @@
-- name: RevealView オブジェクトの設定
-  href: configuring-revealview.md
+- name: 新しい可視化とダッシュボードの作成
+  href: creating-visualizations-dashboards.md
 - name: ダッシュボードの編集と保存
   href: editing-saving-dashboards.md
 - name: ダッシュボードまたは画像として可視化データをエクスポート
   href: exporting-dashboard-visualization.md
-- name: 初期フィルター選択の設定
-  href: setting-initial-filters.md
-- name: 可視化の最大化と単一可視化モード
-  href: maximizing-visualizations.md
-- name: 動的フィルター選択の設定
-  href: setting-dynamic-filters.md
 - name: ダッシュボード リンク
   href: dashboard-linking.md
-- name: ユーザークリック イベントの処理
-  href: handling-click-events.md
-- name: 新しい可視化とダッシュボードの作成
-  href: creating-visualizations-dashboards.md
+- name: 可視化の最大化と単一可視化モード
+  href: maximizing-visualizations.md
 - name: カスタム テーマの作成
   href: custom-themes-client-web.md
+- name: ユーザークリック イベントの処理
+  href: handling-click-events.md
 - name: ツールチップの作業
   href: working-tooltips-client-web.md
+- name: UI 要素の表示/非表示
+  href: showing-hiding-elements.md
+- name: 動的フィルター選択の設定
+  href: setting-dynamic-filters.md
+- name: 初期フィルター選択の設定
+  href: setting-initial-filters.md
+
+
+

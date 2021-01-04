@@ -2,13 +2,7 @@
 
 ### 概要
 
- [**ダッシュボードの編集と保存**](editing-saving-dashboards.html)、では、ダッシュボードの変更を保存する方法を処理する方法を 2 つ **クライアント サイドとサーバー サイド**紹介しています。これらのシナリオは、ユーザーが既存のダッシュボードに以下のような変更を加える際には正しく機能します。
-
-  - フィルターの追加/修正
-  - 視覚化のタイプを変更する (チャート、ゲージ、グリッドなど)
-  - テーマの変更
-
-ただし、新しい視覚化を追加するには、ユーザーは使用する**データ ソースを選択**する必要があります。そのためには、含まれているアプリケーションが SDK に情報を提供する必要があるので、新しい可視化に使用できるデータ ソースのリストを表示できます。
+In order to add new visualizations to an existing dashboard, the user needs to **select the data source** to be used. To do that, the containing application needs to provide information to the SDK, so it can display the list of data sources available for a new visualization.
 
 ### データ ソースのリストを表示
 

@@ -26,6 +26,8 @@
   href: handling-click-events.md
 - name: ツールチップの作業
   href: working-tooltips-desktop.md
+- name: UI 要素の表示/非表示
+  href: showing-hiding-elements.md
 - name: 初期フィルター選択の設定
   href: setting-initial-filters.md
 - name: 動的フィルター選択の設定
