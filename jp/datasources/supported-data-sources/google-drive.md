@@ -12,11 +12,7 @@ Google ドライブのデータを使用するには、以下の手順に従っ�
 
     **ログイン情報**を入力し [次へ] を選択します。
 
-2.  **初めてのユーザーのみ**には、以下のダイアログが表示され、Google ドライブのデータを使用できるように、**適切な権限**を開示するように求められます。
-
-    <img src="images/limited-permissions-google-drive.png" alt="Limited permissions request google dialog" width="40%"/>
-
-[許可] を選択して、Reveal が Google ドライブ ファイルを使用 (表示およびダウンロード) することを承認します。
+2. In the **authorization prompt**, select *Allow* to authorize Reveal to use (see, edit, create, and delete) your Google Drive files.
 
 これで、Google ドライブのデータを使用して表示形式を構築できるようになり、これらの権限を再度求められることはありません。
 

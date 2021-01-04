@@ -1,7 +1,7 @@
 ## Microsoft SQL Server
 
 >[!NOTE] 
->Microsoft SQL Server は Reveal の Web バージョンでサポートされていません。
+>**Limitations in Web**. Microsoft SQL Server private urls are not accessible through Reveal Web. You can use the Desktop, iOS or Android app to connect to private addresses.
 
 Microsoft SQL サーバー データ ソースを構成するには、以下の情報が必要です。
 
