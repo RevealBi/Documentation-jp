@@ -2,7 +2,7 @@
 
 ### 概要
 
-In order to add new visualizations to an existing dashboard, the user needs to **select the data source** to be used. To do that, the containing application needs to provide information to the SDK, so it can display the list of data sources available for a new visualization.
+既存のダッシュボードに新しい可視化を追加するには、ユーザーが使用するデータ ソースを**選択する**必要があります。そのためには、含まれているアプリケーションが SDK に情報を提供する必要があるので、新しい可視化に使用できるデータソースのリストを表示できます。
 
 ### データ ソースのリストを表示
 

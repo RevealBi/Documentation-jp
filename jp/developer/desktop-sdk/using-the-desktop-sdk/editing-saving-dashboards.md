@@ -2,21 +2,21 @@
 
 ### 概要
 
-To load a dashboard, you need to provide the __RevealView__ component with the stream containing the dashboard file. Later, you might want to handle the modified dashboard file, once the user made changes to the dashboard.
+ダッシュボードを読み込むには、ダッシュボード ファイルを含むストリームを __RevealView__ コンポーネントに提供する必要があります。その後、ユーザーがダッシュボードを変更した後に、変更されたダッシュボード ファイルを処理したい場合があります。
 
-### Editing dashboards
+### ダッシュボードの編集
 
-The **Dashboard** property (type RVDashboard) of __RevealView__ is updated when the end user starts editing the dashboard. For example, when adding or removing visualizations or filters, RVDashboard's collections get automatically updated.
+__RevealView__ の **Dashboard** プロパティ (タイプ RVDashboard) は、エンドユーザーがダッシュボードの編集を開始すると更新されます。たとえば、可視化またはフィルターを追加または削除すると、RVDashboard のコレクションが自動的に更新されます。
 
-Attach to the **PropertyChanged** event in __RVDashboard__, to get notified of changes to properties like **HasPendingChanges**:
+__RVDashboard__の **PropertyChanged** イベントに添付して、**HasPendingChanges** などのプロパティへの変更の通知を受け取ります:
 
-*Code Sample*:
+**コード サンプル**:
 
 ``` csharp
 dashboard.PropertyChanged += Dashboard_PropertyChanged;
 ```
 
-Then, implement the event handler:
+次に、イベント ハンドラーを実装します:
 
 ``` csharp
 private void Dashboard_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
@@ -28,14 +28,14 @@ private void Dashboard_PropertyChanged(object sender, System.ComponentModel.Prop
 }
 ```
 
-After a user finishes editing a visualization, upon closing the Visualization Editor, the Revealview's __VisualizationEditorClosed__ event is fired.
-You can attach to the event with this code:
+ユーザーが可視化の編集を終了した後、可視化エディターを閉じると、Revealview の __VisualizationEditorClosed__ イベントが発生します。
+次のコードを使用して、イベントに添付することができます:
 
 ``` csharp
 revealView.VisualizationEditorClosed += RevealView_VisualizationEditorClosed;
 ```
 
-And then you need to implement the event handler:
+次にイベント ハンドラーを実装します:
 
 ``` csharp
 private void RevealView_VisualizationEditorClosed(object sender, VisualizationEditorClosedEventArgs e)
@@ -55,7 +55,7 @@ private void RevealView_VisualizationEditorClosed(object sender, VisualizationEd
 }
 ```
 
-In the case that you need to control how to add new visualizations please refer to [**Creating New Visualizations and Dashboards**](~/en/developer/desktop-sdk/using-the-desktop-sdk/creating-visualizations-dashboards.md).
+新しい可視化を追加する方法を制御する必要がある場合は、[**新しい可視化とダッシュボードの作成**](~/jp/developer/desktop-sdk/using-the-desktop-sdk/creating-visualizations-dashboards.md)を参照してください。
 
 ### ダッシュボードの保存
 

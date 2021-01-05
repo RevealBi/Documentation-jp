@@ -19,13 +19,12 @@
         <tr>
             <td rowspan="3">12/29/2020</td>
             <td rowspan="3">1.0.1.0.1669.0 <br> [1.0.21 iOS]</td>
-            <td><i>[Public Bug Fix] Custom filtering not working with "Processing Data on Server"</i><br>If the option "Processing Data on Server" was checked, custom queries were not filtering data in the Visualization Editor.</td>
         </tr>
         <tr>
-            <td><i>[Public Bug Fix] Pivot hierarchies filtering not working with "Processing Data on Server"</i><br>If the option "Processing Data on Server" was checked, drill down hierarchies in the Pivot Editor were not filtering data.</td>
+            <td>[公開バグ修正] [サーバーでデータを処理] で SDK ピボット階層フィルタリングが機能しない問題。</i><br>[サーバーでデータを処理] オプションがオンになっている場合、ピボット エディターでのドリルダウン階層はデータをフィルタリングしていなかった問題。</td>
         </tr>
         <tr>
-            <td><i>[Public Bug Fix] [SDK] Custom filtering not working with "Processing Data on Server</i><br>If the option "Processing Data on Server" was checked, custom queries were not returning the correct number of rows.</td>
+            <td>[公開バグ修正] [サーバーでデータを処理] で SDK カスタム フィルタリングが機能しない問題。</i><br>[サーバーでデータを処理] オプションがオンになっている場合、カスタム クエリは正しい行数を返しなかった問題。</td>
         </tr>
         <tr>
             <td rowspan="4">12/4/2020</td>

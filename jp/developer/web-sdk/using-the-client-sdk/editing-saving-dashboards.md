@@ -1,13 +1,13 @@
 ## ダッシュボードの編集と保存
 
 
-### Editing dashboards
+### ダッシュボードの編集
 
-The **dashboard** property (type $.ig.RVDashboard) of __revealView__ is updated when the end user starts editing the dashboard. For example, when adding or removing visualizations or filters, $.ig.RVDashboard's collections get automatically updated.
+__revealView__ の **Dashboard** プロパティ (タイプ $.ig.RVDashboard) は、エンドユーザーがダッシュボードの編集を開始すると更新されます。たとえば、可視化またはフィルターを追加または削除すると、$.ig.RVDashboard のコレクションが自動的に更新されます。
 
-In addition, the __$.ig.RVDashboard__ class includes the **onHasChangesChanged** property that is very useful to check if there are unsaved changes in the dashboard.
+さらに、__$.ig.RVDashboard__ クラスには、ダッシュボードに未保存の変更があるかどうかを確認するのに非常に役立つ **onHasChangesChanged** プロパティが含まれています。
 
-*Code Sample*:
+**コード サンプル**:
 
 ``` js
 dashboard.onHasChangesChanged = function (hasChanges) {
@@ -15,7 +15,7 @@ dashboard.onHasChangesChanged = function (hasChanges) {
 };
 ```
 
-After a user finishes editing a visualization, upon closing the Visualization Editor, the $.ig.RevealView's __visualizationEditorClosed__ event is fired:
+ユーザーが可視化の編集を終了した後、可視化エディターを閉じると、$.ig.RevealView の __VisualizationEditorClosed__ イベントが発生します:
 
 ``` js
 revealView.onVisualizationEditorClosed = function (args) {
@@ -31,9 +31,9 @@ revealView.onVisualizationEditorClosed = function (args) {
  };
 ```
 
-In the case that you need to control how to add new visualizations please refer to [**Creating New Visualizations and Dashboards**](~/en/developer/desktop-sdk/using-the-desktop-sdk/creating-visualizations-dashboards.md).
+新しい可視化を追加する方法を制御する必要がある場合は、[**新しい可視化とダッシュボードの作成**](~/jp/developer/desktop-sdk/using-the-desktop-sdk/creating-visualizations-dashboards.md)を参照してください。
 
-### Saving Dashboards
+### ダッシュボードの保存
 
 [**ダッシュボード ファイルの読み込み**](~/jp/developer/web-sdk/using-the-server-sdk/loading-dashboards.html)でダッシュ​​ボードに変更を保存する方法が 2 つ紹介されています。
 
