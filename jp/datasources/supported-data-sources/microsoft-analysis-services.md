@@ -4,7 +4,7 @@ Microsoft SQL Analysis Services (SSAS) は、Microsoft SQL Server の OLAP (同�
 
 
 >[!NOTE]
->Microsoft Analysis Services は Reveal の Web バージョンでサポートされていません。
+>**Web の制限**。Microsoft Analysis Services プライベート URL には、Reveal Web からアクセスできません。デスクトップ、iOS、または Android アプリを使用して、プライベート アドレスに接続できます。
 
 
 ### Microsoft Analysis Services データ ソースの構成

@@ -12,7 +12,7 @@ Google ドライブのデータを使用するには、以下の手順に従っ�
 
     **ログイン情報**を入力し [次へ] を選択します。
 
-2. In the **authorization prompt**, select *Allow* to authorize Reveal to use (see, edit, create, and delete) your Google Drive files.
+2. **承認プロンプト**で、[許可] を選択して、Reveal が Google ドライブ ファイルを使用 (表示、編集、作成、削除) することを承認します。
 
 これで、Google ドライブのデータを使用して表示形式を構築できるようになり、これらの権限を再度求められることはありません。
 

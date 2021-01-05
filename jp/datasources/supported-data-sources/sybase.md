@@ -1,7 +1,7 @@
 ## Sybase
 
 >[!NOTE] 
->**Limitations in Web**. Sybase private urls are not accessible through Reveal Web. You can use the Desktop, iOS or Android app to connect to private addresses. 
+>**Web の制限**。Sybase プライベート URL には、Reveal Web からアクセスできません。デスクトップ、iOS、または Android アプリを使用して、プライベート アドレスに接続できます。 
 
 Sybase サーバー データ ソースを構成するには、以下の情報が必要です。
 
