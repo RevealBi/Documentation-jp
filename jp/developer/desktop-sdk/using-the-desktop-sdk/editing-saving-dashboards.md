@@ -8,7 +8,7 @@
 
 __RevealView__ の **Dashboard** プロパティ (タイプ RVDashboard) は、エンドユーザーがダッシュボードの編集を開始すると更新されます。たとえば、可視化またはフィルターを追加または削除すると、RVDashboard のコレクションが自動的に更新されます。
 
-__RVDashboard__の **PropertyChanged** イベントに添付して、**HasPendingChanges** などのプロパティへの変更の通知を受け取ります:
+__RVDashboard__ の **PropertyChanged** イベントに添付して、**HasPendingChanges** などのプロパティへの変更の通知を受け取ります:
 
 **コード サンプル**:
 

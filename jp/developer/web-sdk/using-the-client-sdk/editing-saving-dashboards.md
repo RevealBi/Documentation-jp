@@ -3,7 +3,7 @@
 
 ### ダッシュボードの編集
 
-__revealView__ の **Dashboard** プロパティ (タイプ $.ig.RVDashboard) は、エンドユーザーがダッシュボードの編集を開始すると更新されます。たとえば、可視化またはフィルターを追加または削除すると、$.ig.RVDashboard のコレクションが自動的に更新されます。
+__RevealView__ の **Dashboard** プロパティ (タイプ $.ig.RVDashboard) は、エンドユーザーがダッシュボードの編集を開始すると更新されます。たとえば、可視化またはフィルターを追加または削除すると、$.ig.RVDashboard のコレクションが自動的に更新されます。
 
 さらに、__$.ig.RVDashboard__ クラスには、ダッシュボードに未保存の変更があるかどうかを確認するのに非常に役立つ **onHasChangesChanged** プロパティが含まれています。
 
@@ -31,7 +31,7 @@ revealView.onVisualizationEditorClosed = function (args) {
  };
 ```
 
-新しい可視化を追加する方法を制御する必要がある場合は、[**新しい可視化とダッシュボードの作成**](~/jp/developer/desktop-sdk/using-the-desktop-sdk/creating-visualizations-dashboards.md)を参照してください。
+新しい可視化を追加する方法を制御する必要がある場合は、[**新しい可視化とダッシュボードの作成**](~/jp/developer/web-sdk/using-the-client-sdk/creating-visualizations-dashboards.md)を参照してください。
 
 ### ダッシュボードの保存
 
