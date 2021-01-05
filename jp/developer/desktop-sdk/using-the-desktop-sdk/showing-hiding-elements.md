@@ -52,7 +52,7 @@ revealView.CanDuplicateVisualization = false;
 <img src="../../general/images/showing_hiding_elements_post_calculated.png" alt="Accessing post-calculated fields through the UI" width="60%"/>
 
 事後計算フィールドはデータセットの新しいフィールドで、すでに集計された値に数式を適用して作成されます。
-詳細については、[Reveal ヘルプ](https://help.revealbi.io/en/data-visualizations/fields/calculated-fields/overview.html)をご覧ください。
+詳細については、[Reveal ヘルプ](https://help.revealbi.io/jp/data-visualizations/fields/calculated-fields/overview.html)をご覧ください。
 
 ``` csharp
 revealView.CanAddPostCalculatedFields = false;
@@ -64,7 +64,7 @@ revealView.CanAddPostCalculatedFields = false;
 <img src="../../general/images/showing_hiding_elements_pre_calculated.png" alt="Accessing pre-calculated fields through the UI" width="60%"/>
 
 事前計算フィールドはデータセットの新しいフィールドで、データ エディター集計を実行する前に評価されます。
-詳細については、[Reveal ヘルプ](https://help.revealbi.io/en/data-visualizations/fields/calculated-fields/overview.html)をご覧ください。
+詳細については、[Reveal ヘルプ](https://help.revealbi.io/jp/data-visualizations/fields/calculated-fields/overview.html)をご覧ください。
 
 ``` csharp
 revealView.CanAddCalculatedFields = false;
