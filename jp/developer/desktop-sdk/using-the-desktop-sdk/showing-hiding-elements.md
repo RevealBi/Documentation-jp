@@ -1,17 +1,17 @@
-## Showing/Hiding User Interface Elements
+## ユーザー インターフェイス要素の表示/非表示
 
-The __RevealView__ component can be used to enable or disable different features and/or UI elements towards the end user. Many of the available properties are of the Boolean type and can be very straightforward to use, but others not so much.
+__RevealView__ コンポーネントを使用して、エンド ユーザーに対するさまざまな機能または UI 要素を有効または無効にすることができます。使用可能なプロパティの多くはブール型で簡単に使用できますが、その他のプロパティはそれほど多くありません。
 
-The *revealView* instance created below is assumed by all the code snippets in this topic:
+以下に作成する *revealView* インスタンスは、このトピックのすべてのコード スニペットで使用されます。
 
 ``` csharp
 var revealView = new RevealView();
 ```
 
-All the properties are read by __RevealView__ during initialization time and based on their values Reveal either shows or hides the different features/UI elements from the user.
+すべてのプロパティは、初期化時に __RevealView__ によって読み取られ、その値に基づいて、ユーザーにさまざまな機能または UI 要素を表示または非表示にします。
 
 ### CanEdit
-This property can be used to disable the user's ability to edit dashboards.
+このプロパティは、ダッシュボードを編集するユーザー機能を無効にするために使用できます。
 
 <img src="../../general/images/showing_hiding_elements_edit.png" alt="Editing a dashboard through the UI" width="60%"/>
 
@@ -20,7 +20,7 @@ revealView.CanEdit = false;
 ```
 
 ### ShowExportButton
-This property can be used to disable the user's ability to export dashboards.
+このプロパティは、ダッシュボードをエクスポートするユーザー機能を無効にするために使用できます。
 
 <img src="../../general/images/showing_hiding_elements_export.png" alt="Exporting a dashboard through the UI" width="60%"/>
 
@@ -29,7 +29,7 @@ revealView.ShowExportButton = false;
 ```
 
 ### CanCopyVisualization
-This property can be used to disable the ability to copy a visualization and later paste it in the current dashboard or a different one.
+このプロパティは、表示形式をコピーし、後で現在のダッシュボードまたは別のダッシュボードに貼り付ける機能を無効にするために使用できます。
 
 <img src="../../general/images/showing_hiding_elements_copy.png" alt="Copying an existing visualization through the UI" width="60%"/>
 
@@ -38,7 +38,7 @@ revealView.CanCopyVisualization = false;
 ```
 
 ### CanDuplicateVisualization
-This property can be used to disable the ability to duplicate a visualization in the current dashboard.
+このプロパティは、現在のダッシュボードで表示形式を複製する機能を無効にするために使用できます。
 
 <img src="../../general/images/showing_hiding_elements_duplicate.png" alt="Duplicating an existing visualization through the UI" width="60%"/>
 
@@ -47,46 +47,46 @@ revealView.CanDuplicateVisualization = false;
 ```
 
 ### CanAddPostCalculatedFields
-This property can be used to disable the ability to add a new post-calculated field in the current dashboard.
+このプロパティを使用して、現在のダッシュボードに新しい事後計算フィールドを追加する機能を無効にできます。
 
 <img src="../../general/images/showing_hiding_elements_post_calculated.png" alt="Accessing post-calculated fields through the UI" width="60%"/>
 
-Post-calculated fields are new fields in the data set and are created by applying a formula on already summarized values.  
-For further details, please refer to the [Reveal Help](https://help.revealbi.io/en/data-visualizations/fields/calculated-fields/overview.html).
+事後計算フィールドはデータセットの新しいフィールドで、すでに集計された値に数式を適用して作成されます。
+詳細については、[Reveal ヘルプ](https://help.revealbi.io/en/data-visualizations/fields/calculated-fields/overview.html)をご覧ください。
 
 ``` csharp
 revealView.CanAddPostCalculatedFields = false;
 ```
 
 ### CanAddCalculatedFields
-This property can be used to disable the ability to add a new pre-calculated field in the current dashboard.
+このプロパティを使用して、現在のダッシュボードに新しい事前計算フィールドを追加する機能を無効にできます。
 
 <img src="../../general/images/showing_hiding_elements_pre_calculated.png" alt="Accessing pre-calculated fields through the UI" width="60%"/>
 
-Pre-calculated fields are new fields in the data set and are evaluated before executing data editor aggregations.  
-For further details, please refer to the [Reveal Help](https://help.revealbi.io/en/data-visualizations/fields/calculated-fields/overview.html).
+事前計算フィールドはデータセットの新しいフィールドで、データ エディター集計を実行する前に評価されます。
+詳細については、[Reveal ヘルプ](https://help.revealbi.io/en/data-visualizations/fields/calculated-fields/overview.html)をご覧ください。
 
 ``` csharp
 revealView.CanAddCalculatedFields = false;
 ```
 
 ### ShowFilters
-This property can be used to show or hide the Dashboard Filters UI to the user.
+このプロパティは、ユーザーにダッシュボード フィルター UI を表示または非表示にするために使用できます。
 
 <img src="../../general/images/showing_hiding_elements_filters.png" alt="Showing Dashboard Filters in the UI" width="60%"/>
 
-Dashboard filters allow you to slice the contents of the visualizations in a dashboard, all at once.
+ダッシュボード フィルターを使用すると、ダッシュボードの全ての表示形式のコンテンツを一度にフィルター適用できます。
 
 ``` csharp
 revealView.ShowFilters = false;
 ```
 
-### Preselected Filters
-You can specify which values are initially selected among existing Dashboard Filters when loading a dashboard.
+### 選択済みフィルター
+ダッシュボードを読み込みする時に既存のダッシュボード フィルターから最初に選択される値を指定できます。
 
 <img src="../../general/images/showing_hiding_elements_filters_preselected.png" alt="Showing a Dashboard Filter preselected in the UI" width="60%"/>
 
-The following code snippet shows how to load a dashboard and set the “Territory” selected value to be “Americas”, thus the dashboard will be showing data filtered by “Americas”
+次のコードスニペットは、ダッシュボードを読み込む方法を示し、選択された「Territory」値を「Americas」に設定します。したがって、ダッシュボードには「Americas」でフィルタリングされたデータが表示されます。
 
 ``` csharp
 var dashboard = new RVDashboard(path);
@@ -96,18 +96,18 @@ revealView.Dashboard = dashboard;
 
 
 ### AvailableChartTypes
-This property can be used to filter the visualization types available to the user.
+このプロパティは、ユーザーが使用できる表示形式タイプをフィルターするために使用できます。
 
 <img src="../../general/images/showing_hiding_elements_charts.png" alt="Switching visualizations through the UI" width="60%"/>
 
-You can, for example, add or remove visualizations as shown below:
+たとえば、以下のように表示形式を追加または削除できます。
 
 ``` csharp
 revealView.AvailableChartTypes.Add(RVChartType.BulletGraph);
 revealView.AvailableChartTypes.Remove(RVChartType.Choropleth);
 ```
 
-In addition, you can create a brand new List that includes only the visualizations you want to be available:
+さらに、使用可能な表示形式のみを含む新しいリストを作成できます。
 
 ``` csharp
 revealView.AvailableChartTypes = new List<RVChartType>() { RVChartType.BulletGraph, RVChartType.Choropleth };
