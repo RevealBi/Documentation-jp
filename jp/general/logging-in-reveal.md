@@ -5,14 +5,12 @@ Reveal へようこそ！
 
 <img src="images/log-in-screen.png" alt="Reveal's log in screen" width="80%"/>
 
-開始前に、Reveal で**組織**に参加できることを考慮してください。組織のメンバーは、組織のメール アドレスでログインする必要があります。Google (G Suite) または Microsoft (O365) を選択し、組織チームに関連付けられます。または、iCloud (Apple) アカウントの資格情報を使用してログインできます。
+開始前に、Reveal で**組織**に参加できることを考慮してください。組織のメンバーは、組織のメール アドレスでログインする必要があります。Google または Microsoft (O365) を選択し、組織チームに関連付けられます。または、iCloud (Apple) アカウントの資格情報を使用してログインできます。
 
 > [!NOTE]
 > 組織チームの名前は組織と同じ名前になります (会社名など)。
 
-<img src="images/limited-permission-sign-in-o365.png" alt="Permissions request sign in with Office 365" width="40%"/>
-
-Reveal へのサインインに使用したアカウントに応じて、OneDrive または Google ドライブが[データ ソース](~/jp/datasources/overview.html)のリストに自動的に追加されます。さらに、[OneDrive](~/jp/datasources/supported-data-sources/onedrive.md) と [Google ドライブ](~/jp/datasources/supported-data-sources/google-drive.md)を初めて使用するときにのみ、制限された制限付きのアクセス許可を求められます。
+Reveal へのサインインに使用したアカウントに応じて、OneDrive または Google ドライブが[データ ソース](~/jp/datasources/overview.html)のリストに自動的に追加されます。
 
 ### 初期画面
 
