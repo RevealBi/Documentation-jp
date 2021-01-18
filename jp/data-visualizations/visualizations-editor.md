@@ -36,11 +36,13 @@
 <img src="images/visualization-editor-panes.png" alt="Panes of the Visualization editor" width="80%"/>
 
 1. **[データ] セクション** - このセクションには 2 つのパネルがあります。
-a. **[フィールド]** - データ ソース内で使用可能なすべてのフィールドが左側のパネルに表示されます。各フィールドには、フィールド タイプ (**日付**、**値**、**テキスト**) をユーザーに通知するインジケーターがあります。使用可能なフィールドが 10 を超えると、検索バーが表示されます。
-      このパネルの [+] アイコンを使用すると、[データ ソースをブレンドする](~/jp/datasources/data-blending.md)か、[フィールドを計算](fields/calculated-fields/overview.html#precalculated-fields)することができます。**脳**アイコンを使用すると、[BigQuery](~/jp/datasources/datasources/ml-integration/bigquery-machine-learning-models.md) または [Azure](~/jp/datasources/datasources/ml-integration/azure-machine-learning-models.md) の**機械学習モデル**のフィールドを表示形式に使用できます。
-b. **表示形式フィールド** - ここでフィールドをドラッグアンドドロップするか、**[+]** マークをクリックして使用可能なフィールドから作成する表示形式に使用するフィールドを選択します。
+
+    a. **[フィールド]** - データ ソース内で使用可能なすべてのフィールドが左側のパネルに表示されます。各フィールドには、フィールド タイプ (**日付**、**値**、**テキスト**) をユーザーに通知するインジケーターがあります。使用可能なフィールドが 10 を超えると、検索バーが表示されます。このパネルの [+] アイコンを使用すると、[データ ソースをブレンドする](~/jp/datasources/data-blending.md)か、[フィールドを計算](fields/calculated-fields/overview.html#precalculated-fields)することができます。**脳**アイコンを使用すると、[BigQuery](~/jp/datasources/datasources/ml-integration/bigquery-machine-learning-models.md) または [Azure](~/jp/datasources/datasources/ml-integration/azure-machine-learning-models.md) の**機械学習モデル**のフィールドを表示形式に使用できます。
+
+    b.**表示形式フィールド** - ここでフィールドをドラッグアンドドロップするか、**[+]** マークをクリックして使用可能なフィールドから作成する表示形式に使用するフィールドを選択します。
 
 2. **[設定] セクション** - このセクションでは、表示する内容をカスタマイズできます。各表示形式には独自の設定があります。
+    
     **[設定]** セクションの下部に、リンクのオプションが表示されます。これは、ドリル ダウンを全く新しいレベルに到達させる強力な機能です。詳細については、[ダッシュボード リンク](~/jp/dashboards/dashboard-linking.md)トピックをご覧ください。
 
 3. **表示形式ピッカー** - ここで目的の表示形式を選択して、最終結果をプレビューできます。ドロップダウンでさまざまなチャートの種類を切り替えると、表示形式フィールドのセクションが変更されます。各表示形式を構築するフィールドは異なりますが、入力するだけで自動的に変更されます。
