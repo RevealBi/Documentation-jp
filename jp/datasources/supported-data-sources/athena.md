@@ -2,6 +2,8 @@
 
 Reveal の Amazon Athena データ ソースを使用すると、[Amazon S3](amazon-s3.md) に保存されている非構造化データにアクセスしてクエリを実行し、それを表示形式に使用できます。
 
+### データ ソース接続の構成
+
 Amazon Athena のデータ ソースを設定するには、以下の情報が必要です:
 
 <img src="images/configure-amazon-athena-dialog.png" alt="Configure Amazon Athena dialog" width="80%"/>

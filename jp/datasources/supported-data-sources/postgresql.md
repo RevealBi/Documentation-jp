@@ -1,7 +1,7 @@
 ## PostgreSQL
 
 >[!NOTE] 
->PostgreSQL は Reveal の Web バージョンでサポートされていません。
+>**Web の制限**。PostgreSQL プライベート URL には、Reveal Web からアクセスできません。デスクトップ、iOS、または Android アプリを使用して、プライベート アドレスに接続できます。
 
 PostgreSQL サーバー データ ソースを設定するには、以下の情報が必要です。
 
