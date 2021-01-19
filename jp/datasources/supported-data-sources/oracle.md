@@ -1,7 +1,7 @@
 ## Oracle
 
 >[!NOTE] 
->Oracle は Reveal の Web バージョンでサポートされていません。
+>**Web の制限**。In the *Reveal Web* app, you can connect only to publicly accessible Oracle addresses. If your Oracle address is restricted for the general public (private or hosted in the company's intranet, for example), you can use *Reveal Desktop*, *iOS* or *Android* to connect to it. The device where you're running Reveal needs to have access to this Oracle address. This limitation does not apply to *Reveal Embedded*.
 
 サーバー データベースの設定に基づいて Oracle に接続するための 2 つのモジュールがあります。
 

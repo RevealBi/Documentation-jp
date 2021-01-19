@@ -1,7 +1,7 @@
 ## PostgreSQL
 
 >[!NOTE] 
->**Web の制限**。PostgreSQL プライベート URL には、Reveal Web からアクセスできません。デスクトップ、iOS、または Android アプリを使用して、プライベート アドレスに接続できます。
+>**Web の制限**。In the *Reveal Web* app, you can connect only to publicly accessible PostgreSQL addresses. If your PostgreSQL address is restricted for the general public (private or hosted in the company's intranet, for example), you can use *Reveal Desktop*, *iOS* or *Android* to connect to it. The device where you're running Reveal needs to have access to this PostgreSQL address. This limitation does not apply to *Reveal Embedded*.
 
 PostgreSQL サーバー データ ソースを設定するには、以下の情報が必要です。
 
