@@ -71,7 +71,7 @@ _revealView.SaveDashboard += RevealView_SaveDashboard;
 private async void RevealView_SaveDashboard(object sender, DashboardSaveEventArgs args)
 {
     var data = await args.Serialize();
-    using (var output = File.OpenWrite($"{args.Name}.rdash"))
+    using (var output = File.Open($"{args.Name}.rdash", FileMode.Create))
     {
         output.Write(data, 0, data.Length);
     }
