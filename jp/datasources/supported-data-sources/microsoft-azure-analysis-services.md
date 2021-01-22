@@ -8,7 +8,7 @@ Reveal で使用される他のデータベース (Microsoft Analysis Services�
 
 >[!NOTE]
 >**Azure Analysis Services に初めて接続するときの Web の制限**。
->セキュリティ上の制限により、Azure Analysis Services の初期設定と認証のプロセスは、Reveal Web 上では実行できません。最初に、iOS、Android、またはデスクトップ アプリでこのデータ ソースに接続できます。最初の接続後、この Azure Analysis Services 接続のデータを使用してダッシュボードを作成または編集できます。制限はありません。
+>セキュリティ上の制限により、Azure Analysis Services の初期設定と認証のプロセスは、Reveal Web 上では実行できません。最初に、iOS、Android、またはデスクトップ アプリでこのデータ ソースに接続できます。最初の接続後、この Azure Analysis Services のデータを使用してダッシュボードを作成または編集できます。制限はありません。
 
 Azure Analysis Services データ ソースを設定するには、以下の手順を実行する必要があります。
 

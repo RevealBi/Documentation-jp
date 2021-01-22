@@ -1,7 +1,7 @@
 ## Azure SQL
 
 > [!NOTE] 
->**Web の制限**。In the *Reveal Web* app, you can connect only to publicly accessible Azure SQL addresses. If your Azure SQL address is restricted for the general public (private or hosted in the company's intranet, for example), you can use *Reveal Desktop*, *iOS* or *Android* to connect to it. The device where you're running Reveal needs to have access to the SQL Server address. This limitation does not apply to *Reveal Embedded*.
+>**Web の制限**。*Reveal Web* アプリでは、公的にアクセス可能な Azure SQL アドレスにのみ接続できます。Azure SQL アドレスが一般公開 (プライベートまたは会社のイントラネットでホストされているなど) に制限されている場合は、*Reveal Desktop*、*iOS*、または *Android* を使用して接続できます。Reveal を実行しているデバイスは、SQL Server アドレスにアクセスできる必要があります。この制限は、*Reveal Embedded* には適用されません。
 
 Azure SQL データ ソースを構成するには、以下の情報が必要です。
 

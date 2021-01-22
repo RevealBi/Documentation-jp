@@ -4,7 +4,7 @@ Microsoft SQL Analysis Services (SSAS) は、Microsoft SQL Server の OLAP (同�
 
 
 >[!NOTE]
->**Web の制限**。In the *Reveal Web* app, you can connect only to publicly accessible Microsoft Analysis Services addresses. If your Analysis Services address is restricted for the general public (private or hosted in the company's intranet, for example), you can use *Reveal Desktop*, *iOS* or *Android* to connect to it. The device where you're running Reveal needs to have access to the Analysis Services address. This limitation does not apply to *Reveal Embedded*.
+>**Web の制限**。*Reveal Web* アプリでは、公的にアクセス可能な Microsoft Analysis Services アドレスにのみ接続できます。Analysis Services アドレスが一般公開 (プライベートまたは会社のイントラネットでホストされているなど) に制限されている場合は、*Reveal Desktop*、*iOS*、または *Android* を使用して接続できます。Reveal を実行しているデバイスは、Analysis Services アドレスにアクセスできる必要があります。この制限は、*Reveal Embedded* には適用されません。
 
 
 ### Microsoft Analysis Services データ ソースの構成

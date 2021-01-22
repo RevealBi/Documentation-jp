@@ -1,7 +1,7 @@
 ## Oracle
 
 >[!NOTE] 
->**Web の制限**。In the *Reveal Web* app, you can connect only to publicly accessible Oracle addresses. If your Oracle address is restricted for the general public (private or hosted in the company's intranet, for example), you can use *Reveal Desktop*, *iOS* or *Android* to connect to it. The device where you're running Reveal needs to have access to this Oracle address. This limitation does not apply to *Reveal Embedded*.
+>**Web の制限**。*Reveal Web* アプリでは、公的にアクセス可能な Oracle アドレスにのみ接続できます。Oracle アドレスが一般公開 (プライベートまたは会社のイントラネットでホストされているなど) に制限されている場合は、*Reveal Desktop*、*iOS*、または *Android* を使用して接続できます。Reveal を実行しているデバイスは、Oracle アドレスにアクセスできる必要があります。この制限は、*Reveal Embedded* には適用されません。
 
 サーバー データベースの設定に基づいて Oracle に接続するための 2 つのモジュールがあります。
 
@@ -12,7 +12,7 @@
 <a name='using-sid'></a>
 ### SID の使用
 
-SID を使用して Orable を構成するには、以下の情報が必要です。
+SID を使用して Oracle を構成するには、以下の情報が必要です。
 
 <img src="images/enter-oracle-details.png" alt="Configure Oracle SID mode details" width="80%"/>
 

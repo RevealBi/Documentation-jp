@@ -4,8 +4,8 @@
 
 <table>
 <colgroup>
-<col style="width: 15%" />
-<col style="width: 20%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
 <col style="width: 80%" />
 </colgroup>
     <thead>
@@ -16,11 +16,17 @@
         </tr>
     </thead>
     <tbody>
+    <tr>
+        <td rowspan="2">1/20/2020</td>
+        <td rowspan="2">1.0.1712</td>
+        <td>[公開バグ修正] [SDK] The server component relies on Newtonsof.Json serializer<br> The Reveal server component was relying on the default JSON serialization settings of the mvc application. Now the hosting app can configure JSON serialization settings as needed.</td>
+    </tr>
+    <tr>
+        <td>[公開バグ修正] [SDK] SQL Server filtering not working for NVARCHAR columns<br>Filtering for Microsoft SQL Server was not working for NVARCHAR columns when the filtered value contained multi-byte characters.</td>
+    </tr>
         <tr>
-            <td rowspan="3">12/29/2020</td>
-            <td rowspan="3">1.0.1.0.1669.0 <br> [1.0.21 iOS]</td>
-        </tr>
-        <tr>
+            <td rowspan="2">12/29/2020</td>
+            <td rowspan="2">1.0.1669</td>
             <td>[公開バグ修正] [サーバーでデータを処理] で SDK ピボット階層フィルタリングが機能しない問題。</i><br>[サーバーでデータを処理] オプションがオンになっている場合、ピボット エディターでのドリルダウン階層はデータをフィルタリングしていなかった問題。</td>
         </tr>
         <tr>
