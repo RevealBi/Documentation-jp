@@ -19,10 +19,10 @@
     <tr>
         <td rowspan="2">1/20/2020</td>
         <td rowspan="2">1.0.1712</td>
-        <td>[公開バグ修正] [SDK] The server component relies on Newtonsof.Json serializer<br> The Reveal server component was relying on the default JSON serialization settings of the mvc application. Now the hosting app can configure JSON serialization settings as needed.</td>
+        <td>[公開バグ修正] [SDK] サーバー コンポーネントは Newtonsoft.Json シリアライザー に依存しています。<br> Reveal サーバー コンポーネントは、mvc アプリケーションのデフォルトの JSON シリアル化設定に依存していました。これで、ホスティング アプリは必要に応じて JSON シリアル化設定を構成できます。</td>
     </tr>
     <tr>
-        <td>[公開バグ修正] [SDK] SQL Server filtering not working for NVARCHAR columns<br>Filtering for Microsoft SQL Server was not working for NVARCHAR columns when the filtered value contained multi-byte characters.</td>
+        <td>[公開バグ修正] [SDK] SQL Server フィルタリングが NVARCHAR 列で機能しない問題。<br>フィルタリングされた値にマルチバイト文字が含まれている場合、Microsoft SQL Server のフィルタリングが NVARCHAR 列に対して機能しませんでした。</td>
     </tr>
         <tr>
             <td rowspan="2">12/29/2020</td>
