@@ -27,11 +27,21 @@
 
   - **年度の開始月**: 12 か月の期間が暦年と同じでない場合は、会計年度を使用して、期間の最初の月を選択できます。
 
-  - **日付の集計**: データのレベルの精度 (年、月、または日) を構成します。
-
   - **並べ替え**: 日付を昇順または降順で並べ替えます。
 
   - **日付書式**: 日付と時刻書式の定義済みリストから選択して、日付/時刻の値を表示します。
+
+#### Date Fields Hierarchies
+
+Date Fields aggregation is displayed as a hierarchical list in the Fields section. You can find Year, Quarter, Month, Days, and Minutes, depending on the level of granularity of your Date field.
+
+When you drag and drop a Date field in the Pivot Editor, all the hierarchy is automatically displayed.
+
+![Showing the date field hierarchy functionality in Reveal](images/Date-Field-Hierarchy.png)
+
+In addition, dragging a specific hierarchy level will show data for that level only, as shown below.
+
+![Dragging part of the hierarchy of a date field in Reveal](images/Date-Field-Hierarchy-Level.png)
 
 <a name='numeric-fields'></a>
 ### 数値フィールド
