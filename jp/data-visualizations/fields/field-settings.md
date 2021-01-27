@@ -37,11 +37,11 @@ Date Fields aggregation is displayed as a hierarchical list in the Fields sectio
 
 When you drag and drop a Date field in the Pivot Editor, all the hierarchy is automatically displayed.
 
-![Showing the date field hierarchy functionality in Reveal](images/Date-Field-Hierarchy.png)
+<img src="images/Date-Field-Hierarchy.png" alt="Showing the date field hierarchy functionality in Reveal" width="80%"/>
 
 In addition, dragging a specific hierarchy level will show data for that level only, as shown below.
 
-![Dragging part of the hierarchy of a date field in Reveal](images/Date-Field-Hierarchy-Level.png)
+<img src="images/Date-Field-Hierarchy-Level.png" alt="Dragging part of the hierarchy of a date field in Reveal" width="80%"/>
 
 <a name='numeric-fields'></a>
 ### 数値フィールド
