@@ -29,7 +29,7 @@ Snowflake データ ソースを構成するには、最初に次の情報を入
     <img src="images/select-database-snowflake.png" alt="Select a database dialog" width="80%"/>
 
     >[!NOTE]    
-    **Reveal の Snowflake サンプル データ**。
+    >**Reveal の Snowflake サンプル データ**。
     上のスクリーンショットの Northwind データベースはデモ目的で作成されたものであり、Snowflake のサンプル データの一部としては利用できません。
 
 
@@ -41,4 +41,4 @@ Snowflake データ ソースを構成するには、最初に次の情報を入
 
 #### データ ブレンディングの制限
 
-現在、Snowflake データ ソースからのデータを使用する場合、データ ブレンディング ([1 つの表示形式でデータ ソースを組み合わせる](~/en/datasources/data-blending.md))は**使用できません**。
+現在、Snowflake データ ソースからのデータを使用する場合、データ ブレンディング ([1 つの表示形式でデータ ソースを組み合わせる](~/jp/datasources/data-blending.md))は**使用できません**。
