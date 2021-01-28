@@ -49,10 +49,12 @@
   href: quickbooks.md
 - name: REST API
   href: rest-api.md
-- name: SharePoint オンライン
-  href: sharepoint.md
 - name: Salesforce
   href: salesforce.md
+- name: SharePoint オンライン
+  href: sharepoint.md
+- name: Snowflake
+  href: snowflake.md
 - name: Sybase
   href: sybase.md
 - name: ウェブ リソース
