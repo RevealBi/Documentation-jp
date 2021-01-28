@@ -1,47 +1,44 @@
 ## Snowflake
 
-To configure a Snowflake data source, you first need to connect to the server by entering the following information:
+Snowflake データ ソースを構成するには、最初に次の情報を入力してサーバーに接続する必要があります:
 
 <img src="images/enter-snowflake-server-details.png" alt="Configure Snowflake Server details" width="80%"/>
 
-1.  **Default name** of the data source: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Reveal names it *Snowflake*. You can change it to your preference.
+1.  データソースの **デフォルト名**: データソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Snowflake* という名前を付けます。好みに合わせて変更できます。
 
-2.  **Account**: Your snowflake account without the region or cloud provider information. For example, it should be similar to \<account_name\> instead of _\<account_name\>.us-east-1.snowflakecomputing.com_.
+2.  **[アカウント]**:  領域またはクラウド プロバイダー情報のない Snowflake アカウント。たとえば、_\<account_name\>.us-east-1.snowflakecomputing.com_ ではなく \<account_name\> に似ている必要があります。
 
-3.  **Host**: Although not required, if no value is specified _\<account_name\>.snowflakecomputing.com_ will be assumed. If you are not in the US West region or want to use a global url, you need to specify a HOST with the format:  _\<account_name\>.\<region_id\>.snowflakecomputing.com_.
+3.  **[ホスト]**:  必須ではありませんが、値が指定されていない場合は _\<28/>.snowflakecomputing.com_ が使用されます。米国西部地域にいない場合、またはグローバル URL を使用する場合は、_\<account_name\>.\<region_id\>.snowflakecomputing.com_ の形式でホストを指定する必要があります。
 
-4.  **Credentials**: after selecting *Credentials*, you will be able to
-    enter the credentials for your *Snowflake* server or select existing
-    ones if applicable.
+4.  **[資格情報]**: *資格情報*を選択した後、*Snowflake* サーバーの資格情報を入力するか、既存の資格情報 (利用可能な場合) を選択できます。
 
     <img src="images/enter-snowflake-credentials.png" alt="Configure Snowflake Credentials" width="80%"/>
 
-    - **Name**: the name for your data source account. It will be
-        displayed in the list of accounts in the previous dialog.
+    - **名前**: データソース アカウントの名前。以前のダイアログのアカウントのリストに表示されます。
 
-    - *(Optional)* **Domain**: the name of the domain, if applicable.
+    - *(オプション)* **ドメイン**:  ドメイン名 (該当する場合)。
 
-    - **Username**: the user account for the *Snowflake* server.
+    - **[ユーザー名]**:  *Snowflake*サーバーのユーザーアカウント。
 
-    - **Password**: the password to access the *Snowflake* server.
+    - **[パスワード]**:  *Snowflake*サーバーにアクセスするためのパスワード。
 
-### Configuring a Snowflake Data Source
+### Snowflake データ ソースの構成
 
-1.  **Select a database** by marking the empty circle next to it:
+1.  データベースの横にある空の円をマークして、**データベースを選択します**。
 
     <img src="images/select-database-snowflake.png" alt="Select a database dialog" width="80%"/>
 
     >[!NOTE]    
-    **Snowflake sample data in Reveal**.
-    The Northwind database in the screenshot above was created with demo purposes and is not available as part of Snowflake's sample data.
+    **Reveal の Snowflake サンプル データ**。
+    上のスクリーンショットの Northwind データベースはデモ目的で作成されたものであり、Snowflake のサンプル データの一部としては利用できません。
 
 
-3.  **Select a table or a view** from the database. Use the *eye icon* on the right to preview the data.
+2.  データベースから **[表] または [ビュー] を選択します**。右側の*目のアイコン*を使用して、データをプレビューします。
 
     <img src="images/select-tableview-snowflake.png" alt="Select a table or view dialog" width="80%"/>
 
-You are now directed to the *Visualization editor* where you can start building your visualizations with the data retrieved from Snowflake.
+これで、Snowflake から取得したデータを使用して表示形式の構築を開始できる**表示形式エディター**が表示されます。
 
-#### Limitations in Data Blending
+#### データ ブレンディングの制限
 
-Currently, Data Blending ([combining data sources in one visualization](~/en/datasources/data-blending.md)) is **not available** when using data from the Snowflake data source.
+現在、Snowflake データ ソースからのデータを使用する場合、データ ブレンディング ([1 つの表示形式でデータ ソースを組み合わせる](~/en/datasources/data-blending.md))は**使用できません**。
