@@ -1,5 +1,7 @@
 ## SharePoint オンライン
 
+### SharePoint への接続
+
 SharePoint を選択すると、次のログイン プロンプトが表示されます:
 
 <img src="images/sharepoint-login.png" alt="SharePoint Login" width="80%"/>

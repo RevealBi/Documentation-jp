@@ -1,5 +1,7 @@
 ## OData フィード
 
+### OData フィードへの接続
+
 OData フィードのデータ ソースを設定するには、以下の情報が必要です。
 
 <img src="images/enter-OData-service-details.png" alt="Enter OData Service Details dialog" width="80%"/>

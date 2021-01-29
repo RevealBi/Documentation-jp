@@ -14,7 +14,7 @@
 
   - Win/Loss メトリックス
 
-### サンプル データシート
+### サンプル データ
 
 [ここ](http://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)からサンプル データシートをダウンロードできます。その他すべてのダッシュボード [チュートリアル](~/jp/dashboard-tutorials/overview.md)で同じサンプル スプレッドシートを使用します。
 

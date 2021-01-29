@@ -6,8 +6,7 @@ Microsoft SQL Analysis Services (SSAS) は、Microsoft SQL Server の OLAP (同�
 >[!NOTE]
 >**Web の制限**。*Reveal Web* アプリでは、公的にアクセス可能な Microsoft Analysis Services アドレスにのみ接続できます。Analysis Services アドレスが一般公開 (プライベートまたは会社のイントラネットでホストされているなど) に制限されている場合は、*Reveal Desktop*、*iOS*、または *Android* を使用して接続できます。Reveal を実行しているデバイスは、Analysis Services アドレスにアクセスできる必要があります。この制限は、*Reveal Embedded* には適用されません。
 
-
-### Microsoft Analysis Services データ ソースの構成
+### Microsoft Analysis Services への接続
 
 Microsoft Analysis Services データ ソースを構成するときにサーバー設定に基づいて使用できるモジュールが 2 つあります - [*Native*](#native) および [*HTTP*](#http)。
 

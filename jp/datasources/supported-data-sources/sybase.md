@@ -3,6 +3,8 @@
 >[!NOTE] 
 >**Web の制限**。*Reveal Web* アプリでは、公的にアクセス可能な Sybase アドレスにのみ接続できます。Sybase アドレスが一般公開 (プライベートまたは会社のイントラネットでホストされているなど) に制限されている場合は、*Reveal Desktop*、*iOS*、または *Android* を使用して接続できます。Reveal を実行しているデバイスは、Sybase アドレスにアクセスできる必要があります。この制限は、*Reveal Embedded* には適用されません。 
 
+### Sybase への接続
+
 Sybase サーバー データ ソースを構成するには、以下の情報が必要です。
 
 <img src="images/enter-sybase-server-details.png" alt="Configure Sybase database connection" width="80%"/>
@@ -44,7 +46,9 @@ Sybase サーバー データ ソースを構成するには、以下の情報�
 | 2\. **ipconfig** と入力します。            | 2\. **$ /bin/ifconfig** と入力します。  | 2\. 接続を選択します。                                   |
 | **IPv4 アドレス** はあなたの IP アドレスです。 | **Inet addr** はあなたの IP アドレスです。 | **IP アドレス** フィールドに必要な情報が提供されます。 |
 
-### ビューの作業
+### データの設定
+
+#### ビューの作業
 
 Reveal を使用すると、テーブル全体から Sybase データを取得できますが、代わりにテーブルまたはテーブルのセットからデータのサブセットを返す特定の[ビュー (英語)](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X29678.htm) を選択することもできます。
 
@@ -56,7 +60,7 @@ Reveal を使用すると、テーブル全体から Sybase データを取得�
 
 ビューおよび Sybase の詳細については、[このドキュメント Web サイト (英語)](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X29678.htm) を参照してください。
 
-### 保管されたプロシージャの作業
+#### 保管されたプロシージャの作業
 
 Sybase では、保管されたプロシージャを使用すると、特定のパラメーターを使用してリレーショナル データベースで一連のクエリ ステートメントを実行できます。以下は、マスター データベースのデータを使用してテスト サーバーで実行されるサンプル 保管されたプロシージャのセットです。
 

@@ -2,7 +2,7 @@
 
 Google BigQuery データ ソースは、Reveal 内でビッグ データを処理する際の速度を大幅に向上させます。これにより、速度低下することなく、何百万ものレコードを含むデータセットを表示形式に使用できます。
 
-### Google BigQuery データ ソースの構成
+### Google BigQuery への接続
 
 Google BigQuery を選択すると、**Google アカウント**に接続するように求められます。
 

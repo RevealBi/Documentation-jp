@@ -2,6 +2,7 @@
   href: overview.md
 - name: フィールド設定
   href: field-settings.md
+  updated: true
 - name: フィールドで並べ替え
   href: sort-by-field.md
 - name: アドホック階層

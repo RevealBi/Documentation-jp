@@ -2,6 +2,8 @@
 
 Amazon Simple Storage Service (S3) は、拡張性が高く高速なデータ ストレージ サービスです。Amazon S3 をデータ ソースに追加すると、Reveal で S3 から直接データにアクセスして分析できます。
 
+### Amazon S3 への接続 
+
 Amazon S3 データ ソースを設定するには、次の情報を入力する必要があります:
 
 <img src="images/configure-amazon-s3-dialog.png" alt="Configure Amazon Athena dialog" width="80%"/>

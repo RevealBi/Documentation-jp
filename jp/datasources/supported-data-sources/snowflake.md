@@ -1,5 +1,7 @@
 ## Snowflake
 
+### Snowflake への接続
+
 Snowflake データ ソースを構成するには、最初に次の情報を入力してサーバーに接続する必要があります:
 
 <img src="images/enter-snowflake-server-details.png" alt="Configure Snowflake Server details" width="80%"/>

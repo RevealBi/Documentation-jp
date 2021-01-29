@@ -31,15 +31,15 @@
 
   - **日付書式**: 日付と時刻書式の定義済みリストから選択して、日付/時刻の値を表示します。
 
-#### Date Fields Hierarchies
+#### 日付フィールド階層
 
-Date Fields aggregation is displayed as a hierarchical list in the Fields section. You can find Year, Quarter, Month, Days, and Minutes, depending on the level of granularity of your Date field.
+日付フィールドの集計は、[フィールド] セクションに階層リストとして表示されます。日付フィールドの精度に応じて、[年]、[四半期]、[月]、[日]、および [分] を見つけることができます。
 
-When you drag and drop a Date field in the Pivot Editor, all the hierarchy is automatically displayed.
+[ピボット データ] セクションに日付フィールドをドラッグアンドドロップすると、すべての階層が自動的に表示されます (以下を参照)s。
 
 <img src="images/Date-Field-Hierarchy.png" alt="Showing the date field hierarchy functionality in Reveal" width="80%"/>
 
-In addition, dragging a specific hierarchy level will show data for that level only, as shown below.
+さらに、特定の階層レベルをドラッグすると、以下に示すように、そのレベルのデータのみが表示されます。
 
 <img src="images/Date-Field-Hierarchy-Level.png" alt="Dragging part of the hierarchy of a date field in Reveal" width="80%"/>
 

@@ -1,5 +1,7 @@
 ## Marketo 
 
+### Marketo への接続
+
 Marketo の REST API は、2-legged OAuth 2.0 で認証されています。
 Reveal で Marketo データ ソース接続を構成するには、次の接続情報を提供する必要があります: 
 

@@ -1,12 +1,9 @@
 - name: Amazon Athena
   href: athena.md
-  new: true
 - name: Amazon Redshift
   href: redshift.md
-  new: true
 - name: Amazon S3
   href: amazon-s3.md
-  new: true
 - name: Box
   href: box.md
 - name: Dropbox
@@ -55,6 +52,7 @@
   href: sharepoint.md
 - name: Snowflake
   href: snowflake.md
+  new: true
 - name: Sybase
   href: sybase.md
 - name: ウェブ リソース
