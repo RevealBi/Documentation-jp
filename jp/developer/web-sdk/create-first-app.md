@@ -38,7 +38,7 @@ dialog](images/adding-new-package-source.png)
 
 ### 手順 3 - サーバー構成の設定
 
-プロジェクトに新しい Reveal SDK フォルダーを作成し、**IRevealSdkContext** インターフェースを実装する **RevealSdkContext.cs** クラスを追加します。
+プロジェクトに新しい Reveal SDK フォルダーを作成し、**RevealSdkContextBase** 抽象クラスを実装する **RevealSdkContext.cs** クラスを追加します。
 
 ``` csharp
     using Reveal.Sdk;
@@ -49,25 +49,27 @@ dialog](images/adding-new-package-source.png)
 
     namespace Demo1.RevealSDK
     {
-        public class RevealSdkContext : IRevealSdkContext
+        public class RevealSdkContext : RevealSdkContextBase
         {
-            public IRVDataSourceProvider DataSourceProvider => null;
+            public override IRVDataSourceProvider DataSourceProvider => null;
 
-            public IRVDataProvider DataProvider => null;
+            public override IRVDataProvider DataProvider => null;
 
-            public IRVAuthenticationProvider AuthenticationProvider => null;
+            public override IRVAuthenticationProvider AuthenticationProvider => null;
 
-            public Task<Stream> GetDashboardAsync(string dashboardId)
+            public override Task<Dashboard> GetDashboardAsync(string dashboardId)
             {
-                var resourceName = $"Demo1.Dashboards.{dashboardId}";
+                var dashboardFileName = dashboardId +".rdash";
+                var resourceName = $"Demo1.Dashboards.{dashboardFileName}";
                 var assembly = Assembly.GetExecutingAssembly();
-                return Task.FromResult(assembly.GetManifestResourceStream(resourceName));
+                return Task.FromResult(new Dashboard(assembly.GetManifestResourceStream(resourceName)));
             }
 
-            public Task SaveDashboardAsync(string userId, string dashboardId, Stream dashboardStream)
+            public override Task SaveDashboardAsync(string userId, string dashboardId, Dashboard dashboard)
             {
-                throw new NotImplementedException();
+                return Task.CompletedTask;
             }
+
         }
     }
 ```

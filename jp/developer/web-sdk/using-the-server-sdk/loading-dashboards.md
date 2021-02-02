@@ -14,20 +14,24 @@ SDK でダッシュボードを開く/保存するには 2 つの方法があり
 
 ### サーバー側の作業
 
-ダッシュボードを可視化するには、SDK に Rdash ファイルをストリームとして提供する必要があります。
+In order to visualize a dashboard, you can provide the SDK with an instance of a Dashboard class, which you could instantiate passing a a stream to an rdash or json string representatation of an rdash.
 
-以下のコードスニペットは、プロジェクトに組み込みリソースとして追加された Rdash ファイルを読み込む方法を示しています。このメソッドは、__IRevealSdkContext.GetDashboardAsync__ のための実装です。
+以下のコードスニペットは、プロジェクトに組み込みリソースとして追加された Rdash ファイルを読み込む方法を示しています。このメソッドは、__RevealSdkContextBase.GetDashboardAsync__ のための実装です。
 
 ### コード
 
 ``` csharp
-public Task<Stream> GetDashboardAsync(string dashboardId)
+public override Task<Dashboard> GetDashboardAsync(string dashboardId)
 {
-    var resourceName = $"Reveal.Sdk.Samples.Web.UpMedia.Dashboards.{dashboardId}";
+    var dashboardFileName = dashboardId + ".rdash";
+    var resourceName = $"Demo1.Dashboards.{dashboardFileName}";
     var assembly = Assembly.GetExecutingAssembly();
-    return Task.FromResult(assembly.GetManifestResourceStream(resourceName));
- }
+    var rdashStream = assembly.GetManifestResourceStream(resourceName)
+    var dashboard = new Dashboard(assembly.GetManifestResourceStream(rdashStream));
+
+    return Task.FromResult(dashboard);
+}
 ```
 
-__IRevealSdkContext.GetDashboardAsync__ のこのコードは、クライアントで **RVDashboard.loadDashboard** 関数を使用するとサーバー上で呼び出されます。そして最初のパラメーターとしてクライアント側で指定された dashboardId を取得します。
+__RevealSdkContextBase.GetDashboardAsync__ のこのコードは、クライアントで **RVDashboard.loadDashboard** 関数を使用するとサーバー上で呼び出されます。そして最初のパラメーターとしてクライアント側で指定された dashboardId を取得します。
 

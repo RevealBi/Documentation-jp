@@ -6,31 +6,31 @@ Server SDK では、データ ソースにアクセスするときに使用さ�
 
 ### コード
 
-最初の手順は、以下に示すように、__IRVAuthenticationProvider__ を実装し、それを __IRevealSdkContext__ の __AuthenticationProvider__ プロパティとして返します。
+最初の手順は、以下に示すように、__IRVAuthenticationProvider__ を実装し、それを __RevealSdkContextBase__ の __AuthenticationProvider__ プロパティとして返します。
 
 ``` csharp
 public class EmbedAuthenticationProvider : IRVAuthenticationProvider
 {
     public Task<IRVDataSourceCredential> ResolveCredentialsAsync(string userId, RVDashboardDataSource dataSource)
+    {
+        IRVDataSourceCredential userCredential = null;
+        if (dataSource is RVPostgresDataSource)
         {
-            IRVDataSourceCredential userCredential = null;
-            if (dataSource is RVPostgresDataSource)
-            {
-                userCredential = new RVUsernamePasswordDataSourceCredential("postgresuser", "password");
-            }
-            else if (dataSource is RVSqlServerDataSource)
-            {
-                userCredential = new RVUsernamePasswordDataSourceCredential("sqlserveruser", "password", "domain");
-            }
-            else if (dataSource is RVGoogleDriveDataSource)
-            {
-                userCredential = new RVBearerTokenDataSourceCredential("fhJhbUci0mJSUzi1nIiSint....", "user@company.com");
-            }
-            else if (dataSource is RVRestDataSource)
-            {
-                userCredential = new RVUsernamePasswordDataSourceCredential(); // 匿名
-            }
-            return Task.FromResult<IRVDataSourceCredential>(userCredential);
+            userCredential = new RVUsernamePasswordDataSourceCredential("postgresuser", "password");
+        }
+        else if (dataSource is RVSqlServerDataSource)
+        {
+            userCredential = new RVUsernamePasswordDataSourceCredential("sqlserveruser", "password", "domain");
+        }
+        else if (dataSource is RVGoogleDriveDataSource)
+        {
+            userCredential = new RVBearerTokenDataSourceCredential("fhJhbUci0mJSUzi1nIiSint....", "user@company.com");
+        }
+        else if (dataSource is RVRestDataSource)
+        {
+            userCredential = new RVUsernamePasswordDataSourceCredential(); // Anonymous
+        }
+        return Task.FromResult<IRVDataSourceCredential>(userCredential);
     }
 }
 ```

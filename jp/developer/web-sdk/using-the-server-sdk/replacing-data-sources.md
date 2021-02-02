@@ -4,7 +4,7 @@
 
 ダッシュボードのデータを (Reveal Server SDK) ロードして処理する前に、ダッシュボードの各視覚化に使用される構成またはデータをオーバーライドできます。
 
-以下は __IRevealSdkContext__ で実装するプロパティの 1 つです。
+以下は __RevealSdkContextBase__ で実装するプロパティの 1 つです。
 
 ``` csharp
 IRVDataSourceProvider DataSourceProvider { get;  }
@@ -75,7 +75,7 @@ public class SampleDataSourceProvider : IRVDataSourceProvider
 
   - Top Customers というタイトルのすべてのウィジェットは、Customers テーブルを使用して salesdb.local サーバーの Sales データベースからデータを取得する新しい SQL Server データ ソースに設定されます。
 
-__IRVDataSourceProvider__ を実装することに加えて、それを返すために __IRevealSdkContext.DataSourceProvider__ の実装を変更する必要があります。
+__IRVDataSourceProvider__ を実装することに加えて、それを返すために __RevealSdkContextBase.DataSourceProvider__ の実装を変更する必要があります。
 
 ``` csharp
 IRVDataSourceProvider DataSourceProvider => new SampleDataSourceProvider();

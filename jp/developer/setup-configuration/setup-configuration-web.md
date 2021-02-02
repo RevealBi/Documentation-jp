@@ -51,34 +51,30 @@ Infragistics (Local) フィードがインストーラーによって正しく�
 
 #### 2\. サーバー コンテキストの定義
 
-必要な DLL を参照後、**IRevealSdkContext** インターフェイスを実装するクラスを作成する必要があります。このインターフェイスは、Reveal SDK をアプリケーション内で実行できるようにし、SDK を操作するためのコールバックを提供します。
+After referencing the required DLLs, you need to create a class that inherits the **RevealSdkContextBase** abstract class.このクラスは、Reveal SDK をアプリケーション内で実行できるようにし、SDK を操作するためのコールバックを提供します。
 
 ```csharp
 using Reveal.Sdk;
-public class RevealSdkContext : IRevealSdkContext
+public class RevealSdkContext : RevealSdkContextBase
 {
-    public IRVDataSourceProvider DataSourceProvider => null;
+    public override IRVDataSourceProvider DataSourceProvider => null;
 
-    public IRVDataProvider DataProvider => null;
+    public override IRVDataProvider DataProvider => null;
 
-    public IRVAuthenticationProvider AuthenticationProvider => null;
-
-    public async Task<Stream> GetDashboardAsync(string dashboardId)
+    public override IRVAuthenticationProvider AuthenticationProvider => null;
+      
+    public override Task<Dashboard> GetDashboardAsync(string dashboardId)
     {
-        return await Task.Run(() =>
-        {
-            //.rdash ファイルをストリームとしてロードして返します。
-            var fileName = $"C:\\Temp\\{dashboardId}.rdash";
-            return new FileStream(fileName, FileMode.Open, FileAccess.Read);
-        });
+        var fileName = $"C:\\Temp\\{dashboardId}.rdash";
+        var fileStream = new FileStream(fileName, FileMode.Open, FileAccess.Read);
+        return Task.FromResult(new Dashboard(fileStream));
     }
 
-    //このコールバックは、RevealView オブジェクトのクライアント側に onSave イベントがインストールされていない場合のみ使用されます。
-    //詳細については、Web クライアント SDK のドキュメントをご覧ください。
-    public async Task SaveDashboardAsync(string userId, string dashboardId, Stream dashboardStream)
+    //This callback is used only when “onSave” event is not installed on the
+    //RevealView object client side. For more information see the web client SDK documentation
+    public override Task SaveDashboardAsync(string userId, string dashboardId, Dashboard dashboard)
     {
-        // 編集したダッシュボードをここに保存します。
-        await Task.Run(() => { });
+        return Task.CompletedTask;
     }
 }
 ```
@@ -106,7 +102,8 @@ services.AddRevealServices(new RevealEmbedSettings
 ```
 
 > [!NOTE]
-> **LocalFileStoragePath** は、ダッシュボード データ ソースとしてローカルの Excel ファイルまたは CSV ファイルを使用しており、_RevealSdkContext_ クラスが前述のように _IRevealSdkContext_ を実装している場合にのみ必要です。
+> **LocalFileStoragePath** is only required if you are using local Excel or CSV files as dashboard data source, and the
+> _RevealSdkContext_ class inherits _RevealSdkContextBase_ as described above.
 
 MVC サービスを追加するときに **AddReveal** 拡張メソッドを呼び出すことによって、Reveal エンドポイントを追加できます。以下はコードスニペットです。
 
