@@ -51,7 +51,7 @@ Infragistics (Local) フィードがインストーラーによって正しく�
 
 #### 2\. サーバー コンテキストの定義
 
-After referencing the required DLLs, you need to create a class that inherits the **RevealSdkContextBase** abstract class.このクラスは、Reveal SDK をアプリケーション内で実行できるようにし、SDK を操作するためのコールバックを提供します。
+必要な DLL を参照したら、**RevealSdkContextBase** 抽象クラスを継承するクラスを作成する必要があります。このクラスは、Reveal SDK をアプリケーション内で実行できるようにし、SDK を操作するためのコールバックを提供します。
 
 ```csharp
 using Reveal.Sdk;
@@ -70,8 +70,8 @@ public class RevealSdkContext : RevealSdkContextBase
         return Task.FromResult(new Dashboard(fileStream));
     }
 
-    //This callback is used only when “onSave” event is not installed on the
-    //RevealView object client side. For more information see the web client SDK documentation
+    //このコールバックは、RevealView オブジェクトのクライアント側に onSave イベントがインストールされていない場合のみ使用されます。
+    //詳細については、Web クライアント SDK のドキュメントをご覧ください。
     public override Task SaveDashboardAsync(string userId, string dashboardId, Dashboard dashboard)
     {
         return Task.CompletedTask;
@@ -102,8 +102,8 @@ services.AddRevealServices(new RevealEmbedSettings
 ```
 
 > [!NOTE]
-> **LocalFileStoragePath** is only required if you are using local Excel or CSV files as dashboard data source, and the
-> _RevealSdkContext_ class inherits _RevealSdkContextBase_ as described above.
+> **LocalFileStoragePath** は、ダッシュボード データソースとしてローカルの Excel ファイルまたは CSV ファイルを使用しており、RevealSdkContext クラスが前述のように RevealSdkContextBase を継承している場合にのみ必要です。
+
 
 MVC サービスを追加するときに **AddReveal** 拡張メソッドを呼び出すことによって、Reveal エンドポイントを追加できます。以下はコードスニペットです。
 
