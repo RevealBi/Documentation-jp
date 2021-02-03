@@ -14,7 +14,7 @@ SDK でダッシュボードを開く/保存するには 2 つの方法があり
 
 ### サーバー側の作業
 
-In order to visualize a dashboard, you can provide the SDK with an instance of a Dashboard class, which you could instantiate passing a a stream to an rdash or json string representatation of an rdash.
+ダッシュボードを視覚化するために、SDK に Dashboard クラスのインスタンスを提供できます。これにより、ストリームを rdash または rdash の json 文字列表現にインスタンス化できます。
 
 以下のコードスニペットは、プロジェクトに組み込みリソースとして追加された Rdash ファイルを読み込む方法を示しています。このメソッドは、__RevealSdkContextBase.GetDashboardAsync__ のための実装です。
 
