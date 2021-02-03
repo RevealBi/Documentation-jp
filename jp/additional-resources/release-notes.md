@@ -18,8 +18,6 @@
   <tr>
     <td class="tg-0lax" rowspan="4">12/4/2020</td>
     <td class="tg-0lax" rowspan="4"> 1.0.16 <br> [1.0.20 iOS] </td>
-    <td class="tg-cly1">JSON ファイルを使用してダッシュボードを保存/ロード</span><br>Reveal SDK を使用して、JSON ファイルからダッシュボードを保存/ロードできるようになりました。
-    </td>
 <tr>
     <td class="tg-cly1">[公開バグ修正] カテゴリ フィールド ラベルが表示されない問題。</span><br>カテゴリ チャートでは、ツールチップにフィールド ラベルではなく、カテゴリの元のフィールド名が表示されていました。
 </td>
