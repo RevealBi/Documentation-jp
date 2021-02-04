@@ -71,7 +71,7 @@
 
 チームの唯一の管理者である場合、別のメンバーを管理者として割り当てずにチームを退会することはできません。
 
-<img src="images/owner-leaves-team.png" alt="leave team dialog to assign a new owner" width="80%"/>
+<img src="images/owner-leaves-team.png" alt="leave team dialog to assign a new owner" width="40%"/>
 
 Reveal は、管理者の役割に適したチームのすべてのメンバーを示します。
 

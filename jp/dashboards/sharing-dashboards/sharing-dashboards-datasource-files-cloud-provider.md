@@ -43,7 +43,7 @@
 
 3.  次のダイアログが開きます:
 
-    <img src="images/grant-access-share-dashboard-dialog.png" alt="A dialog to grant access to cloud file data sources" width="80%"/>
+    <img src="images/grant-access-share-dashboard-dialog.png" alt="A dialog to grant access to cloud file data sources" width="40%"/>
 
     **[アクセスの許可]** をクリック/タップして、[ダッシュボードを共有する](share-a-dashboard.html)ユーザーの選択に進みます。
 
