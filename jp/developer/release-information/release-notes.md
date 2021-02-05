@@ -17,9 +17,30 @@
     </thead>
     <tbody>
     <tr>
-        <td rowspan="2">1/20/2020</td>
+            <td rowspan="6">2/4/2021</td>
+            <td rowspan="6">1.0.1763</td>
+            <td><i>[公開バグ修正] [SDK] HasPendingChanges プロパティが正しく動作しない問題。</i><br> Desktop SDK では、ダッシュボードを変更して保存した後、HasPendingChanges プロパティが false に設定されていませんでした。</td>
+        </tr>
+        <tr>
+            <td><i>[公開バグ修正] [SDK] カスタム フィルタリングが正しく動作しない問題。 </i><br>Desktop SDK では、カスタム クエリが正しくデータをフィルタリングしていませんでした。</td>
+        </tr>
+        <tr>
+            <td><i>[公開バグ修正] [SDK] SQLServer テーブルを非表示にすると、ビューも非表示になる問題。</i><br>When using
+                RVDataSourceItemsFilter を使用してすべてのテーブルを非表示にし、ビューのみを表示すると、[ビュー] タブも非表示になりました。</td>
+        </tr>
+        <tr>
+            <td><i>[公開バグ修正] [SDK] AzureSQL データ プロバイダーがエラーを発生する問題。 </i><br>AzureSQL 接続を追加すると、エラー メッセージが表示されました。</td>
+        </tr>
+        <tr>
+            <td><i>[公開バグ修正] [SDK] LocalizationProvider が設定されている場合に日付フィルターが表示されない問題。</i><br>LocalizationProvider が設定されている場合、表示形式エディターに日付フィルターの開始/終了は表示されません。</td>
+        </tr>
+        <tr>
+            <td><i>[公開バグ修正] 日本語にローカライズされていない単語。</i><br>「Others」は、日本語の「その他」にローカライズされていませんでした。</td>
+        </tr>
+        <tr>
+        <td rowspan="2">1/20/2021</td>
         <td rowspan="2">1.0.1712</td>
-        <td>[公開バグ修正] [SDK] サーバー コンポーネントは Newtonsoft.Json シリアライザー に依存しています。<br> Reveal サーバー コンポーネントは、mvc アプリケーションのデフォルトの JSON シリアル化設定に依存していました。これで、ホスティング アプリは必要に応じて JSON シリアル化設定を構成できます。</td>
+        <td>[公開バグ修正] [SDK] サーバー コンポーネントは Newtonsoft.Json シリアライザー に依存しています。<br> Reveal サーバー コンポーネントは、MVC アプリケーションのデフォルトの JSON シリアル化設定に依存していました。これで、ホスティング アプリは必要に応じて JSON シリアル化設定を構成できます。</td>
     </tr>
     <tr>
         <td>[公開バグ修正] [SDK] SQL Server フィルタリングが NVARCHAR 列で機能しない問題。<br>フィルタリングされた値にマルチバイト文字が含まれている場合、Microsoft SQL Server のフィルタリングが NVARCHAR 列に対して機能しませんでした。</td>
@@ -135,7 +156,8 @@
         </tr>
             <td></td>
             <td>1.0.825</td>
-            <td>画像エクスポート機能が利用できるようになりました。<br>サーバー側の画像エクスポート (プログラム上およびユーザー操作の両方により) が再び有効になりました。修正の詳細については、以下のトピックを参照してください。<a href="setup-configuration-server-web#server-side-image-export">サーバー側画像生成の有効化</a></td>
+            <td>画像エクスポート機能が利用できるようになりました。<br>サーバー側の画像エクスポート (プログラム上およびユーザー操作の両方により) が再び有効になりました。修正の詳細については、以下のトピックを参照してください。<a
+                href="../setup-configuration/setup-configuration-web.html#server-side-image-export">サーバー側画像生成の有効化</a></td>
         <tr>
         </tr>
             <td rowspan="4"></td>

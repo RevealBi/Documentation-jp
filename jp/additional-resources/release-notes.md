@@ -16,6 +16,33 @@
     <th class="tg-cly1"><span style="font-weight:bold">説明</span></th>
   </tr>
   <tr>
+        <td class="tg-0lax" rowspan="5">2/4/2021</td>
+        <td class="tg-0lax" rowspan="5"> 1.0.17</td>
+        <td class="tg-cly1"><span style="font-style:italic">新しい Snowflake データソース</span><br>
+        Reveal で Snowflake からデータにアクセスできるようになりました。
+        </td>
+    </tr>
+    <tr>
+        <td class="tg-cly1"><span style="font-style:italic">新しい日付階層</span><br>
+    日付フィールドは、ピボット エディターに階層 (年、四半期、月、日、分) を自動的に表示するようになりました。
+        </td>
+    </tr>
+    <tr>
+        <td class="tg-cly1"><span style="font-style:italic">散布マップの拡張機能</span><br>
+            新しいズーム コントロールが散布マップに追加され、、ズーム レベルをより適切に調整し、必要に応じてリセットできるようになりました。
+        </td>
+    </tr>
+    <tr>
+        <td class="tg-cly1"><span style="font-style:italic">新しい UI ナビゲーション</span><br>
+            メイン ナビゲーションが変更され、UI と組織が異なるため、ナビゲーション エクスペリエンスが向上しました。
+        </td>
+    </tr>
+    <tr>
+        <td class="tg-cly1"><span style="font-style:italic">[公開バグ修正] 日本語にローカライズされていない単語。</span><br>
+            「Others」は、日本語の「その他」にローカライズされていませんでした。
+        </td>
+    </tr>
+    <tr>
     <td class="tg-0lax" rowspan="4">12/4/2020</td>
     <td class="tg-0lax" rowspan="4"> 1.0.16 <br> [1.0.20 iOS] </td>
 <tr>

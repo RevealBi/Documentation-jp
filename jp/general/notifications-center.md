@@ -42,8 +42,8 @@
 
 |                         | メール                                                     | プッシュ | アプリ内                                                   |
 | ----------------------- | --------------------------------------------------------- | ---- | -------------------------------------------------------- |
-| チームから削除されました。 | ![enabled feature](images/enabled-feature.png)            |      | ![enabled feature](images/enabled-feature.png)           |
-| 新しいメンバーが参加しました。        |                                                           |      | ![enabled feature](images/enabled-feature.png)           |
+| チームから削除されました。 | <img src="images/enabled-feature.png" alt="enabled feature"/>            |      | <img src="images/enabled-feature.png" alt="enabled feature"/>           |
+| 新しいメンバーが参加しました。        |                                                           |      | <img src="images/enabled-feature.png" alt="enabled feature"/>           |
 
 #### ダッシュボード通知
 
@@ -53,6 +53,6 @@
 
 |                                     | メール                                                     | プッシュ | アプリ内                                                    |
 | ----------------------------------- | --------------------------------------------------------- | --------------------------------------------------------- | --------------------------------------------------------- |
-| ダッシュボードが共有されました。         | ![enabled feature](images/enabled-feature.png)            | ![enabled feature](images/enabled-feature.png)            | ![enabled feature](images/enabled-feature.png)            |
-| ダッシュボードが自分が参加しているチームと共有されました。 |                                                           |                                                           | ![enabled feature](images/enabled-feature.png)            |
-| ダッシュボードが更新されました。               |                                                           | ![enabled feature](images/enabled-feature.png)            | ![enabled feature](images/enabled-feature.png)            |
+| ダッシュボードが共有されました。         | <img src="images/enabled-feature.png" alt="enabled feature"/>            | <img src="images/enabled-feature.png" alt="enabled feature"/>            | <img src="images/enabled-feature.png" alt="enabled feature"/>            |
+| ダッシュボードが自分が参加しているチームと共有されました。 |                                                           |                                                           | <img src="images/enabled-feature.png" alt="enabled feature"/>            |
+| ダッシュボードが更新されました。               |                                                           | <img src="images/enabled-feature.png" alt="enabled feature"/>            | <img src="images/enabled-feature.png" alt="enabled feature"/>            |

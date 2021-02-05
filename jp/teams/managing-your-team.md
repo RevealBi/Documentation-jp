@@ -15,7 +15,7 @@
 
 チームの管理者のみがメンバーを招待できます。
 
-チームの完全なメンバーのリストを表示するには、以下に示すように、チームのリストに移動 → チームを選択 → 右側にあるメンバーのアイコンをクリック/タップします。
+チームの完全なメンバーのリストを表示するには、以下に示すように、チームのリストに移動 → チームのオーバーフロー ボタンをクリック/タップ → **[メンバー管理]** を選択します。
 
 <img src="images/manage-team-members_all.png" alt="manage team members menu" width="80%"/>
 
@@ -36,7 +36,8 @@
 <a name='manage-team-properties'></a>
 ### チーム プロパティを管理する
 
-チームのプロパティを変更するには、チームのリストに移動 → チームを選択 → 右側のギア アイコンをクリック/タップします。
+チームの設定を変更するには:
+以下に示すように、チームのリストに移動 → チームのオーバーフロー ボタンをクリック/タップ → **[チーム設定]** を選択します。
 
 <img src="images/team-settings-managing_all.png" alt="team settings managing menu" width="80%"/>
 
@@ -55,7 +56,7 @@
 <a name='delete-team'></a>
 ### チームの削除
 
-管理者のみがチームを削除できます。これを行うには、チームの[プロパティ](#manage-team-properties)に移動し、*[チームの削除]*をクリックします。
+管理者のみがチームを削除できます。これを行うには、チームの[設定](#manage-team-properties)に移動し、[チームの削除] をクリックします。
 
 <img src="images/delete-team.png" alt="delete team button" width="80%"/>
 

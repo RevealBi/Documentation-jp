@@ -13,7 +13,7 @@ Reveal のダッシュボード作成には以下のオプションが含まれ�
 <a name='access-dashboard-creation-menu'></a>
 ### ダッシュボード作成メニューにアクセス
 
-初期画面の [+ ダッシュボード] 分割ボタンを選択し、ダッシュボードを作成できます。
+初期画面の [+ 新規] ボタンを選択し、ダッシュボードを作成できます。
 
 <img src="images/create-new-dashboard.png" alt="Creating new dashboard" width="80%"/>
 

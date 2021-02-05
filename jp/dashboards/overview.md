@@ -6,8 +6,6 @@
 
 ### ダッシュボード作成プロセス
 
-<img src="images/dashboard-creation-process.png" alt="Infographic showing the dashboard creation process " width="80%"/>
-
   - **KPI 目標**: 自分またはアナリストがダッシュボードに何を示し、何を中心にサイクルを回す必要があるかを決定します。
 
   - **ダッシュボードの計画**: 情報をグラフィカルにどのように表現しますか? [グリッド](../data-visualizations/visualization-types/grid-chart.html)、マップ、[ゲージ](../data-visualizations/visualization-types/gauge-charts.html)、または[カテゴリ チャート](../data-visualizations/visualization-types/category-charts.html)を使用しますか? [フィルター](../filters/overview.html)を使用しますか? Reveal の高度な機能を使用してデータの表示形式を向上する方法については、[このブログ (英語) をご覧ください](https://www.infragistics.com/community/blogs/b/infragistics/posts/8-ways-to-improve-your-data-visualizations)\!

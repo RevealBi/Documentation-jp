@@ -28,7 +28,7 @@ IRVDataSourceProvider DataSourceProvider { get;  }
 
 ``` csharp
 public class SampleDataSourceProvider : IRVDataSourceProvider
-    {
+{
         public Task<RVDataSourceItem> ChangeDashboardFilterDataSourceItemAsync(string userId, string dashboardId, RVDashboardFilter globalFilter, RVDataSourceItem dataSourceItem)
         {
             return Task.FromResult<RVDataSourceItem>(null);
@@ -63,6 +63,8 @@ public class SampleDataSourceProvider : IRVDataSourceProvider
 
                 return Task.FromResult((RVDataSourceItem)sqlServerDsi);
             }
+
+            return Task.FromResult(dataSourceItem);
         }
 }
 ```

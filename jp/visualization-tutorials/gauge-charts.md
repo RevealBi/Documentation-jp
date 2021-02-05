@@ -80,7 +80,7 @@
 | 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-Gauge-Views.png" alt="Tutorials-Select-Gauge-Views" width="80%"/>                   | データ ソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。次に、Gauge Views シートを選択し、[データのロード] を選択します。                         |
 | 4\. **表示形式メニューを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" width="80%"/> | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                                 |
 | 5\. **表示形式を選択する**        | <img src="images/Tutorials-Select-Linear-Gauge.png" alt="Tutorials-Select-Linear-Gauge" width="80%"/>                 | デフォルトで、表示形式タイプは**グリッド**に設定されています。[リニア] ゲージを選択してください。                                                                                  |
-| 6\. **データを体系化する**               | ![Tutorials-LinearGauge-Data](images/Tutorials-LinearGauge-Data.png)                       | たとえば、このリニア ゲージは国別で平均寿命を表します。[ラベル] に Country Name フィールド、年フィールドの 1 つを [値] にドラッグアンドドロップします。|
+| 6\. **データを体系化する**               | <img src="images/Tutorials-LinearGauge-Data.png" alt="Tutorials-LinearGauge-Data" width="80%"/>                       | たとえば、このリニア ゲージは国別で平均寿命を表します。[ラベル] に Country Name フィールド、年フィールドの 1 つを [値] にドラッグアンドドロップします。|
 
 <a name='create-circular-gauge'></a>
 ### 円型ゲージを作成する方法
@@ -91,8 +91,8 @@
 | 2\. **データ ソースを構成する**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" width="80%"/>                   | [新しい表示形式] ウィンドウで、右下隅の [+] ボタンを選択し、データ ソースを選択します。                                                       |
 | 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-Gauge-Views.png" alt="Tutorials-Select-Gauge-Views" width="80%"/>                   | データ ソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。次に、Gauge Views シートを選択し、[データのロード] を選択します。                         |
 | 4\. **表示形式メニューを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" width="80%"/> | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                                 |
-| 5\. **表示形式を選択する**        | <img src="images/Tutorials-Select-Circular-Gauge.png" alt="Tutorials-Select-Circular-Gauge" width="80%"/>                 | デフォルトで、表示形式のタイプは**グリッド**に設定されています。[円型] ゲージを選択してください。                                                                                |
-| 6\. **データを体系化する**               | ![Tutorials-CircularGauge-Data](images/Tutorials-CircularGauge-Data.png)                   | 例えば、このラジアル ゲージは国別平均寿命を表します。[ラベル] に Country Name フィールド、年フィールドの 1 つを [値] にドラッグアンドドロップします。|
+| 5\. **表示形式を選択する**        | <img src="images/Tutorials-Select-Linear-Gauge.png" alt="Tutorials-Select-Linear-Gauge" width="80%"/>                 | デフォルトで、表示形式のタイプは**グリッド**に設定されています。[円型] ゲージを選択してください。                                                                                |
+| 6\. **データを体系化する**               | <img src="images/Tutorials-CircularGauge-Data.png" alt="Tutorials-CircularGauge-Data" width="80%"/>                      | 例えば、このラジアル ゲージは国別平均寿命を表します。[ラベル] に Country Name フィールド、年フィールドの 1 つを [値] にドラッグアンドドロップします。|
 
 
 円型ゲージは、特に平均値と値の合計の表示に適しています。[値] に表示されるフィールドの集計を変更する手順:
@@ -101,7 +101,7 @@
 
 |                                              |                                                                            |                                                                                           |
 | -------------------------------------------- | -------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| 1\. **[値] のフィールド設定にアクセスする** | ![Add-Data-Filter-CircularGauge](images/Add-Data-Filter-CircularGauge.png) | **[値]** のフィールドを選択してアクセスします                                                  |
+| 1\. **[値] のフィールド設定にアクセスする** | <img src="images/Add-Data-Filter-CircularGauge.png" alt="Add-Data-Filter-CircularGauge" width="80%"/> | **[値]** のフィールドを選択してアクセスします                                                  |
 | 2\. **別の集計を選択する**       | <img src="images/CircularGauge-Aggregation.png" alt="CircularGauge-Aggregation" width="80%"/>         | **[集計]** のドロップダウンを展開し、別のオプションを選択します (平均値など)。|
 
 
@@ -115,7 +115,7 @@
 | 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-Gauge-Views.png" alt="Tutorials-Select-Gauge-Views" width="80%"/> | データ ソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。次に、Gauge Views シートを選択します。                                                                                                                               |
 | 4\. **表示形式メニューを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" width="80%"/>                        | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                                                                                                                 |
 | 5\. **表示形式を選択する**        | <img src="images/Tutorials-Select-Text-Gauge.png" alt="Tutorials-Select-Text-Gauge" width="80%"/>                                        | デフォルトで、表示形式のタイプは**グリッド**に設定されています。[テキスト] ゲージを選択してください。                                                                                                                                                                    |
-| 6\. **データを体系化する**               | ![Tutorials-TextGauge-Organizing-Data](images/Tutorials-TextGauge-Organizing-Data.png)                            | 例えば、このテキスト ゲージは国別平均寿命を表します。年フィールドの 1 つを [値] にドラッグアンドドロップし、Country Name フィールドを [データ フィルター] にドラッグアンドドロップします。次に、フィールドを選択して、必要な特定の国を選択します。|
+| 6\. **データを体系化する**               | <img src="images/Tutorials-TextGauge-Organizing-Data.png" alt="Tutorials-TextGauge-Organizing-Data" width="80%"/>                            | 例えば、このテキスト ゲージは国別平均寿命を表します。年フィールドの 1 つを [値] にドラッグアンドドロップし、Country Name フィールドを [データ フィルター] にドラッグアンドドロップします。次に、フィールドを選択して、必要な特定の国を選択します。|
 
 上記の [テキスト ゲージのサンプル] は平均値の集計を使用します。フィールドの集計を変更するために、[この手順](#aggregation-instructions)をご参照ください。
 
@@ -129,7 +129,7 @@
 | 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-Gauge-Views.png" alt="Tutorials-Select-Gauge-Views" width="80%"/> | データ ソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。次に、Gauge Views シートを選択します。                                                                       |
 | 4\. **表示形式メニューを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" width="80%"/>                        | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                                                        |
 | 5\. **表示形式を選択する**        | <img src="images/Tutorials-Select-Bullet-Graph.png" alt="Tutorials-Select-Bullet-Graph" width="80%"/>                        | デフォルトで、表示形式のタイプは**グリッド**に設定されています。[ブレット グラフ] の表示形式を選択してください。                                                                                           |
-| 6\. **データを体系化する**               | ![Tutorials-Charts-Organizing-Data](images/Tutorials-Charts-Organizing-Data.png)                                  | 例えば、このブレット グラフ は国別平均寿命を表します。[ラベル] に Country Name フィールド、年フィールドの 1 つを [値] に、別の年フィールドを [ターゲット] にドラッグアンドドロップします。|
+| 6\. **データを体系化する**               | <img src="images/Tutorials-Charts-Organizing-Data.png" alt="Tutorials-Charts-Organizing-Data" width="80%"/>                                  | 例えば、このブレット グラフ は国別平均寿命を表します。[ラベル] に Country Name フィールド、年フィールドの 1 つを [値] に、別の年フィールドを [ターゲット] にドラッグアンドドロップします。|
 
 <a name='adding-bounds-gauge'></a>
 ### ゲージの化でしきい値を追加する方法

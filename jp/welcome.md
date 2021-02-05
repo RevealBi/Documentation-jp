@@ -51,8 +51,10 @@ Reveal で BigQuery または Azure Machine Learning Studio からのトレー�
 
 ### 新機能
 
-* [Amazon Athena](~/jp/datasources/supported-data-sources/athena.md) データ ソース – Amazon Athena に接続して Amazon S3 からデータをクエリし、それを使用して Reveal で表示形式を構築できるようになりました。
-* [Amazon S3](~/jp/datasources/supported-data-sources/amazon-s3.md) データ ソース – Reveal で Amazon S3 から直接データにアクセスできるようになりました。
+* [Snowflake](~/jp/datasources/supported-data-sources/snowflake.md) データソース – Reveal で Snowflake からデータにアクセスできるようになりました。
+* [日付階層](~/jp/data-visualizations/fields/field-settings.html#date-fields)– 日付フィールドは、ピボット エディターに階層 (年、四半期、月、日、分) を自動的に表示するようになりました。
+* [散布マップの拡張機能](~/jp/data-visualizations/visualization-types/scatter-map/scatter-map.html#scatter-maps-zoom) – 新しいズーム コントロールを使用すると、ズーム レベルをより適切に調整し、必要に応じてリセットできます。
+* [UI ナビゲーションの改善](~/jp/general/logging-in-reveal.html#your-first-screen) – メイン ナビゲーションが変更され、UI と組織が異なるため、ナビゲーション エクスペリエンスが向上しました。
 
 ### Reveal はどこで入手できますか?
 
@@ -65,6 +67,6 @@ Reveal は使用しているデバイスに関係なく、シームレスでほ�
 | PLATFORM | SUPPORT |
 | --- | --- |
 |**Android**|Android 5.0 (Lollipop) 以降 (Kindle Fire を除く)。|
-|**Desktop**|.NET Framework 4.6.2 がインストールされているすべての Windows 7 SP1以降。.NET Framework のシステム要件の詳細については、[Microsoft 記事](https://docs.microsoft.com/en-us/dotnet/framework/get-started/system-requirements)をご参照ください。|
+|**Desktop**|.NET Framework 4.6.2 がインストールされているすべての Windows 7 SP1以降。.NET Framework のシステム要件の詳細については、[Microsoft 記事](https://docs.microsoft.com/ja-jp/dotnet/framework/get-started/system-requirements)をご参照ください。|
 |**IOS**|iOS 12 以降。|
 |**Web**|Mac および Windows のすべての主要なブラウザー ( 直近の2 リリース)。Web ブラウザーは、モバイル デバイスではサポートされていません。|
