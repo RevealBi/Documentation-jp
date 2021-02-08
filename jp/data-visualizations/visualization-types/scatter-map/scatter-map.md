@@ -53,13 +53,13 @@ Reveal の最も基本的な散布マップは、選択した領域に均一な�
 
 散布マップを使用すると、マーカーがより密にプロットされている領域、または [マップ] ドロップダウンの一部ではない領域 (バルカン半島など) にズームインしてフォーカスできます。ズーム領域を保存し、このビューをダッシュボードに保持することもできます。
 
-When the map is [maximized](~/en/dashboards/dashboards-interactions.html#maximized-view), you can zoom in and out in *Dashboard View mode* or in the *Visualization Editor* too.
+マップが[最大化される](~/jp/dashboards/dashboards-interactions.html#maximized-view)と、**ダッシュボード ビュー モード**または**表示形式エディター**でもズームインおよびズームアウトできます。
 
-When maximized, the scatter map displays a zoom control that allows you to better adjust the zoom level and reset it when needed.
+散布マップを最大化すると、ズーム コントロールが表示され、ズーム レベルをより適切に調整し、必要に応じてリセットできます。
 
 <img src="images/scatter-map-zoom-control.png" alt="A scatter map displaying the zoom control" width="80%"/>
 
-As shown above, there are a couple of buttons displayed at the bottom right of the map. The _Reset Zoom_ button will reset the map zoom to the zoom-level the map was saved the last time.
+上に示したように、マップの右下にいくつかのボタンが表示されています。[ズームのリセット] ボタンは、マップのズームを、マップが最後に保存されたズーム レベルにリセットします。
 
 ズームを使用すると、Reveal がマップの背景として使用するクリアな図形を変更することもできます。選択したズーム レベルで、グレーの領域を、以下のいずれかのマップ サービスで提供される**画像タイル**と呼ばれる詳細な実際のマップで置き換えることができます。
 
