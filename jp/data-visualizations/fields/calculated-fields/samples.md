@@ -16,14 +16,14 @@
 
 | 関数名              | 関数をテストするためのサンプル データセット                                                               | 式                                                        | サンプル出力                          |
 | -------------------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | -------------------------------------- |
-| **Opposite Value**         | [HR Dataset](http://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | \-[Wage]                                                          | \-36,452.00 (for Joan Baez)            |
-| **Age**                    | [HR Dataset](http://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | (today()-[BirthDate])/365                                         | 46.12 (for Joan Baez)                  |
-| **Name & Department**      | [HR Dataset](http://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | [Fullname]& ", " &[Department]                                    | Joan Baez, Development (for Joan Baez) |
-| <span style="color: #800000" style="font-weight:bold">Sales Percentage</span>           | [Retail Store](http://download.infragistics.com/reportplus/help/samples/Retail_Store.xlsx)    | [Sales]\*100/sum([Sales])                                         | 7,20% (for Alabama)                    |
-| <span style="color: #004c00" style="font-weight:bold">Sales Percentage 2</span>         | [Retail Store](http://download.infragistics.com/reportplus/help/samples/Retail_Store.xlsx)    | [Sales2]\*100/sum([Sales2])                                       | 5,05% (for Alabama)                    |
-| **Sales Percentage Delta** | [Retail Store](http://download.infragistics.com/reportplus/help/samples/Retail_Store.xlsx)    | [Sales Percentage 2]-[Sales Percentage]/([Sales Percentage]\*100) | 4,05% (for Alabama)                    |
-| **Name starts with J**     | [HR Dataset](http://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | if(find("j",lower([Fullname]),1)=1,"Starts with J",0)             | Starts with J, 0                       |
-| **Deviation from Avg**     | [HR Dataset](http://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | [Wage]-average([Wage])                                            | \-50476.71 (for Joan Baez)             |
+| **Opposite Value**         | [HR Dataset](https://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | \-[Wage]                                                          | \-36,452.00 (for Joan Baez)            |
+| **Age**                    | [HR Dataset](https://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | (today()-[BirthDate])/365                                         | 46.12 (for Joan Baez)                  |
+| **Name & Department**      | [HR Dataset](https://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | [Fullname]& ", " &[Department]                                    | Joan Baez, Development (for Joan Baez) |
+| <span style="color: #800000" style="font-weight:bold">Sales Percentage</span>           | [Retail Store](https://download.infragistics.com/reportplus/help/samples/Retail_Store.xlsx)    | [Sales]\*100/sum([Sales])                                         | 7,20% (for Alabama)                    |
+| <span style="color: #004c00" style="font-weight:bold">Sales Percentage 2</span>         | [Retail Store](https://download.infragistics.com/reportplus/help/samples/Retail_Store.xlsx)    | [Sales2]\*100/sum([Sales2])                                       | 5,05% (for Alabama)                    |
+| **Sales Percentage Delta** | [Retail Store](https://download.infragistics.com/reportplus/help/samples/Retail_Store.xlsx)    | [Sales Percentage 2]-[Sales Percentage]/([Sales Percentage]\*100) | 4,05% (for Alabama)                    |
+| **Name starts with J**     | [HR Dataset](https://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | if(find("j",lower([Fullname]),1)=1,"Starts with J",0)             | Starts with J, 0                       |
+| **Deviation from Avg**     | [HR Dataset](https://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | [Wage]-average([Wage])                                            | \-50476.71 (for Joan Baez)             |
 
 <a name='converting-unix-timestamps'></a>
 ### Unix 更新日時を使用可能な日付へ変換

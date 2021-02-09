@@ -16,7 +16,7 @@
 
 ### サンプル データシート
 
-[ここ](http://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)からサンプル データシートをダウンロードできます。その他すべてのダッシュボード [チュートリアル](~/jp/dashboard-tutorials/overview.md)で同じサンプル スプレッドシートを使用します。
+[ここ](https://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)からサンプル データシートをダウンロードできます。その他すべてのダッシュボード [チュートリアル](~/jp/dashboard-tutorials/overview.md)で同じサンプル スプレッドシートを使用します。
 
 >[!NOTE]
 >このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、[サポートされているクラウド サービス](../../../jp/datasources/overview.html)のいずれかにファイルをアップロードしてください。

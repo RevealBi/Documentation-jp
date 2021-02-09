@@ -64,7 +64,7 @@
 
 ### サンプル データ ソース
 
-このチュートリアルでは [Reveal チュートリアル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx) の「Sparkline Charts」シートを使用します。
+このチュートリアルでは [Reveal チュートリアル スプレッドシート](https://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx) の「Sparkline Charts」シートを使用します。
 
 >[!NOTE]
 >このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[ウェブ リソースとして](~/jp/datasources/supported-data-sources/web-resource.md)追加してください。

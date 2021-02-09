@@ -9,7 +9,7 @@ Reveal では、集計計算フィールドに以下が含まれます。
 
   - **if 文を含む標準関数**: [このセクション](#aggregation-if-condition) は、*if 文* [ネスト if 文 を含む](#nested-if-conditions)) の詳細および構成方法について説明します。
 
-**注:** *以下の表のすべてのサンプルは HR dashboard サンプルに含まれる [HR Dataset 2016](http://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx)スプレッドシートで作成されました。*
+**注:** *以下の表のすべてのサンプルは HR dashboard サンプルに含まれる [HR Dataset 2016](https://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx)スプレッドシートで作成されました。*
 
 以下はこの関数に含まれる集計カテゴリです。
 

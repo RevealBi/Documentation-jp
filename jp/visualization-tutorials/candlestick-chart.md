@@ -54,7 +54,7 @@
 
 ### サンプル データ ソース
 
-このチュートリアルでは、[Reveal チュートリアル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx)の OHLC and Candlestick シートを使用します。
+このチュートリアルでは、[Reveal チュートリアル スプレッドシート](https://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx)の OHLC and Candlestick シートを使用します。
 
 
 >[!NOTE]

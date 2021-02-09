@@ -1,6 +1,6 @@
 ## その他の表示形式の追加
 
-ダッシュボードにあるその他すべての表示形式で同じ[サンプル スプレッドシート](http://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)を使用します。
+ダッシュボードにあるその他すべての表示形式で同じ[サンプル スプレッドシート](https://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)を使用します。
 
 >[!NOTE]
 >[データ ソースを変更する](../../../jp/datasources/changing-data-source-visualization.html)場合は、データ ソース名の横にあるオーバーフロー ボタン、または[新しいデータ ソースを作成する](../../../jp/datasources/overview.html#connecting-to-data-sources)を選択する必要があります。表示形式を[複製して](~/jp/data-visualizations/reusing-visualizations.md)作成時間を短縮することもできます。

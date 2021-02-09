@@ -37,7 +37,7 @@ OAuth 2 / OIDC アカウントでデータ ソースを使用するには、以�
 
 ### データ ソースの選択
 
-1.  Reveal に移動し、**データ ソース** (Odata フィード、Rest API 、またはウェブ リソース) **を選択する**。
+1.  Reveal に移動し、**データ ソース** (Odata フィード、Rest API、またはウェブ リソース) **を選択する**。
 
 2.  このデータ ソースに意味のある**名前**を付ける。
 
@@ -51,7 +51,7 @@ OAuth 2 / OIDC アカウントでデータ ソースを使用するには、以�
 
 ### Reveal での OAuth 2 / OIDC アカウントの設定
 
-*OAuth 2 / OIDC アカウントの詳細*画面で、リソース サーバーによって Reveal 用に既に生成された資格情報を入力する必要があります。
+**OAuth 2 / OIDC アカウントの詳細**画面で、リソース サーバーによって Reveal 用に既に生成された資格情報を入力する必要があります。
 
 <img src="images/Required-Credentials-OAuth-Account.png" alt="Required Credentials OAuth Account" width="80%"/>
 

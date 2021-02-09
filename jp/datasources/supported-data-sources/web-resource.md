@@ -1,6 +1,6 @@
 ## ウェブ リソース
 
-ウェブ リソースは、ウェブの任意の仮想ファイルで一意の URL アドレスを使用して取得できます。たとえば、Excel スプレッドシート ([サンプル](http://download.infragistics.com/reveal/help/samples/Reveal_Dashboard_Tutorials.xlsx)など) または画像 ([サンプル](http://www.infragistics.com/media/442175/home-header-shots.png)など) です。
+ウェブ リソースは、ウェブの任意の仮想ファイルで一意の URL アドレスを使用して取得できます。たとえば、Excel スプレッドシート ([サンプル](https://download.infragistics.com/reveal/help/samples/Reveal_Dashboard_Tutorials.xlsx)など) または画像 ([サンプル](http://www.infragistics.com/media/442175/home-header-shots.png)など) です。
 
 ウェブ リソース データ ソースを構成するには、以下の情報が必要です。
 
@@ -8,7 +8,7 @@
 
 1.  データ ソースの**デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は**ウェブ リソース**という名前を付けます。好みに合わせて変更できます。
 
-2.  **[URL]**: サービスの URL (ダッシュボード チュートリアルの場合は <http://download.infragistics.com/reveal/help/samples/Reveal_Dashboard_Tutorials.xlsx> など)。
+2.  **[URL]**: サービスの URL (ダッシュボード チュートリアルの場合は <https://download.infragistics.com/reveal/help/samples/Reveal_Dashboard_Tutorials.xlsx> など)。
 
 3. **[結果タイプ]**:  サービスから取得する予定のファイル タイプを指定できます。たとえば、*.csv* を選択し、サービス が *json* で応答した場合、Reveal はファイルを *.csv* として解析しようとします。
 

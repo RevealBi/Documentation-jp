@@ -9,7 +9,7 @@ Reveal では、論理計算フィールドは次のとおりです。
 
   - **論理テストのある複素関数**: 各関数の詳細な情報は、以下の表にあるリンクをクリックしてください。
 
-**注:** *以下の表のすべてのサンプルは [HR Dataset 2016](http://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) スプレッドシートで作成されました。*
+**注:** *以下の表のすべてのサンプルは [HR Dataset 2016](https://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) スプレッドシートで作成されました。*
 
 以下は論理カテゴリに含まれる関数です。
 <style type="text/css">
