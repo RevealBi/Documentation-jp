@@ -18,7 +18,7 @@ Infragistics (Local) フィードがインストーラーによって正しく�
 
 NuGet パッケージをインストールすると、以下の依存関係パッケージもインストールされます。
 
-  - CefSharp.Wpf (83.4.20 以降)
+  - CefSharp.Wpf (87.1.132 以降)
   - SkiaSharp (1.68.0 以降)
   - System.Data.SQLite.Core (1.0.108 以降)
 
@@ -32,7 +32,7 @@ NuGet パッケージをインストールすると、以下の依存関係パ�
 1.  インストーラーによってドロップされたアセンブリへの参照を \<InstallationDirectory\>\\SDK\\WPF\\Binaries に追加します。
 
 2.  RevealView コントロールが依存する以下の NuGet パッケージをインストールします。
-      - CefSharp.Wpf (83.4.20 以降)
+      - CefSharp.Wpf (87.1.132 以降)
       - SkiaSharp (1.68.0 以降)
       - System.Data.SQLite.Core (1.0.108 以降)
       - Microsoft.Data.SqlClient (1.1.3 以降)
