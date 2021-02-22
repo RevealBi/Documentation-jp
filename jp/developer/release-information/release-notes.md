@@ -19,7 +19,7 @@
         <tr>
             <td>2/8/2021</td>
             <td>1.0.1772</td>
-            <td><i>[公開バグ修正] [SDK] packages.config で WPF NuGet パッケージのインストールが失敗する問題。</i><br>ホスト プロジェクトが packages.config を使用した場合、WPF NuGet パッケージのインストールが失敗していました。
+            <td>[公開バグ修正] [SDK] packages.config で WPF NuGet パッケージのインストールが失敗する問題。<br>ホスト プロジェクトが packages.config を使用した場合、WPF NuGet パッケージのインストールが失敗していました。
             </td>
         </tr>
         <tr>
