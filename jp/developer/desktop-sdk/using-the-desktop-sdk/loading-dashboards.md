@@ -2,9 +2,9 @@
 
 ### 概要とコード
 
-ダッシュボードを表示する場合は、__rdash__ ファイルを読み込むか __json__ ファイルを読み込むかを選択できます。どちらの場合も、ファイルの _BuildAction_ プロパティを VisualStudio で埋め込みリソースに設定する必要があります。
+ダッシュボードを表示する場合は、__rdash__ ファイルを読み込むか __json__ ファイルを読み込むかを選択できます。どちらの場合も、ファイルの _BuildAction_ プロパティを Visual Studio で埋め込みリソースに設定する必要があります。
 
-__rdash__ファイルからダッシュボードを読み込むときは、ストリームまたはパスとして _RVDashboard_ コンストラクターに渡す必要があります。
+__rdash__ ファイルからダッシュボードを読み込むときは、ストリームまたはパスとして _RVDashboard_ コンストラクターに渡す必要があります。
 以下のコード スニペットは、相対パス (..\\..\\Sales.rdash) から rdash ファイルを読み込む方法を示しています:
 
 ``` csharp
@@ -36,7 +36,7 @@ public partial class MainWindow : Window
     }
 }
 ```
-__json__ ファイルを読み込むときは、ファイルの内容を文字列パラメーターとして _RVDashboard.LoadFromJsonAsync 静的メソッドに渡す必要があります。   
+__json__ ファイルを読み込むときは、ファイルの内容を文字列パラメーターとして _RVDashboard.LoadFromJsonAsync_ 静的メソッドに渡す必要があります。   
 以下のコード スニペットは、相対パス (..\\..\\Sales.json) から json ファイルを読み込む方法を示しています:
 ``` csharp
 public partial class MainWindow : Window
