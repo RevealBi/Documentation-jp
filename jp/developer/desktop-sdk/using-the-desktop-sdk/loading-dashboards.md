@@ -2,10 +2,10 @@
 
 ### 概要とコード
 
-If you want to display a dashboard, you can choose between loading a __rdash__ file or loading a __json__ file. In both cases the _Build Action_ property of the file has to be set to _Embedded resource_ in Visual Studio.
+ダッシュボードを表示する場合は、__rdash__ ファイルを読み込むか __json__ ファイルを読み込むかを選択できます。どちらの場合も、ファイルの _BuildAction_ プロパティを VisualStudio で埋め込みリソースに設定する必要があります。
 
-When you load the dashboard from a __rdash__ file, you have to pass it as stream or path to the _RVDashboard_ constructor.
-以下のコードスニペットは、相対パス (..\\..\\Sales.rdash): から rdash ファイルを読み込む方法を示しています。
+__rdash__ファイルからダッシュボードを読み込むときは、ストリームまたはパスとして _RVDashboard_ コンストラクターに渡す必要があります。
+以下のコード スニペットは、相対パス (..\\..\\Sales.rdash) から rdash ファイルを読み込む方法を示しています:
 
 ``` csharp
 public partial class MainWindow : Window
@@ -36,8 +36,8 @@ public partial class MainWindow : Window
     }
 }
 ```
-When you load a __json__ file, you need to pass the file content as a _string_ parameter to the _RVDashboard.LoadFromJsonAsync_ static method.   
-The code snippet below shows how to load a json file from a relative path (..\\..\\Sales.json):
+__json__ ファイルを読み込むときは、ファイルの内容を文字列パラメーターとして _RVDashboard.LoadFromJsonAsync 静的メソッドに渡す必要があります。   
+以下のコード スニペットは、相対パス (..\\..\\Sales.json) から json ファイルを読み込む方法を示しています:
 ``` csharp
 public partial class MainWindow : Window
 {
