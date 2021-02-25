@@ -12,7 +12,7 @@ Reveal は、埋め込み分析用に構築された最新の BI ソリューシ
 
 人気のあるデータ ソースへ、特別なサーバー設定なしで接続できます。SharePoint オンライン、Google ドライブ、OneDrive、Microsoft Analysis Services、Microsoft SQL Server、CRM などに直接接続して、リアルタイムなインサイトを取得します。
 
-<img src="dashboards/images/adding-data-source.png" alt="Connecting to data in Reveal" width="80%"/>
+<img src="data-visualizations/images/creating-new-visualization.png" alt="Connecting to data in Reveal" width="80%"/>
 
 直感的なドラッグアンドドロップ インターフェイスを備えた Reveal は、数分でダッシュボードを簡単に作成できます。20 以上の異なる表示形式から選択して、データを提示し、ストーリーを最良の方法で伝えます。
 
