@@ -19,22 +19,23 @@ Reveal は、さまざまな表示形式を提供することにより、ビジ�
 データを通じて何を表示したいかについて回答し、以下の表を使用して最適なチャートを選択してください。
 
 <style type="text/css">
-td { 
+td {
   border: 1px solid black;
+  font-size: 60%;
 }
 </style>
 <table>
 <colgroup>
-<col style="width: 10%" />
-<col style="width: 10%" />
-<col style="width: 10%" />
-<col style="width: 10%" />
-<col style="width: 10%" />
-<col style="width: 10%" />
-<col style="width: 10%" />
-<col style="width: 10%" />
-<col style="width: 10%" />
-<col style="width: 10%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
 </colgroup>
 <body>
   <tr>
@@ -44,11 +45,11 @@ td {
       <a href="visualization-types/category-charts.md">棒</a>
     </td>
     <td>
-      <img src="images/Column-chart.png" alt="Column Chart" /><br/>
+      <img src="images/Column-Chart.png" alt="Column Chart" /><br/>
       <a href="visualization-types/category-charts.md">柱状</а>
     </td>
     <td>
-      <img src="images/Area-chart.png" alt="Area Chart" /><br/>
+      <img src="images/Area-Chart.png" alt="Area Chart" /><br/>
       <a href="visualization-types/category-charts.md">エリア</а>
     </td>
     <td>
@@ -120,7 +121,7 @@ td {
       <a href="visualization-types/category-charts.md">積層型柱状</a>
     </td>
     <td>
-      <img src="images/scatter-chart.png" alt="Scatter Chart" /><br/>
+      <img src="images/scatter-Chart.png" alt="Scatter Chart" /><br/>
       <a href="visualization-types/scatter-bubble-charts.md">散布図</а>
     </td>
     <td>
@@ -233,7 +234,7 @@ td {
 
 これらの各表示形式の使用方法に関する詳細が必要な場合は、表のハイパーリンクを使用してください。
 
-### トピックの概要 
+### トピックの概要
 
 [表示形式のタイプ] ドロップダウン (左側の目次を参照) には、Reveal が提供するすべての種類のチャートの A-Z リストがあります。
 
@@ -246,7 +247,7 @@ td {
 [統計関数](statistical-functions.md)には、Reveal で高度な予測分析がどのように機能するかが記載されています。**時系列予測**、**線形回帰**、および**外れ値の検出**の機能を使用して、データからより多くのインサイトを得る方法をご覧ください。
 
 
-### 表示形式チュートリアル 
+### 表示形式チュートリアル
 
 このセクションでは、Reveal の表示形式の作成手順を説明します。すべてのセクションのデータ可視化に使用しているデータ ソースは、[こちら](https://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx)からダウンロードしてください。表示形式がサポートされる各ウィジェットの情報については、ヘルプの [データ可視化] セクションを参照してください。
 
@@ -371,4 +372,3 @@ td {
 </tr>
 </tbody>
 </table>
-
