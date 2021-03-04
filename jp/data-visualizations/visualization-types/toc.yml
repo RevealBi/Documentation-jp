@@ -30,3 +30,5 @@
   href: text-box.md
 - name: ツリーマップ
   href: treemap-charts.md
+- name: 時系列チャート
+  href: time-charts.md

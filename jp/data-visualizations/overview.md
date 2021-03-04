@@ -36,6 +36,7 @@ td {
 <col style="width: 6%" />
 <col style="width: 6%" />
 <col style="width: 6%" />
+<col style="width: 6%" />
 </colgroup>
 <body>
   <tr>
@@ -76,6 +77,11 @@ td {
       <img src="images/Candlestick-chart.png" alt="Candlestick Chart" /><br/>
       <a href="visualization-types/financial-charts.md">ロウソク足</a>
     </td>
+    <td>
+      <img src="images/time-series-chart.png" alt="Time Series Chart" /><br/>
+      <a href="visualization-types/time-series-charts.md">時系列
+      </a>
+    </td>
   </tr>
   <tr>
     <td><b>部分から全体</b></td>
@@ -107,8 +113,9 @@ td {
       <img src ="images/treemap-chart.png" alt="Treemap Chart" /><br/>
       <a href="visualization-types/treemap-charts.md">ツリーマップ</a>
     </td>
-    <td></td>
-    <td></td>
+    <td />
+    <td />
+    <td />
   </tr>
   <tr>
     <td><b>データ分布</b></td>
@@ -128,7 +135,8 @@ td {
       <img src="images/bubble-Chart.png" alt="Bubble Chart" /><br/>
       <a href="visualization-types/scatter-bubble-charts.md">バブル</а>
     </td>
-    <td></td>
+    <td />
+    <td />
     <td />
     <td />
     <td />
@@ -159,7 +167,11 @@ td {
       <img src="images/radial-Chart.png" alt="Radial Chart" /><br/>
       <a href="visualization-types/radial-charts.md">ラジアル</a>
     </td>
-    <td />
+    <td>
+      <img src="images/time-series-chart.png" alt="Time Series Chart" /><br/>
+      <a href="visualization-types/time-series-charts.md">時系列
+      </a>
+    </td>
     <td />
     <td />
     <td />
@@ -178,6 +190,7 @@ td {
     <img src="images/line-chart.png" alt="Line Chart" /><br/>
     <a href="visualization-types/category-charts.md">折れ線</a>
   </td>
+  <td />
   <td />
   <td />
   <td />
@@ -207,6 +220,7 @@ td {
     <img src="images/circular-gauge.png" alt="Circular Gauge" /><br/>
     <a href="visualization-types/gauge-charts.html#circular-gauge">円型</a>
   </td>
+  <td />
     <td />
     <td />
     <td />
@@ -222,6 +236,7 @@ td {
     <img src="images/scatter-map.png" alt="Scatter Map" /><br/>
     <a href="visualization-types/scatter-map/scatter-map.md">散布マップ</a>
   </td>
+  <td />
   <td />
   <td />
   <td />

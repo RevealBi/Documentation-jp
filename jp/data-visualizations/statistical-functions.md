@@ -3,6 +3,11 @@
 Reveal の統計関数を使用すると、表示形式からより多くの気付きを得ることができます。3 種類の高度な予測分析を提供します。
 [*時系列予測*](#time-series-forecast)、[*線形回帰*](#linear-regression)、および[*外れ値の検出*](#detect-outliers)を使用して、データ シリーズで予測を行い、傾向を認識して評価し、外れ値を検出できます。
 
+>[!NOTE]
+**Time Series Chart not supported**.
+>The newly released Time Series chart does not support statistical functions yet. This means you cannot use Time series forecast, Linear regression or Detect outliers for now. It will be supported in the future. Currently, you can use a Line chart to achieve a similar result, as shown in the sections below.
+
+
 ### 統計関数へのアクセス
 
 3 つの*統計関数*の 1 つを表示形式に適用するには、以下を行う必要があります。
