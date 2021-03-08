@@ -18,7 +18,7 @@
     <tr>
         <td class="tg-0lax" rowspan="4">2/4/2021</td>
         <td class="tg-0lax" rowspan="4"> 1.0.18 <br> [1.0.24 iOS]</td>
-        <td class="tg-cly1">New Time Series chart<br>
+        <td class="tg-cly1">新しい時系列チャート<br>
         Gain more insight and detect trends at a glance with the new Time Series chart, which allows for an easy observation of development over time.
         </td>
     </tr>
