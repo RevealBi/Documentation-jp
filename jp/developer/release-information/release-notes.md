@@ -17,6 +17,20 @@
     </thead>
     <tbody>
         <tr>
+            <td rowspan="4">3/5/2021</td>
+            <td rowspan="4">1.0.1821</td>
+            <td>[公開バグ修正] [SDK] SDK apps sometimes throw an NRE exception<br> When an SDK application was opened for more than 90 minutes without users interacting with it, performing an action was throwing an exception.</td>
+        </tr>
+        <tr>
+            <td>[公開バグ修正]  Grand Total showing  wrong values in iOS<br>In the iOS platform, Pivot Table displayed incorrect values for Grand Total.</td>
+        </tr>
+        <tr>
+            <td>[公開バグ修正]  SQL Server heterogeneous queries not working in iOS <br>In the iOS platform, heterogeneous queries in SQL server were not working as expected.</td>
+        </tr>
+        <tr>
+            <td>[公開バグ修正]  SQL Server results with an infinite symbol showing an error in iOS<br>In the iOS platform, SQL Server results that include the infinite symbol were displaying an error.</td>
+        </tr>
+        <tr>
             <td>2/8/2021</td>
             <td>1.0.1772</td>
             <td>[公開バグ修正] [SDK] packages.config で WPF NuGet パッケージのインストールが失敗する問題。<br>ホスト プロジェクトが packages.config を使用した場合、WPF NuGet パッケージのインストールが失敗していました。

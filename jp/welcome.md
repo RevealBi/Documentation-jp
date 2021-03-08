@@ -51,10 +51,7 @@ Reveal で BigQuery または Azure Machine Learning Studio からのトレー�
 
 ### 新機能
 
-* [Snowflake](~/jp/datasources/supported-data-sources/snowflake.md) データソース – Reveal で Snowflake からデータにアクセスできるようになりました。
-* [日付階層](~/jp/data-visualizations/fields/field-settings.html#date-fields)– 日付フィールドは、ピボット エディターに階層 (年、四半期、月、日、分) を自動的に表示するようになりました。
-* [散布マップの拡張機能](~/jp/data-visualizations/visualization-types/scatter-map/scatter-map.html#scatter-maps-zoom) – 新しいズーム コントロールを使用すると、ズーム レベルをより適切に調整し、必要に応じてリセットできます。
-* [UI ナビゲーションの改善](~/jp/general/logging-in-reveal.html#your-first-screen) – メイン ナビゲーションが変更され、UI と組織が異なるため、ナビゲーション エクスペリエンスが向上しました。
+* [時系列チャート](~/jp/data-visualizations/visualization-types/time-series-charts.md) –  時系列チャートを使用して、より多くのインサイトを得て、傾向を一目で検出します。従来の折れ線チャートと同様に、時系列チャートを使用すると、時間の経過に伴う進展を簡単に観察できます。
 
 ### Reveal はどこで入手できますか?
 

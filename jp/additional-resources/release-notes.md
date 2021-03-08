@@ -14,8 +14,30 @@
     <th class="tg-cly1"><span style="font-weight:bold">日付</span></th>
     <th class="tg-cly1"><span style="font-weight:bold">バージョン</span></th>
     <th class="tg-cly1"><span style="font-weight:bold">説明</span></th>
-  </tr>
-  <tr>
+    </tr>
+    <tr>
+        <td class="tg-0lax" rowspan="4">2/4/2021</td>
+        <td class="tg-0lax" rowspan="4"> 1.0.18 <br> [1.0.24 iOS]</td>
+        <td class="tg-cly1">New Time Series chart<br>
+        Gain more insight and detect trends at a glance with the new Time Series chart, which allows for an easy observation of development over time.
+        </td>
+    </tr>
+    <tr>
+        <td class="tg-cly1">[公開バグ修正]  Grand Total showing wrong values in iOS<br>
+            In the iOS platform, Pivot Table displayed incorrect values for Grand Total.
+        </td>
+    </tr>
+    <tr>
+        <td class="tg-cly1">[公開バグ修正]  SQL Server heterogeneous queries not working in iOS<br>
+            In the iOS platform, heterogeneous queries in SQL server were not working as expected.
+        </td>
+    </tr>
+    <tr>
+        <td class="tg-cly1">[公開バグ修正] SQL Server results with an infinite symbol showing an error in iOS<br>
+            In the iOS platform, SQL Server results that include the infinite symbol were displaying an error.
+        </td>
+    </tr>
+    <tr>
         <td class="tg-0lax" rowspan="5">2/4/2021</td>
         <td class="tg-0lax" rowspan="5"> 1.0.17</td>
         <td class="tg-cly1"><span style="font-style:italic">新しい Snowflake データソース</span><br>
