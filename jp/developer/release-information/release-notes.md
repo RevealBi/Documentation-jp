@@ -19,16 +19,16 @@
         <tr>
             <td rowspan="4">3/5/2021</td>
             <td rowspan="4">1.0.1821</td>
-            <td>[公開バグ修正] [SDK] SDK apps sometimes throw an NRE exception<br> When an SDK application was opened for more than 90 minutes without users interacting with it, performing an action was throwing an exception.</td>
+            <td>[公開バグ修正] [SDK] SDK アプリが NRE 例外をスローすることがある問題。<br> ユーザーが操作せずに SDK アプリケーションを 90 分以上開いた場合、操作を実行すると例外がスローされていました。</td>
         </tr>
         <tr>
-            <td>[公開バグ修正]  Grand Total showing  wrong values in iOS<br>In the iOS platform, Pivot Table displayed incorrect values for Grand Total.</td>
+            <td>[公開バグ修正] iOS で総計が間違った値を表示する問題。<br>iOS プラットフォームでは、ピボット テーブルに総計の値が正しく表示されませんでした。</td>
         </tr>
         <tr>
-            <td>[公開バグ修正]  SQL Server heterogeneous queries not working in iOS <br>In the iOS platform, heterogeneous queries in SQL server were not working as expected.</td>
+            <td>[公開バグ修正] iOS で SQLServer の異種クエリが機能しない問題。<br>iOS プラットフォームでは、SQL サーバーの異種クエリが期待どおりに機能していませんでした。</td>
         </tr>
         <tr>
-            <td>[公開バグ修正]  SQL Server results with an infinite symbol showing an error in iOS<br>In the iOS platform, SQL Server results that include the infinite symbol were displaying an error.</td>
+            <td>[公開バグ修正] iOS でエラーを示す無限大記号を含む SQL Server の結果の問題。<br>iOS プラットフォームでは、無限大記号を含む SQL Server の結果にエラーが表示されていました。</td>
         </tr>
         <tr>
             <td>2/8/2021</td>

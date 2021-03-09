@@ -19,22 +19,22 @@
         <td class="tg-0lax" rowspan="4">2/4/2021</td>
         <td class="tg-0lax" rowspan="4"> 1.0.18 <br> [1.0.24 iOS]</td>
         <td class="tg-cly1">新しい時系列チャート<br>
-        Gain more insight and detect trends at a glance with the new Time Series chart, which allows for an easy observation of development over time.
+        新しい時系列チャートを使用すると、より多くのインサイトを得て、傾向を一目で検出できます。これにより、時間の経過に伴う開発を簡単に観察できます。
         </td>
     </tr>
     <tr>
-        <td class="tg-cly1">[公開バグ修正]  Grand Total showing wrong values in iOS<br>
-            In the iOS platform, Pivot Table displayed incorrect values for Grand Total.
+        <td class="tg-cly1">[公開バグ修正] iOS で総計が間違った値を表示する問題。<br>
+            iOS プラットフォームでは、ピボット テーブルに総計の値が正しく表示されませんでした。
         </td>
     </tr>
     <tr>
-        <td class="tg-cly1">[公開バグ修正]  SQL Server heterogeneous queries not working in iOS<br>
-            In the iOS platform, heterogeneous queries in SQL server were not working as expected.
+        <td class="tg-cly1">[公開バグ修正] iOS で SQL Server の異種クエリが機能しない問題。<br>
+            iOS プラットフォームでは、SQL サーバーの異種クエリが期待どおりに機能していませんでした。
         </td>
     </tr>
     <tr>
-        <td class="tg-cly1">[公開バグ修正] SQL Server results with an infinite symbol showing an error in iOS<br>
-            In the iOS platform, SQL Server results that include the infinite symbol were displaying an error.
+        <td class="tg-cly1">[公開バグ修正] iOS でエラーを示す無限大記号を含む SQL Server の結果の問題。<br>
+            iOS プラットフォームでは、無限大記号を含む SQL Server の結果にエラーが表示されていました。
         </td>
     </tr>
     <tr>
