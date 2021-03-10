@@ -19,7 +19,7 @@ public class EmbedAuthenticationProvider : IRVAuthenticationProvider
             userCredential = new RVUsernamePasswordDataSourceCredential("postgresuser", "password");
         }
         else if (dataSource is RVSqlServerDataSource)
-            // 「domain」パラメーターは必ずしも必要ではなく、これは SQLServer の構成によって異なります。
+            // 「domain」パラメーターは必ずしも必要ではなく、これは SQL Server の構成によって異なります。
         {
             userCredential = new RVUsernamePasswordDataSourceCredential("sqlserveruser", "password", "domain");
         }
