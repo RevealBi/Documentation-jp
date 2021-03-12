@@ -16,7 +16,7 @@
     <th class="tg-cly1"><span style="font-weight:bold">説明</span></th>
     </tr>
     <tr>
-        <td class="tg-0lax" rowspan="4">2/4/2021</td>
+        <td class="tg-0lax" rowspan="4">3/5/2021</td>
         <td class="tg-0lax" rowspan="4"> 1.0.18 <br> [1.0.24 iOS]</td>
         <td class="tg-cly1">新しい時系列チャート<br>
         新しい時系列チャートを使用すると、より多くのインサイトを得て、傾向を一目で検出できます。これにより、時間の経過に伴う開発を簡単に観察できます。
@@ -84,7 +84,7 @@
   </td>
 </tr>
   <tr>
-    <td class="tg-0lax" rowspan="3"></td>
+    <td class="tg-0lax" rowspan="3">10/16/2020</td>
     <td class="tg-0lax" rowspan="3">1.0.14</td>
     <td class="tg-cly1">新しい Amazon Athena データ ソース</span><br>Amazon Athena に接続して Amazon S3 からデータをクエリし、それを使用して Reveal で表示形式を構築できるようになりました。
 </td>
@@ -99,7 +99,7 @@
   </td>
 </tr>
    <tr>
-   <td class="tg-0lax" rowspan="3"></td>
+    <td class="tg-0lax" rowspan="3">9/3/2020</td>
     <td class="tg-0lax" rowspan="3">1.0.13</td>
     <td class="tg-cly1">新規の Amazon Redshift データ ソース</span><br>Amazon Redshift クラウド データ ウェアハウスのデータを使用して、新しいインサイトを得ることができます。
 </td>
@@ -112,7 +112,7 @@
 </td>
   </tr>
   <tr>
-  <td class="tg-0lax" rowspan="7"></td>
+  <td class="tg-0lax" rowspan="7">7/28/2020</td>
     <td class="tg-0lax" rowspan="7">1.0.12</td>
     <td class="tg-cly1">新しい階級区分図</span><br>階級区分図の表示形式により、美しい主題図を作成できます。地理空間データを驚くほどわかりやすく表示できます。色によって、マップ上のパターン、トレンド、および異常をすばやく発見できます。
 </td>
@@ -141,7 +141,7 @@
 </td>
   </tr>
    <tr>
-   <td class="tg-0lax" rowspan="2"></td>
+   <td class="tg-0lax" rowspan="2">5/19/2020</td>
     <td class="tg-0lax" rowspan="2">1.0.10/1.0.11</td>
     <td class="tg-cly1">新しい Microsoft Azure Analysis Services データ ソース</span><br>この新しいデータ ソースにより、Azure Analysis Services のデータ モデルを使用してダッシュボードを作成できます。
 </td>
@@ -150,7 +150,7 @@
 </td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="5"></td>
+    <td class="tg-0lax" rowspan="5">5/4/2020</td>
     <td class="tg-0lax" rowspan="5">1.0.8/1.0.9</td>
     <td class="tg-cly1">新規の TreeMap の表示形式</span><br>この新しい表示形式タイプを使用して、大きな階層をネストされた四角形の集合で表示できます。四角形のサイズは、さまざまなメトリック間の部分と全体の関係を示し、同様のデータ間のパターンと関係を識別します。
 </td>
@@ -172,7 +172,7 @@
 </td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="5"></td>
+    <td class="tg-0lax" rowspan="5">4/1/2020</td>
     <td class="tg-0lax" rowspan="5">1.0.7</td>
     <td class="tg-cly1">BigQuery Machine Learning との統合</span><br>Reveal のデータ ソースで BigQuery 機械学習モデルを使用できるようになりました。</td>
   </tr>
@@ -189,7 +189,7 @@
     <td class="tg-0lax">Excel へエクスポート機能拡張</span><br>エクスポートの際、Reveal の表示形式をスプレッドシートに含めることができます。</td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="10"></td>
+    <td class="tg-0lax" rowspan="10">2/5/2020</td>
     <td class="tg-0lax" rowspan="10">1.0.5</td>
     <td class="tg-0lax">新しい分析機能</span><br>既存のデータセットの統計分析を処理および実行できるようになりました。つまり、データをより細かく分析し、履歴データに基づいてパフォーマンスを予測することもできます。</td>
   </tr>
@@ -221,7 +221,7 @@
     <td class="tg-0lax">ホバー ツールチップと十字線の追加の新しいデザイン</span><br>ツールチップが小さくなり、ポインターは削除されました。さらに、ツールチップにコンテキストを提供するために十字線が表示されるようになりました。</td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="5"></td>
+    <td class="tg-0lax" rowspan="5">11/25/2019</td>
     <td class="tg-0lax" rowspan="5">1.0.4</td>
     <td class="tg-0lax">円およびドーナツ型チャートの凡例に、値 0 の要素を表示できるようになりました。</span><br>円とドーナツの表示形式の凡例に値 0 の要素を表示するオプションが追加されました。これにより、ラベルに選択されたフィールドのすべてのデータを見ることができますが、値 0 のデータはチャート自体には表示されません。</td>
   </tr>
@@ -238,7 +238,7 @@
     <td class="tg-0lax">[バグ修正] 開始パラメーターの検索関数</span><br>計算フィールドで使用される検索機能で開始位置パラメーターがオプションと見なされない問題。</td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="6"></td>
+    <td class="tg-0lax" rowspan="6">11/6/2020</td>
     <td class="tg-0lax" rowspan="6">1.0.3</td>
     <td class="tg-0lax">Excel および PowerPoint へのエクスポート</span><br>ダッシュボードの表示形式を PowerPoint プレゼンテーションのスライドとしてエクスポートできるようになりました。さらに、ダッシュボードで使用されているデータを Excel 形式にエクスポートすることもできます。</td>
   </tr>
@@ -278,7 +278,7 @@
     <td class="tg-0lax">[バグ修正]</span> クラウド プロバイダーからの Excel ヘッダー:</span><br>最初の行に使用されるラベル設定が、クラウド プロバイダー (Google ドライブ、Dropbox、OneDrive) でホストされる Excel ファイルで表示されない問題。</td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="4"></td>
+    <td class="tg-0lax" rowspan="4">9/4/2019</td>
     <td class="tg-0lax" rowspan="4">1.0.1</td>
     <td class="tg-0lax">ローカライズ</span><br>Reveal は現在ドイツ語、スペイン語、フランス語、イタリア語、日本語、韓国語、マレー語、オランダ語、ポルトガル語、ロシア語、中国語 (簡体字および繁体字) にローカライズされています。</td>
   </tr>
