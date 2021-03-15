@@ -4,9 +4,9 @@
 
 <table>
     <colgroup>
-        <col style="width: 15%" />
         <col style="width: 10%" />
-        <col style="width: 75%" />
+        <col style="width: 20%" />
+        <col style="width: 70%" />
     </colgroup>
     <thead>
         <tr>
@@ -130,7 +130,7 @@
             <td>新しい階級区分図<br>階級区分図の表示形式により、美しい主題図を作成できます。地理空間データを驚くほどわかりやすく表示できます。色によって、マップ上のパターン、トレンド、および異常をすばやく発見できます。</td>
         </tr>
         <tr>
-            <td rowspan="2">9 月 2020 年</td>
+            <td rowspan="2">5 月 2020 年</td>
             <td rowspan="2">1.0.1255</td>
             <td>新しい Azure Analysis Services データ ソース<br>この新しいデータ ソースにより、Azure Analysis Services のデータ モデルを使用してダッシュボードを作成できます。</td>
         </tr>
