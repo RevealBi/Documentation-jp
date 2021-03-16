@@ -43,6 +43,7 @@
 - name: 概要
   href: datasources/overview.md
 - name: サポートされているデータ ソース
+  updated: true
   href: datasources/supported-data-sources/toc.yml
 - name: データ ソース資格情報の管理
   href: datasources/managing-data-source-credentials.md

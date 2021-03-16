@@ -24,12 +24,13 @@
   href: scatter-map/toc.yml
 - name: スパークライン チャート
   href: sparkline-charts.md
-- name: テキスト ビュー
-  href: text-view.md
 - name: テキスト ボックス
   href: text-box.md
-- name: ツリーマップ
-  href: treemap-charts.md
+- name: テキスト ビュー
+  href: text-view.md
 - name: 時系列チャート
   href: time-series-charts.md
-  new: true
+- name: ツリーマップ
+  href: treemap-charts.md
+
+
