@@ -17,8 +17,26 @@
     </thead>
     <tbody>
         <tr>
-            <td rowspan="1">3 月 2021 年</td>
-            <td rowspan="1">1.0.1821</td>
+            <td rowspan="3">3 月 2021 年</td>
+            <td rowspan="3">1.0.1866</td>
+            <td>New Properties for Web and Desktop SDK:<br>
+            <i>showEditDataSource</i> - can be used to disable the Edit button normally available in the data source overflow menu.<br>
+            <i>canAddDashboardFilter</i> - this property can hide the "Add Dashboard Filter" option in the Add Filter menu. These options are available in Dashboard Edit Mode.<br>
+            <i>canAddDateFilter</i> - this property can hide the "Add Date Filter" option in the Add Filter menu. These options are available in Dashboard Edit Mode.
+            </td>     
+        </tr>
+        <tr>
+            <td>[Public Bug Fix] [SDK] revealView.canSaveAs property not working as expected<br>
+            In the Web SDK, the property canSaveAs was not being honored if it was changed after a dashboard is set.
+            </td>
+        </tr>
+        <tr>
+            <td>[Public Bug Fix] [SDK] HttpContextAccessor.HttpContext property not working as expected<br> In the Web SDK, HttpContextAccessor.HttpContext was null when saving a dashboard (accessing it from SaveDashboardAsync method).
+            </td>
+        </tr>
+        <tr>
+            <td>3 月 2021 年</td>
+            <td>1.0.1821</td>
             <td>[公開バグ修正] [SDK] SDK アプリが NRE 例外をスローすることがある問題。<br> ユーザーが操作せずに SDK アプリケーションを 90 分以上開いた場合、操作を実行すると例外がスローされていました。</td>
         </tr>
             <td>2 月 2021 年</td>

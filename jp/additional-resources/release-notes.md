@@ -16,6 +16,14 @@
     <th class="tg-cly1"><span style="font-weight:bold">説明</span></th>
     </tr>
     <tr>
+        <td class="tg-0lax" rowspan="1">3 月 2021 年</td>
+        <td class="tg-0lax" rowspan="1">1.0.18 <br> [1.0.25 iOS]</td>
+        <td class="tg-cly1"><span style="font-style:italic">Time Series Enhancements</span><br>
+        - Visualizations with small height and width now display labels in a better way, including the whole label whenever possible and no label otherwise.<br>
+        - The long-press time required for crosshairs to appear on iOS and Android has been reduced.
+        </td>
+    </tr>
+    <tr>
         <td class="tg-0lax" rowspan="4">3 月 2021 年</td>
         <td class="tg-0lax" rowspan="4"> 1.0.18 <br> [1.0.24 iOS]</td>
         <td class="tg-cly1">新しい時系列チャート<br>
