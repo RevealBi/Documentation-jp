@@ -31,7 +31,7 @@
             </td>
         </tr>
         <tr>
-            <td>[公開バグ修正] [SDK] HttpContextAccessor.HttpContext プロパティが正しく動作しない問題。<br> Web SDK では、ダッシュボードを保存する際に (SaveDashboardAsync メソッドからアクセスした場合)、HttpContextAccessor.HttpContext が null になる。
+            <td>[公開バグ修正] [SDK] HttpContextAccessor.HttpContext プロパティが正しく動作しない問題。<br> Web SDK では、ダッシュボードを保存する際に (SaveDashboardAsync メソッドからアクセスした場合)、HttpContextAccessor.HttpContext が null になります。
             </td>
         </tr>
         <tr>
