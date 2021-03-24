@@ -18,9 +18,9 @@
     <tr>
         <td class="tg-0lax" rowspan="1">3 月 2021 年</td>
         <td class="tg-0lax" rowspan="1">1.0.18 <br> [1.0.25 iOS]</td>
-        <td class="tg-cly1"><span style="font-style:italic">Time Series Enhancements</span><br>
-        - Visualizations with small height and width now display labels in a better way, including the whole label whenever possible and no label otherwise.<br>
-        - The long-press time required for crosshairs to appear on iOS and Android has been reduced.
+        <td class="tg-cly1">時系列の機能強化<br>
+        - 高さと幅が小さい表示形式では、ラベル全体を含め (可能な場合)、それ以外の場合はラベルを含めない。といったより良い方法でラベルを表示するようになりました。<br>
+        - iOS と Android で十字線が表示されるまでに必要な長押し時間が短縮されました。
         </td>
     </tr>
     <tr>

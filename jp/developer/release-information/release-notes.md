@@ -19,19 +19,19 @@
         <tr>
             <td rowspan="3">3 月 2021 年</td>
             <td rowspan="3">1.0.1866</td>
-            <td>New Properties for Web and Desktop SDK:<br>
-            <i>showEditDataSource</i> - can be used to disable the Edit button normally available in the data source overflow menu.<br>
-            <i>canAddDashboardFilter</i> - this property can hide the "Add Dashboard Filter" option in the Add Filter menu. These options are available in Dashboard Edit Mode.<br>
-            <i>canAddDateFilter</i> - this property can hide the "Add Date Filter" option in the Add Filter menu. These options are available in Dashboard Edit Mode.
+            <td>Web および Desktop SDK の新しいプロパティ:<br>
+            <i>showEditDataSource</i> - データ ソース オーバーフロー メニューで通常使用できる [編集] ボタンを無効にするために使用できます。<br>
+            <i>canAddDashboardFilter</i> - このプロパティは、[フィルターの追加] メニューの [ダッシュボード フィルターの追加] オプションを非表示にすることができます。これらのオプションは、ダッシュボード編集モードで使用できます。<br>
+            <i>canAddDateFilter</i> - このプロパティは、[フィルターの追加] メニューの [日付フィルターの追加] オプションを非表示にすることができます。これらのオプションは、ダッシュボード編集モードで使用できます。
             </td>     
         </tr>
         <tr>
-            <td>[Public Bug Fix] [SDK] revealView.canSaveAs property not working as expected<br>
-            In the Web SDK, the property canSaveAs was not being honored if it was changed after a dashboard is set.
+            <td>[公開バグ修正] [SDK] revealView.canSaveAs プロパティが正しく動作しない問題。<br>
+            Web SDK では、ダッシュボードの設定後に変更された場合、canSaveAs プロパティが優先されませんでした。
             </td>
         </tr>
         <tr>
-            <td>[Public Bug Fix] [SDK] HttpContextAccessor.HttpContext property not working as expected<br> In the Web SDK, HttpContextAccessor.HttpContext was null when saving a dashboard (accessing it from SaveDashboardAsync method).
+            <td>[公開バグ修正] [SDK] HttpContextAccessor.HttpContext プロパティが正しく動作しない問題。<br> Web SDK では、ダッシュボードを保存する際に (SaveDashboardAsync メソッドからアクセスした場合)、HttpContextAccessor.HttpContext が null になる。
             </td>
         </tr>
         <tr>
