@@ -25,4 +25,4 @@ $.ig.RevealSdkSettings.setBaseUrl("{back-end base url}");
 
 プロパティを正しく設定するには、**URL に末尾にスラッシュ記号が必要**です。
 
-このプロパティは、[*$.ig.RevealView のインスタンス化*](~/jp/developer/web-sdk/setup-configuration-web.html#instantiate-web-client-sdk)**の前に**設定します。
+このプロパティは、[$.ig.RevealView のインスタンス化](~/jp/developer/web-sdk/setup-configuration-web.html#instantiate-web-client-sdk)**の前に**設定します。
