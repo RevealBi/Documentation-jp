@@ -6,14 +6,14 @@
   href: general/overview.md
 - name: インストールと要件
   href: general/installation-requirements.md
-- name: セットアップと構成
-  href: setup-configuration/toc.yml
 - name: SDK 用のダッシュボードの取得
   href: general/get-dashboards.md
-- name: Web SDK
+- name: Web .NET SDK
   header: true
 - name: 概要
   href: web-sdk/overview.md
+- name: セットアップと構成
+  href: web-sdk/setup-configuration.md
 - name: 初めてのアプリ作成
   href: web-sdk/create-first-app.md
 - name: サーバー SDK の使用
@@ -24,10 +24,24 @@
   href: web-sdk/api-reference-server.md
 - name: クライアント API リファレンス
   href: web-sdk/api-reference-client.md
+- name: WEB JAVA SDK
+  header: true
+- name: 概要
+  href: web-sdk/overview.md
+- name: Running UpMedia Samples
+  href: java-sdk/running-upmedia-samples.md
+- name: セットアップと構成
+  href: java-sdk/setup-configuration.md
+- name: サーバー SDK の使用 (NOT YET)
+  href: 
+- name: クライアント SDK の使用
+  href: web-sdk/using-the-client-sdk/toc.yml
 - name: Desktop SDK
   header: true
 - name: 概要
   href: desktop-sdk/overview.md
+- name: セットアップと構成
+  href: desktop-sdk/setup-configuration.md
 - name: Desktop SDK の使用
   href: desktop-sdk/using-the-desktop-sdk/toc.yml
 - name: API リファレンス
