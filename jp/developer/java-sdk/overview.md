@@ -1,40 +1,28 @@
-## Overview
+## 概要
 
-When embedding Reveal into web applications, the architecture is
-slightly more complex than with native apps, as two components are
-always involved:
+Web アプリケーションに Reveal を埋め込む場合、2 つのコンポーネントが常に関係しているため、アーキテクチャはネイティブ アプリよりも少々複雑になります:
 
-  - **Reveal Client SDK**: a set of JavaScript libraries
-    that needs to be integrated into the web application. The frameworks
-    supported today are: jQuery, Angular and React.
+  - **Reveal クライアント SDK**: ウェブ アプリケーションに統合される必要がある JavaScript ライブラリ。現在サポートされているフレームワークは、jQuery、Angular、および React です。
 
-  - **Reveal Server SDK**: the server-side component to be integrated
-    into the server application, currently this is an ASP.NET Core 
-    application using .NET Runtime v4.6.2 or later. In the near future a
-    library using .NET Core will be released.
+  - **Reveal サーバー SDK**: サーバー アプリケーションに統合されるサーバー側のコンポーネント。現在、これは .NET ランタイム v4.6.2 またはそれ以降を使用する ASP.NET Core アプリケーションです。今後、.NET Core を使ったライブラリがリリースされる予定です。
 
-In the following diagram you visualize the architecture for a web
-application embedding Reveal Web SDK:
+次の図では、Reveal Web SDK を埋め込んだ Web アプリケーションのアーキテクチャを可視化しています:
 
 <img src="images/sdk_web_diagram_web.png" alt="sdk\_web\_diagram\_web" width="80%"/>
 
-As shown above, the SDK works pretty much the same way as with native
-apps. The difference is that some of the callbacks are invoked in the
-client side (like the event sent when a data point is clicked) and
-others are invoked server side (like the callback to load the dashboard
-or to provide in-memory data).
+上記の示したように、SDK はネイティブ アプリケーションとほとんど同じように機能します。違いは、一部のコールバックはクライアント側で呼び出され (データポイントがクリックされたときに送信されるイベントなど)、その他はサーバー側で呼び出される (ダッシュボードのロードまたはメモリ内データの提供のためのコールバックなど) 点です。
 
 <a name='host-client-server-separate'></a>
-### Hosting the Client-side and Server-Side Parts on Different Servers
+### クライアント側とサーバー側の部分のホスト (異なるサーバーを利用)
 
-You can host the client-side and the server-side parts separately i.e. on different urls.
+クライアント側とサーバー側のパーツを個別に、たとえば異なる URL でホストできます。
 
-To achieve this, set a property on the window object, as shown below:
+これには、以下のようにウィンドウ オブジェクトのプロパティを設定します:
 
 ``` js
 $.ig.RevealSdkSettings.setBaseUrl("{back-end base url}");
 ```
 
-Please, note that the **trailing slash symbol is required in the URL** in order to set the property successfully.
+プロパティを正しく設定するには、**URL に末尾にスラッシュ記号が必要**です。
 
-Set this property **prior to the** [*instantiation of the $.ig.RevealView*](~/en/developer/setup-configuration/setup-configuration-web.html#instantiate-web-client-sdk).
+このプロパティは、[*$.ig.RevealView のインスタンス化*](~/jp/developer/setup-configuration/setup-configuration-web.html#instantiate-web-client-sdk)**の前に**設定します。
