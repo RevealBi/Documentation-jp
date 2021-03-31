@@ -1,12 +1,12 @@
-## Spring Server Setup and Configuration
+## Spring サーバー セットアップと構成
 
 <a name='maven-dependency'></a>
 
-### Prerequisites (Maven)
+### 前提条件 (Maven)
 
-Reveal Java SDK is distributed as a set of [Maven](https://maven.apache.org/what-is-maven.html) modules. To work with the SDK libraries, you need to add a reference to Reveal's Maven Repository and also a dependency in your Maven pom.xml file.
+Reveal Java SDK は、[Maven](https://maven.apache.org/what-is-maven.html) モジュールのセットとして配布されます。SDK ライブラリを操作するには、Reveal の Maven リポジトリへの参照と、Maven pom.xml ファイルの依存関係を追加する必要があります。
 
-Add the following repository:
+以下のリポジトリを追加します:
 
 ```xml
 <repositories>
@@ -17,7 +17,7 @@ Add the following repository:
 </repositories>
 ```
 
-And the following dependency:
+以下の依存関係を追加します:
 
 ```xml
 <dependency>
@@ -27,22 +27,22 @@ And the following dependency:
 </dependency>
 ```
 
-Replace version_number with a number similar to **0.9.6**.
+version_number を **0.9.6** のような番号に置き換えます。
 
-If you are not familiar with Maven, please refer to the following [link](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html).
+Maven ついてご不明な点がございましたら、次の[リンク](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)を参照してください。
 
-### Setup and Configuration
+### セットアップと構成
 
-To set up the Reveal with an existing Spring Boot application, you need to:
+既存の Spring Boot アプリケーションで Reveal をセットアップするには、次のことを行う必要があります:
 
-1.  Add a dependency to spring-starter-jersey implementation.
-2.  Add a dependency to Reveal SDK.
-3.  Initialize Reveal.
+1.  spring-starter-jersey の実装に依存関係を追加します。
+2.  Reveal SDK に依存関係を追加します。
+3.  Reveal を初期化します。
 4.  Enable server-side export.
 
-#### Step 1 - Adding a dependency to spring-starter-jersey implementation
+#### 手順 1 - spring-starter-jersey の実装に依存関係を追加します。
 
-Add a dependency to *spring-starter-jersey*, if not added yet:
+まだ追加されていない場合は、*spring-starter-jersey* に依存関係を追加します。
 
 ``` java
 <dependency>
@@ -51,9 +51,9 @@ Add a dependency to *spring-starter-jersey*, if not added yet:
 </dependency>
 ```
 
-#### Step 2 - Adding a dependency to Reveal SDK
+#### 手順 2 - Reveal SDK に依存関係を追加します。
 
-Add a dependency to *reveal-sdk* and specify your SDK version.
+*reveal-sdk* に依存関係を追加し、SDK のバージョンを指定します。
 
 ``` java
 <dependency>
@@ -63,29 +63,29 @@ Add a dependency to *reveal-sdk* and specify your SDK version.
 </dependency>
 ```
 
-Replace version_number with a number similar to **1.0.1821**.
+version_number を **1.0.1821** のような番号に置き換えます。
 
-#### Step 3 - Initializing Reveal
+#### 手順 3 - Reveal を初期化します。
 
-Add a **JerseyConfig** component that will initialize a Jakarta RESTful Web Services (JAX-RS) application with Reveal resources.
-To do this, you can copy the class **RevealJerseyConfig** from *upmedia-backend-spring* source code, located inside the package *com.pany.analytics.upmedia.reveal*).
+Reveal リソースを使用して Jakarta RESTful Web サービス (JAX-RS) アプリケーションを初期化する **JerseyConfig** コンポーネントを追加します。
+これを行うには、パッケージ *com.pany.analytics.upmedia.reveal* 内にある *upmedia-backend-spring* ソース コードからクラス **RevealJerseyConfig** をコピーできます。
 
-The *@ApplicationPath* annotation configures the path where Reveal services will be available, if you modify it then you’ll also need to modify the client-side path too. For the React application this is configured in index.html:
+*@ApplicationPath* 注釈は、Reveal サービスを利用できるパスを構成します。これを変更する場合は、クライアント側のパスも変更する必要があります。React アプリケーションの場合、これは index.html で構成されます。
 
 ``` js
 $.ig.RevealSdkSettings.setBaseUrl("http://localhost:8080/upmedia-backend/reveal-api/");
 ```
 
-The parameters passed to RevealEngineInitializer.initialize are:
+RevealEngineInitializer.initialize に渡されるパラメーターは次のとおりです:
 - IRVAuthenticationProvider
 - IRVUserContextProvider
 - IRVDashboardProvider
 - IRVDataSourceProvider
 - IRVDataProvider
 
-Those are the **providers** used to customize Reveal, you’ll need to create your own providers when integrating Reveal into your application.
+これらは Reveal のカスタマイズに使用される**プロバイダー**です。Reveal をアプリケーションに統合する場合は、独自のプロバイダーを作成する必要があります。
 
-For further details about how implement your own Dashboards provider, please refer to **????????** 
+独自のダッシュボード プロバイダーを実装する方法の詳細については、**????????** を参照してください。
 **(use a link to docs or redirect to samples)**
 
 #### Step 4 - Enabling server-side export

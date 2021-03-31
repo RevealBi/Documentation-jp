@@ -1,12 +1,12 @@
-## Setup and Configuration
+## セットアップと構成
 
 <a name='maven-dependency'></a>
 
-### Prerequisites (Maven)
+### 前提条件 (Maven)
 
-Reveal Java SDK is distributed as a set of [Maven](https://maven.apache.org/what-is-maven.html) modules. To work with the SDK libraries, you need to add a reference to Reveal's Maven Repository and also a dependency in your Maven pom.xml file.
+Reveal Java SDK は、[Maven](https://maven.apache.org/what-is-maven.html) モジュールのセットとして配布されます。SDK ライブラリを操作するには、Reveal の Maven リポジトリへの参照と、Maven pom.xml ファイルの依存関係を追加する必要があります。
 
-Add the following repository:
+以下のリポジトリを追加します:
 
 ```xml
 <repositories>
@@ -17,7 +17,7 @@ Add the following repository:
 </repositories>
 ```
 
-And the following dependency:
+以下の依存関係を追加します:
 
 ```xml
 <dependency>
@@ -27,27 +27,27 @@ And the following dependency:
 </dependency>
 ```
 
-Replace version_number with a number similar to **0.9.6**.
+version_number を **0.9.6** のような番号に置き換えます。
 
-If you are not familiar with Maven, please refer to the following [link](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html).
+Maven ついてご不明な点がございましたら、次の[リンク](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)を参照してください。
 
 
-### Setup and Configuration (Generic Server)
+### セットアップと構成 (汎用サーバー)
 
-To integrate Reveal with any existing application, you need to follow these generic steps:
+Reveal を既存のアプリケーションと統合するには、次の一般的な手順に従う必要があります:
 
-1.  Add a dependency to the existing app implementation.
-2.  Add a dependency to Reveal SDK.
-3.  Initialize Reveal.
+1.  既存のアプリの実装に依存関係を追加します。
+2.  Reveal SDK に依存関係を追加します。
+3.  Reveal を初期化します。
 4.  Enable server-side export
 
-#### Step 1 - Adding a dependency to the app implementation
+#### 手順 1 - Adding a dependency to the app implementation
 
 Add a dependency to the existing application implementation, following the steps needed for the server of your preference.
 
-#### Step 2 - Adding a dependency to Reveal SDK
+#### 手順 2 - Reveal SDK に依存関係を追加します。
 
-Add a dependency to *reveal-sdk* and specify your SDK version.
+*reveal-sdk* に依存関係を追加し、SDK のバージョンを指定します。
 
 ``` java
 <dependency>
@@ -57,9 +57,9 @@ Add a dependency to *reveal-sdk* and specify your SDK version.
 </dependency>
 ```
 
-Replace version_number with a number similar to **1.0.1821**.
+version_number を **1.0.1821** のような番号に置き換えます。
 
-#### Step 3 - Initializing Reveal
+#### 手順 3 - Reveal を初期化します。
 
 To initialize Reveal, you can either **?????**
 
@@ -77,14 +77,14 @@ new RevealEngineInitializer.InitializeParameter()
 
 ---
 
-The parameters passed to RevealEngineInitializer.initialize are:
+RevealEngineInitializer.initialize に渡されるパラメーターは次のとおりです:
 - IRVAuthenticationProvider
 - IRVUserContextProvider
 - IRVDashboardProvider
 - IRVDataSourceProvider
 - IRVDataProvider
 
-Those are the **providers** used to customize Reveal, you’ll need to create your own providers when integrating Reveal into your application.
+これらは Reveal のカスタマイズに使用される**プロバイダー**です。Reveal をアプリケーションに統合する場合は、独自のプロバイダーを作成する必要があります。
 
 If you are interested in the configuration of Tomcat or Spring, follow the links below:
 - [Tomcat Server](setup-configuration-tomcat.md)
@@ -98,68 +98,57 @@ The Java SDK uses some native components for exporting dashboards to different f
 If you are interested in exporting server-side to one or more of those formats, please refer to [Server-side Export Configuration](export-server-side.md)
 
 
-### Setup and Configuration (Client)
+### セットアップと構成 (クライアント)
 
-To set up the Reveal Web Client SDK you need to:
+以下は、Reveal Web クライアント SDK を設定するための手順です。
 
-1.  [**Check Dependencies**](#check-dependencies).
+1.  [**依存関係を確認します**](#check-dependencies)。
 
-2.  [**Reference the Web Client SDK**](#reference-web-client-sdk).
+2.  [**Web クライアント SDK を参照します**](#reference-web-client-sdk)。
 
-3.  [**Instantiate the Web Client SDK**](#instantiate-web-client-sdk).
+3.  [**Web クライアント SDK をインスタンス化します**](#instantiate-web-client-sdk)。
 
 
 <a name='check-dependencies'></a>
 
-#### 1\. Checking Dependencies
+#### 1\. 依存関係の確認
 
-The Reveal Web Client SDK has the following 3rd party references:
+Reveal Web クライアント SDK には、次のサードパーティの参照があります:
 
-- [jQuery](https://jquery.com) 2.2 or greater
-- [Day.js](https://day.js.org) 1.8.15 or greater
-- [Quill RTE](https://quilljs.com/) 1.3.6 or greater
+- [jQuery](https://jquery.com) 2.2 またはそれ以上
+- [Day.js](https://day.js.org) 1.8.15 またはそれ以上
+- [Quill RTE](https://quilljs.com/) 1.3.6 またはそれ以上
 
 <a name='reference-web-client-sdk'></a>
 
-#### 2\. Referencing the Web Client SDK
+#### 2\. Web クライアント SDK の参照
 
-Enabling **\$.ig.RevealView** component in a web page requires several scripts to be included. These
-scripts will be provided as part of Reveal Web Client SDK.
+Web ページで **\$.ig.RevealView** コンポーネントを有効にするには、いくつかのスクリプトを含める必要があります。These scripts will be provided as part of Reveal Web Client SDK.
 
 ```html
 <script src="~/Reveal/infragistics.reveal.js"></script>
 ```
 
-JavaScript files can be found in
-"\<InstallationDirectory\>\\SDK\\Web\\JS\\Client".
+JavaScript files can be found in "\<InstallationDirectory\>\\SDK\\Web\\JS\\Client".
 
 <a name='instantiate-web-client-sdk'></a>
 
-#### 3\. Instantiating the Web Client SDK
+#### 3\. Web クライアント SDK のインスタンス化
 
-Reveal’s Dashboard presentation is handled natively through the Web
-Client SDK.
+ダッシュボードのプレゼンテーションは、Web クライアント SDK を介してネイティブに処理されます。
 
-To get started follow these steps:
+以下の手順に従って作業を開始します:
 
-1.  Define a \<div /\> element with “id” and invoke the
-    **\$.ig.RevealView** constructor.
+1. "id" を指定して \<div /\> 要素を定義し、**\$.ig.RevealView** コンストラクターを呼び出します。
 
-    > [!NOTE] > **Hosting Client-Side and Server-Side Parts Separately**
-    > If you want to host client-side and server-side parts on different servers, please read [here](~/jp/developer/web-sdk/overview.html#host-client-server-separate) **before** you continue to next step.
+    > [!NOTE] > **サーバー側とクライアント側のパーツを個別にホストする**
+    > 別々のサーバーでクライアント側とサーバー側のパーツをホストする場合は、次の手順を続行する**前に**[こちら](~/jp/developer/web-sdk/overview.html#host-client-server-separate)を参照してください。
 
-2.  Call
-    **\$.ig.RVDashboard.loadDashboard**
-    providing the _dashboardId_ and success and error handlers.
+2. _dashboardId_ と成功およびエラー ハンドラーを指定して **\$.ig.RVDashboard.loadDashboard** を呼び出します。
 
-3.  In the success handler instantiate the
-    **\$.ig.RevealView** component
-    by passing a selector for the DOM element
-    where the dashboard should be rendered into. Finally
-    you should use the retrieved dashboard and set it to the dashboard property of the
-    **\$.ig.RevealView**
+3. 成功ハンドラーで、ダッシュボードが描画される DOM 要素のセレクターを渡すことにより、**\$.ig.RevealView** コンポーネントをインスタンス化します。最後に、取得したダッシュボードを使用し、**\$.ig.RevealView** のダッシュボード プロパティに設定する必要があります。
 
-#### Sample Code
+#### サンプル コード
 
 ```html
 <!DOCTYPE html>

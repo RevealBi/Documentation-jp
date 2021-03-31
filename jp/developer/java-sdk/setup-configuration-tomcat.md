@@ -1,12 +1,12 @@
-## Tomcat Server Setup and Configuration
+## Tomcat サーバー セットアップと構成
 
 <a name='maven-dependency'></a>
 
-### Prerequisites (Maven)
+### 前提条件 (Maven)
 
-Reveal Java SDK is distributed as a set of [Maven](https://maven.apache.org/what-is-maven.html) modules. To work with the SDK libraries, you need to add a reference to Reveal's Maven Repository and also a dependency in your Maven pom.xml file.
+Reveal Java SDK は、[Maven](https://maven.apache.org/what-is-maven.html) モジュールのセットとして配布されます。SDK ライブラリを操作するには、Reveal の Maven リポジトリへの参照と、Maven pom.xml ファイルの依存関係を追加する必要があります。
 
-Add the following repository:
+以下のリポジトリを追加します:
 
 ```xml
 <repositories>
@@ -17,7 +17,7 @@ Add the following repository:
 </repositories>
 ```
 
-And the following dependency:
+以下の依存関係を追加します:
 
 ```xml
 <dependency>
@@ -27,24 +27,24 @@ And the following dependency:
 </dependency>
 ```
 
-Replace version_number with a number similar to **0.9.6**.
+version_number を **0.9.6** のような番号に置き換えます。
 
-If you are not familiar with Maven, please refer to the following [link](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html).
+Maven ついてご不明な点がございましたら、次の[リンク](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)を参照してください。
 
-### Setup and Configuration
+### セットアップと構成
 
-To set up the Reveal with an existing Tomcat application or any other JEE container, you need to:
+既存の Tomcat アプリケーションまたはその他の JEE コンテナーを使用して Reveal を設定するには、次のことを行う必要があります:
 
-1.  Add a dependency to JAX-RS implementation.
-2.  Add a dependency to Reveal SDK.
-3.  Initialize Reveal.
+1.  JAX-RS 実装に依存関係を追加します。
+2.  Reveal SDK に依存関係を追加します。
+3.  Reveal を初期化します。
 4.  Enable server-side export.
 
-#### Step 1 - Adding a dependency to JAX-RS implementation
+#### 手順 1 - JAX-RS 実装に依存関係を追加します。
 
-Add a dependency to a Jakarta RESTful Web Services (JAX-RS) implementation. You can choose between multiple options like Jersey, RESTeasy, Apache CXF, etc. Please follow the steps described by the provider of your preference.
+Jakarta RESTful Web サービス (JAX-RS) 実装に依存関係を追加します。Jersey、RESTeasy、Apache CXF などの複数のオプションから選択できます。ご希望のプロバイダーが説明する手順に従ってください。
 
-As an example, here the dependencies you need to add for Jersey:
+例として、Jersey に追加する必要のある依存関係を次に示します:
 
 ``` java
 <dependency>
@@ -59,9 +59,9 @@ As an example, here the dependencies you need to add for Jersey:
 </dependency>
 ```
 
-#### Step 2 - Adding a dependency to Reveal SDK
+#### 手順 2 - Reveal SDK に依存関係を追加します。
 
-Add a dependency to *reveal-sdk* and specify your SDK version.
+*reveal-sdk* に依存関係を追加し、SDK のバージョンを指定します。
 
 ``` java
 <dependency>
@@ -71,23 +71,23 @@ Add a dependency to *reveal-sdk* and specify your SDK version.
 </dependency>
 ```
 
-Replace version_number with a number similar to **1.0.1821**.
+version_number を **1.0.1821** のような番号に置き換えます。
 
-#### Step 3 - Initializing Reveal
+#### 手順 3 - Reveal を初期化します。
 
-Add a **ServletContextListener** class to initialize Reveal.
-To do this, you can copy the class **WebAppListener** from *upmedia-backend-tomcat* source code, located inside the package *com.pany.analytics.upmedia.reveal*).
+Reveal を初期化するため、**ServletContextListener** クラスを追加します。
+これを行うには、パッケージ *com.pany.analytics.upmedia.reveal* 内にある *upmedia-backend-tomcat* ソース コードからクラス **WebAppListener** をコピーできます。
 
-The parameters passed to RevealEngineInitializer.initialize are:
+RevealEngineInitializer.initialize に渡されるパラメーターは次のとおりです:
 - IRVAuthenticationProvider
 - IRVUserContextProvider
 - IRVDashboardProvider
 - IRVDataSourceProvider
 - IRVDataProvider
  
-Those are the **providers** that can be used to customize Reveal, you’ll need to create your own providers when integrating Reveal into your application.
+これらは、Reveal をカスタマイズするために使用できる**プロバイダー**です。Reveal をアプリケーションに統合する場合は、独自のプロバイダーを作成する必要があります。
 
-For further details about how implement your own Dashboards provider, please refer to **????????** 
+独自のダッシュボード プロバイダーを実装する方法の詳細については、**????????** を参照してください。
 **(use a link to docs or redirect to samples)**
 
 #### Step 4 - Enabling server-side export

@@ -23,6 +23,6 @@ Web アプリケーションに Reveal を埋め込む場合、2 つのコンポ
 $.ig.RevealSdkSettings.setBaseUrl("http://localhost:8080/upmedia/reveal-api");
 ```
 
-Please note that the format used is: **http://**[server]**:**[port]**/**[application]**/reveal-api**. The inclusion of **/reveal-api** is required in order to set the property successfully.
+使用される形式は **http://**[server]**:**[port]**/**[application]**/reveal-api** であることに注意してください。プロパティを正しく設定するには、**/reveal-api** を含める必要があります。
 
 このプロパティは、[$.ig.RevealView のインスタンス化](~/jp/developer/web-sdk/setup-configuration.html#instantiating-the-web-client-sdk)**の前に**設定します。
