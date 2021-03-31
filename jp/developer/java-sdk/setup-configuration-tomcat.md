@@ -4,7 +4,7 @@
 
 ### 前提条件 (Maven)
 
-Reveal Java SDK は、[Maven](https://maven.apache.org/what-is-maven.html) モジュールのセットとして配布されます。SDK ライブラリを操作するには、Reveal の Maven リポジトリへの参照と、Maven pom.xml ファイルの依存関係を追加する必要があります。
+Reveal Java SDK は、[Maven (英語)](https://maven.apache.org/what-is-maven.html) モジュールのセットとして配布されます。SDK ライブラリを操作するには、Reveal の Maven リポジトリへの参照と、Maven pom.xml ファイルの依存関係を追加する必要があります。
 
 以下のリポジトリを追加します:
 
@@ -29,7 +29,7 @@ Reveal Java SDK は、[Maven](https://maven.apache.org/what-is-maven.html) モ�
 
 version_number を **0.9.6** のような番号に置き換えます。
 
-Maven ついてご不明な点がございましたら、次の[リンク](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)を参照してください。
+Maven ついてご不明な点がございましたら、次の[リンク (英語)](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)を参照してください。
 
 ### セットアップと構成
 
