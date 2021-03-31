@@ -29,7 +29,7 @@ Reveal Java SDK は、[Maven (英語)](https://maven.apache.org/what-is-maven.ht
 
 version_number を **0.9.6** のような番号に置き換えます。
 
-Maven ついてご不明な点がございましたら、次の[リンク (英語)](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)を参照してください。
+Maven ついてご不明な点がございましたら、次の[リンク (英語)](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html) を参照してください。
 
 
 ### セットアップと構成 (汎用サーバー)
@@ -141,8 +141,8 @@ JavaScript files can be found in "\<InstallationDirectory\>\\SDK\\Web\\JS\\Clien
 
 1. "id" を指定して \<div /\> 要素を定義し、**\$.ig.RevealView** コンストラクターを呼び出します。
 
-    >[!NOTE] **サーバー側とクライアント側のパーツを個別にホストする**
-    >別々のサーバーでクライアント側とサーバー側のパーツをホストする場合は、次の手順を続行する**前に**[こちら](~/jp/developer/web-sdk/overview.html#host-client-server-separate)を参照してください。
+    >[!NOTE] サーバー側とクライアント側のパーツを個別にホストする。
+    > 別々のサーバーでクライアント側とサーバー側のパーツをホストする場合は、次の手順を続行する**前に**[こちら](~/jp/developer/web-sdk/overview.html#host-client-server-separate)を参照してください。
 
 2. _dashboardId_ と成功およびエラー ハンドラーを指定して **\$.ig.RVDashboard.loadDashboard** を呼び出します。
 

@@ -29,7 +29,7 @@ Reveal Java SDK は、[Maven (英語)](https://maven.apache.org/what-is-maven.ht
 
 version_number を **0.9.6** のような番号に置き換えます。
 
-Maven ついてご不明な点がございましたら、次の[リンク (英語)](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)を参照してください。
+Maven ついてご不明な点がございましたら、次の[リンク (英語)](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html) を参照してください。
 
 ### セットアップと構成
 
@@ -70,7 +70,7 @@ version_number を **1.0.1821** のような番号に置き換えます。
 Reveal リソースを使用して Jakarta RESTful Web サービス (JAX-RS) アプリケーションを初期化する **JerseyConfig** コンポーネントを追加します。
 これを行うには、パッケージ *com.pany.analytics.upmedia.reveal* 内にある *upmedia-backend-spring* ソース コードからクラス **RevealJerseyConfig** をコピーできます。
 
-*@ApplicationPath* 注釈は、Reveal サービスを利用できるパスを構成します。これを変更する場合は、クライアント側のパスも変更する必要があります。React アプリケーションの場合、これは index.html で構成されます。
+**@ApplicationPath** 注釈は、Reveal サービスを利用できるパスを構成します。これを変更する場合は、クライアント側のパスも変更する必要があります。React アプリケーションの場合、これは index.html で構成されます。
 
 ``` js
 $.ig.RevealSdkSettings.setBaseUrl("http://localhost:8080/upmedia-backend/reveal-api/");

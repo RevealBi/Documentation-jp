@@ -29,7 +29,7 @@ Reveal Java SDK は、[Maven (英語)](https://maven.apache.org/what-is-maven.ht
 
 version_number を **0.9.6** のような番号に置き換えます。
 
-Maven ついてご不明な点がございましたら、次の[リンク (英語)](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)を参照してください。
+Maven ついてご不明な点がございましたら、次の[リンク (英語)](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html) を参照してください。
 
 ### セットアップと構成
 
