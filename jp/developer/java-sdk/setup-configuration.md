@@ -4,7 +4,7 @@
 
 ### Prerequisites (Maven)
 
-RevealBI Java SDK is distributed as a set of [Maven](https://maven.apache.org/what-is-maven.html) modules. To work with the SDK libraries, you need to add a reference to Reveal's Maven Repository and also a dependency in your Maven pom.xml file.
+Reveal Java SDK is distributed as a set of [Maven](https://maven.apache.org/what-is-maven.html) modules. To work with the SDK libraries, you need to add a reference to Reveal's Maven Repository and also a dependency in your Maven pom.xml file.
 
 Add the following repository:
 
@@ -34,46 +34,22 @@ If you are not familiar with Maven, please refer to the following [link](https:/
 
 ### Setup and Configuration (Generic Server)
 
-To integrate Reveal with any existing application, you need to follow these three generic steps:
+To integrate Reveal with any existing application, you need to follow these generic steps:
 
-1.  Add a dependency to the existing app implementation
-2.  Add a dependency to Reveal SDK
-3.  Initialize Reveal
+1.  Add a dependency to the existing app implementation.
+2.  Add a dependency to Reveal SDK.
+3.  Initialize Reveal.
+4.  Enable server-side export
 
-In the sections below, you'll find a few specific samples for Tomcat and Spring.
+#### Step 1 - Adding a dependency to the app implementation
 
-### Setup and Configuration (Tomcat Server)
-
-To set up the Reveal with an existing Tomcat application or any other JEE container, you need to:
-
-1.  Add a dependency to JAX-RS implementation
-2.  Add a dependency to Reveal SDK and specify your SDK version
-3.  Initialize Reveal
-
-#### Step 1 - Adding a dependency to JAX-RS implementation
-
-Add a dependency to a Jakarta RESTful Web Services (JAX-RS) implementation. You can choose between multiple options like Jersey, RESTeasy, Apache CXF, etc. Please follow the steps described by the provider of your preference.
-
-As an example, here the dependencies you need to add for Jersey:
-
-``` csharp
-<dependency>
-    <groupId>org.glassfish.jersey.containers</groupId>
-    <artifactId>jersey-container-servlet</artifactId>
-    <version>2.32</version>
-</dependency>
-<dependency>
-    <groupId>org.glassfish.jersey.inject</groupId>
-    <artifactId>jersey-cdi2-se</artifactId>
-    <version>2.32</version>
-</dependency>
-```
+Add a dependency to the existing application implementation, following the steps needed for the server of your preference.
 
 #### Step 2 - Adding a dependency to Reveal SDK
 
 Add a dependency to *reveal-sdk* and specify your SDK version.
 
-``` csharp
+``` java
 <dependency>
     <groupId>com.infragistics.reveal.sdk</groupId>
     <artifactId>reveal-sdk</artifactId>
@@ -85,64 +61,21 @@ Replace version_number with a number similar to **1.0.1821**.
 
 #### Step 3 - Initializing Reveal
 
-Add a **ServletContextListener** class to initialize Reveal.
-To do this, you can copy the class **WebAppListener** from *upmedia-backend-tomcat* source code, located inside the package *com.pany.analytics.upmedia.reveal*).
+To initialize Reveal, you can either **?????**
 
-The parameters passed to RevealEngineInitializer.initialize are:
-- IRVAuthenticationProvider
-- IRVUserContextProvider
-- IRVDashboardProvider
-- IRVDataSourceProvider
-- IRVDataProvider
- 
-Those are the **providers** that can be used to customize Reveal, you’ll need to create your own providers when integrating Reveal into your application.
-
-For further details about how implement your own Dashboards provider, please refer to **????????**
-
-### Setup and Configuration (Spring Server)
-
-To set up the Reveal with an existing Spring Boot application, you need to:
-
-1.  Add a dependency to spring-starter-jersey implementation
-2.  Add a dependency to Reveal SDK
-3.  Initialize Reveal
-
-
-#### Step 1 - Adding a dependency to spring-starter-jersey implementation
-
-Add a dependency to *spring-starter-jersey*, if not added yet:
-
-``` csharp
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-jersey</artifactId>
-</dependency>
+---
+``` java
+RevealEngineInitializer.initialize(
+new RevealEngineInitializer.InitializeParameter()
+      .withAuthProvider(new RevealAuthenticationProvider())
+      .withUserContextProvider(new RevealUserContextProvider())
+      .withDashboardProvider(new RevealDashboardProvider())
+      .withDataSourceProvider(new UpMediaDataSourceProvider())
+      .withDataProvider(new UpMediaInMemoryDataProvider())
+      .setMaxConcurrentImageRenderThreads(2));
 ```
 
-#### Step 2 - Adding a dependency to Reveal SDK
-
-Add a dependency to *reveal-sdk* and specify your SDK version.
-
-``` csharp
-<dependency>
-    <groupId>com.infragistics.reveal.sdk</groupId>
-    <artifactId>reveal-sdk</artifactId>
-    <version>version_number</version>
-</dependency>
-```
-
-Replace version_number with a number similar to **1.0.1821**.
-
-#### Step 3 - Initializing Reveal
-
-Add a **JerseyConfig** component that will initialize a Jakarta RESTful Web Services (JAX-RS) application with Reveal resources.
-To do this, you can copy the class **RevealJerseyConfig** from *upmedia-backend-spring* source code, located inside the package *com.pany.analytics.upmedia.reveal*).
-
-The *@ApplicationPath* annotation configures the path where Reveal services will be available, if you modify it then you’ll also need to modify the client-side path too. For the React application this is configured in index.html:
-
-``` js
-$.ig.RevealSdkSettings.setBaseUrl("http://localhost:8080/upmedia-backend/reveal-api/");
-```
+---
 
 The parameters passed to RevealEngineInitializer.initialize are:
 - IRVAuthenticationProvider
@@ -153,7 +86,17 @@ The parameters passed to RevealEngineInitializer.initialize are:
 
 Those are the **providers** used to customize Reveal, you’ll need to create your own providers when integrating Reveal into your application.
 
-For further details about how implement your own Dashboards provider, please refer to **????????**
+If you are interested in the configuration of Tomcat or Spring, follow the links below:
+- [Tomcat Server](setup-configuration-tomcat.md)
+- [Spring Server](setup-configuration-spring.md)
+
+---
+#### Step 4 - Enabling server-side export
+
+The Java SDK uses some native components for exporting dashboards to different formats: Image, PDF, PPT and Excel.
+
+If you are interested in exporting server-side to one or more of those formats, please refer to [Server-side Export Configuration](export-server-side.md)
+
 
 ### Setup and Configuration (Client)
 
@@ -203,7 +146,7 @@ To get started follow these steps:
     **\$.ig.RevealView** constructor.
 
     > [!NOTE] > **Hosting Client-Side and Server-Side Parts Separately**
-    > If you want to host client-side and server-side parts on different servers, please read [here](~/en/developer/web-sdk/overview.html#host-client-server-separate) **before** you continue to next step.
+    > If you want to host client-side and server-side parts on different servers, please read [here](~/jp/developer/web-sdk/overview.html#host-client-server-separate) **before** you continue to next step.
 
 2.  Call
     **\$.ig.RVDashboard.loadDashboard**

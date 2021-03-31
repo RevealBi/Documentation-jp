@@ -8,9 +8,13 @@
 
 [インストールと要件](~/jp/developer/general/installation-requirements.html) - インストール方法と必須条件
 
-[Web SDK の概要](~/jp/developer/web-sdk/overview.html) - Web SDK の主な概念とアーキテクチャについて
-  - [セットアップと構成 (Web)](~/jp/developer/setup-configuration/setup-configuration-web.html) - Web SDK を使用できるようにするために必要な手順
-  - [初めてのアプリ作成](~/jp/developer/web-sdk/create-first-app.html) - このページは、Web ページ/アプリにはじめてダッシュボードを表示する際の手順について説明します。
-
 [Desktop SDK の概要](~/jp/developer/desktop-sdk/overview.html) - デスクトップ SDK の主な概念とアーキテクチャについて
-  - [セットアップと構成 (Desktop)](~/jp/developer/setup-configuration/setup-configuration-desktop.html) - Desktop SDK の最も一般的なシナリオ
+  - [Setup and configuration.](~/jp/developer/setup-configuration/setup-configuration-desktop.md) Steps required to get the Desktop SDK ready to be used.
+
+[WEB .NET SDK Overview.](~/jp/developer/web-sdk/overview.md) Introduction to the Web .NET SDK main concepts and architecture.
+  - [Setup and configuration.](~/jp/developer/web-sdk/setup-configuration-web.md) Steps required to get the Web .NET SDK ready to be used.
+  - [Creating your First App.](~/jp/developer/web-sdk/create-first-app.md) Walkthrough that guides you through the initial steps of showing a dashboard on your web page/application for the first time.
+
+[WEB JAVA SDK Overview.](~/jp/developer/java-sdk/overview.md) Introduction to the Web JAVA SDK main concepts and architecture.
+  - [Setup and configuration.](~/jp/developer/java-sdk/setup-configuration.md) Steps required to get the Web JAVA SDK ready to be used.
+  - [Running the UpMedia Samples.](~/jp/developer/java-sdk/running-upmedia-samples.md) Walkthroughs that guide you run the UpMedia samples provided.

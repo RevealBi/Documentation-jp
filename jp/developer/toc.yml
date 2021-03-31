@@ -27,12 +27,19 @@
 - name: WEB JAVA SDK
   header: true
 - name: 概要
-  href: web-sdk/overview.md
+  href: java-sdk/overview.md
 - name: Running UpMedia Samples
   href: java-sdk/running-upmedia-samples.md
 - name: セットアップと構成
   href: java-sdk/setup-configuration.md
-- name: サーバー SDK の使用 (NOT YET)
+  items:
+    - name: Setup Tomcat
+      href: java-sdk/setup-configuration-tomcat.md
+    - name: Setup Spring
+      href: java-sdk/setup-configuration-spring.md
+    - name: Export server-side
+      href: java-sdk/export-server-side.md
+- name: Using the Server SDK (IN PROGRESS)
   href: 
 - name: クライアント SDK の使用
   href: web-sdk/using-the-client-sdk/toc.yml

@@ -8,7 +8,7 @@ Web アプリケーションに Reveal を埋め込む場合、2 つのコンポ
 
 次の図では、Reveal Web SDK を埋め込んだ Web アプリケーションのアーキテクチャを可視化しています:
 
-<img src="images/sdk_web_diagram_web.png" alt="sdk\_web\_diagram\_web" width="80%"/>
+<img src="images/sdk_web_diagram_web.png" alt="Reveal Web Architecture diagram" width="80%"/>
 
 上記の示したように、SDK はネイティブ アプリケーションとほとんど同じように機能します。違いは、一部のコールバックはクライアント側で呼び出され (データポイントがクリックされたときに送信されるイベントなど)、その他はサーバー側で呼び出される (ダッシュボードのロードまたはメモリ内データの提供のためのコールバックなど) 点です。
 
@@ -20,9 +20,9 @@ Web アプリケーションに Reveal を埋め込む場合、2 つのコンポ
 これには、以下のようにウィンドウ オブジェクトのプロパティを設定します:
 
 ``` js
-$.ig.RevealSdkSettings.setBaseUrl("{back-end base url}");
+$.ig.RevealSdkSettings.setBaseUrl("http://localhost:8080/upmedia/reveal-api");
 ```
 
-プロパティを正しく設定するには、**URL に末尾にスラッシュ記号が必要**です。
+Please note that the format used is: **http://**[server]**:**[port]**/**[application]**/reveal-api**. The inclusion of **/reveal-api** is required in order to set the property successfully.
 
-このプロパティは、[$.ig.RevealView のインスタンス化](~/jp/developer/web-sdk/setup-configuration-web.html#instantiate-web-client-sdk)**の前に**設定します。
+このプロパティは、[$.ig.RevealView のインスタンス化](~/jp/developer/web-sdk/setup-configuration.html#instantiating-the-web-client-sdk)**の前に**設定します。
