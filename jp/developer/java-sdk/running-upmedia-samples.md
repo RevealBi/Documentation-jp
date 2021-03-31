@@ -1,119 +1,119 @@
-## Running the UpMedia Samples
+## UpMedia サンプルの実行
 
-After getting the [UpMedia samples](https://github.com/RevealBi/sdk-samples-java) from GitHub, below you have detailed information to help you run them.
+GitHub から [UpMedia サンプル](https://github.com/RevealBi/sdk-samples-java)を取得した後、実行に役立つ詳細情報を以下に示します。
 
 
-### UpMedia Sample Application in Tomcat
+### Tomcat の UpMedia サンプル アプリケーション
 
-#### Requirements
+#### 要件
 
-- [Java SDK](https://www.oracle.com/java/technologies/javase-downloads.html) 11.0.10 and up recommended.
-- [Tomcat](https://tomcat.apache.org/download-90.cgi) 9.0.41 and up recommended.
-- [Eclipse for Enterprise Java Developers](https://www.eclipse.org/downloads/packages/) version 2020-12 and up recommended.
-- Maven repository and dependency already added. For details, please refer to [Setup and Configuration](setup-configuration.html#maven-dependency).
+- [Java SDK](https://www.oracle.com/java/technologies/javase-downloads.html) 11.0.10 以降を推奨します。
+- [Tomcat](https://tomcat.apache.org/download-90.cgi) 9.0.41 以降を推奨します。
+- [Eclipse for Enterprise Java Developers](https://www.eclipse.org/downloads/packages/) バージョン 2020-12 以降を推奨します。
+- Maven リポジトリと依存関係を追加する必要があります。詳細については、[セットアップと構成](setup-configuration.html#maven-dependency)を参照してください。
  
-#### Steps
+#### 手順
 
-1. **Load the Project**
-   1. In Eclipse, go to: *File > Import > Existing Projects into Workspace*.
-   2. In *Select root directory*, choose Reveal's SDK path and also select the *UpMedia* Project.
-   3. Check the *Copy projects into workspace* option.
-   4. Click "Finish".
+1. **プロジェクトを読み込みます。**
+   1. Eclipse で、*File > Import > Existing Projects into Workspace* に移動します。
+   2. *Select root directory* で、Reveal の SDK パスを選択し、*UpMedia* プロジェクトも選択します。
+   3. *Copy projects into workspace* オプションをチェックします。
+   4. [Finish] をクリックします。
 
-    The project is now loaded and ready to be inspected.
+    プロジェクトが読み込まれ、検査する準備ができました。
 
-2. **Run the Project in Tomcat**
-   1. In the UpMedia Project, right click *Run on Server*.
-   2. Choose Tomcat 9 and configure the root path to Tomcat's installation path.
-   3. Go through the default settings and run the Project.  
+2. **Tomcat でプロジェクトを実行する**
+   1. UpMedia プロジェクトで *Run on Server* を右クリックします。
+   2. Tomcat 9 を選択し、Tomcat のインストール パスへのルート パスを設定します。
+   3. デフォルト設定でプロジェクトを実行します。  
 
-3. **Visualize the Sample in a Browser**
-   - Eclipse's internal browser has known issues with Windows, instead please try Google Chrome or another browser (the default URL will be http://localhost:8080/upmedia).
-
-
-Alternative steps to work with a WAR file:
-1. Go to *Run As -> Maven build*.
-2. Use the *package* goal.
-3. Take the WAR file created and manually deploy it to Tomcat.
+3. **サンプルをブラウザーで可視化します。**
+   - Eclipse の内部ブラウザーには Windows に関する既知の問題があります。代わりに Google Chrome または別のブラウザーを使用してください (デフォルトの URL は http://localhost:8080/upmedia です)。
 
 
-### UpMedia React Sample with Spring Backend
+WAR ファイルを使用する代替手順:
+1. *Run As -> Maven build* に移動します。
+2. *package* ゴールを使用します。
+3. 作成した WAR ファイルを手動で Tomcat に配備します。
 
-#### Requirements
 
-- [Java SDK](https://www.oracle.com/java/technologies/javase-downloads.html) 11.0.10 and up recommended.
-- [NodeJS](https://nodejs.org/en/download/) 14.15.4 and up recommended, NPM version: 6.14.10 and up.
-- Maven repository and dependency already added. For details, please refer to [Setup and Configuration](setup-configuration.html#maven-dependency).
+### Spring バックエンドを使用した UpMedia React のサンプル
 
-#### Steps
+#### 要件
 
-1. **Run the Spring Application**
-   1. Locate the Spring Boot application in the *upmedia-backend-spring* folder.
-   2. Run the sample application by executing the folllowing command:  
+- [Java SDK](https://www.oracle.com/java/technologies/javase-downloads.html) 11.0.10 以降を推奨します。
+- [NodeJS](https://nodejs.org/en/download/) 14.15.4 以降を推奨します。NPM バージョン 6.14.10 を推奨します。
+- Maven リポジトリと依存関係を追加する必要があります。詳細については、[セットアップと構成](setup-configuration.html#maven-dependency)を参照してください。
+
+#### 手順
+
+1. **Spring アプリケーションを実行します。**
+   1. *upmedia-backend-spring* フォルダーで Spring Boot アプリケーションを特定します。
+   2. 以下のコマンドを実行してサンプル アプリケーションを実行します。 
    
     ```bash
     mvn spring-boot:run
     npm start
    ```
-   3. Verify the server by accessing http://localhost:8080/upmediabackend/reveal-api/DashboardFile/Sales. As a result you'll get the JSON document for the Sales sample dashboard.
-   Reveal services can be found under */upmediabackend/reveal-api/*.
+   3. http://localhost:8080/upmediabackend/reveal-api/DashboardFile/Sales にアクセスしてサーバーを確認します。その結果、Sales サンプル ダッシュボードの JSONド キュメントを取得します。
+   Reveal サービス */upmediabackend/reveal-api/* にあります。
 
-2. **Run the React Application**
-   1. Locate the React application in the *upmedia-react* folder.
-   2. Run the React application as usual:  
+2. **React アプリケーションを実行します。**
+    1. *upmedia-react* フォルダーで React アプリケーションを特定します。
+    2. React アプリケーションを通常通りに実行します。
 
     ```bash
     npm install
     npm start
    ```
-   3. Access your React application at http://localhost:3000.
+   3. http://localhost:3000 で React アプリケーションにアクセスします。
 
-There you can find a few components to try:
-- **Filters**: shows how to open an existing dashboard and customize the filtering experience.
-- **Linking**: shows how to open an existing dashboard with a link to another dashboard and how to properly configure the linking.
-- **CreateDashboard**: shows how to open the dashboard editor to create a new dashboard from scratch. In addition, it also shows how to setup the list of data sources that will be displayed to the user when creating a new visualization.
+以下のコンポーネントをお試しください。
+- **Filters**: 既存のダッシュボードを開き、フィルタリング エクスペリエンスをカスタマイズする方法を示します。
+- **Linking**: 別のダッシュボードへのリンクを持つ既存のダッシュボードを開く方法、およびリンクを正しく構成する方法を示します。
+- **CreateDashboard**: ダッシュボード エディターを開いて新しいダッシュボードをゼロから作成する方法を示します。また、新しい表示形式を作成するときにユーザーに表示されるデータ ソースのリストを設定する方法も示します。
 
-For details about Reveal's Web client SDK, please refer [here](~/jp/developer/web-sdk/overview.md).
+Reveal の Web クライアント SDK の詳細については、[こちら](~/jp/developer/web-sdk/overview.md)を参照してください。
 
-### UpMedia React sample with Tomcat backend
+### Tomcat バックエンドを使用した UpMedia React のサンプル
 
-#### Requirements
+#### 要件
 
-- [Java SDK](https://www.oracle.com/java/technologies/javase-downloads.html) 11.0.10 and up recommended.
-- [Tomcat](https://tomcat.apache.org/download-90.cgi) 9.0.41 and up recommended.
-- [Eclipse for Enterprise Java Developers](https://www.eclipse.org/downloads/packages/) version 2020-12 and up recommended.
-- Maven repository and dependency already added. For details, please refer to [Setup and Configuration](setup-configuration.html#maven-dependency).
+- [Java SDK](https://www.oracle.com/java/technologies/javase-downloads.html) 11.0.10 以降を推奨します。
+- [Tomcat](https://tomcat.apache.org/download-90.cgi) 9.0.41 以降を推奨します。
+- [Eclipse for Enterprise Java Developers](https://www.eclipse.org/downloads/packages/) バージョン 2020-12 以降を推奨します。
+- Maven リポジトリと依存関係を追加する必要があります。詳細については、[セットアップと構成](setup-configuration.html#maven-dependency)を参照してください。
  
-#### Steps
+#### 手順
 
-1. **Load the Project**
-   1. In Eclipse, go to: *File > Import > Existing Projects into Workspace*.
-   2. In *Select root directory*, choose Reveal's SDK path and also select the *upmedia-backend-tomcat* Project.
-   3. Check the *Copy projects into workspace* option.
-   4. Click "Finish".
+1. **プロジェクトを読み込みます。**
+   1. Eclipse で、*File > Import > Existing Projects into Workspace* に移動します。
+   2. *Select root directory* で、Reveal の SDK パスを選択し、*upmedia-backend-tomcat* プロジェクトも選択します。
+   3. *Copy projects into workspace* オプションをチェックします。
+   4. [Finish] をクリックします。
 
-    The project is now loaded and ready to be inspected.
+    プロジェクトが読み込まれ、検査する準備ができました。
 
-2. **Run the Project in Tomcat**
-   1. In the upmedia-backend-tomcat Project, right click *Run on Server*.
-   2. Choose Tomcat 9 and configure the root path to Tomcat's installation path.
-   3. Go through the default settings and run the Project. 
-   4. Verify the server by accessing http://localhost:8080/upmediabackend/reveal-api/DashboardFile/Sales. As a result you'll get the JSON document for the Sales sample dashboard.
+2. **Tomcat でプロジェクトを実行する**
+   1. upmedia-backend-tomcat プロジェクトで *Run on Server* を右クリックします。
+   2. Tomcat 9 を選択し、Tomcat のインストール パスへのルート パスを設定します。
+   3. デフォルト設定でプロジェクトを実行します。 
+   4. http://localhost:8080/upmediabackend/reveal-api/DashboardFile/Sales にアクセスしてサーバーを確認します。その結果、Sales サンプル ダッシュボードの JSONド キュメントを取得します。
 
-3. **Run the React Application**
-   1. Locate the React application in the *upmedia-react* folder.
-   2. Run the React application as usual:
+3. **React アプリケーションを実行します。**
+   1. *upmedia-react* フォルダーで React アプリケーションを特定します。
+   2. React アプリケーションを通常通りに実行します。
 
     ```bash
     npm install
     npm start
    ```
-   3. Access your React application at http://localhost:3000.
+   3. http://localhost:3000 で React アプリケーションにアクセスします。
 
-There you can find a few components to try:
-- **Filters**: shows how to open an existing dashboard and customize the filtering experience.
-- **Linking**: shows how to open an existing dashboard with a link to another dashboard and how to properly configure the linking.
-- **CreateDashboard**: shows how to open the dashboard editor to create a new dashboard from scratch. In addition, it also shows how to setup the list of data sources that will be displayed to the user when creating a new visualization.
+以下のコンポーネントをお試しください。
+- **Filters**: 既存のダッシュボードを開き、フィルタリング エクスペリエンスをカスタマイズする方法を示します。
+- **Linking**: 別のダッシュボードへのリンクを持つ既存のダッシュボードを開く方法、およびリンクを正しく構成する方法を示します。
+- **CreateDashboard**: ダッシュボード エディターを開いて新しいダッシュボードをゼロから作成する方法を示します。また、新しい表示形式を作成するときにユーザーに表示されるデータ ソースのリストを設定する方法も示します。
 
-For details about Reveal's Web client SDK, please refer [here](~/jp/developer/java-sdk/overview.md).
+Reveal の Web クライアント SDK の詳細については、[こちら](~/jp/developer/java-sdk/overview.md)を参照してください。
 
