@@ -7,9 +7,9 @@ GitHub から [UpMedia サンプル](https://github.com/RevealBi/sdk-samples-jav
 
 #### 要件
 
-- [Java SDK](https://www.oracle.com/java/technologies/javase-downloads.html) 11.0.10 以降を推奨します。
-- [Tomcat](https://tomcat.apache.org/download-90.cgi) 9.0.41 以降を推奨します。
-- [Eclipse for Enterprise Java Developers](https://www.eclipse.org/downloads/packages/) バージョン 2020-12 以降を推奨します。
+- [Java SDK (英語)](https://www.oracle.com/java/technologies/javase-downloads.html) 11.0.10 以降を推奨します。
+- [Tomcat (英語)](https://tomcat.apache.org/download-90.cgi) 9.0.41 以降を推奨します。
+- [Eclipse for Enterprise Java Developers (英語)](https://www.eclipse.org/downloads/packages/) バージョン 2020-12 以降を推奨します。
 - Maven リポジトリと依存関係を追加する必要があります。詳細については、[セットアップと構成](setup-configuration.html#maven-dependency)を参照してください。
  
 #### 手順
@@ -37,12 +37,12 @@ WAR ファイルを使用する代替手順:
 3. 作成した WAR ファイルを手動で Tomcat に配備します。
 
 
-### Spring バックエンドを使用した UpMedia React のサンプル
+### Spring Backend を使用した UpMedia React のサンプル
 
 #### 要件
 
-- [Java SDK](https://www.oracle.com/java/technologies/javase-downloads.html) 11.0.10 以降を推奨します。
-- [NodeJS](https://nodejs.org/en/download/) 14.15.4 以降を推奨します。NPM バージョン 6.14.10 を推奨します。
+- [Java SDK (英語)](https://www.oracle.com/java/technologies/javase-downloads.html) 11.0.10 以降を推奨します。
+- [NodeJS (英語)](https://nodejs.org/en/download/) 14.15.4 以降を推奨します。NPM バージョン 6.14.10 を推奨します。
 - Maven リポジトリと依存関係を追加する必要があります。詳細については、[セットアップと構成](setup-configuration.html#maven-dependency)を参照してください。
 
 #### 手順
@@ -59,8 +59,8 @@ WAR ファイルを使用する代替手順:
    Reveal サービス */upmediabackend/reveal-api/* にあります。
 
 2. **React アプリケーションを実行します。**
-    1. *upmedia-react* フォルダーで React アプリケーションを特定します。
-    2. React アプリケーションを通常通りに実行します。
+   1. *upmedia-react* フォルダーで React アプリケーションを特定します。
+   2. React アプリケーションを通常通りに実行します。
 
     ```bash
     npm install
@@ -75,13 +75,13 @@ WAR ファイルを使用する代替手順:
 
 Reveal の Web クライアント SDK の詳細については、[こちら](~/jp/developer/web-sdk/overview.md)を参照してください。
 
-### Tomcat バックエンドを使用した UpMedia React のサンプル
+### Tomcat Backend を使用した UpMedia React のサンプル
 
 #### 要件
 
-- [Java SDK](https://www.oracle.com/java/technologies/javase-downloads.html) 11.0.10 以降を推奨します。
-- [Tomcat](https://tomcat.apache.org/download-90.cgi) 9.0.41 以降を推奨します。
-- [Eclipse for Enterprise Java Developers](https://www.eclipse.org/downloads/packages/) バージョン 2020-12 以降を推奨します。
+- [Java SDK (英語)](https://www.oracle.com/java/technologies/javase-downloads.html) 11.0.10 以降を推奨します。
+- [Tomcat (英語)](https://tomcat.apache.org/download-90.cgi) 9.0.41 以降を推奨します。
+- [Eclipse for Enterprise Java Developers (英語)](https://www.eclipse.org/downloads/packages/) バージョン 2020-12 以降を推奨します。
 - Maven リポジトリと依存関係を追加する必要があります。詳細については、[セットアップと構成](setup-configuration.html#maven-dependency)を参照してください。
  
 #### 手順

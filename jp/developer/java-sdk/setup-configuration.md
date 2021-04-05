@@ -39,11 +39,15 @@ Reveal を既存のアプリケーションと統合するには、次の一般�
 1.  既存のアプリの実装に依存関係を追加します。
 2.  Reveal SDK に依存関係を追加します。
 3.  Reveal を初期化します。
-4.  Enable server-side export
+4.  サーバー側エクスポートを有効にします。
 
-#### 手順 1 - Adding a dependency to the app implementation
+Tomcat または Spring の構成については、以下のリンクを参照してください。
+- [Tomcat サーバー](setup-configuration-tomcat.md)
+- [Spring サーバー](setup-configuration-spring.md)
 
-Add a dependency to the existing application implementation, following the steps needed for the server of your preference.
+#### 手順 1 – アプリケーションに依存関係を追加します。
+
+必要な手順に従って、既存のアプリケーションに依存関係を追加します。
 
 #### 手順 2 - Reveal SDK に依存関係を追加します。
 
@@ -61,41 +65,44 @@ version_number を **1.0.1821** のような番号に置き換えます。
 
 #### 手順 3 - Reveal を初期化します。
 
-To initialize Reveal, you can either **?????**
+Reveal を初期化するには、**RevealEngineInitializer.initialize** を使用します。
 
----
+初期パラメーターなしでメソッドを呼び出すことが可能です。
+
+``` java
+RevealEngineInitializer.initialize();
+```
+ただし、ほとんどの場合、以下の例のようにパラメーターを使用します。
+
 ``` java
 RevealEngineInitializer.initialize(
-new RevealEngineInitializer.InitializeParameter()
-      .withAuthProvider(new RevealAuthenticationProvider())
-      .withUserContextProvider(new RevealUserContextProvider())
-      .withDashboardProvider(new RevealDashboardProvider())
-      .withDataSourceProvider(new UpMediaDataSourceProvider())
-      .withDataProvider(new UpMediaInMemoryDataProvider())
-      .setMaxConcurrentImageRenderThreads(2));
+    new InitializeParameterBuilder()
+        .setAuthProvider(new RevealAuthenticationProvider())
+        .setUserContextProvider(new RevealUserContextProvider())
+        .setDashboardProvider(new RevealDashboardProvider())
+        .setDataSourceProvider(new UpMediaDataSourceProvider())
+        .setDataProvider(new UpMediaInMemoryDataProvider())
+        .setMaxConcurrentImageRenderThreads(2)
+        .setLicense("SERIAL_KEY_TO_BE_USED")
+        .build());
 ```
+これらのパラメーターは Reveal のカスタマイズに使用される**プロバイダー**です。Reveal をアプリケーションに統合する場合は、独自のプロバイダーを作成する必要があります。
 
----
+**RevealEngineInitializer.initialize** に渡される利用可能なパラメーターは次のとおりです:
+- *setAuthProvider*。ここで、認証を解決し、IRVAuthenticationProvider を実装するカスタム クラスを含める必要があります。
+- *setUserContextProvider*。IRVUserContextProvider を実装するユーザーに関する情報を提供するカスタム クラス。
+- *setDashboardProvider*。ダッシュボードを置換または変更するカスタム クラス。IRVDashboardProvider を実装します。
+- *setDataSourceProvider*。データソースを置換または変更するカスタム クラス。IRVDataSourceProvider を実装します。
+- *setDataProvider*。ダッシュボードのインメモリ データを返すカスタム クラス。IRVDataProvider を実装します。
+- *setLicense*。ここでは、シリアル キーを含めて SDK ライセンスを構成できます。
 
-RevealEngineInitializer.initialize に渡されるパラメーターは次のとおりです:
-- IRVAuthenticationProvider
-- IRVUserContextProvider
-- IRVDashboardProvider
-- IRVDataSourceProvider
-- IRVDataProvider
+ダッシュボード プロバイダーを実装する方法の詳細については、GitHub の [UpMedia サンプル (英語)](https://github.com/RevealBi/sdk-samples-java) を参照してください。
 
-これらは Reveal のカスタマイズに使用される**プロバイダー**です。Reveal をアプリケーションに統合する場合は、独自のプロバイダーを作成する必要があります。
+#### 手順 4 - サーバー側エクスポートを有効にします。
 
-If you are interested in the configuration of Tomcat or Spring, follow the links below:
-- [Tomcat Server](setup-configuration-tomcat.md)
-- [Spring Server](setup-configuration-spring.md)
+Java SDK は、ダッシュボードをさまざまな形式 (Image、PDF、PPT、Excel) にエクスポートするためにいくつかのネイティブ コンポーネントを使用します。
 
----
-#### Step 4 - Enabling server-side export
-
-The Java SDK uses some native components for exporting dashboards to different formats: Image, PDF, PPT and Excel.
-
-If you are interested in exporting server-side to one or more of those formats, please refer to [Server-side Export Configuration](export-server-side.md)
+これらの形式の 1 つ以上にサーバー側をエクスポートする場合は、[サーバー側のエクスポート構成](export-server-side.md)を参照してください。
 
 
 ### セットアップと構成 (クライアント)
@@ -123,13 +130,13 @@ Reveal Web クライアント SDK には、次のサードパーティの参照�
 
 #### 2\. Web クライアント SDK の参照
 
-Web ページで **\$.ig.RevealView** コンポーネントを有効にするには、いくつかのスクリプトを含める必要があります。These scripts will be provided as part of Reveal Web Client SDK.
+Web ページで **\$.ig.RevealView** コンポーネントを有効にするには、いくつかのスクリプトを含める必要があります。これらのスクリプトは Reveal Web クライアント SDK の一部として提供されます。
 
 ```html
 <script src="~/Reveal/infragistics.reveal.js"></script>
 ```
 
-JavaScript files can be found in "\<InstallationDirectory\>\\SDK\\Web\\JS\\Client".
+JavaScript ファイルは "\<InstallationDirectory\>\\SDK\\Web\\JS\\Client" にあります。
 
 <a name='instantiate-web-client-sdk'></a>
 
@@ -141,12 +148,14 @@ JavaScript files can be found in "\<InstallationDirectory\>\\SDK\\Web\\JS\\Clien
 
 1. "id" を指定して \<div /\> 要素を定義し、**\$.ig.RevealView** コンストラクターを呼び出します。
 
-   >[!NOTE] 
-   >**サーバー側とクライアント側のパーツを個別にホストする**。別々のサーバーでクライアント側とサーバー側のパーツをホストする場合は、次の手順を続行する**前に**[こちら](~/jp/developer/web-sdk/overview.html#host-client-server-separate)を参照してください。
+    > [!NOTE] > **サーバー側とクライアント側のパーツを個別にホストする**
+    > 別々のサーバーでクライアント側とサーバー側のパーツをホストする場合は、次の手順を続行する**前に**[こちら](~/jp/developer/web-sdk/overview.html#host-client-server-separate)を参照してください。
 
-2. _dashboardId_ と成功およびエラー ハンドラーを指定して **\$.ig.RVDashboard.loadDashboard** を呼び出します。
+2.  _dashboardId_ と成功およびエラー ハンドラーを指定して **\$.ig.RVDashboard.loadDashboard** を呼び出します。
 
-3. 成功ハンドラーで、ダッシュボードが描画される DOM 要素のセレクターを渡すことにより、**\$.ig.RevealView** コンポーネントをインスタンス化します。最後に、取得したダッシュボードを使用し、**\$.ig.RevealView** のダッシュボード プロパティに設定する必要があります。
+3.  成功ハンドラーで、ダッシュボードが描画される DOM 要素のセレクターを渡すことにより、**\$.ig.RevealView** コンポーネントをインスタンス化します。
+
+    最後に、取得したダッシュボードを使用し、**\$.ig.RevealView** のダッシュボード プロパティに設定する必要があります。
 
 #### サンプル コード
 

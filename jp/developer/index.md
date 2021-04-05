@@ -8,13 +8,13 @@
 
 [インストールと要件](~/jp/developer/general/installation-requirements.html) - インストール方法と必須条件
 
-[Desktop SDK の概要](~/jp/developer/desktop-sdk/overview.html) - デスクトップ SDK の主な概念とアーキテクチャについて
-  - [Setup and configuration.](~/jp/developer/setup-configuration/setup-configuration-desktop.md) Steps required to get the Desktop SDK ready to be used.
+[Desktop SDK の概要](~/jp/developer/desktop-sdk/overview.md) Introduction to the Desktop SDK main concepts and architecture.
+  - [セットアップと構成](~/jp/developer/desktop-sdk/setup-configuration.md) Steps required to get the Desktop SDK ready to be used.
 
-[WEB .NET SDK Overview.](~/jp/developer/web-sdk/overview.md) Introduction to the Web .NET SDK main concepts and architecture.
-  - [Setup and configuration.](~/jp/developer/web-sdk/setup-configuration-web.md) Steps required to get the Web .NET SDK ready to be used.
-  - [Creating your First App.](~/jp/developer/web-sdk/create-first-app.md) Walkthrough that guides you through the initial steps of showing a dashboard on your web page/application for the first time.
+[WEB .NET SDK の概要](~/jp/developer/web-sdk/overview.md) Introduction to the Web .NET SDK main concepts and architecture.
+  - [セットアップと構成](~/jp/developer/web-sdk/setup-configuration.md) Steps required to get the Web .NET SDK ready to be used.
+  - [はじめてのアプリ作成](~/jp/developer/web-sdk/create-first-app.md) Walkthrough that guides you through the initial steps of showing a dashboard on your web page/application for the first time.
 
-[WEB JAVA SDK Overview.](~/jp/developer/java-sdk/overview.md) Introduction to the Web JAVA SDK main concepts and architecture.
-  - [Setup and configuration.](~/jp/developer/java-sdk/setup-configuration.md) Steps required to get the Web JAVA SDK ready to be used.
-  - [Running the UpMedia Samples.](~/jp/developer/java-sdk/running-upmedia-samples.md) Walkthroughs that guide you run the UpMedia samples provided.
+[WEB JAVA SDK の概要](~/jp/developer/java-sdk/overview.md) Introduction to the Web JAVA SDK main concepts and architecture.
+  - [セットアップと構成](~/jp/developer/java-sdk/setup-configuration.md) Steps required to get the Web JAVA SDK ready to be used.
+  - [UpMedia サンプルの実行](~/jp/developer/java-sdk/running-upmedia-samples.md) Walkthroughs that guide you run the UpMedia samples provided.

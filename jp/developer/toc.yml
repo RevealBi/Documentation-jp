@@ -8,7 +8,7 @@
   href: general/installation-requirements.md
 - name: SDK 用のダッシュボードの取得
   href: general/get-dashboards.md
-- name: Web .NET SDK
+- name: WEB .NET SDK
   header: true
 - name: 概要
   href: web-sdk/overview.md
@@ -28,7 +28,7 @@
   header: true
 - name: 概要
   href: java-sdk/overview.md
-- name: Running UpMedia Samples
+- name: UpMedia サンプルの実行
   href: java-sdk/running-upmedia-samples.md
 - name: セットアップと構成
   href: java-sdk/setup-configuration.md
@@ -37,9 +37,9 @@
       href: java-sdk/setup-configuration-tomcat.md
     - name: Spring のセットアップ
       href: java-sdk/setup-configuration-spring.md
-    - name: Export server-side
+    - name: サーバー側のエクスポート
       href: java-sdk/export-server-side.md
-- name: Using the Server SDK (IN PROGRESS)
+- name: サーバー SDK の使用 (追加予定)
   href: 
 - name: クライアント SDK の使用
   href: web-sdk/using-the-client-sdk/toc.yml

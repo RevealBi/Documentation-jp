@@ -1,4 +1,4 @@
-## Spring サーバー セットアップと構成
+## Spring サーバーのセットアップと構成
 
 <a name='maven-dependency'></a>
 
@@ -38,7 +38,7 @@ Maven ついてご不明な点がございましたら、次の[リンク (英�
 1.  spring-starter-jersey の実装に依存関係を追加します。
 2.  Reveal SDK に依存関係を追加します。
 3.  Reveal を初期化します。
-4.  Enable server-side export.
+4.  サーバー側エクスポートを有効にします。
 
 #### 手順 1 - spring-starter-jersey の実装に依存関係を追加します。
 
@@ -76,20 +76,41 @@ Reveal リソースを使用して Jakarta RESTful Web サービス (JAX-RS) ア
 $.ig.RevealSdkSettings.setBaseUrl("http://localhost:8080/upmedia-backend/reveal-api/");
 ```
 
-RevealEngineInitializer.initialize に渡されるパラメーターは次のとおりです:
-- IRVAuthenticationProvider
-- IRVUserContextProvider
-- IRVDashboardProvider
-- IRVDataSourceProvider
-- IRVDataProvider
+Reveal を初期化するには、**RevealEngineInitializer.initialize** を使用します。
 
-これらは Reveal のカスタマイズに使用される**プロバイダー**です。Reveal をアプリケーションに統合する場合は、独自のプロバイダーを作成する必要があります。
+初期パラメーターなしでメソッドを呼び出すことが可能です。
 
-独自のダッシュボード プロバイダーを実装する方法の詳細については、**????????** を参照してください。
-**(use a link to docs or redirect to samples)**
+``` java
+RevealEngineInitializer.initialize();
+```
+ただし、ほとんどの場合、以下の例のようにパラメーターを使用します。
 
-#### Step 4 - Enabling server-side export
+``` java
+RevealEngineInitializer.initialize(
+    new InitializeParameterBuilder()
+        .setAuthProvider(new RevealAuthenticationProvider())
+        .setUserContextProvider(new RevealUserContextProvider())
+        .setDashboardProvider(new RevealDashboardProvider())
+        .setDataSourceProvider(new UpMediaDataSourceProvider())
+        .setDataProvider(new UpMediaInMemoryDataProvider())
+        .setMaxConcurrentImageRenderThreads(2)
+        .setLicense("SERIAL_KEY_TO_BE_USED")
+        .build());
+```
+これらのパラメーターは Reveal のカスタマイズに使用される**プロバイダー**です。Reveal をアプリケーションに統合する場合は、独自のプロバイダーを作成する必要があります。
 
-The Java SDK uses some native components for exporting dashboards to different formats: Image, PDF, PPT and Excel.
+**RevealEngineInitializer.initialize** に渡される利用可能なパラメーターは次のとおりです:
+- *setAuthProvider*。ここで、認証を解決し、IRVAuthenticationProvider を実装するカスタム クラスを含める必要があります。
+- *setUserContextProvider*。IRVUserContextProvider を実装するユーザーに関する情報を提供するカスタム クラス。
+- *setDashboardProvider*。ダッシュボードを置換または変更するカスタム クラス。IRVDashboardProvider を実装します。
+- *setDataSourceProvider*。データソースを置換または変更するカスタム クラス。IRVDataSourceProvider を実装します。
+- *setDataProvider*。ダッシュボードのインメモリ データを返すカスタム クラス。IRVDataProvider を実装します。
+- *setLicense*。ここでは、シリアル キーを含めて SDK ライセンスを構成できます。
 
-If you are interested in exporting server-side to one or more of those formats, please refer to [Server-side Export Configuration](export-server-side.md)
+ダッシュボード プロバイダーを実装する方法の詳細については、GitHub の [UpMedia サンプル (英語)](https://github.com/RevealBi/sdk-samples-java) を参照してください。
+
+#### 手順 4 - サーバー側エクスポートを有効にします。
+
+Java SDK は、ダッシュボードをさまざまな形式 (Image、PDF、PPT、Excel) にエクスポートするためにいくつかのネイティブ コンポーネントを使用します。
+
+これらの形式の 1 つ以上にサーバー側をエクスポートする場合は、[サーバー側のエクスポート構成](export-server-side.md)を参照してください。

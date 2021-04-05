@@ -4,7 +4,7 @@ Web アプリケーションに Reveal を組み込む場合、2 つのコンポ
 
   - **Reveal クライアント SDK**: Web アプリケーションに統合する必要がある JavaScript ライブラリのセット。現在サポートされているフレームワークは、jQuery、Angular、および React です。
 
-  - **Reveal サーバー SDK**: サーバー アプリケーションに統合されるサーバー側のコンポーネント。.NET ランタイム v4.6.2 またはそれ以降を使用する ASP.NET Core アプリケーションです。今後、.NET Core を使ったライブラリを提供予定です。
+  - **Reveal サーバー SDK**: サーバー アプリケーションに統合されるサーバー側のコンポーネント。Currently this is an ASP.NET Core application targeting .NET Runtime (v4.6.2 or later) and .NET Core (2.2, 3.1, and 5.0).
 
 以下の図では、Reveal Web SDK を埋め込んだ Web アプリケーションのアーキテクチャを表示しています。
 
