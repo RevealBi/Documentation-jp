@@ -29,15 +29,15 @@ Web の場合、IIS でサンプルを実行し、StartUp プロジェクトを�
 
 
 ### ウェブ SDK JAVA 要件
-- [Java SDK](https://www.oracle.com/java/technologies/javase-downloads.html) 11.0.10 以降を推奨します。
-- [Maven](https://maven.apache.org/download.cgi) 3.6.3 以降を推奨します。
+- [Java SDK (英語)](https://www.oracle.com/java/technologies/javase-downloads.html) 11.0.10 以降を推奨します。
+- [Maven (英語)](https://maven.apache.org/download.cgi) 3.6.3 以降を推奨します。
  
 ### JAVA SDK のインストール
 
-Reveal Java SDK is distributed as a set of [Maven](https://maven.apache.org/what-is-maven.html) modules. To work with the SDK libraries, you need to add a reference to Reveal's Maven Repository and also a dependency in your Maven pom.xml file.
+Reveal Java SDK は、[Maven (英語)](https://maven.apache.org/what-is-maven.html) モジュールのセットとして配布されます。SDK ライブラリを操作するには、Reveal の Maven リポジトリへの参照と、Maven pom.xml ファイルの依存関係を追加する必要があります。詳細については、[セットアップと構成](~/jp/developer/java-sdk/setup-configuration.md)を参照してください。
 
 #### サンプル
-JAVA SDK の使用方法を示す **UpMedia サンプル**は[GitHub](https://github.com/RevealBi/sdk-samples-java) から取得できます。
+JAVA SDK の使用方法を示す **UpMedia サンプル**は [GitHub (英語)](https://github.com/RevealBi/sdk-samples-java) から取得できます。
 
-UpMedia サンプルの実行方法の詳細については、[**このリンク **](~/jp/developer/java-sdk/running-upmedia-samples.md)を参照してください。
+UpMedia サンプルの実行方法の詳細については、[**このリンク**](~/jp/developer/java-sdk/running-upmedia-samples.md)を参照してください。
 
