@@ -19,15 +19,15 @@
         <tr>
             <td rowspan="2">4 月 2021 年</td>
             <td rowspan="2">1.0.0 JAVA</td>
-            <td><i>新しい JAVA SDK のリリース</i><br>
+            <td>新しい JAVA SDK のリリース<br>
             Reveal は、.NET 以外の別の Web サーバー オプションとして JAVA をサポートするようになりました。JAVA SDK には JAVA 11+ が必要であり、Maven モジュールのセットとして配布されます。 詳細については、<a
                 href="../java-sdk/setup-configuration.html">セットアップと構成</a>を参照してください。
             </td>     
         </tr>
         <tr>
-            <td><i>JAVA SDK サンプルのリリース</i><br>
+            <td>JAVA SDK サンプルのリリース<br>
             使用可能な JAVA SDK UpMedia サンプルは <a
-                href="https://github.com/RevealBi/sdk-samples-java">Github</a>に掲載されています。
+                href="https://github.com/RevealBi/sdk-samples-java">Github</a> に掲載されています。
             </td>
         </tr>
         <tr>

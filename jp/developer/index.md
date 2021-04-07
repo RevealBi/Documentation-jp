@@ -4,9 +4,9 @@
 
 ### 作業の開始
 
-[Reveal SDK の概要](~/jp/developer/general/overview.html) - SDK の主な概念と機能の紹介
+[Reveal SDK の概要](~/jp/developer/general/overview.html) - SDK の主な概念と機能の紹介。
 
-[インストールと要件](~/jp/developer/general/installation-requirements.html) - インストール方法と必須条件
+[インストールと要件](~/jp/developer/general/installation-requirements.html) - インストール方法と必須条件。
 
 [Desktop SDK の概要](~/jp/developer/desktop-sdk/overview.md) Desktop SDK の主な概念とアーキテクチャについて。
   - [セットアップと構成](~/jp/developer/desktop-sdk/setup-configuration.md) Desktop SDK を使用できるようにするために必要な手順。

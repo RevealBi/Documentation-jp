@@ -2,7 +2,7 @@
 
 Java SDK は、ダッシュボードをさまざまな形式 (Image、PDF、PPT、Excel) にエクスポートするためにいくつかのネイティブ コンポーネントを使用します。
 
-- **画像のエクスポート**には [Playwright for Java](https://github.com/microsoft/playwright-java) を使用します。
+- **画像のエクスポート**には [Playwright for Java (英語)](https://github.com/microsoft/playwright-java) を使用します。
 
 - **PDF、PPT、および Excel ドキュメントのエクスポート**には、ExportTool (ネイティブ アプリケーション) を使用します。
 
@@ -11,11 +11,11 @@ Java SDK は、ダッシュボードをさまざまな形式 (Image、PDF、PPT�
 ダッシュボードを初めて開くと、**Playwright と ExportTool の両方が必要なダウンロードを自動的にトリガーします**。ただし、プラットフォームによっては、事前にインストールする必要がある依存関係があり、サーバー環境によって外部ダウンロードが制限される場合があり、これらのツールを手動でセットアップする必要があります。
 
 ### Playwright の構成
-Playwright は必要なバイナリを自動的にダウンロードします。ただし、手動による構成が必要な場合や、その構成 (または調整) の詳細については、[Playwright のドキュメント](https://playwright.dev/java/docs/installation)を参照してください。
+Playwright は必要なバイナリを自動的にダウンロードします。ただし、手動による構成が必要な場合や、その構成 (または調整) の詳細については、[Playwright のドキュメント (英語)](https://playwright.dev/java/docs/installation)を参照してください。
 
 ### macOS の依存関係
 
-macOS に必要なライブラリは **libgdiplus** のみです。インストール情報は[こちら](https://docs.microsoft.com/th-th/dotnet/core/install/macos#libgdiplus)を参照してください。
+macOS に必要なライブラリは **libgdiplus** のみです。インストール情報は[こちら](https://docs.microsoft.com/ja-jp/dotnet/core/install/macos#libgdiplus)を参照してください。
 
 ### Linux の依存関係
 
