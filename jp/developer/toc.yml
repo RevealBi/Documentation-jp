@@ -20,6 +20,8 @@
   href: web-sdk/using-the-server-sdk/toc.yml
 - name: クライアント SDK の使用
   href: web-sdk/using-the-client-sdk/toc.yml
+  name: Java Redistributables
+  href: web-sdk/sdk-redistributables.md
 - name: サーバー API リファレンス
   href: web-sdk/api-reference-server.md
 - name: クライアント API リファレンス

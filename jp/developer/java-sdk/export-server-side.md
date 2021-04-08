@@ -23,7 +23,7 @@ Linux には複数のネイティブ ライブラリへの依存関係があり�
 
 以下は、基本的な Ubuntu 18.0.4 ディストリビューションに必要なライブラリのリストです。
 
-```shell
+```bash
 sudo apt-get update
 
 sudo apt-get install -y libgdiplus\
@@ -48,7 +48,7 @@ sudo apt-get install -y --no-install-recommends xvfb
 
 その他の環境では、以下もインストールする必要があります。
 
-```shell
+```bash
 sudo apt-get install -y --allow-unauthenticated libc6-dev
 
 sudo apt-get install -y --allow-unauthenticated libx11-dev
@@ -65,7 +65,7 @@ sudo apt-get install -y --allow-unauthenticated libx11-dev
 1. ご使用のプラットフォームに必要なバイナリ ([Windows](https://download.infragistics.com/reveal/builds/sdk/java/ExportTool/1.0.0/win-x64.zip)、[Linux](https://download.infragistics.com/reveal/builds/sdk/java/ExportTool/1.0.0/linux-x64.zip)、または [macOS](https://download.infragistics.com/reveal/builds/sdk/java/ExportTool/1.0.0/osx-x64.zip)) をダウンロードします。
 2. Web アプリケーションが実行されているサーバーのディレクトリにファイルを解凍します (ユーザーはそのディレクトリにアクセスできる必要があります)。
 3. zip ファイルを抽出した後、**ExportTool** を以下の場所で取得できます: \<*dir*>/\<*version*>/\<*arch*>/ExportTool。例:
-   ```shell
+   ```bash
    <dir>/1.0.0/linux-x64/ExportTool.
    ```
 
