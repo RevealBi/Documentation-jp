@@ -45,6 +45,8 @@
   href: 
 - name: クライアント SDK の使用
   href: web-sdk/using-the-client-sdk/toc.yml
+  name: Java 再頒布物
+  href: java-sdk/java-sdk-redistributables.md
 - name: Desktop SDK
   header: true
 - name: 概要
