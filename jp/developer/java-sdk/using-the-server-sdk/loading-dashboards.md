@@ -1,4 +1,4 @@
-## Loading Dashboard Files
+## ダッシュボード ファイル読み込み
 
 ### Overview
 
