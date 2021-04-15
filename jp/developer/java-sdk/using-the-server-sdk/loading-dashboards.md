@@ -1,25 +1,25 @@
 ## ダッシュボード ファイル読み込み
 
-### Overview
+### 概要
 
-There are two ways to open/save dashboards with the SDK:
+SDK でダッシュボードを開く/保存するには 2 つの方法があります。
 
-  - **Server-side**: The client-side component of Reveal will use the server-side component to get the definition of a dashboard and also to get the data for each of the visualizations and filters defined.
+  - **サーバー側**: Reveal のクライアント側コンポーネントは、サーバー側コンポーネントを使用してダッシュボードの定義を取得し、定義された各視覚化とフィルターのデータも取得します。
 
-    Please note that this is the easiest approach and the one recommended when you are first evaluating the SDK.
+    これが最も簡単な方法であり、最初に SDK を評価するときに推奨される方法です。
 
-  - **Client-side**: Here you have full control and more flexibility. You provide the stream with the contents of the dashboard on the client page, getting the contents from your own server.
+  - **クライアント側**: 完全な制御と高い柔軟性が提供されます。カスタム サーバーからコンテンツを取得しながら、クライアント ページでダッシュボードのコンテンツをストリームに提供します。
 
-    Using this approach you can, for example, check user permissions, display your own user interface to select the dashboard, or allow users to upload the ".rdash" file to use. For further details about the client-side approach, follow this [**Setup and Configuration(Client)**](~/en/developer/developer/web-sdk/setup-configuration.html#setup-and-configuration-client).
+    この方法を使用すると、たとえば、ユーザーのアクセス許可を確認したり、カスタムなユーザーインターフェイスを表示してダッシュボードを選択したり、ユーザーが使用する .rdash ファイルをアップロードしたりすることができます。クライアント側アプローチの詳細については、[**セットアップと構成 (クライアント)**](~/en/developer/developer/web-sdk/setup-configuration.html#setup-and-configuration-client) を参照してください。
 
-### The Server-Side Approach
+### サーバー側アプローチ
 
-First, you get from the client-side both the dashboard ID and also the ID of the user requesting the dashboard. Second, on the server, you get the definition of the dashboard and get the data for each of the visualization and filters defined.
+まず、クライアント側からダッシュボード ID とダッシュボードを要求しているユーザーの ID の両方を取得します。次に、サーバーで、ダッシュボードの定義を取得し、定義された各視覚化とフィルターのデータを取得します。
 
-How dashboards are stored (file system, database, etc.) and who can access them is not part of the SDK and you need to handle that yourself.
+ダッシュボードの保存方法 (ファイル システム、データ ベースなど) とどのユーザーに対してダッシュボードへのアクセスを許可するか、 SDK の一部ではないため、ご自身で処理する必要があります。
 
 
-You need your own dashboard provider, implementing the interface IRVDashboardProvider:
+インターフェイス IRVDashboardProvider を実装する独自のダッシュボード プロバイダーが必要です:
 
 ```java
 public interface IRVDashboardProvider {
@@ -28,10 +28,10 @@ public interface IRVDashboardProvider {
 }
 ```
 
-If you won't allow dashboards to be saved, you can leave the implementation for *saveDashboard* empty.
+ダッシュボードの保存を許可しない場合は、*saveDashboard* の実装を空のままにしておくことができます。
 
-The *getDashboard* method receives the user and dashboard IDs, then you need to locate the dashboard (file system, database, etc.) where you choose to store them.
-Finally, it is expected that you return an InputStream with the dashboard contents, in ".rdash" format (which is basically a ZIP file containing a JSON document).
+*getDashboard* メソッドはユーザー ID とダッシュボード ID を受け取り、それらを保存するために選択したダッシュボード (ファイル システム、データベースなど) を見つける必要があります。 
+最後に、ダッシュボードの内容を含む InputStream を .rdash 形式 (基本的には JSON ドキュメントを含む ZIP ファイル) で返すことが期待されています。
 
 
-For further details, you can refer to the UpMedia Samples implementation in [GitHub](https://github.com/RevealBi/sdk-samples-java) (*UpmediaDashboardProvider* in upmedia, upmedia-backend-tomcat and upmedia-backendspring)
+詳細については、[GitHub](https://github.com/RevealBi/sdk-samples-java) の UpMedia サンプルの実装 (upmedia、upmedia-backend-tomcat、upmedia-backendspring の *UpmediaDashboardProvider*) を参照してください。

@@ -88,8 +88,7 @@ public class RevealSdkContext : RevealSdkContextBase
 
 #### 3\. サーバー SDK の初期化
 
-**Startup.cs** のアプリケーションの **ConfigureServices** メソッドで
-\_RevealEmbedSettings\_ クラスを渡し、サービス拡張メソッド _AddRevealServices_ を呼び出します。
+**Startup.cs** のアプリケーションの **ConfigureServices** メソッド _RevealEmbedSettings_ クラスを渡し、サービス拡張メソッド _AddRevealServices_ を呼び出します。
 
 _AddRevealServices_ 拡張メソッドは **Reveal.Sdk** 名前空間で定義されているため、ユーザーを追加する必要があります。また、以下に示すように **CachePath** プロパティも設定してください。
 
@@ -111,8 +110,7 @@ MVC サービスを追加するときに **AddReveal** 拡張メソッドを呼�
 services.AddMvc().AddReveal();
 ```
 
-_AddRevealServices_ と同様に、_AddReveal_ メソッドは _Reveal.Sdk_
-で定義されているため、ディレクティブを使用してください。
+_AddRevealServices_ と同様に、_AddReveal_ メソッドは _Reveal.Sdk_ で定義されているため、ディレクティブを使用してください。
 
 <a name='server-side-image-export'></a>
 
