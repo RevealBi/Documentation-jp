@@ -49,7 +49,7 @@ Reveal アプリは、ダッシュボードを作成し、表示させ、およ�
 
 ダミーのデータではなくカスタムのデータを使ってダッシュボードを可視化する必要があります。
 
-1.  [**データ ソースの置き換え**](replacing-data-sources.html)で説明したように、__IRVDataSourceProvider__ を実装し、__RevealSdkContextBase__ の __DataSourceProvider__ プロパティとして返します。
+1.  [**データ ソースの置き換え**](replacing-data-sources/replacing-data-sources-mssql.md)で説明したように、__IRVDataSourceProvider__ を実装し、__RevealSdkContextBase__ の __DataSourceProvider__ プロパティとして返します。
 
     次に、メソッド **ChangeVisualizationDataSourceItemAsync** の実装では、次のようなコードを追加する必要があります。
 

@@ -41,8 +41,8 @@
       href: java-sdk/setup-configuration-spring.md
     - name: サーバー側のエクスポート
       href: java-sdk/export-server-side.md
-- name: サーバー SDK の使用 (追加予定)
-  href: 
+- name: サーバー SDK の使用 
+  href: java-sdk/using-the-server-sdk/toc.yml
 - name: クライアント SDK の使用
   href: web-sdk/using-the-client-sdk/toc.yml
   name: Java 再頒布物

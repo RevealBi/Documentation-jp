@@ -8,7 +8,7 @@
 
 |**シナリオ**    |**詳細** |
 |---|---|                                                                         
-| [*ダッシュボード ファイルの読み込み**](loading-dashboards.html)                              | ダッシュボードは、サーバー側とクライアント側のどちらでも開くことができます。                                                |
-| [**データ ソースの置き換え**](replacing-data-sources.html)                           | ダッシュボードの各可視化に使用される構成またはデータをオーバーライドできます。                        |
-| [**インメモリ データのサポート**](in-memory-data.html)                                   | アプリケーションの一部であり、既にメモリ内にあるデータは Reveal SDK で使用します。                           |
-| [**データ ソースへの資格情報の提供**](providing-credentials-datasources.html) | SQL Server または OAuth ベースのデータ ソースを操作するときにデータ ソースの資格情報を渡すことができます。                     |
+| [*ダッシュボード ファイルの読み込み**](loading-dashboards.md)                              | ダッシュボードは、サーバー側とクライアント側のどちらでも開くことができます。                                                |
+| [**データ ソースの置き換え**](using-the-server-sdk/replacing-data-sources/replacing-data-sources-mssql.md)                           | ダッシュボードの各可視化に使用される構成またはデータをオーバーライドできます。                        |
+| [**インメモリ データのサポート**](in-memory-data.md)                                   | アプリケーションの一部であり、既にメモリ内にあるデータは Reveal SDK で使用します。                           |
+| [**データ ソースへの資格情報の提供**](providing-credentials-datasources.md) | SQL Server または OAuth ベースのデータ ソースを操作するときにデータ ソースの資格情報を渡すことができます。                     |

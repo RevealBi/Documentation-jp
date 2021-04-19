@@ -15,7 +15,7 @@
 - name: データ ソースへの資格情報の提供
   href: providing-credentials-datasources.md
 - name: データ ソースの置き換え
-  href: replacing-data-sources.md
+  href: replacing-data-sources/toc.yml
 - name: ローカリゼーション サービスの使用
   href: localization-service.md
 - name: 書式設定サービスの使用
