@@ -11,8 +11,8 @@
 2. [**ダッシュボードファイルの読み込み**](~/jp/developer/desktop-sdk/using-the-desktop-sdk/loading-dashboards.md) (WPF の場合) または [**Web SDK をはじめて使用する**](~/jp/developer/web-sdk/create-first-app.md) (Web の場合) の説明に従って、アプリケーションに**ダッシュボードを読み込みます**。
 3. ダッシュボードの作成に使用した**ファイルをクラウド ストレージからダウンロードし**、ローカル フォルダーにコピーします。   
 UpMedia サンプル アプリケーションと同じフォルダーを使用することをお勧めします。  
- - WPF アプリケーションでは、*DataSources* フォルダーを使用します。  
- - Web アプリケーションでは、*wwwroot/App_data/RvLocalFiles* フォルダーを使用します。  
+   - WPF アプリケーションでは、*DataSources* フォルダーを使用します。  
+   - Web アプリケーションでは、*wwwroot/App_data/RvLocalFiles* フォルダーを使用します。  
 4. プロジェクトに**新しい *CloudToLocalDatasourceProvider* クラスを追加します**。  
 5. 以下の**コード** セクションの関連するスニペットから**実装コードをコピーします**。
 6. *RevealSdkContext* クラスの ***DataSourceProvider* プロパティを *CloudToLocalDatasourceProvider* に設定します**:   
@@ -107,4 +107,5 @@ WEB の CloudToLocalDatasourceProvider (.Net サーバー側):
     }
 ```  
 
-  > [!NOTE] *CloudToLocalDatasourceProvider* は、Excel ファイルと CSV ファイルのみを自動的に置き換えます。ファイルは、ダッシュボードの作成に使用したものと同じである必要があります。他のファイル タイプまたはデータ ソースへの呼び出しは変更されません。オプションで、Excel および csv データ ソース ファイルのコンテンツを変更できますが、ファイル **スキーマ**は**同じまま**である必要があります。一部の視覚化に MSSQL データ ベースを使用する場合は、資格情報を構成する必要があります。
+  >[!NOTE] 
+  >*CloudToLocalDatasourceProvider* は、Excel ファイルと CSV ファイルのみを自動的に置き換えます。ファイルは、ダッシュボードの作成に使用したものと同じである必要があります。他のファイル タイプまたはデータ ソースへの呼び出しは変更されません。オプションで、Excel および csv データ ソース ファイルのコンテンツを変更できますが、ファイル **スキーマ**は**同じまま**である必要があります。一部の視覚化に MSSQL データ ベースを使用する場合は、資格情報を構成する必要があります。

@@ -36,7 +36,7 @@
 
 これにより、ダッシュボードが開かれたとき、または特定の可視化が最大化されたときに、オーバーフロー メニューで [エクスポート] ボタンが使用可能になります。
 
-<img src="images/export-button-dashboard-SDK.png" alt="Export button for dashboards enabled SDK" width="80%"/>
+<img src="images/export-button-dashboard-SDK.png" alt="Export button for dashboards enabled SDK" width="100%"/>
 
 ユーザーが [エクスポート] ボタンをクリックすると、利用可能なエクスポートオプションを選択できます。
 

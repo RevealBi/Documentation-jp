@@ -1,4 +1,4 @@
-- name: Microsoft SQL Server Datasource 
+- name: Microsoft SQL サーバー データ ソース 
   href: replacing-data-sources-mssql.md
-- name: Excel and CSV files
+- name: Excel と CSV ファイル
   href: replacing-data-sources-excel-csv.md
