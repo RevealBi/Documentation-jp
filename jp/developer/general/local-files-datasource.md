@@ -1,30 +1,28 @@
-## Populating exported dashboard with data from local excel and csv files
+## エクスポートされたダッシュボードにローカルの Excel ファイルと csv ファイルのデータを入力
 
-### Overview
+### 概要
 
-When we create a dashboard in **Reveal Application** we often use Excel or CSV files stored in the cloud to populate it with data.   
-After exporting the dashboard and embedding it in custom application, we can move these files in a local directory and then use the **Reveal SDK** to access and set them as a local datasource. 
+**Reveal アプリ**でダッシュボードを作成するとき、クラウドに保存されている Excel または CSV ファイルを使用してデータを入力することがよくあります。   
+ダッシュボードをエクスポートしてカスタム アプリケーションに組み込んだ後、これらのファイルをローカル ディレクトリに移動し、Reveal SDK を使用してアクセスし、ローカル データ ソースとして設定できます。
 
-### Steps
-To populate the exported dashboard using local Excel and CSV files, you need to follow these steps:
-1. **Export the dashboard** file as explained in [**Getting Dashboards for the SDK**](~/en/developer/general/get-dashboards.md) 
-2. **Load the dashboard** in your application as described in: 
-[**Loading Dashboard Files**](~/en/developer/desktop-sdk/using-the-desktop-sdk/loading-dashboards.md) (for WPF), or 
-[**Creating Your First App**](~/en/developer/web-sdk/create-first-app.md) (for Web)
-3. **Download the files** you used to create the dashboard from your cloud storage and copy them to a local folder.   
-We suggest you use the same folders as in our UpMedia sample application:  
- - In a WPF application use the *DataSources* folder  
- - In a Web application use *wwwroot/App_data/RvLocalFiles* folder  
-4. **Add a new *CloudToLocalDatasourceProvider* class** in the project.  
-5. **Copy the implementation code** from the relevant snippet in **Code** section below.
-6. **Set the *DataSourceProvider* property** of the *RevealSdkContext* class to *CloudToLocalDatasourceProvider*:  
+### 手順
+ローカルの Excel ファイルと CSV ファイルを使用してエクスポートされた ダッシュボードにデータを入力するには、次の手順に従う必要があります。
+1. [**SDK 用のダッシュボードの取得**](~/jp/developer/general/get-dashboards.md)の説明に従って、**ダッシュボード ファイルをエクスポートします**。 
+2. [**ダッシュボードファイルの読み込み**](~/jp/developer/desktop-sdk/using-the-desktop-sdk/loading-dashboards.md) (WPF の場合) または [**Web SDK をはじめて使用する**](~/jp/developer/web-sdk/create-first-app.md) (Web の場合) の説明に従って、アプリケーションに**ダッシュボードを読み込みます**。
+3. ダッシュボードの作成に使用した**ファイルをクラウド ストレージからダウンロードし**、ローカル フォルダーにコピーします。   
+UpMedia サンプル アプリケーションと同じフォルダーを使用することをお勧めします。  
+ - WPF アプリケーションでは、*DataSources* フォルダーを使用します。  
+ - Web アプリケーションでは、*wwwroot/App_data/RvLocalFiles* フォルダーを使用します。  
+4. プロジェクトに**新しい *CloudToLocalDatasourceProvider* クラスを追加します**。  
+5. 以下の**コード** セクションの関連するスニペットから**実装コードをコピーします**。
+6. *RevealSdkContext* クラスの ***DataSourceProvider* プロパティを *CloudToLocalDatasourceProvider* に設定します**:   
 
 ``` csharp
   public override IRVDataSourceProvider DataSourceProvider => new CloudToLocalDatasourceProvider();        
 ```
 
-### Code
-CloudToLocalDatasourceProvider for WPF:
+### コード
+WPF の CloudToLocalDatasourceProvider:
 ``` csharp
     public class CloudToLocalDatasourceProvider : IRVDataSourceProvider
     {
@@ -67,7 +65,7 @@ CloudToLocalDatasourceProvider for WPF:
     }
 ```
 
-CloudToLocalDatasourceProvider for WEB(.Net server side):
+WEB の CloudToLocalDatasourceProvider (.Net サーバー側):
 ``` csharp
     public class CloudToLocalDatasourceProvider : IRVDataSourceProvider
     {
@@ -109,4 +107,4 @@ CloudToLocalDatasourceProvider for WEB(.Net server side):
     }
 ```  
 
-  > [!NOTE] The *CloudToLocalDatasourceProvider* replaces automatically only Excel and CSV files. Files need to be the same as used for creating the dashboard. Calls to any other file types or datasources will remain unchanged. Optionally you may change the content of the excel and csv datasource files, but the file **schema** has to remain the **same**.  In case you use MSSQL database for some visualization, the credentials need to be configured???
+  > [!NOTE] *CloudToLocalDatasourceProvider* は、Excel ファイルと CSV ファイルのみを自動的に置き換えます。ファイルは、ダッシュボードの作成に使用したものと同じである必要があります。他のファイル タイプまたはデータ ソースへの呼び出しは変更されません。オプションで、Excel および csv データ ソース ファイルのコンテンツを変更できますが、ファイル **スキーマ**は**同じまま**である必要があります。一部の視覚化に MSSQL データ ベースを使用する場合は、資格情報を構成する必要があります。
