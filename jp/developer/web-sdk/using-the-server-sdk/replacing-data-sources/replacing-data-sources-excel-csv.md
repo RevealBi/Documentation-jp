@@ -10,7 +10,7 @@ Reveal アプリでダッシュボードを作成するとき、クラウドに�
 1. [**SDK 用のダッシュボードの取得**](~/jp/developer/general/get-dashboards.md)の説明に従って、**ダッシュボード ファイルをエクスポートします**。
 2. [**初めてのアプリ作成**](~/jp/developer/web-sdk/create-first-app.md)の説明に従って、アプリケーションに**ダッシュボードを読み込みます**。
 3. ダッシュボードの作成に使用した**ファイルをクラウド ストレージからダウンロードし**、ローカル フォルダーにコピーします。 
-4. **ローカル フォルダー名を *LocalStoragePath* プロパティの値として設定します**。これについての詳細には、[**セットアップと構成 (サーバー) - サーバー SDK を初期化**](~/jp/developer/web-sdk/setup-configuration.md#3-initializing-the-server-sdk)をご覧ください。  
+4. **ローカル フォルダー名を *LocalStoragePath* プロパティの値として設定します**。これについての詳細には、[**セットアップと構成 (サーバー) - サーバー SDK を初期化**](~/jp/developer/web-sdk/setup-configuration.md#3-サーバー-SDK-の初期化)をご覧ください。  
 5.  プロジェクトに**新しい *CloudToLocalDatasourceProvider* クラスを追加します**。  
 6. 以下の**コード** セクションの関連するスニペットから**実装コードをコピーします**。
 7. *RevealSdkContext* クラスの ***DataSourceProvider* プロパティを *CloudToLocalDatasourceProvider* に設定します**:   
