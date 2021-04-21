@@ -1,26 +1,25 @@
-## Replacing Excel and CSV file DataSources
+## Excel および CSV ファイルのデータ ソースの置き換え
 
-### Overview
+### 概要
 
-When we create a dashboard in **Reveal Application** we often use Excel or CSV files stored in the cloud to populate it with data.   
-After exporting the dashboard and embedding it in custom application, we can move these files in a local directory and then use the **Reveal SDK** to access and set them as a local datasource.
+Reveal アプリでダッシュボードを作成するとき、クラウドに保存されている Excel または CSV ファイルを使用してデータを入力することがよくあります。  
+ダッシュボードをエクスポートしてカスタム アプリケーションに組み込んだ後、これらのファイルをローカル ディレクトリに移動し、**Reveal SDK** を使用してアクセスし、ローカル データ ソースとして設定できます。
 
-### Steps
-To populate the exported dashboard using local Excel and CSV files, you need to follow these steps:
-1. **Export the dashboard** file as explained in [**Getting Dashboards for the SDK**](~/en/developer/general/get-dashboards.md) 
-2. **Load the dashboard** in your application as described in 
-[**Creating Your First App**](~/en/developer/web-sdk/create-first-app.md)
-3. **Download the files** you used to create the dashboard from your cloud storage and copy them to a local folder.  
-4. **Set the local folder name** as a value of the *LocalStoragePath*. Details about this you can find here: [**Setup and Configuration(Server) - Initializing the Server SDK**](~/en/developer/web-sdk/setup-configuration.md#3-initializing-the-server-sdk)  
-5. **Add a new *CloudToLocalDatasourceProvider* class** in the project.  
-6. **Copy the implementation code** from the relevant snippet in **Code** section below.
-7. **Set the *DataSourceProvider* property** of the *RevealSdkContext* class to *CloudToLocalDatasourceProvider*:  
+### 手順
+ローカルの Excel ファイルと CSV ファイルを使用してエクスポートされた ダッシュボードにデータを入力するには、次の手順に従う必要があります。
+1. [**SDK 用のダッシュボードの取得**](~/jp/developer/general/get-dashboards.md)の説明に従って、**ダッシュボード ファイルをエクスポートします**。
+2. [**初めてのアプリ作成**](~/jp/developer/web-sdk/create-first-app.md)の説明に従って、アプリケーションに**ダッシュボードを読み込みます**。
+3. ダッシュボードの作成に使用した**ファイルをクラウド ストレージからダウンロードし**、ローカル フォルダーにコピーします。 
+4. **ローカル フォルダー名を *LocalStoragePath* プロパティの値として設定します**。これについての詳細には、[**セットアップと構成 (サーバー) - サーバー SDK を初期化**](~/jp/developer/web-sdk/setup-configuration.md#3-initializing-the-server-sdk)をご覧ください。  
+5.  プロジェクトに**新しい *CloudToLocalDatasourceProvider* クラスを追加します**。  
+6. 以下の**コード** セクションの関連するスニペットから**実装コードをコピーします**。
+7. *RevealSdkContext* クラスの ***DataSourceProvider* プロパティを *CloudToLocalDatasourceProvider* に設定します**:   
 
 ``` csharp
   public override IRVDataSourceProvider DataSourceProvider => new CloudToLocalDatasourceProvider();        
 ```
 
-### Code
+### コード
 
 ``` csharp
     public class CloudToLocalDatasourceProvider : IRVDataSourceProvider
@@ -68,4 +67,5 @@ To populate the exported dashboard using local Excel and CSV files, you need to 
         }
     }
 ```  
-  > [!NOTE] The *CloudToLocalDatasourceProvider* replaces automatically Excel and CSV files only. Other file types or data sources will remain unchanged. The replacement files should be the same ones used to create the dashboard or, alternatively, new files that share the **same schema** but with different data.
+  > [!NOTE] 
+  > *CloudToLocalDatasourceProvider* は、Excel ファイルと CSV ファイルのみを自動的に置き換えます。他のファイル タイプまたはデータ ソースは変更されません。置換ファイルは、ダッシュボードの作成に使用したものと同じであるか、**同じスキーマ**を共有しているがデータが異なる新しいファイルである必要があります。

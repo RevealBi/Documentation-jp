@@ -20,7 +20,7 @@ revealView.CanEdit = false;
 ```
 
 ### ShowEditDataSource
-This property can be used to disable the editing of a dashboard datasource.
+このプロパティを使用して、ダッシュボード データ ソースの編集を無効にすることができます。
 
 <img src="../../general/images/showing-hiding-elements-edit-datasource.png" alt="Editing a dashboard datasource through the UI" width="60%"/>
 
@@ -29,7 +29,7 @@ revealView.ShowEditDataSource = false;
 ```
 
 ### ShowExportImage
-This property can be used to disable exporting the dashboad to an image.
+このプロパティを使用して、ダッシュボードの画像へのエクスポートを無効にすることができます。
 
 <img src="../../general/images/showing-hiding-elements-show-export-image.png" alt="Exporting a dashboard to Image" width="60%"/>
 
@@ -38,7 +38,7 @@ revealView.ShowExportImage = false;
 ```
 
 ### ShowExportToPowerpoint
-This property can be used to disable exporting the dashboad to PowerPoint.
+このプロパティを使用して、ダッシュボードの PowerPoint へのエクスポートを無効にすることができます。
 
 <img src="../../general/images/showing-hiding-elements-show-export-powerpoint.png" alt="Exporting a dashboard to PowerPoint" width="60%"/>
 
@@ -47,7 +47,7 @@ revealView.ShowExportToPowerpoint = false;
 ```
 
 ### ShowExportToPDF
-This property can be used to disable exporting the dashboad to PDF.
+このプロパティを使用して、ダッシュボードの PDF へのエクスポートを無効にすることができます。
 
 <img src="../../general/images/showing-hiding-elements-show-export-pdf.png" alt="Exporting a dashboard to PDF" width="60%"/>
 
@@ -56,7 +56,7 @@ revealView.ShowExportToPDF = false;
 ```
 
 ### ShowExportToExcel
-This property can be used to disable exporting the dashboad to Excel.
+このプロパティを使用して、ダッシュボードの Excel へのエクスポートを無効にすることができます。
 
 <img src="../../general/images/showing-hiding-elements-show-export-excel.png" alt="Exporting a dashboard to Excel" width="60%"/>
 
@@ -118,7 +118,7 @@ revealView.ShowFilters = false;
 ```
 
 ### CanAddDashboardFilter
-This property can be used to show or hide the Add Dashboard Filter menu item.
+このプロパティを使用して、[ダッシュボード フィルターの追加] メニュー項目を表示または非表示にすることができます。
 
 <img src="../../general/images/showing-hiding-elements-can-add-dashboard-filter.png" alt="Showing Add Dashboard Filter in the UI" width="60%"/>
 
@@ -127,7 +127,7 @@ revealView.CanAddDashboardFilter = false;
 ```
 
 ### CanAddDateFilter
-This property can be used to show or hide the Add Date Filter menu item.
+このプロパティを使用して、[日付フィルターの追加] メニュー項目を表示または非表示にすることができます。
 
 <img src="../../general/images/showing-hiding-elements-can-add-date-filter.png" alt="Showing Add Date Filter in the UI" width="60%"/>
 

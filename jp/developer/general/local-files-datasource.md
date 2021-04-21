@@ -8,7 +8,7 @@
 ### 手順
 ローカルの Excel ファイルと CSV ファイルを使用してエクスポートされた ダッシュボードにデータを入力するには、次の手順に従う必要があります。
 1. [**SDK 用のダッシュボードの取得**](~/jp/developer/general/get-dashboards.md)の説明に従って、**ダッシュボード ファイルをエクスポートします**。 
-2. [**ダッシュボードファイルの読み込み**](~/jp/developer/desktop-sdk/using-the-desktop-sdk/loading-dashboards.md) (WPF の場合) または [**Web SDK をはじめて使用する**](~/jp/developer/web-sdk/create-first-app.md) (Web の場合) の説明に従って、アプリケーションに**ダッシュボードを読み込みます**。
+2. [**ダッシュボードファイルの読み込み**](~/jp/developer/desktop-sdk/using-the-desktop-sdk/loading-dashboards.md) (WPF の場合) または [**初めてのアプリ作成**](~/jp/developer/web-sdk/create-first-app.md) (Web の場合) の説明に従って、アプリケーションに**ダッシュボードを読み込みます**。
 3. ダッシュボードの作成に使用した**ファイルをクラウド ストレージからダウンロードし**、ローカル フォルダーにコピーします。   
 UpMedia サンプル アプリケーションと同じフォルダーを使用することをお勧めします。  
    - WPF アプリケーションでは、*DataSources* フォルダーを使用します。  
