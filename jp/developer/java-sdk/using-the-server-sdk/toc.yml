@@ -1,2 +1,4 @@
 - name: ダッシュボード ファイルの読み込み
   href: loading-dashboards.md
+- name: データソースへの資格情報の提供
+  href: providing-credentials-datasources.md
