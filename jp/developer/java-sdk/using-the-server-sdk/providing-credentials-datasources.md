@@ -5,7 +5,7 @@
 Server SDK では、データ ソースにアクセスするときに使用される一連の資格情報を渡すことができます。
 
 最初の手順は、__IRVAuthenticationProvider__ を実装し、カスタム クラスを最初のパラメーターとして __RevealEngineInitializer.initialize__ メソッドに返すことです。
-詳細については、Java セットアップと構成での [Reveal の初期化](https://help.revealbi.io/en/developer/java-sdk/setup-configuration.html#step-3---initializing-reveal)を参照してください。
+詳細については、Java セットアップと構成での [Reveal の初期化](https://help.revealbi.io/jp/developer/java-sdk/setup-configuration.html#step-3---initializing-reveal)を参照してください。
 実際の実装を確認するには、Spring サンプルの __RevealJerseyConfig__ クラス、または [GitHub](https://github.com/RevealBi/sdk-samples-java) の Tomcat に基づくサンプルの __WebAppListener__ を参照してください。
 
 ### コード
