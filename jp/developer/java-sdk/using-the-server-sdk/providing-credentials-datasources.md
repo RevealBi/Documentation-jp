@@ -1,16 +1,16 @@
-## Providing Credentials to Data Sources
+## データソースへの資格情報の提供
 
-### Overview
+### 概要
 
-The Server SDK allows you to pass in a set of credentials to be used when accessing the data source.
+Server SDK では、データ ソースにアクセスするときに使用される一連の資格情報を渡すことができます。
 
-The first step is to implement __IRVAuthenticationProvider__ and return the custom class as the first parameter to the __RevealEngineInitializer.initialize__ method.
-For further details, refer to [Initializing Reveal](https://help.revealbi.io/en/developer/java-sdk/setup-configuration.html#step-3---initializing-reveal) in Java Setup and Configuration.
-To look to an actual implementation, please refer to the __RevealJerseyConfig__ class in the Spring sample or __WebAppListener__ in Tomcat-based samples in [GitHub](https://github.com/RevealBi/sdk-samples-java).
+最初の手順は、__IRVAuthenticationProvider__ を実装し、カスタム クラスを最初のパラメーターとして __RevealEngineInitializer.initialize__ メソッドに返すことです。
+詳細については、Java セットアップと構成での [Reveal の初期化](https://help.revealbi.io/en/developer/java-sdk/setup-configuration.html#step-3---initializing-reveal)を参照してください。
+実際の実装を確認するには、Spring サンプルの __RevealJerseyConfig__ クラス、または [GitHub](https://github.com/RevealBi/sdk-samples-java) の Tomcat に基づくサンプルの __WebAppListener__ を参照してください。
 
-### Code
+### コード
 
-If you use __UpmediaAuthenticationProvider__ (upmedia, upmedia-backend-tomcat and upmedia-backend-spring samples) as a reference, there you can find a single method implemented that receives the _userId_ for the current user and the data source for which credentials are being requested: 
+__UpmediaAuthenticationProvider__ (upmedia、upmedia-backend-tomcat、upmedia-backend-spring のサンプル) を参照として使用する場合、現在のユーザーと資格情報が要求されているデータ ソースの _userId_ を受け取る実装された単一のメソッドを見つけることができます。 
 
 ``` java
 public class UpmediaAuthenticationProvider implements
@@ -31,9 +31,9 @@ RVDashboardDataSource dataSource) {
 }
 ```
 
-With a code similar to the example above, you can check if the data source is a MS SQL Server data source and also check for the host name of the server to return the credentials to be used.
+上記の例と同様のコードを使用して、データ ソースが MS SQL Server データ ソースであるかどうかを確認し、サーバーのホスト名を確認して、使用する資格情報を返すことができます。
 
-Similar code but for a Redshift data source:
+同様のコードですが、Redshift データ ソース用です。
 
 ```java
 if (dataSource instanceof RVRedshiftDataSource) {
@@ -44,30 +44,30 @@ if (dataSource instanceof RVRedshiftDataSource) {
 }
 ```
 
-### Choosing Which Class to Implement
+### 実装するクラスの選択
 
-There are two classes that can be used, both implementing the __IRVDataSourceCredential__
-interface. You need to choose the class depending on your data source, as detailed below.
+使用できるクラスは 2 つあり、どちらも __IRVDataSourceCredential__ インターフェイスを実装しています。
+以下に詳述するように、データ ソースに応じてクラスを選択する必要があります。
 
-  - Class __RVBearerTokenDataSourceCredential__ works with:
+  - クラス __RVBearerTokenDataSourceCredential__ は、以下の条件で機能します。
 
-      - Analytics tools (Google Analytics).
+      - アナリティクス ツール (Google アナリティクス)。
 
-      - Content Managers and Cloud Services (Box, Dropbox, Google Drive,
-        OneDrive and SharePoint Online).
+      - コンテンツ マネージャーとクラウド サービス (Box、Dropbox、Google Drive、OneDrive、SharePoint Online)。
+        
 
-  - Class __RVUsernamePasswordDataSourceCredential__ works with:
+  - クラス __RVUsernamePasswordDataSourceCredential__ は、以下の条件で機能します。
 
-      - Customer Relationship Managers (Microsoft Dynamics CRM
-        On-Premises and Online)
+      - カスタマー リレーションシップ マネージャー (Microsoft Dynamics CRM オンプレミスおよびオンライン)。
+        
 
-      - Databases (Microsoft SQL Server, Microsoft Analysis Services
-        Server, MySQL, PostgreSQL, Oracle, Sybase)
+      - データベース (Microsoft SQL Server、Microsoft Analysis Services サーバー、MySQL、PostgreSQL、Oracle、Sybase)
+        
 
-  - **Both classes** work with:
+  - **どちらのクラスも** 以下の条件で機能します。
 
-      - Other Data Sources (OData Feed, Web Resources, REST API).
+      - その他のデータ ソース (OData Feed, Web Resources, REST API)。
 
-### No Authentication
+### 認証なし
 
-Sometimes you might work with an anonymous resource, without authentication. In this particular case, you can use __RVUsernamePasswordDataSourceCredential__, which has an empty constructor. You can do this for any data source that works with the class.
+認証なしで匿名のリソースで作業することがあります。この場合、空のコンストラクターを持つ __RVUsernamePasswordDataSourceCredential__ を使用できます。これは、そのクラスで機能するすべてのデータソースに対して実行できます。
