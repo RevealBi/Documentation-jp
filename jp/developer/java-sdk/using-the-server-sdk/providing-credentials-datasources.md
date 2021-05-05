@@ -1,4 +1,4 @@
-## データソースへの資格情報の提供
+## データ ソースへの資格情報の提供
 
 ### 概要
 
@@ -70,4 +70,4 @@ if (dataSource instanceof RVRedshiftDataSource) {
 
 ### 認証なし
 
-認証なしで匿名のリソースで作業することがあります。この場合、空のコンストラクターを持つ __RVUsernamePasswordDataSourceCredential__ を使用できます。これは、そのクラスで機能するすべてのデータソースに対して実行できます。
+認証なしで匿名のリソースで作業することがあります。この場合、空のコンストラクターを持つ __RVUsernamePasswordDataSourceCredential__ を使用できます。これは、そのクラスで機能するすべてのデータ ソースに対して実行できます。
