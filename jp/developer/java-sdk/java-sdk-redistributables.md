@@ -48,3 +48,4 @@
 | クライアント側 SDK | [Simple JavaScript Inheritance](https://johnresig.com/blog/simple-javascript-inheritance/) | [MIT](https://opensource.org/licenses/mit-license.html)  |
 | クライアント側 SDK | [Day.js](https://www.npmjs.com/package/dayjs) | [MIT](https://opensource.org/licenses/mit-license.html)  |
 | クライアント側 SDK | [Quill Rich Text Editor](https://quilljs.com/) | [BSD 3-Clause](https://opensource.org/licenses/BSD-3-Clause)  |
+| クライアント側 SDK | [snowflake connector .NET](https://github.com/snowflakedb/snowflake-connector-net) | [Apache 2.0](https://opensource.org/licenses/apache2.0.php)
