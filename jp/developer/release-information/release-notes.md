@@ -19,13 +19,13 @@
         <tr>
             <td rowspan="2">5 月 2021 年</td>
             <td rowspan="2">1.0.3 JAVA</td>
-            <td>New Snowflake connector!<br>
-            Reveal Java SDK now supports Snowflake data source connector, also including data blending between tables in the same Snowflake database.
+            <td>新しい Snowflake コネクタ!<br>
+            Reveal Java SDK は、Snowflake データ ソース コネクタをサポートするようになりました。これには、同じ Snowflake データベース内のテーブル間のデータ ブレンディングも含まれます。
             </td>     
         </tr>
         <tr>
-            <td>Reveal BI Engine for Java was enhanced<br>
-            Java platform is now as robust as other platforms, helping to avoid server crashes when a visualization sends a big amount of data back to the client. Several new properties in <b>InitializeParameterBuilder</b> control this: <i>maxInMemoryCells</i>, <i>maxStorageCells</i>, <i>maxStringCellSize</i>, and <i>maxTotalStringSize</i>.
+            <td>Java 用の Reveal BI エンジンが強化されました。<br>
+            Java プラットフォームは他のプラットフォームと同じくらい堅固になり、可視化が大量のデータをクライアントに送り返すときにサーバーがクラッシュするのを防ぐのに役立ちます。 <b>InitializeParameterBuilder</b> のいくつかの新しいプロパティがこれを制御します: <i>maxInMemoryCells</i>、<i>maxStorageCells</i>、<i>maxStringCellSize</i>、および <i>maxTotalStringSize</i>。
             </td>
         </tr>
         <tr>
