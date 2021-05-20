@@ -13,7 +13,7 @@ You can create **.rdash** dashboard files the following ways:
 - Export the dashboard as a .rdash file from one of the native Reveal applicatons
 - Save, or Export, a dashboard that was created in an application using the Reveal SDK.
 
-## Load from File Path
+## ファイル パスから読み込み
 It is very common to ship dashboard files with your application. These files are usually copied to the clients disk drive in a known directory so that the files can be loaded from disk during the execution of the application. In order to load these dashboards using a file path, you must know the file path to the **.rdash** file. 
 
 In this example, we have created a directory in our Visual Studio solution called **Dashboards** which will contain all the .rdash files for our application.
