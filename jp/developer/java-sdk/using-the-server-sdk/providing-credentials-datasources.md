@@ -4,7 +4,7 @@
 
 Server SDK では、データ ソースにアクセスするときに使用される一連の資格情報を渡すことができます。
 
-The first step is to implement __IRVAuthenticationProvider__ and then you need to set your custom class when initializing Reveal with the __RevealEngineInitializer.initialize__ method.
+最初の手順は __IRVAuthenticationProvider__ を実装することであり、次に __RevealEngineInitializer.initialize__ メソッドを使用して Reveal を初期化するときにカスタム クラスを設定する必要があります。
 詳細については、Java セットアップと構成での [Reveal の初期化](https://help.revealbi.io/jp/developer/java-sdk/setup-configuration.html#手順-3---reveal-を初期化します)を参照してください。
 実際の実装を確認するには、Spring サンプルの __RevealJerseyConfig__ クラス、または [GitHub](https://github.com/RevealBi/sdk-samples-java) の Tomcat に基づくサンプルの __WebAppListener__ を参照してください。
 
@@ -43,14 +43,13 @@ if (dataSource instanceof RVRedshiftDataSource) {
 
 ### 実装するクラスの選択
 
-There are three classes that can be used, all implementing the __IRVDataSourceCredential__
-interface. 以下に詳述するように、データ ソースに応じてクラスを選択する必要があります。
+使用できるクラスは 3 つあり、すべて __IRVDataSourceCredential__ インターフェイスを実装しています。以下に詳述するように、データ ソースに応じてクラスを選択する必要があります。
 
 | クラス | 例 |
 |:-|:-|
-| __RVBearerTokenDataSourceCredential__ <br> Associated to  OAuth authentication (usually sends the OAuth access token). | Google アナリティクス、Box、Dropbox、Google ドライブ、OneDrive、SharePoint オンライン、OData フィード、ウェブ リソース、REST API。|
-| __RVUsernamePasswordDataSourceCredential__ <br> Works with user/password style authentication (with an optional domain). | Microsoft Dynamics CRM オンプレミスおよびオンライン、Microsoft SQL Server、Microsoft Analysis Services Server、MySQL、PostgreSQL、Oracle、Sybase、OData フィード、ウェブ リソース、REST API。
-| __RVAmazonWebServicesCredentials__ <br> Works with AWS (Amazon Web Services). | Athena、S3。
+| __RVBearerTokenDataSourceCredential__ <br> Oauth 認証に関連付けられています (通常は Oauth アクセス トークンを送信します)。 | Google アナリティクス、Box、Dropbox、Google ドライブ、OneDrive、SharePoint オンライン、OData フィード、ウェブ リソース、REST API。|
+| __RVUsernamePasswordDataSourceCredential__ <br> ユーザー/パスワード スタイルの認証 (オプションのドメインを使用) で機能します。 | Microsoft Dynamics CRM オンプレミスおよびオンライン、Microsoft SQL Server、Microsoft Analysis Services Server、MySQL、PostgreSQL、Oracle、Sybase、OData フィード、ウェブ リソース、REST API。
+| __RVAmazonWebServicesCredentials__ <br> AWS (Amazon Web Services) と動作します。 | Athena、S3。
 
 ### 認証なし
 
