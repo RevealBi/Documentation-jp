@@ -6,7 +6,7 @@
 - 埋め込まれたリソースからダッシュボードを読み込み
 - json からダッシュボードを読み込み
 
-ダッシュボードを `RevealView` にロードするには、**.rdash** ファイル (.rdash は Reveal によって作成されたダッシュボードのファイル拡張子) を取得し、それを `RVDashboard` オブジェクトとして逆シリアル化し、`RevealView.Dashboard` プロパティを RVDashboard オブジェクト インスタンスに割り当てます。
+ダッシュボードを `RevealView` に読み込むには、**.rdash** ファイル (.rdash は Reveal によって作成されたダッシュボードのファイル拡張子) を取得し、それを `RVDashboard` オブジェクトとして逆シリアル化し、`RevealView.Dashboard` プロパティを RVDashboard オブジェクト インスタンスに割り当てます。
 
 **.rdash** ダッシュボード ファイルは次の方法で作成できます:
 - ダッシュボードを [Reveal BI Web サイト](https://app.revealbi.io/)から .rdash ファイルとしてエクスポートします。
@@ -16,7 +16,7 @@
 ## ファイル パスから読み込み
 ダッシュボード ファイルをアプリケーションと一緒に出荷することは非常に一般的です。これらのファイルは通常、アプリケーションの実行中にディスクからファイルを読み込みできるように、既知のディレクトリのクライアント ディスク ドライブにコピーされます。ファイル パスを使用してこれらのダッシュボードを読み込むには、**.rdash** ファイルへのファイル パスを知っておく必要があります。 
 
-この例では、**Dashboards** と呼ばれる Visual Studio ソリューションにディレクトリを作成しました。このディレクトリには、アプリケーションのすべての .rdash ファイルが含まれます。
+この例では、**[Dashboards]** と呼ばれる Visual Studio ソリューションにディレクトリを作成しました。このディレクトリには、アプリケーションのすべての .rdash ファイルが含まれます。
 
 ![](images/load-dashboards-dashboard-directory.jpg)
 
@@ -64,12 +64,12 @@ using (var stream = File.OpenRead(filePath))
 ```
 
 > [!NOTE]
-> The source code to this sample can be found on [GitHub](https://github.com/RevealBi/sdk-samples-wpf/tree/master/LoadingDashboards-FileStream).
+> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-wpf/tree/master/LoadingDashboards-FileStream) にあります。
 
 ## リソースから読み込み
 アプリケーションでファイルを配布するためのもう 1 つのオプションは、ファイルをリソースとしてアプリケーションに埋め込むことです。これにより、クライアントのディスク ドライブにファイルが配置されるのではなく、ファイルがアプリケーションのアセンブリに直接埋め込まれます。
 
-Reveal ダッシュボード **.rdash** ファイルをリソースとしてアプリケーションに埋め込むには、Visual Studio でダッシュボード ファイルのプロパティを開き、.rdash ファイルの **Build Action** を **EmbeddedResource** に設定します。
+Reveal ダッシュボード **.rdash** ファイルをリソースとしてアプリケーションに埋め込むには、Visual Studio でダッシュボード ファイルのプロパティを開き、.rdash ファイルの **[Build Action]** を **[EmbeddedResource]** に設定します。
 
 ![](images/load-dashboard-as-resource.jpg)
 
