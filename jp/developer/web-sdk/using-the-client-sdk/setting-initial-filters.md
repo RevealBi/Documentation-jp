@@ -28,17 +28,18 @@
 
     $.ig.RVDashboard.loadDashboard(dashboardId, function (dashboard) {
 
-      dashboard.filters.getByTitle("Territory").selectedValues = [getCurrentUser().territory]
+      dashboard.filters.getByTitle("Territory").selectedValues = [getCurrentUser().territory];     
+      dashboard.dateFilter = new $.ig.RVDateDashboardFilter($.ig.RVDateFilterType.YearToDate);
 
-        var revealView = new $.ig.RevealView("#revealView");
+      var revealView = new $.ig.RevealView("#revealView");
+      revealView.dashboard = dashboard;
 
-        revealView.dashboard = dashboard;
     }, function (error) {
         console.log(error);
     });
 </script>
 
-<div id="revealView" style="height:500px;" />
+<div id="revealView" style="height:500px;" ></div>
 ```
 
 > [!NOTE]
