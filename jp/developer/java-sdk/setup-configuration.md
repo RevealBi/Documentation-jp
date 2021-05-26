@@ -31,6 +31,7 @@ version_number を **0.9.6** のような番号に置き換えます。
 
 Maven ついてご不明な点がございましたら、次の[リンク (英語)](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html) を参照してください。
 
+For Oracle Databases you need to add an [extra repository and dependency](https://help.revealbi.io/jp/developer/java-sdk/setup-configuration.html#working-with-oracle-database).
 
 ### セットアップと構成 (汎用サーバー)
 
@@ -44,6 +45,7 @@ Reveal を既存のアプリケーションと統合するには、次の一般�
 Tomcat または Spring の構成については、以下のリンクを参照してください。
 - [Tomcat サーバー](setup-configuration-tomcat.md)
 - [Spring サーバー](setup-configuration-spring.md)
+- [Oracle Server](setup-configuration-oracle.md)
 
 #### 手順 1 – アプリケーションに依存関係を追加します。
 
@@ -187,4 +189,40 @@ JavaScript ファイルは "\<InstallationDirectory\>\\SDK\\Web\\JS\\Client" に
     <div id="revealView" style="height:500px;" />
   </body>
 </html>
+```
+
+### Working with Oracle Database
+
+As said above, Reveal Java SDK is distributed as a set of [Maven](https://maven.apache.org/what-is-maven.html) modules. To work with the SDK libraries, you need to add two references and dependencies in your Maven pom.xml file.
+
+Add the following repositories:
+
+```xml
+<repositories>
+  <repository>
+    <id>reveal.public</id>
+    <url>http://revealpackages.eastus.cloudapp.azure.com/repository/public</url>
+  </repository>	
+  <repository>
+    <id>jeecg</id>
+    <url>http://maven.jeecg.org/nexus/content/repositories/jeecg/</url> 
+  </repository>
+</repositories>
+```
+
+And the following dependencies:
+
+```xml
+<dependencies>
+  <dependency>
+    <groupId>com.infragistics.reveal.sdk</groupId>
+    <artifactId>reveal-sdk</artifactId>
+    <version>version_number</version>
+  </dependency>
+  <dependency>
+    <groupId>com.oracle</groupId>
+    <artifactId>ojdbc14</artifactId>
+    <version>10.2.0.5.0</version>
+  </dependency>
+</dependencies>
 ```
