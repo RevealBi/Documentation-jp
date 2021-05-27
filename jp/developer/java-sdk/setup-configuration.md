@@ -31,7 +31,7 @@ version_number を **0.9.6** のような番号に置き換えます。
 
 Maven ついてご不明な点がございましたら、次の[リンク (英語)](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html) を参照してください。
 
-For Oracle Databases you need to add an [extra repository and dependency](https://help.revealbi.io/jp/developer/java-sdk/setup-configuration.html#working-with-oracle-database).
+Oracle データベースの場合、[追加のリポジトリと依存関係](https://help.revealbi.io/jp/developer/java-sdk/setup-configuration.html#working-with-oracle-database)を追加する必要があります。
 
 ### セットアップと構成 (汎用サーバー)
 
@@ -191,11 +191,11 @@ JavaScript ファイルは "\<InstallationDirectory\>\\SDK\\Web\\JS\\Client" に
 </html>
 ```
 
-### Working with Oracle Database
+### Oracle データベースの操作
 
-As said above, Reveal Java SDK is distributed as a set of [Maven](https://maven.apache.org/what-is-maven.html) modules. To work with the SDK libraries, you need to add two references and dependencies in your Maven pom.xml file.
+上記のように、Reveal Java SDK は、[Maven](https://maven.apache.org/what-is-maven.html) モジュールのセットとして配布されます。SDK ライブラリを操作するには、Maven pom.xml ファイルに 2 つの参照と依存関係を追加する必要があります。
 
-Add the following repositories:
+以下のリポジトリを追加します:
 
 ```xml
 <repositories>
@@ -210,7 +210,7 @@ Add the following repositories:
 </repositories>
 ```
 
-And the following dependencies:
+そして、次の依存関係を追加します:
 
 ```xml
 <dependencies>
