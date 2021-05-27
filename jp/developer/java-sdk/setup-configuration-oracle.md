@@ -160,7 +160,7 @@ JavaScript ファイルは "\<InstallationDirectory\>\\SDK\\Web\\JS\\Client" に
 1.  “id” を指定して \<div /\> 要素を定義し、**\$.ig.RevealView** コンストラクターを呼び出します。
 
     > [!NOTE] 
-    > **サーバー側とクライアント側のパーツを個別にホストする**。
+    > **サーバー側とクライアント側のパーツを個別にホストする**
     > 別々のサーバーでクライアント側とサーバー側のパーツをホストする場合は、次の手順を続行する**前に**[こちら](~/jp/developer/web-sdk/overview.html#host-client-server-separate)を参照してください。
 
 2.  _dashboardId_ と成功およびエラー ハンドラーを指定して **\$.ig.RVDashboard.loadDashboard** を呼び出します。
