@@ -16,6 +16,33 @@
     <th class="tg-cly1"><span style="font-weight:bold">説明</span></th>
     </tr>
     <tr>
+        <td class="tg-0lax" rowspan="5">5 月 2021 年</td>
+        <td class="tg-0lax" rowspan="5"> 1.0.19 <br> [1.0.26 iOS]</td>
+        <td class="tg-cly1">SalesForce Bucket fields are now supported in Reveal!<br>
+        You can add SalesForce bucket fields in Reveal to work with multiple categories (known as buckets).
+        </td>
+    </tr>
+    <tr>
+        <td class="tg-cly1">Time Series axis labels further improved<br>
+            When the visualization is resized, chart axis labels will now intelligently space and adjust themselves based on available space.
+        </td>
+    </tr>
+    <tr>
+        <td class="tg-cly1">[Public Bug Fix] Image visualization rendering sometimes does not work <br>
+            When using an Image visualization, sometimes the image was not being rendered and it you had to refresh the dashboard.
+        </td>
+    </tr>
+    <tr>
+        <td class="tg-cly1">[Public Bug Fix] DateTime columns in Grid visualization had configuration issues<br>
+            Reveal now supports two new Date Formats: ddd-dd (Wed-21), ddd-mmm-yy (Wed-Sep-21).
+        </td>
+    </tr>
+    <tr>
+        <td class="tg-cly1">Date formats were further increased<br>
+            In Grid visualizations, columns with DateTime format couldn't be properly configured to show time format values.
+        </td>
+    </tr>
+    <tr>
         <td class="tg-0lax" rowspan="1">3 月 2021 年</td>
         <td class="tg-0lax" rowspan="1">1.0.18 <br> [1.0.25 iOS]</td>
         <td class="tg-cly1">時系列の機能強化<br>

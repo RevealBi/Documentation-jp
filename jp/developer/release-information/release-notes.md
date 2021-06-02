@@ -17,6 +17,38 @@
     </thead>
     <tbody>
         <tr>
+            <td rowspan="6">5 月 2021 年</td>
+            <td rowspan="6">1.0.1956 (1.0.4 JAVA)</td>
+            <td>[公開バグ修正] [SDK] Full list of Data Sources displayed by mistake</i><br>
+            When using DataSourcesRequested</i> callback in the Desktop SDK, the whole list of data sources was being displayed instead of the ones explicitly added.
+            </td>     
+        </tr>
+        <tr>
+            <td>[公開バグ修正] [SDK] Desktop SDK export to Excel not working as expected<br>
+            When reloading a dashboard and then exporting a single visualization to Excel, the first visualization of the dashboard was always the one exported.
+            </td>
+        </tr>
+        <tr>
+            <td>[公開バグ修正] [SDK] Dashboard with SQL data source using a dynamic port not loading<br>
+            When loading a dashboard with an SQL data source defined using a dynamic port (providing an instance in the host field), the data source connection was not working because of issues with the dynamic port configuration.
+            </td>
+        </tr>
+        <tr>
+            <td>[公開バグ修正] Calculated field set as Visualization filter were throwing an error<br>
+            When configuring a Visualization filter based on a calculated field that depends on another calculated field, an error was being shown ("Invalid column name").
+            </td>
+        </tr>
+        <tr>
+            <td>[公開バグ修正] Drill down scenario with different "sorty by" configurations not working as expected<br>
+            When the fields in a hierarchy were configured with a combination of "sort by: <any field>" and a descending sorting, the result was the dashboard not loading.
+            </td>
+        </tr>
+        <tr>
+            <td>Credentials from Web client to server-side in cross-domain applications<br>
+            When the backend is not in the same domain as the frontend and you need authentication cookies, you can request credentials using the following Web SDK setting: <b>$.ig.RevealSdkSettings.requestWithCredentialsFlag = true;</b>
+            </td>
+        </tr>
+        <tr>
             <td rowspan="2">5 月 2021 年</td>
             <td rowspan="2">1.0.3 JAVA</td>
             <td>新しい Snowflake コネクタ!<br>
@@ -32,7 +64,7 @@
             <td rowspan="2">4 月 2021 年</td>
             <td rowspan="2">1.0.0 JAVA</td>
             <td>新しい JAVA SDK のリリース<br>
-            Reveal は、.NET 以外の別の Web サーバー オプションとして JAVA をサポートするようになりました。JAVA SDK には JAVA 11+ が必要であり、Maven モジュールのセットとして配布されます。 詳細については、<a
+            Reveal は、.NET 以外の別の Web サーバー オプションとして JAVA をサポートするようになりました。JAVA SDK には JAVA 11+ が必要であり、Maven モジュールのセットとして配布されます。詳細については、<a
                 href="../java-sdk/setup-configuration.html">セットアップと構成</a>を参照してください。
             </td>     
         </tr>
