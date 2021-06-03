@@ -66,6 +66,8 @@ public class SampleDataSourceProvider : IRVDataSourceProvider
 
           return Task.FromResult((RVDataSourceItem)sqlServerDsi);
       }
+
+      return Task.FromResult((RVDataSourceItem)dataSourceItem);
    }
 }
 ```
