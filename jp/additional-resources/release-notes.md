@@ -18,28 +18,28 @@
     <tr>
         <td class="tg-0lax" rowspan="5">5 月 2021 年</td>
         <td class="tg-0lax" rowspan="5"> 1.0.19 <br> [1.0.26 iOS]</td>
-        <td class="tg-cly1">SalesForce Bucket fields are now supported in Reveal!<br>
-        You can add SalesForce bucket fields in Reveal to work with multiple categories (known as buckets).
+        <td class="tg-cly1">SalesForce バケット フィールドが Reveal でサポートされるようになりました!<br>
+        Reveal に SalesForce バケット フィールドを追加して、複数のカテゴリ (バケットと呼ばれます) を操作できます。
         </td>
     </tr>
     <tr>
-        <td class="tg-cly1">Time Series axis labels further improved<br>
-            When the visualization is resized, chart axis labels will now intelligently space and adjust themselves based on available space.
+        <td class="tg-cly1">時系列軸ラベルをさらに改善しました。<br>
+            表示形式のサイズが変更されると、チャート軸のラベルは、利用可能なスペースに基づいて間隔をあけて調整します。
         </td>
     </tr>
     <tr>
-        <td class="tg-cly1">[Public Bug Fix] Image visualization rendering sometimes does not work <br>
-            When using an Image visualization, sometimes the image was not being rendered and it you had to refresh the dashboard.
+        <td class="tg-cly1">[公開バグ修正] 画像の表示形式の描画が機能しない問題がありました。 <br>
+            画像の表示形式を使用すると、画像が描画されないことがあり、ダッシュボードを更新する必要がありました。
         </td>
     </tr>
     <tr>
-        <td class="tg-cly1">[Public Bug Fix] DateTime columns in Grid visualization had configuration issues<br>
-            Reveal now supports two new Date Formats: ddd-dd (Wed-21), ddd-mmm-yy (Wed-Sep-21).
+        <td class="tg-cly1">[公開バグ修正] グリッド可視化の DateTime 列に構成の問題がありました。<br>
+            Reveal は、ddd-dd (Wed-21)、ddd-mmm-yy (Wed-Sep-21) の 2 つの新しい日付形式をサポートするようになりました。
         </td>
     </tr>
     <tr>
-        <td class="tg-cly1">Date formats were further increased<br>
-            In Grid visualizations, columns with DateTime format couldn't be properly configured to show time format values.
+        <td class="tg-cly1">日付形式をさらに増加しました。<br>
+            グリッド可視化で、DateTime 形式の列は、時間形式の値を表示するように適切に構成できませんでした。
         </td>
     </tr>
     <tr>
