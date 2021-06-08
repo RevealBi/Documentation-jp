@@ -10,7 +10,10 @@ var revealView = new $.ig.RevealView("#revealView");
 <div id="revealView" style="height:500px;" />
 ```
 
-すべてのプロパティは、初期化時に __$.ig.RevealView__ によって読み取られ、その値に基づいて、ユーザーにさまざまな機能または UI 要素を表示または非表示にします。
+
+> [!NOTE]
+> Depending on your css layout approach you might need the element hosting the RevealView to be "positioned" by setting a position attribute that is not static (like relative or absolute).
+
 
 ### canEdit
 このプロパティは、ダッシュボードを編集するユーザー機能を無効にするために使用できます。

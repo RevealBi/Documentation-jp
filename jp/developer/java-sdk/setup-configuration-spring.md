@@ -8,11 +8,12 @@ Reveal Java SDK は、[Maven (英語)](https://maven.apache.org/what-is-maven.ht
 
 以下のリポジトリを追加します:
 
+
 ```xml
 <repositories>
   <repository>
     <id>reveal.public</id>
-    <url>http://revealpackages.eastus.cloudapp.azure.com/repository/public</url>
+    <url>https://maven.revealbi.io/repository/public</url>
   </repository>	
 </repositories>
 ```

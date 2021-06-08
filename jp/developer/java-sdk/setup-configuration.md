@@ -12,7 +12,7 @@ Reveal Java SDK は、[Maven (英語)](https://maven.apache.org/what-is-maven.ht
 <repositories>
   <repository>
     <id>reveal.public</id>
-    <url>http://revealpackages.eastus.cloudapp.azure.com/repository/public</url>
+    <url>https://maven.revealbi.io/repository/public</url>
   </repository>	
 </repositories>
 ```
@@ -31,7 +31,8 @@ version_number を **0.9.6** のような番号に置き換えます。
 
 Maven ついてご不明な点がございましたら、次の[リンク (英語)](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html) を参照してください。
 
-Oracle データベースの場合、[追加のリポジトリと依存関係](https://help.revealbi.io/jp/developer/java-sdk/setup-configuration.html#working-with-oracle-database)を追加する必要があります。
+> [!NOTE]
+> Oracle データベースを使用している場合は、アプリケーションにドライバーを追加する必要があります。
 
 ### セットアップと構成 (汎用サーバー)
 
