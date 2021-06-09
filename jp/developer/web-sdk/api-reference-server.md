@@ -1,5 +1,3 @@
-## サーバー API リファレンス
-
 <h2><a href="/api/aspnet/latest/Reveal.Sdk.html" target="_blank" rel="noopener\">Web サーバー .NET API リファレンス</a></h2>
 ここでは、Reveal SDK、特に Web サーバー .NET API に関する詳しい情報を見つけることができます。
 完全なリファレンスについては、<a href="/api/aspnet/latest/Reveal.Sdk.html" target="_blank" rel="noopener\">このリンク</a>をご覧くさだい。

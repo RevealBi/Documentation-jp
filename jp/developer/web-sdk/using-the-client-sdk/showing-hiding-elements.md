@@ -12,7 +12,7 @@ var revealView = new $.ig.RevealView("#revealView");
 
 
 > [!NOTE]
-> CSS レイアウト アプローチによっては、RevealView をホストする要素を静的ではない位置属性 (相対または絶対など) を設定して配置する必要がある場合があります。.
+> CSS レイアウト アプローチによっては、RevealView をホストする要素を静的ではない位置属性 (相対または絶対など) を設定して配置する必要がある場合があります。
 
 
 ### canEdit

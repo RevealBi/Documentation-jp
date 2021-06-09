@@ -1,5 +1,3 @@
-## クライアント API リファレンス
-
 <h2><a href="/api/javascript/latest/" target="_blank" rel="noopener\">Web クライント JS API リファレンス</a></h2>
 ここでは、Reveal SDK、特に Web クライント JavaScript API に関する詳しい情報を見つけることができます。
 完全なリファレンスについては、<a href="/api/javascript/latest/" target="_blank" rel="noopener\">このリンク</a>をご覧くさだい。
