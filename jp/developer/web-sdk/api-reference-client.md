@@ -1,12 +1,12 @@
 ## クライアント API リファレンス
 
-<h2><a href="/api/javascript/latest/" target="_blank" rel="noopener\">Web Client JS API Reference</a></h2>
-Here you will find technical information about Reveal SDK, specifically about the Web Client JavaScript API.
-For the complete reference, please follow the <a href="/api/javascript/latest/" target="_blank" rel="noopener\">link</a>.
+<h2><a href="/api/javascript/latest/" target="_blank" rel="noopener\">Web クライント JS API リファレンス</a></h2>
+ここでは、Reveal SDK、特に Web クライント JavaScript API に関する詳しい情報を見つけることができます。
+完全なリファレンスについては、<a href="/api/javascript/latest/" target="_blank" rel="noopener\">このリンク</a>をご覧くさだい。
 
-### Most commonly used classes and interfaces  
+### 最も一般的に使用されるクラスとインターフェース  
 
-**Main SDK concepts and features**  
+**SDK の主な概念と機能:**  
 <a href="/api/javascript/latest/classes/revealview.html" target="_blank" rel="noopener\">RevealView</a>   
 <a href="/api/javascript/latest/classes/rvdashboard.html" target="_blank" rel="noopener\">RVDashboard</a>  
 <a href="/api/javascript/latest/classes/revealsdksettings.html" target="_blank" rel="noopener\">RevealSdkSettings</a>  

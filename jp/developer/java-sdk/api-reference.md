@@ -1,10 +1,10 @@
-<h2><a href="/api/java/latest/index.html" target="_blank" rel="noopener\">JAVA API Reference </a></h2>  
-Here you will find technical information about Reveal SDK, specifically about the JAVA Server API. For the complete reference, please follow the <a href="/api/java/latest/index.html" target="_blank">link</a>.
+<h2><a href="/api/java/latest/index.html" target="_blank" rel="noopener\">JAVA API リファレンス </a></h2>  
+ここでは、Reveal SDK、特に JAVA サーバー API に関する詳しい情報を見つけることができます。完全なリファレンスについては、<a href="/api/java/latest/index.html" target="_blank">このリンク</a>をご覧くさだい。
 
 
-<h3>Most commonly used classes and interfaces</h3>
+<h3>最も一般的に使用されるクラスとインターフェース</h3>
 
-**Main SDK concepts and features:**  
+**SDK の主な概念と機能:**  
 <a href="/api/java/latest/com/infragistics/reveal/engine/init/RevealEngineInitializer.html" target="_blank" rel="noopener\">RevealEngineInitializer</a>  
 <a href="/api/java/latest/com/infragistics/reveal/engine/init/InitializeParameter.html" target="_blank" rel="noopener\">InitializeParameter</a>  
 <a href="/api/java/latest/com/infragistics/reveal/engine/init/InitializeParameterBuilder.html" target="_blank" rel="noopener\">InitializeParameterBuilder</a>

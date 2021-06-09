@@ -1,10 +1,10 @@
-<h2><a href="http://rvsdk-docs-dev.infragistics.local:8081/api/web-server/Reveal.Sdk.html" target="_blank" rel="noopener\">Web Server .NET API Reference</a></h2>
-Here you will find technical information about Reveal SDK, specifically about the Web Server .NET API.
-For a complete reference, please follow the <a href="http://rvsdk-docs-dev.infragistics.local:8081/api/web-server/Reveal.Sdk.html" target="_blank" rel="noopener\">link</a>.
+<h2><a href="http://rvsdk-docs-dev.infragistics.local:8081/api/web-server/Reveal.Sdk.html" target="_blank" rel="noopener\">Web サーバー .NET API リファレンス</a></h2>
+ここでは、Reveal SDK、特に Web サーバー .NET API に関する詳しい情報を見つけることができます。
+完全なリファレンスについては、<a href="http://rvsdk-docs-dev.infragistics.local:8081/api/web-server/Reveal.Sdk.html" target="_blank" rel="noopener\">このリンク</a>をご覧くさだい。
 
-<h3>Where to start - most commonly used classes and interfaces:</h3>
+<h3>作業の開始 - 最も一般的に使用されるクラスとインターフェース:</h3>
 
-**Main SDK concepts and features:**  
+**SDK の主な概念と機能:**  
 <a href="http://rvsdk-docs-dev.infragistics.local:8081/api/web-server/Reveal.Sdk.Dashboard.html" target="_blank" rel="noopener\">Dashboard class</a>  
 <a href="http://rvsdk-docs-dev.infragistics.local:8081/api/web-server/Reveal.Sdk.RevealEmbedSettings.html" target="_blank" rel="noopener\">RevealEmbedSettings</a>
 
