@@ -89,7 +89,3 @@ Google アナリティクスで定義された*目標*を*表示形式エディ�
   - 最後の目標**タイプ** - 例えば、*完了*、*放棄されたファネル*など。
 
 目標の詳細については、Google アナリティクスの[ヘルプ ページ (英語)](https://support.google.com/analytics/answer/1012040?hl=en) をご覧ください。
-
-### ダッシュボード フィルターの制限
-
-現在、Google Analytics データで[ダッシュボード フィルター](~/jp/filters/dashboard-filters.html)を作成することはできません。
