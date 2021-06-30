@@ -16,6 +16,18 @@
     <th class="tg-cly1"><span style="font-weight:bold">説明</span></th>
     </tr>
     <tr>
+        <td class="tg-0lax" rowspan="2">6 月 2021 年</td>
+        <td class="tg-0lax" rowspan="2"> 1.0.20 <br> [1.0.28 iOS]</td>
+        <td class="tg-cly1">[公開バグ修正] Calculated field filter not working with data process on server<br>
+        When enabling server-side aggregation of the data, calculated fields used as filters were not filtering data as expected.
+        </td>
+    </tr>
+    <tr>
+        <td class="tg-cly1">[公開バグ修正] Google Analytics issues with dashboard filters<br>
+        When getting data from Google Analytics data sources, you were unable to create dashboard filters.
+        </td>
+    </tr>
+    <tr>
         <td class="tg-0lax" rowspan="5">5 月 2021 年</td>
         <td class="tg-0lax" rowspan="5"> 1.0.19 <br> [1.0.26 iOS]</td>
         <td class="tg-cly1">SalesForce バケット フィールドが Reveal でサポートされるようになりました!<br>
