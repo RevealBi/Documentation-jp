@@ -19,69 +19,69 @@
        <tr>
             <td rowspan="5">6 月 2021 年</td>
             <td rowspan="5">1.0.2005</td>
-            <td>Scatter Maps now support OpenStreetMap!<br>
-            You can now configure and use OpenStreet Map image tiles in Desktop (WPF) and Web-client (JS).
+            <td>散布図が OpenStreetMap をサポートするようになりました!<br>
+            デスクトップ (WPF) および Web クライアント (JS) で OpenStreetMap 画像タイルを構成して使用できるようになりました。
             </td>     
         </tr>
         <tr>
-            <td>New Thumbnail component!<br>
-            You can now render a thumbnail of a dashboard with <i>RevealDashboardThumbnailView</i>.
+            <td>新しいサムネイル コンポーネント!<br>
+            <i>RevealDashboardThumbnailView<i> を使用してダッシュボードのサムネイルを描画できるようになりました。
             </td>
         </tr>
         <tr>
-            <td>Credentials from Web client to server-side data source<br>
-            A new type of credentials <i>RVHeadersDataSourceCredentials</i> allow you to send authentication headers and cookies to REST and Web Resource data sources. For further details, check the following <a href="https://github.com/RevealBi/sdk-samples-aspnetcore/tree/main/Cookies-Auth">sample</a> in GitHub.
+            <td>Web クライアントからサーバー側のデータ ソースへの資格情報<br>
+            新しいタイプの資格情報 <i>RVHeadersDataSourceCredentials<i> を使用すると、認証ヘッダーとクッキーを REST および Web リソースのデータ ソースに送信できます。詳細については、GitHub で次の<a href="https://github.com/RevealBi/sdk-samples-aspnetcore/tree/main/Cookies-Auth">サンプル</a>をご覧ください。
             </td>
         </tr>
         <tr>
-            <td>[公開バグ修正] Calculated field filter not working with data process on server<br>
-            When enabling server-side aggregation of the data, calculated fields used as filters were not filtering data as expected.
+            <td>[公開バグ修正] 計算フィールド フィルターがサーバー上のデータ プロセスで機能しない問題<br>
+            データのサーバー側集計を有効にすると、フィルターとして使用される計算フィールドが期待どおりにデータをフィルタリングしていなかった問題。
             </td>
         </tr>
         <tr>
-            <td>[公開バグ修正] Google Analytics issues with dashboard filters<br>
-            When getting data from Google Analytics data sources, you were unable to create dashboard filters.
+            <td>[公開バグ修正] ダッシュボード フィルターに関する Google アナリティクスの問題<br>
+            Google アナリティクス データ ソースからデータを取得するときに、ダッシュボード フィルターを作成できなかった問題。
             </td>
         </tr>
        <tr>
             <td rowspan="4">6 月 2021 年</td>
             <td rowspan="4">1.0.7 JAVA</td>
-            <td>Scatter Maps now support OpenStreetMap!<br>
-            You can now configure and use OpenStreet Map image tiles in the SDK Web-client (JS).
+            <td>散布図が OpenStreetMap をサポートするようになりました!<br>
+            SDK Web クライアント （JS） で OpenStreetMap 画像タイルを構成して使用できるようになりました。
             </td>     
         </tr>
         <tr>
-            <td>[公開 SDK バグ修正] Text Box content not visible after component is remounted<br>
-            When using React with a dashboard and a Text Box visualization, content was not visible after component remount. A page reload was required.
+            <td>[公開 SDK バグ修正] コンポーネントを再マウントした後、テキスト ボックスのコンテンツが表示されない問題<br>
+            ダッシュボードとテキスト ボックスの視覚化で React を使用すると、コンポーネントの再マウント後にコンテンツが表示されませんでした。ページの再読み込みが必要でした。
             </td>
         </tr>
         <tr>
-            <td>[公開バグ修正] Calculated field filter not working with data process on server<br>
-            When enabling server-side aggregation of the data, calculated fields used as filters were not filtering data as expected.
+            <td>[公開バグ修正] 計算フィールド フィルターがサーバー上のデータ プロセスで機能しない問題<br>
+            データのサーバー側集計を有効にすると、フィルターとして使用される計算フィールドが期待どおりにデータをフィルタリングしていなかった問題。
             </td>
         </tr>
         <tr>
-            <td>[公開バグ修正] Google Analytics issues with dashboard filters<br>
-            When getting data from Google Analytics data sources, you were unable to create dashboard filters.
+            <td>[公開バグ修正] ダッシュボード フィルターに関する Google アナリティクスの問題<br>
+            Google アナリティクス データ ソースからデータを取得するときに、ダッシュボード フィルターを作成できなかった問題。
             </td>
         </tr>
         <tr>
             <td rowspan="2">6 月 2021 年</td>
             <td rowspan="2">1.0.6 JAVA</td>
-            <td>[バグ修正] [SDK] Grizzly server throws an exception<br>
-            When running Reveal in Grizzly, a <i>NoClassDefFoundError</i> exception was being thrown because of a wrong dependency in <i>javax.servlet.ServletContext</i> class (javax.servlet:javaz.servlet-api assembly).
+            <td>[バグ修正] [SDK] Grizzly サーバーが例外をスローする問題<br>
+            Grizzly で Reveal を実行すると、<i>javax.servlet.ServletContext</i> クラス (javax.servlet:javaz.servlet-api アセンブリ) の依存関係が間違っているため、<i>NoClassDefFoundError</i> 例外がスローされていました。
             </td>     
         </tr>
         <tr>
-            <td>New sample for JAVA SDK released!<br>
-            There is a new <a href="https://github.com/RevealBi/sdk-samples-java/blob/main/upmedia-backend-grizzly">GitHub sample</a> showing how to use Reveal with <a href="https://javaee.github.io/grizzly/">Grizzly</a> server.
+            <td>JAVA SDK の新しいサンプルがリリースされました!<br>
+            <a href="https://javaee.github.io/grizzly/">Grizzly</a> サーバーで Reveal を使用する方法を示す新しい <a href="https://github.com/RevealBi/sdk-samples-java/blob/main/upmedia-backend-grizzly">GitHub サンプル</a>があります。
             </td>
         </tr>
         <tr>
             <td rowspan="1">6 月 2021 年</td>
             <td rowspan="1">1.0.5 JAVA</td>
-            <td>Credentials from Web client to server-side data source<br>
-            A new type of credentials <i>RVHeadersDataSourceCredentials</i> allow you to send authentication headers and cookies to REST and Web Resource data sources. For further details, check the following <a href="https://github.com/RevealBi/sdk-samples-java/blob/main/cookies-auth">sample</a> in GitHub.
+            <td>Web クライアントからサーバー側のデータ ソースへの資格情報<br>
+            新しいタイプの資格情報 <i>RVHeadersDataSourceCredentials</i> を使用すると、認証ヘッダーとクッキーを REST および Web リソースのデータ ソースに送信できます。詳細については、GitHub で次の<a href="https://github.com/RevealBi/sdk-samples-java/blob/main/cookies-auth">サンプル</a>をご覧ください。
             </td>     
         </tr>
         <tr>

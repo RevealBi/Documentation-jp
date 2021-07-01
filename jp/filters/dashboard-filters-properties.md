@@ -45,9 +45,9 @@
 ### 表示フィールド
 
 >[!NOTE] 
->For dashboard filters using data from *Microsoft Analysis Services* and *Google Analytics*, this setting is named **_Displayed Element_**.
+>**Microsoft Analysis Services** および **Google アナリティクス**のデータを使用するダッシュボード フィルターの場合、この設定の名前は **[表示する要素]** です。
 
-The _Displayed Field/Element_ setting specifies the dataset field that will be used to displaythe values in the *Dashboard Filters*. リスト値は、元のデータセットで複数回表示された場合も繰り返されません。
+**表示するフィールド/要素**設定は、ダッシュボード フィルターの値を表示するために使用されるデータセット フィールドを指定します。リスト値は、元のデータセットで複数回表示された場合も繰り返されません。
 
 ダッシュボード フィルター名の隣りのオーバーフロー メニューで [編集] ボタンをクリックして、編集モードで表示列を変更できます。
 

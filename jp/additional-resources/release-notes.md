@@ -18,13 +18,13 @@
     <tr>
         <td class="tg-0lax" rowspan="2">6 月 2021 年</td>
         <td class="tg-0lax" rowspan="2"> 1.0.20 <br> [1.0.28 iOS]</td>
-        <td class="tg-cly1">[公開バグ修正] Calculated field filter not working with data process on server<br>
-        When enabling server-side aggregation of the data, calculated fields used as filters were not filtering data as expected.
+        <td class="tg-cly1">[公開バグ修正] 計算フィールド フィルターがサーバー上のデータ プロセスで機能しない問題<br>
+        データのサーバー側集計を有効にすると、フィルターとして使用される計算フィールドが期待どおりにデータをフィルタリングしていなかった問題。
         </td>
     </tr>
     <tr>
-        <td class="tg-cly1">[公開バグ修正] Google Analytics issues with dashboard filters<br>
-        When getting data from Google Analytics data sources, you were unable to create dashboard filters.
+        <td class="tg-cly1">[公開バグ修正] ダッシュボード フィルターに関する Google アナリティクスの問題<br>
+        Google アナリティクス データ ソースからデータを取得するときに、ダッシュボード フィルターを作成できなかった問題。
         </td>
     </tr>
     <tr>
