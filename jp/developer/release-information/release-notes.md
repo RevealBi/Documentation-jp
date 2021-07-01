@@ -17,11 +17,11 @@
     </thead>
     <tbody>
        <tr>
-            <td rowspan="5">6 月 2021 年</td>
-            <td rowspan="5">1.0.2005</td>
+            <td rowspan="6">6 月 2021 年</td>
+            <td rowspan="6">1.0.2005</td>
             <td>散布図が OpenStreetMap をサポートするようになりました!<br>
             デスクトップ (WPF) および Web クライアント (JS) で OpenStreetMap 画像タイルを構成して使用できるようになりました。
-            </td>     
+            </td>
         </tr>
         <tr>
             <td>新しいサムネイル コンポーネント!<br>
@@ -31,6 +31,11 @@
         <tr>
             <td>Web クライアントからサーバー側のデータ ソースへの資格情報<br>
             新しいタイプの資格情報 <i>RVHeadersDataSourceCredentials<i> を使用すると、認証ヘッダーとクッキーを REST および Web リソースのデータ ソースに送信できます。詳細については、GitHub で次の<a href="https://github.com/RevealBi/sdk-samples-aspnetcore/tree/main/Cookies-Auth">サンプル</a>をご覧ください。
+            </td>
+        </tr>
+        <tr>
+            <td>SDK AspNetCore services injection<br>
+            You can now register the <i>RevealSdkContext</i> and <i>RevealUserContext</i> implementations as a type only (not passing an instance), allowing these classes to get any other AspNetCore services injected through the constructor. For further details check the following <a href="https://github.com/RevealBi/sdk-samples-aspnetcore/tree/main/Reveal.Sdk.Samples.Web.UpMedia.Backend">sample</a> in GitHub.
             </td>
         </tr>
         <tr>
@@ -47,8 +52,8 @@
             <td rowspan="4">6 月 2021 年</td>
             <td rowspan="4">1.0.7 JAVA</td>
             <td>散布図が OpenStreetMap をサポートするようになりました!<br>
-            SDK Web クライアント （JS） で OpenStreetMap 画像タイルを構成して使用できるようになりました。
-            </td>     
+            SDK Web クライアント (JS) で OpenStreetMap 画像タイルを構成して使用できるようになりました。
+            </td>
         </tr>
         <tr>
             <td>[公開 SDK バグ修正] コンポーネントを再マウントした後、テキスト ボックスのコンテンツが表示されない問題<br>
@@ -70,7 +75,7 @@
             <td rowspan="2">1.0.6 JAVA</td>
             <td>[バグ修正] [SDK] Grizzly サーバーが例外をスローする問題<br>
             Grizzly で Reveal を実行すると、<i>javax.servlet.ServletContext</i> クラス (javax.servlet:javaz.servlet-api アセンブリ) の依存関係が間違っているため、<i>NoClassDefFoundError</i> 例外がスローされていました。
-            </td>     
+            </td>
         </tr>
         <tr>
             <td>JAVA SDK の新しいサンプルがリリースされました!<br>
@@ -82,14 +87,14 @@
             <td rowspan="1">1.0.5 JAVA</td>
             <td>Web クライアントからサーバー側のデータ ソースへの資格情報<br>
             新しいタイプの資格情報 <i>RVHeadersDataSourceCredentials</i> を使用すると、認証ヘッダーとクッキーを REST および Web リソースのデータ ソースに送信できます。詳細については、GitHub で次の<a href="https://github.com/RevealBi/sdk-samples-java/blob/main/cookies-auth">サンプル</a>をご覧ください。
-            </td>     
+            </td>
         </tr>
         <tr>
             <td rowspan="6">5 月 2021 年</td>
             <td rowspan="6">1.0.1956 (1.0.4 JAVA)</td>
             <td>[公開バグ修正] [SDK] 誤って表示されたデータ ソースの完全なリストの問題<br>
             Desktop SDK で DataSourcesRequested コールバックを使用すると、明示的に追加されたデータ ソースの代わりに、データ ソースのリスト全体が表示されていました。
-            </td>     
+            </td>
         </tr>
         <tr>
             <td>[公開バグ修正] [SDK] デスクトップ SDK の Excel へのエクスポートが期待どおりに機能しない問題<br>
@@ -121,7 +126,7 @@
             <td rowspan="2">1.0.3 JAVA</td>
             <td>新しい Snowflake コネクタ!<br>
             Reveal Java SDK は、Snowflake データ ソース コネクタをサポートするようになりました。これには、同じ Snowflake データベース内のテーブル間のデータ ブレンディングも含まれます。
-            </td>     
+            </td>
         </tr>
         <tr>
             <td>Java 用の Reveal BI エンジンが強化されました。<br>
@@ -134,7 +139,7 @@
             <td>新しい JAVA SDK のリリース<br>
             Reveal は、.NET 以外の別の Web サーバー オプションとして JAVA をサポートするようになりました。JAVA SDK には JAVA 11+ が必要であり、Maven モジュールのセットとして配布されます。詳細については、<a
                 href="../java-sdk/setup-configuration.html">セットアップと構成</a>を参照してください。
-            </td>     
+            </td>
         </tr>
         <tr>
             <td>JAVA SDK サンプルのリリース<br>
@@ -149,7 +154,7 @@
             <i>showEditDataSource</i> - データ ソース オーバーフロー メニューで通常使用できる [編集] ボタンを無効にするために使用できます。<br>
             <i>canAddDashboardFilter</i> - このプロパティは、[フィルターの追加] メニューの [ダッシュボード フィルターの追加] オプションを非表示にすることができます。これらのオプションは、ダッシュボード編集モードで使用できます。<br>
             <i>canAddDateFilter</i> - このプロパティは、[フィルターの追加] メニューの [日付フィルターの追加] オプションを非表示にすることができます。これらのオプションは、ダッシュボード編集モードで使用できます。
-            </td>     
+            </td>
         </tr>
         <tr>
             <td>[公開バグ修正] [SDK] revealView.canSaveAs プロパティが正しく動作しない問題。<br>
