@@ -34,8 +34,8 @@
             </td>
         </tr>
         <tr>
-            <td>SDK AspNetCore services injection<br>
-            You can now register the <i>RevealSdkContext</i> and <i>RevealUserContext</i> implementations as a type only (not passing an instance), allowing these classes to get any other AspNetCore services injected through the constructor. For further details check the following <a href="https://github.com/RevealBi/sdk-samples-aspnetcore/tree/main/Reveal.Sdk.Samples.Web.UpMedia.Backend">sample</a> in GitHub.
+            <td>SDK AspNetCore サービス挿入<br>
+            <i>RevealSdkContext<i> および <i>RevealUserContext<i> の実装をタイプのみ (インスタンスを渡さない) として登録できるようになり、これらのクラスがコンストラクターを介して挿入された他の AspNetCore サービスを取得できるようになりました。詳細については、GitHub で次の<a href="https://github.com/RevealBi/sdk-samples-aspnetcore/tree/main/Reveal.Sdk.Samples.Web.UpMedia.Backend">サンプル</a>をご覧ください。
             </td>
         </tr>
         <tr>
