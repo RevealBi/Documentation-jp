@@ -73,7 +73,7 @@ time, future new users will be added as members, not owners.
 The following table shows the different permissions of members in the
 Org workspace:
 
-| 権限                                                      | 管理者                                   | メンバー                                  | 閲覧者                                  |
+| アクセス許可                                                      | 管理者                                   | メンバー                                  | 閲覧者                                  |
 | --------------------------------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
 | Can view **dashboards**                                         | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> |
 | Can create, edit, delete **dashboards** in the Org workspace                 | <span style="color: #007F00">O</span> | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  |
@@ -93,7 +93,7 @@ distribute levels of permissions there. The owner invites new members and assign
 The table below shows the user permissions inside workspaces different from
 the Organization workspace.
 
-| 権限                                                      | 管理者                                   | メンバー                                  | 閲覧者                                  |
+| アクセス許可                                                      | 管理者                                   | メンバー                                  | 閲覧者                                  |
 | --------------------------------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
 | Can view **dashboards**                                         | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> |
 | Can create, edit, delete **dashboards** in the workspace                           | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> | <span style="color: #FF0000">X</span>  |
