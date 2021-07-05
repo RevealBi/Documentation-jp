@@ -12,8 +12,8 @@
 
 データ ソースに接続するには、以下の手順を実行します。
 
-1. Go to _My Stuff_ or a workspace where you want to a create a dashboard. 
-2. Click/tap the **+ Dashboard** blue button.
+1. [アイテム] またはダッシュボードを作成するワークスペースに移動します。 
+2. **[+ ダッシュボード]** の青いボタンをクリック/タップします。
    <img src="images/start-creating-dashboard-data-source.png" alt="Reveal's home screen" width="80%"/>
    
 3. **新しい表示形式**ダイアログに、最近使用したデータ ソースのリストが表示されます。新しい接続を作成するには、右側の **[+ データ ソース]** ボタンを選択します。
