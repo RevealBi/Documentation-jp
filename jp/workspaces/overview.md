@@ -53,11 +53,11 @@ have.
 
 There are three types of workspace members in Reveal:
 
-  - **Owners**
+  - **管理者**
 
-  - **Members**
+  - **メンバー**
 
-  - **Viewers**
+  - **閲覧者**
 
 The process of assigning these roles in the Organization workspace differ
 from other workspaces. Below, you will find this process explained as well as
@@ -73,17 +73,17 @@ time, future new users will be added as members, not owners.
 The following table shows the different permissions of members in the
 Org workspace:
 
-| PERMISSION                                                      | Owner                                   | Member                                  | Viewer                                  |
+| 権限                                                      | 管理者                                   | メンバー                                  | 閲覧者                                  |
 | --------------------------------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| Can view **dashboards**                                         | <span style="color: #007F00">Yes</span> | <span style="color: #007F00">Yes</span> | <span style="color: #007F00">Yes</span> |
-| Can create, edit, delete **dashboards** in the Org workspace                 | <span style="color: #007F00">Yes</span> | <span style="color: #FF0000">No</span>  | <span style="color: #FF0000">No</span>  |
-| Can share **dashboards** outside the Org with edit permissions  | <span style="color: #007F00">Yes</span> | <span style="color: #FF0000">No</span>  | <span style="color: #FF0000">No</span>  |
-| Can share **dashboards** outside the Org with view permissions  | <span style="color: #007F00">Yes</span> | <span style="color: #007F00">Yes</span> | <span style="color: #007F00">Yes</span> |
-| Can manage **members** in the Organization workspace           | <span style="color: #007F00">Yes</span> | <span style="color: #FF0000">No</span>  | <span style="color: #FF0000">No</span>  |
-| Can **invite** users to the Org                               | <span style="color: #007F00">Yes</span> | <span style="color: #FF0000">No</span>  | <span style="color: #FF0000">No</span>  |
-| Can discover and join **public workspaces**                           | <span style="color: #007F00">Yes</span> | <span style="color: #007F00">Yes</span> | <span style="color: #007F00">Yes</span> |
-| Can discover **private workspaces**                                      | <span style="color: #FF0000">No</span>  | <span style="color: #FF0000">No</span>  | <span style="color: #FF0000">No</span>  |
-| Can create their own workspace in the Organization | <span style="color: #007F00">Yes</span> | <span style="color: #007F00">Yes</span> | <span style="color: #FF0000">No</span>  |
+| Can view **dashboards**                                         | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> |
+| Can create, edit, delete **dashboards** in the Org workspace                 | <span style="color: #007F00">O</span> | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  |
+| Can share **dashboards** outside the Org with edit permissions  | <span style="color: #007F00">O</span> | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  |
+| Can share **dashboards** outside the Org with view permissions  | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> |
+| Can manage **members** in the Organization workspace           | <span style="color: #007F00">O</span> | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  |
+| Can **invite** users to the Org                               | <span style="color: #007F00">O</span> | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  |
+| Can discover and join **public workspaces**                           | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> |
+| Can discover **private workspaces**                                      | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  |
+| Can create their own workspace in the Organization | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> | <span style="color: #FF0000">X</span>  |
 
 #### Workspaces - Assigning Members' Roles and Permissions
 
@@ -93,15 +93,15 @@ distribute levels of permissions there. The owner invites new members and assign
 The table below shows the user permissions inside workspaces different from
 the Organization workspace.
 
-| PERMISSION                                                      | Owner                                   | Member                                  | Viewer                                  |
+| 権限                                                      | 管理者                                   | メンバー                                  | 閲覧者                                  |
 | --------------------------------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| Can view **dashboards**                                         | <span style="color: #007F00">Yes</span> | <span style="color: #007F00">Yes</span> | <span style="color: #007F00">Yes</span> |
-| Can create, edit, delete **dashboards** in the workspace                           | <span style="color: #007F00">Yes</span> | <span style="color: #007F00">Yes</span> | <span style="color: #FF0000">No</span>  |
-| Can share **dashboards** outside the workspace with edit permissions | <span style="color: #007F00">Yes</span> | <span style="color: #007F00">Yes</span> | <span style="color: #FF0000">No</span>  |
-| Can share **dashboards** outside the workspace with view permissions | <span style="color: #007F00">Yes</span> | <span style="color: #007F00">Yes</span> | <span style="color: #007F00">Yes</span> |
-| Can manage workspace **members**                                     | <span style="color: #007F00">Yes</span> | <span style="color: #FF0000">No</span>  | <span style="color: #FF0000">No</span>  |
-| Can **invite** users                             | <span style="color: #007F00">Yes</span> | <span style="color: #FF0000">No</span>  | <span style="color: #FF0000">No</span>  |
-| Can join **public workspaces** as a member                           | <span style="color: #007F00">Yes</span> | <span style="color: #007F00">Yes</span> | <span style="color: #007F00">Yes</span> |
-| Can discover **private workspaces**                                      | <span style="color: #FF0000">No</span>  | <span style="color: #FF0000">No</span>  | <span style="color: #FF0000">No</span>  |
+| Can view **dashboards**                                         | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> |
+| Can create, edit, delete **dashboards** in the workspace                           | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> | <span style="color: #FF0000">X</span>  |
+| Can share **dashboards** outside the workspace with edit permissions | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> | <span style="color: #FF0000">X</span>  |
+| Can share **dashboards** outside the workspace with view permissions | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> |
+| Can manage workspace **members**                                     | <span style="color: #007F00">O</span> | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  |
+| Can **invite** users                             | <span style="color: #007F00">O</span> | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  |
+| Can join **public workspaces** as a member                           | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> |
+| Can discover **private workspaces**                                      | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  |
 
 If you want to know more about managing workspaces' and Organization's properties and members, please read the [Managing Workspaces](managing-your-workspace.md) topic.
