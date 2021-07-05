@@ -12,6 +12,6 @@
 | ------------------- | ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 | ダッシュボード セレクター  | <img src="images/creating-dashboard-light-theme.png" alt="Creating a Dashboard in Light Theme" width="80%"/>           | <img src="images/creating-dashboard-dark-theme.png" alt="Creating a Dashboard in Dark Theme" width="80%"/>           |
 | データ ソース クリエーター | <img src="images/create-new-data-source-light-theme.png" alt="Creating a New Data Source in Light Theme" width="80%"/> | <img src="images/create-new-data-source-dark-theme.png" alt="Creating a New Data Source in Dark Theme" width="80%"/> |
-| チーム クリエーター       | <img src="images/team-creation-light-theme.png" alt="Team Creation in Light Theme" width="80%"/>                       | <img src="images/team-creation-dark-theme.png" alt="Team Creation in Dark Theme" width="80%"/>                       |
+| ワークスペース クリエーター       | <img src="images/workspace-creation-light-theme.png" alt="Workspace Creation in Light Theme" width="80%"/>                       | <img src="images/workspace-creation-dark-theme.png" alt="Workspace Creation in Dark Theme" width="80%"/>                       |
 
 *Match OS* 機能をオンにすると、Reveal のテーマは、オペレーティング システムのテーマが変更されるたびに自動的に変更されます。
