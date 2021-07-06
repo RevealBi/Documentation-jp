@@ -1,90 +1,75 @@
-## Creating and Joining Workspaces
+## ワークスペースの作成と参加
 
-The *workspaces* in Reveal enable easy collaboration within and out of your
-organization. Now you can access and join freely all your organization's
-workspaces and also make your own workspace available for others in the
-Organization to join and work with you.
+Reveal の**ワークスペース**は、組織内外とのコラボレーションを容易にします。組織内すべてのワークスペースへのアクセスや参加が可能で、あなたのワークスペースを作成して、組織内のユーザーが他のワークスペースと共同作業を行うことができます。
 
-Start using Workspaces by [creating a workspace from scratch](#create-workspace-scratch) or [joining an existing workspace](#join-workspace).
+[ワークスペースを新規に作成](#create-workspace-scratch)または[既存のワークスペースに参加し](#join-workspace)、ワークスペースの使用を開始します。
 
 <a name='create-workspace-scratch'></a>
-### Creating a Workspace from Scratch
+### ワークスペースを新規に作成
 
-1.  Click/tap *New Workspace* at the bottom left corner of the screen.
+1.  画面の左下角にある [新しいワークスペース] をクリック/タップします。
 
     <img src="images/new-workspace-button.png" alt="new workspace button in the popover menu" width="100%"/>
 
     >[!NOTE]
-    > When signing in for the first time, you might already have a workspace. This is your [Organization workspace](overview.html#organization-workspace) including other members of your organization, who have logged in Reveal with their Office365 account at least once.
+    > 初めてサインインする際に、すでにワークスペースに参加されている場合があります。つまり、Office365 アカウントで Reveal にログインしたことのある、組織の他のメンバーを含む[組織ワークスペース](overview.html#organization-workspace)です。
 
 
-
-2.  Click/Tap the *+ Create Workspace* blue button. The following screen opens:
+2.  青い **[+ ワークスペースの作成]** ボタンをクリック/タップします。以下の画面が表示されます。
 
     <img src="images/create-workspace-properties.png" alt="workspace properties dialog" width="100%"/>
 
-    Here you will need to:
+    以下の手順を実行します。
 
-      - assign a *name* to your workspace;
+      - ワークスペースに**名前**を割り当てます。
 
-      - choose if your workspace will belong to the main *Organization*.
+      - ワークスペースがメイン**組織**に属するかどうかを選択します。
 
-          - [Organization workspace](overview.html#organization-workspace) (this
-            option will appear with the name of your organization, e.g.
-            *Infragistics, Inc*) - if you associate your workspace with the
-            main Organization, your workspace will appear in the list of
-            workspaces that every member of the main Organization can
-            [join](#join-workspace) (unless you make it private).
+          - [組織ワークスペース](overview.html#organization-workspace) (このオプションは、*Infragistics、Inc* などの組織名で表示されます)。ワークスペースをメイン組織ワークスペースに関連付けると、ワークスペースがメイン組織のすべてのメンバーが[参加できる](#join-workspace)ワークスペースのリストに表示されます (非公開にしない場合)。
 
-          - *Personal organization* - your new workspace does not belong to
-            the main Organization and cannot be joined by other users
-            without invitation.
+          - **個人組織** - 新しいワークスペースはメイン組織に属しておらず、招待なしに他のユーザーが参加できません。
 
             >[!NOTE]
-            >Carefully choose the *Organization* property for your workspace as you cannot change it later.
+            >後で変更することはできないため、慎重にワークスペースの*組織*プロパティを選択してください。
       
-      - decide on workspace's [*privacy*](overview.html#workspace-privacy-levels) - this option will not be available if you choose _Personal Organization_ for your workspace. Choose *public* if you want your workspace to be discovered and joined without invitation.
+      - ワークスペースの[*プライバシー*](overview.html#workspace-privacy-levels)を決定する - このオプションは、ワークスペースに組織を選択した場合は使用できません。ワークスペースを招待なしで検出して参加させる場合は、**[公開]** を選択します。
 
-      - configure _branding_ settings - choose a main color and logo to be used when the workspaces' dashboards are exported as [PDF documents](~/en/dashboards/exporting-dashboards/export-as-pdf-document.md) and [PPT presentations](~/en/dashboards/exporting-dashboards/export-as-powerpoint-presentation).
+      - ブランディング設定 - ワークスペースのダッシュボードを [PDF 文書](~/jp/dashboards/exporting-dashboards/export-as-pdf-document.md)および [PPT プレゼンテーション](~/jp/dashboards/exporting-dashboards/export-as-powerpoint-presentation)としてエクスポートするときに使用するメイン色とロゴを選択します。
       
-        >[!NOTE] **Requirements for logo images**. The image you upload for a logo must be no bigger than **5 MB** and one of the following formats: jpg, jpeg, png, gif.
+        >[!NOTE] **ロゴ画像の要件**。ロゴとしてアップロードする画像は、**5 MB** 以下で、jpg、jpeg、png、gif のいずれかの形式である必要があります。
 
-      - choose *Status*, *Start Date*, *Due Date* - these settings are *optional* but very handy when you are working on a project  
+      - **状態**、**開始日**、**終了日**を選択します - これらの設定は**オプション**ですが、プロジェクトで作業しているときに非常に便利です。  
   
 
-3.  Click/tap *Create*. Your workspace is now created and you can find it in the workspaces' list on the left side of the screen.
+3.  **[作成]** をクリック/タップします。これでワークスペースが作成され、画面の左側にあるワークスペースのリストに表示されます。
 
-### Inviting Users to the Workspace
+### ワークスペースへのユーザーの招待
 
-After you create your workspace, you will be prompted to invite other users. 
+ワークスペースを作成すると、他のユーザーを招待するように求められます。 
 
-1. Click/tap the *+ Members* blue button. You can choose users from the dropdown list (see below). You can also use the search to add the emails of users who are outside of your Organization. Select _Done_ when you are ready.
+1. **[+ メンバー]** の青いボタンをクリック/タップします。ドロップダウン リストからユーザーを選択できます (以下を参照)。検索を使用して、組織外のユーザーの電子メールを追加することもできます。準備ができたら、[完了] を選択します。
 
     <img src="images/workspace-invite-members.png" alt="invite members dialog" width="100%" />
 
-2. *Member* is the default role when you invite users unless you assign them a different role. You can choose between *Owner*, *Member* and *Viewer* in the dropdown next to each user name. Learn more about workspace roles in [Workspace Collaboration and Privacy](overview.html#members-roles-permissions)
+2. 別のロールを割り当てない場合、招待するユーザーのデフォルトのロールは*メンバー*です。各ユーザー名の横にあるドロップダウンで、[管理者]、[メンバー]、[閲覧者] から選択できます。ワークスペース ロールの詳細については[「ワークスペースのコラボレーションとプライバシー」](overview.html#members-roles-permissions)トピックを参照してください。
 
-5. After deciding on the roles, click _Update_ to send the invites. The users will receive them by email and will also be notified inside Reveal.
+5. 役割を決定すると、[更新] をクリックして招待を送信します。ユーザーはそれらを電子メールで受け取り、Reveal 内でも通知されます。
 
 <a name='join-workspace'></a>
-### Joining an Existing Workspace
+### 既存のワークスペースに参加
 
-If your account has been automatically added to an [Organization workspace](overview.html#organization-workspace), you can **discover
-and join other workspaces that belong to your organization**.
-To join an existing workspace, follow the steps below.
+アカウントが[組織ワークスペース](overview.html#organization-workspace)に自動的に追加された場合、**組織に属する他のワークスペースを検出して参加できます**。
+
+以下の手順で既存のワークスペースに参加できます。
 
 
-1.  Click/tap the *New Workspace* blue button located in the bottom left of the screen.
+1.  画面の左下にある **[新しいワークスペース]** の青いボタンをクリック/タップします。
 
-2.  The *Join or Create a Workspace* dialog shows up:
+2.  **[ワークスペースの参加または作成]** ダイアログが表示されます。
 
     <img src="images/join-or-create.png" alt="join or create a workspace dialog" width="80%"/>
 
-    Here you will find all the
-    [public](overview.html#workspace-privacy-levels) workspaces that
-    belong to your organization.
+    ここには、組織に属するすべての[公開](overview.html#workspace-privacy-levels)ワークスペースがあります。
 
-4.  After clicking/tapping the *Join* button, you will automatically be
-    added as a new member with Member's
-    [permissions](overview.html#members-roles-permissions)
-    to the workspace you have chosen. The workspace will appear in your workspaces' list.
+
+4.  **[参加]** ボタンをクリック/タップすると、メンバーの[権限](overview.html#members-roles-permissions)を持つ新しいメンバーとして選択したワークスペースに自動的に追加されます。ワークスペースがワークスペース リストに表示されます。

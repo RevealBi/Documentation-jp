@@ -1,80 +1,76 @@
-## Managing Workspaces
+## ワークスペースの管理
 
-As an [Owner](overview.html#members-roles-permissions) of
-a workspace you can:
+ワークスペースの[管理者](overview.html#members-roles-permissions)として、次のことができます:
 
-  - manage workspace members;
+  - ワークスペース メンバーを管理する;
 
-  - manage workspace properties;
+  - ワークスペース プロパティを管理する;
 
-  - [delete](#delete-workspace) the workspace;
+  - ワークスペースを[削除する](#delete-workspace);
 
-As a special type of workspace, the [Organization](overview.html#organization-workspace) management
-corresponds to the general rules of workspace management in Reveal. In the
-cases when there are differences in the Organization workspace management,
-they will be explicitly mentioned in this topic.
+特殊なタイプのワークスペースとして、[組織](overview.html#organization-workspace)管理は、Reveal のワークスペース管理の一般的なルールに対応しています。
+組織のワークスペース管理に違いがある場合、それらはこのトピックで明示的に言及されます。
 
 <a name='manage-workspace-members'></a>
-### Managing Workspace Members
+### ワークスペース メンバーの管理
 
-Only the Owner of a workspace can invite other users.
+ワークスペースの管理者のみが他のユーザーを招待できます。
 
-To see the full members' list of a workspace:
+ワークスペースの完全なメンバーのリストを表示するには:
 
-select a workspace > click/tap its overflow menu > select *Manage Members* (see below).
+ワークスペースを選択 > オーバーフロー メニューをクリック/タップ > **[メンバーの管理]** を選択します (以下を参照)。
 
 <img src="images/manage-workspace-members.png" alt="manage workspace members menu" width="100%"/>
 
-In this menu, you can change users' roles, remove members and add new ones.
+このメニューでは、ユーザーのロールを変更し、メンバーを削除または追加できます。
 
-#### Changing the role or removing more than one member at the same time
+#### 役割の変更または複数のメンバーの同時削除
 
-1. Select the checked box on the right of the *+Members* blue button.
-2. Checkboxes on the right of users' roles appear.
-3.  Select the trash icon or a role from the menu at the bottom center of the screen.
+1. **[+ メンバー]** の青いボタンの右側にあるチェックボックスをオンにします。
+2. ユーザーのロールの右側にチェックボックスが表示されます。
+3.  画面下部中央のメニューからゴミ箱アイコンまたは役割を選択します。
 
 <img src="images/select-role-menu.png" alt="select role menu at the bottom center in manage members" width="80%"/>
 
 
 <a name='manage-workspace-properties'></a>
-### Managing Workspace Properties
+### ワークスペース設定の管理
 
-Only owners can change workspace properties. To do this:
+管理者のみがワークスペースの設定を変更できます。そのためには次の手順を実行します。
 
-select a workspace > click/tap the overflow menu next to it > select *Workspace Settings*.
+ワークスペースを選択 > その横にあるオーバーフロー メニューをクリック/タップ >* [ワークスペース設定]* を選択します。
 
-Here you can change workspace's *privacy* settings, *name* and *description*.
+ここで、ワークスペースの**プライバシー**設定、**名前**、または**説明**を変更できます。
 
-You can also configure your workspace's **branding** by uploading a *logo* and setting a *color*. The accepted format for the logo image is:
+**ロゴ**をアップロードして**色**を設定することで、ワークスペースの**ブランディング**を設定することもできます。ロゴとしてアップロードする画像に使用できる形式は以下のとおりです:
 
-  - jpg, jpeg, png, gif;
+  - jpg、jpeg、png、gif
 
-  - 5 MB max.
+  - 最大 5 MB
 
-Your branding information will be used when exporting dashboards to PDF documents and PowerPoint presentations.
+ブランド情報は、ダッシュボードを PDF 文書および PowerPoint プレゼンテーションにエクスポートするときに使用されます。
 
-**Organization workspace**: You cannot change the name of the Organization workspace.
+**組織のワークスペース**: 組織ワークスペースの名前は変更できません。
 
 <a name='delete-workspace'></a>
-### Deleting a Workspace
+### ワークスペースの削除
 
-You can delete a workspace only if you are an owner. To do this:
+管理者のみがワークスペースを削除できます。そのためには次の手順を実行します。
 
-go to the workspace's [settings](#manage-workspace-properties) > click/tap the overflow button next to the Close button > select *Delete Workspace*.
+ワークスペースの[設定](#manage-workspace-properties)に移動 > [閉じる] ボタンの横にあるオーバーフロー ボタンをクリック/タップ > **[ワークスペースの削除]** を選択します。
 
 <img src="images/delete-workspace.png" alt="delete workspace button" width="100%"/>
 
-When you delete a workspace, it disappears with all its content.
+ワークスペースを削除すると、ワークスペースのすべてのコンテンツが消えます。
 
-A workspace is also deleted if its last member leaves it.
+最後のメンバーがワークスペースを脱退した場合、ワークスペースも削除されます。
 
-**Organization workspace**: cannot be deleted.
+**組織ワークスペース**: は削除できません。
 
-### Leaving a Workspace
+### ワークスペースから脱退
 
-To leave a workspace, go to the workspace's [members' list](#manage-workspace-members),
-click/tap the dropdown menu on the right of your name and select *Leave*.
+ワークスペースを脱退するには、ワークスペースの[メンバー リスト](#manage-workspace-members)に移動し、名前の右側にあるドロップダウン メニューをクリック/タップして、**[脱退]** を選択します。
 
-If you are the only Owner of a workspace you cannot leave it without assigning another member as an Owner. To do this, change the role of a user from member/viewer to owner and select *Update*. Now you can leave the workspace.
+ワークスペースの唯一の管理者である場合、別のメンバーを管理者として割り当てずにワークスペースを脱退することはできません。これを行うには、ユーザーのロールをメンバー/閲覧者から管理者に変更し、**[更新]** を選択します。これで、ワークスペースを脱退することができます。
 
-**Organization workspace**: If you are the only (or last) owner of the Organization workspace and want to leave it, please contact Reveal's [support](https://www.infragistics.com/my-account/submit-support-request/reveal) to start the process of assigning a new owner.
+**組織のワークスペース**: 組織のワークスペースの唯一または最後の管理者であり、脱退する場合は、Reveal [サポート](https://jp.infragistics.com/my-account/submit-support-request/reveal)に連絡して、新しい管理者を割り当てるプロセスを開始してください。
