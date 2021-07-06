@@ -10,17 +10,13 @@
 
   - 通知を**既読**または**未読**にマークできます。
 
-  - **日付**または**ワークスペース**で通知を**グループ化します**。
-
   - さらに、オーバーフロー メニューで **[この種類の通知をミュート]** オプションを選択すると、**通知をオフにできます**。
 
 <img src="images/notification-center-options.png" alt="Accessing options of notifications in the Notification center" width="80%"/>
 
 ### 通知設定
 
-通知設定は簡単に編集できます。メイン画面の右上にある名前のイニシャル (または写真) のアイコンをクリック/タップします。次に、**[設定]** ⇒ **[通知]** に移動します。
-
-<img src="images/notification-settings.png" alt="Notifications Settings menu" width="80%"/>
+通知設定は簡単に編集できます。これを行うには、画面の右上隅にあるプロフィール写真をクリック/タップします。次に、**[設定]** ⇒ **[通知]** に移動します。
 
 ### 通知の種類
 
@@ -28,11 +24,11 @@
 
   - アカウントに関連付けられたメール アドレスに配信される**メール通知**。
 
-  - 通知アイコンの下にテキストとして表示される**プッシュ通知**。
+  - モバイルまたはデスクトップ画面にポップアップ表示される**プッシュ通知**。
 
-  - 通知アイコン内に数字で表示される**アプリ内通知**。
+  - ベル アイコン内に数字で表示される**アプリ内通知**。
 
-通知設定を**編集する**には、*鉛筆アイコン*を選択します。通知を**オン/オフにする**には、右側の*切り替えボタン*をクリック/タップします。
+通知設定を**編集する**には、ワークスペースまたはダッシュボードの通知の横にある**鉛筆アイコン**を選択します。通知を**オン/オフにする**には、右側の*切り替えボタン*をクリック/タップします。
 
 #### ワークスペース通知
 
@@ -40,10 +36,10 @@
 
 ワークスペースでは、以下の設定がデフォルトで有効になっています。
 
-|                         | メール                                                     | プッシュ | アプリ内                                                   |
-| ----------------------- | --------------------------------------------------------- | ---- | -------------------------------------------------------- |
-| ワークスペースから削除されました。 | <img src="images/enabled-feature.png" alt="enabled feature"/>            |      | <img src="images/enabled-feature.png" alt="enabled feature"/>           |
-| 新しいメンバーが参加しました。        |                                                           |      | <img src="images/enabled-feature.png" alt="enabled feature"/>           |
+|                              | メール                                                         | プッシュ | アプリ内                                                         |
+| ---------------------------- | ------------------------------------------------------------- | ---- | -------------------------------------------------------------- |
+| ワークスペースから削除されました。 | <img src="images/enabled-feature.png" alt="enabled feature"/> |      | <img src="images/enabled-feature.png" alt="enabled feature" /> |
+| 新しいメンバーが参加しました。             |                                                               |      | <img src="images/enabled-feature.png" alt="enabled feature" /> |
 
 #### ダッシュボード通知
 
@@ -51,8 +47,11 @@
 
 ダッシュボードでは、以下の設定がデフォルトで有効になっています。
 
-|                                     | メール                                                     | プッシュ | アプリ内                                                    |
-| ----------------------------------- | --------------------------------------------------------- | --------------------------------------------------------- | --------------------------------------------------------- |
-| ダッシュボードが共有されました。         | <img src="images/enabled-feature.png" alt="enabled feature"/>            | <img src="images/enabled-feature.png" alt="enabled feature"/>            | <img src="images/enabled-feature.png" alt="enabled feature"/>            |
-| ダッシュボードが自分が参加しているワークスペースと共有されました。 |                                                           |                                                           | <img src="images/enabled-feature.png" alt="enabled feature"/>            |
-| ダッシュボードが更新されました。               |                                                           | <img src="images/enabled-feature.png" alt="enabled feature"/>            | <img src="images/enabled-feature.png" alt="enabled feature"/>            |
+|                                          | メール                                                         | プッシュ                                                          | アプリ内                                                        |
+| ---------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- |
+| ダッシュボードが共有されました。              |                                                               | <img src="images/enabled-feature.png" alt="enabled feature"/> | <img src="images/enabled-feature.png" alt="enabled feature"/> |
+| フォルダーが共有されました。                 |                                                               | <img src="images/enabled-feature.png" alt="enabled feature"/> | <img src="images/enabled-feature.png" alt="enabled feature"/> |
+| ダッシュボードが参加しているワークスペースと共有されました。 |                                                               | <img src="images/enabled-feature.png" alt="enabled feature"/> | <img src="images/enabled-feature.png" alt="enabled feature"/> |
+| フォルダーが参加しているワークスペースと共有されました。    |                                                               | <img src="images/enabled-feature.png" alt="enabled feature"/> | <img src="images/enabled-feature.png" alt="enabled feature"/> |
+| ダッシュボードが更新されました。                     |                                                               | <img src="images/enabled-feature.png" alt="enabled feature"/> | <img src="images/enabled-feature.png" alt="enabled feature"/> |
+| ダッシュボード アクセスが要求されています。            | <img src="images/enabled-feature.png" alt="enabled feature"/> | <img src="images/enabled-feature.png" alt="enabled feature"/> | <img src="images/enabled-feature.png" alt="enabled feature"/> |
