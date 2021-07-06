@@ -1,57 +1,53 @@
-## Workspaces Collaboration and Privacy
+## ワークスペースのコラボレーションとプライバシー
 
-The *workspaces* facilitate effective collaboration on dashboards between any
-group of Reveal users. They also ensure a high level of security for dashboards with sensitive information.
+ワークスペースは、Reveal ユーザーの任意のグループ間のダッシュボードでの効果的なコラボレーションを促進します。また、機密情報を含むダッシュボードの高レベルのセキュリティを保証します。
 
-With workspaces in Reveal, you can:
+Reveal ワークスペースの機能:
 
-  - organize your group's work in the workspace section - create and share dashboards directly with other members, view and edit their dashboards.
+  - ワークスペース セクションでグループの作業を整理 - ダッシュボードを作成して他のメンバーと直接共有し、ダッシュボードを表示および編集します。
 
-  - [**Share**](~/en/dashboards/sharing-dashboards/share-a-dashboard.md) the dashboards in your workspace with other workspaces and with individual users in Reveal.
+  - ワークスペースのダッシュボードを他のワークスペースや Reveal の個々のユーザーと[**共有します**](~/jp/dashboards/sharing-dashboards/share-a-dashboard.md)。
 
-  - Assign every workspace member to one of [**three members' roles**](#members-roles-permissions) with distinct access level to safeguard dashboards with sensitive information.
+  - すべてのワークスペース メンバーを、機密情報でダッシュボードを保護するために、異なるアクセス レベルを持つ [**3 つのメンバーの役割**](#members-roles-permissions)の 1 つに割り当てます。
 
-  - Bring different departments and employees from across an organization working together in an automatically created [**Organization workspace**](#organization-workspace).
+  - 組織全体のさまざまな部署や従業員が自動的に作成された[**組織ワークスペース**](#organization-workspace)で共同で作業できます。
 
-  - **Discover other workspaces** that include members who belong to your Organization workspace.
+  - 組織ワークスペースに所属するメンバーを含む**他のワークスペースを検索します**。
 
-### Accessing Your Workspaces
+### ワークスペースへのアクセス
 
 
-You can access your workspaces on to the left side of the screen, below the *Reveal* icon:
+画面の左側、*Reveal* アイコンの下にあるワークスペースにアクセスできます。
 
 <img src="images/accessing-workspaces-menu.png" alt="Accessing workspaces popover menu" width="100%"/>
 
-You will find a list of your workspaces under the *My Stuff* and *Organization* panel. There you can also create new workspaces or join existing ones.
+ワークスペースのリストは、**アイテム**および**組織**パネルにあります。そこでは、新しいワークスペースを作成したり、既存のワークスペースに参加したりすることもできます。
 
 
 <a name='organization-workspace'></a>
-### The Organization Workspace
+### 組織ワークスペース
 
-Reveal creates the Organization workspace automatically when a member of your organization logs in for the first time with Office365. Members need to log in with their organization's email to be associated with an organization and added to the Organization workspace.
+組織のメンバーが Office365 で最初にログインすると、Reveal は組織ワークスペースを自動的に作成します。メンバーは、組織のメール アドレスでログインして組織に関連付け、組織ワークスペースに追加する必要があります。
 
-You will find the Organization workspace right below _My Stuff_. This workspace is named after your organization.
+組織ワークスペースは [アイテム] のすぐ下にあります。このワークスペースは、組織と同じ名前になります。
 
-Unlike other workspaces, only [owners](#members-roles-permissions) can create
-and upload dashboards in the Organization workspace. Only key members in
-your organization will be given the owner's role. This limitation ensures that dashboards in the Organization workspace contain accurate and trustworthy data.
+他のワークスペースとは異なり、組織ワークスペースでダッシュボードを作成およびアップロードできるのは[管理者](#members-roles-permissions)のみです。
+組織のキー メンバーのみに管理者の役割が付与されます。
+この制限により、組織ワークスペースのダッシュボードに正確で信頼できるデータが含まれるようになります。
 
 <a name='workspace-privacy-levels'></a>
-### Workspace Privacy Levels
+### ワークスペースのプライバシー レベル
 
-When creating a workspace, you can select the level of privacy you want it to
-have.
+ワークスペースを作成するときに、プライバシー レベルを選択できます。
 
-  - **Public**: any member of your main Organization workspace can search and
-    join your workspace.
-
-  - **Private**: your workspace won't be found in search results. Users can
-    only join it if they get invitations.
+  - **公開**:  メインの組織ワークスペースのメンバーは誰でも、ワークスペースを検索して参加できます。
+    
+  - **プライベート**:  ワークスペースは検索結果に表示されません。ユーザーは招待を受け取った場合のみ参加できます。
 
 <a name='members-roles-permissions'></a>
-### Members' Roles and Permissions
+### メンバーの役割とアクセス許可
 
-There are three types of workspace members in Reveal:
+Reveal には 3 種類のワークスペース メンバーがあります:
 
   - **管理者**
 
@@ -59,49 +55,41 @@ There are three types of workspace members in Reveal:
 
   - **閲覧者**
 
-The process of assigning these roles in the Organization workspace differ
-from other workspaces. Below, you will find this process explained as well as
-two reference tables illustrating members' permissions in the
-Organization and in other workspaces.
+組織ワークスペースでこれらの役割を割り当てるプロセスは、他のワークスペースとは異なります。以下に、このプロセスの説明と、組織および他のワークスペースのメンバーのアクセス許可を示す 2 つの参照表を示します。
 
-#### Organization Workspace - Assigning Members' Roles and Permissions
+#### 組織ワークスペース - メンバーの役割およびアクセス許可の割り当て
 
-The first user from an organization, who signs in Reveal, is given the
-role of **owner** of the Organization workspace. Other users from the same organization who sign in for the first time will also be added as owners. After one of the owners assigns someone as a **viewer** or a **member** for the first
-time, future new users will be added as members, not owners.
+Reveal にサインインする組織の最初のユーザーには、組織ワークスペースの**管理者**の役割が与えられます。初めてサインインする同じ組織の他のユーザーも管理者として追加されます。管理者の 1 人が初めて他のユーザーを**閲覧者**または**メンバー**として割り当てた後、将来の新しいユーザーは管理者ではなくメンバーとして追加されます。
 
-The following table shows the different permissions of members in the
-Org workspace:
+次の表は、組織ワークスペースのメンバーのさまざまなアクセス許可を示しています。
 
 | アクセス許可                                                      | 管理者                                   | メンバー                                  | 閲覧者                                  |
 | --------------------------------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| Can view **dashboards**                                         | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> |
-| Can create, edit, delete **dashboards** in the Org workspace                 | <span style="color: #007F00">O</span> | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  |
-| Can share **dashboards** outside the Org with edit permissions  | <span style="color: #007F00">O</span> | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  |
-| Can share **dashboards** outside the Org with view permissions  | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> |
-| Can manage **members** in the Organization workspace           | <span style="color: #007F00">O</span> | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  |
-| Can **invite** users to the Org                               | <span style="color: #007F00">O</span> | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  |
-| Can discover and join **public workspaces**                           | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> |
-| Can discover **private workspaces**                                      | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  |
-| Can create their own workspace in the Organization | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> | <span style="color: #FF0000">X</span>  |
+| **ダッシュボード**を表示できます。                                         | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> |
+| 組織ワークスペースで**ダッシュボード**を作成、編集、削除できます。                 | <span style="color: #007F00">O</span> | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  |
+| 編集のアクセス許可を持って組織外の**ダッシュボード**を共有できます。  | <span style="color: #007F00">O</span> | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  |
+| 表示のアクセス許可を持って組織外の**ダッシュボード**を共有できます。  | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> |
+| 組織ワークスペースで**メンバー**を管理できます。           | <span style="color: #007F00">O</span> | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  |
+| ユーザーを組織に**招待**できます。                               | <span style="color: #007F00">O</span> | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  |
+| **公開ワークスペース**を検出して参加できます。                           | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> |
+| **プライベート ワークスペース**を検出できます。                                      | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  |
+| 組織内に独自のワークスペースを作成できます。 | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> | <span style="color: #FF0000">X</span>  |
 
-#### Workspaces - Assigning Members' Roles and Permissions
+#### ワークスペース - メンバーの役割およびアクセス許可の割り当て
 
-When a user creates a workspace, they are the owner of that workspace and can
-distribute levels of permissions there. The owner invites new members and assigns their roles.
+ユーザーがワークスペースを作成すると、ユーザーはそのワークスペースの管理者であり、そこにアクセス許可のレベルを分散できます。管理者は新しいメンバーを招待し、その役割を割り当てます。
 
-The table below shows the user permissions inside workspaces different from
-the Organization workspace.
+次の表は、組織ワークスペースとは異なるワークスペース内のユーザーのアクセス許可を示しています。
 
 | アクセス許可                                                      | 管理者                                   | メンバー                                  | 閲覧者                                  |
 | --------------------------------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| Can view **dashboards**                                         | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> |
-| Can create, edit, delete **dashboards** in the workspace                           | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> | <span style="color: #FF0000">X</span>  |
-| Can share **dashboards** outside the workspace with edit permissions | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> | <span style="color: #FF0000">X</span>  |
-| Can share **dashboards** outside the workspace with view permissions | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> |
-| Can manage workspace **members**                                     | <span style="color: #007F00">O</span> | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  |
-| Can **invite** users                             | <span style="color: #007F00">O</span> | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  |
-| Can join **public workspaces** as a member                           | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> |
-| Can discover **private workspaces**                                      | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  |
+| **ダッシュボード**を表示できます。                                         | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> |
+| ワークスペースで**ダッシュボード**を作成、編集、削除できます。                           | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> | <span style="color: #FF0000">X</span>  |
+| 編集のアクセス許可を持ってワークスペース外の**ダッシュボード**を共有できます。 | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> | <span style="color: #FF0000">X</span>  |
+| 表示のアクセス許可を持ってワークスペース外の**ダッシュボード**を共有できます。 | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> |
+| ワークスペースの**メンバー**を管理できます。                                     | <span style="color: #007F00">O</span> | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  |
+| ユーザーを**招待**できます。                             | <span style="color: #007F00">O</span> | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  |
+| **公開ワークスペース**にメンバーとして参加できます。                           | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> | <span style="color: #007F00">O</span> |
+| **プライベート ワークスペース**を検出できます。                                      | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  | <span style="color: #FF0000">X</span>  |
 
-If you want to know more about managing workspaces' and Organization's properties and members, please read the [Managing Workspaces](managing-your-workspace.md) topic.
+ワークスペースと組織のプロパティとメンバーの管理について詳しく知りたい場合は、[ワークスペースの管理](managing-your-workspace.md)のトピックをお読みください。
