@@ -8,8 +8,7 @@
 
   - ワークスペースを[削除する](#delete-workspace);
 
-特殊なタイプのワークスペースとして、[組織](overview.html#organization-workspace)管理は、Reveal のワークスペース管理の一般的なルールに対応しています。
-組織のワークスペース管理に違いがある場合、それらはこのトピックで明示的に言及されます。
+特殊なタイプのワークスペースとして、[組織](overview.html#organization-workspace)管理は、Reveal のワークスペース管理の一般的なルールに対応しています。組織のワークスペース管理に違いがある場合、それらはこのトピックで明示的に言及されます。
 
 <a name='manage-workspace-members'></a>
 ### ワークスペース メンバーの管理
@@ -20,7 +19,7 @@
 
 ワークスペースを選択 > オーバーフロー メニューをクリック/タップ > **[メンバーの管理]** を選択します (以下を参照)。
 
-<img src="images/manage-workspace-members.png" alt="manage workspace members menu" width="100%"/>
+<img src="images/manage-workspace-members.png" alt="manage workspace members menu" width="80%"/>
 
 このメニューでは、ユーザーのロールを変更し、メンバーを削除または追加できます。
 
@@ -59,7 +58,7 @@
 
 ワークスペースの[設定](#manage-workspace-properties)に移動 > [閉じる] ボタンの横にあるオーバーフロー ボタンをクリック/タップ > **[ワークスペースの削除]** を選択します。
 
-<img src="images/delete-workspace.png" alt="delete workspace button" width="100%"/>
+<img src="images/delete-workspace.png" alt="delete workspace button" width="80%"/>
 
 ワークスペースを削除すると、ワークスペースのすべてのコンテンツが消えます。
 

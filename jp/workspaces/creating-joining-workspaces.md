@@ -9,7 +9,7 @@ Reveal の**ワークスペース**は、組織内外とのコラボレーショ
 
 1.  画面の左下角にある [新しいワークスペース] をクリック/タップします。
 
-    <img src="images/new-workspace-button.png" alt="new workspace button in the popover menu" width="100%"/>
+    <img src="images/new-workspace-button.png" alt="new workspace button in the popover menu" width="80%"/>
 
     >[!NOTE]
     > 初めてサインインする際に、すでにワークスペースに参加されている場合があります。つまり、Office365 アカウントで Reveal にログインしたことのある、組織の他のメンバーを含む[組織ワークスペース](overview.html#organization-workspace)です。
@@ -17,7 +17,7 @@ Reveal の**ワークスペース**は、組織内外とのコラボレーショ
 
 2.  青い **[+ ワークスペースの作成]** ボタンをクリック/タップします。以下の画面が表示されます。
 
-    <img src="images/create-workspace-properties.png" alt="workspace properties dialog" width="100%"/>
+    <img src="images/create-workspace-properties.png" alt="workspace properties dialog" width="80%"/>
 
     以下の手順を実行します。
 
@@ -34,9 +34,9 @@ Reveal の**ワークスペース**は、組織内外とのコラボレーショ
       
       - ワークスペースの[*プライバシー*](overview.html#workspace-privacy-levels)を決定する - このオプションは、ワークスペースに組織を選択した場合は使用できません。ワークスペースを招待なしで検出して参加させる場合は、**[公開]** を選択します。
 
-      - ブランディング設定 - ワークスペースのダッシュボードを [PDF 文書](~/jp/dashboards/exporting-dashboards/export-as-pdf-document.md)および [PPT プレゼンテーション](~/jp/dashboards/exporting-dashboards/export-as-powerpoint-presentation)としてエクスポートするときに使用するメイン色とロゴを選択します。
+      - ブランディング設定 - ワークスペースのダッシュボードを [PDF 文書](~/jp/dashboards/exporting-dashboards/export-as-pdf-document.md)および [PPT プレゼンテーション](~/jp/dashboards/exporting-dashboards/export-as-powerpoint-presentation.md)としてエクスポートするときに使用するメイン色とロゴを選択します。
       
-        >[!NOTE] **ロゴ画像の要件**。ロゴとしてアップロードする画像は、**5 MB** 以下で、jpg、jpeg、png、gif のいずれかの形式である必要があります。
+        >[!NOTE] ロゴ画像の要件。ロゴとしてアップロードする画像は、**5 MB** 以下で、jpg、jpeg、png、gif のいずれかの形式である必要があります。
 
       - **状態**、**開始日**、**終了日**を選択します - これらの設定は**オプション**ですが、プロジェクトで作業しているときに非常に便利です。  
   
@@ -49,7 +49,7 @@ Reveal の**ワークスペース**は、組織内外とのコラボレーショ
 
 1. **[+ メンバー]** の青いボタンをクリック/タップします。ドロップダウン リストからユーザーを選択できます (以下を参照)。検索を使用して、組織外のユーザーの電子メールを追加することもできます。準備ができたら、[完了] を選択します。
 
-    <img src="images/workspace-invite-members.png" alt="invite members dialog" width="100%" />
+    <img src="images/workspace-invite-members.png" alt="invite members dialog" width="80%" />
 
 2. 別のロールを割り当てない場合、招待するユーザーのデフォルトのロールは*メンバー*です。各ユーザー名の横にあるドロップダウンで、[管理者]、[メンバー]、[閲覧者] から選択できます。ワークスペース ロールの詳細については[「ワークスペースのコラボレーションとプライバシー」](overview.html#members-roles-permissions)トピックを参照してください。
 
