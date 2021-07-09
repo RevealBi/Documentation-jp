@@ -99,7 +99,7 @@
 | PPT のエクスポート                                     | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
 | PDF のエクスポート                                     | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
 | 初期表示で共有ダッシュボード リポジトリを表示 | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
-| チームの作成と管理                       | <span style="color: #FF0000">X</span>        | <span style="color: #007F00">〇</span>   |
+| ワークスペースの作成と管理                       | <span style="color: #FF0000">X</span>        | <span style="color: #007F00">〇</span>   |
 | 読み取り専用ダッシュボードをパスコード ロック              | <span style="color: #007F00">〇</span>       | <span style="color: #FF0000">X</span>    |
 | ReportPlus クラ/Reveal リビーラーウドで共有            | <span style="color: #007F00">〇</span>       | <span style="color: #007F00">〇</span>   |
 | **どこからでもアクセス**                               |                                               |                                           |

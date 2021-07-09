@@ -10,14 +10,14 @@
   href: general/supported-languages.md
 - name: 通知センター
   href: general/notifications-center.md
-- name: チーム
+- name: ワークスペース
   header: true
 - name: 概要
-  href: teams/overview.md
-- name: チームの作成と参加
-  href: teams/creating-joining-teams.md
-- name: チームの管理
-  href: teams/managing-your-team.md
+  href: workspaces/overview.md
+- name: ワークスペースの作成と参加
+  href: workspaces/creating-joining-workspaces.md
+- name: ワークスペースの管理
+  href: workspaces/managing-your-workspace.md
 - name: ダッシュボード
   header: true
 - name: 概要

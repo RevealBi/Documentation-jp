@@ -10,7 +10,7 @@
 
   - クラウド ファイル データ ソースを使用する[ダッシュボードを共有する](#grant-access-shared-dashboard)場合。
 
-  - [チームに](#save-dashboard-team)ダッシュボードを保存する場合。
+  - [ワークスペースに](#save-dashboard-workspace)ダッシュボードを保存する場合。
 
 <a name='cloud-providers'></a>
 ### サポートされるクラウド プロバイダー
@@ -47,14 +47,14 @@
 
     **[アクセスの許可]** をクリック/タップして、[ダッシュボードを共有する](share-a-dashboard.html)ユーザーの選択に進みます。
 
-<a name='save-dashboard-team'></a>
-### チーム内のクラウド ファイル データ ソースを含むダッシュボードの保存
+<a name='save-dashboard-workspace'></a>
+### ワークスペース内のクラウド ファイル データ ソースを含むダッシュボードの保存
 
-クラウド ファイルをデータ ソースとして使用する 1 つ以上の表示形式を含むダッシュボードをチームのスペースに保存することができます。これらのデータ ソース ファイルへの共有可能なリンクが作成されていない (無効になっている) 場合、Reveal はアクセスを許可するように求めます。
+クラウド ファイルをデータ ソースとして使用する 1 つ以上の表示形式を含むダッシュボードをワークスペースに保存することができます。これらのデータ ソース ファイルへの共有可能なリンクが作成されていない (無効になっている) 場合、Reveal はアクセスを許可するように求めます。
 
-<img src="images/save-dashboard-disabled-link-teams_all.png" alt="Allow access to a dashboard with a disabled link when saving in a team" width="80%"/>
+<img src="images/save-dashboard-disabled-link-workspace.png" alt="Allow access to a dashboard with a disabled link when saving in a workspace" width="80%"/>
 
-これにより、チームに保存したダッシュボードをすべてのチーム メンバーが確実に表示できるようになります。
+これにより、ワークスペースに保存したダッシュボードをすべてのワークスペース メンバーが確実に表示できるようになります。
 
 ### 関連項目
 
