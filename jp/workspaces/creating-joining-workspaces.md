@@ -36,7 +36,8 @@ Reveal の**ワークスペース**は、組織内外とのコラボレーショ
 
       - ブランディング設定 - ワークスペースのダッシュボードを [PDF 文書](~/jp/dashboards/exporting-dashboards/export-as-pdf-document.md)および [PPT プレゼンテーション](~/jp/dashboards/exporting-dashboards/export-as-powerpoint-presentation.md)としてエクスポートするときに使用するメイン色とロゴを選択します。
       
-        >[!NOTE] ロゴ画像の要件。ロゴとしてアップロードする画像は、**5 MB** 以下で、jpg、jpeg、png、gif のいずれかの形式である必要があります。
+        >[!NOTE] 
+        >**ロゴ画像の要件**。ロゴとしてアップロードする画像は、**5 MB** 以下で、jpg、jpeg、png、gif のいずれかの形式である必要があります。
 
       - **状態**、**開始日**、**終了日**を選択します - これらの設定は**オプション**ですが、プロジェクトで作業しているときに非常に便利です。  
   
