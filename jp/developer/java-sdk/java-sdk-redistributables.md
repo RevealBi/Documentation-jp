@@ -3,19 +3,19 @@
 |              |                                                                                                               |                                                                                                            |
 | ------------ | ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
 | **サーバー/クライアント** | **アセンブリ/使用されたコード**                                                                                                 | **ライセンス**                                                                                                |
-| サーバー側 SDK | reveal-sdk-*<sdk_version_number>*.jar | [Reveal ライセンス](https://www.revealbi.io/terms-of-use) |
-| サーバー側 SDK | reveal-rest-service-*<sdk_version_number>*.jar | [Reveal ライセンス](https://www.revealbi.io/terms-of-use) |
-| サーバー側 SDK | reveal-engine-service-api-*<sdk_version_number>*.jar | [Reveal ライセンス](https://www.revealbi.io/terms-of-use) |
-| サーバー側 SDK| reveal-sdk-api-*<sdk_version_number>*.jar | [Reveal ライセンス](https://www.revealbi.io/terms-of-use) |
-| サーバー側 SDK | reveal-engine-service-*<sdk_version_number>*.jar | [Reveal ライセンス](https://www.revealbi.io/terms-of-use) |
-| サーバー側 SDK | connectors-*<sdk_version_number>*.jar | [Reveal ライセンス](https://www.revealbi.io/terms-of-use) |
-| サーバー側 SDK | datalayer-*<sdk_version_number>*.jar | [Reveal ライセンス](https://www.revealbi.io/terms-of-use) |
-| サーバー側 SDK | core-*<sdk_version_number>*.jar | [Reveal ライセンス](https://www.revealbi.io/terms-of-use) |
-| サーバー側 SDK | requests-*<sdk_version_number>*.jar | [Reveal ライセンス](https://www.revealbi.io/terms-of-use) |
-| サーバー側 SDK | ExportTool(.exe) | [Reveal ライセンス](https://www.revealbi.io/terms-of-use) |
-| クライアント側 SDK | infragistics.reveal.js | [Reveal ライセンス](https://www.revealbi.io/terms-of-use) |
-| クライアント側 SDK | infragistics.langpack.*<country_name>*.js | [Reveal ライセンス](https://www.revealbi.io/terms-of-use) |
-| クライアント側 SDK | reveal-webComponent.js | [Reveal ライセンス](https://www.revealbi.io/terms-of-use) |
+| サーバー側 SDK | reveal-sdk-*<sdk_version_number>*.jar | [Reveal ライセンス](https://www.revealbi.io/ja/terms-of-use) |
+| サーバー側 SDK | reveal-rest-service-*<sdk_version_number>*.jar | [Reveal ライセンス](https://www.revealbi.io/ja/terms-of-use) |
+| サーバー側 SDK | reveal-engine-service-api-*<sdk_version_number>*.jar | [Reveal ライセンス](https://www.revealbi.io/ja/terms-of-use) |
+| サーバー側 SDK| reveal-sdk-api-*<sdk_version_number>*.jar | [Reveal ライセンス](https://www.revealbi.io/ja/terms-of-use) |
+| サーバー側 SDK | reveal-engine-service-*<sdk_version_number>*.jar | [Reveal ライセンス](https://www.revealbi.io/ja/terms-of-use) |
+| サーバー側 SDK | connectors-*<sdk_version_number>*.jar | [Reveal ライセンス](https://www.revealbi.io/ja/terms-of-use) |
+| サーバー側 SDK | datalayer-*<sdk_version_number>*.jar | [Reveal ライセンス](https://www.revealbi.io/ja/terms-of-use) |
+| サーバー側 SDK | core-*<sdk_version_number>*.jar | [Reveal ライセンス](https://www.revealbi.io/ja/terms-of-use) |
+| サーバー側 SDK | requests-*<sdk_version_number>*.jar | [Reveal ライセンス](https://www.revealbi.io/ja/terms-of-use) |
+| サーバー側 SDK | ExportTool(.exe) | [Reveal ライセンス](https://www.revealbi.io/ja/terms-of-use) |
+| クライアント側 SDK | infragistics.reveal.js | [Reveal ライセンス](https://www.revealbi.io/ja/terms-of-use) |
+| クライアント側 SDK | infragistics.langpack.*<country_name>*.js | [Reveal ライセンス](https://www.revealbi.io/ja/terms-of-use) |
+| クライアント側 SDK | reveal-webComponent.js | [Reveal ライセンス](https://www.revealbi.io/ja/terms-of-use) |
 | サーバー側 SDK | [driver-1.10.0.jar, driver-bundle-1.10.0.jar](https://github.com/microsoft/playwright-java) | [Apache 2.0](https://github.com/microsoft/playwright-java/blob/master/LICENSE) |
 | サーバー側 SDK | [Java-WebSocket-1.5.1.jar](https://github.com/TooTallNate/Java-WebSocket) | [MIT](https://github.com/TooTallNate/Java-WebSocket/blob/master/LICENSE) |
 | サーバー側 SDK | [kxml2-2.3.0.jar](https://github.com/stefanhaustein/kxml2) | [MIT](https://github.com/stefanhaustein/kxml2/blob/master/license.txt) |
