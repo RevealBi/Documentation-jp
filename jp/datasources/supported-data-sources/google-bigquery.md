@@ -10,7 +10,7 @@ Google アカウントを追加すると、BigQuery データセットにアク�
 
 1.  **[データ ソースの作成]** ダイアログで**プロジェクトを選択します**。
 
-    <img src="images/select-project-bigquery.png" alt="Select a project in the New Data Source dialog" width="80%"/>
+    <img src="images/select-project-bigquery.png" alt="Select a project in the New Data Source dialog" class="responsive-img"/>
 
     >[!NOTE]
     >BigQuery の一般公開データセットを使ったデモ プロジェクト: 上のスクリーンショットの 2 つの公開 データ プロジェクトは、Reveal チームによって構成されたデモ プロジェクトです。BigQuery データセットを持たないユーザーは表示形式エディターでこのデータ ソースを操作して、ビッグ データがどのように迅速に処理されているかを確認できます。
@@ -18,11 +18,11 @@ Google アカウントを追加すると、BigQuery データセットにアク�
 
 2.  データ セットの横にある空の円をマークして、**データセットを選択します**。
 
-    <img src="images/select-dataset-bigquery.png" alt="Select a dataset dialog" width="80%"/>
+    <img src="images/select-dataset-bigquery.png" alt="Select a dataset dialog" class="responsive-img"/>
 
 3.  データセットから**表を選択します**。右側の*目のアイコン*を使用して、データをプレビューします。
 
-    <img src="images/select-table-bigquery.png" alt="Select a table dialog" width="80%"/>
+    <img src="images/select-table-bigquery.png" alt="Select a table dialog" class="responsive-img"/>
 
 これで、Google BigQuery から取得したデータを使用して表示形式の構築を開始できる、*表示形式エディター*に移動します。
 

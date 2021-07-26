@@ -9,7 +9,7 @@ Reveal の**ワークスペース**は、組織内外とのコラボレーショ
 
 1.  画面の左下角にある [新しいワークスペース] をクリック/タップします。
 
-    <img src="images/new-workspace-button.png" alt="new workspace button in the popover menu" width="80%"/>
+    <img src="images/new-workspace-button.png" alt="new workspace button in the popover menu" class="responsive-img"/>
 
     >[!NOTE]
     > 初めてサインインする際に、すでにワークスペースに参加されている場合があります。つまり、Office365 アカウントで Reveal にログインしたことのある、組織の他のメンバーを含む[組織ワークスペース](overview.html#organization-workspace)です。
@@ -17,7 +17,7 @@ Reveal の**ワークスペース**は、組織内外とのコラボレーショ
 
 2.  青い **[+ ワークスペースの作成]** ボタンをクリック/タップします。以下の画面が表示されます。
 
-    <img src="images/create-workspace-properties.png" alt="workspace properties dialog" width="80%"/>
+    <img src="images/create-workspace-properties.png" alt="workspace properties dialog" class="responsive-img"/>
 
     以下の手順を実行します。
 
@@ -50,7 +50,7 @@ Reveal の**ワークスペース**は、組織内外とのコラボレーショ
 
 1. **[+ メンバー]** の青いボタンをクリック/タップします。ドロップダウン リストからユーザーを選択できます (以下を参照)。検索を使用して、組織外のユーザーの電子メールを追加することもできます。準備ができたら、[完了] を選択します。
 
-    <img src="images/workspace-invite-members.png" alt="invite members dialog" width="80%" />
+    <img src="images/workspace-invite-members.png" alt="invite members dialog" class="responsive-img" />
 
 2. 別のロールを割り当てない場合、招待するユーザーのデフォルトのロールは*メンバー*です。各ユーザー名の横にあるドロップダウンで、[管理者]、[メンバー]、[閲覧者] から選択できます。ワークスペース ロールの詳細については[「ワークスペースのコラボレーションとプライバシー」](overview.html#members-roles-permissions)トピックを参照してください。
 
@@ -68,7 +68,7 @@ Reveal の**ワークスペース**は、組織内外とのコラボレーショ
 
 2.  **[ワークスペースの参加または作成]** ダイアログが表示されます。
 
-    <img src="images/join-or-create.png" alt="join or create a workspace dialog" width="80%"/>
+    <img src="images/join-or-create.png" alt="join or create a workspace dialog" class="responsive-img"/>
 
     ここには、組織に属するすべての[公開](overview.html#workspace-privacy-levels)ワークスペースがあります。
 

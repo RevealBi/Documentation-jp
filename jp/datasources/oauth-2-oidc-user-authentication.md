@@ -47,13 +47,13 @@ OAuth 2 / OIDC アカウントでデータ ソースを使用するには、以�
 
 5. 次の画面が表示されたら、**[+ 資格情報]** ドロップダウン メニューから **[OAuth 2 / OIDC 資格情報]** を選択する。
 
-    <img src="images/OAuth-2-OIDC-Credentials.png" alt="Accessing OAuth2/OIDC Credentials menu" width="80%"/>
+    <img src="images/OAuth-2-OIDC-Credentials.png" alt="Accessing OAuth2/OIDC Credentials menu" class="responsive-img"/>
 
 ### Reveal での OAuth 2 / OIDC アカウントの設定
 
 **OAuth 2 / OIDC アカウントの詳細**画面で、リソース サーバーによって Reveal 用に既に生成された資格情報を入力する必要があります。
 
-<img src="images/Required-Credentials-OAuth-Account.png" alt="Required Credentials OAuth Account" width="80%"/>
+<img src="images/Required-Credentials-OAuth-Account.png" alt="Required Credentials OAuth Account" class="responsive-img"/>
 
 以下のフィールドは必須です。
 
@@ -78,7 +78,7 @@ OAuth 2 / OIDC アカウントでデータ ソースを使用するには、以�
 OAuth 2 / OIDC アカウントを構成した後、サインイン画面にリダイレクトされます。
 サインイン後、Reveal にデータの使用を許可するよう求められます。
 
-<img src="images/permissions-request.png" alt="Permissions Request dialog" width="60%"/>
+<img src="images/permissions-request.png" alt="Permissions Request dialog" class="responsive-img"/>
 
 必要なアクセス許可を与えた後、保護されたデータ ソースのデータを使用して、Reveal で表示形式とダッシュボードを構築できます。
 

@@ -4,7 +4,7 @@
 
 散布マップを使用すると、複数のマップ サービスに接続して、マップの背景をよりリアルにするだけでなく、詳細を調べることもできます。不動産市場分析を表示する場合など、一部のシナリオでは、マップに近所や通りを表示する機能が追加されます。
 
-<img src="images/scatter-maps-dashboard.png" alt="Different scatter maps visualizations in a dashboard" width="80%"/>
+<img src="images/scatter-maps-dashboard.png" alt="Different scatter maps visualizations in a dashboard" class="responsive-img"/>
 
 ### 散布マップの使用
 
@@ -24,7 +24,7 @@ Reveal の最も基本的な散布マップは、選択した領域に均一な�
 
 バブルのサイズは、比較される特定の変数の値を示します。比較効果を得るには、データセットに比較変数のさまざまな値が含まれていることが最適です。それ以外の場合、マップのバブルはサイズが同じように表示されます (以下の例を参照)。
 
-<img src="images/bubble-map-density-population-europe-bad-example.png" alt="Bubble map showing similar density of population in European countries except for Monaco" width="80%"/>
+<img src="images/bubble-map-density-population-europe-bad-example.png" alt="Bubble map showing similar density of population in European countries except for Monaco" class="responsive-img"/>
 
 上記のスクリーンショットのように**外れ値**を特定してフォーカスしない限り、表示形式の選択を再検討する必要があります。
 
@@ -40,12 +40,12 @@ Reveal の最も基本的な散布マップは、選択した領域に均一な�
 カテゴリ別に色分けされたシンプルなドット マップは、オブジェクトの分布が多いクラスターや領域に注意を引くのに適しています。たとえば、異なる州の空港の色が異なる場合、最も多くの空港がある州をすばやく識別できます (以下を参照)。
 
 <img src="images/scatter-dot-different-colors
-.png" alt="A scatter map showing the distribution of US airports with dots colored by state" width="80%"/>
+.png" alt="A scatter map showing the distribution of US airports with dots colored by state" class="responsive-img"/>
 
 値で色分けされたドット マップは、大きなバブルが重なり合うリスクを回避しながらインサイトを提供します。たとえば、ヨーロッパの高齢人口の傾向を一目で確認したい場合は、人口の中年の色でドット マップを作成し、低、中、高の平均年齢を示す色を設定します。
 
 <img src="images/scatter-dot-map-colored-by-value
-.png" alt="A scatter map showing the average age of Euro Population with dots colored by using conditional formatting for medium age" width="80%"/>
+.png" alt="A scatter map showing the average age of Euro Population with dots colored by using conditional formatting for medium age" class="responsive-img"/>
 
 ただし、個々の場所の 2 つの値の相関関係を表示する場合は、一方の値をサイズで、もう一方の値を色で表示します。前の例を使用すると、人口の年齢別にドットに色を付け、国の国内総生産に基づいてサイズを設定して、国の豊かさと平均余命の相関関係を示すことができます。
 
@@ -57,7 +57,7 @@ Reveal の最も基本的な散布マップは、選択した領域に均一な�
 
 散布マップを最大化すると、ズーム コントロールが表示され、ズーム レベルをより適切に調整し、必要に応じてリセットできます。
 
-<img src="images/scatter-map-zoom-control.png" alt="A scatter map displaying the zoom control" width="80%"/>
+<img src="images/scatter-map-zoom-control.png" alt="A scatter map displaying the zoom control" class="responsive-img"/>
 
 上に示したように、マップの右下にいくつかのボタンが表示されています。[ズームのリセット] ボタンは、マップのズームを、マップが最後に保存されたズーム レベルにリセットします。
 
@@ -68,7 +68,7 @@ Reveal の最も基本的な散布マップは、選択した領域に均一な�
 * *Mapbox*
 
 <img src="images/scatter-map-image-tiles-enabled
-.png" alt="A scatter map showing the average age of Population in East Asia zoomed in and using image tiles" width="80%"/>
+.png" alt="A scatter map showing the average age of Population in East Asia zoomed in and using image tiles" class="responsive-img"/>
 
 Reveal でマップ サービス**認証トークン**を使用する方法、または画像タイルを使用して共有マップを表示する方法の詳細については、[「マップ画像タイルの使用」](map-image-tiles.md)トピックを参照してください。
 
@@ -91,7 +91,7 @@ Reveal の散布マップは、表示するデータに基づいて地理分析�
 
 #### 基本的なドット マップ  
 
-<img src="images/scatter-dot-map-airports.png" alt="A dot map showing the distribution of airports across the US" width="80%"/>
+<img src="images/scatter-dot-map-airports.png" alt="A dot map showing the distribution of airports across the US" class="responsive-img"/>
 
 データセットの緯度と経度のデータのみを使用して、ドット マップを作成できます。データ ソースにこれらのフィールドが含まれていない場合は、別のデータ ソースから追加できます。これを行う方法については、[データ ソースを 1 つの表示形式に統合](~/jp/datasources/data-blending.md)を参照してください。
 
@@ -106,7 +106,7 @@ Reveal の散布マップは、表示するデータに基づいて地理分析�
 
 可変サイズのマーカーまたはバブルを使用して散布マップを作成することもできます。
 
-<img src="images/scatter-bubble-map-electoral-college.png" alt="A bubble map showing the electoral college votes distribution across US states" width="80%"/>
+<img src="images/scatter-bubble-map-electoral-college.png" alt="A bubble map showing the electoral college votes distribution across US states" class="responsive-img"/>
 
 バブル マップは、基本的なドット マップと同じデータを使用して作成されます。さらに、[バブル半径] プレースホルダーに数値フィールドをドロップする必要があります。
 
@@ -122,7 +122,7 @@ Reveal の散布マップは、表示するデータに基づいて地理分析�
 散布マップを使用すると、色で示される追加の 3 番目の変数を表示できます。色の追加は、ドット マップとバブル マップの両方のオプションです。
 
 <img src="images/scatter-color-average-age-euro-population
-.png" alt="A scatter map showing the average age of Euro Population sized by number and colored using conditional formatting for medium age" width="80%"/>
+.png" alt="A scatter map showing the average age of Euro Population sized by number and colored using conditional formatting for medium age" class="responsive-img"/>
 
 マップ上の色は、次の方法で決定できます: 
 

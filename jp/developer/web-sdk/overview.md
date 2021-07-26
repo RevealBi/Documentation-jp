@@ -8,7 +8,7 @@ Web アプリケーションに Reveal を組み込む場合、2 つのコンポ
 
 以下の図では、Reveal Web SDK を埋め込んだ Web アプリケーションのアーキテクチャを表示しています。
 
-<img src="images/sdk_web_diagram_web.png" alt="sdk\_web\_diagram\_web" width="80%"/>
+<img src="images/sdk_web_diagram_web.png" alt="sdk\_web\_diagram\_web" class="responsive-img"/>
 
 上記のように、SDK はネイティブ アプリケーションとほとんど同様に機能します。違いは、一部のコールバックがクライアント側で呼び出され (データポイントがクリックされたときに送信されるイベントなど)、その他はサーバー側で呼び出される (ダッシュボードのロードまたはメモリ内データの提供のためのコールバックなど) 点です。
 

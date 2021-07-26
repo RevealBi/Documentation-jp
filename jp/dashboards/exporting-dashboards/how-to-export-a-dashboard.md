@@ -4,13 +4,13 @@
 
 **エクスポート機能にアクセスする**には、右上隅にあるオーバーフロー ボタンを選択し、**[エクスポート]** をクリック/タップします。
 
-<img src="images/export-dashboards-menu.png" alt="Export option in the overflow menu" width="80%"/>
+<img src="images/export-dashboards-menu.png" alt="Export option in the overflow menu" class="responsive-img"/>
 
 ### エクスポート形式
 
 ダッシュボードは、以下のオプションを使用して簡単にエクスポートできます。
 
-<img src="images/export-formats.png" alt="Export formats available" width="80%"/>
+<img src="images/export-formats.png" alt="Export formats available" class="responsive-img"/>
 
   - [**画像のエクスポート**](export-as-images.html) - ダッシュボード全体または個別の表示形式のスクリーン キャプチャをエクスポートします。
 
@@ -27,8 +27,8 @@
 
 Android または iOS モバイル デバイスで Reveal を使用する場合、ドキュメントをメール、印刷、またはサードパーティ アプリに送信できます。エクスポート形式を選択すると、次のアクション メニューで、保存/共有の設定を選択するよう求められます。
 
-<img src="images/export-preview-actions.png" alt="Export preview actions on mobile devices" width="80%"/>
+<img src="images/export-preview-actions.png" alt="Export preview actions on mobile devices" class="responsive-img"/>
 
 画像のエクスポートの場合、画像に注釈を付ける前または後に、**[画像をエクスポート]** ダイアログに以上と同じオプションがあります。
 
-<img src="images/export-image-preview-actions.png" alt="Export image preview actions" width="80%"/>
+<img src="images/export-image-preview-actions.png" alt="Export image preview actions" class="responsive-img"/>

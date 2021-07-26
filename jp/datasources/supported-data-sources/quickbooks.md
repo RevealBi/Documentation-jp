@@ -2,7 +2,7 @@
 
 Quickbooks に接続すると、次のログイン プロンプトが表示されます:
 
-<img src="images/quickbooks-login.png" alt="Quickbooks login prompt" width="60%"/>
+<img src="images/quickbooks-login.png" alt="Quickbooks login prompt" class="responsive-img"/>
 
 
 ログイン情報を入力するか、[Sign in with Google] (Googleでサインイン) を選択して、[Sign in] (サインイン) をクリックします。
@@ -13,7 +13,7 @@ ID 認証が有効な場合は、送信された*確認コード*を入力する
 
 ログイン後、次のダイアログで Quickbooks データを設定できます:
 
-<img src="images/set-up-data-quickbooks.png" alt="Set up your data dialog" width="80%"/>
+<img src="images/set-up-data-quickbooks.png" alt="Set up your data dialog" class="responsive-img"/>
 
 ここで、必要な Quickbooks エンティティを選択できます。
 

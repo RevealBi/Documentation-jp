@@ -29,7 +29,7 @@ Reveal で独自のテーマを作成するのは、新しい __$.ig.RevealTheme
 
 まず、以下は変更する前のサンプル ダッシュボードです。
 
-<img src="images/custom-theme-sample-before.png" alt="Image showing a Reveal dashboard before any theme changes" width="80%"/>
+<img src="images/custom-theme-sample-before.png" alt="Image showing a Reveal dashboard before any theme changes" class="responsive-img"/>
 
 次のコード スニペットでは、_revealTheme_ クラスの新しいインスタンスを作成し、必要な設定に変更を適用し、Reveal Web でテーマを更新する方法を確認できます。
 
@@ -63,9 +63,9 @@ $.ig.RevealSdkSettings.theme = revealTheme;
 
 テーマの変更を実装すると、ダッシュボードと表示形式エディターの両方の結果を確認できます。
 
-<img src="images/custom-theme-sample-after-dashboard.png" alt="Image showing a Reveal dashboard after theme changes" width="80%"/>
+<img src="images/custom-theme-sample-after-dashboard.png" alt="Image showing a Reveal dashboard after theme changes" class="responsive-img"/>
 
-<img src="images/custom-theme-sample-after-visualization.png" alt="Image showing a Reveal visualization after theme changes" width="80%"/>
+<img src="images/custom-theme-sample-after-visualization.png" alt="Image showing a Reveal visualization after theme changes" class="responsive-img"/>
 
 ### カラー タイプの使用
 

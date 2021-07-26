@@ -19,7 +19,7 @@ Reveal ワークスペースの機能:
 
 画面の左側、*Reveal* アイコンの下にあるワークスペースにアクセスできます。
 
-<img src="images/accessing-workspaces-menu.png" alt="Accessing workspaces popover menu" width="80%"/>
+<img src="images/accessing-workspaces-menu.png" alt="Accessing workspaces popover menu" class="responsive-img"/>
 
 ワークスペースのリストは、**アイテム**および**組織**パネルにあります。そこでは、新しいワークスペースを作成したり、既存のワークスペースに参加したりすることもできます。
 

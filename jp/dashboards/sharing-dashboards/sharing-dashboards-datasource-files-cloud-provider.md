@@ -28,7 +28,7 @@
 
 データ ソースを選択した時点でクラウド ファイルへのアクセスを許可して、表示形式を構築できます。[サポートされているクラウド プロバイダー](#cloud-providers)のいずれかにアップロードされたファイルを選択すると、次のダイアログが表示されます。
 
-<img src="images/allow-access-box-sharing.png" alt="Allow access checkbox in the Set up your file dialog" width="80%"/>
+<img src="images/allow-access-box-sharing.png" alt="Allow access checkbox in the Set up your file dialog" class="responsive-img"/>
 
 **[アクセスの許可]** チェックボックスが選択されていることを確認してください。選択されていない場合、共有可能なリンクは無効になります。
 
@@ -52,7 +52,7 @@
 
 クラウド ファイルをデータ ソースとして使用する 1 つ以上の表示形式を含むダッシュボードをワークスペースに保存することができます。これらのデータ ソース ファイルへの共有可能なリンクが作成されていない (無効になっている) 場合、Reveal はアクセスを許可するように求めます。
 
-<img src="images/save-dashboard-disabled-link-workspace.png" alt="Allow access to a dashboard with a disabled link when saving in a workspace" width="80%"/>
+<img src="images/save-dashboard-disabled-link-workspace.png" alt="Allow access to a dashboard with a disabled link when saving in a workspace" class="responsive-img"/>
 
 これにより、ワークスペースに保存したダッシュボードをすべてのワークスペース メンバーが確実に表示できるようになります。
 

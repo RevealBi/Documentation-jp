@@ -2,18 +2,18 @@
 
 条件付き書式を使用して数値列の値に応じて、セル (または[テキス トビュー](~/jp/data-visualizations/visualization-types/text-view.html)) の行に異なる書式を設定できます。たとえば、グリッドの下位 50% 範囲内の値は、非常に低い値を通知する赤色のアドナーで色を付けることができます。
 
-<img src="images/pivot-table-view-conditional-formatting.png" alt="Pivot table view conditional formatting in the Visualization editor" width="80%"/>
+<img src="images/pivot-table-view-conditional-formatting.png" alt="Pivot table view conditional formatting in the Visualization editor" class="responsive-img"/>
 
 条件付き書式の設定では、データの範囲ごとに、3 つまでの範囲に (一般的には、中央上部、下部範囲スタイル設定に使用) スタイル規則を設定することができます。低い値が適しているかどうかは情報の性質によります。状況に応じて最も理にかなった方法でスタイルを設定できる柔軟性があります。
 
-<img src="images/text-view-conditional-formatting.png" alt="Text view conditional formatting showing Marketing Metrics Visualization" width="80%"/>
+<img src="images/text-view-conditional-formatting.png" alt="Text view conditional formatting showing Marketing Metrics Visualization" class="responsive-img"/>
 
 ### 条件付き書式設定の有効化
 
 数値列で条件付き書式を有効にするには、**[フィールドの設定]** ダイアログボックスを表示するためにデータ エディターのフィールドを選択します。
 条件付き書式は、設定の最後のオプションであり、デフォルトでは無効になっています。
 
-<img src="images/conditional-formatting-configuration.png" alt="Conditional formatting configuration in Field settings menu" width="80%"/>
+<img src="images/conditional-formatting-configuration.png" alt="Conditional formatting configuration in Field settings menu" class="responsive-img"/>
 
   - **制限**: これらの値は自動的に指定された値の列のデータセット内の最高値/最低値として設定されますが、一定の値を使用して手動でオーバーライドすることができます。
 

@@ -6,7 +6,7 @@ Microsoft Azure Synapse データ ソースは、Reveal 内でビッグ デー�
 
 Microsoft Azure Synapse Analytics データ ソースを設定するには、以下の情報が必要です。
 
-<img src="images/synapse-azure-configuration.png" alt="Configuring azure synapse data source dialog" width="80%"/>
+<img src="images/synapse-azure-configuration.png" alt="Configuring azure synapse data source dialog" class="responsive-img"/>
 
 1. データ ソースの **デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Microsoft Azure SQL Synapse Analytics* という名前を付けます。好みに合わせて変更できます。
    

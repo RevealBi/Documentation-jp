@@ -2,7 +2,7 @@
 
 時系列チャートは、時系列でインデックス付けされたデータ ポイントを表示するために使用されます。傾向を一目で検出するために一般的に使用され、時間の経過に伴う開発を簡単に観察できます。
 
-<img src="images/time-series-chart.png" alt="Time Series chart within Reveal" width="80%"/>
+<img src="images/time-series-chart.png" alt="Time Series chart within Reveal" class="responsive-img"/>
 
 従来の折れ線チャートと非常によく似ていますが、時系列チャートには常に時間ベースの水平軸 (x 軸) があります。
 
@@ -10,7 +10,7 @@
 
 チャートの設定でトレンドラインの表示を有効にできます。このラインはアルゴリズムに基づいてチャートにラインを表示します。近似曲線でデータセットの傾向を把握し、意思決定のためのしきい値を定義できます。サポートされるトレンド ラインは、二次フィット、キュービック フィット、四次フィット、対数フィット、指数フィト、べき乗フィット、単純平均、指数平均、修正平均、累加平均、加重平均です。
 
-<img src="images/time-series-chart-trendlines.png" alt="Chart trendline options in Reveal" width="80%"/>
+<img src="images/time-series-chart-trendlines.png" alt="Chart trendline options in Reveal" class="responsive-img"/>
 
 ### 時系列チャートの設定
 
@@ -31,7 +31,7 @@
   - **コンパクトなラベルを選択できます**。
 この設定を使用すると、以下に示すように、チャートをズームするときに冗長なラベル情報を回避できます。
 
-<img src="images/time-series-chart-compact-labels.png" alt="Compact Lables in Time Series within Reveal" width="80%"/>
+<img src="images/time-series-chart-compact-labels.png" alt="Compact Lables in Time Series within Reveal" class="responsive-img"/>
 
 
 ### ズームとパンニング

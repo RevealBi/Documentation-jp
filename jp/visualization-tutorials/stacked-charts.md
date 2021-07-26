@@ -76,12 +76,12 @@
 
 |                                          |                                                                                                        |                                                                                                                                                                                                                                                 |
 | ---------------------------------------- | ------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **ダッシュボードを作成する**               | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Tutorials-Create-New-Dashboard" width="80%"/>                           | ダッシュボード ビューアーで、[ダッシュボード] 画面の右上隅にある [+ ダッシュボード] ボタンを選択します。                                                                                            |
-| 2\. **データ ソースを構成する**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" width="80%"/>                               | [新しい表示形式] ウィンドウで、右下隅の [+ データ ソース] ボタンを選択し、データ ソースを選択します。                                                                                                                                  |
-| 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-Stacked-Charts-Spreadsheet.png" alt="Tutorials-Select-Stacked-Charts-Spreadsheet" width="80%"/> | データ ソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。 次に、Stacked Charts シートを選択します。                                                                                                                       |
-| 4\. **表示形式メニューを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" width="80%"/>             | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                                                                                                          |
-| 5\. **表示形式を選択する**        | <img src="images/Tutorials-Stacked-Select-Visualization.png" alt="Tutorials-Stacked-Select-Visualization" width="80%"/>           | デフォルトで、表示形式のタイプは**グリッド**に設定されています。 **積層型**の表示形式のいずれかを選択します。                                                                                                                                           |
-| 6\. **データを構成する**               | <img src="images/Tutorials-Stacked-Charts-Organizing-Data.png" alt="Tutorials-Stacked-Charts-Organizing-Data" width="80%"/>       | 積層型チャートには 2 つ以上のフィールドをデータ エディターの [値] プレースホルダーにドラッグアンドドロップする必要があります。今の例で、1960、2003、2008 と 2010 を [値] へ、Country Name を [ラベル] にドラッグアンドドロップします。 |
+| 1\. **ダッシュボードを作成する**               | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img"/>                           | ダッシュボード ビューアーで、[ダッシュボード] 画面の右上隅にある [+ ダッシュボード] ボタンを選択します。                                                                                            |
+| 2\. **データ ソースを構成する**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" class="responsive-img"/>                               | [新しい表示形式] ウィンドウで、右下隅の [+ データ ソース] ボタンを選択し、データ ソースを選択します。                                                                                                                                  |
+| 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-Stacked-Charts-Spreadsheet.png" alt="Tutorials-Select-Stacked-Charts-Spreadsheet" class="responsive-img"/> | データ ソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。 次に、Stacked Charts シートを選択します。                                                                                                                       |
+| 4\. **表示形式メニューを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" class="responsive-img"/>             | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                                                                                                          |
+| 5\. **表示形式を選択する**        | <img src="images/Tutorials-Stacked-Select-Visualization.png" alt="Tutorials-Stacked-Select-Visualization" class="responsive-img"/>           | デフォルトで、表示形式のタイプは**グリッド**に設定されています。 **積層型**の表示形式のいずれかを選択します。                                                                                                                                           |
+| 6\. **データを構成する**               | <img src="images/Tutorials-Stacked-Charts-Organizing-Data.png" alt="Tutorials-Stacked-Charts-Organizing-Data" class="responsive-img"/>       | 積層型チャートには 2 つ以上のフィールドをデータ エディターの [値] プレースホルダーにドラッグアンドドロップする必要があります。今の例で、1960、2003、2008 と 2010 を [値] へ、Country Name を [ラベル] にドラッグアンドドロップします。 |
 
 <a name='change-chart-type'></a>
 ### 積層型チャートのタイプを変更する方法
@@ -90,8 +90,8 @@
 
 |                                      |                                                                                              |                                                                                                                                      |
 | ------------------------------------ | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| 1\. **表示形式メニューを開く** | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" width="80%"/>   | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                |
-| 2\. **表示形式を選択する**    | <img src="images/Tutorials-Stacked-Select-Visualization.png" alt="Tutorials-Stacked-Select-Visualization" width="80%"/> | 必要な積層型チャートのタイプを選択します。このセクションの上部に[各積層型チャートのタイプのプレビュー](#create-stacked-chart)があります。 |
+| 1\. **表示形式メニューを開く** | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" class="responsive-img"/>   | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                |
+| 2\. **表示形式を選択する**    | <img src="images/Tutorials-Stacked-Select-Visualization.png" alt="Tutorials-Stacked-Select-Visualization" class="responsive-img"/> | 必要な積層型チャートのタイプを選択します。このセクションの上部に[各積層型チャートのタイプのプレビュー](#create-stacked-chart)があります。 |
 
 <a name='change-axis-configuration'></a>
 ### 軸の構成を変更する方法
@@ -101,18 +101,18 @@
 
 |                                        |                                                                                      |                                                                                                                                       |
 | -------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **設定を変更する**                | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" width="80%"/>               | 表示形式エディターの **[設定]** セクションに移動します。                                                                           |
-| 2\. **範囲の設定へアクセスする** | <img src="images/Tutorials-Axis-Bounds.png" alt="Tutorials-Axis-Bounds" width="80%"/>                           | [軸範囲] に移動します。                                                                                                              |
-| 3\. **デフォルト選択を変更する**   | <img src="images/Tutorials-Change-Default-Selection.png" alt="Tutorials-Change-Default-Selection" width="80%"/> | 最大値または最小値 (または両方) 値を設定するかどうかに基づいて、チャートの開始値または終了値を入力します。 |
+| 1\. **設定を変更する**                | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>               | 表示形式エディターの **[設定]** セクションに移動します。                                                                           |
+| 2\. **範囲の設定へアクセスする** | <img src="images/Tutorials-Axis-Bounds.png" alt="Tutorials-Axis-Bounds" class="responsive-img"/>                           | [軸範囲] に移動します。                                                                                                              |
+| 3\. **デフォルト選択を変更する**   | <img src="images/Tutorials-Change-Default-Selection.png" alt="Tutorials-Change-Default-Selection" class="responsive-img"/> | 最大値または最小値 (または両方) 値を設定するかどうかに基づいて、チャートの開始値または終了値を入力します。 |
 
 <a name='set-logarithmic-axis'></a>
 ### 軸構成を対数的としての設定
 
 |                                           |                                                                          |                                                             |
 | ----------------------------------------- | ------------------------------------------------------------------------ | ----------------------------------------------------------- |
-| 1\. **設定を変更する**                   | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" width="80%"/>   | 表示形式エディターの **[設定]** セクションに移動します。 |
-| 2\. **軸のオプションへアクセスする**            | <img src="images/Tutorials-Axis-Bounds.png" alt="Tutorials-Axis-Bounds" width="80%"/>               | 下矢印を選択して、[軸] ドロップダウンを展開します。       |
-| 3\. **軸構成タイプを選択する** | <img src="images/Tutorials-Charts-Logarithmic.png" alt="Tutorials-Charts-Logarithmic" width="80%"/> | [対数] を選択します。                                       |
+| 1\. **設定を変更する**                   | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>   | 表示形式エディターの **[設定]** セクションに移動します。 |
+| 2\. **軸のオプションへアクセスする**            | <img src="images/Tutorials-Axis-Bounds.png" alt="Tutorials-Axis-Bounds" class="responsive-img"/>               | 下矢印を選択して、[軸] ドロップダウンを展開します。       |
+| 3\. **軸構成タイプを選択する** | <img src="images/Tutorials-Charts-Logarithmic.png" alt="Tutorials-Charts-Logarithmic" class="responsive-img"/> | [対数] を選択します。                                       |
 
 <a name='enable-percentage-distribution'></a>
 ### 百分率分布を有効する方法
@@ -121,5 +121,5 @@
 
 |                                        |                                                                                    |                                                                                           |
 | -------------------------------------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| 1\. **設定を変更する**                | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" width="80%"/>             | 表示形式エディターの **[設定]** セクションに移動します。                               |
-| 2\. **百分率分布を有効にする** | <img src="images/Tutorials-Percentage-Distribution.png" alt="Tutorials-Percentage-Distribution" width="80%"/> | [パーセンテージの配分] ボックスをチェックして、パーセンテージの配分設定を有効にします。|
+| 1\. **設定を変更する**                | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>             | 表示形式エディターの **[設定]** セクションに移動します。                               |
+| 2\. **百分率分布を有効にする** | <img src="images/Tutorials-Percentage-Distribution.png" alt="Tutorials-Percentage-Distribution" class="responsive-img"/> | [パーセンテージの配分] ボックスをチェックして、パーセンテージの配分設定を有効にします。|

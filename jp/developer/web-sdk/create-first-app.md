@@ -32,9 +32,9 @@ dialog](images/adding-new-package-source.png)
 
 その後、パッケージ ソースを追加したものに変更して Nuget をインストールできます。
 
-<img src="images/install-nuget.png" alt="installing the Nuget dialog" width="80%"/>
+<img src="images/install-nuget.png" alt="installing the Nuget dialog" class="responsive-img"/>
 
-<img src="images/preview-changes-dialog.png" alt="preview changes dialog" width="50%"/>
+<img src="images/preview-changes-dialog.png" alt="preview changes dialog" class="responsive-img"/>
 
 ### 手順 3 - サーバー構成の設定
 
@@ -103,28 +103,28 @@ dialog](images/adding-new-package-source.png)
 
 Reveal アプリ (<https://app.revealbi.io>) を開き、**サンプル**に移動します。
 
-<img src="images/accessing-marketing-dashboard.png" alt="accessing the marketing dashboard from Reveal samples" width="80%"/>
+<img src="images/accessing-marketing-dashboard.png" alt="accessing the marketing dashboard from Reveal samples" class="responsive-img"/>
 
 
 Marketing ダッシュボードを選択し、**編集モード**に入ります。
 
-<img src="images/reveal-marketing-dashboard-sample.png" alt="enter edit mode of marketing sample dashboard in Reveal app" width="80%"/>
+<img src="images/reveal-marketing-dashboard-sample.png" alt="enter edit mode of marketing sample dashboard in Reveal app" class="responsive-img"/>
 
 編集モードに入った後に \[テーマ\] ボタンをクリックします。
 
-<img src="images/marketing-dashboard-theme-button.png" alt="edit mode menu of the marketing dashboard" width="80%"/>
+<img src="images/marketing-dashboard-theme-button.png" alt="edit mode menu of the marketing dashboard" class="responsive-img"/>
 
 
 [Ocean テーマ] を選択します。
 
-<img src="images/dashboard-themes-ocean-theme.png" alt="edit mode menu of the marketing dashboard" width="80%"/>
+<img src="images/dashboard-themes-ocean-theme.png" alt="edit mode menu of the marketing dashboard" class="responsive-img"/>
 
 変更したダッシュボードを保存し、エクスポートします。
 
 > [!NOTE]
 > Marketing ダッシュボードは、Reveal アプリの**サンプル**の一部であるため、通常のダッシュボードと同じ方法で保存することはできません。代わりに、**[名前を付けて保存]** を使用して場所を選択する必要があります。
 
-<img src="images/export-marketing-dashboard-changed-theme.png" alt="export marketing dashboard menu" width="80%"/>
+<img src="images/export-marketing-dashboard-changed-theme.png" alt="export marketing dashboard menu" class="responsive-img"/>
 
 **Marketing.rdash** ダッシュボード ファイルを手順 3 で作成したダッシュボード フォルダーに移動し、Visual Studio でこのアイテムのビルド アクションを**埋め込みリソース**に設定します。
 
@@ -202,7 +202,7 @@ Marketing ダッシュボードを選択し、**編集モード**に入ります
 
 最後に、Web ページを実行すると、ダッシュボードが表示されます。
 
-<img src="images/marketing-dashboard-result.png" alt="marketing dashboard result in web page" width="80%"/>
+<img src="images/marketing-dashboard-result.png" alt="marketing dashboard result in web page" class="responsive-img"/>
 
 問題が発生した場合は、クライアント SDK [**セットアップと構成**](~/jp/developer/setup-configuration/setup-configuration-web.html)トピックを参照してください。
 
@@ -272,7 +272,7 @@ Reveal アプリは Roboto フォントを使用します。アプリと同じ�
 
 結果は以下のようになります。
 
-<img src="images/marketing-dashboard-new-font.png" alt="marketing dashboard loaded with the new font" width="80%"/>
+<img src="images/marketing-dashboard-new-font.png" alt="marketing dashboard loaded with the new font" class="responsive-img"/>
 
 ### 手順 6 - クライアント アプリケーションのスタイル設定
 
@@ -382,5 +382,5 @@ Reveal アプリは Roboto フォントを使用します。アプリと同じ�
 
 結果は以下のようになります。
 
-<img src="images/marketing-dashboard-style-client-application-result.png" alt="result after styling the client application" width="80%"/>
+<img src="images/marketing-dashboard-style-client-application-result.png" alt="result after styling the client application" class="responsive-img"/>
 

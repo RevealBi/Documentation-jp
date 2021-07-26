@@ -11,7 +11,7 @@
 
 その後、新しいデータ ソースを追加するか、既存の[データ ソース](~/jp/datasources/overview.md)を選択するように求められます。
 
-<img src="images/creating-new-visualization.png" alt="Creating a new visualization dialog" width="80%"/>
+<img src="images/creating-new-visualization.png" alt="Creating a new visualization dialog" class="responsive-img"/>
 
 データ ソースを選択して構成すると、[表示形式エディター](visualizations-editor.md)に移動し、表示形式の作成を開始できます。
 
@@ -33,7 +33,7 @@
 
 以下は、エディターのすべてのセクションとその機能のリストです。
 
-<img src="images/visualization-editor-panes.png" alt="Panes of the Visualization editor" width="80%"/>
+<img src="images/visualization-editor-panes.png" alt="Panes of the Visualization editor" class="responsive-img"/>
 
 1. **[データ] セクション** - このセクションには 2 つのパネルがあります。
 

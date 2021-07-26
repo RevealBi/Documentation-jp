@@ -51,38 +51,38 @@ Followers 表示形式はソーシャル メディア チャネルごとに分�
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、**[データを選択]** を押します。
 
-    <img src="images/SelectingSocialSheet_All.png" alt="SelectingSocialSheet\_All" width="80%"/>
+    <img src="images/SelectingSocialSheet_All.png" alt="SelectingSocialSheet\_All" class="responsive-img"/>
 
 
 
 2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、柱状チャートを選択します。
 
-    <img src="images/SelectColumnChart_All.png" alt="SelectColumnChart\_All" width="80%"/>
+    <img src="images/SelectColumnChart_All.png" alt="SelectColumnChart\_All" class="responsive-img"/>
 
 
 
 3.  データ エディターで、**Date** フィールドをラベルに、**Facebook Followers** と **Twitter Followers** フィールドを値にドラッグアンドドロップしします。
 
-    <img src="images/DragDropSocialFollowers_All.png" alt="DragDropSocialFollowers\_All" width="50%"/>
+    <img src="images/DragDropSocialFollowers_All.png" alt="DragDropSocialFollowers\_All" class="responsive-img"/>
 
 
 
 4.  デフォルトでは、Facebook と Twitter の両方のフォロワー数が小数第 2 位まで表されます。これを変更するには、**データ エディターで [フィールド] を選択し**、**[書式設定]** で両方のフィールドの **[小数の桁]** を **[0]** に変更します。
 
-    <img src="images/SocialFollowersFractionDigits_All.png" alt="SocialFollowersFractionDigits\_All" width="80%"/>
+    <img src="images/SocialFollowersFractionDigits_All.png" alt="SocialFollowersFractionDigits\_All" class="responsive-img"/>
 
 
 
 5.  サンプル フォロワーの表示形式では、日付は月として表示されています。
     ラベルの **[日付]** フィールドを選択し、**[日付の集計]** を **[月]** に設定します。次に、**[フィールドの更新]** を選択します。
 
-    <img src="images/SocialFollowersDateFilter_All.png" alt="SocialFollowersDateFilter\_All" width="80%"/>
+    <img src="images/SocialFollowersDateFilter_All.png" alt="SocialFollowersDateFilter\_All" class="responsive-img"/>
 
 
 
 6.  **[日付フィルター]** で **[接続]** を選択し、表示形式を既存のダッシュボード フィルターに接続します。このメニューは、Social Dashboard の上にあります。
 
-    <img src="images/SocialFollowersConnectDateFilter_All.png" alt="SocialFollowersConnectDateFilter\_All" width="80%"/>
+    <img src="images/SocialFollowersConnectDateFilter_All.png" alt="SocialFollowersConnectDateFilter\_All" class="responsive-img"/>
 
 
 
@@ -94,25 +94,25 @@ YTD Facebook Followers 表示形式は、[テキスト ゲージ](~/jp/data-visu
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、**[データを選択]** を押します。
 
-    <img src="images/SelectingSocialSheet_All.png" alt="SelectingSocialSheet\_All" width="80%"/>
+    <img src="images/SelectingSocialSheet_All.png" alt="SelectingSocialSheet\_All" class="responsive-img"/>
 
 
 
 2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、テキストを選択します。
 
-    <img src="images/SelectTextGauge_All.png" alt="SelectTextGauge\_All" width="80%"/>
+    <img src="images/SelectTextGauge_All.png" alt="SelectTextGauge\_All" class="responsive-img"/>
 
 
 
 3.  データエディターで、**Facebook Followers** フィールドを値プレースホルダにドラッグアンドドロップします。
 
-    <img src="images/DragDropSocialFacebookFollowers_All.png" alt="DragDropSocialFacebookFollowers\_All" width="50%"/>
+    <img src="images/DragDropSocialFacebookFollowers_All.png" alt="DragDropSocialFacebookFollowers\_All" class="responsive-img"/>
 
 
 
 4.  **[日付フィルター]** で **[接続]** を選択し、表示形式を既存のダッシュボード フィルターに接続します。このメニューは、ソーシャル ダッシュボードの上にあります。
 
-    <img src="images/SocialYTDFacebookFollowersConnectDateFilter_All.png" alt="SocialYTDFacebookFollowersConnectDateFilter\_All" width="80%"/>
+    <img src="images/SocialYTDFacebookFollowersConnectDateFilter_All.png" alt="SocialYTDFacebookFollowersConnectDateFilter\_All" class="responsive-img"/>
 
 
 
@@ -124,37 +124,37 @@ Monthly Facebook Likes 表示形式は、[折れ線チャート](~/jp/visualizat
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、**[データを選択]** を押します。
 
-    <img src="images/SelectingSocialSheet_All.png" alt="SelectingSocialSheet\_All" width="80%"/>
+    <img src="images/SelectingSocialSheet_All.png" alt="SelectingSocialSheet\_All" class="responsive-img"/>
 
 
 
 2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、折れ線チャートを選択します。
 
-    <img src="images/SelectLineChart_All.png" alt="SelectLineChart\_All" width="80%"/>
+    <img src="images/SelectLineChart_All.png" alt="SelectLineChart\_All" class="responsive-img"/>
 
 
 
 3.  データ エディターで、**Date** フィールドを [ラベル] にドラッグアンドドロップし、**Likes** をデータ エディターの [値] プレースホルダーにドラッグアンドドロップします。
 
-    <img src="images/DragDropSocialMonthlyLikes_All.png" alt="DragDropSocialMonthlyLikes\_All" width="50%"/>
+    <img src="images/DragDropSocialMonthlyLikes_All.png" alt="DragDropSocialMonthlyLikes\_All" class="responsive-img"/>
 
 
 
 4.  月ごとの Facebook いいね! のサンプル表示形式では、日付は月として表示されます。ラベルの **[日付]** フィールドを選択し、**[日付の集計]** を **[月]** に設定します。次に、**[フィールドの更新]** を選択します。
 
-    <img src="images/SocialMonthlyLikesDateFilter_All.png" alt="SocialMonthlyLikesDateFilter\_All" width="80%"/>
+    <img src="images/SocialMonthlyLikesDateFilter_All.png" alt="SocialMonthlyLikesDateFilter\_All" class="responsive-img"/>
 
 
 
 5.  デフォルトで、いいね! は小数第 2 位まで表されます。これを変更するには、**[データ エディター] で [フィールド] を選択し**、**[書式設定]** で両方のフィールドの **[小数の桁]** を **[0]** に変更します。
 
-    <img src="images/SocialMonthlyFacebookLikes_All.png" alt="SocialMonthlyFacebookLikes\_All" width="80%"/>
+    <img src="images/SocialMonthlyFacebookLikes_All.png" alt="SocialMonthlyFacebookLikes\_All" class="responsive-img"/>
 
 
 
 6.  同じ表示形式サンプルの色にマッチするために、**[開始色]** を **[表示形式設定] ペイン**で 2 番目の色に設定します。
 
-    <img src="images/SocialMonthlyFacebookLikesStartColor_All.png" alt="SocialMonthlyFacebookLikesStartColor\_All" width="80%"/>
+    <img src="images/SocialMonthlyFacebookLikesStartColor_All.png" alt="SocialMonthlyFacebookLikesStartColor\_All" class="responsive-img"/>
 
 
 7.  **[日付フィルター]** で **[接続]** を選択し、表示形式を既存のダッシュボード フィルターに接続します。このメニューは、ソーシャル ダッシュボードの上にあります。
@@ -167,37 +167,37 @@ Retweets &amp; Favorites の表示形式は[柱状チャート](~/jp/visualizati
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。新しい表示形式ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、**[データを選択]** を押します。
 
-    <img src="images/SelectingSocialSheet_All.png" alt="SelectingSocialSheet\_All" width="80%"/>
+    <img src="images/SelectingSocialSheet_All.png" alt="SelectingSocialSheet\_All" class="responsive-img"/>
 
 
 2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、柱状チャートを選択します。
 
-    <img src="images/SelectColumnChart_All.png" alt="SelectColumnChart\_All" width="80%"/>
+    <img src="images/SelectColumnChart_All.png" alt="SelectColumnChart\_All" class="responsive-img"/>
 
 
 3.  データ エディターで、**Date** フィールドを [ラベル] に、**Retweets** と **Favorites** フィールドを [値] にドラッグアンドドロップします。
 
-    <img src="images/DragDropRetweetsFavorites_All.png" alt="DragDropRetweetsFavorites\_All" width="50%"/>
+    <img src="images/DragDropRetweetsFavorites_All.png" alt="DragDropRetweetsFavorites\_All" class="responsive-img"/>
 
 
 4.  リツイート＆お気に入りのサンプル表示形式では、日付は月として表示されます。ラベルの **[日付]** フィールドを選択し、**[日付の集計]** を **[月]** に設定します。次に、**[フィールドの更新]** を選択します。
 
-    <img src="images/SocialRetweetsFavoritesDateFilter_All.png" alt="SocialRetweetsFavoritesDateFilter\_All" width="80%"/>
+    <img src="images/SocialRetweetsFavoritesDateFilter_All.png" alt="SocialRetweetsFavoritesDateFilter\_All" class="responsive-img"/>
 
 
 5.  デフォルトで、リツイート＆お気に入りはで小数第2位まで表示されます。これを変更するには、[データ エディター] で [フィールド] を選択し、**[書式設定]** で両方のフィールドの **[小数の桁]** を **[0]** に変更します。
 
-    <img src="images/SocialRetweetsFavoritesFractionDigits_All.png" alt="SocialRetweetsFavoritesFractionDigits\_All" width="80%"/>
+    <img src="images/SocialRetweetsFavoritesFractionDigits_All.png" alt="SocialRetweetsFavoritesFractionDigits\_All" class="responsive-img"/>
 
 
 6.  同じ表示形式サンプルの色にあわせるために、**[設定]** セクションに移動し、開始色を 6 番目の色に変更します。
 
-    <img src="images/SocialRetweetsFavoritesStartColor_All.png" alt="SocialRetweetsFavoritesStartColor\_All" width="80%"/>
+    <img src="images/SocialRetweetsFavoritesStartColor_All.png" alt="SocialRetweetsFavoritesStartColor\_All" class="responsive-img"/>
 
 
 7.  **[日付フィルター]** で **[接続]** を選択し、表示形式を既存のダッシュボード フィルターに接続します。このメニューは、Social Dashboard の上にあります。
 
-    <img src="images/SocialRetweetsFavoritesConnectDateFilter_All.png" alt="SocialRetweetsFavoritesConnectDateFilter\_All" width="80%"/>
+    <img src="images/SocialRetweetsFavoritesConnectDateFilter_All.png" alt="SocialRetweetsFavoritesConnectDateFilter\_All" class="responsive-img"/>
 
 
 8.  **表示形式のタイトルを Retweets &amp; Favorites に変更する**ため、Social Dashboard の横にある**鉛筆アイコンを選択します**。完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
@@ -208,32 +208,32 @@ Facebook Reach vs. Impressions の数表示形式は[エリア チャート](~/j
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、**[データを選択]** を押します。
 
-    <img src="images/SelectingSocialSheet_All.png" alt="SelectingSocialSheet\_All" width="80%"/>
+    <img src="images/SelectingSocialSheet_All.png" alt="SelectingSocialSheet\_All" class="responsive-img"/>
 
 
 2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、エリア型チャートを選択します。
 
-    <img src="images/SelectAreaChart_All.png" alt="SelectAreaChart\_All" width="80%"/>
+    <img src="images/SelectAreaChart_All.png" alt="SelectAreaChart\_All" class="responsive-img"/>
 
 
 3.  [データ エディター] で、**Date** フィールドを [ラベル] に、**Post Reach** と **Impressions** をデータ エディターの [値] プレースホルダーにドラッグアンドドロップします。
 
-    <img src="images/DragDropReachImpressions_All.png" alt="DragDropReachImpressions\_All" width="50%"/>
+    <img src="images/DragDropReachImpressions_All.png" alt="DragDropReachImpressions\_All" class="responsive-img"/>
 
 
 4.  Facebook リーチ vs. インプレションのサンプル表示形式では、日付は月として表示されます。ラベルの **[日付]** フィールドを選択し、**[日付の集計]** を **[月]** に設定します。次に、**[フィールドの更新]** を選択します。
 
-    <img src="images/SocialReachVsImpressionsDateFilter_All.png" alt="SocialReachVsImpressionsDateFilter\_All" width="80%"/>
+    <img src="images/SocialReachVsImpressionsDateFilter_All.png" alt="SocialReachVsImpressionsDateFilter\_All" class="responsive-img"/>
 
 
 5.  デフォルトでは、ポスト リーチ vs. インプレションは小数第 2 位まで表示されます。これを変更するには、**[データ エディター] で [フィールド] を選択し**、**[書式設定]** で両方のフィールドの **[小数の桁]** を **[0]** に変更します。
 
-    <img src="images/SocialPostReachImpressions_All.png" alt="SocialPostReachImpressions\_All" width="80%"/>
+    <img src="images/SocialPostReachImpressions_All.png" alt="SocialPostReachImpressions\_All" class="responsive-img"/>
 
 
 6.  **[日付フィルター]** で **[接続]** を選択し、表示形式を既存のダッシュボード フィルターに接続します。このメニューは、Social Dashboard の上にあります。
 
-    <img src="images/SocialReachImpressionsConnectDateFilter_All.png" alt="SocialReachImpressionsConnectDateFilter\_All" width="80%"/>
+    <img src="images/SocialReachImpressionsConnectDateFilter_All.png" alt="SocialReachImpressionsConnectDateFilter\_All" class="responsive-img"/>
 
 
 7.  **表示形式のタイトルを Facebook Reach vs. Impressions に変更する**ため、Social Dashboard の横にある**鉛筆アイコンを選択します。**
@@ -246,32 +246,32 @@ Monthly Twitter Mentions の表示形式は、[折れ線チャート](~/jp/visua
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data inDashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Social Dashboard** オプションが選択されていることを確認し、**[データを選択]** を押します。
 
-    <img src="images/SelectingSocialSheet_All.png" alt="SelectingSocialSheet\_All" width="80%"/>
+    <img src="images/SelectingSocialSheet_All.png" alt="SelectingSocialSheet\_All" class="responsive-img"/>
 
 
 2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、折れ線チャートを選択します。
 
-    <img src="images/SelectLineChart_All.png" alt="SelectLineChart\_All" width="80%"/>
+    <img src="images/SelectLineChart_All.png" alt="SelectLineChart\_All" class="responsive-img"/>
 
 
 3.  データ エディターで、**Date** フィールドを [ラベル] に、**Mentions** をデータ エディターの [値] プレースホルダーにドラッグアンドドロップします。月ごと Twitter メンションのサンプル表示形式では、日付は月として表示されます。
 
-    <img src="images/DragDropMonthlyTwitterMentions_All.png" alt="DragDropMonthlyTwitterMentions\_All" width="50%"/>
+    <img src="images/DragDropMonthlyTwitterMentions_All.png" alt="DragDropMonthlyTwitterMentions\_All" class="responsive-img"/>
 
 
 4.  ラベルの **[日付]** フィールドを選択し、**[日付の集計]** を **[月]** に設定します。次に、**[フィールドの更新]** を選択します。
 
-    <img src="images/SocialMonthlyTwitterMentions_All.png" alt="SocialMonthlyTwitterMentions\_All" width="80%"/>
+    <img src="images/SocialMonthlyTwitterMentions_All.png" alt="SocialMonthlyTwitterMentions\_All" class="responsive-img"/>
 
 
 5.  デフォルトで、メンションは小数第 2 位まで表示されます。これを変更するには、**[データ エディター] で [フィールド] を選択し**、**[書式設定]** で両方のフィールドの **[小数の桁]** を **[0]** に変更します。
 
-    <img src="images/SocialMentionsFractionDigits_All.png" alt="SocialMentionsFractionDigits\_All" width="80%"/>
+    <img src="images/SocialMentionsFractionDigits_All.png" alt="SocialMentionsFractionDigits\_All" class="responsive-img"/>
 
 
 6.  **[日付フィルター]** で **[接続]** を選択し、表示形式を既存のダッシュボード フィルターに接続します。このメニューは、Social Dashboard の上にあります。
 
-    <img src="images/SocialMonthlyTwitterMentionConnectDateFilter_All.png" alt="SocialMonthlyTwitterMentionConnectDateFilter\_All" width="80%"/>
+    <img src="images/SocialMonthlyTwitterMentionConnectDateFilter_All.png" alt="SocialMonthlyTwitterMentionConnectDateFilter\_All" class="responsive-img"/>
 
 
 7.  **表示形式のタイトルを Monthly Twitter Mentions に変更する**ため、Social Dashboard の横にある**鉛筆アイコンを選択します**。完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。

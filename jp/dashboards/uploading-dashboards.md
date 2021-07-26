@@ -4,7 +4,7 @@ Reveal では、直接アップロードしてコンピューター/デバイス
 
 1.  **[+ ダッシュボード]** 分割ボタンの右側にある矢印を選択し、**[アップロード]** を選択します。
 
-    <img src="images/upload-create-folder-menu.png" alt="Upload option" width="80%"/>
+    <img src="images/upload-create-folder-menu.png" alt="Upload option" class="responsive-img"/>
 
 2.  ローカル ファイルを表示するダイアログが開きます。アップロードするダッシュボードをダブル クリック/タップします。Reveal ダッシュボードのファイル拡張子は **.rdash** です。
     >[!NOTE]

@@ -4,7 +4,7 @@
 
 ウェブ リソース データ ソースを構成するには、以下の情報が必要です。
 
-<img src="images/enter-web-resource-details.png" alt="Configure Web resource connection" width="80%"/>
+<img src="images/enter-web-resource-details.png" alt="Configure Web resource connection" class="responsive-img"/>
 
 1.  データ ソースの**デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は**ウェブ リソース**という名前を付けます。好みに合わせて変更できます。
 

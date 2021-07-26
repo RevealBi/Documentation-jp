@@ -8,7 +8,7 @@ Reveal は、さまざまな表示形式を提供することにより、ビジ�
 
 以下に示すダッシュボードには、製造のさまざまな側面を分析する多様な表示形式が含まれています。
 
-<img src="images/data-visualizations-example.png" alt="Reveal's log in screen" width="80%"/>
+<img src="images/data-visualizations-example.png" alt="Reveal's log in screen" class="responsive-img"/>
 
 ### 適切なチャート タイプの選択
 

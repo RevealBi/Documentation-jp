@@ -19,7 +19,7 @@
 
 ワークスペースを選択 > オーバーフロー メニューをクリック/タップ > **[メンバーの管理]** を選択します (以下を参照)。
 
-<img src="images/manage-workspace-members.png" alt="manage workspace members menu" width="80%"/>
+<img src="images/manage-workspace-members.png" alt="manage workspace members menu" class="responsive-img"/>
 
 このメニューでは、ユーザーのロールを変更し、メンバーを削除または追加できます。
 
@@ -29,7 +29,7 @@
 2. ユーザーのロールの右側にチェックボックスが表示されます。
 3.  画面下部中央のメニューからゴミ箱アイコンまたは役割を選択します。
 
-<img src="images/select-role-menu.png" alt="select role menu at the bottom center in manage members" width="80%"/>
+<img src="images/select-role-menu.png" alt="select role menu at the bottom center in manage members" class="responsive-img"/>
 
 
 <a name='manage-workspace-properties'></a>
@@ -58,7 +58,7 @@
 
 ワークスペースの[設定](#manage-workspace-properties)に移動 > [閉じる] ボタンの横にあるオーバーフロー ボタンをクリック/タップ > **[ワークスペースの削除]** を選択します。
 
-<img src="images/delete-workspace.png" alt="delete workspace button" width="80%"/>
+<img src="images/delete-workspace.png" alt="delete workspace button" class="responsive-img"/>
 
 ワークスペースを削除すると、ワークスペースのすべてのコンテンツが消えます。
 

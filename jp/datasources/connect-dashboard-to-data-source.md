@@ -4,7 +4,7 @@ Reveal では、ダッシュボードの作成[前](overview.html)または作�
 
 アプリケーションにまだ追加していないデータ ソースを使用して作成されたダッシュボードは、初めて開いたときに次のようになります: 
 
-<img src="images/dashboard-own-data-sources.png" alt="A dashboard not connected to its data source" width="80%"/>
+<img src="images/dashboard-own-data-sources.png" alt="A dashboard not connected to its data source" class="responsive-img"/>
 
 各表示形式には [<データ ソース名> にログイン] ボタンがあり、使用する**データ ソースに接続**できます。そのためには次の手順を実行します:
 
@@ -15,12 +15,12 @@ Reveal では、ダッシュボードの作成[前](overview.html)または作�
 
 完全なダッシュボードが*ダッシュボードのビュー* モードで表示されます。
 
-<img src="images/final-dashboard-own-data-source.png" alt="Final look of the dashboard after connecting to its data source" width="80%"/>
+<img src="images/final-dashboard-own-data-source.png" alt="Final look of the dashboard after connecting to its data source" class="responsive-img"/>
 
 >[!NOTE]
 > [データ ソースの接続] ダイアログに、データ ソースの資格情報のリストがある場合があります (下のスクリーンショットを参照)。これらは、他のソース アカウントへのログインに使用した資格情報、または [[Reveal 資格情報の管理]](~/jp/datasources/managing-data-source-credentials.html) メニューで事前に追加した資格情報です。
 
-<img src="images/credentials-list-connect.png" alt="A list of ready credentials in the Connect Data Source dialog" width="80%"/>
+<img src="images/credentials-list-connect.png" alt="A list of ready credentials in the Connect Data Source dialog" class="responsive-img"/>
 
 別のデータ ソースで作成された表示形式がダッシュボードにある場合でも、それらを表示するには、そのデータ ソースに接続する必要があります。
 

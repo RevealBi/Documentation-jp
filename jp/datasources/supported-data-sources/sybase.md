@@ -7,7 +7,7 @@
 
 Sybase サーバー データ ソースを構成するには、以下の情報が必要です。
 
-<img src="images/enter-sybase-server-details.png" alt="Configure Sybase database connection" width="80%"/>
+<img src="images/enter-sybase-server-details.png" alt="Configure Sybase database connection" class="responsive-img"/>
 
 1.  **データ ソース名**: このフィールドはデータ ソース リストに表示されます。デフォルト名: *Sybase*。
 
@@ -52,11 +52,11 @@ Sybase サーバー データ ソースを構成するには、以下の情報�
 
 Reveal を使用すると、テーブル全体から Sybase データを取得できますが、代わりにテーブルまたはテーブルのセットからデータのサブセットを返す特定の[ビュー (英語)](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X29678.htm) を選択することもできます。
 
-<img src="images/sybase-views.png" alt="Select from Sybase views dialog" width="80%"/>
+<img src="images/sybase-views.png" alt="Select from Sybase views dialog" class="responsive-img"/>
 
 たとえば、**Category Sales for 1997** ビューには、データベース内のテーブルの 1 つから取得した営業予測に関する情報が含まれています。
 
-<img src="images/sales-projection-sample.png" alt="Sales Projection Sample dashboard" width="80%"/>
+<img src="images/sales-projection-sample.png" alt="Sales Projection Sample dashboard" class="responsive-img"/>
 
 ビューおよび Sybase の詳細については、[このドキュメント Web サイト (英語)](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X29678.htm) を参照してください。
 
@@ -64,10 +64,10 @@ Reveal を使用すると、テーブル全体から Sybase データを取得�
 
 Sybase では、保管されたプロシージャを使用すると、特定のパラメーターを使用してリレーショナル データベースで一連のクエリ ステートメントを実行できます。以下は、マスター データベースのデータを使用してテスト サーバーで実行されるサンプル 保管されたプロシージャのセットです。
 
-<img src="images/sybase-stored-procedures.png" alt="Select from Sybase Stored Procedures dialog" width="80%"/>
+<img src="images/sybase-stored-procedures.png" alt="Select from Sybase Stored Procedures dialog" class="responsive-img"/>
 
 この場合では、保管されたプロシージャでユーザーが時間範囲の値を設定する必要があります。
 
-<img src="images/stored-procedure-sample-dates.png" alt="Stored Procedure select dates" width="80%"/>
+<img src="images/stored-procedure-sample-dates.png" alt="Stored Procedure select dates" class="responsive-img"/>
 
 ストアドプロシージャーおよび Sybase の詳細については、[この Web サイト (英語)](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X39397.htm) を参照してください。

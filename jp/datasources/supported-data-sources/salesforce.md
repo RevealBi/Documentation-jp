@@ -12,7 +12,7 @@ ID 認証が有効な場合は、送信された**確認コード**を入力す�
 
 ログイン後、次のダイアログで Salesforce データを設定できます。
 
-<img src="images/set-up-data-salesforce.png" alt="Set up your data dialog" width="80%"/>
+<img src="images/set-up-data-salesforce.png" alt="Set up your data dialog" class="responsive-img"/>
 
 ここで、必要な Salesforce オブジェクトを選択できます。
 
@@ -24,7 +24,7 @@ ID 認証が有効な場合は、送信された**確認コード**を入力す�
 
 表示形式エディターで使用するレポートを選択した後、次のダイアログでパラメーターの値を設定する必要があります:
 
-<img src="images/filters-set-dialog.png" alt="A dialog showing filters from Salesforce to be configured" width="80%"/>
+<img src="images/filters-set-dialog.png" alt="A dialog showing filters from Salesforce to be configured" class="responsive-img"/>
 
 リストに表示されるパラメーター (_Show me_、_Probability_ など) は、レポートのフィルターです。レポート フィルターは、ユーザーがレポートに表示するデータを制御するために設定された条件です。Reveal では、フィルタリングされたデータは、表示形式エディターのチャートで使用されます。
 
@@ -32,4 +32,4 @@ ID 認証が有効な場合は、送信された**確認コード**を入力す�
 
 その後、データ ソースを [編集] を選択することで、表示形式エディターでレポート フィルターの値を変更できます (以下を参照)。
 
-<img src="images/edit-salesforce-data-source.png" alt="Edit your data source in the Visualization editor" width="80%"/>
+<img src="images/edit-salesforce-data-source.png" alt="Edit your data source in the Visualization editor" class="responsive-img"/>

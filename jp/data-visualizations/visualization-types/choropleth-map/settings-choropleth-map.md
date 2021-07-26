@@ -25,7 +25,7 @@
 
 Reveal で日本語のデータセットを使用し、言語および地域設定が日本語に設定されていない場合、Reveal が日本語 (_ja_) に切り替えてデータセットの言語を認識するために **[データの言語]** 設定を使用する必要があります。
 
-<img src="images/japanese-data-language.png" alt="Set the Language of Data to Japanese" width="80%"/>
+<img src="images/japanese-data-language.png" alt="Set the Language of Data to Japanese" class="responsive-img"/>
 
 
 #### ラベルの言語

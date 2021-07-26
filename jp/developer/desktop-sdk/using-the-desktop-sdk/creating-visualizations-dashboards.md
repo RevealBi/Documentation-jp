@@ -42,7 +42,7 @@ revealView.DataSourcesRequested += RevealView_DataSourcesRequested
 
 3 番目のパラメータの false 値は、ダッシュボード上の既存のデータ ソースが表示されないようにします。そのため、[+] ボタンを使用して新しいウィジェットを作成すると、以下の画面が表示されます。
 
-<img src="images/displayingDataSources_web.png" alt="displayingDataSources\_web" width="60%"/>
+<img src="images/displayingDataSources_web.png" alt="displayingDataSources\_web" class="responsive-img"/>
 
 RVInMemoryDataSourceItem コンストラクタに渡される employees パラメーターは[**インメモリ データのサポート**](in-memory-data.html)で使用されているコンストラクタと同じデータセット ID で、返されるデータセットを識別します。
 

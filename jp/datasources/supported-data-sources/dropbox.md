@@ -2,7 +2,7 @@
 
 Dropbox を選択すると、以下のログイン プロンプトが表示されます。
 
-<img src="images/dropbox-login.png" alt="Dropbox login dialog" width="80%"/>
+<img src="images/dropbox-login.png" alt="Dropbox login dialog" class="responsive-img"/>
 
 ログイン情報を入力して [ログイン] を選択します。
 

@@ -3,7 +3,7 @@
 Reveal へようこそ！
 アプリを開くとき、さまざまなログイン オプションが表示されます。
 
-<img src="images/log-in-screen.png" alt="Reveal's log in screen" width="80%"/>
+<img src="images/log-in-screen.png" alt="Reveal's log in screen" class="responsive-img"/>
 
 開始前に、Reveal で**組織**に参加できることを考慮してください。組織のメンバーは、組織のメール アドレスでログインする必要があります。Google または Microsoft (O365) を選択し、組織ワークスペースに関連付けられます。または、iCloud (Apple) アカウントの資格情報を使用してログインできます。
 
@@ -16,7 +16,7 @@ Reveal へのサインインに使用したアカウントに応じて、OneDriv
 
 開始するときに、初期画面が表示されます。
 
-<img src="images/reveal-initial-view.png" alt="First screen in Reveal with numbering added" width="80%"/>
+<img src="images/reveal-initial-view.png" alt="First screen in Reveal with numbering added" class="responsive-img"/>
 
 **アイテム**の個人用スペースで開始します。以下は、この初期画面のクイック リファレンスです。
 
@@ -40,7 +40,7 @@ Reveal へのサインインに使用したアカウントに応じて、OneDriv
 
 アプリケーションの使用を開始すると、以下のようになります。
 
-<img src="images/reveal-initial-view-content.png" alt="First screen in Reveal with content" width="80%"/>
+<img src="images/reveal-initial-view-content.png" alt="First screen in Reveal with content" class="responsive-img"/>
 
 **フィルター** - ダッシュボードがあれば、ドロップダウン メニューから、ダッシュボード モジュールに表示するダッシュボードを選択します: **すべて**のダッシュボード、自分で作成したダッシュボード、あるいは共有しているダッシュボードです。
 

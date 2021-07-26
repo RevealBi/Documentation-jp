@@ -8,7 +8,7 @@ Reveal では、ダッシュボードを PowerPoint 形式でエクスポート�
 
 ### エクスポート設定
 
-<img src="images/export-settings-powerpoint.png" alt="Settings for PowerPoint presentation in the Export Dashboard menu" width="80%"/>
+<img src="images/export-settings-powerpoint.png" alt="Settings for PowerPoint presentation in the Export Dashboard menu" class="responsive-img"/>
 
 **[ダッシュボード エクスポート]** ダイアログでは、次の設定を管理できます:
 

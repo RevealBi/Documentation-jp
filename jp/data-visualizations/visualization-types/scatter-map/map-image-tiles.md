@@ -2,11 +2,11 @@
 
 **画像タイル**機能を使用して、ズーム時に Reveal のクリア グレーの背景から別のマップ レイヤーに切り替えることができます。マップ サービス プロバイダーから提供される追加の詳細は、分析のコンテキストを提供します。
 
-<img src="images/scatter-map-zoomed-tile-providers.png" alt="Scatter map in Dashboard View mode using zoom" width="80%"/>
+<img src="images/scatter-map-zoomed-tile-providers.png" alt="Scatter map in Dashboard View mode using zoom" class="responsive-img"/>
 
 **表示形式エディターの設定**で提供される**スライダー**を使用して、画像タイルを使用するために移行するズーム レベルを指定できます。左から右へスライドすると、トランジションの瞬間が最小ズームから最大ズームに変更されます。
  
-<img src="images/tile-source-zoom-slider.png" alt="Zoom level slider in the Visualization Editor Settings" width="50%"/>
+<img src="images/tile-source-zoom-slider.png" alt="Zoom level slider in the Visualization Editor Settings" class="responsive-img"/>
 
 
 <a name='adding-image-tiles'></a>
@@ -17,7 +17,7 @@
 1. 表示形式エディターの [設定] で [背景] に移動し、[画像タイルの使用] ボックスがチェックされていることを確認します。
 2. タイル プロバイダーが構成されていない場合、表示されるバナーのボタンをクリックします (以下のスクリーンショットを参照)。
 
-    <img src="images/configure-tile-provide-banner-button.png" alt="Yellow banner in settings prompting users to configure a tile provider on member or organization level" width="80%"/>
+    <img src="images/configure-tile-provide-banner-button.png" alt="Yellow banner in settings prompting users to configure a tile provider on member or organization level" class="responsive-img"/>
    
     ここには、タイル プロバイダーを構成するための 3 つのレベルがあります。
 
@@ -29,7 +29,7 @@
 
     開いたダイアログは、すべてのレベルで同様です。このダイアログは、**個人設定**または**ワークスペース/組織の設定**でも確認できます。
 
-    <img src="images/tile-provider-settings-personal.png" alt="Map Image Tiles Personal settings" width="80%"/>
+    <img src="images/tile-provider-settings-personal.png" alt="Map Image Tiles Personal settings" class="responsive-img"/>
 
     >[!NOTE]
     >組織/ワークスペース レベルでタイル プロバイダーを設定する: 組織/ワークスペースの*管理者*である場合のみ、組織またはワークスペース レベルでタイル プロバイダーを構成できます。これにより、このワークスペース/組織のすべてのメンバーが構成したタイル プロバイダーを使用できるようになります。
@@ -45,7 +45,7 @@
      
     * **[指定なし]** オプションは、選択したレベル (個人用、ワークスペース、または組織) でタイル プロバイダーの使用を無効にしますが、他のユーザーに通知しません。以下のバナーは、すべてのレベルで [指定なし] オプションを選択した場合にのみ表示されます。
     
-        <img src="images/not-specified-all-levels-yellow-banner.png" alt="Yellow banner message prompting users to set up a tile provider" width="80%"/>
+        <img src="images/not-specified-all-levels-yellow-banner.png" alt="Yellow banner message prompting users to set up a tile provider" class="responsive-img"/>
     
     ただし、[指定なし] オプションを使用すると、使用するタイル プロバイダーを決定する際に Reveal はこのレベルを無視します。詳細については、[「Reveal は使用するタイル ソース プロバイダーをどのように決定しますか?」](#resolution-process)を参照してください。
  

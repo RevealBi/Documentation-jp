@@ -6,7 +6,7 @@ Reveal の Amazon Athena データ ソースを使用すると、[Amazon S3](ama
 
 Amazon Athena のデータ ソースを設定するには、以下の情報が必要です:
 
-<img src="images/configure-amazon-athena-dialog.png" alt="Configure Amazon Athena dialog" width="80%"/>
+<img src="images/configure-amazon-athena-dialog.png" alt="Configure Amazon Athena dialog" class="responsive-img"/>
 
 1.  データ ソースの **デフォルト名**: データ ソース名は [データ ソースの選択] ダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Amazon Athena* という名前を付けます。好みに合わせて変更できます。
    
@@ -32,14 +32,14 @@ Amazon Athena のデータ ソースを設定するには、以下の情報が�
 
 Athena データ ソース接続を構成した後、前のダイアログで選択したデータ ソース (カタログ) からデータベースを選択するように求められます。
 
-<img src="images/athena-set-up-database-views.png" alt="Configure Amazon Athena dialog" width="80%"/>
+<img src="images/athena-set-up-database-views.png" alt="Configure Amazon Athena dialog" class="responsive-img"/>
 
 データベースを選択した後、その中の*テーブル*または[*ビュー*](https://docs.aws.amazon.com/ja_jp/athena/latest/ug/views.html)から選択できます。
 
 上記のスクリーンショットの **motor_vehicle_collisions_time** ビューには、Athena の **motor_vehicle_collisions** テーブルにあるデータの変更バージョンが含まれています。
 以下のスクリーンショットでは、左側の表示形式はテーブルのデータを使用して構築され、右側の表示形式はビューに含まれるデータを使用しています。
 
-<img src="images/collisions-time-athena-view-sample.png" alt="Sample dashboard using Redshift tables and view data" width="80%"/>
+<img src="images/collisions-time-athena-view-sample.png" alt="Sample dashboard using Redshift tables and view data" class="responsive-img"/>
 
 
 

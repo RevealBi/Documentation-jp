@@ -70,12 +70,12 @@ KPI ゲージは、特定の期間内のパフォーマンスとその変動を�
 
 |                                          |                                                                                              |                                                                                                                                                      |
 | ---------------------------------------- | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **ダッシュボードを作成する**               | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Tutorials-Create-New-Dashboard" width="100%"/>                 | ダッシュボード ビューアーで、[ダッシュボード] 画面の右上隅にある [+ ダッシュボード] ボタンを選択します。|
-| 2\. **データ ソースを構成する**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" width="100%"/>                     | [新しい表示形式] ウィンドウで、右下隅の [+ データ ソース] ボタンを選択し、データ ソースを選択します。                                       |
-| 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-KPI-Gauge-Spreadsheet.png" alt="Tutorials-Select-KPI-Gauge-Spreadsheet" width="100%"/> | データ ソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。 次に、KPI Gauge シートを選択します。                                 |
-| 4\. **表示形式メニューを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" width="100%"/>   | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                |
-| 5\. **表示形式を選択する**        | <img src="images/Tutorials-Select-KPI-vs-Time-Gauge.png" alt="Tutorials-Select-KPI-Gauge" width="100%"/>                         | デフォルトで、表示形式のタイプは**グリッド**に設定されています。**[KPI vs Time]** ゲージを選択します。                                                            |
-| 6\. **データを体系化する**               | <img src="images/Tutorials-KPIGauge-Organizing-Data.png" alt="Tutorials-KPIGauge-Organizing-Data" width="100%"/>         | [ラベル] に Date フィールド、[値] に Sales フィールドをドラッグアンドドロップします。                                                                       |
+| 1\. **ダッシュボードを作成する**               | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img"/>                 | ダッシュボード ビューアーで、[ダッシュボード] 画面の右上隅にある [+ ダッシュボード] ボタンを選択します。|
+| 2\. **データ ソースを構成する**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" class="responsive-img"/>                     | [新しい表示形式] ウィンドウで、右下隅の [+ データ ソース] ボタンを選択し、データ ソースを選択します。                                       |
+| 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-KPI-Gauge-Spreadsheet.png" alt="Tutorials-Select-KPI-Gauge-Spreadsheet" class="responsive-img"/> | データ ソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。 次に、KPI Gauge シートを選択します。                                 |
+| 4\. **表示形式メニューを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" class="responsive-img"/>   | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                |
+| 5\. **表示形式を選択する**        | <img src="images/Tutorials-Select-KPI-vs-Time-Gauge.png" alt="Tutorials-Select-KPI-Gauge" class="responsive-img"/>                         | デフォルトで、表示形式のタイプは**グリッド**に設定されています。**[KPI vs Time]** ゲージを選択します。                                                            |
+| 6\. **データを体系化する**               | <img src="images/Tutorials-KPIGauge-Organizing-Data.png" alt="Tutorials-KPIGauge-Organizing-Data" class="responsive-img"/>         | [ラベル] に Date フィールド、[値] に Sales フィールドをドラッグアンドドロップします。                                                                       |
 
 <a name='adding-category-kpi'></a>
 ### 1 つの表示形式で複数の KPI ゲージを作成する方法
@@ -84,12 +84,12 @@ KPI ゲージは、特定の期間内のパフォーマンスとその変動を�
 
 |                                          |                                                                                                      |                                                                                                                                                      |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **ダッシュボードを作成する**               | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Tutorials-Create-New-Dashboard" width="100%"/>                         | ダッシュボード ビューアーで、[ダッシュボード] 画面の右上隅にある [+ ダッシュボード] ボタンを選択します。|
-| 2\. **データ ソースを構成する**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" width="100%"/>                             | [新しい表示形式] ウィンドウで、右下隅の [+ データ ソース] ボタンを選択し、データ ソースを選択します。                                       |
-| 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-KPI-Gauge-Spreadsheet.png" alt="Tutorials-Select-KPI-Gauge-Spreadsheet" width="100%"/>         | データ ソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。 次に、KPI Gauge シートを選択します。                                 |
-| 4\. **表示形式メニューを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" width="100%"/>           | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                |
-| 5\. **表示形式を選択する**        | <img src="images/Tutorials-Select-KPI-vs-Time-Gauge.png" alt="Tutorials-Select-KPI-Gauge" width="100%"/>                                 | デフォルトで、表示形式のタイプは**グリッド**に設定されています。 **[KPI vs Time]** ゲージを選択します。                                                            |
-| 6\. **データを体系化する**               | <img src="images/Tutorials-MultipleKPIGauge-Organizing-Data.png" alt="Tutorials-MultipleKPIGauge-Organizing-Data" width="100%"/> | Date フィールドを [日付] に、Sales フィールドを [値] に、State フィールドを [カテゴリ] にドラッグアンドドロップします。                                    |
+| 1\. **ダッシュボードを作成する**               | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img"/>                         | ダッシュボード ビューアーで、[ダッシュボード] 画面の右上隅にある [+ ダッシュボード] ボタンを選択します。|
+| 2\. **データ ソースを構成する**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" class="responsive-img"/>                             | [新しい表示形式] ウィンドウで、右下隅の [+ データ ソース] ボタンを選択し、データ ソースを選択します。                                       |
+| 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-KPI-Gauge-Spreadsheet.png" alt="Tutorials-Select-KPI-Gauge-Spreadsheet" class="responsive-img"/>         | データ ソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。 次に、KPI Gauge シートを選択します。                                 |
+| 4\. **表示形式メニューを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" class="responsive-img"/>           | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                |
+| 5\. **表示形式を選択する**        | <img src="images/Tutorials-Select-KPI-vs-Time-Gauge.png" alt="Tutorials-Select-KPI-Gauge" class="responsive-img"/>                                 | デフォルトで、表示形式のタイプは**グリッド**に設定されています。 **[KPI vs Time]** ゲージを選択します。                                                            |
+| 6\. **データを体系化する**               | <img src="images/Tutorials-MultipleKPIGauge-Organizing-Data.png" alt="Tutorials-MultipleKPIGauge-Organizing-Data" class="responsive-img"/> | Date フィールドを [日付] に、Sales フィールドを [値] に、State フィールドを [カテゴリ] にドラッグアンドドロップします。                                    |
 
 <a name='changing-date-comparison-type'></a>
 ### 日付比較タイプの変更
@@ -98,16 +98,16 @@ KPI ゲージは、特定の期間内のパフォーマンスとその変動を�
 
 |                                  |                                                                        |                                                                                                                                                |
 | -------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **設定メニューへアクセスする** | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" width="100%"/> | 表示形式エディターの **[設定]** セクションに移動します。                                                                                    |
-| 2\. **タイプを変更する**          | <img src="images/Tutorial-Change-Date-Type.png" alt="Tutorial-Change-Date-Type" width="100%"/>     | デフォルトでは、日付タイプは前年比になります。 **[目票期間]** の横のドロップダウンを選択し、選択を **[月度累計]** に変更します。|
+| 1\. **設定メニューへアクセスする** | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/> | 表示形式エディターの **[設定]** セクションに移動します。                                                                                    |
+| 2\. **タイプを変更する**          | <img src="images/Tutorial-Change-Date-Type.png" alt="Tutorial-Change-Date-Type" class="responsive-img"/>     | デフォルトでは、日付タイプは前年比になります。 **[目票期間]** の横のドロップダウンを選択し、選択を **[月度累計]** に変更します。|
 
 <a name='changing-difference-label-kpi'></a>
 ### KPI ゲージの差分ラベルの変更
 
 |                                  |                                                                                            |                                                                                                                                                                         |
 | -------------------------------- | ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **設定メニューへアクセスする** | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" width="100%"/>                     | 表示形式エディターの **[設定]** セクションに移動します。                                                                                                             |
-| 2\. **タイプを変更する**          | <img src="images/Tutorial-Change-Date-Difference-Label.png" alt="Tutorial-Change-Date-Difference-Label" width="100%"/> | デフォルトで、差分ラベルは**パーセンテージ**に設定されています。 **[差異の表示]** の横のドロップダウンを選択し、選択を **[値とパーセンテージ]** に変更します。|
+| 1\. **設定メニューへアクセスする** | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>                     | 表示形式エディターの **[設定]** セクションに移動します。                                                                                                             |
+| 2\. **タイプを変更する**          | <img src="images/Tutorial-Change-Date-Difference-Label.png" alt="Tutorial-Change-Date-Difference-Label" class="responsive-img"/> | デフォルトで、差分ラベルは**パーセンテージ**に設定されています。 **[差異の表示]** の横のドロップダウンを選択し、選択を **[値とパーセンテージ]** に変更します。|
 
 <a name='changing-color-difference-marker'></a>
 ### 差分マーカーの色の変更
@@ -116,5 +116,5 @@ KPI ゲージは、特定の期間内のパフォーマンスとその変動を�
 
 |                                  |                                                                                                          |                                                                                                                                                             |
 | -------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **設定メニューへアクセスする** | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" width="100%"/>                                   | 表示形式エディターの **[設定]** セクションに移動します。                                                                                                 |
-| 2\. **タイプを変更する**          | <img src="images/Tutorial-Change-Date-Difference-Marker-Color.png" alt="Tutorial-Change-Date-Difference-Marker-Color" width="100%"/> | デフォルトでは、マーカーの色は緑に設定されます。**[値の増加を表す色]** の横のドロップダウンを選択し、選択を **[赤色]** に変更します。|
+| 1\. **設定メニューへアクセスする** | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>                                   | 表示形式エディターの **[設定]** セクションに移動します。                                                                                                 |
+| 2\. **タイプを変更する**          | <img src="images/Tutorial-Change-Date-Difference-Marker-Color.png" alt="Tutorial-Change-Date-Difference-Marker-Color" class="responsive-img"/> | デフォルトでは、マーカーの色は緑に設定されます。**[値の増加を表す色]** の横のドロップダウンを選択し、選択を **[赤色]** に変更します。|

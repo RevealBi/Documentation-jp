@@ -14,7 +14,7 @@ Google アナリティクスは、ウェブで最も使用されているウェ�
 
     複数の Google アナリティクス アカウントがある場合は、使用するアカウントを選択します。
 
-    <img src="images/choose-ga-account.png" alt="Select a Google account to be used with Reveal's Google Analytics data source" width="80%"/>
+    <img src="images/choose-ga-account.png" alt="Select a Google account to be used with Reveal's Google Analytics data source" class="responsive-img"/>
 
     ログインすると、データ ソースを削除しない限り、他の表示形式の作成時に同じアカウントを使用できます。
 
@@ -22,7 +22,7 @@ Google アナリティクスは、ウェブで最も使用されているウェ�
 
     使用する Google アナリティクス プロパティを選択します。
 
-    <img src="images/choose-ga-property.png" alt="Select a Google property to be used with Reveal's Google Analytics data source" width="80%"/>
+    <img src="images/choose-ga-property.png" alt="Select a Google property to be used with Reveal's Google Analytics data source" class="responsive-img"/>
 
     Google アナリティクスでは、**プロパティ**はウェブサイト、モバイル アプリ、ブログなどです。
 
@@ -30,7 +30,7 @@ Google アナリティクスは、ウェブで最も使用されているウェ�
 
     使用するデータ キューブを選択します。
 
-    <img src="images/choose-ga-datacube.png" alt="Select a data cube to be used with Reveal's Google Analytics data source" width="80%"/>
+    <img src="images/choose-ga-datacube.png" alt="Select a data cube to be used with Reveal's Google Analytics data source" class="responsive-img"/>
 
     このダイアログでは、データの更新間隔を次のように設定できます:
 
@@ -48,7 +48,7 @@ Google アナリティクスは、ウェブで最も使用されているウェ�
 
 Google Analytics からの情報でダッシュボードを作成する場合、以下のスクリーンショットのようにフィールドが異なって体系化されます。
 
-<img src="images/ga-visualizationeditor.png" alt="Visualization Editor showing a Google Analytics data cube" width="80%"/>
+<img src="images/ga-visualizationeditor.png" alt="Visualization Editor showing a Google Analytics data cube" class="responsive-img"/>
 
 左側に [フィールド] の見出しはありません。代わりに、クエリ フィールドに 2 つのセクションがあります。
 
@@ -69,7 +69,7 @@ Reveal で Google Analytics データ ソースを使用する場合、2 つの�
 データをフィルターするセグメントは 1 つのみ選択できます。
 * **日付範囲**。データをフィルターするには、カレンダーで特定の日付範囲を選択します。右上の矢印をクリックして、日付範囲プリセットの 1 つを選択することもできます。
 
-  <img src="images/ga-data-source-date-range-preset.png" alt="Date Range dialog" width="80%"/>
+  <img src="images/ga-data-source-date-range-preset.png" alt="Date Range dialog" class="responsive-img"/>
 
 >[!NOTE] 
 >デフォルトの日付範囲は過去 30 日間です。つまり、今日を含む過去 30 日間のデータが取得されます。
@@ -78,7 +78,7 @@ Reveal で Google Analytics データ ソースを使用する場合、2 つの�
 
 Google アナリティクスで定義された*目標*を*表示形式エディター*で使用できます。*目標*は、**ディメンション**と**メジャー**の両方のデータ型のメトリックの一部としてリストされます。
 
-<img src="images/goals-google-analytics-2-option.png" alt="goals google analytics 2 option" width="80%"/>
+<img src="images/goals-google-analytics-2-option.png" alt="goals google analytics 2 option" class="responsive-img"/>
 
 上記の例でわかるように、Reveal での Google アナリティクスの*目標*のタイトルには、次の 1 つ以上が含まれています:
 

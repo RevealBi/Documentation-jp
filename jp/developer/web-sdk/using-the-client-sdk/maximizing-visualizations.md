@@ -5,13 +5,13 @@
 Web Client SDK は、ダッシュボードをユーザーに表示する際に最大化した可視化表示を 1
 つだけ表示し、更に最初の可視化表示をロックしてユーザーがダッシュボード全体にアクセスできないようにすることができます。
 
-<img src="images/three_divisions_dashboard_maximized.png" alt="Displaying a dashboard with a maximized visualization" width="80%"/>
+<img src="images/three_divisions_dashboard_maximized.png" alt="Displaying a dashboard with a maximized visualization" class="responsive-img"/>
 
 #### 例の詳細
 
 可視化した 3 つのダッシュボードがあり、それぞれの可視化に会社の異なる部門のデータが表示されているとします。
 
-<img src="images/three_divisions_dashboard.png" alt="Displaying a dashboard with three visualizations" width="80%"/>
+<img src="images/three_divisions_dashboard.png" alt="Displaying a dashboard with three visualizations" class="responsive-img"/>
 
 この例では、業務アプリケーションでこれらの可視化を使用します。各部署のホームページに表示される情報の一部として含めます。
 

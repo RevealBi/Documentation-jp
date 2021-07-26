@@ -5,7 +5,7 @@
 エンドユーザーが表示形式でシリーズの上をホバーするか、シリーズをクリックするたびにトリガーされるイベントがあります (以下の画像を参照)。
 このイベントは __revealView.TooltipShowing__ と呼ばれ、表示形式でツールチップを表示する方法をより柔軟に指定できます。
 
-<img src="images/tooltips-sample.png" alt="Image showing Reveal's tooltips" width="80%"/>
+<img src="images/tooltips-sample.png" alt="Image showing Reveal's tooltips" class="responsive-img"/>
 
 
 ### 一般的なユースケース

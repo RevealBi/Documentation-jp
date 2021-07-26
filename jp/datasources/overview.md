@@ -4,7 +4,7 @@
 
 次のスクリーンショットは、John Williams がアカウントで接続したさまざまなデータ ソースを示しています。
 
-<img src="images/sample-data-sources-screen.png" alt="Sample data sources" width="80%"/>
+<img src="images/sample-data-sources-screen.png" alt="Sample data sources" class="responsive-img"/>
 
 ### データ ソースに接続
 
@@ -14,11 +14,11 @@
 
 1. [アイテム] またはダッシュボードを作成するワークスペースに移動します。 
 2. **[+ ダッシュボード]** の青いボタンをクリック/タップします。
-   <img src="images/start-creating-dashboard-data-source.png" alt="Reveal's home screen" width="80%"/>
+   <img src="images/start-creating-dashboard-data-source.png" alt="Reveal's home screen" class="responsive-img"/>
    
 3. **新しい表示形式**ダイアログに、最近使用したデータ ソースのリストが表示されます。新しい接続を作成するには、右側の **[+ データ ソース]** ボタンを選択します。
 
-   <img src="images/creating-new-visualization.png" alt="Available data sources when creating a new visualization" width="80%"/>
+   <img src="images/creating-new-visualization.png" alt="Available data sources when creating a new visualization" class="responsive-img"/>
 
 4. ドロップダウン リストからデータ ソース プロバイダーを選択します。
 

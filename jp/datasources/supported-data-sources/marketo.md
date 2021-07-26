@@ -5,7 +5,7 @@
 Marketo の REST API は、2-legged OAuth 2.0 で認証されています。
 Reveal で Marketo データ ソース接続を構成するには、次の接続情報を提供する必要があります: 
 
-<img src="images/marketo-configure-login-screen.png" alt="Data source connection configuring screen" width="80%"/>
+<img src="images/marketo-configure-login-screen.png" alt="Data source connection configuring screen" class="responsive-img"/>
 
 1. **[URL]** - Marketo 管理パネルにある *ID URL* をここに貼り付けます。
 2. **クライアント ID** 
@@ -17,7 +17,7 @@ Marketo の*管理*パネルには、上記の認証要素が含まれていま�
 
 ログイン後、次のダイアログで Marketo データを設定できます:
 
-<img src="images/set-up-dialog-marketo.png" alt="Setting up the revenue" width="80%"/>
+<img src="images/set-up-dialog-marketo.png" alt="Setting up the revenue" class="responsive-img"/>
 
 *Activities* と *Leads* オブジェクトでは、表示形式エディターに進む前に、データを取得するために *from* および *to* (日付) の 2 つのパラメーターを設定する必要があります。日付範囲は、最初日と最後日を含めて 31 日未満である必要があります。
 

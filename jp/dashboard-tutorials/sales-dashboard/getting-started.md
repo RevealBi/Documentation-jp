@@ -2,7 +2,7 @@
 
 このチュートリアルでは、サンプル スプレッドシートで同様のデータを使用して作成した以下の Sales Performance ダッシュボードを表示する方法について説明します。
 
-<img src="images/SalesPerformanceDashboard_All.png" alt="SalesPerformanceDashboard\_All" width="80%"/>
+<img src="images/SalesPerformanceDashboard_All.png" alt="SalesPerformanceDashboard\_All" class="responsive-img"/>
 
 ### ダッシュボードに含まれる項目
 

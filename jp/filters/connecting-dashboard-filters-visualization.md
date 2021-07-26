@@ -2,7 +2,7 @@
 
 可視化したデータをダッシュボード フィルターにバインドする 2 つの方法があります:
 
-<img src="images/dashboard-filters-menu.png" alt="dashboard filters menu" width="80%"/>
+<img src="images/dashboard-filters-menu.png" alt="dashboard filters menu" class="responsive-img"/>
 
   - **ダッシュボード フィルター構成の一部として接続** (上記を参照)
     これにより、ダッシュボード フィルターとダッシュボードのすべての表示形式間のバインド構成が可能です。
@@ -12,14 +12,14 @@
 いずれの場合もダッシュボード フィルター データセットのフィールドへリンクするルールを追加してバインドが定義されます。([フィールドのバインド](#field-binding))
 表示形式エディターまたは [ダッシュボード フィルター] メニューで [切断] を選択すると、表示形式のバインドをいつでも削除できます。
 
-<img src="images/disconnecting-dashboard-filter.png" alt="disconnecting dashboard filters from a visualization" width="80%"/>
+<img src="images/disconnecting-dashboard-filter.png" alt="disconnecting dashboard filters from a visualization" class="responsive-img"/>
 
 <a name='field-binding'></a>
 ### フィールドのバインド
 
 フィールドのバインでは、ダッシュボード フィルターのデータセット スキーマ、および表示形式のスキーマ間の結合関係を構成することができます。使用する [ダッシュボード フィルター] を選択して**接続します**。
 
-<img src="images/pivot-editor-view-field-binding.png" alt="field binding menu" width="80%"/>
+<img src="images/pivot-editor-view-field-binding.png" alt="field binding menu" class="responsive-img"/>
 
 上記のダイアログで以下を構成する必要があります。
 
@@ -42,7 +42,7 @@
 
 ダッシュボード フィルターをパラメーターに接続するには、[フィールド バインド](#フィールドのバインド)の手順に従います。データ ソース パラメーターは、[フィルター接続の編集] ダイアログの表示形式ドロップダウン リストの下部にあります。
 
-<img src="images/parameters-binding_All.png" alt="parameters binding list" width="80%"/>
+<img src="images/parameters-binding_All.png" alt="parameters binding list" class="responsive-img"/>
 
 
 >[!NOTE]

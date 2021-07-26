@@ -6,7 +6,7 @@ Amazon Simple Storage Service (S3) は、拡張性が高く高速なデータ �
 
 Amazon S3 データ ソースを設定するには、次の情報を入力する必要があります:
 
-<img src="images/configure-amazon-s3-dialog.png" alt="Configure Amazon Athena dialog" width="80%"/>
+<img src="images/configure-amazon-s3-dialog.png" alt="Configure Amazon Athena dialog" class="responsive-img"/>
 
 1.  データ ソースの **デフォルト名**: データ ソース名は [データ ソースの選択] ダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Amazon S3* という名前を付けます。好みに合わせて変更できます。
    

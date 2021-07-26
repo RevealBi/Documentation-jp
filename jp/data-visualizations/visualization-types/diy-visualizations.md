@@ -35,13 +35,13 @@ Reveal は、グリッド チャート、ゲージ チャート、マップな�
 
    このオプションを見つけるには、ウィジェット エディター内の表示形式セクションを開きます。
 
-   <img src="images/custom-visualization-access.png" alt="Selecting the Custom Visualization in Reveal" width="80%"/>
+   <img src="images/custom-visualization-access.png" alt="Selecting the Custom Visualization in Reveal" class="responsive-img"/>
 
 2. **実装をポイントする**。  
 
    必要なカスタム表示形式を生成する Web ページの URL を追加します。
 
-   <img src="images/custom-visualization-config.png" alt="Showing the Custom Visualization configuration screen within Reveal" width="80%"/>
+   <img src="images/custom-visualization-config.png" alt="Showing the Custom Visualization configuration screen within Reveal" class="responsive-img"/>
 
    URL はパブリック アクセス可能であり、HTTPS:// プロトコルを使用する必要があることに注意してください。さらに、カスタム HTML で参照される各リソースは同じプロトコルを使用する必要があります。
 

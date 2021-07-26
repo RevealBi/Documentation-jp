@@ -14,7 +14,7 @@ REST API (REST Web サービスとも呼ばれる) は、**REST** (Representatio
 
 REST API データ ソースを構成するには、以下の情報が必要です。
 
-<img src="images/Configuring-REST-API-Data-Source_All.png" alt="Configuring-REST-API-Data-Source\_All" width="80%"/>
+<img src="images/Configuring-REST-API-Data-Source_All.png" alt="Configuring-REST-API-Data-Source\_All" class="responsive-img"/>
 
 1. データ ソースの**デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *REST API* という名前を付けます。好みに合わせて変更できます。
 
@@ -40,15 +40,15 @@ REST API データ ソースを構成するには、以下の情報が必要で�
 
 1.  **URL にパラメーターを指定します**。パス パラメーターは*波括弧*で囲み、*疑問符 (?)* の後にクエリ パラメーターを指定する必要があります。以下の例では、パス パラメーターとクエリ パラメーターの両方が*青*で色分けされ、識別しやすくなっています。
 
-    <img src="images/Parameters-URL-Rest-API_All.png" alt="Parameters-URL-Rest-API" width="80%"/>
+    <img src="images/Parameters-URL-Rest-API_All.png" alt="Parameters-URL-Rest-API" class="responsive-img"/>
 
 2.  **パラメーター値の追加**。次の画面で、URL に追加した各パラメーターの値を指定します。
 
-    <img src="images/Parameters-Values-Rest-API_All.png" alt="Parameters-Values-Rest-API" width="80%"/>
+    <img src="images/Parameters-Values-Rest-API_All.png" alt="Parameters-Values-Rest-API" class="responsive-img"/>
 
     その結果、REST API サービスは、提供された URL のデータを REST に準拠する形式で応答します。通常、JSON ファイルを受け取ります。
 
-    <img src="images/REST-API-Data-Format-Result_All.png" alt="REST-API-Data-Format-Result" width="80%"/>
+    <img src="images/REST-API-Data-Format-Result_All.png" alt="REST-API-Data-Format-Result" class="responsive-img"/>
 
     JSON ファイルの使用方法の詳細については、[このトピック](~/jp/datasources/working-files/working-with-json-files.html)を参照してください。
     
@@ -61,11 +61,11 @@ REST API データ ソースを構成するには、以下の情報が必要で�
 
     これを行うには、表示形式エディター画面のファイル名の横にあるオーバーフロー メニューをクリックしてから、**[編集]** をクリックします。
 
-    <img src="images/REST-API-Change-Parameters-Values.png" alt="Rest API Parameters Values changing in the editor" width="80%" />
+    <img src="images/REST-API-Change-Parameters-Values.png" alt="Rest API Parameters Values changing in the editor" class="responsive-img" />
 
     開いた画面で、**[REST API パラメーター]** ボタンを*クリック/タップします*。
 
-    <img src="images/REST-API-Parameters-Button.png" alt="Rest API Parameters button available in editor" width="80%" />
+    <img src="images/REST-API-Parameters-Button.png" alt="Rest API Parameters button available in editor" class="responsive-img" />
 
     *ステップ 2* の画面にリダイレクトされます。ここで、パラメーターに新しい値を指定できます。
 
@@ -91,6 +91,6 @@ REST API データ ソース構成のメソッドは、REST システムのリ�
 
 4.  **[ボディ]**: データを含むオプションのメッセージ (*POST* および *PUT* メソッドを使用する場合)。
 
-    <img src="images/Working-With-Methods_All.png" alt="Working With Methods" width="80%"/>
+    <img src="images/Working-With-Methods_All.png" alt="Working With Methods" class="responsive-img"/>
 
 リクエストのヘッダーとボディの詳細については、[このリンク (英語)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages#Headers) を参照してください。

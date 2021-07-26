@@ -22,11 +22,11 @@
 1.  **[共有] ダイアログ**にアクセスする - ダッシュボードまたはフォルダの右上隅にあるオーバーフロー ボタンを選択し、**[共有]** を選択します。
 
 
-  <img src="images/sharing-dialog.png" alt="Accessing the sharing dialog of a dashboard" width="80%"/>
+  <img src="images/sharing-dialog.png" alt="Accessing the sharing dialog of a dashboard" class="responsive-img"/>
 
   フォルダーを共有して他の人を追加すると、新しいファイルを共有した人のアカウントおよび*共有*セクションに表示されます。
 
-  <img src="images/shared-with-me.png" alt="Shared with Me option selected" width="80%"/>
+  <img src="images/shared-with-me.png" alt="Shared with Me option selected" class="responsive-img"/>
 
 <a name='access-permissions'></a>
 2.  ダッシュボードを共有する**ユーザーを選択する** - 招待するユーザーのメールアドレスを入力し、そのユーザーが共有ダッシュボードを介して**アクセスできるレベル**を設定します。
@@ -41,13 +41,13 @@
 
 3.  アクセス レベルを設定した後、*招待を送信する*をクリック/タップします。ダッシュボードは[組織](~/jp/workspaces/overview.html#organization-workspace)のメンバーと自動的に共有されます。他のユーザーには、招待を承諾した後にのみ、ダッシュボードが共有されます。
 
-  <img src="images/send-invites-share-button.png" alt="Sending invitations with access permissions" width="80%"/>
+  <img src="images/send-invites-share-button.png" alt="Sending invitations with access permissions" class="responsive-img"/>
 
 共有メニューにアクセスし、いつでも**ユーザーのアクセスレベルを変更**できます。ダッシュボードを共有したすべてのユーザーとそのアクセス レベルのリストが表示されます。名前の横にあるドロップダウン メニューから新しいアクセス レベルを選択して、アクセス レベルを変更できます。
 
 また、[共有] ダイアログにアクセスし、メンバー名の横にあるドロップダウン メニューから **[削除]** を選択して、**いつでもダッシュボードの共有を解除できます**。
 
-<img src="images/remove-sharing.png" alt="Remove sharing button" width="80%"/>
+<img src="images/remove-sharing.png" alt="Remove sharing button" class="responsive-img"/>
 
 <a name='sharing-workspace-dashboard'></a>
 ### ワークスペースのダッシュボードを他のユーザーと共有する

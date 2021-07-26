@@ -2,7 +2,7 @@
 
 通知センターは、ワークスペースおよびダッシュボードの変更を通知するように設計されています。アプリケーションの右上の**ベル アイコン**を選択して開きます。
 
-<img src="images/in-app-notifications.png" alt="Notification center icon and notifications' list" width="80%"/>
+<img src="images/in-app-notifications.png" alt="Notification center icon and notifications' list" class="responsive-img"/>
 
 通知を受け取ると、通知のアイコンが変更されます。通知設定によっては、特定の変更を含むアプリ内通知が表示される場合もあります。
 
@@ -12,7 +12,7 @@
 
   - さらに、オーバーフロー メニューで **[この種類の通知をミュート]** オプションを選択すると、**通知をオフにできます**。
 
-<img src="images/notification-center-options.png" alt="Accessing options of notifications in the Notification center" width="80%"/>
+<img src="images/notification-center-options.png" alt="Accessing options of notifications in the Notification center" class="responsive-img"/>
 
 ### 通知設定
 

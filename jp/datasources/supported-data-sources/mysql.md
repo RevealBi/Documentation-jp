@@ -7,7 +7,7 @@
 
 MySQL サーバー データ ソースを構成するには、以下の情報が必要です。
 
-<img src="images/enter-mySQL-server-details.png" alt="Enter MySQL Server Details dialog" width="80%"/>
+<img src="images/enter-mySQL-server-details.png" alt="Enter MySQL Server Details dialog" class="responsive-img"/>
 
 1.  **データ ソース名**: データ ソースは以前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *MySQL* という名前を付けます。好みに合わせて変更できます。
 
@@ -51,10 +51,10 @@ MySQL サーバー データ ソースを構成するには、以下の情報が
 
 Reveal ではすべてのテーブルから MySQL データを取得できますが、その他にもテーブルまたはテーブルのセットからデータのサブセットを返す特定のビューを選択することもできます。
 
-<img src="images/MySQL-views.png" alt="MySQL Views section" width="80%"/>
+<img src="images/MySQL-views.png" alt="MySQL Views section" class="responsive-img"/>
 
 上記のサンプルでは、**請求書**ビューに MySQL サーバーの **Products** テーブルのデータの変更バージョンが含まれています。
 
-<img src="images/invoices-MySQL-view-sample.png" alt="Sample dashboard using MySQL invoices view data" width="80%"/>
+<img src="images/invoices-MySQL-view-sample.png" alt="Sample dashboard using MySQL invoices view data" class="responsive-img"/>
 
 ビューおよび MySQL の詳細については、[このページ (英語)](https://dev.mysql.com/doc/refman/8.0/en/views.html)を参照してください。

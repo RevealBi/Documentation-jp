@@ -16,37 +16,37 @@
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><img src="images/ThumbnailWinLostMonth_All.png" alt="ThumbnailWinLostMonth All" width="75%" /><br />
+<td><p><img src="images/ThumbnailWinLostMonth_All.png" alt="ThumbnailWinLostMonth All" class="responsive-img" /><br />
 </p>
 <p><a href="#win-lost-by-month">Win/Lost by Month (月別の勝敗)</a><br />
 </p></td>
-<td><p><img src="images/ThumbnailForecasted_All.png" alt="ThumbnailForecasted All" width="75%" /><br />
+<td><p><img src="images/ThumbnailForecasted_All.png" alt="ThumbnailForecasted All" class="responsive-img" /><br />
 </p>
 <p><a href="#forecasted">Forecasted (予測)</a><br />
 </p></td>
-<td><p><img src="images/ThumbnailLostOpportunities_All.png" alt="ThumbnailLostOpportunities All" width="75%" /><br />
+<td><p><img src="images/ThumbnailLostOpportunities_All.png" alt="ThumbnailLostOpportunities All" class="responsive-img" /><br />
 </p>
 <p><a href="#lost-opportunities">Lost Opportunities (機会損失)</a><br />
 </p></td>
-<td><p><img src="images/ThumbnailPipelinebyTerritory_All.png" alt="ThumbnailPipelinebyTerritory All" width="75%" /><br />
+<td><p><img src="images/ThumbnailPipelinebyTerritory_All.png" alt="ThumbnailPipelinebyTerritory All" class="responsive-img" /><br />
 </p>
 <p><a href="#pipeline-by-territory">Pipeline by Territory (地域別パイプライン)</a><br />
 </p></td>
 </tr>
 <tr class="even">
-<td><p><img src="images/ThumbnailTotalOpportunities_All.png" alt="ThumbnailTotalOpportunities All" width="75%" /><br />
+<td><p><img src="images/ThumbnailTotalOpportunities_All.png" alt="ThumbnailTotalOpportunities All" class="responsive-img" /><br />
 </p>
 <p><a href="#total-opportunities">Total Opportunities (機会の合計)</a><br />
 </p></td>
-<td><p><img src="images/ThumbnailRevenuebyTerritory_All.png" alt="ThumbnailRevenuebyTerritory All" width="75%" /><br />
+<td><p><img src="images/ThumbnailRevenuebyTerritory_All.png" alt="ThumbnailRevenuebyTerritory All" class="responsive-img" /><br />
 </p>
 <p><a href="#revenue-by-territory">Revenue by Territory (地域別収益)</a><br />
 </p></td>
-<td><p><img src="images/ThumbnailPipelineEmployee_All.png" alt="ThumbnailPipelineEmployee All" width="75%" /><br />
+<td><p><img src="images/ThumbnailPipelineEmployee_All.png" alt="ThumbnailPipelineEmployee All" class="responsive-img" /><br />
 </p>
 <p><a href="#pipeline-per-employee">Pipeline per Employee (従業員あたりのパイプライン)</a><br />
 </p></td>
-<td><p><img src="images/ThumbnailSalesbyProduct_All.png" alt="ThumbnailSalesbyProduct All" width="75%" /><br />
+<td><p><img src="images/ThumbnailSalesbyProduct_All.png" alt="ThumbnailSalesbyProduct All" class="responsive-img" /><br />
 </p>
 <p><a href="#sales-by-product">Sales by Product (製品別売上高)</a><br />
 </p></td>
@@ -61,25 +61,25 @@ Win/Lost by Month 表示形式は、6 ヶ月間の勝敗の回数を[棒チャ�
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、**[データを選択]** を押します。
 
-    <img src="images/SelectingSalesSheet_All.png" alt="SelectingSalesSheet\_All.png" width="80%"/>
+    <img src="images/SelectingSalesSheet_All.png" alt="SelectingSalesSheet\_All.png" class="responsive-img"/>
 
 
 
 2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、柱状チャートを選択します。
  
-    <img src="images/SelectColumnChart_All.png" alt="SelectColumnChart\_All" width="80%"/>
+    <img src="images/SelectColumnChart_All.png" alt="SelectColumnChart\_All" class="responsive-img"/>
 
 
 
 3.  データ エディターで、**Date** フィールドを [ラベル] に、**Win** と **Loss** フィールドを [値] にドラッグアンドドロップします。
 
-    <img src="images/DragDropSalesWinLossMonth_All.png" alt="DragDropSalesWinLossMonth\_All" width="50%"/>
+    <img src="images/DragDropSalesWinLossMonth_All.png" alt="DragDropSalesWinLossMonth\_All" class="responsive-img"/>
 
 
 
 4.  この表示形式で表示されるデータは、**月別**です。この形式にするには、ラベル プレース ホルダーで **[日付]** を選択し、**[日付の集計]** を **[月]** に変更します。
 
-    <img src="images/SalesWinLostByMonthDateAggregation_All.png" alt="SalesWinLostByMonthDateAggregation\_All" width="80%"/>
+    <img src="images/SalesWinLostByMonthDateAggregation_All.png" alt="SalesWinLostByMonthDateAggregation\_All" class="responsive-img"/>
 
     次に、**[フィールドの更新]** を選択します。
 
@@ -88,11 +88,11 @@ Win/Lost by Month 表示形式は、6 ヶ月間の勝敗の回数を[棒チャ�
 5.  表示形式で 6 ヶ月の期間を表示するには、フィルターを追加する必要があります。
     これを行うには、**Date** をデータ フィルターにドロップし、表示形式フィルター メニューにアクセスするために、それを選択します。その中で、**[フィルター タイプ]** の **[ルールでフィルター]** を選択します。
 
-    <img src="images/FilterbyRuleSalesWinLost_All.png" alt="FilterbyRuleSalesWinLost\_All" width="80%"/>
+    <img src="images/FilterbyRuleSalesWinLost_All.png" alt="FilterbyRuleSalesWinLost\_All" class="responsive-img"/>
 
     次に、**[ルール]** の **[カスタム日付範囲]** を選択し、以下のカスタム範囲を入力します。
 
-    <img src="images/SalesCustomDateRange_All.png" alt="SalesCustomDateRange\_All" width="80%"/>
+    <img src="images/SalesCustomDateRange_All.png" alt="SalesCustomDateRange\_All" class="responsive-img"/>
 
     この後、**[フィールドの更新]** を選択します。
 
@@ -107,26 +107,26 @@ Forecasted 表示形式は、6 ヶ月間の予測を[棒チャート](~/jp/visua
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、**[データを選択]** を押します。
    
-    <img src="images/SelectingSalesSheet_All.png" alt="SelectingSalesSheet\_All.png" width="80%"/>
+    <img src="images/SelectingSalesSheet_All.png" alt="SelectingSalesSheet\_All.png" class="responsive-img"/>
 
 
 
 2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、棒チャートを選択します。
    
-    <img src="images/SelectBarChart_All.png" alt="SelectBarChart\_All" width="80%"/>
+    <img src="images/SelectBarChart_All.png" alt="SelectBarChart\_All" class="responsive-img"/>
 
 
 
 3.  データ エディターで、**Date** フィールドを [ラベル] に、**Forecasted** フィールドを [値] にドラッグアンドドロップします。
 
-    <img src="images/DragDropSalesForecasted_All.png" alt="DragDropSalesForecasted\_All" width="50%"/>
+    <img src="images/DragDropSalesForecasted_All.png" alt="DragDropSalesForecasted\_All" class="responsive-img"/>
 
 
 
 4.  この表示形式で表示されるデータは、**月別**です。
     この形式にするには、ラベル プレース ホルダーで **[日付]** を選択し、**[日付の集計]** を **[月]** に変更します。また、**[並べ替え]** を **[降順]** に変更します。
 
-    <img src="images/SalesWinLostByMonthDateAggregation_All.png" alt="SalesWinLostByMonthDateAggregation\_All" width="80%"/>
+    <img src="images/SalesWinLostByMonthDateAggregation_All.png" alt="SalesWinLostByMonthDateAggregation\_All" class="responsive-img"/>
 
     次に、**[フィールドの更新]** を選択します。
 
@@ -134,7 +134,7 @@ Forecasted 表示形式は、6 ヶ月間の予測を[棒チャート](~/jp/visua
 
 5.  **Forecasted** フィールドにセールス情報が含まれるため通貨の書式設定にする必要があります。[値] で **Forecasted** フィールドを選択し、以下の変更を適用します。
  
-    <img src="images/SalesForecastedFormatting_All.png" alt="SalesForecastedFormatting\_All" width="80%"/>
+    <img src="images/SalesForecastedFormatting_All.png" alt="SalesForecastedFormatting\_All" class="responsive-img"/>
 
     a.  **[タイプ]** を **[通貨]** に変更します。
 
@@ -146,11 +146,11 @@ Forecasted 表示形式は、6 ヶ月間の予測を[棒チャート](~/jp/visua
 6.  表示形式で 6ヶ月の期間を表示するには、フィルターを追加する必要があります。
     これを行うには、**Date** をデータ フィルターにドロップし、表示形式フィルター メニューにアクセスするために、それを選択します。その中で、**[フィルター タイプ]** の **[ルールでフィルター]** を選択します。
 
-    <img src="images/FilterbyRuleSalesWinLost_All.png" alt="FilterbyRuleSalesWinLost\_All" width="80%"/>
+    <img src="images/FilterbyRuleSalesWinLost_All.png" alt="FilterbyRuleSalesWinLost\_All" class="responsive-img"/>
 
     次に、**[ルール]** の **[カスタム日付範囲]** を選択し、以下のカスタム範囲を入力します。
 
-    <img src="images/SalesCustomDateRange_All.png" alt="SalesCustomDateRange\_All" width="80%"/>
+    <img src="images/SalesCustomDateRange_All.png" alt="SalesCustomDateRange\_All" class="responsive-img"/>
 
     次に、**[フィールドの更新]** を選択します。
 
@@ -158,7 +158,7 @@ Forecasted 表示形式は、6 ヶ月間の予測を[棒チャート](~/jp/visua
 
 7.  同じ表示形式サンプルの色にあわせるために、**[設定]** セクションに移動し、1 番目の色に変更します。
 
-    <img src="images/SalesForecastedStartColor_All.png" alt="SalesForecastedStartColor\_All" width="80%"/>
+    <img src="images/SalesForecastedStartColor_All.png" alt="SalesForecastedStartColor\_All" class="responsive-img"/>
 
 
 
@@ -171,26 +171,26 @@ Lost Opportunities 表示形式は、[テキスト ゲージ](~/jp/visualization
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、**[データを選択]** を選択します。
 
-    <img src="images/SelectingSalesSheet_All.png" alt="SelectingSalesSheet\_All.png" width="80%"/>
+    <img src="images/SelectingSalesSheet_All.png" alt="SelectingSalesSheet\_All.png" class="responsive-img"/>
 
 
 
 2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、テキスト ゲージを選択します。
 
-    <img src="images/SelectTextGauge_All.png" alt="SelectTextGauge\_All" width="80%"/>
+    <img src="images/SelectTextGauge_All.png" alt="SelectTextGauge\_All" class="responsive-img"/>
 
 
 
 3.  データ エディターで、**Lost Opportunites** フィールドを [値] にドラッグアンドドロップします。
 
-    <img src="images/DragDropSalesLostOpportunities_All.png" alt="DragDropSalesLostOpportunities\_All" width="50%"/>
+    <img src="images/DragDropSalesLostOpportunities_All.png" alt="DragDropSalesLostOpportunities\_All" class="responsive-img"/>
 
 
 
 4.  サンプル ダッシュボードで、機会損失はパーセンテージとして表されます。
     この書式を適用するには、値プレース ホルダーの Lost Opportunies フィールドを選択します。書式設定のメニューで:
 
-    <img src="images/SalesWonOpportFormatting_All.png" alt="SalesWonOpportFormatting\_All" width="80%"/>
+    <img src="images/SalesWonOpportFormatting_All.png" alt="SalesWonOpportFormatting\_All" class="responsive-img"/>
 
     a.  **[タイプ]** を **[パーセント]** に変更します。
 
@@ -200,25 +200,25 @@ Lost Opportunities 表示形式は、[テキスト ゲージ](~/jp/visualization
 
 1.  表示形式エディターの **[設定]** タブに移動します。
 
-    <img src="images/TutorialsSettingsMenu_All.png" alt="TutorialsSettingsMenu\_All" width="80%"/>
+    <img src="images/TutorialsSettingsMenu_All.png" alt="TutorialsSettingsMenu\_All" class="responsive-img"/>
 
 
 
 2.  Sales Dashboard のスプレッド シートでは、表示形式がパーセンテージで表されている場合でも、Lost Opportunities は値として 0.56 に相当します。したがって、**[値比較タイプ]** へスクロールし、[数] に設定します。
 
-    <img src="images/TutorialsValueComparisonTypeNumber_All.png" alt="TutorialsValueComparisonTypeNumber\_All" width="50%"/>
+    <img src="images/TutorialsValueComparisonTypeNumber_All.png" alt="TutorialsValueComparisonTypeNumber\_All" class="responsive-img"/>
 
 
 
 3.  **しきい値を設定する**。この場合、バインドは 0.7～5 です。
 
-    <img src="images/SalesChangingBandLostOpps_All.png" alt="SalesChangingBandLostOpps\_All" width="50%"/>
+    <img src="images/SalesChangingBandLostOpps_All.png" alt="SalesChangingBandLostOpps\_All" class="responsive-img"/>
 
 
 
 4.  各バンドを選択し、**[色] と [インジケーター] の両方を選択します**。
 
-    <img src="images/SalesChangingBandColorIndicator_All.png" alt="SalesChangingBandColorIndicator\_All" width="50%"/>
+    <img src="images/SalesChangingBandColorIndicator_All.png" alt="SalesChangingBandColorIndicator\_All" class="responsive-img"/>
 
 
 
@@ -231,29 +231,29 @@ Pipeline by Territory 表示形式は、[ファンネルチャート](~/jp/visua
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、**[データを選択]** を押します。
 
-    <img src="images/SelectingSalesSheet_All.png" alt="SelectingSalesSheet\_All.png" width="80%"/>
+    <img src="images/SelectingSalesSheet_All.png" alt="SelectingSalesSheet\_All.png" class="responsive-img"/>
 
 
 
 2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、ファンネルチャートを選択します。
 
-    <img src="images/SelectFunnelChart_All.png" alt="SelectFunnelChart\_All" width="80%"/>
+    <img src="images/SelectFunnelChart_All.png" alt="SelectFunnelChart\_All" class="responsive-img"/>
 
 
 
 3.  データ エディターで、**Territory** を [ラベル] に、**Pipeline** を [値] にドラッグアンドドロップします。
 
-    <img src="images/DragDropSalesPipelineTerritory_All.png" alt="DragDropSalesPipelineTerritory\_All" width="50%"/>
+    <img src="images/DragDropSalesPipelineTerritory_All.png" alt="DragDropSalesPipelineTerritory\_All" class="responsive-img"/>
 
 
 
 4.  **Territory** には 4 つの地域しかないため、多くの空の値がありますが、元のデータ ソースの他の列には 1000 を超える値があります。値をフィルタリングするため、**Territory** をデータ フィルターにドラッグアンドドロップします。
 
-    <img src="images/DragDropTerritoryDataFilter_All.png" alt="DragDropTerritoryDataFilter\_All" width="50%"/>
+    <img src="images/DragDropTerritoryDataFilter_All.png" alt="DragDropTerritoryDataFilter\_All" class="responsive-img"/>
 
     次に、[地域] を選択し、**[表示形式フィルター]** ダイアログにアクセスします。**[フィルター タイプ]** を **[空値をフィルター]** に変更し、[フィルターの作成] を選択します。
 
-    <img src="images/SalesPipelineTerritoryFilterEmptyValues_All.png" alt="SalesPipelineTerritoryFilterEmptyValues\_All" width="80%"/>
+    <img src="images/SalesPipelineTerritoryFilterEmptyValues_All.png" alt="SalesPipelineTerritoryFilterEmptyValues\_All" class="responsive-img"/>
 
 
 
@@ -268,25 +268,25 @@ Total Opportunities 表示形式は、12 か月間の会社の機会が表すに
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、**[データを選択]** を押します。
 
-    <img src="images/SelectingSalesSheet_All.png" alt="SelectingSalesSheet\_All.png" width="80%"/>
+    <img src="images/SelectingSalesSheet_All.png" alt="SelectingSalesSheet\_All.png" class="responsive-img"/>
 
 
 
 2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、折れ線チャートを選択します。
 
-    <img src="images/SelectLineChart_All.png" alt="SelectLineChart\_All" width="80%"/>
+    <img src="images/SelectLineChart_All.png" alt="SelectLineChart\_All" class="responsive-img"/>
 
 
 
 3.  データ エディターで、**Date** をラベルに、**Total Opportunities** を [値] にドラッグアンドドロップします。
 
-    <img src="images/DragDropSalesTotalOpportunities_All.png" alt="DragDropSalesTotalOpportunities\_All" width="50%"/>
+    <img src="images/DragDropSalesTotalOpportunities_All.png" alt="DragDropSalesTotalOpportunities\_All" class="responsive-img"/>
 
 
 
 4.  この表示形式で表示されるデータは、**月別**です。この形式にするには、ラベル プレース ホルダーで **[日付]** を選択し、**[日付の集計]** を **[月]** に変更します。
 
-    <img src="images/SalesWinLostByMonthDateAggregation_All.png" alt="SalesWinLostByMonthDateAggregation\_All" width="80%"/>
+    <img src="images/SalesWinLostByMonthDateAggregation_All.png" alt="SalesWinLostByMonthDateAggregation\_All" class="responsive-img"/>
 
     次に、**[フィールドの更新]** を選択します。
 
@@ -294,7 +294,7 @@ Total Opportunities 表示形式は、12 か月間の会社の機会が表すに
 
 5.  **Total Opportunities** フィールドにセールス情報が含まれるため通貨で書式設定する必要があります。[値] の **Total Opportunities** フィールドを選択し、次の変更を適用します。
 
-    <img src="images/SalesForecastedFormatting_All.png" alt="SalesForecastedFormatting\_All" width="80%"/>
+    <img src="images/SalesForecastedFormatting_All.png" alt="SalesForecastedFormatting\_All" class="responsive-img"/>
 
     1.  **[タイプ]** を **[通貨]** に変更します。
 
@@ -307,11 +307,11 @@ Total Opportunities 表示形式は、12 か月間の会社の機会が表すに
 6.  表示形式で 12 ヶ月の期間を表示するには、フィルターを追加する必要があります。
     これを行うには、**Date** をデータ フィルターにドロップし、表示形式フィルター メニューにアクセスするために、それを選択します。その中で、**[フィルター タイプ]** の **[ルールでフィルター]** を選択します。
 
-    <img src="images/FilterbyRuleSalesWinLost_All.png" alt="FilterbyRuleSalesWinLost\_All" width="80%"/>
+    <img src="images/FilterbyRuleSalesWinLost_All.png" alt="FilterbyRuleSalesWinLost\_All" class="responsive-img"/>
 
     次に、**[ルール]** の **[カスタム日付範囲]** を選択し、以下のカスタム範囲を入力します。
 
-    <img src="images/SalesTotalOppsCustomDateRange_All.png" alt="SalesTotalOppsCustomDateRange\_All" width="80%"/>
+    <img src="images/SalesTotalOppsCustomDateRange_All.png" alt="SalesTotalOppsCustomDateRange\_All" class="responsive-img"/>
 
     次に、**[フィルターの更新]** を選択します。
 
@@ -319,7 +319,7 @@ Total Opportunities 表示形式は、12 か月間の会社の機会が表すに
 
 7.  同じ表示形式サンプルの色にあわせるために、**[設定]** セクションに移動し、9 番目の色に変更します。
 
-    <img src="images/SalesTotalOpportunitiesStartColor_All.png" alt="SalesTotalOpportunitiesStartColor\_All" width="80%"/>
+    <img src="images/SalesTotalOpportunitiesStartColor_All.png" alt="SalesTotalOpportunitiesStartColor\_All" class="responsive-img"/>
 
 
 
@@ -332,26 +332,26 @@ Revenue by Territory 表示形式には、会社の各地域における収益�
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、**[データを選択]** を押します。
 
-    <img src="images/SelectingSalesSheet_All.png" alt="SelectingSalesSheet\_All.png" width="80%"/>
+    <img src="images/SelectingSalesSheet_All.png" alt="SelectingSalesSheet\_All.png" class="responsive-img"/>
 
 
 
 2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、円チャートを選択します。
 
-    <img src="images/SelectPieChart_All.png" alt="SelectPieChart\_All" width="80%"/>
+    <img src="images/SelectPieChart_All.png" alt="SelectPieChart\_All" class="responsive-img"/>
 
 
 
 3.  データ エディターで、**Territory** を [ラベル] に、**Sales Territory** を [値] にドラッグアンドドロップします。
 
-    <img src="images/DragDropRevenueTerritory_All.png" alt="DragDropRevenueTerritory\_All" width="50%"/>
+    <img src="images/DragDropRevenueTerritory_All.png" alt="DragDropRevenueTerritory\_All" class="responsive-img"/>
 
 
 
 4.  サンプルの表示形式では、円チャートの開始位置が異なります。
     開始位置を変更するには、表示形式エディターの **[設定]** タブに移動し、**[開始位置]** を **[90°]** に変更します。
 
-    <img src="images/SalesRevenuebyTerritoryStartPosition_All.png" alt="SalesRevenuebyTerritoryStartPosition\_All" width="50%"/>
+    <img src="images/SalesRevenuebyTerritoryStartPosition_All.png" alt="SalesRevenuebyTerritoryStartPosition\_All" class="responsive-img"/>
 
 
 
@@ -364,25 +364,25 @@ Pipeline per Employee 表示形式は、従業員別の上位 10 位までの販
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、**[データを選択]** を押します。
 
-    <img src="images/SelectingSalesSheet_All.png" alt="SelectingSalesSheet\_All.png" width="80%"/>
+    <img src="images/SelectingSalesSheet_All.png" alt="SelectingSalesSheet\_All.png" class="responsive-img"/>
 
 
 
 2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、柱状チャートを選択します。
 
-    <img src="images/SelectColumnChart_All.png" alt="SelectTextGauge\_All" width="80%"/>
+    <img src="images/SelectColumnChart_All.png" alt="SelectTextGauge\_All" class="responsive-img"/>
 
 
 
 3.  データ エディターで、**Employee** を [ラベル] に、**Pipeline** を [値] にドラッグアンドドロップします。
 
-    <img src="images/DragDropPipelineEmployee_All.png" alt="DragDropPipelineEmployee\_All" width="50%"/>
+    <img src="images/DragDropPipelineEmployee_All.png" alt="DragDropPipelineEmployee\_All" class="responsive-img"/>
 
 
 
 4.  **Pipeline** の値は売り上げ見込みを参照するため、通貨で書式設定する必要があります。[値] で **Pipeline** フィールドを選択し、次の変更を適用します。
 
-    <img src="images/SalesForecastedFormatting_All.png" alt="SalesForecastedFormatting\_All" width="80%"/>
+    <img src="images/SalesForecastedFormatting_All.png" alt="SalesForecastedFormatting\_All" class="responsive-img"/>
 
     1.  **[タイプ]** を **[通貨]** に変更します。
 
@@ -395,11 +395,11 @@ Pipeline per Employee 表示形式は、従業員別の上位 10 位までの販
 5.  この表示形式は 見込み客のトップ 10 を表示するため、フィルターが必要です。
     これを行うには、**[データ フィルターの追加]** を選択し、リストの一番下までスクロールします。集計された **Pipeline** フィールドを選択します。
 
-    <img src="images/SelectPipelineDataEditor_All.png" alt="SelectPipelineDataEditor\_All" width="50%"/>
+    <img src="images/SelectPipelineDataEditor_All.png" alt="SelectPipelineDataEditor\_All" class="responsive-img"/>
 
     次に、**[ルール]** の下の **[トップ アイテム]** を選択し、**10** と入力します。
 
-    <img src="images/SalesPipelineEmployeeTop10_All.png" alt="SalesPipelineEmployeeTop10\_All" width="80%"/>
+    <img src="images/SalesPipelineEmployeeTop10_All.png" alt="SalesPipelineEmployeeTop10\_All" class="responsive-img"/>
 
     [フィルターを作成] を選択し、変更を適用します。
 
@@ -407,7 +407,7 @@ Pipeline per Employee 表示形式は、従業員別の上位 10 位までの販
 
 6.  同じ表示形式サンプルの色にあわせるために、**[設定]** セクションに移動し、10 番目の色に変更します。
 
-    <img src="images/SalesPipelineEmployeeStartColor_All.png" alt="SalesPipelineEmployeeStartColor\_All" width="80%"/>
+    <img src="images/SalesPipelineEmployeeStartColor_All.png" alt="SalesPipelineEmployeeStartColor\_All" class="responsive-img"/>
 
 
 
@@ -420,25 +420,25 @@ Sales by Product 表示形式は、さまざまな会社の製品とそれぞれ
 
 1.  ダッシュボードの右隅にある [+] ボタンを選択します。[新しい表示形式] ダイアログで、**Data in Dashboard** セクションにある **Reveal\_Dashboard\_Tutorials** というスプレッドシートを選択します。**Sales Dashboard** オプションが選択されていることを確認し、**[データを選択]** を押します。
 
-    <img src="images/SelectingSalesSheet_All.png" alt="SelectingSalesSheet\_All.png" width="80%"/>
+    <img src="images/SelectingSalesSheet_All.png" alt="SelectingSalesSheet\_All.png" class="responsive-img"/>
 
 
 
 2.  トップ バーのグリッド アイコンを選択し、**表示形式ピッカーを開き**、円チャートを選択します。
 
-    <img src="images/SelectDoughnutChart_All.png" alt="SelectFunnelChart\_All" width="80%"/>
+    <img src="images/SelectDoughnutChart_All.png" alt="SelectFunnelChart\_All" class="responsive-img"/>
 
 
 
 3.  データ エディターで、**Product** を [ラベル] に、**Sales Product** を [値] にドラッグアンドドロップします。
 
-    <img src="images/DragDropSalesProduct_All.png" alt="DragDropSalesProduct\_All" width="50%"/>
+    <img src="images/DragDropSalesProduct_All.png" alt="DragDropSalesProduct\_All" class="responsive-img"/>
 
 
 
 4.  サンプルの表示形式では、円チャートの開始位置が異なります。開始位置を変更するには、表示形式エディターの **[設定]** タブに移動し、**[開始位置]** を **[90°]** に変更します。
 
-    <img src="images/SalesRevenuebyTerritoryStartPosition_All.png" alt="SalesRevenuebyTerritoryStartPosition\_All" width="50%"/>
+    <img src="images/SalesRevenuebyTerritoryStartPosition_All.png" alt="SalesRevenuebyTerritoryStartPosition\_All" class="responsive-img"/>
 
 
 

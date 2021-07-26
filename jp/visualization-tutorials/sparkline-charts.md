@@ -9,21 +9,21 @@
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><img src="images/SparklineChartSimple_All.png" alt="SparklineChartSimple All" width="80%"/><br />
+<td><p><img src="images/SparklineChartSimple_All.png" alt="SparklineChartSimple All" class="responsive-img"/><br />
 </p>
 <p><a href="#create-sparkline">シンプルなスパークライン</a><br />
 </p></td>
-<td><p><img src="images/SparklineChartArea_All.png" alt="SparklineChartArea All" width="80%"/><br />
+<td><p><img src="images/SparklineChartArea_All.png" alt="SparklineChartArea All" class="responsive-img"/><br />
 </p>
 <p><a href="#change-chart-type-sparkline">エリア チャートのスパークライン</a><br />
 </p></td>
 </tr>
 <tr class="even">
-<td><p><img src="images/SparklineDateAggregation_All.png" alt="SparklineDateAggregation All" width="80%"/><br />
+<td><p><img src="images/SparklineDateAggregation_All.png" alt="SparklineDateAggregation All" class="responsive-img"/><br />
 </p>
 <p><a href="#change-date-aggregation">日の集計のスパークライン</a><br />
 </p></td>
-<td><p><img src="images/SparklineLessColumns_All.png" alt="SparklineLessColumns All" width="80%"/><br />
+<td><p><img src="images/SparklineLessColumns_All.png" alt="SparklineLessColumns All" class="responsive-img"/><br />
 </p>
 <p><a href="#modify-columns">データ量の少ない柱状およびエリア チャートのスパークライン</a><br />
 </p></td>
@@ -74,12 +74,12 @@
 
 |                                          |                                                                                                                |                                                                                                                                                      |
 | ---------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **ダッシュボードを作成する**               | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Tutorials-Create-New-Dashboard" width="100%"/>                                   | ダッシュボード ビューアーで、[ダッシュボード] 画面の右上隅にある [+ ダッシュボード] ボタンを選択します。 |
-| 2\. **データ ソースを構成する**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" width="100%"/>                                       | [新しい表示形式] ウィンドウで、右下隅の [+ データ ソース] ボタンを選択し、データ ソースを選択します。                                      |
-| 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-Sparkline-Charts-Spreadsheet.png" alt="Tutorials-Select-Sparkline-Charts-Spreadsheet.png" width="100%"/> | データ ソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。次に、Sparkline Charts シートを選択します。                        |
-| 4\. **表示形式メニューを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" width="100%"/>                     | 表示形式エディターのトップ バーの**グリッド アイコン**を選択します。                                                                                |
-| 5\. **表示形式を選択する**        | <img src="images/Tutorials-Charts-Select-Sparkline-Chart.png" alt="Tutorials-Charts-Select-Sparkline-Chart" width="100%"/>                 | デフォルトで、表示形式のタイプは**グリッド**に設定されています。スパークライン チャートを選択します。                                                           |
-| 6\. **データを構成する**               | <img src="images/Tutorials-SparklineChart-Organizing-Data.png" alt="Tutorials-SparklineChart-Organizing-Data" width="100%"/>               | Date フィールドを [日付] に、Offer を [値] に、Stocks を [カテゴリ] にドラッグアンドドロップします。                                                       |
+| 1\. **ダッシュボードを作成する**               | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img"/>                                   | ダッシュボード ビューアーで、[ダッシュボード] 画面の右上隅にある [+ ダッシュボード] ボタンを選択します。 |
+| 2\. **データ ソースを構成する**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" class="responsive-img"/>                                       | [新しい表示形式] ウィンドウで、右下隅の [+ データ ソース] ボタンを選択し、データ ソースを選択します。                                      |
+| 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-Sparkline-Charts-Spreadsheet.png" alt="Tutorials-Select-Sparkline-Charts-Spreadsheet.png" class="responsive-img"/> | データ ソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。次に、Sparkline Charts シートを選択します。                        |
+| 4\. **表示形式メニューを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" class="responsive-img"/>                     | 表示形式エディターのトップ バーの**グリッド アイコン**を選択します。                                                                                |
+| 5\. **表示形式を選択する**        | <img src="images/Tutorials-Charts-Select-Sparkline-Chart.png" alt="Tutorials-Charts-Select-Sparkline-Chart" class="responsive-img"/>                 | デフォルトで、表示形式のタイプは**グリッド**に設定されています。スパークライン チャートを選択します。                                                           |
+| 6\. **データを構成する**               | <img src="images/Tutorials-SparklineChart-Organizing-Data.png" alt="Tutorials-SparklineChart-Organizing-Data" class="responsive-img"/>               | Date フィールドを [日付] に、Offer を [値] に、Stocks を [カテゴリ] にドラッグアンドドロップします。                                                       |
 
 <a name='change-chart-type-sparkline'></a>
 ### スパークラインのチャート タイプを変更する方法
@@ -88,8 +88,8 @@
 
 |                                  |                                                                                        |                                                                     |
 | -------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| 1\. **設定メニューへアクセスする** | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" width="100%"/>                 | 表示形式エディターの **[設定]** セクションに移動します。         |
-| 2\. **チャート タイプを変更する**    | <img src="images/Tutorial-Change-Chart-Configuration.png" alt="Tutorial-Change-Chart-Configuration" width="100%"/> | デフォルトで、チャート タイプは [折れ線] に設定されています。[エリア] に設定します。 |
+| 1\. **設定メニューへアクセスする** | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>                 | 表示形式エディターの **[設定]** セクションに移動します。         |
+| 2\. **チャート タイプを変更する**    | <img src="images/Tutorial-Change-Chart-Configuration.png" alt="Tutorial-Change-Chart-Configuration" class="responsive-img"/> | デフォルトで、チャート タイプは [折れ線] に設定されています。[エリア] に設定します。 |
 
 <a name='change-date-aggregation'></a>
 ### 日付集計の変更
@@ -98,8 +98,8 @@
 
 |                                  |                                                                                                      |                                                                                                                                                      |
 | -------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **設定メニューへアクセスする** | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" width="100%"/>                               | 表示形式エディターの **[設定]** セクションに移動します。                                                                                          |
-| 2\. **集計を変更する**   | <img src="images/Tutorial-Change-Date-Aggregation-Sparkline.png" alt="Tutorial-Change-Date-Aggregation-Sparkline" width="100%"/> | デフォルトで、[表示: 過去] 設定は **[月]** に設定されます。[月] の横のドロップダウンを選択し、[年] または [日] に変更します。|
+| 1\. **設定メニューへアクセスする** | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>                               | 表示形式エディターの **[設定]** セクションに移動します。                                                                                          |
+| 2\. **集計を変更する**   | <img src="images/Tutorial-Change-Date-Aggregation-Sparkline.png" alt="Tutorial-Change-Date-Aggregation-Sparkline" class="responsive-img"/> | デフォルトで、[表示: 過去] 設定は **[月]** に設定されます。[月] の横のドロップダウンを選択し、[年] または [日] に変更します。|
 
 日付の集計の隣にある数値を変更して、表示するデータを増減できます。
 
@@ -110,5 +110,5 @@ Reveal で、表示形式の列数は、過去 2 か月とそれらの差を表�
 
 |                                      |                                                                                    |                                                                                                                                                          |
 | ------------------------------------ | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **設定メニューへアクセスする**     | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" width="100%"/>             | 表示形式エディターの **[設定]** セクションに移動します。                                                                                              |
-| 2\. **表示列を変更する** | <img src="images/Tutorial-Remove-Columns-Sparkline.png" alt="Tutorial-Remove-Columns-Sparkline" width="100%"/> | どちらもスパークラインに表示しない場合は、**[最後の 2 つの値の列を表示] または [差異のある列を表示] ボックスをオフにします**。|
+| 1\. **設定メニューへアクセスする**     | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>             | 表示形式エディターの **[設定]** セクションに移動します。                                                                                              |
+| 2\. **表示列を変更する** | <img src="images/Tutorial-Remove-Columns-Sparkline.png" alt="Tutorial-Remove-Columns-Sparkline" class="responsive-img"/> | どちらもスパークラインに表示しない場合は、**[最後の 2 つの値の列を表示] または [差異のある列を表示] ボックスをオフにします**。|

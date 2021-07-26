@@ -9,13 +9,13 @@ Company 360 ダッシュボード (以下を参照) を見てみましょう。�
 * **別のダッシュボード** (以下のスクリーンショットを参照)。表示形式またはその中の値に関連するより具体的な情報を提供します。
 * ダッシュボード ナビゲーションの一部としてサードパーティ ウェブ アプリケーションとのインタラクションなど拡張性を有効にする **URL**。
 
-<img src="images/dashboard-linking-sample.png" alt="Dashboard linking sample" width="80%"/>
+<img src="images/dashboard-linking-sample.png" alt="Dashboard linking sample" class="responsive-img"/>
 
 ### リンクを追加 
 
 リンクを構成するには、表示形式エディターの **[設定]** セクションに移動し、**[リンク]** の [+] をクリック/タップします。
 
-<img src="images/pivot-editor-linking2.png" alt="Adding a link in Settings" width="80%"/>
+<img src="images/pivot-editor-linking2.png" alt="Adding a link in Settings" class="responsive-img"/>
 
 追加されたリンクは、ダッシュボードが**ビュー モード**の場合、構成されている表示形式にリンク記号として表示されます。
 
@@ -33,7 +33,7 @@ Company 360 ダッシュボード (以下を参照) を見てみましょう。�
 
 3. **[設定]** に移動し、**[リンク]** の [+] を選択して、**[新しいリンク]** ダイアログが開きます。
 
-  <img src="images/new-link-dialog.png" alt="Dashboard linking sample" width="80%"/>
+  <img src="images/new-link-dialog.png" alt="Dashboard linking sample" class="responsive-img"/>
 
   ここでは、2 つのパラメーターを構成する必要があります:
 
@@ -43,7 +43,7 @@ Company 360 ダッシュボード (以下を参照) を見てみましょう。�
 
 ターゲット ダッシュボードにダッシュボード フィルターを追加した場合は、リンクを追加する表示形式のデータセット内の対応するフィールドにダッシュボード フィルターを接続する必要もあります (以下を参照)。
 
-  <img src="images/filter-configure-linking-dashboards.png" alt="Dashboard linking sample" width="80%"/>
+  <img src="images/filter-configure-linking-dashboards.png" alt="Dashboard linking sample" class="responsive-img"/>
 
 **[完了]** をクリックして戻ります。
 
@@ -66,7 +66,7 @@ URL の追加は、[新しいリンク] ダイアログのもう 1 つのオプ�
 <a name='variables'></a>
 URL の場合は、**変数**を含めることもできます。これにより、表示形式フィールドの値に基づいて、ユーザーにリンクされる URL が動的に作成されます。たとえば、以下の表示形式リンクを見てみましょう:
 
-  <img src="images/adding-url-linking.png" alt="Dashboard linking sample" width="80%"/>
+  <img src="images/adding-url-linking.png" alt="Dashboard linking sample" class="responsive-img"/>
 
 URL は <http://www.en.wikipedia.org/wiki> に設定されており、選択した*変数*は **CampaignID** になります。したがって、表示形式で **Navigate to Wiki** リンクを選択したユーザーは次のように表示されます:
 
@@ -87,7 +87,7 @@ URL は <http://www.en.wikipedia.org/wiki> に設定されており、選択し�
 
 このオプションを選択すると、柱状、棒、円スライスなどのチャートのデータ項目がクリック/タップされるたびに、リンク記号の付いたツールチップが表示されます。グリッド チャートでは、リンク記号が右側の最後の列に表示されます (以下を参照)。
 
-  <img src="images/links-to-grid-view.png" alt="A grid with link symbols and an arrow pointing to the row of the Amethyst value for CampaignID" width="80%"/>
+  <img src="images/links-to-grid-view.png" alt="A grid with link symbols and an arrow pointing to the row of the Amethyst value for CampaignID" class="responsive-img"/>
 
 _CampaignID_ を使用してデータ フィルターをターゲット ダッシュボードに追加した場合、上のスクリーンショットに示すように、グリッド内のリンク記号をクリックすると、_Amethyst_ 値が事前に選択された _CampaignID_ フィールドでフィルターされた別のダッシュボードが開きます。このように、ターゲット ダッシュボードには、選択した値の分析のみが表示されます。
 

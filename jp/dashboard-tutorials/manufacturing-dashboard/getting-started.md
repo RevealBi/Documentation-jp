@@ -2,7 +2,7 @@
 
 このチュートリアルでは、サンプル スプレッドシートで同様のデータを使用して作成した以下の Supply Chain Management ダッシュボードを表示する方法について説明します。
 
-<img src="images/SupplyChainManagementDashboard_All.png" alt="SupplyChainManagementDashboard\_All" width="80%"/>
+<img src="images/SupplyChainManagementDashboard_All.png" alt="SupplyChainManagementDashboard\_All" class="responsive-img"/>
 
 ### ダッシュボードに含まれる項目
 

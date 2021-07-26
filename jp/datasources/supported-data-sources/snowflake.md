@@ -4,7 +4,7 @@
 
 Snowflake データ ソースを構成するには、最初に次の情報を入力してサーバーに接続する必要があります:
 
-<img src="images/enter-snowflake-server-details.png" alt="Configure Snowflake Server details" width="80%"/>
+<img src="images/enter-snowflake-server-details.png" alt="Configure Snowflake Server details" class="responsive-img"/>
 
 1.  データソースの **デフォルト名**: データソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Snowflake* という名前を付けます。好みに合わせて変更できます。
 
@@ -14,7 +14,7 @@ Snowflake データ ソースを構成するには、最初に次の情報を入
 
 4.  **[資格情報]**: *資格情報*を選択した後、*Snowflake* サーバーの資格情報を入力するか、既存の資格情報 (利用可能な場合) を選択できます。
 
-    <img src="images/enter-snowflake-credentials.png" alt="Configure Snowflake Credentials" width="80%"/>
+    <img src="images/enter-snowflake-credentials.png" alt="Configure Snowflake Credentials" class="responsive-img"/>
 
     - **名前**: データソース アカウントの名前。以前のダイアログのアカウントのリストに表示されます。
 
@@ -28,7 +28,7 @@ Snowflake データ ソースを構成するには、最初に次の情報を入
 
 1.  データベースの横にある空の円をマークして、**データベースを選択します**。
 
-    <img src="images/select-database-snowflake.png" alt="Select a database dialog" width="80%"/>
+    <img src="images/select-database-snowflake.png" alt="Select a database dialog" class="responsive-img"/>
 
     >[!NOTE]    
     >**Reveal の Snowflake サンプル データ**。
@@ -37,7 +37,7 @@ Snowflake データ ソースを構成するには、最初に次の情報を入
 
 2.  データベースから **[表] または [ビュー] を選択します**。右側の*目のアイコン*を使用して、データをプレビューします。
 
-    <img src="images/select-tableview-snowflake.png" alt="Select a table or view dialog" width="80%"/>
+    <img src="images/select-tableview-snowflake.png" alt="Select a table or view dialog" class="responsive-img"/>
 
 これで、Snowflake から取得したデータを使用して表示形式の構築を開始できる**表示形式エディター**が表示されます。
 

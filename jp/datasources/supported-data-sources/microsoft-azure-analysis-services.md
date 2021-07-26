@@ -13,7 +13,7 @@ Azure Analysis Services データ ソースを設定するには、以下の手�
 
 1. [データ ソースの作成] ダイアログでサーバーの URL を指定します:
 
-    <img src="images/configure-azure-analysis-services-data-source.png" alt="Configuring an azure analysis services connection" width="80%"/>
+    <img src="images/configure-azure-analysis-services-data-source.png" alt="Configuring an azure analysis services connection" class="responsive-img"/>
 
     要求される _URL_ は、接続するデータ モデルのデータベースを含むサーバーの完全な名前です。Azure ポータルから*サーバー名をコピー*できます。これを行うには、以下にアクセスしてください:
 

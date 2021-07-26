@@ -2,7 +2,7 @@
 
 アプリケーションをインストールして最初の起動時に以下の画面が表示されます。
 
-<img src="images/log-in-screen.png" alt="Log in screen" width="80%"/>
+<img src="images/log-in-screen.png" alt="Log in screen" class="responsive-img"/>
 
 Reveal では、Office 365、Google アカウントまたは iCloud (*Apple*) の認証情報を使用してログインできます。インフラジスティックス ユーザーアカウントを作成することもできます。アプリケーションに自動的にログインするには、一度サインインするだけでよいので、複数のパスワードを覚えておく必要はありません。
 
@@ -10,7 +10,7 @@ Reveal では、Office 365、Google アカウントまたは iCloud (*Apple*) �
 
 Reveal で **Office 365** アカウントを使用して初めてサインインすると、Reveal にプロファイルを読み取り、アクセスを維持するためのアクセス許可を与えるように求められます。
 
-<img src="images/limited-permission-sign-in-o365.png" alt="Permissions request sign in with Office 365" width="80%"/>
+<img src="images/limited-permission-sign-in-o365.png" alt="Permissions request sign in with Office 365" class="responsive-img"/>
 
 **Google** アカウントを使用してサインインする場合は、アカウントの資格情報を入力するだけで済みます。
 

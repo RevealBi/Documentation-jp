@@ -4,7 +4,7 @@ Reveal で BigQuery のトレーニング済みの機械学習モデルを使用
 
 たとえば、クライアントに関する特定の情報を使用して、銀行のクライアントの信用リスクを予測するようにトレーニングされた機械学習 (Machine Learning) モデルがあるとします。この機械学習モデルを Reveal で使用して、クライアントの住宅タイプが信用リスクにどのように関連するかについての洞察を与える表示形式を構築できます。
 
-<img src="images/bigquery-machine-learning-model-visualization-example.png" alt="Credit risk by type of Housing example" width="80%"/>
+<img src="images/bigquery-machine-learning-model-visualization-example.png" alt="Credit risk by type of Housing example" class="responsive-img"/>
 
 
 ### 前提条件
@@ -22,7 +22,7 @@ BigQuery Machine Learning にアクセスするには、以下の手順を実行
 
 2. 表示形式エディターで、左側のフィールド リストの上にある**脳アイコン**をクリック/タップします。
 
-    <img src="images/brain-icon-bigquery-ml-model.png" alt="Brain icon location in the Visualization editor" width="80%"/>
+    <img src="images/brain-icon-bigquery-ml-model.png" alt="Brain icon location in the Visualization editor" class="responsive-img"/>
 
 
 ### 機械学習モデルへの接続
