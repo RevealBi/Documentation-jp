@@ -1,4 +1,4 @@
-## Reveal スプレッドシートの作業
+# Reveal スプレッドシートの作業
 
 以下は Reveal でスプレッドシートとの作業のためのヒントがあります。
 
@@ -36,7 +36,7 @@
 </tbody>
 </table>
 
-### データ範囲
+## データ範囲
 
 <table>
 <colgroup>
@@ -59,7 +59,7 @@
 </tbody>
 </table>
 
-### 日付、数値、およびパーセンテージ
+## 日付、数値、およびパーセンテージ
 
 <table>
 <colgroup>
@@ -98,7 +98,7 @@
 </table>
 
 <a name='transposing-spreadsheets'></a>
-### 列を行に転置
+## 列を行に転置
 
 Microsoft Excel および Google スプレッドシートを使用する場合、転置機能を使用して列を行から切り替えることができます。
 
@@ -120,7 +120,7 @@ Microsoft Excel および Google スプレッドシートを使用する場合�
 
 <img src="images/transposed-spreadsheet-visualization-data.png" alt="Transposed Spreadsheet Visualization Data" class="responsive-img"/>
 
-### 関連項目
+## 関連項目
 
 一般的な使用例として、クラウド ファイル共有サービスにあるスプレッドシートでのダッシュボードの構築があります。
 これらのダッシュボードを他のユーザーと正常に共有する方法については、[クラウド ファイルをデータ ソースとするダッシュボードを共有する](~/jp/dashboards/sharing-dashboards/sharing-dashboards-datasource-files-cloud-provider.html)トピックをご覧ください。

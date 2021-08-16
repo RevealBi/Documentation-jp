@@ -1,4 +1,4 @@
-## Reveal の BigQuery Machine Learning
+# Reveal の BigQuery Machine Learning
 
 Reveal で BigQuery のトレーニング済みの機械学習モデルを使用できます。これまで以上に洗練された情報を取得できます。BigQuery をデータ ソースとして選択し、表示形式を作成し、トレーニング済みの機械学習モデルに接続します。
 
@@ -7,11 +7,11 @@ Reveal で BigQuery のトレーニング済みの機械学習モデルを使用
 <img src="images/bigquery-machine-learning-model-visualization-example.png" alt="Credit risk by type of Housing example" class="responsive-img"/>
 
 
-### 前提条件
+## 前提条件
 
 Reveal で BigQuery Machine Learning を使用するには、**トレーニング済みの機械学習モデル**がある **BigQuery データ ソース アカウントに接続する**必要があります。
 
-### BigQuery Machine Learning へのアクセス
+## BigQuery Machine Learning へのアクセス
 
 BigQuery Machine Learning にアクセスするには、以下の手順を実行します。
 
@@ -25,7 +25,7 @@ BigQuery Machine Learning にアクセスするには、以下の手順を実行
     <img src="images/brain-icon-bigquery-ml-model.png" alt="Brain icon location in the Visualization editor" class="responsive-img"/>
 
 
-### 機械学習モデルへの接続
+## 機械学習モデルへの接続
 
 BigQuery 機械学習モデルに接続するには、以下を実行する必要があります。
 

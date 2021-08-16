@@ -1,4 +1,4 @@
-## その他の表示形式の追加
+# その他の表示形式の追加
 
 ダッシュボードにあるその他すべての表示形式で同じ[サンプル スプレッドシート](https://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)を使用します。
 
@@ -45,7 +45,7 @@
 </tbody>
 </table>
 
-### Followers
+## Followers
 
 Followers 表示形式はソーシャル メディア チャネルごとに分類されたフォロワーの数を[柱状チャート](~/jp/visualization-tutorials/simple-charts.html)で表示します。以下は作成方法です。
 
@@ -88,7 +88,7 @@ Followers 表示形式はソーシャル メディア チャネルごとに分�
 
 7.  **表示形式のタイトルを Followers に変更する**ため、Social Dashboard の横にある**鉛筆アイコンを選択します**。完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
-### YTD Facebook Followers
+## YTD Facebook Followers
 
 YTD Facebook Followers 表示形式は、[テキスト ゲージ](~/jp/data-visualizations/visualization-types/gauge-charts.html#text-gauge)でそのソーシャル メディア チャネルのフォロワー数を示します。以下は作成方法です。
 
@@ -118,7 +118,7 @@ YTD Facebook Followers 表示形式は、[テキスト ゲージ](~/jp/data-visu
 
 5.  **表示形式のタイトルを YTD Facebook Followers に変更する**ため、Social Dashboard の横にある**鉛筆アイコンを選択します**。完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
-### Monthly Facebook Likes
+## Monthly Facebook Likes
 
 Monthly Facebook Likes 表示形式は、[折れ線チャート](~/jp/visualization-tutorials/simple-charts.html)で会社の月ごとの Facebook の「いいね」数を示します。以下は作成方法です。
 
@@ -161,7 +161,7 @@ Monthly Facebook Likes 表示形式は、[折れ線チャート](~/jp/visualizat
 
 8.  **表示形式のタイトルを Monthly Facebook Likes に変更する**ため、Social Dashboard の横にある**鉛筆アイコンを選択します**。完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
-### Retweets &amp; Favorites
+## Retweets &amp; Favorites
 
 Retweets &amp; Favorites の表示形式は[柱状チャート](~/jp/visualization-tutorials/simple-charts.html)で会社の月ごとの Twitter のリツイート&; お気に入り数を示します。以下は作成方法です。
 
@@ -202,7 +202,7 @@ Retweets &amp; Favorites の表示形式は[柱状チャート](~/jp/visualizati
 
 8.  **表示形式のタイトルを Retweets &amp; Favorites に変更する**ため、Social Dashboard の横にある**鉛筆アイコンを選択します**。完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
-### Facebook Reach vs. Impressions
+## Facebook Reach vs. Impressions
 
 Facebook Reach vs. Impressions の数表示形式は[エリア チャート](~/jp/visualization-tutorials/simple-charts.html)で会社の Facebook のリーチ vs. インプレッション数を示します。以下は作成方法です。
 
@@ -240,7 +240,7 @@ Facebook Reach vs. Impressions の数表示形式は[エリア チャート](~/j
 
 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
-### Monthly Twitter Mentions
+## Monthly Twitter Mentions
 
 Monthly Twitter Mentions の表示形式は、[折れ線チャート](~/jp/visualization-tutorials/simple-charts.html)で会社の Twitter のメンション数を示します。以下は作成方法です。
 

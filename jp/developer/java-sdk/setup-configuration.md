@@ -1,8 +1,8 @@
-## セットアップと構成
+# セットアップと構成
 
 <a name='maven-dependency'></a>
 
-### 前提条件 (Maven)
+## 前提条件 (Maven)
 
 Reveal Java SDK は、[Maven (英語)](https://maven.apache.org/what-is-maven.html) モジュールのセットとして配布されます。SDK ライブラリを操作するには、Reveal の Maven リポジトリへの参照と、Maven pom.xml ファイルの依存関係を追加する必要があります。
 
@@ -34,7 +34,7 @@ Maven ついてご不明な点がございましたら、次の[リンク (英�
 > [!NOTE]
 > Oracle データベースを使用している場合は、アプリケーションにドライバーを追加する必要があります。
 
-### セットアップと構成 (汎用サーバー)
+## セットアップと構成 (汎用サーバー)
 
 Reveal を既存のアプリケーションと統合するには、次の一般的な手順に従う必要があります:
 
@@ -48,11 +48,11 @@ Tomcat または Spring の構成については、以下のリンクを参照�
 - [Spring サーバー](setup-configuration-spring.md)
 - [Oracle Server](setup-configuration-oracle.md)
 
-#### 手順 1 – アプリケーションに依存関係を追加します。
+### 手順 1 – アプリケーションに依存関係を追加します。
 
 必要な手順に従って、既存のアプリケーションに依存関係を追加します。
 
-#### 手順 2 - Reveal SDK に依存関係を追加します。
+### 手順 2 - Reveal SDK に依存関係を追加します。
 
 *reveal-sdk* に依存関係を追加し、SDK のバージョンを指定します。
 
@@ -66,7 +66,7 @@ Tomcat または Spring の構成については、以下のリンクを参照�
 
 version_number を **1.0.1821** のような番号に置き換えます。
 
-#### 手順 3 - Reveal を初期化します。
+### 手順 3 - Reveal を初期化します。
 
 Reveal を初期化するには、**RevealEngineInitializer.initialize** を使用します。
 
@@ -101,14 +101,14 @@ RevealEngineInitializer.initialize(
 
 ダッシュボード プロバイダーを実装する方法の詳細については、GitHub の [UpMedia サンプル (英語)](https://github.com/RevealBi/sdk-samples-java) を参照してください。
 
-#### 手順 4 - サーバー側エクスポートを有効にします。
+### 手順 4 - サーバー側エクスポートを有効にします。
 
 Java SDK は、ダッシュボードをさまざまな形式 (Image、PDF、PPT、Excel) にエクスポートするためにいくつかのネイティブ コンポーネントを使用します。
 
 これらの形式の 1 つ以上にサーバー側をエクスポートする場合は、[サーバー側のエクスポート構成](export-server-side.md)を参照してください。
 
 
-### セットアップと構成 (クライアント)
+## セットアップと構成 (クライアント)
 
 以下は、Reveal Web クライアント SDK を設定するための手順です。
 
@@ -121,7 +121,7 @@ Java SDK は、ダッシュボードをさまざまな形式 (Image、PDF、PPT�
 
 <a name='check-dependencies'></a>
 
-#### 1\. 依存関係の確認
+### 1\. 依存関係の確認
 
 Reveal Web クライアント SDK には、次のサードパーティの参照があります:
 
@@ -134,7 +134,7 @@ Reveal Web クライアント SDK には、次のサードパーティの参照�
 
 <a name='reference-web-client-sdk'></a>
 
-#### 2\. Web クライアント SDK の参照
+### 2\. Web クライアント SDK の参照
 
 Web ページで **\$.ig.RevealView** コンポーネントを有効にするには、いくつかのスクリプトを含める必要があります。これらのスクリプトは Reveal Web クライアント SDK の一部として提供されます。
 
@@ -146,7 +146,7 @@ JavaScript ファイルは "\<InstallationDirectory\>\\SDK\\Web\\JS\\Client" に
 
 <a name='instantiate-web-client-sdk'></a>
 
-#### 3\. Web クライアント SDK のインスタンス化
+### 3\. Web クライアント SDK のインスタンス化
 
 ダッシュボードのプレゼンテーションは、Web クライアント SDK を介してネイティブに処理されます。
 
@@ -164,7 +164,7 @@ JavaScript ファイルは "\<InstallationDirectory\>\\SDK\\Web\\JS\\Client" に
 
     最後に、取得したダッシュボードを使用し、**\$.ig.RevealView** のダッシュボード プロパティに設定する必要があります。
 
-#### サンプル コード
+### サンプル コード
 
 ```html
 <!DOCTYPE html>
@@ -192,7 +192,7 @@ JavaScript ファイルは "\<InstallationDirectory\>\\SDK\\Web\\JS\\Client" に
 </html>
 ```
 
-### Oracle データベースの操作
+## Oracle データベースの操作
 
 上記のように、Reveal Java SDK は、[Maven](https://maven.apache.org/what-is-maven.html) モジュールのセットとして配布されます。SDK ライブラリを操作するには、Maven pom.xml ファイルに 2 つの参照と依存関係を追加する必要があります。
 

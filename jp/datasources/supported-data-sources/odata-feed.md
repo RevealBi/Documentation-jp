@@ -1,6 +1,6 @@
-## OData フィード
+# OData フィード
 
-### OData フィードへの接続
+## OData フィードへの接続
 
 OData フィードのデータ ソースを設定するには、以下の情報が必要です。
 
@@ -25,7 +25,7 @@ OData フィードのデータ ソースを設定するには、以下の情報�
 
 保護された OData フィード データ ソースの *OAuth 2 / OIDC アカウント*を設定するには、[このトピック](/jp/datasources/OAuth-2-OIDC-User-Authentication.html)を参照してください。
 
-### オープン型の列
+## オープン型の列
 
 Reveal は、動的な[*オープン型の列*](https://docs.microsoft.com/ja-jp/aspnet/web-api/overview/odata-support-in-aspnet-web-api/odata-v4/use-open-types-in-odata-v4)を持つ OData フィードをサポートします。動的な OData フィードを変更した後、ダッシュボードを更新するだけで新しいデータが取得されます。
 
@@ -40,7 +40,7 @@ Reveal は、動的な[*オープン型の列*](https://docs.microsoft.com/ja-jp
 
 OData のオープン型の詳細については、[こちら](https://docs.microsoft.com/ja-jp/aspnet/web-api/overview/odata-support-in-aspnet-web-api/odata-v4/use-open-types-in-odata-v4)を参照してください。
 
-### 関数の使用
+## 関数の使用
 
 OData フィードによって公開されるように設定した関数は、データ ソースの  **[新しい表示形式]** メニューの **[関数]** タブに表示されます。
 

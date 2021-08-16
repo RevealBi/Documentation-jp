@@ -1,9 +1,9 @@
-## PostgreSQL
+# PostgreSQL
 
 >[!NOTE] 
 >**Web の制限**。*Reveal Web* アプリでは、公的にアクセス可能な PostgreSQL アドレスにのみ接続できます。PostgreSQL アドレスが一般公開 (プライベートまたは会社のイントラネットでホストされているなど) に制限されている場合は、*Reveal Desktop*、*iOS*、または *Android* を使用して接続できます。Reveal を実行しているデバイスは、PostgreSQL アドレスにアクセスできる必要があります。この制限は、*Reveal Embedded* には適用されません。
 
-### PostgreSQL への接続
+## PostgreSQL への接続
 
 PostgreSQL サーバー データ ソースを設定するには、以下の情報が必要です。
 
@@ -28,7 +28,7 @@ PostgreSQL サーバー データ ソースを設定するには、以下の情�
         準備ができたら、**[作成して使用]** を選択します。
 
 <a name='how-to-find-server'></a>
-### サーバー情報を見つける方法
+## サーバー情報を見つける方法
 
 以下の手順でサーバーも確認できます。コマンドはサーバーで実行する必要があることに注意してください。
 
@@ -46,8 +46,8 @@ PostgreSQL サーバー データ ソースを設定するには、以下の情�
 | 2\. **ipconfig** を入力します。             | 2\. **$ /bin/ifconfig** を入力します。   | 2\. 接続を選択します。                                   |
 | **IPv4 Address** は IP アドレスです。 | **Inet addr** は IP アドレスです。 | **IP アドレス** フィールドに必要な情報が含まれます。 |
 
-### データの設定
-#### ビューの作業
+## データの設定
+### ビューの作業
 
 Reveal を使用すると、テーブル全体から PostgreSQL データを取得できますが、代わりにテーブルまたはテーブルのセットからデータのサブセットを返す特定の[ビュー (英語)](https://www.postgresqltutorial.com/postgresql-views/) を選択することもできます。
 
@@ -59,7 +59,7 @@ Reveal を使用すると、テーブル全体から PostgreSQL データを取�
 
 ビューと PostgreSQL の詳細については、[このウェブサイト (英語)](https://www.postgresql.org/docs/10/tutorial-views.html) をご覧ください。
 
-#### 関数の使用
+### 関数の使用
 
 PostgreSQL 関数を使用すると、データベース内の単一の関数で、通常は複数のクエリとラウンド トリップを必要とする操作を実行できます。
 
@@ -77,7 +77,7 @@ PostgreSQL 関数を使用すると、データベース内の単一の関数で
 
 関数と PostgreSQLの 詳細については、この [Web サイト (英語)](https://www.postgresql.org/docs/9.0/sql-createfunction.html) にアクセスしてください。
 
-### Reveal の関数の制限
+## Reveal の関数の制限
 
 * 関数の出力パラメーターは無視されます。
 * 結果セットを返さない関数は、データ ソース リストにリストされますが、失敗します。

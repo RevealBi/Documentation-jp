@@ -1,11 +1,11 @@
-## Excel および CSV ファイルのデータ ソースの置き換え 
+# Excel および CSV ファイルのデータ ソースの置き換え 
 
-### 概要
+## 概要
 
 **Reveal アプリ**でダッシュボードを作成するとき、クラウドに保存されている Excel または CSV ファイルを使用してデータを入力することがよくあります。   
 ダッシュボードをエクスポートしてカスタム アプリケーションに組み込んだ後、これらのファイルをローカル ディレクトリに移動し、**Reveal SDK** を使用してアクセスし、ローカル データ ソースとして設定できます。 
 
-### 手順
+## 手順
 ローカルの Excel ファイルと CSV ファイルを使用してエクスポートされた ダッシュボードにデータを入力するには、次の手順に従う必要があります
 1. [**SDK 用のダッシュボードの取得**](~/jp/developer/general/get-dashboards.md)の説明に従って、**ダッシュボード ファイルをエクスポートします**。 
 2. [**ダッシュボード ファイルの読み込み**](~/jp/developer/desktop-sdk/using-the-desktop-sdk/loading-dashboards.md)の説明に従って、アプリケーションに**ダッシュボードを読み込みます**。 
@@ -20,7 +20,7 @@
   public override IRVDataSourceProvider DataSourceProvider => new CloudToLocalDatasourceProvider();        
 ```
 
-### コード
+## コード
 ``` csharp
     public class CloudToLocalDatasourceProvider : IRVDataSourceProvider
     {

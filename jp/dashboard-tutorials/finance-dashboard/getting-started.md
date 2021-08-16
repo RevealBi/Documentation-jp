@@ -1,10 +1,10 @@
-## Finance Dashboard チュートリアル
+# Finance Dashboard チュートリアル
 
 このチュートリアルでは、サンプル スプレッドシートで同様のデータを使用して作成した以下の Stock Market (Performance) ダッシュボードを表示する方法について説明します。
 
 <img src="images/StockPerformanceDashboard_All.png" alt="StockPerformanceDashboard\_All" class="responsive-img"/>
 
-### ダッシュボードに含まれる項目
+## ダッシュボードに含まれる項目
 
 このダッシュボードは、例の会社の以下の情報を含みます:
 
@@ -16,14 +16,14 @@
 
 <a name='sample-datasheet'>
 
-### サンプル データシート
+## サンプル データシート
 
 [ここ](https://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)からサンプル データシートをダウンロードできます。その他すべてのダッシュボード [チュートリアル](../../../jp/dashboard-tutorials/overview.html)で同じサンプル スプレッドシートを使用します。
 
 >[!NOTE]
 >このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、[サポートされているクラウド サービス](../../../jp/datasources/overview.html)のいずれかにファイルをアップロードしてください。
 
-### ステップの概要
+## ステップの概要
 
 1.  [ダッシュボードを作成してデータ ソースを追加](creating-the-dashboard.html)
 

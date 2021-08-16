@@ -1,4 +1,4 @@
-## フィールド設定
+# フィールド設定
 
 このセクションでは、並べ替え、フィルター処理、データの集計などデータセットへの変換を適用するためのさまざまなオプションについて説明します。
 
@@ -19,7 +19,7 @@
 </div>
 
 <a name='date-fields'></a>
-### 日付フィールド
+## 日付フィールド
 
 <img src="images/Date-Field-Formatting.png" alt="Date-Field-Formatting" class="responsive-img"/>
 
@@ -31,7 +31,7 @@
 
   - **日付書式**: 日付と時刻書式の定義済みリストから選択して、日付/時刻の値を表示します。
 
-#### 日付フィールド階層
+### 日付フィールド階層
 
 日付フィールドの集計は、[フィールド] セクションに階層リストとして表示されます。日付フィールドの精度に応じて、[年]、[四半期]、[月]、[日]、および [分] を見つけることができます。
 
@@ -44,7 +44,7 @@
 <img src="images/Date-Field-Hierarchy-Level.png" alt="Dragging part of the hierarchy of a date field in Reveal" class="responsive-img"/>
 
 <a name='numeric-fields'></a>
-### 数値フィールド
+## 数値フィールド
 
 <img src="images/Numeric-Field-Formatting.png" alt="Numeric-Field-Formatting\_All.png" class="responsive-img"/>
 
@@ -69,7 +69,7 @@
   - [**条件付き書式**](conditional-formatting.html): これを有効にすると、値に基づいて各セルに異なるフォーマットを提供できます。たとえば、フィールドの下位 50% 範囲内の値は、問題を通知する赤色のアドナーで色を付けることができます。3 つまでの範囲に (一般的には、上部、中央、そして下部の範囲に使用) スタイル規則を設定することができますが制限、比較のタイプ、色、およびインジケーター シンボルをカスタマイズできます。
 
 <a name='abc-fields'></a>
-### 文字列フィールド
+## 文字列フィールド
 
 <img src="images/string-field-formatting.png" alt="String-Field-Formatting" class="responsive-img"/>
 

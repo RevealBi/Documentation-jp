@@ -1,8 +1,8 @@
-## Microsoft Reporting Services
+# Microsoft Reporting Services
 
 既存の Microsoft Reporting Services (SSRS) レポートをダッシュボードに PDF ファイルとして埋め込むか、レポートからデータを取得して表示形式を作成して、Reveal で使用できます。
 
-### Microsoft Reporting Services への接続
+## Microsoft Reporting Services への接続
 
 Microsoft Reporting Services (SSRS) データ ソースを構成するには、以下の情報が必要です。
 
@@ -20,7 +20,7 @@ Microsoft Reporting Services (SSRS) データ ソースを構成するには、�
 
 4.  **[資格情報]**: 新しいダイアログが表示されます。Microsoft Reporting Services サーバーの新しい資格情報を入力、または既存の情報を入力します
 
-### レポートの設定
+## レポートの設定
 
 Microsoft Reporting Services レポートへの接続を構成した後、以下のダイアログが開き、レポートの選択を促されます。
 

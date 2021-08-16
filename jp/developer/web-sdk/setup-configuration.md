@@ -1,6 +1,6 @@
-## セットアップと構成 (Web)
+# セットアップと構成 (Web)
 
-### 前提条件
+## 前提条件
 
 Reveal Server SDK には、.NET Core 2.2+ または .NET Framework 4.6.2 以降の ASP MVC アプリケーション プロジェクトが必要です。
 
@@ -16,7 +16,7 @@ NET Framework 4.6.2 以降 をターゲットとする場合、Reveal Server SDK
 </PropertyGroup>
 ```
 
-### セットアップと構成の概要 
+## セットアップと構成の概要 
 
 以下は、Reveal Web Server SDK 設定の手順です。
 
@@ -30,7 +30,7 @@ NET Framework 4.6.2 以降 をターゲットとする場合、Reveal Server SDK
 
 <a name='getting-assemblies-dependencies'></a>
 
-#### 1\. アセンブリと依存関係パッケージの準備
+### 1\. アセンブリと依存関係パッケージの準備
 
 アセンブリへの参照を追加して依存関係パッケージをインストールするには、**NuGet** パッケージ マネージャの使用をお勧めします。プロジェクトのセットアップには、**Reveal.Sdk.Web.AspNetCore** (トライアル) NuGet パッケージをインストールする方法が最も簡単です。
 
@@ -49,7 +49,7 @@ Infragistics (Local) フィードがインストーラーによって正しく�
 
 <a name='defining-server-context'></a>
 
-#### 2\. サーバー コンテキストの定義
+### 2\. サーバー コンテキストの定義
 
 必要な DLL を参照したら、**RevealSdkContextBase** 抽象クラスを継承するクラスを作成する必要があります。このクラスは、Reveal SDK をアプリケーション内で実行できるようにし、SDK を操作するためのコールバックを提供します。
 
@@ -86,7 +86,7 @@ public class RevealSdkContext : RevealSdkContextBase
 
 <a name='initializing-server-sdk'></a>
 
-#### 3\. サーバー SDK の初期化
+### 3\. サーバー SDK の初期化
 
 **Startup.cs** のアプリケーションの **ConfigureServices** メソッド _RevealEmbedSettings_ クラスを渡し、サービス拡張メソッド _AddRevealServices_ を呼び出します。
 
@@ -114,7 +114,7 @@ _AddRevealServices_ と同様に、_AddReveal_ メソッドは _Reveal.Sdk_ で�
 
 <a name='server-side-image-export'></a>
 
-#### 4\. サーバー側画像生成の有効化
+### 4\. サーバー側画像生成の有効化
 
 **画像エクスポート**機能 (プログラム上およびユーザー操作の両方により) を使用するには、以下の手順を実行する必要があります。
 
@@ -139,7 +139,7 @@ _AddRevealServices_ と同様に、_AddReveal_ メソッドは _Reveal.Sdk_ で�
 ```
 
 <a name='sqlite-fix'></a>
-#### NuGet 使用時のビルドの問題
+### NuGet 使用時のビルドの問題
 
 **SQLite.Interop.dll** に関連するデプロイメントの問題を処理するために、NuGet パッケージでカスタムの .targets ファイルが使用されています。
 
@@ -149,7 +149,7 @@ _AddRevealServices_ と同様に、_AddReveal_ メソッドは _Reveal.Sdk_ で�
 <DisableSQLiteInteropFix>true</DisableSQLiteInteropFix>
 ```
 
-### セットアップと構成 (クライアント)  
+## セットアップと構成 (クライアント)  
 
 以下は、Reveal Web Client SDK を設定するための手順です。
 
@@ -161,7 +161,7 @@ _AddRevealServices_ と同様に、_AddReveal_ メソッドは _Reveal.Sdk_ で�
 
 <a name='check-dependencies'></a>
 
-#### 1\. 依存関係の確認
+### 1\. 依存関係の確認
 Reveal Web Client SDK には、サードパーティーの参照が 2 つあります。
 
 - [jQuery](https://jquery.com) 2.2 またはそれ以上
@@ -172,7 +172,7 @@ Reveal Web Client SDK には、サードパーティーの参照が 2 つあり�
 
 <a name='reference-web-client-sdk'></a>
 
-#### 2\. Web Client SDK の参照
+### 2\. Web Client SDK の参照
 
 Web ページで **$.ig.RevealView** コンポーネントを有効にするには、いくつかの クリプトを含める必要があります。これらのスクリプトは Reveal Web Client SDK の一部として提供されます。
 
@@ -184,7 +184,7 @@ JavaScript ファイル は \<InstallationDirectory\>\\SDK\\Web\\JS\\Client に�
 
 <a name='instantiate-web-client-sdk'></a>
 
-#### 3\. Web Client SDK のインスタンス化
+### 3\. Web Client SDK のインスタンス化
 
 ダッシュボードのプレゼンテーションは、Web Client SDK を介してネイティブに処理されます。
 
@@ -200,7 +200,7 @@ JavaScript ファイル は \<InstallationDirectory\>\\SDK\\Web\\JS\\Client に�
 
 3.  成功ハンドラーで、ダッシュボードが描画される DOM 要素のセレクターを渡すことにより、**\$.ig.RevealView** コンポーネントをインスタンス化します。最後に、取得したダッシュボードを使用し、**\$.ig.RevealView** のダッシュボード プロパティに設定する必要があります。
 
-#### サンプル コード
+### サンプル コード
 
 ```html
 <!DOCTYPE html>

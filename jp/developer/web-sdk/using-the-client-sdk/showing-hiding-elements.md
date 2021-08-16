@@ -1,4 +1,4 @@
-## ユーザー インターフェイス要素の表示/非表示
+# ユーザー インターフェイス要素の表示/非表示
 
 __$.ig.RevealView__ コンポーネントを使用して、エンド ユーザーに対するさまざまな機能または UI 要素を有効または無効にすることができます。使用可能なプロパティの多くはブール型で簡単に使用できますが、その他のプロパティはそれほど多くありません。
 
@@ -15,7 +15,7 @@ var revealView = new $.ig.RevealView("#revealView");
 > CSS レイアウト アプローチによっては、RevealView をホストする要素を静的ではない位置属性 (相対または絶対など) を設定して配置する必要がある場合があります。
 
 
-### canEdit
+## canEdit
 このプロパティは、ダッシュボードを編集するユーザー機能を無効にするために使用できます。
 
 <img src="../../general/images/showing_hiding_elements_edit.png" alt="Editing a dashboard through the UI" class="responsive-img"/>
@@ -24,7 +24,7 @@ var revealView = new $.ig.RevealView("#revealView");
 revealView.canEdit = false;
 ```
 
-### showEditDataSource
+## showEditDataSource
 このプロパティを使用して、ダッシュボード データ ソースの編集を無効にすることができます。
 
 <img src="../../general/images/showing-hiding-elements-edit-datasource.png" alt="Editing the dashboard datasource" class="responsive-img"/>
@@ -33,7 +33,7 @@ revealView.canEdit = false;
 revealView.showEditDataSource = false;
 ```
 
-### showExportImage
+## showExportImage
 このプロパティを使用して、ダッシュボードの画像へのエクスポートを無効にすることができます。
 
 <img src="../../general/images/showing-hiding-elements-show-export-image.png" alt="Exporting a dashboard to image" class="responsive-img"/>
@@ -42,7 +42,7 @@ revealView.showEditDataSource = false;
 revealView.showExportImage = false;
 ```
 
-### showExportToPowerpoint
+## showExportToPowerpoint
 このプロパティを使用して、ダッシュボードの PowerPoint へのエクスポートを無効にすることができます。
 
 <img src="../../general/images/showing-hiding-elements-show-export-powerpoint.png" alt="Exporting a dashboard to PowerPoint" class="responsive-img"/>
@@ -51,7 +51,7 @@ revealView.showExportImage = false;
 revealView.showExportToPowerpoint = false;
 ```
 
-### showExportToPDF
+## showExportToPDF
 このプロパティを使用して、ダッシュボードの PDF へのエクスポートを無効にすることができます。
 
 <img src="../../general/images/showing-hiding-elements-show-export-pdf.png" alt="Exporting a dashboard to PDF" class="responsive-img"/>
@@ -60,7 +60,7 @@ revealView.showExportToPowerpoint = false;
 revealView.showExportToPDF = false;
 ```
 
-### showExportToExcel
+## showExportToExcel
 このプロパティを使用して、ダッシュボードの Excel へのエクスポートを無効にすることができます。
 
 <img src="../../general/images/showing-hiding-elements-show-export-excel.png" alt="Exporting a dashboard to Excel" class="responsive-img"/>
@@ -69,7 +69,7 @@ revealView.showExportToPDF = false;
 revealView.showExportToExcel = false;
 ```
 
-### canCopyVisualization
+## canCopyVisualization
 このプロパティは、表示形式をコピーし、後で現在のダッシュボードまたは別のダッシュボードに貼り付ける機能を無効にするために使用できます。
 
 <img src="../../general/images/showing_hiding_elements_copy.png" alt="Copying an existing visualization through the UI" class="responsive-img"/>
@@ -78,7 +78,7 @@ revealView.showExportToExcel = false;
 revealView.canCopyVisualization = false;
 ```
 
-### canDuplicateVisualization
+## canDuplicateVisualization
 このプロパティは、現在のダッシュボードで表示形式を複製する機能を無効にするために使用できます。
 
 <img src="../../general/images/showing_hiding_elements_duplicate.png" alt="Duplicating an existing visualization through the UI" class="responsive-img"/>
@@ -87,7 +87,7 @@ revealView.canCopyVisualization = false;
 revealView.canDuplicateVisualization = false;
 ```
 
-### canAddPostCalculatedFields
+## canAddPostCalculatedFields
 このプロパティを使用して、現在のダッシュボードに新しい事後計算フィールドを追加する機能を無効にできます。
 
 <img src="../../general/images/showing_hiding_elements_post_calculated.png" alt="Accessing post-calculated fields through the UI" class="responsive-img"/>
@@ -99,7 +99,7 @@ revealView.canDuplicateVisualization = false;
 revealView.canAddPostCalculatedFields = false;
 ```
 
-### canAddCalculatedFields
+## canAddCalculatedFields
 このプロパティを使用して、現在のダッシュボードに新しい事前計算フィールドを追加する機能を無効にできます。
 
 <img src="../../general/images/showing_hiding_elements_pre_calculated.png" alt="Accessing pre-calculated fields through the UI" class="responsive-img"/>
@@ -111,7 +111,7 @@ revealView.canAddPostCalculatedFields = false;
 revealView.canAddCalculatedFields = true;
 ```
 
-### showFilters
+## showFilters
 このプロパティは、ユーザーにダッシュボード フィルター UI を表示または非表示にするために使用できます。
 
 <img src="../../general/images/showing_hiding_elements_filters.png" alt="Showing Dashboard Filters in the UI" class="responsive-img"/>
@@ -122,7 +122,7 @@ revealView.canAddCalculatedFields = true;
 revealView.showFilters = true;
 ```
 
-### canAddDashboardFilter
+## canAddDashboardFilter
 このプロパティを使用して、[ダッシュボード フィルターの追加] メニュー項目を表示または非表示にすることができます。
 
 <img src="../../general/images/showing-hiding-elements-can-add-dashboard-filter.png" alt="Showing Add Dashboard Filter in the UI" class="responsive-img"/>
@@ -130,7 +130,7 @@ revealView.showFilters = true;
 ``` js
 revealView.canAddDashboardFilter = false;
 ```
-### canAddDateFilter
+## canAddDateFilter
 このプロパティを使用して、[日付フィルターの追加] メニュー項目を表示または非表示にすることができます。
 
 <img src="../../general/images/showing-hiding-elements-can-add-date-filter.png" alt="Showing Add Date Filter in the UI" class="responsive-img"/>
@@ -139,7 +139,7 @@ revealView.canAddDashboardFilter = false;
 revealView.canAddDateFilter = false;
 ```
 
-### 選択済みフィルター
+## 選択済みフィルター
 ダッシュボードを読み込みする時に既存のダッシュボード フィルターから最初に選択される値を指定できます。
 
 <img src="../../general/images/showing_hiding_elements_filters_preselected.png" alt="Showing a Dashboard Filter preselected in the UI" class="responsive-img"/>
@@ -158,7 +158,7 @@ $.ig.RVDashboard.loadDashboard(dashboardId, function (dashboard) {
 });
 ```
 
-### availableChartTypes
+## availableChartTypes
 このプロパティは、ユーザーが使用できる表示形式タイプをフィルターするために使用できます。
 
 <img src="../../general/images/showing_hiding_elements_charts.png" alt="Switching visualizations through the UI" class="responsive-img"/>

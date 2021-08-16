@@ -1,4 +1,4 @@
-## KPI ゲージ
+# KPI ゲージ
 
 KPI (Key Performance Indicator: キー パフォーマンス インジケーター) とは、パフォーマンス管理の特定のタイプを表す用語です。KPI は個別のニーズによって変化し、目標に対する進捗や時間軸での傾向など、組織の重要なメトリックスに関する情報を提供します。
 
@@ -10,7 +10,7 @@ KPI (Key Performance Indicator: キー パフォーマンス インジケータ�
 
 <img src="images/multiple-kpi-gauges.png" alt="Multiple KPI Gauges" class="responsive-img"/>
 
-### インジケータ設定
+## インジケータ設定
 
 KPI ゲージには[スパークライン](sparkline-charts.html)表示形式と同様の設定があり、それを使用して以下を構成できます:
 

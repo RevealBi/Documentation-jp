@@ -1,4 +1,4 @@
-## ダッシュボード フィルターを表示形式に接続
+# ダッシュボード フィルターを表示形式に接続
 
 可視化したデータをダッシュボード フィルターにバインドする 2 つの方法があります:
 
@@ -15,7 +15,7 @@
 <img src="images/disconnecting-dashboard-filter.png" alt="disconnecting dashboard filters from a visualization" class="responsive-img"/>
 
 <a name='field-binding'></a>
-### フィールドのバインド
+## フィールドのバインド
 
 フィールドのバインでは、ダッシュボード フィルターのデータセット スキーマ、および表示形式のスキーマ間の結合関係を構成することができます。使用する [ダッシュボード フィルター] を選択して**接続します**。
 
@@ -36,7 +36,7 @@
 
   - **フィルター**: 結合されるダッシュボード フィルターの特定のダッシュボード フィルター。
 
-### パラメーター バインド
+## パラメーター バインド
 
 パラメーター ([REST](~/jp/datasources/supported-data-sources/rest-api.html)、[OData](~/jp/datasources/supported-data-sources/odata-feed.html) および [MS SQL Server](~/jp/datasources/supported-data-sources/microsoft-sql-server.html) ストアド ロシージャ) を使用するデータ ソースの場合、ダッシュボード フィルターをパラメーターに接続する必要があります。そのため、可覚化のフィルター データを変更すると、接続されたパラメーターで選択した値で更新されます。
 

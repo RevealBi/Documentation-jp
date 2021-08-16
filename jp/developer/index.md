@@ -1,8 +1,8 @@
-## Reveal 開発者ガイド
+# Reveal 開発者ガイド
 
 このガイドでは、Reveal SDK と API メソッドに関する技術情報 (アーキテクチャ情報を含む) を提供します。
 
-### 作業の開始
+## 作業の開始
 
 [Reveal SDK の概要](~/jp/developer/general/overview.html) - SDK の主な概念と機能の紹介。
 

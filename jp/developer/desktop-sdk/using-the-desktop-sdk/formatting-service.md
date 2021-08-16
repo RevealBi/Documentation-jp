@@ -1,8 +1,8 @@
-## 書式設定サービスの使用
+# 書式設定サービスの使用
 
 書式設定サービスは、フィールドの書式設定を使用せずにダッシュボード データをカスタムに書式設定できます。
 
-### 書式設定がサポートされる要素
+## 書式設定がサポートされる要素
 
 書式設定がサポートされる要素
 
@@ -10,13 +10,13 @@
   - 日付、時間、または日時のデータ
   - 集計される日、時間、または日時のデータ
 
-### 書式設定サービスの使用
+## 書式設定サービスの使用
 
 以下は、書式設定の方法の 3 つの例を示します。[数値データ](#numeric-data)、[集計した日付データ](#aggregated-date-time-data)、[(未集計) 日時データ](#date-time-data)。この例で使用されるダッシュボードは、*Marketing サンプル* ダッシュボードです。
 
 <a name='numeric-data'></a>
 
-#### 数値データの書式設定例
+### 数値データの書式設定例
 
 以下に、**Marketing** サンプル ダッシュボードの New Seats by Campaign ID 可視化の初期状態を示します。
 
@@ -87,7 +87,7 @@ changes](images/formatting-service-marketing-sample-result.png)
 
 <a name='aggregated-date-time-data'></a>
 
-#### DateTime データ書式設定の例
+### DateTime データ書式設定の例
 
 これは、Marketing サンプル **Actual Spend vs Budget** の可視化のうちの 1 つの初期状態です。
 
@@ -117,7 +117,7 @@ formatting](images/formatting-aggregated-datetime-result.png)
 
 <a name='date-time-data'></a>
 
-#### 日時 (非集計) データ書式設定の例
+### 日時 (非集計) データ書式設定の例
 
 以下に、非集計の日付データを書式設定する方法の例を示します。まず、集計データを除外するために、**Actual Spend vs Budget** 可視化を **Grid** に変更します。
 

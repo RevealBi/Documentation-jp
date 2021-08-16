@@ -1,4 +1,4 @@
-## ダッシュボードの作成
+# ダッシュボードの作成
 
 Reveal のダッシュボード作成には以下のオプションが含まれます:
 
@@ -11,7 +11,7 @@ Reveal のダッシュボード作成には以下のオプションが含まれ�
 4.  [ダッシュボードの保存](#save-dashboard)
 
 <a name='access-dashboard-creation-menu'></a>
-### ダッシュボード作成メニューにアクセス
+## ダッシュボード作成メニューにアクセス
 
 初期画面の **[+ ダッシュボード]** ボタンを選択し、ダッシュボードを作成できます。
 
@@ -22,7 +22,7 @@ Reveal のダッシュボード作成には以下のオプションが含まれ�
 <img src="images/new-visualization-dialog.png" alt="New visualization dialog" class="responsive-img"/>
 
 <a name='add-data-source'></a>
-### データ ソースの追加
+## データ ソースの追加
 
 データ ソースが [データ ソースの選択] セクションにない場合は、右上側の [+ データ ソース] ボタンを選択します。新しいダイアログがポップアップして、すべてのデータ ソース カテゴリおよび利用可能なデータ ソースが表示されます。
 
@@ -32,7 +32,7 @@ Reveal のダッシュボード作成には以下のオプションが含まれ�
 
 <img src="images/select-data-source-sheet.png" alt="select a data sheet from an excel file data source" class="responsive-img"/>
 
-#### 使用可能なコンテンツ
+### 使用可能なコンテンツ
 
 Reveal では [Dropbox](../datasources/supported-data-sources/Dropbox.html)、[OneDrive](../datasources/supported-data-sources/OneDrive.html)、[Box](../datasources/supported-data-sources/Box.html)、[Google Drive](../datasources/supported-data-sources/Google-Drive.html) などの複数のコンテンツ ソースを追加でき、それらの使用可能なフォルダー、ファイル、スプレッドシートを閲覧できます。
 
@@ -43,7 +43,7 @@ Reveal では [Dropbox](../datasources/supported-data-sources/Dropbox.html)、[O
 <img src="images/available-content-sharepoint.png" alt="available content in SharePoint datasource account" class="responsive-img"/>
 
 <a name='modify-visualization'></a>
-### 表示形式の変更
+## 表示形式の変更
 
 データ ソースを追加した後、表示形式エディターが表示されます。デフォルトでは、ピボットの表示形式が選択されています。
 
@@ -68,14 +68,14 @@ Reveal では、情報を可覚化する方法をカスタマイズするため�
 
 <img src="images/paste-option-dashboard.png" alt="paste option in the dashboard overflow menu" width=80%>
 
-#### テーマの適用
+### テーマの適用
 
 ダッシュボードに移動された後、[テーマ] を選択し、以下に示すように **Mountain テーマ** と **Ocean テーマ** を切り替えることができます。
 
 <img src="images/dashboard-changing-theme.png" alt="changing the theme of a dashboard" class="responsive-img"/>
 
 <a name='save-dashboard'></a>
-### ダッシュボードの保存
+## ダッシュボードの保存
 
 ダッシュボードの準備後、右上側の**ティック アイコン**を選択してあるいはオーバーフロー メニューの [**名前を付けて保存**] オプションにアクセスして、ダッシュボードを保存します。
 

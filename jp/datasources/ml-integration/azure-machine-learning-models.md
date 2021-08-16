@@ -1,4 +1,4 @@
-## Reveal の Azure Machine Learning
+# Reveal の Azure Machine Learning
 
 Reveal で Azure Machine Learning Studio のトレーニング済みモデル データを使用できます。これまで以上に洗練された情報を取得できます。データ ソースを選択し、表示形式を作成し、トレーニング済みの機械学習モデルに接続します。
 
@@ -6,11 +6,11 @@ Reveal で Azure Machine Learning Studio のトレーニング済みモデル �
 
 <img src="images/ml-credit-risk-by-housing-visualization-example.png" alt="Credit risk by Housing example" class="responsive-img"/>
 
-### 前提条件
+## 前提条件
 
 Reveal で Azure Machine Learning を使用するには、表示形式を構築する際に接続するための **Microsoft Azure Machine Learning Studio** のアカウントと、**トレーニング済みの機械学習モデル**が必要です。
 
-### Azure Machine Learning へのアクセス
+## Azure Machine Learning へのアクセス
 
 Azure Machine Learning にアクセスするには、以下の手順を実行します。
 
@@ -21,7 +21,7 @@ Azure Machine Learning にアクセスするには、以下の手順を実行し
     <img src="images/brain-icon-azure-ml-model.png" alt="Brain icon location in the Visualization editor" class="responsive-img"/>
 
 <a href="ml-integration/ml-model-connect"></a>
-### Azure Machine Learning モデルへの接続
+## Azure Machine Learning モデルへの接続
 
 Azure で機械学習モデルに接続するには、以下を実行する必要があります。
 

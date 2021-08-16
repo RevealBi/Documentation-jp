@@ -1,4 +1,4 @@
-## その他の表示形式の追加
+# その他の表示形式の追加
 
 その他すべてのダッシュボードにある表示形式で同じ[サンプル スプレッドシート](https://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)を使用します。
 
@@ -43,7 +43,7 @@
 </table>
 
 <a name='production'></a>
-### Production (製品)
+## Production (製品)
 
 Production 表示形式は、12 か 月間の製造量を作業者タイプ別に [折れ線チャート](../../../jp/visualization-tutorials/simple-charts.html)で表示します。以下は作成方法です。
 
@@ -84,7 +84,7 @@ Production 表示形式は、12 か 月間の製造量を作業者タイプ別�
 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='shipping'></a>
-### Shipping (配送)
+## Shipping (配送)
 
 Shipping 表示形式は、12 か 月間の出荷量を[エリア チャート](~/jp/visualization-tutorials/simple-charts.html)で表示します。以下は作成方法です。
 
@@ -125,7 +125,7 @@ Shipping 表示形式は、12 か 月間の出荷量を[エリア チャート](
 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='average-hours'></a>
-### Average Hours (平均時間)
+## Average Hours (平均時間)
 
 Average Hours 表示形式では、会社の機械に費やされた時間と、会社の従業員によってログに記録された時間の比較を[スプライン チャート](~/jp/visualization-tutorials/simple-charts.html)で月別に表示します。以下は作成方法です。
 
@@ -167,7 +167,7 @@ Average Hours 表示形式では、会社の機械に費やされた時間と、
 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='headcount'></a>
-### Headcount (人数)
+## Headcount (人数)
 
 Headcount 表示形式はカテゴリごとに分類された従業員の数を[棒チャート](~/jp/visualization-tutorials/simple-charts.html)で表示します。以下は作成方法です。
 
@@ -207,7 +207,7 @@ Headcount 表示形式はカテゴリごとに分類された従業員の数を[
 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='labor-cost'></a>
-### Labor Cost (人件費)
+## Labor Cost (人件費)
 
 Labor Cost 表示形式は、各従業員の最高から最低までの賃金を[柱状チャート](~/jp/visualization-tutorials/simple-charts.html)で表示します。以下は作成方法です。
 

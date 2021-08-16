@@ -1,5 +1,5 @@
-## Amazon Redshift
-### Amazon Redshift への接続
+# Amazon Redshift
+## Amazon Redshift への接続
 Amazon Redshift のデータ ソースを設定するには、以下の情報が必要です:
 
 <img src="images/enter-amazon-redshift-server-details.png" alt="Configure Redshift Server details" class="responsive-img"/>
@@ -25,7 +25,7 @@ Amazon Redshift のデータ ソースを設定するには、以下の情報が
 
 
 <a name='how-to-find-server'></a>
-### サーバー情報を見つける方法
+## サーバー情報を見つける方法
 
 以下の手順でサーバーも確認できます。コマンドはサーバーで実行する必要があることに注意してください。
 
@@ -43,7 +43,7 @@ Amazon Redshift のデータ ソースを設定するには、以下の情報が
 | 2\. **ipconfig** を入力します。             | 2\. **$ /bin/ifconfig** を入力します。   | 2\. 接続を選択します。                                   |
 | **IPv4 Address** は IP アドレスです。 | **Inet addr** は IP アドレスです。 | **IP アドレス** フィールドに必要な情報が含まれます。 |
 
-### データの設定
+## データの設定
 
 Reveal ではすべてのテーブルから *Redshift* データを取得できますが、その他にもテーブルまたはテーブルのセットからデータのサブセットを返す特定の[ビュー](https://docs.aws.amazon.com/redshift/latest/dg/r_CREATE_VIEW.html)を選択することもできます。
 

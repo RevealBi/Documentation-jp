@@ -1,4 +1,4 @@
-## サーバー側エクスポートの構成
+# サーバー側エクスポートの構成
 
 Java SDK は、ダッシュボードをさまざまな形式 (Image、PDF、PPT、Excel) にエクスポートするためにいくつかのネイティブ コンポーネントを使用します。
 
@@ -6,18 +6,18 @@ Java SDK は、ダッシュボードをさまざまな形式 (Image、PDF、PPT�
 
 - **PDF、PPT、および Excel ドキュメントのエクスポート**には、ExportTool (ネイティブ アプリケーション) を使用します。
 
-#### エクスポートの準備
+### エクスポートの準備
 
 ダッシュボードを初めて開くと、**Playwright と ExportTool の両方が必要なダウンロードを自動的にトリガーします**。ただし、プラットフォームによっては、事前にインストールする必要がある依存関係があり、サーバー環境によって外部ダウンロードが制限される場合があり、これらのツールを手動でセットアップする必要があります。
 
-### Playwright の構成
+## Playwright の構成
 Playwright は必要なバイナリを自動的にダウンロードします。ただし、手動による構成が必要な場合や、その構成 (または調整) の詳細については、[Playwright のドキュメント (英語)](https://playwright.dev/java/docs/installation)を参照してください。
 
-### macOS の依存関係
+## macOS の依存関係
 
 macOS に必要なライブラリは **libgdiplus** のみです。インストール情報は[こちら](https://docs.microsoft.com/ja-jp/dotnet/core/install/macos#libgdiplus)を参照してください。
 
-### Linux の依存関係
+## Linux の依存関係
 
 Linux には複数のネイティブ ライブラリへの依存関係があります。インストールする必要がある依存関係の正確なリストは、使用するディストリビューション、バージョン、および以前にインストールしたパッケージのリストによって異なります。
 
@@ -54,13 +54,13 @@ sudo apt-get install -y --allow-unauthenticated libc6-dev
 sudo apt-get install -y --allow-unauthenticated libx11-dev
 ```
 
-### ExportTool の手動設定
+## ExportTool の手動設定
 
 以下の手順は、以下のシナリオでのみ必要です。
 - 自動ダウンロード メカニズムに問題がある場合
 - すべてを事前にインストールしておく必要がある場合
 
-#### 手順
+### 手順
 
 1. ご使用のプラットフォームに必要なバイナリ ([Windows](https://download.infragistics.com/reveal/builds/sdk/java/ExportTool/1.0.0/win-x64.zip)、[Linux](https://download.infragistics.com/reveal/builds/sdk/java/ExportTool/1.0.0/linux-x64.zip)、または [macOS](https://download.infragistics.com/reveal/builds/sdk/java/ExportTool/1.0.0/osx-x64.zip)) をダウンロードします。
 2. Web アプリケーションが実行されているサーバーのディレクトリにファイルを解凍します (ユーザーはそのディレクトリにアクセスできる必要があります)。

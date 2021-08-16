@@ -1,8 +1,8 @@
-## Google BigQuery
+# Google BigQuery
 
 Google BigQuery データ ソースは、Reveal 内でビッグ データを処理する際の速度を大幅に向上させます。これにより、速度低下することなく、何百万ものレコードを含むデータセットを表示形式に使用できます。
 
-### Google BigQuery への接続
+## Google BigQuery への接続
 
 Google BigQuery を選択すると、**Google アカウント**に接続するように求められます。
 
@@ -26,11 +26,11 @@ Google アカウントを追加すると、BigQuery データセットにアク�
 
 これで、Google BigQuery から取得したデータを使用して表示形式の構築を開始できる、*表示形式エディター*に移動します。
 
-### 表示形式エディターでの制限事項
+## 表示形式エディターでの制限事項
 
 Reveal でビッグ データを操作する場合、数百万のレコードを持つデータ ソースを処理するための特定のアプローチにより、表示形式エディターにはいくつかの制限があります。
 
-#### 計算フィールドで使用できる関数の制限
+### 計算フィールドで使用できる関数の制限
 
 現在、BigQuery のデータを使用する*計算フィールド*で、使用できる**関数**の数は限られています。
 
@@ -42,6 +42,6 @@ Reveal でビッグ データを操作する場合、数百万のレコードを
 
 - [文字列](~/jp/data-visualizations/fields/calculated-fields/string.html) - find; len; trim; lower; mid; upper.
 
-#### データ ブレンディングの制限
+### データ ブレンディングの制限
 
 現在、Google BigQuery データ ソースからのデータを使用する場合、データ ブレンディング ([データ ソースを 1 つの表示形式に統合](~/jp/datasources/data-blending.html)) は**使用できません**。

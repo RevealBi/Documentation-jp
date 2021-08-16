@@ -1,4 +1,4 @@
-## その他の表示形式の追加
+# その他の表示形式の追加
 
 その他すべてのダッシュボードにある表示形式で同じ[サンプル スプレッドシート](https://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)を使用します。
 
@@ -55,7 +55,7 @@
 </table>
 
 <a name='win-lost-by-month'></a>
-### Win/Lost by Month
+## Win/Lost by Month
 
 Win/Lost by Month 表示形式は、6 ヶ月間の勝敗の回数を[棒チャート](~/jp/visualization-tutorials/simple-charts.html)で示します。以下は作成方法です。
 
@@ -101,7 +101,7 @@ Win/Lost by Month 表示形式は、6 ヶ月間の勝敗の回数を[棒チャ�
 6.  **表示形式のタイトルを Win/Lost by Month に変更する**ため、Sales Dashboard の横にある**鉛筆アイコンを選択します**。完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='forecasted'></a>
-### Forecasted
+## Forecasted
 
 Forecasted 表示形式は、6 ヶ月間の予測を[棒チャート](~/jp/visualization-tutorials/simple-charts.html)で表示します。以下は作成方法です。
 
@@ -165,7 +165,7 @@ Forecasted 表示形式は、6 ヶ月間の予測を[棒チャート](~/jp/visua
 8.  **表示形式のタイトルを Forecasted に変更する**ため、Sales Dashboard の横にある**鉛筆アイコンを選択します**。完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='lost-opportunities'></a>
-### Lost Opportunities
+## Lost Opportunities
 
 Lost Opportunities 表示形式は、[テキスト ゲージ](~/jp/visualization-tutorials/Gauge-Views.html#text-gauge)で機会損失の割合を表示します。以下は作成方法です。
 
@@ -225,7 +225,7 @@ Lost Opportunities 表示形式は、[テキスト ゲージ](~/jp/visualization
 5. **表示形式のタイトルを Lost Opportunities に変更する**ため、Sales Dashboard の横にある**鉛筆アイコンを選択します**。完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='pipeline-by-territory'></a>
-### Pipeline by Territory
+## Pipeline by Territory
 
 Pipeline by Territory 表示形式は、[ファンネルチャート](~/jp/visualization-tutorials/simple-charts.html)平均的な販売見込みとそれらの位置を表示します。以下は作成方法です。
 
@@ -261,7 +261,7 @@ Pipeline by Territory 表示形式は、[ファンネルチャート](~/jp/visua
     Dashboard の横にある**鉛筆アイコンを選択します。** 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='opportunities'></a>
-### Total Opportunities
+## Total Opportunities
 
 Total Opportunities 表示形式は、12 か月間の会社の機会が表すによる収益を
 [折れ線チャート](~/jp/visualization-tutorials/simple-charts.md)で表示します。以下は作成方法です。
@@ -326,7 +326,7 @@ Total Opportunities 表示形式は、12 か月間の会社の機会が表すに
 8.  **表示形式のタイトルを Total Opportunities に変更する**ため、Sales Dashboard の横にある**鉛筆アイコンを選択します**。完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='revenue-by-territory'></a>
-### Revenue by Territory
+## Revenue by Territory
 
 Revenue by Territory 表示形式には、会社の各地域における収益を[円チャート](~/jp/visualization-tutorials/simple-charts.html)で表示されます。以下は作成方法です。
 
@@ -358,7 +358,7 @@ Revenue by Territory 表示形式には、会社の各地域における収益�
 5.  **表示形式のタイトルを Revenue by Territory に変更する**ため、Sales Dashboard の横にある**鉛筆アイコンを選択します。** 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='pipeline-per-employee'></a>
-### Pipeline per Employee
+## Pipeline per Employee
 
 Pipeline per Employee 表示形式は、従業員別の上位 10 位までの販売見込みを[柱状チャート](~/jp/visualization-tutorials/simple-charts.html)で示します。以下は作成方法です。
 
@@ -414,7 +414,7 @@ Pipeline per Employee 表示形式は、従業員別の上位 10 位までの販
 7.  **表示形式のタイトルを Pipeline by Employee に変更する**ため、Sales Dashboard の横にある**鉛筆アイコンを選択します。** 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='sales-by-product'></a>
-### Sales by Product
+## Sales by Product
 
 Sales by Product 表示形式は、さまざまな会社の製品とそれぞれの売上げの割合を[ドーナツ型チャート](~/jp/visualization-tutorials/simple-charts.html)で表示します。以下は作成方法です。
 

@@ -1,10 +1,10 @@
-## JSON ファイルの作業
+# JSON ファイルの作業
 
 Reveal では、JSON ファイル データの表示形式をサポートします。
 
 JSON ファイル形式を読み込んだ後、Reveal は使用する可能性のあるデータ構造を提供します。さらに、カスタム データ構造を選択できる[**高度な選択**](#json-advanced-selection)モードがあります。
 
-### JSON 書式の情報
+## JSON 書式の情報
 
 JSON (**J**ava**S**cript **O**bject **N**otation) は、データを保存および交換するための自己記述型の軽量な書式です。
 
@@ -16,7 +16,7 @@ JSON (**J**ava**S**cript **O**bject **N**otation) は、データを保存およ
 
   - データ型の表記には、**オブジェクトの波括弧 {}** と**配列の角括弧 \[\]** が含まれます。
 
-### JSON ファイルの読み込み
+## JSON ファイルの読み込み
 
 JSON ファイルのデータを使用する新しい表示形式を作成するには、次の手順に従います。
 
@@ -51,7 +51,7 @@ JSON ファイルのデータを使用する新しい表示形式を作成する
     <img src="images/JsonFilesVisualizationsEditor_All.png" alt="Json Files Visualizations Editor" class="responsive-img"/>
 
 <a name='json-advanced-selection'></a>
-### 高度な選択モード
+## 高度な選択モード
 
 JSON ファイルを使用して、さまざまなデータ構造を表すことができます。このため、Reveal では、作業するカスタム データ構造を選択できます。処理したいデータ列を選択した後、それらの上に表示形式を構築することができます。
 

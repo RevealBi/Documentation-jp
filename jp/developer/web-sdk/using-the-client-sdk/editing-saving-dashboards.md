@@ -1,7 +1,7 @@
-## ダッシュボードの編集と保存
+# ダッシュボードの編集と保存
 
 
-### ダッシュボードの編集
+## ダッシュボードの編集
 
 __RevealView__ の **Dashboard** プロパティ (タイプ $.ig.RVDashboard) は、エンドユーザーがダッシュボードの編集を開始すると更新されます。たとえば、可視化またはフィルターを追加または削除すると、$.ig.RVDashboard のコレクションが自動的に更新されます。
 
@@ -33,7 +33,7 @@ revealView.onVisualizationEditorClosed = function (args) {
 
 新しい可視化を追加する方法を制御する必要がある場合は、[**新しい可視化とダッシュボードの作成**](~/jp/developer/web-sdk/using-the-client-sdk/creating-visualizations-dashboards.md)を参照してください。
 
-### ダッシュボードの保存
+## ダッシュボードの保存
 
 [**ダッシュボード ファイルの読み込み**](~/jp/developer/web-sdk/using-the-server-sdk/loading-dashboards.html)でダッシュ​​ボードに変更を保存する方法が 2 つ紹介されています。
 

@@ -2,7 +2,7 @@
 ここでは、Reveal SDK、特に Web クライント JavaScript API に関する詳しい情報を見つけることができます。
 完全なリファレンスについては、<a href="/api/javascript/latest/" target="_blank" rel="noopener\">このリンク</a>をご覧くさだい。
 
-### 最も一般的に使用されるクラスとインターフェース  
+## 最も一般的に使用されるクラスとインターフェース  
 
 **SDK の主な概念と機能:**  
 <a href="/api/javascript/latest/classes/revealview.html" target="_blank" rel="noopener\">RevealView</a>   

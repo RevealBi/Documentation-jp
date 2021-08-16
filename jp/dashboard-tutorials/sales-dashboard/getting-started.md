@@ -1,10 +1,10 @@
-## Sales Dashboard チュートリアル
+# Sales Dashboard チュートリアル
 
 このチュートリアルでは、サンプル スプレッドシートで同様のデータを使用して作成した以下の Sales Performance ダッシュボードを表示する方法について説明します。
 
 <img src="images/SalesPerformanceDashboard_All.png" alt="SalesPerformanceDashboard\_All" class="responsive-img"/>
 
-### ダッシュボードに含まれる項目
+## ダッシュボードに含まれる項目
 
 このダッシュボードは、サンプル企業の以下の情報を含みます:
 
@@ -14,14 +14,14 @@
 
   - Win/Loss メトリックス
 
-### サンプル データ
+## サンプル データ
 
 [ここ](https://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)からサンプル データシートをダウンロードできます。その他すべてのダッシュボード [チュートリアル](~/jp/dashboard-tutorials/overview.md)で同じサンプル スプレッドシートを使用します。
 
 >[!NOTE]
 >このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、[サポートされているクラウド サービス](~/jp/datasources/overview.md)のいずれかにファイルをアップロードしてください。
 
-### ステップの概要
+## ステップの概要
 
 1.  [ダッシュボードを作成してデータ ソースを追加](creating-the-dashboard.md)
 

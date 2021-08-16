@@ -1,8 +1,8 @@
-## Spring サーバーのセットアップと構成
+# Spring サーバーのセットアップと構成
 
 <a name='maven-dependency'></a>
 
-### 前提条件 (Maven)
+## 前提条件 (Maven)
 
 Reveal Java SDK は、[Maven (英語)](https://maven.apache.org/what-is-maven.html) モジュールのセットとして配布されます。SDK ライブラリを操作するには、Reveal の Maven リポジトリへの参照と、Maven pom.xml ファイルの依存関係を追加する必要があります。
 
@@ -32,7 +32,7 @@ version_number を **0.9.6** のような番号に置き換えます。
 
 Maven ついてご不明な点がございましたら、次の[リンク (英語)](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html) を参照してください。
 
-### セットアップと構成
+## セットアップと構成
 
 既存の Spring Boot アプリケーションで Reveal をセットアップするには、次のことを行う必要があります:
 
@@ -41,7 +41,7 @@ Maven ついてご不明な点がございましたら、次の[リンク (英�
 3.  Reveal を初期化します。
 4.  サーバー側エクスポートを有効にします。
 
-#### 手順 1 - spring-starter-jersey の実装に依存関係を追加します。
+### 手順 1 - spring-starter-jersey の実装に依存関係を追加します。
 
 まだ追加されていない場合は、*spring-starter-jersey* に依存関係を追加します。
 
@@ -52,7 +52,7 @@ Maven ついてご不明な点がございましたら、次の[リンク (英�
 </dependency>
 ```
 
-#### 手順 2 - Reveal SDK に依存関係を追加します。
+### 手順 2 - Reveal SDK に依存関係を追加します。
 
 *reveal-sdk* に依存関係を追加し、SDK のバージョンを指定します。
 
@@ -66,7 +66,7 @@ Maven ついてご不明な点がございましたら、次の[リンク (英�
 
 version_number を **1.0.1821** のような番号に置き換えます。
 
-#### 手順 3 - Reveal を初期化します。
+### 手順 3 - Reveal を初期化します。
 
 Reveal リソースを使用して Jakarta RESTful Web サービス (JAX-RS) アプリケーションを初期化する **JerseyConfig** コンポーネントを追加します。
 これを行うには、パッケージ *com.pany.analytics.upmedia.reveal* 内にある *upmedia-backend-spring* ソース コードからクラス **RevealJerseyConfig** をコピーできます。
@@ -110,7 +110,7 @@ RevealEngineInitializer.initialize(
 
 ダッシュボード プロバイダーを実装する方法の詳細については、GitHub の [UpMedia サンプル (英語)](https://github.com/RevealBi/sdk-samples-java) を参照してください。
 
-#### 手順 4 - サーバー側エクスポートを有効にします。
+### 手順 4 - サーバー側エクスポートを有効にします。
 
 Java SDK は、ダッシュボードをさまざまな形式 (Image、PDF、PPT、Excel) にエクスポートするためにいくつかのネイティブ コンポーネントを使用します。
 

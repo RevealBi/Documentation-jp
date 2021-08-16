@@ -1,10 +1,10 @@
-## ダッシュボードの編集と保存
+# ダッシュボードの編集と保存
 
-### 概要
+## 概要
 
 ダッシュボードを読み込むには、ダッシュボード ファイルを含むストリームを __RevealView__ コンポーネントに提供する必要があります。その後、ユーザーがダッシュボードを変更した後に、変更されたダッシュボード ファイルを処理したい場合があります。
 
-### ダッシュボードの編集
+## ダッシュボードの編集
 
 __RevealView__ の **Dashboard** プロパティ (タイプ RVDashboard) は、エンドユーザーがダッシュボードの編集を開始すると更新されます。たとえば、可視化またはフィルターを追加または削除すると、RVDashboard のコレクションが自動的に更新されます。
 
@@ -57,7 +57,7 @@ private void RevealView_VisualizationEditorClosed(object sender, VisualizationEd
 
 新しい可視化を追加する方法を制御する必要がある場合は、[**新しい可視化とダッシュボードの作成**](~/jp/developer/desktop-sdk/using-the-desktop-sdk/creating-visualizations-dashboards.md)を参照してください。
 
-### ダッシュボードの保存
+## ダッシュボードの保存
 
 次のコードを使用して __SaveDashboard__ イベントにアタッチできます。
 

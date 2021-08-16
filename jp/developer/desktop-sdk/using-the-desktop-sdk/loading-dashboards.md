@@ -1,4 +1,4 @@
-## ダッシュボードの読み込み
+# ダッシュボードの読み込み
 
 アプリケーションに埋め込まれた `RevealView` コントロールに既存の Reveal ダッシュボードを表示する場合は、4 つのオプションから選択できます。
 - ファイル パスからダッシュボードを読み込み
@@ -15,7 +15,7 @@
 
 詳しくは [SDK 用のダッシュボードの取得](~/jp/developer/developer/general/get-dashboards.md)をご覧ください。 
 
-## ファイル パスから読み込み
+# ファイル パスから読み込み
 ダッシュボード ファイルをアプリケーションと一緒に出荷することは非常に一般的です。これらのファイルは通常、アプリケーションの実行中にディスクからファイルを読み込みできるように、既知のディレクトリのクライアント ディスク ドライブにコピーされます。ファイル パスを使用してこれらのダッシュボードを読み込むには、**.rdash** ファイルへのファイル パスを知っておく必要があります。 
 
 この例では、**[Dashboards]** と呼ばれる Visual Studio ソリューションにディレクトリを作成しました。このディレクトリには、アプリケーションのすべての .rdash ファイルが含まれます。
@@ -43,7 +43,7 @@ _revealView.Dashboard = await RVDashboard.LoadDashboardAsync(filePath);
 > [!NOTE]
 > このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-wpf/tree/master/LoadingDashboards-FilePath) にあります。
 
-## ファイル ストリームから読み込み
+# ファイル ストリームから読み込み
 ファイル ストリームからの Reveal ダッシュボードの読み込みは、ファイル パスからのダッシュボードの読み込みと非常によく似ています。この場合、ダッシュボード ファイルのファイル パスを取得したら、`RVDashboard` オブジェクト インスタンスを作成する前に、それを `FileStream` に読み込みます。
 
 この例では、`File.OpenRead` メソッドを使用して、Sales.rdash ファイルをファイル ストリームに読み込んでいます。次に、コンストラクター引数としてファイル ストリームを渡すことにより、新しい `RVDashboard` オブジェクトを作成し、新しく作成された `RVDashboard` インスタンスを `RevealView.Dashboard` プロパティに割り当てます。
@@ -68,7 +68,7 @@ using (var stream = File.OpenRead(filePath))
 > [!NOTE]
 > このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-wpf/tree/master/LoadingDashboards-FileStream) にあります。
 
-## リソースから読み込み
+# リソースから読み込み
 アプリケーションでファイルを配布するためのもう 1 つのオプションは、ファイルをリソースとしてアプリケーションに埋め込むことです。これにより、クライアントのディスク ドライブにファイルが配置されるのではなく、ファイルがアプリケーションのアセンブリに直接埋め込まれます。
 
 Reveal ダッシュボード **.rdash** ファイルをリソースとしてアプリケーションに埋め込むには、Visual Studio でダッシュボード ファイルのプロパティを開き、.rdash ファイルの **[Build Action]** を **[EmbeddedResource]** に設定します。
@@ -101,7 +101,7 @@ using (resource)
 > [!NOTE]
 > このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-wpf/tree/master/LoadingDashboards-FromResource) にあります。
 
-## JSON から読み込み
+# JSON から読み込み
 上級ユーザー、または Reveal ダッシュボードを .rdash ファイルではなく .json ファイルにシリアル化するユーザーの場合、`RVDashboard.LoadFromJsonAsync` メソッドを使用してこれらの JSON ベースのファイルを読み込みできます。
 
 最初の手順は、Reveal ダッシュボードを json 文字列にシリアル化することです。文字列を取得したら、JSON をディスクに保存するか、rdata ストアに保存できます。

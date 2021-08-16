@@ -1,4 +1,4 @@
-## サンプル、ヒント、および便利なケース
+# サンプル、ヒント、および便利なケース
 
 このトピックは、以下の情報を含みます。
 
@@ -9,7 +9,7 @@
   - [YoY 解析: 売上を 2 年期間の比較](#yoy-analysis-revenue)
 
 <a name='basic-sample-expressions'></a>
-### ベーシックなサンプル式
+## ベーシックなサンプル式
 
 以下は計算フィールドのサンプル式のセットです。
 
@@ -26,7 +26,7 @@
 | **Deviation from Avg**     | [HR Dataset](https://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | [Wage]-average([Wage])                                            | \-50476.71 (for Joan Baez)             |
 
 <a name='converting-unix-timestamps'></a>
-### Unix 更新日時を使用可能な日付へ変換
+## Unix 更新日時を使用可能な日付へ変換
 
 1970 年 1 月 1 日後の秒によって定義される Unix 時間 (Epoch 時間) はすべてのタイムゾーンを一度に表すために便利です。Unix 更新日時を持つデータ ソースをインポートする場合、[`date`](date.html) 数式を使用して利用可能な日付に変換できます。
 
@@ -49,7 +49,7 @@
 タイムゾーンを数値として入力するか、数値を持つフィールドを使用できます。GMT 時間が必要です。
 
 <a name='yoy-analysis-revenue'></a>
-### YoY 解析: 売上を 2 年期間の比較
+## YoY 解析: 売上を 2 年期間の比較
 
 計算フィールドを簡易な YOY 解析を実行するために作成できます。
 

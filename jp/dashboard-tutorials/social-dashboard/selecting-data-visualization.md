@@ -1,4 +1,4 @@
-## 初めての表示形式を作成  
+# 初めての表示形式を作成  
 
 チュートリアルのはじめの[サンプル ダッシュボード](getting-started.md)に YTD Twitter Followers 表示形式を作成します。表示形式は[テキスト ゲージ](~/jp/data-visualizations/visualization-types/gauge-charts.html#text-gauge)を表示します。
 

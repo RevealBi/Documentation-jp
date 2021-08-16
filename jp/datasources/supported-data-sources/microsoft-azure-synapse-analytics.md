@@ -1,8 +1,8 @@
-## Microsoft Azure Synapse Analytics
+# Microsoft Azure Synapse Analytics
 
 Microsoft Azure Synapse データ ソースは、Reveal 内でビッグ データを処理する際の速度を大幅に向上させます。これにより、大量のデータセットを速度低下することなく表示形式に使用できます。
 
-### Azure Synapse Analytics データ ソースの設定
+## Azure Synapse Analytics データ ソースの設定
 
 Microsoft Azure Synapse Analytics データ ソースを設定するには、以下の情報が必要です。
 
@@ -20,7 +20,7 @@ Microsoft Azure Synapse Analytics データ ソースを設定するには、以
 
 5.  **[データベース]**: アカウントに接続すると、データベースを選択できるようになります。**[続行]** を選択します。
 
-### サーバー情報を見つける方法
+## サーバー情報を見つける方法
 
 以下の手順でサーバーを確認できます。
 
@@ -39,17 +39,17 @@ Microsoft Azure Synapse Analytics データ ソースを設定するには、以
 | 2\. **ipconfig** を入力します。             | 2\. **$/bin/ifconfig** を入力します。   | 2\. 接続を選択します。                                   |
 | **IPv4 Address** は IP アドレスです。 | **Inet addr** は IP アドレスです。 | **IP アドレス** フィールドに必要な情報が含まれます。 |
 
-### ビューの作業
+## ビューの作業
 
 MS Azure Synapse Analytics でデータベースに接続すると、表全体または特定のビューからデータを取得することを選択できます。
 
 Azure Synapse Analytics を使用する場合のビューの操作は、MS SQL Server を使用する場合のビューの操作とよく似ています。詳細については、**MS SQL Server データ ソース** トピックの[このセクション](Microsoft-SQL-Server.html#working-with-views)を参照してください。
 
-### 表示形式エディターでの制限事項
+## 表示形式エディターでの制限事項
 
 Reveal でビッグ データを操作する場合、数百万のレコードを格納するデータ ソースを処理するために使用される特定のアプローチにより、表示形式エディターにはいくつかの制限があります。
 
-#### 計算フィールドで使用できる関数の制限
+### 計算フィールドで使用できる関数の制限
 
 現在、Azure Synapse Analytics のデータを使用する*計算フィールド*で、使用できる**関数**の数は限られています。
 
@@ -57,6 +57,6 @@ Reveal でビッグ データを操作する場合、数百万のレコードを
 - [数学](~/jp/data-visualizations/fields/calculated-fields/math.html) - abs; log; log10; sign; sqrt。
 - [文字列](~/jp/data-visualizations/fields/calculated-fields/string.html) - find; len; trim; lower; mid; upper。
 
-#### データ ブレンディングの制限
+### データ ブレンディングの制限
 
 現在、Azure Synapse Analytics データ ソースからのデータを使用する場合、データ ブレンディング ([データ ソースを 1 つの表示形式に統合](~/jp/datasources/data-blending.md)) は**使用できません**。

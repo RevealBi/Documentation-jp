@@ -1,10 +1,10 @@
-## フィールドで並べ替え
+# フィールドで並べ替え
 
 Reveal では、データを昇順または降順に並べ替えることで、表示形式のデータの表示方法を変更できます。さらに、元のデータ ソースで選択したフィールドで並べ替えることで、表示形式の外観をさらに制御することもできます。
 
 <img src="images/sort-visualization-by-field.png" alt="Sort Visualization by setting dialog" class="responsive-img"/>
 
-### フィールドで並べ替えを有効にする 
+## フィールドで並べ替えを有効にする 
 
 **並べ替え条件**オプションはフィールド設定の一部ですが、デフォルトでは非表示になっています。有効にする方法:
 
@@ -19,7 +19,7 @@ Reveal では、データを昇順または降順に並べ替えることで、�
   - [文字列日付を時系列で並べ替え](#string-date-chr-order)
 
 <a name='by-priority'></a>
-### サポート ケースを優先順位で順序
+## サポート ケースを優先順位で順序
 
 フィールドをアルファベット順に並べ替えるのではなく、ビジネス ロジックを使用して並べ替えたいシナリオがあります。
 たとえば、以下は、その週の新しいサポート ケースを昇順で表示する表示形式です。
@@ -39,7 +39,7 @@ _Priority_ フィールドはテキスト フィールドであるため、デ�
 <img src="images/ForecastSortByFieldFinal_All.png" alt="Welcome image for Reveal" class="responsive-img"/>  
 
 <a name='string-date-chr-order'></a>
-### 文字列日付を時系列で順序
+## 文字列日付を時系列で順序
 
 次の表示形式を見てみましょう。ここでは、[積層型柱状チャート](~/jp/visualization-tutorials/stacked-charts.html#create-stacked-chart)で企業の現金と売掛金の増加をプロットしています。
 

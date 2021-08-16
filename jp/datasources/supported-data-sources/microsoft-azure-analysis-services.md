@@ -1,7 +1,7 @@
-## Microsoft Azure Analysis Services
+# Microsoft Azure Analysis Services
 
 Azure Analysis Services は、クラウドでエンタープライズ レベルのデータ モデルを提供するサービス (PaaS) としてのフル マネージド プラットフォームです。Reveal の Azure Analysis データ モデルを使用して、ダッシュボードを作成し、データ分析を実行できるようになりました。
-### Azure Analysis Services への接続
+## Azure Analysis Services への接続
 
 Reveal で使用される他のデータベース (Microsoft Analysis Services、MySQL、Oracle など) とは異なり、MS Azure Analysis Services は Reveal Web で使用できます。
 

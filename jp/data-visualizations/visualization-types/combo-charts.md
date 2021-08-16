@@ -1,4 +1,4 @@
-## 複合チャート
+# 複合チャート
 
 1 つのチャートに複数の種類のチャートを組み合わせたチャートです。
 
@@ -12,7 +12,7 @@
 
 データ ソースと複合の表示形式を選択した後、デフォルトでは、柱状チャートと折れ線チャートを組み合わせて開始します。最初の画像のように、両方のチャートの [ラベル] と [値] を構成する必要があります。
 
-### 複合チャートの設定
+## 複合チャートの設定
 
 <img src="images/combo-charts-settings.png" alt="Combo Charts configuration settings in Reveal" class="responsive-img"/>
 

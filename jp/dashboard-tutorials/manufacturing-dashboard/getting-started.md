@@ -1,10 +1,10 @@
-## Manufacturing Dashboard チュートリアル
+# Manufacturing Dashboard チュートリアル
 
 このチュートリアルでは、サンプル スプレッドシートで同様のデータを使用して作成した以下の Supply Chain Management ダッシュボードを表示する方法について説明します。
 
 <img src="images/SupplyChainManagementDashboard_All.png" alt="SupplyChainManagementDashboard\_All" class="responsive-img"/>
 
-### ダッシュボードに含まれる項目
+## ダッシュボードに含まれる項目
 
   - 部門全体の主要な統計
 
@@ -14,14 +14,14 @@
 
   - 労働力の人数
 
-### サンプル データシート
+## サンプル データシート
 
 [ここ](https://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)からサンプル データシートをダウンロードできます。その他すべてのダッシュボード [チュートリアル](~/jp/dashboard-tutorials/overview.md)で同じサンプル スプレッドシートを使用します。
 
 >[!NOTE]
 >このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、[サポートされているクラウド サービス](../../../jp/datasources/overview.html)のいずれかにファイルをアップロードしてください。
 
-### ステップの概要
+## ステップの概要
 
 1.  [ダッシュボードを作成してデータ ソースを追加](creating-the-dashboard.md)
 

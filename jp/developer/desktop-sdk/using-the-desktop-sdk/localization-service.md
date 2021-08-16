@@ -1,8 +1,8 @@
-## ローカリゼーション サービスの使用
+# ローカリゼーション サービスの使用
 
 ローカリゼーション サービスは、カスタム ロジックに基づいてさまざまなダッシュボード要素をローカライズできます。また、フィールドのカスタム書式設定を設定する機能も提供します。
 
-### ローカライズがサポートされる要素
+## ローカライズがサポートされる要素
 
 ローカライズ可能なダッシュボード要素:
 
@@ -16,12 +16,12 @@
   
   * 集計フィールド ラベル
   
-### ローカリゼーション サービスの使用
+## ローカリゼーション サービスの使用
 
 以下は、リンクする方法の 2 つの例で[**ダッシュボード タイトルのローカライズ**](#localize-dashboard-title)およびカスタム ロジックを追加して同じダッシュボードで[**フィールド ラベルをローカライズ**](#localize-field-label)する方法があります。また、[数値フィールド](#format-numeric-field)および[非集計日付フィールド](#format-date-field)の**書式設定を変更する方法**の例も示します。この例で使用するダッシュボードは、Marketing サンプル ダッシュボードです。
 
 <a name='localize-dashboard-title'></a>
-#### ダッシュボードのタイトルのローカライズの例
+### ダッシュボードのタイトルのローカライズの例
 
 Marketing サンプルの初期状態:
 
@@ -75,7 +75,7 @@ Marketing サンプルの初期状態:
 <img src="images/dashboard-title-localized.png" alt="Localized Marketing Sample Title" class="responsive-img"/>
 
 <a name='localize-field-label'></a>
-#### フィールド ラベルのローカライズの例
+### フィールド ラベルのローカライズの例
 
 以下に、同じダッシュボードの複数の要素をローカライズする方法の例を示します。
 
@@ -115,12 +115,12 @@ Actual Spend vs Budget の Date フィールド ラベルが Localized Date に�
 
 手順の例に従って、その他のダッシュボード要素をローカライズできます。
 
-### ローカリゼーション サービスを使用した書式設定の変更
+## ローカリゼーション サービスを使用した書式設定の変更
 
 ローカリゼーション サービスを使用して数値フィールドと非集計日付フィールドの書式設定を変更できます。
 
 <a name='format-numeric-field'></a>
-#### 数値フィールドの書式設定の変更の例
+### 数値フィールドの書式設定の変更の例
 
 以下の Spend vs Budget 可視化の初期状態では、米ドル($) 通貨で書式設定された数値フィールドを示します。
 
@@ -165,7 +165,7 @@ public class UpMediaLocalizationService : IRVLocalizationService
 <img src="images/numeric-field-changed-currency-yen.png" alt="Changed numeric field in Japanese Yen currency format" class="responsive-img"/>
 
 <a name='format-date-field'></a>
-#### 日付フィールドの書式設定の変更の例
+### 日付フィールドの書式設定の変更の例
 
 現在、集計された日付フィールドの書式設定の変更はローカリゼーション サービスでは設定できず、ピボットの値には影響しません。変更には[書式設定サービス](formatting-service.html)を使用してください。
 

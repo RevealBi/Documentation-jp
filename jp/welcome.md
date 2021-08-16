@@ -1,4 +1,4 @@
-## Reveal ヘルプへようこそ!
+# Reveal ヘルプへようこそ!
 
 Reveal は、埋め込み分析用に構築された最新の BI ソリューションです。データ分析をアプリケーションに簡単に統合でき、Reveal データ可視化を制御できる豊富な API を利用しながら、アプリでのユーザー エクスペリエンスを強化できます。
 
@@ -6,7 +6,7 @@ Reveal は、埋め込み分析用に構築された最新の BI ソリューシ
 
 埋め込み分析に興味をお持ちですか? [Reveal SDK をダウンロードします](https://www.revealbi.io/download-sdk)。使用を開始する方法については、[Reveal SDK ヘルプ](developer/index.html)を参照してください。
 
-### Reveal アプリケーションのハイライト
+## Reveal アプリケーションのハイライト
 
 <h4>データに安全に接続し、強力なデータ視覚化を構築する</h4>
 
@@ -49,11 +49,11 @@ Reveal で BigQuery または Azure Machine Learning Studio からのトレー�
 
 <img src="datasources/ml-integration/images/ml-models-list-bigquery.png" alt="Connecting to a trained machine learning model in Reveal" class="responsive-img"/>
 
-### 新機能
+## 新機能
 
 * [時系列チャート](~/jp/data-visualizations/visualization-types/time-series-charts.md) –  時系列チャートを使用して、より多くのインサイトを得て、傾向を一目で検出します。従来の折れ線チャートと同様に、時系列チャートを使用すると、時間の経過に伴う進展を簡単に観察できます。
 
-### Reveal はどこで入手できますか?
+## Reveal はどこで入手できますか?
 
 Reveal は使用しているデバイスに関係なく、シームレスでほぼ同一のエクスペリエンスを提供します。Web ブラウザーの使用や iOS、Android、デスクトップでネイティブ アプリケーションを取得することが可能であるため、さまざまなデバイスやプラットフォームで簡単に作業できます。
 

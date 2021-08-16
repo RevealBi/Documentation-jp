@@ -1,9 +1,9 @@
-## Microsoft SQL Server
+# Microsoft SQL Server
 
 >[!NOTE] 
 >**Web の制限**。*Reveal Web* アプリでは、公的にアクセス可能な Microsoft SQL アドレスにのみ接続できます。MS SQL アドレスが一般公開 (プライベートまたは会社のイントラネットでホストされているなど) に制限されている場合は、*Reveal Desktop*、*iOS*、または *Android* を使用して接続できます。Reveal を実行しているデバイスは、SQL Server アドレスにアクセスできる必要があります。この制限は、*Reveal Embedded* には適用されません。
 
-### MS SQL Server への接続
+## MS SQL Server への接続
 
 Microsoft SQL サーバー データ ソースを構成するには、以下の情報が必要です。
 
@@ -28,7 +28,7 @@ Microsoft SQL サーバー データ ソースを構成するには、以下の�
     準備ができたら、**[作成して使用]** を選択します。
 
 <a name='how-to-find-server'></a>
-### サーバー情報を見つける方法
+## サーバー情報を見つける方法
 
 以下の手順でサーバーの確認ができます。コマンドはサーバーで実行する必要があることに注意してください。
 
@@ -47,9 +47,9 @@ Microsoft SQL サーバー データ ソースを構成するには、以下の�
 | **IPv4 アドレス** はあなたの IP アドレスです。 | **Inet addr** はあなたの IP アドレスです。 | **IP アドレス** フィールドに必要な情報が提供されます。 |
 
 <a name='working-with-views'></a>
-### データの設定
+## データの設定
 
-#### ビューの作業
+### ビューの作業
 
 Reveal を使用すると、テーブル全体から SQL Server データを取得できますが、代わりにテーブルまたはテーブルのセットからデータのサブセットを返す、特定の[ビュー](https://docs.microsoft.com/ja-jp/sql/relational-databases/views/views?view=sql-server-2017)を選択することもできます。
 
@@ -61,7 +61,7 @@ Reveal を使用すると、テーブル全体から SQL Server データを取�
 
 ビューおよび MS SQL サーバーの詳細については、[この Web サイト](https://docs.microsoft.com/ja-jp/sql/relational-databases/views/views?view=sql-server-2017)を参照してください。
 
-#### 保管されたプロシージャの作業
+### 保管されたプロシージャの作業
 
 MS SQL では、保管されたプロシージャを利用することで、特定のパラメーターを使用して、リレーショナル データベースで一連のクエリ ステートメントを実行できます。以下は、[Northwind](https://docs.microsoft.com/ja-jp/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases) データを使用してテスト サーバーで実行されるサンプル 保管されたプロシージャのセットです。
 
@@ -77,7 +77,7 @@ MS SQL では、保管されたプロシージャを利用することで、特�
 
 ストアドプロシージャおよび MS SQL サーバーの詳細については、[この Web サイト](https://docs.microsoft.com/ja-jp/sql/relational-databases/stored-procedures/stored-procedures-database-engine?view=sql-server-2017)を参照してください。
 
-#### Reveal 保管されたプロシージャの制限
+### Reveal 保管されたプロシージャの制限
 
 
   - 複数の結果セットを返すスト アドプロシージャの場合、最初の結果のみが表示されます。

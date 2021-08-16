@@ -1,8 +1,8 @@
-## Web SDK をはじめて使用する
+# Web SDK をはじめて使用する
 
 このページは、Web ページ/アプリケーションにはじめてダッシュボードを表示する際の手順について説明します。
 
-### 手順
+## 手順
 
 1.  プロジェクトを作成する
 2.  Reveal SDK のインストール
@@ -11,7 +11,7 @@
 5.  Reveal フォントの使用
 6.  クライアント アプリケーションのスタイル設定
 
-### 手順 1 - プロジェクトを作成する
+## 手順 1 - プロジェクトを作成する
 
 Visual Studio 2017 を開き、*ASP.NET Core Web アプリケーション*の新しいプロジェクトを作成します。
 
@@ -23,7 +23,7 @@ Visual Studio 2017 を開き、*ASP.NET Core Web アプリケーション*の新
 ![select framework and mvc for project dialog in Visual Studio
 2017](images/select-framework-project.png)
 
-### 手順 2 - Reveal SDK のインストール
+## 手順 2 - Reveal SDK のインストール
 
 <https://www.revealbi.io/jp> から Infragistics Reveal SDK をダウンロードし、システムにインストールします。*Visual Studio* で ツール > オプション > Nuget パッケージ マネージャー > パッケージ ソース を選択します。インストールされた SDK の Nuget フォルダーを指す新しいソースを追加します。
 
@@ -36,7 +36,7 @@ dialog](images/adding-new-package-source.png)
 
 <img src="images/preview-changes-dialog.png" alt="preview changes dialog" class="responsive-img"/>
 
-### 手順 3 - サーバー構成の設定
+## 手順 3 - サーバー構成の設定
 
 プロジェクトに新しい Reveal SDK フォルダーを作成し、**RevealSdkContextBase** 抽象クラスを実装する **RevealSdkContext.cs** クラスを追加します。
 
@@ -96,7 +96,7 @@ dialog](images/adding-new-package-source.png)
 
 問題が発生した場合は、サーバー SDK - [**セットアップと構成**](~/jp/developer/setup-configuration/setup-configuration-web.html)トピックを参照してください。
 
-### 手順 4 - クライアント アプリケーションに Reveal を埋め込む
+## 手順 4 - クライアント アプリケーションに Reveal を埋め込む
 
 はじめにダッシュボードを準備します。このデモでは、Reveal の**サンプル** セクションの **Marketing ダッシュボード**を使用できますが、テーマは異なります。
 ダッシュボードを開き、編集モードに入ります。
@@ -206,7 +206,7 @@ Marketing ダッシュボードを選択し、**編集モード**に入ります
 
 問題が発生した場合は、クライアント SDK [**セットアップと構成**](~/jp/developer/setup-configuration/setup-configuration-web.html)トピックを参照してください。
 
-### 手順 5 - Reveal フォントの使用
+## 手順 5 - Reveal フォントの使用
 
 Reveal アプリは Roboto フォントを使用します。アプリと同じ外観を実現するには、
 <https://fonts.google.com/specimen/Roboto> からフォントをダウンロードし、次の TTF ファイルをプロジェクトの **wwwroot/css** フォルダーへコピーします。
@@ -274,7 +274,7 @@ Reveal アプリは Roboto フォントを使用します。アプリと同じ�
 
 <img src="images/marketing-dashboard-new-font.png" alt="marketing dashboard loaded with the new font" class="responsive-img"/>
 
-### 手順 6 - クライアント アプリケーションのスタイル設定
+## 手順 6 - クライアント アプリケーションのスタイル設定
 
 デフォルトのテンプレートを使用する代わりに、クライアント アプリケーションのスタイルを設定できます。
 

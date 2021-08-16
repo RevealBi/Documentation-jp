@@ -1,4 +1,4 @@
-## 手順に従ってカスタム表示形式の作成
+# 手順に従ってカスタム表示形式の作成
 
 このセクションでは、カスタム表示形式機能を使用してデータの独自のビューを作成する方法を示します。
 
@@ -10,7 +10,7 @@
 
 -	受信データを読み込み、そのカスタムな表示を作成します。
 
-### HTML ファイルを作成する
+## HTML ファイルを作成する
 jQuery と Revealbridgeutils への参照を含む空の html ファイルを作成します。
 
 ``` js
@@ -31,7 +31,7 @@ jQuery と Revealbridgeutils への参照を含む空の html ファイルを作
 
 必要に応じて、[**reveal_bridge_utils.js ファイルをダウンロード**](https://download.infragistics.com/reveal/custom-visualization/reveal_bridge_utils.js)してローカルで参照することもできます。
 
-### データを受信する準備ができていることをホストに通知する
+## データを受信する準備ができていることをホストに通知する
 2 番目のステップとして、次の目的で必要な javascript コードを追加します。
 
 -	ビューがデータを受け取る準備ができたことをホストに通知します。これを行うには、RPBridgeUtils.notifyExtensionIsReady を呼び出します。
@@ -61,7 +61,7 @@ jQuery と Revealbridgeutils への参照を含む空の html ファイルを作
 </html>
 ```
 
-### カスタム ビューを描画する HTML 要素を作成する
+## カスタム ビューを描画する HTML 要素を作成する
 最後に dataReady 関数に送信したデータを処理して、データを描画するために使用する html タグを動的に生成します。
 
 この場合、テーブル行を作成する tabularData.data 配列を反復し、HTML DOM の “myTable” div 内に追加します。
@@ -90,7 +90,7 @@ dataReady: function (tabularData) {
    };
 ```
 
-### 全サンプル コード
+## 全サンプル コード
 
 ``` js
 <html>

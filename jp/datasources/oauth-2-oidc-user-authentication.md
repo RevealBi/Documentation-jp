@@ -1,20 +1,20 @@
-## REST、OData、およびウェブ リソースを使用した OAuth 2 / OIDC ユーザー認証
+# REST、OData、およびウェブ リソースを使用した OAuth 2 / OIDC ユーザー認証
 
 [OData フィード](supported-data-sources/odata-feed.html)、[REST API](supported-data-sources/rest-api.html)、または[ウェブ リソース](supported-data-sources/web-resource.html)を使用する場合、リソースの一部が保護される場合があります。この場合、OAuth 2 / OIDC アカウントを設定して、これらのリソースへの Reveal アクセスを許可する必要があります。
 
-### OAuth 2 とは?
+## OAuth 2 とは?
 
 OAuth 2.0 は、元の Oauth プロトコルに代わるアクセス許可フレームワークです。通常、ユーザーの資格情報を公開せずに特定のリソースへの制限付きアクセスを許可します。OAuth 1.0 と同様に、このプロトコルは Oauth クライアントと呼ばれるある場所 (サードパーティのアプリケーションまたは Web サイト) から別の場所へのアクセスを可能にします。
 
 詳細については、[OAuth 2.0 (英語)](https://oauth.net/2/) を参照してください。
 
-### OIDC とは?
+## OIDC とは?
 
 OIDC は OAuth 2.0 プロトコルの上にあるシンプルな ID レイヤーです。OIDC を利用すると、Web サイトまたはアプリケーションは、別のサービスまたはアプリケーション (Google、Office 365 など) のアカウントを使用してユーザーの認証が可能になり、それをもとにコンテンツへのアクセス許可の制御が可能になります。Web サイトまたはアプリケーション側でさまざまなアカウントを保持する必要がなくなります。
 
 詳細については、[OpenID Connect (英語)](https://openid.net/connect/) を参照してください。
 
-### OAuth 2 / OIDC アカウントで保護されたリソースを使用
+## OAuth 2 / OIDC アカウントで保護されたリソースを使用
 
 OAuth 2 / OIDC アカウントでデータ ソースを使用するには、以下の 4 つの手順を実行する必要があります。
 
@@ -26,7 +26,7 @@ OAuth 2 / OIDC アカウントでデータ ソースを使用するには、以�
 
 4.  データにアクセスして使用するための**権限を Reveal に付与する**。
 
-### OАuth クライアントの登録
+## OАuth クライアントの登録
 
 **リソース サーバー** (Microsoft、Google など) に移動し、必要な情報を入力して Reveal を Oauth クライアント/アプリケーションとして登録します。通常、アプリケーションの名前とリダイレクト URL が必要です。
 
@@ -35,7 +35,7 @@ OAuth 2 / OIDC アカウントでデータ ソースを使用するには、以�
 
 登録が完了すると、リソース サーバーは Reveal で *OAuth 2 アカウント*を構成するために必要な資格情報を生成します。
 
-### データ ソースの選択
+## データ ソースの選択
 
 1.  Reveal に移動し、**データ ソース** (Odata フィード、Rest API、またはウェブ リソース) **を選択する**。
 
@@ -49,7 +49,7 @@ OAuth 2 / OIDC アカウントでデータ ソースを使用するには、以�
 
     <img src="images/OAuth-2-OIDC-Credentials.png" alt="Accessing OAuth2/OIDC Credentials menu" class="responsive-img"/>
 
-### Reveal での OAuth 2 / OIDC アカウントの設定
+## Reveal での OAuth 2 / OIDC アカウントの設定
 
 **OAuth 2 / OIDC アカウントの詳細**画面で、リソース サーバーによって Reveal 用に既に生成された資格情報を入力する必要があります。
 
@@ -73,7 +73,7 @@ OAuth 2 / OIDC アカウントでデータ ソースを使用するには、以�
 
 *  **[リソース]**: ここで、保護されたデータをホストするサービス (例: <https://infragisticsinc297.sharepoint.com>) に URL を入力する必要があります。
 
-### Reveal にデータにアクセスして使用する許可を与える
+## Reveal にデータにアクセスして使用する許可を与える
 
 OAuth 2 / OIDC アカウントを構成した後、サインイン画面にリダイレクトされます。
 サインイン後、Reveal にデータの使用を許可するよう求められます。

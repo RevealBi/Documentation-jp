@@ -1,4 +1,4 @@
-## その他の表示形式の追加
+# その他の表示形式の追加
 
 ダッシュボードにあるその他すべての表示形式で同じ [サンプル スプレッドシート](https://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)を使用します。
 
@@ -43,7 +43,7 @@
 </table>
 
 <a name='sis-stock-value-2018'></a>
-### Silver Security Stock Value 2018 (2018 年 Silver Security 株価指数)
+## Silver Security Stock Value 2018 (2018 年 Silver Security 株価指数)
 
 SIS Stock Value 2018 表示形式は、2018 年の Soylent Corp 株の平均値を[テキスト ゲージ](../../../jp/visualization-tutorials/gauge-views.html#create-text-gauge)で表示します。この場合、変更されるのは選択したフィルターのみであるため、最初の手順で作成された最初の表示形式を複製できます。
 
@@ -75,7 +75,7 @@ SIS Stock Value 2018 表示形式は、2018 年の Soylent Corp 株の平均値�
 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name="glb-fiscal-monthly"></a>
-### GLB Fiscal (Monthly) NYSE + BATS (Globex 月次会計; ニューヨーク証券取引所 + アドバンストオルタナティブトレーディングシステム)
+## GLB Fiscal (Monthly) NYSE + BATS (Globex 月次会計; ニューヨーク証券取引所 + アドバンストオルタナティブトレーディングシステム)
 
 GLB Fiscal 表示形式は、ニューヨーク証券取引所 (New York Stock Exchange - NYSE) と アドバンストオルタナティブトレーディングシステム (Better Alternative Trading System - BATS) の両方を考慮して、2018 年の Globex 株の価格変動を[ローソク足チャート](~/jp/visualization-tutorials/candlestick-chart.html)で表示します。
 以下は作成方法です。
@@ -136,7 +136,7 @@ GLB Fiscal 表示形式は、ニューヨーク証券取引所 (New York Stock E
 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='forecast-change-bid-offers'></a>
-### Forecast (Chg, Bid & Offers) - 2018 to 2023 (予測 (変動、買注文、売注文) - 2018 年 ～  2023 年
+## Forecast (Chg, Bid & Offers) - 2018 to 2023 (予測 (変動、買注文、売注文) - 2018 年 ～  2023 年
 
 Forecast 表示形式は、5 年間の株の変動、買注文、売注文を[折れ線チャート](~/jp/visualization-tutorials/simple-charts.html)で表示します。以下は作成方法です。
 
@@ -174,7 +174,7 @@ Forecast 表示形式は、5 年間の株の変動、買注文、売注文を[�
 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='stock-variations'></a>
-### Stock Variations (株価の変動)
+## Stock Variations (株価の変動)
 
 Stock Variations 表示形式は、12 か月間の株価の変化を[スパークライン チャート](~/jp/visualization-tutorials/sparkline-charts.html)で表示します。以下は作成方法です。
 
@@ -210,7 +210,7 @@ Stock Variations 表示形式は、12 か月間の株価の変化を[スパー�
 完了したら、右上の**ティック アイコン**を選択し、ダッシュボード エディターに戻ります。
 
 <a name='stock-volumes'></a>
-### Stock Volumes (株式量)
+## Stock Volumes (株式量)
 
 Stock Volumes 表示形式は、1 年間の株式数を[リニア ゲージ](~/jp/visualization-tutorials/gauge-views.html#create-linear-gauge)で表示します。以下は作成方法です。
 

@@ -1,4 +1,4 @@
-## Reveal SDK の概要
+# Reveal SDK の概要
 
 - **Desktop SDK** - Reveal Desktop SDK は、Reveal を外部 (ホスト) の Windows アプリケーション (WPF または WinForms) に組み込むことができます。
 
@@ -8,7 +8,7 @@ Reveal Web ビューアの組み込みが可能な SDK には、2 つのコン�
   * 2 つの異なるプラットフォーム (.NET と JAVA) でサポートされている Reveal Web サーバー SDK
 
 Reveal の SDK をインストールするときは、.NET Web SDK と Desktop SDK を同時にインストールします。JAVA SDK は、[Maven (英語)](https://maven.apache.org/what-is-maven.html) モジュールのセットとして配布されます。
-### 主要機能
+## 主要機能
 Reveal SDK は、アプリケーションに Reveal を組み込むことができるため、ユーザーがダッシュボードを表示したり修正したりすることが可能です。
 
 Reveal SDK は、Web、Windows WPF および Windows フォームなどの複数のプラットフォームおよびテクノロジで開発されたアプリケーションに Reveal を統合するために使用できます。

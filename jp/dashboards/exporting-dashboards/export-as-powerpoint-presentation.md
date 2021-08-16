@@ -1,4 +1,4 @@
-## ダッシュボードを PowerPoint 形式としてエクスポート
+# ダッシュボードを PowerPoint 形式としてエクスポート
 
 Reveal では、ダッシュボードを PowerPoint 形式でエクスポートできます。各表示形式は、プレゼンテーションの個別のスライドに表示されます。
 
@@ -6,7 +6,7 @@ Reveal では、ダッシュボードを PowerPoint 形式でエクスポート�
 
 ダッシュボードを PowerPoint としてエクスポートするには、ダッシュボード *ビュー モード*に移動して、オーバーフロー メニューから **[エクスポート]** ⇒ **PowerPoint** を選択します。**[ダッシュボード エクスポート]** ダイアログが開き、プレゼンテーションを設定して特定のスライドに注釈を付けることができます。
 
-### エクスポート設定
+## エクスポート設定
 
 <img src="images/export-settings-powerpoint.png" alt="Settings for PowerPoint presentation in the Export Dashboard menu" class="responsive-img"/>
 

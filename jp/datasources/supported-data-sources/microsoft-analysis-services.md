@@ -1,4 +1,4 @@
-## Microsoft Analysis Services
+# Microsoft Analysis Services
 
 Microsoft SQL Analysis Services (SSAS) は、Microsoft SQL Server の OLAP (同時に複数のデータベース システムからの情報のオンライン分析処理) およびデータ マイニング ツールです。
 
@@ -6,14 +6,14 @@ Microsoft SQL Analysis Services (SSAS) は、Microsoft SQL Server の OLAP (同�
 >[!NOTE]
 >**Web の制限**。*Reveal Web* アプリでは、公的にアクセス可能な Microsoft Analysis Services アドレスにのみ接続できます。Analysis Services アドレスが一般公開 (プライベートまたは会社のイントラネットでホストされているなど) に制限されている場合は、*Reveal Desktop*、*iOS*、または *Android* を使用して接続できます。Reveal を実行しているデバイスは、Analysis Services アドレスにアクセスできる必要があります。この制限は、*Reveal Embedded* には適用されません。
 
-### Microsoft Analysis Services への接続
+## Microsoft Analysis Services への接続
 
 Microsoft Analysis Services データ ソースを構成するときにサーバー設定に基づいて使用できるモジュールが 2 つあります - [*Native*](#native) および [*HTTP*](#http)。
 
 Native および HTTP モードの詳細については、[Microsoft Instance Management ヘルプ (英語)](https://docs.microsoft.com/en-us/sql/analysis-services/instances/connect-to-analysis-services?view=sql-server-2017) をご覧ください。
 
 <a name='native'></a>
-#### Native の使用
+### Native の使用
 
 Microsoft Analysis Services データ ソースを *Native* モード用に構成するため、以下の情報が必要です。
 
@@ -45,7 +45,7 @@ Microsoft Analysis Services データ ソースを *Native* モード用に構�
 4.  **[資格情報]**: [資格情報] を選択した後、Microsoft Analysis Services の資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
 
 <a name='http'></a>
-#### HTTP の使用
+### HTTP の使用
 
 Microsoft Analysis Services データ ソースを *HTTP* モード用に構成するため、以下の情報が必要です。
 
@@ -57,7 +57,7 @@ Microsoft Analysis Services データ ソースを *HTTP* モード用に構成�
 
 3.  **[資格情報]**: Analysis Services サーバーのユーザー アカウントの資格情報。
 
-### データベースの構成
+## データベースの構成
 
 Analysis Services サーバーの資格情報が確認されたら、Reveal はサーバー上のデータベースを読み込んで表示します。
 
@@ -70,7 +70,7 @@ Analysis Services サーバーの資格情報が確認されたら、Reveal は�
 データベース キューブを選択し、[データの選択] をクリック/タップして、表示形式エディターに進みます。
 
 <a name='visualization-editor'></a>
-### 表示形式エディターでの作業
+## 表示形式エディターでの作業
 
 Microsoft Analysis Services などのキューブ データ ソースを使用してダッシュボードを作成すると、*表示形式エディター*でフィールドが異なって体系化されます (下のスクリーンショットを参照)。キューブのデータ ソースは、キューブのデザイナーが事前に作成した階層と集計で構成されています。
 
@@ -93,7 +93,7 @@ Microsoft Analysis Services などのキューブ データ ソースを使用�
 ディメンションとメジャーの詳細については、[Technet](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2012/ms174527\(v=sql.110\)) の記事をご覧ください。
 
 <a name='sort-by-caption-setting'></a>
-### キャプション設定で並べ替え
+## キャプション設定で並べ替え
 
 またキャプションで並べ替えオプションがあり、フィルターの適用をディメンションのラベルまたは対応する値に設定できます。有効にすると、[キャプションにより並べ替える] で、ディメンションがラベルでアルファベット順に並べ替えられます。
 

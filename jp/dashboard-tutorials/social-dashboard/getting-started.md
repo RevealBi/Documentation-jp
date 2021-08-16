@@ -1,10 +1,10 @@
-## Social Dashboard チュートリアル
+# Social Dashboard チュートリアル
 
 このチュートリアルでは、同様のデータを含むサンプル スプレッドシートを使用して作成した、以下の ソーシャル メディア分析ダッシュボドを表示する方法について説明します。
 
 <img src="images/SocialMediaAnalytics_All.png" alt="SocialMediaAnalytics\_All" class="responsive-img"/>
 
-### ダッシュボードに含まれる項目
+## ダッシュボードに含まれる項目
 
 このダッシュボードは、サンプル企業の以下の情報を含みます:
 
@@ -14,14 +14,14 @@
 
   - メンションとリツイート
 
-### サンプル データ
+## サンプル データ
 
 [ここ](https://download.infragistics.com/reportplus/help/samples/Reveal_Dashboard_Tutorials.xlsx)からサンプル データシートをダウンロードできます。その他すべてのダッシュボード [チュートリアル](../../../jp/dashboard-tutorials/overview.html)で同じサンプル スプレッドシートを使用します。
 
 >[!NOTE]
 >このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、[サポートされているクラウド サービス](../../../jp/datasources/overview.html)のいずれかにファイルをアップロードしてください。
 
-### ステップの概要
+## ステップの概要
 
 1.  [ダッシュボードを作成してデータ ソースを追加](creating-the-dashboard.md)
 
