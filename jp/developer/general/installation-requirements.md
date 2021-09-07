@@ -1,6 +1,6 @@
 # インストールと要件
 
-## デスクトップ SDK 要件
+## Desktop SDK 要件
 
 - Reveal SDK は、.NET バージョン 4.6.2 以降および Visual Studio 2015 以降が必要です。
 
