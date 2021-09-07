@@ -15,6 +15,28 @@
     <th class="tg-cly1"><span style="font-weight:bold">バージョン</span></th>
     <th class="tg-cly1"><span style="font-weight:bold">説明</span></th>
     </tr>
+   <tr>
+        <td class="tg-0lax" rowspan="4">9 月 2021 年</td>
+        <td class="tg-0lax" rowspan="4"> 1.0.20 <br> [1.0.29 iOS]</td>
+        <td class="tg-cly1">[公開バグ修正] ReportPlus imported dashboards issue with Combo Chart<br>
+        When importing a dashboard from ReportPlus, Combo Chart visualizations including hidden fields were not working as expected.
+        </td>
+    </tr>
+    <tr>
+        <td class="tg-cly1">[公開バグ修正] ReportPlus imported dashboards issue with SharePoint credentials<br>
+        When importing a dashboard from ReportPlus, SharePoint on-prem credentials were not working as expected.
+        </td>
+    </tr>
+    <tr>
+        <td class="tg-cly1">[公開バグ修正] Changing dashboard filter’s data source issue<br>
+        When changing a dashboard filter’s data source, the first filter in the dashboard was being replaced with the one being changed.
+        </td>
+    </tr>
+    <tr>
+        <td class="tg-cly1">[公開バグ修正] MS Analysis Services dashboard linking issue<br>
+        You can now link dashboards that include visualizations getting data from Microsoft Analysis Services and won’t encounter any problem.
+        </td>
+    </tr>
     <tr>
         <td class="tg-0lax" rowspan="2">6 月 2021 年</td>
         <td class="tg-0lax" rowspan="2"> 1.0.20 <br> [1.0.28 iOS]</td>

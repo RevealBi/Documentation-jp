@@ -16,6 +16,39 @@
         </tr>
     </thead>
     <tbody>
+<tr>
+            <td rowspan="2">9 月 2021 年</td>
+            <td rowspan="2">1.0.2013</td>
+            <td>[公開バグ修正] Calculated field export to excel resulting in empty cells<br>
+            When exporting to excel a calculated field doing division by zero, the result included empty cells.
+            </td>
+        </tr>
+        <tr>
+            <td>[公開バグ修正] Data blending with custom queries and server-side processing issues<br>
+            When turning on “Process Data On Server” in Web .NET and performing a custom query, data blending was not working as expected.
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="3">9 月 2021 年</td>
+            <td rowspan="3">1.0.2012</td>
+            <td>[公開バグ修正] [SDK] Decimal point hidden when Sparkline chart exceeds 100%<br>
+            In the Web SDK, the property canSaveAs was not being honored if it was changed after a dashboard is set.
+            </td>
+        </tr>
+        <tr>
+            <td>[公開バグ修正] [SDK] Small window sizes render Text chart unreadable<br>
+            In both Web and Desktop, the Text Chart font becomes unreadable when the window’s size is small.
+            </td>
+        </tr>
+        <tr>
+            <td>[公開バグ修正] [SDK] Issues getting the list of date formats<br> When getting a list of date formats for a field editor in the Desktop SDK, you can now use <i>RVBaseFormattingService</i> with aggregated dates.
+            </td>
+        </tr>
+        <tr>
+            <td>8 月 2021 年</td>
+            <td>1.0.2008</td>
+            <td>[公開バグ修正] [SDK] Saving dashboard as a stream has issues<br> When saving dashboards as a stream, in some specific cases <i>dashboard.Serialize.Async()</i> was returning null.</td>
+        </tr>
        <tr>
             <td rowspan="6">6 月 2021 年</td>
             <td rowspan="6">1.0.2005</td>
