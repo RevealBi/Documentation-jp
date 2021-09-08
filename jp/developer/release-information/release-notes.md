@@ -19,35 +19,35 @@
 <tr>
             <td rowspan="2">9 月 2021 年</td>
             <td rowspan="2">1.0.2013</td>
-            <td>[公開バグ修正] Calculated field export to excel resulting in empty cells<br>
-            When exporting to excel a calculated field doing division by zero, the result included empty cells.
+            <td>[公開バグ修正] 計算フィールドを Excel にエクスポートすると、セルが空になる問題。<br>
+            ゼロ除算を行う計算フィールドを Excel にエクスポートすると、結果には空のセルが含まれていました。
             </td>
         </tr>
         <tr>
-            <td>[公開バグ修正] Data blending with custom queries and server-side processing issues<br>
-            When turning on “Process Data On Server” in Web .NET and performing a custom query, data blending was not working as expected.
+            <td>[公開バグ修正] カスタム クエリとサーバー側の処理のデータ ブレンディングの問題。<br>
+            Web .NET で [サーバーでデータを処理] をオンにしてカスタム クエリを実行すると、データ ブレンディングが期待どおりに機能しませんでした。
             </td>
         </tr>
         <tr>
             <td rowspan="3">9 月 2021 年</td>
             <td rowspan="3">1.0.2012</td>
-            <td>[公開バグ修正] [SDK] Decimal point hidden when Sparkline chart exceeds 100%<br>
-            In the Web SDK, the property canSaveAs was not being honored if it was changed after a dashboard is set.
+            <td>[公開バグ修正] [SDK] スパークライン チャートが 100％ を超えると小数点が非表示になる問題。<br>
+            Web SDK では、ダッシュボードの設定後に変更された場合、canSaveAs プロパティが優先されませんでした。
             </td>
         </tr>
         <tr>
-            <td>[公開バグ修正] [SDK] Small window sizes render Text chart unreadable<br>
-            In both Web and Desktop, the Text Chart font becomes unreadable when the window’s size is small.
+            <td>[公開バグ修正] [SDK] ウィンドウ サイズが小さいと、テキスト チャートが判読できなくなる問題。<br>
+            Web とデスクトップの両方で、ウィンドウのサイズが小さいと、テキスト チャート フォントが読み取れなくなります。
             </td>
         </tr>
         <tr>
-            <td>[公開バグ修正] [SDK] Issues getting the list of date formats<br> When getting a list of date formats for a field editor in the Desktop SDK, you can now use <i>RVBaseFormattingService</i> with aggregated dates.
+            <td>[公開バグ修正] [SDK] 日付形式のリストの取得に関する問題。<br> Desktop SDK でフィールド エディターの日付形式のリストを取得するときに、集計された日付で <i>RVBaseFormattingService</i> を使用できるようになりました。
             </td>
         </tr>
         <tr>
             <td>8 月 2021 年</td>
             <td>1.0.2008</td>
-            <td>[公開バグ修正] [SDK] Saving dashboard as a stream has issues<br> When saving dashboards as a stream, in some specific cases <i>dashboard.Serialize.Async()</i> was returning null.</td>
+            <td>[公開バグ修正] [SDK] ダッシュボードをストリームとして保存する際に問題が発生する問題。<br> ダッシュボードをストリームとして保存するときに、特定のケースで <i>dashboard.Serialize.Async()</i> が null を返していました。
         </tr>
        <tr>
             <td rowspan="6">6 月 2021 年</td>

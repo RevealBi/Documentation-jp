@@ -18,23 +18,23 @@
    <tr>
         <td class="tg-0lax" rowspan="4">9 月 2021 年</td>
         <td class="tg-0lax" rowspan="4"> 1.0.20 <br> [1.0.29 iOS]</td>
-        <td class="tg-cly1">[公開バグ修正] ReportPlus imported dashboards issue with Combo Chart<br>
-        When importing a dashboard from ReportPlus, Combo Chart visualizations including hidden fields were not working as expected.
+        <td class="tg-cly1">[公開バグ修正] ReportPlus のインポートされたダッシュボードのコンボ チャートに関する問題。<br>
+        ReportPlus からダッシュボードをインポートすると、非表示フィールドを含むコンボ チャートの視覚化が期待どおりに機能しませんでした。
         </td>
     </tr>
     <tr>
-        <td class="tg-cly1">[公開バグ修正] ReportPlus imported dashboards issue with SharePoint credentials<br>
-        When importing a dashboard from ReportPlus, SharePoint on-prem credentials were not working as expected.
+        <td class="tg-cly1">[公開バグ修正] ReportPlus のインポートされたダッシュボードの SharePoint 資格情報に関する問題。<br>
+        ReportPlus からダッシュボードをインポートすると、SharePoint オンプレミスの資格情報が期待どおりに機能しませんでした。
         </td>
     </tr>
     <tr>
-        <td class="tg-cly1">[公開バグ修正] Changing dashboard filter’s data source issue<br>
-        When changing a dashboard filter’s data source, the first filter in the dashboard was being replaced with the one being changed.
+        <td class="tg-cly1">[公開バグ修正] ダッシュボード フィルターのデータ ソースの変更の問題。<br>
+        ダッシュボード フィルターのデータ ソースを変更すると、ダッシュボードの最初のフィルターが変更されたフィルターに置き換えられていました。
         </td>
     </tr>
     <tr>
-        <td class="tg-cly1">[公開バグ修正] MS Analysis Services dashboard linking issue<br>
-        You can now link dashboards that include visualizations getting data from Microsoft Analysis Services and won’t encounter any problem.
+        <td class="tg-cly1">[公開バグ修正] MS Analysis Services ダッシュボードのリンクの問題。<br>
+        Microsoft Analysis Services からデータを取得する表示形式を含むダッシュボードをリンクできるようになり、問題が発生しなくなりました。
         </td>
     </tr>
     <tr>
