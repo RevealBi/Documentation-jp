@@ -41,7 +41,7 @@ You may notice that there is no *Fields* heading on the left in the *Data* pane.
     b. **Segments** are depicted by one icon showing a group of people. Segments are different for each Google Ads *resource* you load in the *Visualizations Editor*. 
     In Reveal, you can use Google Ads segments the same way you use dimensions - as measurable data or as data filters.  
     For more information on segments, consult the official 
-    [Google Ads Help](https://support.google.com/google-ads/answer/2454072?hl=en#zippy=).
+    [Google Ads Help](https://support.google.com/google-ads/answer/2454072?hl=ja#zippy=).
 
 
 2. **Measures** (depicted by a *123* icon): Measures consist of numeric data. For example, the measure *Clicks* shows the number of times ads were clicked.
