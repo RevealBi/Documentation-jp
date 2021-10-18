@@ -1,72 +1,71 @@
-# Google Ads
+# Google 広告
 
-The *Google Ads*  data source allows you to access and analyze the data tables from your Google Ads (formerly Google Adwords) account. Create visualizations with your Google Ads data to build a high-level understanding of your advertising efforts.
-## Connecting to Google Ads
+Google 広告データ ソースを使用すると、Google 広告 (以前の Google Adwords) アカウントからデータ テーブルにアクセスして分析できます。Google 広告データを使用して表示形式を作成し、広告活動の高レベルの理解を構築します。
+## Google 広告に接続する
 
-1. Select *Google Ads* as your data source and you will see Google's login screen.
+1. データ ソースとして **Google 広告**を選択すると、Google のログイン画面が表示されます。
 
-2. If multiple Google accounts are listed, select the account that contains the Google Ads data you want to access. 
-3. Enter your login credentials, if you are not already signed in. 
+2. 複数の Google アカウントが表示されている場合は、アクセスする Google 広告データが含まれているアカウントを選択します。 
+3. まだサインインしていない場合は、ログイン資格情報を入力します。 
 
-4. In the authorization prompt, select *Allow*.
+4. 認証プロンプトで、**[許可]** を選択します。
 
-5. Choose a *Google Ads* account.  
+5. Google 広告アカウントを選択します。  
 
-    If your Google account is connected to several Google Ads accounts, select the one you want to use in the following dialog.
+    Google アカウントが複数の Google 広告アカウントに接続されている場合は、次のダイアログで使用するアカウントを選択します。
 
     <img src="images/choose-google-ads-account.png" alt="A dialog where you need to choose your Google Ads account" class="responsive-img">
 
-6. Choose a resource.
+6. リソースを選択します。
 
-    Select the resource that you want to use from one of the two lists: _Popular Resources_ or _All Resources_. Use the search to find quickly what you need.
+    [人気のあるリソース] または [すべてのリソース] の 2 つのリストのいずれかから使用するリソースを選択します。検索を使用して、必要なものをすばやく見つけます。
 
     <img src="images/google-ads-resources.png" alt="Set up your resource menu" class="responsive-img"> 
 
-   Under each resource you will see a description. It gives information which dimensions from Google Ads are included in this resource. 
+   各リソースの下に説明が表示されます。Google 広告のどのディメンションがこのリソースに含まれているかについての情報を提供します。 
 
-   Click  _Select Data_ to continue to the _Visualizations Editor_.
+   [データを選択] をクリックして、表示形式エディターに進みます。
 
-## Working in the Visualizations Editor 
+## 表示形式エディターでの作業 
 
-When you create a dashboard with information coming from Google Ads, you will see fields in the Visualizations Editor are organized differently (as shown in the screenshot below).
+Google 広告からの情報を使用してダッシュボードを作成すると、表示形式エディターのフィールドが異なる方法で編成されていることがわかります (下のスクリーンショットを参照)。
 
 <img src="images/google-ads-visualizations-editor.png" alt="Google Ads data in the Visualizations Editor" class="responsive-img">
 
-You may notice that there is no *Fields* heading on the left in the *Data* pane. Instead, there are two sections in their own query field:
+**[データ]** ペインの左側に **[フィールド]** の見出しがないことに気付くかもしれません。代わりに、クエリ フィールドに 2 つのセクションがあります。
 
-1. **Dimensions (also including Segments)**: 
+1. **ディメンション (Segments (セグメント) も含む)**: 
 
-    a. **Dimensions** are depicted by a cube icon with a pink side. Dimensions contain the attributes of data you can measure. For example, the dimension *Name* under the *Ad Group* cube will show all your ad groups. 
+    a. **ディメンション**は、ピンク色の側面の立方体アイコンで表されます。ディメンションには、測定可能なデータの属性が含まれています。たとえば、*Ad Group* キューブの下のディメンション *Name* には、すべての広告グループが表示されます。 
 
-    b. **Segments** are depicted by one icon showing a group of people. Segments are different for each Google Ads *resource* you load in the *Visualizations Editor*. 
-    In Reveal, you can use Google Ads segments the same way you use dimensions - as measurable data or as data filters.  
-    For more information on segments, consult the official 
-    [Google Ads Help](https://support.google.com/google-ads/answer/2454072?hl=ja#zippy=).
+    b. **Segments** は、人々のグループを示す 1 つのアイコンで表されます。セグメントは、*表示形式エディター*に読み込む Google 広告*リソース*ごとに異なります。 
+    Reveal では、ディメンションを使用するのと同じ方法で、測定可能なデータまたはデータ フィルターとして Google 広告セグメントを使用できます。  
+    セグメントの詳細については、公式の [Google 広告ヘルプ](https://support.google.com/google-ads/answer/2454072?hl=ja#zippy=)をご覧ください。 
 
 
-2. **Measures** (depicted by a *123* icon): Measures consist of numeric data. For example, the measure *Clicks* shows the number of times ads were clicked.
+2. **メジャー** ([123] アイコンで表示): メジャーは数値データで構成されます。たとえば、*[Clicks]* メジャーは、広告がクリックされた回数を示します。
 
-### The Date Range Data Filter
+### 日付範囲データ フィルター
 
-In *Data Filters* (see bottom right of the *Data* pane), you will find a date range filter set to *Last 30 days* by default. This means data will be retrieved for the last 30-day period, including *today*.
+**データ フィルター** ([データ] ペインの右下を参照) には、デフォルトで [過去 30 日間] に設定されている日付範囲フィルターがあります。つまり、今日を含む過去 30 日間のデータが取得されます。
 
-You can't remove the date filter, but you can change the default date range by clicking on the *Calendar* icon. Select *from* and *to* dates. Alternatively, click/tap the arrow in the upper right corner (see the screenshot ) and pick a date range from the dropdown options:
+日付フィルターを削除することはできませんが、カレンダー アイコンをクリックしてデフォルトの日付範囲を変更できます。開始日*と終了日を選択します。または、右上隅の矢印をクリック/タップして (スクリーンショットを参照)、ドロップダウン オプションから日付範囲を選択します。
 
 <img src="images/google-ads-date-range-filter
 .png" alt="Google Ads data in the Visualizations Editor" class="responsive-img">
 
-> [!NOTE] **Data retrieved for *Today*.** If you choose *Today* from the date range options, keep in mind the date range starts at 12:00:00 a.m. and all data will be retrieved up until the current time. This means the results may vary between runs throughout the day as the data in Google Ads is being updated continuously.  
+> [!NOTE] **[今日]** に取得されたデータ。日付範囲オプションから [今日] を選択した場合、日付範囲は午前 12:00:00 に開始し、すべてのデータは現在の時刻まで取得されることに注意してください。これは、Google 広告のデータが継続的に更新されているため、結果が 1 日を通して実行ごとに異なる可能性があることを意味します。  
 
-## Performance Considerations
+## パフォーマンスについての考慮
 
-Depending on how much data you are trying to retrieve, loading data from Google Ads in the Visualizations Editor may become a time-consuming task. Certain actions affect waiting time more than others.
+取得しようとしているデータの量によっては、表示形式エディターで Google 広告からデータを読み込むのは時間のかかる作業になる場合があります。特定の操作は、他の操作よりも待機時間に影響を与えます。
 
-### Selecting a Date Range
+### 日付範囲の選択
 
-When selecting a date range, keep in mind that the bigger the range, the longer the time it takes to load your data. So, at first restrict your range, evaluate the loading time and then expand it appropriately. 
+日付範囲を選択するときは、範囲が大きいほど、データの読み込みにかかる時間が長くなることに注意してください。したがって、最初に範囲を制限し、読み込み時間を評価してから、適切に拡張します。 
 
-If you are trying to load a dataset that is too large, you may receive an error stating you exceeded the rows/columns limits. If you can't restrict your time range enough to fit your purposes, then [contact support](https://www.infragistics.com/my-account/submit-support-request/reveal) for a limit increase. 
+大きすぎるデータセットを読み込もうとすると、行/列の制限を超えたことを示すエラーが表示される場合があります。目的に合わせて時間範囲を制限できない場合は、[サポート](https://www.infragistics.com/my-account/submit-support-request/reveal)に連絡して制限を増やしてください。 
 
-### Adding Segments
+### セグメントの追加
 
-In Reveal, you can combine multiple segments in the Visualizations Editor. As segments are used for more detailed statistics, the more segments you add, the more rows of data you retrieve. This may affect loading time. 
+Reveal では、表示形式エディターで複数のセグメントを組み合わせることができます。セグメントはより詳細な統計に使用されるため、追加するセグメントが多いほど、取得するデータの行も多くなります。これは読み込み時間に影響を与える可能性があります。 
