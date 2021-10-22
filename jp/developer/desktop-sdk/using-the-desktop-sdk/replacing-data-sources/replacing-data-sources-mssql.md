@@ -4,15 +4,9 @@
 
 ダッシュボードのデータを (Reveal SDKによって) ロードして処理する前に、ダッシュボードの各視覚化に使用される構成またはデータをオーバーライドできます。
 
-__RevealSdkSettings__ の DataSourceProvider プロパティを設定する必要があります:
+__RevealSdkSettings__ の DataSourceProvider プロパティを設定する必要があります。
 
-``` csharp
-public IRVDataSourceProvider DataSourceProvider { get; set; }
-```
-
-インターフェイス
-__IRVDataSourceProvider__
-を実装するクラスは、特定の可視化またはダッシュボード フィルターによって使用されるデータ ソースを置換または変更することができます。
+インターフェイス __IRVDataSourceProvider__ を実装するクラスは、ダッシュボードで使用されているデータ ソースを置換または変更することができます。
 
 ## 使用事例
 
@@ -26,49 +20,42 @@ __IRVDataSourceProvider__
 
 ## コード
 
-次のコードスニペットは、ダッシュボードの可視化のためにデータ ソースを置き換える方法の例を示しています。メソッド __ChangeVisualizationDataSourceItemAsync__
-は、開かれているすべてのダッシュボードで、すべての可視化に対して呼び出されます。
+次のコードスニペットは、ダッシュボードのデータ ソース アイテムを置き換える方法の例を示しています。メソッド __ChangeDataSourceItemAsync__ は、ダッシュボードがデータを取得する必要があるたびに呼び出されます。
 
 ``` csharp
 public class SampleDataSourceProvider : IRVDataSourceProvider
-    {
-        public Task<RVDataSourceItem> ChangeDashboardFilterDataSourceItemAsync(
-             RVDashboardFilter globalFilter, RVDataSourceItem dataSourceItem)
+{
+   public Task<RVDataSourceItem> ChangeDataSourceItemAsync(RVDataSourceItem dataSourceItem)
+   {
+        var sqlServerDsi = dataSourceItem as RVSqlServerDataSourceItem;
+        if (sqlServerDsi != null)
         {
-            return Task.FromResult<RVDataSourceItem>(null);
+            // Change SQL Server host and database
+            var sqlServerDS = (RVSqlServerDataSource)sqlServerDsi.DataSource;
+            sqlServerDS.Host = "10.0.0.20";
+            sqlServerDS.Database = "Adventure Works";
+
+            // Change SQL Server table/view
+            sqlServerDsi.Table = "Employees";
+            return Task.FromResult((RVDataSourceItem)sqlServerDsi);
         }
 
-   public Task<RVDataSourceItem> ChangeVisualizationDataSourceItemAsync(
-        RVVisualization visualization, RVDataSourceItem dataSourceItem)
-   {
-      var sqlServerDsi = dataSourceItem as RVSqlServerDataSourceItem;
-      if (sqlServerDsi != null)
-      {
-          // SQL サーバーホストとデータベースの変更
-          var sqlServerDS = (RVSqlServerDataSource)sqlServerDsi.DataSource;
-          sqlServerDS.Host = "10.0.0.20";
-          sqlServerDS.Database = "Adventure Works";
+        // Fully replace a data source item with a new one
+        if (dataSourceItem.Title == "Top Customers")
+        {
+            var sqlDs = new RVSqlServerDataSource();
+            sqlDs.Host = "salesdb.local";
+            sqlDs.Database = "Sales";
 
-          // SQL サーバー テーブル/ビュー
-          sqlServerDsi.Table = "Employees";
-                return Task.FromResult((RVDataSourceItem)sqlServerDsi);
-      }
+            var sqlDsi = new RVSqlServerDataSourceItem(sqlDs);
+            sqlServerDsi.Table = "Customers";
 
-      // データ ソース アイテムを新しいアイテムと置き換える
-      if (visualization.Title == "Top Customers")
-      {
-          var sqlDs = new RVSqlServerDataSource();
-          sqlDs.Host = "salesdb.local";
-          sqlDs.Database = "Sales";
+            return Task.FromResult((RVDataSourceItem)sqlServerDsi);
+        }
 
-          var sqlDsi = new RVSqlServerDataSourceItem(sqlDs);
-          sqlServerDsi.Table = "Customers";
-
-          return Task.FromResult((RVDataSourceItem)sqlServerDsi);
-      }
-
-      return Task.FromResult((RVDataSourceItem)dataSourceItem);
-   }
+        // return the original data source item
+        return Task.FromResult((RVDataSourceItem)dataSourceItem);
+    }
 }
 ```
 
@@ -79,7 +66,7 @@ public class SampleDataSourceProvider : IRVDataSourceProvider
     > [!NOTE]
     > これは単純化されたシナリオで、同じテーブルからデータを取得するためにすべての可視化を置き換えても、現実のシナリオとしては意味がありません。実際のアプリケーションでは、userId、dashboardId、データ ソース自体の値 (サーバー、データベースなど) などの追加情報を使用して新しい値を推測します。
 
-  - Top Customers というタイトルのすべてのウィジェットは、Customers テーブルを使用して salesdb.local サーバーの Sales データベースからデータを取得する新しい SQL Server データ ソースに設定されます。
+  - Top Customers というタイトルのすべてのデータ ソース アイテムは、Customers テーブルを使用して salesdb.local サーバーの Sales データベースからデータを取得する新しい SQL Server データ ソースに設定されます。
 
 __IRVDataSourceProvider__ の実装に加え、__RevealSdkSettings__ の __DataSourceProvider__ プロパティに実装を設定します。
 

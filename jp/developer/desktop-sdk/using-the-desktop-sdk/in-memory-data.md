@@ -51,10 +51,10 @@ Reveal アプリは、ダッシュボードを作成して表示し、チーム�
 
 1.  [**データ ソースの置き換え**](replacing-data-sources/replacing-data-sources-mssql.md)を参照して、__IRVDataSourceProvider__ を実装し、__RevealSdkSettings__ の __DataSourceProvider__ プロパティに設定します。
 
-    次に、メソッド __ChangeVisualizationDataSourceItemAsync__ の実装では、次のようなコードを追加する必要があります。
+    次に、メソッド __ChangeDataSourceItemAsync__ の実装では、次のようなコードを追加する必要があります。
 
     ``` csharp
-    public Task<RVDataSourceItem> ChangeVisualizationDataSourceItemAsync(RVVisualization visualization, RVDataSourceItem dataSourceItem)
+    public Task<RVDataSourceItem> ChangeDataSourceItemAsync(RVDataSourceItem dataSourceItem)
     {
         var csvDsi = dataSourceItem as RVCsvDataSourceItem;
         if (csvDsi != null)

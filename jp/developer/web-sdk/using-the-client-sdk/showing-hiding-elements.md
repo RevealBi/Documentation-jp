@@ -163,15 +163,16 @@ $.ig.RVDashboard.loadDashboard(dashboardId, function (dashboard) {
 
 <img src="../../general/images/showing_hiding_elements_charts.png" alt="Switching visualizations through the UI" class="responsive-img"/>
 
-たとえば、以下のように表示形式を追加または削除できます。
+You can use a brand new Array that includes only the visualizations you want to be available:
 
 ``` js
-revealView.availableChartTypes.add($.ig.RVChartType.bulletGraph);
-revealView.availableChartTypes.remove($.ig.RVChartType.choropleth);
+revealView.availableChartTypes = [$.ig.RVChartType.BulletGraph, $.ig.RVChartType.Choropleth];
 ```
 
-さらに、使用可能な表示形式のみを含む新しい配列を使用できます。
+In addition, you could remove some of the charts as shown below:
 
-``` js
-revealView.AvailableChartTypes = [$.ig.RVChartType.bulletGraph, $.ig.RVChartType.choropleth];
+```js
+var toRemoveChartTypes = [$.ig.RVChartType.AreaChart, $.ig.RVChartType.Indicator, $.ig.RVChartType.IndicatorTarget, $.ig.RVChartType.ScatterMap, $.ig.RVChartType.Choropleth, $.ig.RVChartType.TreeMap];
+revealView.availableChartTypes = revealView.availableChartTypes.filter(t => !toRemoveChartTypes.includes(t));
+
 ```

@@ -14,8 +14,8 @@
   href: web-sdk/overview.md
 - name: セットアップと構成
   href: web-sdk/setup-configuration.md
-- name: 初めてのアプリ作成
-  href: web-sdk/create-first-app.md
+# - name: 初めてのアプリ作成
+#   href: web-sdk/create-first-app.md
 - name: サーバー SDK の使用
   href: web-sdk/using-the-server-sdk/toc.yml
 - name: クライアント SDK の使用
@@ -59,9 +59,13 @@
   href: desktop-sdk/api-reference.md
 - name: リリース情報
   header: true
+- name: 1.1 バージョンへのアップグレード
+  href: release-information/upgrade-to-1.1.md
 - name: 既知の問題
   href: release-information/known-issues.md
 - name: リリース ノート
   href: release-information/release-notes.md
 - name: Reveal で使用されるサードパーティ ソフトウェア
   href: release-information/third-party-software.md
+- name: アーカイブ済みのドキュメント
+  href: release-information/archived-docs.md

@@ -4,9 +4,10 @@
 
 SDK でダッシュボードを開く/保存するには 2 つの方法があります
 
-  - **サーバー側**: はじめにクライアント ページでダッシュボード ID を指定します。次に、サーバー上で以下に詳述するコールバック メソッドを使用して、指定された ID を持つダッシュボードのコンテンツと共にストリームを返します。
-    
-  この方法が最も簡単な方法で、SDK をはじめて評価するときに推奨される方法です。
+  - **サーバー側**: はじめにクライアント ページでダッシュボード ID を指定します。Second, on the server, using a callback method detailed below, you return an instance of Reveal.Sdk.Dashboard class. You instantiate that class by passing a dashboard stream, for the corresponding dashboardId, to the constructor of the Dashboard class.
+
+
+    Please note that this is the easiest approach and the one recommended when you are first evaluating the SDK.
 
   - **クライアント側**: 完全な制御と高い柔軟性が提供されます。カスタム サーバーからコンテンツを取得しながら、クライアント ページでダッシュボードのコンテンツをストリームに提供します。
 
@@ -16,12 +17,12 @@ SDK でダッシュボードを開く/保存するには 2 つの方法があり
 
 ダッシュボードを視覚化するために、SDK に Dashboard クラスのインスタンスを提供できます。これにより、ストリームを rdash または rdash の json 文字列表現にインスタンス化できます。
 
-以下のコードスニペットは、プロジェクトに組み込みリソースとして追加された Rdash ファイルを読み込む方法を示しています。このメソッドは、__RevealSdkContextBase.GetDashboardAsync__ のための実装です。
+以下のコードスニペットは、プロジェクトに組み込みリソースとして追加された Rdash ファイルを読み込む方法を示しています。このメソッドは、__IRVDashboardProvider.GetDashboardAsync__ メソッドのための実装です。
 
 ## コード
 
 ``` csharp
-public override Task<Dashboard> GetDashboardAsync(string dashboardId)
+public override Task<Dashboard> GetDashboardAsync(IRVUserContext userContext, string dashboardId)
 {
     var dashboardFileName = dashboardId + ".rdash";
     var resourceName = $"Demo1.Dashboards.{dashboardFileName}";
@@ -33,5 +34,5 @@ public override Task<Dashboard> GetDashboardAsync(string dashboardId)
 }
 ```
 
-__RevealSdkContextBase.GetDashboardAsync__ のこのコードは、クライアントで **RVDashboard.loadDashboard** 関数を使用するとサーバー上で呼び出されます。そして最初のパラメーターとしてクライアント側で指定された dashboardId を取得します。
+__IRVDashboardProvider.GetDashboardAsync__ のこのコードは、クライアントで **RVDashboard.loadDashboard** 関数を使用するとサーバー上で呼び出されます。そして最初のパラメーターとしてクライアント側で指定された dashboardId を取得します。
 

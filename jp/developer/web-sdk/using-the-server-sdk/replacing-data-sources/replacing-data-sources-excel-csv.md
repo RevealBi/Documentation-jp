@@ -13,10 +13,18 @@ Reveal アプリでダッシュボードを作成するとき、クラウドに�
 4. **ローカル フォルダー名を *LocalStoragePath* プロパティの値として設定します**。これについての詳細には、[**セットアップと構成 (サーバー) - サーバー SDK を初期化**](~/jp/developer/web-sdk/setup-configuration.md#3-サーバー-sdk-の初期化)をご覧ください。  
 5.  プロジェクトに**新しい *CloudToLocalDatasourceProvider* クラスを追加します**。  
 6. 以下の**コード** セクションの関連するスニペットから**実装コードをコピーします**。
-7. *RevealSdkContext* クラスの ***DataSourceProvider* プロパティを *CloudToLocalDatasourceProvider* に設定します**:   
+7. **Register the *DataSourceProvider*** implementation *CloudToLocalDatasourceProvider* in the AddReveal() call, as shown below:
 
-``` csharp
-  public override IRVDataSourceProvider DataSourceProvider => new CloudToLocalDatasourceProvider();        
+```csharp
+services
+    .AddMvc()
+        .AddReveal(builder =>
+        {
+            builder
+              ...
+              .AddDataSourceProvider<CloudToLocalDatasourceProvider>()
+              ...
+        });
 ```
 
 ## コード
@@ -24,14 +32,7 @@ Reveal アプリでダッシュボードを作成するとき、クラウドに�
 ``` csharp
     public class CloudToLocalDatasourceProvider : IRVDataSourceProvider
     {
-        public Task<RVDataSourceItem> ChangeDashboardFilterDataSourceItemAsync(string userId, string dashboardId, 
-                        RVDashboardFilter filter, RVDataSourceItem dataSourceItem)
-        {
-            return ProcessDataSourceItem(dataSourceItem);
-        }
-
-        public Task<RVDataSourceItem> ChangeVisualizationDataSourceItemAsync(string userId, string dashboardId, 
-                        RVVisualization visualization, RVDataSourceItem dataSourceItem)
+        public Task<RVDataSourceItem> ChangeDataSourceItemAsync(IRVUserContext userContext, string dashboardId, RVDataSourceItem dataSourceItem)
         {
             return ProcessDataSourceItem(dataSourceItem);
         }

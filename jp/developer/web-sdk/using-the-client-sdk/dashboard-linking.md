@@ -20,15 +20,12 @@ SDK とのダッシュボードリンクを使用できますが、ナビゲー�
 
 基本的にこの 2 項目を完了すると後は SDK によって処理されます。
 
-1.  __onVisualizationLinkingDashboard__ イベントを処理します。
+1.  __onLinkedDashboardProvider__ イベントを処理します。
 
 2.  ターゲット ダッシュボードの ID を使用してコールバックを呼び出します
 
-<!-- end list -->
-
 ``` js
-revealView.onVisualizationLinkingDashboard = function (title, url, callback) {
-    // リンクのターゲットのダッシュボード ID を提供します。
-    callback("Campaigns");
-};
+revealView.onLinkedDashboardProviderAsync = (dashboardId => {
+      return dashboardId;
+})
 ```
