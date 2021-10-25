@@ -8,7 +8,7 @@ Reveal Server SDK には、.NET Core 3.1 以降が必要です。
 
 以下は、Reveal Web Server SDK 設定の手順です。
 
-1.  [**Reveal SDK をインストールします。**](#installing-reveal-sdk')
+1.  [**Reveal SDK をインストールします。**](#installing-reveal-sdk)
 
 2.  [**DashboardProvider を定義します。**](#defining-dashboardprovider)
 
