@@ -13,7 +13,7 @@ Reveal アプリでダッシュボードを作成するとき、クラウドに�
 4. **ローカル フォルダー名を *LocalStoragePath* プロパティの値として設定します**。これについての詳細には、[**セットアップと構成 (サーバー) - サーバー SDK を初期化**](~/jp/developer/web-sdk/setup-configuration.md#3-サーバー-sdk-の初期化)をご覧ください。  
 5.  プロジェクトに**新しい *CloudToLocalDatasourceProvider* クラスを追加します**。  
 6. 以下の**コード** セクションの関連するスニペットから**実装コードをコピーします**。
-7. **Register the *DataSourceProvider*** implementation *CloudToLocalDatasourceProvider* in the AddReveal() call, as shown below:
+7. 以下に示すように、AddReveal() 呼び出しで ***DataSourceProvider* 実装の *CloudToLocalDatasourceProvider* を登録します**。
 
 ```csharp
 services

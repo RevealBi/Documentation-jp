@@ -49,10 +49,10 @@ Reveal アプリは、ダッシュボードを作成し、表示させ、およ�
 
 ダミーのデータではなくカスタムのデータを使ってダッシュボードを可視化する必要があります。
 
-1.  Implement the interface and register it in your AddReveal() call in when configuring the AspNetCore services,
-     as described in [**Replacing Data Sources**](replacing-data-sources/replacing-data-sources-mssql.md).
+1.  [**データ ソースの置き換え**](replacing-data-sources/replacing-data-sources-mssql.md)で説明されているように、インターフェイスを実装し、AspNetCore サービスを構成するときに
+    AddReveal() 呼び出しに登録します。
 
-    Then, in the implementation for the method **ChangeDataSourceItemAsync**, you need to add a code similar to this one:
+    次に、メソッド **ChangeDataSourceItemAsync** の実装では、次のようなコードを追加する必要があります:
 
     ``` csharp
     public Task<RVDataSourceItem> ChangeDataSourceItemAsync(IRVUserContext userContext, string dashboardId, RVDataSourceItem dataSourceItem)
@@ -69,7 +69,7 @@ Reveal アプリは、ダッシュボードを作成し、表示させ、およ�
 
     このようにして、ダッシュボード内の CSV ファイルへのすべての参照を、基本的に employees で識別されるインメモリ データ ソースに置き換えます。この ID は後でデータを返すときに使用されます。
 
-2.  Implement the method that will return the actual data, to do that implement __IRVDataProvider__ and register it in your AddReveal() call.
+2.  実際のデータを返すメソッドを実装します。これを行うには、__IRVDataProvider__ を実装し、それを AddReveal() 呼び出しに登録します。
 
     ``` csharp
     public class EmbedDataProvider : IRVDataProvider

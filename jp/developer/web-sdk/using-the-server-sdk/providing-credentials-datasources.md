@@ -7,7 +7,7 @@ Server SDK では、データ ソースにアクセスするときに使用さ�
 ## コード
 
 最初の手順は、__IRVAuthenticationProvider__ インターフェースを実装するクラスを作成することです。
-Here's a sample implementation, calling it MyAuthenticationProvider:
+MyAuthenticationProvider と呼ばれるサンプル実装を次に示します:
 
 ``` csharp
 public class MyAuthenticationProvider : IRVAuthenticationProvider

@@ -49,7 +49,7 @@ public class SampleDataSourceProvider : IRVDataSourceProvider
 
   - MS SQL Server データベースを使用するすべてのデータ ソースは、ハードコードされたサーバー 10.0.0.20、Adventure Works データベース、および Employees テーブルを使用するように変更されます。
 
-Please note that in addition to implement __IRVDataSourceProvider__ you need to register your implementation when adding Reveal to your IMvcBuilder in ConfigureServices!
+__IRVDataSourceProvider__ を実装することに加えて、ConfigureServices で IMvcBuilder に Reveal を追加するときに、実装を登録する必要があることに注意してください。
 ```csharp
 services
     .AddMvc()

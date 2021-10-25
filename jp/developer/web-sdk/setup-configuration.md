@@ -20,28 +20,29 @@ Reveal Server SDK には、.NET Core 3.1 以降が必要です。
 
 ### 1\. Reveal SDK のインストール
 
-Run the Reveal Sdk installer on your machine to get assemblies and dependency packages ready.
+マシンで Reveal Sdk インストーラーを実行して、アセンブリと依存関係パッケージを準備します。
 
-Once the installation is completed, you can find a new NuGet package source added to your **nuget.config** called _Infragistics (Local)_ that points to “%public%\\Documents\\Infragistics\\NuGet”.
+インストールが完了すると、**nuget.config** に追加された _Infragistics (Local)_ という新しい NuGet パッケージ ソースが見つかります。
+これは、「%public%\\Documents\\Infragistics\\NuGet」を指します。
 
 <img src="images/addingNugetPackage_web.png" alt="addingNugetPackage_web" class="responsive-img"/>
 
-After ensuring you have the Infragistics (Local) feed properly configured by the installer, you need to:
+Infragistics (Local) フィードがインストーラーによって正しく設定されていることを確認後:
 
-- install the **Reveal.Sdk.Web.AspNetCore(.Trial)** NuGet package to your application project.
-- add a NuGet package reference to System.Data.SQLite version 1.0.111+
+- **Reveal.Sdk.Web.AspNetCore(.Trial)** NuGet パッケージをアプリ プロジェクトにインストールします。
+- NuGet パッケージ参照を System.Data.SQLite バージョン 1.0.111 以降に追加します。
 
 > [!NOTE] >
-    > The TRIAL nuget package is available on nuget.org: [**Reveal.Sdk.Web.AspNetCore.Trial**](https://www.nuget.org/packages/Reveal.Sdk.Web.AspNetCore.Trial/).
+    > トライアル nuget パッケージは nuget.org で入手できます: [**Reveal.Sdk.Web.AspNetCore.Trial**](https://www.nuget.org/packages/Reveal.Sdk.Web.AspNetCore.Trial/)。
 
 
-If you are having issues with the build, follow this [**link**](#sqlite-fix).
+ビルドに問題がある場合は、この[**リンク**](#sqlite-fix)に従ってください。
 
 <a name='defining-dashboardprovider'></a>
 
 ### 2\. DashboardProvider の定義
 
-After installing the nuget package, you need to create a class that implements the **IRVDashboardProvider** interface. The class handles loading and saving dashboards.
+nuget パッケージをインストールした後、**IVRDashboardProvider** インターフェイスを実装するクラスを作成する必要があります。このクラスは、ダッシュボードの読み込みと保存を処理します。
 
 ```csharp
     using Reveal.Sdk;
@@ -75,20 +76,19 @@ After installing the nuget package, you need to create a class that implements t
     }
 ```
 
-The code above implements a simple file system based provider. Basically, it accepts an argument in its constructor that specifies a directory in which dashboards are loaded from/saved to. The code is also forgiving in case you forgot or don't want to specify the file extension.
+上記のコードは、単純なファイル システム ベースのプロバイダーを実装しています。基本的に、ダッシュボードの読み込み元/保存先のディレクトリを指定するコンストラクター内の引数を受け入れます。また、ファイル拡張子を指定し忘れたり、指定したくない場合でも問題ありません。
 
 <a name='initializing-server-sdk'></a>
 
 ### 3\. サーバー SDK の初期化
 
-In **Startup.cs**, in the **ConfigureServices** method of the application, you need to add one or more AspNetCore services that return an IMvcBuilder interface.
-The most used services are AddMvc, AddControllersWithViews and Add Controllers. After you add one of these, you need to call *.AddReveal* on top of it. **AddReveal** is an extension method used to extend IMvcBuilder.
+**Startup.cs** のアプリケーションの **ConfigureServices** メソッドで、IMvcBuilder インターフェイスを返す 1 つ以上の AspNetCore サービスを追加する必要があります。最もよく使用されるサービスは、AddMvc、AddControllersWithViews、および AddControllers です。これらのいずれかを追加した後、その上に *.AddReveal* を呼び出す必要があります。**AddReveal** は、IMvcBuilder を拡張するために使用される拡張メソッドです。
 
 
 > [!NOTE] >
-    > AddReveal extension method is located in the Reveal.Sdk namespace so must add a using for it in your Startup.cs.
+    > AddReveal 拡張メソッドは Reveal.Sdk 名前空間にあるため、Startup.cs にその使用法を追加する必要があります。
 
-With **AddReveal** you can register reveal server component and also provide settings. In the code snippet below you can see a basic call registering the DashboardProvider class that was defined in the previous step:
+**AddReveal** を使用すると、Reveal サーバー コンポーネントを登録したり、設定を提供したりできます。以下のコード スニペットは、前の手順で定義された DashboardProvider クラスを登録する基本的な呼び出しを表しています:
 
 ```csharp
 services
@@ -105,12 +105,10 @@ services
         });
 ```
 
-Besides registering the DashboardProvider class, the LocalFileStoragePath was also specified.
-This is the path where static data source files like Excel or CSV will be located, and the default setting for caching locations to be used.
+DashboardProvider クラスの登録に加えて、LocalFileStoragePath も指定されました。これは、Excel や CSV などの静的データ ソース ファイルが配置されるパスであり、使用されるキャッシュ場所のデフォルト設定です。
 
-Please note that you need to register the type and not a particular instance. That's because the type will be registered in the AspNetCore Di container.
-This approach gives you the flexibility to inject any other services you might be using into the implementation of the DashboarProvider and in other Reveal provider.
-You are free to register the instance if you prefer so, just use the other overload AddDashboardProvider method. As shown below:
+特定のインスタンスではなく、タイプを登録する必要があることに注意してください。これは、タイプが AspNetCore Di コンテナーに登録されるためです。
+このアプローチにより、DashboarProvider の実装や他の Reveal プロバイダーで使用している可能性のある他のサービスを柔軟に注入できます。必要に応じてインスタンスを自由に登録できます。他のオーバーロード AddDashboardProvider メソッドを使用するだけです。以下に示すように:
 ```csharp
 builder.AddDashboardProvider(new DashboardProvider())
 ```

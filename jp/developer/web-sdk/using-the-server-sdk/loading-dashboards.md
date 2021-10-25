@@ -4,10 +4,10 @@
 
 SDK でダッシュボードを開く/保存するには 2 つの方法があります
 
-  - **サーバー側**: はじめにクライアント ページでダッシュボード ID を指定します。Second, on the server, using a callback method detailed below, you return an instance of Reveal.Sdk.Dashboard class. You instantiate that class by passing a dashboard stream, for the corresponding dashboardId, to the constructor of the Dashboard class.
+  - **サーバー側**: はじめにクライアント ページでダッシュボード ID を指定します。次に、サーバーで、以下に詳述するコールバック メソッドを使用して、Reveal.Sdk.Dashboard クラスのインスタンスを返します。対応する dashboardId のダッシュボード ストリームを Dashboard クラスのコンストラクターに渡すことにより、そのクラスをインスタンス化します。
 
 
-    Please note that this is the easiest approach and the one recommended when you are first evaluating the SDK.
+    これが最も簡単な方法であり、最初に SDK を評価するときに推奨される方法です。
 
   - **クライアント側**: 完全な制御と高い柔軟性が提供されます。カスタム サーバーからコンテンツを取得しながら、クライアント ページでダッシュボードのコンテンツをストリームに提供します。
 

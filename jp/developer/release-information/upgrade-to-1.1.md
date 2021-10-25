@@ -1,21 +1,21 @@
-## List of breaking changes in 1.1.0 and onwards
+## 1.1.0 以降の重大な変更のリスト
 
-1. **[Dotnet Server]** Removed the RevealSdkContext(RevealSdkContextBase class and IRevealSdkContext interface) - the main purpose this was serving was only bundling a few services/providers needed by Reveal.
-2. **[Dotnet Server]** Updated the registration and configuration of Reveal services in the Startup.cs class of your application.
-   1. Previously you we're forced to register a concrete instance of the RevealSdkProvider. That meant you couldn't easily plug any existing ApsNetCore services you might have, using the default Dependency Injection framework. Now, after getting rid of the RevealSdkContext, we provide a simple and more fluent way to register your implementations of Reveal required services and register them as a type.
-   2. Before version 1.1 you had to do two calls - AddRevealServices & AddReveal - now we make it only a single AddReveal() call.
-3. **[Dotnet Server]** Introduced small changes to the Reveal.Sdk.Dashboard class constructor's overloads to make them more consistent. Now there are three constructor overloads that load a dashboard in rdash format from stream, filepath or byte array. Loading from Json is available through a static method called FromJsonString. And now serialization methods of the Dashboard class are ToStreamAsync, ToByteArrayAsync, SaveToFileAsync for the rdash format and ToJsonStringAsync to save as Json string.
-4. **[Dotnet Server, Wpf]** Changed the IRVDataSourceProvider interface, so it won't be used only in the initial dashboard request from the customer as it was in previous version. Now it will be called every time a request for data is sent to the server. There is also a single ChangeDataSourceItemAsync to be implemented in the interface.
-5. **[Dotnet Server]** Reveal.Sdk.Web.AspNetCore(.Trial) package does not support .NET 4.6.2 & NET Core 2.2 any more, only NET Core 3.1 and newer.
-6. **[JS Client]** On the client side - the onVisualizationLinkingDashboard event is removed from RevealView class, in favor of onLinkedDashboardProviderAsync which serves the same purpose and is used when creating the dashboard link in the editor.
+1. **[Dotnet サーバー]** RevealSdkContext (RevealSdkContextBase クラスと IRevealSdkContext インターフェイス) を削除しました - これを提供していた主な目的は、Reveal に必要ないくつかのサービス/プロバイダーをバンドルすることだけでした。
+2. **[Dotnet サーバー]** アプリケーションの Startup.cs クラスの Reveal サービスの登録と構成を更新しました。
+   1. 以前は、RevealSdkProvider の具体的なインスタンスを登録する必要がありました。つまり、デフォルトの依存関係の挿入フレームワークを使用して、既存の ApsNetCore サービスを簡単にプラグインすることはできませんでした。これで、RevealSdkContext を削除した後、Reveal に必要なサービスの実装を登録し、それらをタイプとして登録するための、シンプルでより流暢な方法を提供します。
+   2. バージョン 1.1 より前は、AddRevealServices と AddReveal の 2 つの呼び出しを行う必要がありましたが、今では 1 回の AddReveal() 呼び出しのみを行っています。
+3. **[Dotnet サーバー]** Reveal.Sdk.Dashboard クラス コンストラクターのオーバーロードに小さな変更を加えて、一貫性を高めました。現在、ストリーム、ファイル パス、またはバイト配列から rdash 形式でダッシュボードを読み込む 3 つのコンストラクター オーバーロードがあります。Json からの読み込みは、FromJsonString と呼ばれる静的メソッドを介して利用できます。そして、Dashboard クラスのシリアル化メソッドは、ToStreamAsync、ToByteArrayAsync、rdash 形式の SaveToFileAsync、および Json 文字列として保存する ToJsonStringAsync です。
+4. **[Dotnet サーバー、Wpf]** IRVDataSourceProvider インターフェイスが変更され、以前のバージョンのように、顧客からの最初のダッシュボード要求でのみ使用されなくなりました。これで、データの要求がサーバーに送信されるたびに呼び出されます。インターフェイスに実装される単一の ChangeDataSourceItemAsync もあります。
+5. **[Dotnet サーバー]** Reveal.Sdk.Web.AspNetCore(.Trial) パッケージは、.NET 4.6.2 および NET Core 2.2 をサポートしなくなり、NET Core 3.1 以降のみをサポートします。
+6. **[JS クライアント]** クライアント側 - onVisualizationLinkingDashboard イベントが RevealView クラスから削除され、同じ目的を果たし、エディターでダッシュボード リンクを作成するときに使用される onLinkedDashboardProviderAsync が優先されます。
 
-## How to upgrade your projects
+## プロジェクトをアップグレードする方法
 
-1. Create a class implementing the Reveal.Sdk.IRVDashboardProvider - in the code snippet below it's called MyDashboardProvider. This new provider houses the GetDashboardAsync & SaveDashboardAsync. So you'll need to move the implementation of these methods here. Another important changes in these API methods are that both are using IRVUserContext interface instead of string userId and GetDashboardAsync now also gets userContext.
-In addition, you could get more control of what gets passed as user context by creating an implementation of IRVUserContextProvider.
+1. Reveal.Sdk.IRVDashboardProvider を実装するクラスを作成します - 以下のコード スニペットでは、MyDashboardProvider と呼ばれます。この新しいプロバイダーには、GetDashboardAsync と SaveDashboardAsync が含まれています。したがって、これらのメソッドの実装をここに移動する必要があります。これらの API メソッドのもう 1 つの重要な変更は、両方が文字列 userId の代わりに IRVUserContext インターフェイスを使用しており、GetDashboardAsync も userContext を取得するようになったことです。
+さらに、IRVUserContextProvider の実装を作成することで、ユーザー コンテキストとして渡されるものをより細かく制御できます。
 
-2. Go to your Startup.cs file and remove the services.AddRevealServices() call in ConfigureServices.
-Change the .AddReveal call as shown below:
+2. Startup.cs ファイルに移動し、ConfigureServices の services.AddRevealServices() 呼び出しを削除します。
+以下に示すように、.AddReveal 呼び出しを変更します。
 ```csharp
 services
       .AddMvc()
@@ -30,20 +30,20 @@ services
             });
       });
 ```
-Now you should have your dashboard provider registered and also some settings included.
+これで、ダッシュボード プロバイダーが登録され、いくつかの設定が含まれているはずです。
 
-3. Fix your IRVDataSourceProvider implementation.  Hopefully your project wasn't making much use of the two previous methods about visualization or filtering since this distinction is not available in 1.1. Now you get the data source item that needs to be replaced - so you'll most likely need to move and adjust ChangeDashboardFilterDataSourceItemAsync to become ChangeDataSourceItemAsync.
-4. Fix your implementation of IRVAuthenticationProvider so it accepts IRVUserContext instead of a string dashboardId.
-5. In case you were using RVBaseUserContextProvider implementation you'll be getting an error that this base class is no longer available. So you need to implement the IRVUserContextProvider interface instead of the base class. This is responsible for creating an IRVUserContext implementation. There is a default implementation of the user context interface that you could use - Reveal.Sdk.RVUserContext class.
+3. IRVDataSourceProvider の実装を修正します。視覚化またはフィルタリングに関する以前の 2 つのメソッドの区別は、1.1 では使用できません。これで、置き換える必要のあるデータ ソース アイテムを取得できます。したがって、ChangeDashboardFilterDataSourceItemAsync を移動して調整し、ChangeDataSourceItemAsync にする必要があります。
+4. 文字列 dashboardId の代わりに IRVUserContext を受け入れるように、IRVAuthenticationProvider の実装を修正します。
+5. RVBaseUserContextProvider 実装を使用していた場合、この基本クラスが使用できなくなったというエラーが表示されます。したがって、基本クラスの代わりに IRVUserContextProvider インターフェイスを実装する必要があります。これは、IRVUserContext 実装の作成を担当します。使用できるユーザー コンテキスト インターフェイスのデフォルトの実装があります。これは Reveal.Sdk.RVUserContext クラスです。
 
-6. Replace any usage of onVisualizationLinkingDashboard by using onLinkedDashboardProviderAsync event on the reveal view. 
-As an example, you need to change:
+6. Reveal ビューで onLinkedDashboardProviderAsync イベントを使用して、onVisualizationLinkingDashboard の使用を置き換えます。 
+例として、次を:
 ```javascript
 revealView.onVisualizationLinkingDashboard = function (title, url, callback) {
       callback(url);
 };
 ```
-to:
+次に変更する必要があります:
 ```javascript
 revealView.onLinkedDashboardProviderAsync = (dashboardId => {
       return dashboardId;
