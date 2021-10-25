@@ -144,7 +144,7 @@ revealView.canAddDateFilter = false;
 
 <img src="../../general/images/showing_hiding_elements_filters_preselected.png" alt="Showing a Dashboard Filter preselected in the UI" class="responsive-img"/>
 
-次のコードスニペットは、ダッシュボード 「AppsStats」 を読み込む方法を示しています。「Territory」 ダッシュボード フィルターの選択値を 「Americas」 に設定して、ダッシュボードには 「Americas」 でフィルタリングされたデータが表示されます。
+次のコードスニペットは、ダッシュボード「AppsStats」を読み込む方法を示しています。「Territory」ダッシュボード フィルターの選択値を「Americas」に設定して、ダッシュボードには「Americas」でフィルタリングされたデータが表示されます。
 
 ``` js
 var dashboardId = "AppsStats";

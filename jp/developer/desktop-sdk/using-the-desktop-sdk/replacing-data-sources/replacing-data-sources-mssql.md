@@ -20,7 +20,7 @@ __RevealSdkSettings__ の DataSourceProvider プロパティを設定する必�
 
 ## コード
 
-次のコードスニペットは、ダッシュボードのデータ ソース アイテムを置き換える方法の例を示しています。メソッド __ChangeDataSourceItemAsync__ は、ダッシュボードがデータを取得する必要があるたびに呼び出されます。
+次のコード スニペットは、ダッシュボードのデータ ソース アイテムを置き換える方法の例を示しています。メソッド __ChangeDataSourceItemAsync__ は、ダッシュボードがデータを取得する必要があるたびに呼び出されます。
 
 ``` csharp
 public class SampleDataSourceProvider : IRVDataSourceProvider

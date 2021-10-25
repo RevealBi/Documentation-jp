@@ -4,11 +4,11 @@
 
 <h3>最も一般的に使用されるクラスとインターフェース:</h3>  
 
-**SDK の主な概念と機能:** 
+**SDK の主な概念と機能:**  
 <a href="/api/aspnet/latest/Reveal.Sdk.RevealEmbedSettings.html" target="_blank" rel="noopener\">RevealEmbedSettings</a>  
 <a href="/api/aspnet/latest/Reveal.Sdk.Dashboard.html" target="_blank" rel="noopener\">Dashboard クラス</a>  
 
-**データ ソース**
+**データ ソース**  
 <a href="/api/aspnet/latest/Reveal.Sdk.IRVDataSourceProvider.html" target="_blank" rel="noopener\">IRVDataSourceProvider</a>
 
 <a href="/api/aspnet/latest/Reveal.Sdk.RVSqlServerDataSource.html" target="_blank" rel="noopener\">RVSqlServerDataSource</a>  
@@ -25,7 +25,7 @@
 <a href="/api/aspnet/latest/Reveal.Sdk.RVInMemoryDataSource.html" target="_blank" rel="noopener\">RVInMemoryDataSource</a>  
 <a href="/api/aspnet/latest/Reveal.Sdk.RVInMemoryDataSourceItem.html" target="_blank" rel="noopener\">RVInMemoryDataSourceItem</a>  
 
-**認証**
+**認証**  
 <a href="/api/aspnet/latest/Reveal.Sdk.IRVAuthenticationProvider.html" target="_blank" rel="noopener\">IRVAuthenticationProvider</a>  
 <a href="/api/aspnet/latest/Reveal.Sdk.IRVDataSourceCredential.html" target="_blank" rel="noopener\">IRVDataSourceCredential</a>  
 <a href="/api/aspnet/latest/Reveal.Sdk.RVBearerTokenDataSourceCredential.html" target="_blank" rel="noopener\">RVBearerTokenDataSourceCredential</a>  
