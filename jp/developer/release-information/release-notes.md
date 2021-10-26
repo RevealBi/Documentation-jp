@@ -19,11 +19,11 @@
     <tr>
         <td rowspan="5">10 月 2021 年</td>
         <td rowspan="5">1.1.0.67</td>
-        <td><i>The .NET Server SDK was enhanced with several changes:</i><br>
-        <i>- Registering Reveal services is more flexible</i> - You now can inject other services in your implementations of Reveal interfaces. You only register the type of your implementations of your Reveal providers interfaces.<br>
-        <i>- RevealSDKContext removed</i> - RVUserContext is now first class citizen across reveal providers. You need to register a UserContextProvider, which will be instantiating that class and it would be passed to the methods of other Reveal services like IRVDashboardProvider.<br>
-        <i>- .NET Core 3.1 or newer is now required</i> - Reveal dropped support for .NET Core running on top of .NET Framework v4.6.2 or higher and .NET core 2.2 as it is out of support.<br>
-        <i>- Improved setup for default implementations</i> - Greatly improved setup for default implementations - Now it's pretty simple to setup Reveal if you have your dashboards in a "Dashboards" folder and your local data files (csv or excel) are located in your "Data" folder on the project root level. Example:<br>
+        <td><i>.NET Server SDK は、いくつかの変更を加えて拡張されました:</i><br>
+        <i>- Reveal サービスの登録はより柔軟になりました</i> - これで、Reveal インターフェースの実装に他のサービスを注入できます。Reveal プロバイダー インターフェイスの実装のタイプのみを登録します。<br>
+        <i>- RevealSDKContext が削除されました</i> - RVUserContext は、Reveal プロバイダー全体で第一級市民になりました。UserContextProvider を登録する必要があります。これにより、そのクラスがインスタンス化され、IRVDashboardProvider などの他の Reveal サービスのメソッドに渡されます。<br>
+        <i>- .NET Core 3.1 以降が必要になりました</i> - .NET Framework v4.6.2 以降で実行されている .NET Core および .NET Core 2.2 のサポートが終了したため、サポートが終了したことを明らかにします。<br>
+        <i>- デフォルト実装のセットアップの改善</i> - デフォルト実装のセットアップが大幅に改善されました - ダッシュボードが「Dashboards」フォルダーにあり、ローカル データ ファイル (csv または excel) がプロジェクト ルート レベルの「Data」フォルダーにある場合、Reveal のセットアップは非常に簡単になりました。例:<br>
         <i>services<br>
         &emsp;&emsp;.AddMvc()<br>
         &emsp;&emsp;.AddReveal();</i><br>
@@ -32,12 +32,12 @@
         </td>
     </tr>
     <tr>
-        <td><i>IRVDataSourceProvider interface changed (Desktop and .NET Server SDK)</i><br>
-        The IRVDataSourceProvider interface now has a single ChangeDataSourceItem and it will be called whenever a dashboard need to use a data source item.
+        <td><i>IRVDataSourceProvider インターフェイスが変更されました (デスクトップ および .NET サーバー SDK)。</i><br>
+        IRVDataSourceProvider インターフェイスには単一の ChangeDataSourceItem があり、ダッシュボードがデータ ソース アイテムを使用する必要があるときはいつでも呼び出されます。
         </td>
     </tr>
     <tr>
-        <td><i>Dashboard links in the visualization editor (JavaScript Client SDK)</i><br> The JavaScript SDK now supports the creation of dashboard links in the visualization editor. To try this feature, edit one of the ASP UpMedia sample's visualizations and then go to settings to click the plus sign right from Links.
+        <td><i>視覚化エディターのダッシュボード リンク (JavaScript クライアント SDK)</i><br> JavaScript SDK は、視覚化エディターでのダッシュボード リンクの作成をサポートするようになりました。この機能を試すには、ASP UpMedia サンプルの視覚化の 1 つを編集してから、設定に移動して、[リンク] から右にプラス記号をクリックします。
         </td>
     </tr>
     <tr>
