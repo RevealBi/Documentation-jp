@@ -14,17 +14,25 @@
 *Datasources* をローカル フォルダーとして設定するための参照として、*Reveal.Sdk.Samples.UpMedia.Wpf* サンプル アプリケーションを使用できます。サンプル アプリケーションには、**Reveal SDK** のインストールが付随しています。 
 5. プロジェクトに**新しい *CloudToLocalDatasourceProvider* クラスを追加します**。   
 6. 以下の**コード** セクションの関連するスニペットから**実装コードをコピーします**。
-7. *RevealSdkSettings* クラスの ***DataSourceProvider* プロパティを *CloudToLocalDatasourceProvider* に設定します**:   
+7. *RevealSdkContext* クラスの ***DataSourceProvider* プロパティを *CloudToLocalDatasourceProvider* に設定します**:   
 
 ``` csharp
-    RevealSdkSettings.DataSourceProvider = new CloudToLocalDatasourceProvider();
+  public override IRVDataSourceProvider DataSourceProvider => new CloudToLocalDatasourceProvider();        
 ```
 
 ## コード
 ``` csharp
     public class CloudToLocalDatasourceProvider : IRVDataSourceProvider
     {
-        public Task<RVDataSourceItem> ChangeDataSourceItemAsync(RVDashboardFilter filter, RVDataSourceItem dataSourceItem)
+        public Task<RVDataSourceItem> ChangeDashboardFilterDataSourceItemAsync(RVDashboardFilter filter, RVDataSourceItem dataSourceItem)
+        {
+            return ProcessDataSourceItem(dataSourceItem);
+        }
+        public Task<RVDataSourceItem> ChangeVisualizationDataSourceItemAsync(RVVisualization visualization, RVDataSourceItem dataSourceItem)
+        {
+            return ProcessDataSourceItem(dataSourceItem);
+        }
+        protected Task<RVDataSourceItem> ProcessDataSourceItem(RVDataSourceItem dataSourceItem)
         {
             // Return data source unless it is an excel or csv file.
             if (dataSourceItem is RVExcelDataSourceItem == false &&

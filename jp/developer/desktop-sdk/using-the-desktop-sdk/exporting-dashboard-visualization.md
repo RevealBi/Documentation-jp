@@ -40,7 +40,7 @@
 
 ユーザーが [エクスポート] ボタンをクリックすると、利用可能なエクスポートオプションを選択できます。
 
-### 画像エクスポート オプションを使用する場合の詳細
+### 画像エクスポートオプションを使用する場合の詳細
 
 ユーザーが [エクスポート] ボタンをクリックすると、[画像としてエクスポート] ダイアログが開きます。ユーザーは 2 つのオプションから選択することができます。[クリップボードへコピー] と [画像としてエクスポート]。
 
@@ -53,7 +53,7 @@ private void RevealView_ImageExported(object sender, ImageExportedEventArgs e)
 {
   var image = e.Image;
   if (image == null) return;
-  // save to disk just to open it with some app
+  // アプリで開くためだけにディスクに保存します。
   var imageFile = Path.GetTempFileName() + ".png";
   using (var fileStream = new FileStream(imageFile, FileMode.Create))
 

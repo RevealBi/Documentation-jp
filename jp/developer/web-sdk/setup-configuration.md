@@ -2,116 +2,115 @@
 
 ## 前提条件
 
-Reveal Server SDK には、.NET Core 3.1 以降が必要です。
+Reveal Server SDK には、.NET Core 2.2+ または .NET Framework 4.6.2 以降の ASP MVC アプリケーション プロジェクトが必要です。
+
+NET Framework 4.6.2 以降 をターゲットとする場合、Reveal Server SDK には win7-x64 ランタイム環境がサポートされます。Web プロジェクトをデバッグするには、win7-x64 互換の _RuntimeIdentifier_ プラットフォームを追加する必要があります。
+
+```xml
+<PropertyGroup>
+
+   <TargetFramework>net462</TargetFramework>
+
+   <RuntimeIdentifier>win7-x64</RuntimeIdentifier>
+
+</PropertyGroup>
+```
 
 ## セットアップと構成の概要 
 
 以下は、Reveal Web Server SDK 設定の手順です。
 
-1.  [**Reveal SDK をインストールします。**](#installing-reveal-sdk)
+1.  [**アセンブリへの参照を追加し、依存関係パッケージをインストール**](#getting-assemblies-dependencies)
 
-2.  [**DashboardProvider を定義します。**](#defining-dashboardprovider)
+2.  [**サーバー コンテキストを定義**](#defining-server-context)
 
-3.  [**サーバー SDK を初期化します。**](#initializing-server-sdk)
+3.  [**サーバー SDK を初期化**](#initializing-server-sdk)
 
-4.  [**サーバー側画像生成を有効化します。**](#server-side-image-export)
+4.  [**サーバー側画像生成の有効化**](#server-side-image-export).
 
-<a name='installing-reveal-sdk'></a>
+<a name='getting-assemblies-dependencies'></a>
 
-### 1\. Reveal SDK のインストール
+### 1\. アセンブリと依存関係パッケージの準備
 
-マシンで Reveal Sdk インストーラーを実行して、アセンブリと依存関係パッケージを準備します。
+アセンブリへの参照を追加して依存関係パッケージをインストールするには、**NuGet** パッケージ マネージャの使用をお勧めします。プロジェクトのセットアップには、**Reveal.Sdk.Web.AspNetCore** (トライアル) NuGet パッケージをインストールする方法が最も簡単です。
 
-インストールが完了すると、**nuget.config** に追加された _Infragistics (Local)_ という新しい NuGet パッケージ ソースが見つかります。
-これは、「%public%\\Documents\\Infragistics\\NuGet」を指します。
+Reveal SDK をインストールすると、%public%\\Documents\\Infragistics\\NuGet を指す _Infragistics (Local)_ と呼ばれる新しい NuGet パッケージソースが **nuget.config** に追加されます。
 
 <img src="images/addingNugetPackage_web.png" alt="addingNugetPackage_web" class="responsive-img"/>
 
 Infragistics (Local) フィードがインストーラーによって正しく設定されていることを確認後:
 
-- **Reveal.Sdk.Web.AspNetCore(.Trial)** NuGet パッケージをアプリ プロジェクトにインストールします。
-- NuGet パッケージ参照を System.Data.SQLite バージョン 1.0.111 以降に追加します。
+  - **Reveal.Sdk.Web.AspNetCore** NuGet パッケージを プロジェクトにインストールします。
+  - NuGet パッケージ参照を System.Data.SQLite バージョン 1.0.111 以降に追加します。
 
-> [!NOTE] 
-> トライアル nuget パッケージは nuget.org で入手できます: [**Reveal.Sdk.Web.AspNetCore.Trial**](https://www.nuget.org/packages/Reveal.Sdk.Web.AspNetCore.Trial/)。
+ビルドに問題がある場合は、この[**リンク**](#sqlite-fix)を参照してください。
 
+<a name='defining-server-context'></a>
 
-ビルドに問題がある場合は、この[**リンク**](#sqlite-fix)に従ってください。
+<a name='defining-server-context'></a>
 
-<a name='defining-dashboardprovider'></a>
+### 2\. サーバー コンテキストの定義
 
-### 2\. DashboardProvider の定義
-
-nuget パッケージをインストールした後、**IVRDashboardProvider** インターフェイスを実装するクラスを作成する必要があります。このクラスは、ダッシュボードの読み込みと保存を処理します。
+必要な DLL を参照したら、**RevealSdkContextBase** 抽象クラスを継承するクラスを作成する必要があります。このクラスは、Reveal SDK をアプリケーション内で実行できるようにし、SDK を操作するためのコールバックを提供します。
 
 ```csharp
-    using Reveal.Sdk;
-    public class DashboardProvider : IRVDashboardProvider
+using Reveal.Sdk;
+public class RevealSdkContext : RevealSdkContextBase
+{
+    public override IRVDataSourceProvider DataSourceProvider => null;
+
+    public override IRVDataProvider DataProvider => null;
+
+    public override IRVAuthenticationProvider AuthenticationProvider => null;
+      
+    public override Task<Dashboard> GetDashboardAsync(string dashboardId)
     {
-        private string _ext = ".rdash";
-        readonly string _dashboardsDirectoryPath;
-
-        public DashboardProvider(string dashboardsDirectoryPath = "Dashboards")
-        {
-            _dashboardsDirectoryPath = dashboardsDirectoryPath;
-        }
-        public Task<Dashboard> GetDashboardAsync(IRVUserContext userContext, string dashboardId)
-        {
-            var fileToLoad = Directory.EnumerateFiles(_dashboardsDirectoryPath)
-                                        .Where(f => f == dashboardId || f == dashboardId + _ext)
-                                        .FirstOrDefault(f => f.EndsWith(_ext));
-            if (fileToLoad != null)
-            {
-                return Task.FromResult(new Dashboard(fileToLoad));
-            }
-            throw new ArgumentException($"No rdash file with name \"{dashboardId}\" was found in the dashboards folder:{_dashboardsDirectoryPath}.");
-        }
-
-        public Task SaveDashboardAsync(IRVUserContext userContext, string dashboardId, Dashboard dashboard)
-        {
-            string dashboardFileName = dashboardId.Contains(_ext) ? dashboardId : dashboardId + _ext;
-
-            return dashboard.SaveToFileAsync(Path.Combine(_dashboardsDirectoryPath, dashboardFileName));
-        }
+        var fileName = $"C:\\Temp\\{dashboardId}.rdash";
+        var fileStream = new FileStream(fileName, FileMode.Open, FileAccess.Read);
+        return Task.FromResult(new Dashboard(fileStream));
     }
+
+    //このコールバックは、RevealView オブジェクトのクライアント側に onSave イベントがインストールされていない場合のみ使用されます。
+    //詳細については、Web クライアント SDK のドキュメントをご覧ください。
+    public override Task SaveDashboardAsync(string userId, string dashboardId, Dashboard dashboard)
+    {
+        return Task.CompletedTask;
+    }
+}
 ```
 
-上記のコードは、単純なファイル システム ベースのプロバイダーを実装しています。基本的に、ダッシュボードの読み込み元/保存先のディレクトリを指定するコンストラクター内の引数を受け入れます。また、ファイル拡張子を指定し忘れたり、指定したくない場合でも問題ありません。
+上記の実装は、C:\\Temp フォルダからダッシュボードをロードし、_dashboardId_ 変数に依存する .rdash ファイルを検索します。アプリケーションでは、他のディレクトリやデータベースから、あるいは組み込みリソースからもダッシュボードを読み込めるよう変更します。
+
+> [!NOTE]
+> **null を返すプロパティ:** 最初の 3 つのプロパティ _DataSourceProvider_、_DataProvider_、および _AuthenticationProvider_ はすべて null を返すように実装されています。このガイドでは、これらのプロパティのためにすべてのインターフェイスをインストールする方法について説明します。
 
 <a name='initializing-server-sdk'></a>
 
 ### 3\. サーバー SDK の初期化
 
-**Startup.cs** のアプリケーションの **ConfigureServices** メソッドで、IMvcBuilder インターフェイスを返す 1 つ以上の AspNetCore サービスを追加する必要があります。最もよく使用されるサービスは、AddMvc、AddControllersWithViews、および AddControllers です。これらのいずれかを追加した後、その上に *.AddReveal* を呼び出す必要があります。**AddReveal** は、IMvcBuilder を拡張するために使用される拡張メソッドです。
+**Startup.cs** のアプリケーションの **ConfigureServices** メソッド _RevealEmbedSettings_ クラスを渡し、サービス拡張メソッド _AddRevealServices_ を呼び出します。
 
+_AddRevealServices_ 拡張メソッドは **Reveal.Sdk** 名前空間で定義されているため、ユーザーを追加する必要があります。また、以下に示すように **CachePath** プロパティも設定してください。
+
+```csharp
+services.AddRevealServices(new RevealEmbedSettings
+{
+    LocalFileStoragePath = @"C:\Temp\Reveal\DataSources",
+    CachePath = @"C:\Temp"
+}, new RevealSdkContext());
+```
 
 > [!NOTE]
-> AddReveal 拡張メソッドは Reveal.Sdk 名前空間にあるため、Startup.cs にその使用法を追加する必要があります。
+> **LocalFileStoragePath** は、ダッシュボード データソースとしてローカルの Excel ファイルまたは CSV ファイルを使用しており、RevealSdkContext クラスが前述のように RevealSdkContextBase を継承している場合にのみ必要です。
 
-**AddReveal** を使用すると、Reveal サーバー コンポーネントを登録したり、設定を提供したりできます。以下のコード スニペットは、前の手順で定義された DashboardProvider クラスを登録する基本的な呼び出しを表しています:
+
+MVC サービスを追加するときに **AddReveal** 拡張メソッドを呼び出すことによって、Reveal エンドポイントを追加できます。以下はコードスニペットです。
 
 ```csharp
-services
-    .AddMvc()
-        .AddReveal(builder =>
-        {
-            builder
-              .AddDashboardProvider<AddDashboardProvider>()
-              .AddSettings(settings =>
-              {
-                  settings.LocalFileStoragePath = "Data";
-                  settings.DataCachePath = settings.CachePath = @"C:\Temp\Reveal\Cache";
-              });
-        });
+services.AddMvc().AddReveal();
 ```
 
-DashboardProvider クラスの登録に加えて、LocalFileStoragePath も指定されました。これは、Excel や CSV などの静的データ ソース ファイルが配置されるパスであり、使用されるキャッシュ場所のデフォルト設定です。
-
-特定のインスタンスではなく、タイプを登録する必要があることに注意してください。これは、タイプが AspNetCore Di コンテナーに登録されるためです。
-このアプローチにより、DashboarProvider の実装や他の Reveal プロバイダーで使用している可能性のある他のサービスを柔軟に注入できます。必要に応じてインスタンスを自由に登録できます。他のオーバーロード AddDashboardProvider メソッドを使用するだけです。以下に示すように:
-```csharp
-builder.AddDashboardProvider(new DashboardProvider())
-```
+_AddRevealServices_ と同様に、_AddReveal_ メソッドは _Reveal.Sdk_ で定義されているため、ディレクティブを使用してください。
 
 <a name='server-side-image-export'></a>
 

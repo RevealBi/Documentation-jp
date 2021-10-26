@@ -5,6 +5,7 @@
 <h3>最も一般的に使用されるクラスとインターフェース:</h3>  
 
 **SDK の主な概念と機能:**  
+<a href="/api/aspnet/latest/Reveal.Sdk.RevealSdkContextBase.html" target="_blank" rel="noopener\">RevealSdkContextBase</a>  
 <a href="/api/aspnet/latest/Reveal.Sdk.RevealEmbedSettings.html" target="_blank" rel="noopener\">RevealEmbedSettings</a>  
 <a href="/api/aspnet/latest/Reveal.Sdk.Dashboard.html" target="_blank" rel="noopener\">Dashboard クラス</a>  
 

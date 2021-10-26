@@ -144,7 +144,7 @@ revealView.canAddDateFilter = false;
 
 <img src="../../general/images/showing_hiding_elements_filters_preselected.png" alt="Showing a Dashboard Filter preselected in the UI" class="responsive-img"/>
 
-次のコードスニペットは、ダッシュボード「AppsStats」を読み込む方法を示しています。「Territory」ダッシュボード フィルターの選択値を「Americas」に設定して、ダッシュボードには「Americas」でフィルタリングされたデータが表示されます。
+次のコードスニペットは、ダッシュボード 「AppsStats」 を読み込む方法を示しています。「Territory」 ダッシュボード フィルターの選択値を 「Americas」 に設定して、ダッシュボードには 「Americas」 でフィルタリングされたデータが表示されます。
 
 ``` js
 var dashboardId = "AppsStats";
@@ -163,16 +163,15 @@ $.ig.RVDashboard.loadDashboard(dashboardId, function (dashboard) {
 
 <img src="../../general/images/showing_hiding_elements_charts.png" alt="Switching visualizations through the UI" class="responsive-img"/>
 
-利用したい可視化のみを含む新しい配列を使用できます:
+たとえば、以下のように表示形式を追加または削除できます。
 
 ``` js
-revealView.availableChartTypes = [$.ig.RVChartType.BulletGraph, $.ig.RVChartType.Choropleth];
+revealView.availableChartTypes.add($.ig.RVChartType.bulletGraph);
+revealView.availableChartTypes.remove($.ig.RVChartType.choropleth);
 ```
 
-さらに、以下に示すように、いくつかのチャートを削除できます:
+さらに、使用可能な表示形式のみを含む新しい配列を使用できます。
 
-```js
-var toRemoveChartTypes = [$.ig.RVChartType.AreaChart, $.ig.RVChartType.Indicator, $.ig.RVChartType.IndicatorTarget, $.ig.RVChartType.ScatterMap, $.ig.RVChartType.Choropleth, $.ig.RVChartType.TreeMap];
-revealView.availableChartTypes = revealView.availableChartTypes.filter(t => !toRemoveChartTypes.includes(t));
-
+``` js
+revealView.AvailableChartTypes = [$.ig.RVChartType.bulletGraph, $.ig.RVChartType.choropleth];
 ```

@@ -49,13 +49,12 @@ Reveal アプリは、ダッシュボードを作成し、表示させ、およ�
 
 ダミーのデータではなくカスタムのデータを使ってダッシュボードを可視化する必要があります。
 
-1.  [**データ ソースの置き換え**](replacing-data-sources/replacing-data-sources-mssql.md)で説明されているように、インターフェイスを実装し、AspNetCore サービスを構成するときに
-    AddReveal() 呼び出しに登録します。
+1.  [**データ ソースの置き換え**](replacing-data-sources/replacing-data-sources-mssql.md)で説明したように、__IRVDataSourceProvider__ を実装し、__RevealSdkContextBase__ の __DataSourceProvider__ プロパティとして返します。
 
-    次に、メソッド **ChangeDataSourceItemAsync** の実装では、次のようなコードを追加する必要があります:
+    次に、メソッド **ChangeVisualizationDataSourceItemAsync** の実装では、次のようなコードを追加する必要があります。
 
     ``` csharp
-    public Task<RVDataSourceItem> ChangeDataSourceItemAsync(IRVUserContext userContext, string dashboardId, RVDataSourceItem dataSourceItem)
+    public Task<RVDataSourceItem> ChangeVisualizationDataSourceItemAsync(string userId, string dashboardId, RVVisualization visualization, RVDataSourceItem dataSourceItem)
     {
         var csvDsi = dataSourceItem as RVCsvDataSourceItem;
         if (csvDsi != null)
@@ -69,21 +68,21 @@ Reveal アプリは、ダッシュボードを作成し、表示させ、およ�
 
     このようにして、ダッシュボード内の CSV ファイルへのすべての参照を、基本的に employees で識別されるインメモリ データ ソースに置き換えます。この ID は後でデータを返すときに使用されます。
 
-2.  実際のデータを返すメソッドを実装します。これを行うには、__IRVDataProvider__ を実装し、それを AddReveal() 呼び出しに登録します。
+2.  以下のように __IRVDataProvider__ を実装するために、実際のデータを返すメソッドを実装します。
 
     ``` csharp
     public class EmbedDataProvider : IRVDataProvider
     {
-        public Task<IRVInMemoryData> GetData(IRVUserContext userContext, RVInMemoryDataSourceItem dataSourceItem)
+        public Task<IRVInMemoryData> GetData(string userId, RVInMemoryDataSourceItem dataSourceItem)
         {
             var datasetId = dataSourceItem.DatasetId;
             if (datasetId == "employees")
             {
                 var data = new List<Employee>()
-                {
-                    new Employee(){ EmployeeID = "1", Fullname="John Doe", Wage = 80325.61 },
-                    new Employee(){ EmployeeID = "2", Fullname="Doe John", Wage = 10325.61 },
-                };
+                    {
+                        new Employee(){ EmployeeID = "1", Fullname="John Doe", Wage = 80325.61 },
+                        new Employee(){ EmployeeID = "2", Fullname="Doe John", Wage = 10325.61 },
+                    };
                 return Task.FromResult<IRVInMemoryData>(new RVInMemoryData<Employee>(data));
             }
             else
@@ -114,4 +113,10 @@ public class Employee
     [RVSchemaColumn("MonthlyWage")]
     public double Wage { get; set; }
 }
+```
+
+更に __IRVDataProvider__ の実装には、それを返すために __RevealSdkContextBase.DataProvider__ の実装を変更する必要があります。
+
+``` csharp
+IRVDataProvider DataProvider => new EmbedDataProvider();
 ```

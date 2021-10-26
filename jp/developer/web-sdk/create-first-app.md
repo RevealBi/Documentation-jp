@@ -140,7 +140,7 @@ Marketing ダッシュボードを選択し、**編集モード**に入ります
     @section Scripts
         {
         <script type="text/javascript">
-            // Load dashboard in #revealView element
+            // #revealView 要素にダッシュボードを読み込む
         </script>
     }
 

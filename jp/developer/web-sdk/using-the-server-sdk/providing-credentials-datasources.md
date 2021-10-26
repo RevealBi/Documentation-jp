@@ -6,13 +6,12 @@ Server SDK では、データ ソースにアクセスするときに使用さ�
 
 ## コード
 
-最初の手順は、__IRVAuthenticationProvider__ インターフェースを実装するクラスを作成することです。
-MyAuthenticationProvider と呼ばれるサンプル実装を次に示します:
+最初の手順は、以下に示すように、__IRVAuthenticationProvider__ を実装し、それを __RevealSdkContextBase__ の __AuthenticationProvider__ プロパティとして返します。
 
 ``` csharp
-public class MyAuthenticationProvider : IRVAuthenticationProvider
+public class EmbedAuthenticationProvider : IRVAuthenticationProvider
 {
-    public Task<IRVDataSourceCredential> ResolveCredentialsAsync(IRVUserContext userContext, RVDashboardDataSource dataSource)
+    public Task<IRVDataSourceCredential> ResolveCredentialsAsync(string userId, RVDashboardDataSource dataSource)
     {
         IRVDataSourceCredential userCredential = null;
         if (dataSource is RVPostgresDataSource)
@@ -20,8 +19,8 @@ public class MyAuthenticationProvider : IRVAuthenticationProvider
             userCredential = new RVUsernamePasswordDataSourceCredential("postgresuser", "password");
         }
         else if (dataSource is RVSqlServerDataSource)
+            // 「domain」パラメーターは必ずしも必要ではなく、これは SQL Server の構成によって異なります。
         {
-            // The "domain" parameter is not always needed and this depends on your SQL Server configuration. 
             userCredential = new RVUsernamePasswordDataSourceCredential("sqlserveruser", "password", "domain");
         }
         else if (dataSource is RVGoogleDriveDataSource)
@@ -36,19 +35,6 @@ public class MyAuthenticationProvider : IRVAuthenticationProvider
     }
 }
 ```
-クラスを作成した後、次の手順は、次のように **AddReveal** 呼び出し (ConfigureServices メソッド) にクラスを登録することです。
-
-```csharp
-services
-    .AddMvc()
-        .AddReveal(builder =>
-        {
-            builder
-            ...
-            .AddAuthenticationProvider<MyAuthenticationProvider>()
-            ...
-        });
-``` 
 
 ## 実装するクラスの選択
 
