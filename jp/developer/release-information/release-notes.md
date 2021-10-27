@@ -27,8 +27,8 @@
         <i>services<br>
         &emsp;&emsp;.AddMvc()<br>
         &emsp;&emsp;.AddReveal();</i><br>
-        For further details, please refer to <a
-                href="../release-information/upgrade-to-1.1.html">Reveal SDK Upgrade to 1.1</a>.
+        詳細については、<a
+                href="../release-information/upgrade-to-1.1.html">Reveal SDK の 1.1 へのアップグレード</a>を参照してください。
         </td>
     </tr>
     <tr>
@@ -41,12 +41,12 @@
         </td>
     </tr>
     <tr>
-        <td>[公開バグ修正] [SDK] onDateFilterChanged JavaScript event not being triggered<br>
-        In the Web Client SDK, the onDateFilterChanged event (RVDashboard property) was not being triggered when changing or removing a filter.
+        <td>[公開バグ修正] [SDK] onDateFilterChangedJavaScript イベントがトリガーされない問題<br>
+        Web クライアント SDK では、フィルターを変更または削除するときに onDateFilterChanged イベント (RVDashboard プロパティ) がトリガーされませんでした。
         </td>
     </tr>
     <tr>
-        <td>[公開バグ修正] [SDK] availableChartTypes JavaScript accessor not working as expected<br> In the Web Client SDK, you were not able to instantiate RevealView and immediately set the available charts for end users to pick from (availableChartTypes).
+        <td>[公開バグ修正] [SDK] availableChartTypesJavaScript アクセサーが期待どおりに機能しない問題<br> Web クライアント SDK では、RevealView をインスタンス化して、エンド ユーザーが選択できる利用可能なチャート (availableChartTypes) をすぐに設定することができませんでした。
         </td>
     </tr>
     <tr>
