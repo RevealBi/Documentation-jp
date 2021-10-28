@@ -1,63 +1,4 @@
 {
-  "pdf": {
-    "content": [
-      {
-        "files": [
-          "jp/developer/**.yml"
-        ],
-        "exclude": [
-          "**/toc.yml",
-          "**/toc.md"
-        ]
-      },
-      {
-        "files": [
-          "jp/developer/**.md",
-          "jp/developer/**/toc.yml",
-          "toc.yml",
-          "*.md",
-          "pdf/*"
-        ],
-        "exclude": [
-          "**/bin/**",
-          "**/obj/**",
-          "_site_pdf/**",
-          "**/toc.yml",
-          "**/toc.md"
-        ]
-      },
-      {
-        "files": "pdf/toc.yml"
-      }
-    ],
-    "resource": [
-      {
-        "files": [
-          "images/**",
-          "**/images/**"
-        ],
-        "exclude": [
-          "**/bin/**",
-          "**/obj/**",
-          "_site/**",
-          "_site_pdf/**"
-        ]
-      }
-    ],
-    "overwrite": [
-      {
-        "exclude": [
-          "**/bin/**",
-          "**/obj/**",
-          "_site_pdf/**"
-        ]
-      }
-    ],
-    "wkhtmltopdf": {
-      "additionalArguments": "--enable-local-file-access --encoding utf-8"
-    },
-    "dest": "_site_pdf"
-},
   "build": {
     "content": [
       {
@@ -74,13 +15,11 @@
     "resource": [
       {
         "files": [
-          "**/images/**",
-          "jp/developer/archived-docs/**"
+          "**/images/**"
         ],
         "exclude": [
           "obj/**",
           "_site/**"
-
         ]
       },
       {
