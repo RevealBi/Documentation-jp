@@ -20,7 +20,7 @@
     <th class="tg-cly1"><span style="font-weight:bold">構文とサンプル</span></th>
   </tr>
   <tr>
-    <td class="tg-cly1" rowspan="2"><a href="https://https://help.revealbi.io/jp/date-calculated-fields#date-date">date</a>: date は数式に含まれる値へ日付セットを返します。</td>
+    <td class="tg-cly1" rowspan="2"><a href="https://help.revealbi.io/jp/date-calculated-fields#date-date">date</a>: date は数式に含まれる値へ日付セットを返します。</td>
     <td class="tg-cly1"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm">date({year},{month},{day},{hour},{minute},{second})</span></td>
   </tr>
   <tr>
@@ -125,7 +125,7 @@
     <td class="tg-0lax"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm">second(date(2017,12,1,12,33,48))</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2"><a href="https://https://help.revealbi.io/jp/date-calculated-fields#date-time">time</a>: time を使用する場合、Reveal は数式に含まれる値に設定した時刻を返します。</td>
+    <td class="tg-0lax" rowspan="2"><a href="https://help.revealbi.io/jp/date-calculated-fields#date-time">time</a>: time を使用する場合、Reveal は数式に含まれる値に設定した時刻を返します。</td>
     <td class="tg-0lax"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm">time({hour},{minute},{second},{millisecond})</span></td>
   </tr>
   <tr>

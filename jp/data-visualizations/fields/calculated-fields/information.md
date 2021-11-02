@@ -24,7 +24,7 @@
     <td class="tg-cly1"><span style="font-weight:bold">サンプル</span>:  <span class="gray-snippet-cstm">empty()</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1" rowspan="2"><a href="https://https://help.revealbi.io/jp/information-calculated-fields#calculated-isempty"><span style="font-weight:bold">isempty</span></a>: <span class="gray-snippet-cstm">isempty</span>は指定した<span class="gray-snippet-cstm">`式`</span>を評価して<span style="font-weight:bold">データ ソースの各行の値が空かどうかをチェックします</span>。</td>
+    <td class="tg-cly1" rowspan="2"><a href="https://help.revealbi.io/jp/information-calculated-fields#calculated-isempty"><span style="font-weight:bold">isempty</span></a>: <span class="gray-snippet-cstm">isempty</span>は指定した<span class="gray-snippet-cstm">`式`</span>を評価して<span style="font-weight:bold">データ ソースの各行の値が空かどうかをチェックします</span>。</td>
     <td class="tg-cly1"><span style="font-weight:bold">構文</span>:  <span class="gray-snippet-cstm">isempty({value})</span></td>
   </tr>
   <tr>

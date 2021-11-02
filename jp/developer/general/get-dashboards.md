@@ -7,7 +7,7 @@ Reveal は、アプリに埋め込むように意図的に設計された ビジ
 Reveal SDK と Reveal アプリの違いを見てみましょう。
 
 **Reveal アプリは**、データに基づく意思決定を迅速に行うことができるビジネス インテリジェンス ツールです。ワークスペースでダッシュボードを作成、表示、共有できます。また、使用するプラットフォーム (Web、デスクトップ、iOS、Android) に関係なく、同じエクスペリエンスを提供します。
-Reveal アプリの詳細については、[**オンライン デモ**](https://app.revealbi.io/)にアクセスするか、[**ヘルプ ドキュメント**](https://https://help.revealbi.io/jp/welcome.html)を参照してください。
+Reveal アプリの詳細については、[**オンライン デモ**](https://app.revealbi.io/)にアクセスするか、[**ヘルプ ドキュメント**](https://help.revealbi.io/jp/welcome.html)を参照してください。
 
 **Reveal SDK** を使用することにより、複数のプラットフォームおよびテクノロジで開発されたアプリに Reveal を埋め込むことができます。また、エンドユーザーが Reveal ダッシュボードの表示や修正を行うことができます。
 
@@ -19,7 +19,7 @@ Reveal SDK を使用して最初からダッシュボードを作成すること
 
 ## ダッシュボード ファイルの取得
 
-[ダッシュボードを作成した後](https://https://help.revealbi.io/jp/creating-dashboards)、取得するには以下の手順に従ってください。
+[ダッシュボードを作成した後](https://help.revealbi.io/jp/creating-dashboards)、取得するには以下の手順に従ってください。
 
 1.  **Reveal アプリでダッシュボードを開く**
 
