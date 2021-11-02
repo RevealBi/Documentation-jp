@@ -15,7 +15,8 @@
     "resource": [
       {
         "files": [
-          "**/images/**"
+          "**/images/**",
+          "jp/developer/archived-docs/**"
         ],
         "exclude": [
           "obj/**",
