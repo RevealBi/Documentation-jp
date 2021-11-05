@@ -146,12 +146,12 @@ Web ページで **\$.ig.RevealView** コンポーネントを有効にするに
 
 |                                                                  **JS ファイルのダウンロード**                                                                   |                                 **リリース ノート**                                 |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: |
-| [JAVA SDK 1.0.7](https://maven.revealbi.io/repository/public/com/infragistics/reveal/sdk/reveal-sdk-distribution/1.0.7/reveal-sdk-distribution-1.0.7-js.zip) | [Version 1.0.7](~/jp/developer/release-information/release-notes.html#java-sdk-1.0.7) |
-| [JAVA SDK 1.0.6](https://maven.revealbi.io/repository/public/com/infragistics/reveal/sdk/reveal-sdk-distribution/1.0.6/reveal-sdk-distribution-1.0.6-js.zip) | [Version 1.0.6](~/jp/developer/release-information/release-notes.html#java-sdk-1.0.6) |
-| [JAVA SDK 1.0.5](https://maven.revealbi.io/repository/public/com/infragistics/reveal/sdk/reveal-sdk-distribution/1.0.5/reveal-sdk-distribution-1.0.5-js.zip) | [Version 1.0.5](~/jp/developer/release-information/release-notes.html#java-sdk-1.0.5) |
-| [JAVA SDK 1.0.4](https://maven.revealbi.io/repository/public/com/infragistics/reveal/sdk/reveal-sdk-distribution/1.0.4/reveal-sdk-distribution-1.0.4-js.zip) | [Version 1.0.4](~/jp/developer/release-information/release-notes.html#java-sdk-1.0.4) |
-| [JAVA SDK 1.0.3](https://maven.revealbi.io/repository/public/com/infragistics/reveal/sdk/reveal-sdk-distribution/1.0.3/reveal-sdk-distribution-1.0.3-js.zip) | [Version 1.0.3](~/jp/developer/release-information/release-notes.html#java-sdk-1.0.3) |
-| [JAVA SDK 1.0.0](https://maven.revealbi.io/repository/public/com/infragistics/reveal/sdk/reveal-sdk-distribution/1.0.0/reveal-sdk-distribution-1.0.0-js.zip) | [Version 1.0.0](~/jp/developer/release-information/release-notes.html#java-sdk-1.0.0) |
+| [JAVA SDK 1.0.7](https://maven.revealbi.io/repository/public/com/infragistics/reveal/sdk/reveal-sdk-distribution/1.0.7/reveal-sdk-distribution-1.0.7-js.zip) | [バージョン 1.0.7](~/jp/developer/release-information/release-notes.html#java-sdk-1.0.7) |
+| [JAVA SDK 1.0.6](https://maven.revealbi.io/repository/public/com/infragistics/reveal/sdk/reveal-sdk-distribution/1.0.6/reveal-sdk-distribution-1.0.6-js.zip) | [バージョン 1.0.6](~/jp/developer/release-information/release-notes.html#java-sdk-1.0.6) |
+| [JAVA SDK 1.0.5](https://maven.revealbi.io/repository/public/com/infragistics/reveal/sdk/reveal-sdk-distribution/1.0.5/reveal-sdk-distribution-1.0.5-js.zip) | [バージョン 1.0.5](~/jp/developer/release-information/release-notes.html#java-sdk-1.0.5) |
+| [JAVA SDK 1.0.4](https://maven.revealbi.io/repository/public/com/infragistics/reveal/sdk/reveal-sdk-distribution/1.0.4/reveal-sdk-distribution-1.0.4-js.zip) | [バージョン 1.0.4](~/jp/developer/release-information/release-notes.html#java-sdk-1.0.4) |
+| [JAVA SDK 1.0.3](https://maven.revealbi.io/repository/public/com/infragistics/reveal/sdk/reveal-sdk-distribution/1.0.3/reveal-sdk-distribution-1.0.3-js.zip) | [バージョン 1.0.3](~/jp/developer/release-information/release-notes.html#java-sdk-1.0.3) |
+| [JAVA SDK 1.0.0](https://maven.revealbi.io/repository/public/com/infragistics/reveal/sdk/reveal-sdk-distribution/1.0.0/reveal-sdk-distribution-1.0.0-js.zip) | [バージョン 1.0.0](~/jp/developer/release-information/release-notes.html#java-sdk-1.0.0) |
 
 <a name='instantiate-web-client-sdk'></a>
 
