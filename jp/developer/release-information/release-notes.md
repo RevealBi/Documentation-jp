@@ -105,7 +105,7 @@
             </td>
         </tr>
         <tr>
-            <td>[公開バグ修正] 計算フィールド フィルターがサーバー上のデータ プロセスで機能しない問題<br>
+            <td><a name="java-sdk-1.0.7"></a>[公開バグ修正] 計算フィールド フィルターがサーバー上のデータ プロセスで機能しない問題<br>
             データのサーバー側集計を有効にすると、フィルターとして使用される計算フィールドが期待どおりにデータをフィルタリングしていなかった問題。
             </td>
         </tr>
@@ -114,20 +114,20 @@
             Google アナリティクス データ ソースからデータを取得するときに、ダッシュボード フィルターを作成できなかった問題。
             </td>
         </tr>
-       <tr>
+        <tr>
             <td rowspan="4">6 月 2021 年</td>
             <td rowspan="4">1.0.7 JAVA</td>
             <td>散布図が OpenStreetMap をサポートするようになりました!<br>
             SDK Web クライアント (JS) で OpenStreetMap 画像タイルを構成して使用できるようになりました。
             </td>
-        </tr>
+        </tr>    
         <tr>
             <td>[公開 SDK バグ修正] コンポーネントを再マウントした後、テキスト ボックスのコンテンツが表示されない問題<br>
             ダッシュボードとテキスト ボックスの視覚化で React を使用すると、コンポーネントの再マウント後にコンテンツが表示されませんでした。ページの再読み込みが必要でした。
             </td>
         </tr>
         <tr>
-            <td>[公開バグ修正] 計算フィールド フィルターがサーバー上のデータ プロセスで機能しない問題<br>
+            <td><a name="java-sdk-1.0.6"></a>[公開バグ修正] 計算フィールド フィルターがサーバー上のデータ プロセスで機能しない問題<br>
             データのサーバー側集計を有効にすると、フィルターとして使用される計算フィールドが期待どおりにデータをフィルタリングしていなかった問題。
             </td>
         </tr>
@@ -137,14 +137,14 @@
             </td>
         </tr>
         <tr>
-            <td rowspan="2">6 月 2021 年</td>
+            <td rowspan="2"><a name="java-sdk-1.0.5"></a>6 月 2021 年</td>
             <td rowspan="2">1.0.6 JAVA</td>
             <td>[バグ修正] [SDK] Grizzly サーバーが例外をスローする問題<br>
             Grizzly で Reveal を実行すると、<i>javax.servlet.ServletContext</i> クラス (javax.servlet:javaz.servlet-api アセンブリ) の依存関係が間違っているため、<i>NoClassDefFoundError</i> 例外がスローされていました。
             </td>
         </tr>
         <tr>
-            <td>JAVA SDK の新しいサンプルがリリースされました!<br>
+            <td><a name="java-sdk-1.0.4"></a>JAVA SDK の新しいサンプルがリリースされました!<br>
             <a href="https://javaee.github.io/grizzly/">Grizzly</a> サーバーで Reveal を使用する方法を示す新しい <a href="https://github.com/RevealBi/sdk-samples-java/blob/main/upmedia-backend-grizzly">GitHub サンプル</a>があります。
             </td>
         </tr>
@@ -178,7 +178,7 @@
             </td>
         </tr>
         <tr>
-            <td>[公開バグ修正] "sort by:" 構成が異なるドリルダウン シナリオが期待どおりに機能しない問題<br>
+            <td><a name="java-sdk-1.0.3"></a>[公開バグ修正] "sort by:" 構成が異なるドリルダウン シナリオが期待どおりに機能しない問題<br>
             階層内のフィールドが "sort by: <any field>" と降順の並べ替えの組み合わせで構成されている場合、結果としてダッシュボードが読み込まれませんでした。
             </td>
         </tr>
@@ -190,7 +190,7 @@
         <tr>
             <td rowspan="2">5 月 2021 年</td>
             <td rowspan="2">1.0.3 JAVA</td>
-            <td>新しい Snowflake コネクタ!<br>
+            <td><a name="java-sdk-1.0.0"></a>新しい Snowflake コネクタ!<br>
             Reveal Java SDK は、Snowflake データ ソース コネクタをサポートするようになりました。これには、同じ Snowflake データベース内のテーブル間のデータ ブレンディングも含まれます。
             </td>
         </tr>
