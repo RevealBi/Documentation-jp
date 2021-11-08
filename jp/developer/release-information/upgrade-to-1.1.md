@@ -44,6 +44,6 @@ revealView.onVisualizationLinkingDashboard = function (title, url, callback) {
 次に変更する必要があります:
 ```javascript
 revealView.onLinkedDashboardProviderAsync = (dashboardId => {
-      return dashboardId;
+   return $.ig.RVDashboard.loadDashboardAsync(dashboardId);
 })
 ```
