@@ -5,8 +5,8 @@
 <table>
     <colgroup>
         <col style="width: 15%" />
-        <col style="width: 15%" />
-        <col style="width: 70%" />
+        <col style="width: 10%" />
+        <col style="width: 75%" />
     </colgroup>
     <thead>
         <tr>
@@ -17,8 +17,26 @@
     </thead>
     <tbody>
     <tr>
-        <td rowspan="5">10 月 2021 年</td>
-        <td rowspan="5">1.1.0.67</td>
+            <td rowspan="3">11 月 2021 年</td>
+            <td rowspan="3">1.0.9 JAVA</td>
+            <td>[公開バグ修正] [SDK] RevealView's availableChartTypes had a timing issue<br>
+            Setting the availableChartTypes property right after initializing the RevealView object was causing issues.
+            </td>
+        </tr>
+        <tr>
+            <td>[公開バグ修正] [SDK] RVDateRange Property not returning the expected type<br>
+            The <i>from</i> property in the RVDateRange class was not returning a JavaScript Date.
+            </td>
+        </tr>
+        <tr>
+            <td>Search fields in the Data Blending screen<br>
+            The Data Blending UI was improved by adding the ability to search for fields to be joined/added in the result.
+        </td>
+        </tr>
+        <tr>
+    <tr>
+        <td rowspan="6">10 月 2021 年</td>
+        <td rowspan="6">1.1.0.67</td>
         <td><i>.NET Server SDK は、いくつかの変更を加えて拡張されました:</i><br>
         <i>- Reveal サービスの登録はより柔軟になりました</i> - これで、Reveal インターフェースの実装に他のサービスを注入できます。Reveal プロバイダー インターフェイスの実装のタイプのみを登録します。<br>
         <i>- RevealSDKContext が削除されました</i> - RVUserContext は、Reveal プロバイダー全体で第一級市民になりました。UserContextProvider を登録する必要があります。これにより、そのクラスがインスタンス化され、IRVDashboardProvider などの他の Reveal サービスのメソッドに渡されます。<br>
@@ -47,6 +65,12 @@
     </tr>
     <tr>
         <td>[公開バグ修正] [SDK] availableChartTypesJavaScript アクセサーが期待どおりに機能しない問題<br> Web クライアント SDK では、RevealView をインスタンス化して、エンド ユーザーが選択できる利用可能なチャート (availableChartTypes) をすぐに設定することができませんでした。
+        </td>
+    </tr>
+    </tr>
+    <tr>
+        <td>Search fields in the Data Blending screen<br>
+            The Data Blending UI was improved by adding the ability to search for fields to be joined/added in the result.
         </td>
     </tr>
     <tr>
@@ -122,7 +146,7 @@
             </td>
         </tr>    
         <tr>
-            <td>[公開 SDK バグ修正] コンポーネントを再マウントした後、テキスト ボックスのコンテンツが表示されない問題<br>
+            <td>[公開 SDK バグ修正] [SDK] コンポーネントを再マウントした後、テキスト ボックスのコンテンツが表示されない問題<br>
             ダッシュボードとテキスト ボックスの視覚化で React を使用すると、コンポーネントの再マウント後にコンテンツが表示されませんでした。ページの再読み込みが必要でした。
             </td>
         </tr>
