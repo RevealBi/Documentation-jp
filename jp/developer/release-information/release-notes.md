@@ -19,18 +19,18 @@
     <tr>
             <td rowspan="3">11 月 2021 年</td>
             <td rowspan="3">1.0.9 JAVA</td>
-            <td>[公開バグ修正] [SDK] RevealView's availableChartTypes had a timing issue<br>
-            Setting the availableChartTypes property right after initializing the RevealView object was causing issues.
+            <td>[公開バグ修正] [SDK] RevealView の availableChartTypes のタイミングの問題<br>
+            RevealView オブジェクトを初期化した直後に availableChartTypes プロパティを設定すると、問題が発生していました。
             </td>
         </tr>
         <tr>
-            <td>[公開バグ修正] [SDK] RVDateRange Property not returning the expected type<br>
-            The <i>from</i> property in the RVDateRange class was not returning a JavaScript Date.
+            <td>[公開バグ修正] [SDK] RVDateRange プロパティが予期されたタイプを返さない問題<br>
+            RVDateRange クラスの <i>from</i> プロパティが JavaScript の日付を返していませんでした。
             </td>
         </tr>
         <tr>
-            <td>Search fields in the Data Blending screen<br>
-            The Data Blending UI was improved by adding the ability to search for fields to be joined/added in the result.
+            <td>データ ブレンディング画面の検索フィールド<br>
+            結果に結合/追加するフィールドを検索する機能を追加することにより、データ ブレンディング UI が改善されました。
         </td>
         </tr>
         <tr>
@@ -69,8 +69,8 @@
     </tr>
     </tr>
     <tr>
-        <td>Search fields in the Data Blending screen<br>
-            The Data Blending UI was improved by adding the ability to search for fields to be joined/added in the result.
+        <td>データ ブレンディング画面の検索フィールド<br>
+            結果に結合/追加するフィールドを検索する機能を追加することにより、データ ブレンディング UI が改善されました。
         </td>
     </tr>
     <tr>
