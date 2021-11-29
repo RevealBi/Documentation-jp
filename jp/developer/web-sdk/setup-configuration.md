@@ -175,13 +175,22 @@ Reveal Web Client SDK には、サードパーティーの参照が 2 つあり�
 
 ### 2\. Web Client SDK の参照
 
-Web ページで **$.ig.RevealView** コンポーネントを有効にするには、いくつかの クリプトを含める必要があります。これらのスクリプトは Reveal Web Client SDK の一部として提供されます。
+Web ページで **RevealView** コンポーネントを有効にするには、いくつかの クリプトを含める必要があります。これらのスクリプトは Reveal Web Client SDK の一部として提供されます。
 
 ```html
 <script src="~/Reveal/infragistics.reveal.js"></script>
 ```
 
 JavaScript ファイル は \<InstallationDirectory\>\\SDK\\Web\\JS\\Client にあります。
+デフォルトのインストール ディレクトリは次のとおりです:
+```cmd
+"%public%\\Documents\\Infragistics"
+```
+
+> [!NOTE] **Referencing Reveal JS classes**
+> You could reference the JS classes through **$.ig.** or **RevealApi.**.
+> Through out the docs we're using "$.ig." prefix to reference classes.
+> You could use the RevealApi prefix instead of the "$.ig." one, if you want.
 
 <a name='instantiate-web-client-sdk'></a>
 
