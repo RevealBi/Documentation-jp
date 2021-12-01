@@ -187,10 +187,10 @@ JavaScript ファイル は \<InstallationDirectory\>\\SDK\\Web\\JS\\Client に�
 "%public%\\Documents\\Infragistics"
 ```
 
-> [!NOTE] **Referencing Reveal JS classes**
-> You could reference the JS classes through **$.ig.** or **RevealApi.**.
-> Through out the docs we're using "$.ig." prefix to reference classes.
-> You could use the RevealApi prefix instead of the "$.ig." one, if you want.
+> [!NOTE] **Reveal JS クラスの参照**
+> **$.ig.** または **RevealApi.** を介して JS クラスを参照できます。
+> ドキュメント全体を通して、クラスを参照するために「$.ig.」プレフィックスを使用しています。
+>「$.ig.」の代わりに RevealApi プレフィックスを使用できます。
 
 <a name='instantiate-web-client-sdk'></a>
 
