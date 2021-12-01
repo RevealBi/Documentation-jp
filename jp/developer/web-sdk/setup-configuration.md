@@ -187,7 +187,8 @@ JavaScript ファイル は \<InstallationDirectory\>\\SDK\\Web\\JS\\Client に�
 "%public%\\Documents\\Infragistics"
 ```
 
-> [!NOTE] **Reveal JS クラスの参照**
+> [!NOTE] 
+> **Reveal JS クラスの参照**
 > **$.ig.** または **RevealApi.** を介して JS クラスを参照できます。
 > ドキュメント全体を通して、クラスを参照するために「$.ig.」プレフィックスを使用しています。
 >「$.ig.」の代わりに RevealApi プレフィックスを使用できます。
