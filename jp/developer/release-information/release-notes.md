@@ -36,7 +36,7 @@
         <tr>
     <tr>
         <td rowspan="6">10 月 2021 年</td>
-        <td rowspan="6">1.1.0.0</td>
+        <td rowspan="6">1.1.0</td>
         <td><i>.NET Server SDK は、いくつかの変更を加えて拡張されました:</i><br>
         <i>- Reveal サービスの登録はより柔軟になりました</i> - これで、Reveal インターフェースの実装に他のサービスを注入できます。Reveal プロバイダー インターフェイスの実装のタイプのみを登録します。<br>
         <i>- RevealSDKContext が削除されました</i> - RVUserContext は、Reveal プロバイダー全体で第一級市民になりました。UserContextProvider を登録する必要があります。これにより、そのクラスがインスタンス化され、IRVDashboardProvider などの他の Reveal サービスのメソッドに渡されます。<br>

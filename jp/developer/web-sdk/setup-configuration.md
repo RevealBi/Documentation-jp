@@ -170,6 +170,9 @@ Reveal Web Client SDK には、サードパーティーの参照が 2 つあり�
 - [Quill RTE](https://quilljs.com/) 1.3.6 またはそれ以上
 - [Marker Clusterer](https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js) 3 またはそれ以上
 - [Google Maps](https://maps.googleapis.com/maps/api/js?key=AIzaSyBpcuViSxzlScwOBZy5ln5iIvRl9TYn4y0&libraries=drawing,visualization) 3 またはそれ以上
+- *(Optional)* [Spectrum](https://github.com/bgrins/spectrum) v 1.8.0 or newer - this is only needed if you enable the UI for the end user to set the background color for a particular visualization.
+Check [canChangeVisualizationBackgroundColor](~/en/developer/web-sdk/using-the-client-sdk/showing-hiding-elements.html#canChangeVisualizationBackgroundColor)
+
 
 <a name='reference-web-client-sdk'></a>
 

@@ -130,7 +130,8 @@ Reveal Web クライアント SDK には、次のサードパーティの参照�
 - [Quill RTE](https://quilljs.com/) 1.3.6 またはそれ以上
 - [Marker Clusterer](https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js) 3 またはそれ以上
 - [Google Maps](https://maps.googleapis.com/maps/api/js?key=AIzaSyBpcuViSxzlScwOBZy5ln5iIvRl9TYn4y0&libraries=drawing,visualization) 3 またはそれ以上
-
+- *(Optional)* [Spectrum](https://github.com/bgrins/spectrum) v 1.8.0 or newer - this is only needed if you enable the UI for the end user to set the background color for a particular visualization.
+Check [canChangeVisualizationBackgroundColor](~/en/developer/web-sdk/using-the-client-sdk/showing-hiding-elements.html#canChangeVisualizationBackgroundColor) 
 
 <a name='reference-web-client-sdk'></a>
 
@@ -153,10 +154,10 @@ Web ページで **\$.ig.RevealView** コンポーネントを有効にするに
 | [JAVA SDK 1.0.3](https://maven.revealbi.io/repository/public/com/infragistics/reveal/sdk/reveal-sdk-distribution/1.0.3/reveal-sdk-distribution-1.0.3-js.zip) | [バージョン 1.0.3](~/jp/developer/release-information/release-notes.html#java-sdk-1.0.3) |
 | [JAVA SDK 1.0.0](https://maven.revealbi.io/repository/public/com/infragistics/reveal/sdk/reveal-sdk-distribution/1.0.0/reveal-sdk-distribution-1.0.0-js.zip) | [バージョン 1.0.0](~/jp/developer/release-information/release-notes.html#java-sdk-1.0.0) |
 
-> [!NOTE] **Referencing Reveal JS classes**
-> You could reference the JS classes through **$.ig.** or **RevealApi.**.
-> Through out the docs we're using "$.ig." prefix to reference classes.
-> You could use the RevealApi prefix instead of the "$.ig." one, if you want.
+> [!NOTE] **Reveal JS クラスの参照**
+> **$.ig.** または **RevealApi.** を介して JS クラスを参照できます。
+> ドキュメント全体を通して、クラスを参照するために「$.ig.」プレフィックスを使用しています。
+>「$.ig.」の代わりに RevealApi プレフィックスを使用できます。
 
 <a name='instantiate-web-client-sdk'></a>
 
