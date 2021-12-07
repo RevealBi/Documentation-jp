@@ -181,14 +181,13 @@ revealView.availableChartTypes = revealView.availableChartTypes.filter(t => !toR
 ## canChangeVisualizationBackgroundColor
 エンド ユーザーが可視化エディター ([設定] タブの下) で特定の可視化の背景色を変更できるかどうかを示すフラグ。有効にすると、RevealTheme で BackgroundColors として指定された色のリストが推奨パレットとして表示されます。ユーザーは、詳細モードを使用して任意の色を選択することもできます。
 
-このプロパティのデフォルト値は False です。したがって、エンド ユーザーが視覚化の背景を指定できるようにするには、それを true に設定する必要があります。
+このプロパティのデフォルト値は false です。したがって、エンド ユーザーが視覚化の背景を指定できるようにするには、それを true に設定する必要があります。
 
 ``` csharp
 revealView.canChangeVisualizationBackgroundColor = true;
 ```
 
-この機能は、[Spectrum](https://github.com/bgrins/spectrum) カラー ピッカー - v 1.8.0 に依存します。
-使用するには、ブラウザーに読み込まれていることを確認する必要があります:
+この機能は、[Spectrum](https://github.com/bgrins/spectrum) カラー ピッカー - v 1.8.0 に依存します。使用するには、ブラウザーに読み込まれていることを確認する必要があります:
 
 ```html
 <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
@@ -198,5 +197,5 @@ revealView.canChangeVisualizationBackgroundColor = true;
 ```
 
 
-視覚化の背景色は、revealView.setVisualizationBackgroundColor(RVVisualization, color) を呼び出すことによってプログラムで制御することもできます。色の引数は、「#ffffff」 のような 16 進文字列である必要があります。
+視覚化の背景色は、revealView.setVisualizationBackgroundColor(RVVisualization, color) を呼び出すことによってプログラムで制御することもできます。色の引数は、「#ffffff」のような 16 進文字列である必要があります。
 
