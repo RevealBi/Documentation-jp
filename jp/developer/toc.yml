@@ -59,8 +59,8 @@
   href: desktop-sdk/api-reference.md
 - name: リリース情報
   header: true
-- name: 1.1 バージョンへのアップグレード
-  href: release-information/upgrade-to-1.1.md
+- name: .NET 1.1 バージョンへのアップグレード
+  href: release-information/upgrade-to-net-1.1.md
 - name: 既知の問題
   href: release-information/known-issues.md
 - name: リリース ノート

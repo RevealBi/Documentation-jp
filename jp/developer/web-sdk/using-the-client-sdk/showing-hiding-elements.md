@@ -190,10 +190,8 @@ revealView.canChangeVisualizationBackgroundColor = true;
 この機能は、[Spectrum](https://github.com/bgrins/spectrum) カラー ピッカー - v 1.8.0 に依存します。使用するには、ブラウザーに読み込まれていることを確認する必要があります:
 
 ```html
-<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Domine" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.js"></script>
 ```
 
 

@@ -46,7 +46,7 @@
         &emsp;&emsp;.AddMvc()<br>
         &emsp;&emsp;.AddReveal();</i><br>
         詳細については、<a
-                href="../release-information/upgrade-to-1.1.html">Reveal SDK の 1.1 へのアップグレード</a>を参照してください。
+                href="../release-information/upgrade-to-net-1.1.html">Reveal .NET SDK の 1.1 へのアップグレード</a>を参照してください。
         </td>
     </tr>
     <tr>
