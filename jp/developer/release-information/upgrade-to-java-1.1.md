@@ -22,14 +22,13 @@
 
 ### 変更を伴うインターフェース
 
-- `IRVAuthenticationProvider`、`IRVDashboardAuthorizationProvider`、`IRVDataSourceProvider`、`IRVDashboardProvider`、`IRVDataProvider`、`IRVAuthenticationResolver`。
-これらのインターフェースはすべて、メソッド シグネチャを変更し、以前は String 型パラメータのユーザー ID を受け取りましたが、現在は代わりに `IRVUserContext` の 「userContext」 パラメータを受け取ります。
+- `IRVAuthenticationProvider`、`IRVDashboardAuthorizationProvider`、`IRVDataSourceProvider`、`IRVDashboardProvider`、`IRVDataProvider`、`IRVAuthenticationResolver`。これらのインターフェースはすべて、メソッド シグネチャを変更し、以前は String 型パラメータのユーザー ID を受け取りましたが、現在は代わりに `IRVUserContext` の「userContext」パラメータを受け取ります。
 
 - **IRVDataSourceProvider** - 以前は、`changeVisualizationDataSourceItem` と `changeDashboardFilterDataSourceItem` を実装する必要がありました。これら 2 つは、`changeDataSourceItem` という 1 つのメソッドに置き換えられました (ダッシュボード フィルターで使用されるデータ ソース項目と視覚化で使用されるデータ ソース項目は区別されません)。
 
 ### Reveal の初期化の変更
 
-`RevealEngineInitializer#Initialize(IRVAuthenticationProvider authProvider, IRVUserContextProvider userContextProvider, IRVDashboardProvider dashboardProvider, IRVDataSourceProvider dataSourceProvider, IRVDataProvider dataProvider)` が削除されました。代わりに、 `initialize(InitializeParameter parameterObject)` を使用してください。
+`RevealEngineInitializer#Initialize(IRVAuthenticationProvider authProvider, IRVUserContextProvider userContextProvider, IRVDashboardProvider dashboardProvider, IRVDataSourceProvider dataSourceProvider, IRVDataProvider dataProvider)` が削除されました。代わりに、`initialize(InitializeParameter parameterObject)` を使用してください。
 
 ### 動作の変更
 
