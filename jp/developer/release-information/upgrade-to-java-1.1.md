@@ -1,52 +1,52 @@
-## List of Breaking Changes in Java 1.1.0
+## Java 1.1.0 での重大な変更のリスト
 
-### Classes Removed
+### 削除されたクラス
 
-- **RVBaseUserContextProvider** - Classes extending from it should instead implement the `IRVUserContextProvider` interface or `RVContainerRequestAwareUserContextProvider`
+- **RVBaseUserContextProvider** - そこから拡張するクラスは、代わりに `IRVUserContextProvider` インターフェースまたは `RVContainerRequestAwareUserContextProvider` を実装する必要があります。
 
-- **RVBaseAuthenticationProvider** - Classes extending from it should instead implement the `IRVAuthenticationProvider` interface.
+- **RVBaseAuthenticationProvider** - そこから拡張するクラスは、代わりに `IRVAuthenticationProvider` インターフェースを実装する必要があります。
 
-- **RVBaseDashboardAuthorizationProvider** - Classes extending from it should instead implement the `IRVDashboardAuthorizationProvider` interface.
+- **RVBaseDashboardAuthorizationProvider** - そこから拡張するクラスは、代わりに `IRVDashboardAuthorizationProvider` インターフェースを実装する必要があります。
 
-- **RVBaseDataSourceProvider** - Classes extending from it should instead implement the `IRVDataSourceProvider` interface.
+- **RVBaseDataSourceProvider** - そこから拡張するクラスは、代わりに `IRVDataSourceProvider` インターフェースを実装する必要があります。
 
-- **RVBaseDashboardProvider** - Classes extending from it should instead implement the `IRVDashboardProvider` interface.
+- **RVBaseDashboardProvider** - そこから拡張するクラスは、代わりに `IRVDashboardProvider` インターフェースを実装する必要があります。
 
-- **RVBaseDataProvider** - Classes extending from it should instead implement the `IRVDataProvider` interface.
-
-
-### Method Removed
-
-- **RVContainerRequestAwareUserContextProvider#getUserId(ContainerRequestContext requestContext)** - Extensions should instead implement `getUserContext(ContainerRequestContext requestContext)`
+- **RVBaseDataProvider** - そこから拡張するクラスは、代わりに `IRVDataProvider` インターフェースを実装する必要があります。
 
 
-### Interfaces with Changes
+### メソッドが削除されました。
 
-- `IRVAuthenticationProvider`, `IRVDashboardAuthorizationProvider`, `IRVDataSourceProvider`, `IRVDashboardProvider`, `IRVDataProvider`, `IRVAuthenticationResolver`.
-All those interfaces changed the method signatures, they used to receive a user ID of type String parameter, but now they receive instead a `IRVUserContext` 'userContext' parameter.
-
-- **IRVDataSourceProvider** - Previously,  `changeVisualizationDataSourceItem`  and  `changeDashboardFilterDataSourceItem`  had to be implemented. Those two were replaced by just one method, `changeDataSourceItem` (no distinction is made between datasource items used by dashboard filter vs used by visualizations).
-
-### Reveal initialization changes
-
-.`RevealEngineInitializer#Initialize(IRVAuthenticationProvider authProvider, IRVUserContextProvider userContextProvider, IRVDashboardProvider dashboardProvider, IRVDataSourceProvider dataSourceProvider, IRVDataProvider dataProvider)` was removed. You now need to use use `initialize(InitializeParameter parameterObject)` instead.
-
-### Behavior changes
-
-- All log categories emitted by RevealBi are now under "io.revealbi"
-
-- RevealBi no longer returns java exception details in http responses. Instead, a generic error message is shown, along with a correlation id that can be used to identify the exception details in the server log.
+- **RVContainerRequestAwareUserContextProvider#getUserId(ContainerRequestContext requestContext)** - 拡張機能は代わりに `getUserContext (ContainerRequestContext requestContext)` を実装する必要があります。
 
 
+### 変更を伴うインターフェース
+
+- `IRVAuthenticationProvider`、`IRVDashboardAuthorizationProvider`、`IRVDataSourceProvider`、`IRVDashboardProvider`、`IRVDataProvider`、`IRVAuthenticationResolver`。
+これらのインターフェースはすべて、メソッド シグネチャを変更し、以前は String 型パラメータのユーザー ID を受け取りましたが、現在は代わりに `IRVUserContext` の 「userContext」 パラメータを受け取ります。
+
+- **IRVDataSourceProvider** - 以前は、`changeVisualizationDataSourceItem` と `changeDashboardFilterDataSourceItem` を実装する必要がありました。これら 2 つは、`changeDataSourceItem` という 1 つのメソッドに置き換えられました (ダッシュボード フィルターで使用されるデータ ソース項目と視覚化で使用されるデータ ソース項目は区別されません)。
+
+### Reveal の初期化の変更
+
+`RevealEngineInitializer#Initialize(IRVAuthenticationProvider authProvider, IRVUserContextProvider userContextProvider, IRVDashboardProvider dashboardProvider, IRVDataSourceProvider dataSourceProvider, IRVDataProvider dataProvider)` が削除されました。代わりに、 `initialize(InitializeParameter parameterObject)` を使用してください。
+
+### 動作の変更
+
+- RevealBi によって発行されたすべてのログ カテゴリが「io.revealbi」の下になりました。
+
+- RevealBi は、http 応答で Java 例外の詳細を返さなくなりました。代わりに、サーバー ログで例外の詳細を識別するために使用できる相関 ID とともに、一般的なエラー メッセージが表示されます。
 
 
 
 
-## How to upgrade your projects (TO BE UPDATED WITH THE REAL EXAMPLE)
 
-You no longer initialize Reveal using **RevealEngineInitializer.initialize**, now you use **initialize(InitializeParameter parameterObject)**.
 
-The available parameters remain the same and can be used as shown in the example below:
+## プロジェクトをアップグレードする方法
+
+**RevealEngineInitializer.initialize** を使用して Reveal を初期化するのではなく、**initialize(InitializeParameter parameterObject)** を使用するようになりました。
+
+使用可能なパラメーターは同じままで、以下の例に示すように使用できます。
 
 ``` java
 RevealEngineInitializer.initialize(
@@ -60,14 +60,14 @@ RevealEngineInitializer.initialize(
         .setLicense("SERIAL_KEY_TO_BE_USED")
         .build());
 ```
-Those parameters, are the **providers** used to customize Reveal, you’ll need to create your own providers when integrating Reveal into your application.
+これらのパラメーターは Reveal のカスタマイズに使用される**プロバイダー**です。Reveal をアプリケーションに統合する場合は、独自のプロバイダーを作成する必要があります。
 
-The available parameters are:
-- *setAuthProvider*. Here you should include a custom class that resolves authentication, implementing IRVAuthenticationProvider.
-- *setUserContextProvider*. Custom class that provides information about the user, implementing IRVUserContextProvider.
-- *setDashboardProvider*. Custom class that replaces or modifies a dashboard, implementing IRVDashboardProvider.
-- *setDataSourceProvider*. Custom class that replaces or modifies a data source, implementing IRVDataSourceProvider.
-- *setDataProvider*. Custom class that returns in-memory data for dashboards, implementing IRVDataProvider.
-- *setLicense*. Here you can configure the SDK license, by including the Serial Key.
+利用できるパラメーター:
+- *setAuthProvider*。ここで、認証を解決し、IRVAuthenticationProvider を実装するカスタム クラスを含める必要があります。
+- *setUserContextProvider*。IRVUserContextProvider を実装するユーザーに関する情報を提供するカスタム クラス。
+- *setDashboardProvider*。ダッシュボードを置換または変更するカスタム クラス。IRVDashboardProvider を実装します。
+- *setDataSourceProvider*。データソースを置換または変更するカスタム クラス。IRVDataSourceProvider を実装します。
+- *setDataProvider*。ダッシュボードのインメモリ データを返すカスタム クラス。IRVDataProvider を実装します。
+- *setLicense*。ここでは、シリアル キーを含めて SDK ライセンスを構成できます。
 
-For further details about how implement your own Dashboard providers, please check our [UpMedia samples](https://github.com/RevealBi/sdk-samples-java) in GitHub.
+独自のダッシュボード プロバイダーを実装する方法の詳細については、GitHub の [UpMedia サンプル](https://github.com/RevealBi/sdk-samples-java)を確認してください。
