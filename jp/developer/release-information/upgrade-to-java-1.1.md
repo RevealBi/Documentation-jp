@@ -1,4 +1,4 @@
-## Java 1.1.0 での重大な変更のリスト
+## Java v1.1.0 での重大な変更のリスト
 
 ### 削除されたクラス
 
@@ -15,9 +15,11 @@
 - **RVBaseDataProvider** - そこから拡張するクラスは、代わりに `IRVDataProvider` インターフェースを実装する必要があります。
 
 
-### メソッドが削除されました。
+### 削除されたメソッド
 
 - **RVContainerRequestAwareUserContextProvider#getUserId(ContainerRequestContext requestContext)** - 拡張機能は代わりに `getUserContext (ContainerRequestContext requestContext)` を実装する必要があります。
+
+- **RevealEngineInitializer#Initialize(IRVAuthenticationProvider authProvider、IRVUserContextProvider userContextProvider、IRVDashboardProvider dashboardProvider、IRVDataSourceProvider dataSourceProvider、IRVDataProvider dataProvider)** - 代わりに `initialize(InitializeParameter parameterObject)` を使用してください。
 
 
 ### 変更を伴うインターフェース
@@ -34,39 +36,6 @@
 
 - RevealBi によって発行されたすべてのログ カテゴリが「io.revealbi」の下になりました。
 
-- RevealBi は、http 応答で Java 例外の詳細を返さなくなりました。代わりに、サーバー ログで例外の詳細を識別するために使用できる相関 ID とともに、一般的なエラー メッセージが表示されます。
+- RevealBi は、HTTP 応答で Java 例外の詳細を返さなくなりました。代わりに、サーバー ログで例外の詳細を識別するために使用できる相関 ID とともに、一般的なエラー メッセージが表示されます。
 
-
-
-
-
-
-## プロジェクトをアップグレードする方法
-
-**RevealEngineInitializer.initialize** を使用して Reveal を初期化するのではなく、**initialize(InitializeParameter parameterObject)** を使用するようになりました。
-
-使用可能なパラメーターは同じままで、以下の例に示すように使用できます。
-
-``` java
-RevealEngineInitializer.initialize(
-    new InitializeParameterBuilder()
-        .setAuthProvider(new RevealAuthenticationProvider())
-        .setUserContextProvider(new RevealUserContextProvider())
-        .setDashboardProvider(new RevealDashboardProvider())
-        .setDataSourceProvider(new UpMediaDataSourceProvider())
-        .setDataProvider(new UpMediaInMemoryDataProvider())
-        .setMaxConcurrentImageRenderThreads(2)
-        .setLicense("SERIAL_KEY_TO_BE_USED")
-        .build());
-```
-これらのパラメーターは Reveal のカスタマイズに使用される**プロバイダー**です。Reveal をアプリケーションに統合する場合は、独自のプロバイダーを作成する必要があります。
-
-利用できるパラメーター:
-- *setAuthProvider*。ここで、認証を解決し、IRVAuthenticationProvider を実装するカスタム クラスを含める必要があります。
-- *setUserContextProvider*。IRVUserContextProvider を実装するユーザーに関する情報を提供するカスタム クラス。
-- *setDashboardProvider*。ダッシュボードを置換または変更するカスタム クラス。IRVDashboardProvider を実装します。
-- *setDataSourceProvider*。データソースを置換または変更するカスタム クラス。IRVDataSourceProvider を実装します。
-- *setDataProvider*。ダッシュボードのインメモリ データを返すカスタム クラス。IRVDataProvider を実装します。
-- *setLicense*。ここでは、シリアル キーを含めて SDK ライセンスを構成できます。
-
-独自のダッシュボード プロバイダーを実装する方法の詳細については、GitHub の [UpMedia サンプル](https://github.com/RevealBi/sdk-samples-java)を確認してください。
+- **[JS Client]** the onVisualizationLinkingDashboard event was removed from the RevealView class in favor of `onLinkedDashboardProviderAsync` which serves the same purpose and is used when creating the dashboard link in the editor.

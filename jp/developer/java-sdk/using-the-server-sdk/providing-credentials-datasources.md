@@ -8,12 +8,12 @@ Server SDK では、データ ソースにアクセスするときに使用さ�
 
 ## コード
 
-__UpmediaAuthenticationProvider__ (upmedia、upmedia-backend-tomcat、upmedia-backend-spring のサンプル) を参照として使用する場合、現在のユーザーと資格情報が要求されているデータ ソースの _userId_ を受け取る実装された単一のメソッドを見つけることができます。 
+__UpmediaAuthenticationProvider__ (upmedia、upmedia-backend-tomcat、upmedia-backend-spring のサンプル) を参照として使用する場合、現在のユーザーと資格情報が要求されているデータ ソースの _userContext_ を受け取る実装された単一のメソッドを見つけることができます。 
 
 ``` java
 public class UpmediaAuthenticationProvider implements IRVAuthenticationProvider {
     @Override
-    public IRVDataSourceCredential resolveCredentials(String userId, RVDashboardDataSource dataSource) {
+    public IRVDataSourceCredential resolveCredentials(IRVUserContext userContext, RVDashboardDataSource dataSource) {
         // Returning credentials for a SqlServer data source example:
         if (dataSource instanceof RVSqlServerDataSource) {
             String host = ((RVSqlServerDataSource)dataSource).getHost();

@@ -1,4 +1,4 @@
-## .NET 1.1.0 の重大な変更のリスト
+## .NET v1.1.0 の重大な変更のリスト
 
 1. **[.NET サーバー]** RevealSdkContext (RevealSdkContextBase クラスと IRevealSdkContext インターフェイス) を削除しました - これを提供していた主な目的は、Reveal に必要ないくつかのサービス/プロバイダーをバンドルすることだけでした。
 2. **[.NET サーバー]** アプリケーションの Startup.cs クラスの Reveal サービスの登録と構成を更新しました。

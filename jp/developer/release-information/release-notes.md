@@ -17,6 +17,62 @@
     </thead>
     <tbody>
     <tr>
+        <td rowspan="8">12 月 2021 年</td>
+        <td rowspan="8">1.1.1 .NET</td>
+        <td>Localization support for web</br>
+        <a href="/api/javascript/latest/classes/revealsdksettings.html#localizedstringsprovider">
+            $.ig.RevealSdkSettings.localizedStringsProvider</a> extension point enables localization of several dashboard elements: Dashboard title, Widget title, Field labels, Dashboard Filter titles.
+        </td>
+    </tr>
+    <tr>
+        <td>Formatting support for web</br>
+            <a  href="/api/javascript/latest/classes/revealsdksettings.html#fieldformattingsettingsprovider">$.ig.RevealSdkSettings.fieldFormattingSettingsProvider</a> extension point allows defining custom formatting for any date time or numeric field.
+        </td>
+    </tr>
+    <tr>
+        <td>Added option to hide the dashboard header – including the title and the kebab menu.<br>
+            <a hre="/api/wpf/latest/Reveal.Sdk.RevealView.html#Reveal_Sdk_RevealView_ShowHeader">ShowHeader</a> (WPF) & <a href="/api/javascript/latest/classes/revealview.html#showheader">showHeader</a> (JS).
+        </td>
+    </tr>
+    <tr>
+        <td>Added an option to enable/disable the end user ability to maximize visualizations<br>
+            <a hre="/api/wpf/latest/Reveal.Sdk.RevealView.html#Reveal_Sdk_RevealView_CanMaximizeVisualizationProperty">CanMaximizeVisualizationProperty</a> (WPF) & <a href="/api/javascript/latest/classes/revealview.html#canmaximizevisualization">canMaximizeVisualizationProperty</a> (JS). 
+        </td>
+    </tr>
+    <tr>
+        <td>Made easier to check if fonts are loaded before rendering in the browser</br>
+        Now you can you can skip the WebFontLoader library and use <a href="/api/javascript/latest/classes/revealsdksettings.html#ensurefontsloadedasync"> $.ig.RevealSdkSettings.ensureFontsLoadedAsync()</a> to make sure all fonts have been loaded. Instantiate RevealView once the promise returned by this method completes to make sure the fonts needed are loaded.
+        </td>
+    </tr>
+    <tr>
+        <td>Added a new option in the editor to enable/disable the end user ability to change the background color for a given visualization in the visualization editor.</br>
+           <a href="/api/wpf/latest/Reveal.Sdk.RevealView.html#Reveal_Sdk_RevealView_CanChangeVisualizationBackgroundColorProperty">CanChangeVisualizationBackgroundColorProperty</a> (WPF) & <a href="/api/javascript/latest/classes/revealview.html#canchangevisualizationbackgroundcolor">canChangeVisualizationBackgroundColor</a> (JS).
+        </td>
+    </tr>
+    <tr>
+        <td>New way to change the background color for a visualization programmatically.</br>
+            <a href="/api/wpf/latest/Reveal.Sdk.RevealView.html#Reveal_Sdk_RevealView_SetVisualizationBackgroundColor_Reveal_Sdk_RVVisualization_System_Windows_Media_Color_">SetVisualizationBackgroundColor</a> (WPF) & <a href="/api/javascript/latest/classes/revealview.html#setvisualizationbackgroundcolor">setVisualizationBackgroundColor</a> (JS).
+        </td>
+    </tr>
+        <tr>
+        <td>[公開バグ修正]<br>
+        - Fixed export to Excel when there are null date values in the dataset.<br>
+        - Fixed issue exporting to PDF or PPT with custom branding logo.
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="2">12 月 2021 年</td>
+        <td rowspan="2">1.1.0 JAVA</td>
+        <td>The Java Server SDK was greatly improved, for further details please refer to <a href="../release-information/upgrade-to-java-1.1.html">Reveal Java SDK Upgrade to v1.1</a>.
+        </td>
+    </tr>
+    <tr>
+        <td>[公開バグ修正] [SDK] <br>
+        - Fixed export to Excel when there are null date values in the dataset.<br>
+        - Fixed issue exporting to PDF or PPT with custom branding logo.
+        </td>
+    </tr>
+    <tr>
             <td rowspan="3">11 月 2021 年</td>
             <td rowspan="3">1.0.9 JAVA</td>
             <td>[公開バグ修正] [SDK] RevealView の availableChartTypes のタイミングの問題<br>
@@ -36,7 +92,7 @@
         <tr>
     <tr>
         <td rowspan="6">10 月 2021 年</td>
-        <td rowspan="6">1.1.0</td>
+        <td rowspan="6">1.1.0 .NET</td>
         <td><i>.NET Server SDK は、いくつかの変更を加えて拡張されました:</i><br>
         <i>- Reveal サービスの登録はより柔軟になりました</i> - これで、Reveal インターフェースの実装に他のサービスを注入できます。Reveal プロバイダー インターフェイスの実装のタイプのみを登録します。<br>
         <i>- RevealSDKContext が削除されました</i> - RVUserContext は、Reveal プロバイダー全体で第一級市民になりました。UserContextProvider を登録する必要があります。これにより、そのクラスがインスタンス化され、IRVDashboardProvider などの他の Reveal サービスのメソッドに渡されます。<br>
@@ -46,7 +102,7 @@
         &emsp;&emsp;.AddMvc()<br>
         &emsp;&emsp;.AddReveal();</i><br>
         詳細については、<a
-                href="../release-information/upgrade-to-net-1.1.html">Reveal .NET SDK の 1.1 へのアップグレード</a>を参照してください。
+                href="../release-information/upgrade-to-net-1.1.html">Reveal .NET SDK の v1.1 へのアップグレード</a>を参照してください。
         </td>
     </tr>
     <tr>
