@@ -38,4 +38,4 @@
 
 - RevealBi は、HTTP 応答で Java 例外の詳細を返さなくなりました。代わりに、サーバー ログで例外の詳細を識別するために使用できる相関 ID とともに、一般的なエラー メッセージが表示されます。
 
-- **[JS Client]** the onVisualizationLinkingDashboard event was removed from the RevealView class in favor of `onLinkedDashboardProviderAsync` which serves the same purpose and is used when creating the dashboard link in the editor.
+- **[JS クライアント]** onVisualizationLinkingDashboard イベントが RevealView クラスから削除され、同じ目的を果たし、エディターでダッシュボード リンクを作成するときに使用される `onLinkedDashboardProviderAsync` が採用されました。

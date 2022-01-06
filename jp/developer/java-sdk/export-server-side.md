@@ -46,7 +46,7 @@ sudo apt-get install -y --no-install-recommends xvfb
 
 必要に応じて、ログ ファイルに含まれるエラーから、見つからないライブラリに関する詳細情報を取得できます。
 
-Please note that Ubuntu requires the following extra step (which also requires [Maven](https://maven.apache.org/install.html)).
+Ubuntu には次の追加手順が必要であることに注意してください ([Maven](https://maven.apache.org/install.html) も必要です)。
 
 ```bash
 mvn exec:java -e -Dexec.mainClass=com.microsoft.playwright.CLI -Dexec.args="install-deps chromium"
