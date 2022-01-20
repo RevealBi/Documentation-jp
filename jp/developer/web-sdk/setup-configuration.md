@@ -14,7 +14,9 @@ Reveal Server SDK には、.NET Core 3.1 以降が必要です。
 
 3.  [**サーバー SDK を初期化します。**](#initializing-server-sdk)
 
-4.  [**サーバー側画像生成を有効化します。**](#server-side-image-export)
+4.  [**Setting up server-side screenshot generation**](#server-side-image-export).
+
+5.  [**Enable reveal logging**](#enable-reveal-logging)
 
 <a name='installing-reveal-sdk'></a>
 
@@ -115,31 +117,55 @@ builder.AddDashboardProvider(new DashboardProvider())
 
 <a name='server-side-image-export'></a>
 
-### 4\. サーバー側画像生成の有効化
+### 4\. Setting up server-side screenshot generation
 
-**画像エクスポート**機能 (プログラム上およびユーザー操作の両方により) を使用するには、以下の手順を実行する必要があります。
+In order to use the export to **image**, **PDF** or **PowerPoint** functionality (either
+programmatically or through user interaction) we use [**Playwright**](https://playwright.dev/dotnet/).
 
-1.  **\<InstallationDirectory\>\\SDK\\Web\\JS\\Server** から以下の 3 つのファイルを取得します。
+By default, the first time an user tries to export a dashboard to image, PDF or PowerPoint,
+Playwright would try to download Chromium browser to it's default location for the current platform.
+For windows the default path is **%userprofile%\AppData\Local\ms-playwright\**. The Chromium executables it downloads size ~220 Megabytes.
 
-      - package.json
-      - packages-lock.json
-      - screenshoteer.js
+This download could take some time and cause delay for the first user that tries to export a dashboard. This is ok during development time but not so much when you deply to staging or a production environment. For these scenarios we provide some settings that allow you to fine tune your deployment.
 
-2.  ファイルをプロジェクトのルート レベル (「wwwroot」の親フォルダー) にコピーします。
+These settings are exposed through the RevealEmbedSettings class.
+- <a href="/api/aspnet/latest/Reveal.Sdk.RevealEmbedSettings.html#Reveal_Sdk_RevealEmbedSettings_CreateChromiumInstancesOnDemand" target="_blank" rel="noopener\">CreateChromiumInstancesOnDemand</a> - set this to false to force Playwright initialization to happen on app startup
+- <a href="/api/aspnet/latest/Reveal.Sdk.RevealEmbedSettings.html#Reveal_Sdk_RevealEmbedSettings_ChromiumDownloadFolder" target="_blank" rel="noopener\">ChromiumDownloadFolder</a> - provide the location where the Chromium executables would get downloaded
+- <a href="/api/aspnet/latest/Reveal.Sdk.RevealEmbedSettings.html#Reveal_Sdk_RevealEmbedSettings_ChromiumExecutablePath" target="_blank" rel="noopener\">ChromiumExecutablePath</a> ChromiumExecutablePath - you might want to manually deploy the Chromium executables for your server platform. Set this path to the location where you've deployed Chromium executables.
+- <a href="/api/aspnet/latest/Reveal.Sdk.RevealEmbedSettings.html#Reveal_Sdk_RevealEmbedSettings_MaxConcurrentExportingThreads" target="_blank" rel="noopener\">MaxConcurrentExportingThreads</a> - you could specify how many concurrent threads supporting export functionality should be used
+- <a href="/api/aspnet/latest/Reveal.Sdk.RevealEmbedSettings.html#Reveal_Sdk_RevealEmbedSettings_ExportingTimeout" target="_blank" rel="noopener\">ExportingTimeout</a> - defines the timeout period in milliseconds for an export operation. Default value is 30000 ms. When an end user tries to export a dashboard this if does no finish in the specified time period the export operation would fail. Increasing the number of concurrent threads might help in such a case.
 
-3.  **npm** (Node.js のパッケージ マネージャー) がインストールされていることを確認してください。
+In case you want to use the ChromiumExecutablePath and set up the browsers manually on your environment you will need get the Chromium executables using the [**Playwright Cli**](https://playwright.dev/dotnet/docs/cli) like:
+```cmd
+dotnet tool install --global Microsoft.Playwright.CLI
+playwright install chromium
+```
 
-画像エクスポート機能が必要ない場合は、ファイルをプロジェクトにコピーする必要はありません。ただし、プロジェクトをビルドする場合、*npm* が見つからない警告メッセージが表示され、プロジェクトが正しく動作しません。
+**Note:** Prior to version <b>1.1.2</b> we were using puppeteer & nodejs for the export functionality.
+You had to add package.json & screenshoteer.js files to the root of your project and for the export to work.
+With version 1.1.2 release this is no longer necessary as well as you don't need to have nodejs installed on your dev/prod environments.
 
-このエラーを解決するには、以下のプロパティをプロジェクトに追加します。
+<a name='enable-reveal-logging'></a>
 
-```xml
-<PropertyGroup>
-  <DisableRevealExportToImage>true</DisableRevealExportToImage>
-</PropertyGroup>
+### 5\. Enable Reveal logging
+
+You could enable reveal logging by adding a "Reveal.Sdk" key in you're appsettings.json and set its log level like
+```json
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information",
+      "Reveal.Sdk": "Debug"
+    }
+  },
+  "AllowedHosts": "*"
+}
 ```
 
 <a name='sqlite-fix'></a>
+
 ### NuGet 使用時のビルドの問題
 
 **SQLite.Interop.dll** に関連するデプロイメントの問題を処理するために、NuGet パッケージでカスタムの .targets ファイルが使用されています。

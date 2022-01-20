@@ -47,16 +47,6 @@
   href: java-sdk/java-sdk-redistributables.md
 - name: Java API リファレンス
   href: java-sdk/api-reference.md
-- name: Desktop SDK
-  header: true
-- name: 概要
-  href: desktop-sdk/overview.md
-- name: セットアップと構成
-  href: desktop-sdk/setup-configuration.md
-- name: Desktop SDK の使用
-  href: desktop-sdk/using-the-desktop-sdk/toc.yml
-- name: API リファレンス
-  href: desktop-sdk/api-reference.md
 - name: リリース情報
   header: true
 - name: .NET v1.1 へのアップグレード
