@@ -14,9 +14,9 @@ Reveal Server SDK には、.NET Core 3.1 以降が必要です。
 
 3.  [**サーバー SDK を初期化します。**](#initializing-server-sdk)
 
-4.  [**Setting up server-side screenshot generation**](#server-side-image-export).
+4.  [**サーバー側画像生成を設定します。**](#server-side-image-export)
 
-5.  [**Enable reveal logging**](#enable-reveal-logging)
+5.  [**Reveal ログを有効にします。**](#enable-reveal-logging)
 
 <a name='installing-reveal-sdk'></a>
 
@@ -117,39 +117,34 @@ builder.AddDashboardProvider(new DashboardProvider())
 
 <a name='server-side-image-export'></a>
 
-### 4\. Setting up server-side screenshot generation
+### 4\. サーバー側画像生成の設定
 
-In order to use the export to **image**, **PDF** or **PowerPoint** functionality (either
-programmatically or through user interaction) we use [**Playwright**](https://playwright.dev/dotnet/).
+**画像**、**PDF**、または **PowerPoint** 機能へのエクスポート (プログラムまたはユーザー操作による) を使用するには、[**Playwright**](https://playwright.dev/dotnet/) を使用します。
 
-By default, the first time an user tries to export a dashboard to image, PDF or PowerPoint,
-Playwright would try to download Chromium browser to it's default location for the current platform.
-For windows the default path is **%userprofile%\AppData\Local\ms-playwright\**. The Chromium executables it downloads size ~220 Megabytes.
+デフォルトでは、ユーザーがダッシュボードを画像、PDF、または PowerPoint に初めてエクスポートしようとすると、Playwright は Chromium ブラウザーを現在のプラットフォームのデフォルトの場所にダウンロードしようとします。Windows の場合、デフォルトのパスは **%userprofile%\AppData\Local\ms-playwright\** です。ダウンロードする Chromium 実行可能ファイルのサイズは約 220 メガバイトです。
 
-This download could take some time and cause delay for the first user that tries to export a dashboard. This is ok during development time but not so much when you deply to staging or a production environment. For these scenarios we provide some settings that allow you to fine tune your deployment.
+このダウンロードには時間がかかり、ダッシュボードをエクスポートしようとする最初のユーザーに遅延が発生する可能性があります。これは開発期間中は問題ありません。ただし、ステージング環境またはプロダクション環境にデプロイする場合は問題があります。これらのシナリオでは、デプロイを微調整できるいくつかの設定を提供します。
 
-These settings are exposed through the RevealEmbedSettings class.
-- <a href="/api/aspnet/latest/Reveal.Sdk.RevealEmbedSettings.html#Reveal_Sdk_RevealEmbedSettings_CreateChromiumInstancesOnDemand" target="_blank" rel="noopener\">CreateChromiumInstancesOnDemand</a> - set this to false to force Playwright initialization to happen on app startup
-- <a href="/api/aspnet/latest/Reveal.Sdk.RevealEmbedSettings.html#Reveal_Sdk_RevealEmbedSettings_ChromiumDownloadFolder" target="_blank" rel="noopener\">ChromiumDownloadFolder</a> - provide the location where the Chromium executables would get downloaded
-- <a href="/api/aspnet/latest/Reveal.Sdk.RevealEmbedSettings.html#Reveal_Sdk_RevealEmbedSettings_ChromiumExecutablePath" target="_blank" rel="noopener\">ChromiumExecutablePath</a> ChromiumExecutablePath - you might want to manually deploy the Chromium executables for your server platform. Set this path to the location where you've deployed Chromium executables.
-- <a href="/api/aspnet/latest/Reveal.Sdk.RevealEmbedSettings.html#Reveal_Sdk_RevealEmbedSettings_MaxConcurrentExportingThreads" target="_blank" rel="noopener\">MaxConcurrentExportingThreads</a> - you could specify how many concurrent threads supporting export functionality should be used
-- <a href="/api/aspnet/latest/Reveal.Sdk.RevealEmbedSettings.html#Reveal_Sdk_RevealEmbedSettings_ExportingTimeout" target="_blank" rel="noopener\">ExportingTimeout</a> - defines the timeout period in milliseconds for an export operation. Default value is 30000 ms. When an end user tries to export a dashboard this if does no finish in the specified time period the export operation would fail. Increasing the number of concurrent threads might help in such a case.
+これらの設定は、<a href="/api/aspnet/latest/Reveal.Sdk.ExportConfiguration.html" target="_blank" rel="noopener\">RevealEmbedSettings Export</a>  プロパティを通じて公開されます。
+- <a href="/api/aspnet/latest/Reveal.Sdk.ExportConfiguration.html#Reveal_Sdk_ExportConfiguration_CreateChromiumInstancesOnDemand" target="_blank" rel="noopener\">CreateChromiumInstancesOnDemand</a> - これを false に設定すると、アプリの起動時に Playwright の初期化が強制的に行われます。
+- <a href="/api/aspnet/latest/Reveal.Sdk.ExportConfiguration.html#Reveal_Sdk_RevealEmbedSettings_ChromiumDownloadFolder" target="_blank" rel="noopener\">ChromiumDownloadFolder</a> - Chromium 実行可能ファイルがダウンロードされる場所を提供します。
+- <a href="/api/aspnet/latest/Reveal.Sdk.ExportConfiguration.html#Reveal_Sdk_RevealEmbedSettings_ChromiumExecutablePath" target="_blank" rel="noopener\">ChromiumExecutablePath</a> ChromiumExecutablePath - サーバー プラットフォームに Chromium 実行可能ファイルを手動でデプロイすることをお勧めします。このパスを、Chromium 実行可能ファイルをデプロイした場所に設定します。
+- <a href="/api/aspnet/latest/Reveal.Sdk.ExportConfiguration.html#Reveal_Sdk_RevealEmbedSettings_MaxConcurrentExportingThreads" target="_blank" rel="noopener\">MaxConcurrentExportingThreads</a> - エクスポート機能をサポートするスレッドを同時にいくつ使用するかを指定できます。
+- <a href="/api/aspnet/latest/Reveal.Sdk.ExportConfiguration.html#Reveal_Sdk_RevealEmbedSettings_ExportingTimeout" target="_blank" rel="noopener\">ExportingTimeout</a> - エクスポート操作のタイムアウト期間をミリ秒単位で定義します。デフォルト値は 30000 ms。エンドユーザーがダッシュボードをエクスポートする際、指定された期間内に終了しなかった場合、エクスポート操作は失敗します。このような場合は、同時実行スレッドの数を増やすと役立つ場合があります。
 
-In case you want to use the ChromiumExecutablePath and set up the browsers manually on your environment you will need get the Chromium executables using the [**Playwright Cli**](https://playwright.dev/dotnet/docs/cli) like:
+ChromiumExecutablePath を使用し、ご使用の環境でブラウザーを手動でセットアップする場合は、[**Playwright Cli**](https://playwright.dev/dotnet/docs/cli) を使用する Chromium 実行可能ファイルを取得する必要があります:
 ```cmd
 dotnet tool install --global Microsoft.Playwright.CLI
 playwright install chromium
 ```
 
-**Note:** Prior to version <b>1.1.2</b> we were using puppeteer & nodejs for the export functionality.
-You had to add package.json & screenshoteer.js files to the root of your project and for the export to work.
-With version 1.1.2 release this is no longer necessary as well as you don't need to have nodejs installed on your dev/prod environments.
+**注:** バージョン <b>1.1.2</b> より前は、エクスポート機能に puppeteer と nodejs を使用していました。プロジェクトのルートに package.json ファイルと screenshoteer.js ファイルを追加し、エクスポートを機能させる必要がありました。バージョン 1.1.2 リリースでは、これは不要になり、開発 / 実稼働環境に nodejs をインストールする必要もありません。
 
 <a name='enable-reveal-logging'></a>
 
-### 5\. Enable Reveal logging
+### 5\. Reveal ログを有効にする
 
-You could enable reveal logging by adding a "Reveal.Sdk" key in you're appsettings.json and set its log level like
+appsettings.json に「Reveal.Sdk」キーを追加してログ レベルを次のように設定することで、Reveal ログを有効にできます:
 ```json
 {
   "Logging": {
