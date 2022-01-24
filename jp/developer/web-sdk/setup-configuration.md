@@ -213,7 +213,7 @@ JavaScript ファイル は \<InstallationDirectory\>\\SDK\\Web\\JS\\Client に�
 
 > [!NOTE] 
 > **Reveal JS クラスの参照**
-> **$.ig.** または **RevealApi.** を介して JS クラスを参照できます。ドキュメント全体を通して、クラスを参照するために「$.ig.」プレフィックスを使用しています。「$.ig.」の代わりに RevealApi プレフィックスを使用できます。
+> **$.ig.** または **RevealApi.** を介して JS クラスを参照できます。ドキュメント全体を通して、クラスを参照するために「$.ig.」プレフィックスを使用しています。「$.ig.」の代わりに RevealApi プレフィックスを使用できます。Using **RevealApi** prefix could be better if you're using typescript since you should be able to drop the type definitions(beta) infragistics.reveal.d.ts in your project.
 
 <a name='instantiate-web-client-sdk'></a>
 
