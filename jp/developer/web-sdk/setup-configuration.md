@@ -119,7 +119,7 @@ builder.AddDashboardProvider(new DashboardProvider())
 
 ### 4\. サーバー側画像生成の設定
 
-**画像**、**PDF**、または **PowerPoint** 機能へのエクスポート (プログラムまたはユーザー操作による) を使用するには、[**Playwright**](https://playwright.dev/dotnet/) を使用します。
+**画像**、**PDF**、または **PowerPoint** 機能へのエクスポート (プログラムまたはユーザー操作による) を使用するには、.NET Server SDK は、内部で [**Playwright**](https://playwright.dev/dotnet/) を使用します。
 
 デフォルトでは、ユーザーがダッシュボードを画像、PDF、または PowerPoint に初めてエクスポートしようとすると、Playwright は Chromium ブラウザーを現在のプラットフォームのデフォルトの場所にダウンロードしようとします。Windows の場合、デフォルトのパスは **%userprofile%\AppData\Local\ms-playwright\** です。ダウンロードする Chromium 実行可能ファイルのサイズは約 220 メガバイトです。
 
@@ -138,7 +138,7 @@ dotnet tool install --global Microsoft.Playwright.CLI
 playwright install chromium
 ```
 
-**注:** バージョン <b>1.1.2</b> より前は、エクスポート機能に puppeteer と nodejs を使用していました。プロジェクトのルートに package.json ファイルと screenshoteer.js ファイルを追加し、エクスポートを機能させる必要がありました。バージョン 1.1.2 リリースでは、これは不要になり、開発 / 実稼働環境に nodejs をインストールする必要もありません。
+**注:** バージョン <b>1.1.2</b> より前では、SDK はエクスポート機能に puppeteer と nodejs を使用していました。プロジェクトのルートに package.json ファイルと screenshoteer.js ファイルを追加し、エクスポートを機能させる必要がありました。バージョン 1.1.2 リリースでは、これは不要になり、開発 / 実稼働環境に nodejs をインストールする必要もありません。
 
 <a name='enable-reveal-logging'></a>
 
@@ -213,7 +213,7 @@ JavaScript ファイル は \<InstallationDirectory\>\\SDK\\Web\\JS\\Client に�
 
 > [!NOTE] 
 > **Reveal JS クラスの参照**
-> **$.ig.** または **RevealApi.** を介して JS クラスを参照できます。ドキュメント全体を通して、クラスを参照するために「$.ig.」プレフィックスを使用しています。「$.ig.」の代わりに RevealApi プレフィックスを使用できます。Using **RevealApi** prefix could be better if you're using typescript since you should be able to drop the type definitions(beta) infragistics.reveal.d.ts in your project.
+> **$.ig.** または **RevealApi.** を介して JS クラスを参照できます。ドキュメント全体を通して、クラスを参照するために「$.ig.」プレフィックスを使用しています。「$.ig.」の代わりに RevealApi プレフィックスを使用できます。プロジェクトにタイプ定義 (beta) infragistics.reveal.d.ts をドロップできるはずなので、typescript を使用している場合は、**RevealApi** プレフィックスを使用する方がよい場合があります。
 
 <a name='instantiate-web-client-sdk'></a>
 
