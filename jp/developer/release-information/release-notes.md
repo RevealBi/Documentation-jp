@@ -19,36 +19,36 @@
     <tr>
         <td rowspan="6">1 月 2022 年</td>
         <td rowspan="6">1.1.2 .NET</td>
-        <td><i>[公開バグ修正] [SDK] LocalizationProvider and DataSourceProvider issue</i><br>
-        Setting up a LocalizationProvider was not working in a few cases in which a DataSourceProvider was also set up.
+        <td>[公開バグ修正] [SDK] LocalizationProvider と DataSourceProvider の問題<br>
+        DataSourceProvider も設定されているいくつかのケースでは、LocalizationProvider の設定が機能していませんでした。
         </td>
     </tr>
     <tr>
-        <td><i>[公開バグ修正] [SDK] Export to Excel with null values in column names issue</i><br>
-        When exporting to excel having a null value in a column name, the app was crashing with InvalidCastException.
+        <td>[公開バグ修正] [SDK] 列名に null 値を指定して Excel にエクスポートの問題<br>
+        列名に null 値を含む Excel にエクスポートすると、アプリが InvalidCastException でクラッシュしていました。
         </td>
     </tr>
         <tr>
-        <td><i>[公開バグ修正] [SDK] Export to PDF/PPT with custom logo issue</i><br>
-        Exporting to PDF or PPT formats and including a custom branding logo was not working as expected.
+        <td>[公開バグ修正] [SDK] カスタム ロゴ付きの PDF/PPT にエクスポートの問題<br>
+        PDF または PPT 形式へのエクスポート、およびカスタム ブランド ロゴの組み込みは、期待どおりに機能しませんでした。
         </td>
     </tr>
         <tr>
-        <td><i>[公開バグ修正] [SDK] Dashboard filtering issue</i><br>
-        When using a large data source with dashboard linking and filtering, the app was not showing filtered data as expected.
+        <td>[公開バグ修正] [SDK] ダッシュボード フィルタリングの問題<br>
+        ダッシュボードのリンクとフィルタリングを備えた大規模なデータ ソースを使用すると、アプリはフィルタリングされたデータを期待どおりに表示しませんでした。
         </td>
     </tr>
         <tr>
-        <td><i>[公開バグ修正] [SDK] Dashboard linking and drilled down data issue</i><br>
-        When dashboard linking passes information from a visualization, previously drilled down to values were not being included.
+        <td>[公開バグ修正] [SDK] ダッシュボードのリンクとドリルダウンされたデータの問題<br>
+        ダッシュボード リンクが可視化から情報を渡すとき、過去のドリルダウンされた値は含まれていませんでした。
         </td>
     </tr>
     <tr>
-        <td><i>The .NET Server SDK was enhanced with several changes:</i><br>
-        <i>- .NET server logging</i> - You can now enable .NET server logging for Reveal SDK. It’s managed with upsetting.json LogLevel like "Reveal.Sdk.*": "Trace”.<br>
-        <i>- Playwright-based Export </i> - Export to image, PDF and PPT are now based on Playwright instead of Puppeteer. For further details, read about how can to adjust your deployment procedures.<br>
-        For further details, please read about <a
-                href="../web-sdk/setup-configuration.html#4-set-up-server-side-screenshot-generation">how to adjust your deployment</a>.
+        <td>.NET Server SDK は、いくつかの変更を加えて拡張されました:<br>
+        <i>- .NET サーバー ログ</i> - これで、Reveal SDK の .NET サーバー ログを有効にできます。「Reveal.Sdk.*」:「Trace」のような upsetting.json LogLevel で管理されます。<br>
+        <i>- Playwright ベースのエクスポート </i> - 画像、PDF、PPT へのエクスポートは、Puppeteer ではなく Playwright に基づいています。詳細については、デプロイ手順を調整する方法についてお読みください。<br>
+        詳細については、<a
+                href="../web-sdk/setup-configuration.html#4-set-up-server-side-screenshot-generation">デプロイ手順を調整する方法についてお読みください</a>。
         </td>
     </tr>
     <tr>
