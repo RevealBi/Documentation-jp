@@ -48,7 +48,7 @@
         <i>- .NET サーバー ログ</i> - これで、Reveal SDK の .NET サーバー ログを有効にできます。「Reveal.Sdk.*」:「Trace」のような upsetting.json LogLevel で管理されます。<br>
         <i>- Playwright ベースのエクスポート </i> - 画像、PDF、PPT へのエクスポートは、Puppeteer ではなく Playwright に基づいています。詳細については、デプロイ手順を調整する方法についてお読みください。<br>
         詳細については、<a
-                href="../web-sdk/setup-configuration.html#4-set-up-server-side-screenshot-generation">デプロイ手順を調整する方法についてお読みください</a>。
+                href="../web-sdk/setup-configuration.html#4-サーバー側画像生成の設定">デプロイ手順を調整する方法についてお読みください</a>。
         </td>
     </tr>
     <tr>
