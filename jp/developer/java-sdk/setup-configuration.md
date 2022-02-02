@@ -46,7 +46,7 @@ Reveal を既存のアプリケーションと統合するには、次の一般�
 Tomcat または Spring の構成については、以下のリンクを参照してください。
 - [Tomcat サーバー](setup-configuration-tomcat.md)
 - [Spring サーバー](setup-configuration-spring.md)
-- [Oracle Server](setup-configuration-oracle.md)
+- [Oracle サーバー](setup-configuration-oracle.md)
 
 ### 手順 1 – アプリケーションに依存関係を追加します。
 
