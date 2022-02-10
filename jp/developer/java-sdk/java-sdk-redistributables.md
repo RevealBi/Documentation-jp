@@ -42,8 +42,6 @@
 | クライアント側 SDK | [jQuery validation](https://github.com/jquery-validation) | [MIT](https://github.com/jquery-validation/jquery-validation/blob/master/LICENSE.md) |
 | クライアント側 SDK | [jQuery validation unobtrusive](https://github.com/aspnet/jquery-validation-unobtrusive/) | [Apache 2.0](https://github.com/aspnet/jquery-validation-unobtrusive/blob/main/LICENSE.txt)  |
 | クライアント側 SDK | [Roboto Google Font](https://fonts.google.com/specimen/Roboto) | [Apache 2.0](https://fonts.google.com/specimen/Roboto#license)  |
-| クライアント側 SDK | [Google Maps Marker Clusterer](https://github.com/googlemaps/js-marker-clusterer) | [Apache 2.0](https://github.com/googlearchive/js-marker-clusterer/blob/gh-pages/LICENSE)  |
-| クライアント側 SDK | [Google Maps Platform](https://developers.google.com/maps/documentation) | [カスタム](https://cloud.google.com/maps-platform/terms)  |
 | クライアント側 SDK | [Babel JS Compiler](https://github.com/babel/babel) | [MIT](https://github.com/babel/babel/blob/main/LICENSE)  |
 | クライアント側 SDK | [LitElement](https://github.com/Polymer/lit-element) | [BSD 3-Clause](https://github.com/lit/lit-element/blob/master/LICENSE)  |
 | クライアント側 SDK | [Simple JavaScript Inheritance](https://johnresig.com/blog/simple-javascript-inheritance/) | [MIT](https://opensource.org/licenses/mit-license.html)  |

@@ -128,8 +128,6 @@ Reveal Web クライアント SDK には、次のサードパーティの参照�
 - [jQuery](https://jquery.com) 2.2 またはそれ以上
 - [Day.js](https://day.js.org) 1.8.15 またはそれ以上
 - [Quill RTE](https://quilljs.com/) 1.3.6 またはそれ以上
-- [Marker Clusterer](https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js) 3 またはそれ以上
-- [Google Maps](https://maps.googleapis.com/maps/api/js?key=AIzaSyBpcuViSxzlScwOBZy5ln5iIvRl9TYn4y0&libraries=drawing,visualization) 3 またはそれ以上
 - **(オプション)** [Spectrum](https://github.com/bgrins/spectrum) v 1.8.0 以降 - これは、エンド ユーザーが特定の可視化の背景色を設定できるように UI を有効にする場合にのみ必要です。
 [canChangeVisualizationBackgroundColor](~/jp/developer/web-sdk/using-the-client-sdk/showing-hiding-elements.html#canChangeVisualizationBackgroundColor) をご覧ください。
 

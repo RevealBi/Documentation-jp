@@ -63,7 +63,7 @@ __$.ig.RVFilterValue__ の label 属性を使用して地域の名前を表示�
 <script type="text/javascript">
     var dashboardId = 'Sales';
 
-    $.ig.RVDashaboard.loadDashboard(dashboardId, function (dashboard) {
+    $.ig.RVDashboard.loadDashboard(dashboardId, function (dashboard) {
         var revealView = window.revealView = new $.ig.RevealView("#revealView");
         revealView.showFilters = false;
         revealView.dashboard = dashboard;
