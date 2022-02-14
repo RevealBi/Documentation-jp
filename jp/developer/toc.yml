@@ -8,22 +8,6 @@
   href: general/installation-requirements.md
 - name: SDK 用のダッシュボードの取得
   href: general/get-dashboards.md
-- name: WEB .NET SDK
-  header: true
-- name: 概要
-  href: web-sdk/overview.md
-- name: セットアップと構成
-  href: web-sdk/setup-configuration.md
-# - name: 初めてのアプリ作成
-#   href: web-sdk/create-first-app.md
-- name: サーバー SDK の使用
-  href: web-sdk/using-the-server-sdk/toc.yml
-- name: クライアント SDK の使用
-  href: web-sdk/using-the-client-sdk/toc.yml
-- name: サーバー API リファレンス
-  href: web-sdk/api-reference-server.md
-- name: クライアント API リファレンス
-  href: web-sdk/api-reference-client.md
 - name: WEB JAVA SDK
   header: true
 - name: 概要
