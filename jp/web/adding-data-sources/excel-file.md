@@ -1,10 +1,10 @@
-# Adding an Excel File Data Source
+# Excel ファイル データ ソースの追加
 
-**Step 1** - In the ASP.NET Web API server application, create a folder that will contain your Excel files.
+**手順 1** - ASP.NET Web API サーバー アプリケーションで、Excel ファイルを含むフォルダーを作成します。
 
 ![](images/excel-file-folder.jpg)
 
-**Step 2** - Set the `RevealEmbedSettings.LocalFileStoragePath` property to the location of the folder created in **Step 1**
+**手順 2** - `RevealEmbedSettings.LocalFileStoragePath` プロパティを**手順 1** で作成したフォルダーの場所に設定します。
 
 ```cs
 builder.Services.AddControllers().AddReveal( builder =>
@@ -16,15 +16,15 @@ builder.Services.AddControllers().AddReveal( builder =>
 });
 ```
 
-**Step 3** - Add an event handler for the `RevealView.onDataSourcesRequested` event.
+**手順 3** - `RevealView.onDataSourcesRequested` イベントのイベント ハンドラーを追加します。
 
-First define a `<div>` tag with the `id` set to `revealView`.
+まず、`id` を `revealView` に設定して `<div>` タグを定義します。
 
 ```html
 <div id="revealView" style="height: 920px; width: 100%;"></div>
 ```
 
-Initialize the `revealView` and add the event handler.
+`revealView` を初期化し、イベント ハンドラーを追加します。
 
 ```javascript
 var revealView = new $.ig.RevealView("#revealView");
@@ -34,7 +34,7 @@ revealView.onDataSourcesRequested = (callback) => {
 };
 ```
 
-**Step 4** - In the `RevealView.onDataSourcesRequested` event handler, create a new instance of the `RVLocalFileDataSourceItem` object. Set the `Uri` property to the path, including the file name, of the Excel file you want to use as a data source.
+**手順 4** - `RevealView.onDataSourcesRequested` イベント ハンドラーで、`RVLocalFileDataSourceItem` オブジェクトの新しいインスタンスを作成します。`Uri` プロパティを、データ ソースとして使用する Excel ファイルのパス (ファイル名を含む) に設定します。
 
 ```javascript
 revealView.onDataSourcesRequested = (callback) => {
@@ -46,17 +46,17 @@ revealView.onDataSourcesRequested = (callback) => {
 ```
 
 > [!IMPORTANT]
-> You must prefix the Excel file path with `local:/`, because this instructs the Reveal SDK to load files using the `RevealEmbedSettings.LocalFileStoragePath` as the root of the file path. If you have subfolders within the root path, be sure to include these subfolders in the `Uri` property. 
+> Excel ファイルパスの前に `local:/` を付ける必要があります。これは、`RevealEmbedSettings.LocalFileStoragePath` をファイル パスのルートとして使用してファイルを読み込むように Reveal SDK に指示するためです。ルート パス内にサブフォルダーがある場合は、これらのサブフォルダーを `Uri` プロパティに含めるようにしてください。
 >
-> For example:
+> 例:
 >
-> * Without subfolder - `RVLocalFileDataSourceItem.Uri = "local:/FileName.xlsx"`
+> * サブフォルダーなし - `RVLocalFileDataSourceItem.Uri = "local:/FileName.xlsx"`
 >
-> * With subfolder - `RVLocalFileDataSourceItem.Uri = "local:/SubFolder/FileName.xlsx"`
+> * サブフォルダーあり - `RVLocalFileDataSourceItem.Uri = "local:/SubFolder/FileName.xlsx"`
 
-**Step 5** - Create a new instance of the `RVExcelDataSourceItem` object and pass the `RVLocalFileDataSourceItem` instance you created in the previous step as an argument in the object constructor. Set the `Title` property to a string which describes the data within the Excel file.
+**手順 5** - `RVExcelDataSourceItem` オブジェクトの新しいインスタンスを作成し、前の手順で作成した `RVLocalFileDataSourceItem` インスタンスをオブジェクト コンストラクターの引数として渡します。`Title` プロパティを、Excel ファイル内のデータを説明する文字列に設定します。
 
-Finally, add the `RVExcelDataSourceItem` object to the data source items array in the `callback`.
+最後に、`RVExcelDataSourceItem` オブジェクトを`コールバック`のデータ ソース項目配列に追加します。
 
 ```javascript
 revealView.onDataSourcesRequested = (callback) => {
@@ -70,12 +70,12 @@ revealView.onDataSourcesRequested = (callback) => {
 };
 ```
 
-When the application runs, create a new Visualization and you will see the newly created Excel file data source listed in the "Select a Data Source" dialog.
+アプリケーションが実行されたら、新しい可視化を作成すると、[データ ソースの選択] ダイアログに新しく作成された Excel ファイル データ ソースが表示されます。
 
 ![](images/excel-file-data-source.jpg)
 
 > [!NOTE]
-> The source code to this sample can be found on [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/main/AddingDataSources/ExcelFile).
+> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/main/AddingDataSources/ExcelFile) にあります。
 
 > [!IMPORTANT]
-> Calling the `$.ig.RevealSdkSettings.setBaseUrl` is required when the server is running on a different URL than the client application. If both the server application and the client application are running on the same URL, this method is not required. This method only needs to be called once.
+> サーバーがクライアント アプリケーションとは異なる URL で実行されている場合は、`$。ig.RevealSdkSettings.setBaseUrl` を呼び出す必要があります。サーバー アプリケーションとクライアント アプリケーションの両方が同じ URL で実行されている場合、このメソッドは必要ありません。このメソッドを呼び出す必要があるのは 1 回だけです。
