@@ -1,10 +1,10 @@
-# Adding an In-Memory Data Source
+# インメモリ データソースの追加
 
-The Reveal SDK allows you to create dashboards using data that has been generated at run-time. This data is usually backed by a business object (POCO class) that is used within the ASP.NET Web API server application. This type of data is referred to as **in-memory data**.
+Reveal SDK を使用すると、実行時に生成されたデータを使用してダッシュボードを作成できます。このデータは通常、ASP.NET Web API サーバー アプリケーション内で使用されるビジネス オブジェクト (POCO クラス) によってサポートされます。このタイプのデータは、**インメモリ データ**と呼ばれます。
 
-There are three primary steps to add an application's in-memory data as a data source item in the Reveal SDK.
+アプリケーションのインメモリ データを Reveal SDK のデータ ソース項目として追加するには、主に 3 つの手順があります。
 
-**Step 1** - In the ASP.NET Web API server application, create a class that implements `IRVDataProvider`. This class will provide the actual in-memory data to be returned to the Reveal SDK. You'll want to check the `RVInMemoryDataSourceItem.DatasetId` property to know what data to return.
+**手順 1** - ASP.NET Web API サーバー アプリケーションで、`IRVDataProvider` を実装するクラスを作成します。このクラスは、Reveal SDK に返される実際のインメモリ データを提供します。`RVInMemoryDataSourceItem.DatasetId` プロパティをチェックして、返すデータを確認する必要があります。
 
 ```cs
 public class MyInMemoryDataProvider: IRVDataProvider
@@ -23,9 +23,9 @@ public class MyInMemoryDataProvider: IRVDataProvider
 }
 ```
 
-The `GetData` method returns a `Task<IRVInMemoryData>`. This means that any in-memory data you want to use must be wrapped by the `RVInMemoryData` object.  Simply create a new instance of the `RVInMemoryData` object and pass your in-memory data as a parameter to the object constructor.
+`GetData` メソッドは、`Task<IRVInMemoryData>` を返します。つまり、使用するインメモリ データはすべて `RVInMemoryData` オブジェクトでラップする必要があります。  `RVInMemoryData` オブジェクトの新しいインスタンスを作成し、インメモリ データをパラメーターとしてオブジェクト コンストラクターに渡すだけです。
 
-**Step 2** - Update the `AddReveal` method in the `Program.cs` file to add the `IRVDataProvider` you just created to the `RevealSetupBuilder` using the `RevealSetupBuilder.AddDataProvider` method.
+**手順 2** - `Program.cs` ファイル の `AddReveal` メソッドを更新して、`RevealSetupBuilder.AddDataProvider` メソッドを使用して作成した `IRVDataProvider` を `RevealSetupBuilder` に追加します。
 
 ```cs
 builder.Services.AddControllers().AddReveal( builder =>
@@ -34,17 +34,17 @@ builder.Services.AddControllers().AddReveal( builder =>
 });
 ```
 
-**Step 3** - Create an `$.ig.RVInMemoryDataSourceItem` in the `RevealView.onDataSourcesRequested` event.
+**手順 3** - `RevealView.onDataSourcesRequested` イベントに `$.ig.RVInMemoryDataSourceItem` を作成します。
 
-Add an event handler to the `RevealView.onDataSourcesRequested`
+`RevealView.onDataSourcesRequested` にイベント ハンドラーを追加します。
 
-First define a `<div>` tag with the `id` set to `revealView`.
+まず、`id` を `revealView` に設定して `<div>` タグを定義します。
 
 ```html
 <div id="revealView" style="height: 920px; width: 100%;"></div>
 ```
 
-Then in the event handler, create a new instance of the `$.ig.RVInMemoryDataSourceItem` object and provide a unique name/ID as a parameter. This ID is used in the `IRVDataProvider` to indicate which data source is requesting the data.
+次に、イベント ハンドラーで、`$.ig.RVInMemoryDataSourceItem` オブジェクトの新しいインスタンスを作成し、パラメーターとして一意の名前 / ID を指定します。この ID は、`IRVDataProvider` で、どのデータ ソースがデータを要求しているかを示すために使用されます。
 
 ```javascript
 var revealView = new $.ig.RevealView("#revealView");
@@ -58,13 +58,13 @@ revealView.onDataSourcesRequested = (callback) => {
 ```
 
 > [!IMPORTANT]
-> Calling the `$.ig.RevealSdkSettings.setBaseUrl` is required when the server is running on a different URL than the client application. If both the server application and the client application are running on the same URL, this method is not required. This method only needs to be called once.
+> サーバーがクライアント アプリケーションとは異なる URL で実行されている場合は、`$。ig.RevealSdkSettings.setBaseUrl` を呼び出す必要があります。サーバー アプリケーションとクライアント アプリケーションの両方が同じ URL で実行されている場合、このメソッドは必要ありません。このメソッドを呼び出す必要があるのは 1 回だけです。
 
-## Example: Implement In-Memory Data Source
+## 例: インメモリ データ ソースの実装
 
-### Create the Business Objects
+### ビジネス オブジェクトの作成
 
-In the ASP.NET Web API server application create 3 business objects; A `Product`, `Seller`, and a `Sale` object.  These objects will be used to hold the data that will be represented in our dashboards.
+ASP.NET Web API サーバー アプリケーションで、3 つのビジネス オブジェクトを作成します: `Product`、`Seller`、および `Sale`。これらのオブジェクトは、ダッシュボードに表示されるデータを保持するために使用されます。
 
 ```cs
 public class Product
@@ -125,9 +125,9 @@ public class Sale
 }
 ```
 
-### Generate the In-Memory Data
+### インメモリ データの生成
 
-Next, we need to generate some data that will be used to build our Reveal Dashboards. For this, we will create a helper class called `SalesDataGenerator` that will generate some random data for use in our dashboards.
+次に、Reveal ダッシュボードの構築に使用されるデータを生成する必要があります。このために、ダッシュボードで使用するランダム データを生成する `SalesDataGenerator` というヘルパー クラスを作成します。
 
 ```cs
 public class SalesDataGenerator
@@ -222,11 +222,11 @@ public class SalesDataGenerator
 }
 ```
 
-### Create the Data Provider
+### データ プロバイダーの作成
 
-Now that we have created the data that will be used in our dashboards, the next step is to make that data available to the Reveal SDK. To do this, we need to create a new class that implements the `IRVDataProvider`.  This interface is used specifically for in-memory data implementations within the Reveal SDK.
+ダッシュボードで使用するデータを作成したので、次の手順は、そのデータを Reveal SDK で利用できるようにすることです。これを行うには、`IRVDataProvider` を実装する新しいクラスを作成する必要があります。 このインターフェイスは、Reveal SDK 内のインメモリ データの実装に特に使用されます。
 
-Let's create a new class called `MyInMemoryDataProvider` and implement the `IRVDataProvider` interface. Notice that we have defined a variable named `_salesInMemoryData` that is using the `SalesDataGenerator` to generate 10,000 data records.
+`MyInMemoryDataProvider` という新しいクラスを作成し、`IRVDataProvider` インターフェイスを実装しましょう。`SalesDataGenerator` を使用して 10,000 個のデータ レコードを生成する` _salesInMemoryData` という名前の変数を定義したことに注意してください。
 
 ```cs
 public class MyInMemoryDataProvider: IRVDataProvider
@@ -247,9 +247,9 @@ public class MyInMemoryDataProvider: IRVDataProvider
 }
 ```
 
-As you can see, in the `GetData` method, we are checking the `DatasetId` for a specific value. If this id matches our `SalesRecords` data source item, then we will then use the in-memory business object collection that is stored in the `_salesInMemoryData` variable as the data source for the dashboard.
+ご覧のとおり、`GetData` メソッドでは、`DatasetId` で特定の値をチェックしています。この ID が `SalesRecords` データ ソース項目と一致する場合、ダッシュボードのデータ ソースとして `_salesInMemoryData` 変数に格納されているインメモリ ビジネス オブジェクト コレクションを使用します。
 
-Now that we have our data and our data provider, we need to update the `AddReveal` method in the `Program.cs` file to add the `IRVDataProvider` we just created to the `RevealSetupBuilder` using the `RevealSetupBuilder.AddDataProvider` method.
+データとデータ プロバイダーができたので、`Program.cs` ファイルの `AddReveal` メソッドを更新して、`RevealSetupBuilder.AddDataProvider` メソッドを使用して作成した `IRVDataProvider` を `RevealSetupBuilder` に追加する必要があります。
 
 ```cs
 builder.Services.AddControllers().AddReveal( builder =>
@@ -258,19 +258,19 @@ builder.Services.AddControllers().AddReveal( builder =>
 });
 ```
 
-Now you may be asking, "Where does the `DataSetId` value come from?". This happens in the next step when we create the data source item.
+ここで、`DataSetId` 値について疑問に思われるかもしれません。これは、次の手順でデータ ソース項目を作成するときに発生します。
 
-### Handle the onDataSourcesRequested Event
+### onDataSourcesRequested イベントの処理
 
-The next step is to add an event handler to the `RevealView.onDataSourcesRequested` event.
+次の手順は、`RevealView.onDataSourcesRequested` イベントにイベント ハンドラーを追加することです。
 
-First define a `<div>` tag with the `id` set to `revealView`.
+まず、`id` を `revealView` に設定して `<div>` タグを定義します。
 
 ```html
 <div id="revealView" style="height: 920px; width: 100%;"></div>
 ```
 
-Now, initialize the `revealView` and handle the `RevealView.onDataSourcesRequested` event. In this example, we are creating a new `$.ig.RVInMemoryDataSourceItem` with the `id` of **SalesRecords** and the `title` set to **Sales Records**.
+ここで、`revealView` を初期化し、`RevealView.onDataSourcesRequested` イベントを処理します。この例では、**SalesRecords** の `id` と **SalesRecords** に設定された `title` で新しい `$.ig.RVInMemoryDataSourceItem` を作成しています。
 
 ```javascript
 var revealView = new $.ig.RevealView("#revealView");
@@ -284,4 +284,4 @@ revealView.onDataSourcesRequested = (callback) => {
 ```
 
 > [!NOTE]
-> The source code to this sample can be found on [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/main/AddingDataSources/InMemory).
+> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/main/AddingDataSources/InMemory) にあります。

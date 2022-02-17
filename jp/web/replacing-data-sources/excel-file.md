@@ -1,10 +1,10 @@
-# Replacing an Excel File DataSource
+# ファイル データ ソースの置き換え
 
-Sometimes dashboards are created using Excel files stored in the cloud as a data source for its visualizations.
+ダッシュボードは、クラウドに保存されている Excel ファイルを視覚化のデータ ソースとして使用して作成される場合があります。
 
-When embedding the Reveal SDK in your application, you can replace these cloud-based files with files stored in a local directory located on the server at runtime.
+アプリケーションに Reveal SDK を埋め込む場合、これらのクラウドベースのファイルを、実行時にサーバー上にあるローカル ディレクトリに保存されているファイルに置き換えることができます。
 
-**Step 1** - In the ASP.NET Web API server application, create a class that implements `IRVDataSourceProvider`. This class will perform the actual replacement of the Excel files.
+**手順 1** - ASP.NET Web API サーバー アプリケーションで、`IRVDataSourceProvider` を実装するクラスを作成します。このクラスは、Excel ファイルの実際の置換を実行します。
 
 ```cs
 public class MyDataSourceProvider : IRVDataSourceProvider
@@ -16,9 +16,9 @@ public class MyDataSourceProvider : IRVDataSourceProvider
 }
 ```
 
-The `ChangeDataSourceItemAsync` method of this class returns the `RVDataSourceItem` that the visualization will use to get its data. By modifying the `RVDataSourceItem` item that is provided as an argument in the `ChangeDataSourceItemAsync` method, you can change which Excel file get your data from.
+このクラスの `ChangeDataSourceItemAsync` メソッドは、可視化がデータを取得するために使用する `RVDataSourceItem` を返します。`ChangeDataSourceItemAsync` メソッドで引数として提供される `RVDataSourceItem` 項目を変更することにより、データを取得する Excel ファイルを変更できます。
 
-**Step 2** - Update the `AddReveal` method in the `Program.cs` file to add the `IRVDataSourceProvider` you just created to the `RevealSetupBuilder` using the `RevealSetupBuilder.AddDataSourceProvider` method.
+**手順 2** - `Program.cs` ファイルの `AddReveal` メソッドを更新して、`RevealSetupBuilder.AddDataSourceProvider` メソッドを使用して作成した `IRVDataSourceProvider` を `RevealSetupBuilder` に追加します。
 
 ```cs
 builder.Services.AddControllers().AddReveal( builder =>
@@ -27,11 +27,11 @@ builder.Services.AddControllers().AddReveal( builder =>
 });
 ```
 
-## Example: Replacing an Excel File Data Source
+## 例: Excel ファイル データ ソースの置き換え
 
-In this example, we are replacing a data source item that is using a cloud-based Excel file named "Sales Cloud Excel File" with a local Excel file named "SalesLocalExcelFile.xlsx".
+この例では、「Sales CloudExcelFile」という名前のクラウドベースの Excel ファイルを使用しているデータ ソース項目を「SalesLocalExcelFile.xlsx」という名前のローカル Excel ファイルに置き換えています。
 
-First, we check the incoming `RVDataSourceItem` to see if it is a `RVExcelDataSourceItem`. If it is, then we get the existing `RVDataSourceItem.ResourceItem` and check its `Title` property. If the title is "Sales Cloud Excel File" then we will create a new `RVLocalFileDataSourceItem` and set the `Uri` to the location of the new local Excel file. After we set the title of the local Excel file data source item, we replace the `RVExcelDataSourceItem.ResourceItem` with our newly created `RVLocalFileDataSourceItem`.
+まず、受信 `RVDataSourceItem` をチェックして、それが `RVExcelDataSourceItem` であるかどうかを確認します。そうである場合は、既存の `RVDataSourceItem.ResourceItem` を取得し、その `Title` プロパティを確認します。タイトルが「SalesCloudExcel File」の場合、新しい `RVLocalFileDataSourceItem` を作成し、`Uri` を新しいローカル Excel ファイルの場所に設定します。ローカル Excel ファイル データ ソース項目のタイトルを設定した後、`RVExcelDataSourceItem.ResourceItem` を新しく作成した `RVLocalFileDataSourceItem` に置き換えます。
 
 ```cs
 public class MyDataSourceProvider : IRVDataSourceProvider
