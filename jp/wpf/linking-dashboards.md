@@ -50,4 +50,4 @@ private void RevealView_VisualizationLinkingDashboard(object sender, Visualizati
 ```
 
 > [!NOTE]
-> The source code to this sample can be found on [GitHub](https://github.com/RevealBi/sdk-samples-wpf/tree/master/LinkingDashboards)
+> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-wpf/tree/master/LinkingDashboards) にあります。

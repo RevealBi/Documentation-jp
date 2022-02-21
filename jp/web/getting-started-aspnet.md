@@ -195,4 +195,4 @@ Next Steps:
 - [Load Existing Dashboards](loading-dashboards.md)
 
 > [!NOTE]
-> The source code to this sample can be found on [GitHub](https://github.com/RevealBi/sdk-samples-aspnetcore/tree/main/01-GettingStarted-WebApp).
+> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-aspnetcore/tree/main/01-GettingStarted-WebApp) にあります。

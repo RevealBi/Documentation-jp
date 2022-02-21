@@ -126,4 +126,4 @@ _revealView.RefreshTheme();
 ```
 
 > [!NOTE]
-> The source code to this sample can be found on [GitHub](https://github.com/RevealBi/sdk-samples-wpf/tree/master/ThemingDashboards)
+> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-wpf/tree/master/ThemingDashboards) にあります。

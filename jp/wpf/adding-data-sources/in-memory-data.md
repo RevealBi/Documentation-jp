@@ -304,4 +304,4 @@ private void RevealView_DataSourcesRequested(object sender, DataSourcesRequested
 ```
 
 > [!NOTE]
-> The source code to this sample can be found on [GitHub](https://github.com/RevealBi/sdk-samples-wpf/tree/master/AddingDataSources/InMemory).
+> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-wpf/tree/master/AddingDataSources/InMemory) にあります。

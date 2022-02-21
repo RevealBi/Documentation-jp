@@ -186,4 +186,4 @@ Next Steps:
 - [Load Existing Dashboards](loading-dashboards.md)
 
 > [!NOTE]
-> The source code to this sample can be found on [GitHub](https://github.com/RevealBi/sdk-samples-react/tree/main/01-GettingStarted).
+> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-react/tree/main/01-GettingStarted) にあります。

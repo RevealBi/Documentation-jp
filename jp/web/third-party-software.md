@@ -1,11 +1,11 @@
-# Third-Party Software Used by Reveal SDK
+# Reveal SDK で使用されるサードパーティ ソフトウェア
 
 |              |                                                                                                               |                                                                                                            |
 | ------------ | ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| **PLATFORM** | **CODE USED**                                                                                                 | **LICENSE**                                                                                                |
+| **プラットフォーム** | **使用されたコード**                                                                                                 | **ライセンス**                                                                                                |
 | Web          | [Emoji One Area](https://github.com/mervick/emojionearea)                                                     | [MIT](https://opensource.org/licenses/mit-license.html)                                                    |
 | Web          | [textcomplete](https://github.com/yuku/jquery-textcomplete)                                                   | [MIT](https://opensource.org/licenses/mit-license.html)                                                    |
-| Web          | [Google Analytics](https://marketingplatform.google.com/about/analytics/terms/us/)                            | Custom                                                                                                     |
+| Web          | [Google Analytics](https://marketingplatform.google.com/about/analytics/terms/us/)                            | カスタム                                                                                                     |
 | Web          | [Bootstrap](https://github.com/twbs/bootstrap)                                                                | [MIT](https://opensource.org/licenses/mit-license.html)                                                    |
 | Web          | [JS Foundation Project](https://jquery.org/license/)                                                          | [MIT](https://opensource.org/licenses/mit-license.html)                                                    |
 | Web          | [JQuery validation](https://github.com/jquery-validation)                                                     | [MIT](https://opensource.org/licenses/mit-license.html)                                                    |
