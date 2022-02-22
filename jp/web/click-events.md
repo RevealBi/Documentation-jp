@@ -1,6 +1,6 @@
-# Click Events
+# クリック イベント
 
-When an end-user clicks on a data point within a visualization, the `onVisualizationDataPointClicked` event is invoked. You can respond to this event by adding an event handler to the `onVisualizationDataPointClicked` event.
+エンドユーザーが可視化内のデータ ポイントをクリックすると、`onVisualizationDataPointClicked` イベントが呼び出されます。`onVisualizationDataPointClicked` イベントにイベント ハンドラーを追加することで、このイベントに応答できます。
 
 ```javascript
 revealView.onVisualizationDataPointClicked = (visualization, cell, row) => {
@@ -8,17 +8,17 @@ revealView.onVisualizationDataPointClicked = (visualization, cell, row) => {
 };
 ```
 
-The event handler has the following parameters:
-- **cell** - gets the data point that was clicked
-- **row** - gets a collection of cell data that is associated with the **cell**
-- **visualization** - gets the Visualization that was clicked
+イベント ハンドラーには、次のパラメーターがあります:
+- **cell** - クリックされたデータ ポイントを取得します。
+- **row** - セルに関連付けられているセル データのコレクションを取得します。
+- **visualization** - クリックされた視覚化を取得します。
 
-By using the parameters exposed by the event, such as the `cell` and `row` parameters, you can read data that is associated with the clicked data point.
+`cell` や`row` のパラメーターなど、イベントによって公開されたパラメーターを使用することで、クリックされたデータ ポイントに関連付けられているデータを読み取ることができます。
 
-It's important to understand that the `row` property provides a collection of all `RVDataCell` objects that represent each data point associated with the clicked cell.
+`row` プロパティは、クリックされたセルに関連付けられた各データ ポイントを表すすべての `RVDataCell` オブジェクトのコレクションを提供することを理解することが重要です。
 
-The `RVDataCell` has the following properties:
-- **columnLabel** - the label, or custom name, of the column belonging to the data point
-- **columnName** - the name of the column belonging to the data point
-- **formattedValue** - the formatted value of the data point
-- **value** - the original value of the data point
+`RVDataCell` には次のプロパティがあります:
+- **columnLabel** - データ ポイントに属する列のラベルまたはカスタム名称
+- **columnName** - データ ポイントに属する列の名前
+- **formatedValue** - データ ポイントの書式設定された値
+- **value** - データ ポイントの元の値

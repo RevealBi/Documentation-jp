@@ -1,24 +1,24 @@
-# Creating Dashboards
+# ダッシュボードの作成
 
-Creating new dashboards is really easy. You just need to set the `$.ig.RevealView.Dashboard` property to a new instance of a `$.ig.RVDashboard` object.
+新しいダッシュボードの作成は本当に簡単です。`$.ig.RevealView.Dashboard` プロパティを `$.ig.RVDashboard` オブジェクトの新しいインスタンスに設定する必要があります。
 
-Start by defining a `<div>` element with the `id` set to `revealView`:
+まず、`id` を `revealView` に設定して `<div>` 要素を定義します。
 ```html
 <div id="revealView" style="height: 800px; width: 100%;"></div>
 ```
 
-Next, in JavaScript, set the `$.ig.RevealView.Dashboard` property to a new instance of a `$.ig.RVDashboard` object:
+次に、JavaScript で、`$。ig.RevealView.Dashboard` プロパティを `$.ig.RVDashboard` オブジェクトの新しいインスタンスに設定します。
 ```javascript
 var revealView = new $.ig.RevealView("#revealView");
 revealView.dashboard = new $.ig.RVDashboard();
 ```
 
-Run the application and you will be prompted with a new, empty, dashboard.
+アプリケーションを実行すると、新しい空のダッシュボードが表示されます。
 
 ![](images/creating-dashboards.jpg)
 
-As you can see, while this gives you a new dashboard instance to use, unless you have provided a data source to the `$.ig.RevealView` for your dashboard to use, your end-users will not be able to create any new visualizations in the new dashboard.
+ご覧のとおり、これにより使用する新しいダッシュボード インスタンスが提供されますが、ダッシュボードで使用するデータ ソースを `$.ig.RevealView` に提供していない限り、エンドユーザーは新しいダッシュボードで可視化を作成できません。
 
-Next steps:
-- [Adding Datasources](adding-data-sources/in-memory-data.md)
-- [Loading Dashboards](loading-dashboards.md)
+次の手順:
+- [データ ソースの追加](adding-data-sources/in-memory-data.md)
+- [ダッシュボードの読み込み](loading-dashboards.md)

@@ -1,32 +1,32 @@
-# Filtering Dashboards
+# ダッシュボードのフィルタリング
 
-Filters are located along the top of a Dashboard and can be modified using the Reveal SDK.
+フィルターはダッシュボードの上部にあり、Reveal SDK を使用して変更できます。
 
 ![](images/filtering-filter-location.jpg)
 
-There are two kinds of filters:
-- The Date Filter
-- Dashboard Filters
+フィルターには次の 2 種類があります:
+- Date Filter (日付フィルター)
+- ダッシュボード フィルター
 
-## Date Filter
-The **Date Filter** is a special kind of filter as it does not have any data associated with it. There’s not a list of values to select from, instead you select a date interval or range. You can choose from a list of predefined date intervals such as "Today", “All Time”, “Previous Month”, or specify your own custom range (from Jan 12, 2019 to Jan 12, 2021).
+## 日付フィルター
+**日付フィルター**は、データが関連付けられていないため、特別な種類のフィルターです。選択できる値のリストはありません。代わりに、日付間隔または範囲を選択します。「今日」、「すべての期間」、「前月」 などの事前定義された日付間隔のリストから選択するか、独自のカスタム範囲 （2019 年 1 月 12 日から 2021 年 1 月 12 日まで) を指定できます。
 
-The **Date Filter** is always the first filter and there can be only **one** Date Filter.
+**日付フィルター**は常に最初のフィルターであり、1 つしか存在できません。
 
 ![](images/filtering-date-filter.jpg)
 
-### Using a Date Interval
-To set the dashboard's **Date Filter** using a predefined set of date intervals, you must set the `Dashboard.dateFilter` property to a new instance of a `RVDateDashboardFilter` object and use the appropriate `RVDateFilterType` value as a parameter.
+### 日付間隔の使用
+事前定義された日付間隔のセットを使用してダッシュボードの**日付フィルター**を設定するには、`Dashboard.dateFilter` プロパティを `RVDateDashboardFilter` オブジェクトの新しいインスタンスに設定し、適切なRV `DateFilterType` 値をパラメーターとして使用する必要があります。
 
-For example; this code snippet will set the dashboard's date filter to **YearToDate**:
+例えば, このコード スニペットは、ダッシュボードの日付フィルターを**年度累計**に設定します。
 ```javascript
 revealView.dashboard.dateFilter = new $.ig.RVDateDashboardFilter($.ig.RVDateFilterType.YearToDate);
 ```
-Here you can see the dashboard UI updated it's Date Filter to **Year To Date**
+ここでは、ダッシュボード UI が Date Filter を **[年度累計]** に更新したことを確認できます。
 
 ![](images/filtering-date-filter-yeartodate.jpg)
 
-The `RVDateFilterType` has the following values:
+`RVDateFilterType` の値は次のとおりです:
 - AllTime
 - CustomRange
 - LastMonth
@@ -48,10 +48,10 @@ The `RVDateFilterType` has the following values:
 - YearToDate
 - Yesterday
   
-### Using a Custom Date Range
-To set a custom date range, you must set the `Dashboard.dateFilter` property to a new instance of a `RVDateDashboardFilter` object, and use the `RVDateFilterType.CustomRange` value as a parameter and provide a `RVDateRange` (which provides the fromDate and toDate arguments) as the second parameter.
+### カスタム日付範囲の使用
+カスタムの日付範囲を設定するには、`Dashboard.dateFilter` プロパティを `RVDateDashboardFilter` オブジェクトの新しいインスタンスに設定し、`RVDateFilterType.CustomRange` 値をパラメーターとして使用し、`RVDateRange` (fromDate 引数と toDate 引数を提供する) を 2 番目のパラメーターに指定する必要があります。
 
-In this example, we set the `DateFilter` to a custom date range spanning the last 75 days:
+この例では、`日付フィルター`を過去 75 日間にわたるカスタムの日付範囲に設定します。
 ```javascript
 var fromDate = new Date();
 fromDate.setDate(fromDate.getDate() - 75);
@@ -61,99 +61,99 @@ var dateRange = new $.ig.RVDateRange(fromDate, toDate);
 revealView.dashboard.dateFilter = new $.ig.RVDateDashboardFilter($.ig.RVDateFilterType.CustomRange, dateRange); 
 ```
 
-Here you can see the dashboard UI updated it's Date Filter to display the date range
+ここでは、ダッシュボード UI が更新され、日付範囲が表示されるように Date Filter が更新されていることがわかります。
 
 ![](images/filtering-date-filter-daterange.jpg)
 
 > [!NOTE]
-> You can find a sample demonstrating Date Filters on [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/master/FilteringDashboards-Dates).
+> 日付フィルターを示すサンプルは [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/master/FilteringDashboards-Dates) にあります。
 
-## Dashboard Filters
+## ダッシュボード フィルター
 
-**Dashboard Filters** are displayed after the Date Filter, if a Date Filter is defined, and you can have multiple dashboard filters defined for a single dashboard. In this image, there are three dashboard filters defined (Territory, Employee, Product).
+**ダッシュボード フィルター**は、日付フィルターが定義されている場合、日付フィルターの後に表示され、単一のダッシュボードに複数のダッシュボード フィルターを定義できます。この画像には、3 つのダッシュボード フィルター (Territory、Employee、Product) が定義されています。
 
 ![](images/filtering-dashboard-filters.jpg)
 
-When working with dashboard filters, the main object you need to be aware of is the `RVDashboardFilter` object. The `RVDashboardFilter` object represents an individual filter that has been defined for a dashboard. It contains information about the filter such as the filter's title, available values to choose from, as well as what values are currently selected.
+ダッシュボード フィルターを使用する場合、注意する必要がある主なオブジェクトは `RVDashboardFilter` オブジェクトです。`RVDashboardFilter` オブジェクトは、ダッシュボード用に定義された個々のフィルターを表します。フィルターのタイトル、選択可能な値、現在選択されている値など、フィルターに関する情報が含まれています。
 
-The `RVDashboardFilter` object has the following properties and methods:
-- **id** - a unique ID of the filter, usually a GUID
-- **title (1)** - the name of the filter. It is also used as the header of the filter in the dashboard filters UI
-- **selectedValues (3)** - a collection of values that have been selected for the filter. They are represented in the UI by checkboxes within the filter dropdown
-- **getFilterValues() (2)** - returns a collection of all filter values that are available for the filter. These act as options in a drop down list to choose which filter values to apply/select
+`RVDashboardFilter` オブジェクトには、次のプロパティとメソッドがあります:
+- **id** - フィルターの一意の ID、通常は GUID。
+- **title (1)** - フィルターの名前。ダッシュボード フィルター UI のフィルターのヘッダーとしても使用されます。
+- **selectedValues (3)** -フィルター用に選択された値のコレクション。これらは、UI のフィルター ドロップダウン内のチェックボックスで表されます。
+- **getFilterValues() (2)** - フィルターで使用可能なすべてのフィルター値のコレクションを返します。これらはドロップダウン リストのオプションとして機能し、適用/選択するフィルター値を選択します。
 
 ![](images/filtering-filter-legend.jpg)
 
-### Get All Filters
+### すべてのフィルターの取得
 
-Dashboard filters can be accessed by using the `RVDashboard.filters` property. The `RVDashboard.filters` property will return all filters that have been defined for the dashboard.
+ダッシュボード フィルターには、`RVDashboard.filters` プロパティを使用してアクセスできます。`RVDashboard.filters` プロパティは、ダッシュボードに定義されているすべてのフィルターを返します。
 ```javascript
 var allDashboardFilters = revealView.dashboard.filters;
 ```
 
-The `RVDashboard.filters` property returns a read-only collection of `RVDashboardFilter` objects.
+`RVDashboard.filters` プロパティは、`RVDashboardFilter` オブジェクトの読み取り専用コレクションを返します。
 
-### Get a Specific Filter
-The Reveal SDK provides an API to get a specific dashboard filter without having to loop through the `RVDashboard.filters` property. Instead, you can use either the `RVDashboard.filters.getById` or the `RVDashboard.filters.getByTitle` method.
+### 特定のフィルターの取得
+Reveal SDK は、`RVDashboard.filters` プロパティをループすることなく、特定のダッシュボード フィルターを取得するための API を提供します。代わりに、`RVDashboard.filters.getById` または `RVDashboard.filters.getByTitle` メソッドのいずれかを使用できます。
 
-##### Get by Id
+##### ID で取得
 
 ```javascript
 var territoryFilter = revealView.dashboard.filters.getById("ddf3fa65-6893-4d8b-73ad-0b28fc1af330");
 ```
 
-##### Get by Title
+##### Title で取得
 
 ```javascript
 var territoryFilter = revealView.dashboard.filters.getByTitle("Territory");
 ```
 
-These methods will return a `RVDashboardFilter` object which represents a specific dashboard filter.
+これらのメソッドは、特定のダッシュボード フィルターを表す `RVDashboardFilter` オブジェクトを返します。
 
-### Get Available Filter Values
+### 利用可能なフィルター値の取得
 
- To get a collection of all available filter values for a dashboard filter, use the `RVDashboardFilter.getFilterValues()` method.
+ ダッシュボード フィルターで使用可能なすべてのフィルター値のコレクションを取得するには、`RVDashboardFilter.getFilterValues()` メソッドを使用します。
 ```javascript
 var territoryFilter = revealView.dashboard.filters.getByTitle("Territory");
 territoryFilter.GetFilterValues( filterValues => {
     //handle filterValues
 });
 ```
-The `RVDashboardFilter.getFilterValues()` method will return a collection of `RVFilter` objects.
+`RVDashboardFilter.getFilterValues()` メソッドは、`RVFilter` オブジェクトのコレクションを返します。
 
-The `RVFilter` object has the following properties:
-- **label** - the text that is displayed in the filter dropdown UI.
-- **value** - the underlying value of the  `RVFilter` object.
+`RVFilter` オブジェクトには、次のプロパティがあります:
+- **label** - フィルター ドロップダウン UI に表示されるテキスト。
+- **value** - `RVFilter` オブジェクトの基になる値。
 
-### Get Selected Filter Values
+### 選択したフィルター値の取得
 
-To get a collection of the currently selected filter values for a dashboard filter, you can use the `RVDashboardFilter.selectedValues` property.
+ダッシュボード フィルターに対して現在選択されているフィルター値のコレクションを取得するには、`RVDashboardFilter.selectedValues` プロパティを使用できます。
 ```javascript
 var territoryFilter = revealView.dashboard.filters.getByTitle("Territory");
 var selectedFilterValues = territoryFilter.selectedValues;
 ```
 
-### Set Selected Filter Values
+### 選択したフィルター値の設定
 
-You can programmatically set the selected value(s) for a dashboard filter by using the `RVDashboardFilter.selectedValues` property. Simply set the `RVDashboardFilter.selectedValues` property to a new instance of an `array`. The `array` must contain all the filter values you want to have selected within the dashboard filter.
+`RVDashboardFilter.selectedValues` プロパティを使用して、ダッシュボード フィルターの選択された値をプログラムで設定できます。`RVDashboardFilter.selectedValues` プロパティを`配列`の新しいインスタンスに設定するだけです。`配列`には、ダッシュボード フィルター内で選択するすべてのフィルター値が含まれている必要があります。
 
-##### Set a Single Selected Filter Value
+##### 単一の選択したフィルター値の設定
 
 ```javascript
 var territoryFilter = revealView.dashboard.filters.getByTitle("Territory");
 territoryFilter.selectedValues = [ "Japan" ];
 ```
 
-##### Set Multiple Selected Filters
+##### 複数の選択したフィルターの設定
 
 ```javascript
 var territoryFilter = revealView.dashboard.filters.getByTitle("Territory");
 territoryFilter.selectedValues = [ "Japan", "India" ];
 ```
 
-### Clear Selected Filters
+### 選択したフィルターのクリア
 
-In order to clear any filter values that have been selected for a specific dashboard filter, simply set the `RVDashboardFilter.selectedValues` property to a new empty `array`.
+特定のダッシュボード フィルターに対して選択されているフィルター値をクリアするには、`RVDashboardFilter.selectedValues` プロパティを新しい空の`配列`に設定するだけです。
 
 ```cs
 var territoryFilter = revealView.dashboard.filters.getByTitle("Territory");
@@ -161,10 +161,10 @@ territoryFilter.selectedValues = [];
 ```
 
 > [!NOTE]
-> You can find a sample demonstrating Dashboard Filters on [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/master/FilteringDashboards).
+> [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/master/FilteringDashboards) でダッシュボード フィルターのデモ サンプルを見つけることができます。
 
-## Hiding Filters
-When using custom filter UI's or other custom filtering interactions, you may want to hide the panel containing the filters in the `RevealView` so the end-user won't get confused filtering the dashboard. You can hide the date and dashboard filters by setting the `RevealView.showFilters` property to `false`.
+## フィルターの非表示
+カスタム フィルター UI またはその他のカスタム フィルター操作を使用する場合、エンドユーザーがダッシュボードのフィルター処理で混乱しないように、`RevealView` でフィルターを含むパネルを非表示にすることができます。`RevealView.showFilters` プロパティを `false` に設定すると、日付とダッシュボードのフィルターを非表示にできます。
 ```cs
 revealView.showFilters = false;
 ```
