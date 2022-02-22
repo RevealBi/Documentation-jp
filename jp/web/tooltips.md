@@ -50,5 +50,5 @@ revealView.onTooltipShowing = (args) => {
 ```
 
 > [!NOTE]
-> The source code to this sample can be found on [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/main/Tooltips)
+> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/main/Tooltips) にあります。
 

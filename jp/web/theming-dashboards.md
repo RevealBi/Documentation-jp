@@ -126,4 +126,4 @@ $.ig.RevealSdkSettings.theme = this.createCustomTheme();
 ```
 
 > [!NOTE]
-> The source code to this sample can be found on [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/main/ThemingDashboards)
+> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/main/ThemingDashboards) にあります。

@@ -58,5 +58,5 @@ private void RevealView_TooltipShowing(object sender, TooltipShowingEventArgs e)
 ```
 
 > [!NOTE]
-> The source code to this sample can be found on [GitHub](https://github.com/RevealBi/sdk-samples-wpf/tree/master/Tooltips)
+> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-wpf/tree/master/Tooltips) にあります。
 

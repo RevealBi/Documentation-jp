@@ -1,51 +1,51 @@
-# Loading Dashboards
+# ダッシュボードの読み込み
 
-If you want to display an existing Reveal Dashboard in the `RevealView` control embedded within your application, you have four options to choose from.
-- Load the dashboard from a file path
-- Load the dashboard from a file stream
-- Load the dashboard from an embedded resource
-- Load the dashboard from json
+アプリケーションに埋め込まれた `RevealView` コントロールに既存の Reveal ダッシュボードを表示する場合は、4 つのオプションから選択できます。
+- ファイル パスからダッシュボードを読み込み
+- ファイル ストリームからダッシュボードを読み込み
+- 埋め込まれたリソースからダッシュボードを読み込み
+- json からダッシュボードを読み込み
 
-Loading a dashboard into a `RevealView` consists of taking a **.rdash** file (.rdash is the file extension for dashboards created by Reveal), deserializing it as a `RVDashboard` object, and then assigning the `RevealView.Dashboard` property to the RVDashboard object instance.
+ダッシュボードを `RevealView` にロードするには、**.rdash** ファイル (.rdash は Reveal によって作成されたダッシュボードのファイル拡張子) を取得し、それを `RVDashboard` オブジェクトとして逆シリアル化し、`RevealView.Dashboard` プロパティを RVDashboard オブジェクト インスタンスに割り当てます。
 
-You can create **.rdash** dashboard files the following ways:
-- Export the dashboard as a .rdash file from the [Reveal BI website](https://app.revealbi.io/)
-- Export the dashboard as a .rdash file from one of the native Reveal applications
-- Save, or Export, a dashboard that was created in an application using the Reveal SDK.
-- Download these [sample dashboards](https://github.com/RevealBi/sdk-samples-wpf/raw/master/SampleDashboards.zip)
+.rdash ダッシュボード ファイルは次の方法で作成できます:
+- ダッシュボードを [Reveal BI Web サイト](https://app.revealbi.io/)から .rdash ファイルとしてエクスポートします。
+- ダッシュボードをネイティブの Reveal アプリケーションの 1 つから .rdash ファイルとしてエクスポートします。
+- Reveal SDK を使用してアプリケーションで作成されたダッシュボードを保存またはエクスポートします。
+- [サンプル ダッシュボード](https://github.com/RevealBi/sdk-samples-wpf/raw/master/SampleDashboards.zip) をダウンロードします。
 
-## Load from File Path
-It is very common to ship dashboard files with your application. These files are usually copied to the clients disk drive in a known directory so that the files can be loaded from disk during the execution of the application. In order to load these dashboards using a file path, you must know the file path to the **.rdash** file. 
+## ファイル パスから読み込み
+ダッシュボード ファイルをアプリケーションと一緒に出荷することは非常に一般的です。これらのファイルは通常、アプリケーションの実行中にディスクからファイルを読み込みできるように、既知のディレクトリのクライアント ディスク ドライブにコピーされます。ファイル パスを使用してこれらのダッシュボードを読み込むには、**.rdash** ファイルへのファイル パスを知っておく必要があります。 
 
-In this example, we have created a directory in our Visual Studio solution called **Dashboards** which will contain all the .rdash files for our application.
+この例では、**Dashboards** と呼ばれる Visual Studio ソリューションにディレクトリを作成しました。このディレクトリには、アプリケーションのすべての .rdash ファイルが含まれます。
 
 ![](images/load-dashboards-dashboard-directory.jpg)
 
-It's important to make sure we set the **Copy to Output Directory** value to **Copy if Newer** in the properties of each .rdash file. This will copy the dashboard files to disk when the project is built.
+各 .rdash ファイルのプロパティで、**Copy to Output Directory** の値を **Copy if Newer** に設定していることを確認することが重要です。これにより、プロジェクトのビルド時にダッシュボード ファイルがディスクにコピーされます。
 
 ![](images/load-dashboard-as-file.jpg)
 
-The first step is to get the file location of the .rdash file you wish to load. Once you have the file path to your dashboard, create a new instance of the `RVDashboard` and pass the file path to the constructor of the `RVDashboard` class. 
+最初の手順は、四方込みしたい .rdash ファイルのファイルの場所を取得することです。ダッシュボードへのファイル パスを取得したら、`RVDashboard` の新しいインスタンスを作成し、ファイル パスを `RVDashboard` クラスのコンストラクターに渡します。 
 
-In our example, we are using `Environment.CurrentDirectory` to get the current executing directory of our application. We then append the location of the **Sales.rdash** dashboard, which is in our **Dashboards** directory, using the `Path.Combine` method. Once we have the correct file path to our **Sales.rdash** dashboard, we set the `RevealView.Dashboard` property to a new instance of an `RVDashboard` object using the file path as a constructor argument.
+この例では、`Environment.CurrentDirectory` を使用して、アプリケーションの現在の実行ディレクトリを取得しています。次に、`Path.Combine` メソッドを使用して、**Dashboards** ディレクトリにある **Sales.rdash** ダッシュボードの場所を追加します。**Sales.rdash** ダッシュボードへの正しいファイル パスを取得したら、コンストラクター引数としてファイル パスを使用して、`RevealView.Dashboard` プロパティを `RVDashboard` オブジェクトの新しいインスタンスに設定します。
 ```cs
 var filePath = Path.Combine(Environment.CurrentDirectory, "Dashboards/Sales.rdash");
 _revealView.Dashboard = new RVDashboard(filePath);
 ```
 
-You can also load dashboards into the `RevealView` from a file path asynchronously using the `RVDashboard.LoadDashboardAsync` method.
+`RVDashboard.LoadDashboardAsync` メソッドを使用して、ダッシュボードをファイル パスから `RevealView` に非同期で読み込むこともできます。
 ```cs
 var filePath = Path.Combine(Environment.CurrentDirectory, "Dashboards/Sales.rdash");
 _revealView.Dashboard = await RVDashboard.LoadDashboardAsync(filePath);
 ```
 
 > [!NOTE]
-> The source code to this sample can be found on [GitHub](https://github.com/RevealBi/sdk-samples-wpf/tree/master/LoadingDashboards-FilePath).
+> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-wpf/tree/master/LoadingDashboards-FilePath) にあります。
 
-## Load from File Stream
-Loading Reveal dashboards from a file stream is very similar to loading dashboards from a file path. In this case, once you have the file path of the dashboard file, you load it into a `FileStream` before creating the `RVDashboard` object instance.
+## ファイル ストリームから読み込み
+ファイル ストリームからの Reveal ダッシュボードの読み込みは、ファイル パスからのダッシュボードの読み込みと非常によく似ています。この場合、ダッシュボード ファイルのファイル パスを取得したら、`RVDashboard` オブジェクト インスタンスを作成する前に、それを `FileStream` に読み込みます。
 
-In this example, we are using the `File.OpenRead` method to load the Sales.rdash file into a file stream. We then create a new `RVDashboard` object by passing the file stream as a constructor argument and assign the newly created `RVDashboard` instance to the `RevealView.Dashboard` property.
+この例では、`File.OpenRead` メソッドを使用して、Sales.rdash ファイルをファイル ストリームに読み込んでいます。次に、コンストラクター引数としてファイル ストリームを渡すことにより、新しい `RVDashboard` オブジェクトを作成し、新しく作成された `RVDashboard` インスタンスを `RevealView.Dashboard` プロパティに割り当てます。
 
 ```cs
 var filePath = Path.Combine(Environment.CurrentDirectory, "Dashboards/Sales.rdash"); 
@@ -55,7 +55,7 @@ using (var stream = File.OpenRead(filePath))
 }
 ```
 
-You can also load dashboards into the `RevealView` from a file stream asynchronously using the `RVDashboard.LoadDashboardAsync` method.
+`RVDashboard.LoadDashboardAsync` メソッドを使用して、ダッシュボードをファイル ストリームから `RevealView` に非同期で読み込むこともできます。
 ```cs
 var filePath = Path.Combine(Environment.CurrentDirectory, "Dashboards/Sales.rdash"); 
 using (var stream = File.OpenRead(filePath))
@@ -65,20 +65,20 @@ using (var stream = File.OpenRead(filePath))
 ```
 
 > [!NOTE]
-> The source code to this sample can be found on [GitHub](https://github.com/RevealBi/sdk-samples-wpf/tree/master/LoadingDashboards-FileStream).
+> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-wpf/tree/master/LoadingDashboards-FileStream) にあります。
 
-## Load from Resource
-Another option for distributing files in an application is to embed them into your application as a resource. This will not place any files on the client's disk drive, but rather embed the files directly into your application's assembly.
+## リソースから読み込み
+アプリケーションでファイルを配布するためのもう 1 つのオプションは、ファイルをリソースとしてアプリケーションに埋め込むことです。これにより、クライアントのディスク ドライブにファイルが配置されるのではなく、ファイルがアプリケーションのアセンブリに直接埋め込まれます。
 
-To embed a Reveal dashboard **.rdash** file as a resource in your application, open the Properties for the dashboard file in Visual Studio, and set the **Build Action** of the .rdash file to **EmbeddedResource**.
+Reveal ダッシュボード **.rdash** ファイルをリソースとしてアプリケーションに埋め込むには、Visual Studio でダッシュボード ファイルのプロパティを開き、.rdash ファイルの **Build Action** を **EmbeddedResource** に設定します。
 
 ![](images/load-dashboard-as-resource.jpg)
 
-Once your dashboards have been defined as an **EmbeddedResource**, you can load the dashboard by using the `Assembly.GetManifestResourceStream` method. This method will return a `Stream` object that you can then use to load into the `RevealView`.
+ダッシュボードが **EmbeddedResource** として定義されたら、`Assembly.GetManifestResourceStream` メソッドを使用してダッシュボードを読み込むことができます。このメソッドは、`RevealView` に読み込むために使用できる `Stream` オブジェクトを返します。
 
-It's important to note, that the `name` of the resource you will provide in the `Assembly.GetManifestResourceStream` method must include the `namespace` and file name of the .rdash file.
+`Assembly.GetManifestResourceStream` メソッドで指定するリソースの`名前`には、.rdash ファイルの`名前空間`とファイル名が含まれている必要があることに注意してください。
 
-In this example, the name of the resource starts with the application root namespace "LoadingDashboards", plus "Dashboards" which is the directory that contains the dashboard files, followed by the name of the .rdash file "Sales.rdash".  This gives us the full resource name of `LoadingDashboards.Dashboards.Sales.rdash`
+この例では、リソースの名前は、アプリケーションのルート名前空間 LoadingDashboards と、ダッシュボード ファイルを含むディレクトリである Dashboards で始まり、その後に .rdash ファイル Sales.rdash の名前が続きます。  これにより、`LoadingDashboards.Dashboards.Sales.rdash` の完全なリソース名が得られます。
 
 ```cs
 var resource = Assembly.GetExecutingAssembly().GetManifestResourceStream($"LoadingDashboards.Dashboards.Sales.rdash");
@@ -88,7 +88,7 @@ using (resource)
 }
 ```
 
-You can also load dashboards as embedded resources into the `RevealView` from a resource stream asynchronously using the `RVDashboard.LoadDashboardAsync` method.
+`RVDashboard.LoadDashboardAsync` メソッドを使用して、ダッシュボードをリソース ストリームから `RevealView` に埋め込みリソースとして非同期に読み込むこともできます。
 ```cs
 var resource = Assembly.GetExecutingAssembly().GetManifestResourceStream($"LoadingDashboards.Dashboards.Sales.rdash");
 using (resource)
@@ -98,34 +98,34 @@ using (resource)
 ```
 
 > [!NOTE]
-> The source code to this sample can be found on [GitHub](https://github.com/RevealBi/sdk-samples-wpf/tree/master/LoadingDashboards-FromResource).
+> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-wpf/tree/master/LoadingDashboards-FromResource) にあります。
 
-## Load From JSON
-For advanced users, or users that wish to serialize Reveal dashboards into .json files instead of .rdash files, you can load these JSON based files using the `RVDashboard.LoadFromJsonAsync` method.
+## JSON から読み込み
+上級ユーザー、または Reveal ダッシュボードを .rdash ファイルではなく .json ファイルにシリアル化するユーザーの場合、`RVDashboard.LoadFromJsonAsync` メソッドを使用してこれらの JSON ベースのファイルを読み込みできます。
 
-The first step is to serialize a Reveal dashboard into a json string. Once you have the string you can then save the JSON to disk or another data store.
+最初の手順は、Reveal ダッシュボードを json 文字列にシリアル化することです。文字列を取得したら、JSON をディスクに保存するか、rdata ストアに保存できます。
 
-To serialize a Reveal Dashboard into JSON simply call the `RVDashboard.ExportToJson` method.
+Reveal ダッシュボードを JSON にシリアル化するには、`RVDashboard.ExportToJson` メソッドを呼び出すだけです。
 
 ```cs
 var json = dashboard.ExportToJson();
 ```
 
-Once the dashboard has been serialized into JSON format, you can now save that JSON file to disk or load it directly into the `RevealView`.
+ダッシュボードが JSON 形式にシリアル化されたら、その JSON ファイルをディスクに保存するか、`RevealView` に直接読み込みできます。
 
-If loading a dashboard JSON file from disk, your code may look something like this:
+ディスクからダッシュボード JSON ファイルを読み込む場合、コードは次のようになります:
 ```cs
 var filePath = Path.Combine(Environment.CurrentDirectory, "Dashboards/Sales.json");
 var json = File.ReadAllText(filePath);
 ```
 
-Once you have the JSON string, you can load the dashboard by setting the `RevealView.Dashboard` property with the result of the `RVDashboard.LoadFromJsonAsync` method passing the JSON string as a method argument.
+JSON 文字列を取得したら、`RVDashboard.LoadFromJsonAsync` メソッドの結果を `RevealView.Dashboard` プロパティに設定して、JSON 文字列をメソッド引数として渡すことでダッシュボードを読み込むことができます。
 ```cs
 _revealView.Dashboard = await RVDashboard.LoadFromJsonAsync(json);
 ```
 
 > [!WARNING]
-> Manipulating or changing the contents of a Reveal dashboard after it has been serialized to JSON can break the integrity of the dashboard and cause irreversible damage to the contents of the dashboard. This could result in runtime exceptions being thrown in your application due to errors and/or a failure to load the dashboard.
+> JSON にシリアル化された後に Reveal ダッシュボードのコンテンツを操作または変更すると、ダッシュボードの完全性が損なわれ、ダッシュボードのコンテンツに取り返しのつかない損傷が生じる可能性があります。これにより、エラーやダッシュボードの読み込みの失敗により、アプリケーションで実行時に例外がスローされる可能性があります。
 
 > [!NOTE]
-> The source code to this sample can be found on [GitHub](https://github.com/RevealBi/sdk-samples-wpf/tree/master/LoadingDashboards-FromJson).
+> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-wpf/tree/master/LoadingDashboards-FromJson) にあります。

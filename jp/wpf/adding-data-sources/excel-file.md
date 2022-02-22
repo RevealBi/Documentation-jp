@@ -85,4 +85,4 @@ When the application runs, create a new Visualization and you will see the newly
 ![](images/excel-file-data-source.jpg)
 
 > [!NOTE]
-> The source code to this sample can be found on [GitHub](https://github.com/RevealBi/sdk-samples-wpf/tree/master/AddingDataSources/ExcelFile).
+> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-wpf/tree/master/AddingDataSources/ExcelFile) にあります。

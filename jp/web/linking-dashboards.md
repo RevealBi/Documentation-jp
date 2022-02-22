@@ -1,37 +1,37 @@
-# Linking Dashboards
+# ダッシュボード リンク
 
-The Reveal SDK supports dashboard linking, which allows users to navigate through dashboards. By moving from dashboard to dashboard, you can go from a high level overview of the business' reality to a more detailed view with the specifics.
+Reveal SDK はダッシュボードのリンクをサポートしているため、ユーザーはダッシュボードをナビゲートできます。ダッシュボードからダッシュボードに移動することで、業務上のハイレベルな概要からより詳細なビューに進むことができます。
 
-From a Reveal SDK perspective, dashboard linking is invoked when an end-user clicks on a link in a visualization which invokes the loading of another dashboard.
+Reveal SDK の観点からは、ダッシュボードのリンクは、エンドユーザーがビジュアル化されたリンクをクリックして別のダッシュボードをロードするときに呼び出されます。
 
 ![](images/linking-open-campaigns.jpg)
 
-For further details about the Dashboard Linking functionality, refer to [Dashboard Linking](../dashboards/dashboard-linking.md) from the Reveal’s User Guide.
+ダッシュボードリンク機能の詳細については、Reveal のユーザーガイドの [ダッシュボードのリンク](../dashboards/dashboard-linking.md) を参照してください。
 
 > [!NOTE]
-> Currently, dashboard links cannot be created with the Reveal SDK. You must use a native Reveal application such as [https://app.revealbi.io/](https://app.revealbi.io/)
+> 現在、ダッシュボードのリンクは Reveal SDK で作成できません。[https://app.revealbi.io/](https://app.revealbi.io/) などのネイティブ Reveal アプリケーションを使用する必要があります。
 
-## Respond to a Dashboard Link
+## ダッシュボード リンクへの応答
 
-To respond to when a **Dashboard Link** is clicked within a dashboard, you must set the property `RevealView.onLinkedDashboardProvider ` to a method that returns the `RVDashboard.loadDashboardAsync` Promise that loads the dashboard.
+ダッシュボード内で**ダッシュボード リンク**がクリックされたときに応答するには、ダッシュボードを読み込む `RVDashboard.loadDashboardAsync Promise` を返すメソッドに `RevealView.onLinkedDashboardProvider` プロパティを設定する必要があります。
 
-Using the dashboard Id:
+ダッシュボード ID を使用する方法:
 ```javascript
 revealView.onLinkedDashboardProviderAsync = (dashboardId, title) => {
     return $.ig.RVDashboard.loadDashboardAsync(dashboardId);
 };
 ```
 
-The dashboard Id is auto-generated if the dashboard was created in the [Reveal App](https://app.revealbi.io/). The dashboard Id may not be used in your scenario. For this reason, you can use the dashboard title instead.
+ダッシュボードが [Reveal アプリ](https://app.revealbi.io/)で作成された場合、ダッシュボードの ID は自動生成されます。ダッシュボードの ID はシナリオに応じて使用しない場合があります。このため、代わりにダッシュボードのタイトルを使用できます。
 
-Using the dashboard title:
+ダッシュボード タイトルを使用する方法:
 ```javascript
 revealView.onLinkedDashboardProviderAsync = (dashboardId, title) => {
     return $.ig.RVDashboard.loadDashboardAsync(title);
 };
 ```
 
-The dashboard title is actually the file name of the dashboard .rdash file that is hosted on the server.
+ダッシュボードのタイトルは、サーバーでホストされているダッシュボードの .rdash ファイルのファイル名です。
 
 > [!NOTE]
-> The source code to this sample can be found on [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/master/LinkingDashboards)
+> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/master/LinkingDashboards) にあります。

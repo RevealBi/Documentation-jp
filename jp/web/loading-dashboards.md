@@ -41,7 +41,7 @@ $.ig.RVDashboard.loadDashboard("Sales", (dashboard) => {
 ```
 
 > [!NOTE]
-> The source code to this sample can be found on [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/main/LoadingDashboards).
+> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/main/LoadingDashboards) にあります。
 
 ## Load from Custom File Path
 
@@ -94,7 +94,7 @@ $.ig.RVDashboard.loadDashboard("Sales", (dashboard) => {
 ```
 
 > [!NOTE]
-> The source code to this sample can be found on [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/main/LoadingDashboards-File).
+> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/main/LoadingDashboards-File).
 
 ## Load from File Stream
 
@@ -150,7 +150,7 @@ $.ig.RVDashboard.loadDashboard("Sales", (dashboard) => {
 ```
 
 > [!NOTE]
-> The source code to this sample can be found on [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/main/LoadingDashboards-FileStream).
+> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/main/LoadingDashboards-FileStream).
 
 ## Load from Resource
 
@@ -212,7 +212,7 @@ $.ig.RVDashboard.loadDashboard("Sales", (dashboard) => {
 ```
 
 > [!NOTE]
-> The source code to this sample can be found on [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/main/LoadingDashboards-Resource).
+> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/main/LoadingDashboards-Resource).
 
 ## Load From JSON
 
@@ -269,4 +269,4 @@ $.ig.RVDashboard.loadDashboard("Sales", (dashboard) => {
 ```
 
 > [!NOTE]
-> The source code to this sample can be found on [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/main/LoadingDashboards-Json).
+> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/main/LoadingDashboards-Json).
