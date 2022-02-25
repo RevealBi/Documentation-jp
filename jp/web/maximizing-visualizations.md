@@ -1,22 +1,23 @@
-# Maximizing Visualizations and Single Visualization Mode
+# 可視化の最大化と単一視覚化モード
 
-## Overview
+## 概要
 
-When displaying a dashboard to the user, there are some cases in which you’d like to display just one maximized visualization. In addition, you might also want to lock the initial visualization and prevent the user from accessing the whole dashboard. You can achieve both scenarios using the Web Client SDK.
+ダッシュボードをユーザーに表示するときに、最大化された可視化を 1 つだけ表示したい場合があります。さらに、最初の可視化をロックして、ユーザーがダッシュボード全体にアクセスできないようにすることもできます。Web Client SDK を使用して両方のシナリオを実現できます。
 
 <img src="images/maximize-three_divisions_dashboard_maximized.png" alt="Displaying a dashboard with a maximized visualization" class="responsive-img"/>
 
-### Example Details
+### サンプル詳細
 
-Let’s assume that you have a dashboard with three visualizations, where each visualization is showing data for a different division of your company, i.e., “Marketing”, “Sales” and “HR”.
+可視化した 3 つのダッシュボードがあり、それぞれの可視化に会社の異なる部門のデータが表示されているとします。
+
 
 <img src="images/maximize-three_divisions_dashboard.png" alt="Displaying a dashboard with three visualizations" class="responsive-img"/>
 
-In this example, you’d like to showcase these visualizations in your corporate application. You want to include them as part of the information displayed on each division’s home page.
+この例では、業務アプリケーションでこれらの可視化を使用します。各部署のホーム ページに表示される情報の一部として含めます。
 
-## Maximizing Visualizations
+## 可視化の最大化
 
-To open a dashboard with a maximized visualization, you need to set the dashboard property of __revealView__. Then, set the __maximizedVisualization__ property by passing the visualization you want maximized to the __$.ig.RevealView__ instance. When you don’t set a visualization in this attribute, the whole dashboard is displayed.
+視覚化を最大化してダッシュボードを開くには、ダッシュボードのプロパティを __revealView__ に設定する必要があります。次に、最大化する可視化を __$.ig.RevealView__ インスタンスに渡し、__maximizedVisualization__ プロパティを設定します。この属性に可視化を設定しないと、ダッシュボード全体が表示されます。
 
 ``` javascript
 $.ig.RVDashboard.loadDashboard("AllDivisions", function (dashboard) {
@@ -26,25 +27,25 @@ $.ig.RVDashboard.loadDashboard("AllDivisions", function (dashboard) {
 });
 ```
 
-Although the initial maximized visualization will be the one with title ‘Sales’, the end user can still return to the dashboard and see the rest of the visualizations.
+最初に最大化された可視化は Sales というタイトルの可視化になりますが、それでもエンドユーザーはダッシュボードに戻って残りの可視化を表示できます。
 
-## Single Visualization Mode
+## 単一可視化モード
 
-You may also want to lock the initial visualization, making it the only one displayed at all times. This way the dashboard works like a single visualization dashboard. This is the concept behind “single visualization mode”.
+また、最初の可視化をロックして、常に可視化を 1 つのみ表示するようにすることもできます。これにより、ダッシュボードは単一の視覚化ダッシュボードのように機能します。これが [シングル可視化モード] の概念です。
 
-To turn on the “single visualization mode”, just set the __singleVisualizationMode__ to true as shown below.
+[単一可視化モード] をオンにするには、次のように __singleVisualizationMode__ を true に設定します。
 
 ``` js
 revealView.singleVisualizationMode = true;
 ```
 
-After adding this single line, the dashboard will work as a single visualization dashboard. You can do the same for each division’s home page, just replace the title of the visualization in `dashboard.visualizations.getByTitle()` with the right one.
+この 1 行を追加すると、ダッシュボードは単一の視覚化ダッシュボードとして機能します。各部門のホーム ページでも同じことができます。`dashboard.visualizations.getByTitle()` の可視化タイトルを正しいタイトルに置き換えるだけです。
 
-### Dynamically changing a locked visualization
+### ロックされた可視化を動的に変更
 
-It is also possible for you to dynamically change the single visualization being displayed, without reloading the page. From the user’s perspective, your app would be a single page application with a selector of divisions and a maximized visualization. After the user chooses one division from the list, the maximized visualization is updated.
+ページを再読み込みせずに、表示されている単一の可視化を動的に変更することもできます。ユーザーの観点から見ると、アプリは部門のセレクターと最大化された視覚化を備えた単一ページのアプリケーションになります。ユーザーがリストから 1 つの部門を選択すると、最大化された視覚化が更新されます。
 
-You can achieve this scenario by using the **maximizeVisualization** method in __$.ig.RevealView__, as shown below:
+このシナリオは、以下に示すように、__$.ig.RevealView__ の **maximizeVisualization** メソッドを使用して実現できます。
 
 ```html
 <section style="display:grid;grid-template-rows:30px auto;">
@@ -74,8 +75,8 @@ function maximizeVisualization(title) {
 }
 ```
 
-To take into account:
-  - The __$.ig.RevealView__ object is set in \_window.revealView\</emphasis\> in order to use it later when **maximizeVisualization** property is set.
-  - The buttons added to the section before the div are used just as an example. They were added as a means to switch the maximized visualization, in your case you’ll have to to use a similar code in your application.
-  - In this example, the buttons are hardcoded to match the visualizations in the sample dashboard, but you can also generate the list of buttons dynamically by iterating the list of
-    visualizations in the dashboard. For further details see __$.ig.RVDashboard.visualizations__.
+注意事項:
+  - __$.ig.RevealView__ オブジェクトは \_window.revealView\</emphasis\> に設定され、後で **maximizeVisualization** プロパティが設定されたときに使用できるようになっています。
+  - Div の前のセクションに追加されたボタンは、単なる例として使用されています。最大化された可視化を切り替える手段として追加されました。ここでは、アプリケーションで同様のコードを使用する必要があります。
+  - この例では、サンプル ダッシュボードのビジュアライゼーションと一致するようにボタンがハードコードされていますが、ダッシュボードのビジュアライゼーションのリストを繰り返すことでボタンのリストを動的に生成することもできます。
+    詳細については __$.ig.RVDashboard.visualizations__ を参照してください。

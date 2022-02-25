@@ -1,19 +1,19 @@
-# Theming Dashboards
+# ダッシュボードのテーマ設定
 
-## Built-In Themes
+## 定義済みのテーマ
 
-Reveal SDK comes with four built-in themes that can applied:
+Reveal SDK には、適用できる 4 つの定義済みテーマが付属しています。
 
-| Theme              | RevealView                                                   |
+| テーマ              | RevealView                                                   |
 | -----              | :--------:                                                   |
 | **Mountain Light** | <img src="images/theming-mountain-light.jpg" width="640" />  |
 | **Mountain Dark**  | <img src="images/theming-mountain-dark.jpg" width="640" />   |
 | **Ocean Light**    | <img src="images/theming-ocean-light.jpg" width="640" />     |
 | **Ocean Dark**     | <img src="images/theming-ocean-dark.jpg" width="640" />      |
 
-## Apply a Theme
+## テーマの適用
 
-To apply a built-in theme, you need to assign the `RevealSdkSetting.theme` property to an instance of your preferred theme.
+定義済みのテーマを適用するには、`RevealSdkSetting.theme` プロパティを優先テーマのインスタンスに割り当てる必要があります。
 
 ##### Mountain Light
 
@@ -40,36 +40,36 @@ $.ig.RevealSdkSettings.theme = new $.ig.OceanDarkTheme();
 ```
 
 > [!NOTE]
-> The `RevealSdkSetting.theme` property is a static property and will apply to all instances of `RevealView` in your application.
+> `RevealSdkSetting.theme` プロパティは静的プロパティであり、アプリケーション内の `RevealView` のすべてのインスタンスに適用されます。
 
-## Custom Themes
+## カスタム テーマ
 
-When embedding the Reveal SDK into your existing applications, it is important that the dashboards match your application's look and feel. If any of the built-in Reveal SDK themes do not match your application's theme, you can create a custom theme that more closely matches your application's look and feel.
+Reveal SDK を既存のアプリケーションに埋め込む場合、ダッシュボードがアプリケーションのルックアンドフィールと一致していることが重要です。定義済みの Reveal SDK テーマのいずれかがアプリケーションのテーマと一致しない場合は、アプリケーションのルックアンドフィールにより近いカスタム テーマを作成できます。
 
-A theme is a class of type `RevealTheme`. It allows you to define colors and fonts for various elements of the the Reveal SDK UI controls.
+テーマは、`RevealTheme` タイプのクラスです。これにより、Reveal SDK UI コントロールのさまざまな要素の色とフォントを定義できます。
 
-The `RevealTheme` has the following properties:
+`RevealTheme` には次のプロパティがあります:
 
-| Name                                              | Description                                                                                                    |
+| 名前                                              | 説明                                                                                                    |
 | ----                                              | -----------                                                                                                    |
-| **chartColors**                                   | The colors used to show the series in your visualizations. You can add an unlimited number of colors. Once all colors are used in a visualization, Reveal will autogenerate new shades of these colors. This way your colors won’t repeat and each value will have its own color.            |
-| **accentColor**                                   | The default accent color in Reveal is a shade of blue that you can find in the + Dashboard button and other interactive actions. You can change the color to match the same accent color you use in your applications.                                                                    |
-| **dashboardBackgroundColor**                      | Sets the background color of the dashboards. This is the main background color.                                |
-| **visualizationBackgroundColor**                  | Sets the background color of the visualizations. This is a secondary background color.                         |
-| **conditionalFormatting**                         | Changes the default colors of the bounds you can set when using conditional formatting.                        |
-| **regularFont**                                   | Sets the regular font style.                                                                                   |
-| **boldFont**                                      | Sets the bold font style.                                                                                      |
-| **mediumFont**                                    | Sets the medium font style.                                                                                    |
-| **fontColor**                                     | Sets the color of the font.                                                                                    |
-| **highlightColor**                                | Sets the highlighting color in specific dashboard scenarios (forecast and outliers statistical functions).     |
-| **useRoundedCorners**                             | Rounded corners in buttons, tooltips, containers, visualizations, etc. If set to false, squared corners will be shown.                                                                                                                                                                        |
+| **chartColors**                                   | 表示形式でシリーズを示すために使用される色。色の数に制限はありません。すべての色が表示形式で使用されると、Reveal はこれらの色の新しい色合いを自動生成します。これにより、色が重複せず、各値に独自の色が設定されます。           |
+| **accentColor**                                   | Reveal のデフォルトのアクセント色は、[+ ダッシュボード] ボタンやその他のインタラクティブなアクションで確認することができる青の色合いです。アプリケーションで使用するのと同じアクセント色に一致するように色を変更できます。                                       |
+| **dashboardBackgroundColor**                      | ダッシュボードの背景色を設定します。これはメインの背景色です。                                |
+| **visualizationBackgroundColor**                  | 表示形式の背景色を設定します。これは二番目のな背景色です。                         |
+| **conditionalFormatting**                         | 条件付き書式を使用するときに設定できる境界のデフォルトの色を変更します。                        |
+| **regularFont**                                   | 通常のフォント スタイルを設定します。                                                                                   |
+| **boldFont**                                      | 太字のフォント スタイルを設定します。                                                                                      |
+| **mediumFont**                                    | 中のフォント スタイルを設定します。                                                                                    |
+| **fontColor**                                     | フォントの色を設定します。                                                                                    |
+| **highlightColor**                                | 特定のダッシュボード シナリオ (予測および外れ値の統計関数) の強調色を設定します。     |
+| **useRoundedCorners**                             | ボタン、ツールチップ、コンテナ、表示形式などの隅が丸められています。false に設定すると、コーナーは四角になります。                                                                                                                                                                        |
 
 > [!NOTE]
-> When updating theme properties or applying a new theme at runtime, you must call the `RevealView.refreshTheme` method in order to have theme changes applied to the `RevealView`.
+> テーマのプロパティを更新するとき、または実行時に新しいテーマを適用するときは、テーマの変更を `RevealView` に適用するために、`RevealView.refreshTheme` メソッドを呼び出す必要があります。
 
-### Clone Existing Theme
+### 既存のテーマのクローン
 
-If you would like to create a theme based on the values of the an existing theme, you can clone the current `RevealTheme` before making making any changes to it.  To clone a theme, simply use the `RevealTheme.clone()` method. Once you have cloned the theme, you can set the theme properties and use it as the new theme.
+既存のテーマの値に基づいてテーマを作成する場合は、変更を加える前に現在の `RevealTheme` のクローンを作成できます。  テーマのクローンを作成するには、`RevealTheme.clone()` メソッドを使用するだけです。テーマのクローンを作成したら、テーマのプロパティを設定して、新しいテーマとして使用できます。
 
 ```javascript
 function cloneCurrentTheme() {
@@ -86,20 +86,20 @@ function cloneCurrentTheme() {
 }
 ```
 
-After you have cloned and modified and existing theme, you can now apply the theme.
+テーマのクローンを作成して変更し、既存のテーマを変更したら、テーマを適用できます。
 
 ```javascript
 $.ig.RevealSdkSettings.theme = this.cloneCurrentTheme();
 ```
 
 > [!NOTE]
-> You can use either `rgb(255, 255, 255)` (RGB) or `#000000` (HEX) colors to specify the color values.
+> `rgb(255, 255, 255)` (RGB) または `#000000` (HEX) 色のいずれかを使用して、色の値を指定できます。
 
-### Create a Custom Theme
+### カスタム テーマの作成
 
-If you would like a theme that is more maintainable and easier to reuse and share, we recommend creating a custom theme. Creating a custom theme can be accomplished by creating a new class instance of a `RevealTheme`, and modifying it's properties.
+より保守しやすく、再利用と共有が容易なテーマが必要な場合は、カスタム テーマを作成することをお勧めします。カスタム テーマの作成は、`RevealTheme` の新しいクラス インスタンスを作成し、そのプロパティを変更することで実現できます。
 
-Here is an example of a custom theme:
+カスタム テーマの例を次に示します:
 
 ```javascript
 function createCustomTheme(){
@@ -119,7 +119,7 @@ function createCustomTheme(){
 };
 ```
 
-After you have created your custom theme, you can now apply the theme.
+カスタム テーマを作成したら、テーマを適用できます。
 
 ```javascript
 $.ig.RevealSdkSettings.theme = this.createCustomTheme();
