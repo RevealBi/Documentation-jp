@@ -1,68 +1,68 @@
-# Installation
+# インストール
 
-## System Requirements
+## システム要件
 
-- Windows 10 or higher
-- Visual Studio 2019 or higher
-- .NET Framework 4.6.2 or higher- 
+- Windows 10 またはそれ以降
+- Visual Studio 2019 またはそれ以降
+- .NET Framework 4.6.2 またはそれ以降 
 
-## Installing the Reveal SDK
+## Reveal SDK のインストール
 
-To install the Reveal SDK, you need to download and execute the Reveal SDK Installer. To achieve this, use the following steps:
-1. Download the Reveal SDK Installer from the [Reveal website](https://www.revealbi.io/download-sdk)
-2. Fill out the "Try the Reveal SDK" form on the webpage
-3. Save the Reveal SDK installer to a known location on your disk
+Reveal SDK をインストールするには、Reveal SDK インストーラーをダウンロードして実行する必要があります。以下はインストール方法です。
+1. [Reveal Web サイト](https://www.revealbi.io/download-sdk)から Reveal SDK インストーラーをダウンロードします。
+2. Web ページの「Reveal SDK を試す」フォームに記入します。
+3. Reveal SDK インストーラーをディスクの既知の場所に保存します。
 
-Before extracting the saved Reveal SDK Installer zip file, you should unblock it. Right-click the zip file and select **Properties**. The properties dialog will appear with a checkbox option to unblock the file. Check the **Unblock** option and press **Apply**.
+保存したReveal SDK インストーラー zip ファイルを抽出する前にブロックを解除する必要があります。zip ファイルを右クリックして **[プロパティ]** を選択します。ファイルのブロックを解除するチェック ボックスがあるプロパティ ダイアログが表示されます。[**解除**] オプションをチェックして [**適用**] をクリックします。
 
 ![](images/install-unblock-zip.jpg)
 
-After unblocking the platform installer zip file, follow these steps:
-1. Extract the zip to the current location.
-2. Find the extracted Reveal SDK Installer EXE file and double click to start it.
-3. Select the install location
-4. Accept the terms of the license agreement and continue the installation process. (By clicking install you agree)
+プラットフォーム インストーラー zip ファイルのブロックを解除した後、以下の手順に従ってください。
+1. ZIP を現在の場所に解凍します。
+2. 解凍した Reveal SDK インストーラー EXE ファイルをダブルクリックして起動します。
+3. インストール場所を選択します。
+4. インストールを続行するために使用許諾に同意する必要があります。(インストールをクリックすると同意します)
 
 ![](images/install-start.png)
 
-Once the installation is completed, you will be presented the Reveal SDK installer’s finish screen. At this point, feel free to explore the Reveal SDK samples by clicking the "Open SDK Sample" button, read our [documentation](https://help.revealbi.io/), visit our community [blogs](https://www.revealbi.io/blog), or learn a few tips and tricks by watching our [videos](https://www.youtube.com/revealbi).
+インストールが完了すると、Reveal SDK インストーラーの完了画面が表示されます。この時点で、[SDK サンプルを開く] ボタンをクリックして Reveal SDK サンプルを参照するか、[ヘルプ ドキュメント](https://help.revealbi.io/)、コミュニティ [ブログ (英語)](https://www.revealbi.io/blog) や[ビデオ](https://www.youtube.com/revealbi)などを活用できます。
 
 ![](images/install-finish.png)
 
-## What Gets Installed
+## インストールされる項目
 
-Once the installation is complete, you should have the following items installed in the local folder **"%public%\Documents\Infragistics\Reveal\SDK\"**:
+インストールが完了すると、**"%public%\Documents\Infragistics\Reveal\SDK\"** ローカル フォルダーに以下の項目がインストールされます。
 
-- The Reveal SDK Binaries (for manual use)
-- The Reveal SDK NuGet Packages
-- The Reveal SDK Samples
+- Reveal SDK バイナリ (手動で使用)
+- Reveal SDK NuGet パッケージ
+- Reveal SDK サンプル
 
-There is also a local NuGet package source automatically added to Visual Studio that points to the Reveal SDK NuGet packages.
+Reveal SDK NuGet パッケージをポイントする Visual Studio に自動的に追加されるローカル NuGet パッケージ ソースもあります。
 
 ![](images/nuget-package-source-local-vs.jpg)
 
 > [!NOTE]
-> You can also use the NuGet feeds covered in the Infragistics NuGet Feed topic.
+> Infragistics NuGet フィード トピックの NuGet フィードを使用することもできます。
 
-## Adding Your License Key
+## ライセンス キーの追加
 
-By default, when you install the Reveal SDK for the first time using the Reveal SDK Installer only the **trial** product is installed. In order to unlock the **licensed** product, you must provide a license key in the installer.
+デフォルトでは、Reveal SDK インストーラーを使用して Reveal SDK を初めてインストールする場合、**トライアル版**の製品のみがインストールされます。**ライセンス版**の製品のロックを解除するには、インストーラーでライセンス キーを提供する必要があります。
 
-Providing a license key to the installer can be done in two ways:
-1. Find the extracted Reveal SDK Installer EXE file and double click to start it.
-2. In Windows, go to **Setting -> Apps** and modify the Reveal SDK installation
+インストーラーにライセンス キーを提供する方法は 2 つあります。
+1. 解凍した Reveal SDK インストーラー EXE ファイルをダブルクリックして起動します。
+2. Windows では、**[設定] -> [アプリ]** に移動し、Reveal SDK インストールを変更します。
 
 ![](images/install-modify-app.jpg)
 
-Once you have either modified the existing install, or re-run the Reveal SDK Installer, you will be prompted with a screen to either "Repair", "Remove", or "Enter License".  Choose **Enter License**
+既存のインストールを変更するか、Reveal SDK インストーラーを再実行すると、[修復]、[削除]、または [ライセンスを入力] のいずれかの画面が表示されます。  [**ライセンスの入力**] を選択します。
 
 ![](images/install-modify-installer.jpg)
 
-After you choose **Enter License**, you will be taken to a screen in which you can now enter your license key.
+[**ライセンスの入力**] を選択すると、ライセンス キーを入力する画面が表示されます。
 
 ![](images/install-enter-license-key.jpg)
 
 ![](images/install-enter-license-key.jpg)
 
 > [!NOTE]
-> After successfully adding your license you will need to uninstall the **Reveal.Sdk.Wpf.Trial** and install **Reveal.Sdk.Wpf** nuget package.
+> ライセンスを追加したら、**Reveal.Sdk.Wpf.Trial** をアンインストールし、**Reveal.Sdk.Wpf** nuget パッケージをインストールします。

@@ -1,8 +1,8 @@
-# Getting Started with Reveal SDK for HTML/JavaScript
+# Reveal SDK for HTML/JavaScript で作業を開始
 
-## Step 1 - Create an HTML File
+## 手順 1 - HTML ファイルの作成
 
-1 - Open your favorite code editor and create a new HTML file and save the file with the name `index.html`
+1 - お気に入りのコード エディターを開き、新しい HTML ファイルを作成し、`index.html` という名前でファイルを保存します。
 
 ```html
 <!DOCTYPE html>
@@ -19,50 +19,50 @@
 </html>
 ```
 
-## Step 2 - Add Reveal JavaScript API
+## 手順 2 - Reveal JavaScript API の追加
 
-1 - Create a new folder called `assets` and then create another folder called `reveal` within the `assets` folder.
+1 - `assets` と呼ばれる新しいフォルダーを作成し、`assets` フォルダー内に `reveal` と呼ばれる別のフォルダーを作成します。
 
 ![](images/javascript-create-reveal-folder.jpg)
 
-2 - Copy all the JavaScript files located at `%public%/Documents/Infragistics/Reveal/SDK/Web/JS/Client` into the `assets/reveal` folder you created previously.
+2 - `%public%/Documents/Infragistics/Reveal/SDK/Web/JS/Client` にあるすべての JavaScript ファイルを以前作成した `assets/reveal` フォルダーにコピーします。
 
 ![](images/javascript-copy-reveal-files.jpg)
 
-3 - Modify the `index.html` file to include the `infragistics.reveal.js` script at the bottom of the page just before the closing `</body>` tag.
+3 - `index.html` ファイルを変更し、ページの下部に (`</body>` 終了タグの直前) `infragistics.reveal.js` スクリプトを含めます。
 
 ```html
 <script src="./assets/reveal/infragistics.reveal.js"></script>
 ```
 
-4 - Install the remaining Reveal JavaScript API dependencies:
+4 - 残りの Reveal JavaScript API 依存関係をインストールします。
 
-- Jquery 2.2 or greater
+- jQuery 2.2 またはそれ以降
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
 ```
-- Day.js 1.8.15 or greater
+- Day.js 1.8.15 またはそれ以降
 
 ```html
 <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
 ```
 
-- Quill RTE 1.3.6 or greater
+- Quill RTE 1.3.6 またはそれ以降
 
 ```html
 <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet" type="text/css">    
 <script src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>
 ```
 
-- Spectrum v 1.8.0 or newer (Optional) - this is only needed if you enable the UI for the end user to set the background color for a particular visualization.
+- Spectrum v1.8.0 またはそれ以降 (オプション) - これは、エンド ユーザーが特定の可視化の背景色を設定できるように UI を有効にする場合にのみ必要です。
 
 ``` html
 <link href="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.css" rel="stylesheet" type="text/css" >
 <script src="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.js"></script>
 ```
 
-The final `index.html` files should look similar to this:
+最終の `index.html` ファイルは以下のようになります。
 
 ```html
 <!DOCTYPE html>
@@ -86,15 +86,15 @@ The final `index.html` files should look similar to this:
 </html>
 ```
 
-## Step 3 - Initialize the Reveal view
+## 手順 3 - Reveal ビューの初期化
 
-1 - Modify the `index.html` file and add a new `<div>` tag after the opening `<body>` tag, and set the `id` to `revealView`.
+1 - `index.html` ファイルを変更し、開始 `<body>` タグの後に新しい `<div>` タグを追加して、`id` を `revealView` に設定します。
 
 ```html
 <div id="revealView" style="height: 920px; width: 100%;"></div>
 ```
 
-2 - Add a JavaScript `Script` tag at the bottom of the `index.html` file and initialize the `revealView`.
+2 - `index.html` ファイルの最後に JavaScript の `Script` タグを追加し、`revealView` を初期化します。
 
 ```html
 <script type="text/javascript">
@@ -105,9 +105,9 @@ The final `index.html` files should look similar to this:
 }
 ```
 
-This JavaScript code first calls the `$.ig.RevealSdkSettings.ensureFontsLoadedAsync` to ensure that all fonts have been properly loaded. Next, we instantiate a new instance of the `RevealView` by creating a new `$.ig.RevealView` and passing in the `#revealView` selector.
+この JavaScript コードは最初に `$.ig.RevealSdkSettings.ensureFontsLoadedAsync` を呼び出してすべてのフォントが正しく読み込まれたことを確認します。次に、新しい `$.ig.RevealView` を作成し、`#revealView` セレクターを渡すことで、`RevealView` の新しいインスタンスを作成します。
 
-The final `index.html` file should look like this:
+最終の `index.html` ファイルは以下のようになります。
 
 ```html
 <!DOCTYPE html>
@@ -141,17 +141,17 @@ The final `index.html` file should look like this:
 > [!IMPORTANT]
 > Clients apps must set the `$.ig.RevealSdkSettings.setBaseUrl("url-to-server");` to the server address hosting the dashboards if the client is being hosting on a different URL.
 
-## Step 4 - Run the Application
+## 手順 4 - アプリケーションの実行
 
-Double-click on the `index.html` file to launch the webpage in your default browser.
+`index.html` ファイルをダブルクリックしてデフォルトのブラウザーで Web ページを起動します。
 
 ![](images/angular-app-running.jpg)
 
-**Congratulations!** You have written your first Reveal SDK application.
+完了しました! 最初の Reveal SDK アプリケーションを作成しました。
 
-Next Steps:
-- [Create New Dashboards](creating-dashboards.md)
-- [Load Existing Dashboards](loading-dashboards.md)
+次の手順:
+- [新しいダッシュボードの作成](creating-dashboards.md)
+- [既存のダッシュボードの読み込み](loading-dashboards.md)
 
 > [!NOTE]
 > このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/main/01-GettingStarted) にあります。

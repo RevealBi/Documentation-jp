@@ -1,8 +1,8 @@
-# Authentication
+# 認証
 
-The Reveal SDK allows you to provide both Username/Password and Bearer Token authentication credentials to your data sources.
+Reveal SDK では、ユーザー名またはパスワードとベアラー トークンの両方の認証資格情報をデータ ソースに提供できます。
 
-**Step 1** - To provide authentication credentials to your data source, you must first create a class that implements the `IRVAuthenticationProvider` interface and implement the `ResolveCredentialsAsync` method.
+**手順 1** - 認証情報をデータ ソースに提供するには、最初に `IRVAuthenticationProvider` インターフェイスを実装するクラスを作成し、`ResolveCredentialsAsync` メソッドを実装する必要があります。
 
 ```cs
 public class AuthenticationProvider : IRVAuthenticationProvider
@@ -14,7 +14,7 @@ public class AuthenticationProvider : IRVAuthenticationProvider
 }
 ```
 
-**Step 2** - The `ResolveCredentialsAsync` method provides the `RVDashboardDataSource` as a parameter which allows you to determine which data source is requesting the credentials. In this example, we are checking if the `RVDashboardDataSource` is a SQL Server data source by using the `RVSqlServerDataSource` object.
+**手順 2** - ResolveCredentialsAsync メソッドは、`RVDashboardDataSource` をパラメーターとして提供します。これにより、資格情報を要求しているデータ ソースを特定できます。この例では、`RVSqlServerDataSource` オブジェクトを使用して、`RVDashboardDataSource` が SQL Server データ ソースかどうかを確認しています。
 
 ```cs
 public class AuthenticationProvider : IRVAuthenticationProvider
@@ -31,15 +31,15 @@ public class AuthenticationProvider : IRVAuthenticationProvider
 }
 ```
 
-**Step 3** - Finally, you need to set the `RevealSdkSettings.AuthenticationProvider` property to an instance of your authentication provider.
+**手順 3** - 最後に、`RevealSdkSettings.AuthenticationProvider` プロパティを認証プロバイダーのインスタンスに設定する必要があります。
 
 ```cs
 RevealSdkSettings.AuthenticationProvider = new AuthenticationProvider();
 ```
 
-## Username/Password Authentication
+## ユーザー名/パスワード認証
 
-If your data source requires the use of a username and password, then you must return an instance of the `RVUsernamePasswordDataSourceCredential` class. The `RVUsernamePasswordDataSourceCredential` class provides constructor overloads to define the **username**, the **password**, and optionally the **domain**.
+データ ソースがユーザー名とパスワードの使用を要求する場合、`RVUsernamePasswordDataSourceCredential` クラスのインスタンスを返す必要があります。`RVUsernamePasswordDataSourceCredential` クラスは、**ユーザー名**、**パスワード**、およびオプションで**ドメイン**を定義するコンストラクターのオーバーロードを提供します。
 
 ```cs
 public Task<IRVDataSourceCredential> ResolveCredentialsAsync(RVDashboardDataSource dataSource)
@@ -57,7 +57,7 @@ public Task<IRVDataSourceCredential> ResolveCredentialsAsync(RVDashboardDataSour
 }
 ```
 
-If your data source is using an anonymous login, without authentication, you can use the `RVUsernamePasswordDataSourceCredential` with its empty constructor.
+データ ソースが認証なしで匿名ログインを使用している場合、空のコンストラクターで `RVUsernamePasswordDataSourceCredential` を使用できます。
 
 ```cs
 if (dataSource is RVRESTDataSource)
@@ -66,21 +66,21 @@ if (dataSource is RVRESTDataSource)
 }
 ```
 
-The `RVUsernamePasswordDataSourceCredential` is supported for the following data sources:
-- Microsoft Analysis Services Server
-- Microsoft Dynamics CRM (On-Premises and Online)
-- Microsoft SQL Server
+`RVUsernamePasswordDataSourceCredential` は、以下のデータ ソースでサポートされます。
+- Microsoft Analysis Services サーバー
+- Microsoft Dynamics CRM (オンプレミスおよびオンライン)
+- Microsoft SQL サーバー
 - MySQL
-- OData Services
+- OData サービス
 - Oracle
 - PostgreSQL
-- REST Services
+- REST サービス
 - Sybase
-- Web Resources
+- ウェブ リソース
 
-## Bearer Token Authentication
+## ベアラー トークン認証
 
-If your data source requires the use of a username and password, then you must return an instance of the `RVBearerTokenDataSourceCredential` class. The `RVBearerTokenDataSourceCredential` class provides constructor overloads to define the **token**, and the **user id**.
+データ ソースがユーザー名とパスワードの使用を要求する場合、`RVBearerTokenDataSourceCredential` クラスのインスタンスを返す必要があります。`RVBearerTokenDataSourceCredential` クラスは、**トークン**と**ユーザー ID** を定義するコンストラクターのオーバーロードを提供します。
 
 ```cs
 public Task<IRVDataSourceCredential> ResolveCredentialsAsync(RVDashboardDataSource dataSource)
@@ -94,13 +94,13 @@ public Task<IRVDataSourceCredential> ResolveCredentialsAsync(RVDashboardDataSour
 }
 ```
 
-The `RVBearerTokenDataSourceCredential` is supported for the following data sources:
+`RVBearerTokenDataSourceCredential` は、以下のデータ ソースでサポートされます。
 - Box
 - Dropbox
-- Google Analytics
+- Google アナリティクス
 - Google Drive
-- OData Services
+- OData サービス
 - OneDrive
-- REST Services
-- SharePoint Online
-- Web Resources
+- REST サービス
+- SharePoint オンライン
+- ウェブ リソース

@@ -1,14 +1,14 @@
-# Reveal Server .NET API Reference
-Here you will find technical information about the Reveal SDK, specifically about the Reveal SDK Server .NET API.
-For a complete Reveal SDK Server API reference, please follow <a href="/api/aspnet/latest/Reveal.Sdk.html" target="_blank" rel="noopener\">this link</a>
+# Reveal サーバー .NET API リファレンス
+ここでは、Reveal SDK、特に Reveal SDK Server .NET API に関する詳しい情報を見つけることができます。
+Reveal SDK サーバー API の詳細については、<a href="/api/aspnet/latest/Reveal.Sdk.html" target="_blank" rel="noopener\">このリンクを参照してください。</a>
 
-## Most commonly used classes and interfaces:
+## 最も一般的に使用されるクラスとインターフェース:
 
-**Main SDK concepts and features** 
+**SDK の主な概念と機能** 
 <a href="/api/aspnet/latest/Reveal.Sdk.RevealEmbedSettings.html" target="_blank" rel="noopener\">RevealEmbedSettings</a>  
 <a href="/api/aspnet/latest/Reveal.Sdk.Dashboard.html" target="_blank" rel="noopener\">Dashboard class</a>  
 
-**Datasources**  
+**データ ソース**  
 <a href="/api/aspnet/latest/Reveal.Sdk.IRVDataSourceProvider.html" target="_blank" rel="noopener\">IRVDataSourceProvider</a>
 
 <a href="/api/aspnet/latest/Reveal.Sdk.RVSqlServerDataSource.html" target="_blank" rel="noopener\">RVSqlServerDataSource</a>  
@@ -25,7 +25,7 @@ For a complete Reveal SDK Server API reference, please follow <a href="/api/aspn
 <a href="/api/aspnet/latest/Reveal.Sdk.RVInMemoryDataSource.html" target="_blank" rel="noopener\">RVInMemoryDataSource</a>  
 <a href="/api/aspnet/latest/Reveal.Sdk.RVInMemoryDataSourceItem.html" target="_blank" rel="noopener\">RVInMemoryDataSourceItem</a>  
 
-**Authentication**  
+**認証**  
 <a href="/api/aspnet/latest/Reveal.Sdk.IRVAuthenticationProvider.html" target="_blank" rel="noopener\">IRVAuthenticationProvider</a>  
 <a href="/api/aspnet/latest/Reveal.Sdk.IRVDataSourceCredential.html" target="_blank" rel="noopener\">IRVDataSourceCredential</a>  
 <a href="/api/aspnet/latest/Reveal.Sdk.RVBearerTokenDataSourceCredential.html" target="_blank" rel="noopener\">RVBearerTokenDataSourceCredential</a>  
