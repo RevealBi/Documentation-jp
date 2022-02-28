@@ -1,6 +1,6 @@
-# Replacing MS Sql Server Data Source
+# MS SQL Server データ ソースの置き換え
 
-**Step 1** - Create a class that implements `IRVDataSourceProvider`. This class will perform the actual replacement of the MS SQL Server settings. 
+**手順 1** - `IRVDataSourceProvider` を実装するクラスを作成します。このクラスは、MS SQL Server 設定の実際の置換を実行します。 
 
 ```cs
 public class MyDataSourceProvider : IRVDataSourceProvider
@@ -12,17 +12,17 @@ public class MyDataSourceProvider : IRVDataSourceProvider
 }
 ```
 
-The `ChangeDataSourceItemAsync` method of this class returns the `RVDataSourceItem` that the visualization will use to get its data. By modifying the `RVDataSourceItem` item that is provided as an argument in the `ChangeDataSourceItemAsync` method, you can change which server or table to get your data from.
+このクラスの `ChangeDataSourceItemAsync` メソッドは、可視化がデータを取得するために使用する `RVDataSourceItem` を返します。`ChangeDataSourceItemAsync` メソッドで引数として提供される `RVDataSourceItem` 項目を変更することにより、データを取得するサーバーまたはテーブルを変更できます。
 
-**Step 2** - Set the `RevealSdkSettings.DataSourceProvider` to an instance of the class that implements `IRVDataSourceProvider`
+**手順 2** - `RevealSdkSettings.DataSourceProvider` を `IRVDataSourceProvider` を実装するクラスのインスタンスに設定します。
 
 ```cs
 RevealSdkSettings.DataSourceProvider = new MyDataSourceProvider();
 ```
 
-## Example: Replace Host, Database, and Table
+## 例: ホスト、データベース、およびテーブルの置き換え
 
-You can change the MS SQL Server host, database, and table name of every MS SQL Server data source item in your dashboard by casting each `RVDataSourceItem` as a `RVSqlServerDataSourceItem` and modifying it's properties as follows:
+各 `RVDataSourceItem` を `RVSqlServerDataSourceItem` としてキャストし、そのプロパティを次のように変更することで、ダッシュボード内のすべての MS SQL Server データ ソース項目の MS SQL Server ホスト、データベース、およびテーブル名を変更できます。
 
 ```cs
 public Task<RVDataSourceItem> ChangeDataSourceItemAsync(RVDashboardFilter filter, RVDataSourceItem dataSourceItem)
