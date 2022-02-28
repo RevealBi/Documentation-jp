@@ -37,25 +37,25 @@
 
 4 - 残りの Reveal JavaScript API 依存関係をインストールします。
 
-- jQuery 2.2 またはそれ以上
+- jQuery 2.2 またはそれ以降
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
 ```
-- Day.js 1.8.15 またはそれ以上
+- Day.js 1.8.15 またはそれ以降
 
 ```html
 <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
 ```
 
-- Quill RTE 1.3.6 またはそれ以上
+- Quill RTE 1.3.6 またはそれ以降
 
 ```html
 <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet" type="text/css">    
 <script src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>
 ```
 
-- Spectrum v1.8.0 またはそれ以上 (オプション) - これは、エンド ユーザーが特定の可視化の背景色を設定できるように UI を有効にする場合にのみ必要です。
+- Spectrum v1.8.0 またはそれ以降 (オプション) - これは、エンド ユーザーが特定の可視化の背景色を設定できるように UI を有効にする場合にのみ必要です。
 
 ``` html
 <link href="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.css" rel="stylesheet" type="text/css" >
@@ -183,7 +183,7 @@ Visual Studio Code ターミナルで、`npm start` コマンドを入力しま�
 
 次の手順:
 - [新しいダッシュボードの作成](creating-dashboards.md)
-- [現在のダッシュボードの読み込み](loading-dashboards.md)
+- [既存のダッシュボードの読み込み](loading-dashboards.md)
 
 > [!NOTE]
 > このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-react/tree/main/01-GettingStarted) にあります。

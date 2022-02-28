@@ -186,9 +186,9 @@ appsettings.json に「Reveal.Sdk」キーを追加してログ レベルを次�
 ### 1\. 依存関係の確認
 Reveal Web Client SDK には、サードパーティーの参照が 2 つあります。
 
-- [jQuery](https://jquery.com) 2.2 またはそれ以上
-- [Day.js](https://day.js.org) 1.8.15 またはそれ以上
-- [Quill RTE](https://quilljs.com/) 1.3.6 またはそれ以上
+- [jQuery](https://jquery.com) 2.2 またはそれ以降
+- [Day.js](https://day.js.org) 1.8.15 またはそれ以降
+- [Quill RTE](https://quilljs.com/) 1.3.6 またはそれ以降
 - **(オプション)** [Spectrum](https://github.com/bgrins/spectrum) v 1.8.0 以降 - これは、エンド ユーザーが特定の可視化の背景色を設定できるように UI を有効にする場合にのみ必要です。
 [canChangeVisualizationBackgroundColor](~/jp/developer/web-sdk/using-the-client-sdk/showing-hiding-elements.html#canChangeVisualizationBackgroundColor) をご覧ください。
 

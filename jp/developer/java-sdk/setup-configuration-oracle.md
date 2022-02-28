@@ -129,9 +129,9 @@ Java SDK は、ダッシュボードをさまざまな形式 (Image、PDF、PPT�
 
 Reveal Web Client SDK には、次のサードパーティの参照があります:
 
-- [jQuery](https://jquery.com) 2.2 またはそれ以上
-- [Day.js](https://day.js.org) 1.8.15 またはそれ以上
-- [Quill RTE](https://quilljs.com/) 1.3.6 またはそれ以上
+- [jQuery](https://jquery.com) 2.2 またはそれ以降
+- [Day.js](https://day.js.org) 1.8.15 またはそれ以降
+- [Quill RTE](https://quilljs.com/) 1.3.6 またはそれ以降
 
 
 <a name='reference-web-client-sdk'></a>
