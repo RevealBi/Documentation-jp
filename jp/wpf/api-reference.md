@@ -1,16 +1,16 @@
-<h2><a href="/api/wpf/latest/Reveal.Sdk.html" target="_blank" rel="noopener\">Desktop .NET API Reference </a></h2>  
-Here you will find technical information about Reveal SDK, specifically about the Desktop .NET API.
-For a complete reference, please follow the <a href="/api/wpf/latest/Reveal.Sdk.html" target="_blank" rel="noopener\">link </a>
+<h2><a href="/api/wpf/latest/Reveal.Sdk.html" target="_blank" rel="noopener\">デスクトップ .NET API リファレンス </a></h2>  
+ここでは、Reveal SDK、特に Desktop .NET API に関する詳しい情報を見つけることができます。
+完全なリファレンスについては、<a href="/api/wpf/latest/Reveal.Sdk.html" target="_blank" rel="noopener\">このリンクをご覧くさだい。 </a>
 
 
-<h3>Most commonly used classes and interfaces</h3>
+<h3>最も一般的に使用されるクラスとインターフェース</h3>
 
-**Main SDK concepts and features**  
+**SDK の主な概念と機能**  
 <a href="/api/wpf/latest/Reveal.Sdk.RevealView.html" target="_blank" rel="noopener\"> RevealView class</a>  
 <a href="/api/wpf/latest/Reveal.Sdk.RVDashboard.html" target="_blank" rel="noopener\"> RVDashboard class </a>  
 <a href="/api/wpf/latest/Reveal.Sdk.RevealSdkSettings.html" target="_blank" rel="noopener\">RevealSdkSettings class</a>
 
-**Datasources**  
+**データ ソース**  
 <a href="/api/wpf/latest/Reveal.Sdk.IRVDataSourceProvider.html" target="_blank" rel="noopener\"> IRVDataSourceProvider interface</a>  
 <a href="/api/wpf/latest/Reveal.Sdk.RevealDataSources.html"  target="_blank" rel="noopener\"> RevealDataSources class</a>  
 
@@ -28,17 +28,17 @@ For a complete reference, please follow the <a href="/api/wpf/latest/Reveal.Sdk.
 <a href="/api/wpf/latest/Reveal.Sdk.RVInMemoryDataSource.html" target="_blank" rel="noopener\">RVInMemoryDataSource</a>  
 <a href="/api/wpf/latest/Reveal.Sdk.RVInMemoryDataSourceItem.html" target="_blank" rel="noopener\">RVInMemoryDataSourceItem</a>  
 
-**Authentication**  
+**認証**  
 <a href="/api/wpf/latest/Reveal.Sdk.IRVAuthenticationProvider.html" target="_blank" rel="noopener\"> IRVAuthenticationProvider</a>  
 <a href="/api/wpf/latest/Reveal.Sdk.IRVDataSourceCredential.html" target="_blank" rel="noopener\"> IRVDataSourceCredential</a>  
 <a href="/api/wpf/latest/Reveal.Sdk.RVBearerTokenDataSourceCredential.html" target="_blank" rel="noopener\"> RVBearerTokenDataSourceCredential</a>  
 <a href="/api/wpf/latest/Reveal.Sdk.RVUsernamePasswordDataSourceCredential.html" target="_blank" rel="noopener\"> RVUsernamePasswordDataSourceCredential</a>
 
-**Localization**  
+**ローカライズ**  
 <a href="/api/wpf/latest/Reveal.Sdk.IRVLocalizationProvider.html" target="_blank" rel="noopener\"> IRVLocalizationProvider</a>  
 <a href="/api/wpf/latest/Reveal.Sdk.IRVLocalizationService.html" target="_blank" rel="noopener\"> IRVLocalizationService</a>
 
-**Formatting dashboards**  
+**ダッシュボードの書式設定**  
 <a href="/api/wpf/latest/Reveal.Sdk.IRVFormattingProvider.html" target="_blank" rel="noopener\"> IRVFormattingProvider</a>  
 <a href="/api/wpf/latest/Reveal.Sdk.RVBaseFormattingService.html" target="_blank" rel="noopener\"> RVBaseFormattingService </a>
 

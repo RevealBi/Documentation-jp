@@ -1,35 +1,35 @@
-# Getting Started with Reveal SDK for ASP.NET
+# Reveal SDK for ASP.NET で作業を開始
 
-## Step 1 - Create a New ASP.NET Web App
+## 手順 1 - 手順新しい ASP.NET Web アプリの作成
 
-The steps below describe how to create a new ASP.NET Core Web App project. If you want to add the Reveal SDK to an existing application, go to Step 2.
+以下の手順では、新しい ASP.NET Core Web App プロジェクトを作成する方法を説明します。既存のアプリケーションに Reveal SDK を追加する場合は、手順 2 へ移動します。
 
-1 - Start Visual Studio 2019 and click **Create a new project** on the start page, select the **ASP.NET Core Web App** template, and click **Next**.
+1 - Visual Studio 2019 を起動し、スタート ページで **[新しいプロジェクトの作成]** をクリックします。**ASP.NET Core Web App** テンプレートを選択し、**[次へ]** をクリックします。
 
 ![](images/getting-started-new-asp-net-core-web-app-project.jpg)
 
-2 - Provide a project name and location, and click **Next**.
+2 - プロジェクト名と説明と場所を入力し、**[次へ]** をクリックします。
 
 ![](images/getting-started-new-asp-net-core-web-app-name.jpg)
 
-3 - Choose your framework, authentication type, and Docker options, and then click **Create**.
+3 - フレームワーク、認証タイプ、Docker オプションを選択し、**[作成]** をクリックします。
 
 ![](images/getting-started-new-asp-net-core-web-app-info.jpg)
 
-## Step 2 - Add Reveal SDK
+## 手順 2 - Reveal SDK の追加
 
-1 - Right click the Solution, or Project, and select **Manage NuGet Packages** for Solution.
+1 - ソリューションまたはプロジェクトを右クリックし、**[ソリューションの NuGet パッケージの管理]** を選択します。
 
 ![](images/getting-started-nuget-packages-manage.jpg)
 
-2 - In the package manager dialog, open the **Browse** tab, select the **Infragistics (Local)** package source, and install the **Reveal.Sdk.Web.AspNetCore** NuGet package into the project.
+2 - パッケージ マネージャー ダイアログで **[参照]** タブを開き、**Infragistics (Local)** パッケージ ソースを選択して **Reveal.Sdk.Web.AspNetCore** NuGet パッケージをプロジェクトにインストールします。
 
 ![](images/getting-started-nuget-packages-install.jpg)
 
 > [!NOTE]
-> If you are a trial user, you can install the **Reveal.Sdk.Web.AspNetCore.Trial** NuGet package found on [NuGet.org](https://www.nuget.org/packages/Reveal.Sdk.Web.AspNetCore.Trial/).
+> トライアル版をお使いの場合、[NuGet.org](https://www.nuget.org/packages/Reveal.Sdk.Web.AspNetCore.Trial/) にある **Reveal.Sdk.Web.AspNetCore.Trial** NuGet パッケージをインストールできます。
 
-3 - Open and modify the `Program.cs` file to add the namespace `using Reveal.Sdk;`. Then, add the call to `IMcvBuilder.AddReveal()` as follows:
+3 - `Program.cs` ファイルを開き、`using Reveal.Sdk` 名前空間を追加します。次に、以下のように `IMcvBuilder.AddReveal()` への呼び出しを追加します。
 
 ```
 using Reveal.Sdk;
@@ -37,48 +37,48 @@ using Reveal.Sdk;
 builder.Services.AddRazorPages().AddReveal();
 ```
 
-## Step 3 - Add Reveal JavaScript API
+## 手順 3 - Reveal JavaScript API の追加
 
-1 - Create a new folder called `reveal` under the `wwwroot/lib` folder.
+1 - `wwwroot/lib` フォルダーの下に `reveal` と呼ばれる新しいフォルダーを作成します。
 
 ![](images/asp-net-core-web-app-create-reveal-folder.jpg)
 
-2 - Copy all the JavaScript files located at `%public%/Documents/Infragistics/Reveal/SDK/Web/JS/Client` into the `wwwroot/lib/reveal` folder you created previously.
+2 - `%public%/Documents/Infragistics/Reveal/SDK/Web/JS/Client` にあるすべての JavaScript ファイルを以前作成した `wwwroot/lib/reveal` フォルダーにコピーします。
 
 ![](images/asp-net-core-web-app-copy-reveal-files.jpg)
 
-3 - Open and modify the `Pages/Shared/_Layout.cshtml` file to include the `infragistics.reveal.js` script at the bottom of the page just before the closing `</body>` tag, but after the `jquery.min.js` script.
+3 - `Pages/Shared/_Layout.cshtml` ファイルを開いて変更し、ページの下部に (`</body>` 終了タグの直前、`jquery.min.js` スクリプトの後) `infragistics.reveal.js` スクリプトを含めます。
 
 ```
 <script src="~/lib/reveal/infragistics.reveal.js"></script>
 ```
 
 > [!NOTE]
-> The Reveal JavaScript API depends on `jQuery` version 2.2 or greater.
+> Reveal JavaScript API は、`jQuery` バージョン 2.2 以降に依存します。
 
-4 - Install the remaining Reveal JavaScript API dependencies:
+4 - 残りの Reveal JavaScript API 依存関係をインストールします。
 
-- Day.js 1.8.15 or greater
+- Day.js 1.8.15 またはそれ以上
 
 ```html
 <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
 ```
 
-- Quill RTE 1.3.6 or greater
+- Quill RTE 1.3.6 またはそれ以上
 
 ```html
 <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet" type="text/css">    
 <script src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>
 ```
 
-- Spectrum v 1.8.0 or newer (Optional) - this is only needed if you enable the UI for the end user to set the background color for a particular visualization.
+- Spectrum v1.8.0 またはそれ以上 (オプション) - これは、エンド ユーザーが特定の可視化の背景色を設定できるように UI を有効にする場合にのみ必要です。
 
 ``` html
 <link href="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.css" rel="stylesheet" type="text/css" >
 <script src="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.js"></script>
 ```
 
-The final `_Layout.cshtml` files should look similar to this:
+最終の `_Layout.cshtml` ファイルは以下のようになります。
 
 ```html
 <!DOCTYPE html>
@@ -139,15 +139,15 @@ The final `_Layout.cshtml` files should look similar to this:
 </html>
 ```
 
-## Step 4 - Initialize the Reveal view
+## 手順 4 - Reveal ビューの初期化
 
-1 - Open and modify the `Pages/Index.cshtml` file and add a new `<div>` tag and set the `id` to `revealView`.
+1 - `Pages/Index.cshtml` ファイルを開いて変更し、新しい `<div>` タグを追加して、`id` を `revealView` に設定します。
 
 ```html
 <div id="revealView" style="height: 800px; width: 100%;"></div>
 ```
 
-2 - Add a `Scripts` section at the bottom of the `Index.cshtml` file and initialize the `revealView`.
+2 - `Index.cshtml` ファイルの最後に `Scripts` セクションを追加し、`revealView` を初期化します。
 
 ```html
 @section Scripts
@@ -160,9 +160,9 @@ The final `_Layout.cshtml` files should look similar to this:
 }
 ```
 
-This JavaScript code first calls the `$.ig.RevealSdkSettings.ensureFontsLoadedAsync` to ensure that all fonts have been properly loaded. Next, we instantiate a new instance of the `RevealView` by creating a new `$.ig.RevealView` and passing in the `#revealView` selector.
+この JavaScript コードは最初に `$.ig.RevealSdkSettings.ensureFontsLoadedAsync` を呼び出してすべてのフォントが正しく読み込まれたことを確認します。次に、新しい `$.ig.RevealView` を作成し、`#revealView` セレクターを渡すことで、`RevealView` の新しいインスタンスを作成します。
 
-The final `Index.cshtml` file should look like this:
+最終の `Index.cshtml` ファイルは以下のようになります。
 
 ```html
 @page
@@ -182,17 +182,17 @@ The final `Index.cshtml` file should look like this:
     </script>
 }
 ```
-## Step 5 - Run the Application
+## 手順 5 - アプリケーションの実行
 
-Press **F5** to run the application.
+**[F5]** を押してアプリケーションを実行します。
 
 ![](images/asp-net-core-web-app-running.jpg)
 
-**Congratulations!** You have written your first Reveal SDK application.
+完了しました! 最初の Reveal SDK アプリケーションを作成しました。
 
-Next Steps:
-- [Create New Dashboards](creating-dashboards.md)
-- [Load Existing Dashboards](loading-dashboards.md)
+次の手順:
+- [新しいダッシュボードの作成](creating-dashboards.md)
+- [現在のダッシュボードの読み込み](loading-dashboards.md)
 
 > [!NOTE]
 > このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-aspnetcore/tree/main/01-GettingStarted-WebApp) にあります。

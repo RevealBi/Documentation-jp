@@ -18,6 +18,6 @@ Run the application and you will be prompted with a new, empty, dashboard.
 
 As you can see, while this gives you a new dashboard instance to use, unless you have provided a data source to the `RevealView` for your dashboard to use, your end-users will not be able to create any new visualizations in the new dashboard.
 
-Next steps:
+次の手順:
 - [Adding Datasources](adding-data-sources/in-memory-data.md)
 - [Loading Dashboards](loading-dashboards.md)

@@ -1,6 +1,6 @@
 # Getting Started with Reveal SDK
 
-## Step 1 - Create a New WPF Project
+## 手順 1 - Create a New WPF Project
 The steps below describe how to create a new WPF project. If you want to add the Reveal SDK to an existing application, go to [Step 2](#step-2---add-reveal-sdk).
 
 1 - Start Visual Studio 2019 and click **Create a new project** on the start page, select the **WPF App (.NET Framework)** template, and click **Next**.
@@ -11,7 +11,7 @@ The steps below describe how to create a new WPF project. If you want to add the
 
 ![](images/getting-started-new-wpf-project-name.jpg)
 
-## Step 2 - Add Reveal SDK
+## 手順 2 - Add Reveal SDK
 
 ### NuGet
 
@@ -42,7 +42,7 @@ The steps below describe how to create a new WPF project. If you want to add the
    3. System.Data.SQLite.Core (1.0.108+)
    4. Microsoft.Data.SqlClient (1.1.3+)
 
-## Step 3 - Add RevealView Control
+## 手順 3 - Add RevealView Control
 
 ### Using XAML
 
@@ -70,17 +70,17 @@ xmlns:rv="http://revealbi.io/"
 
 ![](images/getting-started-mainwindow.jpg)
 
-## Step 4 - Run Application
+## 手順 4 - Run Application
 
 Press F5 to run the application.
 
 ![](images/getting-started-running-app.jpg)
 
-**Congratulations!** You have written your first Reveal SDK application.
+完了しました! 最初の Reveal SDK アプリケーションを作成しました。
 
-Next Steps:
-- [Create New Dashboards](creating-dashboards.md)
-- [Load Existing Dashboards](loading-dashboards.md)
+次の手順:
+- [新しいダッシュボードの作成](creating-dashboards.md)
+- [現在のダッシュボードの読み込み](loading-dashboards.md)
 
 > [!NOTE]
 > このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-wpf/tree/master/01-GettingStarted) にあります。

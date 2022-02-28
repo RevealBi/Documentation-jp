@@ -105,7 +105,7 @@ RevealEngineInitializer.initialize(
 
 ダッシュボード プロバイダーを実装する方法の詳細については、GitHub の [UpMedia サンプル (英語)](https://github.com/RevealBi/sdk-samples-java) を参照してください。
 
-### Step 4 - 手順 4 - サーバー側エクスポートを有効にします。
+### 手順 4 - サーバー側エクスポートを有効にします。
 
 Java SDK は、ダッシュボードをさまざまな形式 (Image、PDF、PPT、Excel) にエクスポートするためにいくつかのネイティブ コンポーネントを使用します。
 
