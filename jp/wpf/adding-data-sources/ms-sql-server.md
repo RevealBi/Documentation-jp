@@ -1,12 +1,12 @@
-# Adding an MS SQL Server Data Source
+# MS SQL Server データ ソースの追加
 
-**Step 1** - Add an event handler for the `RevealView.DataSourcesRequested` event.
+**手順 1** - `RevealView.DataSourcesRequested` イベントのイベント ハンドラーを追加します。
 
 ```html
 <rv:RevealView x:Name="_revealView" DataSourcesRequested="RevealView_DataSourcesRequested" />
 ```
 
-In the event handler, define two collections; one for the data sources, and one for the data source items. These two collections are used a parameters to the RevealDataSources object which is provided in the event handler callback.
+イベント ハンドラーで、2 つのコレクションを定義します。1 つはデータ ソース用で、もう 1 つはデータ ソース項目用です。これらの 2 つのコレクションは、イベント ハンドラー コールバックで提供される RevealDataSources オブジェクトへのパラメーターとして使用されます。
 
 ```cs
 private void RevealView_DataSourcesRequested(object sender, Reveal.Sdk.DataSourcesRequestedEventArgs e)
@@ -20,7 +20,7 @@ private void RevealView_DataSourcesRequested(object sender, Reveal.Sdk.DataSourc
 }
 ```
 
-**Step 2** - In the `RevealView.DataSourcesRequested` event handler, create a new instance of the `RVSqlServerDataSource` object. Set the `Host`, `Database`, `Port`, and `Title` properties to values that correspond to your MS SQL Server. After you have created the `RVSqlServerDataSource` object, add it to the data sources collection.
+**手順 2** - `RevealView.DataSourcesRequested` イベント ハンドラーで、`RVSqlServerDataSource` オブジェクトの新しいインスタンスを作成します。`Host`、`Database`、`Port`、および `Title` プロパティを、MS SQL Server に対応する値に設定します。`RVSqlServerDataSource` オブジェクトを作成したら、それをデータ ソース コレクションに追加します。
 
 ```cs
 private void RevealView_DataSourcesRequested(object sender, Reveal.Sdk.DataSourcesRequestedEventArgs e)
@@ -41,11 +41,11 @@ private void RevealView_DataSourcesRequested(object sender, Reveal.Sdk.DataSourc
 }
 ```
 
-When the application runs, create a new Visualization and you will see the newly created MS SQL Server data source listed in the "Select a Data Source" dialog.
+アプリケーションが実行されたら、新しい可視化を作成すると、[データ ソースの選択] ダイアログに新しく作成された  MS SQL Server データ ソースが表示されます。
 
 ![](images/ms-sql-server-data-source.jpg)
 
-**Step 3** - Add a new Data Source Item by creating a new instance of the `RVSqlServerDataSourceItem` object. Set the `Id`,`Title`, and `Table` properties that correspond to your database table. After you have created the `RVSqlServerDataSourceItem` object, add it to the data source items collection.
+**手順 3** - `RVSqlServerDataSourceItem` オブジェクトの新しいインスタンスを作成して、新しいデータ ソース項目を追加します。データベース テーブルに対応する `Id`、および `Table` プロパティを設定します。`RVSqlServerDataSourceItem` オブジェクトを作成したら、それをデータ ソース コレクションに追加します。
 
 ```cs
 private void RevealView_DataSourcesRequested(object sender, Reveal.Sdk.DataSourcesRequestedEventArgs e)
@@ -72,6 +72,6 @@ private void RevealView_DataSourcesRequested(object sender, Reveal.Sdk.DataSourc
 }
 ```
 
-When the application runs, create a new Visualization and you will see the newly created MS SQL Server data source item listed in the "Select a Data Source" dialog.
+アプリケーションが実行されたら、新しい可否化を作成すると、[データ ソースの選択] ダイアログに新しく作成された MS SQL Server データ ソース項目が表示されます。
 
 ![](images/ms-sql-server-data-source-item.jpg)

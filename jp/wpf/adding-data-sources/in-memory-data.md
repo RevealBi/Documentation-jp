@@ -1,10 +1,10 @@
-# Adding an In-Memory Data Source
+# インメモリ データソースの追加
 
-The Reveal SDK allows you to create dashboards using data that has been generated at application run-time. This data is usually backed by a business object (POCO class) that is used within the application. This type of data is referred to as **in-memory data**.
+Reveal SDK を使用すると、アプリケーションの実行時に生成されたデータを使用してダッシュボードを作成できます。このデータは通常、アプリケーション内で使用されるビジネス オブジェクト (POCO クラス) によってサポートされます。このタイプのデータは、**インメモリ データ**と呼ばれます。
 
-There are three primary steps to add an application's in-memory data as a data source item in the Reveal SDK.
+アプリケーションのインメモリ データを Reveal SDK のデータ ソース項目として追加するには、主に 3 つの手順があります。
 
-**Step 1** - Create a class that implements `IRVDataProvider`. This class will provide the actual in-memory data to be returned to the Reveal SDK. You'll want to check the `RVInMemoryDataSourceItem.DatasetId` property to know what data to return.
+**手順 1** - `IRVDataProvider` を実装するクラスを作成します。このクラスは、Reveal SDK に返される実際のインメモリ データを提供します。`RVInMemoryDataSourceItem.DatasetId` プロパティをチェックして、返すデータを確認する必要があります。
 
 ```cs
 class MyInMemoryDataProvider : IRVDataProvider
@@ -23,23 +23,21 @@ class MyInMemoryDataProvider : IRVDataProvider
 }
 ```
 
-The `GetData` method returns a `Task<IRVInMemoryData>`. This means that any in-memory data you want to use must be wrapped by the `RVInMemoryData` object.  Simply create a new instance of the `RVInMemoryData` object and pass your in-memory data as a parameter to the object constructor.
+`GetData` メソッドは、`Task<IRVInMemoryData>` を返します。つまり、使用するインメモリ データはすべて `RVInMemoryData` オブジェクトでラップする必要があります。  `RVInMemoryData` オブジェクトの新しいインスタンスを作成し、インメモリ データをパラメーターとしてオブジェクト コンストラクターに渡すだけです。
 
-**Step 2** - Set the `RevealSdkSettings.DataProvider` to an instance of the class that implements `IRVDataProvider`
+**手順 2** - `RevealSdkSettings.DataProvider` を `IRVDataProvider` を実装するクラスのインスタンスに設定します。
 
 ```cs
 RevealSdkSettings.DataProvider = new MyInMemoryDataProvider();
 ```
 
-**Step 3** - Create an `RVInMemoryDataSourceItem` in the `RevealView.DataSourcesRequested` event.
-
-Add an event handler to the `RevealView.DataSourcesRequested`
+**手順 3** - `RevealView.DataSourcesRequested` イベントに `RVInMemoryDataSourceItem` を作成します。
 
 ```html
 <rv:RevealView x:Name="_revealView" DataSourcesRequested="RevealView_DataSourcesRequested" />
 ```
 
-In the event handler, create a new instance of the `RVInMemoryDataSourceItem` object and provide a unique name/ID as a parameter. This ID is used in the `IRVDataProvider` to indicate which data source is requesting the data.
+イベント ハンドラーで、`RVInMemoryDataSourceItem` オブジェクトの新しいインスタンスを作成し、パラメーターとして一意の名前/  ID を指定します。この ID は、`IRVDataProvider` で、どのデータ ソースがデータを要求しているかを示すために使用されます。
 
 ```cs
 private void RevealView_DataSourcesRequested(object sender, DataSourcesRequestedEventArgs e)
@@ -59,11 +57,11 @@ private void RevealView_DataSourcesRequested(object sender, DataSourcesRequested
 
 ```
 
-## Example: Implement In-Memory Data Source
+## 例: インメモリ データ ソースの実装
 
-### Create the Business Objects
+### ビジネス オブジェクトの作成
 
-For this example, we need to create 3 business objects; A `Product`, `Seller`, and a `Sale` object.  These objects will be used to hold the data that will be represented in our dashboards.
+この例では、3 つのビジネス オブジェクト `Product`、`Seller`、および `Sale` を作成する必要があります。これらのオブジェクトは、ダッシュボードに表示されるデータを保持するために使用されます。
 
 ```cs
 public class Product
@@ -124,9 +122,9 @@ public class Sale
 }
 ```
 
-### Generate the In-Memory Data
+### インメモリ データの生成
 
-Next, we need to generate some data that will be used to build our Reveal Dashboards. For this, we will create a helper class called `SalesDataGenerator` that will generate some random data for use in our dashboards.
+次に、Reveal ダッシュボードの構築に使用されるデータを生成する必要があります。このために、ダッシュボードで使用するランダム データを生成する `SalesDataGenerator` というヘルパー クラスを作成します。
 
 ```cs
 public class SalesDataGenerator
@@ -221,7 +219,7 @@ public class SalesDataGenerator
 }
 ```
 
-In the constructor of our `MainWindow.cs` file in our application, we are going to create `10000` records of sales data.
+アプリケーションの `MainWindow.cs` ファイルのコンストラクターで、販売データの `10000` レコードを作成します。
 
 ```cs
 public MainWindow()
@@ -232,11 +230,11 @@ public MainWindow()
 }
 ```
 
-### Create the Data Provider
+### データプロバイダーの作成
 
-Now that we have created the data that will be used in our dashboards, the next step is to make that data available to the Reveal SDK. To do this, we need to create a new class that implements the `IRVDataProvider`.  This interface is used specifically for in-memory data implementations within the Reveal SDK.
+ダッシュボードで使用するデータを作成したので、次の手順は、そのデータを Reveal SDK で利用できるようにすることです。これを行うには、`IRVDataProvider` を実装する新しいクラスを作成する必要があります。  このインターフェイスは、Reveal SDK 内のインメモリ データの実装に特に使用されます。
 
-Let's create a new class called `InMemoryDataProvider` and implement the `IRVDataProvider` interface. Notice that we also defined a constructor that accepts an `IEnumerable<Sale>`. This allows us to pass in our generated sales data from our previous step.
+`InMemoryDataProvider` という新しいクラスを作成し、`IRVDataProvider` インターフェイスを実装しましょう。`IEnumerable<Sale>` を受け入れるコンストラクターも定義したことに注意してください。これにより、前の手順で生成された売上データを渡すことができます。
 
 ```cs
 class InMemoryDataProvider : IRVDataProvider
@@ -262,9 +260,9 @@ class InMemoryDataProvider : IRVDataProvider
 }
 ```
 
-As you can see, in the `GetData` method, we are checking the `DatasetId` for a specific value. If this id matches our `SalesRecords` data source item, then we will then use the in-memory business object collection that we passed in class constructor as the data source for the dashboard.
+ご覧のとおり、`GetData` メソッドでは、`DatasetId` で特定の値をチェックしています。この ID が `SalesRecords` データ ソース項目と一致する場合は、クラス コンストラクターで渡したメモリ内のビジネス オブジェクト コレクションをダッシュボードのデータ ソースとして使用します。
 
-Now that we have our data and our data provider, we need to set the `RevealSdkSettings.DataProvider` property to an instance of our `InMemoryDataProvider` class. 
+データとデータ プロバイダーができたので、`RevealSdkSettings.DataProvider` プロパティを `InMemoryDataProvider` クラスのインスタンスに設定する必要があります。 
 
 ```cs
 public MainWindow()
@@ -276,11 +274,11 @@ public MainWindow()
 }
 ```
 
-Now you may be asking, "Where does the `DataSetId` value come from?". This happens in the next step when we create the data source item.
+ここで、`DataSetId` 値について疑問に思われるかもしれません。これは、次の手順でデータ ソース項目を作成するときに発生します。
 
 ### Handle the DataSourcesRequested Event
 
-The next step is to add an event handler to the `RevealView.DataSourcesRequested` event.
+次の手順は、`RevealView.DataSourcesRequested` イベントにイベント ハンドラーを追加することです。
 
 ```html
 <rv:RevealView x:Name="_revealView" DataSourcesRequested="RevealView_DataSourcesRequested" />
