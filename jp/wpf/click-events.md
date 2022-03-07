@@ -1,6 +1,6 @@
-# Click Events
+# クリック イベント
 
-When an end-user clicks on a data point within a visualization, the `VisualizationDataPointClicked` event is invoked. You can respond to this event by adding an event handler to the `VisualizationDataPointClicked` event.
+エンドユーザーが表示形式内のデータ ポイントをクリックすると、`VisualizationDataPointClicked` イベントが呼び出されます。`VisualizationDataPointClicked` イベントにイベント ハンドラーを追加することで、このイベントに応答できます。
 
 ```xml
 <rv:RevealView x:Name="_revealView"
@@ -14,17 +14,17 @@ private void RevealView_VisualizationDataPointClicked(object sender, Visualizati
 }
 ```
 
-The `VisualizationClickedEventArgs` class has the following properties:
-- **Cell** - gets the data point that was clicked
-- **Row** - gets a collection of cell data that is associated with the **Cell**
-- **Visualization** - gets the Visualization that was clicked
+`VisualizationClickedEventArgs` クラスには、次のプロパティがあります:
+- **Cell** - クリックされたデータ ポイントを取得します。
+- **Row** - **Cell** に関連付けられているセル データのコレクションを取得します。
+- **Visualization** - クリックされた視覚化を取得します。
 
-By using the properties exposed by the `VisualizationClickedEventArgs` class, such as the `VisualizationClickedEventArgs.Cell` and `VisualizationClickedEventArgs.Row` properties, you can read data that is associated with the clicked data point.
+`VisualizationClickedEventArgs.Cell` プロパティや `VisualizationClickedEventArgs.Row` プロパティなど、`VisualizationClickedEventArgs` クラスによって公開されるプロパティを使用することで、クリックされたデータ ポイントに関連付けられているデータを読み取ることができます。
 
-It's important to understand that the `VisualizationClickedEventArgs.Row` property provides a collection of all `RVDataCell` objects that represent each data point associated with the clicked cell.
+`VisualizationClickedEventArgs.Row` プロパティは、クリックされたセルに関連付けられた各データ ポイントを表すすべての `RVDataCell` オブジェクトのコレクションを提供することを理解することが重要です。
 
-The `RVDataCell` class has the following properties:
-- **ColumnLabel** - the label, or custom name, of the column belonging to the data point
-- **ColumnName** - the name of the column belonging to the data point
-- **FormattedValue** - the formatted value of the data point
-- **Value** - the original value of the data point
+`RVDataCell` クラスには、次のプロパティがあります:
+- **ColumnLabel** - データ ポイントに属する列のラベルまたはカスタム名
+- **ColumnName** - データ ポイントに属する列の名前
+- **FormattedValue** - データ ポイントの書式設定された値
+- **Value** - データ ポイントの元の値

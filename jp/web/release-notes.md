@@ -80,7 +80,7 @@
         </td>
     </tr>
     <tr>
-        <td>視覚化エディターで特定の視覚化の背景色を変更するエンド ユーザー機能を有効/無効にするための新しいオプションがエディターに追加されました。</br>
+        <td>視覚化エディターで特定の視覚化の背景色を変更するエンドユーザー機能を有効/無効にするための新しいオプションがエディターに追加されました。</br>
            <a href="/api/wpf/latest/Reveal.Sdk.RevealView.html#Reveal_Sdk_RevealView_CanChangeVisualizationBackgroundColorProperty">CanChangeVisualizationBackgroundColorProperty</a> (WPF) & <a href="/api/javascript/latest/classes/revealview.html#canchangevisualizationbackgroundcolor">canChangeVisualizationBackgroundColor</a> (JS)。
         </td>
     </tr>
@@ -155,7 +155,7 @@
         </td>
     </tr>
     <tr>
-        <td>[公開バグ修正] [SDK] availableChartTypesJavaScript アクセサーが期待どおりに機能しない問題<br> Web クライアント SDK では、RevealView をインスタンス化して、エンド ユーザーが選択できる利用可能なチャート (availableChartTypes) をすぐに設定することができませんでした。
+        <td>[公開バグ修正] [SDK] availableChartTypesJavaScript アクセサーが期待どおりに機能しない問題<br> Web クライアント SDK では、RevealView をインスタンス化して、エンドユーザーが選択できる利用可能なチャート (availableChartTypes) をすぐに設定することができませんでした。
         </td>
     </tr>
     </tr>

@@ -1,64 +1,64 @@
-# Exporting
+# エクスポート
 
-The Reveal SDK allows you to export both dashboards and visualizations to generate new document types or images.
+Reveal SDK を使用すると、ダッシュボードと可視化の両方をエクスポートして、新しいドキュメント タイプまたは画像を生成できます。
 
-Supported dashboard export formats:
+サポートされているダッシュボードのエクスポート形式:
 - Excel
-- Image
+- 画像
 - JSON
 - PDF
-- Powerpoint
+- PowerPoint
 
-Supported visualization export formats:
+サポートされている視覚化エクスポート形式:
 - Excel
-- Image
+- 画像
 
-All export options can be found under the **Export** menu item in the `RevealView` overflow menu when a dashboard is opened or a visualization is maximized
+すべてのエクスポート オプションは、ダッシュボードを開いたとき、または視覚化を最大化したときに、`RevealView` オーバー フロー メニューの **[エクスポート]** メニュー項目にあります。
 
 ![](images/export-menu-item.jpg)
 
-When the user clicks the **Export** button, they can choose one of the enabled export options.
+ユーザーが **[エクスポート]** ボタンをクリックすると、有効なエクスポート オプションの 1 つを選択できます。
 
-## Export to Excel
-An Excel export is performed when the end-user clicks the **Excel** menu item from the **Export** overflow menu.
+## Excel へエクスポート
+エンドユーザーが **[エクスポート]** オーバーフロー メニューから **[Excel]** メニュー項目をクリックすると、Excel のエクスポートが実行されます。
 
 ![](images/export-excel.jpg)
 
-The **Excel** menu item can be shown/hidden by setting the `RevealView.ShowExportToExcel` property.
+**[Excel]** メニュー項目は、`RevealView.ShowExportToExcel` プロパティを設定することで表示/非表示にできます。
 
 ```xml
 <rv:RevealView x:Name="_revealView" ShowExportToExcel="False" />
 ```
 
-When the **Excel** menu item is clicked, the end-user is prompted with various options which allow them to change the title of the workbook, the title of the worksheets, which worksheets to create, and whether or not to include the visualizations.
+**[Excel]** メニュー項目をクリックすると、エンドユーザーは、ワークブックのタイトル、ワークシートのタイトル、作成するワークシート、および可視化を含めるかどうかを変更できるさまざまなオプションを求められます。
 
 ![](images/export-excel-options.jpg)
 
 
-## Export to Image
-There are two ways to export a dashboard or visualization to an image in the Reveal SDK:
-- End-User export
-- Programmatic export
+## 画像へのエクスポート
+Reveal SDK では、ダッシュボードまたは可視化を画像にエクスポートする方法が 2 つあります:
+- エンドユーザーによるエクスポート
+- プログラムでエクスポート
 
-### End-User Image Export
-An end-user image export is performed when the end-user clicks the **Image** menu item from the **Export** overflow menu.
+### エンドユーザーによる画像エクスポート
+エンドユーザーの画像のエクスポートは、エンドユーザーが **[エクスポート]** オーバーフロー メニューから **[画像]** メニュー項目をクリックすると実行されます。
 
 ![](images/export-image.jpg)
 
-The **Image** menu item can be shown/hidden by setting the `RevealView.ShowExportImage` property.
+**[画像]** メニュー項目は、`RevealView.ShowExportImage` プロパティを設定することで表示/非表示にできます。
 
 ```xml
 <rv:RevealView x:Name="_revealView" ShowExportImage="False" />
 ```
 
-When the **Image** menu item is clicked, the end-user is prompted with a dialog which allows them to choose either to copy the image to the clipboard, edit them image using the built-in image editor, or save the image to disk as a PNG.
+**[画像]** メニュー項目をクリックすると、エンドユーザーにダイアログが表示され、画像をクリップボードにコピーするか、組み込みの画像エディターを使用して画像を編集するか、画像を PNG としてディスクに保存するかを選択できます。
 
 ![](images/export-image-options.jpg)
 
-#### Custom Image Export
-By default, when an end-user clicks the **Export Image** button in the **Export Image Dialog** a **Save File Dialog** will be shown to the end-user to choose a name and location to save the image file. However, this behavior can be intercepted and custom image export logic can be used instead.
+#### カスタム画像のエクスポート
+デフォルトでは、エンドユーザーが **[画像をエクスポート]** ダイアログの **[画像をエクスポート]** ボタンをクリックすると、**ファイルを保存**ダイアログがエンドユーザーに表示され、画像ファイルを保存する名前と場所を選択できます。ただし、この動作は傍受される可能性があり、代わりにカスタム画像エクスポート ロジックを使用できます。
 
-To use a custom image export, you must add an event handler to the `RevealView.ImageExported` event.
+カスタム画像エクスポートを使用するには、`RevealView.ImageExported` イベントにイベント ハンドラーを追加する必要があります。
 
 ```cs
 private void RevealView_ImageExported(object sender, ImageExportedEventArgs e)
@@ -67,11 +67,11 @@ private void RevealView_ImageExported(object sender, ImageExportedEventArgs e)
 }
 ```
 
-The `ImageExportedEventArgs` object provides the following properties to help you save image exports:
-- **Image** - the screenshot of the dashboard that was taken as a `BitmapSource`
-- **CloseExportDialog** - a boolean property which controls the visibility of the Export Dialog. True, the dialog will close; False, the dialog will remain open.
+`ImageExportedEventArgs` オブジェクトは、画像のエクスポートを保存するのに役立つ次のプロパティを提供します:
+- **Image** - `BitmapSource` として取得されたダッシュボードのスクリーンショット
+- **CloseExportDialog** - エクスポート ダイアログの表示を制御するブール プロパティ。True の場合、ダイアログは閉じます。False の場合、ダイアログは開いたままになります。
 
-#### Example: A Custom Image Export
+#### 例: カスタム画像のエクスポート
 
 ```cs
 private void RevealView_ImageExported(object sender, ImageExportedEventArgs e)
@@ -101,14 +101,14 @@ private void RevealView_ImageExported(object sender, ImageExportedEventArgs e)
 
 ```
 
-### Programmatic Image Export
-To export an image of a dashboard programmatically, without the end-user interaction, you will need to invoke the `RevealView.ToImage` method. Calling the `RevealView.ToImage` method will create a screenshot of the RevealView component as it is displayed on the screen. The ``RevealView.ToImage`` method **does not** prompt the user with the Export Image Dialog.
+### プログラムで画像のエクスポート
+エンドユーザーの操作なしでダッシュボードの画像をプログラムでエクスポートするには、`RevealView.ToImage` メソッドを呼び出す必要があります。`RevealView.ToImage` メソッドを呼び出すと、画面に表示されている RevealView コンポーネントのスクリーンショットが作成されます。``RevealView.ToImage`` メソッドは、[画像をエクスポート] ダイアログでユーザーにプロンプトを**表示しません**。
 
 ```cs
 var image = _revealView.ToImage();
 ```
 
-#### Example: Programmatic Image Export
+#### 例: プログラムで画像のエクスポート
 
 ```cs
 private void ExportButton_Click(object sender, RoutedEventArgs e)
@@ -127,41 +127,41 @@ private void ExportButton_Click(object sender, RoutedEventArgs e)
 ```
 
 > [!NOTE]
-> The source code to these sample can be found on [GitHub](https://github.com/RevealBi/sdk-samples-wpf/tree/master/Exporting-Image)
+> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-wpf/tree/master/Exporting-Image) にあります。
 
-## Export To JSON
-Exports a dashboard into a **JSON** string.
+## JSON へエクスポート
+ダッシュボードを **JSON** 文字列にエクスポートします。
 
 ```cs
 var json = dashboard.ExportToJson();
 ```
 
-## Export to PDF
-A PDF export is performed when the end-user clicks the **PDF** menu item from the **Export** overflow menu.
+## PDF へのエクスポート
+PDF エクスポートは、エンドユーザーが **[エクスポート]** オーバーフロー メニューから **[PDF]** メニュー項目をクリックすると実行されます。
 
 ![](images/export-pdf.jpg)
 
-The **PDF** menu item can be shown/hidden by setting the `RevealView.ShowExportToPDF` property.
+**[PDF]** メニュー項目は、`RevealView.ShowExportToPDF` プロパティを設定することで表示/非表示にできます。
 
 ```xml
 <rv:RevealView x:Name="_revealView" ShowExportToPDF="False" />
 ```
 
-When the **PDF** menu item is clicked, the end-user is prompted with various options which allows them to change the title of the PDF document, choose which visualizations to include in the document, a title and description of each visualization, as well as branding, page orientation, and language.
+**[PDF]** メニュー項目をクリックすると、エンドユーザーにさまざまなオプションの入力を求められます。これにより、ユーザーは PDF ドキュメントのタイトルを変更したり、ドキュメントに含める可視化、各可視化のタイトルと説明、ブランド、ページの向き、言語を選択ができます。
 
 ![](images/export-pdf-options.jpg)
 
-## Export to PowerPoint
-A PowerPoint export is performed when the end-user clicks the **PowerPoint** menu item from the **Export** overflow menu. 
+## PowerPoint へエクスポート
+エンドユーザーが [エクスポート] オーバーフロー メニューから **[PowerPoint]** メニュー項目をクリックすると、PowerPoint のエクスポートが実行されます。
 
 ![](images/export-powerpoint.jpg)
 
-The **PowerPoint** menu item can be shown/hidden by setting the `RevealView.ShowExportToPowerpoint` property.
+**PowerPoint** メニュー項目は、`RevealView.ShowExportToPowerpoint` プロパティを設定することで表示/非表示にできます。
 
 ```xml
 <rv:RevealView x:Name="_revealView" ShowExportToPowerpoint="False" />
 ```
 
-When the **PowerPoint** menu item is clicked, the end-user is prompted with various options which allows them to change the title of the PowerPoint document, choose which visualizations to include in the document, a title and description of each visualization, and branding.
+**PowerPoint** メニュー項目をクリックすると、エンドユーザーは、PowerPoint ドキュメントのタイトルを変更したり、ドキュメントに含める可視化、各可視化のタイトルと説明、およびブランディングを選択したりできるさまざまなオプションが表示されます。
 
 ![](images/export-powerpoint-options.jpg)

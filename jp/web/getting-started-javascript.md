@@ -55,7 +55,7 @@
 <script src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>
 ```
 
-- Spectrum v1.8.0 またはそれ以降 (オプション) - これは、エンド ユーザーが特定の可視化の背景色を設定できるように UI を有効にする場合にのみ必要です。
+- Spectrum v1.8.0 またはそれ以降 (オプション) - これは、エンドユーザーが特定の可視化の背景色を設定できるように UI を有効にする場合にのみ必要です。
 
 ``` html
 <link href="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.css" rel="stylesheet" type="text/css" >

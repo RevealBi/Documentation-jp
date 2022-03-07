@@ -1,39 +1,37 @@
-# Localizing Dashboards
+# ダッシュボードのローカライズ
 
-The Localization service allows you to localize different dashboard elements based on your custom logic. It also provides you with the ability to set custom formatting settings for fields.
+ローカリゼーション サービスを使用すると、カスタムロジックに基づいてさまざまなダッシュボード要素をローカライズできます。また、フィールドのカスタム書式設定を設定する機能も提供します。
 
-### Supported Elements for Localization
+### ローカライズがサポートされる要素
 
-Dashboard elements you can localize:
+ローカライズできるダッシュボード要素:
 
-  - Dashboard Title
-  - Filter Title
-  - Visualization Title
-  - Field Label
-  - Summarization Field Label
+  - ダッシュボードのタイトル
+  - フィルター タイトル
+  - 可視化フィルター
+  - フィールド ラベル
+  - 集計フィールド ラベル
 
-### Using the Localization service
+### ローカリゼーション サービスの使用
 
-Below you will find two examples of how to [**localize the dashboard title**](#localize-dashboard-title) and how to [**localize a field label**](#localize-field-label) in the same dashboard by adding custom logic. You will also find examples of how to **change the formatting settings of a [numeric field](#format-numeric-field) and of a [non-aggregated date field](#format-date-field)**. The dashboard used
-for the example is the *Marketing* sample dashboard.
+以下に、[**ダッシュボードのタイトルをローカライズする**](#localize-dashboard-title)方法と、カスタム ロジックを追加して同じダッシュボードの[**フィールド ラベルをローカライズする**](#localize-field-label)方法の 2 つの例を示します。また、**[数値フィールド](#format-numeric-field)と[非集計日付フィールド](#format-date-field)の書式設定を変更する**方法の例もあります。この例で使用されているダッシュボードは、*Marketing* サンプル ダッシュボードです。
 
 <a name='localize-dashboard-title'></a>
-#### Localizing a dashboard title - example
+#### ダッシュボードのタイトルのローカライズの例
 
-The initial state of the *Marketing* sample:
+*Marketing* サンプルの初期状態:
 
 <img src="images/localize-dashboard-title-initial-state.png" alt="Initial state of the Marketing Sample" width="100%"/>
 
-Follow the steps below to localize the *Marketing* dashboard title to *Localized Marketing*.
+以下の手順に従って、*Marketing* ダッシュボードのタイトルを *Localized Marketing* にローカライズします。
 
-1.  To be allowed to localize the dashboard, you should set the
-    **LocalizationProvider** property to your custom implementation:
+1.  ダッシュボードのローカライズを許可するには、カスタム実装に **LocalizationProvider** プロパティを設定する必要があります。
 
     ``` csharp
     RevealSdkSettings.LocalizationProvider = new UpMediaLocalizationProvider()
     ```
 
-2.  Implement the **IRVLocalizationProvider**:
+2.  **IRVLocalizationProvider** を実装します:
 
     ``` csharp
     public class UpMediaLocalizationProvider : IRVLocalizationProvider
@@ -45,9 +43,7 @@ Follow the steps below to localize the *Marketing* dashboard title to *Localized
     }
     ```
 
-3.  Implement the **GetLocalizedString** method in the
-    **IRVLocalizationService** as shown below to localize the dashboard
-    title:
+3.  以下に示すように、**IRVLocalizationService** に **GetLocalizedString** メソッドを実装して、ダッシュボードのタイトルをローカライズします。
 
     ``` csharp
     public class UpMediaLocalizationService : IRVLocalizationService
@@ -69,21 +65,20 @@ Follow the steps below to localize the *Marketing* dashboard title to *Localized
     }
     ```
 
-When running the app again you can see the localized dashboard title - *Localized Marketing*:
+アプリを再度実行すると、ローカライズされたダッシュボードのタイトル (*Localized Marketing*) が表示されます。
 
 <img src="images/localize-dashboard-title-localized.png" alt="Localized Marketing Sample Title" width="100%"/>
 
 <a name='localize-field-label'></a>
-#### Localizing a field label - example
+#### フィールド ラベルのローカライズの例
 
-Below you will see an example of how to localize more than one element of the same dashboard.
+以下に、同じダッシュボードの複数の要素をローカライズする方法の例を示します。
 
-Here is the initial state of one of the *Marketing*'s sample
-visualizations - *Actual Spend vs Budget*:
+以下は、*Marketing* サンプルの可視化 (*Actual Spend vs Budget*) で初期状態の 1 つの例です:
 
 <img src="images/localize-field-label-initial-state.png" alt="initial state of the Actual Spend vs Budget visualization" width="100%"/>
 
-To localize the *Date* field label, you need to add some logic to the **UpMediaLocalizationService** that will handle the localization of the *Date* field:
+*Date* フィールド ラベルをローカライズするには、*Date* フィールドのローカリゼーションを処理するロジックを **UpMediaLocalizationService** に追加する必要があります。
 
 ``` csharp
 public class UpMediaLocalizationService : IRVLocalizationService
@@ -109,26 +104,26 @@ public class UpMediaLocalizationService : IRVLocalizationService
 }
 ```
 
-The *Date* field label in *Actual Spend vs Budget* is now changed to *Localized Date*:
+*Actual Spend vs Budget* の *Date* フィールド ラベルが *Localized Date* に変更されました。
 
 <img src="images/localize-dashboard-field-label-localized.png" alt="localized date field label" width="100%"/>
 
-You can use the steps in the examples to localize any other dashboard element.
+手順の例に従って、その他のダッシュボード要素をローカライズできます。
 
-### Using the Localization Service to Change Formatting Settings
+### ローカリゼーション サービスを使用して書式設定を変更する
 
-Currently you can use the Localization service to change the formatting settings of numeric fields and non-aggregated date fields.
+現在、ローカリゼーション サービスを使用して、数値フィールドと非集計日付フィールドの書式設定を変更できます。
 
 <a name='format-numeric-field'></a>
-#### Changing the formatting settings of a numeric field - example
+#### 数値フィールドの書式設定の変更の例
 
-The initial state of the *Spend vs Budget* visualization below shows the numeric field formatted in the US Dollars ($) currency:
+以下の *Spend vs Budget* 可視化の初期状態では、米ドル ($) 通貨で書式設定された数値フィールドを示します。
 
 <img src="images/localize-numeric-field-us-dollars-currency.png" alt="Original numeric field in US Dollars currency format" width="100%"/>
 
-To change the currency format, you will need to create new formatting settings and return them in the **GetFormattingSettingsForField** method in the implementation of **IRVLocalizationService**.
+通貨書式を変更するには、新しい書式設定を作成し、**IRVLocalizationService** の実装の ***GetFormattingSettingsForField** メソッドでそれらを返す必要があります。
 
-The code snippet illustrates how to change the number formatting to the Japanese Yen (¥) and display it with no decimal digits:
+コード スニペットは、数値の書式設定を日本円(¥) に変更し、小数桁なしで表示する方法を示します。
 
 ``` csharp
 public class UpMediaLocalizationService : IRVLocalizationService
@@ -160,22 +155,22 @@ public class UpMediaLocalizationService : IRVLocalizationService
 }
 ```
 
-Now, the amount is displayed in a different currency:
+現在、金額は別の通貨で表示されます。
 
 <img src="images/localize-numeric-field-changed-currency-yen.png" alt="Changed numeric field in Japanese Yen currency format" width="100%"/>
 
 <a name='format-date-field'></a>
-#### Changing the formatting settings of a date field - example
+#### 日付フィールドの書式設定の変更の例
 
-Currently changing the formatting settings for an aggregated date field cannot be configured with the Localization service and won’t affect the values in pivot. In order to achieve this you have to use the [Formatting service](formatting-service.md).
+現在、集計された日付フィールドの書式設定の変更は、ローカリゼーション サービスでは設定できず、ピボットの値には影響しません。これを実現するには、[書式設定サービス](formatting-service.md)を使用する必要があります。
 
-The Localization service allows you to change the formatting settings of **non-aggregated date fields**.
+ローカリゼーション サービスでは、**非集計日付フィールド**の書式設定を変更できます。
 
-First, change the *Actual Spend vs Budget* visualization to **Grid**, in order to exclude any aggregated data:
+まず、集計データを除外するために、*Actual Spend vs Budget* 可視化を**グリッド**に変更します。
 
 <img src="images/localize-visualization-grid-format-original-date.png" alt="Visualization in Grid format" width="100%"/>
 
-To change the formatting settings of the *Date* field, you need to add your preferences to the logic of the **GetFormattingSettingsForField** method. The code snippet below shows how to change the date format to display the full name of the month, like: "January 01, 2001".
+*Date* フィールドの書式設定を変更するには、**GetFormattingSettingsForField** メソッドのロジックに設定を追加する必要があります。以下のコード スニペットは、January 01、2001 のように、日付形式を変更して月のフルネームを表示する方法を示しています。
 
 ``` csharp
 public RVFormattingSpec GetFormattingSettingsForField(string fieldName, RVDashboardDataType dataType, RVFormattingSpec currentSettings, bool isAggregated)
@@ -209,8 +204,8 @@ public RVFormattingSpec GetFormattingSettingsForField(string fieldName, RVDashbo
 ```
 
 > [!NOTE]
-> Note that you need to check if the field name is *Date*, not *Localized Date*. The reason is the formatting settings are applied based on the name of the field. In this case, *Date* is the name of the field and *Localized Date* is just the label displayed. When editing a dashboard, you can modify the field labels, but the field names keep their original names.
+> フィールド名が *Localized Date* ではなく *Date* であるかどうかを確認する必要があることに注意してください。これは、フィールドの名前に基づいて書式設定が適用されるためです。この場合、*Date* はフィールドの名前で、*Localized Date* は表示されるラベルです。ダッシュボードを編集する場合、フィールド ラベルは変更できますが、フィールド名は元の名前のままです。
 
-After you run the app again and change the visualization to Grid, you will see the updated date format:
+アプリを再度実行し、可視化をグリッドに変更すると、更新された日付形式が表示されます。
 
 <img src="images/localize-visualization-grid-format-changed-date.png" alt="Visualization in grid format with changed date format" width="100%"/>

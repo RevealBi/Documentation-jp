@@ -1,37 +1,21 @@
-# Maximizing Visualizations
-When displaying a dashboard to the user, there are some cases in which
-you’d like to display just one maximized visualization. In addition, you
-might also want to lock the initial visualization and prevent the user
-from accessing the whole dashboard. You can achieve both scenarios using
-the Desktop SDK.
+# 可視化の最大化
+ユーザーにダッシュボードを表示するときに、最大化された視覚化を 1 つだけ表示したい場合があります。さらに、最初の可視化をロックして、ユーザーがダッシュボード全体にアクセスできないようにすることもできます。Desktop SDK を使用して両方のシナリオを実現できます。
 
 <img src="images/maximize-three_divisions_dashboard_maximized.png" alt="Displaying a dashboard with a maximized visualization" width="100%"/>
 
-#### Example Details
+#### サンプル詳細
 
-Let’s assume that you have a dashboard with three visualizations, where
-each visualization is showing data for a different division of your
-company, i.e., “Marketing”, “Sales” and “HR”.
+可視化した 3 つのダッシュボードがあり、それぞれの可視化に会社の異なる部門のデータが表示されているとします。
 
 <img src="images/maximize-three_divisions_dashboard.png" alt="Displaying a dashboard with three visualizations" width="100%"/>
 
-In this example, you’d like to showcase these visualizations in your
-corporate application. You want to include them as part of the
-information displayed on each division’s home page.
+この例では、業務アプリケーションでこれらの可視化を使用します。各部門のホーム ページに表示される情報の一部としてそれらを含める必要があります。
 
-### Maximizing Visualizations
+### 可視化の最大化
 
-To open a dashboard with a maximized visualization, you need to use the
-__MaximizedVisualization__
-property of
-__RevealView__ after you have assigned the revealView.Dashboard property. When you
-don’t set a visualization in this attribute, the whole dashboard is
-displayed.
+最大化された可視化でダッシュボードを開くには、revealView.Dashboard プロパティを割り当てた後、__RevealView__ の __MaximizedVisualization__ プロパティを使用する必要があります。この属性に可視化を設定しないと、ダッシュボード全体が表示されます。
 
-As shown in [**Configuring the RevealView object**](configuring-revealview.md), you can display a specific dashboard in your page. This time, you also need to set the
-__MaximizedVisualization__
-attribute. As shown in the code snippet below with the visualization
-"Sales".
+[**RevealView オブジェクトの構成**](configuring-revealview.md)に示すように、ページに特定のダッシュボードを表示できます。以下のコード スニペットに示すように、今回は、__MaximizedVisualization__ 属性も設定する必要があります:
 
 ``` csharp
 var revealView = new RevealView();
@@ -43,44 +27,26 @@ using (var fileStream = File.OpenRead(path))
 }
 ```
 
-Although the initial maximized visualization will be the one with title
-‘Sales’, the end user can still return to the dashboard and see the
-rest of the visualizations.
+最初に最大化された可視化は「Sales」というタイトルの可視化になりますが、それでもエンドユーザーはダッシュボードに戻って残りの可視化を表示できます。
 
-### Single Visualization Mode
+### 単一可視化モード
 
-You may also want to lock the initial visualization, making it the only
-one displayed at all times. This way the dashboard works like a single
-visualization dashboard. This is the concept behind “single
-visualization mode”.
+また、最初の可視化をロックして、常に可視化を 1 つのみ表示するようにすることもできます。これにより、ダッシュボードは単一の視覚化ダッシュボードのように機能します。これが「単一可視化モード」の概念です。
 
-To turn on the “single visualization mode”, just set the
-__SingleVisualizationMode__
-property to true, as shown below.
+「SingleVisualizationMode」をオンにするには、以下に示すように、__SingleVisualizationMode__ プロパティを true に設定します。
 
 ``` csharp
 revealView.SingleVisualizationMode = true;
 ```
 
-After adding this single line, the dashboard will work as a single
-visualization dashboard. You can do the same for each division’s home
-page, just replace the title of the visualization in
-__dashboard.Visualizations.GetByTitle()__
-with the right one.
+この 1 行を追加すると、ダッシュボードは単一の視覚化ダッシュボードとして機能します。
+各部門のホーム ページでも同じことができます。__dashboard.Visualizations.GetByTitle()__ で可視化のタイトルを正しいタイトルに置き換えるだけです。
 
-#### Dynamically changing a locked visualization
+#### ロックされた可視化を動的に変更
 
-It is also possible for you to dynamically change the single
-visualization being displayed, without reloading the page. From the
-user’s perspective, your app would be a single page application with a
-selector of divisions and a maximized visualization. After the user
-chooses one division from the list, the maximized visualization is
-updated.
+ページを再読み込みせずに、表示されている単一の可視化を動的に変更することもできます。ユーザーの観点から見ると、アプリは部門のセレクターと最大化された視覚化を備えた単一ページのアプリケーションになります。ユーザーがリストから 1 つの部門を選択すると、最大化された視覚化が更新されます。
 
-You can achieve this scenario by using the
-__MaximizeVisualization__
-method in __RevealView__ or set the __MaximizedVisualization__ property, as
-shown below:
+このシナリオは、以下に示すように、__RevealView__ のメソッドを使用するか __MaximizedVisualization__ プロパティを設定することで実現できます。
 
 ``` csharp
 private void MaximizeVisualization(string title)
@@ -91,15 +57,9 @@ private void MaximizeVisualization(string title)
         }
 ```
 
-Finally, you have to connect your custom control with the method above.
-That way the visualization will be maximized when the selection in your
-application changes.
+最後に、カスタム コントロールを上記の方法で接続します。それにより、アプリケーションの選択が変わったときに視覚化が最大化されます。
 
-To take into account:
+注意事項:
 
-  - You can generate the list of buttons dynamically by iterating the
-    list of visualizations in the dashboard. For further details see
-    __RVDashboard.Visualizations__.
-  - There is a working example in the **Manufacturing.xaml.cs** view, in
-    the *UpMedia* WPF application distributed with the SDK. That sample
-    view shows all visualizations as a list of toggle buttons, at the bottom of the screen.
+  - ダッシュボードで可視化のリストを繰り返すことで、ボタンのリストを動的に生成できます。詳細については、__RVDashboard.Visualizations__ を参照してください。
+  - SDK とともに配布されている *UpMedia* WPF アプリケーションに、**Manufacturing.xaml.cs** の実用的な例があります。このサンプルビューでは、画面下部にすべての可視化がトグル ボタンのリストとして表示されます。

@@ -1,23 +1,23 @@
-# Creating Dashboards
+# ダッシュボードの作成
 
-Creating new dashboards is really easy. You just need to set the `RevealView.Dashboard` property to a new instance of a `RVDashboard` object.
+新しいダッシュボードの作成は本当に簡単です。`RevealView.Dashboard` プロパティを `RVDashboard` オブジェクトの新しいインスタンスに設定する必要があります。
 
-Start by defining a `RevealView` control in XAML and give it an `x:Name` so you can access the control in the code behind of the file:
+XAML で `RevealView` コントロールを定義することから始め、ファイルの背後にあるコードでコントロールにアクセスできるように `x:Name` を指定します:
 ```xml
 <rv:RevealView x:Name="_revealView"/>
 ```
 
-Next, in the code behind of your xaml file set the `RevealView.Dashboard` property to a new instance of a `RVDashboard` object:
+次に、xaml ファイルの背後にあるコードで、`RevealView.Dashboard` プロパティを `RVDashboard` オブジェクトの新しいインスタンスに設定します:
 ```cs
 _revealView.Dashboard = new RVDashboard();
 ```
 
-Run the application and you will be prompted with a new, empty, dashboard.
+アプリケーションを実行すると、新しい空のダッシュボードが表示されます。
 
 ![](images/getting-started-running-app.jpg)
 
-As you can see, while this gives you a new dashboard instance to use, unless you have provided a data source to the `RevealView` for your dashboard to use, your end-users will not be able to create any new visualizations in the new dashboard.
+ご覧のとおり、これにより使用する新しいダッシュボード インスタンスが提供されますが、ダッシュボードで使用するデータ ソースを `RevealView` に提供していない限り、エンドユーザーは新しいダッシュボードで新しい表示形式を作成できません。
 
 次の手順:
-- [Adding Datasources](adding-data-sources/in-memory-data.md)
-- [Loading Dashboards](loading-dashboards.md)
+- [データ ソースの追加](adding-data-sources/in-memory-data.md)
+- [ダッシュボードの読み込み](loading-dashboards.md)
