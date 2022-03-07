@@ -20,5 +20,5 @@ revealView.onVisualizationDataPointClicked = (visualization, cell, row) => {
 `RVDataCell` には次のプロパティがあります:
 - **columnLabel** - データ ポイントに属する列のラベルまたはカスタム名称
 - **columnName** - データ ポイントに属する列の名前
-- **formatedValue** - データ ポイントの書式設定された値
+- **formattedValue** - データ ポイントの書式設定された値
 - **value** - データ ポイントの元の値

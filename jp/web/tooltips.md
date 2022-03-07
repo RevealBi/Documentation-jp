@@ -1,10 +1,10 @@
-# Working with Tooltips
+# ツールチップの作業
 
-A tooltip is a message which appears when the end-user hovers over or clicks on the series in a dashboard visualization.
+ツールチップは、ダッシュボード表示形式でエンドユーザーがシリーズをホバーまたはクリックしたときに表示されるメッセージです。
 
 ![](images/tooltips.jpg)
 
-When a tooltip is showing in a dashboard visualization, the `RevealView.onTooltipShowing` event is invoked. Handling this event will allow you to read tooltip data, or prevent the tooltip from showing
+ダッシュボード表示形式にツールチップが表示されている場合、`RevealView.onTooltipShowing` イベントが呼び出されます。このイベントを処理すると、ツールチップ データの読み取りやツールチップの表示防止が可能になります。
 
 ```javascript
 revealView.onTooltipShowing = (args) => {
@@ -12,34 +12,34 @@ revealView.onTooltipShowing = (args) => {
 };
 ```
 
-The `TooltipShowingEventArgs` contains the following properties:
-- **cell** - gets the data point that is associated with the tooltip
-- **row** - gets a collection of cell data that is provided in the tooltip
-- **visualization** - gets the Visualization displaying the tooltip
+`TooltipShowingEventArgs` には、次のプロパティが含まれています:
+- **cell** - ツールチップに関連付けられたデータ ポイントを取得します。
+- **row** - ツールチップで提供されるセルデータのコレクションを取得します。
+- **visualization** - ツールチップを表示する表示形式を取得します。
 
 > [!NOTE]
-> The `RevealView.onTooltipShowing` event will not be triggered for visualizations that do not support tooltips, such as grids and gauges.
+> `RevealView.onTooltipShowing` イベントは、グリッドやゲージなどのツールチップをサポートしない表示形式ではトリガーされません。
 
-## Reading Tooltip Data
+## ツールチップ データの読み取り
 
-By using the properties exposed by the event `TooltipShowingEventArgs` object, such as the `TooltipShowingEventArgs.cell` and `TooltipShowingEventArgs.row` properties, you can read data that is used for display in the tooltip.
+`TooltipShowingEventArgs.cell` および `TooltipShowingEventArgs.row` プロパティなど、イベント `TooltipShowingEventArgs` オブジェクトによって公開されるプロパティを使用することによって、ツールチップの表示に使用されるデータを読み取ることができます。
 
-It's important to understand that the `TooltipShowingEventArgs.row` property provides a collection of `RVDataCell` objects that represent each data point in the tooltip.
+`TooltipShowingEventArgs.row` プロパティは、ツールチップの各データ ポイントを表す `RVDataCell` オブジェクトのコレクションを提供することを理解することが重要です。
 
-The `RVDataCell` class has the following properties:
-- **columnLabel** - the label, or custom name, of the column belonging to the data point
-- **columnName** - the name of the column belonging to the data point
-- **formattedValue** - the formatted value of the data point
-- **value** - the original value of the data point
+`RVDataCell` クラスには次のプロパティがあります:
+- **columnLabel** - データ ポイントに属する列のラベルまたはカスタム名称
+- **columnName** - データ ポイントに属する列の名前
+- **formattedValue** - データ ポイントの書式設定された値
+- **value** - データ ポイントの元の値
 
-The following image illustrates how the properties of a `RVCell` maps to the data being displayed in the tooltip.
+以下の画像は、`RVCell` のプロパティがツールチップに表示されるデータにマップする方法を示しています。
 
 ![](images/tooltips-row-property.jpg)
 
-## Prevent Tooltips from Showing
-To prevent tooltips from showing for all visualizations, or a specific visualization, simply set the `TooltipShowingEventArgs.cancel` property to `true`.
+## ツールチップを表示しないようにする
+すべての表示形式または特定の表示形式でツールチップが表示されないようにするには、`TooltipShowingEventArgs.cancel` プロパティを `true` に設定します。
 
-In this example, we are checking if the `TooltipShowingEventArgs.visualization.title` property is **Sales** and preventing the tooltip from showing by setting the `TooltipShowingEventArgs.cancel` property to `true`.
+この例では、`TooltipShowingEventArgs.visualization.title` プロパティが **Sales** であるかどうかを確認し、`TooltipShowingEventArgs.cancel` プロパティを `true` に設定してツールチップを表示しないようにします。
 
 ```javascript
 revealView.onTooltipShowing = (args) => {

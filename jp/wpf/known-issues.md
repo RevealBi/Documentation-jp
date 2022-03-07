@@ -1,7 +1,7 @@
-# Known Issues
+# 既知の問題
 
-**1** - After updating the Reveal SDK to a newer version in a project using package.config, uninstalling the old NuGet version or updating it to the new one will fail.
+**1** - package.config を使用してプロジェクトの Reveal SDK をより新しいバージョンに更新後、古い NuGet バージョンのアンインストールや新しいバージョンへの更新ができません。
 
-As a workaround, prior to updating the Reveal SDK you can uninstall the NuGet package from your project. Then, update the Reveal SDK using the installer and finally you can reinstall the updated NuGet package.
+回避策: Reveal SDK を更新する前に、プロジェクトから NuGet パッケージをアンインストールします。次に、インストーラーを使用して Reveal SDK を更新します。最後に、更新された NuGet パッケージを再インストールできます。
 
-As an alternative workaround, prior to updating the Reveal SDK, you can back up the existing NuGet packages. To do that, go to "%public%\Documents\Infragistics\Nuget" (the location of the local NuGet package store created by the installer). Back up the existing packages to another folder, run the updated installer, and then copy the backed up packages back to the same location. Finally, you can now upgrade the NuGet version used in your project.
+回避策 2: Reveal SDK を更新する前に、既存の NuGet パッケージをバックアップします。これには、"%public%\Documents\Infragistics\Nuget" (インストーラーによって作成されたローカル NuGet パッケージストアの場所) に移動します。既存のパッケージを他のフォルダーにバックアップし、更新されたインストーラーを実行してから、バックアップしたパッケージを同じ場所にコピーします。最後に、プロジェクトで使用されている NuGetバージョン をアップグレードできます。
