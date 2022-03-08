@@ -1,19 +1,19 @@
-# Linking Dashboards
+# ダッシュボード リンク
 
-The Reveal SDK supports dashboard linking, which allows users to navigate through dashboards. By moving from dashboard to dashboard, you can go from a high level overview of the business' reality to a more detailed view with the specifics.
+Reveal SDK はダッシュボードのリンクをサポートしているため、ユーザーはダッシュボードをナビゲートできます。ダッシュボードからダッシュボードに移動することで、業務上のハイレベルな概要からより詳細なビューに進むことができます。
 
-From a Reveal SDK perspective, dashboard linking is invoked when an end-user clicks on a link in a visualization which invokes the loading of another dashboard.
+Reveal SDK の観点からは、ダッシュボードのリンクは、エンドユーザーがビジュアル化されたリンクをクリックして別のダッシュボードをロードするときに呼び出されます。
 
 ![](images/linking-open-campaigns.jpg)
 
-For further details about the Dashboard Linking functionality, refer to [Dashboard Linking](../dashboards/dashboard-linking.md) from the Reveal’s User Guide.
+ダッシュボードリンク機能の詳細については、Reveal のユーザーガイドの [ダッシュボードのリンク](../dashboards/dashboard-linking.md) を参照してください。
 
 > [!NOTE]
-> Currently, dashboard links cannot be created with the Reveal SDK. You must use a native Reveal application such as [https://app.revealbi.io/](https://app.revealbi.io/)
+> 現在、ダッシュボードのリンクは Reveal SDK で作成できません。[https://app.revealbi.io/](https://app.revealbi.io/) などのネイティブ Reveal アプリケーションを使用する必要があります。
 
-## Respond to a Dashboard Link
+## ダッシュボード リンクへの応答
 
-To respond to when a **Dashboard Link** is clicked within a dashboard, add an event handler to the `RevealView.VisualizationLinkingDashboard` event.
+ダッシュボード内で**ダッシュボード リンク**がクリックされたときに応答するには、`RevealView.VisualizationLinkingDashboard` イベントに対してイベント ハンドラーを追加します。
 
 ```xml
 <rv:RevealView x:Name="_revealView" 
@@ -26,17 +26,17 @@ private void RevealView_VisualizationLinkingDashboard(object sender, Visualizati
 
 }
 ```
-The `VisualizationLinkingDashboardEventArgs` has the following properties:
-- **DashboardId** - the id of the dashboard being requested
-- **Title** - the title of the dashboard being requested
-- **Url** - the URL of the dashboard being requested (if applicable)
-- **Callback** - this delegate is used to provide the `RVDashboard` stream back to the `RevealView` to be loaded
+`VisualizationLinkingDashboardEventArgs` には次のプロパティがあります:
+- **DashboardId** - 要求されたダッシュボードの ID。
+- **Title** - リクエストされたダッシュボードのタイトル。
+- **Url** - リクエストされたダッシュボードの URL (該当する場合)。
+- **Callback** - このデリゲートは、読み込むために `RevealView` に `RVDashboard` ストリームを提供するために使用されます。
 
-## Example: Linking to a Dashboard
+## 例: ダッシュボードへのリンク
 
-In this example, we are handling the `RevealView.VisualizationLinkingDashboard` event in response to an end-user clicking on a visualization in our **Marketing** dashboard. This link should take us to the **Campaigns** dashboard when clicked.
+この例では、エンドユーザーが **Marketing** ダッシュボードの表示形式をクリックすると、`RevealView.VisualizationLinkingDashboard` イベントが処理されます。このリンクは、クリックされると **Campaigns** ダッシュボードに移動します。
 
-To do this, we get the file path to the **Campaigns.rdash** file from our **Dashboards** directory. Once we have the file path, we then create a new `FileStream` using our path and provide that stream to the `e.Callback`.
+これを行うには、**Dashboards** ディレクトリから **Campaigns.rdash** ファイルへのファイル パスを取得します。ファイル パスを取得したら、そのパスを使用して新しい `FileStream` を作成し、そのストリームを `e.Callback` に提供します。
 
 ```cs
 private void RevealView_VisualizationLinkingDashboard(object sender, VisualizationLinkingDashboardEventArgs e)
