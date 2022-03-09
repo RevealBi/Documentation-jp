@@ -24,7 +24,7 @@
         </td>
     </tr>
     <tr>
-        <td>Added an option to enable/disable the end user ability to maximize visualizations<br>
+        <td>エンド ユーザーが可視化を最大化する機能を有効/無効にするオプションを追加しました。<br>
             <a hre="/api/wpf/latest/Reveal.Sdk.RevealView.html#Reveal_Sdk_RevealView_CanMaximizeVisualizationProperty">CanMaximizeVisualizationProperty</a> (WPF) & <a href="/api/javascript/latest/classes/revealview.html#canmaximizevisualization">canMaximizeVisualizationProperty</a> (JS)。 
         </td>
     </tr>
@@ -47,15 +47,15 @@
         <td rowspan="3">10 月 2021 年</td>
         <td rowspan="3">1.1.0 .NET</td>
         <td>.NET Server SDK は、いくつかの変更を加えて拡張されました:<br>
-        - Registering Reveal services is more flexible - You now can inject other services in your implementations of Reveal interfaces. You only register the type of your implementations of your Reveal providers interfaces.<br>
-        - RevealSDKContext removed - RVUserContext is now first class citizen across reveal providers. You need to register a UserContextProvider, which will be instantiating that class and it would be passed to the methods of other Reveal services like IRVDashboardProvider.<br>
-        - .NET Core 3.1 or newer is now required - Reveal dropped support for .NET Core running on top of .NET Framework v4.6.2 or higher and .NET core 2.2 as it is out of support.<br>
-        - Improved setup for default implementations - Greatly improved setup for default implementations - Now it's pretty simple to setup Reveal if you have your dashboards in a "Dashboards" folder and your local data files (csv or excel) are located in your "Data" folder on the project root level. Example:<br>
+        - Reveal サービスの登録はより柔軟になりました。これで、Reveal インターフェースの実装に他のサービスを注入できます。Reveal プロバイダー インターフェイスの実装のタイプのみを登録します。<br>
+        - RevealSDKContext が削除されました。RVUserContext は、Reveal プロバイダー全体で第一級市民になりました。UserContextProvider を登録する必要があります。これにより、そのクラスがインスタンス化され、IRVDashboardProvider などの他の Reveal サービスのメソッドに渡されます。<br>
+        - .NET Core 3.1 以降が必要になりました。.NET Framework v4.6.2 以降で実行されている .NETCore および .NETCore 2.2 のサポートが終了したため、サポートが終了したことを明らかにします。<br>
+        - デフォルト実装のセットアップの改善 - デフォルト実装のセットアップが大幅に改善されました - ダッシュボードが 「Dashboards」 フォルダーにあり、ローカル データ ファイル (csv または excel) がプロジェクト ルート レベルの 「Data」 フォルダーにある場合、Reveal のセットアップは非常に簡単になりました。例:<br>
         services<br>
         &emsp;&emsp;.AddMvc()<br>
         &emsp;&emsp;.AddReveal();<br>
-        For further details, please refer to <a
-                href="../release-information/upgrade-to-net-1.1.html">Reveal .NET SDK Upgrade to v1.1</a>.
+        詳細については、<a
+                href="../release-information/upgrade-to-net-1.1.html">Reveal .NET SDK の v1.1 へのアップグレード</a>を参照してください。
         </td>
     </tr>
     <tr>
@@ -72,30 +72,30 @@
     <tr>
             <td rowspan="2">9 月 2021 年</td>
             <td rowspan="2">1.0.2013</td>
-            <td>[公開バグ修正] Calculated field export to excel resulting in empty cells<br>
+            <td>[公開バグ修正] 計算フィールドを Excel にエクスポートすると、セルが空になる問題。<br>
             ゼロ除算を行う計算フィールドを Excel にエクスポートすると、結果には空のセルが含まれていました。
             </td>
         </tr>
         <tr>
-            <td>[公開バグ修正] Data blending with custom queries and server-side processing issues<br>
+            <td>[公開バグ修正] カスタム クエリとサーバー側の処理のデータ ブレンディングの問題。<br>
             Web .NET で [サーバーでデータを処理] をオンにしてカスタム クエリを実行すると、データ ブレンディングが期待どおりに機能しませんでした。
             </td>
         </tr>
         <tr>
             <td rowspan="2">9 月 2021 年</td>
             <td rowspan="2">1.0.2012</td>
-            <td>[公開バグ修正] [SDK] Small window sizes render Text chart unreadable<br>
+            <td>[公開バグ修正] [SDK] ウィンドウ サイズが小さいと、テキスト チャートが判読できなくなる問題。<br>
             Web とデスクトップの両方で、ウィンドウのサイズが小さいと、テキスト チャート フォントが読み取れなくなります。
             </td>
         </tr>
         <tr>
-            <td>[公開バグ修正] [SDK] Issues getting the list of date formats<br> When getting a list of date formats for a field editor in the Desktop SDK, you can now use RVBaseFormattingService with aggregated dates.
+            <td>[公開バグ修正] [SDK] 日付形式のリストの取得に関する問題。<br> Desktop SDK でフィールド エディターの日付形式のリストを取得するときに、集計された日付で <i>RVBaseFormattingService</i> を使用できるようになりました。
             </td>
         </tr>
         <tr>
             <td>8 月 2021 年</td>
             <td>1.0.2008</td>
-            <td>[公開バグ修正] [SDK] Saving dashboard as a stream has issues<br> When saving dashboards as a stream, in some specific cases dashboard.Serialize.Async() was returning null.</td>
+            <td>[公開バグ修正] [SDK] ダッシュボードをストリームとして保存する際に問題が発生する問題。<br> ダッシュボードをストリームとして保存するときに、特定のケースで <i>dashboard.Serialize.Async()</i> が null を返していました。</td>
         </tr>
        <tr>
             <td rowspan="4">6 月 2021 年</td>
@@ -106,73 +106,73 @@
         </tr>
         <tr>
             <td>新しいサムネイル コンポーネント!<br>
-            RevealDashboardThumbnailView を使用してダッシュボードのサムネイルを描画できるようになりました。.
+            RevealDashboardThumbnailView を使用してダッシュボードのサムネイルを描画できるようになりました。
             </td>
         </tr>
         <tr>
-            <td><a name="java-sdk-1.0.7"></a>[公開バグ修正] Calculated field filter not working with data process on server<br>
-            データのサーバー側集計を有効にすると、フィルターとして使用される計算フィールドが期待どおりにデータをフィルタリングしていなかった問題
+            <td><a name="java-sdk-1.0.7"></a>[公開バグ修正] 計算フィールド フィルターがサーバー上のデータ プロセスで機能しない問題。<br>
+            データのサーバー側集計を有効にすると、フィルターとして使用される計算フィールドが期待どおりにデータをフィルタリングしていなかった問題。
             </td>
         </tr>
         <tr>
-            <td>[公開バグ修正] Google Analytics issues with dashboard filters<br>
-            Google アナリティクス データ ソースからデータを取得するときに、ダッシュボード フィルターを作成できなかった問題
+            <td>[公開バグ修正] ダッシュボード フィルターに関する Google アナリティクスの問題。<br>
+            Google アナリティクス データ ソースからデータを取得するときに、ダッシュボード フィルターを作成できなかった問題。
             </td>
         </tr>
         <tr>
             <td rowspan="5">5 月 2021 年</td>
             <td rowspan="5">1.0.1956</td>
-            <td>[公開バグ修正] [SDK] Full list of Data Sources displayed by mistake<br>
-            When using DataSourcesRequested callback in the Desktop SDK, the whole list of data sources was being displayed instead of the ones explicitly added.
+            <td>[公開バグ修正] [SDK] 誤って表示されたデータ ソースの完全なリストの問題。<br>
+            Desktop SDK で DataSourcesRequested コールバックを使用すると、明示的に追加されたデータ ソースの代わりに、データ ソースのリスト全体が表示されていました。
             </td>     
         </tr>
         <tr>
-            <td>[公開バグ修正] [SDK] Desktop SDK export to Excel not working as expected<br>
+            <td>[公開バグ修正] [SDK] Desktop SDK の Excel へのエクスポートが期待どおりに機能しない問題。<br>
             ダッシュボードを歳読み込んでから単一の視覚化を Excel にエクスポートすると、ダッシュボードの最初の視覚化は常にエクスポートされたものでした。
             </td>
         </tr>
         <tr>
-            <td>[公開バグ修正] [SDK] Dashboard with SQL data source using a dynamic port not loading<br>
+            <td>[公開バグ修正] [SDK] 動的ポートを使用する SQL データ ソースを含むダッシュボードが読み込まれていない問題。<br>
             動的ポート （ホスト フィールドにインスタンスを提供） を使用して定義された SQL データ ソースを使用してダッシュボードを読み込むと、動的ポート構成の問題が原因でデータ ソース接続が機能しませんでした。
             </td>
         </tr>
         <tr>
-            <td>[公開バグ修正] Calculated field set as Visualization filter were throwing an error<br>
+            <td>[公開バグ修正] 視覚化フィルターとして設定された計算フィールドがエラーをスローしていた問題。<br>
             別の計算フィールドに依存する計算フィールドに基づいて視覚化フィルターを構成すると、「無効な列名」 というエラーが表示されていました。
             </td>
         </tr>
         <tr>
-            <td>[公開バグ修正] Drill down scenario with different "sort by" configurations not working as expected<br>
-            When the fields in a hierarchy were configured with a combination of "sort by: <any field>" and a descending sorting, the result was the dashboard not loading.
+            <td>[公開バグ修正] 「並べ替え」 構成が異なるドリルダウン シナリオが期待どおりに機能しない問題。<br>
+            階層内のフィールドが「並べ替え: <任意のフィールド>」と降順の並べ替えの組み合わせで構成されている場合、結果としてダッシュボードが読み込まれませんでした。
             </td>
         </tr>
         <tr>
             <td rowspan="1">3 月 2021 年</td>
             <td rowspan="1">1.0.1866</td>
-            <td>New Properties for Desktop SDK:<br>
-            ShowEditDataSource - can be used to disable the Edit button normally available in the data source overflow menu.<br>
-            CanAddDashboardFilter - this property can hide the "Add Dashboard Filter" option in the Add Filter menu. これらのオプションは、ダッシュボード編集モードで使用できます。<br>
-            CanAddDateFilter - this property can hide the "Add Date Filter" option in the Add Filter menu. これらのオプションは、ダッシュボード編集モードで使用できます。
+            <td>Desktop SDK の新しいプロパティ:<br>
+            ShowEditDataSource - データ ソース オーバーフロー メニューで通常使用できる [編集] ボタンを無効にするために使用できます。<br>
+            CanAddDashboardFilter -  このプロパティは、[フィルターの追加] メニューの [ダッシュボード フィルターの追加] オプションを非表示にすることができます。これらのオプションは、ダッシュボード編集モードで使用できます。<br>
+            CanAddDateFilter - このプロパティは、[フィルターの追加] メニューの [日付フィルターの追加] オプションを非表示にすることができます。これらのオプションは、ダッシュボード編集モードで使用できます。
             </td>     
         </tr>
         <tr>
             <td>3 月 2021 年</td>
             <td>1.0.1821</td>
-            <td>[公開バグ修正] [SDK] SDK apps sometimes throw an NRE exception<br> When an SDK application was opened for more than 90 minutes without users interacting with it, performing an action was throwing an exception.</td>
+            <td>[公開バグ修正] [SDK] SDK アプリが NRE 例外をスローすることがある問題。<br> ユーザーが操作せずに SDK アプリケーションを 90 分以上開いた場合、操作を実行すると例外がスローされていました。</td>
         </tr>
             <td>2 月 2021 年</td>
             <td>1.0.1772</td>
-            <td>[Bug Fix] [SDK] Installation of WPF NuGet package failing with packages.config<br> The installation of WPF NuGet package was failing when the host project used packages.config.
+            <td>[Bug Fix] [SDK]  packages.config で WPF NuGet パッケージのインストールが失敗する問題。<br> ホスト プロジェクトが packages.config を使用した場合、WPF NuGet パッケージのインストールが失敗していました。
             </td>
         </tr>
         <tr>
             <td rowspan="6">2 月 2021 年</td>
             <td rowspan="6">1.0.1763</td>
-            <td>[公開バグ修正] [SDK] HasPendingChanges property not working as expected<br> In Desktop SDK, the
+            <td>[公開バグ修正] [SDK] HasPendingChanges プロパティが正しく動作しない問題。<br> In Desktop SDK, the
                 HasPendingChanges property was not set to false after saving a dashboard with changes.</td>
         </tr>
         <tr>
-            <td>[公開バグ修正] [SDK] Custom filtering not working <br>In Desktop SDK, custom queries were not
+            <td>[公開バグ修正] [SDK] カスタム フィルタリングが正しく動作しない問題。<br>In Desktop SDK, custom queries were not
                 filtering data as expected.</td>
         </tr>
         <tr>
@@ -194,46 +194,32 @@
         <tr>
             <td rowspan="2">1 月 2021 年</td>
             <td rowspan="2">1.0.1712</td>
-            <td>[公開バグ修正] [SDK] The server component relies on Newtonsoft.Json serializer<br> The Reveal
-                server component was relying on the default JSON serialization settings of the MVC application. Now the
-                hosting app can configure JSON serialization settings as needed.</td>
+            <td>[公開バグ修正] [SDK] サーバー コンポーネントは Newtonsoft.Json シリアライザー に依存しています。<br> Reveal サーバー コンポーネントは、mvc アプリケーションのデフォルトの JSON シリアル化設定に依存していました。これで、ホスティング アプリは必要に応じて JSON シリアル化設定を構成できます。</td>
         </tr>
         <tr>
-            <td>[公開バグ修正] [SDK] SQL Server filtering not working for NVARCHAR columns<br>Filtering for
-                Microsoft SQL Server was not working for NVARCHAR columns when the filtered value contained multibyte
-                characters.</td>
+            <td>[公開バグ修正] [SDK] SQL Server フィルタリングが NVARCHAR 列で機能しない問題。<br>フィルタリングされた値にマルチバイト文字が含まれている場合、Microsoft SQL Server のフィルタリングが NVARCHAR 列に対して機能しませんでした。</td>
         </tr>
         <tr>
             <td rowspan="2">12 月 2020 年</td>
             <td rowspan="2">1.0.1669</td>
-            <td>[公開バグ修正] [SDK] Pivot hierarchies filtering not working with "Processing Data on
-                    Server"<br>If the option "Processing Data on Server" was checked, drill down hierarchies in the
-                Pivot Editor were not filtering data.</td>
+            <td>[公開バグ修正][SDK] [サーバーでデータを処理] でピボット階層フィルタリングが機能しない問題。<br>[サーバーでデータを処理] オプションがオンになっている場合、ピボット エディターでのドリルダウン階層はデータをフィルタリングしていなかった問題。</td>
         </tr>
         <tr>
-            <td>[公開バグ修正] [サーバーでデータを処理] で [SDK] カスタム フィルタリングが機能しない問題。<br>If the
-                option "Processing Data on Server" was checked, custom queries were not returning the correct number of
-                rows.</td>
+            <td>[公開バグ修正] [サーバーでデータを処理] で [SDK] カスタム フィルタリングが機能しない問題。<br>[サーバーでデータを処理] オプションがオンになっている場合、カスタム クエリは正しい行数を返しなかった問題。</td>
         </tr>
         <tr>
             <td rowspan="4">12 月 2020 年</td>
             <td rowspan="4">1.0.1629</td>
-            <td>JSON ファイルを使用してダッシュボードを保存/ロード<br>You can now use Reveal SDK to save/load dashboards to/from
-                JSON files.</td>
+            <td>JSON ファイルを使用してダッシュボードを保存/ロード<br>Reveal SDK を使用して、JSON ファイルからダッシュボードを保存/ロードできるようになりました。</td>
         </tr>
         <tr>
-            <td>[公開バグ修正] カテゴリ フィールド ラベルが表示されない問題。<br>In Category Charts, tooltips were not
-                displaying the field label but the original field name of a category instead.</td>
+            <td>[公開バグ修正] カテゴリ フィールド ラベルが表示されない問題。<br>カテゴリ チャートでは、ツールチップにフィールド ラベルではなく、カテゴリの元のフィールド名が表示されていました。</td>
         </tr>
         <tr>
-            <td>[公開バグ修正] ドリルダウン ブレッドクラムの日付が誤って表示される問題。<br>When drilling down on a
-                date field, breadcrumbs did not display values properly. Now breadcrumbs give clear information about
-                your drill down level.</td>
+            <td>[公開バグ修正] ドリルダウン ブレッドクラムの日付が誤って表示される問題。<br>日付フィールドをドリルダウンすると、ブレッドクラムに値が正しく表示されませんでした。これで、ブレッドクラムはドリルダウン レベルに関する明確な情報を提供することになりました。</td>
         </tr>
         <tr>
-            <td>[公開バグ修正] ホバー ツールチップと十字線がデフォルトで表示されない問題。<br>In Dashboard View mode,
-                Hover Tooltips and Crosshairs were not displayed until users enable them. Now they are enabled by
-                default.</td>
+            <td>[公開バグ修正] ホバー ツールチップと十字線がデフォルトで表示されない問題。<br>ダッシュボード ビュー モードでは、ユーザーが有効にするまで、ホバー ツールチップと十字線は表示されませんでした。現在、これらはデフォルトで有効になっています。</td>
         </tr>
         <tr>
             <td rowspan="5">9 月 2020 年</td>
@@ -242,57 +228,42 @@
                 Amazon のサーバーレス インタラクティブな Athena クエリ サービスに接続できるようになりました。</td>
         </tr>
         <tr>
-            <td>新しいビルド済みテーマ<br>4 つのビルド済みアプリ テーマを追加しました。 Set one of them and use the
-                customizable settings to additionally personalize the look and feel of the Visualization and Dashboard
-                editor. You can choose from one of the following themes:
-                MountainLightTheme (Desktop) / $.ig.MountainLightTheme (Web);
-                MountainDarkTheme (Desktop) / $.ig.MountainDarkTheme (Web);
-                OceanLightTheme (Desktop) / $.ig.OceanLightTheme (Web);
-                OceanDarkTheme (Desktop) / $.ig.OceanDarkTheme (Web).
+            <td>新しいビルド済みテーマ<br>4 つのビルド済みアプリ テーマを追加しました。 いずれかを選択し、カスタマイズ可能な設定を使用して、表示形式およびダッシュボード エディターのルックアンドフィールをカスタマイズします。次のテーマから選択できます: MountainLightTheme (デスクトップ) / $.ig.MountainLightTheme (Web); MountainDarkTheme (デスクトップ) / $.ig.MountainDarkTheme (Web); OceanLightTheme (デスクトップ) / $.ig.OceanLightTheme (Web); OceanDarkTheme (デスクトップ) / $.ig.OceanDarkTheme (Web)。
             </td>
         </tr>
         <tr>
-            <td>Marketo プロバイダーを利用できるようになりました。<br>You can now connect to the marketing platform Marketo and
-                use your data in Reveal.</td>
+            <td>Marketo プロバイダーを利用できるようになりました。<br>Marketo マーケティング プラットフォームに接続し、データを Reveal で使用します。</td>
         </tr>
         <tr>
-            <td>Amazon Redshift を利用できるようになりました。<br>You can now use and gain new insights from your data
-                in the Amazon Redshift cloud data warehouse.</td>
+            <td>Amazon Redshift を利用できるようになりました。<br>Amazon Redshift クラウド データ ウェアハウスのデータを使用して、新しいインサイトを得ることができます。</td>
         </tr>
         <tr>
-            <td>新しい「サーバーでデータを処理」機能<br>You can now have server-side aggregation of the data
-                coming from the MS SQL, MySQL and Postgres data sources</td>
+            <td>新しい「サーバーでデータを処理」機能<br>MS SQL、MySQL、Postgres データ ソースからのデータをサーバー側で集計することが可能です。</td>
         </tr>
         <tr>
             <td rowspan="6">7 月 2020 年</td>
             <td rowspan="6">1.0.1374</td>
-            <td> New API to set axis bounds for charts<br> You can now programmatically change the axis bounds in
-                runtime for a particular visualization.</td>
+            <td>チャートの軸範囲を設定する新しい API<br> 特定の表示形式のためにランタイムで軸範囲をプログラム的に変更できるようになりました。</td>
         </tr>
         <tr>
-            <td>Salesforce データソースの機能強化<br>Reveal で Salesforce レポートを使用できます。</td>
+            <td>Salesforce データ ソースの機能強化<br>Reveal で Salesforce レポートを使用できます。</td>
         </tr>
         <tr>
-            <td>新しい Quickbooks データソース<br>Connect to your Quickbooks account and use your entities to perform
-                data analysis in Reveal.</td>
+            <td>新しい Quickbooks データ ソース<br>Quickbooks アカウントに接続し、エンティティを使用して Reveal でデータ分析を実行します。</td>
         </tr>
         <tr>
-            <td>新しい Hubspot データソース<br>Hubspot に接続できます。</td>
+            <td>新しい Hubspot データ ソース<br>Hubspot に接続できます。</td>
         </tr>
         <tr>
-            <td>Sharepoint リストとドキュメント ライブラリのサポート<br>You can now use the metadata (name, type,
-                etc.) collected for all files in a SharePoint library as a data source in Reveal.</td>
+            <td>Sharepoint リストとドキュメント ライブラリのサポート<br>SharePoint ライブラリのすべてのファイルについて収集されたメタデータ (名前、タイプなど) を Reveal のデータ ソースとして使用できるようになりました。</td>
         </tr>
         <tr>
-            <td>新しい階級区分図<br>The Choropleth map visualization allows you to create
-                beautiful thematic maps. 地理空間データを驚くほどわかりやすく表示できます。 Let
-                color guide you and help you quickly discover patterns, trends and anomalies on the map.</td>
+            <td>新しい階級区分図<br>階級区分図の表示形式により、美しい主題図を作成できます。地理空間データを驚くほどわかりやすく表示できます。色によって、マップ上のパターン、トレンド、および異常をすばやく発見できます。</td>
         </tr>
         <tr>
             <td rowspan="2">5 月 2020 年</td>
             <td rowspan="2">1.0.1255</td>
-            <td>新しい Azure Analysis Services データソース<br>With this new data source, you can create dashboards
-                using your data models in Azure Analysis Services.</td>
+            <td>新しい Azure Analysis Services データ ソース<br>この新しいデータ ソースにより、Azure Analysis Services のデータ モデルを使用してダッシュボードを作成できます。</td>
         </tr>
         <tr>
             <td>Google スプレッドシート ファイルの新しいアイコン<br>Google スプレッドシート ファイルのアイコンが変更されました。</td>
@@ -301,33 +272,26 @@
             <td rowspan="5">5 月 2020 年</td>
             <td rowspan="5">1.0.1222</td>
             <td>新しいホバー イベント API<br>
-                This new event is called *revealView.TooltipShowing* in WPF and .onTooltipShowing in Web and is
-                triggered whenever the end-user hovers over a series in a visualization or clicks on the series.</td>
+                この新しいイベントは、WPF では *revealView.TooltipShowing*、Web では .onTooltipShowing と呼ばれ、エンドユーザーが表示形式でシリーズをホバーするか、シリーズをクリックするたびに発生されます。</td>
         </tr>
         <tr>
-            <td>新しい TreeMap の表示形式<br>You can use this new visualization type to present large hierarchies
-                with a set of nested rectangles. Rectangles’ size will show you part-to-whole relationships amongst a
-                variety of metrics, helping you identify patterns and relations between similar data.
+            <td>新しい TreeMap の表示形式<br>この新しい表示形式タイプを使用して、大きな階層をネストされた四角形の集合で表示できます。四角形のサイズは、さまざまなメトリック間の部分と全体の関係を示し、同様のデータ間のパターンと関係を識別します。
             </td>
         </tr>
         <tr>
-            <td>Excel へエクスポート機能拡張<br>You can include more visualization types in your spreadsheets
-                upon export. 散布図、バブル チャート、スパークライン チャートが利用できるようになりました。</td>
+            <td>Excel へエクスポート機能拡張<br>エクスポートする際に複数の表示形式タイプをスプレッドシートに追加できます。散布図、バブル チャート、スパークライン チャートが利用できるようになりました。</td>
         </tr>
         <tr>
-            <td>UI/UX の改善<br>Various minor changes were added to improve user experience in the
-                Visualization, Dashboard, New Data Source dialog, etc.</td>
+            <td>UI/UX の改善<br>表示形式、ダッシュボード、新しいデータ ソース ダイアログなどのユーザーエクスペリエンスを向上するために、小さな変更が追加されました。</td>
         </tr>
         <tr>
-            <td>Google ドライブで共有ドライブのサポートを追加<br>If you have a GSuite Business account, you can
-                now access your Shared Drives data and use it to build visualizations in Reveal.</td>
+            <td>Google ドライブで共有ドライブのサポートを追加<br>G Suite Business アカウントをお持ちの場合、共有ドライブ データにアクセスし、それを使用して Reveal で表示形式を構築できます。</td>
         </tr>
         <tr>
             <td>4 月 2020 年</td>
             <td>1.0.1136</td>
             <td>新しいカスタム テーマ<br>
-                Now you can create your own theme in Reveal by configuring some or all of the customizable settings in
-                the new RevealTheme (Desktop) / $.ig.RevealTheme (Web) class.</td>
+                新しい RevealTheme（デスクトップ） / $.ig.RevealTheme (Web) クラスでカスタマイズ可能な設定の一部またはすべてを構成することにより、Reveal で独自のテーマを作成できるようになりました。</td>
         </tr>
         <tr>
             <td rowspan="3">2 月 2020 年</td>
@@ -338,52 +302,37 @@
                 StartWithNewVisualization, InitialThemeName.</td>
         </tr>
         <tr>
-            <td>アクセント色のサポート<br>You can now find the SetAccentColor method added to
-                $.ig.RevealView.</td>
+            <td>アクセント色のサポート<br>SetAccentColor メソッドが $.ig.RevealView に追加されました。</td>
         </tr>
         <tr>
-            <td>Trigger プロパティが DataSourceRequested イベントに追加されました。<br>We added a Trigger (of type
-                DataSourcesRequestedTriggerType) property to the DataSourcesRequested event arguments. The users of this
-                event will now gain more context about the DataSourcesRequested purposes.</td>
+            <td>Trigger プロパティが DataSourceRequested イベントに追加されました。<br>_DataSourcesRequestedTriggerType_ 型の Trigger プロパティを DataSourcesRequested イベント引数に追加しました。このイベントのユーザーは、DataSourcesRequested の目的について詳細なコンテキストを取得できます。</td>
         </tr>
         <td>11 月 2019 年</td>
         <td>1.0.825</td>
-        <td>Export to Image Functionality is Now Working<br>Exporting images server-side (both programmatically
-            and through user interaction) was enabled again. 修正の詳細については、<a
+        <td>画像エクスポート機能が利用できるようになりました。<br>サーバー側の画像エクスポート (プログラム上およびユーザー操作の両方により) が再び有効になりました。修正の詳細については、<a
                 href="../setup-configuration/setup-configuration-web.html#server-side-image-export">サーバー側画像生成の有効化</a>のトピックを参照してください。 </td>
         <tr>
         </tr>
         <td rowspan="4">9 月 2019 年</td>
         <td rowspan="4">1.0.80x</td>
-        <td>Reveal Desktop SDK のローカリゼーション サービス<br>You can now localize titles and labels of a variety of
-            dashboard elements. The Localization service also enables you to change the formatting settings of numeric
-            and non-aggregated date fields.</td>
+        <td>Reveal Desktop SDK のローカリゼーション サービス<br>さまざまなダッシュボード要素のタイトルおよびラベルをローカライズすることができます。ローカライゼーション サービスでは、数値および非集計の日付フィールドの書式設定を変更することもできます。</td>
         <tr>
         <tr>
-            <td>Reveal Desktop SDK の書式設定サービス<br>You can now format numeric data, aggregated and
-                non-aggregated date fields to your own preferences. Ignore the default formatting and format your
-                dashboard data the way you like it.</td>
+            <td>Reveal Desktop SDK の書式設定サービス<br>数値データ、集計および非集計の日付フィールドを好みに合わせて書式設定できます。デフォルトの書式設定を無視して、ダッシュボード データを書式設定します。</td>
         </tr>
         <tr>
-            <td>Changes in Setup and Configuration (Server SDK)<br>Reveal Server SDK now supports .NET Core 2.2+
-                as well as .NET Framework 4.6.1+ ASP MVC application projects. In addition, you will now use exclusively
-                the NuGet package manager to reference assemblies and install dependency packages.</td>
+            <td>セットアップと構成の変更 (Server SDK)<br>Reveal Server SDK には、.NET Core 2.2+ および .NET Framework 4.6.1+ ASP MVC アプリケーション プロジェクトがサポートされます。また、NuGet パッケージ マネージャーのみを使用すると、アセンブリを参照し、依存関係パッケージをインストールします。</td>
         </tr>
         </tr>
         <td rowspan="4">9 月 2019 年</td>
         <td rowspan="4">1.0.70x</td>
-        <td>Step by Step Guide<br>With this detailed guide, you will start with prerequisites and go through
-            every step needed to setup and configure Reveal’s SDK.</td>
+        <td>ステップバイステップガイド<br>このガイドは、Reveal SDK の前提条件、セットアップや構成に必要なすべての手順について説明します。</td>
         <tr>
         <tr>
-            <td>Change the Widget’s Data Source<br>You can now enable or disable the possibility to change a
-                widget’s data source to end users. When opening the Visualization Data screen in edit mode, Reveal will
-                either show or hide the change data source button in the UI.</td>
+            <td>ウィジェットのデータ ソースを変更<br>エンドユーザーがウィジェットのデータ ソースを変更する機能を有効または無効にできるようになりました。編集モードで [視覚化データ] 画面を開くと、Reveal は UI の [データ ソースの変更] ボタンを表示または非表示にします。</td>
         </tr>
         <tr>
-            <td>Reveal Desktop SDK の書式設定サービス<br>You can now enable or disable the possibility to
-                change the dashboard’s theme to end users. When entering edit mode for a dashboard, Reveal will either
-                show or hide the button used to display the available themes.</td>
+            <td>Reveal Desktop SDK の書式設定サービス<br>エンドユーザーがダッシュボードのテーマを変更する機能を有効または無効にできるようになりました。ダッシュボードの編集モードに入る際に、使用可能なテーマを表示するためのボタンを表示または非表示にします。</td>
         </tr>
     </tbody>
 </table>

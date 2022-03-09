@@ -109,7 +109,7 @@
     <tr>
         <td class="tg-0lax" rowspan="5">2 月 2021 年</td>
         <td class="tg-0lax" rowspan="5"> 1.0.17 <br> [1.0.23 iOS]</td>
-        <td class="tg-cly1"><span style="font-style:italic">新しい Snowflake データソース</span><br>
+        <td class="tg-cly1"><span style="font-style:italic">新しい Snowflake データ ソース</span><br>
         Reveal で Snowflake からデータにアクセスできるようになりました。
         </td>
     </tr>

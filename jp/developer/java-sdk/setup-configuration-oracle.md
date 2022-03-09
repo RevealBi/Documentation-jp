@@ -99,7 +99,7 @@ RevealEngineInitializer.initialize(
 - *setAuthProvider*。ここで、認証を解決し、IRVAuthenticationProvider を実装するカスタム クラスを含める必要があります。
 - *setUserContextProvider*。IRVUserContextProvider を実装するユーザーに関する情報を提供するカスタム クラス。
 - *setDashboardProvider*。ダッシュボードを置換または変更するカスタム クラス。IRVDashboardProvider を実装します。
-- *setDataSourceProvider*。データソースを置換または変更するカスタム クラス。IRVDataSourceProvider を実装します。
+- *setDataSourceProvider*。データ ソースを置換または変更するカスタム クラス。IRVDataSourceProvider を実装します。
 - *setDataProvider*。ダッシュボードのインメモリ データを返すカスタム クラス。IRVDataProvider を実装します。
 - *setLicense*。ここでは、シリアル キーを含めて SDK ライセンスを構成できます。
 

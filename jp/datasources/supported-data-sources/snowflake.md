@@ -6,7 +6,7 @@ Snowflake データ ソースを構成するには、最初に次の情報を入
 
 <img src="images/enter-snowflake-server-details.png" alt="Configure Snowflake Server details" class="responsive-img"/>
 
-1.  データソースの **デフォルト名**: データソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Snowflake* という名前を付けます。好みに合わせて変更できます。
+1.  データ ソースの **デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Snowflake* という名前を付けます。好みに合わせて変更できます。
 
 2.  **[アカウント]**:  領域またはクラウド プロバイダー情報のない Snowflake アカウント。たとえば、_\<account_name\>.us-east-1.snowflakecomputing.com_ ではなく \<account_name\> に似ている必要があります。
 
@@ -16,7 +16,7 @@ Snowflake データ ソースを構成するには、最初に次の情報を入
 
     <img src="images/enter-snowflake-credentials.png" alt="Configure Snowflake Credentials" class="responsive-img"/>
 
-    - **名前**: データソース アカウントの名前。以前のダイアログのアカウントのリストに表示されます。
+    - **名前**: データ ソース アカウントの名前。以前のダイアログのアカウントのリストに表示されます。
 
     - *(オプション)* **ドメイン**:  ドメイン名 (該当する場合)。
 
