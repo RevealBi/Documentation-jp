@@ -168,28 +168,22 @@
         <tr>
             <td rowspan="6">2 月 2021 年</td>
             <td rowspan="6">1.0.1763</td>
-            <td>[公開バグ修正] [SDK] HasPendingChanges プロパティが正しく動作しない問題。<br> In Desktop SDK, the
-                HasPendingChanges property was not set to false after saving a dashboard with changes.</td>
+            <td>[公開バグ修正] [SDK] HasPendingChanges プロパティが正しく動作しない問題。<br> Desktop SDK では、ダッシュボードを変更して保存した後、HasPendingChanges プロパティが false に設定されていませんでした。</td>
         </tr>
         <tr>
-            <td>[公開バグ修正] [SDK] カスタム フィルタリングが正しく動作しない問題。<br>In Desktop SDK, custom queries were not
-                filtering data as expected.</td>
+            <td>[公開バグ修正] [SDK] カスタム フィルタリングが正しく動作しない問題。<br>Desktop SDK では、カスタム クエリが期待どおりにデータをフィルタリングしていませんでした。</td>
         </tr>
         <tr>
-            <td>[公開バグ修正] [SDK] Hiding SQLServer tables also hides views<br>When using
-                RVDataSourceItemsFilter to hide all tables and show only views, the Views tab was also hidden.</td>
+            <td>[公開バグ修正] [SDK] SQL Server テーブルを非表示にすると、ビューも非表示になる問題。<br>RVDataSourceItemsFilter を使用してすべてのテーブルを非表示にし、ビューのみを表示すると、[ビュー] タブも非表示になりました。</td>
         </tr>
         <tr>
-            <td>[公開バグ修正] [SDK] AzureSQL Data Provider  throwing an error <br>When adding an AzureSQL
-                connection, an error message was displayed.</td>
+            <td>[公開バグ修正] [SDK] AzureSQL データ プロバイダーがエラーをスローする問題。<br>AzureSQL 接続を追加すると、エラー メッセージが表示されました。</td>
         </tr>
         <tr>
-            <td>[公開バグ修正] [SDK] Date filters not displayed if LocalizationProvider set<br>When a
-                LocalizationProvider was set, date filters from/to were not displayed in the visualizations editor.</td>
+            <td>[公開バグ修正] [SDK] LocalizationProvider が設定されている場合、日付フィルターは表示されない問題。<br>LocalizationProvider が設定されている場合、表示形式エディターに日付フィルター開始 / 終了が表示されませんでした。</td>
         </tr>
         <tr>
-            <td>[公開バグ修正] Word not localized to Japanese<br>The word "Others" was not localized to "その他"
-                in Japanese.</td>
+            <td>[公開バグ修正] 日本語にローカライズされていない単語の問題。<br>「その他」 という言葉は日本語にローカライズされていませんでした。</td>
         </tr>
         <tr>
             <td rowspan="2">1 月 2021 年</td>
@@ -296,10 +290,7 @@
         <tr>
             <td rowspan="3">2 月 2020 年</td>
             <td rowspan="3">1.0.981</td>
-            <td>RevealSettings の新しいプロパティ<br>We added multiple new properties to $.ig.RevealSettings to
-                control different features, including: ShowExportToPDF, ShowExportToPowerpoint, ShowExportToExcel,
-                ShowStatisticalFunctions, ShowDataBlending, ShowMachineLearningModelsIntegration,
-                StartWithNewVisualization, InitialThemeName.</td>
+            <td>RevealSettings の新しいプロパティ<br>$.ig.RevealSettings に複数の新しいプロパティを追加して、ShowExportToPDF、ShowExportToPowerpoint、ShowExportToExcel、ShowStatisticalFunctions、ShowDataBlending、ShowMachineLearningModelsIntegration、StartWithNewVisualization、InitialThemeName などのさまざまな機能を制御しました。</td>
         </tr>
         <tr>
             <td>アクセント色のサポート<br>SetAccentColor メソッドが $.ig.RevealView に追加されました。</td>
