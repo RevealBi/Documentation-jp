@@ -16,7 +16,22 @@
         </tr>
     </thead>
     <tbody>
-           <tr>
+    <tr>
+        <td rowspan="3">3 月 2022 年</td>
+        <td rowspan="3">1.1.3</td>
+        <td><i>New data source: Google Search Console!
+        </td>
+    </tr>
+    <tr>
+        <td><i>Added a new event to cancel data loading for a visualization: <i>onVisualizationDataLoading</i>.
+        </td>
+    </tr>
+    <tr>
+        <td><i>[公開バグ修正] Reveal SDK dependency affected by a high severity vulnerability</i><br>
+        The CefSharp.Wpf dependency of Reveal SDK was updated from version 94.4.50 to 98.1.210 to avoid <a hre="https://github.com/advisories/GHSA-vv6j-ww6x-54gx">potential exploits</a>.
+        </td>
+    </tr>
+    <tr>
         <td rowspan="5">12 月 2021 年</td>
         <td rowspan="5">1.1.1 .NET</td>
         <td>タイトルやケバブ メニューなど、ダッシュボード ヘッダーを非表示にするオプションが追加されました。<br>
