@@ -19,16 +19,16 @@
     <tr>
         <td rowspan="3">3 月 2022 年</td>
         <td rowspan="3">1.1.3</td>
-        <td><i>New data source: Google Search Console!
+        <td>新しいデータ ソース: Google Search Console!
         </td>
     </tr>
     <tr>
-        <td><i>Added a new event to cancel data loading for a visualization: <i>onVisualizationDataLoading</i>.
+        <td>可視化のデータ読み込みをキャンセルする新しいイベントを追加しました: onVisualizationDataLoading。
         </td>
     </tr>
     <tr>
-        <td><i>[公開バグ修正] Reveal SDK dependency affected by a high severity vulnerability</i><br>
-        The CefSharp.Wpf dependency of Reveal SDK was updated from version 94.4.50 to 98.1.210 to avoid <a hre="https://github.com/advisories/GHSA-vv6j-ww6x-54gx">potential exploits</a>.
+        <td>[公開バグ修正] 重大度の高い脆弱性の影響を受ける Reveal SDK の依存関係の問題<br>
+        Reveal SDK の CefSharp.Wpf 依存関係は、<a hre="https://github.com/advisories/GHSA-vv6j-ww6x-54gx">潜在的な悪用</a>を回避するためにバージョン 94.4.50 から 98.1.210 に更新されました。
         </td>
     </tr>
     <tr>
