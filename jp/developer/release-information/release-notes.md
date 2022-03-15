@@ -19,20 +19,20 @@
     <tr>
         <td rowspan="4">3 月 2022 年</td>
         <td rowspan="4">1.1.3</td>
-        <td><i>New data source: Google Search Console!
+        <td>新しいデータ ソース: Google Search Console!
         </td>
     </tr>
     <tr>
-        <td>Added a new helper class to configure a JSON Data Source Item: <i>RevealApi.RVJsonSchemaConfigBuilder</i>.
+        <td>JSON データ ソース項目を構成するための新しいヘルパー クラス RevealApi.RVJsonSchemaConfigBuilder を追加しました。
         </td>
     </tr>
     <tr>
-        <td><i>Added a new event to cancel data loading for a visualization: <i>onVisualizationDataLoading</i>.
+        <td>可視化のデータ読み込みをキャンセルする新しいイベントを追加しました: onVisualizationDataLoading。
         </td>
     </tr>
     <tr>
-        <td><i>[公開バグ修正] Dashboard linking with renamed fields issue</i><br>
-        If you renamed a field and then used it as a filter in a dashboard link, the linked dashboard was not filtering properly.
+        <td>[公開バグ修正] 名前が変更されたフィールドとのダッシュボードのリンクの問題<br>
+        フィールドの名前を変更してから、ダッシュボード リンクのフィルターとして使用した場合、リンクされたダッシュボードは正しくフィルター処理されませんでした。
         </td>
     </tr>
     <tr>
