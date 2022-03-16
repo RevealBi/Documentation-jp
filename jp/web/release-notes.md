@@ -16,6 +16,25 @@
         </tr>
     </thead>
     <tbody>
+        <tr>
+        <td rowspan="4">3 月 2022 年</td>
+        <td rowspan="4">1.1.3</td>
+        <td>新しいデータ ソース: Google Search Console!
+        </td>
+    </tr>
+    <tr>
+        <td>JSON データ ソース項目を構成するための新しいヘルパー クラス RevealApi.RVJsonSchemaConfigBuilder を追加しました。
+        </td>
+    </tr>
+    <tr>
+        <td>可視化のデータ読み込みをキャンセルする新しいイベントを追加しました: onVisualizationDataLoading。
+        </td>
+    </tr>
+    <tr>
+        <td>[公開バグ修正] 名前が変更されたフィールドとのダッシュボードのリンクの問題<br>
+        フィールドの名前を変更してから、ダッシュボード リンクのフィルターとして使用した場合、リンクされたダッシュボードは正しくフィルター処理されませんでした。
+        </td>
+    </tr>
     <tr>
         <td rowspan="6">1 月 2022 年</td>
         <td rowspan="6">1.1.2 .NET</td>

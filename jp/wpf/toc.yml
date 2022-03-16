@@ -1,64 +1,64 @@
-- name: General
+- name: 一般
   header: true
-- name: Installation
+- name: インストール
   href: installation.md
-- name: Getting Started
+- name: 作業の開始
   href: getting-started.md
-- name: Working with Dashboards
+- name: ダッシュボードの使用
   header: true
-- name: Creating
+- name: 作成
   href: creating-dashboards.md
-- name: Loading
+- name: 読み込み
   href: loading-dashboards.md
-- name: Filtering
+- name: フィルタリング
   href: filtering-dashboards.md
-- name: Editing
+- name: 編集
   href: editing-dashboards.md
-- name: Saving
+- name: 保存
   href: saving-dashboards.md
-- name: Linking
+- name: リンク
   href: linking-dashboards.md
-- name: Formatting Data
+- name: データの書式設定
   href: formatting-data.md
-- name: Localizing
+- name: ローカライズ
   href: localizing-dashboards.md
-- name: Exporting
+- name: エクスポート
   href: exporting-dashboards.md
-- name: Theming
+- name: テーマ設定
   href: theming-dashboards.md
-- name: Working with DataSources
+- name: データ ソースの使用
   header: true
-- name: Adding Data Sources
+- name: データ ソースの追加
   items:
-    - name: Excel File
+    - name: Excel ファイル
       href: adding-data-sources/excel-file.md
-    - name: In Memory Data
+    - name: インメモリ データ
       href: adding-data-sources/in-memory-data.md
     - name: MS SQL Server
       href: adding-data-sources/ms-sql-server.md
-- name: Replacing Data Sources
+- name: データ ソースの置き換え
   items:
-    - name: Excel File
+    - name: Excel ファイル
       href: replacing-data-sources/excel-file.md
     - name: MS SQL Server
       href: replacing-data-sources/ms-sql-server.md
-- name: Authentication
+- name: 認証
   href: authentication.md
-- name: Working with Visualizations
+- name: 表示形式の使用
   header: true
-- name: Maximizing Visualizations
+- name: 表示形式の最大化
   href: maximizing-visualizations.md
-- name: Responding to Click Events
+- name: クリック イベントへの応答
   href: click-events.md
-- name: Tooltips
+- name: ツールチップ
   href: tooltips.md
-- name: Release Information
+- name: リリース情報
   header: true
-- name: API Reference
+- name: API リファレンス
   href: api-reference.md
-- name: Known Issues
+- name: 既知の問題
   href: known-issues.md
-- name: Release notes
+- name: リリース ノート
   href: release-notes.md
-- name: Third-Party Software
+- name: サードパーティ ソフトウェア
   href: third-party-software.md
