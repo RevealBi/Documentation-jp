@@ -17,6 +17,12 @@
     </thead>
     <tbody>
     <tr>
+        <td rowspan="1">3 月 2022 年</td>
+        <td rowspan="1">1.1.4</td>
+        <td><i>Internal bug fixes.</i>
+        </td>
+    </tr>
+    <tr>
         <td rowspan="3">3 月 2022 年</td>
         <td rowspan="3">1.1.3</td>
         <td>新しいデータ ソース: Google Search Console!
@@ -28,28 +34,28 @@
     </tr>
     <tr>
         <td>[公開バグ修正] 重大度の高い脆弱性の影響を受ける Reveal SDK の依存関係の問題<br>
-        Reveal SDK の CefSharp.Wpf 依存関係は、<a hre="https://github.com/advisories/GHSA-vv6j-ww6x-54gx">潜在的な悪用</a>を回避するためにバージョン 94.4.50 から 98.1.210 に更新されました。
+        Reveal SDK の CefSharp.Wpf 依存関係は、<a href="https://github.com/advisories/GHSA-vv6j-ww6x-54gx">潜在的な悪用</a>を回避するためにバージョン 94.4.50 から 98.1.210 に更新されました。
         </td>
     </tr>
     <tr>
         <td rowspan="5">12 月 2021 年</td>
-        <td rowspan="5">1.1.1 .NET</td>
+        <td rowspan="5">1.1.1</td>
         <td>タイトルやケバブ メニューなど、ダッシュボード ヘッダーを非表示にするオプションが追加されました。<br>
-            <a hre="/api/wpf/latest/Reveal.Sdk.RevealView.html#Reveal_Sdk_RevealView_ShowHeader">ShowHeader</a> (WPF) & <a href="/api/javascript/latest/classes/revealview.html#showheader">showHeader</a> (JS)。
+            <a href="/api/wpf/latest/Reveal.Sdk.RevealView.html#Reveal_Sdk_RevealView_ShowHeader">ShowHeader</a>。
         </td>
     </tr>
     <tr>
         <td>エンド ユーザーが可視化を最大化する機能を有効/無効にするオプションを追加しました。<br>
-            <a hre="/api/wpf/latest/Reveal.Sdk.RevealView.html#Reveal_Sdk_RevealView_CanMaximizeVisualizationProperty">CanMaximizeVisualizationProperty</a> (WPF) & <a href="/api/javascript/latest/classes/revealview.html#canmaximizevisualization">canMaximizeVisualizationProperty</a> (JS)。 
+            <a href="/api/wpf/latest/Reveal.Sdk.RevealView.html#Reveal_Sdk_RevealView_CanMaximizeVisualizationProperty">CanMaximizeVisualizationProperty</a>。
         </td>
     </tr>
     <tr>
         <td>視覚化エディターで特定の視覚化の背景色を変更するエンド ユーザー機能を有効/無効にするための新しいオプションがエディターに追加されました。</br>
-           <a href="/api/wpf/latest/Reveal.Sdk.RevealView.html#Reveal_Sdk_RevealView_CanChangeVisualizationBackgroundColorProperty">CanChangeVisualizationBackgroundColorProperty</a> (WPF) & <a href="/api/javascript/latest/classes/revealview.html#canchangevisualizationbackgroundcolor">canChangeVisualizationBackgroundColor</a> (JS)。
+           <a href="/api/wpf/latest/Reveal.Sdk.RevealView.html#Reveal_Sdk_RevealView_CanChangeVisualizationBackgroundColorProperty">CanChangeVisualizationBackgroundColorProperty</a>。
     </tr>
     <tr>
         <td>プログラムで視覚化の背景色を変更する新しい方法。</br>
-            <a href="/api/wpf/latest/Reveal.Sdk.RevealView.html#Reveal_Sdk_RevealView_SetVisualizationBackgroundColor_Reveal_Sdk_RVVisualization_System_Windows_Media_Color_">SetVisualizationBackgroundColor</a> (WPF) & <a href="/api/javascript/latest/classes/revealview.html#setvisualizationbackgroundcolor">setVisualizationBackgroundColor</a> (JS)。
+            <a href="/api/wpf/latest/Reveal.Sdk.RevealView.html#Reveal_Sdk_RevealView_SetVisualizationBackgroundColor_Reveal_Sdk_RVVisualization_System_Windows_Media_Color_">SetVisualizationBackgroundColor</a>。
         </td>
     </tr>
         <tr>
@@ -58,9 +64,9 @@
         - カスタム ブランド ロゴを使用して PDF または PPT にエクスポートする際の問題を修正しました。
         </td>
     </tr>
-    <tr>
+    <!-- <tr>
         <td rowspan="3">10 月 2021 年</td>
-        <td rowspan="3">1.1.0 .NET</td>
+        <td rowspan="3">1.1.0</td>
         <td>.NET Server SDK は、いくつかの変更を加えて拡張されました:<br>
         - Reveal サービスの登録はより柔軟になりました。これで、Reveal インターフェースの実装に他のサービスを注入できます。Reveal プロバイダー インターフェイスの実装のタイプのみを登録します。<br>
         - RevealSDKContext が削除されました。RVUserContext は、Reveal プロバイダー全体で第一級市民になりました。UserContextProvider を登録する必要があります。これにより、そのクラスがインスタンス化され、IRVDashboardProvider などの他の Reveal サービスのメソッドに渡されます。<br>
@@ -73,8 +79,10 @@
                 href="../release-information/upgrade-to-net-1.1.html">Reveal .NET SDK の v1.1 へのアップグレード</a>を参照してください。
         </td>
     </tr>
-    <tr>
-        <td>IRVDataSourceProvider インターフェイスが変更されました (デスクトップ および .NET サーバー SDK)<br>
+    </tr> -->
+        <td rowspan="2">10 月 2021 年</td>
+        <td rowspan="2">1.1.0</td>
+        <td>IRVDataSourceProvider インターフェイスが変更されました。<br>
         IRVDataSourceProvider インターフェイスには単一の ChangeDataSourceItem があり、ダッシュボードがデータ ソース アイテムを使用する必要があるときはいつでも呼び出されます。
         </td>
     </tr>
@@ -237,7 +245,11 @@
                 Amazon のサーバーレス インタラクティブな Athena クエリ サービスに接続できるようになりました。</td>
         </tr>
         <tr>
-            <td>新しいビルド済みテーマ<br>4 つのビルド済みアプリ テーマを追加しました。 いずれかを選択し、カスタマイズ可能な設定を使用して、表示形式およびダッシュボード エディターのルックアンドフィールをカスタマイズします。次のテーマから選択できます: MountainLightTheme (デスクトップ) / $.ig.MountainLightTheme (Web); MountainDarkTheme (デスクトップ) / $.ig.MountainDarkTheme (Web); OceanLightTheme (デスクトップ) / $.ig.OceanLightTheme (Web); OceanDarkTheme (デスクトップ) / $.ig.OceanDarkTheme (Web)。
+            <td>新しいビルド済みテーマ<br>4 つのビルド済みアプリ テーマを追加しました。 いずれかを選択し、カスタマイズ可能な設定を使用して、表示形式およびダッシュボード エディターのルックアンドフィールをカスタマイズします。次のテーマから選択できます: 
+                MountainLightTheme
+                MountainDarkTheme
+                OceanLightTheme
+                OceanDarkTheme
             </td>
         </tr>
         <tr>
@@ -281,7 +293,7 @@
             <td rowspan="5">5 月 2020 年</td>
             <td rowspan="5">1.0.1222</td>
             <td>新しいホバー イベント API<br>
-                この新しいイベントは、WPF では *revealView.TooltipShowing*、Web では .onTooltipShowing と呼ばれ、エンドユーザーが表示形式でシリーズをホバーするか、シリーズをクリックするたびに発生されます。</td>
+                この新しいイベントは、*revealView.TooltipShowing* と呼ばれ、エンドユーザーが表示形式でシリーズをホバーするか、シリーズをクリックするたびに発生されます。</td>
         </tr>
         <tr>
             <td>新しい TreeMap の表示形式<br>この新しい表示形式タイプを使用して、大きな階層をネストされた四角形の集合で表示できます。四角形のサイズは、さまざまなメトリック間の部分と全体の関係を示し、同様のデータ間のパターンと関係を識別します。
@@ -300,15 +312,15 @@
             <td>4 月 2020 年</td>
             <td>1.0.1136</td>
             <td>新しいカスタム テーマ<br>
-                新しい RevealTheme（デスクトップ） / $.ig.RevealTheme (Web) クラスでカスタマイズ可能な設定の一部またはすべてを構成することにより、Reveal で独自のテーマを作成できるようになりました。</td>
+                新しい RevealTheme クラスでカスタマイズ可能な設定の一部またはすべてを構成することにより、Reveal で独自のテーマを作成できるようになりました。</td>
         </tr>
         <tr>
             <td rowspan="3">2 月 2020 年</td>
             <td rowspan="3">1.0.981</td>
-            <td>RevealSettings の新しいプロパティ<br>$.ig.RevealSettings に複数の新しいプロパティを追加して、ShowExportToPDF、ShowExportToPowerpoint、ShowExportToExcel、ShowStatisticalFunctions、ShowDataBlending、ShowMachineLearningModelsIntegration、StartWithNewVisualization、InitialThemeName などのさまざまな機能を制御しました。</td>
+            <td>RevealSettings の新しいプロパティ<br>RevealSettings に複数の新しいプロパティを追加して、ShowExportToPDF、ShowExportToPowerpoint、ShowExportToExcel、ShowStatisticalFunctions、ShowDataBlending、ShowMachineLearningModelsIntegration、StartWithNewVisualization、InitialThemeName などのさまざまな機能を制御しました。</td>
         </tr>
         <tr>
-            <td>アクセント色のサポート<br>SetAccentColor メソッドが $.ig.RevealView に追加されました。</td>
+            <td>アクセント色のサポート<br>SetAccentColor メソッドが RevealView に追加されました。</td>
         </tr>
         <tr>
             <td>Trigger プロパティが DataSourceRequested イベントに追加されました。<br>_DataSourcesRequestedTriggerType_ 型の Trigger プロパティを DataSourcesRequested イベント引数に追加しました。このイベントのユーザーは、DataSourcesRequested の目的について詳細なコンテキストを取得できます。</td>

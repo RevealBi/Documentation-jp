@@ -16,7 +16,24 @@
         </tr>
     </thead>
     <tbody>
-        <tr>
+    <tr>
+        <td rowspan="3">3 月 2022 年</td>
+        <td rowspan="3">1.1.4</td>
+        <td>Added an option to override, the browser locale when localizing strings in Reveal UI <br>
+        <code>await RevealApi.RevealSdkSettings.overrideLocale(RevealApi.SupportedLocales.En);</code>
+        </td>
+    </tr>
+    <tr>
+        <td>[公開バグ修正] Dashboard linking with filter parameters<br>
+        In some cases the filter value from the source dashboard wasn't compared properly against the values in the target dashboard.
+        </td>
+    </tr>
+    <tr>
+        <td>[公開バグ修正] Date filter range selection<br>
+        In some cases, date filter's predefined ranges (e.g., "this month") were not properly working with the expected values (e.g., start and end of the target month).
+        </td>
+    </tr>
+    <tr>
         <td rowspan="4">3 月 2022 年</td>
         <td rowspan="4">1.1.3</td>
         <td>新しいデータ ソース: Google Search Console!
@@ -37,7 +54,7 @@
     </tr>
     <tr>
         <td rowspan="6">1 月 2022 年</td>
-        <td rowspan="6">1.1.2 .NET</td>
+        <td rowspan="6">1.1.2</td>
         <td>[公開バグ修正] [SDK] LocalizationProvider と DataSourceProvider の問題<br>
         DataSourceProvider も設定されているいくつかのケースでは、LocalizationProvider の設定が機能していませんでした。
         </td>
@@ -72,7 +89,7 @@
     </tr>
     <tr>
         <td rowspan="8">12 月 2021 年</td>
-        <td rowspan="8">1.1.1 .NET</td>
+        <td rowspan="8">1.1.1</td>
         <td>Web のローカリゼーション サポート</br>
         <a href="/api/javascript/latest/classes/revealsdksettings.html#localizedstringsprovider">
             $.ig.RevealSdkSettings.localizedStringsProviderextension</a> ポイントを使用すると、ダッシュボード タイトル、ウィジェット タイトル、フィールド ラベル、ダッシュボード フィルター タイトルなどのいくつかのダッシュボード要素をローカライズできます。
@@ -115,38 +132,9 @@
         </td>
     </tr>
     <tr>
-        <td rowspan="2">12 月 2021 年</td>
-        <td rowspan="2">1.1.0 JAVA</td>
-        <td>Java Server SDK が大幅に改善されました。詳細については、<a href="../release-information/upgrade-to-java-1.1.html">Reveal Java SDK v1.1</a> へのアップグレードを参照してください。
-        </td>
-    </tr>
-    <tr>
-        <td>[公開バグ修正] [SDK] <br>
-        - データセットに null の日付値がある場合の Excel へのエクスポートを修正しました。<br>
-        - カスタム ブランド ロゴを使用して PDF または PPT にエクスポートする際の問題を修正しました。
-        </td>
-    </tr>
-    <tr>
-            <td rowspan="3">11 月 2021 年</td>
-            <td rowspan="3">1.0.9 JAVA</td>
-            <td>[公開バグ修正] [SDK] RevealView の availableChartTypes のタイミングの問題<br>
-            RevealView オブジェクトを初期化した直後に availableChartTypes プロパティを設定すると、問題が発生していました。
-            </td>
-        </tr>
-        <tr>
-            <td>[公開バグ修正] [SDK] RVDateRange プロパティが予期されたタイプを返さない問題<br>
-            RVDateRange クラスの <i>from</i> プロパティが JavaScript の日付を返していませんでした。
-            </td>
-        </tr>
-        <tr>
-            <td>データ ブレンディング画面の検索フィールド<br>
-            結果に結合/追加するフィールドを検索する機能を追加することにより、データ ブレンディング UI が改善されました。
-        </td>
-        </tr>
-        <tr>
     <tr>
         <td rowspan="6">10 月 2021 年</td>
-        <td rowspan="6">1.1.0 .NET</td>
+        <td rowspan="6">1.1.0</td>
         <td><i>.NET Server SDK は、いくつかの変更を加えて拡張されました:</i><br>
         <i>- Reveal サービスの登録はより柔軟になりました</i> - これで、Reveal インターフェースの実装に他のサービスを注入できます。Reveal プロバイダー インターフェイスの実装のタイプのみを登録します。<br>
         <i>- RevealSDKContext が削除されました</i> - RVUserContext は、Reveal プロバイダー全体で第一級市民になりました。UserContextProvider を登録する必要があります。これにより、そのクラスがインスタンス化され、IRVDashboardProvider などの他の Reveal サービスのメソッドに渡されます。<br>
@@ -249,79 +237,6 @@
             </td>
         </tr>
         <tr>
-            <td rowspan="4">6 月 2021 年</td>
-            <td rowspan="4">1.0.7 JAVA</td>
-            <td>散布図が OpenStreetMap をサポートするようになりました!<br>
-            SDK Web クライアント (JS) で OpenStreetMap 画像タイルを構成して使用できるようになりました。
-            </td>
-        </tr>    
-        <tr>
-            <td>[公開 SDK バグ修正] [SDK] コンポーネントを再マウントした後、テキスト ボックスのコンテンツが表示されない問題<br>
-            ダッシュボードとテキスト ボックスの視覚化で React を使用すると、コンポーネントの再マウント後にコンテンツが表示されませんでした。ページの再読み込みが必要でした。
-            </td>
-        </tr>
-        <tr>
-            <td><a name="java-sdk-1.0.6"></a>[公開バグ修正] 計算フィールド フィルターがサーバー上のデータ プロセスで機能しない問題<br>
-            データのサーバー側集計を有効にすると、フィルターとして使用される計算フィールドが期待どおりにデータをフィルタリングしていなかった問題。
-            </td>
-        </tr>
-        <tr>
-            <td>[公開バグ修正] ダッシュボード フィルターに関する Google アナリティクスの問題<br>
-            Google アナリティクス データ ソースからデータを取得するときに、ダッシュボード フィルターを作成できなかった問題。
-            </td>
-        </tr>
-        <tr>
-            <td rowspan="2"><a name="java-sdk-1.0.5"></a>6 月 2021 年</td>
-            <td rowspan="2">1.0.6 JAVA</td>
-            <td>[バグ修正] [SDK] Grizzly サーバーが例外をスローする問題<br>
-            Grizzly で Reveal を実行すると、<i>javax.servlet.ServletContext</i> クラス (javax.servlet:javaz.servlet-api アセンブリ) の依存関係が間違っているため、<i>NoClassDefFoundError</i> 例外がスローされていました。
-            </td>
-        </tr>
-        <tr>
-            <td><a name="java-sdk-1.0.4"></a>JAVA SDK の新しいサンプルがリリースされました!<br>
-            <a href="https://javaee.github.io/grizzly/">Grizzly</a> サーバーで Reveal を使用する方法を示す新しい <a href="https://github.com/RevealBi/sdk-samples-java/blob/main/upmedia-backend-grizzly">GitHub サンプル</a>があります。
-            </td>
-        </tr>
-        <tr>
-            <td rowspan="1">6 月 2021 年</td>
-            <td rowspan="1">1.0.5 JAVA</td>
-            <td>Web クライアントからサーバー側のデータ ソースへの資格情報<br>
-            新しいタイプの資格情報 <i>RVHeadersDataSourceCredentials</i> を使用すると、認証ヘッダーとクッキーを REST および Web リソースのデータ ソースに送信できます。詳細については、GitHub で次の<a href="https://github.com/RevealBi/sdk-samples-java/blob/main/cookies-auth">サンプル</a>をご覧ください。
-            </td>
-        </tr>
-        <tr>
-            <td rowspan="6">5 月 2021 年</td>
-            <td rowspan="6">1.0.1956 (1.0.4 JAVA)</td>
-            <td>[公開バグ修正] [SDK] 誤って表示されたデータ ソースの完全なリストの問題<br>
-            Desktop SDK で DataSourcesRequested コールバックを使用すると、明示的に追加されたデータ ソースの代わりに、データ ソースのリスト全体が表示されていました。
-            </td>
-        </tr>
-        <tr>
-            <td>[公開バグ修正] [SDK] Desktop SDK の Excel へのエクスポートが期待どおりに機能しない問題<br>
-            ダッシュボードを歳読み込んでから単一の視覚化を Excel にエクスポートすると、ダッシュボードの最初の視覚化は常にエクスポートされたものでした。
-            </td>
-        </tr>
-        <tr>
-            <td>[公開バグ修正] [SDK] 動的ポートを使用する SQL データ ソースを含むダッシュボードが読み込まれていない問題<br>
-            動的ポート (ホスト フィールドにインスタンスを提供) を使用して定義された SQL データ ソースを使用してダッシュボードを読み込むと、動的ポート構成の問題が原因でデータ ソース接続が機能しませんでした。
-            </td>
-        </tr>
-        <tr>
-            <td>[公開バグ修正] 視覚化フィルターとして設定された計算フィールドがエラーをスローしていた問題<br>
-            別の計算フィールドに依存する計算フィールドに基づいて視覚化フィルターを構成すると、「無効な列名」というエラーが表示されていました。
-            </td>
-        </tr>
-        <tr>
-            <td><a name="java-sdk-1.0.3"></a>[公開バグ修正] "sort by:" 構成が異なるドリルダウン シナリオが期待どおりに機能しない問題<br>
-            階層内のフィールドが "sort by: <any field>" と降順の並べ替えの組み合わせで構成されている場合、結果としてダッシュボードが読み込まれませんでした。
-            </td>
-        </tr>
-        <tr>
-            <td>クロスドメイン アプリケーションでの Web クライアントからサーバー側への資格情報<br>
-            バックエンドがフロントエンドと同じドメインになく、認証クッキーが必要な場合は、次の Web SDK 設定を使用して資格情報を要求できます: <b>$.ig.RevealSdkSettings.requestWithCredentialsFlag = true;<b>
-            </td>
-        </tr>
-        <tr>
             <td rowspan="2">5 月 2021 年</td>
             <td rowspan="2">1.0.3 JAVA</td>
             <td><a name="java-sdk-1.0.0"></a>新しい Snowflake コネクタ!<br>
@@ -331,20 +246,6 @@
         <tr>
             <td>Java 用の Reveal BI エンジンが強化されました。<br>
             Java プラットフォームは他のプラットフォームと同じくらい堅固になり、可視化が大量のデータをクライアントに送り返すときにサーバーがクラッシュするのを防ぐのに役立ちます。 <b>InitializeParameterBuilder</b> のいくつかの新しいプロパティがこれを制御します: <i>maxInMemoryCells</i>、<i>maxStorageCells</i>、<i>maxStringCellSize</i>、および <i>maxTotalStringSize</i>。
-            </td>
-        </tr>
-        <tr>
-            <td rowspan="2">4 月 2021 年</td>
-            <td rowspan="2">1.0.0 JAVA</td>
-            <td>新しい JAVA SDK のリリース<br>
-            Reveal は、.NET 以外の別の Web サーバー オプションとして JAVA をサポートするようになりました。JAVA SDK には JAVA 11+ が必要であり、Maven モジュールのセットとして配布されます。詳細については、<a
-                href="../java-sdk/setup-configuration.html">セットアップと構成</a>を参照してください。
-            </td>
-        </tr>
-        <tr>
-            <td>JAVA SDK サンプルのリリース<br>
-            使用可能な JAVA SDK UpMedia サンプルは <a
-                href="https://github.com/RevealBi/sdk-samples-java">Github</a> に掲載されています。
             </td>
         </tr>
         <tr>
