@@ -19,18 +19,18 @@
     <tr>
         <td rowspan="3">3 月 2022 年</td>
         <td rowspan="3">1.1.4</td>
-        <td>Added an option to override, the browser locale when localizing strings in Reveal UI <br>
+        <td>Reveal UI で文字列をローカライズするときにブラウザーのロケールを上書きするオプションを追加しました。<br>
         <code>await RevealApi.RevealSdkSettings.overrideLocale(RevealApi.SupportedLocales.En);</code>
         </td>
     </tr>
     <tr>
-        <td>[公開バグ修正] Dashboard linking with filter parameters<br>
-        In some cases the filter value from the source dashboard wasn't compared properly against the values in the target dashboard.
+        <td>[公開バグ修正] フィルター パラメーターとのダッシュボードのリンク<br>
+        場合によっては、ソース ダッシュボードのフィルター値がターゲット ダッシュボードの値と適切に比較されませんでした。
         </td>
     </tr>
     <tr>
-        <td>[公開バグ修正] Date filter range selection<br>
-        In some cases, date filter's predefined ranges (e.g., "this month") were not properly working with the expected values (e.g., start and end of the target month).
+        <td>[公開バグ修正] 日付フィルター範囲の選択<br>
+        場合によっては、「今月」などの日付フィルターの事前定義された範囲が期待値 (ターゲット月の開始と終了など) で適切に機能していませんでした。
         </td>
     </tr>
     <tr>

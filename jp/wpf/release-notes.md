@@ -19,7 +19,7 @@
     <tr>
         <td rowspan="1">3 月 2022 年</td>
         <td rowspan="1">1.1.4</td>
-        <td><i>Internal bug fixes.</i>
+        <td>内部バグ修正。
         </td>
     </tr>
     <tr>
