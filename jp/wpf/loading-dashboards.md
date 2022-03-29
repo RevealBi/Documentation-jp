@@ -21,7 +21,7 @@
 
 ![](images/load-dashboards-dashboard-directory.jpg)
 
-各 .rdash ファイルのプロパティで、**Copy to Output Directory** の値を **Copy if Newer** に設定していることを確認することが重要です。これにより、プロジェクトのビルド時にダッシュボード ファイルがディスクにコピーされます。
+各 .rdash ファイルのプロパティで、**[出力ディレクトリにコピー]** の値を **[新しい場合はコピーする]** に設定していることを確認することが重要です。これにより、プロジェクトのビルド時にダッシュボード ファイルがディスクにコピーされます。
 
 ![](images/load-dashboard-as-file.jpg)
 
@@ -70,11 +70,11 @@ using (var stream = File.OpenRead(filePath))
 ## リソースから読み込み
 アプリケーションでファイルを配布するためのもう 1 つのオプションは、ファイルをリソースとしてアプリケーションに埋め込むことです。これにより、クライアントのディスク ドライブにファイルが配置されるのではなく、ファイルがアプリケーションのアセンブリに直接埋め込まれます。
 
-Reveal ダッシュボード **.rdash** ファイルをリソースとしてアプリケーションに埋め込むには、Visual Studio でダッシュボード ファイルのプロパティを開き、.rdash ファイルの **Build Action** を **EmbeddedResource** に設定します。
+Reveal ダッシュボード **.rdash** ファイルをリソースとしてアプリケーションに埋め込むには、Visual Studio でダッシュボード ファイルのプロパティを開き、.rdash ファイルの **[ビルド アクション]** を **[理め込みリソース]** に設定します。
 
 ![](images/load-dashboard-as-resource.jpg)
 
-ダッシュボードが **EmbeddedResource** として定義されたら、`Assembly.GetManifestResourceStream` メソッドを使用してダッシュボードを読み込むことができます。このメソッドは、`RevealView` に読み込むために使用できる `Stream` オブジェクトを返します。
+ダッシュボードが**理め込みリソース**として定義されたら、`Assembly.GetManifestResourceStream` メソッドを使用してダッシュボードを読み込むことができます。このメソッドは、`RevealView` に読み込むために使用できる `Stream` オブジェクトを返します。
 
 `Assembly.GetManifestResourceStream` メソッドで指定するリソースの`名前`には、.rdash ファイルの`名前空間`とファイル名が含まれている必要があることに注意してください。
 
