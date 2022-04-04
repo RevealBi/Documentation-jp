@@ -43,7 +43,7 @@ Reveal SDK では、ダッシュボードまたは表示形式を画像にエク
 ### エンドユーザーによる画像エクスポート
 エンドユーザーの画像のエクスポートは、エンドユーザーが **[エクスポート]** オーバーフロー メニューから **[画像]** メニュー項目をクリックすると実行されます。
 
-<img src="images/export-image.jpg" alt="" width="100%"/>
+<img src="images/export-image.jpg" alt="" width="40%"/>
 
 **[画像]** メニュー項目は、`RevealView.showExportImage` プロパティを設定することで表示/非表示にできます。
 

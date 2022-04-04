@@ -2,7 +2,7 @@
 
 ツールチップは、ダッシュボード表示形式でエンドユーザーがシリーズをホバーまたはクリックしたときに表示されるメッセージです。
 
-<img src="images/tooltips.jpg" alt="" width="50%"/>
+<img src="images/tooltips.jpg" alt="" width="30%"/>
 
 ダッシュボード表示形式にツールチップが表示されている場合、`RevealView.onTooltipShowing` イベントが呼び出されます。このイベントを処理すると、ツールチップ データの読み取りやツールチップの表示防止が可能になります。
 

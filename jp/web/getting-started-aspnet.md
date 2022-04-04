@@ -20,7 +20,7 @@
 
 1 - ソリューションまたはプロジェクトを右クリックし、**[ソリューションの NuGet パッケージの管理]** を選択します。
 
-<img src="images/getting-started-nuget-packages-manage.jpg" alt="" width="80%"/>
+<img src="images/getting-started-nuget-packages-manage.jpg" alt="" width="40%"/>
 
 2 - パッケージ マネージャー ダイアログで **[参照]** タブを開き、**Infragistics (Local)** パッケージ ソースを選択して **Reveal.Sdk.Web.AspNetCore** NuGet パッケージをプロジェクトにインストールします。
 

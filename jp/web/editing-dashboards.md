@@ -105,7 +105,7 @@ revealView.canAddDateFilter = false;
 
 このプロパティは、表示形式視覚化エディターのフィールド セクションの **F(x)** メニュー項目を表示/非表示にします。
 
-<img src="images/editing-canaddpostcalculatedfields.jpg" alt="" width="40%"/>
+<img src="images/editing-canaddpostcalculatedfields.jpg" alt="" width="30%"/>
 
 ```javascript
 revealView.canAddPostCalculatedFields = false;
