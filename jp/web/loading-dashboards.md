@@ -20,7 +20,7 @@
 
 1 - ASP.NET Core Web Api サーバー アプリケーションで、**Dashboards** という名前のフォルダーを作成し、そのフォルダー内にダッシュボード ファイルを配置します。
 
-<img src="images/loading-dashboards-default-directory.jpg" alt="" width="100%"/>
+<img src="images/loading-dashboards-default-directory.jpg" alt="" width="40%"/>
 
 2 - クライアント アプリケーションで、`$.ig.RevealSdkSettings.setBaseUrl` メソッドを呼び出し、サーバーの URL を渡します。デバッグ時には、サーバーの URL は `https://localhost` の後にポート番号が続きます。例:
 
@@ -122,7 +122,7 @@ public class DashboardProvider : IRVDashboardProvider
 }
 ```
 
-2 - `Program.cs` ファイルの `AddReveal` メソッドを更新して、 `RevealSetupBuilder.AddDashboardProvider`メソッドを使用して、作成したばかりの `IRVDashboardProvider` を  `RevealSetupBuilder` に追加します。
+2 - `Program.cs` ファイルの `AddReveal` メソッドを更新して、 `RevealSetupBuilder.AddDashboardProvider` メソッドを使用して、作成したばかりの `IRVDashboardProvider` を  `RevealSetupBuilder` に追加します。
 
 ```cs
 builder.Services.AddControllers().AddReveal( builder =>
@@ -158,7 +158,7 @@ $.ig.RVDashboard.loadDashboard("Sales", (dashboard) => {
 
 1 - サーバー アプリケーションにリソースとして Reveal ダッシュボード **.rdash** ファイルを埋め込むには、Visual Studio でダッシュボードファイルのプロパティを開き、.rdash ファイルの **[ビルド アクション]** を **[理め込みリソース]** に設定します。
 
-<img src="images/loading-dashboard-as-resource.jpg" alt="" width="100%"/>
+<img src="images/loading-dashboard-as-resource.jpg" alt="" width="50%"/>
 
 ダッシュボードが**理め込みリソース**として定義されたら、`Assembly.GetManifestResourceStream` メソッドを使用してダッシュボードを読み込むことができます。このメソッドは、`Dashboard` オブジェクトの作成に使用できる `Stream` オブジェクトを返します。`Assembly.GetManifestResourceStream` メソッドで指定するリソースの`名前`には、.rdash ファイルの`名前空間`とファイル名が含まれている必要があることに注意してください。
 
@@ -184,7 +184,7 @@ public class DashboardProvider : IRVDashboardProvider
 }
 ```
 
-3 - `Program.cs` ファイルの `AddReveal` メソッドを更新して、 `RevealSetupBuilder.AddDashboardProvider`メソッドを使用して、作成したばかりの `IRVDashboardProvider` を  `RevealSetupBuilder` に追加します。
+3 - `Program.cs` ファイルの `AddReveal` メソッドを更新して、 `RevealSetupBuilder.AddDashboardProvider` メソッドを使用して、作成したばかりの `IRVDashboardProvider` を  `RevealSetupBuilder` に追加します。
 
 ```cs
 builder.Services.AddControllers().AddReveal( builder =>
@@ -241,7 +241,7 @@ public class DashboardProvider : IRVDashboardProvider
 > [!WARNING]
 > JSON にシリアル化された後に Reveal ダッシュボードのコンテンツを操作または変更すると、ダッシュボードの完全性が損なわれ、ダッシュボードのコンテンツに取り返しのつかない損傷が生じる可能性があります。これにより、エラーやダッシュボードの読み込みの失敗により、アプリケーションで実行時に例外がスローされる可能性があります。
 
-2 - `Program.cs` ファイルの `AddReveal` メソッドを更新して、 `RevealSetupBuilder.AddDashboardProvider`メソッドを使用して、作成したばかりの `IRVDashboardProvider` を  `RevealSetupBuilder` に追加します。
+2 - `Program.cs` ファイルの `AddReveal` メソッドを更新して、 `RevealSetupBuilder.AddDashboardProvider` メソッドを使用して、作成したばかりの `IRVDashboardProvider` を  `RevealSetupBuilder` に追加します。
 
 ```cs
 builder.Services.AddControllers().AddReveal( builder =>

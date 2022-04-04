@@ -2,7 +2,7 @@
 
 **手順 1** - ASP.NET Web API サーバー アプリケーションで、Excel ファイルを含むフォルダーを作成します。
 
-<img src="images/excel-file-folder.jpg" alt="" width="100%"/>
+<img src="images/excel-file-folder.jpg" alt="" width="40%"/>
 
 **手順 2** - `RevealEmbedSettings.LocalFileStoragePath` プロパティを**手順 1** で作成したフォルダーの場所に設定します。
 
@@ -72,7 +72,7 @@ revealView.onDataSourcesRequested = (callback) => {
 
 アプリケーションが実行されたら、新しい表示形式を作成すると、[データ ソースの選択] ダイアログに新しく作成された Excel ファイル データ ソースが表示されます。
 
-<img src="images/excel-file-data-source.jpg" alt="" width="100%"/>
+<img src="images/excel-file-data-source.jpg" alt="" width="40%"/>
 
 > [!NOTE]
 > このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/main/AddingDataSources/ExcelFile) にあります。

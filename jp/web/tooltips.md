@@ -2,7 +2,7 @@
 
 ツールチップは、ダッシュボード表示形式でエンドユーザーがシリーズをホバーまたはクリックしたときに表示されるメッセージです。
 
-<img src="images/tooltips.jpg" alt="" width="100%"/>
+<img src="images/tooltips.jpg" alt="" width="50%"/>
 
 ダッシュボード表示形式にツールチップが表示されている場合、`RevealView.onTooltipShowing` イベントが呼び出されます。このイベントを処理すると、ツールチップ データの読み取りやツールチップの表示防止が可能になります。
 
@@ -34,7 +34,7 @@ revealView.onTooltipShowing = (args) => {
 
 以下の画像は、`RVCell` のプロパティがツールチップに表示されるデータにマップする方法を示しています。
 
-<img src="images/tooltips-row-property.jpg" alt="" width="100%"/>
+<img src="images/tooltips-row-property.jpg" alt="" width="80%"/>
 
 ## ツールチップを表示しないようにする
 すべての表示形式または特定の表示形式でツールチップが表示されないようにするには、`TooltipShowingEventArgs.cancel` プロパティを `true` に設定します。

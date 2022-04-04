@@ -6,25 +6,25 @@
 
 1 - Visual Studio 2019 を起動し、スタート ページで **[新しいプロジェクトの作成]** をクリックします。**ASP.NET Core Web App** テンプレートを選択し、**[次へ]** をクリックします。
 
-<img src="images/getting-started-new-asp-net-core-web-app-project.jpg" alt="" width="100%"/>
+<img src="images/getting-started-new-asp-net-core-web-app-project.jpg" alt="" width="80%"/>
 
 2 - プロジェクト名と説明と場所を入力し、**[次へ]** をクリックします。
 
-<img src="images/getting-started-new-asp-net-core-web-app-name.jpg" alt="" width="100%"/>
+<img src="images/getting-started-new-asp-net-core-web-app-name.jpg" alt="" width="80%"/>
 
 3 - フレームワーク、認証タイプ、Docker オプションを選択し、**[作成]** をクリックします。
 
-<img src="images/getting-started-new-asp-net-core-web-app-info.jpg" alt="" width="100%"/>
+<img src="images/getting-started-new-asp-net-core-web-app-info.jpg" alt="" width="40%"/>
 
 ## 手順 2 - Reveal SDK の追加
 
 1 - ソリューションまたはプロジェクトを右クリックし、**[ソリューションの NuGet パッケージの管理]** を選択します。
 
-<img src="images/getting-started-nuget-packages-manage.jpg" alt="" width="100%"/>
+<img src="images/getting-started-nuget-packages-manage.jpg" alt="" width="80%"/>
 
 2 - パッケージ マネージャー ダイアログで **[参照]** タブを開き、**Infragistics (Local)** パッケージ ソースを選択して **Reveal.Sdk.Web.AspNetCore** NuGet パッケージをプロジェクトにインストールします。
 
-<img src="images/getting-started-nuget-packages-install.jpg" alt="" width="100%"/>
+<img src="images/getting-started-nuget-packages-install.jpg" alt="" width="80%"/>
 
 > [!NOTE]
 > トライアル版をお使いの場合、[NuGet.org](https://www.nuget.org/packages/Reveal.Sdk.Web.AspNetCore.Trial/) にある **Reveal.Sdk.Web.AspNetCore.Trial** NuGet パッケージをインストールできます。
@@ -41,11 +41,11 @@ builder.Services.AddRazorPages().AddReveal();
 
 1 - `wwwroot/lib` フォルダーの下に `reveal` と呼ばれる新しいフォルダーを作成します。
 
-<img src="images/asp-net-core-web-app-create-reveal-folder.jpg" alt="" width="100%"/>
+<img src="images/asp-net-core-web-app-create-reveal-folder.jpg" alt="" width="40%"/>
 
 2 - `%public%/Documents/Infragistics/Reveal/SDK/Web/JS/Client` にあるすべての JavaScript ファイルを以前作成した `wwwroot/lib/reveal` フォルダーにコピーします。
 
-<img src="images/asp-net-core-web-app-copy-reveal-files.jpg" alt="" width="100%"/>
+<img src="images/asp-net-core-web-app-copy-reveal-files.jpg" alt="" width="40%"/>
 
 3 - `Pages/Shared/_Layout.cshtml` ファイルを開いて変更し、ページの下部に (`</body>` 終了タグの直前、`jquery.min.js` スクリプトの後) `infragistics.reveal.js` スクリプトを含めます。
 
@@ -186,7 +186,7 @@ builder.Services.AddRazorPages().AddReveal();
 
 **[F5]** を押してアプリケーションを実行します。
 
-<img src="images/asp-net-core-web-app-running.jpg" alt="" width="100%"/>
+<img src="images/asp-net-core-web-app-running.jpg" alt="" width="80%"/>
 
 完了しました! 最初の Reveal SDK アプリケーションを作成しました。
 

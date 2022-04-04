@@ -2,29 +2,29 @@
 
 フィルターはダッシュボードの上部にあり、Reveal SDK を使用して変更できます。
 
-<img src="images/filtering-filter-location.jpg" alt="" width="100%"/>
+<img src="images/filtering-filter-location.jpg" alt="" width="60%"/>
 
 フィルターには次の 2 種類があります:
 - Date Filter (日付フィルター)
 - ダッシュボード フィルター
 
 ## 日付フィルター
-**日付フィルター**は、データが関連付けられていないため、特別な種類のフィルターです。選択できる値のリストはありません。代わりに、日付間隔または範囲を選択します。「今日」、「すべての期間」、「前月」 などの事前定義された日付間隔のリストから選択するか、独自のカスタム範囲 （2019 年 1 月 12 日から 2021 年 1 月 12 日まで) を指定できます。
+**日付フィルター**は、データが関連付けられていないため、特別な種類のフィルターです。選択できる値のリストはありません。代わりに、日付間隔または範囲を選択します。[今日]、[すべての期間]、[前月] などの事前定義された日付間隔のリストから選択するか、独自のカスタム範囲（2019 年 1 月 12 日から 2021 年 1 月 12 日まで) を指定できます。
 
 **日付フィルター**は常に最初のフィルターであり、1 つしか存在できません。
 
-<img src="images/filtering-date-filter.jpg" alt="" width="100%"/>
+<img src="images/filtering-date-filter.jpg" alt="" width="60%"/>
 
 ### 日付間隔の使用
 事前定義された日付間隔のセットを使用してダッシュボードの**日付フィルター**を設定するには、`Dashboard.dateFilter` プロパティを `RVDateDashboardFilter` オブジェクトの新しいインスタンスに設定し、適切なRV `DateFilterType` 値をパラメーターとして使用する必要があります。
 
-例えば, このコード スニペットは、ダッシュボードの日付フィルターを**年度累計**に設定します。
+例えば, このコード スニペットは、ダッシュボードの日付フィルターを **[年度累計]** に設定します。
 ```javascript
 revealView.dashboard.dateFilter = new $.ig.RVDateDashboardFilter($.ig.RVDateFilterType.YearToDate);
 ```
 ここでは、ダッシュボード UI が Date Filter を **[年度累計]** に更新したことを確認できます。
 
-<img src="images/filtering-date-filter-yeartodate.jpg" alt="" width="100%"/>
+<img src="images/filtering-date-filter-yeartodate.jpg" alt="" width="30%"/>
 
 `RVDateFilterType` の値は次のとおりです:
 - AllTime
@@ -63,7 +63,7 @@ revealView.dashboard.dateFilter = new $.ig.RVDateDashboardFilter($.ig.RVDateFilt
 
 ここでは、ダッシュボード UI が更新され、日付範囲が表示されるように Date Filter が更新されていることがわかります。
 
-<img src="images/filtering-date-filter-daterange.jpg" alt="" width="100%"/>
+<img src="images/filtering-date-filter-daterange.jpg" alt="" width="30%"/>
 
 > [!NOTE]
 > 日付フィルターを示すサンプルは [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/master/FilteringDashboards-Dates) にあります。
@@ -72,7 +72,7 @@ revealView.dashboard.dateFilter = new $.ig.RVDateDashboardFilter($.ig.RVDateFilt
 
 **ダッシュボード フィルター**は、日付フィルターが定義されている場合、日付フィルターの後に表示され、単一のダッシュボードに複数のダッシュボード フィルターを定義できます。この画像には、3 つのダッシュボード フィルター (Territory、Employee、Product) が定義されています。
 
-<img src="images/filtering-dashboard-filters.jpg" alt="" width="100%"/>
+<img src="images/filtering-dashboard-filters.jpg" alt="" width="60%"/>
 
 ダッシュボード フィルターを使用する場合、注意する必要がある主なオブジェクトは `RVDashboardFilter` オブジェクトです。`RVDashboardFilter` オブジェクトは、ダッシュボード用に定義された個々のフィルターを表します。フィルターのタイトル、選択可能な値、現在選択されている値など、フィルターに関する情報が含まれています。
 
@@ -82,7 +82,7 @@ revealView.dashboard.dateFilter = new $.ig.RVDateDashboardFilter($.ig.RVDateFilt
 - **selectedValues (3)** -フィルター用に選択された値のコレクション。これらは、UI のフィルター ドロップダウン内のチェックボックスで表されます。
 - **getFilterValues() (2)** - フィルターで使用可能なすべてのフィルター値のコレクションを返します。これらはドロップダウン リストのオプションとして機能し、適用/選択するフィルター値を選択します。
 
-<img src="images/filtering-filter-legend.jpg" alt="" width="100%"/>
+<img src="images/filtering-filter-legend.jpg" alt="" width="60%"/>
 
 ### すべてのフィルターの取得
 

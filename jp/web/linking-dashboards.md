@@ -4,9 +4,9 @@ Reveal SDK はダッシュボードのリンクをサポートしているため
 
 Reveal SDK の観点からは、ダッシュボードのリンクは、エンドユーザーがビジュアル化されたリンクをクリックして別のダッシュボードをロードするときに呼び出されます。
 
-<img src="images/linking-open-campaigns.jpg" alt="" width="100%"/>
+<img src="images/linking-open-campaigns.jpg" alt="" width="80%"/>
 
-ダッシュボードリンク機能の詳細については、Reveal のユーザーガイドの [ダッシュボードのリンク](../dashboards/dashboard-linking.md) を参照してください。
+ダッシュボードリンク機能の詳細については、Reveal のユーザーガイドの [ダッシュボードのリンク](../dashboards/dashboard-linking.md)を参照してください。
 
 > [!NOTE]
 > 現在、ダッシュボードのリンクは Reveal SDK で作成できません。[https://app.revealbi.io/](https://app.revealbi.io/) などのネイティブ Reveal アプリケーションを使用する必要があります。

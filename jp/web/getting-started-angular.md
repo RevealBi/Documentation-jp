@@ -4,7 +4,7 @@
 
 1 - お気に入りのターミナルを開きます。
 
-<img src="images/getting-started-angular-terminal.jpg" alt="" width="100%"/>
+<img src="images/getting-started-angular-terminal.jpg" alt="" width="60%"/>
 
 2 - アプリケーションを作成します。
 
@@ -23,11 +23,11 @@
 
 1 - `assets` フォルダーの下に `reveal` と呼ばれる新しいフォルダーを作成します。
 
-<img src="images/angular-create-reveal-folder.jpg" alt="" width="100%"/>
+<img src="images/angular-create-reveal-folder.jpg" alt="" width="40%"/>
 
 2 - `%public%/Documents/Infragistics/Reveal/SDK/Web/JS/Client` にあるすべての JavaScript ファイルを以前作成した `assets/reveal` フォルダーにコピーします。
 
-<img src="images/angular-copy-reveal-files.jpg" alt="" width="100%"/>
+<img src="images/angular-copy-reveal-files.jpg" alt="" width="40%"/>
 
 3 - `index.html` ファイルを開いて変更し、ページの下部に (`</body>` 終了タグの直前) `infragistics.reveal.js` スクリプトを含めます。
 
@@ -100,7 +100,7 @@
 declare let $: any;
 ```
 
-次に、HTML で `ViewChild` として定義した`revalView` にアクセスします。この参照を保持するプロパティを追加します。
+次に、HTML で `ViewChild` として定義した `revalView` にアクセスします。この参照を保持するプロパティを追加します。
 
 ```ts
 export class AppComponent {
@@ -140,7 +140,7 @@ export class AppComponent implements AfterViewInit {
 }
 ```
 
-このコードはまずすべてのフォントが正しく読み込まれるように `$.ig.RevealSdkSettings.ensureFontsLoadedAsync`を呼び出します。次に、新しい `$.ig.RevealView` を作成し、`ViewChild` プロパティに保存されている `revealView` 要素を渡すことで、`RevealView` の新しいインスタンスを作成します。
+このコードはまずすべてのフォントが正しく読み込まれるように `$.ig.RevealSdkSettings.ensureFontsLoadedAsync` を呼び出します。次に、新しい `$.ig.RevealView` を作成し、`ViewChild` プロパティに保存されている `revealView` 要素を渡すことで、`RevealView` の新しいインスタンスを作成します。
 
 最終の `app.component.ts` ファイルは以下のようになります。
 
@@ -178,7 +178,7 @@ Visual Studio Code ターミナルで、`npm start` コマンドを入力しま�
 > npm start
 </pre>
 
-<img src="images/angular-app-running.jpg" alt="" width="100%"/>
+<img src="images/angular-app-running.jpg" alt="" width="80%"/>
 
 完了しました! 最初の Reveal SDK Angular アプリケーションを作成しました。
 

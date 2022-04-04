@@ -6,25 +6,25 @@
 
 1 - Visual Studio 2019 を起動し、スタート ページで **[新しいプロジェクトの作成]** をクリックします。**[ASP.NET Core Web API]** テンプレートを選択し、**[次へ]** をクリックします。
 
-<img src="images/getting-started-angular-project.jpg" alt="" width="100%"/>
+<img src="images/getting-started-angular-project.jpg" alt="" width="80%"/>
 
 2 - プロジェクト名を入力し、場所を先ほど作成した **server** ディレクトリに設定して、**[次へ]** をクリックします。
 
-<img src="images/getting-started-angular-name.jpg" alt="" width="100%"/>
+<img src="images/getting-started-angular-name.jpg" alt="" width="80%"/>
 
 3 - フレームワーク、認証タイプ、Docker オプションを選択し、**[作成]** をクリックします。
 
-<img src="images/getting-started-angular-info.jpg" alt="" width="100%"/>
+<img src="images/getting-started-angular-info.jpg" alt="" width="80%"/>
 
 ## 手順 2 - Reveal SDK の追加
 
 1 - ソリューションまたはプロジェクトを右クリックし、**[ソリューションの NuGet パッケージの管理]** を選択します。
 
-<img src="images/getting-started-nuget-packages-manage.jpg" alt="" width="100%"/>
+<img src="images/getting-started-nuget-packages-manage.jpg" alt="" width="40%"/>
 
 2 - パッケージ マネージャー ダイアログで **[参照]** タブを開き、**Infragistics (Local)** パッケージ ソースを選択して **Reveal.Sdk.Web.AspNetCore** NuGet パッケージをプロジェクトにインストールします。
 
-<img src="images/getting-started-nuget-packages-install.jpg" alt="" width="100%"/>
+<img src="images/getting-started-nuget-packages-install.jpg" alt="" width="80%"/>
 
 > [!NOTE]
 > トライアル版をお使いの場合、[NuGet.org](https://www.nuget.org/packages/Reveal.Sdk.Web.AspNetCore.Trial/) にある **Reveal.Sdk.Web.AspNetCore.Trial** NuGet パッケージをインストールできます。
@@ -41,7 +41,7 @@ builder.Services.AddControllers().AddReveal();
 
 1 - プロジェクトを右クリックし、**[追加] -> [新しいフォルダー]** を選択します。フォルダーの名前は **「Dashboards」** にしてください。
 
-<img src="images/setting-up-server-create-dashboards-folder.jpg" alt="" width="100%"/>
+<img src="images/setting-up-server-create-dashboards-folder.jpg" alt="" width="40%"/>
 
 デフォルトで、Reveal SDK は **Dashboards** フォルダーからすべてのダッシュボードを読み込む規則を使用します。この規則を変更でするにはカスタムの `IRVDashboardProvider` を作成します。詳細については、[ダッシュボードの読み込み](loading-dashboards.md)トピックを参照してください。
 

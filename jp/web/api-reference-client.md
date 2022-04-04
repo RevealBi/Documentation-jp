@@ -1,10 +1,11 @@
 # Reveal SDK クライアント API リファレンス
 ここでは、Reveal SDK、特に Reveal SDK Client JavaScript API に関する詳しい情報を見つけることができます。
-Reveal SDK クライアント JavaScript API の詳細については、<a href="/api/javascript/latest/" target="_blank" rel="noopener\">このリンクを参照してください。</a>.
+Reveal SDK クライアント JavaScript API の詳細については、<a href="/api/javascript/latest/" target="_blank" rel="noopener\">このリンクを参照してください</a>。
 
 ## 最も一般的に使用されるクラスとインターフェース  
 
-**SDK の主な概念と機能**  
+**SDK の主な概念と機能**
+
 <a href="/api/javascript/latest/classes/revealview.html" target="_blank" rel="noopener\">RevealView</a>   
 <a href="/api/javascript/latest/classes/rvdashboard.html" target="_blank" rel="noopener\">RVDashboard</a>  
 <a href="/api/javascript/latest/classes/revealsdksettings.html" target="_blank" rel="noopener\">RevealSdkSettings</a>  
@@ -12,7 +13,8 @@ Reveal SDK クライアント JavaScript API の詳細については、<a href=
 <a href="/api/javascript/latest/classes/revealtheme.html" target="_blank" rel="noopener\">RevealTheme</a>  
 <a href="/api/javascript/latest/classes/revealutility.html" target="_blank" rel="noopener\">RevealUtility</a>  
 
-**データ ソース**  
+**データ ソース**
+
 <a href="/api/javascript/latest/classes/rvsqlserverdatasource.html" target="_blank" rel="noopener\">RVSqlServerDataSource</a>  
 <a href="/api/javascript/latest/classes/rvsqlserverdatasourceitem.html" target="_blank" rel="noopener\">RVSqlServerDataSourceItem</a>
 
@@ -25,7 +27,8 @@ Reveal SDK クライアント JavaScript API の詳細については、<a href=
 <a href="/api/javascript/latest/classes/rvinmemorydatasource.html" target="_blank" rel="noopener\">RVInMemoryDataSource</a>  
 <a href="/api/javascript/latest/classes/rvinmemorydatasourceitem.html" target="_blank" rel="noopener\">RVInMemoryDataSourceItem</a>  
 
-**フィルタリング**  
+**フィルタリング**
+ 
 <a href="/api/javascript/latest/classes/rvdatedashboardfilter.html" target="_blank" rel="noopener\">RVDateDashboardFilter</a>  
 <a href="/api/javascript/latest/classes/rvdashboardfilter.html" target="_blank" rel="noopener\">RVDashboardFilter</a>  
 <a href="/api/javascript/latest/classes/rvfiltervalue.html" target="_blank" rel="noopener\">RVFilterValue</a>  

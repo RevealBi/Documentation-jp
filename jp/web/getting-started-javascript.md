@@ -23,11 +23,11 @@
 
 1 - `assets` と呼ばれる新しいフォルダーを作成し、`assets` フォルダー内に `reveal` と呼ばれる別のフォルダーを作成します。
 
-<img src="images/javascript-create-reveal-folder.jpg" alt="" width="100%"/>
+<img src="images/javascript-create-reveal-folder.jpg" alt="" width="40%"/>
 
 2 - `%public%/Documents/Infragistics/Reveal/SDK/Web/JS/Client` にあるすべての JavaScript ファイルを以前作成した `assets/reveal` フォルダーにコピーします。
 
-<img src="images/javascript-copy-reveal-files.jpg" alt="" width="100%"/>
+<img src="images/javascript-copy-reveal-files.jpg" alt="" width="40%"/>
 
 3 - `index.html` ファイルを変更し、ページの下部に (`</body>` 終了タグの直前) `infragistics.reveal.js` スクリプトを含めます。
 
@@ -139,13 +139,13 @@
 ```
 
 > [!IMPORTANT]
-> Clients apps must set the `$.ig.RevealSdkSettings.setBaseUrl("url-to-server");` to the server address hosting the dashboards if the client is being hosting on a different URL.
+> クライアント アプリは、クライアントが別の URL でホストしている場合、`$.ig.RevealSdkSettings.setBaseUrl("url-to-server");` をダッシュボードをホストしているサーバー アドレスに設定する必要があります。
 
 ## 手順 4 - アプリケーションの実行
 
 `index.html` ファイルをダブルクリックしてデフォルトのブラウザーで Web ページを起動します。
 
-<img src="images/angular-app-running.jpg" alt="" width="100%"/>
+<img src="images/angular-app-running.jpg" alt="" width="80%"/>
 
 完了しました! 最初の Reveal SDK アプリケーションを作成しました。
 
