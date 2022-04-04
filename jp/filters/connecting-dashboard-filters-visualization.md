@@ -1,6 +1,6 @@
 # ダッシュボード フィルターを表示形式に接続
 
-可視化したデータをダッシュボード フィルターにバインドする 2 つの方法があります:
+表示したデータをダッシュボード フィルターにバインドする 2 つの方法があります:
 
 <img src="images/dashboard-filters-menu.png" alt="dashboard filters menu" class="responsive-img"/>
 

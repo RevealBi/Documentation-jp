@@ -6,7 +6,7 @@
 
 ### AvailableChartTypes
 
-このプロパティは、可視化を作成および編集するためにエンドユーザーが使用できるチャート タイプを定義するために使用されます。
+このプロパティは、表示形式を作成および編集するためにエンドユーザーが使用できるチャート タイプを定義するために使用されます。
 
 ![](images/editing-availablecharttypes.jpg)
 
@@ -113,7 +113,7 @@ _revealView.AvailableChartTypes.Add(RVChartType.ColumnChart);
 
 ### CanCopyVisualization
 
-このプロパティは、可視化の **[コピー]** メニュー項目を表示/非表示にします。
+このプロパティは、表示形式の **[コピー]** メニュー項目を表示/非表示にします。
 
 ![](images/editing-cancopyvisualization.jpg)
 
@@ -123,7 +123,7 @@ _revealView.AvailableChartTypes.Add(RVChartType.ColumnChart);
 
 ### CanDuplicateVisualization
 
-このプロパティは、可視化の **[複製]** メニュー項目を表示/非表示にします。
+このプロパティは、表示形式の **[複製]** メニュー項目を表示/非表示にします。
 
 ![](images/editing-canduplicatevisualization.jpg)
 
@@ -145,7 +145,7 @@ _revealView.AvailableChartTypes.Add(RVChartType.ColumnChart);
 
 ### ShowEditDataSource
 
-このプロパティは、可視化エディターでデータ ソースの **[編集]** メニュー項目を表示/非表示にします。
+このプロパティは、表示形式エディターでデータ ソースの **[編集]** メニュー項目を表示/非表示にします。
 
 ![](images/editing-showeditdatasource.jpg)
 
@@ -196,15 +196,15 @@ private void RevealView_VisualizationEditorOpening(object sender, VisualizationE
 
 `VisualizationEditorOpeningEventArgs` には、次のプロパティが含まれています:
 - **Cancel** - イベントをキャンセルするかどうかを示す値を取得または設定します。イベントをキャンセルする必要がある場合は `true`。それ以外の場合は `false`。
-- **IsNewVisualization** - `true` の場合、可視化は新しく追加された可視化です。`false` の場合、それは既存の可視化です。
-- **Visualization** - 編集および/または追加された可視化
+- **IsNewVisualization** - `true` の場合、表示形式は新しく追加された表示形式です。`false` の場合、それは既存の表示形式です。
+- **Visualization** - 編集および/または追加された表示形式
 
 > [!NOTE]
 > `e.Cancel` を `true` に設定すると、表示形式エディターは開きません。
 
 ### VisualizationEditorOpened
 
-表示形式エディターを開いた**後**、既存の可視化を編集するとき、または新しい可視化を作成するときに通知を受け取りたい場合は、`RevealView.VisualizationEditorOpened` イベントにイベント ハンドラーを追加できます。
+表示形式エディターを開いた**後**、既存の表示形式を編集するとき、または新しい表示形式を作成するときに通知を受け取りたい場合は、`RevealView.VisualizationEditorOpened` イベントにイベント ハンドラーを追加できます。
 
 ```cs
 <rv:RevealView x:Name="_revealView"
@@ -219,8 +219,8 @@ private void RevealView_VisualizationEditorOpened(object sender, VisualizationEd
 ```
 
 `VisualizationEditorOpenedEventArgs` には、次のプロパティが含まれています:
-- **IsNewVisualization** - `true` の場合、可視化は新しく追加された可視化です。`false` の場合、それは既存の可視化です。
-- **Visualization** - 編集および / または追加された可視化
+- **IsNewVisualization** - `true` の場合、表示形式は新しく追加された表示形式です。`false` の場合、それは既存の表示形式です。
+- **Visualization** - 編集および / または追加された表示形式
 
 ### VisualizationEditorClosing
 
@@ -240,15 +240,15 @@ private void RevealView_VisualizationEditorClosing(object sender, VisualizationE
 
 `VisualizationEditorClosedEventArgs` には、次のプロパティが含まれています:
 - **Cancel** - イベントをキャンセルするかどうかを示す値を取得または設定します。イベントをキャンセルする必要がある場合は `true`。それ以外の場合は `false`。
-- **IsNewVisualization** - `true` の場合、可視化は新しく追加された可視化です。`false` の場合、それは既存の可視化です。
-- **ResetVisualization** - `true` の場合、可視化を編集前の状態にリセットします。
-- **Visualization** - 編集および/または追加された可視化
+- **IsNewVisualization** - `true` の場合、表示形式は新しく追加された表示形式です。`false` の場合、それは既存の表示形式です。
+- **ResetVisualization** - `true` の場合、表示形式を編集前の状態にリセットします。
+- **Visualization** - 編集および/または追加された表示形式
 
 > [!NOTE]
 > `e.Cancel` を `true` に設定すると、表示形式エディターは閉じません。
 
 ### VisualizationEditorClosed
-エンドユーザーが `RevealView` で単一の可視化を編集するときはいつでも、エディターが閉じられた**後**に `RevealView.VisualizationEditorClosed` イベントが発生します。これは、既存の可視化の編集、または新しい可視化の追加に対応する場合があります。`RevealView.VisualizationEditorClosed` イベントにイベント ハンドラーを追加することで、このイベントに応答できます。
+エンドユーザーが `RevealView` で単一の表示形式を編集するときはいつでも、エディターが閉じられた**後**に `RevealView.VisualizationEditorClosed` イベントが発生します。これは、既存の表示形式の編集、または新しい表示形式の追加に対応する場合があります。`RevealView.VisualizationEditorClosed` イベントにイベント ハンドラーを追加することで、このイベントに応答できます。
 
 ```xml
 <rv:RevealView x:Name="_revealView"
@@ -264,8 +264,8 @@ private void RevealView_VisualizationEditorClosed(object sender, VisualizationEd
 
 `VisualizationEditorClosedEventArgs` には、次のプロパティが含まれています:
 - **IsCancelled** - 表示形式エディターが **X ボタン** (`false`) または **Check ボタン** (`true`) のどちらで閉じられたかを決定します。
-- **IsNewVisualization** - `true` の場合、可視化は新しく追加された可視化です。`false` の場合、それは既存の可視化です。
-- **Visualization** - 編集および/または追加された可視化
+- **IsNewVisualization** - `true` の場合、表示形式は新しく追加された表示形式です。`false` の場合、それは既存の表示形式です。
+- **Visualization** - 編集および/または追加された表示形式
 
 ### Dashboard.PropertyChanged
 

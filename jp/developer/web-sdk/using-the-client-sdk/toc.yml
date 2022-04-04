@@ -1,12 +1,12 @@
-- name: 新しい可視化とダッシュボードの作成
+- name: 新しい表示形式とダッシュボードの作成
   href: creating-visualizations-dashboards.md
 - name: ダッシュボードの編集と保存
   href: editing-saving-dashboards.md
-- name: ダッシュボードまたは画像として可視化データをエクスポート
+- name: ダッシュボードまたは画像として表示形式データをエクスポート
   href: exporting-dashboard-visualization.md
 - name: ダッシュボード リンク
   href: dashboard-linking.md
-- name: 可視化の最大化と単一可視化モード
+- name: 表示形式の最大化と単一表示形式モード
   href: maximizing-visualizations.md
 - name: カスタム テーマの作成
   href: custom-themes-client-web.md

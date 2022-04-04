@@ -19,7 +19,7 @@
 
 ## パーセンテージの配分
 
-積層型シリーズ チャートにもこの機能を構成できます。0-100 のデフォルト スケールを上書きして、チャートで値のパーセンテージ配分を可視化できます。
+積層型シリーズ チャートにもこの機能を構成できます。0-100 のデフォルト スケールを上書きして、チャートで値のパーセンテージ配分を表示形式できます。
 
 <img src="images/pivot-editor-view-stacked-percentage-distribution.png" alt="Pivot editor view stacked percentage distribution setting" class="responsive-img"/>
 

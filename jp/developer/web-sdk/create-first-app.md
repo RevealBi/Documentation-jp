@@ -130,7 +130,7 @@ Marketing ダッシュボードを選択し、**編集モード**に入ります
 
 <img src="images/build-action-set.png" alt="setting build action in marketing.rdash file properties" width="40%"/>
 
-次に、新しいページ *Marketing.cshtml* を追加して、ダウンロードしたダッシュボードを可視化します。
+次に、新しいページ *Marketing.cshtml* を追加して、ダウンロードしたダッシュボードを表示します。
 
 ``` csharp
    @{

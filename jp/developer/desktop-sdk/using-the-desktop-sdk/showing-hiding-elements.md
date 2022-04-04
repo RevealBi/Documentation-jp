@@ -167,7 +167,7 @@ revealView.AvailableChartTypes = new List<RVChartType>() { RVChartType.BulletGra
 ```
 
 ## CanChangeVisualizationBackgroundColor
-エンドユーザーが可視化エディター ([設定] タブの下) で特定の可視化の背景色を変更できるかどうかを示すフラグ。有効にすると、RevealTheme で BackgroundColors として指定された色のリストが推奨パレットとして表示されます。ユーザーは、詳細モードを使用して任意の色を選択することもできます。
+エンドユーザーが表示形式エディター ([設定] タブの下) で特定の表示形式の背景色を変更できるかどうかを示すフラグ。有効にすると、RevealTheme で BackgroundColors として指定された色のリストが推奨パレットとして表示されます。ユーザーは、詳細モードを使用して任意の色を選択することもできます。
 
 このプロパティのデフォルト値は false です。したがって、エンドユーザーが視覚化の背景を指定できるようにするには、それを true に設定する必要があります。
 

@@ -80,7 +80,7 @@ private void RevealView_DataSourcesRequested(object sender, Reveal.Sdk.DataSourc
 }
 ```
 
-アプリケーションが実行されたら、新しい可視化を作成すると、[データ ソースの選択] ダイアログに新しく作成された Excel ファイル データ ソースが表示されます。
+アプリケーションが実行されたら、新しい表示形式を作成すると、[データ ソースの選択] ダイアログに新しく作成された Excel ファイル データ ソースが表示されます。
 
 ![](images/excel-file-data-source.jpg)
 

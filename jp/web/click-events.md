@@ -1,6 +1,6 @@
 # クリック イベント
 
-エンドユーザーが可視化内のデータ ポイントをクリックすると、`onVisualizationDataPointClicked` イベントが呼び出されます。`onVisualizationDataPointClicked` イベントにイベント ハンドラーを追加することで、このイベントに応答できます。
+エンドユーザーが表示形式内のデータ ポイントをクリックすると、`onVisualizationDataPointClicked` イベントが呼び出されます。`onVisualizationDataPointClicked` イベントにイベント ハンドラーを追加することで、このイベントに応答できます。
 
 ```javascript
 revealView.onVisualizationDataPointClicked = (visualization, cell, row) => {

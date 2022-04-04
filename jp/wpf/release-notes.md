@@ -29,7 +29,7 @@
         </td>
     </tr>
     <tr>
-        <td>可視化のデータ読み込みをキャンセルする新しいイベントを追加しました: onVisualizationDataLoading。
+        <td>表示形式のデータ読み込みをキャンセルする新しいイベントを追加しました: onVisualizationDataLoading。
         </td>
     </tr>
     <tr>
@@ -45,7 +45,7 @@
         </td>
     </tr>
     <tr>
-        <td>エンド ユーザーが可視化を最大化する機能を有効/無効にするオプションを追加しました。<br>
+        <td>エンド ユーザーが表示形式を最大化する機能を有効/無効にするオプションを追加しました。<br>
             <a href="/api/wpf/latest/Reveal.Sdk.RevealView.html#Reveal_Sdk_RevealView_CanMaximizeVisualizationProperty">CanMaximizeVisualizationProperty</a>。
         </td>
     </tr>

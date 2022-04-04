@@ -6,7 +6,7 @@ Web アプリケーションに Reveal を埋め込む場合、2 つのコンポ
 
   - **Reveal サーバー SDK**: サーバー アプリケーションに統合されるサーバー側コンポーネント。現在のライブラリは JAVA SDK 11+ を必要とし、[Maven (英語)](https://maven.apache.org/what-is-maven.html) モジュールのセットとして配布されます。
 
-次の図では、Reveal Web SDK を埋め込んだ Web アプリケーションのアーキテクチャを可視化しています:
+次の図では、Reveal Web SDK を埋め込んだ Web アプリケーションのアーキテクチャを表示しています:
 
 <img src="images/sdk_web_diagram_web.png" alt="Reveal Web Architecture diagram" class="responsive-img"/>
 

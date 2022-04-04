@@ -163,7 +163,7 @@ $.ig.RVDashboard.loadDashboard(dashboardId, function (dashboard) {
 
 <img src="../../general/images/showing_hiding_elements_charts.png" alt="Switching visualizations through the UI" class="responsive-img"/>
 
-利用したい可視化のみを含む新しい配列を使用できます:
+利用したい表示形式のみを含む新しい配列を使用できます:
 
 ``` js
 revealView.availableChartTypes = [$.ig.RVChartType.BulletGraph, $.ig.RVChartType.Choropleth];
@@ -179,7 +179,7 @@ revealView.availableChartTypes = revealView.availableChartTypes.filter(t => !toR
 
 <a name="canChangeVisualizationBackgroundColor"></a>
 ## canChangeVisualizationBackgroundColor
-エンドユーザーが可視化エディター ([設定] タブの下) で特定の可視化の背景色を変更できるかどうかを示すフラグ。有効にすると、RevealTheme で BackgroundColors として指定された色のリストが推奨パレットとして表示されます。ユーザーは、詳細モードを使用して任意の色を選択することもできます。
+エンドユーザーが表示形式エディター ([設定] タブの下) で特定の表示形式の背景色を変更できるかどうかを示すフラグ。有効にすると、RevealTheme で BackgroundColors として指定された色のリストが推奨パレットとして表示されます。ユーザーは、詳細モードを使用して任意の色を選択することもできます。
 
 このプロパティのデフォルト値は false です。したがって、エンドユーザーが視覚化の背景を指定できるようにするには、それを true に設定する必要があります。
 

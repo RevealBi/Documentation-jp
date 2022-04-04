@@ -1,14 +1,14 @@
-- name: 新しい可視化とダッシュボードの作成
+- name: 新しい表示形式とダッシュボードの作成
   href: creating-visualizations-dashboards.md
 - name: ダッシュボード ファイルの読み込み
   href: loading-dashboards.md
 - name: ダッシュボードの編集と保存
   href: editing-saving-dashboards.md
-- name: ダッシュボードまたは可視化データをエクスポートする
+- name: ダッシュボードまたは表示形式データをエクスポートする
   href: exporting-dashboard-visualization.md
 - name: ダッシュボード リンク
   href: dashboard-linking.md
-- name: 可視化の最大化と単一可視化モード
+- name: 表示形式の最大化と単一表示形式モード
   href: maximizing-visualizations.md
 - name: インメモリ データのサポート
   href: in-memory-data.md

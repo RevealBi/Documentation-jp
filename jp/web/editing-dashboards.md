@@ -6,7 +6,7 @@
 
 ### availableChartTypes
 
-このプロパティは、可視化を作成および編集するためにエンドユーザーが使用できるチャート タイプを定義するために使用されます。
+このプロパティは、表示形式を作成および編集するためにエンドユーザーが使用できるチャート タイプを定義するために使用されます。
 
 ![](images/editing-availablecharttypes.jpg)
 
@@ -121,7 +121,7 @@ revealView.canAddVisualization = false;
 
 ### canChangeVisualizationBackgroundColor
 
-このプロパティを使用すると、可視化エディターの **[設定]** タブで可視化の背景色を指定できます。
+このプロパティを使用すると、表示形式エディターの **[設定]** タブで表示形式の背景色を指定できます。
 
 ![](images/editing-canChangeVisualizationBackgroundColor.jpg)
 
@@ -140,7 +140,7 @@ revealView.canChangeVisualizationBackgroundColor = true;
 
 ### canCopyVisualization
 
-このプロパティは、可視化の **[コピー]** メニュー項目を表示/非表示にします。
+このプロパティは、表示形式の **[コピー]** メニュー項目を表示/非表示にします。
 
 ![](images/editing-cancopyvisualization.jpg)
 
@@ -150,7 +150,7 @@ revealView.canCopyVisualization = false;
 
 ### canDuplicateVisualization
 
-このプロパティは、可視化の **[複製]** メニュー項目を表示/非表示にします。
+このプロパティは、表示形式の **[複製]** メニュー項目を表示/非表示にします。
 
 ![](images/editing-canduplicatevisualization.jpg)
 
@@ -172,7 +172,7 @@ revealView.canEdit = false;
 
 ### canMaximizeVisualization
 
-このプロパティは、可視化の**最大化**ボタンを表示/非表示にします。
+このプロパティは、表示形式の**最大化**ボタンを表示/非表示にします。
 
 ![](images/editing-canMaximizeVisualization.jpg)
 
@@ -192,7 +192,7 @@ revealView.canSaveAs = false;
 
 ### showChangeDataSource
 
-このプロパティは、可視化エディターの [データ] タブにある **[データ ソースの変更]** ボタンを表示/非表示にします。
+このプロパティは、表示形式エディターの [データ] タブにある **[データ ソースの変更]** ボタンを表示/非表示にします。
 
 ![](images/editing-showChangeDataSource.jpg)
 
@@ -202,7 +202,7 @@ revealView.showChangeDataSource = false;
 
 ### showEditDataSource
 
-このプロパティは、可視化エディターでデータ ソースの **[編集]** メニュー項目を表示/非表示にします。
+このプロパティは、表示形式エディターでデータ ソースの **[編集]** メニュー項目を表示/非表示にします。
 
 ![](images/editing-showeditdatasource.jpg)
 
@@ -325,15 +325,15 @@ revealView.onVisualizationEditorOpening = function (args) {
 
 `VisualizationEditorOpeningArgs` には、次のプロパティが含まれています:
 - **cancel** - イベントをキャンセルするかどうかを示す値を取得または設定します。イベントをキャンセルする必要がある場合は `true`。それ以外の場合は `false`。
-- **isNewVisualization** - `true` の場合、可視化は新しく追加された可視化です。`false` の場合、それは既存の可視化です。
-- **visualization** - 編集および/または追加された可視化
+- **isNewVisualization** - `true` の場合、表示形式は新しく追加された表示形式です。`false` の場合、それは既存の表示形式です。
+- **visualization** - 編集および/または追加された表示形式
 
 > [!NOTE]
 > `VisualizationEditorOpeningArgs.cancel` を `true` に設定すると、表示形式視覚化エディターは開きません。
 
 ### onVisualizationEditorOpened
 
-可視化エディターを開いた**後**、既存の可視化を編集するとき、または新しい可視化を作成するときに通知を受け取りたい場合は、`RevealView.onVisualizationEditorOpened` イベントにイベント ハンドラーを追加できます。
+表示形式エディターを開いた**後**、既存の表示形式を編集するとき、または新しい表示形式を作成するときに通知を受け取りたい場合は、`RevealView.onVisualizationEditorOpened` イベントにイベント ハンドラーを追加できます。
 
 ```javascript
 revealView.onVisualizationEditorOpened = function (args) {
@@ -344,8 +344,8 @@ revealView.onVisualizationEditorOpened = function (args) {
 ```
 
 `VisualizationEditorOpenedEventArgs` には、次のプロパティが含まれています:
-- **isNewVisualization** - `true` の場合、可視化は新しく追加された可視化です。`false` の場合、それは既存の可視化です。
-- **visualization** - 編集および/または追加された可視化
+- **isNewVisualization** - `true` の場合、表示形式は新しく追加された表示形式です。`false` の場合、それは既存の表示形式です。
+- **visualization** - 編集および/または追加された表示形式
 
 ### onVisualizationEditorClosing
 
@@ -361,15 +361,15 @@ revealView.onVisualizationEditorClosing = function (args) {
 
 `VisualizationEditorClosingArgs` には、次のプロパティが含まれています:
 - **cancel** - イベントをキャンセルするかどうかを示す値を取得または設定します。イベントをキャンセルする必要がある場合は `true`。それ以外の場合は `false`。
-- **isNewVisualization** - `true` の場合、可視化は新しく追加された可視化です。`false` の場合、それは既存の可視化です。
-- **resetVisualization** - `true` の場合、可視化を編集前の状態にリセットします。
-- **visualization** - 編集および/または追加された可視化
+- **isNewVisualization** - `true` の場合、表示形式は新しく追加された表示形式です。`false` の場合、それは既存の表示形式です。
+- **resetVisualization** - `true` の場合、表示形式を編集前の状態にリセットします。
+- **visualization** - 編集および/または追加された表示形式
 
 > [!NOTE]
 > `VisualizationEditorClosingArgs.cancel` を `true` に設定すると、表示形式視覚化エディターは閉じません。
 
 ### onVisualizationEditorClosed
-エンドユーザーが `RevealView` で単一の可視化を編集するときはいつでも、エディターが閉じられた**後**に `RevealView.onVisualizationEditorClosed` イベントが発生します。これは、既存の可視化の編集、または新しい可視化の追加に対応する場合があります。`RevealView.onVisualizationEditorClosed` イベントにイベント ハンドラーを追加することで、このイベントに応答できます。
+エンドユーザーが `RevealView` で単一の表示形式を編集するときはいつでも、エディターが閉じられた**後**に `RevealView.onVisualizationEditorClosed` イベントが発生します。これは、既存の表示形式の編集、または新しい表示形式の追加に対応する場合があります。`RevealView.onVisualizationEditorClosed` イベントにイベント ハンドラーを追加することで、このイベントに応答できます。
 
 ```javascript
 revealView.onVisualizationEditorClosed = function (args) {
@@ -380,5 +380,5 @@ revealView.onVisualizationEditorClosed = function (args) {
 
 `VisualizationEditorClosedEventArgs` には、次のプロパティが含まれています:
 - **isCancelled** - 表示形式エディターが **X ボタン** (`false`) または **Check ボタン** (`true`) のどちらで閉じられたかを決定します。
-- **isNewVisualization** - `true` の場合、可視化は新しく追加された可視化です。`false` の場合、それは既存の可視化視覚化です。
-- **visualization** - 編集および/または追加された可視化
+- **isNewVisualization** - `true` の場合、表示形式は新しく追加された表示形式です。`false` の場合、それは既存の表示形式視覚化です。
+- **visualization** - 編集および/または追加された表示形式

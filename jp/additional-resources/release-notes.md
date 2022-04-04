@@ -67,13 +67,13 @@
         </td>
     </tr>
     <tr>
-        <td class="tg-cly1">[公開バグ修正] グリッド可視化の DateTime 列に構成の問題がありました。<br>
+        <td class="tg-cly1">[公開バグ修正] グリッド表示形式の DateTime 列に構成の問題がありました。<br>
             Reveal は、ddd-dd (Wed-21)、ddd-mmm-yy (Wed-Sep-21) の 2 つの新しい日付形式をサポートするようになりました。
         </td>
     </tr>
     <tr>
         <td class="tg-cly1">日付形式をさらに増加しました。<br>
-            グリッド可視化で、DateTime 形式の列は、時間形式の値を表示するように適切に構成できませんでした。
+            グリッド表示形式で、DateTime 形式の列は、時間形式の値を表示するように適切に構成できませんでした。
         </td>
     </tr>
     <tr>

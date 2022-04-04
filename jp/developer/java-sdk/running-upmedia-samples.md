@@ -27,7 +27,7 @@ GitHub から <a href="https://github.com/RevealBi/sdk-samples-java" target="_bl
    2. Tomcat 9 を選択し、Tomcat のインストール パスへのルート パスを設定します。
    3. デフォルト設定でプロジェクトを実行します。  
 
-3. **サンプルをブラウザーで可視化します。**
+3. **サンプルをブラウザーで表示します。**
    - Eclipse の内部ブラウザーには Windows に関する既知の問題があります。代わりに Google Chrome または別のブラウザーを使用してください (デフォルトの URL は http://localhost:8080/upmedia です)。
 
 

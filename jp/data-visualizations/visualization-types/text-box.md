@@ -32,7 +32,7 @@
 
     <img src="images/add-text-box-menu.png" alt="Accessing text box creation in the New Dashboard screen" class="responsive-img"/>
 
-## テキスト ボックス可視化の作業
+## テキスト ボックス表示形式の作業
 
 新しいテキスト ボックス表示形式を追加すると、以下の空のフォームが表示されます。
 

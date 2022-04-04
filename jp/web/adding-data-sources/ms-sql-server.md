@@ -32,7 +32,7 @@ revealView.onDataSourcesRequested = (callback) => {
 };
 ```
 
-アプリケーションが実行されたら、新しい可視化を作成すると、[データ ソースの選択] ダイアログに新しく作成された  MS SQL Server データ ソースが表示されます。
+アプリケーションが実行されたら、新しい表示形式を作成すると、[データ ソースの選択] ダイアログに新しく作成された  MS SQL Server データ ソースが表示されます。
 
 ![](images/ms-sql-server-data-source.jpg)
 

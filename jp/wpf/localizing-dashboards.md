@@ -8,7 +8,7 @@
 
   - ダッシュボードのタイトル
   - フィルター タイトル
-  - 可視化フィルター
+  - 表示形式フィルター
   - フィールド ラベル
   - 集計フィールド ラベル
 
@@ -74,7 +74,7 @@
 
 以下に、同じダッシュボードの複数の要素をローカライズする方法の例を示します。
 
-以下は、*Marketing* サンプルの可視化 (*Actual Spend vs Budget*) で初期状態の 1 つの例です:
+以下は、*Marketing* サンプルの表示形式 (*Actual Spend vs Budget*) で初期状態の 1 つの例です:
 
 <img src="images/localize-field-label-initial-state.jpg" alt="initial state of the Actual Spend vs Budget visualization" width="100%"/>
 
@@ -117,7 +117,7 @@ public class UpMediaLocalizationService : IRVLocalizationService
 <a name='format-numeric-field'></a>
 #### 数値フィールドの書式設定の変更の例
 
-以下の *Spend vs Budget* 可視化の初期状態では、米ドル ($) 通貨で書式設定された数値フィールドを示します。
+以下の *Spend vs Budget* 表示形式の初期状態では、米ドル ($) 通貨で書式設定された数値フィールドを示します。
 
 <img src="images/localize-numeric-field-us-dollars-currency.jpg" alt="Original numeric field in US Dollars currency format" width="100%"/>
 
@@ -166,7 +166,7 @@ public class UpMediaLocalizationService : IRVLocalizationService
 
 ローカリゼーション サービスでは、**非集計日付フィールド**の書式設定を変更できます。
 
-まず、集計データを除外するために、*Actual Spend vs Budget* 可視化を**グリッド**に変更します。
+まず、集計データを除外するために、*Actual Spend vs Budget* 表示形式を**グリッド**に変更します。
 
 <img src="images/localize-visualization-grid-format-original-date.jpg" alt="Visualization in Grid format" width="100%"/>
 
@@ -206,6 +206,6 @@ public RVFormattingSpec GetFormattingSettingsForField(string fieldName, RVDashbo
 > [!NOTE]
 > フィールド名が *Localized Date* ではなく *Date* であるかどうかを確認する必要があることに注意してください。これは、フィールドの名前に基づいて書式設定が適用されるためです。この場合、*Date* はフィールドの名前で、*Localized Date* は表示されるラベルです。ダッシュボードを編集する場合、フィールド ラベルは変更できますが、フィールド名は元の名前のままです。
 
-アプリを再度実行し、可視化をグリッドに変更すると、更新された日付形式が表示されます。
+アプリを再度実行し、表示形式をグリッドに変更すると、更新された日付形式が表示されます。
 
 <img src="images/localize-visualization-grid-format-changed-date.jpg" alt="Visualization in grid format with changed date format" width="100%"/>

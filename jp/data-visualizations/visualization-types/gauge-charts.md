@@ -23,7 +23,7 @@
 <a name='text-gauge'></a>
 ## テキスト ゲージ
 
-テキスト ゲージは、大きなフォントで Value 列データを表示します。このタイプは、非常に優先度の高いメトリックに適しています。デフォルトでは、いずれかのフィルターが適用されていない限り、選択データ行が異なるようにゲージは最初のデータ行の値列のデータを可視化します。
+テキスト ゲージは、大きなフォントで Value 列データを表示します。このタイプは、非常に優先度の高いメトリックに適しています。デフォルトでは、いずれかのフィルターが適用されていない限り、選択データ行が異なるようにゲージは最初のデータ行の値列のデータを表示します。
 
 <img src="images/pivot-editor-view-text-gauge-view.png" alt="Text gauge chart example in the Visualization editor" class="responsive-img"/>
 

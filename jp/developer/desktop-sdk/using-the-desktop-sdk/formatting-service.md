@@ -18,7 +18,7 @@
 
 ### 数値データの書式設定例
 
-以下に、**Marketing** サンプル ダッシュボードの New Seats by Campaign ID 可視化の初期状態を示します。
+以下に、**Marketing** サンプル ダッシュボードの New Seats by Campaign ID 表示形式の初期状態を示します。
 
 ![Initial state of the Marketing visualization using numeric
 data](images/initial-state-visualization-formatting-numeric-data.png)
@@ -80,7 +80,7 @@ public class UpMediaFormattingService : RVBaseFormattingService
 
 <img src="images/result-formatting-numeric-data-percentage.png" alt="Only percentage numeric data in the visualization displays five decimal digits" class="responsive-img"/>
 
-ダッシュボードのその他の可視化では、数値データの書式が変更されていないことがわかります。書式設定はチャートによって制御されるため、フィールドの書式設定を変更するには、フィールドの書式設定を変更する必要があります。変更には、[ローカライゼーション サービス](localization-service.html)を使用してください。
+ダッシュボードのその他の表示形式では、数値データの書式が変更されていないことがわかります。書式設定はチャートによって制御されるため、フィールドの書式設定を変更するには、フィールドの書式設定を変更する必要があります。変更には、[ローカライゼーション サービス](localization-service.html)を使用してください。
 
 ![The Marketing sample dashboard after formatting
 changes](images/formatting-service-marketing-sample-result.png)
@@ -89,7 +89,7 @@ changes](images/formatting-service-marketing-sample-result.png)
 
 ### DateTime データ書式設定の例
 
-これは、Marketing サンプル **Actual Spend vs Budget** の可視化のうちの 1 つの初期状態です。
+これは、Marketing サンプル **Actual Spend vs Budget** の表示形式のうちの 1 つの初期状態です。
 
 <img src="images/formatting-visualization-aggregated-datetime-initial-state.png" alt="Actual Spend vs Budget initial state" class="responsive-img"/>
 
@@ -119,7 +119,7 @@ formatting](images/formatting-aggregated-datetime-result.png)
 
 ### 日時 (非集計) データ書式設定の例
 
-以下に、非集計の日付データを書式設定する方法の例を示します。まず、集計データを除外するために、**Actual Spend vs Budget** 可視化を **Grid** に変更します。
+以下に、非集計の日付データを書式設定する方法の例を示します。まず、集計データを除外するために、**Actual Spend vs Budget** 表示形式を **Grid** に変更します。
 
 ![Actual Spend vs Budget displayed as a
 Grid](images/formatting-non-aggregated-date-grid.png)
@@ -136,6 +136,6 @@ public class UpMediaFormattingService : RVBaseFormattingService
 }
 ```
 
-また、アプリを再実行してグリッドの可視化を変更すると、更新された日付が表示されます (キャッシュのためにデータの更新が必要な場合があります)。
+また、アプリを再実行してグリッドの表示形式を変更すると、更新された日付が表示されます (キャッシュのためにデータの更新が必要な場合があります)。
 
 <img src="images/formatting-non-aggregated-date-result.png" alt="Visualization after formatting showing full names of the dates in a grid" class="responsive-img"/>
