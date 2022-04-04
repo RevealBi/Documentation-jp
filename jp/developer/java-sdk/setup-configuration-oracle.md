@@ -99,13 +99,13 @@ RevealEngineInitializer.initialize(
 - *setAuthProvider*。ここで、認証を解決し、IRVAuthenticationProvider を実装するカスタム クラスを含める必要があります。
 - *setUserContextProvider*。IRVUserContextProvider を実装するユーザーに関する情報を提供するカスタム クラス。
 - *setDashboardProvider*。ダッシュボードを置換または変更するカスタム クラス。IRVDashboardProvider を実装します。
-- *setDataSourceProvider*。データソースを置換または変更するカスタム クラス。IRVDataSourceProvider を実装します。
+- *setDataSourceProvider*。データ ソースを置換または変更するカスタム クラス。IRVDataSourceProvider を実装します。
 - *setDataProvider*。ダッシュボードのインメモリ データを返すカスタム クラス。IRVDataProvider を実装します。
 - *setLicense*。ここでは、シリアル キーを含めて SDK ライセンスを構成できます。
 
 ダッシュボード プロバイダーを実装する方法の詳細については、GitHub の [UpMedia サンプル (英語)](https://github.com/RevealBi/sdk-samples-java) を参照してください。
 
-### Step 4 - 手順 4 - サーバー側エクスポートを有効にします。
+### 手順 4 - サーバー側エクスポートを有効にします。
 
 Java SDK は、ダッシュボードをさまざまな形式 (Image、PDF、PPT、Excel) にエクスポートするためにいくつかのネイティブ コンポーネントを使用します。
 
@@ -129,9 +129,9 @@ Java SDK は、ダッシュボードをさまざまな形式 (Image、PDF、PPT�
 
 Reveal Web Client SDK には、次のサードパーティの参照があります:
 
-- [jQuery](https://jquery.com) 2.2 またはそれ以上
-- [Day.js](https://day.js.org) 1.8.15 またはそれ以上
-- [Quill RTE](https://quilljs.com/) 1.3.6 またはそれ以上
+- [jQuery](https://jquery.com) 2.2 またはそれ以降
+- [Day.js](https://day.js.org) 1.8.15 またはそれ以降
+- [Quill RTE](https://quilljs.com/) 1.3.6 またはそれ以降
 
 
 <a name='reference-web-client-sdk'></a>
