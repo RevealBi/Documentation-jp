@@ -2,7 +2,7 @@
 
 ツールチップは、ダッシュボード表示形式でエンドユーザーがシリーズをホバーまたはクリックしたときに表示されるメッセージです。
 
-![](images/tooltips.jpg)
+<img src="images/tooltips.jpg" alt="" width="100%"/>
 
 ダッシュボード表示形式にツールチップが表示されている場合、`RevealView.TooltipShowing` イベントが呼び出されます。このイベントを処理すると、ツールチップ データの読み取りやツールチップの表示防止が可能になります。
 
@@ -40,7 +40,7 @@ private void RevealView_TooltipShowing(object sender, TooltipShowingEventArgs e)
 
 以下の画像は、`RVCell` のプロパティがツールチップに表示されるデータにマップする方法を示しています。
 
-![](images/tooltips-row-property.jpg)
+<img src="images/tooltips-row-property.jpg" alt="" width="100%"/>
 
 ## ツールチップを表示しないようにする
 すべての表示形式または特定の表示形式でツールチップが表示されないようにするには、`TooltipShowingEventArgs.Cancel` プロパティを `true` に設定します。

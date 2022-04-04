@@ -34,7 +34,7 @@ revealView.onDataSourcesRequested = (callback) => {
 
 アプリケーションが実行されたら、新しい表示形式を作成すると、[データ ソースの選択] ダイアログに新しく作成された  MS SQL Server データ ソースが表示されます。
 
-![](images/ms-sql-server-data-source.jpg)
+<img src="images/ms-sql-server-data-source.jpg" alt="" width="100%"/>
 
 **手順 3** - `RVSqlServerDataSourceItem` オブジェクトの新しいインスタンスを作成して、新しいデータ ソース項目を追加します。データベース テーブルに対応する `Id`、`Title`、および `Table` プロパティを設定します。`RVSqlServerDataSourceItem` オブジェクトを作成したら、それをデータ ソース コレクションに追加します。
 
@@ -57,7 +57,7 @@ revealView.onDataSourcesRequested = (callback) => {
 
 アプリケーションが実行されたら、新しい可否化を作成すると、[データ ソースの選択] ダイアログに新しく作成された MS SQL Server データ ソース項目が表示されます。
 
-![](images/ms-sql-server-data-source-item.jpg)
+<img src="images/ms-sql-server-data-source-item.jpg" alt="" width="100%"/>
 
 > [!IMPORTANT]
 > サーバーがクライアント アプリケーションとは異なる URL で実行されている場合は、`$。ig.RevealSdkSettings.setBaseUrl` を呼び出す必要があります。サーバー アプリケーションとクライアント アプリケーションの両方が同じ URL で実行されている場合、このメソッドは必要ありません。このメソッドを呼び出す必要があるのは 1 回だけです。

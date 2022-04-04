@@ -8,11 +8,11 @@
 
 **保存**操作は、エンドユーザーが編集モードのときに呼び出され、`RevealView` の右上隅にある**チェック ボタン**をクリックします。
 
-![](images/saving-save-button.jpg)
+<img src="images/saving-save-button.jpg" alt="" width="100%"/>
 
 エンドユーザーが `RevealView` の右上隅にある**ケバブ メニュー**を開き、**[名前を付けて保存]** メニュー項目を選択すると、**名前を付けて保存**操作が呼び出されます。
 
-![](images/saving-saveas-button.jpg)
+<img src="images/saving-saveas-button.jpg" alt="" width="100%"/>
 
 ## ダッシュボードの保存イベント
 

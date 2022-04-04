@@ -8,11 +8,11 @@
 
 **保存**操作は、エンドユーザーが編集モードのときに呼び出され、`RevealView` の右上隅にある**チェック ボタン**をクリックします。
 
-![](images/saving-save-button.jpg)
+<img src="images/saving-save-button.jpg" alt="" width="100%"/>
 
 エンドユーザーが `RevealView` の右上隅にある**ケバブ メニュー**を開き、**[名前を付けて保存]** メニュー項目を選択すると、**名前を付けて保存**操作が呼び出されます。
 
-![](images/saving-saveas-button.jpg)
+<img src="images/saving-saveas-button.jpg" alt="" width="100%"/>
 
 ## 保存の実装
 デフォルトでは、サーバーのダッシュボード フォルダーに **Dashboards** を配置するという規則に従っている場合、Reveal SDK は**保存**機能を提供します。ただし、ダッシュボードをサーバーの **Dashboards** フォルダーに保存しておらず、カスタム `IRVDashboardProvider` を作成している場合は、独自のカスタム保存ロジックも実装する必要があります。[ダッシュボードの読み込み](loading-dashboards.md#load-from-custom-file-path)トピックでは、カスタムの場所からダッシュボードを読み込む方法について説明します。

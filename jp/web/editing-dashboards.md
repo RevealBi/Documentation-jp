@@ -8,7 +8,7 @@
 
 このプロパティは、表示形式を作成および編集するためにエンドユーザーが使用できるチャート タイプを定義するために使用されます。
 
-![](images/editing-availablecharttypes.jpg)
+<img src="images/editing-availablecharttypes.jpg" alt="" width="100%"/>
 
 `RevealView.availableChartTypes` コレクションのチャート タイプのみがエンドユーザーに表示されます。
 
@@ -75,7 +75,7 @@ revealView.availableChartTypes = revealView.availableChartTypes.filter(t => !cha
 
 このプロパティは、表示形式エディターの **[計算フィールド]** メニュー項目を表示/非表示にします。
 
-![](images/editing-canaddcalculatedfields.jpg)
+<img src="images/editing-canaddcalculatedfields.jpg" alt="" width="100%"/>
 
 ```javascript
 revealView.canAddCalculatedFields = false;
@@ -85,7 +85,7 @@ revealView.canAddCalculatedFields = false;
 
 このプロパティは、ダッシュボードの **[ダッシュボード フィルターの追加]** メニュー項目を表示/非表示にします。
 
-![](images/editing-canadddashboardfilter.jpg)
+<img src="images/editing-canadddashboardfilter.jpg" alt="" width="100%"/>
 
 ```javascript
 revealView.canAddDashboardFilter = false;
@@ -95,7 +95,7 @@ revealView.canAddDashboardFilter = false;
 
 このプロパティは、ダッシュボードの **[日付フィルターの追加]** メニュー項目を表示/非表示にします。
 
-![](images/editing-canadddatefilter.jpg)
+<img src="images/editing-canadddatefilter.jpg" alt="" width="100%"/>
 
 ```javascript
 revealView.canAddDateFilter = false;
@@ -105,7 +105,7 @@ revealView.canAddDateFilter = false;
 
 このプロパティは、表示形式視覚化エディターのフィールド セクションの **F(x)** メニュー項目を表示/非表示にします。
 
-![](images/editing-canaddpostcalculatedfields.jpg)
+<img src="images/editing-canaddpostcalculatedfields.jpg" alt="" width="100%"/>
 
 ```javascript
 revealView.canAddPostCalculatedFields = false;
@@ -123,7 +123,7 @@ revealView.canAddVisualization = false;
 
 このプロパティを使用すると、表示形式エディターの **[設定]** タブで表示形式の背景色を指定できます。
 
-![](images/editing-canChangeVisualizationBackgroundColor.jpg)
+<img src="images/editing-canChangeVisualizationBackgroundColor.jpg" alt="" width="100%"/>
 
 ```javascript
 revealView.canChangeVisualizationBackgroundColor = true;
@@ -142,7 +142,7 @@ revealView.canChangeVisualizationBackgroundColor = true;
 
 このプロパティは、表示形式の **[コピー]** メニュー項目を表示/非表示にします。
 
-![](images/editing-cancopyvisualization.jpg)
+<img src="images/editing-cancopyvisualization.jpg" alt="" width="100%"/>
 
 ```javascript
 revealView.canCopyVisualization = false;
@@ -152,7 +152,7 @@ revealView.canCopyVisualization = false;
 
 このプロパティは、表示形式の **[複製]** メニュー項目を表示/非表示にします。
 
-![](images/editing-canduplicatevisualization.jpg)
+<img src="images/editing-canduplicatevisualization.jpg" alt="" width="100%"/>
 
 ```javascript
 revealView.canDuplicateVisualization = false;
@@ -162,7 +162,7 @@ revealView.canDuplicateVisualization = false;
 
 このプロパティは、ダッシュボードの **[編集]** メニュー項目を表示/非表示にします。
 
-![](images/editing-canedit.jpg)
+<img src="images/editing-canedit.jpg" alt="" width="100%"/>
 
 ```javascript
 revealView.canEdit = false;
@@ -174,7 +174,7 @@ revealView.canEdit = false;
 
 このプロパティは、表示形式の**最大化**ボタンを表示/非表示にします。
 
-![](images/editing-canMaximizeVisualization.jpg)
+<img src="images/editing-canMaximizeVisualization.jpg" alt="" width="100%"/>
 
 ```javascript
 revealView.canMaximizeVisualization = false;
@@ -184,7 +184,7 @@ revealView.canMaximizeVisualization = false;
 
 このプロパティは、ダッシュボード メニューの **[名前を付けて保存]** ボタンを表示/非表示にします。
 
-![](images/editing-canSaveAs.jpg)
+<img src="images/editing-canSaveAs.jpg" alt="" width="100%"/>
 
 ```javascript
 revealView.canSaveAs = false;
@@ -194,7 +194,7 @@ revealView.canSaveAs = false;
 
 このプロパティは、表示形式エディターの [データ] タブにある **[データ ソースの変更]** ボタンを表示/非表示にします。
 
-![](images/editing-showChangeDataSource.jpg)
+<img src="images/editing-showChangeDataSource.jpg" alt="" width="100%"/>
 
 ```javascript
 revealView.showChangeDataSource = false;
@@ -204,7 +204,7 @@ revealView.showChangeDataSource = false;
 
 このプロパティは、表示形式エディターでデータ ソースの **[編集]** メニュー項目を表示/非表示にします。
 
-![](images/editing-showeditdatasource.jpg)
+<img src="images/editing-showeditdatasource.jpg" alt="" width="100%"/>
 
 ```javascript
 revealView.showEditDataSource = false;
@@ -214,7 +214,7 @@ revealView.showEditDataSource = false;
 
 このプロパティは、エクスポート メニューから **[画像]** 項目を表示/非表示にします。
 
-![](images/editing-showExportImage.jpg)
+<img src="images/editing-showExportImage.jpg" alt="" width="100%"/>
 
 ```javascript
 revealView.showExportImage = false;
@@ -224,7 +224,7 @@ revealView.showExportImage = false;
 
 このプロパティは、エクスポート メニューから **[Excel]** 項目を表示/非表示にします。
 
-![](images/editing-showExportToExcel.jpg)
+<img src="images/editing-showExportToExcel.jpg" alt="" width="100%"/>
 
 ```javascript
 revealView.showExportToExcel = false;
@@ -234,7 +234,7 @@ revealView.showExportToExcel = false;
 
 このプロパティは、エクスポート メニューから **[PDF]** 項目を表示/非表示にします。
 
-![](images/editing-showExportToPDF.jpg)
+<img src="images/editing-showExportToPDF.jpg" alt="" width="100%"/>
 
 ```javascript
 revealView.showExportToPDF = false;
@@ -244,7 +244,7 @@ revealView.showExportToPDF = false;
 
 このプロパティは、エクスポート メニューから **[PowerPoint]** 項目を表示/非表示にします。
 
-![](images/editing-showExportToPowerPoint.jpg)
+<img src="images/editing-showExportToPowerPoint.jpg" alt="" width="100%"/>
 
 ```javascript
 revealView.showExportToPowerPoint = false;
@@ -254,7 +254,7 @@ revealView.showExportToPowerPoint = false;
 
 このプロパティは、ダッシュボード フィルターを表示/非表示にします。
 
-![](images/editing-showFilters.jpg)
+<img src="images/editing-showFilters.jpg" alt="" width="100%"/>
 
 ```javascript
 revealView.showFilters = false;
@@ -280,7 +280,7 @@ revealView.showMenu = false;
 
 このプロパティは、ダッシュボード メニューの **[更新]** ボタンを表示/非表示にします。
 
-![](images/editing-showRefresh.jpg)
+<img src="images/editing-showRefresh.jpg" alt="" width="100%"/>
 
 ```javascript
 revealView.showRefresh = false;
@@ -290,7 +290,7 @@ revealView.showRefresh = false;
 
 `true` に設定すると、このプロパティは、ダッシュボードが最初に読み込まれたときに `RevealView` を「編集モード」にします。
 
-![](images/editing-startineditmode.jpg)
+<img src="images/editing-startineditmode.jpg" alt="" width="100%"/>
 
 ```javascript
 revealView.startInEditMode = false;
@@ -300,7 +300,7 @@ revealView.startInEditMode = false;
 
 `true` に設定すると、このプロパティはすぐに [新しい表示形式] ダイアログを起動し、データ ソースを選択するように求めます。
 
-![](images/editing-startwithnewvisualization.jpg)
+<img src="images/editing-startwithnewvisualization.jpg" alt="" width="100%"/>
 
 ```javascript
 revealView.startWithNewVisualization = false;

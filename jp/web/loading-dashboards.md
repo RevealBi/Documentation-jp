@@ -20,7 +20,7 @@
 
 1 - ASP.NET Core Web Api サーバー アプリケーションで、**Dashboards** という名前のフォルダーを作成し、そのフォルダー内にダッシュボード ファイルを配置します。
 
-![](images/loading-dashboards-default-directory.jpg)
+<img src="images/loading-dashboards-default-directory.jpg" alt="" width="100%"/>
 
 2 - クライアント アプリケーションで、`$.ig.RevealSdkSettings.setBaseUrl` メソッドを呼び出し、サーバーの URL を渡します。デバッグ時には、サーバーの URL は `https://localhost` の後にポート番号が続きます。例:
 
@@ -158,7 +158,7 @@ $.ig.RVDashboard.loadDashboard("Sales", (dashboard) => {
 
 1 - サーバー アプリケーションにリソースとして Reveal ダッシュボード **.rdash** ファイルを埋め込むには、Visual Studio でダッシュボードファイルのプロパティを開き、.rdash ファイルの **[ビルド アクション]** を **[理め込みリソース]** に設定します。
 
-![](images/loading-dashboard-as-resource.jpg)
+<img src="images/loading-dashboard-as-resource.jpg" alt="" width="100%"/>
 
 ダッシュボードが**理め込みリソース**として定義されたら、`Assembly.GetManifestResourceStream` メソッドを使用してダッシュボードを読み込むことができます。このメソッドは、`Dashboard` オブジェクトの作成に使用できる `Stream` オブジェクトを返します。`Assembly.GetManifestResourceStream` メソッドで指定するリソースの`名前`には、.rdash ファイルの`名前空間`とファイル名が含まれている必要があることに注意してください。
 

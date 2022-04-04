@@ -19,11 +19,11 @@
 
 この例では、**Dashboards** と呼ばれる Visual Studio ソリューションにディレクトリを作成しました。このディレクトリには、アプリケーションのすべての .rdash ファイルが含まれます。
 
-![](images/load-dashboards-dashboard-directory.jpg)
+<img src="images/load-dashboards-dashboard-directory.jpg" alt="" width="100%"/>
 
 各 .rdash ファイルのプロパティで、**[出力ディレクトリにコピー]** の値を **[新しい場合はコピーする]** に設定していることを確認することが重要です。これにより、プロジェクトのビルド時にダッシュボード ファイルがディスクにコピーされます。
 
-![](images/load-dashboard-as-file.jpg)
+<img src="images/load-dashboard-as-file.jpg" alt="" width="100%"/>
 
 最初の手順は、四方込みしたい .rdash ファイルのファイルの場所を取得することです。ダッシュボードへのファイル パスを取得したら、`RVDashboard` の新しいインスタンスを作成し、ファイル パスを `RVDashboard` クラスのコンストラクターに渡します。 
 
@@ -72,7 +72,7 @@ using (var stream = File.OpenRead(filePath))
 
 Reveal ダッシュボード **.rdash** ファイルをリソースとしてアプリケーションに埋め込むには、Visual Studio でダッシュボード ファイルのプロパティを開き、.rdash ファイルの **[ビルド アクション]** を **[理め込みリソース]** に設定します。
 
-![](images/load-dashboard-as-resource.jpg)
+<img src="images/load-dashboard-as-resource.jpg" alt="" width="100%"/>
 
 ダッシュボードが**理め込みリソース**として定義されたら、`Assembly.GetManifestResourceStream` メソッドを使用してダッシュボードを読み込むことができます。このメソッドは、`RevealView` に読み込むために使用できる `Stream` オブジェクトを返します。
 

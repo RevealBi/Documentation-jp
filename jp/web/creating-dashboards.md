@@ -15,7 +15,7 @@ revealView.dashboard = new $.ig.RVDashboard();
 
 アプリケーションを実行すると、新しい空のダッシュボードが表示されます。
 
-![](images/creating-dashboards.jpg)
+<img src="images/creating-dashboards.jpg" alt="" width="100%"/>
 
 ご覧のとおり、これにより使用する新しいダッシュボード インスタンスが提供されますが、ダッシュボードで使用するデータ ソースを `$.ig.RevealView` に提供していない限り、エンドユーザーは新しいダッシュボードで表示形式を作成できません。
 

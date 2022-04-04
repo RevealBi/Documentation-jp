@@ -5,11 +5,11 @@
 
 1 - Visual Studio 2019 を起動し、スタート ページで **[新しいプロジェクトの作成]** をクリックします。**WPF App (.NET Framework)** テンプレートを選択し、**[次へ]** をクリックします。
 
-![](images/getting-started-new-wpf-project.jpg)
+<img src="images/getting-started-new-wpf-project.jpg" alt="" width="100%"/>
 
 2 - プロジェクト名を入力し、**.NET Framework 4.6.2** 以上を選択し、**[作成]** をクリックします。
 
-![](images/getting-started-new-wpf-project-name.jpg)
+<img src="images/getting-started-new-wpf-project-name.jpg" alt="" width="100%"/>
 
 ## 手順 2 - Reveal SDK の追加
 
@@ -17,11 +17,11 @@
 
 1 - ソリューションまたはプロジェクトを右クリックし、**[ソリューションの NuGet パッケージの管理]** を選択します。
 
-![](images/getting-started-nuget-packages-manage.jpg)
+<img src="images/getting-started-nuget-packages-manage.jpg" alt="" width="100%"/>
 
 2 - パッケージ マネージャー ダイアログで **[参照]** タブを開き、**Infragistics (Local)** パッケージ ソースを選択して **Reveal.Sdk.Wpf** NuGet パッケージをプロジェクトにインストールします。
 
-![](images/getting-started-nuget-packages-install.jpg)
+<img src="images/getting-started-nuget-packages-install.jpg" alt="" width="100%"/>
 
 > [!NOTE]
 > トライアル版をお使いの場合、[NuGet.org](https://www.nuget.org/packages/Reveal.Sdk.Wpf.Trial/) にある **Reveal.Sdk.Wpf.Trial** NuGet パッケージをインストールできます。
@@ -30,11 +30,11 @@
 
 1 - ソリューション エクスプローラーの [参照] ノードを右クリックし、**[参照の追加]** を選択します。
 
-![](images/getting-started-references-add.jpg)
+<img src="images/getting-started-references-add.jpg" alt="" width="100%"/>
 
 2 - **[参照]** ボタンをクリックし、インストーラーが **%public%\Documents\Infragistics\Reveal\SDK\WPF\Binaries** でドロップしたすべてのアセンブリを選択します。
 
-![](images/getting-started-references-browse.jpg)
+<img src="images/getting-started-references-browse.jpg" alt="" width="100%"/>
 
 3 - Reveal SDK が依存する以下の NuGet パッケージをインストールします。
    1. CefSharp.Wpf (87.1.132 またはそれ以降) 
@@ -64,17 +64,17 @@ xmlns:rv="http://revealbi.io/"
 
 2 - Visual Studio のツールボックスを開き、**[Reveal SDK]** ツールボックス タブの下にある **[RevealView]** コントロールに移動します。
 
-![](images/getting-started-toolbox.jpg)
+<img src="images/getting-started-toolbox.jpg" alt="" width="100%"/>
 
 3 - **RevealView** コ ントロールをクリックして、**MainWindow.xaml** ファイルのデザイン サーフェス上にドラッグします。Reveal SDK 名前空間と RevealView コントロールの両方が MainWindow.xaml ファイルに追加されます。
 
-![](images/getting-started-mainwindow.jpg)
+<img src="images/getting-started-mainwindow.jpg" alt="" width="100%"/>
 
 ## 手順 4 - アプリケーションの実行
 
 [F5] を押してアプリケーションを実行します。
 
-![](images/getting-started-running-app.jpg)
+<img src="images/getting-started-running-app.jpg" alt="" width="100%"/>
 
 完了しました! 最初の Reveal SDK アプリケーションを作成しました。
 

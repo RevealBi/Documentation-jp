@@ -4,7 +4,7 @@ Reveal SDK はダッシュボードのリンクをサポートしているため
 
 Reveal SDK の観点からは、ダッシュボードのリンクは、エンドユーザーがビジュアル化されたリンクをクリックして別のダッシュボードをロードするときに呼び出されます。
 
-![](images/linking-open-campaigns.jpg)
+<img src="images/linking-open-campaigns.jpg" alt="" width="100%"/>
 
 ダッシュボードリンク機能の詳細については、Reveal のユーザーガイドの [ダッシュボードのリンク](../dashboards/dashboard-linking.md) を参照してください。
 

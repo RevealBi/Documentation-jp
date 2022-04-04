@@ -15,14 +15,14 @@ Reveal SDK を使用すると、ダッシュボードと表示形式の両方を
 
 すべてのエクスポート オプションは、ダッシュボードを開いたとき、または視覚化を最大化したときに、`RevealView` オーバー フロー メニューの **[エクスポート]** メニュー項目にあります。
 
-![](images/export-menu-item.jpg)
+<img src="images/export-menu-item.jpg" alt="" width="100%"/>
 
 ユーザーが **[エクスポート]** ボタンをクリックすると、有効なエクスポート オプションの 1 つを選択できます。
 
 ## Excel へエクスポート
 エンドユーザーが **[エクスポート]** オーバーフロー メニューから **[Excel]** メニュー項目をクリックすると、Excel のエクスポートが実行されます。
 
-![](images/export-excel.jpg)
+<img src="images/export-excel.jpg" alt="" width="100%"/>
 
 **[Excel]** メニュー項目は、`RevealView.showExportToExcel` プロパティを設定することで表示/非表示にできます。
 
@@ -32,7 +32,7 @@ revealView.showExportToExcel = false;
 
 **[Excel]** メニュー項目をクリックすると、エンドユーザーは、ワークブックのタイトル、ワークシートのタイトル、作成するワークシート、および表示形式を含めるかどうかを変更できるさまざまなオプションを求められます。
 
-![](images/export-excel-options.jpg)
+<img src="images/export-excel-options.jpg" alt="" width="100%"/>
 
 
 ## 画像へのエクスポート
@@ -43,7 +43,7 @@ Reveal SDK では、ダッシュボードまたは表示形式を画像にエク
 ### エンドユーザーによる画像エクスポート
 エンドユーザーの画像のエクスポートは、エンドユーザーが **[エクスポート]** オーバーフロー メニューから **[画像]** メニュー項目をクリックすると実行されます。
 
-![](images/export-image.jpg)
+<img src="images/export-image.jpg" alt="" width="100%"/>
 
 **[画像]** メニュー項目は、`RevealView.showExportImage` プロパティを設定することで表示/非表示にできます。
 
@@ -53,7 +53,7 @@ revealView.showExportImage = false;
 
 **[画像]** メニュー項目をクリックすると、エンドユーザーにダイアログが表示され、画像をクリップボードにコピーするか、組み込みの画像エディターを使用して画像を編集するか、画像を PNG としてディスクに保存するかを選択できます。
 
-![](images/export-image-options.jpg)
+<img src="images/export-image-options.jpg" alt="" width="100%"/>
 
 #### カスタム画像のエクスポート
 デフォルトでは、エンドユーザーが **[画像をエクスポート] ダイアログ**の **[画像をエクスポート]** ボタンをクリックすると、画像がエクスポートされ、エンドユーザーが画像ファイルを保存する場所を選択できるようにブラウザーのダウンロードに追加されます。ただし、この動作は傍受される可能性があり、代わりにカスタム画像エクスポート ロジックを使用できます。
@@ -109,7 +109,7 @@ function exportToImage() {
 ## PDF へのエクスポート
 PDF エクスポートは、エンドユーザーが **[エクスポート]** オーバーフロー メニューから **[PDF]** メニュー項目をクリックすると実行されます。
 
-![](images/export-pdf.jpg)
+<img src="images/export-pdf.jpg" alt="" width="100%"/>
 
 **[PDF]** メニュー項目は、`RevealView.ShowExportToPDF` プロパティを設定することで表示/非表示にできます。
 
@@ -119,12 +119,12 @@ revealView.showExportToPDF = false;
 
 **[PDF]** メニュー項目をクリックすると、エンドユーザーにさまざまなオプションの入力を求められます。これにより、ユーザーは PDF ドキュメントのタイトルを変更したり、ドキュメントに含める表示形式、各表示形式のタイトルと説明、ブランド、ページの向き、言語を選択ができます。
 
-![](images/export-pdf-options.jpg)
+<img src="images/export-pdf-options.jpg" alt="" width="100%"/>
 
 ## PowerPoint へエクスポート
 エンドユーザーが **[エクスポート]** オーバーフロー メニューから **[PowerPoint]** メニュー項目をクリックすると、PowerPoint のエクスポートが実行されます。
 
-![](images/export-powerpoint.jpg)
+<img src="images/export-powerpoint.jpg" alt="" width="100%"/>
 
 **PowerPoint** メニュー項目は、`RevealView.ShowExportToPowerpoint` プロパティを設定することで表示/非表示にできます。
 
@@ -134,4 +134,4 @@ revealView.showExportToPowerPoint = false;
 
 **PowerPoint** メニュー項目をクリックすると、エンドユーザーは、PowerPoint ドキュメントのタイトルを変更したり、ドキュメントに含める表示形式、各表示形式のタイトルと説明、およびブランディングを選択したりできるさまざまなオプションが表示されます。
 
-![](images/export-powerpoint-options.jpg)
+<img src="images/export-powerpoint-options.jpg" alt="" width="100%"/>

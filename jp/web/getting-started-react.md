@@ -4,7 +4,7 @@
 
 1 - お気に入りのターミナルを開きます。
 
-![](images/getting-started-angular-terminal.jpg)
+<img src="images/getting-started-angular-terminal.jpg" alt="" width="100%"/>
 
 2 - 「create-react-app」コマンドを使用して新しい React アプリケーションを作成します。
 
@@ -23,11 +23,11 @@
 
 1 - `public` フォルダーを展開し、`assets` と呼ばれる新しいフォルダーを作成します。`assets` フォルダー内に `reveal` と呼ばれる別のフォルダーを作成します。
 
-![](images/react-create-reveal-folder.jpg)
+<img src="images/react-create-reveal-folder.jpg" alt="" width="100%"/>
 
 2 - `%public%/Documents/Infragistics/Reveal/SDK/Web/JS/Client` にあるすべての JavaScript ファイルを以前作成した `assets/reveal` フォルダーにコピーします。
 
-![](images/react-copy-reveal-files.jpg)
+<img src="images/react-copy-reveal-files.jpg" alt="" width="100%"/>
 
 3 - `index.html` ファイルを開いて変更し、ページの下部に (`</body>` 終了タグの直前) `infragistics.reveal.js` スクリプトを含めます。
 
@@ -177,7 +177,7 @@ Visual Studio Code ターミナルで、`npm start` コマンドを入力しま�
 > npm start
 </pre>
 
-![](images/angular-app-running.jpg)
+<img src="images/angular-app-running.jpg" alt="" width="100%"/>
 
 完了しました! 最初の Reveal SDK React アプリケーションを作成しました。
 
