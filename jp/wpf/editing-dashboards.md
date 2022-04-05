@@ -157,7 +157,7 @@ _revealView.AvailableChartTypes.Add(RVChartType.ColumnChart);
 
 `true` に設定すると、このプロパティは、ダッシュボードが最初に読み込まれたときに `RevealView` を「編集モード」にします。
 
-<img src="images/editing-startineditmode.jpg" alt="" width="100%"/>
+<img src="images/editing-startineditmode.jpg" alt="" width="60%"/>
 
 ```xml
 <rv:RevealView x:Name="_revealView" StartInEditMode="True" />

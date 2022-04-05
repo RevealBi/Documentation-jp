@@ -14,7 +14,7 @@ _revealView.Dashboard = new RVDashboard();
 
 アプリケーションを実行すると、新しい空のダッシュボードが表示されます。
 
-<img src="images/getting-started-running-app.jpg" alt="" width="100%"/>
+<img src="images/getting-started-running-app.jpg" alt="" width="60%"/>
 
 ご覧のとおり、これにより使用する新しいダッシュボード インスタンスが提供されますが、ダッシュボードで使用するデータ ソースを `RevealView` に提供していない限り、エンドユーザーは新しいダッシュボードで新しい表示形式を作成できません。
 
