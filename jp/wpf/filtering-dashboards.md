@@ -2,7 +2,7 @@
 
 フィルターはダッシュボードの上部にあり、Reveal SDK を使用して変更できます。
 
-<img src="images/filtering-filter-location.jpg" alt="" width="100%"/>
+<img src="images/filtering-filter-location.jpg" alt="" width="60%"/>
 
 フィルタには次の 2 種類があります:
 - Date Filter (日付フィルター)
@@ -13,18 +13,18 @@
 
 **日付フィルター**は常に最初のフィルターであり、1 つしか存在できません。
 
-<img src="images/filtering-date-filter.jpg" alt="" width="100%"/>
+<img src="images/filtering-date-filter.jpg" alt="" width="60%"/>
 
 ### 日付間隔の使用
 事前定義された日付間隔のセットを使用してダッシュボードの**日付フィルター**を設定するには、`Dashboard.DateFilter` プロパティを `RVDateDashboardFilter` オブジェクトの新しいインスタンスに設定し、適切なRV `DateFilterType` 値をパラメーターとして使用する必要があります。
 
-例えば, このコード スニペットは、ダッシュボードの日付フィルターを**年度累計**に設定します。
+例えば, このコード スニペットは、ダッシュボードの日付フィルターを **YearToDate** に設定します。
 ```cs
 _revealView.Dashboard.DateFilter = new RVDateDashboardFilter(RVDateFilterType.YearToDate);
 ```
 ここでは、ダッシュボード UI が Date Filter を **[年度累計]** に更新したことを確認できます。
 
-<img src="images/filtering-date-filter-yeartodate.jpg" alt="" width="100%"/>
+<img src="images/filtering-date-filter-yeartodate.jpg" alt="" width="30%"/>
 
 `RVDateFilterType` の値は次のとおりです:
 - AllTime
@@ -51,7 +51,7 @@ _revealView.Dashboard.DateFilter = new RVDateDashboardFilter(RVDateFilterType.Ye
 ### カスタム日付範囲の使用
 カスタムの日付範囲を設定するには、`Dashboard.DateFilter` プロパティを `RVDateDashboardFilter` オブジェクトの新しいインスタンスに設定し、`RVDateFilterType.CustomRange` 値をパラメーターとして使用し、`RVDateRange` (fromDate 引数と toDate 引数を提供する) を 2 番目のパラメーターに指定する必要があります。
 
-この例では、`日付フィルター`を過去 75 日間にわたるカスタムの日付範囲に設定します。
+この例では、`DateFilter` を過去 75 日間にわたるカスタムの日付範囲に設定します。
 ```cs
 _revealView.Dashboard.DateFilter = new RVDateDashboardFilter(RVDateFilterType.CustomRange,
      new RVDateRange(DateTime.Now.AddDays(-75), DateTime.Now)
@@ -60,7 +60,7 @@ _revealView.Dashboard.DateFilter = new RVDateDashboardFilter(RVDateFilterType.Cu
 
 ここでは、ダッシュボード UI が更新され、日付範囲が表示されるように Date Filter が更新されていることがわかります。
 
-<img src="images/filtering-date-filter-daterange.jpg" alt="" width="100%"/>
+<img src="images/filtering-date-filter-daterange.jpg" alt="" width="30%"/>
 
 > [!NOTE]
 > 日付フィルターを示すサンプルは [GitHub](https://github.com/RevealBi/sdk-samples-wpf/tree/master/FilteringDashboards-Dates) にあります。
@@ -69,7 +69,7 @@ _revealView.Dashboard.DateFilter = new RVDateDashboardFilter(RVDateFilterType.Cu
 
 **ダッシュボード フィルター**は、日付フィルターが定義されている場合、日付フィルターの後に表示され、単一のダッシュボードに複数のダッシュボード フィルターを定義できます。この画像には、3 つのダッシュボード フィルター (Territory、Employee、Product) が定義されています。
 
-<img src="images/filtering-dashboard-filters.jpg" alt="" width="100%"/>
+<img src="images/filtering-dashboard-filters.jpg" alt="" width="60%"/>
 
 ダッシュボード フィルターを使用する場合、注意する必要がある主なオブジェクトは `RVDashboardFilter` オブジェクトです。`RVDashboardFilter` オブジェクトは、ダッシュボード用に定義された個々のフィルターを表します。フィルターのタイトル、選択可能な値、現在選択されている値など、フィルターに関する情報が含まれています。
 
@@ -79,7 +79,7 @@ _revealView.Dashboard.DateFilter = new RVDateDashboardFilter(RVDateFilterType.Cu
 - **SelectedValues (3)** -フィルター用に選択された値のコレクション。これらは、UI のフィルター ドロップダウン内のチェックボックスで表されます。
 - **GetFilterValuesAsync() (2)** - フィルターで使用可能なすべてのフィルター値のコレクションを返します。これらはドロップダウン リストのオプションとして機能し、適用/選択するフィルター値を選択します。
 
-<img src="images/filtering-filter-legend.jpg" alt="" width="100%"/>
+<img src="images/filtering-filter-legend.jpg" alt="" width="60%"/>
 
 ### すべてのフィルターの取得
 

@@ -7,7 +7,7 @@
 <div id="revealView" style="height: 800px; width: 100%;"></div>
 ```
 
-次に、JavaScript で、`$。ig.RevealView.Dashboard` プロパティを `$.ig.RVDashboard` オブジェクトの新しいインスタンスに設定します。
+次に、JavaScript で、`$.ig.RevealView.Dashboard` プロパティを `$.ig.RVDashboard` オブジェクトの新しいインスタンスに設定します。
 ```javascript
 var revealView = new $.ig.RevealView("#revealView");
 revealView.dashboard = new $.ig.RVDashboard();

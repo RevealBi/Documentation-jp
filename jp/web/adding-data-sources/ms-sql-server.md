@@ -60,4 +60,4 @@ revealView.onDataSourcesRequested = (callback) => {
 <img src="images/ms-sql-server-data-source-item.jpg" alt="" width="40%"/>
 
 > [!IMPORTANT]
-> サーバーがクライアント アプリケーションとは異なる URL で実行されている場合は、`$。ig.RevealSdkSettings.setBaseUrl` を呼び出す必要があります。サーバー アプリケーションとクライアント アプリケーションの両方が同じ URL で実行されている場合、このメソッドは必要ありません。このメソッドを呼び出す必要があるのは 1 回だけです。
+> サーバーがクライアント アプリケーションとは異なる URL で実行されている場合は、`$.ig.RevealSdkSettings.setBaseUrl` を呼び出す必要があります。サーバー アプリケーションとクライアント アプリケーションの両方が同じ URL で実行されている場合、このメソッドは必要ありません。このメソッドを呼び出す必要があるのは 1 回だけです。

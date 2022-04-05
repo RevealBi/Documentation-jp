@@ -2,7 +2,7 @@
 
 **手順 1** - Excel ファイルを含むフォルダーを作成します。
 
-<img src="images/excel-file-folder.jpg" alt="" width="100%"/>
+<img src="images/excel-file-folder.jpg" alt="" width="40%"/>
 
 > [!NOTE]
 > Visual Studio の [プロパティ ウィンドウ] で、Excel ファイルの [出力ディレクトリにコピー] プロパティを [常にコピーする] または [新しい場合はコピーする] に設定してください。
@@ -82,7 +82,7 @@ private void RevealView_DataSourcesRequested(object sender, Reveal.Sdk.DataSourc
 
 アプリケーションが実行されたら、新しい表示形式を作成すると、[データ ソースの選択] ダイアログに新しく作成された Excel ファイル データ ソースが表示されます。
 
-<img src="images/excel-file-data-source.jpg" alt="" width="100%"/>
+<img src="images/excel-file-data-source.jpg" alt="" width="40%"/>
 
 > [!NOTE]
 > このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-wpf/tree/master/AddingDataSources/ExcelFile) にあります。

@@ -1,13 +1,13 @@
 # 表示形式の最大化
 ユーザーにダッシュボードを表示するときに、最大化された視覚化を 1 つだけ表示したい場合があります。さらに、最初の表示形式をロックして、ユーザーがダッシュボード全体にアクセスできないようにすることもできます。Desktop SDK を使用して両方のシナリオを実現できます。
 
-<img src="images/maximize-three_divisions_dashboard_maximized.png" alt="Displaying a dashboard with a maximized visualization" width="100%"/>
+<img src="images/maximize-three_divisions_dashboard_maximized.png" alt="Displaying a dashboard with a maximized visualization" width="60%"/>
 
 #### サンプル詳細
 
 表示した 3 つのダッシュボードがあり、それぞれの表示形式に会社の異なる部門のデータが表示されているとします。
 
-<img src="images/maximize-three_divisions_dashboard.png" alt="Displaying a dashboard with three visualizations" width="100%"/>
+<img src="images/maximize-three_divisions_dashboard.png" alt="Displaying a dashboard with three visualizations" width="60%"/>
 
 この例では、業務アプリケーションでこれらの表示形式を使用します。各部門のホーム ページに表示される情報の一部としてそれらを含める必要があります。
 

@@ -21,7 +21,7 @@
 
 *Marketing* サンプルの初期状態:
 
-<img src="images/localize-dashboard-title-initial-state.jpg" alt="Initial state of the Marketing Sample" width="100%"/>
+<img src="images/localize-dashboard-title-initial-state.jpg" alt="Initial state of the Marketing Sample" width="60%"/>
 
 以下の手順に従って、*Marketing* ダッシュボードのタイトルを *Localized Marketing* にローカライズします。
 
@@ -67,7 +67,7 @@
 
 アプリを再度実行すると、ローカライズされたダッシュボードのタイトル (*Localized Marketing*) が表示されます。
 
-<img src="images/localize-dashboard-title-localized.jpg" alt="Localized Marketing Sample Title" width="100%"/>
+<img src="images/localize-dashboard-title-localized.jpg" alt="Localized Marketing Sample Title" width="60%"/>
 
 <a name='localize-field-label'></a>
 #### フィールド ラベルのローカライズの例
@@ -76,7 +76,7 @@
 
 以下は、*Marketing* サンプルの表示形式 (*Actual Spend vs Budget*) で初期状態の 1 つの例です:
 
-<img src="images/localize-field-label-initial-state.jpg" alt="initial state of the Actual Spend vs Budget visualization" width="100%"/>
+<img src="images/localize-field-label-initial-state.jpg" alt="initial state of the Actual Spend vs Budget visualization" width="60%"/>
 
 *Date* フィールド ラベルをローカライズするには、*Date* フィールドのローカリゼーションを処理するロジックを **UpMediaLocalizationService** に追加する必要があります。
 
@@ -106,7 +106,7 @@ public class UpMediaLocalizationService : IRVLocalizationService
 
 *Actual Spend vs Budget* の *Date* フィールド ラベルが *Localized Date* に変更されました。
 
-<img src="images/localize-dashboard-field-label-localized.jpg" alt="localized date field label" width="100%"/>
+<img src="images/localize-dashboard-field-label-localized.jpg" alt="localized date field label" width="60%"/>
 
 手順の例に従って、その他のダッシュボード要素をローカライズできます。
 
@@ -119,7 +119,7 @@ public class UpMediaLocalizationService : IRVLocalizationService
 
 以下の *Spend vs Budget* 表示形式の初期状態では、米ドル ($) 通貨で書式設定された数値フィールドを示します。
 
-<img src="images/localize-numeric-field-us-dollars-currency.jpg" alt="Original numeric field in US Dollars currency format" width="100%"/>
+<img src="images/localize-numeric-field-us-dollars-currency.jpg" alt="Original numeric field in US Dollars currency format" width="60%"/>
 
 通貨書式を変更するには、新しい書式設定を作成し、**IRVLocalizationService** の実装の ***GetFormattingSettingsForField** メソッドでそれらを返す必要があります。
 
@@ -157,18 +157,18 @@ public class UpMediaLocalizationService : IRVLocalizationService
 
 現在、金額は別の通貨で表示されます。
 
-<img src="images/localize-numeric-field-changed-currency-yen.jpg" alt="Changed numeric field in Japanese Yen currency format" width="100%"/>
+<img src="images/localize-numeric-field-changed-currency-yen.jpg" alt="Changed numeric field in Japanese Yen currency format" width="60%"/>
 
 <a name='format-date-field'></a>
 #### 日付フィールドの書式設定の変更の例
 
-現在、集計された日付フィールドの書式設定の変更は、ローカリゼーション サービスでは設定できず、ピボットの値には影響しません。これを実現するには、[書式設定サービス](formatting-service.md)を使用する必要があります。
+現在、集計された日付フィールドの書式設定の変更は、ローカリゼーション サービスでは設定できず、ピボットの値には影響しません。これを実現するには、[書式設定サービス](formatting-data.md)を使用する必要があります。
 
 ローカリゼーション サービスでは、**非集計日付フィールド**の書式設定を変更できます。
 
 まず、集計データを除外するために、*Actual Spend vs Budget* 表示形式を**グリッド**に変更します。
 
-<img src="images/localize-visualization-grid-format-original-date.jpg" alt="Visualization in Grid format" width="100%"/>
+<img src="images/localize-visualization-grid-format-original-date.jpg" alt="Visualization in Grid format" width="60%"/>
 
 *Date* フィールドの書式設定を変更するには、**GetFormattingSettingsForField** メソッドのロジックに設定を追加する必要があります。以下のコード スニペットは、January 01、2001 のように、日付形式を変更して月のフルネームを表示する方法を示しています。
 
@@ -208,4 +208,4 @@ public RVFormattingSpec GetFormattingSettingsForField(string fieldName, RVDashbo
 
 アプリを再度実行し、表示形式をグリッドに変更すると、更新された日付形式が表示されます。
 
-<img src="images/localize-visualization-grid-format-changed-date.jpg" alt="Visualization in grid format with changed date format" width="100%"/>
+<img src="images/localize-visualization-grid-format-changed-date.jpg" alt="Visualization in grid format with changed date format" width="60%"/>

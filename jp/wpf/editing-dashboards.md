@@ -8,7 +8,7 @@
 
 このプロパティは、表示形式を作成および編集するためにエンドユーザーが使用できるチャート タイプを定義するために使用されます。
 
-<img src="images/editing-availablecharttypes.jpg" alt="" width="100%"/>
+<img src="images/editing-availablecharttypes.jpg" alt="" width="70%"/>
 
 `RevealView.AvailableChartTypes` コレクションのチャート タイプのみがエンドユーザーに表示されます。
 
@@ -75,7 +75,7 @@ _revealView.AvailableChartTypes.Add(RVChartType.ColumnChart);
 
 このプロパティは、表示形式エディターの [計算フィールド] メニュー項目を表示 / 非表示にします。
 
-<img src="images/editing-canaddcalculatedfields.jpg" alt="" width="100%"/>
+<img src="images/editing-canaddcalculatedfields.jpg" alt="" width="40%"/>
 
 ```xml
 <rv:RevealView x:Name="_revealView" CanAddCalculatedFields="False" />
@@ -85,7 +85,7 @@ _revealView.AvailableChartTypes.Add(RVChartType.ColumnChart);
 
 このプロパティは、ダッシュボードの **[ダッシュボード フィルターの追加]** メニュー項目を表示/非表示にします。
 
-<img src="images/editing-canadddashboardfilter.jpg" alt="" width="100%"/>
+<img src="images/editing-canadddashboardfilter.jpg" alt="" width="40%"/>
 
 ```xml
 <rv:RevealView x:Name="_revealView" CanAddDashboardFilter="False" />
@@ -95,7 +95,7 @@ _revealView.AvailableChartTypes.Add(RVChartType.ColumnChart);
 
 このプロパティは、ダッシュボードの **[日付フィルターの追加]** メニュー項目を表示/非表示にします。
 
-<img src="images/editing-canadddatefilter.jpg" alt="" width="100%"/>
+<img src="images/editing-canadddatefilter.jpg" alt="" width="40%"/>
 
 ```xml
 <rv:RevealView x:Name="_revealView" CanAddDateFilter="False" />
@@ -105,7 +105,7 @@ _revealView.AvailableChartTypes.Add(RVChartType.ColumnChart);
 
 このプロパティは、表示形式視覚化エディターのフィールド セクションの **F(x)** メニュー項目を表示/非表示にします。
 
-<img src="images/editing-canaddpostcalculatedfields.jpg" alt="" width="100%"/>
+<img src="images/editing-canaddpostcalculatedfields.jpg" alt="" width="30%"/>
 
 ```xml
 <rv:RevealView x:Name="_revealView" CanAddPostCalculatedFields="False" />
@@ -115,7 +115,7 @@ _revealView.AvailableChartTypes.Add(RVChartType.ColumnChart);
 
 このプロパティは、表示形式の **[コピー]** メニュー項目を表示/非表示にします。
 
-<img src="images/editing-cancopyvisualization.jpg" alt="" width="100%"/>
+<img src="images/editing-cancopyvisualization.jpg" alt="" width="40%"/>
 
 ```xml
 <rv:RevealView x:Name="_revealView" CanCopyVisualization="False" />
@@ -125,7 +125,7 @@ _revealView.AvailableChartTypes.Add(RVChartType.ColumnChart);
 
 このプロパティは、表示形式の **[複製]** メニュー項目を表示/非表示にします。
 
-<img src="images/editing-canduplicatevisualization.jpg" alt="" width="100%"/>
+<img src="images/editing-canduplicatevisualization.jpg" alt="" width="40%"/>
 
 ```xml
 <rv:RevealView x:Name="_revealView" CanDuplicateVisualization="False" />
@@ -135,7 +135,7 @@ _revealView.AvailableChartTypes.Add(RVChartType.ColumnChart);
 
 このプロパティは、ダッシュボードの **[編集]** メニュー項目を表示/非表示にします。
 
-<img src="images/editing-canedit.jpg" alt="" width="100%"/>
+<img src="images/editing-canedit.jpg" alt="" width="40%"/>
 
 ```xml
 <rv:RevealView x:Name="_revealView" CanEdit="False" />
@@ -147,7 +147,7 @@ _revealView.AvailableChartTypes.Add(RVChartType.ColumnChart);
 
 このプロパティは、表示形式エディターでデータ ソースの **[編集]** メニュー項目を表示/非表示にします。
 
-<img src="images/editing-showeditdatasource.jpg" alt="" width="100%"/>
+<img src="images/editing-showeditdatasource.jpg" alt="" width="50%"/>
 
 ```xml
 <rv:RevealView x:Name="_revealView" ShowEditDataSource="False" />
@@ -167,7 +167,7 @@ _revealView.AvailableChartTypes.Add(RVChartType.ColumnChart);
 
 `true` に設定すると、このプロパティはすぐに [新しい表示形式] ダイアログを起動し、データ ソースを選択するように求めます。
 
-<img src="images/editing-startwithnewvisualization.jpg" alt="" width="100%"/>
+<img src="images/editing-startwithnewvisualization.jpg" alt="" width="40%"/>
 
 ```xml
 <rv:RevealView x:Name="_revealView" StartWithNewVisualization="False" />
@@ -283,7 +283,7 @@ private void Dashboard_PropertyChanged(object sender, System.ComponentModel.Prop
 ```
 
 次のプロパティの値を変更すると、`RVDashboard.PropertyChanged` イベントが呼び出されます:
-- **DateFilter** - ダッシュボードの日付フィルター。詳細については、[フィルタリング](filtering-dashboards.md#date-filter)のトピックをお読みください。
+- **DateFilter** - ダッシュボードの日付フィルター。詳細については、[フィルタリング](filtering-dashboards.md#日付フィルター)のトピックをお読みください。
 - **HasPendingChanges** - 現在のダッシュボードに変更が加えられている場合は `true` を返します。それ以外の場合は `false`。
 - **Title** - `RevealView` に表示されるダッシュボードのタイトル
 

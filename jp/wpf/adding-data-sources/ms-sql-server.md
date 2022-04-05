@@ -43,7 +43,7 @@ private void RevealView_DataSourcesRequested(object sender, Reveal.Sdk.DataSourc
 
 アプリケーションが実行されたら、新しい表示形式を作成すると、[データ ソースの選択] ダイアログに新しく作成された  MS SQL Server データ ソースが表示されます。
 
-<img src="images/ms-sql-server-data-source.jpg" alt="" width="100%"/>
+<img src="images/ms-sql-server-data-source.jpg" alt="" width="40%"/>
 
 **手順 3** - `RVSqlServerDataSourceItem` オブジェクトの新しいインスタンスを作成して、新しいデータ ソース項目を追加します。データベース テーブルに対応する `Id`、および `Table` プロパティを設定します。`RVSqlServerDataSourceItem` オブジェクトを作成したら、それをデータ ソース コレクションに追加します。
 
@@ -74,4 +74,4 @@ private void RevealView_DataSourcesRequested(object sender, Reveal.Sdk.DataSourc
 
 アプリケーションが実行されたら、新しい可否化を作成すると、[データ ソースの選択] ダイアログに新しく作成された MS SQL Server データ ソース項目が表示されます。
 
-<img src="images/ms-sql-server-data-source-item.jpg" alt="" width="100%"/>
+<img src="images/ms-sql-server-data-source-item.jpg" alt="" width="40%"/>
