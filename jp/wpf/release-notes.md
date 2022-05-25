@@ -16,7 +16,6 @@
         </tr>
     </thead>
     <tbody>
-
     <tr>
         <td rowspan="4">5 月 2022 年</td>
         <td rowspan="4">1.1.5</td>
