@@ -63,6 +63,24 @@ revealView.onVisualizationSeriesColorAssigning = function(visualization, default
         <td>[公開バグ修正] Fixed link to help page displayed by the installer when the installation is ready.
         </td>
     </tr>        
+        <td rowspan="4">5 月 2022 年</td>
+        <td rowspan="4">1.1.5</td>
+        <td>RVDateFilter.range プロパティは、選択したフィルター タイプに基づいて日付範囲を返すようになりました。<br>
+         RVDateFilter.range は、以前フィルターがカスタム範囲に設定されている場合のみ有効な値を返していました。
+        </td>
+    </tr>
+    <tr>
+        <td><i>[公開バグ修正] IRVDataSourceProvider API を使用してフィルターのデータ ソースを置き換えたときにダッシュボード フィルターのカスケードが機能しない問題を修正しました。</i><br>        
+        </td>
+    </tr>        
+    <tr>
+        <td><i>[公開バグ修正] チャートの集計日付を日付フィルターにマッピングするダッシュボードの問題を修正しました。(一部のタイムゾーンで間違った日付範囲にマッピングしていました。)</i><br>        
+        </td>
+    </tr>        
+    <tr>
+        <td><i>[公開バグ修正] onVisualizationDataPointClicked が時系列表示形式で呼び出されない問題を修正しました。</i><br>        
+        </td>
+    </tr>   
     <tr>
         <td rowspan="3">3 月 2022 年</td>
         <td rowspan="3">1.1.4</td>

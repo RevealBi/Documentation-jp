@@ -76,6 +76,24 @@ private Color RevealView_VisualizationSeriesColorAssigning(RVVisualization visua
         <td>[公開バグ修正] Fixed crash running WPF SDK in Windows 7.
         </td>
     </tr>
+        <td rowspan="4">5 月 2022 年</td>
+        <td rowspan="4">1.1.5</td>
+        <td>RVDateDashboardFilter.Range プロパティは、選択したフィルター タイプに基づいて日付範囲を返すようになりました。<br>
+         RVDateDashboardFilter.Range は、以前フィルターがカスタム範囲に設定されている場合のみ有効な値を返していました。
+        </td>
+    </tr>
+    <tr>
+        <td>[公開バグ修正] IRVDataSourceProvider API を使用してフィルターのデータ ソースを置き換えたときにダッシュボード フィルターのカスケードが機能しない問題を修正しました。<br>        
+        </td>
+    </tr>        
+    <tr>
+        <td>[公開バグ修正] チャートの集計日付を日付フィルターにマッピングするダッシュボードの問題を修正しました。(一部のタイムゾーンで間違った日付範囲にマッピングしていました。<br>        
+        </td>
+    </tr>        
+    <tr>
+        <td>[公開バグ修正] onVisualizationDataPointClicked が時系列表示形式で呼び出されない問題を修正しました。<br>        
+        </td>
+    </tr>   
     <tr>
         <td rowspan="1">3 月 2022 年</td>
         <td rowspan="1">1.1.4</td>
