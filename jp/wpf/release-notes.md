@@ -17,6 +17,66 @@
     </thead>
     <tbody>
     <tr>
+        <td rowspan="7">6 月 2022 年</td>
+        <td rowspan="7">1.1.7</td>
+        <td>New initial zoom level feature for charts (only for new charts enabled with RevealSdkSettings.EnableNewCharts = true).
+        <br>The initial zoom level can be controlled by the end-user in the Settings panel for the visualization.</br>
+        </td>
+    </tr>
+    <tr>
+        <td>Added a way to assign chart colors programmatically through RevealView.VisualizationSeriesColorAssigning event.       
+<br>
+        The following code snippet returns red color for High and green for Low, for all Pie charts:
+        <br><code><pre>
+revealView.VisualizationSeriesColorAssigning += RevealView_VisualizationSeriesColorAssigning;
+private Color RevealView_VisualizationSeriesColorAssigning(RVVisualization visualization, Color defaultColor, string fieldName, string categoryName)
+{
+    if (visualization.ChartType == RVChartType.PieChart)
+    {
+        if (categoryName == "High")
+        {
+            return Color.FromRgb(255, 0, 0);
+        }
+        else if (categoryName == "Low")
+        {
+            return Color.FromRgb(0, 255, 0);
+        }
+    }
+    return defaultColor;
+}
+        </pre></code>
+        </br>   
+        </td>
+    </tr>        
+    <tr>
+        <td>End user can now control the Others slice for Pie and Doughnut visualizations.       
+        <br>In the Settings panel for the visualization the end-user can select a threshold (all slices under that value will be merged in a single Others slice) or disable the feature completely.</br>
+        </td>
+    </tr>
+    <tr>
+        <td>[公開バグ修正] Fixed how dashboard filters with required single selection work after the initial configuration.
+        <br>In the past the initial state after creating the filter was showing all elements selected which is not a valid state if required single selection is enabled.</br>        
+        </td>
+    </tr>        
+    <tr>
+        <td>[公開バグ修正] Fixed formatting used in the breadcrumb (displayed when drill-down is used) for numeric fields, in the past the formatting for the field was ignored.
+        </td>
+    </tr>        
+    <tr>
+        <td>[公開バグ修正] Fixed issue with Text visualization displaying NaN when there's no data instead of the "No data" message.
+        </td>
+    </tr>        
+    <tr>
+        <td>[公開バグ修正] Fixed link to help page displayed by the installer when the installation is ready.
+        </td>
+    </tr>        
+    <tr>
+        <td rowspan="1">6 月 2022 年</td>
+        <td rowspan="1">1.1.6</td>
+        <td>[公開バグ修正] Fixed crash running WPF SDK in Windows 7.
+        </td>
+    </tr>
+    <tr>
         <td rowspan="1">3 月 2022 年</td>
         <td rowspan="1">1.1.4</td>
         <td>内部バグ修正。
