@@ -19,14 +19,14 @@
     <tr>
         <td rowspan="7">6 月 2022 年</td>
         <td rowspan="7">1.1.7</td>
-        <td>New initial zoom level feature for charts (only for new charts enabled with RevealSdkSettings.EnableNewCharts = true).
-        <br>The initial zoom level can be controlled by the end-user in the Settings panel for the visualization.</br>
+        <td>チャートの新しい初期ズーム レベル機能 (RevealSdkSettings.EnableNewCharts = true で有効にされた新しいチャートの場合のみ)。
+        <br>初期ズーム レベルは、視覚化のための設定パネルでエンドユーザーが制御できます。</br>
         </td>
     </tr>
     <tr>
-        <td>Added a way to assign chart colors programmatically through RevealView.VisualizationSeriesColorAssigning event.       
+        <td>RevealView.VisualizationSeriesColorAssigning イベントを介してプログラムでチャートの色を割り当てる方法が追加されました。       
 <br>
-        The following code snippet returns red color for High and green for Low, for all Pie charts:
+        次のコード スニペットは、すべての円チャートについて、高の場合は赤色、低の場合は緑色を返します:
         <br><code><pre>
 revealView.VisualizationSeriesColorAssigning += RevealView_VisualizationSeriesColorAssigning;
 private Color RevealView_VisualizationSeriesColorAssigning(RVVisualization visualization, Color defaultColor, string fieldName, string categoryName)
@@ -49,31 +49,31 @@ private Color RevealView_VisualizationSeriesColorAssigning(RVVisualization visua
         </td>
     </tr>        
     <tr>
-        <td>End user can now control the Others slice for Pie and Doughnut visualizations.       
-        <br>In the Settings panel for the visualization the end-user can select a threshold (all slices under that value will be merged in a single Others slice) or disable the feature completely.</br>
+        <td>エンドユーザーは、円とドーナツの視覚化の「その他」のスライスを制御できるようになりました。       
+        <br>視覚化の [設定] パネルで、エンドユーザーはしきい値を選択するか (その値より下のすべてのスライスが単一の 「その他」 のスライスにマージされます)、機能を完全に無効にすることができます。</br>
         </td>
     </tr>
     <tr>
-        <td>[公開バグ修正] Fixed how dashboard filters with required single selection work after the initial configuration.
-        <br>In the past the initial state after creating the filter was showing all elements selected which is not a valid state if required single selection is enabled.</br>        
+        <td>[公開バグ修正] 初期構成後に、必要な単一選択を含むダッシュボード フィルターがどのように機能するかを修正しました。
+        <br>以前は、フィルターを作成した後の初期状態では、選択されたすべての要素が表示されていましたが、必要な単一選択が有効になっている場合は有効な状態ではありません。</br>        
         </td>
     </tr>        
     <tr>
-        <td>[公開バグ修正] Fixed formatting used in the breadcrumb (displayed when drill-down is used) for numeric fields, in the past the formatting for the field was ignored.
+        <td>[公開バグ修正] 数値フィールドのブレッドクラム (ドリルダウンが使用されている場合に表示される) で使用される書式を修正しました。これまで、フィールドの書式は無視されていました。
         </td>
     </tr>        
     <tr>
-        <td>[公開バグ修正] Fixed issue with Text visualization displaying NaN when there's no data instead of the "No data" message.
+        <td>[公開バグ修正]「データなし」メッセージの代わりにデータがない場合に NaN を表示するテキスト視覚化の問題を修正しました。
         </td>
     </tr>        
     <tr>
-        <td>[公開バグ修正] Fixed link to help page displayed by the installer when the installation is ready.
+        <td>[公開バグ修正] インストールの準備ができたときにインストーラーによって表示されるヘルプ ページへのリンクを修正しました。
         </td>
     </tr>        
     <tr>
         <td rowspan="1">6 月 2022 年</td>
         <td rowspan="1">1.1.6</td>
-        <td>[公開バグ修正] Fixed crash running WPF SDK in Windows 7.
+        <td>[公開バグ修正] Windows 7 で WPF SDK を実行するとクラッシュする問題を修正しました。
         </td>
     </tr>
         <td rowspan="4">5 月 2022 年</td>
