@@ -38,6 +38,8 @@
   href: theming-dashboards.md
 - name: データ ソースの使用
   header: true
+- name: データ ソース
+  href: datasources.md
 - name: データ ソースの追加
   items:
     - name: Excel ファイル
