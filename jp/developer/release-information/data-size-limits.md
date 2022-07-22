@@ -1,23 +1,23 @@
-#Data Limits
+#データ制限
 
-There are size limits server-side when using Reveal Web regarding the size of files downloaded, the number of cells in a result set (after aggregation), size of pivot tables and grids (given as a number of cells).
-The objective of these limits are to prevent our servers to run out of resources (memory and disk space.
+ダウンロードされたファイルのサイズ、結果セット内のセルの数 (集計後)、ピボット テーブルとグリッドのサイズ (セルの数として指定) に関して、Reveal Web を使用する場合のサーバー側のサイズ制限があります。
+これらの制限の目的は、サーバーのリソース (メモリとディスク領域) が不足するのを防ぐことです。
 
-Default limit Values:
+デフォルトの制限値:
 
--	200mb when downloading csv/json/excel
--	10 million cells
--	64 million characters (adding all the strings in all cells).
+-	csv/json/excel をダウンロードする場合は 200mb
+-	1000 万のセル
+-	6400 万文字 (すべてのセルにすべての文字列を追加)
 
-##Modifying Default Values
+##デフォルト値を変更
 
-###Source 
+###ソース 
 [**InitializeParameterBuilder**](https://help.revealbi.io/api/java/latest/com/infragistics/reveal/engine/init/InitializeParameterBuilder.html).
 
 
-| Property  |   Type| Description  |  
+| プロパティ  |   型| 説明  |  
 |---|---|---|
-|  setMaxInMemoryCells | Long  |  Set this property to the expected maximum size of pivot tables or grids, given as a number of cells |
-|  setMaxStorageCells | Long  | Set this property to the expected maximum size of cells to be processed from any data source  |
-|  setMaxStringCellSize | Integer  |  Sets a limit on the number of characters any string in a dataset column may have |
-|  SsetMaxTotalStringsSize | Long  | Set this property to the expected maximum size of pivot tables or grids, given as the total number of characters in all of its cells. |
+|  setMaxInMemoryCells | Long  |  このプロパティを、セルの数として指定されたピボット テーブルまたはグリッドの予想される最大サイズに設定します。 |
+|  setMaxStorageCells | Long  | このプロパティを、任意のデータ ソースから処理されるセルの予想される最大サイズに設定します。  |
+|  setMaxStringCellSize | Integer  |  データセット列の文字列が持つことができる文字数の制限を設定します。 |
+|  SsetMaxTotalStringsSize | Long  | このプロパティを、すべてのセルの文字の総数として指定された、ピボット テーブルまたはグリッドの予想される最大サイズに設定します。 |

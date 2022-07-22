@@ -45,3 +45,5 @@
   href: release-information/third-party-software.md
 - name: アーカイブ済みのドキュメント
   href: release-information/archived-docs.md
+- name: データ サイズの制限
+  href: release-information/data-size-limits.md

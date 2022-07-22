@@ -76,3 +76,5 @@
   href: release-notes.md
 - name: サードパーティ ソフトウェア
   href: third-party-software.md
+- name: データ サイズの制限
+  href: data-size-limits.md
