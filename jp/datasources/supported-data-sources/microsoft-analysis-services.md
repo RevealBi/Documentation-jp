@@ -17,7 +17,7 @@ Native および HTTP モードの詳細については、[Microsoft Instance Ma
 
 Microsoft Analysis Services データ ソースを *Native* モード用に構成するため、以下の情報が必要です。
 
-<img src="images/microsoft-analysis-native-configuration.png" alt="Configure Microsoft Analysis Services connection" class="responsive-img"/>
+<img src="../images/native-configuration-microsoft-analysis-services.png" alt="Configure Microsoft Analysis Services connection" class="responsive-img"/>
 
 1. データ ソースの**デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Microsoft Analysis Services* という名前を付けます。好みに合わせて変更できます。
 
@@ -49,7 +49,7 @@ Microsoft Analysis Services データ ソースを *Native* モード用に構�
 
 Microsoft Analysis Services データ ソースを *HTTP* モード用に構成するため、以下の情報が必要です。
 
-<img src="images/miscrosoft-analysis-http-config.png" alt="Configure Microsoft Analysis HTTP mode connection" class="responsive-img"/>
+<img src="../images/http-configuration-microsoft-analysis-services.png" alt="Configure Microsoft Analysis HTTP mode connection" class="responsive-img"/>
 
 1.  **データ ソース名**: このフィールドはデータ ソース リストに表示されます。デフォルト名: *Microsoft Analysis Services*。
 
@@ -59,22 +59,19 @@ Microsoft Analysis Services データ ソースを *HTTP* モード用に構成�
 
 ## データベースの構成
 
-Analysis Services サーバーの資格情報が確認されたら、Reveal はサーバー上のデータベースを読み込んで表示します。
+After your credentials for the Analysis Services server are verified,
+Reveal will load and show the databases on the server. Select a database and click *Continue* to set it up.
 
-<img src="images/MSAnalysisDatabases_All.png" alt="MSAnalysisDatabases\_All" class="responsive-img"/>
+Choose a database *cube* and click/tap on **Select Data** to continue to the *Visualizations Editor*.
 
-データベースを選択し、[続行] をクリックして設定します。
-
-<img src="images/MSAnalysisCubes_All.png" alt="MSAnalysisCubes\_All" class="responsive-img"/>
-
-データベース キューブを選択し、[データの選択] をクリック/タップして、表示形式エディターに進みます。
+<img src="../images/data-source-cubes-ssas.png" alt="A list of different cubes in the Data Source Details dialog" class="responsive-img"/>
 
 <a name='visualization-editor'></a>
 ## 表示形式エディターでの作業
 
 Microsoft Analysis Services などのキューブ データ ソースを使用してダッシュボードを作成すると、*表示形式エディター*でフィールドが異なって体系化されます (下のスクリーンショットを参照)。キューブのデータ ソースは、キューブのデザイナーが事前に作成した階層と集計で構成されています。
 
-<img src="images/VisEditorDimensionsMeasures_All.png" alt="VisEditorDimensionsMeasures\_All" class="responsive-img"/>
+<img src="../images/visualization-editor-ssas.png" alt="Using the Microsoft Analysis Service data source information in the visualization editor" class="responsive-img"/>
 
 上のスクリーンショットでは、左側に [フィールド] の見出しがないことに気付くかもしれません。代わりに、クエリ フィールドに 2 つのセクションがあります:
 
@@ -88,7 +85,7 @@ Microsoft Analysis Services などのキューブ データ ソースを使用�
 
 2.  **メジャー** (123 アイコンで表示): メジャーは数値データで構成されます。
 
-<img src="images/PivotTableExampleMSAnalysis_All.png" alt="PivotTableExampleMSAnalysis\_All" class="responsive-img"/>
+<img src="../images/visualization-editor-ssas-pivot-chart.png" alt="Using the visualizatio editor with a pivot chart" class="responsive-img"/>
 
 ディメンションとメジャーの詳細については、[Technet](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2012/ms174527\(v=sql.110\)) の記事をご覧ください。
 
@@ -99,4 +96,24 @@ Microsoft Analysis Services などのキューブ データ ソースを使用�
 
 有効にするには、行または列でディメンションを選択します。[昇順] または [降順] を選択してフィールドの並べ替えを有効にし、[キャプションにより並べ替える] オプションを表示します。
 
-<img src="images/SortByCaption_All.png" alt="SortByCaption\_All" class="responsive-img"/>
+<img src="../images/sort-by-option-ssas.png" alt="Dialog with the sort by caption option" class="responsive-img" width="60%" />
+
+## Settings 
+
+Depending on the chart type, you can make different changes in the settings. In this case we used the pivot chart type where you can adjust the following through the settings menu:
+- Show Title
+- Text Fields Alignment
+- Number Fields Alignment
+- Date Fields Alignment
+- Font Size
+- Show Grand Totals
+- Connect the visualization to another dashboard or a URL
+
+
+When you are ready with the visualization editor, you can save the dashboard in **My Analytics**>**My Dashboards** or in a specific workspace. 
+
+<img src="../images/ssas-dashboard-my-analytics.png" alt="Dasboard with an information from the microsoft analysis services data source in My Analytics" class="responsive-img"/>
+
+> [!NOTE]
+In case you've entered wrong credentials, you will get an error message (screenshot below). You can click on *Log into Microsoft Analysis Services* and update your credentials. That should fix the issue. 
+<img src="../images/microsoft-analysis-services-authentication-failed.png" alt="Displaying the error message authentication failed" class="responsive-img"/>

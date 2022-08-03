@@ -1,3 +1,9 @@
+---
+title: How to Use mage Tiles with Scatter Maps
+_description: Learn all about the image tile feature that will allow you to switch to a different map layer upon zooming.
+_language: ja
+---
+
 # 散布マップで画像タイルの使用
 
 **画像タイル**機能を使用して、ズーム時に Reveal のクリア グレーの背景から別のマップ レイヤーに切り替えることができます。マップ サービス プロバイダーから提供される追加の詳細は、分析のコンテキストを提供します。

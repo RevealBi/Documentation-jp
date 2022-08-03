@@ -1,3 +1,9 @@
+---
+title: How to Create Radial Charts Visualization
+_description: Find out how to create and use Radial Charts visualization in Slingshot Analytics.
+_language: ja
+---
+
 # ラジアル チャート
 
 カテゴリ チャートと同様に、ラジアル チャートは情報を座標上に表現したものです。

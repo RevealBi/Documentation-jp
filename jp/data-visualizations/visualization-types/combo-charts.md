@@ -1,3 +1,9 @@
+---
+title: How to Create and Use Combo Charts 
+_description: Find out how to use Combo Charts for your visualizations in Slingshot Analytics.
+_language: ja
+---
+
 # 複合チャート
 
 1 つのチャートに複数の種類のチャートを組み合わせたチャートです。

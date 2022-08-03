@@ -1,3 +1,9 @@
+---
+title: How to Use Information Calculated Fields in Slingshot 
+_description: Learn how to utilize and test the value of a selected field through Information Calculated Fields.
+_language: ja
+---
+
 # 情報計算フィールド
 
 情報計算フィールドは、指定したフィールドの値のテストに使用します。サイズの大きいスプレッドシートの場合、2 回目の計算を実行する前に作業する情報のタイプを確認できるため、大変便利です。

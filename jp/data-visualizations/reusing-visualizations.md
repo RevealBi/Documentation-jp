@@ -1,3 +1,9 @@
+---
+title: How to Reuse Visualizations in Slingshot 
+_description: See how easy and quick you can reuse visualization and speed up dashboard creation.
+_language: ja
+---
+
 # 表示形式の再利用
 
 表示形式を再利用してダッシュボードの作成をスピード アップできます。必要な表示形式を**コピーし貼り付けて**ください。

@@ -1,3 +1,9 @@
+---
+title: How to Create Candlestick Visualizations in Slingshot
+_description: Get familiar the specifics of creating a Candlestick chart visualization for your data.
+_language: ja
+---
+
 ## ローソク足で表示する方法
 
 このチュートリアルは、サンプル スプレッドシートを使用してローソク足の表示形式を作成する方法を説明します。

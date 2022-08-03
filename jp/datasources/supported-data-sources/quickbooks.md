@@ -1,3 +1,9 @@
+---
+title: How to configure and use a Quickbooks data source 
+_description: Connecting and using Quickbooks as a data source in Slingshot.
+_language: ja
+---
+
 # Quickbooks
 
 Quickbooks に接続すると、次のログイン プロンプトが表示されます:

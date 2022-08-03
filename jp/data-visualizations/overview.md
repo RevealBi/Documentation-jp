@@ -1,3 +1,9 @@
+---
+title: Data Visualizations in Slingshot – All You Need to Know  
+_description: An overview of how data visualizations work in Slingshot Analytics and how to customize them.
+_language: ja
+---
+
 # 表示形式
 
 Reveal は、さまざまな表示形式を提供することにより、ビジネス データから可能な限り多くの気付きを得るのに役立ちます。

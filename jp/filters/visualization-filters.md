@@ -1,3 +1,9 @@
+---
+title: How to Apply Visualization Quick Filters
+_description: Learn how to apply quick visualization filters to dynamically filter your visualization content.
+_language: ja
+---
+
 # 表示形式のクイック フィルター
 
 表示形式レベルでは、クイック フィルターを適用することもできます。これにより、クイック フィルターの選択が変更されたときに表示形式コンテンツを動的にフィルターできます。これらは、ダッシュボード定義の一部となり、ダッシュボードのユーザーが変更することはできません。

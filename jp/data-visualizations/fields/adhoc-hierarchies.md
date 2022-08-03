@@ -1,3 +1,9 @@
+---
+title: Slingshot Ad-hoc Hierarchies – Add, Create and Analyze Faster
+_description: Create new hierarchies in Slingshot and analyze your data in charts, gauges, and grid views.
+_language: ja
+---
+
 # アドホック階層
 
 Reveal は年月日の日付フィールドの階層を自動的に作成しますが、他のタイプのフィールドでは発生しません。アドホック階層により、ユーザーはチャート、ゲージ、およびグリッドビューでデータを分析でき、データエディターの [行] プレースホルダーにあるフィールドを使用して新しい階層を作成できます。

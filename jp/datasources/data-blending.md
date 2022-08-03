@@ -1,3 +1,9 @@
+---
+title: Data Blending in Slingshot 
+_description: How to combine more than one data source in one visualization.
+_language: ja
+---
+
 # データ ソースを 1 つの表示形式に統合
 
 同じ Reveal 表示形式の**複数のデータ ソースから値を抽出する**ために、**データ ブレンティング**が必要な場合があります。

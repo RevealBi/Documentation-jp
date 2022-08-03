@@ -1,3 +1,9 @@
+---
+title: How to configure an Azure SQL data source in Slingshot
+_description: : A roadmap to configuring an Azure SQL data source to use it for your great visualizations.
+_language: ja
+---
+
 # Azure SQL
 
 > [!NOTE] 

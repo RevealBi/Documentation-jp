@@ -1,3 +1,9 @@
+---
+title: How to Create Time Series Chart Visualization 
+_description: Find out how to create and use Time Series Chart visualization in Slingshot Analytics.
+_language: ja
+---
+
 # 時系列チャート
 
 時系列チャートは、時系列でインデックス付けされたデータ ポイントを表示するために使用されます。傾向を一目で検出するために一般的に使用され、時間の経過に伴う開発を簡単に観察できます。

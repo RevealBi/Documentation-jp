@@ -1,25 +1,35 @@
 # ダッシュボードの管理
 
-ダッシュボードを個人用スペースで管理する場合でも、ワークスペース内で管理する場合でも、*自分で作成したダッシュボード*、*共有されているダッシュボード*、または*すべて*のいずれかをいつでも選択できます。
+Whether you are trying to manage dashboards in your personal space or in a Workspace, you will always be able to choose between: *dashboards created by you* or *dashboards shared with you*.
 
-<img src="images/dashboard-view-filter.png" alt="Filter for viewing dashboards" class="responsive-img"/>
+<img src="images/dashboard-options.png" alt="Filter for viewing dashboards" class="responsive-img"/>
 
 ## ダッシュボードの整理
 
-Reveal を使用すると、ダッシュボードをさまざまな**フォルダー**や**ワークスペース**に保存して整理できます。それらを 1階層にすることも、グループ化したい場合はネストすることもできます。最初のフォルダーを作成するには、**オーバーフロー** メニュー (下を参照) を開き、**[フォルダーの作成]** を選択します。
+Reveal allows you to store and organize your dashboards in different *Lists* and *Sections*. Sections are simply divisions of a list. A list can have one or more sections.
 
-<img src="images/upload-create-folder-menu.png" alt="Create a folder option" class="responsive-img"/>
+You can create a section with the following steps:
 
-新しいフォルダーにダッシュボードを追加するには、フォルダーに名前を付けて **[+ 作成]** をクリック/タップするだけです。  
+1. Open the *overflow* menu of **My Dashboards**.
+2. Choose **Add Section**. 
+3. Name it and click/tap on **Create**.
+4. Once you have named your section, you can start adding dashboards to it with the **+Dashboard** button.
+
+<img src="images/add-section-button.png" alt="Create a section option" class="responsive-img"/>
+
+You can create a list with the following steps:
+
+1. Click/tap on on the **+List** button.
+2. Give a name to the list.
+3. Click/tap on **Create**.
+4. Once you have named your list, you can start adding dashboards with the **+Dashboard** button.
 
 ## ダッシュボードの移動またはコピー
 
-ダッシュボードのオーバーフロー メニュー アクションを開き、ダッシュボードを**フォルダー**または**ワークスペース**間で移動およびコピーを選択します。
+Open the dashboard’s overflow menu actions and choose to copy the dashboard or move it between **sections** and/or **workspaces**.
 
-<img src="images/dashboard-overflow-actions.png" alt="Displaying the dashboard’s overflow actions" class="responsive-img"/>
+<img src="images/dashboard-overflow-menu-options.png" alt="Displaying the dashboard’s overflow actions" class="responsive-img"/>
 
-**[ダッシュボードの移動]** および **[ダッシュボードをコピー]** 画面では、ダッシュボードの移動/コピー先の 2 つのタイプの宛先を選択可能です:
-  - ワークスペース (左側)
-  - フォルダー (上部中央)。
+You can also move the dashboard to the *Data and Analytics Catalog*. The administrator will decide if the dashboard can be moved in order for the entire organization to be able to see it.
 
-<img src="images/dashboard-overflow-move.png" alt="Moving a dashboard to another workspace/folder" class="responsive-img"/>
+<img src="images/data-and-analytics-catalog.png" alt="A dialog for moving your dashboard to the Data anf Analytics catalog " class="responsive-img" width= "60%"/>

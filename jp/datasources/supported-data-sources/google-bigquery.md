@@ -1,3 +1,9 @@
+---
+title: How to use Google BigQuery data source in Slingshot
+_description: Learn how to set up and use Google BigQuery data source and use huge datasets with no slow down.
+_language: ja
+---
+
 # Google BigQuery
 
 Google BigQuery データ ソースは、Reveal 内でビッグ データを処理する際の速度を大幅に向上させます。これにより、速度低下することなく、何百万ものレコードを含むデータセットを表示形式に使用できます。

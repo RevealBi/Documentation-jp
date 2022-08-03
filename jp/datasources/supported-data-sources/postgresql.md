@@ -1,3 +1,9 @@
+---
+title: How to configure a PostgreSQL data source
+_description: Connecting and using PostgreSQL as a data source in Slingshot.
+_language: ja
+---
+
 # PostgreSQL
 
 >[!NOTE] 
@@ -7,25 +13,21 @@
 
 PostgreSQL サーバー データ ソースを設定するには、以下の情報が必要です。
 
-<img src="images/enter-postgreSQL-server-details.png" alt="Configure PostgreSQL data source dialog" width=80% />
+<img src="../images/add-postgresql-as-data-source.png" alt="Configure PostgreSQL data source dialog" class="responsive-img" width="60%"/>
 
-1.  データ ソースの**デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *PostgreSQL* という名前を付けます。好みに合わせて変更できます。
+1.  **[[サーバー](#how-to-find-server)]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 
-2.  **[[サーバー](#how-to-find-server)]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
+2.  **[ポート]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Reveal はデフォルトでヒント テキスト (5432) のポートに接続します。
 
-3.  **[ポート]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Reveal はデフォルトでヒント テキスト (5432) のポートに接続します。
+3.  **[資格情報]**: [資格情報] を選択した後、PostgreSQL の資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
 
-4.  **[資格情報]**: [資格情報] を選択した後、PostgreSQL の資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
-
-      - **[名前]**: データ ソース アカウントの名前。以前のダイアログのアカウントのリストに表示されます。
-
-      - (オプション) の **[ドメイン]**:  ドメイン名 (適用可能な場合)。
-
-      - **[ユーザー名]**:  PostgreSQL サーバーのユーザーアカウント。
+      - **Username** or **Domain**: the name of the user account for the PostgreSQL server or the name of the domain.
 
       - **[パスワード]**:  PostgreSQL サーバーにアクセスするためのパスワード。
 
-        準備ができたら、**[作成して使用]** を選択します。
+      - **Alias**: the name for your data source account.
+
+ Once ready, select **Add Server**.
 
 <a name='how-to-find-server'></a>
 ## サーバー情報を見つける方法
@@ -49,13 +51,15 @@ PostgreSQL サーバー データ ソースを設定するには、以下の情�
 ## データの設定
 ### ビューの作業
 
-Reveal を使用すると、テーブル全体から PostgreSQL データを取得できますが、代わりにテーブルまたはテーブルのセットからデータのサブセットを返す特定の[ビュー (英語)](https://www.postgresqltutorial.com/postgresql-views/) を選択することもできます。
+With Reveal, you can not only retrieve PostgreSQL data from entire tables, but you can also select a particular [view](https://www.postgresqltutorial.com/postgresql-views/) that returns a subset of data from a table or a set of tables instead.
+
+<img src="../images/postgresql-views.png" alt="PostgreSQL views dialog" class="responsive-img" width="60%"/>
 
 <img src="images/postgre-SQL-views.png" alt="PostgreSQL views dialog" class="responsive-img"/>
 
 上記のサンプルの**請求書**ビューには、PostgreSQL サーバーの **Products** テーブルにあるデータの変更バージョンが含まれています。
 
-<img src="images/invoices-postgre-sql-view-sample.png" alt="Sample dashboard using PostgreSQL invoices view data" class="responsive-img"/>
+<img src="../images/postgresql-comparison-table-view.png" alt="Sample dashboard using PostgreSQL invoices view data" class="responsive-img"/>
 
 ビューと PostgreSQL の詳細については、[このウェブサイト (英語)](https://www.postgresql.org/docs/10/tutorial-views.html) をご覧ください。
 
@@ -66,13 +70,15 @@ PostgreSQL 関数を使用すると、データベース内の単一の関数で
 以下は、[Northwind](https://docs.microsoft.com/ja-jp/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases) データを使用してテスト サーバーで実行されるサンプル関数のセットです:
 
 
-<img src="images/postgresql-functions-list.png" alt="A list of PostgreSQL functions" class="responsive-img"/>
+<img src="../images/postgresql-functions.png" alt="A dashboard with a table visualization and a view visualization" class="responsive-img" width="60%"/>
 
 
-関数を選択した後、いくつかの追加パラメーターを設定する必要があります。この場合、関数は、Sales for period の情報を表示するために開始日と終了日を設定する必要があります。
+After you select a function, you will need to set up some additional parameters. 
+
+この場合、関数は、Sales for period の情報を表示するために開始日と終了日を設定する必要があります。
 
 
-<img src="images/sales-for-period.png" alt="Sales for period function parameters" class="responsive-img"/>
+<img src="../images/postgresql-sales-for-period.png" alt="Sales for period function parameters" class="responsive-img" width="60%"/>
 
 
 関数と PostgreSQLの 詳細については、この [Web サイト (英語)](https://www.postgresql.org/docs/9.0/sql-createfunction.html) にアクセスしてください。

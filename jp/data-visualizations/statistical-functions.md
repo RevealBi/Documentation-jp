@@ -1,3 +1,9 @@
+---
+title: How to Use Statistical Functions 
+_description: Learn how to use the Statistical function to receive more insights from your visualizations.
+_language: ja
+---
+
 # Reveal の統計関数
 
 Reveal の統計関数を使用すると、表示形式からより多くの気付きを得ることができます。3 種類の高度な予測分析を提供します。

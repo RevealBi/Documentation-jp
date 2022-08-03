@@ -1,3 +1,9 @@
+---
+title: How to Create an Image Chart in Slingshot 
+_description: A quick tutorial on creating an Image Chart visualization using a sample spreadsheet.
+_language: ja
+---
+
 # 画像チャートを作成する方法
 
 このチュートリアルでは、サンプル スプレッドシートを使用して画像の表示形式を作成する方法を説明します。

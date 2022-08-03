@@ -1,3 +1,9 @@
+---
+title: How to use String Calculated Fields
+_description: Learn how to use String Calculated Fields to create a more precise data visualization.
+_language: ja
+---
+
 # 文字列計算フィールド
 
 文字列計算フィールド (`sortinterval` 以外) はテキストを編集でき、さまざまな結果を取得することができます。

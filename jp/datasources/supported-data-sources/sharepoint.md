@@ -1,3 +1,9 @@
+---
+title: How to set up and use SharePoint аs a Data Source 
+_description: Setting up and using SharePoint as a data source in Slingshot to advance your work.
+_language: ja
+---
+
 # SharePoint オンライン
 
 ## SharePoint への接続

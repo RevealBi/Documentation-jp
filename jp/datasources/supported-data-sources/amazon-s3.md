@@ -1,3 +1,9 @@
+---
+title: How to Add Amazon S3 to your data sources 
+_description: A step-by-step guide on how to configure an Amazon S3 data source and use it in Slingshot.
+_language: ja
+---
+
 # Amazon S3
 
 Amazon Simple Storage Service (S3) は、拡張性が高く高速なデータ ストレージ サービスです。Amazon S3 をデータ ソースに追加すると、Reveal で S3 から直接データにアクセスして分析できます。

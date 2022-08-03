@@ -1,3 +1,9 @@
+---
+title: How to Create KPI Gauge in Visualizations Editor
+_description: Find out how to use KPI Gauge for your visualizations in Slingshot Analytics.
+_language: ja
+---
+
 # KPI ゲージ
 
 KPI (Key Performance Indicator: キー パフォーマンス インジケーター) とは、パフォーマンス管理の特定のタイプを表す用語です。KPI は個別のニーズによって変化し、目標に対する進捗や時間軸での傾向など、組織の重要なメトリックスに関する情報を提供します。

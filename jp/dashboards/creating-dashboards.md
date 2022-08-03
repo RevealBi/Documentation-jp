@@ -13,30 +13,31 @@ Reveal のダッシュボード作成には以下のオプションが含まれ�
 <a name='access-dashboard-creation-menu'></a>
 ## ダッシュボード作成メニューにアクセス
 
-初期画面の **[+ ダッシュボード]** ボタンを選択し、ダッシュボードを作成できます。
+You can create a dashboard by clicking/tapping on the **+ Dashboard** or **Create Dashboard** *(My Analytics)* blue button.
 
-<img src="images/create-new-dashboard.png" alt="Creating new dashboard" class="responsive-img"/>
+   <img src="images/creating-a-dashboard.png" alt="Dashboard button in My Analytics" class="responsive-img"/>
 
 [新しい表示形式] のダイアログが表示されます。データ ソースを使用して表示形式を作成します。
 
-<img src="images/new-visualization-dialog.png" alt="New visualization dialog" class="responsive-img"/>
+<img src="images/new-visualization-dialog-dashboard.png" alt="New visualization dialog" class="responsive-img"/>
 
 <a name='add-data-source'></a>
 ## データ ソースの追加
 
-データ ソースが [データ ソースの選択] セクションにない場合は、右上側の [+ データ ソース] ボタンを選択します。新しいダイアログがポップアップして、すべてのデータ ソース カテゴリおよび利用可能なデータ ソースが表示されます。
+If your data source is not in the data sources list, select
+the **+ Data Source** button in the top right-hand corner. A new dialog will appear, displaying all data source categories and the available data sources. Feel free to scroll up and down until you see the data source you need.
 
-<img src="images/adding-data-source.png" alt="add data source to create dashboards" class="responsive-img"/>
+<img src="images/dashboard-select-your-data-source.png" alt="List with some of the data sources" class="responsive-img"/>
 
-データ ソースがコンテンツ マネージャーのスプレッドシートの場合、表示形式で使用する特定のシートを選択できます。
+If your data source is a spreadsheet in a content manager, you will be able to select, for example, the specific sheet that you want to use in your visualization.
 
-<img src="images/select-data-source-sheet.png" alt="select a data sheet from an excel file data source" class="responsive-img"/>
+<img src="images/dashboards-select-data-sheet.png" alt="select a data sheet from an excel file data source" class="responsive-img"/>
 
 ### 使用可能なコンテンツ
 
 Reveal では [Dropbox](../datasources/supported-data-sources/Dropbox.html)、[OneDrive](../datasources/supported-data-sources/OneDrive.html)、[Box](../datasources/supported-data-sources/Box.html)、[Google Drive](../datasources/supported-data-sources/Google-Drive.html) などの複数のコンテンツ ソースを追加でき、それらの使用可能なフォルダー、ファイル、スプレッドシートを閲覧できます。
 
-<img src="images/available-content-onedrive.png" alt="available content in OneDrive datasource account" class="responsive-img"/>
+<img src="images/dashboards-onedrive-available-content.png" alt="Available content in OneDrive datasource account" class="responsive-img"/>
 
 さらに、[SharePoint](../datasources/supported-data-sources/SharePoint.html) データ ソースを追加することもできるため、リストまたはライブラリにアクセスする機能が使用可能です。
 
@@ -45,17 +46,17 @@ Reveal では [Dropbox](../datasources/supported-data-sources/Dropbox.html)、[O
 <a name='modify-visualization'></a>
 ## 表示形式の変更
 
-データ ソースを追加した後、表示形式エディターが表示されます。デフォルトでは、ピボットの表示形式が選択されています。
+データ ソースを追加した後、表示形式エディターが表示されます。By default, the Column visualization will be selected.
 
-<img src="images/dashboards-first-visualization.png" alt="dashboards first visualization in the visualization editor" class="responsive-img"/>
+<img src="images/creating-dashboards-sample-data.png" alt="dashboards first visualization in the visualization editor" class="responsive-img"/>
 
 Reveal では、情報を可覚化する方法をカスタマイズするためのいくつかのオプションがあります。上部バーの**ピボット アイコン**を選択してオプションにアクセスできます。
 
-<img src="images/editing-visualizations-in-editor.png" alt="editing visualizations types in editor" class="responsive-img"/>
+<img src="images/creating-dashboards-chart-types.png" alt="list with chart types" class="responsive-img"/>
 
 表示形式にラベルと値を追加し、右側のペインでプレビューします。必要に応じて、表示形式設定を変更してフィルターを追加できます。
 
-<img src="images/editing-visualization-fields-preview.png" alt="editing visualization fields preview" class="responsive-img"/>
+<img src="images/visualization-fields-preview.png" alt="Editing visualization fields preview" class="responsive-img"/>
 
 表示形式を変更した後**ダッシュボード エディター**に移動されます。右上側に **[元に戻す]**、**[やり直し]**、および **[+ 追加]** の分割ボタンが表示されます。これらのボタンの横には、ダッシュボードのオーバーフロー メニューもあります。そこで、ダッシュボードの **[テーマ]** の変更、**[自動レイアウト]** のオン/オフ、ダッシュボードの **[エクスポート]**、またはダッシュボードに **[名前をつけて保存]** ボタンを選択できます。
 
@@ -66,21 +67,21 @@ Reveal では、情報を可覚化する方法をカスタマイズするため�
 
 表示形式をコピーした後、表示形式を貼り付けるダッシュボードのオーバーフロー メニュー内の [貼り付け] オプションを見つけます。
 
-<img src="images/paste-option-dashboard.png" alt="paste option in the dashboard overflow menu" width=80%>
+<img src="images/paste-option-creating-dashboards.png" alt="Paste option in the dashboard overflow menu" class="responsive-img"/>
 
 ### テーマの適用
 
 ダッシュボードに移動された後、[テーマ] を選択し、以下に示すように **Mountain テーマ** と **Ocean テーマ** を切り替えることができます。
 
-<img src="images/dashboard-changing-theme.png" alt="changing the theme of a dashboard" class="responsive-img"/>
+<img src="images/dashboard-themes.png" alt="Changing the theme of a dashboard" class="responsive-img"/>
 
 <a name='save-dashboard'></a>
 ## ダッシュボードの保存
 
 ダッシュボードの準備後、右上側の**ティック アイコン**を選択してあるいはオーバーフロー メニューの [**名前を付けて保存**] オプションにアクセスして、ダッシュボードを保存します。
 
-ダッシュボードを個人用スペース (**アイテム**) に保存するか、[参加または作成した](~/jp/workspaces/creating-joining-workspaces.html)ワークスペースを選択できます。ダッシュボードの名前を選択し、準備ができた後 [ここに保存] をクリック/タップします。
+You can save your dashboard under **My Analytics**>**My Dashboards** or choose any of the workspaces you have joined or created.ダッシュボードの名前を選択し、準備ができた後 [ここに保存] をクリック/タップします。
 
-<img src="images/save-as-menu.png" alt="save as menu" class="responsive-img"/>
+<img src="images/dashboard-save-as-dialog.png" alt="Save as dialog while creating dashboards" class="responsive-img"/>
 
-スペースを適切に整理するには、[名前を付けて保存] メニューでの [+フォルダー] ボタンをクリックして、ダッシュボード ビューアーでフォルダーを作成します。
+To better organize your space you can create lists and sections by clicking on the *+List* and *+Section* buttons at the top right-hand corner, while in the *Save as* menu.

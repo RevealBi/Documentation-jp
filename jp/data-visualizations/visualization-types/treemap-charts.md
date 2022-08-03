@@ -1,3 +1,9 @@
+---
+title: How to Create Treemap Visualization
+_description: Learn how to create and use Treemap Visualization in Slingshot Analytics.
+_language: ja
+---
+
 # ツリーマップ
 
 ツリーマップ表示形式は、階層データをネストされた四角形のセットとして表示するために使用されます。各レベルの四角形は、サイズと色が異なります。

@@ -1,3 +1,9 @@
+---
+title: How to Sort by Field in Slingshot 
+_description: Learn how to change the display of data in a visualization to further precise how it looks.
+_language: ja
+---
+
 # フィールドで並べ替え
 
 Reveal では、データを昇順または降順に並べ替えることで、表示形式のデータの表示方法を変更できます。さらに、元のデータ ソースで選択したフィールドで並べ替えることで、表示形式の外観をさらに制御することもできます。

@@ -1,3 +1,9 @@
+---
+title: How to Use Choropleth maps for Visualization
+_description: Find out how to use Choropleth maps to depict statistical data in geographical areas.
+_language: ja
+---
+
 # 階級区分図
 
 階級区分図は、分割された地理的領域または地域の統計データを表すことを目的とした広範なテーマ別のマップです。マップの各領域は、データ変数に関連して均一な色で塗りつぶされます。

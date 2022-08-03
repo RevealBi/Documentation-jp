@@ -1,3 +1,9 @@
+---
+title: How to Create Sparkline Charts Visualization 
+_description: Find out how to create and use Sparkline Charts visualization in Slingshot Analytics.
+_language: ja
+---
+
 # スパークライン チャート
 
 スパークライン チャートは、軸、ラベル、またはその他のチャート要素なしでグリッド チャート内にプロットされる小さなチャートで、指定された日付範囲のトレンドとその進行を表します。

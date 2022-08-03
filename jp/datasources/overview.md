@@ -1,26 +1,25 @@
+---
+title: How to Connect to Data Sources in Slingshot 
+_description: Learn how to connect to different enterprise data sources and use them.
+_language: ja
+---
+
 # データ ソース
 
 データ ソースはデータの送信元です。Reveal は、さまざまなエンタープライズ データ ソースに接続する機会を提供します。分析ツール、コンテンツ マネージャー、クラウド サービス、CRM、データベース、スプレッドシート、および公開用のデータ ソースから選択できます。
 
-次のスクリーンショットは、John Williams がアカウントで接続したさまざまなデータ ソースを示しています。
+## Connecting to Data Sources
 
-<img src="images/sample-data-sources-screen.png" alt="Sample data sources" class="responsive-img"/>
+To retrieve information from a data source and use it for your visualizations you need to connect to it first. Once you have connected to a data source, it will be saved in the *Data Sources* menu for quick selection next time you need it (see the screenshot above).
 
-## データ ソースに接続
+To connect to a data source, perform the steps below:
 
-データ ソースから情報を取得し、それを表示形式に使用するには、まずデータ ソースに接続する必要があります。データ ソースに接続すると、**データ ソースの選択**メニューに保存され、次に必要になったときにすばやく選択できます (上のスクリーンショットを参照)。
+1. Go to *My Analytics* or a workspace where you want to a create a dashboard. 
+2. Click/tap on the **+ Dashboard** or **Create Dashboard** *(My Analytics)* blue button.
+   <img src="images/data-sources-my-analytics.png" alt="Dashboard button in my analytics" class="responsive-img"/>
+3. In the *+ Visualization* dialog, you will see a list of recently used data sources. To create a new connection, select the **+ Data Source** button on the right.
 
-データ ソースに接続するには、以下の手順を実行します。
-
-1. [アイテム] またはダッシュボードを作成するワークスペースに移動します。 
-2. **[+ ダッシュボード]** の青いボタンをクリック/タップします。
-   <img src="images/start-creating-dashboard-data-source.png" alt="Reveal's home screen" class="responsive-img"/>
-   
-3. **新しい表示形式**ダイアログに、最近使用したデータ ソースのリストが表示されます。新しい接続を作成するには、右側の **[+ データ ソース]** ボタンを選択します。
-
-   <img src="images/creating-new-visualization.png" alt="Available data sources when creating a new visualization" class="responsive-img"/>
-
-4. ドロップダウン リストからデータ ソース プロバイダーを選択します。
+<img src="images/data-sources-screen.png.png" alt="Sample data sources" class="responsive-img"/>
 
 データ ソース プロバイダーを選択すると、データ ソースを**設定**するように求められます。設定に関しては、選択したデータ ソースの設定に関する記事をご覧ください (以下のリストを参照)。
 
@@ -28,9 +27,13 @@
 
    - [Amazon Redshift](~/jp/datasources/supported-data-sources/redshift.html)
 
-   - [Box](~/jp/datasources/supported-data-sources/box.html)
+   - [Amazon S3](~/jp/datasources/supported-data-sources/amazon-s3.md)
 
-   - [Dropbox](~/jp/datasources/supported-data-sources/dropbox.html)
+   - [Box](~/jp/datasources/supported-data-sources/box.md)
+
+   - [Dropbox](~/jp/datasources/supported-data-sources/dropbox.md)
+
+   - [Google Ads](~/jp/datasources/supported-data-sources/google-ads.md)
 
    - [Google Analytics](~/jp/datasources/supported-data-sources/google-analytics.html)
 
@@ -42,13 +45,13 @@
   
    - [Marketo](~/jp/datasources/supported-data-sources/marketo.html)
 
-   - [Microsoft Analysis Services](~/jp/datasources/supported-data-sources/microsoft-analysis-services.html)*
+   - [Microsoft Analysis Services](~/jp/datasources/supported-data-sources/microsoft-analysis-services.html)
   
    - [Microsoft Azure Analysis Services](~/jp/datasources/supported-data-sources/microsoft-azure-analysis-services.html)
-
-   - [Microsoft Azure SQL Database](~/jp/datasources/supported-data-sources/azure-sql.html)*
   
    - [Microsoft Azure Synapse Analytics](~/jp/datasources/supported-data-sources/microsoft-azure-synapse-analytics.html)
+  
+   - [Microsoft Azure SQL Database](~/jp/datasources/supported-data-sources/azure-sql.md)*
 
    - [Microsoft Dynamics CRM](~/jp/datasources/supported-data-sources/microsoft-dynamics-crm.html)
 
@@ -73,6 +76,8 @@
    - [Salesforce](~/jp/datasources/supported-data-sources/salesforce.html)
 
    - [SharePoint](~/jp/datasources/supported-data-sources/sharepoint.html)
+ 
+   - [Snowflake](~/jp/datasources/supported-data-sources/snowflake.d)
 
    - [Sybase](~/jp/datasources/supported-data-sources/sybase.html)*
 
@@ -82,8 +87,11 @@
 
    - [スプレッドシート](~/jp/datasources/working-files/working-with-spreadsheets.html)
 
->[!NOTE]
-> **データベース**は Reveal の Web バージョンでサポートされていません。
+## Filtering your Data Sources
+
+To filter your data sources, you can click on the filter button in the upper right corner.
+
+<img src="images/data-sources-filter.png" alt="Sample data sources" class="responsive-img"/>
 
 ## 関連トピック 
 

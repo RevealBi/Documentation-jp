@@ -1,3 +1,9 @@
+---
+title: How to Connect a Dashboard to Its Data Source
+_description: Find out how to connect an already created dashboard to a data source of your choice.
+_language: ja
+---
+
 # ダッシュボードをデータ ソースに接続
 
 Reveal では、ダッシュボードの作成[前](overview.html)または作成後にデータ ソースに接続できます。データ ソースへの接続は、ダッシュボード作成プロセスの一部です。ただし、すでに作成されているが、まだデータ ソースに接続されていないダッシュボードを持つ場合があります。これが発生する可能性のあるシナリオは 2 つあります - [共有しているダッシュボード](~/jp/dashboards/sharing-dashboards/share-a-dashboard.html)の場合と自分で Reveal に[アプロードしたダッシュボード](~/jp/dashboards/uploading-dashboards.html)の場合です。

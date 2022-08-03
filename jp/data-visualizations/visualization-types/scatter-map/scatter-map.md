@@ -1,3 +1,9 @@
+---
+title: How to Create Scatter Maps Visualization
+_description: Find out how to create and use Scatter Maps visualization in Slingshot Analytics.
+_language: ja
+---
+
 # 散布マップ
 
 このマップは、地理座標を使用して地理領域に散布マーカーを表示します。マーカーの視覚的な分布は、データ内の密度および空間パターンを識別するのに役立ちます。サイズや色を追加すると、他のポイントと比較してデータに関する詳細情報を表示できます。

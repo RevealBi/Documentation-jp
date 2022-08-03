@@ -1,3 +1,8 @@
+---
+title: How to use HubSpot as Your Data Source
+_description: Connecting to HubSpot to use your data in Slingshot
+---
+
 # Hubspot
 
 Hubspot に接続すると、以下のログイン プロンプトが表示されます。

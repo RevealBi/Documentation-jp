@@ -1,3 +1,9 @@
+---
+title: How to use Microsoft Azure Synapse as Your Data Source
+_description: Steps to configure and use an Azure Synapse Analytics data source in Slingshot.
+_language: ja
+---
+
 # Microsoft Azure Synapse Analytics
 
 Microsoft Azure Synapse データ ソースは、Reveal 内でビッグ データを処理する際の速度を大幅に向上させます。これにより、大量のデータセットを速度低下することなく表示形式に使用できます。

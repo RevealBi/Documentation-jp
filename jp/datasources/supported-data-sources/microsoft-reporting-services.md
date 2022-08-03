@@ -1,3 +1,9 @@
+---
+title: How to connect to Microsoft Reporting Services in Slingshot
+_description: Learn how to use your existing Microsoft Reporting Services to create great visualizations.
+_language: ja
+---
+
 # Microsoft Reporting Services
 
 既存の Microsoft Reporting Services (SSRS) レポートをダッシュボードに PDF ファイルとして埋め込むか、レポートからデータを取得して表示形式を作成して、Reveal で使用できます。

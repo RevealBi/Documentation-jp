@@ -1,3 +1,9 @@
+---
+title: How to Configure Google Analytics and Use It in Slingshot 
+_description: Guidelines to using Google Analytics to contribute to your data insights for business.
+_language: ja
+---
+
 # Google アナリティクス
 
 Google アナリティクスは、ウェブで最も使用されているウェブ分析サービスの 1 つであり、ウェブサイトのトラフィックを追跡して報告します。さらに、Google は、iOS および Android アプリから使用状況データを収集するための SDK も提供しています。

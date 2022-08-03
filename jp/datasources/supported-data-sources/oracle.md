@@ -1,3 +1,9 @@
+---
+title: How to configure an Oracle data source
+_description: Learn how to configure and use an Oracle data source in two modes.
+_language: ja
+---
+
 # Oracle
 
 >[!NOTE] 

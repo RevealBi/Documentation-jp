@@ -1,3 +1,9 @@
+---
+title: Preparing Your Data for Location Data Requirements 
+_description: In using Choropleth maps for Visualization, learn how to follow location data requirements.
+_language: ja
+---
+
 # 階級区分図のデータを準備する方。法場所のデータ要件
 
 データセットの**場所名**列は、選択したマップの実際の地理単位と一致する必要があります。たとえば、列に国の名前が含まれているが、アメリカ合衆国の州のマップを使用する場合、[表示するデータはありません。] というエラーが画面に表示されます。このエラーの詳細については、以下の[エラーのトラブルシューティング](#エラーのトラブルシューティング)を参照してください。

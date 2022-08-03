@@ -1,3 +1,9 @@
+---
+title: How to configure and use REST API Data Source 
+_description: Connecting and using REST API data source as a data source in Slingshot.
+_language: ja
+---
+
 # REST API
 
 Reveal の REST API データ ソースを使用すると、GET、POST、および PUT HTTP リクエストを一意の URLに送信して、Web サービス経由でデータを操作できます。

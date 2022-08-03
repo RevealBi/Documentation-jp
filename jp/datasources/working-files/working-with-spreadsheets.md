@@ -1,3 +1,9 @@
+---
+title: How to Work with Spreadsheets in Slingshot 
+_description: Tips and tricks on using Spreadsheets to utilize your data insights in the best way.
+_language: ja
+---
+
 # Reveal スプレッドシートの作業
 
 以下は Reveal でスプレッドシートとの作業のためのヒントがあります。

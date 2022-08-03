@@ -1,3 +1,9 @@
+---
+title: How to apply Field Filters and Rules to Dataset 
+_description: Learn how to apply filters or rules to your dataset in Slingshot while creating visualizations.
+_language: ja
+---
+
 # フィールド フィルターとルール
 
 データセットのフィールドにもフィルターとルールを適用できます。そのためには、データ エディターの下部にある **[データ フィルター]** プレースホルダーにフィールドを追加する必要があります。次に、ドロップダウンからフィールドを選択して、**データ フィルター** ウィンドウにアクセスします。

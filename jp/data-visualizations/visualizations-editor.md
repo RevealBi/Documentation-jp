@@ -1,3 +1,9 @@
+---
+title: How to Use the Visualizations Editor
+_description: Find out how to create and edit your visualizations and use a great variety of options.
+_language: ja
+---
+
 # 表示形式エディターの作業
 
 **表示形式エディター**は、Reveal で表示形式を作成および編集する場所です。ここでは、データセットからのデータが集約されて使用できるように準備されているほか、それを使用して構築するためのさまざまな表示形式が表示されます。
@@ -6,12 +12,12 @@
 
 表示形式は、ダッシュボードの基本要素です。したがって、表示形式の作成を開始するときに、開始点には ２ つの選択肢があります。
 
-* **新しいダッシュボードを作成する**ことから始めます。このダッシュボードでは、新しい表示形式が最初または唯一の表示形式になります。これを行うには、**[アイテム]** またはワークスペースに移動し、**[+ ダッシュボード]** の青い分割ボタンをクリック/タップします。
+* **新しいダッシュボードを作成する**ことから始めます。このダッシュボードでは、新しい表示形式が最初または唯一の表示形式になります。To do this, go to *My Analytics* or a workspace and click/tap on the *+Dashboard* blue button.
 * 既存のダッシュボードに**新しい表示形式を追加する**ことから始めます。これを行うには、ダッシュボードを[ダッシュボード編集](~/jp/dashboards/dashboards-interactions.html#view-edit-mode)モードで開き、**[+ 追加]** の青い分割ボタンをクリック/タップします。
 
 その後、新しいデータ ソースを追加するか、既存の[データ ソース](~/jp/datasources/overview.md)を選択するように求められます。
 
-<img src="images/creating-new-visualization.png" alt="Creating a new visualization dialog" class="responsive-img"/>
+<img src="images/data-sources-dialog.png" alt="Dialog with a list of data sources" width="70%" class="responsive-img"/>
 
 データ ソースを選択して構成すると、[表示形式エディター](visualizations-editor.md)に移動し、表示形式の作成を開始できます。
 
@@ -33,11 +39,11 @@
 
 以下は、エディターのすべてのセクションとその機能のリストです。
 
-<img src="images/visualization-editor-panes.png" alt="Panes of the Visualization editor" class="responsive-img"/>
+<img src="images/visualization-editor.png" alt="Panes of the Visualization editor" class="responsive-img"/>
 
 1. **[データ] セクション** - このセクションには 2 つのパネルがあります。
 
-    a. **[フィールド]** - データ ソース内で使用可能なすべてのフィールドが左側のパネルに表示されます。各フィールドには、フィールド タイプ (**日付**、**値**、**テキスト**) をユーザーに通知するインジケーターがあります。使用可能なフィールドが 10 を超えると、検索バーが表示されます。このパネルの [+] アイコンを使用すると、[データ ソースをブレンドする](~/jp/datasources/data-blending.md)か、[フィールドを計算](fields/calculated-fields/overview.html#precalculated-fields)することができます。**脳**アイコンを使用すると、[BigQuery](~/jp/datasources/ml-integration/bigquery-machine-learning-models.md) または [Azure](~/jp/datasources/ml-integration/azure-machine-learning-models.md) の**機械学習モデル**のフィールドを表示形式に使用できます。
+    a. **[フィールド]** - データ ソース内で使用可能なすべてのフィールドが左側のパネルに表示されます。各フィールドには、フィールド タイプ (**日付**、**値**、**テキスト**) をユーザーに通知するインジケーターがあります。使用可能なフィールドが 10 を超えると、検索バーが表示されます。このパネルの [+] アイコンを使用すると、[データ ソースをブレンドする](~/jp/datasources/data-blending.md)か、[フィールドを計算](fields/calculated-fields/overview.html#precalculated-fields)することができます。**脳**アイコンを使用すると、[BigQuery](~/jp/datasources/ml-integration/bigquery-machine-learning-models.md) または [Azure](~/jp/datasources/ml-integration/azure-machine-learning-models.md) の**機械学習モデル**のフィールドを表示形式に使用できます。Keep in mind that the BigQuery machine learning model can work only with BigQuery data sources.
 
     b.**表示形式フィールド** - ここでフィールドをドラッグアンドドロップするか、**[+]** マークをクリックして使用可能なフィールドから作成する表示形式に使用するフィールドを選択します。
 

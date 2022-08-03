@@ -1,3 +1,9 @@
+---
+title: How to Create Text View Visualization
+_description: Find out how to create and use Text View visualization in Slingshot Analytics.
+_language: ja
+---
+
 # テキスト ビュー
 
 テキスト ビューは、以下に表示する従業員のレコード情報などのキー値のパターンに従った情報が表示されます。これは、列ラベルとペアになったデータの最初の行のみを表示します。

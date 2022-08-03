@@ -1,3 +1,9 @@
+---
+title: Filters in Slingshot Analytics – All You Need to Know
+_description: Learn all about dashboard filters, add datasets and make each visualization unique in Slingshot Analytics.
+_language: ja
+---
+
 # フィルター
 
 ダッシュボード フィルターを使用すると、ダッシュボードの全ての表示形式のコンテンツを一度にフィルター適用できます。データセットをダッシュボード フィルター コレクションに追加すると、すべてのダッシュボード表示形式にバインドされるフィルター設定が維持されます。動的なフィルターは、フィルターの選択が変更されると、接続されているすべての表示形式に適用されます。

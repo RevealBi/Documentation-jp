@@ -1,3 +1,9 @@
+---
+title: How to Share Dashboards with Cloud Files
+_description: A guide on sharing and granting access to other users to dashboards on a cloud provider.
+_language: ja
+---
+
 # クラウド ファイルをデータ ソースとするダッシュボードを共有する
 
 ダッシュボードを他の Reveal ユーザーと共有する場合は、ダッシュボードで表示形式を作成するために使用したデータ ソースを考慮する必要があります。データ ソースがクラウド プロバイダーにアップロードされたファイルである場合、ダッシュボードを共有するユーザーは、ファイルへのアクセスを許可しない限り、ダッシュボードを開くことができない場合があります。

@@ -1,3 +1,9 @@
+---
+title: Using BigQuery Machine Learning in Slingshot
+_description: How to use your trained machine learning models data for building a visualization.
+_language: ja
+---
+
 # Reveal の BigQuery Machine Learning
 
 Reveal で BigQuery のトレーニング済みの機械学習モデルを使用できます。これまで以上に洗練された情報を取得できます。BigQuery をデータ ソースとして選択し、表示形式を作成し、トレーニング済みの機械学習モデルに接続します。

@@ -1,3 +1,9 @@
+---
+title: How to Use Dashboard Filters Properties 
+_description: Learn how to quickly apply and use Dashboard filters properties to achieve maximum effect for your visualization.
+_language: ja
+---
+
 # ダッシュボード フィルターとそのプロパティ
 
 ## ダッシュボード フィルター プロパティにアクセスする

@@ -1,3 +1,9 @@
+---
+title: How to Create KPI Gauges Charts in Slingshot
+_description: A quick tutorial on creating an a KPI gauge visualization using a sample spreadsheet.
+_language: ja
+---
+
 # KPI ゲージを作成する方法
 
 このチュートリアルでは、サンプル スプレッドシートを使用して KPI ゲージの表示形式を作成する方法を説明します。

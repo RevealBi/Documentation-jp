@@ -1,9 +1,8 @@
 # ダッシュボードの共有
 
+共有ダッシュボードは、チーム間のコラボレーションに最適です。Reveal での共有に関しては、非常に多くの利用シナリオが考えられます。
 
-共有ダッシュボードは、チーム間のコラボレーションに最適です。Reveal での共有に関しては、非常に多くの利用シナリオが考えられます。自分の共有権に応じて、他のユーザーやワークスペースに、共有するコンテンツへの異なる[アクセス許可](#access-permissions)を与えることができます。
-
-以下に、3 つの利用可能な共有シナリオにおけるアクセス許可の詳細を示します:
+Here you will find more information about the permission roles and the available sharing scenarios:
 
   - [独自のダッシュボードを他のユーザーと共有する](#sharing-dashboards-users)
 
@@ -19,157 +18,54 @@
 
 作成したダッシュボードを個人ユーザーと共有するには、次のことを行う必要があります。
 
-1.  **[共有] ダイアログ**にアクセスする - ダッシュボードまたはフォルダの右上隅にあるオーバーフロー ボタンを選択し、**[共有]** を選択します。
+1.  **[共有] ダイアログ**にアクセスする - Open the overflow menu and choose **Shared With**.
 
 
-  <img src="images/sharing-dialog.png" alt="Accessing the sharing dialog of a dashboard" class="responsive-img"/>
+  <img src="images/shared-with-button.png" alt="Accessing the sharing dialog of a dashboard" class="responsive-img"/>
 
-  フォルダーを共有して他の人を追加すると、新しいファイルを共有した人のアカウントおよび*共有*セクションに表示されます。
+  Once you share a folder with other people, the files will appear under the **Shared with Me** section in the left panel. Alternatively they can find the files when they open **My Analytics** and click/tap on **Shared with Me** that is under **Filters**.
 
-  <img src="images/shared-with-me.png" alt="Shared with Me option selected" class="responsive-img"/>
+  <img src="images/shared-with-me-section.png" alt="Finding the Shared with Me option in different sections" class="responsive-img"/>
 
 <a name='access-permissions'></a>
-2.  ダッシュボードを共有する**ユーザーを選択する** - 招待するユーザーのメールアドレスを入力し、そのユーザーが共有ダッシュボードを介して**アクセスできるレベル**を設定します。
 
-使用可能なオプションは以下のとおりです:
+2.  **Choose the users** you want to share the dashboard with - Enter the e-mail addresses or the names of the people you want to invite and click/tap on **Done**.
 
-  - **管理**のアクセス許可 - ユーザーは、作成、編集、共有、削除を行うことができます。
+3.  After selecting the users, click/tap **Update**. The dashboard will be shared automatically with the selected users if they are part of your [Organization](~/jp/workspaces/overview.html#organization-workspace). Other users will have the dashboard shared with them only after they accept the invitation.
 
-  - **変更**のアクセス許可 - ユーザーは、ダッシュボードまたはフォルダーを作成、編集、共有できますが、削除することはできません。
+  <img src="images/add-users-sharing-dashboards.png" alt="Choosing with whom to share a dashboard" class="responsive-img"/>
 
-  - **閲覧**のアクセス許可 - ユーザーは、ダッシュボードとフォルダーを表示および共有することができます。
+**You can change the access level for users at any time when you are the owner of the dashboard** by accessing
+the Share menu.ダッシュボードを共有したすべてのユーザーとそのアクセス レベルのリストが表示されます。名前の横にあるドロップダウン メニューから新しいアクセス レベルを選択して、アクセス レベルを変更できます。
 
-3.  アクセス レベルを設定した後、*招待を送信する*をクリック/タップします。ダッシュボードは[組織](~/jp/workspaces/overview.html#organization-workspace)のメンバーと自動的に共有されます。他のユーザーには、招待を承諾した後にのみ、ダッシュボードが共有されます。
+**When you are the owner of the dashboard, you can also unshare it at any time** by accessing the Share dialog and selecting *Remove* from the dropdown menu next to any member's name.
 
-  <img src="images/send-invites-share-button.png" alt="Sending invitations with access permissions" class="responsive-img"/>
+<img src="images/shared-with-remove-option.png" alt="Remove sharing button" class="responsive-img"/>
 
-共有メニューにアクセスし、いつでも**ユーザーのアクセスレベルを変更**できます。ダッシュボードを共有したすべてのユーザーとそのアクセス レベルのリストが表示されます。名前の横にあるドロップダウン メニューから新しいアクセス レベルを選択して、アクセス レベルを変更できます。
+In general, a user can have one of the following permissions:
 
-また、[共有] ダイアログにアクセスし、メンバー名の横にあるドロップダウン メニューから **[削除]** を選択して、**いつでもダッシュボードの共有を解除できます**。
+  - **Owner** permissions - the user can create, edit, share and delete.
 
-<img src="images/remove-sharing.png" alt="Remove sharing button" class="responsive-img"/>
+  - **Contributor** permissions - the user can create, edit, share, and delete. Keep in mind that the user cannot delete the item that was shared with them (Dashboard/Dashboard List).
+
+   <img src="images/request-to-share-button.png" alt="Sending a request to the owner in order to share a dashboard" width="50%" class="responsive-img"/>
+
+  - **Viewer** permissions - the user can view a dashboard. They can also share it with another user after the approval of the owner.
 
 <a name='sharing-workspace-dashboard'></a>
-## ワークスペースのダッシュボードを他のユーザーと共有する
+## Sharing a Workspace's Dashboard with Other Users
 
-ワークスペースのメンバーは、ワークスペースのダッシュボードを他のユーザーと共有できます。これを行うには、**ワークスペース**のタブに移動し、**[ダッシュボード]** セクションからダッシュボードを選択します。次に、[独自のダッシュボードを他のユーザーと共有する](#sharing-dashboards-users)の手順に従います。
-
-ワークスペースのダッシュボードと独自のダッシュボードの共有の主な違いは、ダッシュボードを共有するユーザーに与えることができる[アクセス許可](#access-permissions)です。ワークスペースでのロールに応じて、1 つ、2 つ、またはすべてのアクセス許可オプションを選択できます。
-
-ワークスペースでのロールは次のとおりです:
-
-  - **管理者** - 編集、共有、削除など、ワークスペースのダッシュボードへの完全なアクセス許可があります。
-
-  - **メンバー** - ダッシュボードとフォルダーを作成、編集、共有できますが、削除することはできません。
-
-  - **閲覧者** - ダッシュボードを表示および共有できます。
-
-ここでは、ダッシュボードを共有するときにすべてのワークスペース メンバーが付与できるアクセス許可オプションを確認できます。
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-t96r{color:rgb(88, 88, 88);font-weight:bold;text-align:center;vertical-align:top}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-oav7{color:rgb(88, 88, 88);font-weight:bold;text-align:center;vertical-align:middle}
-</style>
-
-<table class="tg">
- <tr>
-    <th class="tg-oav7" rowspan="2">ワークスペースのロール</th>
-    <th class="tg-t96r" colspan="3">アクセス許可</th>
-  </tr>
-  <tr>
-    <td class="tg-baqh">管理</td>
-    <td class="tg-baqh">変更</td>
-    <td class="tg-baqh">閲覧</td>
-  </tr>
-  <tr>
-    <td>管理者</td>
-    <td><span style="color: #007F00">〇</span></td>
-    <td><span style="color: #007F00">〇</span></td>
-    <td><span style="color: #007F00">〇</span></td>
-  </tr>
-  <tr>
-    <td>メンバー</td>
-    <td><span style="color: #FF0000">X</span></td>
-    <td><span style="color: #007F00">〇</span></td>
-    <td><span style="color: #007F00">〇</span></td>
-  </tr>
-  <tr>
-    <td>閲覧者</td>
-    <td><span style="color: #FF0000">X</span></td>
-    <td><span style="color: #FF0000">X</span></td>
-    <td><span style="color: #007F00">〇</span></td>
-  </tr>
-</table>
-
-<span style="color: #007F00">〇</span> - 使用可能
-
-<span style="color: #FF0000">X</span> - 使用不可
+Any member of a workspace can share the workspace's dashboards with other users. To do this, go to the *Workspaces* tab and choose a dashboard from the *Dashboards* section. Then, follow the steps in [Sharing your Own Dashboard with Other Users](#sharing-dashboards-users). Keep in mind that the owner of the workspace needs to approve the request first in order for a member to share a dashboard with another member.
 
 <a name='sharing-dashboard-with-workspace'></a>
 ## ワークスペース全体とダッシュボードを共有する
 
-作成したダッシュボードまたはワークスペースのダッシュボードを、各ワークスペース メンバー個別に共有するのではなく、ワークスペース全体と共有できます。これを行うには、**[アイテム]** またはワークスペースのタブの **[ダッシュボード]** セクションからダッシュボードを選択します。次に、[独自のダッシュボードを他のユーザーと共有する](#sharing-dashboards-users)の手順に従います。
+You can share a dashboard you have access to with a workspace instead of individually with every workspace member.
+
+To do this, choose a dashboard from the *Dashboards* section in *My Analytics* or *Workspaces* tab.
 
 >[!NOTE]
 >ダッシュボードは、メンバーであるかどうかに関係なく、[メイン組織に属する](~/jp/workspaces/overview.html#organization-workspace)任意の公開ワークスペースと共有できます。自分がメンバーになっている非公開のワークスペースと共有することもできます。
-
-ワークスペース全体のアクセス許可を設定するときは、これらのアクセス許可はワークスペースの全員が利用できるわけではないことを考慮する必要があります。個人のメンバーは、ワークスペースでのロールに対して割り当て可能な最高のアクセス許可のみを受け取ります。
-
-ワークスペースでのロールに応じたすべてのワークスペース メンバーが取得できるアクセス許可のクイック リファレンスについては、以下の表をご覧ください。たとえば、ワークスペース全体に*変更*アクセス許可を付与すると、その*管理者*と*メンバー*はダッシュボードを変更できますが、*閲覧者*はダッシュボードを表示および共有するアクセス許可のみを受け取ります。これは、一般的なロールで割り当て可能な最高レベルのアクセス許可です。  
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-9wq8{border-color:inherit;text-align:center;vertical-align:middle}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-aktf{font-weight:bold;color:#333333;border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-7btt{font-weight:bold;border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-  <tr>
-    <th class="tg-9wq8" rowspan="3">ワークスペースのロール</th>
-    <th class="tg-7btt" colspan="3">ワークスペース全体に与えられたアクセス許可</th>
-  </tr>
-  <tr>
-    <td class="tg-c3ow">管理</td>
-    <td class="tg-c3ow">変更</td>
-    <td class="tg-c3ow">閲覧</td>
-  </tr>
-  <tr>
-    <td class="tg-7btt" style="text-align: center !important" colspan="3">ロールに応じてユーザーが受け取るアクセス許可</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">管理者</td>
-    <td class="tg-c3ow"><span style="color: #007F00">管理</span></td>
-    <td class="tg-c3ow"><span style="color: #D1A827">変更</span></td>
-    <td class="tg-c3ow"><span style="color: #FF0000">閲覧</span></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">メンバー</td>
-    <td class="tg-c3ow"><span style="color: #D1A827">変更</span></td>
-    <td class="tg-c3ow"><span style="color: #D1A827">変更</span></td>
-    <td class="tg-c3ow"><span style="color: #FF0000">閲覧</span></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">閲覧者</td>
-    <td class="tg-baqh"><span style="color: #FF0000">閲覧</span></td>
-    <td class="tg-baqh"><span style="color: #FF0000">閲覧</span></td>
-    <td class="tg-baqh"><span style="color: #FF0000">閲覧</span></td>
-  </tr>
-</table>
-
->[!NOTE]
->**ワークスペース メンバーに排他的なアクセス許可を与える**ワークスペース メンバーに、そのメンバーシップのロールで許可されているよりも高いダッシュボードへのアクセス レベルを付与する場合は、招待メールのリストに個別にメールを追加し、必要なアクセス許可を設定します。
 
 ## 関連項目
 

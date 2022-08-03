@@ -1,3 +1,9 @@
+---
+title: How to Create Stacked Chart Visualization in Slingshot
+_description: A quick tutorial on creating Stacked Chart visualization using a sample spreadsheet.
+_language: ja
+---
+
 # 積層型チャートを作成する方法
 
 このチュートリアルはサンプル スプレッドシートを使用し積層型チャートを作成する方法を説明します。

@@ -1,3 +1,9 @@
+---
+title: How to Create Sparkline Charts Visualization in Slingshot
+_description: A quick tutorial on creating Sparkline Charts visualization using a sample spreadsheet.
+_language: ja
+---
+
 # スパークライン チャートを作成する方法
 
 このチュートリアルは、サンプル スプレッドシートを使用してスパークライン チャートを作成する方法を説明します。

@@ -1,3 +1,9 @@
+---
+title: How to Create OHLC Visualizations in Slingshot 
+_description: A quick tutorial on creating OHLC visualizations using a sample spreadsheet.
+_language: ja
+---
+
 # OHLC チャートを作成する方法
 
 このチュートリアルは、サンプル スプレッドシートを使用して OHLC チャートを作成する方法を説明します。

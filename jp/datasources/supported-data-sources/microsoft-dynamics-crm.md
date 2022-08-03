@@ -1,3 +1,9 @@
+---
+title: How to configure Microsoft Dynamics CRM in Slingshot 
+_description: Steps to configuring Microsoft Dynamics CRM and using it to your advantage.
+_language: ja
+---
+
 # Microsoft Dynamics CRM
 
 Microsoft Dynamics CRM データ ソースを構成するには、以下の情報が必要です。

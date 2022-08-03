@@ -1,3 +1,9 @@
+---
+title: How to Use Category Charts for Visualization
+_description: Find out how to use category charts for making your visualizations truly remarkable.
+_language: ja
+---
+
 # カテゴリ チャート
 
 これらのチャートを使用して、カテゴリを定量的情報に関連付けます。

@@ -1,3 +1,9 @@
+---
+title: How to use Lookup & Reference Calculated Fields
+_description: Learn how to use Lookup & Reference Calculated Fields to get more details for your dashboards.
+_language: ja
+---
+
 # Lookup & 参照計算フィールド
 
 

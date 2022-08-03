@@ -1,3 +1,9 @@
+---
+title: How to use Calculated Fields
+_description: Learn how to use Calculated fields and all their types to create a more precise data visualization.
+_language: ja
+---
+
 # 計算フィールド
 
 Reveal では、計算フィールドというフィールドをデータセットに定義することができます。フィールドは、式 (数式) を使用して作成されます。式は、既存のフィールド、定数値、および以下の組み合わせにすることができます。

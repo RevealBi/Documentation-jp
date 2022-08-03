@@ -1,3 +1,9 @@
+---
+title: How to Create and Use Financial Charts
+_description: Find out how to use Financial Charts for your visualizations in Slingshot Analytics.
+_language: ja
+---
+
 # 財務チャート
 
 財務チャートは、終日の株価の動き (始値と終値、最高値と最低値) を表すために使用されます。

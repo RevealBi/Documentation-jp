@@ -1,3 +1,9 @@
+---
+title: How to configure Microsoft SQL Server in Slingshot
+_description: Steps to configuring Microsoft SQL Server and using it to your advantage.
+_language: ja
+---
+
 # Microsoft SQL Server
 
 >[!NOTE] 

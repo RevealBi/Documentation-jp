@@ -1,3 +1,9 @@
+---
+title: How to Create a Text View Visualization in Slingshot 
+_description: A quick tutorial on creating a Text View visualization using a sample spreadsheet.
+_language: ja
+---
+
 # テキスト ビューを作成する方法
 
 このチュートリアルはサンプル スプレッドシートを使用しテキスト ビューを作成する方法を説明します。
