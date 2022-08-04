@@ -1,6 +1,6 @@
 ---
-title: Preparing Your Data for Location Data Requirements 
-_description: In using Choropleth maps for Visualization, learn how to follow location data requirements.
+title: 位置データ要件のためのデータを準備する方法
+_description: 階級区分図を表示形式に使用する場合、位置データの要件に従う方法を説明します。
 _language: ja
 ---
 

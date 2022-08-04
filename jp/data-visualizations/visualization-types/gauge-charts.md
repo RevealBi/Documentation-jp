@@ -1,6 +1,6 @@
 ---
-title: How to Create and Use Gauge Charts
-_description: Find out how to use Gauge Charts for your visualizations in Slingshot Analytics.
+title: ゲージ チャートを作成して使用する方法
+_description: Slingshot 分析で表示形式にゲージ チャートを使用する方法を説明します。
 _language: ja
 ---
 

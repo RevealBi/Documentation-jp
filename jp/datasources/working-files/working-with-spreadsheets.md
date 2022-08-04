@@ -1,6 +1,6 @@
 ---
-title: How to Work with Spreadsheets in Slingshot 
-_description: Tips and tricks on using Spreadsheets to utilize your data insights in the best way.
+title: Slingshot でスプレッドシートを使用する方法
+_description: データのインサイトを最大限に活用するためのスプレッドシートの使用に関するヒントを紹介します。
 _language: ja
 ---
 

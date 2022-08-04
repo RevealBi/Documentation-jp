@@ -1,6 +1,6 @@
 ---
-title: How to Create and Use Financial Charts
-_description: Find out how to use Financial Charts for your visualizations in Slingshot Analytics.
+title: 財務チャートを作成して使用する方法
+_description: Slingshot 分析で表示形式に財務チャートを使用する方法を説明します。
 _language: ja
 ---
 

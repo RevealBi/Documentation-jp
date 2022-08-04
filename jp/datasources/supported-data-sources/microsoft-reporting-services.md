@@ -1,6 +1,6 @@
 ---
-title: How to connect to Microsoft Reporting Services in Slingshot
-_description: Learn how to use your existing Microsoft Reporting Services to create great visualizations.
+title: Slingshot で Microsoft Reporting Services に接続する方法
+_description: 既存の Microsoft Reporting Services を使用して優れた表示形式を作成する方法を説明します。
 _language: ja
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: How to Use Information Calculated Fields in Slingshot 
-_description: Learn how to utilize and test the value of a selected field through Information Calculated Fields.
+title: Slingshot で情報計算フィールドを使用する方法 
+_description: 情報計算フィールドで選択したフィールドの値を使用してテストする方法を説明します。
 _language: ja
 ---
 

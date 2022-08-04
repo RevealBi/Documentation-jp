@@ -1,6 +1,6 @@
 ---
-title: Using BigQuery Machine Learning in Slingshot
-_description: How to use your trained machine learning models data for building a visualization.
+title: Slingshot の BigQuery Machine Learning を使用する方法
+_description: トレーニング済みの機械学習モデル データを使用して表示形式を構築する方法を説明します。
 _language: ja
 ---
 

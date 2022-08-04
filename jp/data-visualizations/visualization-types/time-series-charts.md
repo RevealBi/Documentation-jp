@@ -1,6 +1,6 @@
 ---
-title: How to Create Time Series Chart Visualization 
-_description: Find out how to create and use Time Series Chart visualization in Slingshot Analytics.
+title: 時系列チャートの表示形式を作成する方法
+_description: Slingshot 分析で時系列チャートの表示形式を作成して使用する方法を説明します。
 _language: ja
 ---
 

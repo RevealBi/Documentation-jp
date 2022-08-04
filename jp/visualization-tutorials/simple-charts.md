@@ -1,6 +1,6 @@
 ---
-title: How to Create Simple-Series Charts Visualization in Slingshot
-_description: A quick tutorial on creating a Simple-Series visualization using a sample spreadsheet.
+title: Slingshot でシンプル シリーズのチャートの表示形式を作成する方法
+_description: サンプルス プレッドシートを使用してシンプル シリーズの表示形式を作成する方法を説明します。
 _language: ja
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: How to Use Field Settings in Slingshot 
-_description: Learn how to apply field settings for sorting, filtering, and aggregating data.
+title: Slingshot でフィールド設定を使用する方法
+_description: データの並べ替え、フィルタリング、集計にフィールド設定を適用する方法を説明します。
 _language: ja
 ---
 

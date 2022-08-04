@@ -1,6 +1,6 @@
 ---
-title: How to configure an Amazon Athena data source in Slingshot
-_description: Configuring an Amazon Athena data source to use unstructured data stored in Amazon S3 easy and fast.
+title: Slingshot で Amazon Athena データ ソースを構成する方法
+_description: Amazon S3 に保存された非構造化データを使用するように、簡単かつ迅速に Amazon Athena データ ソースを設定する方法を説明します。
 _language: ja
 ---
 

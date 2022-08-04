@@ -1,6 +1,6 @@
 ---
-title: How to Share Dashboards with Cloud Files
-_description: A guide on sharing and granting access to other users to dashboards on a cloud provider.
+title: ダッシュボードをクラウド ファイルと共有する方法
+_description: クラウド プロバイダー上のダッシュボードを他のユーザーと共有、およびアクセスを許可する方法を説明します。
 _language: ja
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: How to Sort by Field in Slingshot 
-_description: Learn how to change the display of data in a visualization to further precise how it looks.
+title: Slingshot のフィールドで並べ替える方法
+_description: 表示形式のデータの表示を変更して外観を変更する方法を説明します。
 _language: ja
 ---
 

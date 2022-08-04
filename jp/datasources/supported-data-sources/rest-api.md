@@ -1,6 +1,6 @@
 ---
-title: How to configure and use REST API Data Source 
-_description: Connecting and using REST API data source as a data source in Slingshot.
+title: REST API データ ソースを構成して使用する方法
+_description: REST API データ ソースを Slingshot のデータ ソースとして接続して使用する方法を説明します。
 _language: ja
 ---
 

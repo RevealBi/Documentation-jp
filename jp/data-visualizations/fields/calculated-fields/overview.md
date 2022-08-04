@@ -1,6 +1,6 @@
 ---
-title: How to use Calculated Fields
-_description: Learn how to use Calculated fields and all their types to create a more precise data visualization.
+title: 計算フィールドを使用する方法
+_description: 計算フィールドとそのすべてのタイプを使用して、より正確なデータ可視化を作成する方法を説明します。
 _language: ja
 ---
 

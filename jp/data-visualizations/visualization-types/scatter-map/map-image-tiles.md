@@ -1,6 +1,6 @@
 ---
-title: How to Use mage Tiles with Scatter Maps
-_description: Learn all about the image tile feature that will allow you to switch to a different map layer upon zooming.
+title: 散布図で画像タイルを使用する方法
+_description: ズーム時に別のマップ レイヤーに切り替えることができる画像タイル機能について説明します。
 _language: ja
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: How to Upload Dashboards to Slingshot
-_description: See how to work with dashboards saved on your device by directly uploading them.
+title: ダッシュボードを Slingshot にアップロードする方法
+_description: デバイスに保存されたダッシュボードを直接アップロードして操作する方法を説明します。
 _language: ja
 ---
 

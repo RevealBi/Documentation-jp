@@ -1,6 +1,6 @@
 ---
-title: How to Use Aggregation Calculated Fields in Slingshot
-_description: : Learn how to use Aggregation formulas with different variants and tricks.
+title: Slingshot で集計計算フィールドを使用する方法
+_description: : 集計数式を使用するさまざまなヒントとコツを説明します。
 _language: ja
 ---
 

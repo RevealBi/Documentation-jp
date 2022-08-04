@@ -1,6 +1,6 @@
 ---
-title: How to use Google BigQuery data source in Slingshot
-_description: Learn how to set up and use Google BigQuery data source and use huge datasets with no slow down.
+title: Slingshot で Google BigQuery データ ソースを使用する方法
+_description: Google BigQuery データ ソースを設定して使用する方法と、速度低下することなく巨大なデータセットを使用する方法を説明します。
 _language: ja
 ---
 

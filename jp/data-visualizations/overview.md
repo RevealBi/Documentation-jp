@@ -1,6 +1,6 @@
 ---
-title: Data Visualizations in Slingshot – All You Need to Know  
-_description: An overview of how data visualizations work in Slingshot Analytics and how to customize them.
+title: Slingshot の表示形式 – 必要な知識 
+_description: Slingshot 分析でのデータ可視化の仕組みとカスタマイズ方法の概要です。
 _language: ja
 ---
 

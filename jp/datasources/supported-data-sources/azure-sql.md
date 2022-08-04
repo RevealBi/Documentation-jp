@@ -1,6 +1,6 @@
 ---
-title: How to configure an Azure SQL data source in Slingshot
-_description: : A roadmap to configuring an Azure SQL data source to use it for your great visualizations.
+title: Slingshot で Azure SQL データ ソースを構成する方法
+_description: : 優れた表示形式に使用するために Azure SQL データ ソースを構成するためのロードマップを紹介します。
 _language: ja
 ---
 

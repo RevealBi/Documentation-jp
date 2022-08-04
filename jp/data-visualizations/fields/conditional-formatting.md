@@ -1,6 +1,6 @@
 ---
-title: How to use Conditional Formatting
-_description: Learn how to use Conditional Formatting in Slingshot to achieve more precise data visualizations.
+title: 条件付き書式を使用する方法
+_description: Slingshot で条件付き書式を使用して、データをより正確に可視化する方法を説明します。
 _language: ja
 ---
 

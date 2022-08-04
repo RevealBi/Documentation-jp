@@ -1,6 +1,6 @@
 ---
-title: How to Create KPI Gauge in Visualizations Editor
-_description: Find out how to use KPI Gauge for your visualizations in Slingshot Analytics.
+title: 表示形式エディターで KPI ゲージを作成する方法
+_description: Slingshot 分析で表示形式に KPI ゲージを使用する方法を説明します。
 _language: ja
 ---
 

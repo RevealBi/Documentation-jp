@@ -1,6 +1,6 @@
 ---
-title: How to Create and Use Combo Charts 
-_description: Find out how to use Combo Charts for your visualizations in Slingshot Analytics.
+title: 複合チャートを作成して使用する方法
+_description: Slingshot 分析で表示形式に複合チャートを使用する方法を説明します。
 _language: ja
 ---
 

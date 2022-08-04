@@ -1,6 +1,6 @@
 ---
-title: Steps to Using JSON Files to Create Visualizations in Slingshot 
-_description: See how to work with JSON Files to advance your visualizations and drive better data insights.
+title: JSON ファイルを使用して Slingshot で表示形式を作成する手順
+_description: JSON ファイルを使用して表示形式を向上し、データ インサイトを向上させる方法を説明します。
 _language: ja
 ---
 

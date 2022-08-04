@@ -1,6 +1,6 @@
 ---
-title: How to configure an OData Service data source 
-_description: Connecting and using OData Feed in Slingshot to boost your results.
+title: OData サービス データ ソースを構成する方法
+_description: Slingshot で OData Feed を接続して使用し、結果を向上させる方法を説明します。
 _language: ja
 ---
 

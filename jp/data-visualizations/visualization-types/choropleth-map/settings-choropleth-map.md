@@ -1,6 +1,6 @@
 ---
-title: How to Work with a Choropleth map Setting
-_description: Master the Choropleth map with the tips and tricks provided on this page.
+title: 階級区分図設定を使用する方法
+_description: このページで提供されるヒントで階級区分図を最大限に活用します。
 _language: ja
 ---
 

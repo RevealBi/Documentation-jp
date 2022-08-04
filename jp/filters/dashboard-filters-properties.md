@@ -1,6 +1,6 @@
 ---
-title: How to Use Dashboard Filters Properties 
-_description: Learn how to quickly apply and use Dashboard filters properties to achieve maximum effect for your visualization.
+title: ダッシュボード フィルターのプロパティを使用する方法
+_description: ダッシュボード フィルター プロパティをすばやく適用して使用し、表示形式の効果を最大限に高める方法について説明します。
 _language: ja
 ---
 

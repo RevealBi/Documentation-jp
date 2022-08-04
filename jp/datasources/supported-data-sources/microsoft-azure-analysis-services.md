@@ -1,6 +1,6 @@
 ---
-title: How to use Azure Analysis Services as Your Data Source
-_description: Steps to configure and use an Azure Analysis Services data source in Slingshot.
+title: Azure Analysis Services をデータ ソースとして使用する方法
+_description: Slingshot で Azure Analysis Services データ ソースを構成して使用する方法を説明します。
 _language: ja
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: How to configure Box as your data source in Slingshot
-_description: A roadmap to configuring, authorizing, and using Box for your visualizations.
+title: Slingshot で Dropbox をデータ ソースとして構成する方法
+_description: Dropbox を表示形式のために構成、認証、使用するためのロードマップを紹介します。
 _language: ja
 ---
 

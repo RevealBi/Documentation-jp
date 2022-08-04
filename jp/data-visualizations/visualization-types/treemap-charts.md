@@ -1,6 +1,6 @@
 ---
-title: How to Create Treemap Visualization
-_description: Learn how to create and use Treemap Visualization in Slingshot Analytics.
+title: ツリーマップの表示形式を作成する方法
+_description: Slingshot 分析でツリーマップの表示形式を作成して使用する方法を説明します。
 _language: ja
 ---
 

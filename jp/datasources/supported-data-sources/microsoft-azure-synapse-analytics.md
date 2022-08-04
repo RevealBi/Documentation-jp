@@ -1,6 +1,6 @@
 ---
-title: How to use Microsoft Azure Synapse as Your Data Source
-_description: Steps to configure and use an Azure Synapse Analytics data source in Slingshot.
+title: Microsoft Azure Synapse をデータ ソースとして使用する方法
+_description: Slingshot で Microsoft Azure Synapse データ ソースを構成して使用する方法を説明します。
 _language: ja
 ---
 

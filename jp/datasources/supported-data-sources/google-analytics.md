@@ -1,6 +1,6 @@
 ---
-title: How to Configure Google Analytics and Use It in Slingshot 
-_description: Guidelines to using Google Analytics to contribute to your data insights for business.
+title: Google アナリティクスを構成して Slingshot で使用する方法
+_description: Google アナリティクスを使用してビジネスのデータ分析に貢献するためのガイドラインです。
 _language: ja
 ---
 

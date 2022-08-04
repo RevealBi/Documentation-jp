@@ -1,6 +1,6 @@
 ---
-title: How to Use Category Charts for Visualization
-_description: Find out how to use category charts for making your visualizations truly remarkable.
+title: 表示形式にカテゴリ チャートを使用する方法
+_description: カテゴリ チャートを使用して表示形式を向上させる方法を説明します。
 _language: ja
 ---
 
