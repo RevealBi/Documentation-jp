@@ -1,6 +1,6 @@
 ---
-title: How to Add Amazon S3 to your data sources 
-_description: A step-by-step guide on how to configure an Amazon S3 data source and use it in Slingshot.
+title: データ ソースに Amazon S3 を追加する方法
+_description: Amazon S3 データ ソースを構成して Slingshot で使用する方法をステップ バイ ステップ で説明します。
 _language: ja
 ---
 

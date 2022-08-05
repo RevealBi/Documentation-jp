@@ -1,6 +1,6 @@
 ---
-title: How to use Lookup & Reference Calculated Fields
-_description: Learn how to use Lookup & Reference Calculated Fields to get more details for your dashboards.
+title: ルックアップおよび参照計算フィールドを使用する方法
+_description: ルックアップおよび参照計算フィールドを使用してダッシュボードの詳細情報を取得する方法を説明します。
 _language: ja
 ---
 

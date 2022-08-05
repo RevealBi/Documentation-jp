@@ -1,6 +1,6 @@
 ---
-title: How to Connect Dashboard Filters to a Visualization 
-_description: Learn how bring the data in your visualization to a dashboard filter in Slingshot Analytics.
+title: ダッシュボード フィルターを表示形式に接続する方法
+_description: 表示形式のデータを Slingshot 分析のダッシュボード フィルターに追加する方法を説明します。
 _language: ja
 ---
 

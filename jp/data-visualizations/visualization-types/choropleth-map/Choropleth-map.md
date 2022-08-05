@@ -1,6 +1,6 @@
 ---
-title: How to Use Choropleth maps for Visualization
-_description: Find out how to use Choropleth maps to depict statistical data in geographical areas.
+title: 表示形式に階級区分図を使用する方法
+_description: 階級区分図を使用して地理的データを表示する方法を説明します。
 _language: ja
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: Tips, Samples and Useful Cases for Calculated Fields
-_description: Check out some useful tips and samples, as well as useful cases you can use in Slingshot data visualization.
+title: 計算フィールドのヒント、サンプル、および便利なケース
+_description: Slingshot のデータ可視化で役立つヒントやサンプルを紹介します。
 _language: ja
 ---
 

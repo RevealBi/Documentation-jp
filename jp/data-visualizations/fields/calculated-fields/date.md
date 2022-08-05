@@ -1,6 +1,6 @@
 ---
-title: How to Use Date Calculated Fields in Slingshot
-_description: Learn how to use Date Calculated Fields to output different date and time information.
+title: Slingshot で日付計算フィールドを使用する方法
+_description: 日付計算フィールドを使用してさまざまな日時情報を出力する方法を説明します。
 _language: ja
 ---
 

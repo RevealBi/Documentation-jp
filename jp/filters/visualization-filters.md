@@ -1,6 +1,6 @@
 ---
-title: How to Apply Visualization Quick Filters
-_description: Learn how to apply quick visualization filters to dynamically filter your visualization content.
+title: 表示形式のクイック フィルターを適用する方法
+_description: 表示形式のクイック フィルターを適用して表示形式コンテンツを動的にフィルターする方法を説明します。
 _language: ja
 ---
 

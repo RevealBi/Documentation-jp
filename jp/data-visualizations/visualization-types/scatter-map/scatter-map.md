@@ -1,6 +1,6 @@
 ---
-title: How to Create Scatter Maps Visualization
-_description: Find out how to create and use Scatter Maps visualization in Slingshot Analytics.
+title: 散布図の表示形式を作成する方法
+_description: Slingshot 分析で散布図の表示形式を作成して使用する方法を説明します。
 _language: ja
 ---
 

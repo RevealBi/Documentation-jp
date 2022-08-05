@@ -1,6 +1,6 @@
 ---
-title: How to Use Statistical Functions 
-_description: Learn how to use the Statistical function to receive more insights from your visualizations.
+title: 統計関数を使用する方法
+_description: 統計関数を使用して表示形式からより多くの洞察を得る方法を説明します。
 _language: ja
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: How to configure and use a Quickbooks data source 
-_description: Connecting and using Quickbooks as a data source in Slingshot.
+title: Quickbooks データ ソースを構成して使用する方法
+_description: Quickbooks を Slingshot のデータ ソースとして接続して使用する方法を説明します。
 _language: ja
 ---
 

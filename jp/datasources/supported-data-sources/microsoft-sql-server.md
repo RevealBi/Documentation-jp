@@ -1,6 +1,6 @@
 ---
-title: How to configure Microsoft SQL Server in Slingshot
-_description: Steps to configuring Microsoft SQL Server and using it to your advantage.
+title: Slingshot で Microsoft SQL Server を構成する方法
+_description: Microsoft SQL Server を構成して使用する方法を説明します。
 _language: ja
 ---
 

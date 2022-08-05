@@ -1,6 +1,6 @@
 ---
-title: How to use String Calculated Fields
-_description: Learn how to use String Calculated Fields to create a more precise data visualization.
+title: 文字列計算フィールドを使用する方法
+_description: 文字列計算フィールドを使用して、より正確なデータ可視化を作成する方法を説明します。
 _language: ja
 ---
 

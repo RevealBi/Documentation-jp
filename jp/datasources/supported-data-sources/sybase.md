@@ -1,6 +1,6 @@
 ---
-title: How to Configure a Sybase Data Source in Slingshot
-_description: Learn how to configure your Sybase data source in Slingshot, retrieve it and use it in different dashboard views.
+title: Slingshot で Sybase データ ソースを構成する方法
+_description: Slingshot で Sybase データ ソースを構成し、取得してさまざまなダッシュボード ビューで使用する方法を説明します。
 _language: ja
 ---
 

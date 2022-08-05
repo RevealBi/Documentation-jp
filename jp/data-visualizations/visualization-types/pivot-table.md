@@ -1,6 +1,6 @@
 ---
-title: How to Create Pivot Table Visualization
-_description: Find out how to create and use Pivot Table visualization in Slingshot Analytics.
+title: ピボット テーブルの表示形式を作成する方法
+_description: Slingshot 分析でピボット テーブルの表示形式を作成して使用する方法を説明します。
 _language: ja
 ---
 

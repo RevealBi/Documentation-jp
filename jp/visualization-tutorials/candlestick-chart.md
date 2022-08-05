@@ -1,6 +1,6 @@
 ---
-title: How to Create Candlestick Visualizations in Slingshot
-_description: Get familiar the specifics of creating a Candlestick chart visualization for your data.
+title: Slingshot でローソク足の表示形式を作成する方法
+_description: データのローソク足チャートの表示形式を作成する方法を説明します。
 _language: ja
 ---
 

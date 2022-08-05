@@ -1,6 +1,6 @@
 ---
-title: How to use Fields in Slingshot 
-_description: Learn to options to easily apply transformations to the fields in your dataset.
+title: Slingshot でフィールドを使用する方法
+_description: データセットのフィールドに変換を簡単に適用するオプションについて説明します。
 _language: ja
 ---
 

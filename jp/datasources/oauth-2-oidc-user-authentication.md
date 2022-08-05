@@ -1,6 +1,6 @@
 ---
-title:OAuth 2 / OIDC User Authentication with REST, OData, and Web Resources
-_description: Ways to set up an OAuth 2 / OIDC account and grant access to your resources when using OData Service, Rest API or Web.
+title: REST、OData、および Web リソースを使用した OAuth 2 / OIDC ユーザー認証
+_description: OAuth2、OIDC アカウントを設定し、OData サービス、REST API、または Web を使用しているリソースへのアクセスを許可する方法を説明します。
 _language: ja
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: How to Connect a Dashboard to Its Data Source
-_description: Find out how to connect an already created dashboard to a data source of your choice.
+title: ダッシュボードをデータ ソースに接続する方法
+_description: 作成したダッシュボードを任意のデータ ソースに接続する方法を説明します。
 _language: ja
 ---
 

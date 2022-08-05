@@ -1,6 +1,6 @@
 ---
-title: How to Create Sparkline Charts Visualization 
-_description: Find out how to create and use Sparkline Charts visualization in Slingshot Analytics.
+title: スパークライン チャートの表示形式を作成する方法
+_description: Slingshot 分析でスパークライン チャートの表示形式を作成して使用する方法を説明します。
 _language: ja
 ---
 

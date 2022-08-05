@@ -1,6 +1,6 @@
 ---
-title: How to add Google Drive as Your Data Source
-_description: Steps to use Google Drive as your data source in Slingshot.
+title: Google ドライブをデータ ソースとして追加する方法
+_description: Slingshot で Google ドライブをデータ ソースとして使用する方法を説明します。
 _language: ja
 ---
 

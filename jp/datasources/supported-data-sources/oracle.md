@@ -1,6 +1,6 @@
 ---
-title: How to configure an Oracle data source
-_description: Learn how to configure and use an Oracle data source in two modes.
+title: Oracle データ ソースを構成する方法
+_description: Oracle データ ソースを 2 つのモードで構成して使用する方法を説明します。
 _language: ja
 ---
 

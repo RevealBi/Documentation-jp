@@ -1,6 +1,6 @@
 ---
-title: How to use Marketo as Your Data Source
-_description: Connecting to Marketo to use your data in Slingshot
+title: Marketo をデータ ソースとして使用する方法
+_description: Marketo に接続して Slingshot でデータを使用する方法を説明します。
 ---
 
 # Marketo 

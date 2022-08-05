@@ -1,6 +1,6 @@
 ---
-title: Filters in Slingshot Analytics – All You Need to Know
-_description: Learn all about dashboard filters, add datasets and make each visualization unique in Slingshot Analytics.
+title: Slingshot 分析のフィルター – 必要な情報
+_description: ダッシュボード フィルターのすべてを学び、データセットを追加して、各表示形式を Slingshot 分析で一意にします。
 _language: ja
 ---
 

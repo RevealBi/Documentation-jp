@@ -1,6 +1,6 @@
 ---
-title: How to Add and Use Dashboard Filters  
-_description: Learn how to use Dashboard edit mode to add new dashboard filters in Slingshot Analytics.
+title: ダッシュボード フィルターを追加して使用する方法  
+_description: ダッシュボード編集モードを使用して Slingshot 分析に新しいダッシュボード フィルターを追加する方法について説明します。
 _language: ja
 ---
 

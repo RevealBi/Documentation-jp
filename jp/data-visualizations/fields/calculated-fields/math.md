@@ -1,6 +1,6 @@
 ---
-title: How to use Math Calculated Fields
-_description: Learn how to use Math Calculated Fields to perfection your dashboards.
+title: 数学計算フィールドを使用する方法
+_description: 数学計算フィールドを使用してダッシュボードを完成させる方法を説明します。
 _language: ja
 ---
 

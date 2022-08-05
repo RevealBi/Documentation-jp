@@ -1,6 +1,6 @@
 ---
-title: How to Create Scatter and Bubble Charts Visualization 
-_description: Find out how to create and use Scatter and Bubble Charts visualization in Slingshot Analytics.
+title: 散布図・バブル チャートの表示形式を作成する方法
+_description: Slingshot 分析で散布図・バブル チャートの表示形式を作成して使用する方法を説明します。
 _language: ja
 ---
 

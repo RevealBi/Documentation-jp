@@ -1,6 +1,6 @@
 ---
-title: How to Create and Use Grid Charts in Visualizations Editor
-_description: Find out how to use Grid Charts for your visualizations in Slingshot Analytics.
+title: 表示形式エディターでグリッド  チャートを作成して使用する方法
+_description: Slingshot 分析で表示形式にグリッド チャートを使用する方法を説明します。
 _language: ja
 ---
 

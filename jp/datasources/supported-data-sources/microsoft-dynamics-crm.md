@@ -1,6 +1,6 @@
 ---
-title: How to configure Microsoft Dynamics CRM in Slingshot 
-_description: Steps to configuring Microsoft Dynamics CRM and using it to your advantage.
+title: Slingshot で Microsoft Dynamics CRM を構成する方法
+_description: Microsoft Dynamics CRM を構成して使用する方法を説明します。
 _language: ja
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: How to Create Gauge Visualizations in Slingshot 
-_description: A quick tutorial on creating all types of Gauge visualizations using a sample spreadsheet.
+title: Slingshot でゲージの表示形式を作成する方法
+_description: サンプルス プレッドシートを使用してゲージ チャートの表示形式を作成する方法を説明します。
 _language: ja
 ---
 

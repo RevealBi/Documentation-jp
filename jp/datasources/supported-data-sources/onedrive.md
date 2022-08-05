@@ -1,6 +1,6 @@
 ---
-title: How to configure a OneDrive data source
-_description: Connecting and using OneDrive as a data source in Slingshot to boost your results.
+title: OneDrive データ ソースを構成する方法
+_description: OneDrive を Slingshot のデータ ソースとして接続して使用し、結果を向上させる方法を説明します。
 _language: ja
 ---
 
