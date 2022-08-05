@@ -1,55 +1,55 @@
 # Google Search Console
 
-The Google Search Console data source allows you to connect your Google Search Console account to Slingshot. 
+Google Search Console データ ソースを使用すると、Google Search Console アカウントを Slingshot に接続できます。 
 
-With the help of structured and insightful dashboards, you can see how your SEO techniques perform and get a better overview on the areas of your site that need to be improved. 
+構造化されたインサイトに富んだダッシュボードの助けを借りて、SEO テクニックがどのように機能するかを確認し、改善が必要なサイトの領域についてより良い概要を得ることができます。
 
-## Connecting to Google Search Console
+## Google Search Console への接続
 
-1.	Select **Google Search Console** that is under **Marketing, Sales and CRMs** section in the data source list. 
-2.	In case there are multiple accounts listed, choose the one that stores the data you want to access. You can also add a new Google Search Console account if the one that you need is not in the list of accounts. In case you don’t have a Google Search Console account, you can head [here](https://search.google.com/search-console/about) for more information about how you can create one.
-3.	If you haven’t signed in yet, you will be prompt to enter your credentials.
-4.	Before adding the account to your data sources, you can choose to edit the name, give a description or edit the details.
+1.	データ ソース リストの **[マーケティング、セールス、CRM]** セクションにある **Google Search Console** を選択します。 
+2.	複数のアカウントが表示されている場合は、アクセスしたいデータが保存されているアカウントを選択してください。必要なアカウントがアカウントのリストにない場合は、新しい Google Search Console アカウントを追加することもできます。Google Search Console のアカウントをお持ちでない場合は、[こちら (英語)](https://search.google.com/search-console/about)で作成方法の詳細をご覧ください。
+3.	まだサインインしていない場合は、資格情報の入力を求められます。
+4.	アカウントをデータ ソースに追加する前に、名前の編集、説明の追加、または詳細の編集を選択できます。
 
  <img src="./images/google-search-add-account.png" alt="Google Search Console add account dialog" width="60%" class="responsive-img"/>
 
-5.	Choose the sites you want to use for your dashboard and then click/tap on **Select Data**.
-6.	Once you have saved the changes, you will see the file in your **Data Sources** list.
+5.	ダッシュボードに使用するサイトを選択し、**[データの選択]** をクリックまたはタップします。
+6.	変更を保存すると、**データ ソース** リストにファイルが表示されます。
 
-## Working in the Visualizations Editor
+## 表示形式エディターでの作業
 
-When you use Google Search Console as a data source, you will see that the fields in the *visualization editor* appear differently.
+Google Search Console をデータ ソースとして使用すると、*表示形式エディター*のフィールドが異なって表示されることがわかります。
 
-Instead of “Fields” heading on the left, you’ll see two sections in their own query field.
+左側の「フィールド」見出しの代わりに、独自のクエリ フィールドに 2 つのセクションが表示されます。
 
 <img src="./images/google-search-console-visualization-editor.png" alt="Visualization Editor showing a Google Search Console data cube" class="responsive-img"/>
 
-1.	**Dimensions**: They are the attributes of your data.  
-2.	**Measures** (depicted by123 icon): They consist of numeric data. For example, you can see the number of clicks by country names.
+1.	**ディメンション**: それらはデータの属性です。  
+2.	**メジャー** (123 アイコンで表示): メジャーは数値データで構成されます。たとえば、国名ごとのクリック数を確認できます。
 
-## The Date Range Data Filter
+## 日付範囲データ フィルター
 
-This filter can’t be removed but you can change the default date range. The date filter is set to *Last 30 days* by default. 
+このフィルターは削除できませんが、デフォルトの日付範囲は変更できます。デフォルトでは、日付フィルターは *[過去 30 日間]* に設定されています。 
 
-If you want to change it, you can click on the arrow in the upper right corner (see the screenshot below) and pick a date range from the drop-down menu or create a custom one when you click on the first option.
+変更したい場合は、右上隅の矢印をクリックして (下のスクリーンショットを参照)、ドロップダウン メニューから日付範囲を選択するか、最初のオプションをクリックしてカスタムの日付範囲を作成します。
 
 <img src="./images/google-search-console-date-range.png" alt="Date range dialog" class="responsive-img"/>
 
-## Settings
+## 設定
 
-Depending on the chart type, you can make different changes in the settings. In this case we used the column chart type where you can adjust the following through the settings menu:
+チャートの種類に応じて、設定でさまざまな変更を行うことができます。この場合、設定メニューから以下を調整できる柱状チャート タイプを使用しました。
 
-- Show Title
-- Show Legend
-- Start Color
-- Show Totals on Tooltip
-- Chart Trendline
-- Axis and Axis Bounds
-- Connect this visualization to another dashboard or a URL. You can check [this](https://www.slingshotapp.io/en/help/docs/analytics/dashboards/dashboard-linking) article for more information about how to link dashboards. 
+- タイトルの表示
+- 凡例を表示する
+- 開始色
+- ツールチップで合計を表示
+- チャート トレンドライン
+- 軸と軸の境界
+- この表示形式を別のダッシュボードまたは URL に接続します。ダッシュボードをリンクする方法の詳細については、[この](https://www.slingshotapp.io/ja/help/docs/analytics/dashboards/dashboard-linking)記事を確認してください。 
 
 
-When you are ready with the visualization editor, you can save the dashboard in **My Analytics>My Dashboards** or in a specific workspace. 
+表示形式エディターの準備ができたら、ダッシュボードを **[分析] > [ダッシュボード]** または特定のワークスペースに保存できます。 
 
 <img src="./images/google-search-console-my-analytics.png" alt="Google Search Console dashboard in My Anylitics section" class="responsive-img"/>
 
-If you want to find more information about the data sources, you can head [here](https://www.slingshotapp.io/en/help/docs/analytics/datasources/overview). 
+データ ソースの詳細については、[こちら](https://www.slingshotapp.io/ja/help/docs/analytics/datasources/overview)を参照してください。 
