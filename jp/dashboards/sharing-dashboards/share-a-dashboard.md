@@ -18,7 +18,7 @@ Here you will find more information about the permission roles and the available
 
 作成したダッシュボードを個人ユーザーと共有するには、次のことを行う必要があります。
 
-1.  **[共有] ダイアログ**にアクセスする - Open the overflow menu and choose **Shared With**.
+1.  **[共有] ダイアログ**にアクセスする - オーバーフロー メニューを開き、**[共有ユーザー]** を選択します。
 
 
   <img src="images/shared-with-button.png" alt="Accessing the sharing dialog of a dashboard" class="responsive-img"/>
