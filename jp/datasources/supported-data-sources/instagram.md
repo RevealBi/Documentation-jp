@@ -1,50 +1,50 @@
 # Instagram
 
-The Instagram data source allows you to connect your Instagram Business account data to Slingshot. With the help of insightful dashboards, you can have a better overview of the brand awareness of your company.
+Instagram データ ソースを使用すると、Instagram ビジネス アカウントのデータを Slingshot に接続できます。インサイトに富んだダッシュボードにより、会社のブランド認知度をより的確に把握できます。
 
-## Connecting an Instagram Business account to Slingshot
+## Instagram Business アカウントを Slingshot に接続する
 
-1.	Select **Instagram** as your data source. You can find it under **Social Media** in the data sources list.
-2.	Log in to your Instagram Business account. If you don’t have one, you can head [here](https://business.instagram.com/getting-started) to find more information about how you can create a new account. Keep in mind that you need to connect a Facebook page to the Instagram Business account first. You can click [here](https://help.instagram.com/399237934150902) to find more information about how you can do that.
-3.	A dialog will open, where you can change the name of the data source, add a description, see if the data source is certified and edit the details. 
+1.	データ ソースとして **Instagram** を選択します。データ ソース リストの **[ソーシャル メディア]** の下にあります。
+2.	Instagram ビジネス アカウントにログインします。アカウントを持っていない場合は、[こちら](https://business.instagram.com/getting-started)から、新しいアカウントを作成する方法を確認してください。最初に Facebook ページを Instagram ビジネス アカウントに接続する必要があることに注意してください。[こちら](https://help.instagram.com/399237934150902)をクリックして、より詳細な情報をご覧ください。
+3.	ダイアログが開き、データ ソースの名前を変更したり、説明を追加したり、データ ソースが認定されているかどうかを確認したり、詳細を編集したりできます。
 
 <img src="./images/instagram-edit-data-source.png" alt="Edit data source dialog" class="responsive-img"/>
 
-4. Choose the pages you want to use for your dashboard and click on **Select Data**.
+4. ダッシュボードに使用するページを選択し、**[データの選択]** をクリックします。
 
-## Working in the visualization editor
+## 表示形式エディターでの作業
 
-Once you have chosen/added your data source, in this case the Instagram Business account, you’ll be able to manage the data in the visualization editor. 
+データ ソース (この場合は Instagram ビジネス アカウント) を選択 / 追加すると、表示形式エディターでデータを管理できるようになります。
 
 <img src="./images/instagram-visualization-editor.png" alt="Instagram visualization editor" class="responsive-img"/>
-You will be presented with two sections in their own query field:
+独自のクエリ フィールドに 2 つのセクションが表示されます:
 
-- **Dimensions (depicted by a cube icon with a pink side)**: Here you can find the attributes of your data that you want to measure.
-- **Measures (depicted by 123 icon)**: Measures consist of numeric data. For example, you can see how many account followers your website (under the Account cube with a pink side) has.
+- **ディメンション (ピンク色の側面の立方体アイコンで表示)**: ここで、測定したいデータの属性を見つけることができます。
+- **メジャー ([123] アイコンで表示)**: メジャーは数値データで構成されます。たとえば、ウェブサイトのアカウントのフォロワー数を確認できます (ピンク色のアカウント キューブの下)。
 
-## The date range data filter
+## 日付範囲データ フィルター
 
-You can filter your data by selecting a specific date range. Keep in mind that the data filter can’t be removed but you can change the default date range (*Last 7 days*).
+特定の日付範囲を選択して、データをフィルタリングできます。データ フィルターは削除できませんが、デフォルトの日付範囲 (*過去 7 日間*) は変更できることに注意してください。
 
-To change the date range, you can click on the filter and then click on the arrow in the upper right corner.
+日付範囲を変更するには、フィルターをクリックしてから、右上隅の矢印をクリックします。
 
 <img src="./images/instagram-date-range.png" alt="Instagram date range options" class="responsive-img"/>
 
-## Settings
+## 設定
 
-You can adjust the following through the settings menu:
-- Show Title
-- Show Legend
-- Start color
-- Show Totals on Tooltip
-- Chart Trendline
-- Axis and Axis Bounds
-- Connect this visualization to another dashboard or a URL
+設定メニューから次の項目を調整できます:
+- タイトルの表示
+- 凡例の表示
+- 開始色
+- ツールチップで合計を表示
+- チャートの近似曲線
+- 軸と軸の境界
+- 表示形式を他のダッシュボードまたは URL に接続
 
 <img src="./images/instagram-settings-options.png" alt="Options in the instagram settings" class="responsive-img"/>
 
-When you are ready with the visualization editor, you can save the dashboard in **My Analytics**>**My Dashboards** or in a specific workspace. 
+表示形式エディターの準備ができたら、ダッシュボードを **[分析] > [ダッシュボード]** または特定のワークスペースに保存できます。 
 
 <img src="./images/instagram-dashboards.png" alt="Dashboard section with an instagram dashboard" class="responsive-img"/>
 
-If you want to find more information about the data sources, you can head [here](https://www.slingshotapp.io/en/help/docs/analytics/datasources/overview). 
+データ ソースの詳細については、[こちら](https://www.slingshotapp.io/jp/help/docs/analytics/datasources/overview)を参照してください。 
