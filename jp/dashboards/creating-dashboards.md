@@ -13,7 +13,7 @@ Reveal のダッシュボード作成には以下のオプションが含まれ�
 <a name='access-dashboard-creation-menu'></a>
 ## ダッシュボード作成メニューにアクセス
 
-You can create a dashboard by clicking/tapping on the **+ Dashboard** or **Create Dashboard** *(My Analytics)* blue button.
+**[+ ダッシュボード]** または **[ダッシュボードの作成]** **(分析)** の青いボタンをクリックまたはタップして、ダッシュボードを作成できます。
 
    <img src="images/creating-a-dashboard.png" alt="Dashboard button in My Analytics" class="responsive-img"/>
 
@@ -24,12 +24,11 @@ You can create a dashboard by clicking/tapping on the **+ Dashboard** or **Creat
 <a name='add-data-source'></a>
 ## データ ソースの追加
 
-If your data source is not in the data sources list, select
-the **+ Data Source** button in the top right-hand corner. A new dialog will appear, displaying all data source categories and the available data sources. Feel free to scroll up and down until you see the data source you need.
+データ ソースがデータ ソース リストにない場合は、右上隅にある **[+ データ ソース]** ボタンを選択します。新しいダイアログが表示され、すべてのデータ ソース カテゴリと使用可能なデータ ソースが表示されます。必要なデータ ソースが表示されるまで、上下にスクロールしてください。
 
 <img src="images/dashboard-select-your-data-source.png" alt="List with some of the data sources" class="responsive-img"/>
 
-If your data source is a spreadsheet in a content manager, you will be able to select, for example, the specific sheet that you want to use in your visualization.
+データ ソースがコンテンツ マネージャーのスプレッドシートの場合、可覚化で使用する特定のシートを選択できます。
 
 <img src="images/dashboards-select-data-sheet.png" alt="select a data sheet from an excel file data source" class="responsive-img"/>
 
@@ -80,8 +79,8 @@ Reveal では、情報を可覚化する方法をカスタマイズするため�
 
 ダッシュボードの準備後、右上側の**ティック アイコン**を選択してあるいはオーバーフロー メニューの [**名前を付けて保存**] オプションにアクセスして、ダッシュボードを保存します。
 
-You can save your dashboard under **My Analytics**>**My Dashboards** or choose any of the workspaces you have joined or created.ダッシュボードの名前を選択し、準備ができた後 [ここに保存] をクリック/タップします。
+**[分析]** > **[ダッシュボード]** の下にダッシュボードを保存するか、参加または作成したワークスペースのいずれかを選択できます。ダッシュボードの名前を選択し、準備ができた後 [ここに保存] をクリック/タップします。
 
 <img src="images/dashboard-save-as-dialog.png" alt="Save as dialog while creating dashboards" class="responsive-img"/>
 
-To better organize your space you can create lists and sections by clicking on the *+List* and *+Section* buttons at the top right-hand corner, while in the *Save as* menu.
+**[名前を付けて保存]** メニューで、右上隅にある **[+ リスト]** ボタンと **[+ セクション]** ボタンをクリックして、リストとセクションを作成し、スペースを整理することができます。

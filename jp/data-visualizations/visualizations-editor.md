@@ -1,6 +1,6 @@
 ---
-title: How to Use the Visualizations Editor
-_description: Find out how to create and edit your visualizations and use a great variety of options.
+title: 表示形式エディターの使用方法
+_description: 表示形式を作成および編集し、さまざまなオプションを使用する方法をご覧ください。
 _language: ja
 ---
 
@@ -12,7 +12,7 @@ _language: ja
 
 表示形式は、ダッシュボードの基本要素です。したがって、表示形式の作成を開始するときに、開始点には ２ つの選択肢があります。
 
-* **新しいダッシュボードを作成する**ことから始めます。このダッシュボードでは、新しい表示形式が最初または唯一の表示形式になります。To do this, go to *My Analytics* or a workspace and click/tap on the *+Dashboard* blue button.
+* **新しいダッシュボードを作成する**ことから始めます。このダッシュボードでは、新しい表示形式が最初または唯一の表示形式になります。これを行うには、**[分析]** またはワークスペースに移動し、**[+ ダッシュボード]** の青いボタンをクリックまたはタップします。
 * 既存のダッシュボードに**新しい表示形式を追加する**ことから始めます。これを行うには、ダッシュボードを[ダッシュボード編集](~/jp/dashboards/dashboards-interactions.html#view-edit-mode)モードで開き、**[+ 追加]** の青い分割ボタンをクリック/タップします。
 
 その後、新しいデータ ソースを追加するか、既存の[データ ソース](~/jp/datasources/overview.md)を選択するように求められます。
@@ -43,7 +43,7 @@ _language: ja
 
 1. **[データ] セクション** - このセクションには 2 つのパネルがあります。
 
-    a. **[フィールド]** - データ ソース内で使用可能なすべてのフィールドが左側のパネルに表示されます。各フィールドには、フィールド タイプ (**日付**、**値**、**テキスト**) をユーザーに通知するインジケーターがあります。使用可能なフィールドが 10 を超えると、検索バーが表示されます。このパネルの [+] アイコンを使用すると、[データ ソースをブレンドする](~/jp/datasources/data-blending.md)か、[フィールドを計算](fields/calculated-fields/overview.html#precalculated-fields)することができます。**脳**アイコンを使用すると、[BigQuery](~/jp/datasources/ml-integration/bigquery-machine-learning-models.md) または [Azure](~/jp/datasources/ml-integration/azure-machine-learning-models.md) の**機械学習モデル**のフィールドを表示形式に使用できます。Keep in mind that the BigQuery machine learning model can work only with BigQuery data sources.
+    a. **[フィールド]** - データ ソース内で使用可能なすべてのフィールドが左側のパネルに表示されます。各フィールドには、フィールド タイプ (**日付**、**値**、**テキスト**) をユーザーに通知するインジケーターがあります。使用可能なフィールドが 10 を超えると、検索バーが表示されます。このパネルの [+] アイコンを使用すると、[データ ソースをブレンドする](~/jp/datasources/data-blending.md)か、[フィールドを計算](fields/calculated-fields/overview.html#事前計算フィールド)することができます。**脳**アイコンを使用すると、[BigQuery](~/jp/datasources/ml-integration/bigquery-machine-learning-models.md) または [Azure](~/jp/datasources/ml-integration/azure-machine-learning-models.md) の**機械学習モデル**のフィールドを表示形式に使用できます。BigQuery  機械学習モデルは、BigQuery データ ソースでのみ機能することにご注意ください。
 
     b.**表示形式フィールド** - ここでフィールドをドラッグアンドドロップするか、**[+]** マークをクリックして使用可能なフィールドから作成する表示形式に使用するフィールドを選択します。
 

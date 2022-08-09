@@ -1,6 +1,6 @@
 ---
-title: How to use Web Resource as a data source in Slingshot 
-_description: Learn how to use any virtual file in the web as a data source in Slingshot to advance your work.
+title: Slingshot でウェブ リソースをデータ ソースとして使用する方法
+_description: ウェブ上の任意の仮想ファイルを Slingshot のデータ ソースとして使用して作業を進める方法を学びます。
 _language: ja
 ---
 
@@ -14,20 +14,20 @@ _language: ja
 
 1.  **[URL]**: サービスの URL (ダッシュボード チュートリアルの場合は <https://download.infragistics.com/reveal/help/samples/Reveal_Dashboard_Tutorials.xlsx> など)。
 
-3. **[結果タイプ]**:  サービスから取得する予定のファイル タイプを指定できます。たとえば、*.csv* を選択し、サービス が *json* で応答した場合、Reveal はファイルを *.csv* として解析しようとします。
+2. **[結果タイプ]**:  サービスから取得する予定のファイル タイプを指定できます。たとえば、*.csv* を選択し、サービス が *json* で応答した場合、Reveal はファイルを *.csv* として解析しようとします。
 
     [自動検出] を選択した場合、Reveal は サービス からのファイル (コンテンツ) タイプに関する情報を使用してファイルを解析します。
 
-4.  **Credentials**: You can click on the drop-down menu and select **+Credential**. After that you can enter the following:
+3.  **資格情報**: ドロップダウン メニューをクリックして、**[+ 資格情報]** を選択できます。その後、次のように入力できます:
 
-      - **Credential Type**: two options - **Generic Credentials** or **OAuth 2 / OIDC**.
+      - **[資格情報の種類]**: 2 つのオプション - **[汎用資格情報]** または **[OAuth 2 / OIDC 資格情報]**。
 
-      - **Username or domain**: the user account for the Web Resource or the name of the domain.
+      - **ユーザー名またはドメイン**: ウェブ リソースのユーザー アカウントまたはドメインの名前。
 
-      - **Password**: the password to access the Web Resource.
+      - **[パスワード]**: ウェブ リソースにアクセスするためのパスワード。
 
-  If you want to make some changes to your credentials, you can select **Manage Credentials** from the drop-down menu.
+  資格情報に変更を加える場合は、ドロップダウン メニューから **[資格情報の管理]** を選択できます。
 
-Once ready, select **Load and Continue**.
+準備ができたら、**[ロードして続行]** を選択します。
 
 保護されたウェブ リソースの **OAuth 2 / OIDC アカウント**を設定するには、[このトピック](~/jp/datasources/oauth-2-oidc-user-authentication.html)をお読みください。

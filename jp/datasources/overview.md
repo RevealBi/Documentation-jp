@@ -1,6 +1,6 @@
 ---
-title: How to Connect to Data Sources in Slingshot 
-_description: Learn how to connect to different enterprise data sources and use them.
+title: Slingshot でデータ ソースに接続する方法
+_description: さまざまなエンタープライズ データ ソースに接続して使用する方法を学びます。
 _language: ja
 ---
 
@@ -8,16 +8,16 @@ _language: ja
 
 データ ソースはデータの送信元です。Reveal は、さまざまなエンタープライズ データ ソースに接続する機会を提供します。分析ツール、コンテンツ マネージャー、クラウド サービス、CRM、データベース、スプレッドシート、および公開用のデータ ソースから選択できます。
 
-## Connecting to Data Sources
+## データソースに接続
 
-To retrieve information from a data source and use it for your visualizations you need to connect to it first. Once you have connected to a data source, it will be saved in the *Data Sources* menu for quick selection next time you need it (see the screenshot above).
+データソースから情報を取得し、それを表示形式に使用するには、まずデータソースに接続する必要があります。データ ソースに接続すると、**[データ ソース]** メニューに保存され、次に必要になったときにすばやく選択できます (下のスクリーンショットを参照)。
 
-To connect to a data source, perform the steps below:
+データ ソースに接続するには、以下の手順を実行します:
 
-1. Go to *My Analytics* or a workspace where you want to a create a dashboard. 
-2. Click/tap on the **+ Dashboard** or **Create Dashboard** *(My Analytics)* blue button.
+1. *[分析]* またはダッシュボードを作成するワークスペースに移動します。
+2. **[+ ダッシュボード]** または **[ダッシュボードの作成]** **(分析)** の青いボタンをクリックまたはタップします。
    <img src="images/data-sources-my-analytics.png" alt="Dashboard button in my analytics" class="responsive-img"/>
-3. In the *+ Visualization* dialog, you will see a list of recently used data sources. To create a new connection, select the **+ Data Source** button on the right.
+3. **[データ ソース]** ダイアログに、最近使用したデータ ソースのリストが表示されます。新しい接続を作成するには、右側の **[+ データ ソース]** ボタンを選択します。
 
 <img src="images/data-sources-screen.png.png" alt="Sample data sources" class="responsive-img"/>
 
@@ -87,9 +87,9 @@ To connect to a data source, perform the steps below:
 
    - [スプレッドシート](~/jp/datasources/working-files/working-with-spreadsheets.html)
 
-## Filtering your Data Sources
+## データ ソースのフィルタリング
 
-To filter your data sources, you can click on the filter button in the upper right corner.
+データ ソースをフィルターするには、右上隅にあるフィルター ボタンをクリックします。
 
 <img src="images/data-sources-filter.png" alt="Sample data sources" class="responsive-img"/>
 

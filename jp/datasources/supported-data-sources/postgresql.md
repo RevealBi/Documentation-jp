@@ -1,6 +1,6 @@
 ---
-title: How to configure a PostgreSQL data source
-_description: Connecting and using PostgreSQL as a data source in Slingshot.
+title: PostgreSQL データ ソースの構成方法
+_description: PostgreSQL を Slingshot のデータ ソースとして接続して使用する方法を説明します。
 _language: ja
 ---
 
@@ -21,13 +21,13 @@ PostgreSQL サーバー データ ソースを設定するには、以下の情�
 
 3.  **[資格情報]**: [資格情報] を選択した後、PostgreSQL の資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
 
-      - **Username** or **Domain**: the name of the user account for the PostgreSQL server or the name of the domain.
+      - **ユーザー名** または **ドメイン**: PostgreSQL サーバーのユーザー アカウントの名前またはドメインの名前。
 
       - **[パスワード]**:  PostgreSQL サーバーにアクセスするためのパスワード。
 
-      - **Alias**: the name for your data source account.
+      - **エイリアス**: データ ソース アカウントの名前。
 
- Once ready, select **Add Server**.
+ 準備ができたら、**[サーバーの追加]** を選択します。
 
 <a name='how-to-find-server'></a>
 ## サーバー情報を見つける方法
@@ -51,7 +51,7 @@ PostgreSQL サーバー データ ソースを設定するには、以下の情�
 ## データの設定
 ### ビューの作業
 
-With Reveal, you can not only retrieve PostgreSQL data from entire tables, but you can also select a particular [view](https://www.postgresqltutorial.com/postgresql-views/) that returns a subset of data from a table or a set of tables instead.
+Reveal を使用すると、テーブル全体から PostgreSQL データを取得できるだけでなく、テーブルまたはテーブルのセットからデータのサブセットを返す特定の [ビュー](https://www.postgresqltutorial.com/postgresql-views/) を選択することもできます。
 
 <img src="../images/postgresql-views.png" alt="PostgreSQL views dialog" class="responsive-img" width="60%"/>
 
@@ -73,7 +73,7 @@ PostgreSQL 関数を使用すると、データベース内の単一の関数で
 <img src="../images/postgresql-functions.png" alt="A dashboard with a table visualization and a view visualization" class="responsive-img" width="60%"/>
 
 
-After you select a function, you will need to set up some additional parameters. 
+関数を選択した後、いくつかの追加パラメーターを設定する必要があります。
 
 この場合、関数は、Sales for period の情報を表示するために開始日と終了日を設定する必要があります。
 

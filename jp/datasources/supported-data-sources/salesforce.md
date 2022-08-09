@@ -1,6 +1,6 @@
 ---
-title: How to set up and use Salesforce Data Source
-_description: Setting up and using Salesforce as a data source in Slingshot.
+title: Salesforce データ ソースの設定方法と使用方法
+_description: Slingshot で Salesforce をデータ ソースとして設定および使用する方法。
 _language: ja
 ---
 
@@ -20,9 +20,9 @@ Salesforce データ ソースを選択すると、以下のログイン プロ�
 
 <img src="../images/salesforce-data-source-details-popular-objects.png" alt="Set up your data dialog" class="responsive-img"/>
 
-Here you can choose from:
+Slingshot で Salesforce をデータ ソースとして設定および使用する方法。
 
-  - **Reports** - this category displays all the reports that come from your Salesforce account. 
+  - **[レポート]** - このカテゴリには、Salesforce アカウントからのすべてのレポートが表示されます。
 
   - **[人気のあるオブジェクト]** - このカテゴリでは、ユーザーが最もよく使用する 7 つのオブジェクトをすばやく選択できます。
 

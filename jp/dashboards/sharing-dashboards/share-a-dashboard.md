@@ -2,7 +2,7 @@
 
 共有ダッシュボードは、チーム間のコラボレーションに最適です。Reveal での共有に関しては、非常に多くの利用シナリオが考えられます。
 
-Here you will find more information about the permission roles and the available sharing scenarios:
+ここでは、アクセス許可のロールと利用可能な共有シナリオに関する詳細を確認できます:
 
   - [独自のダッシュボードを他のユーザーと共有する](#sharing-dashboards-users)
 
@@ -23,46 +23,45 @@ Here you will find more information about the permission roles and the available
 
   <img src="images/shared-with-button.png" alt="Accessing the sharing dialog of a dashboard" class="responsive-img"/>
 
-  Once you share a folder with other people, the files will appear under the **Shared with Me** section in the left panel. Alternatively they can find the files when they open **My Analytics** and click/tap on **Shared with Me** that is under **Filters**.
+  フォルダーを他のユーザーと共有すると、ファイルは左側のパネルの **[自分と共有済み]** セクションに表示されます。または、**[分析]** を開き、**[フィルター]** の下にある **[自分と共有済み]** をクリックまたはタップしてファイルを見つけることもできます。
 
   <img src="images/shared-with-me-section.png" alt="Finding the Shared with Me option in different sections" class="responsive-img"/>
 
 <a name='access-permissions'></a>
 
-2.  **Choose the users** you want to share the dashboard with - Enter the e-mail addresses or the names of the people you want to invite and click/tap on **Done**.
+2.  ダッシュボードを共有する **ユーザーを選択** - 招待したい人のメール アドレスまたは名前を入力し、**[完了]** をクリックまたはタップします。
 
-3.  After selecting the users, click/tap **Update**. The dashboard will be shared automatically with the selected users if they are part of your [Organization](~/jp/workspaces/overview.html#organization-workspace). Other users will have the dashboard shared with them only after they accept the invitation.
+3.  ユーザーを選択したら、**[更新]** をクリックまたはタップします。選択したユーザーが[組織](~/jp/workspaces/overview.html#組織ワークスペース)に所属している場合、ダッシュボードは自動的に共有されます。他のユーザーは、招待を承諾した後にのみ、ダッシュボードが共有されます。
 
   <img src="images/add-users-sharing-dashboards.png" alt="Choosing with whom to share a dashboard" class="responsive-img"/>
 
-**You can change the access level for users at any time when you are the owner of the dashboard** by accessing
-the Share menu.ダッシュボードを共有したすべてのユーザーとそのアクセス レベルのリストが表示されます。名前の横にあるドロップダウン メニューから新しいアクセス レベルを選択して、アクセス レベルを変更できます。
+**ダッシュボードの管理者は**、[共有ユーザー] メニューにアクセスして、**いつでもユーザーのアクセス レベルを変更できます**。ダッシュボードを共有したすべてのユーザーとそのアクセス レベルのリストが表示されます。名前の横にあるドロップダウン メニューから新しいアクセス レベルを選択して、アクセス レベルを変更できます。
 
-**When you are the owner of the dashboard, you can also unshare it at any time** by accessing the Share dialog and selecting *Remove* from the dropdown menu next to any member's name.
+**ダッシュボードの管理者は**、[共有] ダイアログにアクセスし、メンバーの名前の横にあるドロップダウン メニューから [削除] を選択することで、**いつでもダッシュボードの共有を解除できます**。
 
 <img src="images/shared-with-remove-option.png" alt="Remove sharing button" class="responsive-img"/>
 
-In general, a user can have one of the following permissions:
+一般に、ユーザーは次の権限のいずれかを持つことができます:
 
-  - **Owner** permissions - the user can create, edit, share and delete.
+  - **管理者**権限 - ユーザーは作成、編集、共有、および削除できます。
 
-  - **Contributor** permissions - the user can create, edit, share, and delete. Keep in mind that the user cannot delete the item that was shared with them (Dashboard/Dashboard List).
+  - **編集者**権限 - ユーザーは作成、編集、共有、および削除できます。ユーザーは、共有された項目 (ダッシュボード / ダッシュボード リスト) を削除できないことに注意してください。
 
    <img src="images/request-to-share-button.png" alt="Sending a request to the owner in order to share a dashboard" width="50%" class="responsive-img"/>
 
-  - **Viewer** permissions - the user can view a dashboard. They can also share it with another user after the approval of the owner.
+  - **閲覧者**権限 - ユーザーはダッシュボードを表示できます。また、管理者の承認後に別のユーザーと共有することもできます。
 
 <a name='sharing-workspace-dashboard'></a>
-## Sharing a Workspace's Dashboard with Other Users
+## ワークスペースのダッシュボードを他のユーザーと共有する
 
-Any member of a workspace can share the workspace's dashboards with other users. To do this, go to the *Workspaces* tab and choose a dashboard from the *Dashboards* section. Then, follow the steps in [Sharing your Own Dashboard with Other Users](#sharing-dashboards-users). Keep in mind that the owner of the workspace needs to approve the request first in order for a member to share a dashboard with another member.
+ワークスペースのメンバーは、ワークスペースのダッシュボードを他のユーザーと共有できます。これを行うには、**ワークスペース** タブに移動し、**[ダッシュボード]** セクションからダッシュボードを選択します。次に、[自分のダッシュボードを他のユーザーと共有する](#独自のダッシュボードを他のユーザーと共有する)の手順に従います。メンバーが他のメンバーとダッシュボードを共有するには、まずワークスペースの管理者がリクエストを承認する必要があることに注意してください。
 
 <a name='sharing-dashboard-with-workspace'></a>
 ## ワークスペース全体とダッシュボードを共有する
 
-You can share a dashboard you have access to with a workspace instead of individually with every workspace member.
+アクセス権のあるダッシュボードは、ワークスペース メンバーごとに個別に共有するのではなく、ワークスペースと共有できます。
 
-To do this, choose a dashboard from the *Dashboards* section in *My Analytics* or *Workspaces* tab.
+これを行うには、**[分析]** または**ワークスペース** タブの **[ダッシュボード]** セクションからダッシュボードを選択します。
 
 >[!NOTE]
 >ダッシュボードは、メンバーであるかどうかに関係なく、[メイン組織に属する](~/jp/workspaces/overview.html#organization-workspace)任意の公開ワークスペースと共有できます。自分がメンバーになっている非公開のワークスペースと共有することもできます。

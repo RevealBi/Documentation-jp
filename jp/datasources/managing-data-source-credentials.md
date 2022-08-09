@@ -1,6 +1,6 @@
 ---
-title: How to Manage Your Data Source Credentials in Slingshot
-_description: A guide on how to access and manage all your credentials to data sources.
+title: Slingshot でデータ ソース資格情報を管理する方法
+_description: データ ソースへのすべての資格情報にアクセスして管理する方法に関するガイド。
 _language: ja
 ---
 
@@ -14,24 +14,24 @@ Reveal で特定のデータ ソースを設定するとき、これらのサー
 
 ## 新しいアカウント資格情報の追加
 
-In the *Data Source Credentials* section, you can add and remove credentials for all your data sources accounts. To add new account credentials follow the instructions below.
+**[データ ソースの資格情報]** セクションでは、すべてのデータ ソース アカウントの資格情報を追加および削除できます。新しいアカウント資格情報を追加するには、次の手順に従ってください。
 
-1. In **Data Source Credentials**, click/tap on the **+ New** blue button (upper right corner).
-2. The *Add Credentials* menu opens:
+1. **[データ ソースの資格情報]** で、**[+ 新規]** 青いボタン (右上隅) をクリックまたはタップします。 
+2. **[資格情報の追加]** メニューが開きます。
 
   <img src="images/add-new-data-source-data-source-credentials.png" alt="Add New Account Credentials dialog" class="responsive-img"/>
 
-  - **Username/Domain**: the username or the name of the domain for the service.
+  - **ユーザー名 / ドメイン**: サービスのユーザー名またはドメイン名。
 
   - **[パスワード]**: サービスにアクセスするためのパスワード。
 
-  - **Alias**: choose a name, which suggests the data source(s) you are going to access with these credentials. It will be displayed in the list of accounts when connecting to a data source.
+  - **エイリアス**: これらの資格情報を使用してアクセスするデータ ソースを示すエイリアスを選択します。データ ソースに接続すると、アカウントの一覧に表示されます。
 
-3. Click/Tap on **Add** to finish. You will find your newly saved credentials at the bottom of the list in *Data Source Credentials*.
+3. 完了するには、**[追加]** をクリック / タップします。**[データ ソースの資格情報]** のリストの一番下に、新しく保存した資格情報が表示されます。
 
 ## 保存された資格情報の使用
 
-Unless you remove them, the accounts' credentials stored in Reveal will always appear in the list of accounts when configuring a data source requiring credentials.
+それらを削除しない限り、資格情報を必要とするデータ ソースを構成するときに、Reveal に保存されているアカウントの資格情報が常にアカウントの一覧に表示されます。
 
 <img src="images/choose-credentials-for-data-source.png" alt="Choose Credentials for a Data Source dialog" class="responsive-img"/>
 

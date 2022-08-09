@@ -59,10 +59,9 @@ Microsoft Analysis Services データ ソースを *HTTP* モード用に構成�
 
 ## データベースの構成
 
-After your credentials for the Analysis Services server are verified,
-Reveal will load and show the databases on the server. Select a database and click *Continue* to set it up.
+Analysis Services サーバーの資格情報が確認されたら、Reveal はサーバー上のデータベースを読み込んで表示します。データベースを選択し、**[続行]** をクリックして設定します。
 
-Choose a database *cube* and click/tap on **Select Data** to continue to the *Visualizations Editor*.
+データベース **キューブ**を選択し、**[データの選択]** をクリック / タップして、表示形式エディターに進みます。
 
 <img src="../images/data-source-cubes-ssas.png" alt="A list of different cubes in the Data Source Details dialog" class="responsive-img"/>
 
@@ -98,22 +97,22 @@ Microsoft Analysis Services などのキューブ データ ソースを使用�
 
 <img src="../images/sort-by-option-ssas.png" alt="Dialog with the sort by caption option" class="responsive-img" width="60%" />
 
-## Settings 
+## 設定
 
-Depending on the chart type, you can make different changes in the settings. In this case we used the pivot chart type where you can adjust the following through the settings menu:
-- Show Title
-- Text Fields Alignment
-- Number Fields Alignment
-- Date Fields Alignment
-- Font Size
-- Show Grand Totals
-- Connect the visualization to another dashboard or a URL
+チャートの種類に応じて、設定でさまざまな変更を行うことができます。この場合、設定メニューから以下を調整できるピボット チャート タイプを使用しました。
+- タイトルの表示
+- テキスト フィールドの配置
+- 数値フィールドの配置
+- 日付フィールドの配置
+- フォント サイズ
+- 総合計の表示
+- 表示形式を他のダッシュボードまたは URL に接続
 
 
-When you are ready with the visualization editor, you can save the dashboard in **My Analytics**>**My Dashboards** or in a specific workspace. 
+表示形式エディターの準備ができたら、ダッシュボードを **[分析]** > **[ダッシュボード]** または特定のワークスペースに保存できます。
 
 <img src="../images/ssas-dashboard-my-analytics.png" alt="Dasboard with an information from the microsoft analysis services data source in My Analytics" class="responsive-img"/>
 
 > [!NOTE]
-In case you've entered wrong credentials, you will get an error message (screenshot below). You can click on *Log into Microsoft Analysis Services* and update your credentials. That should fix the issue. 
+間違った資格情報を入力した場合は、エラー メッセージが表示されます (下のスクリーンショットを参照)。**[Microsoft Analysis Services にログイン]** をクリックして、資格情報を更新できます。これで問題は解決するはずです。
 <img src="../images/microsoft-analysis-services-authentication-failed.png" alt="Displaying the error message authentication failed" class="responsive-img"/>
