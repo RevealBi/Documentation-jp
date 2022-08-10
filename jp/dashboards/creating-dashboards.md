@@ -40,7 +40,7 @@ Reveal では [Dropbox](../datasources/supported-data-sources/Dropbox.html)、[O
 
 さらに、[SharePoint](../datasources/supported-data-sources/SharePoint.html) データ ソースを追加することもできるため、リストまたはライブラリにアクセスする機能が使用可能です。
 
-<img src="images/available-content-sharepoint.png" alt="available content in SharePoint datasource account" class="responsive-img"/>
+<img src="images/dashboards-sharepoint-list.png" alt="Available content in SharePoint datasource account" class="responsive-img"/>
 
 <a name='modify-visualization'></a>
 ## 表示形式の変更
