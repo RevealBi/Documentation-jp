@@ -1,7 +1,6 @@
 # リリース ノート
 
 以下は、Reveal SDK の各バージョンに含まれる新機能および拡張機能です。
-
 <table>
     <colgroup>
         <col style="width: 15%" />
@@ -15,8 +14,8 @@
             <th>説明</th>
         </tr>
     </thead>
-    <tbody>\
-			<tr>
+    <tbody>
+		<tr>
         <td rowspan="9">8 月 2022 年</td>
         <td rowspan="9">1.2.0</td>
         <td>Added support for custom menu icons
@@ -55,8 +54,6 @@
         <td>[公開バグ修正] Fixed Time Series is not setting min value properly for negative values.<br>        
         </td>
     </tr>
-    <tr>
-    <tbody>
     <tr>
         <td rowspan="7">6 月 2022 年</td>
         <td rowspan="7">1.1.7</td>

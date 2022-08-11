@@ -16,6 +16,45 @@
         </tr>
     </thead>
     <tbody>
+	<tr>
+        <td rowspan="9">Aug-2022</td>
+        <td rowspan="9">1.2.0</td>
+        <td>Added support for custom menu icons
+        </td>
+    </tr>
+    <tr>
+        <td>Added support for custom empty state image for dashboards<br>        
+        </td>
+    </tr>    
+    <tr>
+        <td>Added a way to change the default visualization<br>        
+        </td>
+    </tr>    
+    <tr>
+        <td>Add schema attribute to SQL Server data sources<br>        
+        </td>
+    </tr>    
+    <tr>
+        <td>Added a way to change the category grouping separator in a chart visualization.<br>        
+        </td>
+    </tr>    
+    </tr>    	
+    <tr>
+        <td>[公開バグ修正] Fixed ApplyTimeZone error when joining Data sources in Postgres/Redshift.<br>        
+        </td>
+    </tr>                
+    <tr>
+        <td>[公開バグ修正] Fixed currentTimeZone cache issues.<br>        
+        </td>
+    </tr>  
+    <tr>
+        <td>[公開バグ修正] Fixed Google Sheets not visible in Google Drive popup.<br>        
+        </td>
+    </tr>        
+    <tr>
+        <td>[公開バグ修正] Fixed Time Series is not setting min value properly for negative values.<br>        
+        </td>
+    </tr>
     <tr>
         <td rowspan="7">6 月 2022 年</td>
         <td rowspan="7">1.1.7</td>
