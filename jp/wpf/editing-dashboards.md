@@ -20,7 +20,7 @@ _revealView.AvailableChartTypes.Remove(RVChartType.Indicator);
 _revealView.AvailableChartTypes.Remove(RVChartType.IndicatorTarget);
 ```
 
-少数のチャート タイプを使用する場合は、すべてのチャート タイプを削除して、使用可能にしたいチャートのみを追加する方が簡単な場合があります。これを行うには、必ず `AvailableChartTypes.Clear` メソッドを呼び出してすべてのグラフの種類を削除してから、`AvailableChartTypes.Add` メソッドを使用して、ユーザーが利用できるようにするチャートの種類のみを追加してください。
+少数のチャート タイプを使用する場合は、すべてのチャート タイプを削除して、使用可能にしたいチャートのみを追加する方が簡単な場合があります。これを行うには、必ず `AvailableChartTypes.Clear` メソッドを呼び出してすべてのチャートの種類を削除してから、`AvailableChartTypes.Add` メソッドを使用して、ユーザーが利用できるようにするチャートの種類のみを追加してください。
 ```cs
 _revealView.AvailableChartTypes.Clear();
 _revealView.AvailableChartTypes.Add(RVChartType.BarChart);
