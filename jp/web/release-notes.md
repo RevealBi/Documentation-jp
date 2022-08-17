@@ -263,11 +263,11 @@ Desktop SDK でフィールド エディターの日付形式のリストを取�
 -  _散布図が OpenStreetMap をサポートするようになりました!_
 デスクトップ (WPF) および Web クライアント (JS) で OpenStreetMap 画像タイルを構成して使用できるようになりました。
 -  _新しいサムネイル コンポーネント!_
-<i>RevealDashboardThumbnailView を使用してダッシュボードのサムネイルを描画できるようになりました。
+RevealDashboardThumbnailView を使用してダッシュボードのサムネイルを描画できるようになりました。
 -  _Web クライアントからサーバー側のデータ ソースへの資格情報_
-新しいタイプの資格情報 _RVHeadersDataSourceCredentials_ を使用すると、認証ヘッダーとクッキーを REST および Web リソースのデータ ソースに送信できます。詳細については、GitHub で次の<a href="https://github.com/RevealBi/sdk-samples-aspnetcore/tree/main/Cookies-Auth">サンプル</a>をご覧ください。
+新しいタイプの資格情報 _RVHeadersDataSourceCredentials_ を使用すると、認証ヘッダーとクッキーを REST および Web リソースのデータ ソースに送信できます。詳細については、GitHub で次の[サンプル](https://github.com/RevealBi/sdk-samples-aspnetcore/tree/main/Cookies-Auth)をご覧ください。
 - _SDK AspNetCore  サービス挿入_
-_RevealSdkContext_ および _RevealUserContext_ の実装をタイプのみ (インスタンスを渡さない) として登録できるようになり、これらのクラスがコンストラクターを介して挿入された他の AspNetCore サービスを取得できるようになりました。 詳細については、GitHub で次の<a href="https://github.com/RevealBi/sdk-samples-aspnetcore/tree/main/Reveal.Sdk.Samples.Web.UpMedia.Backend">サンプル</a>をご覧ください。
+_RevealSdkContext_ および _RevealUserContext_ の実装をタイプのみ (インスタンスを渡さない) として登録できるようになり、これらのクラスがコンストラクターを介して挿入された他の AspNetCore サービスを取得できるようになりました。 詳細については、GitHub で次の[サンプル](https://github.com/RevealBi/sdk-samples-aspnetcore/tree/main/Reveal.Sdk.Samples.Web.UpMedia.Backend)をご覧ください。
 
 ### バグ修正
 - 計算フィールド フィルターがサーバー上のデータ プロセスで機能しない問題
