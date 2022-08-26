@@ -2,7 +2,7 @@
 
 個人用スペースまたはワークスペースでダッシュボードを管理しようとしているかどうかにかかわらず、**[作成済み]** または **[自分と共有済み]** のいずれかをいつでも選択できます。
 
-<img src="images/dashboard-options.png" alt="Filter for viewing dashboards" class="responsive-img"/>
+<img src="images/dashboard-options.png" alt="Filter for viewing dashboards" class="responsive-img" width="70%" />
 
 ## ダッシュボードの整理
 
@@ -15,7 +15,7 @@ Reveal を使用すると、ダッシュボードをさまざまな**リスト**
 3. 名前を付けて、**[作成]** をクリックまたはタップします。
 4. セクションに名前を付けたら、**[+ ダッシュボード]** ボタンを使用してダッシュボードの追加を開始できます。
 
-<img src="images/add-section-button.png" alt="Create a section option" class="responsive-img"/>
+<img src="images/add-section-button.png" alt="Create a section option" class="responsive-img" width="70%"/>
 
 次の手順でリストを作成できます:
 
@@ -28,8 +28,8 @@ Reveal を使用すると、ダッシュボードをさまざまな**リスト**
 
 ダッシュボードのオーバーフロー メニュー アクションを開き、ダッシュボードをコピーするか、**セクション**や**ワークスペース**の間で移動するかを選択します。
 
-<img src="images/dashboard-overflow-menu-options.png" alt="Displaying the dashboard’s overflow actions" class="responsive-img"/>
+<img src="images/dashboard-overflow-menu-options.png" alt="Displaying the dashboard’s overflow actions" class="responsive-img" width="70%"/>
 
 ダッシュボードを**データ &amp; 分析のカタログ**に移動することもできます。管理者は、組織全体が表示できるようにダッシュボードを移動できるかどうかを決定します。
 
-<img src="images/data-and-analytics-catalog.png" alt="A dialog for moving your dashboard to the Data anf Analytics catalog " class="responsive-img" width= "60%"/>
+<img src="images/data-and-analytics-catalog.png" alt="A dialog for moving your dashboard to the Data anf Analytics catalog " class="responsive-img" width= "40%"/>

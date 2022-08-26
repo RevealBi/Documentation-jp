@@ -13,7 +13,7 @@ _language: ja
 
 PostgreSQL サーバー データ ソースを設定するには、以下の情報が必要です。
 
-<img src="../images/add-postgresql-as-data-source.png" alt="Configure PostgreSQL data source dialog" class="responsive-img" width="60%"/>
+<img src="../images/add-postgresql-as-data-source.png" alt="Configure PostgreSQL data source dialog" class="responsive-img" width="50%"/>
 
 1.  **[[サーバー](#how-to-find-server)]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 
@@ -53,7 +53,7 @@ PostgreSQL サーバー データ ソースを設定するには、以下の情�
 
 Reveal を使用すると、テーブル全体から PostgreSQL データを取得できるだけでなく、テーブルまたはテーブルのセットからデータのサブセットを返す特定の [ビュー](https://www.postgresqltutorial.com/postgresql-views/) を選択することもできます。
 
-<img src="../images/postgresql-views.png" alt="PostgreSQL views dialog" class="responsive-img" width="60%"/>
+<img src="../images/postgresql-views.png" alt="PostgreSQL views dialog" class="responsive-img" width="55%"/>
 
 <img src="images/postgre-SQL-views.png" alt="PostgreSQL views dialog" class="responsive-img"/>
 
@@ -70,7 +70,7 @@ PostgreSQL 関数を使用すると、データベース内の単一の関数で
 以下は、[Northwind](https://docs.microsoft.com/ja-jp/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases) データを使用してテスト サーバーで実行されるサンプル関数のセットです:
 
 
-<img src="../images/postgresql-functions.png" alt="A dashboard with a table visualization and a view visualization" class="responsive-img" width="60%"/>
+<img src="../images/postgresql-functions.png" alt="A dashboard with a table visualization and a view visualization" class="responsive-img" width="55%"/>
 
 
 関数を選択した後、いくつかの追加パラメーターを設定する必要があります。
@@ -78,10 +78,20 @@ PostgreSQL 関数を使用すると、データベース内の単一の関数で
 この場合、関数は、Sales for period の情報を表示するために開始日と終了日を設定する必要があります。
 
 
-<img src="../images/postgresql-sales-for-period.png" alt="Sales for period function parameters" class="responsive-img" width="60%"/>
+<img src="../images/postgresql-sales-for-period.png" alt="Sales for period function parameters" class="responsive-img" width="45%"/>
 
 
 関数と PostgreSQLの 詳細については、この [Web サイト (英語)](https://www.postgresql.org/docs/9.0/sql-createfunction.html) にアクセスしてください。
+
+## Working in the Visualization editor
+
+Once your data source has been added, you will be taken to the *Visualizations Editor*. Here you can build your dashboard. Note that based on the vusialization that you have chosen, you will see different types of fields.
+
+<img src="./images/postgresql-visualization-editor.png" alt="Working in the visualization editor while using postgresql as a data source." class="responsive-img" width="65%"/>
+
+When you are ready with your visualization, you can click/tap on the checkmark in the top right corner to save it as a dashboard. In the example below we saved the dashboard in **My Analytics** > **My Dashboards** > **Customer support**.
+
+<img src="./images/postgresql-my-analytics.png" alt="A postgresql dashboard in the My Analytics section" class="responsive-img" width="65%"/>
 
 ## Reveal の関数の制限
 
