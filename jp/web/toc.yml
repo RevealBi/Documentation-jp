@@ -54,7 +54,7 @@
       href: replacing-data-sources/excel-file.md
     - name: MS SQL Server
       href: replacing-data-sources/ms-sql-server.md
-    - name: Object Encode/Decode
+    - name: オブジェクトのエンコード / デコード
       href: replacing-data-sources/object-encode-decode.md
 - name: 認証
   href: authentication.md

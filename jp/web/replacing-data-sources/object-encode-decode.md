@@ -1,19 +1,19 @@
-# Encode/Decode information of Database Providers
+# データベース プロバイダーの情報をエンコード/デコード
 
-The Encode/Decode method can be used to mask information exchanged with the server, like DB name and host, which can be considered sensitive.
-The encoding of information in DataSource or DataSourceItems, happens server-side before returning the objects to the client. 
-DataSource and DataSourceItems information is typically sent from the server to the client when editing a dashboard. 
-Alongside with the IRVObjectEncoder implementation, decoding must be done using an IRVDataSourceProvider implementation.
-Only supported for Database and REST providers.
+Encode/Decode メソッドは、DB 名やホストなど、サーバーと交換される機密情報をマスクするために使用できます。
+DataSource または DataSourceItems の情報のエンコードは、オブジェクトをクライアントに返す前にサーバー側で行われます。 
+DataSource および DataSourceItems 情報は通常、ダッシュボードの編集時にサーバーからクライアントに送信されます。 
+IRVObjectEncoder の実装に加えて、IRVDataSourceProvider の実装を使用してデコードを行う必要があります。
+データベースおよび REST プロバイダーでのみサポートされます。
 
-### Source 
+### ソース 
 [**IRVObjectEncoder**](https://help.revealbi.io/api/aspnet/latest/Reveal.Sdk.IRVObjectEncoder.html)
 
 
-# Encoding MS Sql Server Data Source
+# MS SQL Server データ ソースのエンコード
 
-**Step 1** - In the ASP.NET Web API server application, create a class that implements `IRVObjectEncoder`. 
-This class will perform the actual replacement of the MS SQL Server information with the encoded values. 
+**手順 1** - ASP.NET Web API サーバー アプリケーションで、`IRVObjectEncoder` を実装するクラスを作成します。 
+このクラスは、MS SQL Server 情報をエンコードされた値で実際に置換します。
 
 ```csharp
     internal class SampleEncoder : IRVObjectEncoder
@@ -105,10 +105,10 @@ This class will perform the actual replacement of the MS SQL Server information 
     }
 ```
 
-The `Encode` method of this class returns the `RVDataSourceItem` that the visualization will use to get its data.
-By modifying the `RVDataSourceItem` item that is provided as an argument in the `Encode` method, you can change sensitive information of the Datasource/DatasourceItem.
+このクラスの `Encode` メソッドは、表示形式がデータを取得するために使用する `RVDataSourceItem` を返します。
+`Encode` メソッドで引数として提供される `RVDataSourceItem` 項目を変更することにより、Datasource/DatasourceItem の機密情報を変更できます。
 
-**Step 2** - Update the `AddReveal` method in the `Program.cs` file to add the `IRVObjectEncoder` you just created to the `RevealSetupBuilder` using the `RevealSetupBuilder.AddObjectEncoder` method.
+**手順 2** - `Program.cs` ファイルの `AddReveal` メソッドを更新して、`RevealSetupBuilder.AddDataSourceProvider` メソッドを使用して作成した `IRVObjectEncoder` を `RevealSetupBuilder` に追加します。
 
 ```csharp
 .AddReveal(builder =>
@@ -124,17 +124,17 @@ By modifying the `RVDataSourceItem` item that is provided as an argument in the 
         });
 ```
 
-# Replacing Database/REST Data Source
+# データベース/REST データ ソースの置き換え
 
 
-In the ASP.NET Web API server application, create a class that implements `IRVDataSourceProvider`. This class will perform the actual replacement of the Database/REST settings.
-The `ChangeDataSourceItemAsync` method of this class returns the `RVDataSourceItem` that the visualization will use to get its data. By modifying the `RVDataSourceItem` item that is provided as an argument in the `ChangeDataSourceItemAsync` method, you can change which server or table to get your data from.
+ASP.NET Web API サーバー アプリケーションで、`IRVDataSourceProvider` を実装するクラスを作成します。このクラスは、データベース/REST 設定の実際の置換を実行します。
+このクラスの `ChangeDataSourceItemAsync` メソッドは、可視化がデータを取得するために使用する `RVDataSourceItem` を返します。`ChangeDataSourceItemAsync` メソッドで引数として提供される `RVDataSourceItem` 項目を変更することにより、データを取得するサーバーまたはテーブルを変更できます。
 
 
-## Example: Replace Host, Database,Schema, id and Table of an MS SQL Server
+## 例: MS SQL Server のホスト、データベース、スキーマ、ID、およびテーブルを置換する
 
 
-**Step 3** You can change the MS SQL Server host, database,id and table name of every MS SQL Server data source item in your dashboard by casting each `RVDataSource` as a `RVSqlServerDataSource` and every `RVDataSourceItem` as a `RVSqlServerDataSourceItem`, modifying it's properties as follows:
+**手順 3** 各 `RVDataSource` を `RVSqlServerDataSource` としてキャストし、すべての `RVDataSourceItem` を `RVSqlServerDataSourceItem` としてキャストし、そのプロパティを次のように変更することにより、ダッシュボード内のすべての MS SQL Server データ ソース項目の MS SQL Server ホスト、データベース、ID、およびテーブル名を変更できます。
 
 ```csharp
     internal class LocalSamplesDataSourceProvider : IRVDataSourceProvider
@@ -226,7 +226,7 @@ The `ChangeDataSourceItemAsync` method of this class returns the `RVDataSourceIt
 ```
 
 
-**Step 4** - Update the `AddReveal` method in the `Program.cs` file to add the `IRVDataSourceProvider` you just created to the `RevealSetupBuilder` using the `RevealSetupBuilder.AddDataSourceProvider` method.
+**手順 4** - `Program.cs` ファイルの `AddReveal` メソッドを更新して、`RevealSetupBuilder.AddDataSourceProvider` メソッドを使用して作成した `IRVDataSourceProvider` を `RevealSetupBuilder` に追加します。
 
 ```cs
 .AddReveal(builder =>
