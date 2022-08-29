@@ -19,7 +19,7 @@ Microsoft Analysis Services データ ソースを *Native* モード用に構�
 
 <img src="../images/native-configuration-microsoft-analysis-services.png" alt="Configure Microsoft Analysis Services connection" class="responsive-img" width="50%"/>
 
-1. **Connection Mode**: two options to choose from: HTTP or Native.
+1. **接続モード**: HTTP または Native の 2 つのオプションから選択できます。
 
 2.  **[サーバー]**: サーバーが実行されているコンピューターのホスト名または IP アドレスです。
 
@@ -51,7 +51,7 @@ Microsoft Analysis Services データ ソースを *HTTP* モード用に構成�
 
 <img src="../images/http-configuration-microsoft-analysis-services.png" alt="Configure Microsoft Analysis HTTP mode connection" class="responsive-img" width="50%"/>
 
-1. **Connection Mode**: two options to choose from: HTTP or Native.
+1. **接続モード**: HTTP または Native の 2 つのオプションから選択できます。
 
 2.  **[URL]**: サーバーの HTTP eService URL。例: *10.1.0.15/olap/msmdpump.dll*。
 
@@ -59,7 +59,7 @@ Microsoft Analysis Services データ ソースを *HTTP* モード用に構成�
 
 ## データベースの構成
 
-Analysis Services サーバーの資格情報が確認されたら、Reveal はサーバー上のデータベースを読み込んで表示します。Select a database and click/tap on **Select and continue** to set it up.
+Analysis Services サーバーの資格情報が確認されたら、Reveal はサーバー上のデータベースを読み込んで表示します。データベースを選択し、**[選択して続行]** をクリックまたはタップして設定します。
 
 データベース **キューブ**を選択し、**[データの選択]** をクリック / タップして、表示形式エディターに進みます。
 

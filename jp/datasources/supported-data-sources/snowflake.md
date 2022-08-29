@@ -6,7 +6,7 @@ Snowflake データ ソースを構成するには、最初に次の情報を入
 
 <img src="images/add-snowflake-server.png" alt="Configure Snowflake Server details" class="responsive-img" width="55%"/>
 
-1.  **Account**: Your snowflake account without the region or cloud provider information. For example, it should be similar to \<account_name\> instead of _\<account_name\>.us-east-1.snowflakecomputing.com_.
+1.  **アカウント**: 領域またはクラウド プロバイダー情報のない Snowflake アカウント。たとえば、_\<account_name\>.us-east-1.snowflakecomputing.com_ ではなく、\<account_name\> のようにする必要があります。
 
 2.  **[ホスト]**:  必須ではありませんが、値が指定されていない場合は _\<28/>.snowflakecomputing.com_ が使用されます。米国西部地域にいない場合、またはグローバル URL を使用する場合は、_\<account_name\>.\<region_id\>.snowflakecomputing.com_ の形式でホストを指定する必要があります。
 
@@ -14,12 +14,11 @@ Snowflake データ ソースを構成するには、最初に次の情報を入
 
  <img src="images/add-snowflake-credentials.png" alt="A dialog where you can add your credentials" class="responsive-img" width="60%"/>
 
-- **Username**: the user account for the *Snowflake* server or the name of the domain.
+- **ユーザー名**: *Snowflake* サーバーのユーザー アカウントまたはドメインの名前。
 
 - **[パスワード]**:  *Snowflake*サーバーにアクセスするためのパスワード。
 
-- **Alias**: the name for your data source account. It will be
-        displayed in the list of accounts in the previous dialog.
+- **エイリアス**: データ ソース アカウントの名前。以前のダイアログのアカウントのリストに表示されます。
 
 ## Snowflake データ ソースの構成
 
@@ -27,7 +26,7 @@ Snowflake データ ソースを構成するには、最初に次の情報を入
 
   <img src="images/snowflake-database-dialog.png" alt="Select a database dialog" class="responsive-img" width="55%"/>
 
-2.  **Select a table** from the database. Use the icon on the right, next to the empty circles, to preview the data.
+2.  データベースから**テーブルを選択します**。右側の空の円の横にあるアイコンを使用して、データをプレビューします。
 
   <img src="images/snowflake-data-source-details.png.png" alt="Select a table dialog" class="responsive-img" width="55%"/>
 

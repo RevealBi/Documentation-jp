@@ -1,58 +1,46 @@
-# Dashboards
+# ダッシュボード
 
-Dashboards are a quick and simple way to display minimal information at
-first sight. It is a data visualization composed of a collection of
-visualizations which are laid out to communicate the status, metrics,
-or performance of a business. Each visualization is meant to have
-different pieces of related information, enabling users to make sense of their data.
+ダッシュボードは、最小限の情報を一目でわかるように表示するための迅速かつ簡単な方法です。これは、ビジネスの状態、メトリックス、またはパフォーマンスを伝えるためにレイアウトされた表示形式のコレクションで構成されるデータ可視化です。各表示形式は、ユーザーがデータを理解できるように、さまざまな関連情報を持つことを目的としています。
 
 <img src="images/dashboards-home-page.png" alt="A complete dashboard example" class="responsive-img"/>
 
-## The Dashboard Creation Process
+## ダッシュボード作成プロセス
 
-  - **Discover the KPI**: decide what you or your analysts want to show
-    in your dashboard, and what it needs to revolve around.
+  - **KPI 目標**: 自分またはアナリストがダッシュボードに何を示し、何を中心にサイクルを回す必要があるかを決定します。
 
-  - **Plan the Dashboard**: how will you represent your information
-    graphically? Will you use a [grid](~/en/data-visualizations/visualization-types/grid-chart.md), a map,
-    [gauges](~/en/data-visualizations/visualization-types/gauge-charts.md), [category charts](~/en/data-visualizations/visualization-types/category-charts.md)?
-    Will you use any [filters](~/en/filters/overview.md)?
+  - **ダッシュボードの計画**: 情報をグラフィカルにどのように表現しますか? [グリッド](~/jp/data-visualizations/visualization-types/grid-chart.md)、マップ、[ゲージ](~/jp/data-visualizations/visualization-types/gauge-charts.md)、[カテゴリ チャート](~/jp/data-visualizations/visualization-types/category-charts.md)を使用しますか? [フィルター](~/en/filters/overview.md)を使用しますか?
 
-  - **Prepare the data** to be used in Reveal. Here is a quick overview
-    of [how to work with spreadsheets](~/en/datasources/working-files/working-with-spreadsheets.md) in Reveal.
+  - Reveal で使用する**データを準備します**。Reveal で[スプレッドシートを操作する方法](~/jp/datasources/working-files/working-with-spreadsheets.md)の概要を以下に示します。
 
-  - **Create the dashboard**: for a complete walkthrough, read [this topic](creating-dashboards.md).
+  - **ダッシュボードの作成**: 完全な手順については、[このトピック](creating-dashboards.md)をご覧ください。
 
-  - **Review and iterate**: once your dashboard is ready, you can review
-    it and make any changes you or your analysts deem necessary.
+  - **レビューと反復**: ダッシュボードの準備ができた後、ダッシュボードをレビューして、自分またはアナリストが必要と考える変更を加えることができます。
 
-## Topics Overview
+## トピックの概要
 
-Within Reveal, you will be able to:
+Reveal を利用して実行できる機能:
 
-   - [Create Dashboards](creating-dashboards.md)
+   - [ダッシュボードの作成](creating-dashboards.md)
 
-  - [Upload Dashboards](uploading-dashboards.md)
+  - [アップロード可能](uploading-dashboards.md)
 
-  - [Interact with Dashboards](dashboards-interactions.md)
+  - [ダッシュボードを操作する](dashboards-interactions.md)
 
-  - [Style your Dashboards](dashboard-styling.md)
+  - [ダッシュボードのスタイル](dashboard-styling.md)
 
-  - [Link Dashboards to other Dashboards or to URLs](dashboard-linking.md)
+  - [ダッシュボードを他のダッシュボードまたは URL のリンク](dashboard-linking.md)
 
-  - [Share your Dashboards](sharing-dashboards/share-a-dashboard.md)
+  - [ダッシュボードの共有](sharing-dashboards/share-a-dashboard.md)
 
-  - [Manage your existing Dashboards](managing-dashboards.md)
+  - [現在のダッシュボードの管理](managing-dashboards.md)
 
-  - [Export Dashboards](how-to-export-a-dashboard.md) as [Images](export-as-images.md), [PDF files](export-as-pdft-document.md), [PowerPoint presentations](export-as-powerpoint-presentation.md) or
-  [Excel spreadsheets](export-as-excel-data-format.md)
+  - ダッシュボードを[画像](export-as-images.md)、[PDF ファイル](export-as-pdft-document.md)、[PowerPoint プレゼンテーション](export-as-powerpoint-presentation.md)、または [Excel スプレッドシート](export-as-excel-data-format.md)として[エクスポート](how-to-export-a-dashboard.md)
 
-You can also import any [dashboards created with previous versions of ReportPlus](Uploading-Dashboards.md).
+[ReportPlus の以前のバージョンで作成されたダッシュボード](Uploading-Dashboards.md)をインポートすることもできます。
 
-## Dashboard Tutorials
+## ダッシュボード チュートリアル
 
-Learn the basics or refine your dashboard creation skills with tutorials
-designed to get you started and headed in the right direction.
+チュートリアルで基本をすばやく学び、ダッシュボードを作成するための情報をすばやく得ることができます。
 
 <table>
 <colgroup>

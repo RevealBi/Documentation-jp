@@ -26,16 +26,16 @@ ID 認証が有効な場合は、送信された*確認コード*を入力する
 - **[共通エンティティ]** - このカテゴリでは、ユーザーが最もよく使用するエンティティをすばやく選択できます。
 - **[すべてのエンティティ]** - このカテゴリには、Quickbooks アカウントに含まれるエンティティの完全なリストが表示されます。提供されている検索を使用して、必要なエンティティをすばやく見つけることができます。
 
-## Working in the Visualization editor
+## 表示形式エディターでの作業
 
-Once your data source has been added, you will be taken to the *Visualizations Editor*. By default, the *Column* visualization will be selected. You can select it in order to choose another chart type. 
+データ ソースを追加した後、表示形式エディターが表示されます。デフォルトでは、*柱状*表示形式が選択されます。それを選択して、別のチャート タイプを選択できます。
 
 <img src="images/quickbooks-charts-list.png" alt="List of chart types while using Quickbooks as a data source" class="responsive-img" width="50%"/>
 
-Based on the vusialization that you have chosen, you will see different types of fields.
+選択した表示形式に基づいて、さまざまなタイプのフィールドが表示されます。
 
 <img src="images/quickbooks-visualization-editor.png" alt="Visualization editor using quickbook as data source" class="responsive-img" width="50%"/>
 
-When you are ready with your visualization, you can click/tap on the checkmark in the top right corner to save it as a dashboard. In this case we saved the dashboard in **My Analytics** > **My Dashboards** > **Accounting**.
+表示形式の準備ができたら、右上隅のチェックマークをクリックまたはタップして、ダッシュボードとして保存できます。以下の例では、ダッシュボードを **[分析]** > **[ダッシュボード]** > **Accounting** に保存しました。
 
 <img src="images/quickbooks-my-analytics.png" alt="Quickbooks dashboard in My Analytics" class="responsive-img" width="50%"/>

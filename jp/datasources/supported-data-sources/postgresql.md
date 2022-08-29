@@ -83,13 +83,13 @@ PostgreSQL 関数を使用すると、データベース内の単一の関数で
 
 関数と PostgreSQLの 詳細については、この [Web サイト (英語)](https://www.postgresql.org/docs/9.0/sql-createfunction.html) にアクセスしてください。
 
-## Working in the Visualization editor
+## 表示形式エディターでの作業
 
-Once your data source has been added, you will be taken to the *Visualizations Editor*. Here you can build your dashboard. Note that based on the vusialization that you have chosen, you will see different types of fields.
+データ ソースを追加した後、表示形式エディターが表示されます。ここでダッシュボードを作成できます。選択した表示形式に基づいて、さまざまなタイプのフィールドが表示されることに注意してください。
 
 <img src="./images/postgresql-visualization-editor.png" alt="Working in the visualization editor while using postgresql as a data source." class="responsive-img" width="65%"/>
 
-When you are ready with your visualization, you can click/tap on the checkmark in the top right corner to save it as a dashboard. In the example below we saved the dashboard in **My Analytics** > **My Dashboards** > **Customer support**.
+表示形式の準備ができたら、右上隅のチェックマークをクリックまたはタップして、ダッシュボードとして保存できます。以下の例では、ダッシュボードを **[分析]** > **[ダッシュボード]** > **Customer support** に保存しました。
 
 <img src="./images/postgresql-my-analytics.png" alt="A postgresql dashboard in the My Analytics section" class="responsive-img" width="65%"/>
 

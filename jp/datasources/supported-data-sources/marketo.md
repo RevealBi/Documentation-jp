@@ -30,12 +30,12 @@ Marketo の*管理*パネルには、上記の認証要素が含まれていま�
 > [!NOTE]
 > **Activities** と **Leads** のオブジェクトからのデータが表示形式エディターに最初に読み込まれるまで、数分かかる場合があることに注意してください。次回は、同じクエリがより速く実行されます。
 
-## Working in the Visualization Editor
+## 表示形式エディターでの作業
 
-Once your data source has been added, you will be taken to the *Visualization Editor*. By default, the *Column* visualization will be selected. You can select it in order to choose another [chart type](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/overview). Keep in mind that based on the vusialization that you have chosen, you will see different types of fields.
+データ ソースを追加した後、表示形式エディターが表示されます。デフォルトでは、*柱状*表示形式が選択されます。それを選択して、別の[チャート タイプ](https://www.slingshotapp.io/jp/help/docs/analytics/visualization-tutorials/overview)を選択できます。選択した表示形式に基づいて、さまざまなタイプのフィールドが表示されることに注意してください。
 
 <img src="images/marketo-visualization-editor.png" alt="Using data from Marketo in the visualization editor" class="responsive-img" width="50%"/>
 
-When you are ready with your visualization, you can click/tap on the checkmark in the top right corner to save it as a dashboard. In the example below we saved the dashboard in **My Analytics** > **My Dashboards** > **Marketing**.
+表示形式の準備ができたら、右上隅のチェックマークをクリックまたはタップして、ダッシュボードとして保存できます。以下の例では、ダッシュボードを **[分析]** > **[ダッシュボード]** > **Marketing** に保存しました。
 
 <img src="images/marketo-my-analytics.png" alt="A Marketo dashboard in My Analytics" class="responsive-img" width="50%"/>
