@@ -13,25 +13,22 @@ _language: ja
 
 Sybase サーバー データ ソースを構成するには、以下の情報が必要です。
 
-<img src="images/enter-sybase-server-details.png" alt="Configure Sybase database connection" class="responsive-img"/>
+<img src="images/add-sybase-as-data-source.png" alt="Configure Sybase database connection" width="50%" class="responsive-img"/>
 
-1.  **データ ソース名**: このフィールドはデータ ソース リストに表示されます。デフォルト名: *Sybase*。
+1.  **[[サーバー](#サーバー情報を見つける方法)]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 
-2.  **[[サーバー](#サーバー情報を見つける方法)]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
+2.  **[ポート]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Reveal はデフォルトでヒント テキスト (5000) のポートに接続します。
 
-3.  **[ポート]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Reveal はデフォルトでヒント テキスト (5000) のポートに接続します。
+3.  **[資格情報]**: [資格情報] を選択した後、Sybase サーバーの資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
 
-4.  **[資格情報]**: [資格情報] を選択した後、Sybase サーバーの資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
+      - **[ユーザー名]**: Sybase サーバーのユーザー アカウントまたはドメインの名前。
 
-      - **[名前]**: データ ソース アカウントの名前。以前のダイアログのアカウントのリストに表示されます。
+      - **[パスワード]**: Sybase サーバーのパスワード。
+    
+    - **Alias**: the name for your data source account. It will be
+        displayed in the list of accounts in the previous dialog.
 
-      - (オプション) の **[ドメイン]**: ドメイン名 (適用可能な場合)。
-
-      - **[ユーザー名]**: Sybase サーバーのユーザー アカウント
-
-      - **[パスワード]**: Sybase サーバーのパスワード
-
-        準備ができたら、**[作成して使用]** を選択します。
+  Once ready, select **Add** and then **Add Server**.
 
 <a name='how-to-find-server'></a>
 ## サーバー情報を見つける方法
@@ -58,22 +55,30 @@ Sybase サーバー データ ソースを構成するには、以下の情報�
 
 Reveal を使用すると、テーブル全体から Sybase データを取得できますが、代わりにテーブルまたはテーブルのセットからデータのサブセットを返す特定の[ビュー (英語)](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X29678.htm) を選択することもできます。
 
-<img src="images/sybase-views.png" alt="Select from Sybase views dialog" class="responsive-img"/>
+<img src="images/sybase-views-list.png" alt="Select from Sybase views dialog" class="responsive-img" width="55%"/>
 
-たとえば、**Category Sales for 1997** ビューには、データベース内のテーブルの 1 つから取得した営業予測に関する情報が含まれています。
+たとえば、**syscacheinfo** ビューには、データベース内のテーブルの 1 つから取得したキャッシュに関する情報が含まれています。
 
-<img src="images/sales-projection-sample.png" alt="Sales Projection Sample dashboard" class="responsive-img"/>
+<img src="images/sybase-view-visualization-editor.png" alt="Creating a visualization while using a sybase view" class="responsive-img" width="60%"/>
 
 ビューおよび Sybase の詳細については、[このドキュメント Web サイト (英語)](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X29678.htm) を参照してください。
 
 ### 保管されたプロシージャの作業
 
-Sybase では、保管されたプロシージャを使用すると、特定のパラメーターを使用してリレーショナル データベースで一連のクエリ ステートメントを実行できます。以下は、マスター データベースのデータを使用してテスト サーバーで実行されるサンプル 保管されたプロシージャのセットです。
+Sybase では、保管されたプロシージャを使用すると、特定のパラメーターを使用してリレーショナル データベースで一連のクエリ ステートメントを実行できます。
 
-<img src="images/sybase-stored-procedures.png" alt="Select from Sybase Stored Procedures dialog" class="responsive-img"/>
+In this case, for example, the stored procedure requires users to set *@name* range value.
 
-この場合では、保管されたプロシージャでユーザーが時間範囲の値を設定する必要があります。
+<img src="images/stored-procedure-parameters-sybase.png" alt="Stored Procedure select name" class="responsive-img" width="55%"/>
 
-<img src="images/stored-procedure-sample-dates.png" alt="Stored Procedure select dates" class="responsive-img"/>
+For more information on Stored Procedures and Sybase, visit [this documentation website](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X39397.htm).
 
-ストアドプロシージャーおよび Sybase の詳細については、[この Web サイト (英語)](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X39397.htm) を参照してください。
+## Working in the Visualization editor
+
+Once your data source has been added, you will be taken to the *Visualizations Editor*. Here you can build your dashboard. By default, the *Column* visualization will be selected. You can select it in order to choose another chart type.
+
+<img src="images/sybase-working-in-visualization-editor.png" alt="Using Sybase data to create a dashboard in the visualization editor" class="responsive-img" width="70%"/>
+
+When you are ready with your visualization, you can save it as a dashboard by clicking/tapping on the checkmark in the top right corner. In this case we saved the dashboard in **My Analytics** > **My Dashboards** > **Statistics**.
+
+<img src="images/sybase-my-analytics.png" alt="Sybase dashboard in My Analytics" class="responsive-img" width="70%"/>

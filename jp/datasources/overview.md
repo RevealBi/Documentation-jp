@@ -14,12 +14,13 @@ _language: ja
 
 データ ソースに接続するには、以下の手順を実行します:
 
-1. *[分析]* またはダッシュボードを作成するワークスペースに移動します。
+1. **[分析]** またはダッシュボードを作成するワークスペースに移動します。
 2. **[+ ダッシュボード]** または **[ダッシュボードの作成]** **(分析)** の青いボタンをクリックまたはタップします。
-   <img src="images/data-sources-my-analytics.png" alt="Dashboard button in my analytics" class="responsive-img"/>
+
+   <img src="images/data-sources-my-analytics.png" alt="Dashboard button in my analytics" class="responsive-img" width="60%" height="80%"/>
 3. **[データ ソース]** ダイアログに、最近使用したデータ ソースのリストが表示されます。新しい接続を作成するには、右側の **[+ データ ソース]** ボタンを選択します。
 
-<img src="images/data-sources-screen.png.png" alt="Sample data sources" class="responsive-img"/>
+   <img src="images/data-sources-screen.png.png" alt="Sample data sources" class="responsive-img" width="60%"/>
 
 データ ソース プロバイダーを選択すると、データ ソースを**設定**するように求められます。設定に関しては、選択したデータ ソースの設定に関する記事をご覧ください (以下のリストを参照)。
 
@@ -91,7 +92,7 @@ _language: ja
 
 データ ソースをフィルターするには、右上隅にあるフィルター ボタンをクリックします。
 
-<img src="images/data-sources-filter.png" alt="Sample data sources" class="responsive-img"/>
+   <img src="images/data-sources-filter.png" alt="A dialog with filtering options" class="responsive-img" width="60%"/>
 
 ## 関連トピック 
 
