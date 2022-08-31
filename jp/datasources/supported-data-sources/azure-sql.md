@@ -25,9 +25,9 @@ Azure SQL データ ソースを構成するには、以下の情報が必要で
 
   - **[パスワード]**: Azure SQL にアクセスするためのパスワード。
 
-  - **Alias** of the data source: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Reveal names it *Microsoft Azure SQL Database*. You can change it to your preference.
+  - **データ ソースのエイリアス**: データ ソース名は、前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Microsoft Azure SQL Database* という名前を付けます。好みに合わせて変更できます。
 
-Once ready, select **Add** and then **Add Server**.
+準備ができたら、**[追加]** を選択してから **[サーバーの追加]** を選択します。
 
 ## 詳細情報
 

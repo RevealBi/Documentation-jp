@@ -25,10 +25,9 @@ Sybase サーバー データ ソースを構成するには、以下の情報�
 
       - **[パスワード]**: Sybase サーバーのパスワード。
     
-    - **Alias**: the name for your data source account. It will be
-        displayed in the list of accounts in the previous dialog.
+    - **エイリアス**: データ ソース アカウントの名前。以前のダイアログのアカウントのリストに表示されます。
 
-  Once ready, select **Add** and then **Add Server**.
+  準備ができたら、**[追加]** を選択してから **[サーバーの追加]** を選択します。
 
 <a name='how-to-find-server'></a>
 ## サーバー情報を見つける方法
@@ -67,18 +66,18 @@ Reveal を使用すると、テーブル全体から Sybase データを取得�
 
 Sybase では、保管されたプロシージャを使用すると、特定のパラメーターを使用してリレーショナル データベースで一連のクエリ ステートメントを実行できます。
 
-In this case, for example, the stored procedure requires users to set *@name* range value.
+たとえば、この場合、ストアド プロシージャでは、ユーザーが *@name* 範囲値を設定する必要があります。
 
 <img src="images/stored-procedure-parameters-sybase.png" alt="Stored Procedure select name" class="responsive-img" width="55%"/>
 
-For more information on Stored Procedures and Sybase, visit [this documentation website](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X39397.htm).
+ストアド プロシージャと Sybase の詳細については、[このドキュメント Web サイト](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X39397.htm)を参照してください。
 
-## Working in the Visualization editor
+## 表示形式エディターでの作業
 
-Once your data source has been added, you will be taken to the *Visualizations Editor*. Here you can build your dashboard. By default, the *Column* visualization will be selected. You can select it in order to choose another chart type.
+データ ソースを追加した後、**表示形式エディター**が表示されます。ここでダッシュボードを作成できます。デフォルトでは、**柱状**表示形式が選択されます。それを選択して、別のチャート タイプを選択できます。
 
 <img src="images/sybase-working-in-visualization-editor.png" alt="Using Sybase data to create a dashboard in the visualization editor" class="responsive-img" width="70%"/>
 
-When you are ready with your visualization, you can save it as a dashboard by clicking/tapping on the checkmark in the top right corner. In this case we saved the dashboard in **My Analytics** > **My Dashboards** > **Statistics**.
+表示形式の準備ができたら、右上隅のチェックマークをクリックまたはタップして、ダッシュボードとして保存できます。以下の例では、ダッシュボードを **[分析]** > **[ダッシュボード]** > **Statistics** に保存しました。
 
 <img src="images/sybase-my-analytics.png" alt="Sybase dashboard in My Analytics" class="responsive-img" width="70%"/>

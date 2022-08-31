@@ -17,9 +17,9 @@ Reveal で使用される他のデータベース (Microsoft Analysis Services�
 
 Azure Analysis Services データ ソースを設定するには、以下の手順を実行する必要があります。
 
-1. Provide the credentials to your Microsoft account (the account associated with the Azure Analysis server).  
+1. Microsoft アカウント (Azure Analysis サーバーに関連付けられたアカウント) に資格情報を提供します。 
 
-2. Provide a **URL** to your server in the **Add Azure SSAS Server** dialog:
+2. **[Azure SSAS サーバーの追加]** ダイアログで、サーバーへの **URL** を指定します。
 
     <img src="images/add-azure-ssas-server.png" alt="Configuring an azure analysis services connection" class="responsive-img" width="50%"/>
 
@@ -27,24 +27,24 @@ Azure Analysis Services データ ソースを設定するには、以下の手�
 
     *Azure portal* (Azure ポータル) ⇒ 選択したサーバー ⇒ *Overview* (概要) ⇒ *Server Name* (サーバー名)
 
-3. Reveal に戻り、サーバー名を *URL* に貼り付けます。Click/tap on the **Add Server** button, which is now enabled.  
+3. Reveal に戻り、サーバー名を *URL* に貼り付けます。**[サーバーの追加]** ボタンをクリックまたはタップすると、有効になります。  
 
-4. Once you have added the server, Analytics will load and show the databases on the server. Here you will find a list of all  the available semantic models in your database. Choose a model and click/tap on **Select Data** to continue to the *Visualizations Editor*.
+4. サーバーを追加すると、Analytics はサーバー上のデータベースを読み込んで表示します。ここには、データベースで使用可能なすべてのセマンティック モデルのリストが表示されます。モデルを選択し、**[データを選択]** をクリックまたはタップして**表示形式エディター**に進みます。
 
    <img src="images/azure-ssas-cubes.png" alt="List of cubes with all the models in them" class="responsive-img" width="60%"/>
 
-## Working in the Visualization editor
+## 表示形式エディターでの作業
 
- Here you will see the data from your model presented in two categories: 
+ ここでは、モデルのデータが 2 つのカテゴリで表示されます:
 
-- *Dimensions* contain qualitative data ("Country", "Name", "Product", etc). 
+- **ディメンション**には定性的データ (Country、Name、Product など) が含まれます。
 
-- *Measures* consist of numeric data. 
+- **メジャー**は数値データで構成されます。
 
 <img src="images/azure-ssas-visualization-editor.png" alt="Using azure ssas data in the visualization editor" class="responsive-img" width="75%"/>
 
-By default, the *Column* visualization will be selected. You can click/tap on it in order to choose another chart type from the drop-down menu.
+デフォルトでは、**柱状**表示形式が選択されます。それをクリックまたはタップして、ドロップダウン メニューから別のチャート タイプを選択できます。
 
-When you are ready with your visualization, you can save it as a dashboard by clicking/tapping on the checkmark in the top right corner. In this case we saved the dashboard in **My Analytics** > **My Dashboards** > **Accounting**.
+表示形式の準備ができたら、右上隅のチェックマークをクリックまたはタップして、ダッシュボードとして保存できます。以下の例では、ダッシュボードを **[分析]** > **[ダッシュボード]** > **Accounting** に保存しました。
 
 <img src="images/azure-ssas-my-analytics.png" alt="A dashboard created while using azure ssas data in the My Analytics section" class="responsive-img" width="75%"/>

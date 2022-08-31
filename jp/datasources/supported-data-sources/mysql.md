@@ -19,10 +19,9 @@ MySQL サーバー データ ソースを構成するには、以下の情報が
 
       - **[パスワード]**: MySQL サーバーのパスワード。
 
-      - **Alias**: the name for your data source account. It will be
-        displayed in the list of accounts in the previous dialog.
+      - **エイリアス**: データ ソース アカウントの名前。以前のダイアログのアカウントのリストに表示されます。
 
-    Once ready, select **Add** and then **Add Server**.
+    準備ができたら、**[追加]** を選択してから **[サーバーの追加]** を選択します。
 
 <a name='how-to-find-server'></a>
 ## サーバー情報を見つける方法
@@ -49,17 +48,16 @@ Reveal ではすべてのテーブルから MySQL データを取得できます
 
 <img src="images/mysql-views.png" alt="MySQL Views section" class="responsive-img" width="60%"/>
 
-In the sample above, the **invoices** view contains a modified version
-of the data in the **products**,**customers**, **orderdetails** and **orders** tables in the MySQL server.
+上記のサンプルでは、**invoices** ビューに、MySQL サーバーの **products**、**customers**、**orderdetails**、および **orders** テーブルのデータの変更されたバージョンが含まれています。
 
-For more information on views and MySQL, visit [this documentation page](https://dev.mysql.com/doc/refman/8.0/en/views.html).
+ビューと MySQL の詳細については、[このドキュメント ページ](https://dev.mysql.com/doc/refman/8.0/en/views.html)にアクセスしてください。
 
-## Working in the Visualization editor
+## 表示形式エディターでの作業
 
-Once you have chosen your table or view, you will be taken to the *Visualizations Editor*. Here you can build your dashboard. By default, the *Column* visualization will be selected. You can select it in order to choose another chart type.
+テーブルまたはビューを選択すると、**表示形式エディター**に移動します。ここでダッシュボードを作成できます。デフォルトでは、**柱状**表示形式が選択されます。それを選択して、別のチャート タイプを選択できます。
 
 <img src="images/mysql-visualization-editor.png" alt="Using MySQL as data to create a dashboard in the visualization editor" class="responsive-img" width="85%"/>
 
-When you are ready with the visualization editor, you can save the dashboard in **My Analytics** > **My Dashboards** or in a specific workspace. 
+表示形式エディターの準備ができたら、ダッシュボードを **[分析]** > **[ダッシュボード]** または特定のワークスペースに保存できます。 
 
 <img src="images/mysql-my-analytics.png" alt="A dashboard created from a MySQL data source in the My Analytics section" class="responsive-img" width="85%"/>

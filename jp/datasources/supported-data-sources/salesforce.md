@@ -42,12 +42,12 @@ Slingshot で Salesforce をデータ ソースとして設定および使用す
 
 <img src="../images/edit-data-source-salesforce.png" alt="Edit your data source in the Visualization editor" class="responsive-img" width="75%"/>
 
-## Working in the Visualization editor 
+## 表示形式エディターでの作業
 
-Once your data source has been added, you will be taken to the *Visualizations Editor*. Here you can build your dashboard.Note that based on the vusialization that you have chosen, you will see different types of fields.
+データ ソースを追加した後、**表示形式エディター**が表示されます。ここでダッシュボードを作成できます。選択した表示形式に基づいて、さまざまなタイプのフィールドが表示されることに注意してください。
 
 <img src="./images/salesforce-visualization-editor.png" alt="Working in the visualization editor while using the information from a salesforce account" class="responsive-img" width="75%"/>
 
-When you are ready with your visualization, you can click/tap on the checkmark in the top right corner to save it as a dashboard. In this case we saved the dashboard in **My Analytics** > **My Dashboards** > **Accounting**.
+表示形式の準備ができたら、右上隅のチェックマークをクリックまたはタップして、ダッシュボードとして保存できます。以下の例では、ダッシュボードを **[分析]** > **[ダッシュボード]** > **Accounting** に保存しました。
 
 <img src="./images/salesforce-my-analytics.png" alt="A salesforce dashboard in the My Analytics section" class="responsive-img" width="75%"/>

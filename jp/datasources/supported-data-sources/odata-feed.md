@@ -20,9 +20,9 @@ OData フィードのデータ ソースを設定するには、以下の情報�
 
       - **[パスワード]**: OData Service にアクセスするためのパスワード (該当する場合)。
 
-      - **Alias**: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Reveal names it *OData Feed*. You can change it to your preference.
+      - エイリアス: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *OData Feed* という名前を付けます。好みに合わせて変更できます。
 
-Once ready, select **Add**.
+準備ができたら、**[追加]** を選択します。
 
 保護された OData フィード データ ソースの *OAuth 2 / OIDC アカウント*を設定するには、[このトピック](/jp/datasources/OAuth-2-OIDC-User-Authentication.html)を参照してください。
 
@@ -35,9 +35,8 @@ Reveal は、動的な[*オープン型の列*](https://docs.microsoft.com/ja-jp
 
 <img src="images/odata-feed-visualization-editor.png" alt="ODataOpenTypesSampleV3\_All" class="responsive-img" width="90%"/>
 
-A new record with a new  Property was added to the Category section through [Postman](https://www.odata.org/getting-started/learning-odata-on-postman/).
-After the changes, the dashboard was refreshed to display the new
-record.
+[Postman](https://www.odata.org/getting-started/learning-odata-on-postman/) を通じて、新しいプロパティを持つ新しいレコードがカテゴリ セクションに追加されました。
+変更後、ダッシュボードが更新され、新しいレコードが表示されました。
 
 <img src="images/odata-feed-new-record.png" alt="ODataRefreshedOpenTypeV3\_All" class="responsive-img" width="75%"/>
 
