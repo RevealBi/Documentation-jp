@@ -2,3 +2,7 @@
   href: loading-dashboards.md
 - name: データ ソースへの資格情報の提供
   href: providing-credentials-datasources.md
+- name: データ ソースの置き換え
+  items:
+    - name: オブジェクトをエンコード/デコード
+      href: object-encode-decode.md
