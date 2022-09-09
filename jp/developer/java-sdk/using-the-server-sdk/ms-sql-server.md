@@ -1,6 +1,6 @@
-# Replacing MS Sql Server Data Source
+# MS SQL Server データ ソースの置き換え
 
-**Step 1** - In the Java Web API server application, create a class that implements `IRVDataSourceProvider`. This class will perform the actual replacement of the MS SQL Server settings. 
+**手順 1** - Java Web API サーバー アプリケーションで、`IRVDataSourceProvider` を実装するクラスを作成します。このクラスは、MS SQL Server 設定の実際の置換を実行します。 
 
 ```java
 public class LocalSampleDataSourceProvider implements IRVDataSourceProvider {
@@ -17,9 +17,9 @@ public class LocalSampleDataSourceProvider implements IRVDataSourceProvider {
 }
 ```
 
-The `changeDataSourceItem` method of this class returns the `RVDataSourceItem` that the visualization will use to get its data. By modifying the `RVDataSourceItem` item that is provided as an argument in the `changeDataSourceItem` method, you can change which server or table to get your data from.
+このクラスの `changeDataSourceItem` メソッドは、表示形式がデータを取得するために使用する `RVDataSourceItem` を返します。`changeDataSourceItem` メソッドで引数として提供される `RVDataSourceItem` 項目を変更することにより、データを取得するサーバーまたはテーブルを変更できます。
 
-**Step 2** - Update the `contextInitialized` function in the `WebAppListener.java` file to add the `IRVDataSourceProvider` you just created to the `RevealEngineInitializer` using the `setDataSourceProvider(new LocalSampleDataSourceProvider()).` method.
+**手順 2** - `WebAppListener.java` ファイルの `contextInitialized` 関数を更新して、`setDataSourceProvider(new LocalSampleDataSourceProvider()).` メソッドを使用して、作成したばかりの `IRVDataSourceProvider` を `RevealEngineInitializer` に追加します。
 
 ```java
 	public void contextInitialized(ServletContextEvent ctx) {
@@ -31,9 +31,9 @@ The `changeDataSourceItem` method of this class returns the `RVDataSourceItem` t
 	}
 ```
 
-## Example: Replace Host, Database, and Table
+## 例: ホスト、データベース、およびテーブルの置き換え
 
-You can change the MS SQL Server host, database, and table name of every MS SQL Server data source item in your dashboard by casting each `RVDataSourceItem` as a `RVSqlServerDataSourceItem` and modifying it's properties as follows:
+各 `RVDataSourceItem` を `RVSqlServerDataSourceItem` としてキャストし、そのプロパティを次のように変更することで、ダッシュボード内のすべての MS SQL Server データ ソース項目の MS SQL Server ホスト、データベース、およびテーブル名を変更できます。
 
 ```java
 public class LocalSampleDataSourceProvider implements IRVDataSourceProvider {
