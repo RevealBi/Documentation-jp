@@ -1,10 +1,10 @@
-# User Context
+# ユーザー コンテキスト
 
-The User Context represents the identity of the authenticated user of the application. The User Context can be used by Reveal SDK providers such as the `IRVDashboardProvider` , `IRVAuthenticationProvider`, `IRVDataProvider` and others to restrict what permissions the user has. To provide User Context to the Reveal SDK, you can extend `RVContainerRequestAwareUserContextProvider` and implement the abstract method that receives an instance of ContainerRequestContext from JAX-RS specification.
+ユーザー コンテキストは、アプリケーションの認証済みユーザーの ID を表します。ユーザー コンテキストは、`IRVDashboardProvider`、`IRVAuthenticationProvider`、`IRVDataProvider` などの Reveal SDK プロバイダーで使用して、ユーザーが持つアクセス許可を制限できます。ユーザー コンテキストを Reveal SDK に提供するには、`RVContainerRequestAwareUserContextProvider` を拡張し、JAX-RS 仕様から ContainerRequestContext のインスタンスを受け取る抽象メソッドを実装します。
 
-## Sample User Context Provider
+## サンプル ユーザー コンテキスト プロバイダー
 
-**Step 1** - `SampleUserContextProvider` extends `RVContainerRequestAwareUserContextProvider` class and defines the `getUserContext` method that returns a [**RVUserContext**](https://help.revealbi.io/api/java/latest/com/infragistics/reveal/sdk/base/RVUserContext.html) object, which contains both the `userId` and a set of properties. We're using this list of properties to store the sessionId, this way we can retrieve it later when credentials for a data source are requested.
+**手順 1** - `SampleUserContextProvider` は `RVContainerRequestAwareUserContextProvider` クラスを拡張し、`userId` と一連のプロパティの両方を含む [**RVUserContext**](https://help.revealbi.io/api/java/latest/com/infragistics/reveal/sdk/base/RVUserContext.html) オブジェクトを返す `getUserContext` メソッドを定義します。このプロパティのリストを使用して sessionId を保存しています。これにより、後でデータ ソースの資格情報が要求されたときに取得できます。
 
 ```java
 public class SampleUserContextProvider extends RVContainerRequestAwareUserContextProvider {
@@ -29,7 +29,7 @@ public class SampleUserContextProvider extends RVContainerRequestAwareUserContex
 	}
 }
 ```
-**Step 2** - Update the `contextInitialized` function in the `WebAppListener.java` file to add the `RVContainerRequestAwareUserContextProvider` you just created to the `RevealEngineInitializer` using the `setUserContextProvider(new SampleUserContextProvider())` method.
+**手順 2** - `WebAppListener.java` ファイルの `contextInitialized` 関数を更新して、`setUserContextProvider(new SampleUserContextProvider())` メソッドを使用して、作成したばかりの `RVContainerRequestAwareUserContextProvider` を `RevealEngineInitializer` に追加します。
 
 ```java
 	public void contextInitialized(ServletContextEvent ctx) {
@@ -41,4 +41,4 @@ public class SampleUserContextProvider extends RVContainerRequestAwareUserContex
 	}
 ```
 
-You can find an implementation in [**Tomcat sample application using RevealBI Java SDK**](https://github.com/RevealBi/sdk-samples-java/tree/f76481b3578ee95b3949d87e693e2228809daa3e/cookies-auth)
+[**RevealBI Java SDK を使用して、Tomcat サンプル アプリケーション**](https://github.com/RevealBi/sdk-samples-java/tree/f76481b3578ee95b3949d87e693e2228809daa3e/cookies-auth)で実装を見つけることができます。

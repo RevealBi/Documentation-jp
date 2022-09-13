@@ -1,12 +1,10 @@
-# User Context
+# ユーザー コンテキスト
 
-The User Context represents the identity of the authenticated user of the application. The User Context can be used by Reveal SDK providers such as the `IRVDashboardProvider`, `IRVAuthenticationProvider`, `IRVDataProvider` and others to restrict what permissions the user has. To provide User Context to the Reveal SDK, you must create a class that implements the [**IRVUserContextProvider**](https://help.revealbi.io/api/aspnet/latest/Reveal.Sdk.IRVUserContextProvider.html) interface.
+ユーザー コンテキストは、アプリケーションの認証済みユーザーの ID を表します。ユーザー コンテキストは、`IRVDashboardProvider`、`IRVAuthenticationProvider`、`IRVDataProvider` などの Reveal SDK プロバイダーで使用して、ユーザーが持つアクセス許可を制限できます。ユーザー コンテキストを Reveal SDK に提供するには、[**IRVUserContextProvider**](https://help.revealbi.io/api/aspnet/latest/Reveal.Sdk.IRVUserContextProvider.html) インターフェイスを実装するクラスを作成する必要があります。
 
-## Sample User Context Provider
+## サンプル ユーザー コンテキスト プロバイダー
 
-**Step 1** - `SampleUserContextProvider` implements [**IRVUserContextProvider**](https://help.revealbi.io/api/aspnet/latest/Reveal.Sdk.IRVUserContextProvider.html) interface and defines the `GetUserContext` method that returns a [**RVUserContext**](https://help.revealbi.io/api/aspnet/latest/Reveal.Sdk.RVUserContext.html) object, which contains both the 
-`userId` and a set of properties. We're using this list of properties to store the `someCookieName` value, this way we can retrieve it later when credentials for a data source are 
-requested.
+**Step 1** - `SampleUserContextProvider` は [**IRVUserContextProvider**](https://help.revealbi.io/api/aspnet/latest/Reveal.Sdk.IRVUserContextProvider.html) インターフェイスを実装し、`userId` と一連のプロパティの両方を含む [**RVUserContext**](https://help.revealbi.io/api/aspnet/latest/Reveal.Sdk.RVUserContext.html) オブジェクトを返す `GetUserContext` メソッドを定義します。このプロパティのリストを使用して `someCookieName` の値を保存しています。これにより、後でデータ ソースの資格情報が要求されたときに値を取得できます。
 
 ```csharp
     internal class SampleUserContextProvider : IRVUserContextProvider
@@ -28,7 +26,7 @@ requested.
     }
 ```
 
-**Step 2** - Update the `AddReveal` method in the `Program.cs` file to add the `IRVUserContextProvider` you just created to the `RevealSetupBuilder` using the `RevealSetupBuilder.AddUserContextProvider` method.
+**手順 2** - `Program.cs` ファイルの `AddReveal` メソッドを更新して、作成した `IRVUserContextProvider` を `RevealSetupBuilder.AddUserContextProvider` メソッドを使用して `RevealSetupBuilder` に追加します。
 
 ```csharp
 builder.Services.AddControllers().AddReveal( builder =>
@@ -37,4 +35,4 @@ builder.Services.AddControllers().AddReveal( builder =>
 });
 ```
 
-You can find an implementation in [**Web sample application using RevealBI AspNetCore SDK**](https://github.com/RevealBi/sdk-samples-aspnetcore/blob/590f79ce822755002bf2ccbbdb6e455ab7f1f3c3/Cookies-Auth/README.md)
+[**RevealBI AspNetCore SDK を使用した Web サンプル アプリケーション**](https://github.com/RevealBi/sdk-samples-aspnetcore/blob/590f79ce822755002bf2ccbbdb6e455ab7f1f3c3/Cookies-Auth/README.md)で実装を見つけることができます。
