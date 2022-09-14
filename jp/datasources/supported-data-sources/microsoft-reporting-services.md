@@ -43,16 +43,16 @@ Microsoft Reporting Services レポートへの接続を構成した後、以下
 >[!NOTE]
 >表示形式エディターでデータ ソースを編集: 読み込み後は変更できないため、レポート形式 (pdf または data) を選択してください。データ ソースを*編集する*場合、レポートのパラメーターの構成のみ変更できます。
 
-## Working in the Visualization editor
+## 表示形式エディターでの作業
 
-By default, the *Column* visualization will be selected. You can select it in order to choose another chart type. 
+デフォルトでは、**柱状**表示形式が選択されます。それを選択して、別のチャート タイプを選択できます。
 
 <img src="images/microsoft-reporting-services-chart-types.png" alt="List of chart types while using Microsoft Reporting Services as data source" class="responsive-img" width="50%"/>
 
-Based on the vusialization that you have chosen, you will see different types of fields.
+選択した表示形式に基づいて、さまざまなタイプのフィールドが表示されます。
 
-Once you are ready with your visualization, click/tap on the checkmark in the top right corner to save it as a dashboard. 
+表示形式の準備ができたら、右上隅のチェックマークをクリックまたはタップして、ダッシュボードとして保存できます。
 
-In this case we saved the dashboard in **My Analytics** > **My Dashboards** > **Accounting**.
+以下の例では、ダッシュボードを **[分析]** > **[ダッシュボード]** > **Accounting** に保存しました。
 
 <img src="images/microsoft-reporting-services-my-analytics-dashboard.png" alt="A dashboard in the My Analytics section created while using Microsoft Reporting Services" class="responsive-img" width="50%"/>

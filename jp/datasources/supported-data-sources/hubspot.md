@@ -10,9 +10,9 @@ Hubspot に接続すると、以下のログイン プロンプトが表示さ�
 
 <img src="images/hubspot-login.png" alt="Hubspot login prompt" class="responsive-img" width="55%"/>
 
-You can enter your login credentials and click on *Log In*.
+ログイン情報を入力して **[ログイン]** をクリックします。
 
->[!Note] In case you have activated [2-factor authentication](https://knowledge.hubspot.com/account/how-can-i-set-up-two-factor-authentication-for-my-hubspot-login), you will need to enter a verification code.
+>[!Note] [2 要素認証](https://knowledge.hubspot.com/account/how-can-i-set-up-two-factor-authentication-for-my-hubspot-login)を有効にしている場合、確認コードを入力する必要があります。
 
 ## データの設定
 
@@ -26,12 +26,12 @@ You can enter your login credentials and click on *Log In*.
 >**カレンダー オブジェクト**。
 >カレンダー イベント オブジェクトでは、表示形式エディターに進む前に、データをクエリするために *from* および *to* (日付) の 2 つのパラメーターを設定する必要があります。
 
-## Working in the Visualization editor
+## 表示形式エディターでの作業
 
-Once your data source has been added, you will be taken to the *Visualization Editor*. Note that the *Column* visualization will be selected by default. You can click/tap on it in order to choose another chart type from the drop-down menu.
+データ ソースを追加した後、表示形式エディターが表示されます。**柱状**表示形式がデフォルトで選択されることに注意してください。それをクリックまたはタップして、ドロップダウン メニューから別のチャート タイプを選択できます。
 
 <img src="images/hubspot-chart-types.png" alt="List of chart types while using Hubspot as a data source" class="responsive-img" width="80%"/>
 
-Based on the vusialization that you have chosen, you will see different types of fields.
+選択した表示形式に基づいて、さまざまなタイプのフィールドが表示されます。
 
-When you are ready with your visualization, you can click/tap on the checkmark in the top right corner to save it as a dashboard. 
+表示形式の準備ができたら、右上隅のチェックマークをクリックまたはタップして、ダッシュボードとして保存できます。
