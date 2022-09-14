@@ -70,7 +70,7 @@ Analysis Services サーバーの資格情報が確認されたら、Reveal は�
 
 Microsoft Analysis Services などのキューブ データ ソースを使用してダッシュボードを作成すると、*表示形式エディター*でフィールドが異なって体系化されます (下のスクリーンショットを参照)。キューブのデータ ソースは、キューブのデザイナーが事前に作成した階層と集計で構成されています。
 
-<img src="../images/visualization-editor-ssas.png" alt="Using the Microsoft Analysis Service data source information in the visualization editor" class="responsive-img" width="80%"/>
+<img src="../images/visualization-editor-ssas.png" alt="Using the Microsoft Analysis Service data source information in the visualization editor" class="responsive-img" width="85%"/>
 
 上のスクリーンショットでは、左側に [フィールド] の見出しがないことに気付くかもしれません。代わりに、クエリ フィールドに 2 つのセクションがあります:
 
@@ -84,7 +84,7 @@ Microsoft Analysis Services などのキューブ データ ソースを使用�
 
 2.  **メジャー** (123 アイコンで表示): メジャーは数値データで構成されます。
 
-<img src="../images/visualization-editor-ssas-pivot-chart.png" alt="Using the visualizatio editor with a pivot chart" class="responsive-img" width="80%"/>
+<img src="../images/visualization-editor-ssas-pivot-chart.png" alt="Using the visualizatio editor with a pivot chart" class="responsive-img" width="85%"/>
 
 ディメンションとメジャーの詳細については、[Technet](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2012/ms174527\(v=sql.110\)) の記事をご覧ください。
 
@@ -114,4 +114,4 @@ Microsoft Analysis Services などのキューブ データ ソースを使用�
 <img src="../images/ssas-dashboard-my-analytics.png" alt="Dasboard with an information from the microsoft analysis services data source in My Analytics" class="responsive-img" width="80%"/>
 
 間違った資格情報を入力した場合は、エラー メッセージが表示されます (下のスクリーンショットを参照)。**[Microsoft Analysis Services にログイン]** をクリックして、資格情報を更新できます。これで問題は解決するはずです。
- <img src="../images/microsoft-analysis-services-authentication-failed.png" alt="Displaying the error message authentication failed" class="responsive-img" width="80%"/>
+ <img src="../images/microsoft-analysis-services-authentication-failed.png" alt="Displaying the error message authentication failed" class="responsive-img" width="85%"/>

@@ -40,7 +40,7 @@ Slingshot で Salesforce をデータ ソースとして設定および使用す
 
 その後、データ ソースを **[編集]** を選択することで、表示形式エディターでレポート フィルターの値を変更できます (以下を参照)。
 
-<img src="../images/edit-data-source-salesforce.png" alt="Edit your data source in the Visualization editor" class="responsive-img" width="75%"/>
+<img src="../images/edit-data-source-salesforce.png" alt="Edit your data source in the Visualization editor" class="responsive-img" width="80%"/>
 
 ## 表示形式エディターでの作業
 
@@ -50,4 +50,5 @@ Slingshot で Salesforce をデータ ソースとして設定および使用す
 
 表示形式の準備ができたら、右上隅のチェックマークをクリックまたはタップして、ダッシュボードとして保存できます。以下の例では、ダッシュボードを **[分析]** > **[ダッシュボード]** > **Accounting** に保存しました。
 
-<img src="./images/salesforce-my-analytics.png" alt="A salesforce dashboard in the My Analytics section" class="responsive-img" width="75%"/>
+<img src="./images/salesforce-my-analytics.png" alt="A salesforce dashboard in the My Analytics section" class="responsive-img" width="80%"/>
+

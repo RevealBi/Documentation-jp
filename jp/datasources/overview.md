@@ -17,7 +17,7 @@ _language: ja
 1. **[分析]** またはダッシュボードを作成するワークスペースに移動します。
 2. **[+ ダッシュボード]** または **[ダッシュボードの作成]** **(分析)** の青いボタンをクリックまたはタップします。
 
-   <img src="images/data-sources-my-analytics.png" alt="Dashboard button in my analytics" class="responsive-img" width="60%" height="80%"/>
+   <img src="images/data-sources-my-analytics.png" alt="Dashboard button in my analytics" class="responsive-img" width="70%" height="80%"/>
 3. **[データ ソース]** ダイアログに、最近使用したデータ ソースのリストが表示されます。新しい接続を作成するには、右側の **[+ データ ソース]** ボタンを選択します。
 
    <img src="images/data-sources-screen.png.png" alt="Sample data sources" class="responsive-img" width="60%"/>

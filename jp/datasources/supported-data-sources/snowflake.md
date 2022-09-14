@@ -12,7 +12,7 @@ Snowflake データ ソースを構成するには、最初に次の情報を入
 
 3.  **[資格情報]**: *資格情報*を選択した後、*Snowflake* サーバーの資格情報を入力するか、既存の資格情報 (利用可能な場合) を選択できます。
 
- <img src="images/add-snowflake-credentials.png" alt="A dialog where you can add your credentials" class="responsive-img" width="60%"/>
+    <img src="images/add-snowflake-credentials.png" alt="A dialog where you can add your credentials" class="responsive-img" width="50%"/>
 
 - **ユーザー名**: *Snowflake* サーバーのユーザー アカウントまたはドメインの名前。
 

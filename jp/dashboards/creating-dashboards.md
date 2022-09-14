@@ -19,7 +19,7 @@ Reveal のダッシュボード作成には以下のオプションが含まれ�
 
 [新しい表示形式] のダイアログが表示されます。データ ソースを使用して表示形式を作成します。
 
-<img src="images/new-visualization-dialog-dashboard.png" alt="New visualization dialog" class="responsive-img" width= "50%"/>
+<img src="images/new-visualization-dialog-dashboard.png" alt="New visualization dialog" class="responsive-img" width= "55%"/>
 
 <a name='add-data-source'></a>
 ## データ ソースの追加
@@ -30,7 +30,7 @@ Reveal のダッシュボード作成には以下のオプションが含まれ�
 
 データ ソースがコンテンツ マネージャーのスプレッドシートの場合、可覚化で使用する特定のシートを選択できます。
 
-<img src="images/dashboards-select-data-sheet.png" alt="select a data sheet from an excel file data source" class="responsive-img" width="50%"/>
+<img src="images/dashboards-select-data-sheet.png" alt="select a data sheet from an excel file data source" class="responsive-img" width="55%"/>
 
 ### 使用可能なコンテンツ
 
@@ -45,7 +45,7 @@ Reveal では [Dropbox](../datasources/supported-data-sources/Dropbox.html)、[O
 <a name='modify-visualization'></a>
 ## 表示形式の変更
 
-データ ソースを追加した後、表示形式エディターが表示されます。By default, the Column visualization will be selected.
+データ ソースを追加した後、**表示形式エディター**が表示されます。デフォルトでは、柱状表示形式が選択されます。
 
 <img src="images/creating-dashboards-sample-data.png" alt="dashboards first visualization in the visualization editor" class="responsive-img" width="80%"/>
 
@@ -70,7 +70,7 @@ Reveal では、情報を可覚化する方法をカスタマイズするため�
 
 ## テーマの適用
 
-ダッシュボードに移動された後、[テーマ] を選択し、以下に示すように **Mountain テーマ** と **Ocean テーマ** を切り替えることができます。
+ダッシュボードに移動された後、[テーマ] を選択し、以下に示すように **Mountain テーマ**、**Ocean テーマ**、**Aurora テーマ**を切り替えることができます。
 
 <img src="images/dashboard-themes.png" alt="Changing the theme of a dashboard" class="responsive-img" width="45%"/>
 
