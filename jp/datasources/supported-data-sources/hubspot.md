@@ -18,7 +18,7 @@ Hubspot に接続すると、以下のログイン プロンプトが表示さ�
 
 ログイン後、次のダイアログで Hubspot データを設定できます:
 
-<img src="images/set-up-data-hubspot.png" alt="Set up your data dialog" class="responsive-img"/>
+<img src="../images/hubspot-data-source-details.png" alt="Set up your data dialog" class="responsive-img" width="55%"/>
 
 ここには、Hubspot オブジェクトのリストがあります。大きなリストでは、検索を使用して必要なオブジェクトをすばやく見つけます。
 
