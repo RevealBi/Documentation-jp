@@ -16,7 +16,7 @@ Microsoft Reporting Services (SSRS) データ ソースを構成するには、�
 
 1.  **[URL]**: サーバーの URL。
 
-2.  **[資格情報]**: 新しいダイアログが表示されます。Microsoft Reporting Services サーバーの新しい資格情報を入力、または既存の情報を入力します
+2.  **[資格情報]**: 新しいダイアログが表示されます。Microsoft Reporting Services サーバーの新しい資格情報を入力、または既存の情報を入力します。
 
 ## レポートの設定
 
