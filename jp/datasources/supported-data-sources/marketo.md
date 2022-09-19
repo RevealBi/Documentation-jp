@@ -25,17 +25,17 @@ Marketo の*管理*パネルには、上記の認証要素が含まれていま�
 
 <img src="images/marketo-objects.png" alt="A list with objects" class="responsive-img" width="50%"/>
 
-*Activities* と *Leads* オブジェクトでは、**表示形式エディター**に進む前に、データを取得するために *From* および *To* (日付) の 2 つのパラメーターを設定する必要があります。日付範囲は、最初日と最後日を含めて 31 日未満である必要があります。
+**Activities** と **Leads** オブジェクトでは、**表示形式エディター**に進む前に、データを取得するために *From* および *To* (日付) の 2 つのパラメーターを設定する必要があります。日付範囲は、最初日と最後日を含めて 31 日未満である必要があります。
 
 > [!NOTE]
 > **Activities** と **Leads** のオブジェクトからのデータが表示形式エディターに最初に読み込まれるまで、数分かかる場合があることに注意してください。次回は、同じクエリがより速く実行されます。
 
 ## 表示形式エディターでの作業
 
-データ ソースを追加した後、表示形式エディターが表示されます。デフォルトでは、*柱状*表示形式が選択されます。それを選択して、別の[チャート タイプ](https://www.slingshotapp.io/jp/help/docs/analytics/visualization-tutorials/overview)を選択できます。選択した表示形式に基づいて、さまざまなタイプのフィールドが表示されることに注意してください。
+データ ソースを追加した後、表示形式エディターが表示されます。デフォルトでは、*柱状*表示形式が選択されます。それをクリックまたはタップして、別の[チャート タイプ](https://www.slingshotapp.io/jp/help/docs/analytics/visualization-tutorials/overview)を選択できます。選択した表示形式に基づいて、さまざまなタイプのフィールドが表示されることに注意してください。
 
-<img src="images/marketo-visualization-editor.png" alt="Using data from Marketo in the visualization editor" class="responsive-img" width="80%"/>
+<img src="images/marketo-visualization-editor.png" alt="Using data from Marketo in the visualization editor" class="responsive-img" width="85%"/>
 
 表示形式の準備ができたら、右上隅のチェックマークをクリックまたはタップして、ダッシュボードとして保存できます。以下の例では、ダッシュボードを **[分析]** > **[ダッシュボード]** > **Marketing** に保存しました。
 
-<img src="images/marketo-my-analytics.png" alt="A Marketo dashboard in My Analytics" class="responsive-img" width="80%"/>
+<img src="images/marketo-my-analytics.png" alt="A Marketo dashboard in My Analytics" class="responsive-img" width="85%"/>
