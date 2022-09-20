@@ -71,6 +71,7 @@ revealView.onDataSourcesRequested = (callback) => {
 **例: Javascript でカスタム MS SQL Server クエリを定義する**
 
 JavaScript で、`RevealApi.RevealView.onDataSourcesRequested` メソッド内に `RVSqlServerDataSource` および `RVSqlServerDataSourceItem` インスタンスを作成し、`your_DS_Item.customQuery = "SELECT TOP 5 CustomerID,ContactName,ContactTitle,Address,City,Region,PostalCode,Country,Phone,Fax FROM [TABLE]";` の行を追加します。
+
 次に、新しく作成した RVSqlServerDataSourceItem を `callback(new RevealApi.RevealDataSources([], [your_DS_Item], true));` コールバックに含めます。
 
 ```javascript
