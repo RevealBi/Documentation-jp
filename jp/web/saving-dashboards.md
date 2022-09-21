@@ -210,7 +210,7 @@ revealView.onSave = (rv, args) => {
 ```
 
 > [!NOTE]
-> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/master/SavingDashboards-Server) にあります。
+> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/main/SavingDashboards-Server) にあります。
 
 
 ## 例: カスタム保存の実装
@@ -395,4 +395,4 @@ revealView.onSave = (rv, args) => {
 ```
 
 > [!NOTE]
-> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/master/SavingDashboards-Client)
+> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/main/SavingDashboards-Client)
