@@ -20,3 +20,9 @@
   href: setting-dynamic-filters.md
 - name: 初期フィルター選択の設定
   href: setting-initial-filters.md
+- name: データ ソースの追加
+  items:
+    - name: Excel ファイル
+      href: adding-data-sources/excel-file.md
+    - name: MS SQL Server
+      href: adding-data-sources/ms-sql-server.md

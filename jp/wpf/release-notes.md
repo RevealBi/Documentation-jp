@@ -1,5 +1,10 @@
 # リリース ノート
 
+## 1.2.2 (9 月 2022 年)
+### バグ修正
+- カスタム カラー ピッカーを修正しました。_System.IO.FileNotFoundException_ エラー: CanChangeVisualizationBackgroundColor が true に設定されていると、「'Reveal.UI.Controls.Editors.XamColorPicker...' ファイルまたはアセンブリを読み込めませんでした...」がスローされました。
+
+
 ## 1.2.0 (8 月 2022 年)
 ### 新機能
 
