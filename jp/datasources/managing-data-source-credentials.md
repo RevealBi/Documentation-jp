@@ -10,7 +10,7 @@ Reveal で特定のデータ ソースを設定するとき、これらのサー
 
 すべての資格情報にアクセスして管理するには、**プロフィール写真** (右上隅) ⇒ **[設定]** ⇒ **[データ ソースの資格情報]** セクションを選択します。
 
-<img src="images/data-source-credentials-settings.png" alt="A list of data source credentials in the settings menu" class="responsive-img"/>
+ <img src="images/data-source-credentials-settings.png" alt="A list of data source credentials in the settings menu" class="responsive-img" width="55%"/>
 
 ## 新しいアカウント資格情報の追加
 
@@ -19,7 +19,7 @@ Reveal で特定のデータ ソースを設定するとき、これらのサー
 1. **[データ ソースの資格情報]** で、**[+ 新規]** 青いボタン (右上隅) をクリックまたはタップします。 
 2. **[資格情報の追加]** メニューが開きます。
 
-  <img src="images/add-new-data-source-data-source-credentials.png" alt="Add New Account Credentials dialog" class="responsive-img"/>
+  <img src="images/add-new-data-source-data-source-credentials.png" alt="Add New Account Credentials dialog" class="responsive-img" width="55%"/>
 
   - **ユーザー名 / ドメイン**: サービスのユーザー名またはドメイン名。
 
@@ -33,7 +33,7 @@ Reveal で特定のデータ ソースを設定するとき、これらのサー
 
 それらを削除しない限り、資格情報を必要とするデータ ソースを構成するときに、Reveal に保存されているアカウントの資格情報が常にアカウントの一覧に表示されます。
 
-<img src="images/choose-credentials-for-data-source.png" alt="Choose Credentials for a Data Source dialog" class="responsive-img"/>
+<img src="images/choose-credentials-for-data-source.png" alt="Choose Credentials for a Data Source dialog" class="responsive-img" width="60%"/>
 
 > [!NOTE] 
 >役立つヒント! 複数のデータ ソースで使用する予定のすべての資格情報をここに追加して整理するために時間をかけてください。

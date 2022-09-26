@@ -2,3 +2,13 @@
   href: loading-dashboards.md
 - name: データ ソースへの資格情報の提供
   href: providing-credentials-datasources.md
+- name: データ ソースの置き換え
+  items:
+    - name: Excel ファイル
+      href: excel-file.md
+    - name: MS SQL SERVER
+      href: ms-sql-server.md
+    - name: オブジェクトをエンコード/デコード
+      href: object-encode-decode.md
+- name: ユーザー コンテキスト
+  href: user-context.md

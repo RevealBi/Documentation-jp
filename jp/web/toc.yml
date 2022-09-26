@@ -58,6 +58,8 @@
       href: replacing-data-sources/object-encode-decode.md
 - name: 認証
   href: authentication.md
+- name: ユーザー コンテキスト
+  href: user-context.md
 - name: 表示形式の使用
   header: true
 - name: 表示形式の最大化

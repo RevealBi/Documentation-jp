@@ -61,3 +61,42 @@ revealView.onDataSourcesRequested = (callback) => {
 
 > [!IMPORTANT]
 > サーバーがクライアント アプリケーションとは異なる URL で実行されている場合は、`$.ig.RevealSdkSettings.setBaseUrl` を呼び出す必要があります。サーバー アプリケーションとクライアント アプリケーションの両方が同じ URL で実行されている場合、このメソッドは必要ありません。このメソッドを呼び出す必要があるのは 1 回だけです。
+
+
+### カスタム SQL クエリ
+
+[**RVSqlBasedDataSourceItem**](https://help.revealbi.io/api/aspnet/latest/Reveal.Sdk.RVSqlBasedDataSourceItem.html#properties) の CustomQuery プロパティを使用すると、サーバーから「データを取得するときに使用するカスタム SQL クエリ」を実行できます。
+
+
+**例: Javascript でカスタム MS SQL Server クエリを定義する**
+
+JavaScript で、`RevealApi.RevealView.onDataSourcesRequested` メソッド内に `RVSqlServerDataSource` および `RVSqlServerDataSourceItem` インスタンスを作成し、`your_DS_Item.customQuery = "SELECT TOP 5 CustomerID,ContactName,ContactTitle,Address,City,Region,PostalCode,Country,Phone,Fax FROM [TABLE]";` の行を追加します。
+
+次に、新しく作成した RVSqlServerDataSourceItem を `callback(new RevealApi.RevealDataSources([], [your_DS_Item], true));` コールバックに含めます。
+
+```javascript
+            var revealView = new RevealApi.RevealView("#revealView");
+            revealView.dashboard = new RevealApi.RVDashboard();
+
+            //...
+
+            revealView.onDataSourcesRequested = function(callback) {
+
+                var sqlDs = new RevealApi.RVSqlServerDataSource();
+                sqlDs.title = "Title";
+                sqlDs.id = "SqlDataSource1";
+                sqlDs.host = "your_host_name";
+                sqlDs.port = "sql_port_number";
+                sqlDs.database = "your_db_name";
+
+                var sqlDsi = new RevealApi.RVSqlServerDataSourceItem(sqlDs);
+                sqlDsi.title = "Clients";
+                sqlDsi.id = "SQLDatsaourceItem1";
+                sqlDsi.customQuery = "SELECT TOP 5 CustomerID,ContactName,ContactTitle,Address,City,Region,PostalCode,Country,Phone,Fax FROM [TABLE]";
+
+                callback(new RevealApi.RevealDataSources([], [sqlDsi], true));
+            };
+        }
+```
+
+![](images/custom-query-web.jpg)

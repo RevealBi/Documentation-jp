@@ -13,25 +13,21 @@ _language: ja
 
 Sybase サーバー データ ソースを構成するには、以下の情報が必要です。
 
-<img src="images/enter-sybase-server-details.png" alt="Configure Sybase database connection" class="responsive-img"/>
+<img src="images/add-sybase-as-data-source.png" alt="Configure Sybase database connection" width="50%" class="responsive-img"/>
 
-1.  **データ ソース名**: このフィールドはデータ ソース リストに表示されます。デフォルト名: *Sybase*。
+1.  **[[サーバー](#サーバー情報を見つける方法)]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 
-2.  **[[サーバー](#サーバー情報を見つける方法)]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
+2.  **[ポート]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Reveal はデフォルトでヒント テキスト (5000) のポートに接続します。
 
-3.  **[ポート]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Reveal はデフォルトでヒント テキスト (5000) のポートに接続します。
+3.  **[資格情報]**: [資格情報] を選択した後、Sybase サーバーの資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
 
-4.  **[資格情報]**: [資格情報] を選択した後、Sybase サーバーの資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
+      - **[ユーザー名]**: Sybase サーバーのユーザー アカウントまたはドメインの名前。
 
-      - **[名前]**: データ ソース アカウントの名前。以前のダイアログのアカウントのリストに表示されます。
+      - **[パスワード]**: Sybase サーバーのパスワード。
+    
+    - **エイリアス**: データ ソース アカウントの名前。以前のダイアログのアカウントのリストに表示されます。
 
-      - (オプション) の **[ドメイン]**: ドメイン名 (適用可能な場合)。
-
-      - **[ユーザー名]**: Sybase サーバーのユーザー アカウント
-
-      - **[パスワード]**: Sybase サーバーのパスワード
-
-        準備ができたら、**[作成して使用]** を選択します。
+  準備ができたら、**[追加]** を選択してから **[サーバーの追加]** を選択します。
 
 <a name='how-to-find-server'></a>
 ## サーバー情報を見つける方法
@@ -58,22 +54,30 @@ Sybase サーバー データ ソースを構成するには、以下の情報�
 
 Reveal を使用すると、テーブル全体から Sybase データを取得できますが、代わりにテーブルまたはテーブルのセットからデータのサブセットを返す特定の[ビュー (英語)](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X29678.htm) を選択することもできます。
 
-<img src="images/sybase-views.png" alt="Select from Sybase views dialog" class="responsive-img"/>
+<img src="images/sybase-views-list.png" alt="Select from Sybase views dialog" class="responsive-img" width="55%"/>
 
-たとえば、**Category Sales for 1997** ビューには、データベース内のテーブルの 1 つから取得した営業予測に関する情報が含まれています。
+たとえば、**syscacheinfo** ビューには、データベース内のテーブルの 1 つから取得したキャッシュに関する情報が含まれています。
 
-<img src="images/sales-projection-sample.png" alt="Sales Projection Sample dashboard" class="responsive-img"/>
+<img src="images/sybase-view-visualization-editor.png" alt="Creating a visualization while using a sybase view" class="responsive-img" width="60%"/>
 
 ビューおよび Sybase の詳細については、[このドキュメント Web サイト (英語)](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X29678.htm) を参照してください。
 
 ### 保管されたプロシージャの作業
 
-Sybase では、保管されたプロシージャを使用すると、特定のパラメーターを使用してリレーショナル データベースで一連のクエリ ステートメントを実行できます。以下は、マスター データベースのデータを使用してテスト サーバーで実行されるサンプル 保管されたプロシージャのセットです。
+Sybase では、保管されたプロシージャを使用すると、特定のパラメーターを使用してリレーショナル データベースで一連のクエリ ステートメントを実行できます。
 
-<img src="images/sybase-stored-procedures.png" alt="Select from Sybase Stored Procedures dialog" class="responsive-img"/>
+たとえば、この場合、ストアド プロシージャでは、ユーザーが *@name* 範囲値を設定する必要があります。
 
-この場合では、保管されたプロシージャでユーザーが時間範囲の値を設定する必要があります。
+<img src="images/stored-procedure-parameters-sybase.png" alt="Stored Procedure select name" class="responsive-img" width="55%"/>
 
-<img src="images/stored-procedure-sample-dates.png" alt="Stored Procedure select dates" class="responsive-img"/>
+ストアド プロシージャと Sybase の詳細については、[このドキュメント Web サイト](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X39397.htm)を参照してください。
 
-ストアドプロシージャーおよび Sybase の詳細については、[この Web サイト (英語)](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X39397.htm) を参照してください。
+## 表示形式エディターでの作業
+
+データ ソースを追加した後、**表示形式エディター**が表示されます。ここでダッシュボードを作成できます。デフォルトでは、**柱状**表示形式が選択されます。それを選択して、別のチャート タイプを選択できます。
+
+<img src="images/sybase-working-in-visualization-editor.png" alt="Using Sybase data to create a dashboard in the visualization editor" class="responsive-img" width="80%"/>
+
+表示形式の準備ができたら、右上隅のチェックマークをクリックまたはタップして、ダッシュボードとして保存できます。以下の例では、ダッシュボードを **[分析]** > **[ダッシュボード]** > **Statistics** に保存しました。
+
+<img src="images/sybase-my-analytics.png" alt="Sybase dashboard in My Analytics" class="responsive-img" width="80%"/>

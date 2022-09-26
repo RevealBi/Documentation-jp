@@ -7,26 +7,21 @@
 
 MySQL サーバー データ ソースを構成するには、以下の情報が必要です。
 
-<img src="images/enter-mySQL-server-details.png" alt="Enter MySQL Server Details dialog" class="responsive-img"/>
+<img src="images/add-mysql-as-data-source.png" alt="Enter MySQL Server Details dialog" class="responsive-img" width="50%"/>
 
-1.  **データ ソース名**: データ ソースは以前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *MySQL* という名前を付けます。好みに合わせて変更できます。
+1. **[[サーバー](#how-to-find-server)]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 
+2.  **[ポート]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Reveal はデフォルトでヒント テキスト (3306) のポートに接続します。
 
-2. **[[サーバー](#how-to-find-server)]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
+3.  **[資格情報]**: [資格情報] を選択した後、MySQL サーバーの資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
 
-3.  **[ポート]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Reveal はデフォルトでヒント テキスト (3306) のポートに接続します。
+      - **[ユーザー名]**: MySQL サーバーのユーザー アカウントまたはドメインの名前。
 
-4.  **[資格情報]**: [資格情報] を選択した後、MySQL サーバーの資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
+      - **[パスワード]**: MySQL サーバーのパスワード。
 
-      - **[名前]**: データ ソース アカウントの名前。以前のダイアログのアカウントのリストに表示されます。
+      - **エイリアス**: データ ソース アカウントの名前。以前のダイアログのアカウントのリストに表示されます。
 
-      - (オプション) の **[ドメイン]**: ドメイン名 (適用可能な場合)。
-
-      - **[ユーザー名]**: MySQL サーバーのユーザー アカウント
-
-      - **[パスワード]**: MySQL サーバーのパスワード
-
-    準備ができたら、**[作成して使用]** を選択します。
+    準備ができたら、**[追加]** を選択してから **[サーバーの追加]** を選択します。
 
 <a name='how-to-find-server'></a>
 ## サーバー情報を見つける方法
@@ -51,10 +46,18 @@ MySQL サーバー データ ソースを構成するには、以下の情報が
 
 Reveal ではすべてのテーブルから MySQL データを取得できますが、その他にもテーブルまたはテーブルのセットからデータのサブセットを返す特定のビューを選択することもできます。
 
-<img src="images/MySQL-views.png" alt="MySQL Views section" class="responsive-img"/>
+<img src="images/mysql-views.png" alt="MySQL Views section" class="responsive-img" width="60%"/>
 
-上記のサンプルでは、**請求書**ビューに MySQL サーバーの **Products** テーブルのデータの変更バージョンが含まれています。
+上記のサンプルでは、**invoices** ビューに、MySQL サーバーの **products**、**customers**、**orderdetails**、および **orders** テーブルのデータの変更されたバージョンが含まれています。
 
-<img src="images/invoices-MySQL-view-sample.png" alt="Sample dashboard using MySQL invoices view data" class="responsive-img"/>
+ビューと MySQL の詳細については、[このドキュメント ページ](https://dev.mysql.com/doc/refman/8.0/en/views.html)にアクセスしてください。
 
-ビューおよび MySQL の詳細については、[このページ (英語)](https://dev.mysql.com/doc/refman/8.0/en/views.html)を参照してください。
+## 表示形式エディターでの作業
+
+テーブルまたはビューを選択すると、**表示形式エディター**に移動します。ここでダッシュボードを作成できます。デフォルトでは、**柱状**表示形式が選択されます。それを選択して、別のチャート タイプを選択できます。
+
+<img src="images/mysql-visualization-editor.png" alt="Using MySQL as data to create a dashboard in the visualization editor" class="responsive-img" width="85%"/>
+
+表示形式エディターの準備ができたら、ダッシュボードを **[分析]** > **[ダッシュボード]** または特定のワークスペースに保存できます。 
+
+<img src="images/mysql-my-analytics.png" alt="A dashboard created from a MySQL data source in the My Analytics section" class="responsive-img" width="85%"/>

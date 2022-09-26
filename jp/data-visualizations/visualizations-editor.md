@@ -17,7 +17,7 @@ _language: ja
 
 その後、新しいデータ ソースを追加するか、既存の[データ ソース](~/jp/datasources/overview.md)を選択するように求められます。
 
-<img src="images/data-sources-dialog.png" alt="Dialog with a list of data sources" width="70%" class="responsive-img"/>
+<img src="images/data-sources-dialog.png" alt="Dialog with a list of data sources" width="55%" class="responsive-img"/>
 
 データ ソースを選択して構成すると、[表示形式エディター](visualizations-editor.md)に移動し、表示形式の作成を開始できます。
 
@@ -37,9 +37,9 @@ _language: ja
 
 ## 表示形式エディターの概要
 
-以下は、エディターのすべてのセクションとその機能のリストです。
+以下は、**エディター**のすべてのセクションとその機能のリストです。
 
-<img src="images/visualization-editor.png" alt="Panes of the Visualization editor" class="responsive-img"/>
+<img src="images/visualization-editor.png" alt="Panes of the Visualization editor" class="responsive-img" width="80%"/>
 
 1. **[データ] セクション** - このセクションには 2 つのパネルがあります。
 
