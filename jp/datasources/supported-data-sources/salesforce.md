@@ -12,7 +12,8 @@ Salesforce データ ソースを選択すると、以下のログイン プロ�
 
 ログイン情報を入力して [ログイン] をクリックします。
 
->[!NOTE] ID 認証が有効な場合は、送信された**確認コード**を入力するプロンプトが表示されます。ID 認証についての情報は、[Salesforce ヘルプ](https://help.salesforce.com/articleView?id=security_activation_about.htm&type=5)をご覧ください。
+>[!NOTE] 
+> ID 認証が有効な場合は、送信された**確認コード**を入力するプロンプトが表示されます。ID 認証についての情報は、[Salesforce ヘルプ](https://help.salesforce.com/articleView?id=security_activation_about.htm&type=5)をご覧ください。
 
 ## データの設定
 

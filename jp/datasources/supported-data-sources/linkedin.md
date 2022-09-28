@@ -7,11 +7,11 @@ LinkedIn データ ソースを使用すると、LinkedIn 広告アカウント�
 1.	**[分析]** セクションの下にある **[+ ダッシュボードの作成]** ボタンをクリックします。
 2.	**[+ データ ソース]** ボタンをクリックします。
 3.	**[データ ソース]** リストで **[ソーシャル メディア]** の下にある [LinkedIn] を選択します。
-4.	LinkedIn 広告アカウントにログインします。LinkedIn広告アカウントをお持ちでない場合は、[この](https://www.linkedin.com/help/linkedin/answer/a426102/create-an-ad-account?lang=ja)記事で LinkedIn 広告アカウントの作成方法の詳細を確認できます。
+4.	LinkedIn 広告アカウントにログインします。LinkedIn 広告アカウントをお持ちでない場合は、[この](https://www.linkedin.com/help/linkedin/answer/a426102/create-an-ad-account?lang=ja)記事で LinkedIn 広告アカウントの作成方法の詳細を確認できます。
 5.	別の LinkedIn 広告アカウントを持っている場合は、**[+ 追加]** を選択して別のアカウントを含めることができます。
 6.	開いたダイアログで、LinkedIn 広告アカウント名を変更したり、説明を追加したり、ダッシュボードに表示する詳細を選択したりできます。
 
-<img src="./images/linkedin-data-source-dialog.png" alt="Dialog for adding LinkedIn as a data source" width="70%" class="responsive-img"/>
+<img src="./images/linkedin-data-source-dialog.png" alt="Dialog for adding LinkedIn as a data source" width="40%" class="responsive-img"/>
 
 7. **[データ ソースの追加]** をクリックして、そのアカウントを Slingshot アカウントに接続します。
 

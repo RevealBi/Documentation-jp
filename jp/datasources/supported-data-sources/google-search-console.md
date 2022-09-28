@@ -7,11 +7,11 @@ Google Search Console データ ソースを使用すると、Google Search Cons
 ## Google Search Console への接続
 
 1.	データ ソース リストの **[マーケティング、セールス、CRM]** セクションにある **Google Search Console** を選択します。 
-2.	複数のアカウントが表示されている場合は、アクセスしたいデータが保存されているアカウントを選択してください。必要なアカウントがアカウントのリストにない場合は、新しい Google Search Console アカウントを追加することもできます。Google Search Console のアカウントをお持ちでない場合は、[こちら (英語)](https://search.google.com/search-console/about)で作成方法の詳細をご覧ください。
+2.	複数のアカウントが表示されている場合は、アクセスしたいデータが保存されているアカウントを選択してください。必要なアカウントがアカウントのリストにない場合は、新しい Google Search Console アカウントを追加することもできます。Google Search Console のアカウントをお持ちでない場合は、[こちら (英語)](https://search.google.com/search-console/about) で作成方法の詳細をご覧ください。
 3.	まだサインインしていない場合は、資格情報の入力を求められます。
 4.	アカウントをデータ ソースに追加する前に、名前の編集、説明の追加、または詳細の編集を選択できます。
 
- <img src="./images/google-search-add-account.png" alt="Google Search Console add account dialog" width="60%" class="responsive-img"/>
+ <img src="./images/google-search-add-account.png" alt="Google Search Console add account dialog" width="40%" class="responsive-img"/>
 
 5.	ダッシュボードに使用するサイトを選択し、**[データの選択]** をクリックまたはタップします。
 6.	変更を保存すると、**データ ソース** リストにファイルが表示されます。

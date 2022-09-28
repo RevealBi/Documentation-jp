@@ -13,7 +13,7 @@ _language: ja
 
 PostgreSQL サーバー データ ソースを設定するには、以下の情報が必要です。
 
-<img src="../images/add-postgresql-as-data-source.png" alt="Configure PostgreSQL data source dialog" class="responsive-img" width="50%"/>
+<img src="../images/add-postgresql-as-data-source.png" alt="Configure PostgreSQL data source dialog" class="responsive-img" width="40%"/>
 
 1.  **[[サーバー](#how-to-find-server)]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 
@@ -55,13 +55,10 @@ Reveal を使用すると、テーブル全体から PostgreSQL データを取�
 
 <img src="../images/postgresql-views.png" alt="PostgreSQL views dialog" class="responsive-img" width="55%"/>
 
-<img src="images/postgre-SQL-views.png" alt="PostgreSQL views dialog" class="responsive-img"/>
-
 上記のサンプルの**請求書**ビューには、PostgreSQL サーバーの **Products** テーブルにあるデータの変更バージョンが含まれています。
 
 <img src="../images/postgresql-comparison-table-view.png" alt="Sample dashboard using PostgreSQL invoices view data" class="responsive-img"/>
 
-ビューと PostgreSQL の詳細については、[このウェブサイト (英語)](https://www.postgresql.org/docs/10/tutorial-views.html) をご覧ください。
 
 ### 関数の使用
 
