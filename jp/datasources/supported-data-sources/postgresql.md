@@ -51,7 +51,7 @@ PostgreSQL サーバー データ ソースを設定するには、以下の情�
 ## データの設定
 ### ビューの作業
 
-Reveal を使用すると、テーブル全体から PostgreSQL データを取得できるだけでなく、テーブルまたはテーブルのセットからデータのサブセットを返す特定の [ビュー](https://www.postgresqltutorial.com/postgresql-views/) を選択することもできます。
+Reveal を使用すると、テーブル全体から PostgreSQL データを取得できるだけでなく、テーブルまたはテーブルのセットからデータのサブセットを返す特定の[ビュー](https://www.postgresqltutorial.com/postgresql-views/)を選択することもできます。
 
 <img src="../images/postgresql-views.png" alt="PostgreSQL views dialog" class="responsive-img" width="55%"/>
 

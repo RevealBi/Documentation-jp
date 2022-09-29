@@ -10,7 +10,7 @@ Microsoft SQL Analysis Services (SSAS) は、Microsoft SQL Server の OLAP (同�
 
 Microsoft Analysis Services データ ソースを構成するときにサーバー設定に基づいて使用できるモジュールが 2 つあります - [*Native*](#native) および [*HTTP*](#http)。
 
-Native および HTTP モードの詳細については、[Microsoft Instance Management ヘルプ (英語)](https://docs.microsoft.com/en-us/sql/analysis-services/instances/connect-to-analysis-services?view=sql-server-2017) をご覧ください。
+Native および HTTP モードの詳細については、[Microsoft Instance Management ヘルプ (英語)](https://learn.microsoft.com/ja-jp/analysis-services/instances/connect-from-client-applications-analysis-services?view=asallproducts-allversions&viewFallbackFrom=sql-server-2017) をご覧ください。
 
 <a name='native'></a>
 ### Native の使用
@@ -86,7 +86,7 @@ Microsoft Analysis Services などのキューブ データ ソースを使用�
 
 <img src="../images/visualization-editor-ssas-pivot-chart.png" alt="Using the visualizatio editor with a pivot chart" class="responsive-img" width="85%"/>
 
-ディメンションとメジャーの詳細については、[Technet](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2012/ms174527\(v=sql.110\)) の記事をご覧ください。
+ディメンションとメジャーの詳細については、[Technet](https://learn.microsoft.com/ja-jp/previous-versions/sql/sql-server-2012/ms174527(v=sql.110)) の記事をご覧ください。
 
 <a name='sort-by-caption-setting'></a>
 ## キャプション設定で並べ替え
