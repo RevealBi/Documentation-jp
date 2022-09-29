@@ -1,10 +1,6 @@
 # データベース プロバイダーの情報をエンコード/デコード
 
-Encode/Decode メソッドは、DB 名やホストなど、サーバーと交換される機密情報をマスクするために使用できます。
-DataSource または DataSourceItems の情報のエンコードは、オブジェクトをクライアントに返す前にサーバー側で行われます。 
-DataSource および DataSourceItems 情報は通常、ダッシュボードの編集時にサーバーからクライアントに送信されます。 
-IRVObjectEncoder の実装に加えて、IRVDataSourceProvider の実装を使用してデコードを行う必要があります。
-データベースおよび REST プロバイダーでのみサポートされます。
+Encode/Decode メソッドは、DB 名やホストなど、サーバーと交換される機密情報をマスクするために使用できます。DataSource または DataSourceItems の情報のエンコードは、オブジェクトをクライアントに返す前にサーバー側で行われます。DataSource および DataSourceItems 情報は通常、ダッシュボードの編集時にサーバーからクライアントに送信されます。IRVObjectEncoder の実装に加えて、IRVDataSourceProvider の実装を使用してデコードを行う必要があります。データベースおよび REST プロバイダーでのみサポートされます。
 
 ### ソース 
 [**IRVObjectEncoder**](https://help.revealbi.io/api/aspnet/latest/Reveal.Sdk.IRVObjectEncoder.html)

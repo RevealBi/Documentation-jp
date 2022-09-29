@@ -1,4 +1,4 @@
-#データ制限
+# データ制限
 
 ダウンロードされたファイルのサイズ、結果セット内のセルの数 (集計後)、ピボット テーブルとグリッドのサイズ (セルの数として指定) に関して、Reveal Web を使用する場合のサーバー側のサイズ制限があります。
 これらの制限の目的は、サーバーのリソース (メモリとディスク領域) が不足するのを防ぐことです。
@@ -9,9 +9,9 @@
 -	1000 万のセル
 -	6400 万文字 (すべてのセルにすべての文字列を追加)
 
-##デフォルト値を変更
+## デフォルト値を変更
 
-###ソース 
+### ソース 
 [**InitializeParameterBuilder**](https://help.revealbi.io/api/java/latest/com/infragistics/reveal/engine/init/InitializeParameterBuilder.html).
 
 

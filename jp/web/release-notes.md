@@ -9,11 +9,9 @@
 ## 1.2.0 (8 月 2022 年)
 
 ### 新機能
-- **メイン Javascript ファイルのサイズを縮小しました。**
-  メインの Javascript ファイルが最適化され、サイズが 30% 縮小されました。
+- **メイン Javascript ファイルのサイズを縮小しました。** メインの Javascript ファイルが最適化され、サイズが 30% 縮小されました。
 
-- **カスタム メニュー項目のサポートを追加しました。**
-以下のスニペットは、カスタムの「マイ メニュー項目」の作成を示しています。
+- **カスタム メニュー項目のサポートを追加しました。** 以下のスニペットは、カスタムの「マイ メニュー項目」の作成を示しています。
 ```javascript
 revealView.onMenuOpening = function(visualization, args) {
 	if (args.isInEditMode && visualization == null) { //dashboard edit mode
