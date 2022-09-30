@@ -11,7 +11,7 @@ LinkedIn データ ソースを使用すると、LinkedIn 広告アカウント�
 5.	別の LinkedIn 広告アカウントを持っている場合は、**[+ 追加]** を選択して別のアカウントを含めることができます。
 6.	開いたダイアログで、LinkedIn 広告アカウント名を変更したり、説明を追加したり、ダッシュボードに表示する詳細を選択したりできます。
 
-<img src="./images/linkedin-data-source-dialog.png" alt="Dialog for adding LinkedIn as a data source" width="40%" class="responsive-img"/>
+<img src="./images/linkedin-data-source-dialog.png" alt="Dialog for adding LinkedIn as a data source" width="50%" class="responsive-img"/>
 
 7. **[データ ソースの追加]** をクリックして、そのアカウントを Slingshot アカウントに接続します。
 
@@ -34,13 +34,13 @@ LinkedIn 広告アカウントからの情報でダッシュボードを作成�
 
 ## 設定
 
-使用しているチャートの種類に応じて、設定でさまざまな変更を行うことができます。さまざまなチャート タイプの詳細については、[こちら](https://www.slingshotapp.io/jp/help/docs/analytics/data-visualizations/visualizations-editor)の表示形式セクションを参照してください。
+使用しているチャートの種類に応じて、設定でさまざまな変更を行うことができます。さまざまなチャート タイプの詳細については、[こちら (英語)](https://www.slingshotapp.io/en/help/docs/analytics/data-visualizations/visualizations-editor)の表示形式セクションを参照してください。
 
 - タイトルを表示または非表示にする
 - テキスト フィールド、数値フィールド、日付フィールドを揃える
 - フォント サイズ (小、中、大) を選択する
 - [総合計の表示] を有効にする
-- この表示形式を別のダッシュボードまたは URI に接続します。ダッシュボードをリンクする方法の詳細については、[この](https://www.slingshotapp.io/jp/help/docs/analytics/dashboards/dashboard-linking)記事を確認してください。
+- この表示形式を別のダッシュボードまたは URI に接続します。ダッシュボードをリンクする方法の詳細については、[この記事 (英語)](https://www.slingshotapp.io/en/help/docs/analytics/dashboards/dashboard-linking)を確認してください。
 
 <img src="./images/linkedIn-visualization-editor-settings.png" alt="settings in the linkedIn visualization editor" class="responsive-img"/>
 
@@ -48,4 +48,4 @@ LinkedIn 広告アカウントからの情報でダッシュボードを作成�
 
 <img src="./images/linkedIn-dashboard.png" alt="LinkedIn dashboard in the dasboard section" class="responsive-img"/>
 
-データ ソースの詳細については、[こちら](https://www.slingshotapp.io/jp/help/docs/analytics/datasources/overview)を参照してください。
+データ ソースの詳細については、[こちら (英語)](https://www.slingshotapp.io/en/help/docs/analytics/datasources/overview)を参照してください。

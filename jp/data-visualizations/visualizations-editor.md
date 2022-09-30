@@ -43,7 +43,7 @@ _language: ja
 
 1. **[データ] セクション** - このセクションには 2 つのパネルがあります。
 
-    a. **[フィールド]** - データ ソース内で使用可能なすべてのフィールドが左側のパネルに表示されます。各フィールドには、フィールド タイプ (**日付**、**値**、**テキスト**) をユーザーに通知するインジケーターがあります。使用可能なフィールドが 10 を超えると、検索バーが表示されます。このパネルの [+] アイコンを使用すると、[データ ソースをブレンドする](~/jp/datasources/data-blending.md)か、[フィールドを計算](fields/calculated-fields/overview.html#事前計算フィールド)することができます。**脳**アイコンを使用すると、[BigQuery](~/jp/datasources/ml-integration/bigquery-machine-learning-models.md) または [Azure](~/jp/datasources/ml-integration/azure-machine-learning-models.md) の**機械学習モデル**のフィールドを表示形式に使用できます。BigQuery  機械学習モデルは、BigQuery データ ソースでのみ機能することにご注意ください。
+    a. **[フィールド]** - データ ソース内で使用可能なすべてのフィールドが左側のパネルに表示されます。各フィールドには、フィールド タイプ (**日付**、**値**、**テキスト**) をユーザーに通知するインジケーターがあります。使用可能なフィールドが 10 を超えると、検索バーが表示されます。このパネルの [+] アイコンを使用すると、[データ ソースをブレンドする](~/jp/datasources/data-blending.md)か、[フィールドを計算](fields/calculated-fields/overview.html#事前計算フィールド)することができます。**脳**アイコンを使用すると、[BigQuery](~/jp/datasources/ml-integration/bigquery-machine-learning-models.md) または [Azure](~/jp/datasources/ml-integration/azure-machine-learning-models.md) の**機械学習モデル**のフィールドを表示形式に使用できます。BigQuery 機械学習モデルは、BigQuery データ ソースでのみ機能することにご注意ください。
 
     b.**表示形式フィールド** - ここでフィールドをドラッグアンドドロップするか、**[+]** マークをクリックして使用可能なフィールドから作成する表示形式に使用するフィールドを選択します。
 

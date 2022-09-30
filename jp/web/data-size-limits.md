@@ -9,9 +9,9 @@
 -	1000 万のセル
 -	6400 万文字 (すべてのセルにすべての文字列を追加)
 
-## Modifying Default Values
+## デフォルト値を変更
 
-### デフォルト値を変更
+### ソース
 [**RevealEmbedSettings**](https://help.revealbi.io/api/aspnet/latest/Reveal.Sdk.RevealEmbedSettings.html)
 
 

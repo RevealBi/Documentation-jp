@@ -45,11 +45,11 @@ Google Search Console をデータ ソースとして使用すると、*表示�
 - ツールチップで合計を表示
 - チャート トレンドライン
 - 軸と軸の境界
-- この表示形式を別のダッシュボードまたは URL に接続します。ダッシュボードをリンクする方法の詳細については、[この](https://www.slingshotapp.io/ja/help/docs/analytics/dashboards/dashboard-linking)記事を確認してください。 
+- この表示形式を別のダッシュボードまたは URL に接続します。ダッシュボードをリンクする方法の詳細については、[この記事 (英語)](https://www.slingshotapp.io/en/help/docs/analytics/dashboards/dashboard-linking) を確認してください。 
 
 
 表示形式エディターの準備ができたら、ダッシュボードを **[分析] > [ダッシュボード]** または特定のワークスペースに保存できます。 
 
 <img src="./images/google-search-console-my-analytics.png" alt="Google Search Console dashboard in My Anylitics section" class="responsive-img"/>
 
-データ ソースの詳細については、[こちら](https://www.slingshotapp.io/ja/help/docs/analytics/datasources/overview)を参照してください。 
+データ ソースの詳細については、[こちら (英語)](https://www.slingshotapp.io/en/help/docs/analytics/datasources/overview) を参照してください。 

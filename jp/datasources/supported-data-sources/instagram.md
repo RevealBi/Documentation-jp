@@ -47,4 +47,4 @@ Instagram データ ソースを使用すると、Instagram ビジネス アカ�
 
 <img src="./images/instagram-dashboards.png" alt="Dashboard section with an instagram dashboard" class="responsive-img"/>
 
-データ ソースの詳細については、[こちら](https://www.slingshotapp.io/jp/help/docs/analytics/datasources/overview)を参照してください。 
+データ ソースの詳細については、[こちら (英語)](https://www.slingshotapp.io/en/help/docs/analytics/datasources/overview)を参照してください。 

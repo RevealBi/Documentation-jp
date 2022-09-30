@@ -8,7 +8,7 @@
 
   - **KPI 目標**: 自分またはアナリストがダッシュボードに何を示し、何を中心にサイクルを回す必要があるかを決定します。
 
-  - **ダッシュボードの計画**: 情報をグラフィカルにどのように表現しますか? [グリッド](~/jp/data-visualizations/visualization-types/grid-chart.md)、マップ、[ゲージ](~/jp/data-visualizations/visualization-types/gauge-charts.md)、[カテゴリ チャート](~/jp/data-visualizations/visualization-types/category-charts.md)を使用しますか? [フィルター](~/en/filters/overview.md)を使用しますか?
+  - **ダッシュボードの計画**: 情報をグラフィカルにどのように表現しますか? [グリッド](~/jp/data-visualizations/visualization-types/grid-chart.md)、マップ、[ゲージ](~/jp/data-visualizations/visualization-types/gauge-charts.md)、[カテゴリ チャート](~/jp/data-visualizations/visualization-types/category-charts.md)を使用しますか? [フィルター](~/jp/filters/overview.md)を使用しますか?
 
   - Reveal で使用する**データを準備します**。Reveal で[スプレッドシートを操作する方法](~/jp/datasources/working-files/working-with-spreadsheets.md)の概要を以下に示します。
 
@@ -34,7 +34,7 @@ Reveal を利用して実行できる機能:
 
   - [現在のダッシュボードの管理](managing-dashboards.md)
 
-  - ダッシュボードを[画像](export-as-images.md)、[PDF ファイル](export-as-pdft-document.md)、[PowerPoint プレゼンテーション](export-as-powerpoint-presentation.md)、または [Excel スプレッドシート](export-as-excel-data-format.md)として[エクスポート](how-to-export-a-dashboard.md)
+  - ダッシュボードを[画像](./exporting-dashboards/export-as-images.md)、[PDF ファイル](./exporting-dashboards/export-as-pdf-document.md)、[PowerPoint プレゼンテーション](./exporting-dashboards/export-as-powerpoint-presentation.md)、または [Excel スプレッドシート](./exporting-dashboards/export-as-excel-data-format.md)として[エクスポート](how-to-export-a-dashboard.md)
 
 [ReportPlus の以前のバージョンで作成されたダッシュボード](Uploading-Dashboards.md)をインポートすることもできます。
 

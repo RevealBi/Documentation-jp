@@ -8,11 +8,12 @@ _language: ja
 
 Hubspot に接続すると、以下のログイン プロンプトが表示されます。
 
-<img src="images/hubspot-login.png" alt="Hubspot login prompt" class="responsive-img" width="55%"/>
+<img src="images/hubspot-login.png" alt="Hubspot login prompt" class="responsive-img" width="35%"/>
 
 ログイン情報を入力して **[ログイン]** をクリックします。
 
->[!Note] [2 要素認証](https://knowledge.hubspot.com/account/how-can-i-set-up-two-factor-authentication-for-my-hubspot-login)を有効にしている場合、確認コードを入力する必要があります。
+>[!NOTE]
+>[2 要素認証](https://knowledge.hubspot.com/account/how-can-i-set-up-two-factor-authentication-for-my-hubspot-login)を有効にしている場合、確認コードを入力する必要があります。
 
 ## データの設定
 
