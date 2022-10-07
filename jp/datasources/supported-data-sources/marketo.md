@@ -34,7 +34,7 @@ Marketo の*管理*パネルには、上記の認証要素が含まれていま�
 
 データ ソースを追加した後、表示形式エディターが表示されます。デフォルトでは、**柱状**表示形式が選択されます。それをクリックまたはタップして、別の[チャート タイプ (英語)](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/overview)を選択できます。選択した表示形式に基づいて、さまざまなタイプのフィールドが表示されることに注意してください。
 
-<img src="images/marketo-visualization-editor.png" alt="Using data from Marketo in the visualization editor" class="responsive-img" width="85%"/>
+<img src="images/visualization-editor-marketo.png" alt="Using data from Marketo in the visualization editor" class="responsive-img" width="85%"/>
 
 表示形式の準備ができたら、右上隅のチェックマークをクリックまたはタップして、ダッシュボードとして保存できます。以下の例では、ダッシュボードを **[分析]** > **[ダッシュボード]** > **Marketing** に保存しました。
 

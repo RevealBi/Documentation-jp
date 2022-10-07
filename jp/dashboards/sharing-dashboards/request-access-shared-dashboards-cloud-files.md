@@ -1,3 +1,9 @@
+---
+title: How to Request Access to Shared Dashboards with Cloud Files
+_description: Learn how to receive and grant access to data source files and dashboards.
+_language: ja
+---
+
 # クラウド ファイルを使用した共有ダッシュボードへのアクセスのリクエスト
 
 共有されているダッシュボードを開こうとすると、次のいずれかの理由により、そのコンテンツを表示できない場合があります。

@@ -1,6 +1,6 @@
 ---
 title: Slingshot で集計計算フィールドを使用する方法
-_description: : 集計数式を使用するさまざまなヒントとコツを説明します。
+_description: 集計数式を使用するさまざまなヒントとコツを説明します。
 _language: ja
 ---
 

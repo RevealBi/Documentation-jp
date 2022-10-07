@@ -1,3 +1,9 @@
+---
+title: How to Create Dashboards in Slingshot
+_description: A 4-step guide on how to easily create dashboards in Slingshot and ensure seamless collaboration.
+_language: ja
+---
+
 # ダッシュボードの作成
 
 Reveal のダッシュボード作成には以下のオプションが含まれます:
@@ -47,33 +53,33 @@ Reveal では [Dropbox](../datasources/supported-data-sources/Dropbox.html)、[O
 
 データ ソースを追加した後、**表示形式エディター**が表示されます。デフォルトでは、柱状表示形式が選択されます。
 
-<img src="images/creating-dashboards-sample-data.png" alt="dashboards first visualization in the visualization editor" class="responsive-img" width="80%"/>
+<img src="images/visualization-editor-creating-dashboards.png" alt="dashboards first visualization in the visualization editor" class="responsive-img" width="85%"/>
 
 Reveal では、情報を可覚化する方法をカスタマイズするためのいくつかのオプションがあります。上部バーの**ピボット アイコン**を選択してオプションにアクセスできます。
 
-<img src="images/creating-dashboards-chart-types.png" alt="list with chart types" class="responsive-img" width="80%"/>
+<img src="images/chart-types-creating-dashboards.png" alt="list with chart types" class="responsive-img" width="75%"/>
 
 表示形式にラベルと値を追加し、右側のペインでプレビューします。必要に応じて、表示形式設定を変更してフィルターを追加できます。
 
-<img src="images/visualization-fields-preview.png" alt="Editing visualization fields preview" class="responsive-img" width="80%"/>
+<img src="images/visualization-editor-using-sample-data.png" alt="Editing visualization fields preview" class="responsive-img" width="85%"/>
 
-表示形式を変更した後**ダッシュボード エディター**に移動されます。右上側に **[元に戻す]**、**[やり直し]**、および **[+ 追加]** の分割ボタンが表示されます。これらのボタンの横には、ダッシュボードのオーバーフロー メニューもあります。そこで、ダッシュボードの **[テーマ]** の変更、**[自動レイアウト]** のオン/オフ、ダッシュボードの **[エクスポート]**、またはダッシュボードに **[名前をつけて保存]** ボタンを選択できます。
+表示形式を変更した後**ダッシュボード エディター**に移動されます。右上側に **[元に戻す]**、**[やり直し]**、および **[+ 追加]** の分割ボタンが表示されます。これらのボタンの横には、ダッシュボードのオーバーフロー メニューもあります。そこで、ダッシュボードの **[テーマ]** の変更、ダッシュボードを **[更新]**、ダッシュボードを **[貼り付け]**、**[自動レイアウト]** のオン/オフ、ダッシュボードの **[エクスポート]**、またはダッシュボードに **[名前をつけて保存]** ボタンを選択できます。
 
-表示形式の右上隅にあるオーバーフロー メニューを使用して、表示形式の **[名前の変更]**、**[編集]**、**[コピー]**、または **[複製]** できます。 
+表示形式の右上隅にあるオーバーフロー メニューを使用して、表示形式の **[名前の変更]**、**[編集]**、**[コピー]**、**[複製]** または **[削除]** できます。 
 
 >[!NOTE]
 >表示形式のコピーと複製の違いは、複製は同じダッシュボード内でのみ機能し、コピー オプションを使用すると、表示形式を同じダッシュボードまたは異なるダッシュボードに配置できることです。
 
 表示形式をコピーした後、表示形式を貼り付けるダッシュボードのオーバーフロー メニュー内の [貼り付け] オプションを見つけます。
 
-<img src="images/paste-option-creating-dashboards.png" alt="Paste option in the dashboard overflow menu" class="responsive-img" width="80%"/>
+<img src="images/creating-dashboards-paste-option.png" alt="Paste option in the dashboard overflow menu" class="responsive-img" width="80%"/>
 
 
 ## テーマの適用
 
 ダッシュボードに移動された後、[テーマ] を選択し、以下に示すように **Mountain テーマ**、**Ocean テーマ**、**Aurora テーマ**を切り替えることができます。
 
-<img src="images/dashboard-themes.png" alt="Changing the theme of a dashboard" class="responsive-img" width="45%"/>
+<img src="images/creating-dashboards-themes-options.png" alt="Changing the theme of a dashboard" class="responsive-img" width="80%"/>
 
 <a name='save-dashboard'></a>
 ## ダッシュボードの保存
@@ -84,6 +90,6 @@ Reveal では、情報を可覚化する方法をカスタマイズするため�
 
 ダッシュボードの名前を選択し、準備ができた後 [ここに保存] をクリック/タップします。
 
-<img src="images/dashboard-save-as-dialog.png" alt="Save as dialog while creating dashboards" class="responsive-img" width="80%"/>
+<img src="images/creating-dashboards-save-as-dialog.png" alt="Save as dialog while creating dashboards" class="responsive-img" width="65%"/>
 
 **[名前を付けて保存]** メニューで、右上隅にある **[+ リスト]** ボタンと **[+ セクション]** ボタンをクリックして、リストとセクションを作成し、スペースを整理することができます。

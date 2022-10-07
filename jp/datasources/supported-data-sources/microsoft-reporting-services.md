@@ -20,7 +20,7 @@ Microsoft Reporting Services (SSRS) データ ソースを構成するには、�
 
 ## レポートの設定
 
-Microsoft Reporting Services レポートへの接続を構成した後、以下のダイアログが開き、操作するデータを選択するよう求められます。
+Microsoft Reporting Services レポートへの接続を構成した後、データ ソースの場所を選択すると、以下のダイアログが開き、操作するデータを選択するよう求められます。
 
 <img src="images/microsoft-reporting-services-data-source-details.png" alt="Select a Report dialog" class="responsive-img" width="55%"/>
 
@@ -38,7 +38,7 @@ Microsoft Reporting Services レポートへの接続を構成した後、以下
 
   - **[データの読み込み]** - レポートのデータは標準形式で読み込まれ、表示形式を作成するためのフィールドを提供します。
 
-  <img src="images/microsoft-reporting-services-visualization-editor.png" alt="Microsoft reporting services data in the Visualization editor" class="responsive-img" width="80%"/>
+  <img src="images/microsoft-reporting-services-sample-data-visualization-editor.png" alt="Microsoft reporting services data in the Visualization editor" class="responsive-img" width="80%"/>
 
 >[!NOTE]
 >表示形式エディターでデータ ソースを編集: 読み込み後は変更できないため、レポート形式 (pdf または data) を選択してください。データ ソースを*編集する*場合、レポートのパラメーターの構成のみ変更できます。

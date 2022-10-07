@@ -1,4 +1,11 @@
+---
+title: How to configure a MySQL server data source
+_description: Create and use visualizations through a MySQL server data source in Slingshot.
+_language: ja
+--- 
+
 # MySQL
+
 
 >[!NOTE] 
 >**Web の制限**。*Reveal Web* アプリでは、公的にアクセス可能な MySQL アドレスにのみ接続できます。MySQL アドレスが一般公開 (プライベートまたは会社のイントラネットでホストされているなど) に制限されている場合は、*Reveal Desktop*、*iOS*、または *Android* を使用して接続できます。Reveal を実行しているデバイスは、MySQL アドレスにアクセスできる必要があります。この制限は、*Reveal Embedded* には適用されません。

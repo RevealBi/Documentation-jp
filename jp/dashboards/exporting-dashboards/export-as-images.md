@@ -6,11 +6,18 @@ Reveal では、ダッシュボード全体のスクリーン キャプチャま
 
 ダッシュボード全体の画像をエクスポートするには:
 
-1.  ダッシュボードの右上隅にあるオーバーフロー メニューに移動します。
+1.  Go to the overflow menu in the upper right-hand corner of the
+    dashboard and select **Export**.
 
-2.  **[エクスポート]** ⇒ **[画像]** を選択します。
+  <img src="images/export-option-overflow-menu.png" alt="Export option in the list of options in the overflow menu" class="responsive-img" width="55%"/>
 
-3.  **[画像をエクスポート]** メニューで、**[画像をエクスポート]** の青いボタンを選択します。
+2. Click/tap on **Image**.
+
+  <img src="images/image-export-format.png" alt="Image option in the list of formats" class="responsive-img" width="55%"/>
+
+3.  In the *Export Image* dialog choose the **Export Image** blue button.
+
+ <img src="images/export-image-dialog.png" alt="Export image button in the export image dialog" class="responsive-img" width="55%"/>
 
 **[クリップボードへコピー]** オプションを選択すると、ダウンロードすることなく、クリップボードに画像を取り込むことができます。
 
@@ -20,23 +27,25 @@ Reveal では、ダッシュボード全体のスクリーン キャプチャま
 
 1.  ダッシュボードの*ビュー モード*で、右上隅の矢印をクリック/タップして、選択した表示形式を**最大化します**。
 
-2.  オーバーフロー メニューから **[画像をエクスポート]** を選択します。
+    <img src="images/export-visualization.png" alt="Using the arrow from the upper-right corner to open a visualization" class="responsive-img" width="75%"/>
 
-3.  **[画像をエクスポート]** の青いボタンを選択します。
+2.  Select **Export** and then **Image** in the overflow menu.
+
+3.  Select the **Export Image** blue button.
 
 <a name='annotating'></a>
 ## 注釈画像
 
 特定の場所に異なる図形のメモやハイライトを含む必要がある場合、**[画像をエクスポート]** メニューでダッシュボードに注釈を追加できます。**注釈セクションにアクセスする**には、**[画像をエクスポート]** ダイアログで鉛筆アイコンを選択します。
 
-<img src="images/image-annotation-menu.png" alt="Accessing Image Annotation Menu" class="responsive-img"/>
+<img src="images/export-images-annotation.png" alt="Accessing Image Annotation Menu" class="responsive-img" width="55%"/>
 
 注釈メニューの上部ツールバーには、形状の追加やフリースタイルの注釈など、多くのオプションがあります。
 
-<img src="images/image-annotation-shapes.png" alt="Image annotation shapes options" class="responsive-img"/>
+<img src="images/export-image-toolbar.png" alt=" Toolbar with different shapes options" class="responsive-img" width="80%"/>
 
 テキストのオプションでは画像の上にテキストを追加できます。背景色、フォントの太さ、フォント サイズ、フォント カラーなど、テキストをカスタマイズするオプションを提供します。
 
-<img src="images/image-annotation-text.png" alt="Adding text in image annotation" class="responsive-img"/>
+<img src="images/text-option-in-export-image.png" alt="Adding text in image annotation" class="responsive-img" width="80%"/>
 
 **Android および iOS** デバイスでの画像のエクスポートについては、[ダッシュボードをエクスポート](how-to-export-a-dashboard.html#mobile-devices)トピックを参照してください。

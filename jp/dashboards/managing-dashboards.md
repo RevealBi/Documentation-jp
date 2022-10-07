@@ -1,3 +1,9 @@
+---
+title: How to Manage Your Dashboards in Slingshot
+_description: Learn how to manage and organize every type of dashboards you have access to.
+_language: ja
+---
+
 # ダッシュボードの管理
 
 個人用スペースまたはワークスペースでダッシュボードを管理しようとしているかどうかにかかわらず、**[作成済み]** または **[自分と共有済み]** のいずれかをいつでも選択できます。

@@ -1,3 +1,9 @@
+---
+title: Slingshot Dashboards – All You Need to Know
+_description: What are dashboards, what can you use them for and how to create them fast and easy.
+_language: ja
+---
+
 # ダッシュボード
 
 ダッシュボードは、最小限の情報を一目でわかるように表示するための迅速かつ簡単な方法です。これは、ビジネスの状態、メトリックス、またはパフォーマンスを伝えるためにレイアウトされた表示形式のコレクションで構成されるデータ可視化です。各表示形式は、ユーザーがデータを理解できるように、さまざまな関連情報を持つことを目的としています。

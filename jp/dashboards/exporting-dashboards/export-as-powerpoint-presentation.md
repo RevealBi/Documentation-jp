@@ -4,17 +4,20 @@ Reveal では、ダッシュボードを PowerPoint 形式でエクスポート�
 
 プレゼンテーションのすべての要素は編集可能であるため、ニーズに合わせて調整できます。
 
-ダッシュボードを PowerPoint としてエクスポートするには、ダッシュボード *ビュー モード*に移動して、オーバーフロー メニューから **[エクスポート]** ⇒ **PowerPoint** を選択します。**[ダッシュボード エクスポート]** ダイアログが開き、プレゼンテーションを設定して特定のスライドに注釈を付けることができます。
+To export a dashboard as a PowerPoint presentation, you need to:
+1. Go to the dashboard *View mode* and click/tap on the overflow menu. 
+2. Choose **Export** and then click/tap on **PowerPoint**. 
+3. **[ダッシュボード エクスポート]** ダイアログが開き、プレゼンテーションを設定して特定のスライドに注釈を付けることができます。
 
 ## エクスポート設定
 
-<img src="images/export-settings-powerpoint.png" alt="Settings for PowerPoint presentation in the Export Dashboard menu" class="responsive-img"/>
+<img src="images/export-dashboard-as-powerpoint.png" alt="Settings for PowerPoint presentation in the Export Dashboard menu" class="responsive-img" width="60%"/>
 
 **[ダッシュボード エクスポート]** ダイアログでは、次の設定を管理できます:
 
 1.  PowerPoint の**主タイトル**を変更します。デフォルトのタイトルは、ダッシュボードのタイトルです。
 
-2.  **スライドのタイトル**を変更し、**[タイトルの入力]** テキスト ボックス (2 番目のボックス) にサブタイトルを追加します。デフォルトのスライドのタイトルは、スライドに表示される表示形式のタイトルです。
+2.  Change the **slide's title**. You can also add a description in the **Add Description** box (the second box). デフォルトのスライドのタイトルは、スライドに表示される表示形式のタイトルです。
 
 3.  **[ブランディング]** 設定オプションの管理では、以下を選択できます。
 

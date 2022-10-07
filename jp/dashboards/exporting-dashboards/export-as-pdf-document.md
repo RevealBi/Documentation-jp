@@ -6,7 +6,7 @@ Reveal では、ダッシュボードを PDF 文書としてエクスポート�
 
 ## エクスポート設定
 
-<img src="images/export-settings-pdf.png" alt="Settings for PDF document in the Export Dashboard menu" class="responsive-img"/>
+<img src="images/export-pdf-options.png" alt="Settings for PDF document in the Export Dashboard menu" class="responsive-img" width="57%"/>
 
 **[ダッシュボード エクスポート]** ダイアログでは、次の設定を管理できます:
 
@@ -20,11 +20,11 @@ Reveal では、ダッシュボードを PDF 文書としてエクスポート�
 
     2.  **[カラー]** (PDF 文書のメイン カラー) とフッターで表示される会社の **[ロゴ]** - ここでは、次のオプションのいずれかを選択できます:
 
-          - **Reveal**
+        - **Reveal**
 
-           - **ユーザーの組織/ワークスペース** - 組織とすべてのワークスペースのブランディング (カラーとロゴ) が設定しているオプションとして表示されます。ワークスペースのブランディング設定にアクセス/変更する方法については、[ワークスペースの管理](~/jp/workspaces/managing-your-workspace.md)トピックをご覧ください。
+        - **ユーザーの組織/ワークスペース** - 組織とすべてのワークスペースのブランディング (カラーとロゴ) が設定しているオプションとして表示されます。ワークスペースのブランディング設定にアクセス/変更する方法については、[ワークスペースの管理](~/jp/workspaces/managing-your-workspace.md)トピックをご覧ください。
 
-          - **[+ カスタム ブランディング]** - カラーを選択し、選択したロゴ画像をアップロードします。
+        - **[+ カスタム ブランディング]** - カラーを選択し、選択したロゴ画像をアップロードします。
 
             >[!NOTE] 
             >ロゴ画像の要件: ロゴとしてアップロードする画像は、**5 MB** 以下で、jpg、jpeg、png、gif のいずれかの形式である必要があります。

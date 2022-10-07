@@ -8,20 +8,15 @@ _language: ja
 
 Office365 アカウントでサインインしている場合、OneDrive が自動的にデータ ソースに追加されます。
 
-OneDrive データを使用するには、以下の手順を実行します。
+OneDrive データを使用するには、以下の手順を実行します:
 
-OneDrive を選択すると、以下のログイン プロンプトが表示されます。
+1. Upon selecting your OneDrive, you will be prompt to enter your **account and password** for Microsoft. Once you have entered the crendetials, select **Sign in**.
 
-  　<img src="images/OneDriveLogin_All.png" alt="One Drive Login" width="40%"/>
+  <img src="images/microsoft-account-onedrive.png" alt="One Drive Login" class="responsive-img" width="60%"/>
 
-**Microsoft のアカウント名とパスワード**を入力し、[サインイン] をクリックします。
+2. By clicking *Continue*, you will be redirected to an *authorization prompt*. Click/tap on **Accept** to continue.
 
-1.  OneDrive データを使用するには、Reveal に**制限付きのアクセス許可**を与える必要があることが通知されます。
-
-    <img src="images/limited-permissions-onedrive_all.png" alt="Limited permissions request Microsoft dialog" width="40%"/>
-    
-
-2.  [承認] を選択して、OneDrive ファイルの使用 (読み取りとアクセスの維持) を Reveal に許可します。
+  <img src="images/microsoft-onedrive-permissions.png" alt=" A dialog with a set of permissions" class="responsive-img" width="60%"/>
 
 Reveal にデータの使用を許可した後、*OneDrive* ファイルを使用して表示形式を作成できます。
 

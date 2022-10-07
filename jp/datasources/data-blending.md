@@ -10,7 +10,7 @@ _language: ja
 
 たとえば、休暇日数を部署ごとに他の従業員不就業と比較して、それらの変数の相関関係についてインサイトを得ることができます。
 
-<img src="images/data-blending-example.png" alt="Data Blending Example Visualization" class="responsive-img"/>
+<img src="images/data-blending-sample.png" alt="Data Blending Example Visualization" class="responsive-img" width="80%"/>
 
 ２つの データ ソースを 1 つの表示形式に統合ため、以下の手順を実行します:
 
@@ -18,7 +18,8 @@ _language: ja
 
     **[フィールド]** セクションの **[+]** ボタンをクリックもしくはタップし、**[その他のデータ ソース フィールド]** を選択します。
 
-    <img src="images/data-blending-open-dialog.png" alt="Data Blending Accessing dialog in the Visualization editor" class="responsive-img"/>
+     <img src="images/fields-from-another-data-source-option.png" alt="Data Blending Accessing dialog in the Visualization editor" class="responsive-img" width="
+     35%"/>
 
 2.  **新しいデータ ソースを選択する**。
 
@@ -28,19 +29,19 @@ _language: ja
 
     2 つのデータ セットを統合するために一致する必要がある等価条件を設定します。
 
-    <img src="images/data-blending-join-condition.png" alt="Data Blending Join Condition selection" class="responsive-img"/>
+     <img src="images/join-condition-data-blending.png" alt="Data Blending Join Condition selection" class="responsive-img" width="55%"/>
 
 4.  **必要なフィールドを選択する**。
 
     結合するフィールドを指定して、表示形式でアクセスできるようにします。
 
-    <img src="images/data-blending-choose-new-fields.png" alt="Data Blending Choose New Fields dialog" class="responsive-img"/>
+     <img src="images/data-blending-new-fields.png" alt="Data Blending Choose New Fields dialog" class="responsive-img" width="60%"/>
 
 5.  **[データの結合] を選択する**。
 
     2 つ のデータセットをマージすると、**[フィールド]** セクションの下部に新しいフィールドを確認できます。
 
-    <img src="images/data-blending-result.png" alt="Show Data Blending Result" class="responsive-img"/>
+     <img src="images/result-data-blending.png" alt="Show Data Blending Result" class="responsive-img" width="70%"/>
 
     上記画像に表示されように、部署 ID を使用する代わりに、部署名で休暇日を表示できるようになりました。
 

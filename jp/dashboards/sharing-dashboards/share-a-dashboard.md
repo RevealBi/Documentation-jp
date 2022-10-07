@@ -1,3 +1,9 @@
+---
+title: How to Share a Dashboard in Slingshot
+_description: A guide to sharing dashboards to achieve great cross-team collaboration.
+_language: ja
+---
+
 # ダッシュボードの共有
 
 共有ダッシュボードは、チーム間のコラボレーションに最適です。Reveal での共有に関しては、非常に多くの利用シナリオが考えられます。
