@@ -1,6 +1,6 @@
 ---
-title: How to Style Dashboards in Slingshot
-_description: An easy and fast guide on how to change dashboard style settings to make the most of your visualizations.
+title: Slingshot でダッシュボードのスタイルを設定する方法
+_description: 表示形式を最大限に活用するためにダッシュボード スタイルの設定を変更する方法に関する簡単で迅速なガイド。
 _language: ja
 ---
 

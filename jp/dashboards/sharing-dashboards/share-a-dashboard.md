@@ -1,6 +1,6 @@
 ---
-title: How to Share a Dashboard in Slingshot
-_description: A guide to sharing dashboards to achieve great cross-team collaboration.
+title: Slingshot でダッシュボードを共有する方法
+_description: ダッシュボードを共有してチーム間の優れたコラボレーションを実現するためのガイド。
 _language: ja
 ---
 

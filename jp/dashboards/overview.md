@@ -1,6 +1,6 @@
 ---
-title: Slingshot Dashboards – All You Need to Know
-_description: What are dashboards, what can you use them for and how to create them fast and easy.
+title: Slingshot ダッシュボード – 知っておくべきこと
+_description: ダッシュボードとは、ダッシュボードを何に使用できるか、ダッシュボードをすばやく簡単に作成する方法。
 _language: ja
 ---
 

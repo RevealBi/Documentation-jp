@@ -1,6 +1,6 @@
 ---
-title: How to Link Dashboards in Slingshot
-_description: Learn how to connect the visualizations in a dashboard with other dashboards, or URLs in Slingshot.
+title: Slingshot でダッシュボードをリンクする方法
+_description: ダッシュボードの表示形式を他のダッシュボードまたは Slingshot の URL に接続する方法を学びましょう。
 _language: ja
 ---
 

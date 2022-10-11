@@ -1,6 +1,6 @@
 ---
-title: How to configure a MySQL server data source
-_description: Create and use visualizations through a MySQL server data source in Slingshot.
+title: MySQL サーバーのデータ ソースを構成する方法
+_description: Slingshot で MySQL サーバー データ ソースを介して表示形式を作成および使用します。
 _language: ja
 --- 
 

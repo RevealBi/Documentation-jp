@@ -6,16 +6,15 @@ Reveal では、ダッシュボード全体のスクリーン キャプチャま
 
 ダッシュボード全体の画像をエクスポートするには:
 
-1.  Go to the overflow menu in the upper right-hand corner of the
-    dashboard and select **Export**.
+1.  ダッシュボードの右上隅にあるオーバーフロー メニューに移動し、**[エクスポート]** を選択します。
 
   <img src="images/export-option-overflow-menu.png" alt="Export option in the list of options in the overflow menu" class="responsive-img" width="55%"/>
 
-2. Click/tap on **Image**.
+2. **[画像]** をクリックまたはタップします。
 
   <img src="images/image-export-format.png" alt="Image option in the list of formats" class="responsive-img" width="55%"/>
 
-3.  In the *Export Image* dialog choose the **Export Image** blue button.
+3.  **[画像をエクスポート]** ダイアログで、**[画像をエクスポート]** の青いボタンを選択します。
 
  <img src="images/export-image-dialog.png" alt="Export image button in the export image dialog" class="responsive-img" width="55%"/>
 
@@ -29,9 +28,9 @@ Reveal では、ダッシュボード全体のスクリーン キャプチャま
 
     <img src="images/export-visualization.png" alt="Using the arrow from the upper-right corner to open a visualization" class="responsive-img" width="75%"/>
 
-2.  Select **Export** and then **Image** in the overflow menu.
+2.  **[エクスポート]** を選択し、オーバーフロー メニューで **[画像]** を選択します。
 
-3.  Select the **Export Image** blue button.
+3.  **[画像をエクスポート]** の青いボタンを選択します。
 
 <a name='annotating'></a>
 ## 注釈画像

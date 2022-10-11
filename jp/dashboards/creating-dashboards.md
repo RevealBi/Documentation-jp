@@ -1,6 +1,6 @@
 ---
-title: How to Create Dashboards in Slingshot
-_description: A 4-step guide on how to easily create dashboards in Slingshot and ensure seamless collaboration.
+title: Slingshot でダッシュボードを作成する方法
+_description: Slingshot でダッシュボードを簡単に作成し、シームレスなコラボレーションを実現するための 4 つの手順のガイド。
 _language: ja
 ---
 

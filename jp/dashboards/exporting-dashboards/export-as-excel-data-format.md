@@ -5,10 +5,9 @@ Reveal では、ダッシュボードに使用されるデータを **Excel 形�
 >[!NOTE]
 > **Excel へのエクスポートの制限**。**テーブル データ**、つまり情報を行と列に整理したデータ ソース (スプレッドシート、CSV ファイル、データベース) を使用して、Excel のみのダッシュボードにエクスポートできます。ダッシュボードが画像や html などを使用してデータを表示する場合、Reveal は情報を Excel 形式にエクスポートできません。
 
-1.  Go to the overflow menu in the upper right-hand corner of the
-    dashboard and select **Export**.
+1.  ダッシュボードの右上隅にあるオーバーフロー メニューに移動し、**[エクスポート]** を選択します。
 
-2. Click/tap on **Excel** to open the following dialog:
+2. **[Excel]** をクリックまたはタップして、次のダイアログを開きます。
 
 <img src="images/export-dashboard-as-excel.png" alt="Settings for Excel spreadsheet in the Export Dashboard menu" class="responsive-img" width="60%"/>
 
