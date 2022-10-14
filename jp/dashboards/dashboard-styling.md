@@ -12,6 +12,7 @@ Reveal は、カラー パレットから色を選択してダッシュボード
 
 <img src="./images/dashboard-themes.png" alt="Changing the dashboard theme" class="responsive-img" width="80%"/>
 
+
 あるいはチャートに基づく表示形式に開始色を変更できます。選択されたダッシュボードのテーマによって設定オプションは異なります。
 
 <img src="images/styling-dashboards-color-options.png" alt="Changing the start color of a visualization" class="responsive-img" width="80%"/>

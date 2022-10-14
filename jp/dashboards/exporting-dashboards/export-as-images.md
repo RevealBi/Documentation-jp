@@ -8,15 +8,18 @@ Reveal では、ダッシュボード全体のスクリーン キャプチャま
 
 1.  ダッシュボードの右上隅にあるオーバーフロー メニューに移動し、**[エクスポート]** を選択します。
 
-  <img src="images/export-option-overflow-menu.png" alt="Export option in the list of options in the overflow menu" class="responsive-img" width="55%"/>
+  <img src="images/export-option-overflow-menu.png" alt="Export option in the list of options in the overflow menu" class="responsive-img" width="35%"/>
+
 
 2. **[画像]** をクリックまたはタップします。
 
-  <img src="images/image-export-format.png" alt="Image option in the list of formats" class="responsive-img" width="55%"/>
+  <img src="images/image-export-format.png" alt="Image option in the list of formats" class="responsive-img" width="35%"/>
+
 
 3.  **[画像をエクスポート]** ダイアログで、**[画像をエクスポート]** の青いボタンを選択します。
 
- <img src="images/export-image-dialog.png" alt="Export image button in the export image dialog" class="responsive-img" width="55%"/>
+ <img src="images/export-image-dialog.png" alt="Export image button in the export image dialog" class="responsive-img" width="65%"/>
+
 
 **[クリップボードへコピー]** オプションを選択すると、ダウンロードすることなく、クリップボードに画像を取り込むことができます。
 
@@ -39,12 +42,15 @@ Reveal では、ダッシュボード全体のスクリーン キャプチャま
 
 <img src="images/export-images-annotation.png" alt="Accessing Image Annotation Menu" class="responsive-img" width="55%"/>
 
+
 注釈メニューの上部ツールバーには、形状の追加やフリースタイルの注釈など、多くのオプションがあります。
 
 <img src="images/export-image-toolbar.png" alt=" Toolbar with different shapes options" class="responsive-img" width="80%"/>
 
+
 テキストのオプションでは画像の上にテキストを追加できます。背景色、フォントの太さ、フォント サイズ、フォント カラーなど、テキストをカスタマイズするオプションを提供します。
 
 <img src="images/text-option-in-export-image.png" alt="Adding text in image annotation" class="responsive-img" width="80%"/>
+
 
 **Android および iOS** デバイスでの画像のエクスポートについては、[ダッシュボードをエクスポート](how-to-export-a-dashboard.html#mobile-devices)トピックを参照してください。

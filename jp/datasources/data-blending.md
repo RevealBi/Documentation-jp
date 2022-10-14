@@ -12,6 +12,7 @@ _language: ja
 
 <img src="images/data-blending-sample.png" alt="Data Blending Example Visualization" class="responsive-img" width="80%"/>
 
+
 ２つの データ ソースを 1 つの表示形式に統合ため、以下の手順を実行します:
 
 1.  **データ ブレンティングのダイヤログを開く**。
@@ -31,17 +32,20 @@ _language: ja
 
      <img src="images/join-condition-data-blending.png" alt="Data Blending Join Condition selection" class="responsive-img" width="55%"/>
 
+
 4.  **必要なフィールドを選択する**。
 
     結合するフィールドを指定して、表示形式でアクセスできるようにします。
 
      <img src="images/data-blending-new-fields.png" alt="Data Blending Choose New Fields dialog" class="responsive-img" width="60%"/>
 
+
 5.  **[データの結合] を選択する**。
 
     2 つ のデータセットをマージすると、**[フィールド]** セクションの下部に新しいフィールドを確認できます。
 
      <img src="images/result-data-blending.png" alt="Show Data Blending Result" class="responsive-img" width="70%"/>
+
 
     上記画像に表示されように、部署 ID を使用する代わりに、部署名で休暇日を表示できるようになりました。
 

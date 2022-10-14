@@ -11,6 +11,7 @@ Reveal では、ダッシュボードに使用されるデータを **Excel 形�
 
 <img src="images/export-dashboard-as-excel.png" alt="Settings for Excel spreadsheet in the Export Dashboard menu" class="responsive-img" width="60%"/>
 
+
 この **[ダッシュボード エクスポート]** ダイアログでは、Excel ファイルに含めるデータ シートを**選択**して**名前を変更**できます。各データ シートには、エクスポートするダッシュボードの特定の表示形式のデータが含まれています。Excel ドキュメントに**表示形式を含める**こともできます。
 
 **[表示形式をむ]** 設定には、次のオプションがあります:

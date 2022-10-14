@@ -13,6 +13,7 @@ Reveal では、ダッシュボードを PowerPoint 形式でエクスポート�
 
 <img src="images/export-dashboard-as-powerpoint.png" alt="Settings for PowerPoint presentation in the Export Dashboard menu" class="responsive-img" width="60%"/>
 
+
 **[ダッシュボード エクスポート]** ダイアログでは、次の設定を管理できます:
 
 1.  PowerPoint の**主タイトル**を変更します。デフォルトのタイトルは、ダッシュボードのタイトルです。

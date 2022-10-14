@@ -19,6 +19,7 @@ Microsoft Analysis Services データ ソースを *Native* モード用に構�
 
 <img src="../images/native-configuration-microsoft-analysis-services.png" alt="Configure Microsoft Analysis Services connection" class="responsive-img" width="50%"/>
 
+
 1. **接続モード**: HTTP または Native の 2 つのオプションから選択できます。
 
 2.  **[サーバー]**: サーバーが実行されているコンピューターのホスト名または IP アドレスです。
@@ -51,6 +52,7 @@ Microsoft Analysis Services データ ソースを *HTTP* モード用に構成�
 
 <img src="../images/http-configuration-microsoft-analysis-services.png" alt="Configure Microsoft Analysis HTTP mode connection" class="responsive-img" width="50%"/>
 
+
 1. **接続モード**: HTTP または Native の 2 つのオプションから選択できます。
 
 2.  **[URL]**: サーバーの HTTP eService URL。例: *10.1.0.15/olap/msmdpump.dll*。
@@ -72,6 +74,7 @@ Microsoft Analysis Services などのキューブ データ ソースを使用�
 
 <img src="images/visualization-editor-microsoft-analysis-services.png" alt="Using the Microsoft Analysis Service data source information in the visualization editor" class="responsive-img" width="85%"/>
 
+
 上のスクリーンショットでは、左側に [フィールド] の見出しがないことに気付くかもしれません。代わりに、クエリ フィールドに 2 つのセクションがあります:
 
 1.  **ディメンション** (ピンク色の側面の立方体アイコンで表示): ディメンションは、測定可能なデータを分類するために使用される構造です。ディメンションの要素は、以下の方法で整理できます。
@@ -85,6 +88,7 @@ Microsoft Analysis Services などのキューブ データ ソースを使用�
 2.  **メジャー** (123 アイコンで表示): メジャーは数値データで構成されます。
 
 <img src="images/pivot-chart-microsoft-analysis-services.png" alt="Using the visualizatio editor with a pivot chart" class="responsive-img" width="85%"/>
+
 
 ディメンションとメジャーの詳細については、[Technet](https://learn.microsoft.com/ja-jp/previous-versions/sql/sql-server-2012/ms174527(v=sql.110)) の記事をご覧ください。
 
@@ -113,5 +117,7 @@ Microsoft Analysis Services などのキューブ データ ソースを使用�
 
 <img src="../images/ssas-dashboard-my-analytics.png" alt="Dasboard with an information from the microsoft analysis services data source in My Analytics" class="responsive-img" width="80%"/>
 
+
 間違った資格情報を入力した場合は、エラー メッセージが表示されます (下のスクリーンショットを参照)。**[Microsoft Analysis Services にログイン]** をクリックして、資格情報を更新できます。これで問題は解決するはずです。
+
  <img src="../images/microsoft-analysis-services-authentication-failed.png" alt="Displaying the error message authentication failed" class="responsive-img" width="85%"/>

@@ -22,6 +22,7 @@ Google アナリティクスは、ウェブで最も使用されているウェ�
 
     <img src="images/google-analytics-accounts-list.png" alt="Select a Google account to be used with Reveal's Google Analytics data source" class="responsive-img" width="50%"/>
 
+
     ログインすると、データ ソースを削除しない限り、他の表示形式の作成時に同じアカウントを使用できます。
 
 3.  **プロパティを選択する**
@@ -30,6 +31,7 @@ Google アナリティクスは、ウェブで最も使用されているウェ�
 
     <img src="images/google-analytics-property.png" alt="Select a Google property to be used with Reveal's Google Analytics data source" class="responsive-img" width="55%"/>
 
+
     Google アナリティクスでは、**プロパティ**はウェブサイト、モバイル アプリ、ブログなどです。
 
 4.  **データベース キューブを選択する**
@@ -37,6 +39,7 @@ Google アナリティクスは、ウェブで最も使用されているウェ�
     使用するデータ キューブを選択します。
 
     <img src="images/google-analytics-cubes.png" alt="Select a data cube to be used with Reveal's Google Analytics data source" class="responsive-img" width="55%"/>
+
 
     データの更新間隔を次のように設定できます:
 
@@ -58,6 +61,7 @@ Google アナリティクスは、ウェブで最も使用されているウェ�
 Google Analytics からの情報でダッシュボードを作成する場合、以下のスクリーンショットのようにフィールドが異なって体系化されます。
 
 <img src="images/visualization-editor-google-analytics.png" alt="Visualization Editor showing a Google Analytics data cube" class="responsive-img" width="80%"/>
+
 
 左側に [フィールド] の見出しはありません。代わりに、クエリ フィールドに 2 つのセクションがあります。
 
@@ -88,6 +92,7 @@ Reveal で Google Analytics データ ソースを使用する場合、2 つの�
 Google アナリティクスで定義された*目標*を*表示形式エディター*で使用できます。*目標*は、**ディメンション**と**メジャー**の両方のデータ型のメトリックの一部としてリストされます。
 
 <img src="images/goals-google-analytics.png" alt="goals google analytics option" class="responsive-img" width="50%"/>
+
 
 上記の例でわかるように、Reveal での Google アナリティクスの*目標*のタイトルには、次の 1 つ以上が含まれています:
 

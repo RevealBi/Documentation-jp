@@ -16,6 +16,7 @@ MySQL サーバー データ ソースを構成するには、以下の情報が
 
 <img src="images/add-mysql-as-data-source.png" alt="Enter MySQL Server Details dialog" class="responsive-img" width="50%"/>
 
+
 1. **[[サーバー](#サーバー情報を見つける方法)]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 
 2.  **[ポート]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Reveal はデフォルトでヒント テキスト (3306) のポートに接続します。
@@ -55,6 +56,7 @@ Reveal ではすべてのテーブルから MySQL データを取得できます
 
 <img src="images/mysql-views.png" alt="MySQL Views section" class="responsive-img" width="60%"/>
 
+
 上記のサンプルでは、**invoices** ビューに、MySQL サーバーの **products**、**customers**、**orderdetails**、および **orders** テーブルのデータの変更されたバージョンが含まれています。
 
 ビューと MySQL の詳細については、[このドキュメント ページ](https://dev.mysql.com/doc/refman/8.0/en/views.html)にアクセスしてください。
@@ -64,6 +66,7 @@ Reveal ではすべてのテーブルから MySQL データを取得できます
 テーブルまたはビューを選択すると、**表示形式エディター**に移動します。ここでダッシュボードを作成できます。デフォルトでは、**柱状**表示形式が選択されます。それを選択して、別のチャート タイプを選択できます。
 
 <img src="images/mysql-visualization-editor.png" alt="Using MySQL as data to create a dashboard in the visualization editor" class="responsive-img" width="85%"/>
+
 
 表示形式エディターの準備ができたら、ダッシュボードを **[分析]** > **[ダッシュボード]** または特定のワークスペースに保存できます。 
 

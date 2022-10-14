@@ -12,6 +12,7 @@ Reveal で Marketo データ ソース接続を構成するには、次の接続
 
 <img src="images/add-marketo-as-data-source.png" alt="Data source connection configuring screen" class="responsive-img" width="50%"/>
 
+
 1. **[URL]** - Marketo 管理パネルにある *ID URL* をここに貼り付けます。
 2. **資格情報**:
 - **クライアント ID** 

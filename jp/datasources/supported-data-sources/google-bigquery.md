@@ -26,6 +26,7 @@ Google アカウントを追加すると、BigQuery データセットにアク�
 
     <img src="images/google-big-query-dataset.png" alt="Select a dataset dialog" class="responsive-img" width="50%"/>
 
+
 3.  データセットから**表を選択します**。右側の*目のアイコン*を使用して、データをプレビューします。
 
     <img src="images/google-big-query-tables.png" alt="Select a table dialog" class="responsive-img" width="60%"/>

@@ -10,7 +10,7 @@
 
 ダッシュボードは、以下のオプションを使用して簡単にエクスポートできます。
 
-<img src="images/format-options.png" alt="Export formats available" class="responsive-img" width="85%"/>
+<img src="images/format-options.png" alt="Export formats available" class="responsive-img" width="80%"/>
 
   - [**画像のエクスポート**](export-as-images.html) - ダッシュボード全体または個別の表示形式のスクリーン キャプチャをエクスポートします。
 

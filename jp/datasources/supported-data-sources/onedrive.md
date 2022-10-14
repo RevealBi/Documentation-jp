@@ -14,9 +14,11 @@ OneDrive データを使用するには、以下の手順を実行します:
 
   <img src="images/microsoft-account-onedrive.png" alt="One Drive Login" class="responsive-img" width="60%"/>
 
+
 2. **[続行]** をクリックすると、**認証プロンプト**が表示されます。続行するには、**[承諾]** をクリック / タップします。
 
   <img src="images/microsoft-onedrive-permissions.png" alt=" A dialog with a set of permissions" class="responsive-img" width="60%"/>
+
 
 Reveal にデータの使用を許可した後、*OneDrive* ファイルを使用して表示形式を作成できます。
 

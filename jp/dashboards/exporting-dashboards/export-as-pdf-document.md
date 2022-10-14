@@ -8,6 +8,7 @@ Reveal では、ダッシュボードを PDF 文書としてエクスポート�
 
 <img src="images/export-pdf-options.png" alt="Settings for PDF document in the Export Dashboard menu" class="responsive-img" width="57%"/>
 
+
 **[ダッシュボード エクスポート]** ダイアログでは、次の設定を管理できます:
 
 1.  PDF 文書の**主タイトル**を変更します。デフォルトのタイトルは、ダッシュボードのタイトルです。

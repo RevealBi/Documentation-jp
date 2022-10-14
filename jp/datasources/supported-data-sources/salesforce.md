@@ -10,6 +10,7 @@ Salesforce データ ソースを選択すると、以下のログイン プロ�
 
 <img src="../images/salesforce-login.png" alt="Salesforce login prompt" class="responsive-img" width="50%"/>
 
+
 ログイン情報を入力して [ログイン] をクリックします。
 
 >[!NOTE] 
@@ -20,6 +21,7 @@ Salesforce データ ソースを選択すると、以下のログイン プロ�
 ログイン後、次のダイアログで Salesforce データを設定できます。
 
 <img src="../images/salesforce-data-source-details-popular-objects.png" alt="Set up your data dialog" class="responsive-img" width="50%"/>
+
 
 Slingshot で Salesforce をデータ ソースとして設定および使用する方法。
 
@@ -35,6 +37,7 @@ Slingshot で Salesforce をデータ ソースとして設定および使用す
 
 <img src="../images/salesforce-values-for-parameters-filters.png" alt="A dialog showing filters from Salesforce to be configured" class="responsive-img" width="50%"/>
 
+
 リストに表示されるパラメーター (**Show me**、**Probability** など) は、レポートのフィルターです。レポート フィルターは、ユーザーがレポートに表示するデータを制御するために設定された条件です。Reveal では、フィルタリングされたデータは、**表示形式エディター**のチャートで使用されます。
 
 上のダイアログでは、フィルターは Salesforce のデフォルト値で事前設定されています。これらの値を変更するには、各フィルターの横にあるドロップダウン メニューを使用します。
@@ -48,6 +51,7 @@ Slingshot で Salesforce をデータ ソースとして設定および使用す
 データ ソースを追加した後、**表示形式エディター**が表示されます。ここでダッシュボードを作成できます。選択した表示形式に基づいて、さまざまなタイプのフィールドが表示されることに注意してください。
 
 <img src="./images/salesforce-visualization-editor.png" alt="Working in the visualization editor while using the information from a salesforce account" class="responsive-img" width="80%"/>
+
 
 表示形式の準備ができたら、右上隅のチェックマークをクリックまたはタップして、ダッシュボードとして保存できます。以下の例では、ダッシュボードを **[分析]** > **[ダッシュボード]** > **Accounting** に保存しました。
 
