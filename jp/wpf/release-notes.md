@@ -1,9 +1,17 @@
 # リリース ノート
 
+## 1.2.3 (10 月 2022 年)
+
+### 新機能
+- 計算フィールドに新しい 'EndOfMonth' 関数を追加しました。
+
+### バグ修正
+- 表示形式のデータ ソースを変更するとエラー レポートが表示されない問題を修正しました。
+- Fix error when filtering all rows while showing totals.
+
 ## 1.2.2 (9 月 2022 年)
 ### バグ修正
 - カスタム カラー ピッカーを修正しました。_System.IO.FileNotFoundException_ エラー: CanChangeVisualizationBackgroundColor が true に設定されていると、「'Reveal.UI.Controls.Editors.XamColorPicker...' ファイルまたはアセンブリを読み込めませんでした...」がスローされました。
-
 
 ## 1.2.0 (8 月 2022 年)
 ### 新機能

@@ -72,8 +72,8 @@ _language: ja
 <td>
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 45%" />
+<col style="width: 45%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -94,8 +94,8 @@ _language: ja
 </table></td>
 <td><table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 45%" />
+<col style="width: 45%" />
 </colgroup>
 <thead>
 <tr class="header">

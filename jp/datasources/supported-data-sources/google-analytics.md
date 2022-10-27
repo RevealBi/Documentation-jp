@@ -20,7 +20,7 @@ Google アナリティクスは、ウェブで最も使用されているウェ�
 
     複数の Google アナリティクス アカウントがある場合は、使用するアカウントを選択します。
 
-    <img src="images/google-analytics-accounts-list.png" alt="Select a Google account to be used with Reveal's Google Analytics data source" class="responsive-img" width="50%"/>
+    <img src="images/google-analytics-accounts-list.png" alt="Select a Google account to be used with Reveal's Google Analytics data source" class="responsive-img" width="55%"/>
 
 
     ログインすると、データ ソースを削除しない限り、他の表示形式の作成時に同じアカウントを使用できます。
@@ -29,7 +29,7 @@ Google アナリティクスは、ウェブで最も使用されているウェ�
 
     使用する Google アナリティクス プロパティを選択します。
 
-    <img src="images/google-analytics-property.png" alt="Select a Google property to be used with Reveal's Google Analytics data source" class="responsive-img" width="55%"/>
+    <img src="images/google-analytics-property.png" alt="Select a Google property to be used with Reveal's Google Analytics data source" class="responsive-img" width="58%"/>
 
 
     Google アナリティクスでは、**プロパティ**はウェブサイト、モバイル アプリ、ブログなどです。
@@ -38,7 +38,7 @@ Google アナリティクスは、ウェブで最も使用されているウェ�
 
     使用するデータ キューブを選択します。
 
-    <img src="images/google-analytics-cubes.png" alt="Select a data cube to be used with Reveal's Google Analytics data source" class="responsive-img" width="55%"/>
+    <img src="images/google-analytics-cubes.png" alt="Select a data cube to be used with Reveal's Google Analytics data source" class="responsive-img" width="58%"/>
 
 
     データの更新間隔を次のように設定できます:
@@ -50,8 +50,6 @@ Google アナリティクスは、ウェブで最も使用されているウェ�
       - 1 日に 1 回
 
       - 週に １ 回
-       
-       <img src="images/google-analytics-time-period.png" alt="Different values that the Refresh Data option provides" class="responsive-img" width="65%"/>
 
 
 資格情報が確認されると、Reveal は**表示形式エディター**に移動します。
@@ -60,7 +58,7 @@ Google アナリティクスは、ウェブで最も使用されているウェ�
 
 Google Analytics からの情報でダッシュボードを作成する場合、以下のスクリーンショットのようにフィールドが異なって体系化されます。
 
-<img src="images/visualization-editor-google-analytics.png" alt="Visualization Editor showing a Google Analytics data cube" class="responsive-img" width="80%"/>
+<img src="images/visualization-editor-google-analytics.png" alt="Visualization Editor showing a Google Analytics data cube" class="responsive-img" width="85%"/>
 
 
 左側に [フィールド] の見出しはありません。代わりに、クエリ フィールドに 2 つのセクションがあります。

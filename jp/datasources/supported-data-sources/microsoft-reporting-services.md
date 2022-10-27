@@ -51,7 +51,7 @@ Microsoft Reporting Services レポートへの接続を構成した後、デー
 
 デフォルトでは、**柱状**表示形式が選択されます。それを選択して、別のチャート タイプを選択できます。
 
-<img src="images/microsoft-reporting-services-chart-types.png" alt="List of chart types while using Microsoft Reporting Services as data source" class="responsive-img" width="55%"/>
+<img src="images/microsoft-reporting-services-chart-types.png" alt="List of chart types available while using Microsoft Reporting Services as data source" class="responsive-img" width="55%"/>
 
 
 選択した表示形式に基づいて、さまざまなタイプのフィールドが表示されます。
