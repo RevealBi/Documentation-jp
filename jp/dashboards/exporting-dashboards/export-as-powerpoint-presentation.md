@@ -10,7 +10,7 @@ Reveal では、ダッシュボードを PowerPoint 形式でエクスポート�
    
 2. **[エクスポート]** を選択し、**[PowerPoint]** をクリックまたはタップします。
 
- <img src="../images/export-as-powerpoint-option.png" alt="Powerpoint option in the list of export formats" class="responsive-img" width="60%"/>
+ <img src="../images/export-as-powerpoint-option.png" alt="Powerpoint option in the list of export formats" class="responsive-img" width="45%"/>
 
 3. **[ダッシュボード エクスポート]** ダイアログが開き、プレゼンテーションを設定して特定のスライドに注釈を付けることができます。
 
@@ -42,4 +42,4 @@ Reveal では、ダッシュボードを PowerPoint 形式でエクスポート�
 
 4.  リストからページを選択してタイトルを変更し、注釈を付け、あるいは右上隅のチェック アイコンを除いてドキュメントを削除することで、**PowerPoint のスライドを管理**できます。
 
-5.  *鉛筆アイコン*をクリックまたはタップして、選択したスライドに**注釈**を付けます。**注釈設定**の詳細については、[注釈画像](export-as-images.html#annotating)を参照してください。
+5.  *鉛筆アイコン*をクリックまたはタップして、選択したスライドに**注釈**を付けます。**注釈設定**の詳細については、[注釈画像](export-as-images.html#注釈画像)を参照してください。

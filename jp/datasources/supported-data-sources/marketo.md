@@ -10,7 +10,7 @@ _description: Marketo に接続して Slingshot でデータを使用する方�
 Marketo の REST API は、2-legged OAuth 2.0 で認証されています。
 Reveal で Marketo データ ソース接続を構成するには、次の接続情報を提供する必要があります: 
 
-<img src="images/add-marketo-as-data-source.png" alt="Data source connection configuring screen" class="responsive-img" width="50%"/>
+<img src="images/add-marketo-as-data-source.png" alt="Data source connection configuring screen" class="responsive-img" width="45%"/>
 
 
 1. **[URL]** - Marketo 管理パネルにある *ID URL* をここに貼り付けます。

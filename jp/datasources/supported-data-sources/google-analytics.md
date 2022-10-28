@@ -20,7 +20,7 @@ Google アナリティクスは、ウェブで最も使用されているウェ�
 
     複数の Google アナリティクス アカウントがある場合は、使用するアカウントを選択します。
 
-    <img src="images/google-analytics-accounts-list.png" alt="Select a Google account to be used with Reveal's Google Analytics data source" class="responsive-img" width="55%"/>
+    <img src="images/google-analytics-accounts-list.png" alt="Select a Google account to be used with Reveal's Google Analytics data source" class="responsive-img" width="45%"/>
 
 
     ログインすると、データ ソースを削除しない限り、他の表示形式の作成時に同じアカウントを使用できます。
@@ -29,7 +29,7 @@ Google アナリティクスは、ウェブで最も使用されているウェ�
 
     使用する Google アナリティクス プロパティを選択します。
 
-    <img src="images/google-analytics-property.png" alt="Select a Google property to be used with Reveal's Google Analytics data source" class="responsive-img" width="58%"/>
+    <img src="images/google-analytics-property.png" alt="Select a Google property to be used with Reveal's Google Analytics data source" class="responsive-img" width="55%"/>
 
 
     Google アナリティクスでは、**プロパティ**はウェブサイト、モバイル アプリ、ブログなどです。
@@ -38,7 +38,7 @@ Google アナリティクスは、ウェブで最も使用されているウェ�
 
     使用するデータ キューブを選択します。
 
-    <img src="images/google-analytics-cubes.png" alt="Select a data cube to be used with Reveal's Google Analytics data source" class="responsive-img" width="58%"/>
+    <img src="images/google-analytics-cubes.png" alt="Select a data cube to be used with Reveal's Google Analytics data source" class="responsive-img" width="55%"/>
 
 
     データの更新間隔を次のように設定できます:
@@ -80,24 +80,24 @@ Reveal で Google Analytics データ ソースを使用する場合、2 つの�
 データをフィルターするセグメントは 1 つのみ選択できます。
 * **日付範囲**。データをフィルターするには、カレンダーで特定の日付範囲を選択します。右上の矢印をクリックして、日付範囲プリセットの 1 つを選択することもできます。
 
-  <img src="images/google-analytics-date-range.png" alt="Date Range dialog" class="responsive-img" width="50%"/>
+  <img src="images/google-analytics-date-range.png" alt="Date Range dialog" class="responsive-img" width="45%"/>
 
 >[!NOTE] 
 >デフォルトの日付範囲は過去 30 日間です。つまり、今日を含む**過去 30 日間**のデータが取得されます。
 
 ### Google アナリティクスの目標を使用する
 
-Google アナリティクスで定義された*目標*を*表示形式エディター*で使用できます。*目標*は、**ディメンション**と**メジャー**の両方のデータ型のメトリックの一部としてリストされます。
+Google アナリティクスで定義された**目標**を**表示形式エディター**で使用できます。**目標**は、**ディメンション**と**メジャー**の両方のデータ型のメトリックの一部としてリストされます。
 
 <img src="images/goals-google-analytics.png" alt="goals google analytics option" class="responsive-img" width="50%"/>
 
 
-上記の例でわかるように、Reveal での Google アナリティクスの*目標*のタイトルには、次の 1 つ以上が含まれています:
+上記の例でわかるように、Reveal での Google アナリティクスの**目標**のタイトルには、次の 1 つ以上が含まれています:
 
   - 1 から 20 までの**数値 ID**。
 
-  - 最初の**ラベル** - これは、特定の目標に設定した目標の名前です。例えば、*目標 19* の*ダウンロード完了*。
+  - 最初の**ラベル** - これは、特定の目標に設定した目標の名前です。例えば、**目標 19** の**ダウンロード完了**。
 
-  - 最後の目標**タイプ** - 例えば、*完了*、*放棄されたファネル*など。
+  - 最後の目標**タイプ** - 例えば、**完了**、**放棄されたファネル**など。
 
 目標の詳細については、Google アナリティクスの[ヘルプ ページ (英語)](https://support.google.com/analytics/answer/1012040?hl=en) をご覧ください。

@@ -7,7 +7,7 @@ Reveal では、ダッシュボードに使用されるデータを **Excel 形�
 
 1.  ダッシュボードの右上隅にあるオーバーフロー メニューに移動し、**[エクスポート]** を選択します。
 
-  <img src="../images/export-option-excel.png" alt="Export option in the overflow menu" class="responsive-img" width="55%"/>
+  <img src="../images/export-option-excel.png" alt="Export option in the overflow menu" class="responsive-img" width="45%"/>
 
 2. 次のダイアログを開きます。
 

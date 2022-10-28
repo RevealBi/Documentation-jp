@@ -47,7 +47,7 @@ $.ig.RVDashboard.loadDashboard("Sales", (dashboard) => {
 
 デフォルトの **Dashboards** ファイル ディレクトリがアプリケーションのオプションではない場合は、代わりにダッシュボードを読み込むためのカスタム ファイル パスを指定できます。
 
-1 - ASP.NET Core Web API サーバー アプリケーションで、 `IRVDashboardProvider`インターフェイスを実装する新しいクラスを作成します。`GetDashboardAsync` メソッドでカスタム ファイル ディレクトリからダッシュボードを読み込むロジックを追加します。この例では、ASP.NET Core Web API サーバー アプリケーションは **MyDashboardsFolder** という名前のフォルダーを使用してすべてのダッシュボードを格納します。
+1 - ASP.NET Core Web API サーバー アプリケーションで、`IRVDashboardProvider`インターフェイスを実装する新しいクラスを作成します。`GetDashboardAsync` メソッドでカスタム ファイル ディレクトリからダッシュボードを読み込むロジックを追加します。この例では、ASP.NET Core Web API サーバー アプリケーションは **MyDashboardsFolder** という名前のフォルダーを使用してすべてのダッシュボードを格納します。
 
 ```cs
 public class DashboardProvider : IRVDashboardProvider
@@ -66,7 +66,7 @@ public class DashboardProvider : IRVDashboardProvider
 }
 ```
 
-2 - `Program.cs` ファイルの `AddReveal` メソッドを更新し、 `RevealSetupBuilder.AddDashboardProvider` メソッドを使用して、作成したばかりの `IRVDashboardProvider` を  `RevealSetupBuilder` に追加します。
+2 - `Program.cs` ファイルの `AddReveal` メソッドを更新し、`RevealSetupBuilder.AddDashboardProvider` メソッドを使用して、作成したばかりの `IRVDashboardProvider` を  `RevealSetupBuilder` に追加します。
 
 ```cs
 builder.Services.AddControllers().AddReveal( builder =>
@@ -100,7 +100,7 @@ $.ig.RVDashboard.loadDashboard("Sales", (dashboard) => {
 
 ファイル ストリームからの Reveal ダッシュボードの読み込みは、ファイル パスからのダッシュボードの読み込みと非常によく似ています。この場合、ダッシュボード ファイルのファイル パスを取得したら `Dashboard` オブジェクト インスタンスを作成する前に、それを `FileStream` に読み込みます。
 
-1 - ASP.NET Core Web API サーバー アプリケーションで、 `IRVDashboardProvider`インターフェイスを実装する新しいクラスを作成します。`GetDashboardAsync` メソッドでカスタム ファイル ディレクトリからダッシュボードを読み込むロジックを追加します。この例では、`File.OpenRead` メソッドを使用して、ダッシュボード ファイルをファイル ストリームに読み込んでいます。次に、コンストラクター引数としてファイル ストリームを渡すことにより、新しい `Dashboard` オブジェクトを作成し、新しく作成された `Dashboard` インスタンスを返します。
+1 - ASP.NET Core Web API サーバー アプリケーションで、`IRVDashboardProvider`インターフェイスを実装する新しいクラスを作成します。`GetDashboardAsync` メソッドでカスタム ファイル ディレクトリからダッシュボードを読み込むロジックを追加します。この例では、`File.OpenRead` メソッドを使用して、ダッシュボード ファイルをファイル ストリームに読み込んでいます。次に、コンストラクター引数としてファイル ストリームを渡すことにより、新しい `Dashboard` オブジェクトを作成し、新しく作成された `Dashboard` インスタンスを返します。
 
 ```cs
 public class DashboardProvider : IRVDashboardProvider
@@ -122,7 +122,7 @@ public class DashboardProvider : IRVDashboardProvider
 }
 ```
 
-2 - `Program.cs` ファイルの `AddReveal` メソッドを更新して、 `RevealSetupBuilder.AddDashboardProvider` メソッドを使用して、作成したばかりの `IRVDashboardProvider` を  `RevealSetupBuilder` に追加します。
+2 - `Program.cs` ファイルの `AddReveal` メソッドを更新して、`RevealSetupBuilder.AddDashboardProvider` メソッドを使用して、作成したばかりの `IRVDashboardProvider` を  `RevealSetupBuilder` に追加します。
 
 ```cs
 builder.Services.AddControllers().AddReveal( builder =>
@@ -162,7 +162,7 @@ $.ig.RVDashboard.loadDashboard("Sales", (dashboard) => {
 
 ダッシュボードが**理め込みリソース**として定義されたら、`Assembly.GetManifestResourceStream` メソッドを使用してダッシュボードを読み込むことができます。このメソッドは、`Dashboard` オブジェクトの作成に使用できる `Stream` オブジェクトを返します。`Assembly.GetManifestResourceStream` メソッドで指定するリソースの`名前`には、.rdash ファイルの`名前空間`とファイル名が含まれている必要があることに注意してください。
 
-2 - ASP.NET Core Web API サーバー アプリケーションで、 `IRVDashboardProvider`インターフェイスを実装する新しいクラスを作成します。`GetDashboardAsync` メソッドの埋め込みリソースからダッシュボードを読み込むロジックを追加します。この例では、リソースの名前は、アプリケーションのルート名前空間 **RevealSdk.Server** に加えて、ダッシュボード ファイルを含むディレクトリである **Dashboards** で始まり、その後に `dashboardId` パラメーターを使用して構築された .rdash ファイルの名前が続きます。
+2 - ASP.NET Core Web API サーバー アプリケーションで、`IRVDashboardProvider`インターフェイスを実装する新しいクラスを作成します。`GetDashboardAsync` メソッドの埋め込みリソースからダッシュボードを読み込むロジックを追加します。この例では、リソースの名前は、アプリケーションのルート名前空間 **RevealSdk.Server** に加えて、ダッシュボード ファイルを含むディレクトリである **Dashboards** で始まり、その後に `dashboardId` パラメーターを使用して構築された .rdash ファイルの名前が続きます。
 
 ```cs
 public class DashboardProvider : IRVDashboardProvider
@@ -184,7 +184,7 @@ public class DashboardProvider : IRVDashboardProvider
 }
 ```
 
-3 - `Program.cs` ファイルの `AddReveal` メソッドを更新して、 `RevealSetupBuilder.AddDashboardProvider` メソッドを使用して、作成したばかりの `IRVDashboardProvider` を  `RevealSetupBuilder` に追加します。
+3 - `Program.cs` ファイルの `AddReveal` メソッドを更新して、`RevealSetupBuilder.AddDashboardProvider` メソッドを使用して、作成したばかりの `IRVDashboardProvider` を  `RevealSetupBuilder` に追加します。
 
 ```cs
 builder.Services.AddControllers().AddReveal( builder =>
@@ -218,7 +218,7 @@ $.ig.RVDashboard.loadDashboard("Sales", (dashboard) => {
 
 上級ユーザー、または Reveal ダッシュボードを .rdash ファイルではなく .json ファイルにシリアル化するユーザーの場合、サーバー アプリケーションで `Dashboard.LoadFromJsonAsync` メソッドを使用してこれらの JSON ベースのファイルを読み込むことができます。
 
-1 - ASP.NET Core Web API サーバー アプリケーションで、 `IRVDashboardProvider`インターフェイスを実装する新しいクラスを作成します。`GetDashboardAsync` メソッドで json ダッシュボード ファイルからダッシュボードを読み込むロジックを追加します。この例では、`File.ReadAllText` メソッドを使用して、ダッシュボード ファイルを JSON 文字列に読み込んでいます。次に、JSON 文字列を引数として `Dashboard.FromJsonString` メソッドに渡すことにより、新しい `Dashboard` オブジェクトを作成し、新しく作成された `Dashboard`インスタンスを返します。
+1 - ASP.NET Core Web API サーバー アプリケーションで、`IRVDashboardProvider`インターフェイスを実装する新しいクラスを作成します。`GetDashboardAsync` メソッドで json ダッシュボード ファイルからダッシュボードを読み込むロジックを追加します。この例では、`File.ReadAllText` メソッドを使用して、ダッシュボード ファイルを JSON 文字列に読み込んでいます。次に、JSON 文字列を引数として `Dashboard.FromJsonString` メソッドに渡すことにより、新しい `Dashboard` オブジェクトを作成し、新しく作成された `Dashboard`インスタンスを返します。
 
 ```cs
 public class DashboardProvider : IRVDashboardProvider
@@ -241,7 +241,7 @@ public class DashboardProvider : IRVDashboardProvider
 > [!WARNING]
 > JSON にシリアル化された後に Reveal ダッシュボードのコンテンツを操作または変更すると、ダッシュボードの完全性が損なわれ、ダッシュボードのコンテンツに取り返しのつかない損傷が生じる可能性があります。これにより、エラーやダッシュボードの読み込みの失敗により、アプリケーションで実行時に例外がスローされる可能性があります。
 
-2 - `Program.cs` ファイルの `AddReveal` メソッドを更新して、 `RevealSetupBuilder.AddDashboardProvider` メソッドを使用して、作成したばかりの `IRVDashboardProvider` を  `RevealSetupBuilder` に追加します。
+2 - `Program.cs` ファイルの `AddReveal` メソッドを更新して、`RevealSetupBuilder.AddDashboardProvider` メソッドを使用して、作成したばかりの `IRVDashboardProvider` を  `RevealSetupBuilder` に追加します。
 
 ```cs
 builder.Services.AddControllers().AddReveal( builder =>

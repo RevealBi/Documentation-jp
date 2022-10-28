@@ -17,14 +17,14 @@ Native および HTTP モードの詳細については、[Microsoft Instance Ma
 
 Microsoft Analysis Services データ ソースを *Native* モード用に構成するため、以下の情報が必要です。
 
-<img src="../images/native-configuration-microsoft-analysis-services.png" alt="Configure Microsoft Analysis Services connection" class="responsive-img" width="50%"/>
+<img src="../images/native-configuration-microsoft-analysis-services.png" alt="Configure Microsoft Analysis Services connection" class="responsive-img" width="45%"/>
 
 
 1. **接続モード**: HTTP または Native の 2 つのオプションから選択できます。
 
 2.  **[サーバー]**: サーバーが実行されているコンピューターのホスト名または IP アドレスです。
 
-    以下の手順で*ホスト名*情報も確認できます。コマンドはサーバー マシンで実行する必要があることに注意してください。
+    以下の手順で**ホスト名**情報も確認できます。コマンドはサーバー マシンで実行する必要があることに注意してください。
 
     | WINDOWS                                                                                                         | LINUX                                                                                                         | MAC                                                                  |
     | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -50,7 +50,7 @@ Microsoft Analysis Services データ ソースを *Native* モード用に構�
 
 Microsoft Analysis Services データ ソースを *HTTP* モード用に構成するため、以下の情報が必要です。
 
-<img src="../images/http-configuration-microsoft-analysis-services.png" alt="Configure Microsoft Analysis HTTP mode connection" class="responsive-img" width="50%"/>
+<img src="../images/http-configuration-microsoft-analysis-services.png" alt="Configure Microsoft Analysis HTTP mode connection" class="responsive-img" width="45%"/>
 
 
 1. **接続モード**: HTTP または Native の 2 つのオプションから選択できます。
@@ -65,12 +65,12 @@ Analysis Services サーバーの資格情報が確認されたら、Reveal は�
 
 データベース **キューブ**を選択し、**[データの選択]** をクリック / タップして、表示形式エディターに進みます。
 
-<img src="images/data-source-cubes-microsoft-analysis-services.png" alt="A list of different cubes in the Data Source Details dialog" class="responsive-img" width="50%"/>
+<img src="images/data-source-cubes-microsoft-analysis-services.png" alt="A list of different cubes in the Data Source Details dialog" class="responsive-img" width="45%"/>
 
 <a name='visualization-editor'></a>
 ## 表示形式エディターでの作業
 
-Microsoft Analysis Services などのキューブ データ ソースを使用してダッシュボードを作成すると、*表示形式エディター*でフィールドが異なって体系化されます (下のスクリーンショットを参照)。キューブのデータ ソースは、キューブのデザイナーが事前に作成した階層と集計で構成されています。
+Microsoft Analysis Services などのキューブ データ ソースを使用してダッシュボードを作成すると、**表示形式エディター**でフィールドが異なって体系化されます (下のスクリーンショットを参照)。キューブのデータ ソースは、キューブのデザイナーが事前に作成した階層と集計で構成されています。
 
 <img src="images/visualization-editor-microsoft-analysis-services.png" alt="Using the Microsoft Analysis Service data source information in the visualization editor" class="responsive-img" width="85%"/>
 
