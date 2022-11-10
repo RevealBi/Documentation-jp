@@ -20,59 +20,53 @@ _language: ja
 
 SID を使用して Oracle を構成するには、以下の情報が必要です。
 
-<img src="images/enter-oracle-details.png" alt="Configure Oracle SID mode details" class="responsive-img"/>
+<img src="images/enter-oracle-details-sid.png" alt="Configure Oracle SID mode details" class="responsive-img" width="50%"/>
 
 1. データ ソースの**デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Oracle* という名前を付けます。好みに合わせて変更できます。
 
 
-1.  **[[サーバー](#how-to-find-server)]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
+2.  **[[サーバー](#how-to-find-server)]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 
-2.  **[ポート]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Reveal はデフォルトでヒント テキスト (1521) のポートに接続します。
+3.  **[ポート]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Reveal はデフォルトでヒント テキスト (1521) のポートに接続します。
 
-3.  **[接続モード]**: SID。
+4.  **[接続モード]**: SID。
 
-4.  **[SID]**: Oracle データベース インスタンスの一意の名前。デフォルトでは、Oracle の SID は orcl です。SID を見つけるには、サーバー マネージャーにログインし select instance from v$thread と入力します。これは ORACLE\_SID を返します。
+5.  **[SID]**: Oracle データベース インスタンスの一意の名前。デフォルトでは、Oracle の SID は orcl です。SID を見つけるには、サーバー マネージャーにログインし select instance from v$thread と入力します。これは ORACLE\_SID を返します。
 
-5.  **[資格情報]**: [資格情報] を選択した後、Oracle サーバーの資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
+6.  **[資格情報]**: [資格情報] を選択した後、Oracle サーバーの資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
 
-     - **[名前]**: データ ソース アカウントの名前 (デフォルトは *Oracle*)。以前のダイアログのアカウントのリストに表示されます。
+      - **Username**: the user account for the Oracle server or the name of the domain.
 
-      - (オプション) の **[ドメイン]**: ドメイン名 (適用可能な場合)。
+      - **Password**: the password to access the Oracle server.
 
-      - **[ユーザー名]**: Oracle サーバーのユーザー アカウント
+      - **Alias**: the name for your data source account. It will be displayed in the list of accounts in the previous dialog.
 
-      - **[パスワード]**: Oracle サーバーのパスワード
-
-    準備ができたら、**[作成して使用]** を選択します。
+    Once ready, select **Add** and then **Add Server**.
 
 <a name='using-service'></a>
 ## サービス を使用した Oracle への接続
 
 サービスを使用して Oracle を構成するには、以下の情報が必要です。
 
-<img src="images/enter-oracle-details-service-mode.png" alt="Configure Oracle Service mode details" class="responsive-img"/>
+<img src="images/add-oracle-server-dialog-service-connection.png" alt="Configure Oracle Service mode details" class="responsive-img" width="50%"/>
 
-1.  **データ ソース名**: このフィールドはデータ ソース リストに表示されます。
+1.  **[[サーバー](#how-to-find-server)]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 
-2.  **[[サーバー](#how-to-find-server)]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
+2.  **[ポート]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Reveal はデフォルトでヒント テキスト (1521) のポートに接続します。
 
-3.  **[ポート]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Reveal はデフォルトでヒント テキスト (1521) のポートに接続します。
+3.  **[接続モード]**: サービス。
 
-4.  **[接続モード]**: サービス。
+4.  **サービス名**: データベース インスタンスへ接続するときに使用されるエイリアス。サービスを見つけるには、サーバー マネージャーへログインし、dual から select sys\_context('userenv’);,  'service\_name’) を実行します。これは Service\_name を返します。
 
-5.  **サービス名**: データベース インスタンスへ接続するときに使用されるエイリアス。サービスを見つけるには、サーバー マネージャーへログインし、dual から select sys\_context('userenv’);,  'service\_name’) を実行します。これは Service\_name を返します。
+5.  **[資格情報]**: [資格情報] を選択した後、Oracle サーバーの資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
 
-6.  **[資格情報]**: [資格情報] を選択した後、Oracle サーバーの資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
+      - **Username**: the user account for the Oracle server or the name of the domain.
 
-      - **[名前]**: データ ソース アカウントの名前 (デフォルトは _Oracle_)。以前のダイアログのアカウントのリストに表示されます。
+      - **Password**: the password to access the Oracle server.
 
-      - (オプション) の **[ドメイン]**: ドメイン名 (適用可能な場合)。
+      - **Alias**: the name for your data source account. It will be displayed in the list of accounts in the previous dialog.
 
-      - **[ユーザー名]**: Oracle サーバーのユーザー アカウント
-
-      - **[パスワード]**: Oracle サーバーのパスワード
-
-    準備ができたら、**[作成して使用]**を選択します。
+    Once ready, select **Add** and then **Add Server**.
 
 <a name='how-to-find-server'></a>
 ## サーバー情報を見つける方法
@@ -97,10 +91,10 @@ SID を使用して Oracle を構成するには、以下の情報が必要で�
 
 Reveal を使用すると、すべてのテーブルから Oracle データを取得できますが、その他にもテーブルまたはテーブルのセットからデータのサブセットを返す特定の[ビュー (英語)](https://docs.oracle.com/cd/B19306_01/server.102/b14220/objects.htm#i440066) を選択することもできます。
 
-<img src="images/Oracle-views.png" alt="Oracle views dialog" class="responsive-img"/>
+<img src="images/views-oracle.png" alt="Oracle views dialog" class="responsive-img" width="50%"/>
 
 たとえば、**請求書**ビューには、データベース内のテーブルから取得した営業予測に関する情報が含まれています。
 
-<img src="images/oracle-view-sample-invoices.png" alt="A dashboard sample using Oracle view data" class="responsive-img"/>
+<img src="images/oracle-dashboard-example.png" alt="A dashboard sample using Oracle view data" class="responsive-img" width="88%"/>
 
 ビューおよび Oracle の詳細については、[この Web サイト (英語)](https://docs.oracle.com/cd/B19306_01/server.102/b14220/objects.htm#i440066) を参照してください。

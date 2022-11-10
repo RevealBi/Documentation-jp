@@ -12,19 +12,15 @@ Microsoft Azure Synapse データ ソースは、Reveal 内でビッグ デー�
 
 Microsoft Azure Synapse Analytics データ ソースを設定するには、以下の情報が必要です。
 
-<img src="images/synapse-azure-configuration.png" alt="Configuring azure synapse data source dialog" class="responsive-img"/>
+<img src="../images/microsoft-azure-synapse-analytics-configuration.png" alt="Configuring azure synapse data source dialog" class="responsive-img" width="55%"/>
 
-1. データ ソースの **デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Microsoft Azure SQL Synapse Analytics* という名前を付けます。好みに合わせて変更できます。
-   
-2.  **[サーバー]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
+1. **[サーバー]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 
-3.  **[ポート]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Reveal はデフォルトでヒント テキスト (1433) のポートに接続します。
+2.  **[ポート]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Reveal はデフォルトでヒント テキスト (1433) のポートに接続します。
 
-4.  **[資格情報]**: [資格情報] を選択した後、Microsoft Azure Synapse Analytics の資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
+3.  **[資格情報]**: [資格情報] を選択した後、Microsoft Azure Synapse Analytics の資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
 
-    準備ができたら、**[作成して使用]** を選択します。
-
-5.  **[データベース]**: アカウントに接続すると、データベースを選択できるようになります。**[続行]** を選択します。
+4.  **[データベース]**: Once you have connected to your account, you will get your databases to choose from. When you are ready, click/tap on **Select and Continue**.
 
 ## サーバー情報を見つける方法
 
@@ -45,21 +41,36 @@ Microsoft Azure Synapse Analytics データ ソースを設定するには、以
 | 2\. **ipconfig** を入力します。             | 2\. **$/bin/ifconfig** を入力します。   | 2\. 接続を選択します。                                   |
 | **IPv4 Address** は IP アドレスです。 | **Inet addr** は IP アドレスです。 | **IP アドレス** フィールドに必要な情報が含まれます。 |
 
-## ビューの作業
+## Setting Up Your Data
 
-MS Azure Synapse Analytics でデータベースに接続すると、表全体または特定のビューからデータを取得することを選択できます。
+Once you connect to a database in MS Azure Synapse Analytics, you can
+choose to retrieve data from an entire table, a particular view or stored procedure.
 
-Azure Synapse Analytics を使用する場合のビューの操作は、MS SQL Server を使用する場合のビューの操作とよく似ています。詳細については、**MS SQL Server データ ソース** トピックの[このセクション](Microsoft-SQL-Server.html#working-with-views)を参照してください。
+<img src="./images/data-source-details-microsoft-azure-synapse-analytics.png" alt="A data source details dialog" class="responsive-img" width="55%"/>
+
+Working with tables, views and stored procedures when using Azure Synapse Analytics closely resembles
+working with data from MS SQL Server. For more information,
+please refer to [this section](https://wp-staging.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/microsoft-sql-server#setting-up-your-data)
+of the **MS SQL Server data source** topic.
+
+## Working in the Visualization editor
+
+Once your data source has been added, you will be taken to the *Visualizations Editor*. Here you can build your dashboard. 
+
+Keep in mind tha the *Column* visualization will be selected by default. You can click/tap on it in order to choose another chart type.
+
+<img src="./images/microsoft-azure-synapse-analytics-visualization-editor.png" alt="Using data from microsoft azure synapse analytics account in the visualization editor" class="responsive-img" width="85%"/>
 
 ## 表示形式エディターでの制限事項
 
-Reveal でビッグ データを操作する場合、数百万のレコードを格納するデータ ソースを処理するために使用される特定のアプローチにより、表示形式エディターにはいくつかの制限があります。
+Reveal でビッグ データを操作する場合、数百万のレコードを格納するデータ ソースを処理するために使用される特定のアプローチにより、**表示形式エディター**にはいくつかの制限があります。
 
 ### 計算フィールドで使用できる関数の制限
 
 現在、Azure Synapse Analytics のデータを使用する*計算フィールド*で、使用できる**関数**の数は限られています。
 
-- [論理](~/jp/data-visualizations/fields/calculated-fields/logic.html) - false; true; not。
+- [Date](https://www.slingshotapp.io/en/help/docs/analytics/data-visualizations/fields/calculated-fields/date) - day; month; year; quarter; monthname; applytimezone; currenttimezone.
+- [論理](~/jp/data-visualizations/fields/calculated-fields/logic.html) - false; true; if; not。
 - [数学](~/jp/data-visualizations/fields/calculated-fields/math.html) - abs; log; log10; sign; sqrt。
 - [文字列](~/jp/data-visualizations/fields/calculated-fields/string.html) - find; len; trim; lower; mid; upper。
 

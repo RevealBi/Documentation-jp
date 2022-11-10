@@ -13,25 +13,21 @@ _language: ja
 
 Microsoft SQL サーバー データ ソースを構成するには、以下の情報が必要です。
 
-<img src="images/Enter-SQL-Server-Details.png" alt="Enter SQL Server Details" class="responsive-img"/>
+<img src="images/enter-microsoft-sql-credentials.png" alt="Enter SQL Server Details" class="responsive-img" width="50%"/>
 
-1.  データ ソースの**デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Microsoft SQL Server* という名前を付けます。好みに合わせて変更できます。
+1. **[[サーバー](#how-to-find-server)]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 
-2.  **[[サーバー](#how-to-find-server)]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
+2.  **[ポート]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Reveal はデフォルトでヒント テキスト (1433) のポートに接続します。
 
-3.  **[ポート]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Reveal はデフォルトでヒント テキスト (1433) のポートに接続します。
+3.  **[資格情報]**: [資格情報] を選択した後、Microsoft SQL Server の資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます
 
-4.  **[資格情報]**: [資格情報] を選択した後、Microsoft SQL Server の資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます
+      - **Username**: the user account for the SQL Server or the name of the domain.
 
-      - **[名前]**: データ ソース アカウントの名前。以前のダイアログのアカウントのリストに表示されます。
+      - **Password**: the password to access the SQL Server.
 
-      - (オプション) の **[ドメイン]**: ドメイン名 (適用可能な場合)。
+      - **Alias**: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Analytics names it Microsoft SQL Server. You can change it to your preference.
 
-      - **[ユーザー名]**: SQL サーバーのユーザー アカウント
-
-      - **[パスワード]**: SQL サーバーのパスワード
-
-    準備ができたら、**[作成して使用]** を選択します。
+    Once ready, select **Add** and then **Add Server**.
 
 <a name='how-to-find-server'></a>
 ## サーバー情報を見つける方法
@@ -59,11 +55,11 @@ Microsoft SQL サーバー データ ソースを構成するには、以下の�
 
 Reveal を使用すると、テーブル全体から SQL Server データを取得できますが、代わりにテーブルまたはテーブルのセットからデータのサブセットを返す、特定の[ビュー](https://docs.microsoft.com/ja-jp/sql/relational-databases/views/views?view=sql-server-2017)を選択することもできます。
 
-<img src="images/SQLServerViews_All.png" alt="SQLServerViews\_All" class="responsive-img"/>
+<img src="images/microsoft-sql-views.png" alt="SQLServerViews\_All" class="responsive-img" width="60%"/>
 
-上記のサンプルでは、**Alphabetical list of products** ビューに SQL サーバーの **Products** テーブルのデータの一部が含まれています。
+In the sample below, the **Invoices** view contains part of the data in the **Alphabetical list of products** table in the SQL Server.
 
-<img src="images/AlphabeticalListProductsSQLServer_All.png" alt="AlphabeticalListProductsSQLServer\_All" class="responsive-img"/>
+<img src="images/sample-microsoft-sql.png" alt="AlphabeticalListProductsSQLServer\_All" class="responsive-img" width="85%"/>
 
 ビューおよび MS SQL サーバーの詳細については、[この Web サイト](https://docs.microsoft.com/ja-jp/sql/relational-databases/views/views?view=sql-server-2017)を参照してください。
 
@@ -71,15 +67,15 @@ Reveal を使用すると、テーブル全体から SQL Server データを取�
 
 MS SQL では、保管されたプロシージャを利用することで、特定のパラメーターを使用して、リレーショナル データベースで一連のクエリ ステートメントを実行できます。以下は、[Northwind](https://docs.microsoft.com/ja-jp/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases) データを使用してテスト サーバーで実行されるサンプル 保管されたプロシージャのセットです。
 
-<img src="images/SQLStoredProcedures_All.png" alt="SQLStoredProcedures\_All" class="responsive-img"/>
+<img src="images/stored-procedures-microsoft-sql.png" alt="SQLStoredProcedures\_All" class="responsive-img" width="55%"/>
 
 たとえば、この保管されたプロシージャは、**Products** テーブルの製品を、**Unit Price** で並べ替えて返します。  **ProductName** の名前は、**TenMostExpensiveProducts** に変更されました。
 
-<img src="images/StoredProcedureSampleResults_All.png" alt="StoredProcedureSampleResults\_All" class="responsive-img"/>
+<img src="images/stored-procedures-sample-result.png" alt="StoredProcedureSampleResults\_All" class="responsive-img" width="85%"/>
 
 この場合、保管されたプロシージャは、**Sales by Year** 情報を表示するための開始日と終了日を設定する必要があります。
 
-<img src="images/Stored-Procedure-Sample-Dates.png" alt="StoredProcedureSampleDates\_All" class="responsive-img"/>
+<img src="images/stored-procedures-parameters-sample.png" alt="StoredProcedureSampleDates\_All" class="responsive-img" width="65%"/>
 
 ストアドプロシージャおよび MS SQL サーバーの詳細については、[この Web サイト](https://docs.microsoft.com/ja-jp/sql/relational-databases/stored-procedures/stored-procedures-database-engine?view=sql-server-2017)を参照してください。
 

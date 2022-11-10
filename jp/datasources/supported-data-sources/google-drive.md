@@ -8,17 +8,17 @@ _language: ja
 
 Google アカウントでログインしている場合は、Google ドライブがデータ ソースに自動的に追加されます。
 
-<img src="images/google-drive-data-source-automatic.png" alt="Google Drive account in your data sources list" class="responsive-img"/>
+<img src="images/google-drive-list-data-files.png" alt="Google Drive account in your data sources list" class="responsive-img" width="75%">
 
 Google ドライブのデータを使用するには、以下の手順に従ってください。
 
-1.  Google Drive (またはその中のフォルダー) を選択すると、以下のログイン プロンプトが表示されます。
+1.  Upon selecting your Google Drive (or a folder inside it), you will be prompt to choose an account and connect it to the app. Enter your **login credentials** or choose an an account and select *Next*.
 
-    <img src="images/google-drive-login.png" alt="Google Drive Login" width="40%"/>
+    <img src="images/google-drive-login-credentials.png" alt="Google Drive Login" class="responsive-img" width="50%">
+    
+2. An **authorization prompt** will pop up. You can select **Allow** to finish the process.
 
-    **ログイン情報**を入力し [次へ] を選択します。
-
-2. **承認プロンプト**で、[許可] を選択して、Reveal が Google ドライブ ファイルを使用 (表示、編集、作成、削除) することを承認します。
+   <img src="images/google-drive-permissions.png" alt="Google Drive Login" class="responsive-img" width="40%">
 
 これで、Google ドライブのデータを使用して表示形式を構築できるようになり、これらの権限を再度求められることはありません。
 
