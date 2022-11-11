@@ -8,7 +8,7 @@ _language: ja
 
 このチュートリアルでは、サンプル スプレッドシートを使用して画像の表示形式を作成する方法を説明します。
 
-<img src="images/ImageVisualizationDashboard_All.png" alt="ImageVisualizationDashboard\_All.png" class="responsive-img"/>
+<img src="../images/image-chart-sample.png" alt="A sample showing different image chart visualizations in one dashboard" class="responsive-img"/>
 
 ## 重要なコンセプト
 
@@ -20,18 +20,24 @@ _language: ja
 
 ## サンプル データ ソース
 
-このチュートリアルでは、[Reveal チュートリアル スプレッドシート](https://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx)の「Image Chart」シートを使用します。
+このチュートリアルでは、[Slingshot Visulization Tutorials](https://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx) の「Image Chart」シートを使用します。
 
->[!NOTE]
->このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[ウェブ リソース](~/jp/datasources/supported-data-sources/web-resource.html)として追加してください。
+ 1. In **My Analytics**, select the **+ Dashboard button** in the top right-hand corner.
 
-## 画像チャートを作成する方法
+    <img src="./images/button-dashboard.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="85%"/> 
 
-|                                          |                                                                                                |                                                                                                                                                      |
-| ---------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **ダッシュボードを作成する**               | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img"/>                   | ダッシュボード ビューアーで、[ダッシュボード] 画面の右上隅にある [+ ダッシュボード] ボタンを選択します。|
-| 2\. **データ ソースを構成する**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" class="responsive-img"/>                       | [新しい表示形式] ウィンドウで、右下隅の [+ データ ソース] ボタンを選択し、データ ソースを選択します。                                       |
-| 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-Image-View-Spreadsheet.png" alt="Tutorials-Select-Image-View-Spreadsheet" class="responsive-img"/> | データ ソースを設定したら、**Reveal チュートリアル スプレッドシート**を選択します。次に、Image View シートを選択し、[データを選択] を選択します。                               |
-| 4\. **表示形式メニューを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" class="responsive-img"/>     | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                |
-| 5\. **表示形式を選択する**        | <img src="images/Tutorial-Image-View-Select.png" alt="Tutorial-Image-View-Select" class="responsive-img"/>                           | デフォルトで、表示形式のタイプは**グリッド**に設定されています。**[画像]** オプションを選択してください。                                                               |
-| 6\. **データを構成する**               | <img src="images/Tutorials-ImageView-Organizing-Data.png" alt="Tutorials-ImageView-Organizing-Data" class="responsive-img"/>         | 使用可能なフィールドのいずれかを **[URL]** にドラッグします。                                                                                                       |
+ 2. A dialog will open, contening a list of already added data source. The Visualization Tutorial file will be there as a data source if you have already used it. In case you haven't added the file, you can click/tap on **+Data Source** > **Data Files** > **+New** >**Upload** >select the file and click/tap on **Select and Continue** to include it in the list.
+
+    <img src="images/select-your-data-source.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="85%"/>
+
+ 3. Once the data source is configured, select the *Image View* sheet.                                
+
+    <img src="images/select-image-view.png" alt="Tutorials-Select-Image-View-Spreadsheet" class="responsive-img" width="57%"/>
+
+ 4. By default, the visualization type will be set to *Column*. Select the *Image* option.      
+
+    <img src="../images/list-of-chart-types.png" alt="Tutorial-Image-View-Select" class="responsive-img" width="57%"/>   
+                                                      
+5. Drag any of the available fields into **URL**.        
+
+   <img src="../images/image-chart-data-organization.png" alt="Tutorials-ImageView-Organizing-Data" class="responsive-img" width="57%"/>

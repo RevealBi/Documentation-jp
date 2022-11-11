@@ -8,9 +8,11 @@
 
 Reveal で利用可能なデータ ソースの一部では、サーバー上で直接データを処理するアプローチ**のみ**が使用可能です。以下があります: 
 
-* Amazon Redshift
-* Google BigQuery
-* Microsoft Azure Synapse Analytics  
+* [Amazon Redshift](https://www.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/redshift)
+* [Google BigQuery](https://www.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/google-bigquery)
+* [MS Azure Synapse Analytics](https://www.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/microsoft-azure-synapse-analytics) 
+* [Snowflake](https://www.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/snowflake)
+* [Amazon Athena](https://www.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/athena)  
 
 サーバーでのデータ処理は、次のデータ ソースに対して**有効**にできるオプションです:
 
@@ -23,9 +25,9 @@ Reveal で利用可能なデータ ソースの一部では、サーバー上で
 **サーバー上でデータを処理**機能を有効にして、それをサポートするデータ ソース (上記を参照) のいずれかに接続できます。
 
 データ ソースの初期構成を行う方法の詳細については、上記の箇条書きリストで 3 つのデータ ソースのいずれかを選択し、設定方法に関する記事をご覧ください。
-接続を設定すると、[データベースの設定] 画面が開きます:
+接続を設定すると、**[データベースの設定]** 画面が開きます:
 
-<img src="images/process-data-server-checkbox.png" alt="New Process data on server checkbox added in the Set Up the Database dialog in PostgreSQL" class="responsive-img"/>
+<img src="images/process-data-on-server-option.png" alt="New Process data on server checkbox added in the Set Up the Database dialog in PostgreSQL" class="responsive-img" width="55%"/>
 
 **[サーバー上でデータを処理]** がデフォルトで有効になっていることに注意してください。データがサーバー上で処理されるときに、制限されている機能 (以下の**制限**を参照) を使用する必要がある場合は、この機能の横にあるチェックボックスをオフにすることを検討してください。
 
@@ -41,4 +43,4 @@ Reveal で利用可能なデータ ソースの一部では、サーバー上で
 表示形式エディターの[事前計算](~/jp/data-visualizations/fields/calculated-fields/overview.html#precalculated[-fields)フィールド機能に制限が適用されます。使用できない関数は、**[計算フィールドの作成]** ダイアログでグレーアウトされます。
 このダイアログで、リンクをクリックして、**サーバー上でデータを処理**機能を無効にすることができます。
 
-<img src="images/pre-calculated-fields-unavailable-process-data-server.png" alt="Disable Process Data on Server prompt in the Calculated Fields dialog" class="responsive-img"/>
+<img src="images/unavailable-functions-message.png" alt="Disable Process Data on Server prompt in the Calculated Fields dialog" class="responsive-img" width="90%"/>
