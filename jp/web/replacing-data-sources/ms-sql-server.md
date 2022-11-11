@@ -33,11 +33,13 @@ builder.Services.AddControllers().AddReveal( builder =>
 各 `RVDataSourceItem` を `RVSqlServerDataSourceItem` としてキャストし、そのプロパティを次のように変更することで、ダッシュボード内のすべての MS SQL Server データ ソース項目の MS SQL Server ホスト、データベース、およびテーブル名を変更できます。
 
 ```cs
-public Task<RVDataSourceItem> ChangeVisualizationDataSourceItemAsync(RVVisualization visualization, RVDataSourceItem dataSourceItem)
+public class MyDataSourceProvider : IRVDataSourceProvider
 {
-    var sqlServerDsi = dataSourceItem as RVSqlServerDataSourceItem;
-    if (sqlServerDsi != null)
+    public Task<RVDataSourceItem> ChangeDataSourceItemAsync(IRVUserContext userContext, string dashboardId, RVDataSourceItem dataSourceItem)
     {
+        var sqlServerDsi = dataSourceItem as RVSqlServerDataSourceItem;
+        if (sqlServerDsi != null)
+        {
         // Change SQL Server host
         var sqlServerDS = (RVSqlServerDataSource)sqlServerDsi.DataSource;
         sqlServerDS.Host = "10.0.0.20";
@@ -46,9 +48,10 @@ public Task<RVDataSourceItem> ChangeVisualizationDataSourceItemAsync(RVVisualiza
         sqlServerDsi.Database = "Adventure Works";
         sqlServerDsi.Table = "Employees";
         return Task.FromResult((RVDataSourceItem)sqlServerDsi);
-    }
+        }
 
-    return Task.FromResult(dataSourceItem);
+        return Task.FromResult(dataSourceItem);
+    }
 }
 ```
 
