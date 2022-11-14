@@ -72,4 +72,4 @@ Reveal でビッグ データを操作する場合、数百万のレコードを
 
 ### データ ブレンディングの制限
 
-現在、Azure Synapse Analytics データ ソースからのデータを使用する場合、データ ブレンディング ([データ ソースを 1 つの表示形式に統合](~/jp/datasources/data-blending.md))は**使用できません**。
+現在、Azure Synapse Analytics データ ソースからのデータを使用する場合、データ ブレンディング ([データ ソースを 1 つの表示形式に統合](~/jp/datasources/data-blending.md)) は**使用できません**。
