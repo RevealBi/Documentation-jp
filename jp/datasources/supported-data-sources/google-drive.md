@@ -12,11 +12,11 @@ Google アカウントでログインしている場合は、Google ドライブ
 
 Google ドライブのデータを使用するには、以下の手順に従ってください。
 
-1.  Upon selecting your Google Drive (or a folder inside it), you will be prompt to choose an account and connect it to the app. Enter your **login credentials** or choose an an account and select *Next*.
+1.  Google ドライブ (またはその中のフォルダー) を選択すると、アカウントを選択してアプリに接続するよう求められます。**ログイン情報**を入力するか、アカウントを選択して [次へ] を選択します。
 
     <img src="images/google-drive-login-credentials.png" alt="Google Drive Login" class="responsive-img" width="50%">
     
-2. An **authorization prompt** will pop up. You can select **Allow** to finish the process.
+2. **認証プロンプト**が表示されます。**[Allow] (許可)** を選択してプロセスを終了できます。
 
    <img src="images/google-drive-permissions.png" alt="Google Drive Login" class="responsive-img" width="40%">
 

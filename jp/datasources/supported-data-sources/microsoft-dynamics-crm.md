@@ -16,29 +16,29 @@ Microsoft Dynamics CRM データ ソースを構成するには、以下の情�
 
 3.  **[資格情報]**: [資格情報] を選択した後、Microsoft Dynamics CRM サイトの資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
 
-     - **Username**: the user account for the Dynamics CRM website or the name of the domain.
+     - **ユーザー名**: Dynamics CRM web サイトのユーザー アカウントまたはドメイン名。
 
-      - **Password**: the password for the Dynamics CRM website.
+      - **パスワード**: Dynamics CRM web サイトのパスワード。
 
       - **Alias**: データ ソース アカウントの名前。以前のダイアログのアカウントのリストに表示されます。
 
-Once ready, select **Add**.
+準備ができたら、**[追加]** を選択します。
 
-## Setting Up Your Data
+## データの設定
 
-After logging in, you can set up your Microsoft Dynamics CRM data in the following dialog:
+ログイン後、次のダイアログで Microsoft Dynamics CRM データを設定できます:
 
 <img src="images/microsoft-dynamics-crm-details.png" alt="A dialog for adding the credentials for Microsoft Dynamics CRM" class="responsive-img" width="57%"/>
 
-Here you can choose the Microsoft Dynamics CRM entities you need from:
+ここで、必要な Microsoft Dynamics CRM エンティティを選択できます:
 
-- Popular Entities - this category allows quick selection between the most used entities among users;
-- All Entities- this category displays the full list of entities contained in your Microsoft Dynamics CRM account. You can use the provided search to find quickly the entity you need.
+- 人気のエンティティ - このカテゴリでは、ユーザーが最もよく使用するエンティティをばやく選択できます。
+- すべてのエンティティ - このカテゴリには、Microsoft Dynamics CRM アカウントに含まれるエンティティの完全なリストが表示されます。提供されている検索を使用して、必要なエンティティをすばやく見つけることができます。
 
-## Working in the Visualization editor
+## 表示形式エディターでの作業
 
-Once you have chosen your entity, you will be taken to the *Visualizations Editor*. Here you can build your dashboard. 
+エンティティを選択すると、**表示形式エディター**に移動します。ここでダッシュボードを作成できます。
 
-By default, the *Column* visualization will be selected. You can select it in order to choose another chart type.
+デフォルトでは、*柱状*表示形式が選択されます。それを選択して、別のチャート タイプを選択できます。
 
 <img src="images/microsoft-dynamics-visualization-editor.png" alt="Using the data from Microsoft Dynamics CRM in the visualization editor" class="responsive-img" width="85%"/>

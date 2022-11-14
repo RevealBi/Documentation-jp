@@ -35,13 +35,13 @@ SID を使用して Oracle を構成するには、以下の情報が必要で�
 
 6.  **[資格情報]**: [資格情報] を選択した後、Oracle サーバーの資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
 
-      - **Username**: the user account for the Oracle server or the name of the domain.
+      - **ユーザー名**: Oracle サーバーのユーザー アカウントまたはドメインの名前。
 
-      - **Password**: the password to access the Oracle server.
+      - **パスワード**: Oracle サーバーにアクセスするためのパスワード。
 
-      - **Alias**: the name for your data source account. It will be displayed in the list of accounts in the previous dialog.
+      - **エイリアス**: データ ソース アカウントの名前。以前のダイアログのアカウントのリストに表示されます。
 
-    Once ready, select **Add** and then **Add Server**.
+    準備ができたら、**[追加]** を選択してから **[サーバーの追加]** を選択します。
 
 <a name='using-service'></a>
 ## サービス を使用した Oracle への接続
@@ -60,13 +60,13 @@ SID を使用して Oracle を構成するには、以下の情報が必要で�
 
 5.  **[資格情報]**: [資格情報] を選択した後、Oracle サーバーの資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
 
-      - **Username**: the user account for the Oracle server or the name of the domain.
+      - **ユーザー名**: Oracle サーバーのユーザー アカウントまたはドメインの名前。
 
-      - **Password**: the password to access the Oracle server.
+      - **パスワード**: Oracle サーバーにアクセスするためのパスワード。
 
-      - **Alias**: the name for your data source account. It will be displayed in the list of accounts in the previous dialog.
+      - **エイリアス**: データ ソース アカウントの名前。以前のダイアログのアカウントのリストに表示されます。
 
-    Once ready, select **Add** and then **Add Server**.
+    準備ができたら、**[追加]** を選択してから **[サーバーの追加]** を選択します。
 
 <a name='how-to-find-server'></a>
 ## サーバー情報を見つける方法

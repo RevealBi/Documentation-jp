@@ -20,7 +20,7 @@ Microsoft Azure Synapse Analytics データ ソースを設定するには、以
 
 3.  **[資格情報]**: [資格情報] を選択した後、Microsoft Azure Synapse Analytics の資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
 
-4.  **[データベース]**: Once you have connected to your account, you will get your databases to choose from. When you are ready, click/tap on **Select and Continue**.
+4.  **[データベース]**: アカウントに接続すると、データベースを選択できるようになります。準備ができたら、**[選択して続行]** をクリックまたはタップします。
 
 ## サーバー情報を見つける方法
 
@@ -41,23 +41,19 @@ Microsoft Azure Synapse Analytics データ ソースを設定するには、以
 | 2\. **ipconfig** を入力します。             | 2\. **$/bin/ifconfig** を入力します。   | 2\. 接続を選択します。                                   |
 | **IPv4 Address** は IP アドレスです。 | **Inet addr** は IP アドレスです。 | **IP アドレス** フィールドに必要な情報が含まれます。 |
 
-## Setting Up Your Data
+## データの設定
 
-Once you connect to a database in MS Azure Synapse Analytics, you can
-choose to retrieve data from an entire table, a particular view or stored procedure.
+MS Azure Synapse Analytics でデータベースに接続すると、テーブル全体、特定のビュー、またはストアド プロシージャーからデータを取得することを選択できます。
 
 <img src="./images/data-source-details-microsoft-azure-synapse-analytics.png" alt="A data source details dialog" class="responsive-img" width="55%"/>
 
-Working with tables, views and stored procedures when using Azure Synapse Analytics closely resembles
-working with data from MS SQL Server. For more information,
-please refer to [this section](https://wp-staging.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/microsoft-sql-server#setting-up-your-data)
-of the **MS SQL Server data source** topic.
+Azure Synapse Analytics を使用してテーブル、ビュー、およびストアド プロシージャーを操作することは、MS SQL Server のデータを操作することによく似ています。詳細については、**MS SQL Server データ ソース** トピックの[このセクション](www.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/microsoft-sql-server#setting-up-your-data)を参照してください。
 
-## Working in the Visualization editor
+## 表示形式エディターでの作業
 
-Once your data source has been added, you will be taken to the *Visualizations Editor*. Here you can build your dashboard. 
+データ ソースを追加した後、表示形式エディターが表示されます。ここでダッシュボードを作成できます。
 
-Keep in mind tha the *Column* visualization will be selected by default. You can click/tap on it in order to choose another chart type.
+**柱状**表示形式がデフォルトで選択されることに注意してください。それをクリックまたはタップして、別のチャート タイプを選択できます。
 
 <img src="./images/microsoft-azure-synapse-analytics-visualization-editor.png" alt="Using data from microsoft azure synapse analytics account in the visualization editor" class="responsive-img" width="85%"/>
 

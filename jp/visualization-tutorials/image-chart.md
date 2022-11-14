@@ -22,22 +22,22 @@ _language: ja
 
 このチュートリアルでは、[Slingshot Visulization Tutorials](https://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx) の「Image Chart」シートを使用します。
 
- 1. In **My Analytics**, select the **+ Dashboard button** in the top right-hand corner.
+ 1. **[分析]** で、右上隅にある **[+ ダッシュボード]** を選択します。
 
     <img src="./images/button-dashboard.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="85%"/> 
 
- 2. A dialog will open, contening a list of already added data source. The Visualization Tutorial file will be there as a data source if you have already used it. In case you haven't added the file, you can click/tap on **+Data Source** > **Data Files** > **+New** >**Upload** >select the file and click/tap on **Select and Continue** to include it in the list.
+ 2. ダイアログが開き、すでに追加されているデータ ソースのリストが表示されます。Visualization Tutorial (表示形式チュートリアル) ファイルは、すでに使用している場合はデータ ソースとしてそこにあります。ファイルを追加していない場合は、**[+ データ ソース]** > **[データ ファイル]** > **[+ 新規]** > **[アップロード]** をクリックまたはタップして、ファイルを選択し、**[選択して続行]** ををクリックまたはタップしてリストに含めます。
 
     <img src="images/select-your-data-source.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="85%"/>
 
- 3. Once the data source is configured, select the *Image View* sheet.                                
+ 3. データ ソースを設定した、*Image View* シートを選択します。                                
 
     <img src="images/select-image-view.png" alt="Tutorials-Select-Image-View-Spreadsheet" class="responsive-img" width="57%"/>
 
- 4. By default, the visualization type will be set to *Column*. Select the *Image* option.      
+ 4. デフォルトで、表示形式のタイプは**柱状**に設定されています。**画像**オプションを選択します。
 
     <img src="../images/list-of-chart-types.png" alt="Tutorial-Image-View-Select" class="responsive-img" width="57%"/>   
                                                       
-5. Drag any of the available fields into **URL**.        
+5. 使用可能なフィールドのいずれかを **[URL]** にドラッグします。        
 
    <img src="../images/image-chart-data-organization.png" alt="Tutorials-ImageView-Organizing-Data" class="responsive-img" width="57%"/>

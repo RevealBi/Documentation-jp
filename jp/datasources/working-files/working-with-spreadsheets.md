@@ -108,7 +108,7 @@ _language: ja
 
 Microsoft Excel および Google スプレッドシートを使用する場合、転置機能を使用して列を行から切り替えることができます。
 
-To make this change, you need to first click/tap on the *Preview Data* button for the chosen sheet.
+この変更を行うには、まず、選択したシートの [データのプレビュー] ボタンをクリックまたはタップする必要があります。
 
 >[!NOTE]
 >スプレッドシートの最初の 200 行のみが転置されます。  

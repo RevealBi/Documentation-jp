@@ -56,4 +56,4 @@ public class MyDataSourceProvider : IRVDataSourceProvider
 ```
 
 > [!NOTE]
-> The database **Host** can only be changed on the `RVSqlServerDataSource` object. For all other properties use the `RVSqlServerDataSourceItem`.
+> データベース **Host** は、`RVSqlServerDataSource` オブジェクトでのみ変更できます。他のすべてのプロパティには、`RVSqlServerDataSourceItem` を使用します。

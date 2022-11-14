@@ -21,13 +21,13 @@ Microsoft SQL サーバー データ ソースを構成するには、以下の�
 
 3.  **[資格情報]**: [資格情報] を選択した後、Microsoft SQL Server の資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます
 
-      - **Username**: the user account for the SQL Server or the name of the domain.
+      - **ユーザー名**: SQL Server のユーザー アカウントまたはドメインの名前。
 
-      - **Password**: the password to access the SQL Server.
+      - **パスワード**: SQL Server にアクセスするためのパスワード。
 
-      - **Alias**: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Analytics names it Microsoft SQL Server. You can change it to your preference.
+      - **エイリアス**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、分析は Microsoft SQL Server という名前を付けます。好みに合わせて変更できます。
 
-    Once ready, select **Add** and then **Add Server**.
+    準備ができたら、**[追加]** を選択してから **[サーバーの追加]** を選択します。
 
 <a name='how-to-find-server'></a>
 ## サーバー情報を見つける方法
@@ -57,7 +57,7 @@ Reveal を使用すると、テーブル全体から SQL Server データを取�
 
 <img src="images/microsoft-sql-views.png" alt="SQLServerViews\_All" class="responsive-img" width="60%"/>
 
-In the sample below, the **Invoices** view contains part of the data in the **Alphabetical list of products** table in the SQL Server.
+以下のサンプルでは、**Invoices** ビューに、SQL Server の **Alphabetical list of products** テーブルのデータの一部が含まれています。
 
 <img src="images/sample-microsoft-sql.png" alt="AlphabeticalListProductsSQLServer\_All" class="responsive-img" width="85%"/>
 
