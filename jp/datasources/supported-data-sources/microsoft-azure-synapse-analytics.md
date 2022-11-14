@@ -63,13 +63,13 @@ Reveal でビッグ データを操作する場合、数百万のレコードを
 
 ### 計算フィールドで使用できる関数の制限
 
-現在、Azure Synapse Analytics のデータを使用する*計算フィールド*で、使用できる**関数**の数は限られています。
+現在、Azure Synapse Analytics のデータを使用する**計算フィールド**で、使用できる**関数**の数は限られています。
 
-- [Date](https://www.slingshotapp.io/en/help/docs/analytics/data-visualizations/fields/calculated-fields/date) - day; month; year; quarter; monthname; applytimezone; currenttimezone.
+- [Date](https://www.slingshotapp.io/en/help/docs/analytics/data-visualizations/fields/calculated-fields/date) - day; month; year; quarter; monthname; applytimezone; currenttimezone。
 - [論理](~/jp/data-visualizations/fields/calculated-fields/logic.html) - false; true; if; not。
 - [数学](~/jp/data-visualizations/fields/calculated-fields/math.html) - abs; log; log10; sign; sqrt。
 - [文字列](~/jp/data-visualizations/fields/calculated-fields/string.html) - find; len; trim; lower; mid; upper。
 
 ### データ ブレンディングの制限
 
-現在、Azure Synapse Analytics データ ソースからのデータを使用する場合、データ ブレンディング ([データ ソースを 1 つの表示形式に統合](~/jp/datasources/data-blending.md)) は**使用できません**。
+現在、Azure Synapse Analytics データ ソースからのデータを使用する場合、データ ブレンディング ([データ ソースを 1 つの表示形式に統合](~/jp/datasources/data-blending.md))は**使用できません**。
