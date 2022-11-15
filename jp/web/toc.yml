@@ -3,15 +3,15 @@
 - name: 概要
   href: overview.md
 - name: インストール
-  href: installation.md
-- name: サーバーの構成
-  items:
-    - name: ASP.NET
-      href: configuring-server-aspnet.md    
+  href: installation.md   
 - name: 作業の開始
   items:
-    - name: サーバーの設定
-      href: getting-started-server.md
+    - name: Creating the Server
+      items:
+        - name: ASP.NET Web API
+          href: getting-started-server.md
+        - name: Node.js
+          href: getting-started-server-node.md
     - name: Angular
       href: getting-started-angular.md
     - name: ASP.NET Core Web App
@@ -20,6 +20,10 @@
       href: getting-started-javascript.md
     - name: React
       href: getting-started-react.md
+- name: Configuring the Server
+  items:
+    - name: ASP.NET
+      href: configuring-server-aspnet.md
 - name: ダッシュボードの使用
   header: true
 - name: 作成

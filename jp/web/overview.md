@@ -3,7 +3,6 @@
 Reveal は、組み込み分析用に構築されたビジネス インテリジェンス ソリューションです。Reveal を使用すると、次のことができます:
 
 - 機能豊かなセルフ サービス ダッシュボードと最新のレポート機能を提供します。
-
 - あらゆる JavaScript フレームワーク (React、Angular、Vue JS、Web Components、Blazor など)、Windows Forms、または WPF アプリケーションで使用できます。
 - ブランド エクスペリエンスに合わせて UX をカスタマイズします。
 - ほぼすべてのデータ ソースに接続して、ダッシュボードに入力します。
@@ -41,17 +40,25 @@ Reveal SDK には、データ ソースに関して 2 つの概念がありま�
 
 Reveal はデータを保存せず、資格情報も保存しません。認証を必要とするデータベースまたはその他のデータ ソースからデータを要求する場合、アプリケーション コードは、構成ファイルからデータを読み込むか、安全なストレージに格納することにより、資格情報管理を処理します。Reveal は、これらの資格情報の保存と処理を開発者による実装に委任します。
 
-たとえば、SQL Server データベースのデータにアクセスするための資格情報を設定するには、次のようなコードを使用して接続の詳細を設定します。これらの詳細がどこに保存され、どのように取得されるかは、実装されたサーバー コードによります。
+here are two help topics that will guide you through authentication and authorization API’s:
+-	[Authentication](https://help.revealbi.io/en/web/authentication.html) – Shows how to use both Username/Password and Bearer Token authentication credentials with your data sources.
+-	[User Credentials](https://help.revealbi.io/en/web/user-context.html) – Shows how to retrieve the identity of the authenticated user of your application and send that information to a custom query.
 
-```typescript
-revealView.onDataSourcesRequested = (callback) => {
-   var sqlDataSource = new $.ig.RVSqlServerDataSource();
-   sqlDataSource.host = "your-db-host";
-   sqlDataSource.database = "your-db-name";
-   sqlDataSource.port = 1234;
-   sqlDataSource.title = "My SQL Server";
-   callback(new $.ig.RevealDataSources(\[sqlDataSource\], \[\], true));
-};
+For example, to resolve credentials for a visualization that uses data from a SQL Server database, you would use code similar to this to set connection details. Where those details are stored, and how they are retrieved, is up to your server code.
+
+```c#
+public class AuthenticationProvider: IRVAuthenticationProvider
+{
+    public Task<IRVDataSourceCredential> ResolveCredentialsAsync(IRVUserContext userContext, RVDashboardDataSource dataSource)
+    {
+        IRVDataSourceCredential userCredential = null;
+        if (dataSource is RVSqlServerDataSource)
+        {
+            userCredential = new RVUsernamePasswordDataSourceCredential("sqlserveruser", "password");
+        }
+        return Task.FromResult<IRVDataSourceCredential>(userCredential);
+    }
+}
 ```
 
 SQL Server データ接続を設定する完全なコードを確認するには、この[ヘルプ トピック](https://help.revealbi.io/jp/web/replacing-data-sources/ms-sql-server.html)を参照してください。

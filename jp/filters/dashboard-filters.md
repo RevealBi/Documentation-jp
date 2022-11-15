@@ -8,7 +8,7 @@ _language: ja
 
 ダッシュボード フィルター データセットは、ダッシュボード編集モードを開始することによって定義されます。新しいデータセットを追加するには、[フィルターの追加] のボタン を選択します。
 
-<img src="images/add-new-dashboard-filter.png" alt="Adding a new dashboard filter" class="responsive-img"/>
+<img src="images/filter-options-dashboard.png" alt="List of different filter options for dashboards" class="responsive-img"/>
 
 これにより、適用される可能性のあるダッシュボード フィルターのリストが表示されます。
 以下から選択できます:
@@ -19,12 +19,18 @@ _language: ja
 
 ダッシュボード フィルター リストからデータセットを削除するには、ダッシュボード フィルターの横にあるオーバーフロー ボタンを選択し、**[削除]** を選択します。
 
-<img src="images/remove-dashboard-filter.png" alt="Removing a dashboard filter" class="responsive-img"/>
+<img src="images/delete-filter-option.png" alt="Removing a dashboard filter with the delete option" class="responsive-img"/>
 
 ## ダッシュボード フィルターと表示形式エディター
 
-ダッシュボード エディターに 1 つ以上のダッシュボード フィルターが定義されている場合、フィルター名の下部にある **[接続]** をクリックするとダッシュボード フィルターのデータを表示形式にバインドします。
+Once there is at least one Dashboard Filter or Date filter defined in the Dashboard
+Editor, you will be able to bind the data in that Dashboard Filter or the Date filter to a
+visualization by selecting **Connect** under the filter's name.
 
-<img src="images/connect-dashboard-filter-visualization-editor.png" alt="Connecting to a dashboard filter in the visualization editor" class="responsive-img"/>
+<img src="images/dashboard-filter-connection-option-visualization-editor.png" alt="Connecting to a dashboard filter in the visualization editor" class="responsive-img"/>
+
+Alternatively, you can connect the data in the *Date filter* dialog or in the *Dashboard filter* dialog.
+
+<img src="images/dashboard-filter-dialog-connect-option.png" alt="Connecting to a dashboard filter in the visualization editor" class="responsive-img" width="60%"/>
 
 バインド機能の詳細については、[ダッシュボード フィルターを表示形式に接続](connecting-dashboard-filters-visualization.html)トピックを参照してください。

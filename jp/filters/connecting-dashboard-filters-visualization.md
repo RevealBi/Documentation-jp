@@ -8,24 +8,26 @@ _language: ja
 
 表示したデータをダッシュボード フィルターにバインドする 2 つの方法があります:
 
-<img src="images/dashboard-filters-menu.png" alt="dashboard filters menu" class="responsive-img"/>
+<img src="images/dashboard-filters-menu.png" alt="dashboard filters menu" class="responsive-img" width="60%"/>
 
   - **ダッシュボード フィルター構成の一部として接続** (上記を参照)
     これにより、ダッシュボード フィルターとダッシュボードのすべての表示形式間のバインド構成が可能です。
 
-  - **表示形式エディター**を使用して、ダッシュボード フィルターが作成された後でも、個々の表示形式をバインドできます。
+  - **表示形式エディター** (as shown below) を使用して、ダッシュボード フィルターが作成された後でも、個々の表示形式をバインドできます。
+
+<img src="images/visualization-editor-dashboard-filter.png" alt="dashboard filters in the visualization editor" class="responsive-img" width="70%"/>
 
 いずれの場合もダッシュボード フィルター データセットのフィールドへリンクするルールを追加してバインドが定義されます。([フィールドのバインド](#field-binding))
 表示形式エディターまたは [ダッシュボード フィルター] メニューで [切断] を選択すると、表示形式のバインドをいつでも削除できます。
 
-<img src="images/disconnecting-dashboard-filter.png" alt="disconnecting dashboard filters from a visualization" class="responsive-img"/>
+<img src="images/disconnect-option-dashboard-filter.png" alt="Option to disconnect dashboard filters from a visualization" class="responsive-img" width="60%"/>
 
 <a name='field-binding'></a>
 ## フィールドのバインド
 
 フィールドのバインでは、ダッシュボード フィルターのデータセット スキーマ、および表示形式のスキーマ間の結合関係を構成することができます。使用する [ダッシュボード フィルター] を選択して**接続します**。
 
-<img src="images/pivot-editor-view-field-binding.png" alt="field binding menu" class="responsive-img"/>
+<img src="images/editor-view-dashboard-filter.png" alt="field binding menu" class="responsive-img" width="60%"/>
 
 上記のダイアログで以下を構成する必要があります。
 
@@ -48,7 +50,7 @@ _language: ja
 
 ダッシュボード フィルターをパラメーターに接続するには、[フィールド バインド](#フィールドのバインド)の手順に従います。データ ソース パラメーターは、[フィルター接続の編集] ダイアログの表示形式ドロップダウン リストの下部にあります。
 
-<img src="images/parameters-binding_All.png" alt="parameters binding list" class="responsive-img"/>
+<img src="images/data-source-parameters-dashboard-filter.png" alt="parameters binding list" class="responsive-img" width="37%"/>
 
 
 >[!NOTE]
