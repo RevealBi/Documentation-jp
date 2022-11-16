@@ -14,7 +14,7 @@
 *Datasources* をローカル フォルダーとして設定するための参照として、*Reveal.Sdk.Samples.UpMedia.Wpf* サンプル アプリケーションを使用できます。サンプル アプリケーションには、**Reveal SDK** のインストールが付随しています。 
 5. プロジェクトに**新しい *CloudToLocalDatasourceProvider* クラスを追加します**。   
 6. 以下の**コード** セクションの関連するスニペットから**実装コードをコピーします**。
-7. *RevealSdkSettings* クラスの ***DataSourceProvider* プロパティを *CloudToLocalDatasourceProvider* に設定します**:   
+7. *RevealSdkSettings* クラスの ***DataSourceProvider* プロパティを *CloudToLocalDatasourceProvider* に設定します**:
 
 ``` csharp
     RevealSdkSettings.DataSourceProvider = new CloudToLocalDatasourceProvider();

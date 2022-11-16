@@ -17,7 +17,7 @@ Reveal には、クライアント アプリケーションへのダッシュボ
 
 この図は、SDK コンポーネントについて説明しています。  
 
-![reveal-high-level-architecture](images/overview-high-level-architecture.png)
+![reveal-high-level-architecture](images/overview-high-level-architecture.jpg)
 
 Reveal クライアントには、クライアントが要求と応答を送受信するサーバーのエンドポイントである baseUrl プロパティがあります。
 
