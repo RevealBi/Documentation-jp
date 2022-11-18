@@ -40,11 +40,11 @@ Reveal SDK には、データ ソースに関して 2 つの概念がありま�
 
 Reveal はデータを保存せず、資格情報も保存しません。認証を必要とするデータベースまたはその他のデータ ソースからデータを要求する場合、アプリケーション コードは、構成ファイルからデータを読み込むか、安全なストレージに格納することにより、資格情報管理を処理します。Reveal は、これらの資格情報の保存と処理を開発者による実装に委任します。
 
-here are two help topics that will guide you through authentication and authorization API’s:
--	[Authentication](https://help.revealbi.io/en/web/authentication.html) – Shows how to use both Username/Password and Bearer Token authentication credentials with your data sources.
--	[User Credentials](https://help.revealbi.io/en/web/user-context.html) – Shows how to retrieve the identity of the authenticated user of your application and send that information to a custom query.
+認証および承認 API について説明する 2 つのヘルプ トピックがあります。
+-	[認証](https://help.revealbi.io/jp/web/authentication.html) – データ ソースでユーザー名/パスワードとベアラー トークンの両方の認証資格情報を使用する方法を示します。
+-	[ユーザー資格情報](https://help.revealbi.io/jp/web/user-context.html) – アプリケーションの認証済みユーザーの ID を取得し、その情報をカスタム クエリに送信する方法を示します。
 
-For example, to resolve credentials for a visualization that uses data from a SQL Server database, you would use code similar to this to set connection details. Where those details are stored, and how they are retrieved, is up to your server code.
+たとえば、SQL Server データベースのデータを使用する表示形式の資格情報を解決するには、次のようなコードを使用して接続の詳細を設定します。これらの詳細がどこに保存され、どのように取得されるかは、実装されたサーバー コードによります。
 
 ```c#
 public class AuthenticationProvider: IRVAuthenticationProvider

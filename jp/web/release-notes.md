@@ -1,5 +1,30 @@
 # リリース ノート
 
+
+## 1.3.0 (11 月 2022 年)
+
+### 新機能
+- Export dashboards from the backend:
+```csharp
+var pdfStream = await dashboardExporter.ExportToPdf(dashboardId);
+```
+- New Data Source: Google Analytics 4.
+- **Interactive Dashboard Filtering.** Filter all visualizations using the same data source by clicking on a chart or pivot table data point. Enable with: `revealView.interactiveFilteringEnabled = true`.
+- Methods containing a callback now include an additional signature allowing for promise method handling:
+```javascript
+$.ig.RevealUtility.loadDashboard(dashboardId).then(dashboard => {
+  revealView.dashboard = dashboard;
+});
+```
+- Manually loading of default fonts using the `ensureFontsLoadedAsync` method from `$.ig.revealSdkSettings` is no longer required.
+- New function 'DateDiff' for calculated fields.
+
+### バグ修正
+- Fix error when filtering boolean values in Postgres & Redshift ("operator does not exist")
+- Fix localization not working when the locale contains an hyphen
+- Fix for `IRVDataSourceProvider.ChangeDataSourceItem` not invoked when creating a new visualization from a REST data source.
+- Removed new http header 'XRID' that was accidentally added in v1.2.3 and was causing issues with CORS.
+
 ## 1.2.3 (10 月 2022 年)
 
 ### 新機能
