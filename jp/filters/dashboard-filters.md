@@ -23,13 +23,11 @@ _language: ja
 
 ## ダッシュボード フィルターと表示形式エディター
 
-Once there is at least one Dashboard Filter or Date filter defined in the Dashboard
-Editor, you will be able to bind the data in that Dashboard Filter or the Date filter to a
-visualization by selecting **Connect** under the filter's name.
+ダッシュボード エディターに 1 つ以上のダッシュボード フィルターまたは日付フィルターが定義されている場合、フィルター名の下部にある **[接続]** をクリックするとダッシュボード フィルターまたは日付フィルターのデータを表示形式にバインドします。
 
 <img src="images/dashboard-filter-connection-option-visualization-editor.png" alt="Connecting to a dashboard filter in the visualization editor" class="responsive-img"/>
 
-Alternatively, you can connect the data in the *Date filter* dialog or in the *Dashboard filter* dialog.
+あるいは、[日付フィルター] ダイアログまたは [ダッシュボード フィルター] ダイアログでデータを接続することもできます。
 
 <img src="images/dashboard-filter-dialog-connect-option.png" alt="Connecting to a dashboard filter in the visualization editor" class="responsive-img" width="60%"/>
 

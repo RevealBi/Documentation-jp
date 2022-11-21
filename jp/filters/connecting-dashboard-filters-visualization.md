@@ -13,7 +13,7 @@ _language: ja
   - **ダッシュボード フィルター構成の一部として接続** (上記を参照)
     これにより、ダッシュボード フィルターとダッシュボードのすべての表示形式間のバインド構成が可能です。
 
-  - **表示形式エディター** (as shown below) を使用して、ダッシュボード フィルターが作成された後でも、個々の表示形式をバインドできます。
+  - **表示形式エディター** (以下を参照) を使用して、ダッシュボード フィルターが作成された後でも、個々の表示形式をバインドできます。
 
 <img src="images/visualization-editor-dashboard-filter.png" alt="dashboard filters in the visualization editor" class="responsive-img" width="70%"/>
 
