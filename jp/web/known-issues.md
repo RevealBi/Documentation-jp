@@ -1,6 +1,6 @@
 # 既知の問題
 
-- Scatter Map / Choropleth visualizations do not show up in programmatically exported dashboards.
+- 散布図/階級区分図の表示形式は、プログラムによってエクスポートされたダッシュボードに表示されません。
 
 - NuGet パッケージを使用する際に、Reveal SDK のライセンス (SDK インストーラーに有効なキーを入力) 後もウォーターマークが表示されてしまうます。 
 

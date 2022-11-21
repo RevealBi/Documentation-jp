@@ -3,14 +3,14 @@
 ## 1.3.0 (11 月 2022 年)
 
 ### 新機能
-- New Data Source: Google Analytics 4.
-- **Interactive Dashboard Filtering.** Filter all visualizations using the same data source by clicking on a chart or pivot table data point. Enable with: `revealView.interactiveFilteringEnabled = true`.
-- New function 'DateDiff' for calculated fields.
-- **Customization of the export path** can now be achieved by using the `DefaultExportPath` property found in `RevealSdkSettings`
+- 新しいデータ ソース: Google アナリティクス 4
+- **インタラクティブなダッシュボードのフィルタリング。**チャートまたはピボット テーブルのデータ ポイントをクリックして、同じデータ ソースを使用してすべての表示形式をフィルター処理します。`revealView.interactiveFilteringEnabled = true` で有効にします。
+- 計算フィールドに新しい 'DateDiff' 関数を追加しました。
+- `RevealSdkSettings` にある `DefaultExportPath` プロパティを使用して、**エクスポート パスをカスタマイズできるようになりました**。
 
 ### バグ修正
-- Fix error when filtering boolean values in Postgres & Redshift ("operator does not exist")
-- Removed new http header 'XRID' that was accidentally added in v1.2.3 and was causing issues with CORS.
+- Postgres & Redshift でブール値をフィルタリングする際のエラー (「演算子が存在しません」) を修正しました。
+- v1.2.3 で誤って追加され、CORS で問題を引き起こしていた新しい http ヘッダー 'XRID' を削除しました。
 
 ## 1.2.3 (10 月 2022 年)
 

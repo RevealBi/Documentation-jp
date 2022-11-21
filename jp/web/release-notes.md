@@ -4,26 +4,26 @@
 ## 1.3.0 (11 月 2022 年)
 
 ### 新機能
-- Export dashboards from the backend:
+- バックエンドからダッシュボードをエクスポートできるようににりました:
 ```csharp
 var pdfStream = await dashboardExporter.ExportToPdf(dashboardId);
 ```
-- New Data Source: Google Analytics 4.
-- **Interactive Dashboard Filtering.** Filter all visualizations using the same data source by clicking on a chart or pivot table data point. Enable with: `revealView.interactiveFilteringEnabled = true`.
-- Methods containing a callback now include an additional signature allowing for promise method handling:
+- 新しいデータ ソース: Google アナリティクス 4
+- **インタラクティブなダッシュボードのフィルタリング。**チャートまたはピボット テーブルのデータ ポイントをクリックして、同じデータ ソースを使用してすべての表示形式をフィルター処理します。`revealView.interactiveFilteringEnabled = true` で有効にします。
+- コールバックを含むメソッドには、promise メソッドの処理を可能にする追加の署名が含まれるようになりました。
 ```javascript
 $.ig.RevealUtility.loadDashboard(dashboardId).then(dashboard => {
   revealView.dashboard = dashboard;
 });
 ```
-- Manually loading of default fonts using the `ensureFontsLoadedAsync` method from `$.ig.revealSdkSettings` is no longer required.
-- New function 'DateDiff' for calculated fields.
+- `$.ig.revealSdkSettings` から `ensureFontsLoadedAsync` メソッドを使用してデフォルトのフォントを手動でロードする必要はなくなりました。
+- 計算フィールドに新しい 'DateDiff' 関数を追加しました。
 
 ### バグ修正
-- Fix error when filtering boolean values in Postgres & Redshift ("operator does not exist")
-- Fix localization not working when the locale contains an hyphen
-- Fix for `IRVDataSourceProvider.ChangeDataSourceItem` not invoked when creating a new visualization from a REST data source.
-- Removed new http header 'XRID' that was accidentally added in v1.2.3 and was causing issues with CORS.
+- Postgres & Redshift でブール値をフィルタリングする際のエラー (「演算子が存在しません」) を修正しました。
+- ロケールにハイフンが含まれている場合にローカリゼーションが機能しない問題を修正しました。
+- REST データ ソースから新しい表示形式を作成するときに、`IRVDataSourceProvider.ChangeDataSourceItem` が呼び出されない問題を修正しました。
+- v1.2.3 で誤って追加され、CORS で問題を引き起こしていた新しい http ヘッダー 'XRID' を削除しました。
 
 ## 1.2.3 (10 月 2022 年)
 
