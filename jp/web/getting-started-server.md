@@ -78,4 +78,4 @@ if (app.Environment.IsDevelopment())
 - [React クライアント アプリの作成](getting-started-react.md)
 
 > [!NOTE]
-> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-aspnetcore/tree/main/01-GettingStarted-Server-WebApi) にあります。
+> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/main/01-GettingStarted/server/aspnet) にあります。

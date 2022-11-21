@@ -109,3 +109,6 @@ app.listen(8080, () => {
 - [Angular クライアント アプリの作成](getting-started-angular.md)
 - [Html/JS クライアント アプリの作成](getting-started-javascript.md)
 - [React クライアント アプリの作成](getting-started-react.md)
+
+> [!NOTE]
+> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/main/01-GettingStarted/server/nodejs) にあります。
