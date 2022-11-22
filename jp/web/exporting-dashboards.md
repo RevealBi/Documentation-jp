@@ -136,11 +136,11 @@ revealView.showExportToPowerPoint = false;
 
 <img src="images/export-powerpoint-options.jpg" alt="" width="60%"/>
 
-## Server Export
+## サーバーのエクスポート
 
-Dashboards can be exported to Excel, PDF, or PowerPoint on the server without the need of a UI. Also known as a "headless export". Exporting dashboards on the server is accomplished by using the `IDashboardExporter`.
+ダッシュボードは、UI を必要とせずに、サーバー上の Excel、PDF、または PowerPoint にエクスポートできます。「ヘッドレス エクスポート」とも呼ばれます。サーバー上のダッシュボードのエクスポートは、`IDashboardExporter` を使用して実行されます。
 
-The `IDashboardExporter` can be obtained by injecting it into your ASP.NET controller or minimal API function as follows:
+`IDashboardExporter` は、次のように ASP.NET コントローラーまたは最小限の API 関数に挿入することで取得できます。
 
 ```csharp
 app.MapGet("/dashboards/export/{name}", async (string name, IDashboardExporter dashboardExporter) =>
@@ -149,8 +149,8 @@ app.MapGet("/dashboards/export/{name}", async (string name, IDashboardExporter d
 }
 ```
 
-### How to Export Dashboards
-The `IDashboardExporter` provides APIs to export a dashboard as a file stream, or to a file path on disk. Each supported export format has an API to help simplify the export process.
+### ダッシュボードをエクスポートする方法
+`IDashboardExporter` は、ダッシュボードをファイル ストリームとして、またはディスク上のファイル パスにエクスポートするための API を提供します。サポートされている各エクスポート形式には、エクスポート プロセスを簡素化するための API があります。
 
 **Excel**
 ```csharp 
@@ -180,12 +180,12 @@ await dashboardExporter.ExportToPowerPoint(dashboardName, filePath);
 ```
 
 > [!NOTE]
-> Exporting to the PDF or PowerPoint formats can be time consuming. If invoking a server side export from the UI, be sure to provide a visual indicator to your user that the export is processing.
+> PDF または PowerPoint 形式へのエクスポートには、時間がかかる場合があります。UI からサーバー側のエクスポートを呼び出す場合は、エクスポートが処理中であることを視覚的に示すインジケーターをユーザーに提供してください。
 
-### Provide User Context
-Sometimes dashboards have data sources that require the Reveal SDK [User Context](user-context.md). In this case, you must provide the Reveal SDK `IRVUserContext` as an argument to the export method to ensure a successful dashboard export.
+### ユーザー コンテキストの提供
+ダッシュボードには、Reveal SDK [ユーザー コンテキスト](user-context.md)を必要とするデータ ソースがある場合があります。この場合、エクスポート メソッドの引数として Reveal SDK の `IRVUserContext` を指定して、ダッシュボードのエクスポートを確実に成功させる必要があります。
 
-The first step to obtain the `IRVUserContext` is to inject the `IRVUserContextProvider` and `IHttpContextAccessor` into the ASP.NET controller or minimal API function. Next, make a call to the `IRVUserContextProvider.GetUserContext` passing the `IHttpContextAccessor.HttpContext` as an argument.
+`IRVUserContext` を取得する最初の手順は、`IRVUserContextProvider` と `IHttpContextAccessor` を ASP.NET コントローラーまたは最小限の API 関数に挿入することです。次に、引数として `IHttpContextAccessor.HttpContext` を渡して `IRVUserContextProvider.GetUserContext` を呼び出します。
 
 ```csharp
 app.MapGet("/dashboards/export/{name}", async (string name, IDashboardExporter dashboardExporter, 
@@ -195,41 +195,41 @@ app.MapGet("/dashboards/export/{name}", async (string name, IDashboardExporter d
 }
 ```
 
-Once you have the `IRVUserContext` instance you can pass it as an argument to the export method.
+`IRVUserContext` インスタンスを取得したら、それを引数として export メソッドに渡すことができます。
 
 ```csharp
-//export to stream
+//ストリームにエクスポート
 var stream = await dashboardExporter.ExportToExcel(dashboardName, userContext);
 
-//export to file
+//ファイルにエクスポート
 await dashboardExporter.ExportToExcel(dashboardName, filePath, userContext);
 ```
 
-### Export Options
-Each export format supports various options when exporting a dashboard. For example, you can add the author's name to the header of each page, or add the comapny's name to each page footer.
+### エクスポート オプション
+各エクスポート形式は、ダッシュボードをエクスポートする際のさまざまなオプションをサポートしています。たとえば、各ページのヘッダーに著者名を追加したり、各ページのフッターに会社名を追加したりできます。
 
-Each export format has a specific options object:
-- Excel: use the `ExcelExportOptions` object
-- PDF: use the `PdfExportOptions` object
-- PowerPoint: use the `PowerPointExportOptions` object
+各エクスポート形式には、特定のオプション オブジェクトがあります:
+- Excel: `ExcelExportOptions` オブジェクトを使用
+- PDF: `PdfExportOptions` オブジェクトを使用
+- PowerPoint: `PowerPointExportOptions` オブジェクトを使用
 
-To set options for a dashboard export, create an instance of the export format options class and provide it as an argument to the export method.
+ダッシュボード エクスポートのオプションを設定するには、エクスポート形式オプション クラスのインスタンスを作成し、それを引数として export メソッドに提供します。
 
 ```csharp
-//create Pdf options
+//Pdf オプションの作成
 var pdfOptions = new PdfExportOptions()
 {
     Landscape = true
 };
 
-//export Pdf to stream
+//Pdf をストリームにエクスポート
 var stream = await dashboardExporter.ExportToPdf(dashboardName, options: pdfOptions);
 ```
 
-### Example: Exporting on the Server
-In this example, we will create a service endpoint that will export a dashboard based on the format.
+### 例: サーバーでのエクスポート
+この例では、形式に基づいてダッシュボードをエクスポートするサービス エンドポイントを作成します。
 
-In an ASP.NET minimal API project, create a new route for the dashboard export. Define the dashboard name and the export format as the route parameters. You'll also need to inject the `IDashboardExporter` to perform the export. Next, create the logic to perform the correct export based on the export format route parameter. Be sure to provide the correct content type when returning the results of the export.
+ASP.NET の最小限の API プロジェクトで、ダッシュボード エクスポート用の新しいルートを作成します。ダッシュボード名とエクスポート形式をルート パラメーターとして定義します。また、エクスポートを実行するために `IDashboardExporter` を挿入する必要があります。次に、エクスポート形式のルート パラメーターに基づいて、正しいエクスポートを実行するためのロジックを作成します。エクスポートの結果を返すときは、必ず正しいコンテンツ タイプを指定してください。
 
 ```csharp
 app.MapGet("/dashboards/export/{name}", async (string name, string format, IDashboardExporter dashboardExporter) =>
@@ -255,14 +255,14 @@ app.MapGet("/dashboards/export/{name}", async (string name, string format, IDash
 });
 ```
 
-In the client application. Create a set of buttons that will invoke a function that will make a call to our service endpoint. 
+クライアント アプリケーションで、サービス エンドポイントを呼び出す関数を実行する一連のボタンを作成します。
 ```html
 <button onclick="onExportButtonClicked('pdf')">Export as PDF</button>
 <button onclick="onExportButtonClicked('xlsx')">Export as Excel</button>
 <button onclick="onExportButtonClicked('pptx')">Export as Power Point</button>
 ```
 
-In this example we are exporting a dashboard named **Sales**, and it will use the export format that was provided by the button being clicked.
+この例では、**Sales** という名前のダッシュボードをエクスポートしています。これは、クリックされたボタンによって提供されたエクスポート形式を使用します。
 ```javascript
 function onExportButtonClicked(format) {
     fetch(`http://localhost:5111/dashboards/export/Sales?format=${format}`)
@@ -282,4 +282,4 @@ function downloadFile(blob, format) {
 ```
 
 > [!NOTE]
-> The source code to this sample can be found on [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/main/Exporting-Server).
+> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/main/Exporting-Server) にあります。
