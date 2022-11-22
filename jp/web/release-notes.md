@@ -9,7 +9,7 @@
 var pdfStream = await dashboardExporter.ExportToPdf(dashboardId);
 ```
 - 新しいデータ ソース: Google アナリティクス 4
-- **インタラクティブなダッシュボードのフィルタリング。**チャートまたはピボット テーブルのデータ ポイントをクリックして、同じデータ ソースを使用してすべての表示形式をフィルター処理します。`revealView.interactiveFilteringEnabled = true` で有効にします。
+- インタラクティブなダッシュボードのフィルタリング。チャートまたはピボット テーブルのデータ ポイントをクリックして、同じデータ ソースを使用してすべての表示形式をフィルター処理します。`revealView.interactiveFilteringEnabled = true` で有効にします。
 - コールバックを含むメソッドには、promise メソッドの処理を可能にする追加の署名が含まれるようになりました。
 ```javascript
 $.ig.RevealUtility.loadDashboard(dashboardId).then(dashboard => {

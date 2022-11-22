@@ -64,7 +64,7 @@ app.listen(8080, () => {
 
 ## 手順 3 - ダッシュボード フォルダーの作成
 
-1 - Visual Studio Code で、エクスプローラーの [**新しいフォルダー**] ボタンをクリックし、**dashboards** という名前を付けます。フォルダーの名前は **「dashboards」** にしてください。
+1 - Visual Studio Code で、エクスプローラーの [**新しいフォルダー**] ボタンをクリックし、**dashboards** という名前を付けます。フォルダーの名前は **dashboards** にしてください。
 
 ![](images/getting-started-server-node--create-dashboards-folder.jpg)
 

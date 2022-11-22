@@ -6,7 +6,7 @@
   href: installation.md   
 - name: 作業の開始
   items:
-    - name: Creating the Server
+    - name: サーバーの作成
       items:
         - name: ASP.NET Web API
           href: getting-started-server.md
@@ -20,7 +20,7 @@
       href: getting-started-javascript.md
     - name: React
       href: getting-started-react.md
-- name: Configuring the Server
+- name: サーバーの構成
   items:
     - name: ASP.NET
       href: configuring-server-aspnet.md
