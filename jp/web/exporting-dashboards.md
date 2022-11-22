@@ -15,14 +15,14 @@ Reveal SDK を使用すると、ダッシュボードと表示形式の両方を
 
 すべてのエクスポート オプションは、ダッシュボードを開いたとき、または視覚化を最大化したときに、`RevealView` オーバー フロー メニューの **[エクスポート]** メニュー項目にあります。
 
-<img src="images/export-menu-item.jpg" alt="" width="25%"/>
+<img src="images/export-menu-item.jpg" alt="" width="20%"/>
 
 ユーザーが **[エクスポート]** ボタンをクリックすると、有効なエクスポート オプションの 1 つを選択できます。
 
 ## Excel へエクスポート
 エンドユーザーが **[エクスポート]** オーバーフロー メニューから **[Excel]** メニュー項目をクリックすると、Excel のエクスポートが実行されます。
 
-<img src="images/export-excel.jpg" alt="" width="25%"/>
+<img src="images/export-excel.jpg" alt="" width="20%"/>
 
 **[Excel]** メニュー項目は、`RevealView.showExportToExcel` プロパティを設定することで表示/非表示にできます。
 
@@ -43,7 +43,7 @@ Reveal SDK では、ダッシュボードまたは表示形式を画像にエク
 ### エンドユーザーによる画像エクスポート
 エンドユーザーの画像のエクスポートは、エンドユーザーが **[エクスポート]** オーバーフロー メニューから **[画像]** メニュー項目をクリックすると実行されます。
 
-<img src="images/export-image.jpg" alt="" width="25%"/>
+<img src="images/export-image.jpg" alt="" width="20%"/>
 
 **[画像]** メニュー項目は、`RevealView.showExportImage` プロパティを設定することで表示/非表示にできます。
 
@@ -109,7 +109,7 @@ function exportToImage() {
 ## PDF へのエクスポート
 PDF エクスポートは、エンドユーザーが **[エクスポート]** オーバーフロー メニューから **[PDF]** メニュー項目をクリックすると実行されます。
 
-<img src="images/export-pdf.jpg" alt="" width="25%"/>
+<img src="images/export-pdf.jpg" alt="" width="20%"/>
 
 **[PDF]** メニュー項目は、`RevealView.ShowExportToPDF` プロパティを設定することで表示/非表示にできます。
 
@@ -124,7 +124,7 @@ revealView.showExportToPDF = false;
 ## PowerPoint へエクスポート
 エンドユーザーが **[エクスポート]** オーバーフロー メニューから **[PowerPoint]** メニュー項目をクリックすると、PowerPoint のエクスポートが実行されます。
 
-<img src="images/export-powerpoint.jpg" alt="" width="25%"/>
+<img src="images/export-powerpoint.jpg" alt="" width="20%"/>
 
 **PowerPoint** メニュー項目は、`RevealView.ShowExportToPowerpoint` プロパティを設定することで表示/非表示にできます。
 

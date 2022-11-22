@@ -40,4 +40,4 @@ _language: ja
                                                       
 5. 使用可能なフィールドのいずれかを **[URL]** にドラッグします。        
 
-   <img src="../images/image-chart-data-organization.png" alt="Tutorials-ImageView-Organizing-Data" class="responsive-img" width="57%"/>
+   <img src="../images/image-chart-data-organization.png" alt="Tutorials-ImageView-Organizing-Data" class="responsive-img" width="30%"/>
