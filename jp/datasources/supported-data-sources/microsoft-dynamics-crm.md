@@ -28,7 +28,7 @@ Microsoft Dynamics CRM データ ソースを構成するには、以下の情�
 
 ログイン後、次のダイアログで Microsoft Dynamics CRM データを設定できます:
 
-<img src="images/microsoft-dynamics-crm-details.png" alt="A dialog for adding the credentials for Microsoft Dynamics CRM" class="responsive-img" width="57%"/>
+<img src="images/microsoft-dynamics-crm-details.png" alt="A dialog containing lists of entities" class="responsive-img" width="57%"/>
 
 ここで、必要な Microsoft Dynamics CRM エンティティを選択できます:
 

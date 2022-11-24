@@ -37,9 +37,9 @@ Amazon Athena のデータ ソースを設定するには、以下の情報が�
 
 Athena データ ソース接続を構成した後、前のダイアログで選択したデータ ソース (カタログ) からデータベースを選択するように求められます。
 
-<img src="images/amazon-athena-views.png" alt="Configure Amazon Athena dialog" class="responsive-img" width="55%"/>
+データベースを選択した後、その中のテーブルまたは[ビュー](https://docs.aws.amazon.com/ja_jp/athena/latest/ug/views.html)から選択できます。
 
-データベースを選択した後、その中の*テーブル*または[*ビュー*](https://docs.aws.amazon.com/ja_jp/athena/latest/ug/views.html)から選択できます。
+<img src="images/amazon-athena-views.png" alt="A dialog containing tables and views" class="responsive-img" width="55%"/>
 
 上記のスクリーンショットの **motor_vehicle_collisions_time_full_view** ビューには、Athena の **motor_vehicle_collisions_full** テーブルにあるデータの変更バージョンが含まれています。
 以下のスクリーンショットでは、左側の表示形式はビューのデータを使用して構築され、右側の表示形式はテーブルに含まれるデータを使用しています。

@@ -25,7 +25,7 @@ Reveal で利用可能なデータ ソースの一部では、サーバー上で
 **サーバー上でデータを処理**機能を有効にして、それをサポートするデータ ソース (上記を参照) のいずれかに接続できます。
 
 データ ソースの初期構成を行う方法の詳細については、上記の箇条書きリストで 3 つのデータ ソースのいずれかを選択し、設定方法に関する記事をご覧ください。
-接続を設定すると、**[データベースの設定]** 画面が開きます:
+接続を設定すると、**[データ ソースの詳細]** ダイアログが表示されます:
 
 <img src="images/process-data-on-server-option.png" alt="New Process data on server checkbox added in the Set Up the Database dialog in PostgreSQL" class="responsive-img" width="55%"/>
 

@@ -50,9 +50,9 @@ JSON ファイルのデータを使用する新しい表示形式を作成する
 
     リストに目的のデータ構造が含まれていない場合は、[**高度な選択モード**](#json-advanced-selection)を使用して、カスタムデータ構造を選択できます。
 
-5.  **[データの読み込み]** をクリック/タップする。
+5.  **[データの読み込み]** をクリック / タップする。
 
-    データ構造を選択し、[データの読み込み] ボタンをクリック/タップして、表示形式エディターを開きます。
+    データ構造を選択し、[データの読み込み] ボタンをクリック / タップして、表示形式エディターを開きます。
 
     <img src="images/visualization-editor-json-file-data.png" alt="Json Files Visualizations Editor" class="responsive-img" width="85%"/>
 
@@ -87,8 +87,8 @@ JSON ファイルを使用して、さまざまなデータ構造を表すこと
 
     <img src="images/different-format-options-json-advanced-selection.png" alt="Json Files Format Fields" class="responsive-img"/>
 
-5.  **[テーブルの作成]** をクリック/タップする。
+5.  **[テーブルの作成]** をクリック / タップする。
 
-    カスタム データ構造を選択後、**[テーブルの作成]** ボタンをクリック/タップして、表示形式エディターを開きます。
+    カスタム データ構造を選択後、**[テーブルの作成]** ボタンをクリック / タップして、表示形式エディターを開きます。
 
     <img src="images/visualization-editor-json-file.png" alt="Using the data from json file to create visualization" class="responsive-img" width="85%"/>
