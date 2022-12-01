@@ -1,38 +1,82 @@
 # ユーザー コンテキスト
 
-ユーザー コンテキストは、アプリケーションの認証済みユーザーの ID を表します。ユーザー コンテキストは、`IRVDashboardProvider`、`IRVAuthenticationProvider`、`IRVDataProvider` などの Reveal SDK プロバイダーで使用して、ユーザーが持つアクセス許可を制限できます。ユーザー コンテキストを Reveal SDK に提供するには、[**IRVUserContextProvider**](https://help.revealbi.io/api/aspnet/latest/Reveal.Sdk.IRVUserContextProvider.html) インターフェイスを実装するクラスを作成する必要があります。
+The User Context represents the identity of the authenticated user of the application. The User Context can be used by Reveal SDK providers such as the `IRVDashboardProvider`, `IRVAuthenticationProvider`, `IRVDataProvider` and others to restrict what permissions the user has.
 
-## サンプル ユーザー コンテキスト プロバイダー
+The user context within the Reveal SDK is represented by the `IRVUserContext` interface and the `RVUserContext` object. The `RVUserContext` is a default implementation of `IRVUserContext`, which provides the ability to store the user id of the current user. The `RVUserContext` object also provides the ability to store additional properties related to a request to be used in other areas of the Reveal SDK such as the authentication provider.
 
-**Step 1** - `SampleUserContextProvider` は [**IRVUserContextProvider**](https://help.revealbi.io/api/aspnet/latest/Reveal.Sdk.IRVUserContextProvider.html) インターフェイスを実装し、`userId` と一連のプロパティの両方を含む [**RVUserContext**](https://help.revealbi.io/api/aspnet/latest/Reveal.Sdk.RVUserContext.html) オブジェクトを返す `GetUserContext` メソッドを定義します。このプロパティのリストを使用して `someCookieName` の値を保存しています。これにより、後でデータ ソースの資格情報が要求されたときに値を取得できます。
+**Step 1** - Create the user context provider
 
-```csharp
-    internal class SampleUserContextProvider : IRVUserContextProvider
+# [ASP.NET](#tab/aspnet)
+
+```cs
+internal class UserContextProvider : IRVUserContextProvider
+{
+    public IRVUserContext GetUserContext(HttpContext aspnetContext)       
     {
-        public IRVUserContext GetUserContext(HttpContext aspnetContext)       
-            {
-                //when using standard auth mechanisms, the userId can be obtained using aspnetContext.User.Identity.Name.
+        //when using standard auth mechanisms, the userId can be obtained using aspnetContext.User.Identity.Name.
+        string userIdentityName = aspnetContext.User.Identity.Name;
+        string userId = (userIdentityName != null) ? userIdentityName : "guest";
 
-                string userIdentityName = aspnetContext.User.Identity.Name;
-                string userId = (userIdentityName != null) ? userIdentityName : "guest";
-
-                //RVUserContext is a default implementation of IRVUserContext, which allows to store properties in addition to the userId, these properties can be used later
-                //for example in the authentication provider. You could store data related to the current request this way. In this case, we are storing the value of "someCookieName".
-
-                return new RVUserContext(
-                    userId,
-                    new Dictionary<string, object>() { { "someKey", aspnetContext.Current.Request.Cookies["someCookieName"].Value } });
-			}       
-    }
+        return new RVUserContext(
+            userId,
+            new Dictionary<string, object>() { { "some-property", aspnetContext.Current.Request.Cookies["some-cookie-name"].Value } });
+    }    
+}
 ```
 
-**手順 2** - `Program.cs` ファイルの `AddReveal` メソッドを更新して、作成した `IRVUserContextProvider` を `RevealSetupBuilder.AddUserContextProvider` メソッドを使用して `RevealSetupBuilder` に追加します。
+# [Java](#tab/java)
 
-```csharp
+```java
+public class UserContextProvider extends RVContainerRequestAwareUserContextProvider {
+	@Override
+	protected IRVUserContext getUserContext(ContainerRequestContext requestContext) {
+        // this can be used to store values coming from the request.
+		var props = new HashMap<String, Object>();
+		props.put("some-property", "some-value");
+
+		return new RVUserContext("user identifier", props);
+	}
+}
+```
+
+# [Node.js](#tab/node)
+
+```javascript
+const userContextProvider = (request:IncomingMessage) => {
+	// this can be used to store values coming from the request.
+    var props = new Map<string, Object>();
+	props.set("some-property", "some-value"); 
+	
+	return new RVUserContext("user identifier", props);
+};
+```
+***
+
+**Step 2** - Register the user context provider with the Reveal SDK.
+
+# [ASP.NET](#tab/aspnet)
+
+```cs
 builder.Services.AddControllers().AddReveal( builder =>
 {
-    builder..AddUserContextProvider<SampleUserContextProvider>();
+    builder..AddUserContextProvider<UserContextProvider>();
 });
 ```
 
-[**RevealBI AspNetCore SDK を使用した Web サンプル アプリケーション**](https://github.com/RevealBi/sdk-samples-aspnetcore/blob/590f79ce822755002bf2ccbbdb6e455ab7f1f3c3/Cookies-Auth/README.md)で実装を見つけることができます。
+# [Java](#tab/java)
+
+```java
+RevealEngineInitializer.initialize(new InitializeParameterBuilder().
+    setUserContextProvider(new UserContextProvider()).
+    build());
+```
+
+# [Node.js](#tab/node)
+
+```javascript
+const revealOptions: RevealOptions {
+	userContextProvider: userContextProvider
+};
+app.use('/reveal-api/', reveal(revealOptions));
+```
+***

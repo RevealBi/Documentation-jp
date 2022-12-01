@@ -18,7 +18,7 @@ _language: ja
 
 ダッシュボード ビュー モードで表示形式を最大化すると、表示形式のタイトルの下に表示されます。
 
-<img src="images/visualization-filter-location.png" alt="The location of the visualization filter in dashboard view maximized" class="responsive-img" width="85%"/>
+<img src="images/location-visualization-filter.png" alt="The location of the visualization filter in dashboard view maximized" class="responsive-img" width="85%"/>
 
 [ダッシュボード フィルター](dashboard-filters.html)同様に、簡易フィルター セクションが変更されると表示形式コンテンツの動的なフィルターが有効になります。
 

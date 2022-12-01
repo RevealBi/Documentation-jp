@@ -14,7 +14,7 @@ _language: ja
 
 2.  [ダッシュボード フィルター] メニューが開きます。デフォルトで、選択されたデータ ソースは、初めての表示形式で使用されるデータ ソースになります。変更するには、データ ソース名の横にあるオーバーフロー ボタンを選択します。
 
-    <img src="images/select-dashboard-filter-data-source-menu.png" alt="Selecting Dashboard Filter data source menu" class="responsive-img" width="80%"/>
+    <img src="images/dashboard-filter-data-source-menu.png" alt="Selecting Dashboard Filter data source menu" class="responsive-img" width="80%"/>
 
 3.  ダッシュボード フィルターとして使用するデータセットを選択し、[データの選択] をクリック/タップします。
 
@@ -87,7 +87,7 @@ Reveal は、複数のダッシュボード フィルター値の同時選択を
 
 たとえば、**Fullname** フィールドを使用して **HR ダッシュボード**のデータをフィルタリングする場合、**ダッシュボード フィルター**は会社のすべてのオフィスの従業員リストを表示します。
 
-<img src="images/data-filters-dashboard-filters-hr-dashboard-example.png" alt="Full name dashboard filter applied to HR Dashboard" class="responsive-img" width="50%"/>
+<img src="images/data-filters-dashboard-filters-hr-dashboard.png" alt="Full name dashboard filter applied to HR Dashboard" class="responsive-img" width="45%"/>
 
 ここでは、特定のオフィスで働いている従業員だけをフィルターとして使用する場合は、**データ フィルター** プロパティを適用でる、たとえば、*London, UK*。それにより、ダッシュボード フィルターには、ロンドンオフィスで働く従業員のリストが表示されます。
 

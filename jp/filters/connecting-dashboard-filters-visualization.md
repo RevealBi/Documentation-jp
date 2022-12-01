@@ -8,7 +8,7 @@ _language: ja
 
 表示したデータをダッシュボード フィルターにバインドする 2 つの方法があります:
 
-<img src="images/dashboard-filters-menu.png" alt="dashboard filters menu" class="responsive-img" width="60%"/>
+<img src="images/dashboard-filters-dialog.png" alt="Dashboard filters dialog" class="responsive-img" width="60%"/>
 
   - **ダッシュボード フィルター構成の一部として接続** (上記を参照)
     これにより、ダッシュボード フィルターとダッシュボードのすべての表示形式間のバインド構成が可能です。
@@ -27,7 +27,7 @@ _language: ja
 
 フィールドのバインでは、ダッシュボード フィルターのデータセット スキーマ、および表示形式のスキーマ間の結合関係を構成することができます。使用する [ダッシュボード フィルター] を選択して**接続します**。
 
-<img src="images/editor-view-dashboard-filter.png" alt="field binding menu" class="responsive-img" width="60%"/>
+<img src="images/editor-view-dashboard-filter.png" alt="Field binding menu" class="responsive-img" width="60%"/>
 
 上記のダイアログで以下を構成する必要があります。
 
@@ -50,7 +50,7 @@ _language: ja
 
 ダッシュボード フィルターをパラメーターに接続するには、[フィールド バインド](#フィールドのバインド)の手順に従います。データ ソース パラメーターは、[フィルター接続の編集] ダイアログの表示形式ドロップダウン リストの下部にあります。
 
-<img src="images/data-source-parameters-dashboard-filter.png" alt="parameters binding list" class="responsive-img" width="37%"/>
+<img src="images/data-source-parameters-dashboard-filter.png" alt="Parameters binding list" class="responsive-img" width="37%"/>
 
 
 >[!NOTE]

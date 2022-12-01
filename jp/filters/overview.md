@@ -10,7 +10,7 @@ _language: ja
 
 たとえば、世界中の場所のリストを含むデータセットを追加して、ダッシュボードのすべての表示形式をバインドできます。このシナリオでは、各ダッシュボードの情報を参照するユーザーが場所ごとに各表示形式のコンテンツをフィルタリングできます。
 
-<img src="images/dashboard-filters-binding.png" alt="Dashboard filter by location added in the Dashboard editor" class="responsive-img" width="85%"/>
+<img src="images/sample-dashboard-filters.png" alt="Dashboard filter by location added in the Dashboard editor" class="responsive-img" width="85%"/>
 
 Reveal は、日付範囲をダッシュボード フィルターとして有効にすることもサポートします。これにより、特定の期間ですべての表示形式をフィルタリングできます。
 

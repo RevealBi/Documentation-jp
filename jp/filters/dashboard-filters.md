@@ -8,7 +8,7 @@ _language: ja
 
 ダッシュボード フィルター データセットは、ダッシュボード編集モードを開始することによって定義されます。新しいデータセットを追加するには、[フィルターの追加] のボタン を選択します。
 
-<img src="images/filter-options-dashboard.png" alt="List of different filter options for dashboards" class="responsive-img"/>
+<img src="images/filter-options-dashboard.png" alt="List of different filter options for dashboards" class="responsive-img" width="85%"/>
 
 これにより、適用される可能性のあるダッシュボード フィルターのリストが表示されます。
 以下から選択できます:
@@ -25,10 +25,10 @@ _language: ja
 
 ダッシュボード エディターに 1 つ以上のダッシュボード フィルターまたは日付フィルターが定義されている場合、フィルター名の下部にある **[接続]** をクリックするとダッシュボード フィルターまたは日付フィルターのデータを表示形式にバインドします。
 
-<img src="images/dashboard-filter-connection-option-visualization-editor.png" alt="Connecting to a dashboard filter in the visualization editor" class="responsive-img"/>
+<img src="images/dashboard-filter-connection-option-visualization-editor.png" alt="Connecting to a dashboard filter in the visualization editor" class="responsive-img" width="85%"/>
 
 あるいは、[日付フィルター] ダイアログまたは [ダッシュボード フィルター] ダイアログでデータを接続することもできます。
 
-<img src="images/dashboard-filter-dialog-connect-option.png" alt="Connecting to a dashboard filter in the visualization editor" class="responsive-img" width="60%"/>
+<img src="images/dashboard-filter-dialog-connect-option.png" alt="A dashboard filter dialog" class="responsive-img" width="58%"/>
 
 バインド機能の詳細については、[ダッシュボード フィルターを表示形式に接続](connecting-dashboard-filters-visualization.html)トピックを参照してください。

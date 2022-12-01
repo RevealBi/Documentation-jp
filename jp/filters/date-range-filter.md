@@ -12,4 +12,4 @@ Reveal は、データをダッシュボード フィルターにバインドす
 
 Reveal では、さまざまな事前設定された日付範囲 (特に、過去 30 日、7 日、または 365 日を含む) を提供していますが、特定の日付範囲内のデータを表示するように範囲を定義することもできます。**[日付フィルター]** ドロップダウンで **[カスタム日付範囲]** を選択すると、パーソナライズされた日、月、および時代のオプションを含むカレンダーが表示されます。
 
-<img src="images/custom-date-range-date-filter.png" alt="Custom Date Range calendar displayed" class="responsive-img" width="68%"/>
+<img src="images/custom-date-range-date-filter.png" alt="Custom Date Range calendar displayed" class="responsive-img" width="70%"/>
