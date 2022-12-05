@@ -1,8 +1,8 @@
-# Setting up the Reveal SDK Server with Spring Boot and Jersey
+# Spring Boot と Jersey を使用した Reveal SDK サーバーのセットアップ
 
-## Step 1 - Create a Spring Boot with Jersey Project
+## 手順 1 - Jersey プロジェクトで Spring Boot を作成する
 
-The steps below describe how to create a new Java Spring Boot with Jersey project. If you want to add the Reveal SDK to an existing application, go to Step 2.
+以下の手順では、Jersey プロジェクトを使用して新しい Java Spring Boot を作成する方法について説明します。既存のアプリケーションに Reveal SDK を追加する場合は、手順 2 へ移動します。
 
 To develop a Spring Boot application in Visual Studio Code, you need to install the following:
 - [Development Kit (JDK)](https://www.microsoft.com/openjdk)
@@ -20,7 +20,7 @@ More information about how to get started with Visual Studio Code and Java can b
 ![](images/getting-started-spring-boot-jersey-version.jpg)
 
 > [!WARNING]
-> Version 3.0.0 is currently not supported
+> バージョン 3.0.0 は現在サポートされていません。
 
 3 - Select **Java**  as the language.
 
@@ -50,11 +50,11 @@ More information about how to get started with Visual Studio Code and Java can b
 
 ![](images/getting-started-spring-boot-jersey-explorer.jpg)
 
-## Step 2 - Add Reveal SDK
+## 手順 2 - Reveal SDK の追加
 
 1 - Update the **pom.xml** file.
 
-First, add the Reveal Maven repository.
+まず、Reveal Maven リポジトリを追加します。
 
 ```xml
 <repositories>
@@ -65,7 +65,7 @@ First, add the Reveal Maven repository.
 </repositories>
 ```
 
-Next, add the Reveal SDK as a dependency.
+次に、Reveal SDK を依存関係として追加します。
 
 ```xml
 <dependency>
@@ -102,7 +102,7 @@ public class RevealJerseyConfig extends ResourceConfig
 }
 ```
 
-## Step 3 - Create Dashboard Provider
+## 手順 3 - ダッシュボード プロバイダーの作成
 
 1 - In Visual Studio Code, select the **resources** folder and then click the New Folder button in the Explorer. Name the new folder **dashboards**.
 
@@ -154,9 +154,9 @@ public class RevealJerseyConfig extends ResourceConfig
 }
 ```
 
-## Step 4 - Setup CORs Policy (Debugging)
+## 手順 4 - CORs ポリシー (デバッグ) の設定
 
-While developing and debugging your application, it is common to host the server and client app on different URLs. For example; your Server my be running on `https://localhost:24519`, while your Angular app may be running on `https://localhost:4200`. If you were to try and load a dashboard from the client application, it would fail because of a Cross-Origin Resource Sharing (CORS) policy. To enable this scenario, you must create a CORS policy and enable it in the server project.
+アプリケーションの開発とデバッグでは、サーバーとクライアント アプリを異なる URL でホストするのが一般的です。例えば、サーバーは `https://localhost:24519` で実行されている可能性がありますが、Angular アプリは `https://localhost:4200` で実行されている可能性があります。クライアント アプリケーションからダッシュボードを読み込もうとすると、Cross-Origin Resource Sharing (CORS) ポリシーが原因で失敗します。このシナリオを有効にするには、CORS ポリシーを作成し、サーバー プロジェクトで有効にする必要があります。
 
 1 - Create a CorsFilter
 
@@ -258,10 +258,10 @@ public class RevealJerseyConfig extends ResourceConfig
 }
 ```
 
-Next Steps:
-- [Create an Angular Client App](getting-started-angular.md)
-- [Create an Html/JS Client App](getting-started-javascript.md)
-- [Create a React Client App](getting-started-react.md)
+次の手順:
+- [Angular クライアント アプリを作成する](getting-started-angular.md)
+- [Html/JS クライアント アプリを作成する](getting-started-javascript.md)
+- [React クライアント アプリを作成する](getting-started-react.md)
 
 > [!NOTE]
-> The source code to this sample can be found on [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/main/01-GettingStarted/server/spring-boot-jersey).
+> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/main/01-GettingStarted/server/spring-boot-jersey) にあります。

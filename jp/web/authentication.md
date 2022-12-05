@@ -1,10 +1,10 @@
 # 認証
 
-The Reveal SDK allows you to provide various methods of authentication such as Username/Password and Bearer Token authentication credentials to your data sources by using an authentication provider and registering that provider with the Reveal SDK.
+Reveal SDK を使用すると、認証プロバイダーを使用し、そのプロバイダーを Reveal SDK に登録することで、ユーザー名 / パスワードおよびベアラー トークン認証資格情報などのさまざまな認証方法をデータ ソースに提供できます。
 
-The authentication provider is used to check which data source is requesting authentication credentials, and then return the correct authentication credentials for that specific data source.
+認証プロバイダーは、認証資格情報を要求しているデータ ソースを確認し、その特定のデータ ソースの正しい認証資格情報を返すために使用されます。
 
-**Step 1** - Create the authentication provider.
+**手順 1** - 認証プロバイダーを作成します。
 
 # [ASP.NET](#tab/aspnet)
 
@@ -39,15 +39,22 @@ const authenticationProvider = async (userContext: IRVUserContext, dataSource: R
 
 ***
 
-**Step 2** - Register the authentication provider with the Reveal SDK.
+**手順 2** - 認証プロバイダーを Reveal SDK に登録します。
 
 # [ASP.NET](#tab/aspnet)
 
-```cs
-builder.Services.AddControllers().AddReveal( builder =>
-{
-    builder.AddAuthenticationProvider<AuthenticationProvider>();
-});
+```js
+const authenticationProvider = async (userContext, dataSource) => {
+    ...
+}
+```
+
+# [Node.js - TypeScript](#tab/node-ts)
+
+```ts
+const authenticationProvider = async (userContext: IRVUserContext | null, dataSource: RVDashboardDataSource) => {
+    ...
+}
 ```
 
 # [Java](#tab/java)
@@ -60,8 +67,18 @@ RevealEngineInitializer.initialize(new InitializeParameterBuilder().
 
 # [Node.js](#tab/node)
 
-```javascript
-const revealOptions: RevealOptions {
+```js
+const revealOptions = {
+	authenticationProvider: authenticationProvider
+};
+
+app.use('/', reveal(revealOptions));
+```
+
+# [Node.js - TypeScript](#tab/node-ts)
+
+```ts
+const revealOptions: RevealOptions = {
 	authenticationProvider: authenticationProvider
 };
 
@@ -84,11 +101,11 @@ public class AuthenticationProvider: IRVAuthenticationProvider
         IRVDataSourceCredential userCredential = null;
         if (dataSource is RVPostgresDataSource)
         {
-            userCredential = new RVUsernamePasswordDataSourceCredential("postgresuser", "password");
+            userCredential = new RVUsernamePasswordDataSourceCredential("username", "password");
         }
         else if (dataSource is RVSqlServerDataSource)
         {
-            userCredential = new RVUsernamePasswordDataSourceCredential("sqlserveruser", "password", "domain");
+            userCredential = new RVUsernamePasswordDataSourceCredential("username", "password", "domain");
         }
         return Task.FromResult<IRVDataSourceCredential>(userCredential);
     }
@@ -102,10 +119,10 @@ public class AuthenticationProvider implements IRVAuthenticationProvider {
 	@Override
 	public IRVDataSourceCredential resolveCredentials(IRVUserContext userContext, RVDashboardDataSource dataSource) {
 		if (dataSource instanceof RVPostgresDataSource) {
-			return new RVUsernamePasswordDataSourceCredential("postgresuser", "password");
+			return new RVUsernamePasswordDataSourceCredential("username", "password");
 		} 
         else if (dataSource instanceof RVSqlServerDataSource) {
-			return new RVUsernamePasswordDataSourceCredential("sqlserveruser", "password", "domain");
+			return new RVUsernamePasswordDataSourceCredential("username", "password", "domain");
 		} 
 		return null;
 	}
@@ -114,12 +131,25 @@ public class AuthenticationProvider implements IRVAuthenticationProvider {
 
 # [Node.js](#tab/node)
 
-```javascript
-const authenticationProvider = async (userContext:IRVUserContext, dataSource: RVDashboardDataSource) => {
+```js
+const authenticationProvider = async (userContext, dataSource) => {
 	if (dataSource instanceof RVPostgresDataSource) {
-		return new RVUsernamePasswordDataSourceCredential("postgresuser", "password");
+		return new RVUsernamePasswordDataSourceCredential("username", "password");
 	} else if (dataSource instanceof RVSqlServerDataSource) {
-		return new RVUsernamePasswordDataSourceCredential("sqlserveruser", "password", "domain");
+		return new RVUsernamePasswordDataSourceCredential("username", "password", "domain");
+	}
+	return null;
+}
+```
+
+# [Node.js - TypeScript](#tab/node-ts)
+
+```ts
+const authenticationProvider = async (userContext:IRVUserContext | null, dataSource: RVDashboardDataSource) => {
+	if (dataSource instanceof RVPostgresDataSource) {
+		return new RVUsernamePasswordDataSourceCredential("username", "password");
+	} else if (dataSource instanceof RVSqlServerDataSource) {
+		return new RVUsernamePasswordDataSourceCredential("username", "password", "domain");
 	}
 	return null;
 }
@@ -148,7 +178,15 @@ if (dataSource instanceof RVSqlServerDataSource) {
 
 # [Node.js](#tab/node)
 
-```javascript
+```js
+if (dataSource instanceof RVSqlServerDataSource) {
+	return new RVUsernamePasswordDataSourceCredential();
+}
+```
+
+# [Node.js - TypeScript](#tab/node-ts)
+
+```ts
 if (dataSource instanceof RVSqlServerDataSource) {
 	return new RVUsernamePasswordDataSourceCredential();
 }
@@ -157,6 +195,7 @@ if (dataSource instanceof RVSqlServerDataSource) {
 ***
 
 `RVUsernamePasswordDataSourceCredential` は、以下のデータ ソースでサポートされます。
+- Amazon Redshift
 - Microsoft Analysis Services サーバー
 - Microsoft Dynamics CRM (オンプレミスおよびオンライン)
 - Microsoft SQL サーバー
@@ -170,7 +209,7 @@ if (dataSource instanceof RVSqlServerDataSource) {
 
 ## ベアラー トークン認証
 
-データ ソースがユーザー名とパスワードの使用を要求する場合、`RVBearerTokenDataSourceCredential` クラスのインスタンスを返す必要があります。`RVBearerTokenDataSourceCredential` クラスは、**トークン**と**ユーザー ID** を定義するコンストラクターのオーバーロードを提供します。
+データ ソースがセキュリティ トークンの使用を要求する場合、`RVBearerTokenDataSourceCredential` クラスのインスタンスを返す必要があります。`RVBearerTokenDataSourceCredential` クラスは、**トークン**と**ユーザー ID** を定義するコンストラクターのオーバーロードを提供します。
 
 # [ASP.NET](#tab/aspnet)
 
@@ -182,7 +221,7 @@ public class AuthenticationProvider: IRVAuthenticationProvider
         IRVDataSourceCredential userCredential = null;
         if (dataSource is RVGoogleDriveDataSource)
         {
-            userCredential = new RVBearerTokenDataSourceCredential("fhJhbUci0mJSUzi1nIiSint....", "user@company.com");
+            userCredential = new RVBearerTokenDataSourceCredential("token", "userid");
         }
         return Task.FromResult<IRVDataSourceCredential>(userCredential);
     }
@@ -196,7 +235,7 @@ public class AuthenticationProvider implements IRVAuthenticationProvider {
 	@Override
 	public IRVDataSourceCredential resolveCredentials(IRVUserContext userContext, RVDashboardDataSource dataSource) {
         if (dataSource instanceof RVGoogleDriveDataSource) {
-            return new RVBearerTokenDataSourceCredential("fhJhbUci0mJSUzi1nIiSint....", "user@company.com");
+            return new RVBearerTokenDataSourceCredential("token", "userid");
         }
 		return null;
 	}
@@ -205,10 +244,21 @@ public class AuthenticationProvider implements IRVAuthenticationProvider {
 
 # [Node.js](#tab/node)
 
-```javascript
-const authenticationProvider = async (userContext:IRVUserContext, dataSource: RVDashboardDataSource) => {
+```js
+const authenticationProvider = async (userContext, dataSource) => {
     if (dataSource instanceof RVGoogleDriveDataSource) {
-        return new RVBearerTokenDataSourceCredential("fhJhbUci0mJSUzi1nIiSint....", "user@company.com");
+        return new RVBearerTokenDataSourceCredential("token", "userid");
+    }
+	return null;
+}
+```
+
+# [Node.js - TypeScript](#tab/node-ts)
+
+```ts
+const authenticationProvider = async (userContext:IRVUserContext | null, dataSource: RVDashboardDataSource) => {
+    if (dataSource instanceof RVGoogleDriveDataSource) {
+        return new RVBearerTokenDataSourceCredential("token", "userid");
     }
 	return null;
 }
@@ -226,3 +276,65 @@ const authenticationProvider = async (userContext:IRVUserContext, dataSource: RV
 - REST サービス
 - SharePoint オンライン
 - ウェブ リソース
+
+## Amazon Web Services
+
+If your data source uses Amazon Web Services (AWS), then you must return an instance of the `RVAmazonWebServicesCredentials` class. The `RVAmazonWebServicesCredentials` class provides constructor overloads to define the **key**, and the **secret**.
+
+# [ASP.NET](#tab/aspnet)
+
+```cs
+public class AuthenticationProvider: IRVAuthenticationProvider
+{
+    public Task<IRVDataSourceCredential> ResolveCredentialsAsync(IRVUserContext userContext, RVDashboardDataSource dataSource)
+    {
+        IRVDataSourceCredential userCredential = null;
+        if (dataSource is RVS3DataSource)
+        {
+            userCredential = new RVAmazonWebServicesCredentials("key", "secret");
+        }
+        return Task.FromResult<IRVDataSourceCredential>(userCredential);
+    }
+}
+```
+
+# [Java](#tab/java)
+
+```java
+public class AuthenticationProvider implements IRVAuthenticationProvider {
+	@Override
+	public IRVDataSourceCredential resolveCredentials(IRVUserContext userContext, RVDashboardDataSource dataSource) {
+        if (dataSource instanceof RVS3DataSource) {
+            return new RVAmazonWebServicesCredentials("key", "secret");
+        }
+		return null;
+	}
+}
+```
+
+# [Node.js](#tab/node)
+
+```js
+const authenticationProvider = async (userContext, dataSource) => {
+    if (dataSource instanceof RVS3DataSource) {
+        return new RVAmazonWebServicesCredentials("key", "secret");
+    }
+	return null;
+}
+```
+
+# [Node.js - TypeScript](#tab/node-ts)
+
+```ts
+const authenticationProvider = async (userContext:IRVUserContext | null, dataSource: RVDashboardDataSource) => {
+    if (dataSource instanceof RVS3DataSource) {
+        return new RVAmazonWebServicesCredentials("key", "secret");
+    }
+	return null;
+}
+```
+***
+
+The `RVAmazonWebServicesCredentials` is supported for the following data sources:
+- Amazon Athena
+- Amazon S3

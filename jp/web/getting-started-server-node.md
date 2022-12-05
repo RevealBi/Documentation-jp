@@ -1,5 +1,8 @@
 # Node.js を使用した Reveal SDK サーバーの設定
 
+> [!WARNING]
+> Node server support is currently available as a **Beta** versioned product. Some features may not work, or be missing completely. The API will experience breaking changes before the RTM release.
+
 ## 手順 1 - Node.js プロジェクトの作成
 
 1 - コマンドラインを開き、**reveal-server-node** という名前のディレクトリを作成します。
@@ -27,7 +30,7 @@
 > code .
 </pre>
 
-6 - **main.js** という名前の新しいファイルを作成し、次のコードを追加して初期化します:
+6 - **main.js** という名前の新しいファイルを作成し、次のコードを追加します:
 
 ```javascript
 var express = require('express');
@@ -66,7 +69,7 @@ app.listen(8080, () => {
 
 1 - Visual Studio Code で、エクスプローラーの [**新しいフォルダー**] ボタンをクリックし、**dashboards** という名前を付けます。フォルダーの名前は **dashboards** にしてください。
 
-![](images/getting-started-server-node--create-dashboards-folder.jpg)
+![](images/getting-started-server-node-create-dashboards-folder.jpg)
 
 デフォルトで、Reveal SDK は **dashboards** フォルダーからすべてのダッシュボードを読み込む規則を使用します。この規則を変更でするにはカスタムの `IRVDashboardProvider` を作成します。
 

@@ -36,10 +36,12 @@ revealView.onDataSourcesRequested = (callback) => {
 
 - Amazon Athena
 - Amazon Redshift
+- Amazon S3
 - Box
 - CSV (カンマで区切られた値)
 - Dropbox
 - [Excel / Microsoft Excel](adding-data-sources/excel-file.md)
+- Google Analytics 4
 - Google アナリティクス
 - Google BigQuery
 - Google ドライブ

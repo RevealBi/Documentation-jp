@@ -1,10 +1,10 @@
 # ユーザー コンテキスト
 
-The User Context represents the identity of the authenticated user of the application. The User Context can be used by Reveal SDK providers such as the `IRVDashboardProvider`, `IRVAuthenticationProvider`, `IRVDataProvider` and others to restrict what permissions the user has.
+ユーザー コンテキストは、アプリケーションの認証済みユーザーの ID を表します。ユーザー コンテキストは、`IRVDashboardProvider`、`IRVAuthenticationProvider`、`IRVDataProvider` などの Reveal SDK プロバイダーで使用して、ユーザーが持つアクセス許可を制限できます。
 
-The user context within the Reveal SDK is represented by the `IRVUserContext` interface and the `RVUserContext` object. The `RVUserContext` is a default implementation of `IRVUserContext`, which provides the ability to store the user id of the current user. The `RVUserContext` object also provides the ability to store additional properties related to a request to be used in other areas of the Reveal SDK such as the authentication provider.
+Reveal SDK 内のユーザー コンテキストは、`IRVUserContext` インターフェイスと `RVUserContext` オブジェクトによって表されます。`RVUserContext` は `IRVUserContext` のデフォルトの実装であり、現在のユーザーのユーザー ID を格納する機能を提供します。`RVUserContext` オブジェクトは、認証プロバイダーなど、Reveal SDK の他の領域で使用されるリクエストに関連する追加のプロパティを保存する機能も提供します。
 
-**Step 1** - Create the user context provider
+**手順 1** - ユーザー コンテキスト プロバイダーを作成します。
 
 # [ASP.NET](#tab/aspnet)
 
@@ -52,7 +52,7 @@ const userContextProvider = (request:IncomingMessage) => {
 ```
 ***
 
-**Step 2** - Register the user context provider with the Reveal SDK.
+**手順 2** - ユーザー コンテキスト プロバイダーを Reveal SDK に登録します。
 
 # [ASP.NET](#tab/aspnet)
 
