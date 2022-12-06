@@ -279,7 +279,7 @@ const authenticationProvider = async (userContext:IRVUserContext | null, dataSou
 
 ## Amazon Web Services
 
-If your data source uses Amazon Web Services (AWS), then you must return an instance of the `RVAmazonWebServicesCredentials` class. The `RVAmazonWebServicesCredentials` class provides constructor overloads to define the **key**, and the **secret**.
+データ ソースが Amazon Web Services (AWS) を使用している場合は、`RVAmazonWebServicesCredentials` クラスのインスタンスを返す必要があります。`RVAmazonWebServicesCredentials` クラスは、**key** と **secret** を定義するためのコンストラクターのオーバーロードを提供します。
 
 # [ASP.NET](#tab/aspnet)
 
@@ -335,6 +335,6 @@ const authenticationProvider = async (userContext:IRVUserContext | null, dataSou
 ```
 ***
 
-The `RVAmazonWebServicesCredentials` is supported for the following data sources:
+`RVAmazonWebServicesCredentials` は、次のデータ ソースでサポートされています。
 - Amazon Athena
 - Amazon S3

@@ -1,7 +1,7 @@
 # Node.js を使用した Reveal SDK サーバーの設定
 
 > [!WARNING]
-> Node server support is currently available as a **Beta** versioned product. Some features may not work, or be missing completely. The API will experience breaking changes before the RTM release.
+> ノード サーバーのサポートは現在、**Beta** バージョンの製品として利用できます。一部の機能が動作しないか、完全に欠落している可能性があります。API は、RTM リリースの前に重大な変更が発生します。
 
 ## 手順 1 - Node.js プロジェクトの作成
 

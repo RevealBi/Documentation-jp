@@ -1,55 +1,55 @@
-# Setting up the Reveal SDK Server with Node.js and TypeScript
+# Node.js と TypeScript を使用して Reveal SDK サーバーをセットアップする
 
 > [!WARNING]
-> Node server support is currently available as a **Beta** versioned product. Some features may not work, or be missing completely. The API will experience breaking changes before the RTM release.
+> ノード サーバーのサポートは現在、**Beta** バージョンの製品として利用できます。一部の機能が動作しないか、完全に欠落している可能性があります。API は、RTM リリースの前に重大な変更が発生します。
 
-## Step 1 - Create the Node.js Project
+## 手順 1 - Node.js プロジェクトの作成
 
-1 - Open a command line and create a directory named **reveal-server-node**
+1 - コマンドラインを開き、**reveal-server-node** という名前のディレクトリを作成します。
 <pre style="background:#141414;color:white;display:inline-block;padding:16x;margin-top:10px;font-family:'Consolas';border-radius:5px;width:100%">
 > mkdir reveal-server-node
 </pre>
 
-2 - Change the command line path to the newly created directory
+2 - コマンドライン パスを新しく作成したディレクトリに変更します。
 <pre style="background:#141414;color:white;display:inline-block;padding:16x;margin-top:10px;font-family:'Consolas';border-radius:5px;width:100%">
 > cd reveal-server-node
 </pre>
 
-3 - Initialize **npm** in the directory
+3 - ディレクトリで **npm** を初期化します。
 <pre style="background:#141414;color:white;display:inline-block;padding:16x;margin-top:10px;font-family:'Consolas';border-radius:5px;width:100%">
 > npm init -y
 </pre>
 
-4 - Install the **express** framework
+4 - **express** フレームワークをインストールします。
 <pre style="background:#141414;color:white;display:inline-block;padding:16x;margin-top:10px;font-family:'Consolas';border-radius:5px;width:100%">
 > npm install express
 </pre>
 
-5 - Install **TypeScript** and other package types.
+5 - **TypeScript** およびその他のパッケージ タイプをインストールします。
 <pre style="background:#141414;color:white;display:inline-block;padding:16x;margin-top:10px;font-family:'Consolas';border-radius:5px;width:100%">
 > npm install typescript @types/node @types/express @types/cors --save-dev
 </pre>
 
-6 - Install **Nodemon** and **ts-node** packages.
+6 - **Nodemon** および **ts-node** パッケージをインストールします。
 <pre style="background:#141414;color:white;display:inline-block;padding:16x;margin-top:10px;font-family:'Consolas';border-radius:5px;width:100%">
 > npm install nodemon ts-node --save-dev
 </pre>
 
-7 - Configure **TypeScript**. In this example, we are setting the root directory to "src" and the output directory to "dist".
+7 - **TypeScript** を構成します。この例では、ルート ディレクトリを「src」に、出力ディレクトリを「dist」に設定しています。
 <pre style="background:#141414;color:white;display:inline-block;padding:16x;margin-top:10px;font-family:'Consolas';border-radius:5px;width:100%">
 > npx tsc --init --rootDir src --outDir dist
 </pre>
 
-8 - Open the project in **VS Code**
+8 - **VS Code** でプロジェクトを開きます。
 <pre style="background:#141414;color:white;display:inline-block;padding:16x;margin-top:10px;font-family:'Consolas';border-radius:5px;width:100%">
 > code .
 </pre>
 
-9 - Create a new file named **app.ts** in a directory called **src**
+9 - **src** というディレクトリに **app.ts** という名前の新しいファイルを作成します。
 
 ![](images/getting-started-server-node-typescript-create-app-file.jpg)
 
-Add the following code:
+次のコードを追加します:
 
 ```javascript
 import express, { Application } from 'express';
@@ -61,14 +61,14 @@ app.listen(5111, () => {
 });
 ```
 
-## Step 2 - Add Reveal SDK
+## 手順 2 - Reveal SDK の追加
 
-1 - Install the **Reveal SDK** for Node.js
+1 - Node.js 用の **Reveal SDK** をインストールします。
 <pre style="background:#141414;color:white;display:inline-block;padding:16x;margin-top:10px;font-family:'Consolas';border-radius:5px;width:100%">
 > npm install reveal-sdk-node
 </pre>
 
-2 - Modify the `app.ts` file to add Reveal
+2 - `app.ts` ファイルを変更して Reveal を追加します。
 
 ```javascript
 import express, { Application } from 'express';
@@ -83,25 +83,25 @@ app.listen(5111, () => {
 });
 ```
 
-## Step 3 - Create the Dashboards Folder
+## 手順 3 - ダッシュボード フォルダーの作成
 
-1 - In Visual Studio Code, click the **New Folder** button in the Explorer and name it **dashboards**. The folder MUST be named **dashboards** and created in the working directory of the application.
+1 - Visual Studio Code で、エクスプローラーの **[新しいフォルダー]** ボタンをクリックし、**dashboards** という名前を付けます。フォルダーは **dashboards** という名前で、アプリケーションの作業ディレクトリに作成する必要があります。
 
 ![](images/getting-started-server-node-typescript-create-dashboards-folder.jpg)
 
-By default, the Reveal SDK uses a convention that will load all dashboards from the **dashboards** folder. You can change this convention by creating a custom `IRVDashboardProvider`.
+デフォルトで、Reveal SDK は **dashboards** フォルダーからすべてのダッシュボードを読み込む規則を使用します。この規則を変更でするにはカスタムの `IRVDashboardProvider` を作成します。
 
-## Step 4 - Setup CORS Policy (Debugging)
+## 手順 4 - CORS ポリシー (デバッグ) の設定
 
-While developing and debugging your application, it is common to host the server and client app on different URLs. For example; your Server my be running on `https://localhost:24519`, while your Angular app may be running on `https://localhost:4200`. If you were to try and load a dashboard from the client application, it would fail because of a Cross-Origin Resource Sharing (CORS) policy. To enable this scenario, you must create a CORS policy and enable it in the server project.
+アプリケーションの開発とデバッグでは、サーバーとクライアント アプリを異なる URL でホストするのが一般的です。たとえば、サーバーは `https://localhost:24519` で実行されますが、Angular アプリは `https://localhost:4200` で実行されます。クライアント アプリケーションからダッシュボードを読み込もうとすると、Cross-Origin Resource Sharing (CORS) ポリシーが原因で失敗します。このシナリオを有効にするには、CORS ポリシーを作成し、サーバー プロジェクトで有効にする必要があります。
 
-1 - Install **cors** package and the TypeScript types.
+1 - **cors** パッケージと TypeScript 型をインストールします。
 <pre style="background:#141414;color:white;display:inline-block;padding:16x;margin-top:10px;font-family:'Consolas';border-radius:5px;width:100%">
 > npm install cors
 > npm install @types/cors --save-dev
 </pre>
 
-2 - Modify the `app.ts` file to enable **cors**
+2 - `app.ts` ファイルを変更して **cors** を有効にします。
 
 ```javascript
 import express, { Application } from 'express';
@@ -119,15 +119,15 @@ app.listen(5111, () => {
 });
 ```
 
-## Step 5 - Start the Node.js Server
+## 手順 5 - Node.js サーバーの起動
 
-The final step is to start the Node.js server by runnning the following command:
+最後の手順は、次のコマンドを実行して Node.js サーバーを起動することです。
 
 <pre style="background:#141414;color:white;display:inline-block;padding:16x;margin-top:10px;font-family:'Consolas';border-radius:5px;width:100%">
 > npx nodemon src/app.ts
 </pre>
 
-Optionally you can add the following scripts to the `package.json` file.
+必要に応じて、次のスクリプトを `package.json` ファイルに追加できます。
 
 ```json
   "scripts": {
@@ -137,16 +137,16 @@ Optionally you can add the following scripts to the `package.json` file.
   },
 ```
 
-Then execute the **dev** script during development.
+次に、開発中に **dev** スクリプトを実行します。
 
 <pre style="background:#141414;color:white;display:inline-block;padding:16x;margin-top:10px;font-family:'Consolas';border-radius:5px;width:100%">
 > npm run dev
 </pre>
 
-Next Steps:
-- [Create an Angular Client App](getting-started-angular.md)
-- [Create an Html/JS Client App](getting-started-javascript.md)
-- [Create a React Client App](getting-started-react.md)
+次の手順:
+- [Angular クライアント アプリの作成](getting-started-angular.md)
+- [Html/JS クライアント アプリの作成](getting-started-javascript.md)
+- [React クライアント アプリの作成](getting-started-react.md)
 
 > [!NOTE]
-> The source code to this sample can be found on [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/main/01-GettingStarted/server/nodejs-typescript).
+> このサンプルのソース コードは [GitHub](https://github.com/RevealBi/sdk-samples-javascript/tree/main/01-GettingStarted/server/nodejs-typescript) にあります。

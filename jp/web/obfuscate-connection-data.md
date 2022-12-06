@@ -1,9 +1,9 @@
-# Obfuscate Connection Data
+# 接続データの難読化
 
-Obfuscating the connection data is used to mask information exchanged with the server, like DB name and host, which can be considered sensitive.DataSource または DataSourceItems の情報のエンコードは、オブジェクトをクライアントに返す前にサーバー側で行われます。DataSource および DataSourceItems 情報は通常、ダッシュボードの編集時にサーバーからクライアントに送信されます。IRVObjectEncoder の実装に加えて、IRVDataSourceProvider の実装を使用してデコードを行う必要があります。データベースおよび REST プロバイダーでのみサポートされます。
+接続データの難読化は、DB 名やホストなど、機密と見なされる可能性のある、サーバーと交換される情報をマスクするために使用されます。DataSource または DataSourceItems の情報のエンコードは、オブジェクトをクライアントに返す前にサーバー側で行われます。DataSource および DataSourceItems 情報は通常、ダッシュボードの編集時にサーバーからクライアントに送信されます。IRVObjectEncoder の実装に加えて、IRVDataSourceProvider の実装を使用してデコードを行う必要があります。データベースおよび REST プロバイダーでのみサポートされます。
 
 
-# Obfuscate MS Sql Server Data Source
+# MS SQL Server データ ソースの難読化
 
 **手順 1** - ASP.NET Web API サーバー アプリケーションで、`IRVObjectEncoder` を実装するクラスを作成します。 
 このクラスは、MS SQL Server 情報をエンコードされた値で実際に置換します。
@@ -117,7 +117,7 @@ Obfuscating the connection data is used to mask information exchanged with the s
         });
 ```
 
-**Step 3** - In the ASP.NET Web API server application, create a class that implements `IRVDataSourceProvider`. This class will perform the actual replacement of the Database/REST settings. The `ChangeDataSourceItemAsync` method of this class returns the `RVDataSourceItem` that the visualization will use to get its data. By modifying the `RVDataSourceItem` item that is provided as an argument in the `ChangeDataSourceItemAsync` method, you can change which server or table to get your data from. You can change the MS SQL Server host, database,id and table name of every MS SQL Server data source item in your dashboard by casting each `RVDataSource` as a `RVSqlServerDataSource` and every `RVDataSourceItem` as a `RVSqlServerDataSourceItem`, modifying it's properties as follows:
+**手順 3** - ASP.NET Web API サーバー アプリケーションで、`IRVDataSourceProvider` を実装するクラスを作成します。このクラスは、データベース/REST 設定の実際の置換を実行します。このクラスの `ChangeDataSourceItemAsync` メソッドは、可視化がデータを取得するために使用する `RVDataSourceItem` を返します。`ChangeDataSourceItemAsync` メソッドで引数として提供される `RVDataSourceItem` 項目を変更することにより、データを取得するサーバーまたはテーブルを変更できます。各 `RVDataSource` を `RVSqlServerDataSource` としてキャストし、すべての `RVDataSourceItem` を `RVSqlServerDataSourceItem` としてキャストし、そのプロパティを次のように変更することにより、ダッシュボード内のすべての MS SQL Server データ ソース項目の MS SQL Server ホスト、データベース、ID、およびテーブル名を変更できます。
 
 ```csharp
     internal class LocalSamplesDataSourceProvider : IRVDataSourceProvider

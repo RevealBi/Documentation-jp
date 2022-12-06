@@ -4,55 +4,55 @@
 
 以下の手順では、Jersey プロジェクトを使用して新しい Java Spring Boot を作成する方法について説明します。既存のアプリケーションに Reveal SDK を追加する場合は、手順 2 へ移動します。
 
-To develop a Spring Boot application in Visual Studio Code, you need to install the following:
-- [Development Kit (JDK)](https://www.microsoft.com/openjdk)
-- [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
-- [Spring Boot Extension Pack](https://marketplace.visualstudio.com/items?itemName=pivotal.vscode-boot-dev-pack)
+Visual Studio Code で Spring Boot アプリケーションを開発するには、以下をインストールする必要があります:
+- [開発キット (JDK)](https://www.microsoft.com/openjdk)
+- [Java 用拡張パック](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
+- [Spring Boot 拡張パック](https://marketplace.visualstudio.com/items?itemName=pivotal.vscode-boot-dev-pack)
 
-More information about how to get started with Visual Studio Code and Java can be found at [Getting Started with Java](https://code.visualstudio.com/docs/java/java-tutorial) tutorial.
+Visual Studio Code と Java の使用を開始する方法の詳細については、[Java の使用を開始する](https://code.visualstudio.com/docs/java/java-tutorial)チュートリアルを参照してください。
 
-1 - Start Visual Studio Code, open the Command Palette and type **>Spring Initializr: Create a Maven Project** and press **Enter**.
+1 - Visual Studio Code を起動し、コマンド パレットを開いて **>Spring Initializr: Create a Maven Project** と入力し、**Enter** を押します。
 
 ![](images/getting-started-spring-boot-jersey-project.jpg)
 
-2 - Select the Spring Boot version **2.7.6**.
+2 - Spring Boot バージョン **2.7.6** を選択します。
 
 ![](images/getting-started-spring-boot-jersey-version.jpg)
 
 > [!WARNING]
 > バージョン 3.0.0 は現在サポートされていません。
 
-3 - Select **Java**  as the language.
+3 - 言語として **Java** を選択します。
 
 ![](images/getting-started-spring-boot-jersey-language.jpg)
 
-4 - Provide the Group Id. In this example, we are using **com.server**.
+4 - グループ ID を提供します。この例では、**com.server** を使用しています。
 
 ![](images/getting-started-spring-boot-jersey-group-id.jpg)
 
-5 - Provide the Artifact Id. In this example we are using **reveal**.
+5 - 成果物 ID を提供します。この例では、**reveal** を使用しています。
 
 ![](images/getting-started-spring-boot-jersey-artifact-id.jpg)
 
-6 - Select the **War** package type.
+6 - **War** パッケージ タイプを選択します。
 
 ![](images/getting-started-spring-boot-jersey-package-type.jpg)
 
-7 - Select the Java version. In this example we are using version **17**.
+7 - Java のバージョンを選択します。この例では、バージョン **17** を使用しています。
 
 ![](images/getting-started-spring-boot-jersey-java-version.jpg)
 
-8 - Choose the **Spring Web** and **Jersey** dependencies.
+8 - **Spring Web** と **Jersey** の依存関係を選択します。
 
 ![](images/getting-started-spring-boot-jersey-dependencies.jpg)
 
-9 - Save and open the newly created project.
+9 - 新しく作成したプロジェクトを保存して開きます。
 
 ![](images/getting-started-spring-boot-jersey-explorer.jpg)
 
 ## 手順 2 - Reveal SDK の追加
 
-1 - Update the **pom.xml** file.
+1 - **pom.xml** ファイルを更新します。
 
 まず、Reveal Maven リポジトリを追加します。
 
@@ -75,7 +75,7 @@ More information about how to get started with Visual Studio Code and Java can b
 </dependency>
 ```
 
-2 - Create a Jersey Config class and initialize the Reveal SDK by calling the `RevealEngineInitializer.initialize` method. In order for the Reveal SDK to function properly with Jersey, we need to register all of the Reveal SDK classes with Jersey. To register the Reveal SDK classes, loop through the classes returned by the `RevealEngineInitializer.getClassesToRegister` method, and register them with the Jersey Config.
+2 - Jersey Config クラスを作成し、`RevealEngineInitializer.initialize` メソッドを呼び出して Reveal SDK を初期化します。Reveal SDK が Jersey で適切に機能するには、すべての Reveal SDK クラスを Jersey に登録する必要があります。Reveal SDK クラスを登録するには、`RevealEngineInitializer.getClassesToRegister` メソッドによって返されたクラスをループして、Jersey Config に登録します。
 
 ```java
 import org.glassfish.jersey.server.ResourceConfig;
@@ -104,11 +104,11 @@ public class RevealJerseyConfig extends ResourceConfig
 
 ## 手順 3 - ダッシュボード プロバイダーの作成
 
-1 - In Visual Studio Code, select the **resources** folder and then click the New Folder button in the Explorer. Name the new folder **dashboards**.
+1 - Visual Studio Code で **resources** フォルダーを選択し、エクスプローラーで [新しいフォルダー] ボタンをクリックします。新しいフォルダーに **dashboards** という名前を付けます。
 
 ![](images/getting-started-spring-boot-jersey-dashboards-folder.jpg)
 
-2 - Next, create a dashboard provider that will load the Reveal dashboards from the newly created **dashboards** folder.
+2 - 次に、新しく作成された **dashboards** フォルダーから Reveal ダッシュボードを読み込むダッシュボード プロバイダーを作成します。
 
 ```java
 import com.infragistics.reveal.sdk.api.IRVUserContext;
@@ -133,7 +133,7 @@ public class RevealDashboardProvider implements IRVDashboardProvider {
 }
 ```
 
-3 - Finally, register the Dashboard Provider with the `RevealEngineInitializer` in the `RevealJerseyConfig` class.
+3 - 最後に、`RevealJerseyConfig` クラスの `RevealEngineInitializer` を使用してダッシュボード プロバイダーを登録します。
 
 ```java
 @Component
@@ -158,7 +158,7 @@ public class RevealJerseyConfig extends ResourceConfig
 
 アプリケーションの開発とデバッグでは、サーバーとクライアント アプリを異なる URL でホストするのが一般的です。例えば、サーバーは `https://localhost:24519` で実行されている可能性がありますが、Angular アプリは `https://localhost:4200` で実行されている可能性があります。クライアント アプリケーションからダッシュボードを読み込もうとすると、Cross-Origin Resource Sharing (CORS) ポリシーが原因で失敗します。このシナリオを有効にするには、CORS ポリシーを作成し、サーバー プロジェクトで有効にする必要があります。
 
-1 - Create a CorsFilter
+1 - CorsFilter を作成します。
 
 ```java
 import java.io.IOException;
@@ -234,7 +234,7 @@ public class CorsFilter implements ContainerRequestFilter, ContainerResponseFilt
 }
 ```
 
-2 - Register the `CorsFilter` in the `RevealJerseyConfig` class.
+2 - `RevealJerseyConfig` クラスに `CorsFilter` を登録します。
 
 ```java
 @Component
