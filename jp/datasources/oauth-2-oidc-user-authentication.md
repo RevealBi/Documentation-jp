@@ -45,27 +45,21 @@ OAuth 2 / OIDC アカウントでデータ ソースを使用するには、以�
 
 1.  Reveal に移動し、**データ ソース** (Odata フィード、Rest API、またはウェブ リソース) **を選択する**。
 
-2.  このデータ ソースに意味のある**名前**を付ける。
+2.  Provide the *URL* where the data is located.
 
-3.  データの **URL** を提供する。
+3.  Click/tap on *Credentials*.
 
-4.  **[アカウントなし]** をクリック/タップする。
+Once you've clicked/tapped on **+ Credentials** you can select *OAuth 2 / OIDC Credentials* from the **Credential Type** dropdown menu:
 
-5. 次の画面が表示されたら、**[+ 資格情報]** ドロップダウン メニューから **[OAuth 2 / OIDC 資格情報]** を選択する。
-
-    <img src="images/OAuth-2-OIDC-Credentials.png" alt="Accessing OAuth2/OIDC Credentials menu" class="responsive-img"/>
+ <img src="images/credential-type-options.png" alt="Accessing OAuth2/OIDC Credentials menu" class="responsive-img" width="55%"/>
 
 ## Reveal での OAuth 2 / OIDC アカウントの設定
 
 **OAuth 2 / OIDC アカウントの詳細**画面で、リソース サーバーによって Reveal 用に既に生成された資格情報を入力する必要があります。
 
-<img src="images/Required-Credentials-OAuth-Account.png" alt="Required Credentials OAuth Account" class="responsive-img"/>
+<img src="images/required-credentials-oauth2.png" alt="Required Credentials OAuth Account" class="responsive-img" width="55%"/>
 
 以下のフィールドは必須です。
-
-1.  データ ソースの**デフォルト名**: データ ソース名はアカウントのリストに表示されます (リソース サーバーが提供する資格情報ではありません)。好みに合わせて名前を変更するには、鉛筆アイコンを選択します。
-
-2.  **[URL 認証]**: 認証 URL は通常、次のような形式です: <https://authorization-server.com/oauth2/authorize> (例: <https://login.microsoftonline.com/common/oauth2/authorize>)。
 
 3.  **[トークン Url]**: トークン URLの形式は認証 URL の形式と同様です (例: <https://login.microsoftonline.com/common/oauth2/token>)。
 
@@ -79,13 +73,6 @@ OAuth 2 / OIDC アカウントでデータ ソースを使用するには、以�
 
 *  **[リソース]**: ここで、保護されたデータをホストするサービス (例: <https://infragisticsinc297.sharepoint.com>) に URL を入力する必要があります。
 
-## Reveal にデータにアクセスして使用する許可を与える
+* **Additional Parameters**: 
 
-OAuth 2 / OIDC アカウントを構成した後、サインイン画面にリダイレクトされます。
-サインイン後、Reveal にデータの使用を許可するよう求められます。
-
-<img src="images/permissions-request.png" alt="Permissions Request dialog" class="responsive-img"/>
-
-必要なアクセス許可を与えた後、保護されたデータ ソースのデータを使用して、Reveal で表示形式とダッシュボードを構築できます。
-
-構成した OAuth 2 / OIDC アカウントは、今後使用するためにアカウントのデータ ソース リストに保存されます。
+* **Alias** of the data source: Your data source name will be displayed in the list of accounts. You can always change it.

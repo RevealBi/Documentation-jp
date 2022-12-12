@@ -22,12 +22,10 @@ _language: ja
 
 | 関数名              | 関数をテストするためのサンプル データセット                                                               | 式                                                        | サンプル出力                          |
 | -------------------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | -------------------------------------- |
-| **Opposite Value**         | [HR Dataset](https://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | \-[Wage]                                                          | \-36,452.00 (for Joan Baez)            |
-| **Age**                    | [HR Dataset](https://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | (today()-[BirthDate])/365                                         | 46.12 (for Joan Baez)                  |
+| **Opposite Value**         | [HR Dataset](https://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | \-[Wage]                                                          | \-36,542.00 (for Joan Baez)            |
+| **Age**                    | [HR Dataset](https://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | (today()-[BirthDate])/365                                         | 50.13 (for Joan Baez)                  |
 | **Name & Department**      | [HR Dataset](https://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | [Fullname]& ", " &[Department]                                    | Joan Baez, Development (for Joan Baez) |
-| <span style="color: #800000" style="font-weight:bold">Sales Percentage</span>           | [Retail Store](https://download.infragistics.com/reportplus/help/samples/Retail_Store.xlsx)    | [Sales]\*100/sum([Sales])                                         | 7,20% (for Alabama)                    |
-| <span style="color: #004c00" style="font-weight:bold">Sales Percentage 2</span>         | [Retail Store](https://download.infragistics.com/reportplus/help/samples/Retail_Store.xlsx)    | [Sales2]\*100/sum([Sales2])                                       | 5,05% (for Alabama)                    |
-| **Sales Percentage Delta** | [Retail Store](https://download.infragistics.com/reportplus/help/samples/Retail_Store.xlsx)    | [Sales Percentage 2]-[Sales Percentage]/([Sales Percentage]\*100) | 4,05% (for Alabama)                    |
+|**Sales Percentage** | [Sample Data](http://dl.infragistics.com/reportplus/reveal/samples/Samples.xlsx)    | [New Sales]*100/sum([New Sales]) | 9,26% (for Japan)                    |
 | **Name starts with J**     | [HR Dataset](https://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | if(find("j",lower([Fullname]),1)=1,"Starts with J",0)             | Starts with J, 0                       |
 | **Deviation from Avg**     | [HR Dataset](https://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | [Wage]-average([Wage])                                            | \-50476.71 (for Joan Baez)             |
 
@@ -61,7 +59,7 @@ _language: ja
 
 以下のダッシュボードを参照します。会社の事業部および 2 年間の売上を表示します。
 
-<img src="images/YoyAnalysisRevenue_All.png" alt="YoyAnalysisRevenue\_All" class="responsive-img"/>
+<img src="images/yoy-analysis-revenue-all.png" alt="YoyAnalysisRevenue\_All" class="responsive-img" width="85%"/>
 
 以下の計算フィールドを使用して 2 つの数値を比較できます。「-1」は年の違いを減算します。
 
@@ -69,4 +67,4 @@ _language: ja
 
 数値を使用するか、[パーセンテージとして書式](~/jp/data-visualizations/fields/field-settings.html#numeric-fields)設定できます。
 
-<img src="images/YoyAnalysisPercentage_All.png" alt="YoyAnalysisPercentage\_All" class="responsive-img"/>
+<img src="images/yoy-analysis-percentage-all.png" alt="Comparing Revenue Figures in yoy analysis while using percentage" class="responsive-img" width="85%"/>

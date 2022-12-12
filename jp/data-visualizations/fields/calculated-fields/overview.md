@@ -23,13 +23,13 @@ Reveal では、計算フィールドというフィールドをデータセッ�
 
 事前計算フィールドは、データ エディターの集計を実行する前に評価されます。つまり、特定の数式を適用するために、Reveal はフィールドのデータセット内のすべてのレコードを 1 回または複数回調べます。そのため、大規模なデータセットを使用する場合、事前計算のパフォーマンスが低下する可能性があります。
 
-新しい計算フィールドを追加するには、[フィールド] パネルの [+] ボタンをクリック/タップします。
+新しい計算フィールドを追加するには、[フィールド] パネルの **[+] ボタン**をクリック / タップし、**[集計フィールド]** を選択します。
 
-<img src="images/pre-calculated-field-button.png" alt="計算フィールドのボタン" class="responsive-img"/>
+<img src="images/calculated-field-option.png" alt="Pre-calculated field option" class="responsive-img" width="85%"/>
 
 [計算フィールドの作成] 画面が開きます。
 
-<img src="images/new-calculated-field-screen.png" alt="New calculated field screen" class="responsive-img"/>
+<img src="images/new-calculated-field-dialog.png" alt="New calculated field dialog" class="responsive-img" width="85%"/>
 
 以下の手順を実行します。
 
@@ -39,7 +39,7 @@ Reveal では、計算フィールドというフィールドをデータセッ�
 
 新しい計算フィールドは、[フィールド] リストの下部に表示されます。
 
-<img src="images/new-calculated-field-bottom-list.png" alt="New calculated field shown at the bottom of fields list" class="responsive-img"/>
+<img src="images/new-calculated-field-visualization-example.png" alt="New calculated field shown in the column placeholder and in the visualization" class="responsive-img" width="85%"/>
 
 上記の例では、集計がデータ フィールドに適用されていないグリッドの表示形式で新しい計算フィールドが使用されます。事前計算フィールドは、ピボット グリッドでも使用できます。この場合、計算は事前計算フィールドで集計されたレコードに適用されます。
 
@@ -52,11 +52,11 @@ Reveal では、計算フィールドというフィールドをデータセッ�
 
 1.  データ エディターでデータ ソースからフィールドを追加して、表示形式 (またはピボット テーブル) を作成します。
 
-    <img src="images/post-calculated-fields-data-editor.png" alt="Post calculated fields in the Data editor" class="responsive-img"/>
+    <img src="images/post-calculated-field-example.png" alt="Post calculated fields in the Data editor" class="responsive-img" width="85%"/>
 
 2.  [値] の横にある [F(x)] ボタンをクリック/タップして、[計算フィールドの作成] 画面を開きます。
 
-    <img src="images/post-calculated-field-new-calculated-field-screen.png" alt="Post calculated field new calculated field screen" class="responsive-img"/>
+    <img src="images/post-calculated-field-new-calculated-field-dialog.png" alt="Post calculated field new calculated field screen" class="responsive-img" width="85%"/>
 
 3.  事後計算のフィールドの [計算フィールドの作成] 画面
 計算フィールドに名前を付け、集計値に数式を適用します。
@@ -64,7 +64,7 @@ Reveal では、計算フィールドというフィールドをデータセッ�
 
 データ エディターに含まれていないデータ ソースの他のフィールドを使用する場合は、[値] の横の [+] ボタンをクリック/タップして追加できます。事後計算フィールドは集計値のみで作成されるため、最初にデータ フィールドで実行する集計をドロップダウン リストから選択する必要があります。
 
-<img src="images/post-calculated-field-new-calculated-field-screen-adding-fields.png" alt="Adding fields in the calculated field screen" class="responsive-img"/>
+<img src="images/post-calculated-field-new-calculated-field-dialog-adding-fields.png" alt="Adding fields in the calculated field screen" class="responsive-img" width="85%"/>
 
 手順 1 をスキップして、最初に事後計算フィールドを作成するか、表示形式で事後計算フィールドのみを使用することもできます。
 
@@ -91,6 +91,8 @@ Reveal では、計算フィールドというフィールドをデータセッ�
     [DAY](date.html#day)、
     [FORMATDATE](date.html#formatdate)、
     [FQUARTER](date.html#fquarter)、
+    [SEMESTER](date.html#semester)、
+    [FSEMESTER](date.html#fsemester)、
     [FYEAR](date.html#fyear)、
     [HOUR](date.html#hour)、
     [MILLISECOND](date.html#millisecond)、
@@ -98,6 +100,9 @@ Reveal では、計算フィールドというフィールドをデータセッ�
     [MONTH](date.html#month)、
     [MONTHNAME](date.html#monthname)、
     [MONTHSHORTNAME](date.html#monthshortname)、
+    [APPLYTIMEZONE](date.html#applytimezone)、
+    [CURRENTTIMEZONE](date.html#currenttimezone)、
+    [DATETIMEFROMUNIXTS](date.html#datetimefromunixts)、
     [NOW](date.html#now)、
     [QUARTER](date.html#quarter)、
     [SECOND](date.html#second)、

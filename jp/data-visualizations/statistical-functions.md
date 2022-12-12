@@ -9,11 +9,6 @@ _language: ja
 Reveal の統計関数を使用すると、表示形式からより多くの気付きを得ることができます。3 種類の高度な予測分析を提供します。
 [*時系列予測*](#time-series-forecast)、[*線形回帰*](#linear-regression)、および[*外れ値の検出*](#detect-outliers)を使用して、データ シリーズで予測を行い、傾向を認識して評価し、外れ値を検出できます。
 
->[!NOTE]
->**時系列チャートは現在サポートされていません**。
->新しくリリースされた時系列チャートは、まだ統計関数をサポートしていません。つまり、現時点では、時系列予測、線形回帰、または外れ値の検出を使用することはできません。将来的にサポートされる予定です。現在、以下のセクションに示すように、**折れ線チャートを使用して**同様の結果を得ることができます。
-
-
 ## 統計関数へのアクセス
 
 3 つの*統計関数*の 1 つを表示形式に適用するには、以下を行う必要があります。
@@ -24,7 +19,7 @@ Reveal の統計関数を使用すると、表示形式からより多くの気�
 
 3.  画面の右上に表示されるアイコンをクリック/タップします (以下を参照)。
 
-<img src="images/statistical-functions-enable-icon.png" alt="Statistical functions icon" class="responsive-img"/>
+<img src="images/statistical-functions-enable-icon.png" alt="Statistical functions icon" class="responsive-img" width="85%"/>
 
 >[!NOTE]
 >関数の有効化/無効化: 表示形式に 3 つの関数のうち有効にできるのは 1 つのみです。有効な関数を再度クリックして無効にするか、あるいはリストから別の関数を選択して切り替えます。
@@ -36,16 +31,15 @@ Reveal の統計関数を使用すると、表示形式からより多くの気�
 | **関数**            | **アルゴリズム**            | **使用方法**                                                                                                                                                            | **それをサポートする表示形式**                                                                                                                      |
 | ----------------------- | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 時系列予測 | 指数平滑法    | 特定のデータ系列について、データの予測を行うこと。 ユーザーは将来の時間範囲を選択できます。                                                                               | [カテゴリ チャート](visualization-types/category-charts.html): エリア、棒、柱状、折れ線、スプライン、スプライン エリア、ステップ エリア、ステップ折れ線                                                    |
-| 線形回帰       | 線形回帰        | 2 つの変数間の線形関係を見つけることによって傾向を評価すること。アルゴリズムは、チャートのほとんどのポイントに近い線を計算して、進行中の傾向を示します。 | [カテゴリ チャート](visualization-types/category-charts.html): エリア、棒、柱状、折れ線、スプライン、スプライン エリア、ステップ エリア、ステップ折れ線; [散布図およびバブル](visualization-types/scatter-bubble-charts.html) チャート |
+| 線形回帰       | 線形回帰        | 2 つの変数間の線形関係を見つけることによって傾向を評価すること。アルゴリズムは、チャートのほとんどのポイントに近い線を計算して、進行中の傾向を示します。 | [カテゴリ チャート](visualization-types/category-charts.html): エリア、棒、柱状、折れ線、スプライン、スプライン エリア、ステップ エリア、ステップ折れ線 |
 | 外れ値の検出         | 四分位範囲ルール | ランダム要因のために他のデータから際立っているデータを検出するため。                                                                                                             | [カテゴリ チャート](visualization-types/category-charts.html): エリア、柱状、折れ線、スプライン、スプライン エリア、ステップ エリア、ステップ折れ線; [散布図](visualization-types/scatter-bubble-charts.html)                 |
 
 <a name='time-series-forecast'></a>
 ### 時系列予測
 
-**時系列予測**関数は、特定のデータ シリーズのデータを予測するために使用します。以下の例では、関数が次の 6 か月間の 2 つの製品の売上予測を提供するために使用されています。
+**時系列予測**関数は、特定のデータ シリーズのデータを予測するために使用します。以下の例では、関数が次の 12 か月間の 2 つの製品の売上予測を提供するために使用されています。
 
-
-<img src="images/time-series-forecast-6-months.png" alt="Time series sales forecast for next 6 month" class="responsive-img"/>
+<img src="images/time-series-forecast-visualization-example.png" alt="Time series sales forecast for next 12 month" class="responsive-img" width="85%"/>
 
 上記の予測を実現するには、以下の手順を実行します。
 
@@ -53,7 +47,7 @@ Reveal の統計関数を使用すると、表示形式からより多くの気�
 
 2.  以下の設定ダイアログが開きます。
 
-    <img src="images/time-series-forecast-settings.png" alt="Time series forecast settings" class="responsive-img"/>
+    <img src="images/time-series-forecast-dialog.png" alt="Time series forecast settings" class="responsive-img" width="85%"/>
 
     ここで、*季節の長さ*と*期間予測*を構成する必要があります。
 
@@ -74,7 +68,7 @@ Reveal の統計関数を使用すると、表示形式からより多くの気�
 
 時系列関数を適用した後に**表示形式の基になるデータ**を確認すると、予測値が黄色で強調表示されます (以下を参照)。
 
-<img src="images/underlying-data-time-series.png" alt="Underlying data in table format with highlighted forecasted data" class="responsive-img"/>
+<img src="images/underlying-data-time-series.png" alt="Underlying data in table format with highlighted forecasted data" class="responsive-img" width="85%"/>
 
 >[!NOTE]
 >**時系列関数は時系列のチャートでのみ使用できます**。
@@ -87,13 +81,13 @@ Reveal の統計関数を使用すると、表示形式からより多くの気�
 
 **線形回帰**関数では、**選択した期間のデータの線形予測**を含めることもできます。**[統計関数]** メニューから **[線形回帰]** 関数を選択すると、以下のダイアログが表示されます。
 
-<img src="images/linear-regression-forecast-settings.png" alt="Forecast settings dialog for the Linear regression function" class="responsive-img"/>
+<img src="images/linear-regression-dialog.png" alt="Forecast settings dialog for the Linear regression function" class="responsive-img" width="85%"/>
 
 *予測期間*には、データを予測する**日、月、または年**を選択します。期間の長さの時間単位は、*日付*フィールドが日、月、または年のいずれで測定されるかに基づいて決定されます。
 
 以下は、*線形回帰*関数を表示形式に適用します。この場合、観測された傾向に基づいた予測を示すために線が 6 か月間延長されます。
 
-<img src="images/linear-regression-example.png" alt="Linear regression with a forecast for 6 months" class="responsive-img"/>
+<img src="images/linear-regression-example.png" alt="Linear regression with a forecast for 6 months" class="responsive-img" width="85%"/>
 
 上記の表示形式で描画される線は、売上 (Y 軸に配置された変数) の変化が時間 (または X 軸に配置された他の変数) に起因する範囲を示します。売上データと時間データの間の線形関係が折れ線を決定します。これにより、売上が徐々に低下する傾向がより明確になります。
 
@@ -104,7 +98,7 @@ Reveal の統計関数を使用すると、表示形式からより多くの気�
 
 外れ値は、データの他の観測値から逸脱する極値です。**外れ値の検出**関数は、データ シリーズの残りのポイントの平均値から大幅に逸脱されたポイントを表示します。
 
-<img src="images/outlier-detection-example.png" alt="Outlier detection applied" class="responsive-img"/>
+<img src="images/outlier-detection-example.png" alt="Outlier detection applied" class="responsive-img" width="85%"/>
 
 上記の例では、検出されたデータ ポイントは分配の残りの部分から離れて位置し、特定の瞬間に売上の急上昇を示します。これは、売上の全体的なパターンとは大幅に異なります。
 

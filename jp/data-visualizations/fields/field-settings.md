@@ -8,7 +8,7 @@ _language: ja
 
 このセクションでは、並べ替え、フィルター処理、データの集計などデータセットへの変換を適用するためのさまざまなオプションについて説明します。
 
-<img src="images/data-filters-currency.png" alt="data-filters-currency" class="responsive-img"/>
+<img src="images/data-filters-currency-sample.png" alt="data-filters-currency" class="responsive-img" width="85%"/>
 
 データにフォーマットまたはフィルターを適用するには、対応するプレースホルダー (*カテゴリ*、*列*、*ラベル*、*行*、および*値*) で変更する特定のフィールドを選択する必要があります。フィールドには 3 つのタイプがあり、それぞれに独自のフォーマットおよびフィルター オプションがあります:
 
@@ -27,7 +27,7 @@ _language: ja
 <a name='date-fields'></a>
 ## 日付フィールド
 
-<img src="images/Date-Field-Formatting.png" alt="Date-Field-Formatting" class="responsive-img"/>
+<img src="images/formatting-date-field.png" alt="Date-Field-Formatting" class="responsive-img" width="45%"/>
 
   - **ラベル名の変更**: 表示のみを目的としてフィールド名を変更します。フィールドは常に計算フィールド式で元の名前によって参照されます。名前を変更すると、ラベルを完全に消去し元の値に戻ります。
 
@@ -43,16 +43,16 @@ _language: ja
 
 [ピボット データ] セクションに日付フィールドをドラッグアンドドロップすると、すべての階層が自動的に表示されます (以下を参照)。
 
-<img src="images/Date-Field-Hierarchy.png" alt="Showing the date field hierarchy functionality in Reveal" class="responsive-img"/>
+<img src="images/date-fields-hierarchy.png" alt="Showing the date field hierarchy functionality in Reveal" class="responsive-img" width="85%"/>
 
 さらに、特定の階層レベルをドラッグすると、以下に示すように、そのレベルのデータのみが表示されます。
 
-<img src="images/Date-Field-Hierarchy-Level.png" alt="Dragging part of the hierarchy of a date field in Reveal" class="responsive-img"/>
+<img src="images/date-field-hierarchy-level-example.png" alt="Dragging part of the hierarchy of a date field in Reveal" class="responsive-img" width="85%"/>
 
 <a name='numeric-fields'></a>
 ## 数値フィールド
 
-<img src="images/Numeric-Field-Formatting.png" alt="Numeric-Field-Formatting\_All.png" class="responsive-img"/>
+<img src="images/numeric-field-settings.png" alt="Numeric-Field-Formatting\_All.png" class="responsive-img" width="45%"/>
 
   - **ラベル名の変更**: 表示のみを目的としてフィールド名を変更します。フィールドは常に計算フィールド式で元の名前によって参照されます。名前を変更すると、ラベルを完全に消去し元の値に戻ります。
 
@@ -77,7 +77,7 @@ _language: ja
 <a name='abc-fields'></a>
 ## 文字列フィールド
 
-<img src="images/string-field-formatting.png" alt="String-Field-Formatting" class="responsive-img"/>
+<img src="images/string-field-formatting-field-settings-dialog.png" alt="String-Field-Formatting" class="responsive-img" width="45%"/>
 
   - **ラベル名の変更**: 表示のみを目的としてフィールド名を変更します。フィールドは常に計算フィールド式で元の名前によって参照されます。名前を変更すると、ラベルを完全に消去し元の値に戻ります。
 

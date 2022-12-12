@@ -9,7 +9,7 @@ _language: ja
 階級区分図は、分割された地理的領域または地域の統計データを表すことを目的とした広範なテーマ別のマップです。マップの各領域は、データ変数に関連して均一な色で塗りつぶされます。
 このトピックでは、マップの領域を「図形」とも呼びます。
 
-<img src="images/choropleth-map-intro-example.png" alt="A choropleth map showing 2016 general elections in the US" class="responsive-img"/>
+<img src="images/presidential-election-2016-map-example.png" alt="A choropleth map showing 2016 general elections in the US" class="responsive-img" width="85%"/>
 
 
 Reveal では、階級区分図に表示されるマップ タイプは一般的な政治マップです。つまり、マップ内の個々の図形は大陸、国、州、郡、政治組合などです。
@@ -35,7 +35,7 @@ Reveal の階級区分図では、階層データを[ドリル ダウン](#drill
 
 以下は、東アジアの人口 10 万人あたりの交通死を示すマップです。ここでは、大国の人口に惑わされることなく、アジア諸国の運転文化について現実的な結論を出すことができます。
 
-<img src="images/road-traffic-deaths-eastern-asia-example.png" alt="A choropleth map of Eastern Asia showing traffic deaths per 100 000" class="responsive-img"/>
+<img src="images/road-traffic-deaths-eastern-asia-example.png" alt="A choropleth map of Eastern Asia showing traffic deaths per 100 000" class="responsive-img" width="85%"/>
 
 
 階級区分図の表示形式のためのデータ選択は、提供したい情報に依存します。地域全体で伝染病の広がりを示したい場合、データ点数を使用することが適切です。
@@ -63,36 +63,36 @@ Reveal に場所の列を認識させるには、場所の完全名または公�
 1. スプレッドシートをアップロードしたクラウド プロバイダーに接続します。Reveal でのデータ ソースの追加の詳細については、[データ ソース](~/jp/datasources/overview.md)セクションを参照してください。
 2. 表示形式エディターで、階級区分図の表示形式を選択します。
 
-  <img src="images/select-visualization-choropleth-map.png" alt="Select choropleth map visualization from the Change Visualization menu in the Visualization editor" class="responsive-img"/>
+  <img src="images/chart-types-choropleth.png" alt="Select choropleth map visualization from the list of chart types" class="responsive-img" width="55%"/>
 
 3. [階級区分図データ] セクションで、[マップ] ドロップダウンから [アメリカ合衆国の州] マップを選択します。米国のマップのアウトラインが画面に表示されます。
 
-  <img src="images/select-us-map.png" alt="Select choropleth map visualization from the Change Visualization menu in the Visualization editor" class="responsive-img"/>
+  <img src="images/list-available-maps.png" alt="List of available maps" class="responsive-img" width="85%"/>
 
 4. [場所] プレースホルダーに *State* または *State Abv* フィールドをドロップします。両方とも米国の州のリストを含みます。
 
-5. [値] で、マップする定量データを含むフィールドを選択します。この例では、すべての州の投票率を含む _Total Votes (%)_ を使用します。
+5. [値] で、マップする定量データを含むフィールドを選択します。この例では、すべての州の投票率を含む *Total Votes (%)* を使用します。
 
-6. [値] フィールドを書式設定してパーセンテージを表示します。[値] ⇒ [書式設定] ⇒ [タイプ] ⇒ [パーセント] で _Total Votes (%)_ を選択します。フィールドの書式設定の詳細については、[フィールド設定](~/jp/data-visualizations/fields/field-settings.md)トピックを参照してください。
+6. [値] フィールドを書式設定してパーセンテージを表示します。[値] ⇒ [書式設定] ⇒ [タイプ] ⇒ [パーセント] で *Total Votes (%)* を選択します。フィールドの書式設定の詳細については、[フィールド設定](~/jp/data-visualizations/fields/field-settings.md)トピックを参照してください。
 
-7. (オプション) のフィルターを追加します。この例では、[データ フィルター] プレースホルダーに *Year* フィールドをドロップします。フィールドをクリックし、[フィルター タイプ] ⇒ [値の選択] ⇒ *2016* を選択します。
+7. *(Optional)* You can add a filter when you choose a field in the *Data Filters* placeholder. 
 
-  <img src="images/presidential-election-2016-map.png" alt="Select choropleth map visualization from the Change Visualization menu in the Visualization editor" class="responsive-img"/>
+As a result, you can see the USA map, divided into states. The larger the percent of voters in a state, the more intensive the blue color of the state is.
 
-州に分割された米国のマップが表示されます。州の有権者の割合が高いほど、州の色は濃くなります。
+<img src="images/choropleth-visualization-example.png" alt="Choropleth map visualization" class="responsive-img" width="85%"/>
 
 <a name='map-color'></a>
 ## マップ カラーを使用したマルチカラー階級区分図の作成
 
 代わりに、[マップ カラー] プロパティを設定して、マップの各領域の色を制御できます。これは、領域内でどの候補者または政党が上位/下位票を獲得したかなどを反映するのに役立ちます。
 
-<img src="images/using-color-choropleth-map.png" alt="A choropleth map using the color category" class="responsive-img"/>
+<img src="images/color-choropleth-map-example.png" alt="A choropleth map using the color category" class="responsive-img" width="85%"/>
 
 上記の例では、Donald Trump、Hillary Clinton、および Other が 2016 年の投票で比較されています。州の色は、選挙で誰が最も多く投票されたかによって異なります。
 
 色付け条件を変更するには:
 
-[設定] ⇒ [カラーの基準値] ⇒ [最低値]。
+[設定] > [カラーの基準値] > [最低値]。
 
 <a name='drill-down'></a>
 ## 階層レベルのドリル アップとドリル ダウン
@@ -104,7 +104,7 @@ Reveal に場所の列を認識させるには、場所の完全名または公�
 マップ上の図形をホバーすると強調表示され、ツールチップが表示されます (以下を参照)。ドリル ダウン オプションをクリックして、次の場所階層レベルのマップを表示します。
 
 
-<img src="images/drill-down-option.png" alt="Drill down to tooltip shown for a state" class="responsive-img"/>  
+<img src="images/drill-down-option-choropleth-map.png" alt="Drill down to tooltip shown for a state" class="responsive-img" width="85%"/>  
   
 
 >[!NOTE]
