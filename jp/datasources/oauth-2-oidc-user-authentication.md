@@ -45,11 +45,11 @@ OAuth 2 / OIDC アカウントでデータ ソースを使用するには、以�
 
 1.  Reveal に移動し、**データ ソース** (Odata フィード、Rest API、またはウェブ リソース) **を選択する**。
 
-2.  Provide the *URL* where the data is located.
+2.  データが配置されている *URL* を提供します。
 
-3.  Click/tap on *Credentials*.
+3.  **[資格情報]** をクリックまたはタップします。
 
-Once you've clicked/tapped on **+ Credentials** you can select *OAuth 2 / OIDC Credentials* from the **Credential Type** dropdown menu:
+**[+ 資格情報]** をクリックまたはタップしたら、**[資格情報の種類]** ドロップダウン メニューから **[OAuth 2 / OIDC 資格情報]** を選択できます。
 
  <img src="images/credential-type-options.png" alt="Accessing OAuth2/OIDC Credentials menu" class="responsive-img" width="55%"/>
 
@@ -73,6 +73,6 @@ Once you've clicked/tapped on **+ Credentials** you can select *OAuth 2 / OIDC C
 
 *  **[リソース]**: ここで、保護されたデータをホストするサービス (例: <https://infragisticsinc297.sharepoint.com>) に URL を入力する必要があります。
 
-* **Additional Parameters**: 
+* **追加パラメーター**: 
 
-* **Alias** of the data source: Your data source name will be displayed in the list of accounts. You can always change it.
+* データ ソースの**エイリアス**: データ ソース名がアカウントのリストに表示されます。いつでも変更できます。

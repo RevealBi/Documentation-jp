@@ -166,7 +166,7 @@ _language: ja
     <td class="tg-0lax"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm">year(date(2017,12,1,12,33,48))</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">semester</span>: Semester uses the datetime syntax and returns the semester of the date(a numer from 1 to 2). 
+    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">semester</span>: Semester は datetime 構文を使用し、日付の学期 (1 から 2 までの数値) を返します。 
  </td>
     <td class="tg-cly1"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm">semester({datetime}) 
 </span></td>
@@ -176,7 +176,7 @@ _language: ja
 </span></td>
   </tr>
   <tr>
-    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">fsemester</span>: fsemester uses the date syntax and a second argument, number, and returns the semester of the fiscal year for the given date. 
+    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">fsemester</span>: fsemester は、日付構文と 2 番目の引数である数値を使用して、指定された日付の会計年度の半期を返します。 
  </td>
     <td class="tg-cly1"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm">fsemester({date}, {number}) 
 </span></td>
@@ -186,7 +186,7 @@ _language: ja
 </span></td>
   </tr>
  <tr>
-    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">applytimezone</span>: applytimezone uses the date syntax and a second argument - timezone - and returns a date set to the year, month, day, hour, minute and second of the date parameter for the given time zone 
+    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">applytimezone</span>: applytimezone は、日付構文と 2 番目の引数である timezone を使用し、指定されたタイム ゾーンの日付パラメーターの年、月、日、時、分、および秒に設定された日付を返します。 
  </td>
     <td class="tg-cly1"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm"> applytimezone({date}, {timezone})
 </span></td>
@@ -196,7 +196,7 @@ _language: ja
 </span></td>
   </tr>
   <tr>
-    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">currenttimezone</span>: returns the time zone of the requesting user
+    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">currenttimezone</span>: 要求しているユーザーのタイム ゾーンを返します。
  </td>
     <td class="tg-cly1"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm"> currenttimezone()
 </span></td>
@@ -206,7 +206,7 @@ _language: ja
 </span></td>
   </tr>
    <tr>
-    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">datetimefromunixts</span>: datetimefromunixts uses the miliseconds syntax and returns a date time value for the given Unix timestamp.
+    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">datetimefromunixts</span>: て、指定された Unix タイムスタンプの日時値を返します。
  </td>
     <td class="tg-cly1"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm"> datetimefromunixts ({miliseconds})
 </span></td>

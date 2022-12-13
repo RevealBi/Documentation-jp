@@ -23,7 +23,7 @@ _language: ja
   - **[ラベルの表示]** - 選択したマップがラベルをサポートする場合、ラベルを [すべて] の領域に配置するか、情報を含む領域のみに配置するか [値がある場合のみ]、オフにするか [なし] を選択できます。
   - **[現在のラベル]** - [場所の略語] を選択して、ラベルを使用して地域の地名 (省略) を示すことができます。または、ラベルに各領域の [値] を表示できます。値ラベルは、[値] フィールドに選択した書式設定に基づいて、数値、パーセント、または通貨としてマップに表示できます。
 
-  - *[Connect this visualization to another dashboard or a URL](https://www.slingshotapp.io/en/help/docs/analytics/dashboards/dashboard-linking)* - If you want to provide more details on the information displayed in the visualization, you can connect the visualization in the dashbord with other dashboards or URLs. 
+  - *[この表示形式を別のダッシュボードまたは URL に接続](https://www.slingshotapp.io/en/help/docs/analytics/dashboards/dashboard-linking)* - 表示形式に表示される情報についてさらに詳細を提供したい場合は、ダッシュボードの表示形式を他のダッシュボードまたは URL に接続できます。
 
 ## ローカライズ設定
 

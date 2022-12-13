@@ -75,9 +75,9 @@ Reveal に場所の列を認識させるには、場所の完全名または公�
 
 6. [値] フィールドを書式設定してパーセンテージを表示します。[値] ⇒ [書式設定] ⇒ [タイプ] ⇒ [パーセント] で *Total Votes (%)* を選択します。フィールドの書式設定の詳細については、[フィールド設定](~/jp/data-visualizations/fields/field-settings.md)トピックを参照してください。
 
-7. *(Optional)* You can add a filter when you choose a field in the *Data Filters* placeholder. 
+7. (オプション) データ フィルター プレースホルダーでフィールドを選択すると、フィルターを追加できます。 
 
-As a result, you can see the USA map, divided into states. The larger the percent of voters in a state, the more intensive the blue color of the state is.
+その結果、州ごとに分割された USA マップが表示されます。州の有権者の割合が大きいほど、その州の青色が強くなります。
 
 <img src="images/choropleth-visualization-example.png" alt="Choropleth map visualization" class="responsive-img" width="85%"/>
 
