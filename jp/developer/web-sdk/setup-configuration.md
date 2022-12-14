@@ -22,20 +22,11 @@ Reveal Server SDK には、.NET Core 3.1 以降が必要です。
 
 ### 1\. Reveal SDK のインストール
 
-マシンで Reveal Sdk インストーラーを実行して、アセンブリと依存関係パッケージを準備します。
-
-インストールが完了すると、**nuget.config** に追加された _Infragistics (Local)_ という新しい NuGet パッケージ ソースが見つかります。
-これは、「%public%\\Documents\\Infragistics\\NuGet」を指します。
-
-<img src="images/addingNugetPackage_web.png" alt="addingNugetPackage_web" class="responsive-img"/>
-
-Infragistics (Local) フィードがインストーラーによって正しく設定されていることを確認後:
-
-- **Reveal.Sdk.Web.AspNetCore(.Trial)** NuGet パッケージをアプリ プロジェクトにインストールします。
+- install the **Reveal.Sdk.AspNetCore** NuGet package to your application project.
 - NuGet パッケージ参照を System.Data.SQLite バージョン 1.0.111 以降に追加します。
 
-> [!NOTE] 
-> トライアル nuget パッケージは nuget.org で入手できます: [**Reveal.Sdk.Web.AspNetCore.Trial**](https://www.nuget.org/packages/Reveal.Sdk.Web.AspNetCore.Trial/)。
+> [!NOTE]
+> The nuget package is available on nuget.org: [**Reveal.Sdk.AspNetCore**](https://www.nuget.org/packages/Reveal.Sdk.AspNetCore/).
 
 
 ビルドに問題がある場合は、この[**リンク**](#sqlite-fix)に従ってください。

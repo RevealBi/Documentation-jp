@@ -46,22 +46,7 @@ Reveal SDK NuGet パッケージをポイントする Visual Studio に自動的
 
 ## ライセンス キーの追加
 
-デフォルトでは、Reveal SDK インストーラーを使用して Reveal SDK を初めてインストールする場合、**トライアル版**の製品のみがインストールされます。**ライセンス版**の製品のロックを解除するには、インストーラーでライセンス キーを提供する必要があります。
-
-インストーラーにライセンス キーを提供する方法は 2 つあります。
-1. 解凍した Reveal SDK インストーラー EXE ファイルをダブルクリックして起動します。
-2. Windows では、**[設定] -> [アプリ]** に移動し、Reveal SDK インストールを変更します。
-
-<img src="images/install-modify-app.jpg" alt="" width="60%"/>
-
-既存のインストールを変更するか、Reveal SDK インストーラーを再実行すると、[修復]、[削除]、または [製品キーの入力] のいずれかの画面が表示されます。  [**製品キーの入力**] を選択します。
-
-<img src="images/install-modify-installer.jpg" alt="" width="60%"/>
-
-[**製品キーの入力**] を選択すると、ライセンス キーを入力する画面が表示されます。
-
-<img src="images/install-enter-license-key.jpg" alt="" width="60%"/>
-
-
-> [!NOTE]
-> ライセンスを追加したら、**Reveal.Sdk.Wpf.Trial** をアンインストールし、**Reveal.Sdk.Wpf** nuget パッケージをインストールします。
+To remove the dashboard watermarks, the license key needs to be set as shown here:
+``` csharp
+    RevealSdkSettings.License = "YOUR LICENSE HERE";
+```

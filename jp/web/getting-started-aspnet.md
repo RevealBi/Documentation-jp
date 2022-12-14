@@ -8,9 +8,7 @@
 
 <img src="images/getting-started-new-asp-net-core-web-app-project.jpg" alt="" width="80%"/>
 
-2 - プロジェクト名と説明と場所を入力し、**[次へ]** をクリックします。
-
-<img src="images/getting-started-new-asp-net-core-web-app-name.jpg" alt="" width="80%"/>
+2 - In the package manager dialog, open the **Browse** tab and install the **Reveal.Sdk.AspNetCore** NuGet package into the project, found at [NuGet.org](https://www.nuget.org/packages/Reveal.Sdk.AspNetCore/).
 
 3 - フレームワーク、認証タイプ、Docker オプションを選択し、**[作成]** をクリックします。
 

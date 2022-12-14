@@ -8,12 +8,7 @@
 
 <img src="images/getting-started-nuget-packages-manage.jpg" alt="" width="40%"/>
 
-2 - パッケージ マネージャー ダイアログで **[参照]** タブを開き、**Infragistics (Local)** パッケージ ソースを選択して **Reveal.Sdk.Web.AspNetCore** NuGet パッケージをプロジェクトにインストールします。
-
-<img src="images/getting-started-nuget-packages-install.jpg" alt="" width="80%"/>
-
-> [!NOTE]
-> トライアル版をお使いの場合、[NuGet.org](https://www.nuget.org/packages/Reveal.Sdk.Web.AspNetCore.Trial/) にある **Reveal.Sdk.Web.AspNetCore.Trial** NuGet パッケージをインストールできます。
+2 - In the package manager dialog, open the **Browse** tab and install the **Reveal.Sdk.AspNetCore** NuGet package into the project, found on [NuGet.org](https://www.nuget.org/packages/Reveal.Sdk.AspNetCore/).
 
 3 - `Program.cs` ファイルを開き、`using Reveal.Sdk` 名前空間を追加します。次に、既存の `builder.Services.AddControllers()` メソッドに `IMcvBuilder.AddReveal()` の呼び出しを追加します。
 

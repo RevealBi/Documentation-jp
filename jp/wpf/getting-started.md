@@ -19,12 +19,9 @@
 
 <img src="images/getting-started-nuget-packages-manage.jpg" alt="" width="40%"/>
 
-2 - パッケージ マネージャー ダイアログで **[参照]** タブを開き、**Infragistics (Local)** パッケージ ソースを選択して **Reveal.Sdk.Wpf** NuGet パッケージをプロジェクトにインストールします。
+2 - In the package manager dialog, open the **Browse** tab and install the **Reveal.Sdk.Wpf** NuGet package found at [NuGet.org](https://www.nuget.org/packages/Reveal.Sdk.Wpf/).
 
 <img src="images/getting-started-nuget-packages-install.jpg" alt="" width="60%"/>
-
-> [!NOTE]
-> トライアル版をお使いの場合、[NuGet.org](https://www.nuget.org/packages/Reveal.Sdk.Wpf.Trial/) にある **Reveal.Sdk.Wpf.Trial** NuGet パッケージをインストールできます。
 
 ### 手動
 
