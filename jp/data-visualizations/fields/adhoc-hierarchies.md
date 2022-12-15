@@ -20,7 +20,7 @@ Reveal は年月日の日付フィールドの階層を自動的に作成しま�
 
 アドホック階層を有効にするには、データ エディターのプレースホルダーの **[階層の追加]** セクションにフィールドをドラッグアンドドロップします。これを設定するとデータ テーブルの構成および動作が変わります。
 
-<img src="images/ad-hoc-hierarchy-pivot-chart.png" alt="Reveal Ad-hoc Hierarchies table" class="responsive-img" width="85%"/>
+<img src="images/ad-hoc-hierarchy-pivot-chart.png" alt=" Ad-hoc Hierarchies in pivot chart example" class="responsive-img" width="88%"/>
 
 上記のスクリーンショットのように、単一の列が複数の列を置き換えます。
 スクリーンショットに示されている例では、ドリル アップおよびドリル ダウンできるだけでなく、Department を展開して Office を表示することもできます。

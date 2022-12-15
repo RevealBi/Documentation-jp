@@ -8,7 +8,7 @@ _language: ja
 
 このセクションでは、並べ替え、フィルター処理、データの集計などデータセットへの変換を適用するためのさまざまなオプションについて説明します。
 
-<img src="images/data-filters-currency-sample.png" alt="data-filters-currency" class="responsive-img" width="85%"/>
+<img src="images/data-filters-currency-sample.png" alt="Data Filters Currency" class="responsive-img" width="88%"/>
 
 データにフォーマットまたはフィルターを適用するには、対応するプレースホルダー (*カテゴリ*、*列*、*ラベル*、*行*、および*値*) で変更する特定のフィールドを選択する必要があります。フィールドには 3 つのタイプがあり、それぞれに独自のフォーマットおよびフィルター オプションがあります:
 
@@ -43,11 +43,11 @@ _language: ja
 
 [ピボット データ] セクションに日付フィールドをドラッグアンドドロップすると、すべての階層が自動的に表示されます (以下を参照)。
 
-<img src="images/date-fields-hierarchy.png" alt="Showing the date field hierarchy functionality in Reveal" class="responsive-img" width="85%"/>
+<img src="images/date-fields-hierarchy.png" alt="Showing the date field hierarchy functionality" class="responsive-img" width="88%"/>
 
 さらに、特定の階層レベルをドラッグすると、以下に示すように、そのレベルのデータのみが表示されます。
 
-<img src="images/date-field-hierarchy-level-example.png" alt="Dragging part of the hierarchy of a date field in Reveal" class="responsive-img" width="85%"/>
+<img src="images/date-field-hierarchy-level-example.png" alt="Dragging part of the hierarchy of a date field" class="responsive-img" width="88%"/>
 
 <a name='numeric-fields'></a>
 ## 数値フィールド
