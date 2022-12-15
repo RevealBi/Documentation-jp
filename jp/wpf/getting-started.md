@@ -19,7 +19,7 @@
 
 <img src="images/getting-started-nuget-packages-manage.jpg" alt="" width="40%"/>
 
-2 - In the package manager dialog, open the **Browse** tab and install the **Reveal.Sdk.Wpf** NuGet package found at [NuGet.org](https://www.nuget.org/packages/Reveal.Sdk.Wpf/).
+2 - パッケージ マネージャー ダイアログで **[Browse] (参照)** タブを開き、[NuGet.org](https://www.nuget.org/packages/Reveal.Sdk.Wpf/) にある **Reveal.Sdk.Wpf** NuGet パッケージをプロジェクトにインストールします。
 
 <img src="images/getting-started-nuget-packages-install.jpg" alt="" width="60%"/>
 

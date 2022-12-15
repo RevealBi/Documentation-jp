@@ -46,7 +46,7 @@ Reveal SDK NuGet パッケージをポイントする Visual Studio に自動的
 
 ## ライセンス キーの追加
 
-To remove the dashboard watermarks, the license key needs to be set as shown here:
+ダッシュボードの透かしを削除するには、ライセンス キーを次のように設定する必要があります:
 ```csharp
 services
       .AddMvc()

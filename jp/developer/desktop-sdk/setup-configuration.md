@@ -16,7 +16,7 @@ NuGet パッケージをインストールすると、以下の依存関係パ�
   - System.Data.SQLite.Core (1.0.108 以降)
 
 > [!NOTE]
-> The nuget package is available on nuget.org: [**Reveal.Sdk.Wpf**](https://www.nuget.org/packages/Reveal.Sdk.Wpf/).
+> nuget パッケージは nuget.org で入手できます: [**Reveal.Sdk.Wpf**](https://www.nuget.org/packages/Reveal.Sdk.Wpf/)。
 
 > [!NOTE]
 > Microsoft SQL Server データを視覚化できるようにするには、プロジェクトに Microsoft.Data.SqlClient (1.1.3) パッケージを手動でインストールする必要があります。

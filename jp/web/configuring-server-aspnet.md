@@ -8,7 +8,7 @@
 
 <img src="images/getting-started-nuget-packages-manage.jpg" alt="" width="40%"/>
 
-2 - In the package manager dialog, open the **Browse** tab and install the **Reveal.Sdk.AspNetCore** NuGet package into the project, found on [NuGet.org](https://www.nuget.org/packages/Reveal.Sdk.AspNetCore/).
+2 - パッケージ マネージャー ダイアログで **[Browse] (参照)** タブを開き、[NuGet.org](https://www.nuget.org/packages/Reveal.Sdk.AspNetCore/) にある **Reveal.Sdk.AspNetCore** NuGet パッケージをプロジェクトにインストールします。
 
 3 - `Program.cs` ファイルを開き、`using Reveal.Sdk` 名前空間を追加します。次に、既存の `builder.Services.AddControllers()` メソッドに `IMcvBuilder.AddReveal()` の呼び出しを追加します。
 
